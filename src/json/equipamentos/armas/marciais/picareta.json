@@ -1,0 +1,17 @@
+{
+  "id": "picareta",
+  "name": "Picareta",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 8,
+  "dano": "1d6",
+  "critico": "x4",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": null,
+  "description": "Usada por mineradores, esta ferramenta quebra pedras com facilidade. Imagine o que pode fazer com carne e osso!"
+}

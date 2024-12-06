@@ -1,0 +1,18 @@
+{
+  "id": "pe_de_cabra",
+  "name": "Pé de Cabra",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 2,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "empunhado",
+  "efeito": {
+    "bonus_forca_abrir": 5,
+    "alvos": ["portas", "janelas", "baús fechados"]
+  },
+  "como_arma": {
+    "usa_estatisticas": "clava"
+  },
+  "description": "Esta barra de ferro fornece +5 em testes de Força para abrir portas, janelas e baús fechados. Um pé de cabra pode ser usado como arma, com as estatísticas de uma clava."
+}

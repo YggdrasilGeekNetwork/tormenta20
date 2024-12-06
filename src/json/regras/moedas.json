@@ -1,0 +1,32 @@
+{
+  "id": "moedas",
+  "name": "Sistema de Moedas",
+  "description": "O Tibar (T$) é a moeda padrão do Reinado. Trata-se de uma peça redonda de prata com 1,5 cm de diâmetro.",
+  "moedas": [
+    {
+      "id": "tibar_cobre",
+      "name": "Tibar de Cobre",
+      "symbol": "TC",
+      "value_in_tibar": 0.1,
+      "description": "Vale um décimo do T$, utilizado por camponeses e plebeus."
+    },
+    {
+      "id": "tibar",
+      "name": "Tibar",
+      "symbol": "T$",
+      "value_in_tibar": 1,
+      "description": "Moeda padrão do Reinado, feita de prata."
+    },
+    {
+      "id": "tibar_ouro",
+      "name": "Tibar de Ouro",
+      "symbol": "TO",
+      "value_in_tibar": 10,
+      "description": "Vale T$ 10, utilizado por aristocratas, grandes mercadores e aventureiros poderosos."
+    }
+  ],
+  "regras": {
+    "espaco_por_mil_moedas": 1,
+    "venda_itens_percentual": 50
+  }
+}

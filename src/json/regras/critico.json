@@ -1,0 +1,32 @@
+{
+  "id": "critico",
+  "name": "Acerto Crítico",
+  "description": "Quando você acerta um ataque rolando um 20 natural, faz um acerto crítico.",
+  "formato": {
+    "completo": "margem/multiplicador",
+    "exemplo": "19/x3",
+    "padrao": "20/x2"
+  },
+  "valores_padrao": {
+    "margem_ameaca": 20,
+    "multiplicador": 2
+  },
+  "interpretacao": {
+    "apenas_margem": "Se apenas a margem é especificada (ex: '19'), o multiplicador é x2",
+    "apenas_multiplicador": "Se apenas o multiplicador é especificado (ex: 'x3'), a margem é 20",
+    "completo": "Formato completo especifica ambos (ex: '19/x3')"
+  },
+  "regras": {
+    "bonus_nao_multiplicados": ["bônus numéricos fixos", "dados extras como Ataque Furtivo"]
+  },
+  "margens": [
+    { "valor": 20, "representacao": "20", "valores_naturais": [20], "descricao": "Apenas 20 natural" },
+    { "valor": 19, "representacao": "19", "valores_naturais": [19, 20], "descricao": "19 ou 20 natural" },
+    { "valor": 18, "representacao": "18", "valores_naturais": [18, 19, 20], "descricao": "18, 19 ou 20 natural" }
+  ],
+  "multiplicadores": [
+    { "valor": 2, "representacao": "x2", "descricao": "Dano dobrado" },
+    { "valor": 3, "representacao": "x3", "descricao": "Dano triplicado" },
+    { "valor": 4, "representacao": "x4", "descricao": "Dano quadruplicado" }
+  ]
+}

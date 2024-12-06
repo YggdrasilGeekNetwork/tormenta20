@@ -1,0 +1,16 @@
+{
+  "id": "alaude_elfico",
+  "name": "Alaúde Élfico",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 300,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "maos": 2,
+  "efeito": {
+    "inspiracao_acao": "movimento"
+  },
+  "description": "Feito com madeira de alta qualidade e manufatura delicada, este alaúde gera notas vívidas e emocionantes. Enquanto empunha este item, você pode usar a habilidade Inspiração como uma ação de movimento. Conta como um instrumento musical."
+}

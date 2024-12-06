@@ -1,0 +1,23 @@
+{
+  "id": "chicote",
+  "name": "Chicote",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 2,
+  "dano": "1d3",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": ["agil", "versatil"],
+  "especial": {
+    "alcance_ataque": 4.5,
+    "bonus_manobra": {
+      "derrubar": 2,
+      "desarmar": 2
+    }
+  },
+  "description": "Esta arma pode ser usada para atacar inimigos a até 4,5m e pode se enroscar nas mãos, pernas ou armas de seus adversários. O chicote é uma arma ágil e versátil, fornecendo +2 em testes para derrubar ou desarmar."
+}

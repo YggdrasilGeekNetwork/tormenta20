@@ -1,0 +1,96 @@
+{
+  "id": "bucaneiro",
+  "name": "Bucaneiro",
+  "hit_points": {
+    "initial": 16,
+    "per_level": 4
+  },
+  "mana_points": {
+    "per_level": 3
+  },
+  "skills": {
+    "mandatory": [
+      {
+        "choose_one": [
+          { "name": "Luta", "attribute": "For" },
+          { "name": "Pontaria", "attribute": "Des" }
+        ]
+      },
+      { "name": "Reflexos", "attribute": "Des" }
+    ],
+    "choose_amount": 4,
+    "choose_from": [
+      { "name": "Acrobacia", "attribute": "Des" },
+      { "name": "Atletismo", "attribute": "For" },
+      { "name": "Atuação", "attribute": "Car" },
+      { "name": "Enganação", "attribute": "Car" },
+      { "name": "Fortitude", "attribute": "Con" },
+      { "name": "Furtividade", "attribute": "Des" },
+      { "name": "Iniciativa", "attribute": "Des" },
+      { "name": "Intimidação", "attribute": "Car" },
+      { "name": "Jogatina", "attribute": "Car" },
+      { "name": "Luta", "attribute": "For" },
+      { "name": "Ofício", "attribute": "Int" },
+      { "name": "Percepção", "attribute": "Sab" },
+      { "name": "Pilotagem", "attribute": "Des" },
+      { "name": "Pontaria", "attribute": "Des" }
+    ]
+  },
+  "proficiencies": {
+    "weapons": ["marciais"],
+    "armors": [],
+    "shields": false
+  },
+  "abilities": [
+    "audacia",
+    "insolencia",
+    "evasao",
+    "esquiva_sagaz",
+    "panache",
+    "evasao_aprimorada",
+    "sorte_de_nimb"
+  ],
+  "powers": [
+    "abusar_dos_fracos",
+    "amigos_do_porto",
+    "aparar",
+    "apostador",
+    "ataque_acrobatico",
+    "aumento_de_atributo",
+    "aventureiro_avido",
+    "bravata_audaz",
+    "bravata_imprudente",
+    "en_garde",
+    "esgrimista",
+    "flagelo_dos_mares",
+    "foliao",
+    "grudar_o_cano",
+    "pernas_do_mar",
+    "pistoleiro",
+    "presenca_paralisante",
+    "ripostar",
+    "touche"
+  ],
+  "progression": [
+    { "level": 1, "abilities": ["audacia", "insolencia"] },
+    { "level": 2, "abilities": ["evasao", "poder_de_bucaneiro"] },
+    { "level": 3, "abilities": ["esquiva_sagaz", "poder_de_bucaneiro"] },
+    { "level": 4, "abilities": ["poder_de_bucaneiro"] },
+    { "level": 5, "abilities": ["panache", "poder_de_bucaneiro"] },
+    { "level": 6, "abilities": ["poder_de_bucaneiro"] },
+    { "level": 7, "abilities": ["poder_de_bucaneiro"] },
+    { "level": 8, "abilities": ["poder_de_bucaneiro"] },
+    { "level": 9, "abilities": ["poder_de_bucaneiro"] },
+    { "level": 10, "abilities": ["evasao_aprimorada", "poder_de_bucaneiro"] },
+    { "level": 11, "abilities": ["poder_de_bucaneiro"] },
+    { "level": 12, "abilities": ["poder_de_bucaneiro"] },
+    { "level": 13, "abilities": ["poder_de_bucaneiro"] },
+    { "level": 14, "abilities": ["poder_de_bucaneiro"] },
+    { "level": 15, "abilities": ["poder_de_bucaneiro"] },
+    { "level": 16, "abilities": ["poder_de_bucaneiro"] },
+    { "level": 17, "abilities": ["poder_de_bucaneiro"] },
+    { "level": 18, "abilities": ["poder_de_bucaneiro"] },
+    { "level": 19, "abilities": ["poder_de_bucaneiro"] },
+    { "level": 20, "abilities": ["poder_de_bucaneiro", "sorte_de_nimb"] }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "esse_cheiro",
+  "name": "Esse Cheiro...",
+  "origin": "assistente_de_laboratorio",
+  "description": "Você recebe +2 em Fortitude e detecta automaticamente a presença (mas não a localização ou natureza) de itens alquímicos em alcance curto.",
+  "effects": {
+    "skill_bonuses": [{ "skill": "Fortitude", "value": 2 }],
+    "detection": {
+      "type": "itens alquímicos",
+      "range": "curto",
+      "details": "apenas presença, não localização ou natureza"
+    }
+  }
+}

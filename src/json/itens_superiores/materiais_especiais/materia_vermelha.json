@@ -1,0 +1,51 @@
+{
+  "id": "materia_vermelha",
+  "name": "Matéria Vermelha",
+  "type": "material_especial",
+  "aparencia": "Material de origem lefeu — garras, carapaças, minérios e partes de estruturas encontradas em áreas de Tormenta.",
+  "origem": "Áreas de Tormenta.",
+  "penalidade_geral": {
+    "pericias_carisma": -2,
+    "exceto": ["Intimidação"]
+  },
+  "precos_adicionais": {
+    "arma": 1500,
+    "armadura_leve": 6000,
+    "armadura_pesada": 18000,
+    "escudo": 6000,
+    "esoterico": 3000
+  },
+  "efeitos": {
+    "arma": {
+      "dano_extra": "1d6",
+      "desvantagem": {
+        "perde_pv_ao_acertar": 1
+      },
+      "imunes": ["lefou", "lefeu"]
+    },
+    "armadura_leve": {
+      "chance_falha_ataque": {
+        "percentual": 10
+      }
+    },
+    "armadura_pesada": {
+      "chance_falha_ataque": {
+        "percentual": 25,
+        "cumulativo_com_escudo": true
+      }
+    },
+    "escudo": {
+      "chance_falha_ataque": {
+        "percentual": 10
+      }
+    },
+    "esoterico": {
+      "penalidade_resistencia_magica": {
+        "valor": -2,
+        "afeta": ["usuario", "inimigos_alcance_curto"]
+      }
+    }
+  },
+  "imunes_efeito_chance_falha": ["lefeu"],
+  "description": "Qualquer material de origem lefeu — desde suas garras e carapaças, até minérios e partes de estruturas encontradas em áreas de Tormenta — apresenta propriedades parecidas, sendo conhecido como 'matéria vermelha'. Estes itens assustadores impõem ao usuário penalidade de –2 em perícias baseadas em Carisma (exceto Intimidação)."
+}

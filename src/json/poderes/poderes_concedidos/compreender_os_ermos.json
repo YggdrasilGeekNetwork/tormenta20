@@ -1,0 +1,17 @@
+{
+  "id": "compreender_os_ermos",
+  "name": "Compreender os Ermos",
+  "deities": ["allihanna"],
+  "description": "Você recebe +2 em Sobrevivência e pode usar Sabedoria para Adestramento (em vez de Carisma).",
+  "effects": {
+    "type": "passive",
+    "skill_bonuses": [
+      {"skill": "Sobrevivência", "bonus": 2}
+    ],
+    "skill_attribute_substitution": {
+      "skill": "Adestramento",
+      "original_attribute": "Carisma",
+      "new_attribute": "Sabedoria"
+    }
+  }
+}

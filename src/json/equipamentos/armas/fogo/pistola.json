@@ -1,0 +1,21 @@
+{
+  "id": "pistola",
+  "name": "Pistola",
+  "type": "arma",
+  "proficiencia": "fogo",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "leve",
+  "preco": 250,
+  "dano": "2d6",
+  "critico": "19/x3",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "municao": "balas",
+  "habilidades": [],
+  "especial": {
+    "recarregar": "acao_padrao"
+  },
+  "description": "A arma de fogo mais comum. Recarregar uma pistola é uma ação padrão."
+}

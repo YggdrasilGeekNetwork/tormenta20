@@ -1,0 +1,15 @@
+{
+  "id": "visco_rubro",
+  "name": "Visco Rubro",
+  "description": "Você pode gastar 1 PM para expelir um líquido grosso e corrosivo. Até o final da cena, você recebe +1 nas rolagens de dano corpo a corpo. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui.",
+  "effects": {
+    "type": "active",
+    "cost": "1 PM",
+    "duration": "cena",
+    "damage_bonus": {
+      "type": "corpo a corpo",
+      "base": 1,
+      "scaling": "+1 por cada 2 outros poderes da Tormenta"
+    }
+  }
+}

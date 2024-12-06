@@ -1,0 +1,21 @@
+{
+  "id": "besta_pesada",
+  "name": "Besta Pesada",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "duas_maos",
+  "preco": 50,
+  "dano": "1d12",
+  "critico": "19",
+  "alcance": "medio",
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "municao": "virotes",
+  "habilidades": [],
+  "especial": {
+    "recarregar": "acao_padrao"
+  },
+  "description": "Versão maior e mais potente da besta leve. Recarregar uma besta pesada é uma ação padrão."
+}

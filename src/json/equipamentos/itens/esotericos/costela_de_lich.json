@@ -1,0 +1,18 @@
+{
+  "id": "costela_de_lich",
+  "name": "Costela de Lich",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 300,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "material": "osso de morto-vivo",
+  "efeito": {
+    "dano_extra_magias": "1d6",
+    "tipo_dano": "trevas",
+    "desvantagem": "não recupera PV por efeitos mágicos de cura"
+  },
+  "description": "Esta varinha é feita a partir do osso de um morto-vivo. Suas magias causam +1d6 pontos de dano de trevas. Se estiver empunhando esta varinha você não recupera PV por efeitos mágicos de cura."
+}

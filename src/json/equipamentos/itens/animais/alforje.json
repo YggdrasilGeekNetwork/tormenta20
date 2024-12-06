@@ -1,0 +1,11 @@
+{
+  "id": "alforje",
+  "name": "Alforje",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 4,
+  "espacos": 1,
+  "capacidade_espacos": 10,
+  "uso": "acessorio_montaria",
+  "description": "Sacos de couro feitos para serem presos em uma sela. Permitem que um parceiro montaria carregue até 10 espaços de item para você."
+}

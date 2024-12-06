@@ -1,0 +1,11 @@
+{
+  "id": "membro_de_guilda",
+  "name": "Membro de Guilda",
+  "description": "Você foi, ou ainda é, membro atuante em uma grande guilda — uma associação de artesãos, mercadores, magos, criminosos ou mesmo aventureiros. A guilda forneceu o treinamento e equipamento necessários para suas atividades, esperando que você seja útil em troca. Você se manteve fiel a seus patronos, cumprindo missões e colhendo os benefícios de pertencer a uma vasta organização? Ou deixou essa vida para trás, sendo agora desprezado ou até caçado por seus antigos mestres?",
+  "items": ["Gazua ou instrumentos de ofício"],
+  "benefits": {
+    "skills": ["Diplomacia", "Enganação", "Misticismo", "Ofício"],
+    "powers": ["Foco em Perícia", "Rede de Contatos"]
+  },
+  "unique_power": "rede_de_contatos"
+}

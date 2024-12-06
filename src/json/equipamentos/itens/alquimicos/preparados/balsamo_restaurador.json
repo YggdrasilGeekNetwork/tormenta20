@@ -1,0 +1,16 @@
+{
+  "id": "balsamo_restaurador",
+  "name": "Bálsamo Restaurador",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 10,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "uso": "empunhado",
+  "acao": "completa",
+  "efeito": {
+    "recupera_pv": "2d4"
+  },
+  "description": "Uma pasta verde e fedorenta, feita de ervas medicinais. Usá-la é uma ação completa e recupera 2d4 pontos de vida."
+}

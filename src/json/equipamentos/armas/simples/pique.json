@@ -1,0 +1,17 @@
+{
+  "id": "pique",
+  "name": "Pique",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 2,
+  "dano": "1d8",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "habilidades": ["alongada"],
+  "especial": null,
+  "description": "Essencialmente uma lança muito longa. O pique é uma arma alongada."
+}

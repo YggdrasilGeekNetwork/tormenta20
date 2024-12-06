@@ -1,0 +1,17 @@
+{
+  "id": "maca",
+  "name": "Maça",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 12,
+  "dano": "1d8",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "impacto",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": null,
+  "description": "Bastão com um peso cheio de protuberâncias na ponta, a maça é usada por clérigos que fazem votos de não derramar sangue. De fato, um golpe de maça nem sempre derrama sangue, mas esmaga ossos."
+}

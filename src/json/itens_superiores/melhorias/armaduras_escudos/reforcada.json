@@ -1,0 +1,13 @@
+{
+  "id": "reforcada",
+  "name": "Reforçada",
+  "type": "melhoria",
+  "categoria": ["armadura", "escudo"],
+  "efeito": {
+    "bonus_defesa": 1,
+    "aumento_penalidade_armadura": 1
+  },
+  "prerequisitos": null,
+  "incompativel_com": ["delicada"],
+  "description": "Se for uma armadura, o item possui uma camada adicional de tecido, malha mais densa ou placas mais grossas. Se for um escudo, possui uma chapa mais espessa. O bônus na Defesa e a penalidade de armadura do item aumentam em 1. Um item não pode ser reforçado e delicado."
+}

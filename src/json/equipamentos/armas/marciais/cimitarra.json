@@ -1,0 +1,17 @@
+{
+  "id": "cimitarra",
+  "name": "Cimitarra",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 15,
+  "dano": "1d6",
+  "critico": "18",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": ["agil"],
+  "especial": null,
+  "description": "Espada com a lâmina curva e muito afiada. A cimitarra é uma arma ágil."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "virotes",
+  "name": "Virotes",
+  "type": "municao",
+  "preco": 2,
+  "quantidade": 20,
+  "espacos": 1,
+  "armas_compativeis": ["besta_leve", "besta_pesada"],
+  "especial": {
+    "recarregar_besta_leve": "acao_movimento",
+    "recarregar_besta_pesada": "acao_padrao"
+  },
+  "description": "Uma aljava com 20 setas de madeira. Recarregar uma besta leve é uma ação de movimento; já recarregar uma besta pesada é uma ação padrão."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "alfange",
+  "name": "Alfange",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 75,
+  "dano": "2d4",
+  "critico": "18",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 2,
+  "habilidades": [],
+  "especial": null,
+  "description": "Uma versão maior da cimitarra, esta espada de lâmina larga e curva é bastante usada por guerreiros do Deserto da Perdição."
+}

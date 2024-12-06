@@ -1,0 +1,12 @@
+{
+  "id": "negociacao",
+  "name": "Negociação",
+  "origin": "mercador",
+  "description": "Você pode vender itens 10% mais caro (não cumulativo com barganha).",
+  "effects": {
+    "economy": {
+      "sell_bonus_percent": 10,
+      "stacks_with_bargain": false
+    }
+  }
+}

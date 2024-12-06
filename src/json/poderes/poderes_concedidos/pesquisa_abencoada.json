@@ -1,0 +1,15 @@
+{
+  "id": "pesquisa_abencoada",
+  "name": "Pesquisa Abençoada",
+  "deities": ["tanna_toh"],
+  "description": "Se passar uma hora pesquisando seus livros e anotações, você pode rolar novamente um teste de perícia baseada em Inteligência ou Sabedoria que tenha feito desde a última cena. Se tiver acesso a mais livros, você recebe um bônus no teste: +2 para uma coleção particular ou biblioteca pequena e +5 para a biblioteca de um templo ou universidade.",
+  "effects": {
+    "type": "active",
+    "time_required": "1 hora",
+    "benefit": "rolar novamente teste de perícia baseada em Int ou Sab desde a última cena",
+    "conditional_bonus": [
+      {"condition": "coleção particular ou biblioteca pequena", "bonus": 2},
+      {"condition": "biblioteca de templo ou universidade", "bonus": 5}
+    ]
+  }
+}

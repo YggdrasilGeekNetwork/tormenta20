@@ -1,0 +1,26 @@
+{
+  "id": "corda",
+  "name": "Corda",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 1,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "comprimento": 10,
+  "unidade": "metros",
+  "regras": {
+    "bonus_atletismo": 5,
+    "no_firme": {
+      "teste": "Destreza",
+      "cd": 15
+    },
+    "arrebentar": {
+      "dano_corte": 2,
+      "ou_teste_forca": {
+        "acao": "padrao",
+        "cd": 20
+      }
+    }
+  },
+  "description": "Um rolo com 10 metros de corda de cânhamo, o mesmo tipo usado em navios. Possui diversas utilidades: pode ajudar a descer um buraco ou muro (+5 em testes de Atletismo nessas situações), amarrar pessoas etc."
+}

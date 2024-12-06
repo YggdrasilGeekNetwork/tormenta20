@@ -1,0 +1,25 @@
+{
+  "id": "sopro_do_mar",
+  "name": "Sopro do Mar",
+  "deities": ["oceano"],
+  "description": "Você pode gastar uma ação padrão e 1 PM para soprar vento marinho em um cone de 6m. Criaturas na área sofrem 2d6 pontos de dano de frio (Reflexos CD Sab reduz à metade). Você pode aprender Sopro das Uivantes como uma magia divina. Se fizer isso, o custo dela diminui em –1 PM.",
+  "effects": {
+    "type": "active",
+    "cost": "1 PM",
+    "action": "ação padrão",
+    "area": "cone 6m",
+    "damage": {
+      "dice": "2d6",
+      "type": "frio",
+      "save": "Reflexos (CD Sab) para metade"
+    },
+    "grants_spell": {
+      "spell": "Sopro das Uivantes",
+      "as": "magia divina"
+    },
+    "spell_cost_reduction": {
+      "spell": "Sopro das Uivantes",
+      "reduction": 1
+    }
+  }
+}

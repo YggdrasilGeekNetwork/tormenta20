@@ -1,0 +1,17 @@
+{
+  "id": "marreta",
+  "name": "Marreta",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 20,
+  "dano": "3d4",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "impacto",
+  "espacos": 2,
+  "habilidades": [],
+  "especial": null,
+  "description": "Uma haste de madeira resistente com uma pesada cabeça de metal ou pedra."
+}

@@ -1,0 +1,28 @@
+{
+  "id": "tanna_toh",
+  "name": "Tanna-Toh",
+  "title": "Deusa do Conhecimento",
+  "description": "Em uma sociedade medieval típica, apenas membros do clero ou da nobreza teriam acesso a boa educação — camponeses jamais saberiam ler e escrever. Não é assim no Reinado de Arton, graças ao empenho da igreja de Tanna-Toh. Devotos da Deusa do Conhecimento atuam como professores, catequistas e pesquisadores, tomando a missão sagrada de levar educação e cultura para todos. Tanna-Toh é amplamente venerada pelos povos civilizados, amada por aqueles que se devotam aos estudos ou artes. Ainda assim, esta deusa é inimiga de povos bárbaros que escolhem permanecer ignorantes e selvagens.",
+  "beliefs_objectives": [
+    "Reverenciar a mente racional, o conhecimento, a civilização, a verdade",
+    "Proteger o progresso, o avanço dos povos civilizados",
+    "Promover o ensino e a prática das artes e das ciências",
+    "Solucionar todos os mistérios, revelar todas as mentiras",
+    "Buscar novo conhecimento",
+    "Não tolerar a ignorância"
+  ],
+  "holy_symbol": "Pergaminho e pena",
+  "energy": "qualquer",
+  "preferred_weapon": "Bordão",
+  "devotees": {
+    "races": ["golens", "kliren"],
+    "classes": ["arcanistas", "bardos", "inventores", "nobres", "paladinos"]
+  },
+  "granted_powers": [
+    "conhecimento_enciclopedico",
+    "mente_analitica",
+    "pesquisa_abencoada",
+    "voz_da_civilizacao"
+  ],
+  "obligations_restrictions": "Devotos de Tanna-Toh jamais podem recusar uma missão que envolva a busca por um novo conhecimento ou informação; investigar rumores sobre um livro perdido, procurar uma aldeia lendária, pesquisar os hábitos de uma criatura desconhecida... Além disso, o devoto sempre deve dizer a verdade e nunca pode se recusar a responder uma pergunta direta, pouco importando as consequências. É proibido para ele esconder qualquer conhecimento."
+}

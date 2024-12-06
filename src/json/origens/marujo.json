@@ -1,0 +1,11 @@
+{
+  "id": "marujo",
+  "name": "Marujo",
+  "description": "Você foi tripulante em uma embarcação — um barco pesqueiro, galé pirata, caravela exploradora, trirreme dos minotauros... — no Mar Negro, no Mar do Dragão-Rei ou mesmo ao longo do imenso Rio dos Deuses. Você também pode ter trabalhado em um veículo exótico, como um dirigível goblin, ou mesmo em uma embarcação mágica, como as naves vivas gog'magogue que viajam entre mundos!",
+  "items": ["T$ 2d6 (seu último salário)", "Corda"],
+  "benefits": {
+    "skills": ["Atletismo", "Jogatina", "Pilotagem"],
+    "powers": ["Acrobático", "Passagem de Navio"]
+  },
+  "unique_power": "passagem_de_navio"
+}

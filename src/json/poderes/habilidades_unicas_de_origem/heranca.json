@@ -1,0 +1,13 @@
+{
+  "id": "heranca",
+  "name": "Herança",
+  "origin": "herdeiro",
+  "description": "Você herdou um item de preço de até T$ 1.000. Você pode escolher este poder duas vezes, para um item de até T$ 2.000.",
+  "effects": {
+    "free_item": {
+      "max_value": 1000,
+      "stackable": true,
+      "stacked_max_value": 2000
+    }
+  }
+}

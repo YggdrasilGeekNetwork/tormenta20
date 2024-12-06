@@ -1,0 +1,218 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+# Script to build the database during gem packaging
+# This runs before the gem is built to create the pre-populated database
+
+require "bundler/setup"
+require "json"
+require "sqlite3"
+require "fileutils"
+
+DB_PATH = File.expand_path("../db/tormenta20.sqlite3", __dir__)
+SCHEMA_PATH = File.expand_path("../db/schema.sql", __dir__)
+JSON_BASE_PATH = File.expand_path("../src/json", __dir__)
+
+def main
+  puts "Building Tormenta20 database..."
+
+  # Remove existing database
+  FileUtils.rm_f(DB_PATH)
+
+  # Create database and run schema
+  puts "Creating schema..."
+  db = SQLite3::Database.new(DB_PATH)
+  db.execute_batch(File.read(SCHEMA_PATH))
+
+  # Seed all data
+  puts "Seeding data..."
+  seed_origens(db)
+  seed_poderes_habilidades_unicas(db)
+  seed_divindades(db)
+  seed_poderes_concedidos(db)
+  seed_poderes_tormenta(db)
+  seed_classes(db)
+  seed_magias(db)
+  seed_escudos(db)
+  seed_materiais_especiais(db)
+  seed_regras(db)
+
+  db.close
+
+  puts "Database built successfully at #{DB_PATH}"
+  print_summary
+end
+
+def seed_origens(db)
+  import_json_files(db, "origens", "origens",
+                    %w[id name description items benefits unique_power])
+end
+
+def seed_poderes_habilidades_unicas(db)
+  import_json_files(db, "poderes/habilidades_unicas_de_origem", "poderes",
+                    %w[id name type description effects prerequisites origin_id],
+                    transform: lambda { |data|
+                      data["origin_id"] = data.delete("origin") if data["origin"]
+                      data["type"] = "habilidade_unica_origem"
+                      data
+                    })
+end
+
+def seed_divindades(db)
+  import_json_files(db, "deuses", "divindades",
+                    %w[id name title description beliefs_objectives holy_symbol energy
+                       preferred_weapon devotees granted_powers obligations_restrictions])
+end
+
+def seed_poderes_concedidos(db)
+  import_json_files(db, "poderes/poderes_concedidos", "poderes",
+                    %w[id name type description effects prerequisites deities],
+                    transform: lambda { |data|
+                      data["type"] = "poder_concedido"
+                      data
+                    })
+end
+
+def seed_poderes_tormenta(db)
+  import_json_files(db, "poderes/poderes_da_tormenta", "poderes",
+                    %w[id name type description effects prerequisites],
+                    transform: lambda { |data|
+                      data["type"] = "poder_tormenta"
+                      data
+                    })
+end
+
+def seed_classes(db)
+  import_json_files(db, "classes", "classes",
+                    %w[id name hit_points mana_points skills proficiencies abilities powers progression spellcasting])
+end
+
+def seed_magias(db)
+  json_dir = File.join(JSON_BASE_PATH, "magias")
+  return unless Dir.exist?(json_dir)
+
+  count = 0
+  Dir.glob(File.join(json_dir, "*.json")).each do |file|
+    data = JSON.parse(File.read(file))
+    insert_magia(db, data)
+    count += 1
+  rescue StandardError
+    next
+  end
+  puts "  Imported #{count} magias"
+end
+
+def insert_magia(db, data)
+  raw_target = data["target"]
+  target = if raw_target.is_a?(Hash)
+             raw_target
+           else
+             (raw_target.is_a?(Array) ? raw_target.first || {} : {})
+           end
+  effect_details = data["effect_details"].is_a?(Hash) ? data["effect_details"] : {}
+  resistence = data["resistence"].is_a?(Hash) ? data["resistence"] : {}
+  extra_costs = data["extra_costs"].is_a?(Hash) ? data["extra_costs"] : {}
+
+  sql = <<~SQL
+    INSERT OR REPLACE INTO magias (
+      id, name, type, circle, school, execution, execution_details, range,
+      duration, duration_details, counterspell, description,
+      target_amount, target_up_to, target_type,
+      effect, effect_shape, effect_dimention, effect_size, effect_other_details,
+      area_effect, area_effect_details,
+      resistence_effect, resistence_skill,
+      extra_costs_material_component, extra_costs_material_cost,
+      extra_costs_pm_debuff, extra_costs_pm_sacrifice,
+      enhancements, effects
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+  SQL
+
+  values = [
+    data["id"], data["name"], data["type"], data["circle"], data["school"],
+    data["execution"], data["execution_details"], data["range"],
+    data["duration"], data["duration_details"], data["counterspell"],
+    data["description"] || "",
+    target["amount"], if target["up_to"].nil?
+                        nil
+                      else
+                        (target["up_to"] ? 1 : 0)
+                      end, target["type"],
+    data["effect"], effect_details["shape"], effect_details["dimention"],
+    effect_details["size"], effect_details["other_details"],
+    data["area_effect"], data["area_effect_details"],
+    resistence["effect"], resistence["skill"],
+    extra_costs["material_component"], extra_costs["material_component_cost"],
+    extra_costs["pm_debuff"], extra_costs["pm_sacrifice"],
+    (data["enhancements"] || []).to_json, (data["effects"] || []).to_json
+  ]
+
+  db.execute(sql, values)
+end
+
+def seed_escudos(db)
+  import_json_files(db, "equipamentos/escudos", "escudos",
+                    %w[id name price defense_bonus armor_penalty weight properties description],
+                    transform: lambda { |data|
+                      data["price"] ||= data.delete("preco")
+                      data["defense_bonus"] ||= data.delete("bonus_defesa")
+                      data["armor_penalty"] ||= data.delete("penalidade_armadura")
+                      data["weight"] ||= data.delete("espacos")
+                      data
+                    })
+end
+
+def seed_materiais_especiais(db)
+  import_json_files(db, "itens_superiores/materiais_especiais", "materiais_especiais",
+                    %w[id name description applicable_to price_modifier effects])
+end
+
+def seed_regras(db)
+  import_json_files(db, "regras", "regras",
+                    %w[id name description data],
+                    transform: lambda { |raw|
+                      base_keys = %w[id name description]
+                      data_content = raw.reject { |k, _| base_keys.include?(k) }
+                      { "id" => raw["id"], "name" => raw["name"], "description" => raw["description"], "data" => data_content }
+                    })
+end
+
+def import_json_files(db, subdir, table, columns, extra: {}, transform: nil)
+  json_dir = File.join(JSON_BASE_PATH, subdir)
+  return unless Dir.exist?(json_dir)
+
+  count = 0
+  Dir.glob(File.join(json_dir, "*.json")).each do |file|
+    data = JSON.parse(File.read(file))
+    data = transform.call(data) if transform
+    data.merge!(extra)
+
+    values = columns.map do |col|
+      val = data[col]
+      val.is_a?(Hash) || val.is_a?(Array) ? val.to_json : val
+    end
+
+    placeholders = columns.map { "?" }.join(", ")
+    db.execute("INSERT OR REPLACE INTO #{table} (#{columns.join(", ")}) VALUES (#{placeholders})", values)
+    count += 1
+  rescue StandardError => e
+    puts "  Error importing #{File.basename(file)}: #{e.message}"
+  end
+
+  puts "  Imported #{count} #{subdir.split("/").last}"
+end
+
+def print_summary
+  db = SQLite3::Database.new(DB_PATH)
+
+  puts "\nDatabase Summary:"
+  puts "-" * 40
+  %w[origens poderes divindades classes magias escudos materiais_especiais regras].each do |table|
+    count = db.get_first_value("SELECT COUNT(*) FROM #{table}")
+    puts "  #{table}: #{count}"
+  end
+  puts "-" * 40
+
+  db.close
+end
+
+main

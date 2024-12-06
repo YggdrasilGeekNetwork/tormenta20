@@ -1,0 +1,100 @@
+{
+  "id": "nobre",
+  "name": "Nobre",
+  "hit_points": {
+    "initial": 16,
+    "per_level": 4
+  },
+  "mana_points": {
+    "per_level": 4
+  },
+  "skills": {
+    "mandatory": [
+      {
+        "choose_one": [
+          { "name": "Diplomacia", "attribute": "Car" },
+          { "name": "Intimidação", "attribute": "Car" }
+        ]
+      },
+      { "name": "Vontade", "attribute": "Sab" }
+    ],
+    "choose_amount": 4,
+    "choose_from": [
+      { "name": "Adestramento", "attribute": "Car" },
+      { "name": "Atuação", "attribute": "Car" },
+      { "name": "Cavalgar", "attribute": "Des" },
+      { "name": "Conhecimento", "attribute": "Int" },
+      { "name": "Diplomacia", "attribute": "Car" },
+      { "name": "Enganação", "attribute": "Car" },
+      { "name": "Fortitude", "attribute": "Con" },
+      { "name": "Guerra", "attribute": "Int" },
+      { "name": "Iniciativa", "attribute": "Des" },
+      { "name": "Intimidação", "attribute": "Car" },
+      { "name": "Intuição", "attribute": "Sab" },
+      { "name": "Investigação", "attribute": "Int" },
+      { "name": "Jogatina", "attribute": "Car" },
+      { "name": "Luta", "attribute": "For" },
+      { "name": "Nobreza", "attribute": "Int" },
+      { "name": "Ofício", "attribute": "Int" },
+      { "name": "Percepção", "attribute": "Sab" },
+      { "name": "Pontaria", "attribute": "Des" }
+    ]
+  },
+  "proficiencies": {
+    "weapons": ["marciais"],
+    "armors": ["pesadas"],
+    "shields": true
+  },
+  "abilities": [
+    "autoconfianca",
+    "espolio",
+    "orgulho",
+    "palavras_afiadas",
+    "riqueza",
+    "gritar_ordens",
+    "presenca_aristocratica",
+    "realeza"
+  ],
+  "powers": [
+    "armadura_brilhante",
+    "aumento_de_atributo",
+    "autoridade_feudal",
+    "educacao_privilegiada",
+    "estrategia",
+    "favor",
+    "general",
+    "grito_tiranico",
+    "inspirar_confianca",
+    "inspirar_gloria",
+    "jogo_da_corte",
+    "liderar_pelo_exemplo",
+    "lingua_de_ouro",
+    "lingua_de_prata",
+    "lingua_rapida",
+    "presenca_majestosa",
+    "titulo",
+    "voz_poderosa"
+  ],
+  "progression": [
+    { "level": 1, "abilities": ["autoconfianca", "espolio", "orgulho"] },
+    { "level": 2, "abilities": ["palavras_afiadas", "poder_de_nobre"] },
+    { "level": 3, "abilities": ["poder_de_nobre", "riqueza"] },
+    { "level": 4, "abilities": ["gritar_ordens", "poder_de_nobre"] },
+    { "level": 5, "abilities": ["poder_de_nobre", "presenca_aristocratica"] },
+    { "level": 6, "abilities": ["poder_de_nobre"] },
+    { "level": 7, "abilities": ["poder_de_nobre"] },
+    { "level": 8, "abilities": ["poder_de_nobre"] },
+    { "level": 9, "abilities": ["poder_de_nobre"] },
+    { "level": 10, "abilities": ["poder_de_nobre"] },
+    { "level": 11, "abilities": ["poder_de_nobre"] },
+    { "level": 12, "abilities": ["poder_de_nobre"] },
+    { "level": 13, "abilities": ["poder_de_nobre"] },
+    { "level": 14, "abilities": ["poder_de_nobre"] },
+    { "level": 15, "abilities": ["poder_de_nobre"] },
+    { "level": 16, "abilities": ["poder_de_nobre"] },
+    { "level": 17, "abilities": ["poder_de_nobre"] },
+    { "level": 18, "abilities": ["poder_de_nobre"] },
+    { "level": 19, "abilities": ["poder_de_nobre"] },
+    { "level": 20, "abilities": ["realeza", "poder_de_nobre"] }
+  ]
+}

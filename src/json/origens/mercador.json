@@ -1,0 +1,11 @@
+{
+  "id": "mercador",
+  "name": "Mercador",
+  "description": "Seguindo uma tradição de família, após herdar um estabelecimento ou apenas como um jovem empregado, você atuou como comerciante — pelo menos por algum tempo. Uma tenda modesta em algum grande mercado urbano? Uma caravana mercante cruzando o Reinado? Um belo bazar na prestigiada cidade voadora de Vectora? Após alguns anos de negociações e jornadas (nem tão tranquilas quanto outros imaginam), você talvez não tenha ficado rico, mas reuniu algum equipamento e dinheiro suficientes para começar carreira como aventureiro.",
+  "items": ["Carroça", "Trobo", "Mercadorias para vender no valor de T$ 100"],
+  "benefits": {
+    "skills": ["Diplomacia", "Intuição", "Ofício"],
+    "powers": ["Negociação", "Proficiência", "Sortudo"]
+  },
+  "unique_power": "negociacao"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "larva_explosiva",
+  "name": "Larva Explosiva",
+  "description": "Se uma criatura que tenha sofrido dano de sua mordida nesta cena for reduzida a 0 ou menos PV, ela explode em chuva cáustica, morrendo e causando 4d4 pontos de dano de ácido em criaturas adjacentes. Para cada dois outros poderes da Tormenta que você possui, o dano aumenta em +2d4. Você é imune a esse dano.",
+  "prerequisites": ["Dentes Afiados"],
+  "effects": {
+    "type": "passive",
+    "trigger": "criatura mordida é reduzida a 0 PV ou menos",
+    "effect": "criatura explode",
+    "damage": {
+      "base": "4d4 ácido",
+      "scaling": "+2d4 por cada 2 outros poderes da Tormenta",
+      "area": "criaturas adjacentes"
+    },
+    "immunity": "você é imune a este dano"
+  }
+}

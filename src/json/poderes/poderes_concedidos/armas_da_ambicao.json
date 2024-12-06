@@ -1,0 +1,12 @@
+{
+  "id": "armas_da_ambicao",
+  "name": "Armas da Ambição",
+  "deities": ["valkaria"],
+  "description": "Você recebe +1 em testes de ataque e na margem de ameaça com armas nas quais é proficiente.",
+  "effects": {
+    "type": "passive",
+    "attack_bonus": 1,
+    "critical_threat_bonus": 1,
+    "condition": "armas nas quais é proficiente"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "id": "dinheiro_inicial",
+  "name": "Dinheiro Inicial por Nível",
+  "description": "Personagens acima do 1º nível começam com mais dinheiro, conforme esta tabela.",
+  "valores": [
+    { "nivel": 1, "dinheiro": "4d6" },
+    { "nivel": 2, "dinheiro": 300 },
+    { "nivel": 3, "dinheiro": 600 },
+    { "nivel": 4, "dinheiro": 1000 },
+    { "nivel": 5, "dinheiro": 2000 },
+    { "nivel": 6, "dinheiro": 3000 },
+    { "nivel": 7, "dinheiro": 5000 },
+    { "nivel": 8, "dinheiro": 7000 },
+    { "nivel": 9, "dinheiro": 10000 },
+    { "nivel": 10, "dinheiro": 13000 },
+    { "nivel": 11, "dinheiro": 19000 },
+    { "nivel": 12, "dinheiro": 27000 },
+    { "nivel": 13, "dinheiro": 36000 },
+    { "nivel": 14, "dinheiro": 49000 },
+    { "nivel": 15, "dinheiro": 66000 },
+    { "nivel": 16, "dinheiro": 88000 },
+    { "nivel": 17, "dinheiro": 110000 },
+    { "nivel": 18, "dinheiro": 150000 },
+    { "nivel": 19, "dinheiro": 200000 },
+    { "nivel": 20, "dinheiro": 260000 }
+  ]
+}

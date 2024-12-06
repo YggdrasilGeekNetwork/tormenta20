@@ -1,0 +1,28 @@
+{
+  "id": "lena",
+  "name": "Lena",
+  "title": "Deusa da Vida",
+  "description": "Mesmo os deuses mais violentos e cruéis são respeitosos com a Deusa Criança, provedora da fertilidade, do sustento, da própria vida. Lena não é venerada apenas por aventureiros necessitados de curas mágicas, mas também por fazendeiros que imploram por colheitas fartas, criadores desejosos de saúde para seus animais e cada grávida prestes a dar à luz. Servida quase exclusivamente por mulheres, a Deusa da Vida oferece os mais poderosos milagres de cura presenciados em Arton.",
+  "beliefs_objectives": [
+    "Reverenciar e proteger a vida em todas as suas formas",
+    "Reverenciar a fertilidade, a fecundidade, a maternidade e a infância",
+    "Praticar a caridade e o altruísmo",
+    "Oferecer clemência, perdão e redenção",
+    "Aliviar a dor e o sofrimento físico, mental ou espiritual"
+  ],
+  "holy_symbol": "Lua crescente prateada",
+  "energy": "positiva",
+  "preferred_weapon": null,
+  "preferred_weapon_note": "Servos desta deusa não podem lançar a magia Arma Espiritual e similares",
+  "devotees": {
+    "races": ["dahllan", "qareen"],
+    "classes": ["nobres", "paladinos"]
+  },
+  "granted_powers": [
+    "ataque_piedoso",
+    "aura_restauradora",
+    "cura_gentil",
+    "curandeira_perfeita"
+  ],
+  "obligations_restrictions": "Devotos de Lena não podem causar dano letal ou perda de PV a criaturas vivas (fornecer bônus em dano letal também é proibido). Podem causar dano não letal e prejudicar seus inimigos (em termos de jogo, impondo condições), desde que não causem dano letal ou perda de PV. Para um devoto de Lena, é preferível perder a própria vida a tirá-la de outros. Apenas mulheres podem ser devotas de Lena. Uma clériga precisa dar à luz pelo menos uma vez antes de receber seus poderes divinos. A fecundação é um mistério bem guardado pelas sacerdotisas; conta-se que a própria deusa vem semear suas discípulas. Paladinos de Lena podem ser homens (são os únicos devotos masculinos permitidos) ou mulheres."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "fulgor_solar",
+  "name": "Fulgor Solar",
+  "deities": ["azgher"],
+  "description": "Você recebe redução de frio e trevas 5. Além disso, quando é alvo de um ataque você pode gastar 1 PM para emitir um clarão solar que deixa o atacante ofuscado por uma rodada.",
+  "effects": {
+    "type": "passive",
+    "damage_reduction": [
+      {"type": "frio", "value": 5},
+      {"type": "trevas", "value": 5}
+    ],
+    "reactive_ability": {
+      "trigger": "ser alvo de um ataque",
+      "cost": "1 PM",
+      "effect": "atacante fica ofuscado por uma rodada"
+    }
+  }
+}

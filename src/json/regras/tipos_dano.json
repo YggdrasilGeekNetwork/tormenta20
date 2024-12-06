@@ -1,0 +1,25 @@
+{
+  "id": "tipos_dano",
+  "name": "Tipos de Dano",
+  "description": "Armas tipicamente causam dano por corte, impacto ou perfuração.",
+  "tipos": [
+    {
+      "id": "corte",
+      "name": "Corte",
+      "symbol": "C",
+      "description": "Dano causado por lâminas afiadas."
+    },
+    {
+      "id": "impacto",
+      "name": "Impacto",
+      "symbol": "I",
+      "description": "Dano causado por golpes contundentes."
+    },
+    {
+      "id": "perfuracao",
+      "name": "Perfuração",
+      "symbol": "P",
+      "description": "Dano causado por pontas penetrantes."
+    }
+  ]
+}

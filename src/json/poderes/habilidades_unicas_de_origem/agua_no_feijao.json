@@ -1,0 +1,14 @@
+{
+  "id": "agua_no_feijao",
+  "name": "Água no Feijão",
+  "origin": "fazendeiro",
+  "description": "Você não sofre a penalidade de –5 e não gasta matéria-prima adicional para fabricar pratos para cinco pessoas.",
+  "effects": {
+    "crafting_bonus": {
+      "activity": "fabricar pratos",
+      "serves": 5,
+      "ignore_penalty": -5,
+      "extra_material_cost": false
+    }
+  }
+}

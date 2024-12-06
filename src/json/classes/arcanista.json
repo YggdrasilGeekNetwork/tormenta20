@@ -1,0 +1,86 @@
+{
+  "id": "arcanista",
+  "name": "Arcanista",
+  "hit_points": {
+    "initial": 8,
+    "per_level": 2
+  },
+  "mana_points": {
+    "per_level": 6
+  },
+  "skills": {
+    "mandatory": [
+      { "name": "Misticismo", "attribute": "Int" },
+      { "name": "Vontade", "attribute": "Sab" }
+    ],
+    "choose_amount": 2,
+    "choose_from": [
+      { "name": "Conhecimento", "attribute": "Int" },
+      { "name": "Diplomacia", "attribute": "Car" },
+      { "name": "Enganação", "attribute": "Car" },
+      { "name": "Guerra", "attribute": "Int" },
+      { "name": "Iniciativa", "attribute": "Des" },
+      { "name": "Intimidação", "attribute": "Car" },
+      { "name": "Intuição", "attribute": "Sab" },
+      { "name": "Investigação", "attribute": "Int" },
+      { "name": "Nobreza", "attribute": "Int" },
+      { "name": "Ofício", "attribute": "Int" },
+      { "name": "Percepção", "attribute": "Sab" }
+    ]
+  },
+  "proficiencies": {
+    "weapons": [],
+    "armors": [],
+    "shields": false
+  },
+  "abilities": [
+    "caminho_do_arcanista",
+    "magias",
+    "alta_arcana"
+  ],
+  "powers": [
+    "arcano_de_batalha",
+    "aumento_de_atributo",
+    "caldeirao_do_bruxo",
+    "conhecimento_magico",
+    "contramagica_aprimorada",
+    "envolto_em_misterio",
+    "escriba_arcano",
+    "especialista_em_escola",
+    "familiar",
+    "fluxo_de_mana",
+    "foco_vital",
+    "fortalecimento_arcano",
+    "heranca_aprimorada",
+    "heranca_superior",
+    "magia_pungente",
+    "mestre_em_escola",
+    "poder_magico",
+    "raio_arcano",
+    "raio_elemental",
+    "raio_poderoso",
+    "tinta_do_mago"
+  ],
+  "progression": [
+    { "level": 1, "abilities": ["caminho_do_arcanista", "magias"] },
+    { "level": 2, "abilities": ["poder_de_arcanista"] },
+    { "level": 3, "abilities": ["poder_de_arcanista"] },
+    { "level": 4, "abilities": ["poder_de_arcanista"] },
+    { "level": 5, "abilities": ["poder_de_arcanista"] },
+    { "level": 6, "abilities": ["poder_de_arcanista"] },
+    { "level": 7, "abilities": ["poder_de_arcanista"] },
+    { "level": 8, "abilities": ["poder_de_arcanista"] },
+    { "level": 9, "abilities": ["poder_de_arcanista"] },
+    { "level": 10, "abilities": ["poder_de_arcanista"] },
+    { "level": 11, "abilities": ["poder_de_arcanista"] },
+    { "level": 12, "abilities": ["poder_de_arcanista"] },
+    { "level": 13, "abilities": ["poder_de_arcanista"] },
+    { "level": 14, "abilities": ["poder_de_arcanista"] },
+    { "level": 15, "abilities": ["poder_de_arcanista"] },
+    { "level": 16, "abilities": ["poder_de_arcanista"] },
+    { "level": 17, "abilities": ["poder_de_arcanista"] },
+    { "level": 18, "abilities": ["poder_de_arcanista"] },
+    { "level": 19, "abilities": ["poder_de_arcanista"] },
+    { "level": 20, "abilities": ["alta_arcana", "poder_de_arcanista"] }
+  ]
+}

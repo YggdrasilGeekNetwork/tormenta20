@@ -1,0 +1,17 @@
+{
+  "id": "bordao",
+  "name": "Bordão",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 0,
+  "dano": "1d6/1d6",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "impacto",
+  "espacos": 2,
+  "habilidades": ["dupla"],
+  "especial": null,
+  "description": "Um cajado apreciado por viajantes e camponeses por sua praticidade e fácil acesso (seu preço é zero). O bordão é uma arma dupla."
+}

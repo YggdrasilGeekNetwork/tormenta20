@@ -1,0 +1,10 @@
+{
+  "id": "espelho",
+  "name": "Espelho",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 10,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "description": "Este pequeno espelho possui diversas utilidades: observar cantos, fazer sinais de luz e, claro, garantir que você esteja apresentável."
+}

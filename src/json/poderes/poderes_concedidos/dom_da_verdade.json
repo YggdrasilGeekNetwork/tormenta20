@@ -1,0 +1,15 @@
+{
+  "id": "dom_da_verdade",
+  "name": "Dom da Verdade",
+  "deities": ["khalmyr"],
+  "description": "Você pode pagar 2 PM para receber +5 em testes de Intuição, e em testes de Percepção contra Enganação e Furtividade, até o fim da cena.",
+  "effects": {
+    "type": "active",
+    "cost": "2 PM",
+    "duration": "cena",
+    "skill_bonuses": [
+      {"skill": "Intuição", "bonus": 5},
+      {"skill": "Percepção", "bonus": 5, "against": ["Enganação", "Furtividade"]}
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "coracao_heroico",
+  "name": "Coração Heroico",
+  "origin": "heroi_campones",
+  "description": "Você recebe +3 pontos de mana. Quando atinge um novo patamar (no 5º, 11º e 17º níveis), recebe +3 PM.",
+  "effects": {
+    "mana_bonus": {
+      "base": 3,
+      "per_tier": 3,
+      "tier_levels": [5, 11, 17]
+    }
+  }
+}

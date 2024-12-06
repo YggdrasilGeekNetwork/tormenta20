@@ -1,0 +1,21 @@
+{
+  "id": "adaga",
+  "name": "Adaga",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "leve",
+  "preco": 2,
+  "dano": "1d4",
+  "critico": "19",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "ocultar_bonus": 5,
+    "usa_destreza_ataque": true,
+    "arremessavel": true
+  },
+  "description": "Esta faca afiada é usada por muitos habitantes adultos do Reinado, embora seja favorita de ladrões e assassinos, por ser facilmente escondida (fornece +5 em testes de Ladinagem para ocultá-la). Quando ataca com uma adaga, você pode usar sua Destreza em vez de Força nos testes de ataque. Uma adaga pode ser arremessada."
+}

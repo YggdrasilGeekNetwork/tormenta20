@@ -1,0 +1,13 @@
+{
+  "id": "balas",
+  "name": "Balas",
+  "type": "municao",
+  "preco": 20,
+  "quantidade": 20,
+  "espacos": 1,
+  "armas_compativeis": ["pistola", "mosquete"],
+  "especial": {
+    "inclui_polvora": true
+  },
+  "description": "Uma bolsa com 20 balas (pequenas esferas de chumbo) e pólvora. Recarregar uma pistola ou um mosquete é uma ação padrão."
+}

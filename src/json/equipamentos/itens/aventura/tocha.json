@@ -1,0 +1,28 @@
+{
+  "id": "tocha",
+  "name": "Tocha",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 0.1,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "empunhado",
+  "iluminacao": {
+    "raio": 9,
+    "unidade": "metros"
+  },
+  "acender": "acao_padrao",
+  "duracao": "cena",
+  "como_arma": {
+    "proficiencia": "simples",
+    "empunhadura": "leve",
+    "dano": "1d4",
+    "tipo_dano": "impacto",
+    "dano_adicional": {
+      "valor": 1,
+      "tipo": "fogo"
+    },
+    "critico": "x2"
+  },
+  "description": "Um bastão de madeira com algum combustível na ponta (geralmente trapos embebidos em parafina). Acender uma tocha é uma ação padrão. Ela ilumina um raio de 9m e dura uma cena. Pode ser usada como uma arma simples leve (dano 1d4 de impacto mais 1 de fogo, crítico x2)."
+}

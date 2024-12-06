@@ -1,0 +1,11 @@
+{
+  "id": "amigo_dos_animais",
+  "name": "Amigo dos Animais",
+  "description": "Você pode ter sido cavalariço no estábulo de um castelo, criador de gado em uma fazenda, ginete de Namalkah ou mesmo tratador em um zoológico ou circo — em Arton, existem espetáculos circenses com animais em jaulas, que talvez você tenha desejado libertar. Ou então nada disso: desde criança você tem facilidade em lidar com animais, sempre conversou com eles, sentiu ser capaz de compreendê-los. Em certos lugares ou tribos, alguma montaria especial seria destinada a você.",
+  "items": ["Cão de caça, cavalo, pônei ou trobo (escolha um)"],
+  "benefits": {
+    "skills": ["Adestramento", "Cavalgar"],
+    "powers": ["Amigo Especial"]
+  },
+  "unique_power": "amigo_especial"
+}

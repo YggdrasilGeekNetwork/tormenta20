@@ -1,0 +1,21 @@
+{
+  "id": "riso_de_nimb",
+  "name": "Riso de Nimb",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 150,
+  "espacos": 0.5,
+  "cd_fabricacao": 20,
+  "inoculacao": "inalacao",
+  "efeito": {
+    "falha": {
+      "condicao": "confusa"
+    },
+    "sucesso": {
+      "condicao": "lenta",
+      "duracao": "1 rodada"
+    }
+  },
+  "description": "Este gás púrpura faz a vítima rir descontroladamente e agir de forma caótica. Inalação, vítima fica confusa (lenta por 1 rodada)."
+}

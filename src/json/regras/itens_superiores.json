@@ -1,0 +1,19 @@
+{
+  "id": "itens_superiores",
+  "name": "Itens Superiores",
+  "description": "Itens superiores são equipamentos de alta qualidade, fabricados com as melhores técnicas e matérias-primas. Possuem de uma a quatro melhorias.",
+  "categorias_validas": ["armas", "armaduras", "escudos", "ferramentas", "vestuario", "esotericos"],
+  "precos_melhorias": [
+    { "quantidade": 1, "aumento_preco": 300, "aumento_cd": 5 },
+    { "quantidade": 2, "aumento_preco": 3000, "aumento_cd": 10 },
+    { "quantidade": 3, "aumento_preco": 9000, "aumento_cd": 15 },
+    { "quantidade": 4, "aumento_preco": 18000, "aumento_cd": 20 }
+  ],
+  "raridade": {
+    "1_melhoria": "Relativamente comum. Guardas de castelos prósperos.",
+    "2_melhorias": "Muito valiosos. Capitão da guarda.",
+    "3_melhorias": "Obras-primas. Senhores de castelo, heranças.",
+    "4_melhorias": "Lendários. Tão famosos quanto seus portadores."
+  },
+  "regra_unica": "Cada melhoria só pode ser aplicada uma vez a um mesmo item."
+}

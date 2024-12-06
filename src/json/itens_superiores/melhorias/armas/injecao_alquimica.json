@@ -1,0 +1,14 @@
+{
+  "id": "injecao_alquimica",
+  "name": "Injeção Alquímica",
+  "type": "melhoria",
+  "categoria": "arma",
+  "efeito": {
+    "capacidade_doses": 2,
+    "itens_compativeis": ["preparados_alquimicos", "agua_benta"],
+    "carregar_acao": "completa",
+    "efeito_ao_acertar": "libera dose automaticamente"
+  },
+  "prerequisitos": null,
+  "description": "Um minúsculo frasco de cerâmica ou vidro é inserido ao longo da arma, junto com um mecanismo injetor ativado por impacto. Um ataque que acerte causa seu dano normal e libera uma carga de um preparado (como ácido ou fogo alquímico) ou de água benta, que atinge o alvo automaticamente. A melhoria tem espaço para 2 doses. Carregá-la exige uma ação completa e o gasto dos itens com os quais você quiser carregá-la."
+}

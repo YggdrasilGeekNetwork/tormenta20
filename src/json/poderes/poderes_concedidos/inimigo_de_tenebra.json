@@ -1,0 +1,14 @@
+{
+  "id": "inimigo_de_tenebra",
+  "name": "Inimigo de Tenebra",
+  "deities": ["azgher"],
+  "description": "Seus ataques e habilidades causam +1d6 pontos de dano contra mortos-vivos. Quando você usa um efeito que gera luz, o alcance da iluminação dobra.",
+  "effects": {
+    "type": "passive",
+    "extra_damage": {
+      "dice": "1d6",
+      "against": "mortos-vivos"
+    },
+    "light_bonus": "alcance de iluminação dobrado"
+  }
+}

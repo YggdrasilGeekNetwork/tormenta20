@@ -1,0 +1,15 @@
+{
+  "id": "varinha_arcana",
+  "name": "Varinha Arcana",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 100,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "aumento_cd_magias_arcanas": 1
+  },
+  "description": "Uma varinha típica, feita de madeira de boa qualidade e entalhada com runas. A CD para resistir a suas magias arcanas aumenta em +1."
+}

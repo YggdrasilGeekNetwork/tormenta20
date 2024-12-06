@@ -1,0 +1,20 @@
+{
+  "id": "manto_camuflado",
+  "name": "Manto Camuflado",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 12,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "variavel": "terreno",
+  "exemplos": [
+    {"terreno": "floresta", "aparencia": "verde e marrom, coberto de folhas"},
+    {"terreno": "urbano", "aparencia": "cinza ou negro"}
+  ],
+  "efeito": {
+    "bonus_furtividade": 2,
+    "condicao": "no terreno correto"
+  },
+  "description": "Um manto camuflado é feito para um tipo de terreno específico (veja a habilidade Explorador). Por exemplo, um manto camuflado para floresta pode ser verde e marrom e coberto de folhas, enquanto um manto urbano pode ser cinza ou negro. Usar um manto camuflado no terreno correto fornece +2 em Furtividade."
+}

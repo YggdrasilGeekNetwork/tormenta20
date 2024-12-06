@@ -1,0 +1,17 @@
+{
+  "id": "loriga_segmentada",
+  "name": "Loriga Segmentada",
+  "type": "armadura",
+  "categoria": "pesada",
+  "preco": 250,
+  "bonus_defesa": 7,
+  "penalidade_armadura": -3,
+  "espacos": 5,
+  "especial": {
+    "sem_destreza_defesa": true,
+    "reducao_deslocamento": -3
+  },
+  "vestir_remover": "5_minutos",
+  "dormir_fatigado": true,
+  "description": "Composta por tiras horizontais de metal, esta armadura pesada é muito utilizada por legionários do Império de Tauron."
+}

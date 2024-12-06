@@ -1,0 +1,16 @@
+{
+  "id": "farrapos_de_ermitao",
+  "name": "Farrapos de Ermitão",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 1,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "penalidade_diplomacia": -2,
+    "penalidade_investigacao_interrogar": -2,
+    "bonus_adestramento": 2
+  },
+  "description": "Trapos 'adornados' com plantas e raízes. Uma pessoa vestindo farrapos de ermitão não parece muito civilizada, e sofre –2 em Diplomacia e em testes de Investigação para interrogar. Entretanto, recebe +2 em Adestramento."
+}

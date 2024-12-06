@@ -1,0 +1,17 @@
+{
+  "id": "flauta_mistica",
+  "name": "Flauta Mística",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 150,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "maos": 2,
+  "requer_classe": "bardo",
+  "efeito": {
+    "aumento_cd_magias": 1
+  },
+  "description": "Um instrumento delicado, repleto de runas e pequenas gemas místicas. Um bardo que empunhe este item aumenta a CD para resistir às magias lançadas por ele em +1. Conta como um instrumento musical."
+}

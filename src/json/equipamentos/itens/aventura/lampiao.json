@@ -1,0 +1,19 @@
+{
+  "id": "lampiao",
+  "name": "Lampião",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 7,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "empunhado",
+  "iluminacao": {
+    "raio": 15,
+    "unidade": "metros"
+  },
+  "acender": "acao_padrao",
+  "duracao": "cena",
+  "combustivel": "oleo",
+  "carregar_combustivel": "acao_padrao",
+  "description": "Um cilindro com uma alça e duas portinholas. Uma chama alimentada por óleo é acesa dentro do cilindro e uma das portinholas aberta deixa a luz sair. Acender um lampião é uma ação padrão e sua luz ilumina um raio com 15m. Carregar um lampião com óleo é uma ação padrão e ele dura uma cena."
+}

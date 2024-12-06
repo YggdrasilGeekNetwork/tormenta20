@@ -1,0 +1,13 @@
+{
+  "id": "corpo_aberrante",
+  "name": "Corpo Aberrante",
+  "description": "Crostas vermelhas em várias partes de seu corpo tornam seus ataques mais perigosos. Seu dano desarmado aumenta em um passo, mais um passo para cada quatro outros poderes da Tormenta que você possui.",
+  "prerequisites": ["outro poder da Tormenta"],
+  "effects": {
+    "type": "passive",
+    "unarmed_damage": {
+      "increase": "+1 passo",
+      "scaling": "+1 passo por cada 4 outros poderes da Tormenta"
+    }
+  }
+}

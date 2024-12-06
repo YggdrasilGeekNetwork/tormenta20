@@ -1,0 +1,26 @@
+{
+  "id": "thyatis",
+  "name": "Thyatis",
+  "title": "Deus da Ressurreição e Profecia",
+  "description": "O generoso Deus da Ressurreição e Profecia representa o perdão, a tolerância, as segundas chances. Seu dom maior é a prevenção ou correção dos erros — através de predições que evitam esses erros ou reversão das mortes que tenham causado. Para Thyatis, ninguém deve ser castigado por errar e todos merecem a chance de aprender com suas falhas, em vez de morrer por elas. Dizem que seus clérigos são contemplados com poderosos dons de profecia e ressurreição, e seus paladinos nunca morrem!",
+  "beliefs_objectives": [
+    "Proteger a vida e aqueles necessitados de novas chances",
+    "Renegar a morte e a mentira",
+    "Ajudar os perdidos a encontrar seus caminhos e alcançar seus destinos",
+    "Oferecer clemência, perdão e redenção"
+  ],
+  "holy_symbol": "Uma ave fênix",
+  "energy": "positiva",
+  "preferred_weapon": "Espada longa",
+  "devotees": {
+    "races": ["aggelus"],
+    "classes": ["cavaleiros", "guerreiros", "inventores", "lutadores", "paladinos"]
+  },
+  "granted_powers": [
+    "ataque_piedoso",
+    "dom_da_imortalidade",
+    "dom_da_profecia",
+    "dom_da_ressurreicao"
+  ],
+  "obligations_restrictions": "Devotos de Thyatis são proibidos de matar criaturas inteligentes (Int –3 ou maior). Podem atacar e causar dano, mas jamais levar à morte. Por esse motivo, devotos de Thyatis preferem armas e ataques que apenas incapacitam seus oponentes ou causam dano não letal."
+}

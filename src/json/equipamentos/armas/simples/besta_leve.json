@@ -1,0 +1,21 @@
+{
+  "id": "besta_leve",
+  "name": "Besta Leve",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "uma_mao",
+  "preco": 35,
+  "dano": "1d8",
+  "critico": "19",
+  "alcance": "medio",
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "municao": "virotes",
+  "habilidades": [],
+  "especial": {
+    "recarregar": "acao_movimento"
+  },
+  "description": "Um arco montado sobre uma coronha de madeira com um gatilho, a besta leve é uma arma que dispara virotes com grande potência. Recarregar uma besta leve é uma ação de movimento."
+}

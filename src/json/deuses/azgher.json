@@ -1,0 +1,28 @@
+{
+  "id": "azgher",
+  "name": "Azgher",
+  "title": "Deus-Sol",
+  "description": "Venerado pelos povos do Deserto da Perdição, o Deus-Sol é também cultuado por viajantes, mercadores honestos e todos aqueles que combatem as trevas. É um deus generoso; sua jornada diária derrama calor e conforto sobre Arton. Azgher é como um pai severo: responsável, provedor, mas que também exige respeito de seus filhos. Como um olho sempre vigilante nos céus, nada acontece à luz do dia sem que Azgher perceba.",
+  "beliefs_objectives": [
+    "Praticar a gratidão pela proteção e generosidade do sol",
+    "Promover a honestidade, expor embustes e mentiras",
+    "Praticar a caridade e o altruísmo",
+    "Proteger os necessitados",
+    "Oferecer clemência, perdão e redenção",
+    "Combater o mal"
+  ],
+  "holy_symbol": "Um sol dourado",
+  "energy": "positiva",
+  "preferred_weapon": "Cimitarra",
+  "devotees": {
+    "races": ["aggelus", "qareen"],
+    "classes": ["arcanistas", "bárbaros", "caçadores", "cavaleiros", "guerreiros", "nobres", "paladinos"]
+  },
+  "granted_powers": [
+    "espada_solar",
+    "fulgor_solar",
+    "habitante_do_deserto",
+    "inimigo_de_tenebra"
+  ],
+  "obligations_restrictions": "O devoto de Azgher deve manter o rosto sempre coberto (com uma máscara, capuz ou trapos). Sua face pode ser revelada apenas ao sumo-sacerdote ou em seu funeral. Devotos do Sol também devem doar para a igreja de Azgher 20% de qualquer tesouro obtido. Essa doação deve ser feita em ouro, seja na forma de moedas ou itens."
+}

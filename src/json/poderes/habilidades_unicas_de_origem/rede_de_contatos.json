@@ -1,0 +1,14 @@
+{
+  "id": "rede_de_contatos",
+  "name": "Rede de Contatos",
+  "origin": "membro_de_guilda",
+  "description": "Graças à influência de sua guilda, você pode usar Diplomacia para interrogar sem custo e em um minuto (veja Investigação).",
+  "effects": {
+    "skill_alternate_use": {
+      "skill": "Diplomacia",
+      "use": "interrogar",
+      "cost": 0,
+      "time": "1 minuto"
+    }
+  }
+}

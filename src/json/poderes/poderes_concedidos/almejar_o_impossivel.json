@@ -1,0 +1,13 @@
+{
+  "id": "almejar_o_impossivel",
+  "name": "Almejar o Impossível",
+  "deities": ["thwor", "valkaria"],
+  "description": "Quando faz um teste de perícia, um resultado de 19 ou mais no dado sempre é um sucesso, não importando o valor a ser alcançado.",
+  "effects": {
+    "type": "passive",
+    "auto_success": {
+      "trigger": "teste de perícia",
+      "die_result": "19+"
+    }
+  }
+}

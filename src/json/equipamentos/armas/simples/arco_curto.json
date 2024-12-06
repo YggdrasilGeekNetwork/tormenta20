@@ -1,0 +1,21 @@
+{
+  "id": "arco_curto",
+  "name": "Arco Curto",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "duas_maos",
+  "preco": 30,
+  "dano": "1d6",
+  "critico": "x3",
+  "alcance": "medio",
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "municao": "flechas",
+  "habilidades": [],
+  "especial": {
+    "pode_usar_montado": true
+  },
+  "description": "Uma arma antiga e comum, este arco é usado primariamente como ferramenta de caça, embora seja usado como arma de guerra por milícias, bandidos e exércitos menos equipados. Pode ser usado montado."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "polida",
+  "name": "Polida",
+  "type": "melhoria",
+  "categoria": ["armadura", "escudo"],
+  "efeito": {
+    "bonus_defesa": 5,
+    "condicao": "primeira rodada de combate",
+    "requer": "ambiente iluminado"
+  },
+  "prerequisitos": null,
+  "description": "A armadura ou escudo foi feito com metais reluzentes. Além de bonita, a luz refletida ofusca inimigos. Em ambientes iluminados, o bônus de Defesa do item aumenta em +5, mas apenas na primeira rodada de combate — após isso, os inimigos se acostumam ao reflexo."
+}

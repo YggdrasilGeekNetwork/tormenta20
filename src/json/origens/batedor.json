@@ -1,0 +1,11 @@
+{
+  "id": "batedor",
+  "name": "Batedor",
+  "description": "Seja conduzindo caravanas através dos reinos, rastreando inimigos nos campos de batalha ou guiando exploradores nas vastidões selvagens, você aprendeu a achar caminhos e dirigir outros com segurança. Batedores podem surgir nas tribos mais primitivas, acompanhando grupos de caça, como profissionais sofisticados nas grandes cidades e forças militares ou ainda na perigosa atividade de caça-recompensas. Pouco importando a carreira que adotou mais tarde, como aventureiro, seu antigo treino acaba se revelando útil em numerosas ocasiões.",
+  "items": ["Barraca", "Equipamento de viagem", "Uma arma simples ou marcial de ataque à distância"],
+  "benefits": {
+    "skills": ["Furtividade", "Percepção", "Sobrevivência"],
+    "powers": ["À Prova de Tudo", "Estilo de Disparo", "Sentidos Aguçados"]
+  },
+  "unique_power": "a_prova_de_tudo"
+}

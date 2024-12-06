@@ -1,0 +1,277 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "https://tormenta20.com/schema/magia.json",
+  "title": "Magia",
+  "description": "Schema for Tormenta20 magic spells (magias)",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "type",
+    "circle",
+    "school",
+    "execution",
+    "range",
+    "target",
+    "duration",
+    "description",
+    "enhancements",
+    "effects"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "description": "Unique identifier for the spell"
+    },
+    "name": {
+      "type": "string",
+      "description": "Display name of the spell"
+    },
+    "type": {
+      "type": "string",
+      "enum": ["arcana", "divina", "universal"],
+      "description": "Type of magic (arcane, divine, or universal)"
+    },
+    "circle": {
+      "type": "string",
+      "description": "Circle/level of the spell"
+    },
+    "school": {
+      "type": "string",
+      "enum": ["abjur", "evoc", "conj", "div", "enc", "ilusão", "necro", "trans"],
+      "description": "School of magic (abjuration, evocation, conjuration, divination, enchantment, illusion, necromancy, transmutation)"
+    },
+    "execution": {
+      "type": "string",
+      "description": "Casting time for the spell"
+    },
+    "execution_details": {
+      "type": ["string", "null"],
+      "description": "Additional details about the execution/casting"
+    },
+    "range": {
+      "type": "string",
+      "description": "Range of the spell (pessoal, toque, curto, medio, longo, etc.)"
+    },
+    "target": {
+      "type": "object",
+      "description": "Information about the spell's target(s)",
+      "required": ["type"],
+      "properties": {
+        "amount": {
+          "type": ["number", "null"],
+          "description": "Number of targets"
+        },
+        "up_to": {
+          "type": ["boolean", "null"],
+          "description": "Whether the amount is a maximum ('up to X targets')"
+        },
+        "type": {
+          "type": "string",
+          "description": "Type of target (criatura, objeto, area, você, etc.)"
+        }
+      }
+    },
+    "effect": {
+      "type": "string",
+      "description": "Type of effect (alvo, area, etc.)"
+    },
+    "effect_details": {
+      "type": ["object", "null"],
+      "description": "Additional details about the spell effect",
+      "properties": {
+        "shape": {
+          "type": "string",
+          "description": "Shape of the area effect (esfera, cone, linha, etc.)"
+        },
+        "dimention": {
+          "type": "string",
+          "description": "Dimension measurement type (raio, diâmetro, etc.)"
+        },
+        "size": {
+          "type": "string",
+          "description": "Size of the effect area"
+        },
+        "other_details": {
+          "type": ["string", "null"],
+          "description": "Other details about the effect"
+        }
+      }
+    },
+    "area_effect": {
+      "type": ["string", "null"],
+      "description": "Alternative area effect field"
+    },
+    "area_effect_details": {
+      "type": ["object", "null"],
+      "description": "Alternative area effect details"
+    },
+    "counterspell": {
+      "type": ["string", "null"],
+      "description": "Spell that can counter/dispel this spell"
+    },
+    "duration": {
+      "type": "string",
+      "description": "Duration of the spell effect"
+    },
+    "duration_details": {
+      "type": ["string", "null"],
+      "description": "Additional details about the duration"
+    },
+    "resistence": {
+      "type": ["object", "null"],
+      "description": "Saving throw/resistance information",
+      "required": ["effect", "skill"],
+      "properties": {
+        "effect": {
+          "type": "string",
+          "description": "Effect of a successful save (anula, reduz_à_metade, etc.)"
+        },
+        "skill": {
+          "type": "string",
+          "description": "Skill/save required (reflexos, vontade, fortitude)"
+        }
+      }
+    },
+    "extra_costs": {
+      "type": ["object", "null"],
+      "description": "Additional costs for casting the spell",
+      "properties": {
+        "material_component": {
+          "type": "string",
+          "description": "Material component required"
+        },
+        "material_component_cost": {
+          "type": "string",
+          "description": "Cost of the material component"
+        },
+        "pm_debuff": {
+          "type": ["string", "number", "null"],
+          "description": "PM debuff/penalty"
+        },
+        "pm_sacrifice": {
+          "type": ["string", "number", "null"],
+          "description": "PM sacrifice required"
+        }
+      }
+    },
+    "description": {
+      "type": "string",
+      "description": "Full description of the spell and its effects"
+    },
+    "enhancements": {
+      "type": "array",
+      "description": "List of possible spell enhancements/modifications",
+      "items": {
+        "type": "object",
+        "required": ["cost", "type", "description"],
+        "properties": {
+          "cost": {
+            "type": "number",
+            "description": "PM cost of this enhancement"
+          },
+          "type": {
+            "type": "string",
+            "enum": ["aumenta", "muda", "outro"],
+            "description": "Type of enhancement (increases, changes, other)"
+          },
+          "description": {
+            "type": "string",
+            "description": "Description of what this enhancement does"
+          },
+          "extra_details": {
+            "type": ["object", "null"],
+            "description": "Additional structured details about the enhancement",
+            "properties": {
+              "execution": {
+                "type": "string",
+                "description": "Modified execution time"
+              },
+              "range": {
+                "type": "string",
+                "description": "Modified range"
+              },
+              "target": {
+                "type": ["object", "string"],
+                "description": "Modified target information"
+              },
+              "duration": {
+                "type": "string",
+                "description": "Modified duration"
+              },
+              "circle": {
+                "type": "number",
+                "description": "Circle requirement for this enhancement"
+              },
+              "requirement": {
+                "type": "string",
+                "description": "Special requirements for this enhancement"
+              },
+              "resistence": {
+                "type": "object",
+                "description": "Modified resistance information",
+                "properties": {
+                  "effect": {
+                    "type": "string"
+                  },
+                  "skill": {
+                    "type": "string"
+                  }
+                }
+              },
+              "extra_costs": {
+                "type": "object",
+                "description": "Additional costs introduced by this enhancement"
+              },
+              "effects": {
+                "type": "array",
+                "description": "Modified or additional effects",
+                "items": {
+                  "type": "object"
+                }
+              },
+              "effect": {
+                "type": "string",
+                "description": "Modified effect type"
+              },
+              "effect_details": {
+                "type": "object",
+                "description": "Modified effect details"
+              }
+            }
+          }
+        }
+      }
+    },
+    "effects": {
+      "type": "array",
+      "description": "List of mechanical effects of the spell",
+      "items": {
+        "type": "object",
+        "required": ["type"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "description": "Type of effect (dano, bônus, iluminar, etc.)"
+          },
+          "attribute": {
+            "type": ["string", "null"],
+            "description": "Attribute affected (pv, ca, etc.)"
+          },
+          "amount": {
+            "type": ["string", "null"],
+            "description": "Amount of the effect (can be a dice formula like '6d6' or a number like '+4')"
+          },
+          "resistence_requirement": {
+            "type": ["string", "null"],
+            "description": "Resistance check required for this effect"
+          },
+          "extra_requirements": {
+            "type": ["object", "null"],
+            "description": "Additional requirements or conditions for the effect"
+          }
+        }
+      }
+    }
+  }
+}

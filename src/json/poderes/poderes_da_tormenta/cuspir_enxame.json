@@ -1,0 +1,20 @@
+{
+  "id": "cuspir_enxame",
+  "name": "Cuspir Enxame",
+  "description": "Você pode gastar uma ação completa e 2 PM para criar um enxame de insetos rubros em um ponto a sua escolha em alcance curto e com duração sustentada. O enxame tem tamanho Médio e pode passar pelo espaço de outras criaturas. Uma vez por rodada, você pode gastar uma ação de movimento para mover o enxame 9m. No final do seu turno, o enxame causa 2d6 pontos de dano de ácido a qualquer criatura no espaço que ele estiver ocupando. Para cada dois outros poderes da Tormenta que possui, você pode gastar +1 PM quando usa este poder para aumentar o dano do enxame em +1d6.",
+  "effects": {
+    "type": "active",
+    "cost": "2 PM",
+    "action": "ação completa",
+    "duration": "sustentada",
+    "summon": {
+      "type": "enxame de insetos rubros",
+      "size": "Médio",
+      "movement": "9m (ação de movimento)",
+      "damage": {
+        "base": "2d6 ácido",
+        "scaling": "+1d6 por +1 PM (1 PM adicional por cada 2 outros poderes da Tormenta)"
+      }
+    }
+  }
+}

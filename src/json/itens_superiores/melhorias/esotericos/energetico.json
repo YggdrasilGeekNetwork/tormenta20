@@ -1,0 +1,12 @@
+{
+  "id": "energetico",
+  "name": "Energético",
+  "type": "melhoria",
+  "categoria": "esoterico",
+  "efeito": {
+    "dano_extra_magias": "1d6",
+    "tipo_dano": "mesmo_da_magia"
+  },
+  "prerequisitos": null,
+  "description": "Catalisadores alquímicos inseridos no item fazem com que ele potencialize energias mágicas. Suas magias que causam dano causam +1d6 pontos de dano do mesmo tipo."
+}

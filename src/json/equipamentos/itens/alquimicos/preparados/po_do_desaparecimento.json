@@ -1,0 +1,18 @@
+{
+  "id": "po_do_desaparecimento",
+  "name": "Pó do Desaparecimento",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 100,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "uso": "empunhado",
+  "alvo": ["criatura", "objeto"],
+  "efeito": {
+    "condicao_aplicada": "invisível",
+    "duracao": "2d6 rodadas",
+    "incerto": true
+  },
+  "description": "Uma criatura ou objeto coberto por este pó torna-se invisível (como em Invisibilidade) por 2d6 rodadas. O usuário não sabe quando a invisibilidade vai terminar."
+}

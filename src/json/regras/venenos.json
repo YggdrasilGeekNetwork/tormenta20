@@ -1,0 +1,45 @@
+{
+  "id": "venenos",
+  "name": "Regras de Venenos",
+  "description": "Venenos são classificados de acordo com o método de inoculação.",
+  "metodos_inoculacao": [
+    {
+      "id": "contato",
+      "name": "Contato",
+      "description": "Inoculados via um ataque que acerte (ou se a vítima toca o objeto envenenado).",
+      "aplicar": {
+        "acao": "movimento",
+        "teste_acidente": {
+          "dado": "1d6",
+          "resultado_acidente": 1,
+          "efeito": "se envenena acidentalmente"
+        }
+      },
+      "duracao": "até acertar um ataque ou fim da cena"
+    },
+    {
+      "id": "inalacao",
+      "name": "Inalação",
+      "description": "Inoculados via respiração. São armazenados em frascos que podem ser arremessados em alcance curto.",
+      "area": {
+        "forma": "cubo",
+        "lado": 3
+      },
+      "nota": "Prender a respiração não impede a inoculação"
+    },
+    {
+      "id": "ingestao",
+      "name": "Ingestão",
+      "description": "Inoculados através da ingestão de comida ou bebida."
+    }
+  ],
+  "resistencia": {
+    "teste": "Fortitude",
+    "cd": "definida pelo aplicador",
+    "atributo_chave": "Int"
+  },
+  "condicao": {
+    "nome": "envenenada",
+    "nota": "Curar esta condição encerra quaisquer efeitos de veneno (mas não recupera PV perdidos)"
+  }
+}

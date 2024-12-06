@@ -1,0 +1,13 @@
+{
+  "id": "kiai_divino",
+  "name": "Kiai Divino",
+  "deities": ["lin_wu"],
+  "description": "Uma vez por rodada, quando faz um ataque corpo a corpo, você pode pagar 3 PM. Se acertar o ataque, causa dano máximo, sem necessidade de rolar dados.",
+  "effects": {
+    "type": "active",
+    "cost": "3 PM",
+    "frequency": "1/rodada",
+    "trigger": "ao fazer ataque corpo a corpo",
+    "benefit": "se acertar, causa dano máximo"
+  }
+}

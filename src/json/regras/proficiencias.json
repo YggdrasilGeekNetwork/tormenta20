@@ -1,0 +1,32 @@
+{
+  "id": "proficiencias",
+  "name": "Proficiências com Armas",
+  "description": "Armas são classificadas de acordo com a proficiência necessária para usá-las.",
+  "tipos": [
+    {
+      "id": "simples",
+      "name": "Armas Simples",
+      "description": "Armas de manejo fácil, como adagas, clavas e lanças. Todos os personagens sabem usar armas simples."
+    },
+    {
+      "id": "marciais",
+      "name": "Armas Marciais",
+      "description": "Espadas, machados e outras armas de uso específico de combatentes.",
+      "classes_proficientes": ["bárbaro", "bardo", "bucaneiro", "caçador", "cavaleiro", "guerreiro", "nobre", "paladino"]
+    },
+    {
+      "id": "exoticas",
+      "name": "Armas Exóticas",
+      "description": "Armas difíceis de dominar. Exigem treinamento específico."
+    },
+    {
+      "id": "fogo",
+      "name": "Armas de Fogo",
+      "description": "Armas de pólvora são raras em Arton, por isso exigem treinamento específico."
+    }
+  ],
+  "regras": {
+    "penalidade_nao_proficiente": -5,
+    "proficiencia_universal": ["ataques desarmados", "armas naturais"]
+  }
+}

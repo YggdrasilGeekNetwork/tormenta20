@@ -1,0 +1,17 @@
+{
+  "id": "aura_de_medo",
+  "name": "Aura de Medo",
+  "deities": ["kallyadranoch"],
+  "description": "Você pode gastar 2 PM para gerar uma aura de medo de 9m de raio e duração até o fim da cena. Todos os inimigos que entrem na aura devem fazer um teste de Vontade (CD Car) ou ficam abalados até o fim da cena. Uma criatura que passe no teste de Vontade fica imune a esta habilidade por um dia.",
+  "effects": {
+    "type": "active",
+    "cost": "2 PM",
+    "aura": {
+      "radius": "9m",
+      "duration": "cena",
+      "save": "Vontade (CD Car)",
+      "effect_on_fail": "abalado até o fim da cena",
+      "immunity_on_success": "1 dia"
+    }
+  }
+}

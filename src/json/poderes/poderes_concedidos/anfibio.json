@@ -1,0 +1,13 @@
+{
+  "id": "anfibio",
+  "name": "Anfíbio",
+  "deities": ["oceano"],
+  "description": "Você pode respirar embaixo d'água e adquire deslocamento de natação igual a seu deslocamento terrestre.",
+  "effects": {
+    "type": "passive",
+    "special_abilities": ["respirar embaixo d'água"],
+    "movement": {
+      "swim": "igual ao deslocamento terrestre"
+    }
+  }
+}

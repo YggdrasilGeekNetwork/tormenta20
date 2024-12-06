@@ -1,0 +1,14 @@
+{
+  "id": "sapatos_de_camurca",
+  "name": "Sapatos de Camurça",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 8,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_acrobacia": 1
+  },
+  "description": "Leves e resistentes, aprimoram o equilíbrio e a firmeza dos pés, fornecendo +1 em Acrobacia."
+}

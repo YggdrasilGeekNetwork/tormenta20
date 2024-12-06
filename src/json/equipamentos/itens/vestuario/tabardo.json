@@ -1,0 +1,14 @@
+{
+  "id": "tabardo",
+  "name": "Tabardo",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 10,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_diplomacia": 1
+  },
+  "description": "Uma peça de tecido usada como um colete, cobrindo o peito e as costas. Geralmente ostenta a heráldica de um reino, igreja, casa nobre ou ordem de cavaleiros. Fornece +1 em Diplomacia."
+}

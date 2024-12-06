@@ -1,0 +1,13 @@
+{
+  "id": "centelha_magica",
+  "name": "Centelha Mágica",
+  "deities": ["wynna"],
+  "description": "Escolha uma magia arcana ou divina de 1º círculo. Você aprende e pode lançar essa magia.",
+  "effects": {
+    "type": "passive",
+    "grants_spell": {
+      "choice": "uma magia arcana ou divina",
+      "circle": 1
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "peconha_potente",
+  "name": "Peçonha Potente",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 600,
+  "espacos": 0.5,
+  "cd_fabricacao": 20,
+  "inoculacao": "contato",
+  "efeito": {
+    "falha": {
+      "dano": "2d12",
+      "por_rodada": true,
+      "duracao_rodadas": 3
+    },
+    "sucesso": {
+      "dano": "2d12"
+    }
+  },
+  "description": "Veneno poderoso, extraído de animais ou plantas perigosos. Contato, perde 2d12 PV por rodada durante 3 rodadas (perde 2d12 PV)."
+}

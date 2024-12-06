@@ -1,0 +1,13 @@
+{
+  "id": "palpite_fundamentado",
+  "name": "Palpite Fundamentado",
+  "origin": "estudioso",
+  "description": "Quando vai fazer um teste de perícia originalmente baseada em Inteligência ou Sabedoria, você pode gastar 2 PM para substituí-la por Conhecimento.",
+  "effects": {
+    "skill_substitutions": [{
+      "original_attributes": ["Inteligência", "Sabedoria"],
+      "substitute": "Conhecimento",
+      "cost": { "pm": 2 }
+    }]
+  }
+}

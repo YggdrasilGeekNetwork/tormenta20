@@ -1,0 +1,11 @@
+{
+  "id": "trabalhador",
+  "name": "Trabalhador",
+  "description": "Nenhum glamour aqui, apenas trabalho braçal pesado. De origem humilde, sem grandes chances na vida, você trabalhou duro desde muito jovem. Transportou pedras na construção de templos e castelos, carregou sacas de grãos em fazendas, empilhou cargas em portos, puxou arado feito um animal de tração. Talvez sua vida tenha sido um pouco melhor, como servo em um palácio. Ou muito pior, arrastando ou queimando corpos em campos de batalha. Não é surpresa que a carreira como aventureiro, mesmo perigosa, tenha parecido muito mais atraente.",
+  "items": ["Uma ferramenta pesada (mesmas estatísticas de uma maça ou lança, a sua escolha)"],
+  "benefits": {
+    "skills": ["Atletismo", "Fortitude"],
+    "powers": ["Atlético", "Esforçado"]
+  },
+  "unique_power": "esforcado"
+}

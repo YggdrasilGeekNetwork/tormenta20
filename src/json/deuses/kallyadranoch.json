@@ -1,0 +1,28 @@
+{
+  "id": "kallyadranoch",
+  "name": "Kallyadranoch",
+  "title": "Deus dos Dragões",
+  "description": "Como punição imposta por Khalmyr pelo crime de criar a Tormenta, o Deus dos Dragões estava esquecido até poucos anos atrás, conhecido apenas como \"o Terceiro\". Restaurado em tempos recentes durante um combate épico contra os invasores aberrantes, Kallyadranoch agora governa não apenas os dragões, mas todos que cultuam o poder elemental das grandes feras. Além disso, enquanto Wynna representa o lado bondoso e generoso da magia arcana, Kally é cultuado por arcanistas malignos.",
+  "beliefs_objectives": [
+    "Praticar a soberania",
+    "Demonstrar orgulho, superioridade, majestade",
+    "Praticar o acúmulo de riquezas",
+    "Proteger suas posses e sua dignidade",
+    "Ser implacável com seus inimigos",
+    "Reverenciar os dragões e suas crias"
+  ],
+  "holy_symbol": "Escamas de cinco cores diferentes",
+  "energy": "negativa",
+  "preferred_weapon": "Lança",
+  "devotees": {
+    "races": ["elfos", "medusas", "sulfure"],
+    "classes": ["arcanistas", "cavaleiros", "guerreiros", "lutadores", "nobres"]
+  },
+  "granted_powers": [
+    "aura_de_medo",
+    "escamas_draconicas",
+    "presas_primordiais",
+    "servos_do_dragao"
+  ],
+  "obligations_restrictions": "Para subir de nível, além de acumular XP suficiente, o devoto de Kally deve realizar uma oferenda em tesouro. O valor é igual à 20% da diferença do dinheiro inicial do nível que vai alcançar para o nível atual (por exemplo, T$ 80 para subir para o 4° nível). Sabe-se, também, de devotos malignos que sacrificam vítimas a Kally (não permitido para personagens jogadores)."
+}

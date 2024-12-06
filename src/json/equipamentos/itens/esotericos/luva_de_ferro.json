@@ -1,0 +1,17 @@
+{
+  "id": "luva_de_ferro",
+  "name": "Luva de Ferro",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 150,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "aumento_bonus": 1,
+    "tipo_magia": "arcana pessoal",
+    "bonus_afetados": ["Defesa", "testes de resistência"]
+  },
+  "description": "Um conjunto de dedais interligados por correntes. Suas magias arcanas pessoais que concedem bônus na Defesa ou em testes de resistências têm esse bônus aumentado em +1."
+}

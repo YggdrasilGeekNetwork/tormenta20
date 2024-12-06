@@ -1,0 +1,21 @@
+{
+  "id": "mangual",
+  "name": "Mangual",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 8,
+  "dano": "1d8",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "impacto",
+  "espacos": 1,
+  "habilidades": ["versatil"],
+  "especial": {
+    "bonus_manobra": {
+      "desarmar": 2
+    }
+  },
+  "description": "Uma haste metálica ligada a uma corrente com uma esfera de aço na ponta, que pode se enroscar na arma do adversário. O mangual é uma arma versátil, fornecendo +2 em testes para desarmar."
+}

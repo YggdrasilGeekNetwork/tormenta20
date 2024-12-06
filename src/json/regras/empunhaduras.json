@@ -1,0 +1,22 @@
+{
+  "id": "empunhaduras",
+  "name": "Empunhaduras de Armas",
+  "description": "Armas são classificadas por empunhadura: leve, uma mão ou duas mãos.",
+  "tipos": [
+    {
+      "id": "leve",
+      "name": "Leve",
+      "description": "Esta arma é usada com uma mão e se beneficia do poder Acuidade com Arma."
+    },
+    {
+      "id": "uma_mao",
+      "name": "Uma Mão",
+      "description": "Esta arma é usada com uma mão, deixando a outra mão livre para outros fins."
+    },
+    {
+      "id": "duas_maos",
+      "name": "Duas Mãos",
+      "description": "Esta arma é usada com as duas mãos. Livrar uma mão é uma ação livre. Reempunhá-la é uma ação de movimento (ou livre, se você puder sacá-la dessa forma)."
+    }
+  ]
+}

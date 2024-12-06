@@ -1,0 +1,11 @@
+{
+  "id": "herdeiro",
+  "name": "Herdeiro",
+  "description": "Você pertence a uma linhagem de nobres, mercadores, conjuradores, acadêmicos, assassinos, ou outra atividade tradicional em sua família — tão tradicional que, de você, não se espera outra coisa. Pode ser uma longa e antiquíssima ascendência, traçada até antes da Grande Batalha, ou você apenas é filho de uma importante personalidade. Talvez tenha nascido em alguma ordem de cavalaria em Bielefeld, ou uma influente estirpe da nobreza de Deheon, ou como filho de um célebre arquimago com planos de enviá-lo à Academia Arcana, ou até cresceu em um culto familiar secreto a um deus maligno. Graças a essa herança, recebeu treino e equipamento adequados. Mas você pretende mesmo seguir esse caminho?",
+  "items": ["Um símbolo de sua herança, como um anel de sinete ou manto cerimonial (enquanto estiver com esse item, você pode ser reconhecido por sua descendência)"],
+  "benefits": {
+    "skills": ["Misticismo", "Nobreza", "Ofício"],
+    "powers": ["Comandar", "Herança"]
+  },
+  "unique_power": "heranca"
+}

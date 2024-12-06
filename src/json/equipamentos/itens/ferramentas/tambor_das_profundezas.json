@@ -1,0 +1,17 @@
+{
+  "id": "tambor_das_profundezas",
+  "name": "Tambor das Profundezas",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 80,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "maos": 2,
+  "origem": "anões de Doherimm",
+  "efeito": {
+    "dobra_alcance": ["Inspiração", "Músicas de Bardo"]
+  },
+  "description": "Um instrumento típico de anões de Doherimm, capaz de sons graves e retumbantes. Enquanto empunha este item, o alcance da habilidade Inspiração e de qualquer Música de Bardo é dobrado. Conta como um instrumento musical."
+}

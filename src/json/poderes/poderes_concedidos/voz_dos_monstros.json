@@ -1,0 +1,11 @@
+{
+  "id": "voz_dos_monstros",
+  "name": "Voz dos Monstros",
+  "deities": ["megalokk"],
+  "description": "Você conhece os idiomas de todos os monstros inteligentes e pode se comunicar livremente com monstros não inteligentes (Int –4 ou menor), como se estivesse sob efeito da magia Voz Divina.",
+  "effects": {
+    "type": "passive",
+    "languages": "todos os idiomas de monstros inteligentes",
+    "communication": "monstros não inteligentes (Int –4 ou menor)"
+  }
+}

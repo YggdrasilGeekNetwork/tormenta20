@@ -1,0 +1,23 @@
+{
+  "id": "funda",
+  "name": "Funda",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "uma_mao",
+  "preco": 0,
+  "dano": "1d4",
+  "critico": "x2",
+  "alcance": "medio",
+  "tipo_dano": "impacto",
+  "espacos": 1,
+  "municao": "pedras",
+  "habilidades": [],
+  "especial": {
+    "recarregar": "acao_movimento",
+    "usa_forca_dano": true,
+    "municao_improvissada_dano_reduzido": true
+  },
+  "description": "Uma simples tira de couro usada para arremessar pedras polidas. Na falta de munição adequada, pode disparar pedras comuns, mas o dano é reduzido em um passo. Recarregar uma funda é uma ação de movimento. Ao contrário de outras armas de disparo, você aplica sua Força a rolagens de dano com uma funda."
+}

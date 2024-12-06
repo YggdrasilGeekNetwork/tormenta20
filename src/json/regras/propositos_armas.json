@@ -1,0 +1,37 @@
+{
+  "id": "propositos_armas",
+  "name": "Propósitos de Armas",
+  "description": "Armas são classificadas por propósito: corpo a corpo ou à distância.",
+  "tipos": [
+    {
+      "id": "corpo_a_corpo",
+      "name": "Corpo a Corpo",
+      "description": "Podem ser usadas para atacar alvos adjacentes.",
+      "teste": "Luta",
+      "bonus_dano": "Força"
+    },
+    {
+      "id": "distancia",
+      "name": "Ataque à Distância",
+      "description": "Podem ser usadas para atacar alvos adjacentes ou à distância.",
+      "teste": "Pontaria",
+      "subtipos": [
+        {
+          "id": "arremesso",
+          "name": "Arremesso",
+          "description": "A própria arma é atirada, como uma adaga ou azagaia.",
+          "sacar": "acao_movimento",
+          "bonus_dano": "Força"
+        },
+        {
+          "id": "disparo",
+          "name": "Disparo",
+          "description": "A arma dispara um projétil, como um arco atira flechas.",
+          "sacar_municao": "acao_livre",
+          "recarregar": "duas_maos",
+          "bonus_dano": null
+        }
+      ]
+    }
+  ]
+}

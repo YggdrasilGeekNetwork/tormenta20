@@ -1,0 +1,21 @@
+{
+  "id": "mosquete",
+  "name": "Mosquete",
+  "type": "arma",
+  "proficiencia": "fogo",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "duas_maos",
+  "preco": 500,
+  "dano": "2d8",
+  "critico": "19/x3",
+  "alcance": "medio",
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "municao": "balas",
+  "habilidades": [],
+  "especial": {
+    "recarregar": "acao_padrao"
+  },
+  "description": "Uma arma de fogo de uso difícil, mas com poder devastador. Recarregar um mosquete é uma ação padrão."
+}

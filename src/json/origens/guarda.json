@@ -1,0 +1,11 @@
+{
+  "id": "guarda",
+  "name": "Guarda",
+  "description": "Você atuou como agente da lei em uma vila ou cidade. Nem de longe uma profissão tão glamorosa ou emocionante quanto parece; boa parte de seu trabalho resumia-se a guardar um portão, fazer rondas tediosas ou recolher bêbados em tavernas. Pelo menos você recebeu algum treino em investigação e combate. Também tem consigo alguma boa arma, que \"esqueceu\" de devolver quando abandonou a milícia para se tornar aventureiro.",
+  "items": ["Apito", "Insígnia da milícia", "Uma arma marcial"],
+  "benefits": {
+    "skills": ["Investigação", "Luta", "Percepção"],
+    "powers": ["Detetive", "Investigador", "um poder de combate a sua escolha"]
+  },
+  "unique_power": "detetive"
+}

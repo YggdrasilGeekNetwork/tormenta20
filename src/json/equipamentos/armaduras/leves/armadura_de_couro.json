@@ -1,0 +1,13 @@
+{
+  "id": "armadura_de_couro",
+  "name": "Armadura de Couro",
+  "type": "armadura",
+  "categoria": "leve",
+  "preco": 20,
+  "bonus_defesa": 2,
+  "penalidade_armadura": 0,
+  "espacos": 2,
+  "especial": null,
+  "vestir_remover": "acao_completa",
+  "description": "O peitoral desta armadura é feito de couro curtido em óleo fervente, para ficar mais rígido, enquanto as demais partes são feitas de couro flexível."
+}

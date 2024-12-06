@@ -1,0 +1,16 @@
+{
+  "id": "amigo_especial",
+  "name": "Amigo Especial",
+  "origin": "amigo_dos_animais",
+  "description": "Você recebe +5 em testes de Adestramento com animais. Além disso, possui um animal de estimação que o auxilia e o acompanha em suas aventuras. Em termos de jogo, é um parceiro que fornece +2 em uma perícia a sua escolha (exceto Luta ou Pontaria e aprovada pelo mestre) e não conta em seu limite de parceiros.",
+  "effects": {
+    "skill_bonuses": [{ "skill": "Adestramento", "value": 5, "condition": "com animais" }],
+    "partner": {
+      "type": "animal de estimação",
+      "skill_bonus": 2,
+      "skill_choice": true,
+      "excluded_skills": ["Luta", "Pontaria"],
+      "counts_limit": false
+    }
+  }
+}

@@ -1,0 +1,93 @@
+{
+  "id": "paladino",
+  "name": "Paladino",
+  "hit_points": {
+    "initial": 20,
+    "per_level": 5
+  },
+  "mana_points": {
+    "per_level": 3
+  },
+  "skills": {
+    "mandatory": [
+      { "name": "Luta", "attribute": "For" },
+      { "name": "Vontade", "attribute": "Sab" }
+    ],
+    "choose_amount": 2,
+    "choose_from": [
+      { "name": "Adestramento", "attribute": "Car" },
+      { "name": "Atletismo", "attribute": "For" },
+      { "name": "Cavalgar", "attribute": "Des" },
+      { "name": "Cura", "attribute": "Sab" },
+      { "name": "Diplomacia", "attribute": "Car" },
+      { "name": "Fortitude", "attribute": "Con" },
+      { "name": "Guerra", "attribute": "Int" },
+      { "name": "Iniciativa", "attribute": "Des" },
+      { "name": "Intuição", "attribute": "Sab" },
+      { "name": "Nobreza", "attribute": "Int" },
+      { "name": "Percepção", "attribute": "Sab" },
+      { "name": "Religião", "attribute": "Sab" }
+    ]
+  },
+  "proficiencies": {
+    "weapons": ["marciais"],
+    "armors": ["pesadas"],
+    "shields": true
+  },
+  "abilities": [
+    "abencoado",
+    "codigo_do_heroi",
+    "golpe_divino",
+    "cura_pelas_maos",
+    "aura_sagrada",
+    "bencao_da_justica",
+    "vingador_sagrado"
+  ],
+  "powers": [
+    "arma_sagrada",
+    "aumento_de_atributo",
+    "aura_atimagia",
+    "aura_ardente",
+    "aura_de_cura",
+    "aura_de_invencibilidade",
+    "aura_poderosa",
+    "fulgor_divino",
+    "julgamento_divino_arrependimento",
+    "julgamento_divino_autoridade",
+    "julgamento_divino_coragem",
+    "julgamento_divino_iluminacao",
+    "julgamento_divino_justica",
+    "julgamento_divino_libertacao",
+    "julgamento_divino_salvacao",
+    "julgamento_divino_vindicacao",
+    "julgamento_divino_zelo",
+    "orar",
+    "virtude_paladinesca_caridade",
+    "virtude_paladinesca_castidade",
+    "virtude_paladinesca_compaixao",
+    "virtude_paladinesca_humildade",
+    "virtude_paladinesca_temperanca"
+  ],
+  "progression": [
+    { "level": 1, "abilities": ["abencoado", "codigo_do_heroi", "golpe_divino"] },
+    { "level": 2, "abilities": ["cura_pelas_maos", "poder_de_paladino"] },
+    { "level": 3, "abilities": ["aura_sagrada", "poder_de_paladino"] },
+    { "level": 4, "abilities": ["poder_de_paladino"] },
+    { "level": 5, "abilities": ["bencao_da_justica", "poder_de_paladino"] },
+    { "level": 6, "abilities": ["poder_de_paladino"] },
+    { "level": 7, "abilities": ["poder_de_paladino"] },
+    { "level": 8, "abilities": ["poder_de_paladino"] },
+    { "level": 9, "abilities": ["poder_de_paladino"] },
+    { "level": 10, "abilities": ["poder_de_paladino"] },
+    { "level": 11, "abilities": ["poder_de_paladino"] },
+    { "level": 12, "abilities": ["poder_de_paladino"] },
+    { "level": 13, "abilities": ["poder_de_paladino"] },
+    { "level": 14, "abilities": ["poder_de_paladino"] },
+    { "level": 15, "abilities": ["poder_de_paladino"] },
+    { "level": 16, "abilities": ["poder_de_paladino"] },
+    { "level": 17, "abilities": ["poder_de_paladino"] },
+    { "level": 18, "abilities": ["poder_de_paladino"] },
+    { "level": 19, "abilities": ["poder_de_paladino"] },
+    { "level": 20, "abilities": ["poder_de_paladino", "vingador_sagrado"] }
+  ]
+}

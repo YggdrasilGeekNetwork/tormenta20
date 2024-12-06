@@ -1,0 +1,9 @@
+{
+  "id": "curandeiro",
+  "name": "Curandeiro",
+  "type": "servico",
+  "categoria": "servico",
+  "local": "casa do curandeiro",
+  "restricao": "Curandeiros não aceitam acompanhar aventureiros em suas jornadas",
+  "description": "O preço para você receber cuidados prolongados ou tratamento contra uma doença ou veneno. Isso considera que você vai até a casa do curandeiro ou onde quer que ele receba seus pacientes — curandeiros não aceitam acompanhar aventureiros em suas jornadas."
+}

@@ -1,0 +1,21 @@
+{
+  "id": "instrumentos_de_oficio",
+  "name": "Instrumentos de <Ofício>",
+  "type": "item",
+  "categoria": "ferramenta",
+  "preco": 30,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "variavel": "oficio",
+  "exemplos": [
+    {"oficio": "carpinteiro", "instrumentos": "martelo, pregos e serrote"},
+    {"oficio": "escriba", "instrumentos": "pergaminhos em branco, tinta e pena"}
+  ],
+  "efeito": {
+    "evita_penalidade": {
+      "pericia": "Ofício",
+      "penalidade_sem_item": -5
+    }
+  },
+  "description": "Existe uma versão deste item para cada perícia de Ofício. Por exemplo, martelo, pregos e serrote para Ofício (carpinteiro), pergaminhos em branco, tinta e pena para Ofício (escriba) e assim por diante. Um personagem sem os instrumentos de seu Ofício sofre –5 nessa perícia."
+}

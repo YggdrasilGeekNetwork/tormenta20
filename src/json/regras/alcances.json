@@ -1,0 +1,33 @@
+{
+  "id": "alcances",
+  "name": "Categorias de Alcance",
+  "description": "Armas com alcance podem ser usadas para ataques à distância.",
+  "categorias": [
+    {
+      "id": "curto",
+      "name": "Curto",
+      "metros": 9,
+      "quadrados": 6
+    },
+    {
+      "id": "medio",
+      "name": "Médio",
+      "metros": 30,
+      "quadrados": 20
+    },
+    {
+      "id": "longo",
+      "name": "Longo",
+      "metros": 90,
+      "quadrados": 60
+    }
+  ],
+  "regras": {
+    "dentro_alcance": "sem penalidade",
+    "ate_dobro_alcance": -5,
+    "arma_sem_alcance_arremesso": {
+      "alcance": "curto",
+      "penalidade": -5
+    }
+  }
+}

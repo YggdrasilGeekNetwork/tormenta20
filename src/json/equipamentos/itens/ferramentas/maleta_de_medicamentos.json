@@ -1,0 +1,17 @@
+{
+  "id": "maleta_de_medicamentos",
+  "name": "Maleta de Medicamentos",
+  "type": "item",
+  "categoria": "ferramenta",
+  "preco": 50,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "consultado",
+  "efeito": {
+    "evita_penalidade": {
+      "pericia": "Cura",
+      "penalidade_sem_item": -5
+    }
+  },
+  "description": "Caixa de madeira com ervas, unguentos, bandagens e outros materiais úteis. Um personagem sem este item sofre –5 em Cura."
+}

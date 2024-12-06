@@ -1,0 +1,18 @@
+{
+  "id": "ponei_de_guerra",
+  "name": "Pônei de Guerra",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 100,
+  "espacos": 0,
+  "parceiro": {
+    "tipo": "montaria",
+    "nivel": "iniciante",
+    "tamanhos_cavaleiro": ["pequeno"]
+  },
+  "combate": {
+    "teste_cavalgar": null,
+    "motivo": "Pôneis de guerra dispensam teste de Cavalgar em combate"
+  },
+  "description": "Pônei treinado para combate, adequado para criaturas Pequenas. Pôneis de guerra dispensam o teste de Cavalgar para permanecer montado durante um combate."
+}

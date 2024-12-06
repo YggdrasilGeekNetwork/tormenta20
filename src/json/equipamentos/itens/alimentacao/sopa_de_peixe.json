@@ -1,0 +1,13 @@
+{
+  "id": "sopa_de_peixe",
+  "name": "Sopa de Peixe",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 1,
+  "espacos": 0.5,
+  "efeito": {
+    "recuperacao_pm_bonus": "+1 por nível",
+    "aplicacao": "próxima noite de sono"
+  },
+  "description": "Um cozido de peixe com verduras. É um prato humilde, mas garante um descanso relaxante. Em sua próxima noite de sono, você aumenta a sua recuperação de pontos de mana em +1 por nível."
+}

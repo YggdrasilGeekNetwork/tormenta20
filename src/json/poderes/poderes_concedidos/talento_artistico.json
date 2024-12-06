@@ -1,0 +1,14 @@
+{
+  "id": "talento_artistico",
+  "name": "Talento Artístico",
+  "deities": ["marah"],
+  "description": "Você recebe +2 em Acrobacia, Atuação e Diplomacia.",
+  "effects": {
+    "type": "passive",
+    "skill_bonuses": [
+      {"skill": "Acrobacia", "bonus": 2},
+      {"skill": "Atuação", "bonus": 2},
+      {"skill": "Diplomacia", "bonus": 2}
+    ]
+  }
+}

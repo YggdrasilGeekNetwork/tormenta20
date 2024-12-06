@@ -1,0 +1,14 @@
+{
+  "id": "lembrancas_graduais",
+  "name": "Lembranças Graduais",
+  "origin": "amnesico",
+  "description": "Durante suas aventuras, em determinados momentos a critério do mestre, você pode fazer um teste de Sabedoria (CD 10) para reconhecer pessoas, criaturas ou lugares que tenha encontrado antes de perder a memória.",
+  "effects": {
+    "special_test": {
+      "attribute": "Sabedoria",
+      "dc": 10,
+      "purpose": "reconhecer pessoas, criaturas ou lugares do passado",
+      "trigger": "a critério do mestre"
+    }
+  }
+}

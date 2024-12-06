@@ -1,0 +1,19 @@
+{
+  "id": "sela",
+  "name": "Sela",
+  "type": "item",
+  "categoria": "ferramenta",
+  "preco": 20,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "montaria",
+  "inclui": "arreios",
+  "espaco_no_animal": 0,
+  "efeito": {
+    "evita_penalidade": {
+      "pericia": "Cavalgar",
+      "penalidade_sem_item": -5
+    }
+  },
+  "description": "Uma peça de couro e pelego colocada sobre o lombo da montaria, sobre a qual o cavaleiro se senta. Inclui arreios para conduzir o animal. Um personagem montado em uma montaria sem sela sofre –5 em testes de Cavalgar. Usada no animal, a sela não ocupa espaço de carga do personagem."
+}

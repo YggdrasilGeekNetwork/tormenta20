@@ -1,0 +1,13 @@
+{
+  "id": "sangue_acido",
+  "name": "Sangue Ácido",
+  "description": "Quando você sofre dano por um ataque corpo a corpo, o atacante sofre 1 ponto de dano de ácido por poder da Tormenta que você possui.",
+  "effects": {
+    "type": "passive",
+    "trigger": "sofrer dano por ataque corpo a corpo",
+    "reactive_damage": {
+      "damage": "1 ácido por poder da Tormenta possuído",
+      "target": "atacante"
+    }
+  }
+}

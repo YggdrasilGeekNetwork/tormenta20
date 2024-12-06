@@ -1,0 +1,15 @@
+{
+  "id": "punguista",
+  "name": "Punguista",
+  "origin": "criminoso",
+  "description": "Você pode fazer testes de Ladinagem para sustento (como a perícia Ofício), mas em apenas um dia. Se passar, recebe o dobro do dinheiro, mas, se falhar, pode ter problemas com a lei (a critério do mestre).",
+  "effects": {
+    "skill_alternate_use": {
+      "skill": "Ladinagem",
+      "use": "sustento",
+      "time": "1 dia",
+      "success_multiplier": 2,
+      "failure_consequence": "problemas com a lei"
+    }
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "gadanho",
+  "name": "Gadanho",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 18,
+  "dano": "2d4",
+  "critico": "x4",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 2,
+  "habilidades": [],
+  "especial": null,
+  "description": "Outra ferramenta agrícola, o gadanho é uma versão maior da foice, para uso com as duas mãos. Foi criada para ceifar cereais, mas também pode ceifar vidas."
+}

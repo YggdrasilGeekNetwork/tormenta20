@@ -1,0 +1,14 @@
+{
+  "id": "afinidade_com_a_tormenta",
+  "name": "Afinidade com a Tormenta",
+  "deities": ["aharadak"],
+  "description": "Você recebe +10 em testes de resistência contra efeitos da Tormenta, de suas criaturas e de devotos de Aharadak. Além disso, seu primeiro poder da Tormenta não conta para perda de Carisma.",
+  "effects": {
+    "type": "passive",
+    "resistance_bonus": {
+      "value": 10,
+      "against": ["efeitos da Tormenta", "criaturas da Tormenta", "devotos de Aharadak"]
+    },
+    "special": "primeiro poder da Tormenta não conta para perda de Carisma"
+  }
+}

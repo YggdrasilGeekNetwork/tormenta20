@@ -1,0 +1,14 @@
+{
+  "id": "habitante_do_deserto",
+  "name": "Habitante do Deserto",
+  "deities": ["azgher"],
+  "description": "Você recebe redução de fogo 10 e pode pagar 1 PM para criar água pura e potável suficiente para um odre (ou outro recipiente pequeno).",
+  "effects": {
+    "type": "passive",
+    "damage_reduction": {"type": "fogo", "value": 10},
+    "active_ability": {
+      "cost": "1 PM",
+      "effect": "criar água pura e potável (1 odre)"
+    }
+  }
+}

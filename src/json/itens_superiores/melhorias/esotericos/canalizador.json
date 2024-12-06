@@ -1,0 +1,11 @@
+{
+  "id": "canalizador",
+  "name": "Canalizador",
+  "type": "melhoria",
+  "categoria": "esoterico",
+  "efeito": {
+    "aumento_limite_pm": 1
+  },
+  "prerequisitos": null,
+  "description": "O esotérico possui uma gema mística que permite que você canalize mais mana do que normalmente seria capaz. O máximo de PM que você pode gastar em magias aumenta em +1."
+}

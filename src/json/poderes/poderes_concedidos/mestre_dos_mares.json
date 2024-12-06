@@ -1,0 +1,18 @@
+{
+  "id": "mestre_dos_mares",
+  "name": "Mestre dos Mares",
+  "deities": ["oceano"],
+  "description": "Você pode falar com animais aquáticos (como o efeito da magia Voz Divina) e aprende e pode lançar Acalmar Animal, mas só contra criaturas aquáticas. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+  "effects": {
+    "type": "passive",
+    "communication": "animais aquáticos",
+    "grants_spell": {
+      "spell": "Acalmar Animal",
+      "restriction": "apenas criaturas aquáticas"
+    },
+    "spell_cost_reduction": {
+      "spell": "Acalmar Animal",
+      "reduction": 1
+    }
+  }
+}

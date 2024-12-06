@@ -1,0 +1,19 @@
+{
+  "id": "frutos_do_trabalho",
+  "name": "Frutos do Trabalho",
+  "origin": "artesao",
+  "description": "No início de cada aventura, você recebe até 5 itens gerais que possa fabricar num valor total de até T$ 50. Esse valor aumenta para T$ 100 no patamar veterano, T$ 300 no campeão e T$ 500 no lenda.",
+  "effects": {
+    "free_items": {
+      "trigger": "início de aventura",
+      "max_items": 5,
+      "type": "itens gerais fabricáveis",
+      "max_value_by_tier": {
+        "iniciante": 50,
+        "veterano": 100,
+        "campeão": 300,
+        "lenda": 500
+      }
+    }
+  }
+}

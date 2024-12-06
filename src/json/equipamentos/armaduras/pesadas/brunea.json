@@ -1,0 +1,17 @@
+{
+  "id": "brunea",
+  "name": "Brunea",
+  "type": "armadura",
+  "categoria": "pesada",
+  "preco": 50,
+  "bonus_defesa": 5,
+  "penalidade_armadura": -2,
+  "espacos": 5,
+  "especial": {
+    "sem_destreza_defesa": true,
+    "reducao_deslocamento": -3
+  },
+  "vestir_remover": "5_minutos",
+  "dormir_fatigado": true,
+  "description": "Colete de couro coberto com plaquetas de metal sobrepostas, como escamas de um peixe. Por ser barata de produzir, é a armadura mais utilizada no Reinado por soldados de infantaria e guardas de castelo."
+}

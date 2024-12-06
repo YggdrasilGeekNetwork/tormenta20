@@ -1,0 +1,17 @@
+{
+  "id": "martelo_de_guerra",
+  "name": "Martelo de Guerra",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 12,
+  "dano": "1d8",
+  "critico": "x3",
+  "alcance": null,
+  "tipo_dano": "impacto",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": null,
+  "description": "Outra ferramenta adaptada para combate, esta é a arma favorita de quase todos os anões que não usam machados."
+}

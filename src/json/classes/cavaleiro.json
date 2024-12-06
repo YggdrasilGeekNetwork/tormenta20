@@ -1,0 +1,87 @@
+{
+  "id": "cavaleiro",
+  "name": "Cavaleiro",
+  "hit_points": {
+    "initial": 20,
+    "per_level": 5
+  },
+  "mana_points": {
+    "per_level": 3
+  },
+  "skills": {
+    "mandatory": [
+      { "name": "Fortitude", "attribute": "Con" },
+      { "name": "Luta", "attribute": "For" }
+    ],
+    "choose_amount": 2,
+    "choose_from": [
+      { "name": "Adestramento", "attribute": "Car" },
+      { "name": "Atletismo", "attribute": "For" },
+      { "name": "Cavalgar", "attribute": "Des" },
+      { "name": "Diplomacia", "attribute": "Car" },
+      { "name": "Guerra", "attribute": "Int" },
+      { "name": "Iniciativa", "attribute": "Des" },
+      { "name": "Intimidação", "attribute": "Car" },
+      { "name": "Nobreza", "attribute": "Int" },
+      { "name": "Percepção", "attribute": "Sab" },
+      { "name": "Vontade", "attribute": "Sab" }
+    ]
+  },
+  "proficiencies": {
+    "weapons": ["marciais"],
+    "armors": ["pesadas"],
+    "shields": true
+  },
+  "abilities": [
+    "codigo_de_honra",
+    "baluarte",
+    "duelo",
+    "caminho_do_cavaleiro",
+    "resoluto",
+    "bravura_final"
+  ],
+  "powers": [
+    "armadura_de_honra",
+    "aumento_de_atributo",
+    "autoridade_feudal",
+    "desprezar_os_covardes",
+    "escudeiro",
+    "especializacao_em_armadura",
+    "estandarte",
+    "etiqueta",
+    "investida_destruidora",
+    "montaria_corajosa",
+    "pajem",
+    "postura_de_combate_ariete_implacavel",
+    "postura_de_combate_castigo_de_ferro",
+    "postura_de_combate_foco_de_batalha",
+    "postura_de_combate_muralha_intrasponivel",
+    "postura_de_combate_provocacao_petulante",
+    "postura_de_combate_torre_inabalavel",
+    "solidez",
+    "titulo",
+    "torre_armada"
+  ],
+  "progression": [
+    { "level": 1, "abilities": ["baluarte", "codigo_de_honra"] },
+    { "level": 2, "abilities": ["duelo", "poder_de_cavaleiro"] },
+    { "level": 3, "abilities": ["poder_de_cavaleiro"] },
+    { "level": 4, "abilities": ["poder_de_cavaleiro"] },
+    { "level": 5, "abilities": ["caminho_do_cavaleiro", "poder_de_cavaleiro"] },
+    { "level": 6, "abilities": ["poder_de_cavaleiro"] },
+    { "level": 7, "abilities": ["poder_de_cavaleiro"] },
+    { "level": 8, "abilities": ["poder_de_cavaleiro"] },
+    { "level": 9, "abilities": ["poder_de_cavaleiro"] },
+    { "level": 10, "abilities": ["poder_de_cavaleiro"] },
+    { "level": 11, "abilities": ["poder_de_cavaleiro", "resoluto"] },
+    { "level": 12, "abilities": ["poder_de_cavaleiro"] },
+    { "level": 13, "abilities": ["poder_de_cavaleiro"] },
+    { "level": 14, "abilities": ["poder_de_cavaleiro"] },
+    { "level": 15, "abilities": ["poder_de_cavaleiro"] },
+    { "level": 16, "abilities": ["poder_de_cavaleiro"] },
+    { "level": 17, "abilities": ["poder_de_cavaleiro"] },
+    { "level": 18, "abilities": ["poder_de_cavaleiro"] },
+    { "level": 19, "abilities": ["poder_de_cavaleiro"] },
+    { "level": 20, "abilities": ["bravura_final", "poder_de_cavaleiro"] }
+  ]
+}

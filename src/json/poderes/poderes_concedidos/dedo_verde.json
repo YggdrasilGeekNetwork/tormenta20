@@ -1,0 +1,14 @@
+{
+  "id": "dedo_verde",
+  "name": "Dedo Verde",
+  "deities": ["allihanna"],
+  "description": "Você aprende e pode lançar Controlar Plantas. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+  "effects": {
+    "type": "passive",
+    "grants_spell": "Controlar Plantas",
+    "spell_cost_reduction": {
+      "spell": "Controlar Plantas",
+      "reduction": 1
+    }
+  }
+}

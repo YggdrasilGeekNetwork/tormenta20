@@ -1,0 +1,17 @@
+{
+  "id": "montante",
+  "name": "Montante",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 50,
+  "dano": "2d6",
+  "critico": "19",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 2,
+  "habilidades": [],
+  "especial": null,
+  "description": "Enorme e pesada, esta espada de 1,5m de comprimento é uma arma poderosa."
+}

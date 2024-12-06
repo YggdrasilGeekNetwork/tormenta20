@@ -1,0 +1,8 @@
+{
+  "id": "dom_da_imortalidade",
+  "name": "Dom da Imortalidade",
+  "deities": ["thyatis"],
+  "description": "Você é imortal. Sempre que morre, não importando o motivo, volta à vida após 3d6 dias. Apenas paladinos podem escolher este poder. Um personagem pode ter Dom da Imortalidade ou Dom da Ressurreição, mas não ambos.",
+  "prerequisites": ["classe paladino"],
+  "exclusive_with": ["dom_da_ressurreicao"]
+}

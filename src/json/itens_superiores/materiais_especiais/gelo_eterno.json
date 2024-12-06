@@ -1,0 +1,33 @@
+{
+  "id": "gelo_eterno",
+  "name": "Gelo Eterno",
+  "type": "material_especial",
+  "aparencia": "Gelo que nunca derrete.",
+  "origem": "Produzido nas gélidas Montanhas Uivantes.",
+  "precos_adicionais": {
+    "arma": 600,
+    "armadura_leve": 1500,
+    "armadura_pesada": 3000,
+    "escudo": 1500,
+    "esoterico": 3000
+  },
+  "efeitos": {
+    "arma": {
+      "dano_extra": 2,
+      "tipo_dano": "frio"
+    },
+    "armadura_leve": {
+      "reducao_fogo": 5
+    },
+    "armadura_pesada": {
+      "reducao_fogo": 10
+    },
+    "escudo": {
+      "reducao_fogo": 5
+    },
+    "esoterico": {
+      "magia_frio_dano": "rolar novamente qualquer resultado 1 na rolagem de dano"
+    }
+  },
+  "description": "As gélidas Montanhas Uivantes produzem gelo que nunca derrete. Expedições de aventureiros exploram essa região glacial perigosa à caça deste material fantástico."
+}

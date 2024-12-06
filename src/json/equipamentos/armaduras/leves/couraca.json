@@ -1,0 +1,13 @@
+{
+  "id": "couraca",
+  "name": "Couraça",
+  "type": "armadura",
+  "categoria": "leve",
+  "preco": 500,
+  "bonus_defesa": 5,
+  "penalidade_armadura": -4,
+  "espacos": 2,
+  "especial": null,
+  "vestir_remover": "acao_completa",
+  "description": "A mais robusta das armaduras leves, formada por uma placa metálica que protege o peito e as costas, presa sobre um casaco de couro."
+}

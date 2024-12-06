@@ -1,0 +1,12 @@
+{
+  "id": "escudo_magico",
+  "name": "Escudo Mágico",
+  "deities": ["wynna"],
+  "description": "Quando lança uma magia, você recebe um bônus na Defesa igual ao círculo da magia lançada até o início do seu próximo turno.",
+  "effects": {
+    "type": "passive",
+    "trigger": "ao lançar uma magia",
+    "defense_bonus": "igual ao círculo da magia",
+    "duration": "até o início do próximo turno"
+  }
+}

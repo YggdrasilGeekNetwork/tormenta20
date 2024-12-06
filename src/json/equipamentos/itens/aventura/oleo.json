@@ -1,0 +1,19 @@
+{
+  "id": "oleo",
+  "name": "Óleo",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 0.1,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "uso": "empunhado",
+  "acao": "padrao",
+  "alcance": "curto",
+  "efeito": {
+    "condicao": "se sofrer dano de fogo até o fim do próximo turno",
+    "dano_extra": "1d6",
+    "tipo_dano": "fogo",
+    "em_chamas": true
+  },
+  "description": "Um frasco com óleo inflamável para lampião. Você pode atirar o frasco em uma criatura em alcance curto com uma ação padrão. Se ela sofrer dano de fogo até o fim do seu próximo turno, sofre 1d6 pontos de dano extra e fica em chamas."
+}

@@ -1,0 +1,20 @@
+{
+  "id": "fe_guerreira",
+  "name": "Fé Guerreira",
+  "deities": ["arsenal"],
+  "description": "Você pode usar Sabedoria para Guerra (em vez de Inteligência). Além disso, em combate, quando vai fazer um teste de perícia, você pode gastar 2 PM para substituí-lo por um teste de Guerra (exceto para testes de ataque).",
+  "effects": {
+    "type": "passive",
+    "skill_attribute_substitution": {
+      "skill": "Guerra",
+      "original_attribute": "Inteligência",
+      "new_attribute": "Sabedoria"
+    },
+    "active_ability": {
+      "cost": "2 PM",
+      "trigger": "em combate, ao fazer teste de perícia",
+      "benefit": "substitui por teste de Guerra",
+      "exception": "exceto testes de ataque"
+    }
+  }
+}

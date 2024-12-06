@@ -1,0 +1,15 @@
+{
+  "id": "luneta",
+  "name": "Luneta",
+  "type": "item",
+  "categoria": "ferramenta",
+  "preco": 100,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "efeito": {
+    "bonus_percepcao": 5,
+    "condicao": "observar coisas em alcance longo ou além"
+  },
+  "description": "Este instrumento valioso consiste de um cilindro metálico com duas lentes. Fornece +5 em testes de Percepção para observar coisas em alcance longo ou além."
+}

@@ -1,0 +1,27 @@
+{
+  "id": "fogo_alquimico",
+  "name": "Fogo Alquímico",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 10,
+  "espacos": 0.5,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "acao": "padrao",
+  "alcance": "curto",
+  "ataque": "toque_a_distancia",
+  "efeito": {
+    "dano": "1d6",
+    "tipo_dano": "fogo",
+    "em_chamas": {
+      "dano_por_rodada": "1d6",
+      "apagar": {
+        "acao": "completa",
+        "teste": "Reflexos",
+        "cd": 15
+      }
+    }
+  },
+  "description": "Um composto químico volátil e inflamável. Você pode gastar uma ação padrão para atirar o frasco em uma criatura ou objeto em alcance curto, fazendo um ataque à distância de toque. Se acertar, o alvo sofre 1d6 pontos de dano de fogo e fica em chamas, sofrendo mais 1d6 pontos de dano de fogo por rodada até extinguir as chamas com uma ação completa e um teste de Reflexos (CD 15)."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "espada_curta",
+  "name": "Espada Curta",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "leve",
+  "preco": 10,
+  "dano": "1d6",
+  "critico": "19",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": null,
+  "description": "O tipo mais comum de espada, usada por guardas ou como arma secundária de guerreiros mais capazes. Mede entre 40 e 50cm."
+}

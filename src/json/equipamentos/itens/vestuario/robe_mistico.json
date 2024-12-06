@@ -1,0 +1,14 @@
+{
+  "id": "robe_mistico",
+  "name": "Robe Místico",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 50,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_misticismo": 1
+  },
+  "description": "Um manto longo, adornado com temas arcanos. Fornece +1 em Misticismo."
+}

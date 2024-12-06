@@ -1,0 +1,42 @@
+{
+  "id": "estadia",
+  "name": "Estadia",
+  "type": "servico",
+  "categoria": "servico",
+  "periodo": "noite",
+  "inclui": ["refeicao_comum"],
+  "opcoes": [
+    {
+      "id": "comum",
+      "name": "Comum",
+      "preco": 0.5,
+      "recuperacao": {
+        "pv": "1 por nível",
+        "pm": "1 por nível"
+      },
+      "description": "Um espaço no salão comunal. Se tiver sorte, o taverneiro deixará a lareira acesa para que você não passe frio. Pelo menos não ficará sozinho — pulgas e ratos lhe farão companhia. A refeição consiste de pão, sopa e água."
+    },
+    {
+      "id": "confortavel",
+      "name": "Confortável",
+      "preco": 4,
+      "recuperacao": {
+        "pv": "2 por nível",
+        "pm": "2 por nível"
+      },
+      "description": "Um quarto pequeno, mas privativo, com uma cama com colchão de palha e um baú para guardar seus pertences. A refeição inclui pão, queijo, cozido de galinha com legumes e cerveja ou vinho (aguado)."
+    },
+    {
+      "id": "luxuosa",
+      "name": "Luxuosa",
+      "preco": 20,
+      "recuperacao": {
+        "pv": "3 por nível",
+        "pm": "3 por nível"
+      },
+      "disponibilidade": "cidades e metrópoles",
+      "description": "Um quarto grande, com colchão de algodão ou penas, cortinas nas janelas, uma bacia de água quente para banho e outros luxos. A refeição inclui carne, frutas, doces e uma taça de vinho de boa safra. Acomodações desta categoria estão disponíveis apenas nas melhores estalagens, normalmente apenas em cidades e metrópoles."
+    }
+  ],
+  "description": "Hospedagem em estalagem ou taverna. Os preços são por noite, incluem uma refeição comum e determinam sua recuperação de PV e PM."
+}

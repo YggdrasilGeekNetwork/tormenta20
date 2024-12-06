@@ -1,0 +1,11 @@
+{
+  "id": "poderoso",
+  "name": "Poderoso",
+  "type": "melhoria",
+  "categoria": "esoterico",
+  "efeito": {
+    "aumento_cd_magias": 1
+  },
+  "prerequisitos": null,
+  "description": "A CD para resistir a suas magias aumenta em +1."
+}

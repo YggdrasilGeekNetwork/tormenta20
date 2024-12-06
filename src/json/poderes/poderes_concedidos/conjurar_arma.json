@@ -1,0 +1,19 @@
+{
+  "id": "conjurar_arma",
+  "name": "Conjurar Arma",
+  "deities": ["arsenal"],
+  "description": "Você pode gastar 1 PM para invocar uma arma corpo a corpo ou de arremesso com a qual seja proficiente. A arma surge em sua mão, fornece +1 em testes de ataque e rolagens de dano, é considerada mágica e dura pela cena. Você não pode criar armas de disparo, mas pode criar 20 munições.",
+  "effects": {
+    "type": "active",
+    "cost": "1 PM",
+    "summon": {
+      "type": "arma corpo a corpo ou de arremesso",
+      "condition": "proficiente",
+      "attack_bonus": 1,
+      "damage_bonus": 1,
+      "properties": ["mágica"],
+      "duration": "cena"
+    },
+    "alternative": "pode criar 20 munições"
+  }
+}

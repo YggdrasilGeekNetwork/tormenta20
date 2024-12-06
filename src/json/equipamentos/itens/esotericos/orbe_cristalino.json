@@ -1,0 +1,15 @@
+{
+  "id": "orbe_cristalino",
+  "name": "Orbe Cristalino",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 750,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "aumento_limite_pm_magias_arcanas": 1
+  },
+  "description": "Esta esfera perfeita concentra seu poder mágico. O limite de PM que você pode gastar em magias arcanas aumenta em +1."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "aristocrata",
+  "name": "Aristocrata",
+  "description": "Você nasceu na nobreza. Recebeu educação sofisticada em assuntos acadêmicos, política mercantil, torneios de cavalaria ou mesmo conjuração arcana, dependendo das tradições em sua linhagem e desejos de seus pais. Você ainda procura cumprir seus compromissos como nobre? Luta para conciliar as expectativas da família com a vida de aventuras? Ou cortou totalmente seus laços com o passado, mantendo apenas alguns pertences valiosos e contatos úteis?",
+  "items": ["Joia de família no valor de T$ 300", "Traje da corte"],
+  "benefits": {
+    "skills": ["Diplomacia", "Enganação", "Nobreza"],
+    "powers": ["Comandar", "Sangue Azul"]
+  },
+  "unique_power": "sangue_azul"
+}

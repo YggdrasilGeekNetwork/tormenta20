@@ -1,0 +1,35 @@
+{
+  "id": "adamante",
+  "name": "Adamante",
+  "type": "material_especial",
+  "aparencia": "Metal escuro, fosco e mais denso que o aço.",
+  "origem": "Encontrado apenas em meteoritos (também chamado de 'ferro-meteórico').",
+  "precos_adicionais": {
+    "arma": 3000,
+    "armadura_leve": 6000,
+    "armadura_pesada": 18000,
+    "escudo": 6000,
+    "esoterico": 3000
+  },
+  "efeitos": {
+    "arma": {
+      "aumento_dano": "um_passo"
+    },
+    "armadura_leve": {
+      "reducao_dano": 2
+    },
+    "armadura_pesada": {
+      "reducao_dano": 5
+    },
+    "escudo": {
+      "reducao_dano": 2
+    },
+    "esoterico": {
+      "magia_dano": {
+        "custo_extra_pm": 1,
+        "efeito": "rolar novamente qualquer resultado 1 na rolagem de dano"
+      }
+    }
+  },
+  "description": "Encontrado apenas em meteoritos (e por isso também chamado de 'ferro-meteórico'), o adamante é um metal escuro, fosco e mais denso que o aço."
+}

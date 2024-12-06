@@ -1,0 +1,13 @@
+{
+  "id": "cultura_exotica",
+  "name": "Cultura Exótica",
+  "origin": "forasteiro",
+  "description": "Por sua diferente visão de mundo, você encontra soluções inesperadas. Quando vai fazer um teste de perícia que requer treinamento, você pode gastar 1 PM para ignorar esse requerimento para esse teste.",
+  "effects": {
+    "active_ability": {
+      "cost": { "pm": 1 },
+      "effect": "ignorar requerimento de treinamento em perícia",
+      "duration": "um teste"
+    }
+  }
+}

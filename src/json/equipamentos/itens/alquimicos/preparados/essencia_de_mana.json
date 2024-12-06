@@ -1,0 +1,16 @@
+{
+  "id": "essencia_de_mana",
+  "name": "Essência de Mana",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 50,
+  "espacos": 0.5,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "acao": "padrao",
+  "efeito": {
+    "recupera_pm": "1d8+1"
+  },
+  "description": "Um destilado azul brilhante. Quando você bebe este líquido, recupera 1d8+1 pontos de mana."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "veste_de_seda",
+  "name": "Veste de Seda",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 25,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_reflexos": 1
+  },
+  "description": "Esta roupa leve e elegante deixa seus movimentos os mais livres possíveis. Fornece +1 em Reflexos."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "limites_uso",
+  "name": "Limites de Uso de Itens",
+  "description": "Regras sobre quantos itens você pode usar simultaneamente.",
+  "empunhados": {
+    "maximo": 2,
+    "descricao": "Você pode empunhar no máximo dois itens ao mesmo tempo (um em cada mão).",
+    "acoes": {
+      "guardar": "acao_movimento",
+      "largar": "acao_livre"
+    }
+  },
+  "vestidos": {
+    "maximo": 4,
+    "descricao": "Você pode receber os benefícios de no máximo quatro itens vestidos simultaneamente.",
+    "acoes": {
+      "vestir": "acao_movimento",
+      "despir": "acao_movimento"
+    },
+    "excecoes": ["roupas sem benefício mecânico não contam"]
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "passagem_de_navio",
+  "name": "Passagem de Navio",
+  "origin": "marujo",
+  "description": "Você consegue transporte marítimo para você e seus aliados, sem custos, desde que todos paguem com trabalho (passar em pelo menos um teste de perícia adequado durante a viagem).",
+  "effects": {
+    "social_benefits": {
+      "free_transport": "marítimo",
+      "includes_allies": true,
+      "condition": "passar em pelo menos um teste de perícia adequado durante a viagem"
+    }
+  }
+}

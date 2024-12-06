@@ -1,0 +1,10 @@
+{
+  "id": "cura_gentil",
+  "name": "Cura Gentil",
+  "deities": ["lena"],
+  "description": "Você soma seu Carisma aos PV restaurados por seus efeitos mágicos de cura.",
+  "effects": {
+    "type": "passive",
+    "healing_bonus": "Carisma"
+  }
+}

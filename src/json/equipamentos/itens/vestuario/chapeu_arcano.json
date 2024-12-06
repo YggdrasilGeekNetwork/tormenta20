@@ -1,0 +1,15 @@
+{
+  "id": "chapeu_arcano",
+  "name": "Chapéu Arcano",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 50,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "requer": "habilidade_caminho_do_arcanista",
+  "efeito": {
+    "bonus_pm": 1
+  },
+  "description": "Com pinturas e bordados de símbolos místicos, este chapéu pontudo ajuda a canalizar energias mágicas. Ele fornece +1 ponto de mana, mas apenas se você possuir a habilidade de classe Caminho do Arcanista."
+}

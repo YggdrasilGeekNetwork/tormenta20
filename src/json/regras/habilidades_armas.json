@@ -1,0 +1,37 @@
+{
+  "id": "habilidades_armas",
+  "name": "Habilidades de Armas",
+  "description": "Algumas armas possuem uma ou mais habilidades especiais.",
+  "habilidades": [
+    {
+      "id": "adaptavel",
+      "name": "Adaptável",
+      "description": "Uma arma de uma mão com esta habilidade pode ser usada com as duas mãos para aumentar seu dano em um passo."
+    },
+    {
+      "id": "agil",
+      "name": "Ágil",
+      "description": "Pode ser usada com Acuidade com Arma, mesmo não sendo uma arma leve."
+    },
+    {
+      "id": "alongada",
+      "name": "Alongada",
+      "description": "Dobra o alcance natural do atacante, mas não permite atacar um adversário adjacente."
+    },
+    {
+      "id": "desbalanceada",
+      "name": "Desbalanceada",
+      "description": "Impõe uma penalidade de -2 em testes de ataque."
+    },
+    {
+      "id": "dupla",
+      "name": "Dupla",
+      "description": "Pode ser usada com Estilo de Duas Armas para fazer ataques adicionais. Cada ponta conta como uma arma separada para melhorias e encantos."
+    },
+    {
+      "id": "versatil",
+      "name": "Versátil",
+      "description": "Fornece bônus em uma ou mais manobras (cumulativo com outros bônus de itens)."
+    }
+  ]
+}

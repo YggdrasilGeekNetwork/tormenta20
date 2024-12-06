@@ -1,0 +1,11 @@
+{
+  "id": "artista",
+  "name": "Artista",
+  "description": "Você possui talento, nasceu com um \"dom\" — pelo menos é o que outras pessoas gostam de pensar. Será verdade? Ou será que você apenas sentiu atração por certa forma de arte e treinou muito, muito mesmo? Enquanto o artesão fabrica itens \"mundanos\", o artista produz entretenimento, alimento para o coração e a alma. Talvez você apenas saiba entoar belas canções, aprendidas na infância com pais amorosos, ou ouvindo fadas na floresta. Ou talvez seja um ator ou dançarino formado em alguma escola de artes prestigiada.",
+  "items": ["Estojo de disfarces ou um instrumento musical a sua escolha"],
+  "benefits": {
+    "skills": ["Atuação", "Enganação"],
+    "powers": ["Atraente", "Dom Artístico", "Sortudo", "Torcida"]
+  },
+  "unique_power": "dom_artistico"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "machado_anao",
+  "name": "Machado Anão",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 30,
+  "dano": "1d10",
+  "critico": "x3",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "uso_marcial_duas_maos": true
+  },
+  "description": "A arma preferida de onze entre dez guerreiros anões. Um machado anão é muito grande para ser usado com uma só mão sem treinamento especial; por isso é uma arma exótica. Ele pode ser usado como uma arma marcial de duas mãos."
+}

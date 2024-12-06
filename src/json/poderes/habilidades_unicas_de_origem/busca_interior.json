@@ -1,0 +1,13 @@
+{
+  "id": "busca_interior",
+  "name": "Busca Interior",
+  "origin": "eremita",
+  "description": "Quando você e seus companheiros estão diante de um mistério, incapazes de prosseguir, você pode gastar 1 PM para meditar sozinho durante algum tempo e receber uma dica do mestre.",
+  "effects": {
+    "active_ability": {
+      "cost": { "pm": 1 },
+      "trigger": "diante de um mistério",
+      "effect": "receber uma dica do mestre"
+    }
+  }
+}

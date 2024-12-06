@@ -1,0 +1,13 @@
+{
+  "id": "prato_do_aventureiro",
+  "name": "Prato do Aventureiro",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 1,
+  "espacos": 0.5,
+  "efeito": {
+    "recuperacao_pv_bonus": "+1 por nível",
+    "aplicacao": "próxima noite de sono"
+  },
+  "description": "Um cozido de galinha com legumes, esta é uma refeição simples, mas nutritiva. Em sua próxima noite de sono, você aumenta a sua recuperação de pontos de vida em +1 por nível."
+}

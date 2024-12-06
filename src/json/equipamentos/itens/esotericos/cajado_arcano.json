@@ -1,0 +1,20 @@
+{
+  "id": "cajado_arcano",
+  "name": "Cajado Arcano",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 1000,
+  "espacos": 2,
+  "cd_fabricacao": 20,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "maos": 2,
+  "efeito": {
+    "aumento_limite_pm_magias_arcanas": 1,
+    "aumento_cd_magias_arcanas": 1
+  },
+  "como_arma": {
+    "usa_estatisticas": "bordao"
+  },
+  "description": "Um cajado típico, feito de madeira de boa qualidade e entalhado com runas. O limite de PM que você pode gastar em magias arcanas e a CD para resistir a elas aumentam em +1. Para fornecer seus benefícios, um cajado precisa ser empunhado com as duas mãos. Ele pode ser usado como arma, com as estatísticas de um bordão."
+}

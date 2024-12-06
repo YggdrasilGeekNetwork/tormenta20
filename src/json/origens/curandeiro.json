@@ -1,0 +1,11 @@
+{
+  "id": "curandeiro",
+  "name": "Curandeiro",
+  "description": "Que bom seria se a cura milagrosa dos clérigos estivesse ao alcance de todos! Talvez você tenha sido ajudante do curandeiro da vila, testemunhando quando ele tratava doenças e lesões sem conjurar qualquer magia. Ou teve um estudo formal e sofisticado de medicina no Colégio Real de Médicos em Salistick. De qualquer modo, você é treinado em curar com remédios e tratamentos naturais — algo sempre útil, mesmo quando há um clérigo por perto.",
+  "items": ["Bálsamo restaurador x2", "Maleta de medicamentos"],
+  "benefits": {
+    "skills": ["Cura", "Vontade"],
+    "powers": ["Medicina", "Médico de Campo", "Venefício"]
+  },
+  "unique_power": "medico_de_campo"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "harmonizada",
+  "name": "Harmonizada",
+  "type": "melhoria",
+  "categoria": "arma",
+  "efeito": {
+    "reducao_custo_pm_habilidade": 1,
+    "habilidade_tipo": "ativada ao fazer ataque ou usar ação agredir"
+  },
+  "prerequisitos": ["qualquer_outra_melhoria"],
+  "escolha_na_aplicacao": "habilidade",
+  "description": "A arma foi banhada em óleos alquímicos que a deixaram sintonizada com a aura de seu usuário. Escolha uma habilidade ativada ao se fazer um ataque ou usar a ação agredir e que custe pontos de mana. Esta habilidade tem seu custo em PM reduzido em –1 se utilizada com esta arma."
+}

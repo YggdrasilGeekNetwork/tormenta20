@@ -1,0 +1,11 @@
+{
+  "id": "selvagem",
+  "name": "Selvagem",
+  "description": "Você nasceu em uma tribo de bárbaros incultos ou tem uma origem bem mais exótica. Perdeu-se dos pais verdadeiros em alguma região remota, sobrevivendo graças aos cuidados de um eremita, ou criado por animais, ou por pura bondade dos deuses. Você pode nem mesmo ter nascido de pais humanoides — talvez seja cria de dragões, demônios ou deuses, com poderes a serem revelados no momento certo. Será que você ainda teme a civilização, assustando-se com uma simples fogueira? Ou já aprendeu algumas coisas, graças a seus novos companheiros?",
+  "items": ["Uma arma simples", "Um pequeno animal de estimação como um pássaro ou esquilo"],
+  "benefits": {
+    "skills": ["Percepção", "Reflexos", "Sobrevivência"],
+    "powers": ["Lobo Solitário", "Vida Rústica", "Vitalidade"]
+  },
+  "unique_power": "vida_rustica"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "tacape",
+  "name": "Tacape",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 0,
+  "dano": "1d10",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "impacto",
+  "espacos": 2,
+  "habilidades": [],
+  "especial": null,
+  "description": "Versão maior e/ou com pregos de uma clava. Usado por bárbaros e humanoides bestiais, não é uma arma elegante, mas faz o serviço."
+}

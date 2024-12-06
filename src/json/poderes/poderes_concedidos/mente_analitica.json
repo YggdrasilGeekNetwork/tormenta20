@@ -1,0 +1,16 @@
+{
+  "id": "mente_analitica",
+  "name": "Mente Analítica",
+  "deities": ["tanna_toh"],
+  "description": "Você recebe +2 em Intuição, Investigação e Vontade.",
+  "effects": {
+    "type": "passive",
+    "skill_bonuses": [
+      {"skill": "Intuição", "bonus": 2},
+      {"skill": "Investigação", "bonus": 2}
+    ],
+    "save_bonuses": [
+      {"save": "Vontade", "bonus": 2}
+    ]
+  }
+}

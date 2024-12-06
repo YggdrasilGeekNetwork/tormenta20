@@ -1,0 +1,14 @@
+{
+  "id": "capa_esvoacante",
+  "name": "Capa Esvoaçante",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 25,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_enganacao": 1
+  },
+  "description": "Favorita entre heróis ousados, esta capa de seda produz movimentos amplos e chamativos, que fornecem +1 em Enganação."
+}

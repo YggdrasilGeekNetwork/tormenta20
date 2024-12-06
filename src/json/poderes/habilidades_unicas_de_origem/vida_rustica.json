@@ -1,0 +1,13 @@
+{
+  "id": "vida_rustica",
+  "name": "Vida Rústica",
+  "origin": "selvagem",
+  "description": "Você come coisas que fariam um avestruz vomitar (sendo imune a efeitos prejudiciais de itens ingeríveis) e também consegue descansar nos lugares mais desconfortáveis (mesmo dormindo ao relento, sua recuperação de PV e PM nunca é inferior a seu próprio nível).",
+  "effects": {
+    "immunities": ["efeitos prejudiciais de itens ingeríveis"],
+    "recovery_minimum": {
+      "pv": "nível",
+      "pm": "nível"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "liberdade_divina",
+  "name": "Liberdade Divina",
+  "deities": ["valkaria"],
+  "description": "Você pode gastar 2 PM para receber imunidade a efeitos de movimento por uma rodada.",
+  "effects": {
+    "type": "active",
+    "cost": "2 PM",
+    "duration": "1 rodada",
+    "immunities": ["efeitos de movimento"]
+  }
+}

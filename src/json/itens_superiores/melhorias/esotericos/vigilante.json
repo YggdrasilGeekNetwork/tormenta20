@@ -1,0 +1,11 @@
+{
+  "id": "vigilante",
+  "name": "Vigilante",
+  "type": "melhoria",
+  "categoria": "esoterico",
+  "efeito": {
+    "bonus_defesa": 2
+  },
+  "prerequisitos": null,
+  "description": "O item usa parte de sua mana pessoal para gerar um campo que desvia ataques. Você recebe +2 na Defesa."
+}

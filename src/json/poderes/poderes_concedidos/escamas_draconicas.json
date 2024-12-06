@@ -1,0 +1,13 @@
+{
+  "id": "escamas_draconicas",
+  "name": "Escamas Dracônicas",
+  "deities": ["kallyadranoch"],
+  "description": "Você recebe +2 na Defesa e em Fortitude.",
+  "effects": {
+    "type": "passive",
+    "defense_bonus": 2,
+    "save_bonuses": [
+      {"save": "Fortitude", "bonus": 2}
+    ]
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "id": "lanca",
+  "name": "Lança",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 2,
+  "dano": "1d6",
+  "critico": "x2",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "arremessavel": true
+  },
+  "description": "Qualquer arma feita com uma haste de madeira e uma ponta afiada, natural ou metálica. Por sua facilidade de fabricação, é muito comum entre orcs, kobolds, trogloditas e outras raças menos civilizadas. Uma lança pode ser arremessada."
+}

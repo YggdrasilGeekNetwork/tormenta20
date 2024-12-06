@@ -1,0 +1,13 @@
+{
+  "id": "empunhadura_rubra",
+  "name": "Empunhadura Rubra",
+  "description": "Você pode gastar 1 PM para cobrir suas mãos com uma carapaça rubra. Até o final da cena, você recebe +1 em Luta. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui.",
+  "effects": {
+    "type": "active",
+    "cost": "1 PM",
+    "duration": "cena",
+    "skill_bonuses": [
+      {"skill": "Luta", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"}
+    ]
+  }
+}

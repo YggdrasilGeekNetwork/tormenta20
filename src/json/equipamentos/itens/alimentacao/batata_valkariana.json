@@ -1,0 +1,14 @@
+{
+  "id": "batata_valkariana",
+  "name": "Batata Valkariana",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 2,
+  "espacos": 0.5,
+  "efeito": {
+    "bonus": "+1d6",
+    "aplicacao": "um teste a sua escolha",
+    "duracao": "até o fim do dia"
+  },
+  "description": "Batatas cortadas em tiras e mergulhadas em óleo fervente. Gordurentas e pouco nutritivas, são o tipo de prato que só é servido numa metrópole como Valkaria. Apesar disso, são gostosas e deixam qualquer um empolgado. Você recebe +1d6 em um teste a sua escolha realizado até o fim do dia."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "harmonizado",
+  "name": "Harmonizado",
+  "type": "melhoria",
+  "categoria": "esoterico",
+  "efeito": {
+    "reducao_custo_pm_magia": 1
+  },
+  "escolha_na_aplicacao": "magia",
+  "ritual_mudanca": {
+    "tempo": "1 dia",
+    "custo": 100
+  },
+  "prerequisitos": null,
+  "description": "Escolha uma magia. Seu custo diminui em –1 PM. Você pode mudar a magia afetada pelo item com um ritual que exige um dia e T$ 100 em ingredientes."
+}

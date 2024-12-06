@@ -1,0 +1,17 @@
+{
+  "id": "machado_de_batalha",
+  "name": "Machado de Batalha",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 10,
+  "dano": "1d8",
+  "critico": "x3",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": null,
+  "description": "Adaptado do machado de lenhador, este não é um instrumento para corte de árvores, mas sim uma arma capaz de causar ferimentos terríveis."
+}

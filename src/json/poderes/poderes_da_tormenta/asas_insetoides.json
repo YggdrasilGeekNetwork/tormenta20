@@ -1,0 +1,17 @@
+{
+  "id": "asas_insetoides",
+  "name": "Asas Insetoides",
+  "description": "Você pode gastar 1 PM para receber deslocamento de voo 9m até o fim do seu turno. O deslocamento aumenta em +1,5m para cada outro poder da Tormenta que você possui.",
+  "prerequisites": ["quatro outros poderes da Tormenta"],
+  "effects": {
+    "type": "active",
+    "cost": "1 PM",
+    "duration": "até o fim do turno",
+    "movement": {
+      "fly": {
+        "base": "9m",
+        "scaling": "+1,5m por cada outro poder da Tormenta"
+      }
+    }
+  }
+}

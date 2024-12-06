@@ -1,0 +1,18 @@
+{
+  "id": "po_de_cristal",
+  "name": "Pó de Cristal",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 30,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "material": "mineral cristalino puro (quartzo, topázio)",
+  "efeito": {
+    "reducao_custo_pm": 1,
+    "escola": "encantamento"
+  },
+  "description": "Uma pitada de pó de um mineral cristalino puro, como quartzo ou topázio. Diminui o custo de magias de encantamento em –1 PM."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "gorro_de_ervas",
+  "name": "Gorro de Ervas",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 75,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_vontade": 1
+  },
+  "description": "Formado por duas camadas de tecido, este chapéu é preenchido com ervas preparadas para auxiliar a concentração do usuário. Fornece +1 em Vontade."
+}

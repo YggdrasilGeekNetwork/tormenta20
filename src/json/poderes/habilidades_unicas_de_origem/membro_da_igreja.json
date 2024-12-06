@@ -1,0 +1,14 @@
+{
+  "id": "membro_da_igreja",
+  "name": "Membro da Igreja",
+  "origin": "acolito",
+  "description": "Você consegue hospedagem confortável e informação em qualquer templo de sua divindade, para você e seus aliados.",
+  "effects": {
+    "social_benefits": {
+      "lodging": "confortável",
+      "information": true,
+      "location": "templos da divindade",
+      "includes_allies": true
+    }
+  }
+}

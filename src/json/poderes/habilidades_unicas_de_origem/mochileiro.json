@@ -1,0 +1,9 @@
+{
+  "id": "mochileiro",
+  "name": "Mochileiro",
+  "origin": "nomade",
+  "description": "Seu limite de carga aumenta em 5 espaços.",
+  "effects": {
+    "carry_capacity_bonus": 5
+  }
+}

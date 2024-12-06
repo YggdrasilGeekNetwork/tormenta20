@@ -1,0 +1,12 @@
+{
+  "id": "macica",
+  "name": "Maciça",
+  "type": "melhoria",
+  "categoria": "arma",
+  "efeito": {
+    "aumento_multiplicador_critico": 1
+  },
+  "prerequisitos": null,
+  "incompativel_com": ["precisa"],
+  "description": "A arma é feita com material denso, fazendo com que seus golpes tenham impacto terrível. O multiplicador de crítico da arma aumenta em 1 ponto. Uma arma não pode ser maciça e precisa."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mochila_de_aventureiro",
+  "name": "Mochila de Aventureiro",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 50,
+  "espacos": 0,
+  "cd_fabricacao": 15,
+  "uso": "vestido",
+  "efeito": {
+    "aumento_capacidade_carga": 2
+  },
+  "description": "Feita de couro resistente, esta mochila é repleta de bolsos para prender equipamento. Vestir uma mochila de aventureiro aumenta sua capacidade de carga em 2 espaços (ela própria não gasta um espaço)."
+}

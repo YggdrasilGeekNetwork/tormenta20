@@ -1,0 +1,13 @@
+{
+  "id": "sorte_dos_loucos",
+  "name": "Sorte dos Loucos",
+  "deities": ["nimb"],
+  "description": "Quando faz um teste, você pode pagar 1 PM para rolá-lo novamente (você pode fazer isso mais de uma vez por teste). Se ainda assim falhar, perde 1d6 PM para cada vez que utilizou este poder neste teste.",
+  "effects": {
+    "type": "active",
+    "cost": "1 PM por reroll",
+    "action": "livre",
+    "benefit": "rolar novamente um teste",
+    "penalty_on_failure": "perde 1d6 PM por uso se falhar no teste"
+  }
+}

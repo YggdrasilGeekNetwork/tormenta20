@@ -1,0 +1,9 @@
+{
+  "id": "alpinista_social",
+  "name": "Alpinista Social",
+  "origin": "charlatao",
+  "description": "Você pode substituir testes de Diplomacia por testes de Enganação.",
+  "effects": {
+    "skill_substitutions": [{ "original": "Diplomacia", "substitute": "Enganação" }]
+  }
+}

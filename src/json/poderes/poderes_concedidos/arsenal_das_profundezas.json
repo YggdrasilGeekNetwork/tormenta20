@@ -1,0 +1,14 @@
+{
+  "id": "arsenal_das_profundezas",
+  "name": "Arsenal das Profundezas",
+  "deities": ["oceano"],
+  "description": "Você recebe +2 nas rolagens de dano com azagaias, lanças e tridentes e seu multiplicador de crítico com essas armas aumenta em +1.",
+  "effects": {
+    "type": "passive",
+    "weapon_bonuses": {
+      "weapons": ["azagaia", "lança", "tridente"],
+      "damage_bonus": 2,
+      "critical_multiplier_bonus": 1
+    }
+  }
+}

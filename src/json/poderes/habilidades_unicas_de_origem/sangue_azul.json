@@ -1,0 +1,12 @@
+{
+  "id": "sangue_azul",
+  "name": "Sangue Azul",
+  "origin": "aristocrata",
+  "description": "Você tem alguma influência política, suficiente para ser tratado com mais leniência pela guarda, conseguir uma audiência com o nobre local etc.",
+  "effects": {
+    "social_benefits": {
+      "political_influence": true,
+      "benefits": ["leniência pela guarda", "audiência com nobres locais"]
+    }
+  }
+}

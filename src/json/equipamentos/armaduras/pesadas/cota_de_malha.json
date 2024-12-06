@@ -1,0 +1,17 @@
+{
+  "id": "cota_de_malha",
+  "name": "Cota de Malha",
+  "type": "armadura",
+  "categoria": "pesada",
+  "preco": 150,
+  "bonus_defesa": 6,
+  "penalidade_armadura": -2,
+  "espacos": 5,
+  "especial": {
+    "sem_destreza_defesa": true,
+    "reducao_deslocamento": -3
+  },
+  "vestir_remover": "5_minutos",
+  "dormir_fatigado": true,
+  "description": "Longa veste de anéis metálicos interligados, formando uma malha flexível e resistente, que vai até os joelhos."
+}

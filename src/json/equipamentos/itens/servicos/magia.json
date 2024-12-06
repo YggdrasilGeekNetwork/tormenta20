@@ -1,0 +1,23 @@
+{
+  "id": "servico_magia",
+  "name": "Magia (Serviço)",
+  "type": "servico",
+  "categoria": "servico",
+  "condicao": "situação comum, sem risco para o conjurador",
+  "restricao": "Conjuradores não aceitam acompanhar aventureiros",
+  "opcoes": [
+    {
+      "circulo": 1,
+      "preco": 10
+    },
+    {
+      "circulo": 2,
+      "preco": 90
+    },
+    {
+      "circulo": 3,
+      "preco": 360
+    }
+  ],
+  "description": "Este é o preço para lançar uma magia em uma situação comum. Ou seja, você vai até o conjurador e lançar a magia não oferece risco para ele. Se você pedir ao conjurador para acompanhá-lo numa aventura, a resposta padrão será 'não, obrigado'."
+}

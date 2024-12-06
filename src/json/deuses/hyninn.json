@@ -1,0 +1,28 @@
+{
+  "id": "hyninn",
+  "name": "Hyninn",
+  "title": "Deus da Trapaça",
+  "description": "Capaz de enganar até mesmo outros deuses, o ardiloso Deus da Trapaça é uma divindade favorita de foras da lei — seus clérigos atuam como conselheiros, ou até mesmo líderes, em guildas criminosas ou navios piratas. Também é louvado por regentes e mercadores não muito honestos, orando por vantagens ilícitas. No entanto, mesmo pessoas honradas eventualmente simpatizam com Hyninn por sua esperteza, despreocupação e ousadia.",
+  "beliefs_objectives": [
+    "Praticar a astúcia e a esperteza",
+    "Demonstrar que honestidade e sinceridade levam ao fracasso",
+    "Desafiar a lei e a ordem",
+    "Ser vitorioso sem seguir regras",
+    "Fazer aos outros antes que façam a você",
+    "Levar vantagem em tudo"
+  ],
+  "holy_symbol": "Uma adaga atravessando uma máscara, ou uma raposa",
+  "energy": "qualquer",
+  "preferred_weapon": "Adaga",
+  "devotees": {
+    "races": ["hynne", "goblins", "sílfides"],
+    "classes": ["bardos", "bucaneiros", "ladinos", "inventores", "nobres"]
+  },
+  "granted_powers": [
+    "apostar_com_o_trapaceiro",
+    "farsa_do_fingidor",
+    "forma_de_macaco",
+    "golpista_divino"
+  ],
+  "obligations_restrictions": "Um devoto de Hyninn não recusa participação em um golpe, trapaça ou artimanha (o que muitas vezes inclui missões para roubar... hã, resgatar tesouros), exceto quando prejudica seus próprios aliados. O devoto também deve fazer um ato furtivo, ousado ou proibido por dia (ou por sessão de jogo, o que demorar mais), como oferenda a Hyninn. Roubar uma bolsa, enganar um miliciano, invadir o quarto de um nobre... Em termos de jogo, uma ação exigindo um teste de Enganação ou Ladinagem com CD mínima 15 + metade do seu nível."
+}

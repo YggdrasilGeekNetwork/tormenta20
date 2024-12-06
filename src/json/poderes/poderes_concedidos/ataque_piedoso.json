@@ -1,0 +1,13 @@
+{
+  "id": "ataque_piedoso",
+  "name": "Ataque Piedoso",
+  "deities": ["lena", "thyatis"],
+  "description": "Você pode usar armas corpo a corpo para causar dano não letal sem sofrer a penalidade de –5 no teste de ataque.",
+  "effects": {
+    "type": "passive",
+    "removes_penalty": {
+      "action": "causar dano não letal com armas corpo a corpo",
+      "penalty_removed": "-5 no teste de ataque"
+    }
+  }
+}

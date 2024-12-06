@@ -1,0 +1,15 @@
+{
+  "id": "antigo_mestre",
+  "name": "Antigo Mestre",
+  "origin": "seguidor",
+  "description": "Você ainda mantém contato com o herói que costumava servir. Uma vez por aventura, ele surge para ajudá-lo por uma cena. Ele é um parceiro mestre de um tipo a sua escolha (definido ao obter este poder) que não conta em seu limite de aliados.",
+  "effects": {
+    "partner": {
+      "type": "mestre",
+      "type_choice": true,
+      "frequency": "1 vez por aventura",
+      "duration": "uma cena",
+      "counts_limit": false
+    }
+  }
+}

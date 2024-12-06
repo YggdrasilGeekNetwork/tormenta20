@@ -1,0 +1,19 @@
+{
+  "id": "katana",
+  "name": "Katana",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 100,
+  "dano": "1d8/1d10",
+  "critico": "19",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": ["adaptavel", "agil"],
+  "especial": {
+    "uso_marcial_duas_maos": true
+  },
+  "description": "A espada tradicional do samurai tem lâmina levemente curva e apenas um gume. A katana é uma arma adaptável e ágil. É muito grande para ser empunhada com uma só mão sem treinamento especial; por isso, é uma arma exótica. Ela pode ser usada como uma arma marcial de duas mãos."
+}

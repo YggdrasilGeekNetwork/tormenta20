@@ -1,0 +1,19 @@
+{
+  "id": "acido",
+  "name": "Ácido",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 10,
+  "espacos": 0.5,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "acao": "padrao",
+  "alcance": "curto",
+  "ataque": "toque_a_distancia",
+  "efeito": {
+    "dano": "1d6",
+    "tipo_dano": "acido"
+  },
+  "description": "Um frasco de vidro com um preparado corrosivo. Você pode gastar uma ação padrão para atirar o frasco em um alvo em alcance curto, fazendo um ataque à distância de toque. Se acertar, causa 1d6 de dano de ácido."
+}

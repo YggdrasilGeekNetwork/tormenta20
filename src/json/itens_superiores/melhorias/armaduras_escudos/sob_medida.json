@@ -1,0 +1,13 @@
+{
+  "id": "sob_medida",
+  "name": "Sob Medida",
+  "type": "melhoria",
+  "categoria": ["armadura", "escudo"],
+  "efeito": {
+    "reducao_penalidade_armadura": 2,
+    "apenas_usuario_especifico": true,
+    "para_outros": "funciona como ajustada"
+  },
+  "prerequisitos": ["ajustada"],
+  "description": "Embora muitas armaduras sejam feitas especificamente para um usuário, esta passou por um período extenso de ajustes e refinamento, adequando-se com perfeição ao seu corpo. Reduz a penalidade por armadura em 2, mas apenas para o usuário específico (para outros, comporta-se como um item ajustado)."
+}

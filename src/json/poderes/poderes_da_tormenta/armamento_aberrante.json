@@ -1,0 +1,14 @@
+{
+  "id": "armamento_aberrante",
+  "name": "Armamento Aberrante",
+  "description": "Você pode gastar uma ação de movimento e 1 PM para produzir uma versão orgânica de qualquer arma corpo a corpo ou de arremesso com a qual seja proficiente — ela brota do seu braço, ombro ou costas como uma planta grotesca e então se desprende. O dano da arma aumenta em um passo para cada dois outros poderes da Tormenta que você possui. A arma dura pela cena, então se desfaz numa poça de gosma.",
+  "prerequisites": ["outro poder da Tormenta"],
+  "effects": {
+    "type": "active",
+    "cost": "1 PM",
+    "action": "ação de movimento",
+    "creates": "arma corpo a corpo ou de arremesso (proficiente)",
+    "damage_scaling": "+1 passo por cada 2 outros poderes da Tormenta",
+    "duration": "cena"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "bruma_sonolenta",
+  "name": "Bruma Sonolenta",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 150,
+  "espacos": 0.5,
+  "cd_fabricacao": 20,
+  "inoculacao": "inalacao",
+  "efeito": {
+    "falha": {
+      "condicao": "inconsciente"
+    },
+    "sucesso": {
+      "condicao": "enjoada",
+      "duracao": "1 rodada"
+    }
+  },
+  "description": "Um gás sonífero. Inalação, vítima fica inconsciente (enjoada por 1 rodada)."
+}

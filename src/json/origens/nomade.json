@@ -1,0 +1,11 @@
+{
+  "id": "nomade",
+  "name": "Nômade",
+  "description": "Até onde se lembra, você nunca pertenceu a um só lugar. Sua família viajava constantemente, como parte de alguma grande caravana comercial, peregrinação religiosa ou algum povo primitivo que nunca praticou agricultura. Ou talvez suas razões para viajar sejam bastante diferentes e pessoais — após a quase extinção de seu povo, muitos elfos temem criar raízes, enquanto a deusa Valkaria exige que seus devotos se mantenham sempre em viagem. Para você, habituado às estradas e sem laços com nenhuma terra, bastou um pequeno passo para se tornar aventureiro.",
+  "items": ["Bordão", "Equipamento de viagem"],
+  "benefits": {
+    "skills": ["Cavalgar", "Pilotagem", "Sobrevivência"],
+    "powers": ["Lobo Solitário", "Mochileiro", "Sentidos Aguçados"]
+  },
+  "unique_power": "mochileiro"
+}

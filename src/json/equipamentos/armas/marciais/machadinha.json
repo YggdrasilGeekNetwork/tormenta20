@@ -1,0 +1,19 @@
+{
+  "id": "machadinha",
+  "name": "Machadinha",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "leve",
+  "preco": 6,
+  "dano": "1d6",
+  "critico": "x3",
+  "alcance": "curto",
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "arremessavel": true
+  },
+  "description": "Ferramenta útil para cortar madeira e também inimigos. Uma machadinha pode ser arremessada."
+}

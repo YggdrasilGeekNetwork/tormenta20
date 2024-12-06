@@ -1,0 +1,17 @@
+{
+  "id": "foice",
+  "name": "Foice",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "leve",
+  "preco": 4,
+  "dano": "1d6",
+  "critico": "x3",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": null,
+  "description": "Originalmente um instrumento agrícola, consiste de uma lâmina curva presa a um cabo de madeira. Uma arma tradicional de druidas."
+}

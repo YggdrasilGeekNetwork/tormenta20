@@ -1,0 +1,15 @@
+{
+  "id": "casaco_longo",
+  "name": "Casaco Longo",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 20,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_fortitude_frio": 5,
+    "penalidade_armadura": -2
+  },
+  "description": "Feito de peles ou couro grosso forrado com lã, e impermeabilizado com óleo, este casaco é quente e pesado. Fornece +5 em testes de Fortitude para resistir a efeitos de frio, mas impõe penalidade de armadura de –2."
+}

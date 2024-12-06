@@ -1,0 +1,82 @@
+{
+  "id": "clerigo",
+  "name": "Clérigo",
+  "hit_points": {
+    "initial": 16,
+    "per_level": 4
+  },
+  "mana_points": {
+    "per_level": 5
+  },
+  "skills": {
+    "mandatory": [
+      { "name": "Religião", "attribute": "Sab" },
+      { "name": "Vontade", "attribute": "Sab" }
+    ],
+    "choose_amount": 2,
+    "choose_from": [
+      { "name": "Conhecimento", "attribute": "Int" },
+      { "name": "Cura", "attribute": "Sab" },
+      { "name": "Diplomacia", "attribute": "Car" },
+      { "name": "Fortitude", "attribute": "Con" },
+      { "name": "Iniciativa", "attribute": "Des" },
+      { "name": "Intuição", "attribute": "Sab" },
+      { "name": "Luta", "attribute": "For" },
+      { "name": "Misticismo", "attribute": "Int" },
+      { "name": "Nobreza", "attribute": "Int" },
+      { "name": "Ofício", "attribute": "Int" },
+      { "name": "Percepção", "attribute": "Sab" }
+    ]
+  },
+  "proficiencies": {
+    "weapons": [],
+    "armors": ["pesadas"],
+    "shields": true
+  },
+  "abilities": [
+    "devoto",
+    "mao_da_divindade"
+  ],
+  "powers": [
+    "abencoar_arma",
+    "aumento_de_atributo",
+    "autoridade_eclesiastica",
+    "canalizar_amplo",
+    "canalizar_energia_positiva_negativa",
+    "comunhao_vital",
+    "conhecimento_magico",
+    "expulsar_comandar_mortos_vivos",
+    "liturgia_magica",
+    "magia_sagrada_profana",
+    "mestre_celebrante",
+    "missa_bencao_da_vida",
+    "missa_chamado_as_armas",
+    "missa_elevacao_do_espirito",
+    "missa_escudo_divino",
+    "missa_superar_as_limitacoes",
+    "prece_de_combate",
+    "simbolo_sagrado_abencoado"
+  ],
+  "progression": [
+    { "level": 1, "abilities": ["devoto", "magias"] },
+    { "level": 2, "abilities": ["poder_de_clerigo"] },
+    { "level": 3, "abilities": ["poder_de_clerigo"] },
+    { "level": 4, "abilities": ["poder_de_clerigo"] },
+    { "level": 5, "abilities": ["poder_de_clerigo"] },
+    { "level": 6, "abilities": ["poder_de_clerigo"] },
+    { "level": 7, "abilities": ["poder_de_clerigo"] },
+    { "level": 8, "abilities": ["poder_de_clerigo"] },
+    { "level": 9, "abilities": ["poder_de_clerigo"] },
+    { "level": 10, "abilities": ["poder_de_clerigo"] },
+    { "level": 11, "abilities": ["poder_de_clerigo"] },
+    { "level": 12, "abilities": ["poder_de_clerigo"] },
+    { "level": 13, "abilities": ["poder_de_clerigo"] },
+    { "level": 14, "abilities": ["poder_de_clerigo"] },
+    { "level": 15, "abilities": ["poder_de_clerigo"] },
+    { "level": 16, "abilities": ["poder_de_clerigo"] },
+    { "level": 17, "abilities": ["poder_de_clerigo"] },
+    { "level": 18, "abilities": ["poder_de_clerigo"] },
+    { "level": 19, "abilities": ["poder_de_clerigo"] },
+    { "level": 20, "abilities": ["mao_da_divindade", "poder_de_clerigo"] }
+  ]
+}

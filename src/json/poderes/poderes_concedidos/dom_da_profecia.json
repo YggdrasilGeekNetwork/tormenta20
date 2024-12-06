@@ -1,0 +1,6 @@
+{
+  "id": "dom_da_profecia",
+  "name": "Dom da Profecia",
+  "deities": ["thyatis"],
+  "description": "Você pode lançar Augúrio. Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Você também pode gastar 2 PM para receber +2 em um teste."
+}

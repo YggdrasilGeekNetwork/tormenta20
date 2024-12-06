@@ -1,0 +1,14 @@
+{
+  "id": "palavras_de_bondade",
+  "name": "Palavras de Bondade",
+  "deities": ["marah"],
+  "description": "Você aprende e pode lançar Enfeitiçar. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+  "effects": {
+    "type": "passive",
+    "grants_spell": "Enfeitiçar",
+    "spell_cost_reduction": {
+      "spell": "Enfeitiçar",
+      "reduction": 1
+    }
+  }
+}

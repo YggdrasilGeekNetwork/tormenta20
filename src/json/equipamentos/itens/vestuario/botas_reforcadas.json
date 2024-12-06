@@ -1,0 +1,15 @@
+{
+  "id": "botas_reforcadas",
+  "name": "Botas Reforçadas",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 20,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "aumento_deslocamento_terreno_dificil": 1.5,
+    "condicao": "após redução por terreno difícil"
+  },
+  "description": "Grossas e resistentes, estas botas de cano alto protegem contra perigos do terreno. Aumentam seu deslocamento em +1,5m se ele for reduzido por terreno difícil (após a redução)."
+}

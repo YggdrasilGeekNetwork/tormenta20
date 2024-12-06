@@ -1,0 +1,21 @@
+{
+  "id": "poder_oculto",
+  "name": "Poder Oculto",
+  "deities": ["nimb"],
+  "description": "Você pode gastar uma ação de movimento e 2 PM para invocar a força, a rapidez ou o vigor dos loucos. Role 1d6 para receber +2 em Força (1 ou 2), Destreza (3 ou 4) ou Constituição (5 ou 6) até o fim da cena. Você pode usar este poder várias vezes, mas bônus no mesmo atributo não são cumulativos.",
+  "effects": {
+    "type": "active",
+    "cost": "2 PM",
+    "action": "ação de movimento",
+    "duration": "cena",
+    "random_bonus": {
+      "dice": "1d6",
+      "results": [
+        {"roll": "1-2", "attribute": "Força", "bonus": 2},
+        {"roll": "3-4", "attribute": "Destreza", "bonus": 2},
+        {"roll": "5-6", "attribute": "Constituição", "bonus": 2}
+      ],
+      "stacking": "não cumulativo no mesmo atributo"
+    }
+  }
+}

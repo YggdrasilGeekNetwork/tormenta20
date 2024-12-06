@@ -1,0 +1,44 @@
+{
+  "id": "aco_rubi",
+  "name": "Aço-Rubi",
+  "type": "material_especial",
+  "aparencia": "Metal com aparência de vidro avermelhado, duro como aço.",
+  "origem": "Minerado das profundezas de uma área de Tormenta. Comercializado apenas por uma guilda de ferreiros de Doherimm.",
+  "precos_adicionais": {
+    "arma": 6000,
+    "armadura_leve": 3000,
+    "armadura_pesada": 6000,
+    "escudo": 3000,
+    "esoterico": 6000
+  },
+  "efeitos": {
+    "arma": {
+      "ignora_reducao_dano": 10,
+      "ignora_imunidade_critico_lefeu": true
+    },
+    "armadura_leve": {
+      "chance_ignorar_critico_furtivo": {
+        "percentual": 25,
+        "dado": "1 em 1d4"
+      }
+    },
+    "armadura_pesada": {
+      "chance_ignorar_critico_furtivo": {
+        "percentual": 50,
+        "dado": "qualquer valor par",
+        "cumulativo_com_escudo": true
+      }
+    },
+    "escudo": {
+      "chance_ignorar_critico_furtivo": {
+        "percentual": 25,
+        "dado": "1 em 1d4"
+      }
+    },
+    "esoterico": {
+      "magia_ignora_reducao_dano": 10,
+      "magia_ignora_imunidades_lefeu": true
+    }
+  },
+  "description": "Este metal tem a aparência de vidro avermelhado, mas é duro como aço. Aço-rubi é caríssimo e comercializado apenas por uma guilda de ferreiros de Doherimm. Os anões mantêm a origem deste material em segredo, mas suspeita-se de que ele seja minerado das profundezas de uma área de Tormenta."
+}

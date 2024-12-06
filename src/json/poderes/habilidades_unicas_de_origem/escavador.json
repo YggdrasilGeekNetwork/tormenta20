@@ -1,0 +1,13 @@
+{
+  "id": "escavador",
+  "name": "Escavador",
+  "origin": "minerador",
+  "description": "Você se torna proficiente em picaretas, causa +1 de dano com elas e não é afetado por terreno difícil em masmorras e subterrâneos.",
+  "effects": {
+    "proficiencies": ["picaretas"],
+    "damage_bonus": { "weapon": "picaretas", "value": 1 },
+    "immunity_penalties": [
+      { "type": "terreno difícil", "condition": "masmorras e subterrâneos" }
+    ]
+  }
+}

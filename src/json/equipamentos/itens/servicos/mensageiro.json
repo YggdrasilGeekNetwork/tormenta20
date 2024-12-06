@@ -1,0 +1,10 @@
+{
+  "id": "mensageiro",
+  "name": "Mensageiro",
+  "type": "servico",
+  "categoria": "servico",
+  "preco_base": 0.5,
+  "por": "dia de viagem",
+  "meios": ["a pé", "cavaleiros", "navios"],
+  "description": "Inclui mensagens entregues a pé, por cavaleiros ou navios. O preço varia conforme a distância."
+}

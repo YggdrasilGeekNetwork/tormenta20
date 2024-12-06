@@ -1,0 +1,20 @@
+{
+  "id": "cavalo",
+  "name": "Cavalo",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 75,
+  "espacos": 0,
+  "parceiro": {
+    "tipo": "montaria",
+    "nivel": "iniciante"
+  },
+  "combate": {
+    "teste_cavalgar": {
+      "cd": 20,
+      "frequencia": "por rodada"
+    },
+    "motivo": "Cavalos sem treinamento se assustam facilmente"
+  },
+  "description": "A montaria mais comum no Reinado. Pode ser usado como parceiro montaria. Cavalos sem treinamento se assustam facilmente, sendo necessário um teste de Cavalgar (CD 20) por rodada para permanecer montado durante um combate."
+}

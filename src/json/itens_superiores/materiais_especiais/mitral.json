@@ -1,0 +1,38 @@
+{
+  "id": "mitral",
+  "name": "Mitral",
+  "type": "material_especial",
+  "aparencia": "Metal prateado, brilhante e mais leve que aço.",
+  "origem": "Metal raro e valioso.",
+  "bonus_geral": {
+    "reducao_espacos": 1,
+    "minimo_espacos": 1
+  },
+  "precos_adicionais": {
+    "arma": 1500,
+    "armadura_leve": 1500,
+    "armadura_pesada": 12000,
+    "escudo": 1500,
+    "esoterico": 3000
+  },
+  "efeitos": {
+    "arma": {
+      "aumento_margem_ameaca": 1
+    },
+    "armadura_leve": {
+      "reducao_penalidade_armadura": 2
+    },
+    "armadura_pesada": {
+      "reducao_penalidade_armadura": 2,
+      "aplica_destreza_defesa": 2
+    },
+    "escudo": {
+      "reducao_penalidade_armadura": 2
+    },
+    "esoterico": {
+      "custo_extra_pm": 2,
+      "aumento_cd_magia": 2
+    }
+  },
+  "description": "Metal raro e valioso, o mitral é prateado, brilhante e mais leve que aço. Itens de mitral ocupam –1 espaço (mínimo 1)."
+}

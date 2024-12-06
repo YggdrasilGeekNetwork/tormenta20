@@ -1,0 +1,12 @@
+{
+  "id": "gorad_quente",
+  "name": "Gorad Quente",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 0.5,
+  "espacos": 0.5,
+  "efeito": {
+    "pm_temporarios": 2
+  },
+  "description": "Gorad e leite, servidos quentes. Não tem erro. O gorad ativa o cérebro, fornecendo +2 PM temporários."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "alabarda",
+  "name": "Alabarda",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 10,
+  "dano": "1d10",
+  "critico": "x3",
+  "alcance": null,
+  "tipo_dano": ["corte", "perfuracao"],
+  "espacos": 2,
+  "habilidades": ["alongada"],
+  "especial": null,
+  "description": "Uma haste de madeira com 2m de comprimento e uma lâmina de machado na ponta. A alabarda é uma arma alongada."
+}

@@ -1,0 +1,17 @@
+{
+  "id": "meia_armadura",
+  "name": "Meia Armadura",
+  "type": "armadura",
+  "categoria": "pesada",
+  "preco": 600,
+  "bonus_defesa": 8,
+  "penalidade_armadura": -4,
+  "espacos": 5,
+  "especial": {
+    "sem_destreza_defesa": true,
+    "reducao_deslocamento": -3
+  },
+  "vestir_remover": "5_minutos",
+  "dormir_fatigado": true,
+  "description": "Uma cota de malha reforçada com placas de metal."
+}

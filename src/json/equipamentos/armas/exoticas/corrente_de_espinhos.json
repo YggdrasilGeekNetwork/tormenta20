@@ -1,0 +1,23 @@
+{
+  "id": "corrente_de_espinhos",
+  "name": "Corrente de Espinhos",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 25,
+  "dano": "2d4/2d4",
+  "critico": "19",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 2,
+  "habilidades": ["agil", "dupla", "versatil"],
+  "especial": {
+    "alcance_ataque": 4.5,
+    "bonus_manobra": {
+      "derrubar": 2,
+      "desarmar": 2
+    }
+  },
+  "description": "Esta arma pode ser usada para atacar inimigos a até 4,5m e pode se enroscar nas mãos, pernas ou armas de seus adversários. A corrente de espinhos é uma arma ágil, dupla e versátil, fornecendo +2 em testes para derrubar ou desarmar."
+}

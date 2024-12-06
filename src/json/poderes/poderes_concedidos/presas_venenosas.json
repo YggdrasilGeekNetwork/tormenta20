@@ -1,0 +1,16 @@
+{
+  "id": "presas_venenosas",
+  "name": "Presas Venenosas",
+  "deities": ["sszzaas"],
+  "description": "Você pode gastar uma ação de movimento e 1 PM para envenenar uma arma corpo a corpo que esteja empunhando. Em caso de acerto, a arma causa perda de 1d12 pontos de vida. A arma permanece envenenada até atingir uma criatura ou até o fim da cena, o que acontecer primeiro.",
+  "effects": {
+    "type": "active",
+    "cost": "1 PM",
+    "action": "ação de movimento",
+    "target": "arma corpo a corpo empunhada",
+    "poison": {
+      "damage": "1d12 PV",
+      "duration": "até acertar uma criatura ou fim da cena"
+    }
+  }
+}

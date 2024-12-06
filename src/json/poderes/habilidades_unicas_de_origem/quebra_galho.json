@@ -1,0 +1,14 @@
+{
+  "id": "quebra_galho",
+  "name": "Quebra-Galho",
+  "origin": "pivete",
+  "description": "Em cidades ou metrópoles, você pode comprar qualquer item mundano não superior por metade do preço normal. Esses itens não podem ser matérias-primas e não podem ser revendidos (são velhos, sujos, furtados...).",
+  "effects": {
+    "economy": {
+      "buy_discount_percent": 50,
+      "location": ["cidades", "metrópoles"],
+      "item_type": "mundano não superior",
+      "restrictions": ["não pode ser matéria-prima", "não pode revender"]
+    }
+  }
+}

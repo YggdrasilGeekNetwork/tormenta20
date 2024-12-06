@@ -1,0 +1,20 @@
+{
+  "id": "essencia_de_sombra",
+  "name": "Essência de Sombra",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 100,
+  "espacos": 0.5,
+  "cd_fabricacao": 20,
+  "inoculacao": "contato",
+  "efeito": {
+    "falha": {
+      "condicao": "debilitada"
+    },
+    "sucesso": {
+      "condicao": "fraca"
+    }
+  },
+  "description": "Produzido a partir de compostos alquímicos que canalizam energia de trevas. Contato, vítima fica debilitada (fraca)."
+}

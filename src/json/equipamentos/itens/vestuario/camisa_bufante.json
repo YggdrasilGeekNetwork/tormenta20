@@ -1,0 +1,14 @@
+{
+  "id": "camisa_bufante",
+  "name": "Camisa Bufante",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 25,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_atuacao": 1
+  },
+  "description": "Blusa colorida, com mangas e golas longas e encrespadas. Fornece +1 em Atuação."
+}

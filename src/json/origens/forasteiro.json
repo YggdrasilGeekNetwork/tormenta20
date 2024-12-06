@@ -1,0 +1,11 @@
+{
+  "id": "forasteiro",
+  "name": "Forasteiro",
+  "description": "Você veio de longe. Sua cultura nativa é quase ou totalmente desconhecida no Reinado, tornando-o uma figura exótica, de hábitos estranhos. Você pertence a uma tribo perdida nas Montanhas Sanguinárias? Nasceu em uma bela cidade de cúpulas douradas no Deserto da Perdição? Navegou em navios audazes desde os Reinos de Moreania? Talvez você até tenha chegado de outro mundo, através de algum portal mágico. Será que conseguiu ajustar-se a este Reinado, agora chamando-o de lar? Ou procura até hoje o caminho de volta para casa?",
+  "items": ["Equipamento de viagem", "Instrumento musical exótico (+1 em uma perícia de Carisma aprovada pelo mestre)", "Traje estrangeiro"],
+  "benefits": {
+    "skills": ["Cavalgar", "Pilotagem", "Sobrevivência"],
+    "powers": ["Cultura Exótica", "Lobo Solitário"]
+  },
+  "unique_power": "cultura_exotica"
+}

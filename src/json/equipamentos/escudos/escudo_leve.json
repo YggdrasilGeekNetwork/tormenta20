@@ -1,0 +1,22 @@
+{
+  "id": "escudo_leve",
+  "name": "Escudo Leve",
+  "type": "escudo",
+  "categoria": "leve",
+  "preco": 5,
+  "bonus_defesa": 1,
+  "penalidade_armadura": -1,
+  "espacos": 1,
+  "especial": {
+    "mao_livre_parcial": true
+  },
+  "vestir_remover": "acao_movimento",
+  "ataque": {
+    "dano": "1d4",
+    "tipo_dano": "impacto",
+    "critico": "x2",
+    "requer_proficiencia_marcial": true,
+    "perde_bonus_defesa": true
+  },
+  "description": "Tipicamente feito de madeira, este escudo é amarrado no antebraço, deixando a mão livre. Você pode carregar um objeto na mão que empunha o escudo, mas não manusear uma arma."
+}

@@ -1,0 +1,12 @@
+{
+  "id": "precisa",
+  "name": "Precisa",
+  "type": "melhoria",
+  "categoria": "arma",
+  "efeito": {
+    "aumento_margem_ameaca": 1
+  },
+  "prerequisitos": null,
+  "incompativel_com": ["macica"],
+  "description": "Cuidado especial foi tomado ao temperar o aço desta arma, para que seu fio se mantenha sempre como uma navalha. A margem de ameaça aumenta em 1 ponto. Uma arma não pode ser precisa e maciça."
+}

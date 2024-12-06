@@ -1,0 +1,11 @@
+{
+  "id": "refugiado",
+  "name": "Refugiado",
+  "description": "Neste mundo assolado por tantas guerras e tragédias, você acabou sobrevivendo a alguma delas. Sendo elfo, estava presente durante a sofrida queda de Lenórienn. Escapou à destruição de Tamu-ra. Teve sorte em sair do caminho de Mestre Arsenal, conseguiu esconder-se das forças puristas ou testemunhou a chegada da Flecha de Fogo e viveu para contar a história. Trauma e privações talvez tenham tornado você amargo, sombrio, embrutecido... mas também um sobrevivente tenaz, acostumado a uma vida perigosa.",
+  "items": ["Um item estrangeiro de até T$ 100"],
+  "benefits": {
+    "skills": ["Fortitude", "Reflexos", "Vontade"],
+    "powers": ["Estoico", "Vontade de Ferro"]
+  },
+  "unique_power": "estoico"
+}

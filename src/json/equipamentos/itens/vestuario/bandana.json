@@ -1,0 +1,14 @@
+{
+  "id": "bandana",
+  "name": "Bandana",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 5,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_intimidacao": 1
+  },
+  "description": "Um lenço tipicamente usado por bandidos e piratas. Fornece +1 em Intimidação."
+}

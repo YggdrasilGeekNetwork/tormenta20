@@ -1,0 +1,22 @@
+{
+  "id": "escudo_pesado",
+  "name": "Escudo Pesado",
+  "type": "escudo",
+  "categoria": "pesado",
+  "preco": 15,
+  "bonus_defesa": 2,
+  "penalidade_armadura": -2,
+  "espacos": 2,
+  "especial": {
+    "mao_ocupada": true
+  },
+  "vestir_remover": "acao_movimento",
+  "ataque": {
+    "dano": "1d6",
+    "tipo_dano": "impacto",
+    "critico": "x2",
+    "requer_proficiencia_marcial": true,
+    "perde_bonus_defesa": true
+  },
+  "description": "Normalmente feito de aço, este escudo é preso ao antebraço e também deve ser empunhado com firmeza, impedindo o usuário de usar aquela mão."
+}

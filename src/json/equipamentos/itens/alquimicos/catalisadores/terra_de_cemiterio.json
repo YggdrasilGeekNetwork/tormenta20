@@ -1,0 +1,18 @@
+{
+  "id": "terra_de_cemiterio",
+  "name": "Terra de Cemitério",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 30,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "origem": "colhida à noite de um cemitério",
+  "efeito": {
+    "dano_extra_magias": "1d6",
+    "tipo_dano": "trevas"
+  },
+  "description": "Um punhado de terra cinzenta, colhida à noite de um cemitério. Adiciona +1d6 de dano de trevas a magias."
+}

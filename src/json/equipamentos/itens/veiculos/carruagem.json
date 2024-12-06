@@ -1,0 +1,21 @@
+{
+  "id": "carruagem",
+  "name": "Carruagem",
+  "type": "item",
+  "categoria": "veiculo",
+  "preco": 500,
+  "espacos": 0,
+  "estatisticas": {
+    "tamanho": "grande",
+    "deslocamento": "9m",
+    "defesa": "8 + Des do condutor",
+    "pv": 50,
+    "capacidade_passageiros": 4,
+    "capacidade_condutores": 2,
+    "capacidade_espacos": 80
+  },
+  "tracao": ["2 cavalos", "1 trobo"],
+  "inclui": ["arreios"],
+  "cobertura": "leve",
+  "description": "Veículo de quatro rodas, capaz de transportar até quatro pessoas em uma cabine fechada, mais dois condutores do lado de fora. É puxada por dois cavalos ou um trobo. Inclui os arreios necessários para controlar os animais. Fornece cobertura leve a seus passageiros."
+}

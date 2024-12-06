@@ -1,0 +1,17 @@
+{
+  "id": "tomo_hermetico",
+  "name": "Tomo Hermético",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 1500,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "variavel": "escola_de_magia",
+  "efeito": {
+    "aumento_cd_magias_arcanas": 2,
+    "condicao": "magias da escola escolhida"
+  },
+  "description": "Um livro de tratados que aumentam a sua compreensão sobre uma escola de magia específica. A CD para resistir a suas magias arcanas dessa escola aumenta em +2."
+}

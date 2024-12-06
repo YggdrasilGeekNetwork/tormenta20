@@ -1,0 +1,15 @@
+{
+  "id": "bandoleira_de_pocoes",
+  "name": "Bandoleira de Poções",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 20,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "vestido",
+  "efeito": {
+    "sacar_itens": ["alquimicos", "pocoes"],
+    "acao_sacar": "livre"
+  },
+  "description": "Um cinto de couro com bolsos que comportam pequenos frascos. Se você estiver vestindo uma bandoleira, pode sacar itens alquímicos e poções como uma ação livre."
+}

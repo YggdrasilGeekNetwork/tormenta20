@@ -1,0 +1,18 @@
+{
+  "id": "cao_de_caca",
+  "name": "Cão de Caça",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 25,
+  "espacos": 0,
+  "parceiro": {
+    "tipo": "perseguidor",
+    "nivel": "iniciante",
+    "requisito_pericia": "Adestramento",
+    "alternativo": {
+      "tipo": "montaria",
+      "tamanhos_cavaleiro": ["pequeno", "minusculo"]
+    }
+  },
+  "description": "Este cachorro valente e leal pode ser usado como parceiro perseguidor por personagens treinados em Adestramento ou montaria por personagens Pequenos e Minúsculos."
+}

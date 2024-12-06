@@ -1,0 +1,11 @@
+{
+  "id": "veleiro",
+  "name": "Veleiro",
+  "type": "item",
+  "categoria": "veiculo",
+  "preco": 10000,
+  "espacos": 0,
+  "mastros": 3,
+  "uso": "viagem_maritima",
+  "description": "Com três mastros, é o típico navio de viagem, muito popular entre mercadores."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "assistente_de_laboratorio",
+  "name": "Assistente de Laboratório",
+  "description": "Você atuou como ajudante para um alquimista, inventor ou mago. Costumava tomar notas, limpar o laboratório, arrumar as ferramentas, vasculhar mercados em busca de ingredientes exóticos, recapturar a aberração antinatural que fugiu da jaula... enfim, não era o trabalho mais fácil, limpo ou seguro do mundo. Exposição prolongada a substâncias e experimentos perigosos talvez tenham prejudicado sua saúde (ou despertado suas habilidades de classe...).",
+  "items": ["Instrumentos de Ofício (alquimista)"],
+  "benefits": {
+    "skills": ["Ofício (alquimista)", "Misticismo"],
+    "powers": ["Esse Cheiro...", "Venefício", "um poder da Tormenta a sua escolha"]
+  },
+  "unique_power": "esse_cheiro"
+}

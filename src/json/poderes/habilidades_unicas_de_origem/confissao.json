@@ -1,0 +1,14 @@
+{
+  "id": "confissao",
+  "name": "Confissão",
+  "origin": "capanga",
+  "description": "Você pode usar Intimidação para interrogar sem custo e em um minuto (veja Investigação).",
+  "effects": {
+    "skill_alternate_use": {
+      "skill": "Intimidação",
+      "use": "interrogar",
+      "cost": 0,
+      "time": "1 minuto"
+    }
+  }
+}

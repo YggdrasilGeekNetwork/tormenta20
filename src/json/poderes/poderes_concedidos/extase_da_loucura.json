@@ -1,0 +1,12 @@
+{
+  "id": "extase_da_loucura",
+  "name": "Êxtase da Loucura",
+  "deities": ["aharadak", "nimb"],
+  "description": "Toda vez que uma ou mais criaturas falham em um teste de Vontade contra uma de suas habilidades mágicas, você recebe 1 PM temporário cumulativo. Você pode ganhar um máximo de PM temporários por cena desta forma igual a sua Sabedoria.",
+  "effects": {
+    "type": "passive",
+    "trigger": "criaturas falham em Vontade contra suas habilidades mágicas",
+    "benefit": "1 PM temporário cumulativo",
+    "limit": "Sabedoria PM temporários por cena"
+  }
+}

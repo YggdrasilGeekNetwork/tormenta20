@@ -1,0 +1,16 @@
+{
+  "id": "mente_vazia",
+  "name": "Mente Vazia",
+  "deities": ["lin_wu"],
+  "description": "Você recebe +2 em Iniciativa, Percepção e Vontade.",
+  "effects": {
+    "type": "passive",
+    "initiative_bonus": 2,
+    "skill_bonuses": [
+      {"skill": "Percepção", "bonus": 2}
+    ],
+    "save_bonuses": [
+      {"save": "Vontade", "bonus": 2}
+    ]
+  }
+}

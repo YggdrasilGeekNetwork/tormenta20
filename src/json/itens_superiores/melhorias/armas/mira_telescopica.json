@@ -1,0 +1,16 @@
+{
+  "id": "mira_telescopica",
+  "name": "Mira Telescópica",
+  "type": "melhoria",
+  "categoria": "arma",
+  "restricao": {
+    "tipo": "armas_de_disparo",
+    "exceto": ["funda"]
+  },
+  "efeito": {
+    "aumento_alcance": "uma_categoria",
+    "alcance_ataque_furtivo": "medio"
+  },
+  "prerequisitos": null,
+  "description": "Aumenta o alcance da arma em uma categoria (de curto para médio, de médio para longo) e o alcance da habilidade Ataque Furtivo para médio. Esta melhoria só pode ser aplicada em armas de disparo (exceto fundas)."
+}

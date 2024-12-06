@@ -1,0 +1,14 @@
+{
+  "id": "detetive",
+  "name": "Detetive",
+  "origin": "guarda",
+  "description": "Você pode gastar 1 PM para substituir testes de Percepção e Intuição por testes de Investigação até o fim da cena.",
+  "effects": {
+    "skill_substitutions": [{
+      "original": ["Percepção", "Intuição"],
+      "substitute": "Investigação",
+      "cost": { "pm": 1 },
+      "duration": "até o fim da cena"
+    }]
+  }
+}

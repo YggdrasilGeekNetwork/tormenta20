@@ -1,0 +1,15 @@
+{
+  "id": "simbolo_sagrado",
+  "name": "Símbolo Sagrado",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 5,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": ["vestido", "empunhado"],
+  "requer": "devoto_divindade",
+  "efeito": {
+    "bonus_testes_resistencia": 1
+  },
+  "description": "Um medalhão de madeira ou metal com o símbolo de uma divindade. Se você estiver vestindo (normalmente com uma corrente ao redor do pescoço) ou empunhando o símbolo sagrado de um deus do qual é devoto, recebe +1 em testes de resistência."
+}

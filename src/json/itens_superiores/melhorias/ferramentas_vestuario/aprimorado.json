@@ -1,0 +1,15 @@
+{
+  "id": "aprimorado",
+  "name": "Aprimorado",
+  "type": "melhoria",
+  "categoria": ["ferramenta", "vestuario"],
+  "restricao": {
+    "tipo": "item que modifique uma perícia"
+  },
+  "efeito": {
+    "bonus_pericia": 1,
+    "ou_aumento_bonus_existente": 1
+  },
+  "prerequisitos": null,
+  "description": "O item é construído de forma cuidadosa e com os melhores materiais. Esta melhoria só pode ser aplicada a uma ferramenta ou vestuário que modifique uma perícia (reduza uma penalidade ou forneça um bônus) e fornece um bônus de +1 nessa perícia (ou aumenta o bônus fornecido em +1). Por exemplo, uma maleta de medicamentos aprimorada fornece +1 em Cura e uma luva de pelica aprimorada fornece +2 em Ladinagem."
+}

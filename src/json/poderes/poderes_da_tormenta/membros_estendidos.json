@@ -1,0 +1,12 @@
+{
+  "id": "membros_estendidos",
+  "name": "Membros Estendidos",
+  "description": "Seus braços e armas naturais são grotescamente mais longos que o normal, o que aumenta seu alcance natural para ataques corpo a corpo em +1,5m. Para cada quatro outros poderes da Tormenta que você possui, esse alcance aumenta em +1,5m.",
+  "effects": {
+    "type": "passive",
+    "reach_bonus": {
+      "base": "+1,5m",
+      "scaling": "+1,5m por cada 4 outros poderes da Tormenta"
+    }
+  }
+}

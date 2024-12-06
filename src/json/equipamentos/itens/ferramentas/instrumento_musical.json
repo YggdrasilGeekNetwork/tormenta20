@@ -1,0 +1,20 @@
+{
+  "id": "instrumento_musical",
+  "name": "Instrumento Musical",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 35,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "maos": 2,
+  "exemplos": ["bandolim", "flauta", "lira"],
+  "regras_instrumentos_musicais": {
+    "empunhar_duas_maos": true,
+    "necessario_para": "Músicas de Bardo",
+    "bardo_usa_como_esoterico": true,
+    "pode_receber_melhorias": ["ferramentas", "esotericos"]
+  },
+  "description": "Um instrumento típico, como um bandolim, flauta ou lira."
+}

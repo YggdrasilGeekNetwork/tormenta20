@@ -1,0 +1,13 @@
+{
+  "id": "saco_de_dormir",
+  "name": "Saco de Dormir",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 1,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "efeito": {
+    "necessario_para": "recuperação normal de PV e PM ao dormir"
+  },
+  "description": "Um colchão com uma coberta fina o bastante para ser enrolada e amarrada, é especialmente útil para aventureiros, que nunca sabem onde vão passar a noite. Dormir ao relento sem um acampamento e um saco de dormir diminui sua recuperação de PV e PM."
+}

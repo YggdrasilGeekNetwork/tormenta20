@@ -1,0 +1,12 @@
+{
+  "id": "carapaca",
+  "name": "Carapaça",
+  "description": "Sua pele é recoberta por placas quitinosas. Você recebe +1 na Defesa. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui.",
+  "effects": {
+    "type": "passive",
+    "defense_bonus": {
+      "base": 1,
+      "scaling": "+1 por cada 2 outros poderes da Tormenta"
+    }
+  }
+}

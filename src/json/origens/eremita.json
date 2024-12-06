@@ -1,0 +1,11 @@
+{
+  "id": "eremita",
+  "name": "Eremita",
+  "description": "Você passou parte da vida isolado, afastado da sociedade. Foi banido ainda criança, por nascer lefou ou com alguma deformidade da Tormenta. Ouviu um chamado dos deuses, buscando o isolamento para meditar sobre seu significado. Viveu enclausurado em um mosteiro, mantendo contato apenas com monges silenciosos. Ou foi praticante de artes arcanas proibidas, mantendo-se longe de olhares curiosos. A vida simples o tornou forte de corpo e espírito. Mas, em algum momento, você decidiu que bastava — ou teve sua tranquilidade interrompida.",
+  "items": ["Barraca", "Equipamento de viagem"],
+  "benefits": {
+    "skills": ["Misticismo", "Religião", "Sobrevivência"],
+    "powers": ["Busca Interior", "Lobo Solitário"]
+  },
+  "unique_power": "busca_interior"
+}

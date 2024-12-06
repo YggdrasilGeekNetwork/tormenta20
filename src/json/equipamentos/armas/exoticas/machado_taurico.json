@@ -1,0 +1,17 @@
+{
+  "id": "machado_taurico",
+  "name": "Machado Táurico",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 50,
+  "dano": "2d8",
+  "critico": "x3",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 2,
+  "habilidades": ["desbalanceada"],
+  "especial": null,
+  "description": "Uma haste comprida com uma lâmina extremamente grossa na ponta, esta é uma arma ancestral dos minotauros. Um machado táurico é uma arma desbalanceada. Além disso, é muito grande para ser usado sem treinamento especial; por isso, é uma arma exótica."
+}

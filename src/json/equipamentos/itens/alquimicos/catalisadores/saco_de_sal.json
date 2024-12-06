@@ -1,0 +1,18 @@
+{
+  "id": "saco_de_sal",
+  "name": "Saco de Sal",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 45,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "material": "sal marinho",
+  "efeito": {
+    "bonus_cd_magias": 2,
+    "escola": "abjuração"
+  },
+  "description": "Um pequeno saco de couro com sal marinho. Fornece +2 na CD de magias de abjuração."
+}

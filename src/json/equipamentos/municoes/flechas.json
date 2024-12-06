@@ -1,0 +1,13 @@
+{
+  "id": "flechas",
+  "name": "Flechas",
+  "type": "municao",
+  "preco": 1,
+  "quantidade": 20,
+  "espacos": 1,
+  "armas_compativeis": ["arco_curto", "arco_longo"],
+  "especial": {
+    "recarregar": "acao_livre"
+  },
+  "description": "Uma aljava com 20 flechas, hastes de madeira com ponta metálica e penas para estabilizar o voo. Recarregar um arco com uma flecha é uma ação livre."
+}

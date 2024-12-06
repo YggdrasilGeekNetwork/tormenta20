@@ -1,0 +1,18 @@
+{
+  "id": "estojo_de_disfarces",
+  "name": "Estojo de Disfarces",
+  "type": "item",
+  "categoria": "ferramenta",
+  "preco": 50,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "consultado",
+  "efeito": {
+    "evita_penalidade": {
+      "pericia": "Enganação",
+      "uso": "disfarce",
+      "penalidade_sem_item": -5
+    }
+  },
+  "description": "Um conjunto de cosméticos, tintas para cabelo e algumas próteses simples (como bigodes e narizes falsos). Um personagem sem este item sofre –5 em testes de Enganação para disfarce."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "minerador",
+  "name": "Minerador",
+  "description": "Ser aventureiro é a profissão mais perigosa de todas; ser mineiro, talvez a segunda mais perigosa. Você mergulhou nas profundezas da terra atrás de metais necessários à civilização ou riquezas em gemas preciosas. Enquanto humanos e outras raças consideram essa vida um pesadelo, quase todos os anões acreditam ser a mais feliz das carreiras. A escuridão e o sufocamento dos subterrâneos talvez tenham sido assustadores, mas trouxeram a você bens materiais valiosos, bem como informação profunda (sem trocadilhos) sobre túneis e masmorras.",
+  "items": ["Gemas preciosas no valor de T$ 100", "Picareta"],
+  "benefits": {
+    "skills": ["Atletismo", "Fortitude", "Ofício (minerador)"],
+    "powers": ["Ataque Poderoso", "Escavador", "Sentidos Aguçados"]
+  },
+  "unique_power": "escavador"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "po_de_lich",
+  "name": "Pó de Lich",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 3000,
+  "espacos": 0.5,
+  "cd_fabricacao": 25,
+  "cd_resistencia_bonus": 5,
+  "inoculacao": "ingestao",
+  "efeito": {
+    "falha": {
+      "dano": "4d12",
+      "por_rodada": true,
+      "duracao_rodadas": 5
+    },
+    "sucesso": {
+      "dano": "4d12"
+    }
+  },
+  "description": "Veneno letal, usado para assassinar alvos poderosos. Ingestão, perde 4d12 PV por rodada durante 5 rodadas (perde 4d12 PV). A CD para fabricar e para resistir a este veneno aumenta em +5."
+}

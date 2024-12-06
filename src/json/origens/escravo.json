@@ -1,0 +1,11 @@
+{
+  "id": "escravo",
+  "name": "Escravo",
+  "description": "De minotauros odiosos no Império de Tauron aos cruéis mestres subterrâneos de Trollkyrka, várias culturas praticam a escravidão. Você já nasceu escravo, fez parte de um povo derrotado na guerra ou foi capturado em alguma rua escura para depois despertar na jaula, em algum mercado clandestino? Encontrou uma chance de escapar, tornando-se agora um escravo foragido? Recebeu a liberdade como recompensa por realizar um grande favor a seu algoz? Foi resgatado por aventureiros que agora se tornaram sua nova família?",
+  "items": ["Algemas", "Uma ferramenta pesada (mesmas estatísticas de uma maça)"],
+  "benefits": {
+    "skills": ["Atletismo", "Fortitude", "Furtividade"],
+    "powers": ["Desejo de Liberdade", "Vitalidade"]
+  },
+  "unique_power": "desejo_de_liberdade"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "farsa_do_fingidor",
+  "name": "Farsa do Fingidor",
+  "deities": ["hyninn"],
+  "description": "Você aprende e pode lançar Criar Ilusão. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+  "effects": {
+    "type": "passive",
+    "grants_spell": "Criar Ilusão",
+    "spell_cost_reduction": {
+      "spell": "Criar Ilusão",
+      "reduction": 1
+    }
+  }
+}

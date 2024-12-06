@@ -1,0 +1,16 @@
+{
+  "id": "estoico",
+  "name": "Estoico",
+  "origin": "refugiado",
+  "description": "Sua condição de descanso é uma categoria acima do padrão pela situação (normal em condições ruins, confortável em condições normais e luxuosa em condições confortáveis ou melhores). Veja as regras de recuperação na página 106.",
+  "effects": {
+    "rest_upgrade": {
+      "levels": 1,
+      "mapping": {
+        "ruim": "normal",
+        "normal": "confortável",
+        "confortável": "luxuosa"
+      }
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "certeira",
+  "name": "Certeira",
+  "type": "melhoria",
+  "categoria": "arma",
+  "efeito": {
+    "bonus_ataque": 1
+  },
+  "prerequisitos": null,
+  "description": "Fabricada para ser mais precisa e balanceada, a arma fornece +1 nos testes de ataque."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "discreto",
+  "name": "Discreto",
+  "type": "melhoria",
+  "categoria": ["arma", "armadura", "escudo", "ferramenta", "vestuario", "esoterico"],
+  "efeito": {
+    "reducao_espacos": 1,
+    "minimo_espacos": 1,
+    "bonus_ladinagem_ocultar": 5
+  },
+  "prerequisitos": null,
+  "description": "O item é disfarçado como outro item inócuo (como um florete escondido em uma bengala) ou modificado para ser telescópico (podendo se dobrar em si mesmo para ocupar menos espaço). O item ocupa –1 espaço (mínimo 1) e fornece +5 em testes de Ladinagem para ser ocultado."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "pivete",
+  "name": "Pivete",
+  "description": "Você era uma criança de rua. Não conheceu seus pais, foi abandonado por eles ou fugiu para evitar maus tratos. Sem muitas escolhas na vida, aprendeu cedo a sobreviver em grandes cidades, pedindo esmolas, roubando bolsas ou cumprindo pequenas tarefas para bandidos. Tornar-se aventureiro não parecia apenas um jeito de ficar rico e famoso, mas também a única chance de uma vida melhor. Talvez você não tenha as armaduras e mantos chiques de seus companheiros, mas sabe se virar nas ruas melhor que ninguém.",
+  "items": ["Gazua", "Traje de plebeu", "Um animal urbano (como um cão, gato, rato ou pombo)"],
+  "benefits": {
+    "skills": ["Furtividade", "Iniciativa", "Ladinagem"],
+    "powers": ["Acrobático", "Aparência Inofensiva", "Quebra-Galho"]
+  },
+  "unique_power": "quebra_galho"
+}

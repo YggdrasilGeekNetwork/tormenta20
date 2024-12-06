@@ -1,0 +1,18 @@
+{
+  "id": "arpeu",
+  "name": "Arpéu",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 5,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "empunhado",
+  "regras": {
+    "prender": {
+      "teste": "Pontaria",
+      "cd": 15
+    },
+    "bonus_atletismo_subir": 5
+  },
+  "description": "Um gancho de aço amarrado na ponta de uma corda para se fixar em muros, janelas, parapeitos de prédios... Prender um arpéu exige um teste de Pontaria (CD 15). Subir um muro com a ajuda de uma corda fornece +5 no teste de Atletismo."
+}

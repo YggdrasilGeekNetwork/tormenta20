@@ -1,0 +1,22 @@
+{
+  "id": "cicuta",
+  "name": "Cicuta",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 60,
+  "espacos": 0.5,
+  "cd_fabricacao": 20,
+  "inoculacao": "ingestao",
+  "efeito": {
+    "falha": {
+      "dano": "1d12",
+      "por_rodada": true,
+      "duracao_rodadas": 3
+    },
+    "sucesso": {
+      "dano": "1d12"
+    }
+  },
+  "description": "Planta cuja ingestão pode causar náusea, dores e até morte. Ingestão, perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV)."
+}

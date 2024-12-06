@@ -1,0 +1,24 @@
+{
+  "id": "peconha_comum",
+  "name": "Peçonha Comum",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 15,
+  "espacos": 0.5,
+  "cd_fabricacao": 20,
+  "aplicacao": {
+    "acao": "movimento",
+    "usos_por_dose": 3
+  },
+  "efeito": {
+    "dano_adicional": "1d6",
+    "tipo_dano": "veneno",
+    "resistencia": {
+      "tipo": "Fortitude",
+      "cd": 15,
+      "efeito": "anula"
+    }
+  },
+  "description": "Você pode gastar uma ação de movimento para cobrir uma arma com este veneno. A arma causa +1d6 pontos de dano de veneno (Fortitude CD 15 anula). A dose vale para 3 ataques."
+}

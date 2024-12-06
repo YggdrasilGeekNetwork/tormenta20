@@ -1,0 +1,17 @@
+{
+  "id": "dente_de_dragao",
+  "name": "Dente-de-Dragão",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 45,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "origem": "regiões montanhosas, especialmente nas Sanguinárias",
+  "efeito": {
+    "dado_dano_extra": "mesmo tipo da magia"
+  },
+  "description": "Uma flor comum em regiões montanhosas, especialmente nas Sanguinárias, possui formato parecido com uma presa de monstro. Suas propriedades místicas aumentam o dano de magias em um dado do mesmo tipo."
+}

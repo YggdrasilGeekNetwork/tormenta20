@@ -1,0 +1,17 @@
+{
+  "id": "machado_de_guerra",
+  "name": "Machado de Guerra",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 20,
+  "dano": "1d12",
+  "critico": "x3",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 2,
+  "habilidades": [],
+  "especial": null,
+  "description": "Este imenso machado de lâmina dupla é uma arma extremamente perigosa."
+}

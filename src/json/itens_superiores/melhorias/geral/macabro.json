@@ -1,0 +1,12 @@
+{
+  "id": "macabro",
+  "name": "Macabro",
+  "type": "melhoria",
+  "categoria": ["arma", "armadura", "escudo", "ferramenta", "vestuario", "esoterico"],
+  "efeito": {
+    "bonus_intimidacao": 2,
+    "penalidade_diplomacia": -2
+  },
+  "prerequisitos": null,
+  "description": "O macabro é pintado com sangue seco, esculpido na forma de uma caveira ou decorado com pedaços de orelhas, dedos e olhos. Essa aparência assustadora fornece +2 em Intimidação, mas impõe uma penalidade de –2 em Diplomacia."
+}

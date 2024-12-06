@@ -1,0 +1,18 @@
+{
+  "id": "musgo_purpura",
+  "name": "Musgo Púrpura",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 45,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "origem": "florestas fechadas",
+  "efeito": {
+    "bonus_cd_magias": 2,
+    "escola": "ilusão"
+  },
+  "description": "Encontrado em florestas fechadas, esse fungo cintilante possui propriedades que fornecem +2 na CD de magias de ilusão."
+}

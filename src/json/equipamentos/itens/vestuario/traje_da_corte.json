@@ -1,0 +1,19 @@
+{
+  "id": "traje_da_corte",
+  "name": "Traje da Corte",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 100,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "inclui": ["joias", "aneis", "colares"],
+  "efeito": {
+    "evita_penalidade": {
+      "pericias": "baseadas em Carisma",
+      "ambientes": ["baile", "salão de palácio"],
+      "penalidade_sem_item": -5
+    }
+  },
+  "description": "Roupas de luxo, feitas sob medida e adequadas à nobreza e realeza. Inclui algumas joias, como aneis e colares. Em certos ambientes (um baile, um salão de palácio), um personagem que não esteja vestindo este item sofre –5 em perícias baseadas em Carisma."
+}

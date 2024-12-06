@@ -1,0 +1,13 @@
+{
+  "id": "vendedor_de_carcacas",
+  "name": "Vendedor de Carcaças",
+  "origin": "mateiro",
+  "description": "Você pode extrair recursos de criaturas em um minuto, em vez de uma hora, e recebe +5 no teste.",
+  "effects": {
+    "activity_bonus": {
+      "activity": "extrair recursos de criaturas",
+      "time_reduction": { "from": "1 hora", "to": "1 minuto" },
+      "test_bonus": 5
+    }
+  }
+}

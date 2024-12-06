@@ -1,0 +1,20 @@
+{
+  "id": "lanca_montada",
+  "name": "Lança Montada",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 10,
+  "dano": "1d8",
+  "critico": "x3",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "habilidades": ["alongada"],
+  "especial": {
+    "montado_uma_mao": true,
+    "investida_montada_dano_extra": "2d8"
+  },
+  "description": "A lança montada é uma arma alongada. Se você estiver montado, pode usá-la com apenas uma mão. Além disso, quando usada numa investida montada, causa +2d8 pontos de dano (note que dados extras não são multiplicados em caso de acerto crítico)."
+}

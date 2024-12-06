@@ -1,0 +1,10 @@
+{
+  "id": "estabulo",
+  "name": "Estábulo",
+  "type": "servico",
+  "categoria": "animal",
+  "preco": 0.5,
+  "periodo": "dia",
+  "inclui": ["alimentacao", "abrigo"],
+  "description": "Serviço de estabulagem para montaria por um dia. Inclui alimentação para o animal."
+}

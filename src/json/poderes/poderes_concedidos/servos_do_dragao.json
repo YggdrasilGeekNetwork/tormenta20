@@ -1,0 +1,24 @@
+{
+  "id": "servos_do_dragao",
+  "name": "Servos do Dragão",
+  "deities": ["kallyadranoch"],
+  "description": "Você pode gastar uma ação completa e 2 PM para invocar 2d4+1 kobolds capangas em espaços desocupados em alcance curto. Você pode gastar uma ação de movimento para fazer os kobolds andarem (eles têm deslocamento 9m) ou uma ação padrão para fazê-los causar dano a criaturas adjacentes (1d6–1 pontos de dano de perfuração cada). Os kobolds têm For –1, Des 1, Defesa 12, 1 PV e falham automaticamente em qualquer teste de resistência ou oposto. Eles desaparecem quando morrem ou no fim da cena. Os kobolds não agem sem receber uma ordem. Usos criativos para capangas fora de combate ficam a critério do mestre.",
+  "effects": {
+    "type": "active",
+    "cost": "2 PM",
+    "action": "ação completa",
+    "summon": {
+      "quantity": "2d4+1",
+      "creature": "kobolds capangas",
+      "stats": {
+        "forca": -1,
+        "destreza": 1,
+        "defesa": 12,
+        "pv": 1
+      },
+      "movement": "9m",
+      "damage": "1d6-1 perfuração",
+      "duration": "cena"
+    }
+  }
+}

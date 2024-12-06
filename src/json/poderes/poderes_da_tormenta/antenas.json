@@ -1,0 +1,18 @@
+{
+  "id": "antenas",
+  "name": "Antenas",
+  "description": "Você recebe +1 em Iniciativa, Percepção e Vontade. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui.",
+  "effects": {
+    "type": "passive",
+    "initiative_bonus": {
+      "base": 1,
+      "scaling": "+1 por cada 2 outros poderes da Tormenta"
+    },
+    "skill_bonuses": [
+      {"skill": "Percepção", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"}
+    ],
+    "save_bonuses": [
+      {"save": "Vontade", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"}
+    ]
+  }
+}

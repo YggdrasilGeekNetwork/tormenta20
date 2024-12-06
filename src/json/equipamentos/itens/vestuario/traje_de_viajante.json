@@ -1,0 +1,13 @@
+{
+  "id": "traje_de_viajante",
+  "name": "Traje de Viajante",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 10,
+  "espacos": 0,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "conta_como_vestido": false,
+  "efeito": null,
+  "description": "Inclui botas, calças ou saias, cinto, camisa de linho e capa com capuz. A roupa padrão de aventureiros."
+}

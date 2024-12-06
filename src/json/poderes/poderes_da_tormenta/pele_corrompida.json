@@ -1,0 +1,13 @@
+{
+  "id": "pele_corrompida",
+  "name": "Pele Corrompida",
+  "description": "Sua carne foi mesclada à matéria vermelha. Você recebe redução de ácido, eletricidade, fogo, frio, luz e trevas 2. Esta RD aumenta em +2 para cada dois outros poderes da Tormenta que você possui.",
+  "effects": {
+    "type": "passive",
+    "damage_reduction": {
+      "types": ["ácido", "eletricidade", "fogo", "frio", "luz", "trevas"],
+      "base": 2,
+      "scaling": "+2 por cada 2 outros poderes da Tormenta"
+    }
+  }
+}

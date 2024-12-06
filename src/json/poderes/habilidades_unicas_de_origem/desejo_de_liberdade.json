@@ -1,0 +1,12 @@
+{
+  "id": "desejo_de_liberdade",
+  "name": "Desejo de Liberdade",
+  "origin": "escravo",
+  "description": "Ninguém voltará a torná-lo um escravo! Você recebe +5 em testes contra a manobra agarrar e efeitos de movimento.",
+  "effects": {
+    "resistance_bonuses": [
+      { "against": "manobra agarrar", "value": 5 },
+      { "against": "efeitos de movimento", "value": 5 }
+    ]
+  }
+}

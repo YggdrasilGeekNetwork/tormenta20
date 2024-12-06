@@ -1,0 +1,12 @@
+{
+  "id": "vara_de_madeira",
+  "name": "Vara de Madeira",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 0.2,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "comprimento": 3,
+  "unidade": "metros",
+  "description": "Uma haste com 3m de comprimento. Útil para alcançar pontos distantes, mas frágil demais para servir como arma."
+}

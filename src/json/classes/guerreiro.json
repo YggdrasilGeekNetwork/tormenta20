@@ -1,0 +1,90 @@
+{
+  "id": "guerreiro",
+  "name": "Guerreiro",
+  "hit_points": {
+    "initial": 20,
+    "per_level": 5
+  },
+  "mana_points": {
+    "per_level": 3
+  },
+  "skills": {
+    "mandatory": [
+      {
+        "choose_one": [
+          { "name": "Luta", "attribute": "For" },
+          { "name": "Pontaria", "attribute": "Des" }
+        ]
+      },
+      { "name": "Fortitude", "attribute": "Con" }
+    ],
+    "choose_amount": 2,
+    "choose_from": [
+      { "name": "Adestramento", "attribute": "Car" },
+      { "name": "Atletismo", "attribute": "For" },
+      { "name": "Cavalgar", "attribute": "Des" },
+      { "name": "Guerra", "attribute": "Int" },
+      { "name": "Iniciativa", "attribute": "Des" },
+      { "name": "Intimidação", "attribute": "Car" },
+      { "name": "Luta", "attribute": "For" },
+      { "name": "Ofício", "attribute": "Int" },
+      { "name": "Percepção", "attribute": "Sab" },
+      { "name": "Pontaria", "attribute": "Des" },
+      { "name": "Reflexos", "attribute": "Des" }
+    ]
+  },
+  "proficiencies": {
+    "weapons": ["marciais"],
+    "armors": ["pesadas"],
+    "shields": true
+  },
+  "abilities": [
+    "ataque_especial",
+    "durao",
+    "ataque_extra",
+    "campeao"
+  ],
+  "powers": [
+    "ambidestria",
+    "arqueiro",
+    "ataque_reflexo",
+    "aumento_de_atributo",
+    "bater_e_correr",
+    "destruidor",
+    "esgrimista",
+    "especializacao_em_arma",
+    "especializacao_em_armadura",
+    "golpe_de_raspao",
+    "golpe_demolidor",
+    "golpe_pessoal",
+    "impeto",
+    "mestre_em_arma",
+    "planejamento_marcial",
+    "romper_resistencias",
+    "solidez",
+    "tornado_de_dor",
+    "valentao"
+  ],
+  "progression": [
+    { "level": 1, "abilities": ["ataque_especial"] },
+    { "level": 2, "abilities": ["poder_de_guerreiro"] },
+    { "level": 3, "abilities": ["durao", "poder_de_guerreiro"] },
+    { "level": 4, "abilities": ["poder_de_guerreiro"] },
+    { "level": 5, "abilities": ["poder_de_guerreiro"] },
+    { "level": 6, "abilities": ["ataque_extra", "poder_de_guerreiro"] },
+    { "level": 7, "abilities": ["poder_de_guerreiro"] },
+    { "level": 8, "abilities": ["poder_de_guerreiro"] },
+    { "level": 9, "abilities": ["poder_de_guerreiro"] },
+    { "level": 10, "abilities": ["poder_de_guerreiro"] },
+    { "level": 11, "abilities": ["poder_de_guerreiro"] },
+    { "level": 12, "abilities": ["poder_de_guerreiro"] },
+    { "level": 13, "abilities": ["poder_de_guerreiro"] },
+    { "level": 14, "abilities": ["poder_de_guerreiro"] },
+    { "level": 15, "abilities": ["poder_de_guerreiro"] },
+    { "level": 16, "abilities": ["poder_de_guerreiro"] },
+    { "level": 17, "abilities": ["poder_de_guerreiro"] },
+    { "level": 18, "abilities": ["poder_de_guerreiro"] },
+    { "level": 19, "abilities": ["poder_de_guerreiro"] },
+    { "level": 20, "abilities": ["campeao", "poder_de_guerreiro"] }
+  ]
+}

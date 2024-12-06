@@ -1,0 +1,47 @@
+{
+  "id": "carga",
+  "name": "Limites de Carga",
+  "description": "A quantidade de equipamento que você pode carregar é medida em espaços de itens.",
+  "capacidade": {
+    "base": 10,
+    "por_ponto_forca": 2,
+    "por_ponto_forca_negativo": -1
+  },
+  "espacos_por_tipo": [
+    {
+      "tipo": "pequeno_leve",
+      "espacos": 0.5,
+      "exemplos": ["itens alquímicos", "poções", "pergaminhos", "itens muito leves ou pequenos"]
+    },
+    {
+      "tipo": "normal",
+      "espacos": 1,
+      "exemplos": ["maioria dos itens", "armas de uma mão"]
+    },
+    {
+      "tipo": "pesado_volumoso",
+      "espacos": 2,
+      "exemplos": ["armas de duas mãos", "armaduras leves", "escudos pesados", "criaturas Minúsculas"]
+    },
+    {
+      "tipo": "muito_pesado",
+      "espacos": 5,
+      "exemplos": ["armaduras pesadas", "criaturas Pequenas", "barril", "baú"]
+    },
+    {
+      "tipo": "extremamente_pesado",
+      "espacos": 10,
+      "exemplos": ["criatura Média"]
+    },
+    {
+      "tipo": "mil_moedas",
+      "espacos": 1,
+      "exemplos": ["1000 moedas de qualquer tipo"]
+    }
+  ],
+  "sobrecarregado": {
+    "limite": "dobro_capacidade",
+    "penalidade_armadura": -5,
+    "reducao_deslocamento": -3
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "nevoa_toxica",
+  "name": "Névoa Tóxica",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 30,
+  "espacos": 0.5,
+  "cd_fabricacao": 20,
+  "inoculacao": "inalacao",
+  "efeito": {
+    "falha": {
+      "dano": "1d12",
+      "por_rodada": true,
+      "duracao_rodadas": 3
+    },
+    "sucesso": {
+      "dano": "1d12"
+    }
+  },
+  "description": "Este gás verde queima e corrói a pele e os pulmões. Inalação, perde 1d12 PV por rodada durante 3 rodadas (perde 1d12 PV)."
+}

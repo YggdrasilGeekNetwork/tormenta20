@@ -1,0 +1,11 @@
+{
+  "id": "equilibrada",
+  "name": "Equilibrada",
+  "type": "melhoria",
+  "categoria": "arma",
+  "efeito": {
+    "bonus_manobras": 2
+  },
+  "prerequisitos": null,
+  "description": "Uma arma equilibrada é forjada com o balanço perfeito, o que facilita movimentos complexos. Ela fornece +2 em testes de manobras (desarmar, quebrar etc.)."
+}

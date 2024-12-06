@@ -1,0 +1,22 @@
+{
+  "id": "beladona",
+  "name": "Beladona",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 1500,
+  "espacos": 0.5,
+  "cd_fabricacao": 25,
+  "cd_resistencia_bonus": 5,
+  "inoculacao": "ingestao",
+  "efeito": {
+    "falha": {
+      "condicao": "paralisada",
+      "duracao": "3 rodadas"
+    },
+    "sucesso": {
+      "condicao": "lenta"
+    }
+  },
+  "description": "Planta extremamente tóxica que afeta o sistema nervoso da vítima. Ingestão, vítima fica paralisada (lenta) por 3 rodadas. A CD para fabricar e para resistir a este veneno aumenta em +5."
+}

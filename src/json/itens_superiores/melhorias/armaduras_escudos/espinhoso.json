@@ -1,0 +1,11 @@
+{
+  "id": "espinhoso",
+  "name": "Espinhoso",
+  "type": "melhoria",
+  "categoria": "escudo",
+  "efeito": {
+    "aumento_dano_escudo": "um_passo"
+  },
+  "prerequisitos": null,
+  "description": "Aumenta o dano de um ataque com escudo em um passo."
+}

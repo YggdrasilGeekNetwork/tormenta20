@@ -1,0 +1,21 @@
+{
+  "id": "dedo_de_ente",
+  "name": "Dedo de Ente",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 200,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "material": "madeira de árvore senciente",
+  "efeito": {
+    "chance_recuperar_pm": {
+      "dado": "1d4",
+      "resultado_necessario": 4,
+      "pm_recuperado": 1,
+      "condicao": "ao gastar pelo menos 1 PM para lançar magia"
+    }
+  },
+  "description": "Uma varinha feita da madeira de uma árvore senciente. Sempre que gastar pelo menos 1 PM para lançar uma magia, role 1d4. Com um resultado 4, você recupera 1 PM."
+}

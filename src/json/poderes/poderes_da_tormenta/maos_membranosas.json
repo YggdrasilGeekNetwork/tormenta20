@@ -1,0 +1,18 @@
+{
+  "id": "maos_membranosas",
+  "name": "Mãos Membranosas",
+  "description": "Você recebe +1 em Atletismo, Fortitude e testes de agarrar. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui.",
+  "effects": {
+    "type": "passive",
+    "skill_bonuses": [
+      {"skill": "Atletismo", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"}
+    ],
+    "save_bonuses": [
+      {"save": "Fortitude", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"}
+    ],
+    "grapple_bonus": {
+      "base": 1,
+      "scaling": "+1 por cada 2 outros poderes da Tormenta"
+    }
+  }
+}

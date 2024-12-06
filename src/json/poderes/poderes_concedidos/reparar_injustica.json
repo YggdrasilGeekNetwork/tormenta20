@@ -1,0 +1,13 @@
+{
+  "id": "reparar_injustica",
+  "name": "Reparar Injustiça",
+  "deities": ["khalmyr"],
+  "description": "Uma vez por rodada, quando um oponente em alcance curto acerta um ataque em você ou em um de seus aliados, você pode gastar 2 PM para fazer este oponente repetir o ataque, escolhendo o pior entre os dois resultados.",
+  "effects": {
+    "type": "active",
+    "cost": "2 PM",
+    "frequency": "1/rodada",
+    "trigger": "oponente em alcance curto acerta ataque em você ou aliado",
+    "effect": "oponente repete o ataque, escolhendo o pior resultado"
+  }
+}

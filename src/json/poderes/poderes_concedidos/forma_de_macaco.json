@@ -1,0 +1,20 @@
+{
+  "id": "forma_de_macaco",
+  "name": "Forma de Macaco",
+  "deities": ["hyninn"],
+  "description": "Você pode gastar uma ação completa e 2 PM para se transformar em um macaco. Você adquire tamanho Minúsculo (o que fornece +5 em Furtividade e –5 em testes de manobra) e recebe deslocamento de escalar 9m. Seu equipamento desaparece (e você perde seus benefícios) até você voltar ao normal, mas suas outras estatísticas não são alteradas. A transformação dura indefinidamente, mas termina caso você faça um ataque, lance uma magia ou sofra dano.",
+  "effects": {
+    "type": "active",
+    "cost": "2 PM",
+    "action": "ação completa",
+    "transformation": {
+      "size": "Minúsculo",
+      "skill_bonus": {"skill": "Furtividade", "bonus": 5},
+      "skill_penalty": {"skill": "manobras", "penalty": -5},
+      "movement": {"climb": "9m"},
+      "equipment": "desaparece",
+      "duration": "indefinida",
+      "ends_when": ["ataque", "lançar magia", "sofrer dano"]
+    }
+  }
+}

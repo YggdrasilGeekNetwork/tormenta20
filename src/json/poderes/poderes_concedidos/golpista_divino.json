@@ -1,0 +1,14 @@
+{
+  "id": "golpista_divino",
+  "name": "Golpista Divino",
+  "deities": ["hyninn"],
+  "description": "Você recebe +2 em Enganação, Jogatina e Ladinagem.",
+  "effects": {
+    "type": "passive",
+    "skill_bonuses": [
+      {"skill": "Enganação", "bonus": 2},
+      {"skill": "Jogatina", "bonus": 2},
+      {"skill": "Ladinagem", "bonus": 2}
+    ]
+  }
+}

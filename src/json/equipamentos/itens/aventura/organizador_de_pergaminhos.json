@@ -1,0 +1,14 @@
+{
+  "id": "organizador_de_pergaminhos",
+  "name": "Organizador de Pergaminhos",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 25,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "vestido",
+  "efeito": {
+    "sacar_pergaminhos": "acao_livre"
+  },
+  "description": "Um estojo de madeira ou couro rígido. Se você estiver vestindo um organizador de pergaminhos, pode sacar pergaminhos como uma ação livre."
+}

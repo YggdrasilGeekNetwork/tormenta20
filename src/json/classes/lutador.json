@@ -1,0 +1,90 @@
+{
+  "id": "lutador",
+  "name": "Lutador",
+  "hit_points": {
+    "initial": 20,
+    "per_level": 5
+  },
+  "mana_points": {
+    "per_level": 3
+  },
+  "skills": {
+    "mandatory": [
+      { "name": "Fortitude", "attribute": "Con" },
+      { "name": "Luta", "attribute": "For" }
+    ],
+    "choose_amount": 4,
+    "choose_from": [
+      { "name": "Acrobacia", "attribute": "Des" },
+      { "name": "Adestramento", "attribute": "Car" },
+      { "name": "Atletismo", "attribute": "For" },
+      { "name": "Enganação", "attribute": "Car" },
+      { "name": "Furtividade", "attribute": "Des" },
+      { "name": "Iniciativa", "attribute": "Des" },
+      { "name": "Intimidação", "attribute": "Car" },
+      { "name": "Ofício", "attribute": "Int" },
+      { "name": "Percepção", "attribute": "Sab" },
+      { "name": "Pontaria", "attribute": "Des" },
+      { "name": "Reflexos", "attribute": "Des" }
+    ]
+  },
+  "proficiencies": {
+    "weapons": [],
+    "armors": [],
+    "shields": false
+  },
+  "abilities": [
+    "golpe_relampago",
+    "casca_grossa",
+    "golpe_cruel",
+    "golpe_violento",
+    "dono_da_rua"
+  ],
+  "powers": [
+    "arma_improvisada",
+    "ate_acertar",
+    "aumento_de_atributo",
+    "bracos_calejados",
+    "cabecada",
+    "chave",
+    "confianca_dos_ringues",
+    "convencido",
+    "golpe_baixo",
+    "golpe_imprudente",
+    "imobilizacao",
+    "lingua_dos_becos",
+    "lutador_de_chao",
+    "nome_na_arena",
+    "punhos_de_adamante",
+    "rasteira",
+    "sarado",
+    "sequencia_desrtuidora",
+    "trincado",
+    "trocacao",
+    "trocacao_tumultuosa",
+    "valentao",
+    "voadora"
+  ],
+  "progression": [
+    { "level": 1, "abilities": ["briga", "golpe_relampago"] },
+    { "level": 2, "abilities": ["poder_de_lutador"] },
+    { "level": 3, "abilities": ["casca_grossa", "poder_de_lutador"] },
+    { "level": 4, "abilities": ["poder_de_lutador"] },
+    { "level": 5, "abilities": ["golpe_cruel", "poder_de_lutador"] },
+    { "level": 6, "abilities": ["poder_de_lutador"] },
+    { "level": 7, "abilities": ["poder_de_lutador"] },
+    { "level": 8, "abilities": ["poder_de_lutador"] },
+    { "level": 9, "abilities": ["golpe_violento", "poder_de_lutador"] },
+    { "level": 10, "abilities": ["poder_de_lutador"] },
+    { "level": 11, "abilities": ["poder_de_lutador"] },
+    { "level": 12, "abilities": ["poder_de_lutador"] },
+    { "level": 13, "abilities": ["poder_de_lutador"] },
+    { "level": 14, "abilities": ["poder_de_lutador"] },
+    { "level": 15, "abilities": ["poder_de_lutador"] },
+    { "level": 16, "abilities": ["poder_de_lutador"] },
+    { "level": 17, "abilities": ["poder_de_lutador"] },
+    { "level": 18, "abilities": ["poder_de_lutador"] },
+    { "level": 19, "abilities": ["poder_de_lutador"] },
+    { "level": 20, "abilities": ["dono_da_rua", "poder_de_lutador"] }
+  ]
+}

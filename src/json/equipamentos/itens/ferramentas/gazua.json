@@ -1,0 +1,18 @@
+{
+  "id": "gazua",
+  "name": "Gazua",
+  "type": "item",
+  "categoria": "ferramenta",
+  "preco": 5,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "efeito": {
+    "evita_penalidade": {
+      "pericia": "Ladinagem",
+      "uso": "abrir fechaduras",
+      "penalidade_sem_item": -5
+    }
+  },
+  "description": "Uma barra fina de ferro, com a ponta torta ou em forma de gancho. Um personagem sem este item sofre –5 em testes de Ladinagem para abrir fechaduras."
+}

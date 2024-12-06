@@ -1,0 +1,20 @@
+{
+  "id": "mente_aberrante",
+  "name": "Mente Aberrante",
+  "description": "Você recebe resistência a efeitos mentais +1. Além disso, sempre que precisa fazer um teste de Vontade para resistir a uma habilidade, a criatura que usou essa habilidade sofre 1d6 pontos de dano psíquico. Para cada dois outros poderes da Tormenta que você possui o bônus em testes de resistência aumenta em +1 e o dano aumenta em +1d6.",
+  "effects": {
+    "type": "passive",
+    "resistance": {
+      "type": "efeitos mentais",
+      "base": 1,
+      "scaling": "+1 por cada 2 outros poderes da Tormenta"
+    },
+    "reactive_damage": {
+      "trigger": "fazer teste de Vontade contra habilidade",
+      "damage": {
+        "base": "1d6 psíquico",
+        "scaling": "+1d6 por cada 2 outros poderes da Tormenta"
+      }
+    }
+  }
+}

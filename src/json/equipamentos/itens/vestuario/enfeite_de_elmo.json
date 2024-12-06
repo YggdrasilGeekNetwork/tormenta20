@@ -1,0 +1,15 @@
+{
+  "id": "enfeite_de_elmo",
+  "name": "Enfeite de Elmo",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 15,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "exemplos": ["crina de cavalo", "plumas", "asas", "totem de animal"],
+  "efeito": {
+    "resistencia_medo": 2
+  },
+  "description": "Um adorno chamativo, como crina de cavalo, plumas, asas ou um totem de animal. Fornece resistência a medo +2."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ramo_verdejante",
+  "name": "Ramo Verdejante",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 45,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "bonus_cura_por_dado": 1
+  },
+  "description": "Esta combinação de ervas potencializa magias de cura, aumentando sua cura em +1 PV por dado."
+}

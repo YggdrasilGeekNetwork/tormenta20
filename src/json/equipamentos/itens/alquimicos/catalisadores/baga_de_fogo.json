@@ -1,0 +1,17 @@
+{
+  "id": "baga_de_fogo",
+  "name": "Baga-de-Fogo",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 30,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "dano_extra_magias": "1d6",
+    "tipo_dano": "fogo"
+  },
+  "description": "Pequeno fruto vermelho, apreciado por seu sabor picante. Usado como catalisador, adiciona +1d6 de dano de fogo a magias."
+}

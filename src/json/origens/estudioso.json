@@ -1,0 +1,11 @@
+{
+  "id": "estudioso",
+  "name": "Estudioso",
+  "description": "Não importa se você já nasceu apaixonado por certo assunto, testemunhou um evento incrível que atiçou sua curiosidade ou se viu forçado a estudar por imposição familiar. Longos anos de sua vida foram gastos em meio a livros e pergaminhos. Da engenharia dos anões à geopolítica do Reinado, das táticas militares puristas aos sistemas de conjuração da Academia Arcana, da anatomia dos dragões aos enigmas cósmicos da Tormenta... em Arton não faltam campos a conquistar, segredos a desvendar. Agora, como aventureiro, você tem a chance de vivenciar aquilo que aprendeu e também auxiliar o grupo com o fruto de seus estudos.",
+  "items": ["Coleção de livros (+1 em Conhecimento, Guerra, Misticismo ou Nobreza, a sua escolha)"],
+  "benefits": {
+    "skills": ["Conhecimento", "Guerra", "Misticismo"],
+    "powers": ["Aparência Inofensiva", "Palpite Fundamentado"]
+  },
+  "unique_power": "palpite_fundamentado"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "luva_de_pelica",
+  "name": "Luva de Pelica",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 5,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_ladinagem": 1
+  },
+  "description": "Estas luvas delicadas preservam o tato e impedem que o suor deixe os dedos escorregadios. Fornecem +1 em Ladinagem."
+}

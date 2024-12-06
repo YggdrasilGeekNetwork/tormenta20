@@ -1,0 +1,13 @@
+{
+  "id": "aura_restauradora",
+  "name": "Aura Restauradora",
+  "deities": ["lena"],
+  "description": "Efeitos de cura usados por você e seus aliados em um raio de 9m recuperam +1 PV por dado.",
+  "effects": {
+    "type": "passive",
+    "aura": {
+      "radius": "9m",
+      "benefit": "+1 PV por dado de cura"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "id": "gibao_de_peles",
+  "name": "Gibão de Peles",
+  "type": "armadura",
+  "categoria": "leve",
+  "preco": 25,
+  "bonus_defesa": 4,
+  "penalidade_armadura": -3,
+  "espacos": 2,
+  "especial": null,
+  "vestir_remover": "acao_completa",
+  "description": "Usada principalmente por bárbaros e selvagens, esta armadura é formada por várias camadas de peles e couro de animais."
+}

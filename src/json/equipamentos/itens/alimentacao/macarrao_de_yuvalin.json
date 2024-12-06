@@ -1,0 +1,12 @@
+{
+  "id": "macarrao_de_yuvalin",
+  "name": "Macarrão de Yuvalin",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 3,
+  "espacos": 0.5,
+  "efeito": {
+    "pv_temporarios": 5
+  },
+  "description": "Yuvalin é uma cidade mineradora em Zakharov, na fronteira com as Montanhas Uivantes. Seus habitantes criaram este prato reforçado (macarrão, bacon e creme de leite!) para encarar suas árduas jornadas de trabalho nas minas. Delicioso, o prato se espalhou por outras cidades e reinos. Você recebe +5 PV temporários."
+}

@@ -1,0 +1,14 @@
+{
+  "id": "manto_eclesiastico",
+  "name": "Manto Eclesiástico",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 20,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_religiao": 1
+  },
+  "description": "Um manto típico de igrejas e templos. Fornece +1 em Religião."
+}

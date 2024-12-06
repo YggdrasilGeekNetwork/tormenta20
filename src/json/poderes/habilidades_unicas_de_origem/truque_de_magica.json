@@ -1,0 +1,14 @@
+{
+  "id": "truque_de_magica",
+  "name": "Truque de Mágica",
+  "origin": "circense",
+  "description": "Você pode lançar Explosão de Chamas, Hipnotismo e Queda Suave, mas apenas com o aprimoramento Truque. Esta não é uma habilidade mágica — os efeitos provêm de prestidigitação.",
+  "effects": {
+    "spells": {
+      "available": ["Explosão de Chamas", "Hipnotismo", "Queda Suave"],
+      "restriction": "apenas com aprimoramento Truque",
+      "is_magical": false,
+      "source": "prestidigitação"
+    }
+  }
+}

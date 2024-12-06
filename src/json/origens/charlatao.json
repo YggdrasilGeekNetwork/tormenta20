@@ -1,0 +1,11 @@
+{
+  "id": "charlatao",
+  "name": "Charlatão",
+  "description": "Você sempre teve talento para resolver problemas com conversa, sincera ou nem tanto. Talvez tenha aprendido andando com más companhias. Por ser pequeno e fraco em meio a guerreiros truculentos, talvez fosse pura questão de sobrevivência. Ou foi tocado por Hyninn, Sszzaas ou outra entidade traiçoeira. Seja como for, após um pouco de diálogo, você percebe o que as pessoas mais querem ou temem, usando palavras para vencer obstáculos tão facilmente quanto espadas e magias. Ou melhor.",
+  "items": ["Estojo de disfarces", "Joia falsificada (valor aparente de T$ 100, sem valor real)"],
+  "benefits": {
+    "skills": ["Enganação", "Jogatina"],
+    "powers": ["Alpinista Social", "Aparência Inofensiva", "Sortudo"]
+  },
+  "unique_power": "alpinista_social"
+}

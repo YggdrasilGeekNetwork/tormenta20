@@ -1,0 +1,23 @@
+{
+  "id": "presas_primordiais",
+  "name": "Presas Primordiais",
+  "deities": ["kallyadranoch", "megalokk"],
+  "description": "Você pode gastar 1 PM para transformar seus dentes em presas afiadas até o fim da cena. Você recebe uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Se já possuir outro ataque natural de mordida, em vez disso, o dano desse ataque aumenta em dois passos.",
+  "effects": {
+    "type": "active",
+    "cost": "1 PM",
+    "duration": "cena",
+    "grants_natural_weapon": {
+      "type": "mordida",
+      "damage": "1d6",
+      "critical": "x2",
+      "damage_type": "perfuração"
+    },
+    "extra_attack": {
+      "cost": "1 PM",
+      "frequency": "1/rodada",
+      "trigger": "ao usar ação agredir com outra arma"
+    },
+    "alternative": "se já possuir mordida, dano aumenta em dois passos"
+  }
+}

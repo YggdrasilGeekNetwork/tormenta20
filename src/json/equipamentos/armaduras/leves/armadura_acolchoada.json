@@ -1,0 +1,15 @@
+{
+  "id": "armadura_acolchoada",
+  "name": "Armadura Acolchoada",
+  "type": "armadura",
+  "categoria": "leve",
+  "preco": 5,
+  "bonus_defesa": 1,
+  "penalidade_armadura": 0,
+  "espacos": 2,
+  "especial": {
+    "bonus_fortitude": 2
+  },
+  "vestir_remover": "acao_completa",
+  "description": "Uma túnica almofadada feita em linho ou lã. É a armadura mais leve, mas protege todo o corpo, fornecendo +2 em Fortitude."
+}

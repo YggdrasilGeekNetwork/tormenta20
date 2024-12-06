@@ -1,0 +1,11 @@
+{
+  "id": "cruel",
+  "name": "Cruel",
+  "type": "melhoria",
+  "categoria": "arma",
+  "efeito": {
+    "bonus_dano": 1
+  },
+  "prerequisitos": null,
+  "description": "Rebarbas, espinhos e até mesmo lâminas adicionais compõem uma arma cruel. Ela fornece +1 nas rolagens de dano."
+}

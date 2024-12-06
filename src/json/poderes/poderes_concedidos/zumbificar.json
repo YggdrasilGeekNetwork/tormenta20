@@ -1,0 +1,18 @@
+{
+  "id": "zumbificar",
+  "name": "Zumbificar",
+  "deities": ["tenebra"],
+  "description": "Você pode gastar uma ação completa e 3 PM para reanimar o cadáver de uma criatura Pequena ou Média adjacente por um dia. O cadáver funciona como um parceiro iniciante de um tipo a sua escolha entre combatente, fortão ou guardião. Além disso, quando sofre dano, você pode sacrificar esse parceiro; se fizer isso, você sofre apenas metade do dano, mas o cadáver é destruído.",
+  "effects": {
+    "type": "active",
+    "cost": "3 PM",
+    "action": "ação completa",
+    "summon": {
+      "target": "cadáver de criatura Pequena ou Média adjacente",
+      "duration": "1 dia",
+      "partner_type": ["combatente", "fortão", "guardião"],
+      "partner_level": "iniciante"
+    },
+    "special": "pode sacrificar o parceiro para sofrer metade do dano"
+  }
+}

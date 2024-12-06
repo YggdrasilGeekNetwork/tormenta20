@@ -1,0 +1,14 @@
+{
+  "id": "barraca",
+  "name": "Barraca",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 10,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "efeito": {
+    "funciona_como": "saco de dormir para duas pessoas",
+    "bonus_sobrevivencia_acampar": 2
+  },
+  "description": "Esta barraca de lona conta como um saco de dormir para duas pessoas e fornece +2 em testes de Sobrevivência para acampar."
+}

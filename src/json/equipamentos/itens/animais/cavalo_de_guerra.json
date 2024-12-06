@@ -1,0 +1,17 @@
+{
+  "id": "cavalo_de_guerra",
+  "name": "Cavalo de Guerra",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 400,
+  "espacos": 0,
+  "parceiro": {
+    "tipo": "montaria",
+    "nivel": "iniciante"
+  },
+  "combate": {
+    "teste_cavalgar": null,
+    "motivo": "Cavalos de guerra dispensam teste de Cavalgar em combate"
+  },
+  "description": "Cavalo treinado para combate, mais forte e corajoso que um cavalo comum. Cavalos de guerra dispensam o teste de Cavalgar para permanecer montado durante um combate."
+}

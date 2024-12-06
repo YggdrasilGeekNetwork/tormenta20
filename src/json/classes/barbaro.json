@@ -1,0 +1,85 @@
+{
+  "id": "barbaro",
+  "name": "Bárbaro",
+  "hit_points": {
+    "initial": 24,
+    "per_level": 6
+  },
+  "mana_points": {
+    "per_level": 3
+  },
+  "skills": {
+    "mandatory": [
+      { "name": "Fortitude", "attribute": "Con" },
+      { "name": "Luta", "attribute": "For" }
+    ],
+    "choose_amount": 4,
+    "choose_from": [
+      { "name": "Adestramento", "attribute": "Car" },
+      { "name": "Atletismo", "attribute": "For" },
+      { "name": "Cavalgar", "attribute": "Des" },
+      { "name": "Iniciativa", "attribute": "Des" },
+      { "name": "Intimidação", "attribute": "Car" },
+      { "name": "Ofício", "attribute": "Int" },
+      { "name": "Percepção", "attribute": "Sab" },
+      { "name": "Pontaria", "attribute": "Des" },
+      { "name": "Sobrevivência", "attribute": "Sab" },
+      { "name": "Vontade", "attribute": "Sab" }
+    ]
+  },
+  "proficiencies": {
+    "weapons": ["marciais"],
+    "armors": [],
+    "shields": true
+  },
+  "abilities": [
+    "furia",
+    "instinto_selvagem",
+    "resistencia_a_dano",
+    "furia_titanica"
+  ],
+  "powers": [
+    "alma_de_bronze",
+    "aumento_de_atributo",
+    "brado_assustador",
+    "critico_brutal",
+    "destruidor",
+    "espirito_inquebravel",
+    "esquiva_sobrenatural",
+    "forca_indomavel",
+    "frenesi",
+    "furia_da_savana",
+    "furia_raivosa",
+    "golpe_poderoso",
+    "impeto",
+    "investida_imprudente",
+    "pele_de_aco",
+    "pele_de_ferro",
+    "sangue_dos_inimigos",
+    "supersticao",
+    "totem_espiritual",
+    "vigor_primal"
+  ],
+  "progression": [
+    { "level": 1, "abilities": ["furia"] },
+    { "level": 2, "abilities": ["poder_de_barbaro"] },
+    { "level": 3, "abilities": ["instinto_selvagem", "poder_de_barbaro"] },
+    { "level": 4, "abilities": ["poder_de_barbaro"] },
+    { "level": 5, "abilities": ["poder_de_barbaro", "resistencia_a_dano"] },
+    { "level": 6, "abilities": ["poder_de_barbaro"] },
+    { "level": 7, "abilities": ["poder_de_barbaro"] },
+    { "level": 8, "abilities": ["poder_de_barbaro"] },
+    { "level": 9, "abilities": ["poder_de_barbaro"] },
+    { "level": 10, "abilities": ["poder_de_barbaro"] },
+    { "level": 11, "abilities": ["poder_de_barbaro"] },
+    { "level": 12, "abilities": ["poder_de_barbaro"] },
+    { "level": 13, "abilities": ["poder_de_barbaro"] },
+    { "level": 14, "abilities": ["poder_de_barbaro"] },
+    { "level": 15, "abilities": ["poder_de_barbaro"] },
+    { "level": 16, "abilities": ["poder_de_barbaro"] },
+    { "level": 17, "abilities": ["poder_de_barbaro"] },
+    { "level": 18, "abilities": ["poder_de_barbaro"] },
+    { "level": 19, "abilities": ["poder_de_barbaro"] },
+    { "level": 20, "abilities": ["furia_titanica", "poder_de_barbaro"] }
+  ]
+}

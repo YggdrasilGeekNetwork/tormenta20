@@ -1,0 +1,17 @@
+{
+  "id": "espada_longa",
+  "name": "Espada Longa",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 15,
+  "dano": "1d8",
+  "critico": "19",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": null,
+  "description": "Arma típica de soldados e guerreiros, esta espada de dois gumes tem lâmina reta medindo entre 80cm e 1m."
+}

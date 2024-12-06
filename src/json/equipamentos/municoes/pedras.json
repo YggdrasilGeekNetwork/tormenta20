@@ -1,0 +1,14 @@
+{
+  "id": "pedras",
+  "name": "Pedras",
+  "type": "municao",
+  "preco": 0.5,
+  "quantidade": 20,
+  "espacos": 1,
+  "armas_compativeis": ["funda"],
+  "especial": {
+    "recarregar": "acao_movimento",
+    "improvisada_dano_reduzido": true
+  },
+  "description": "Um saco de couro com 20 pedras polidas. Recarregar uma funda com uma pedra de qualquer tipo é uma ação de movimento."
+}

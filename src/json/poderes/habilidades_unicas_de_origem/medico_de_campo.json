@@ -1,0 +1,12 @@
+{
+  "id": "medico_de_campo",
+  "name": "Médico de Campo",
+  "origin": "curandeiro",
+  "description": "Você soma sua Sabedoria aos PV restaurados por suas habilidades e itens mundanos de cura.",
+  "effects": {
+    "healing_bonus": {
+      "attribute": "Sabedoria",
+      "applies_to": ["habilidades de cura", "itens mundanos de cura"]
+    }
+  }
+}

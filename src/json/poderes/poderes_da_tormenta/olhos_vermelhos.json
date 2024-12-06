@@ -1,0 +1,12 @@
+{
+  "id": "olhos_vermelhos",
+  "name": "Olhos Vermelhos",
+  "description": "Você recebe visão no escuro e +1 em Intimidação. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui.",
+  "effects": {
+    "type": "passive",
+    "senses": ["visão no escuro"],
+    "skill_bonuses": [
+      {"skill": "Intimidação", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"}
+    ]
+  }
+}

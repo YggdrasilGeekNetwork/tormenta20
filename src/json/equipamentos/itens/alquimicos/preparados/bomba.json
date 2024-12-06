@@ -1,0 +1,30 @@
+{
+  "id": "bomba",
+  "name": "Bomba",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 50,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "uso": "empunhado",
+  "acoes": {
+    "acender": "movimento",
+    "arremessar": "padrao"
+  },
+  "alcance": "curto",
+  "area": {
+    "tipo": "esfera",
+    "raio": 3
+  },
+  "efeito": {
+    "dano": "6d6",
+    "tipo_dano": "impacto",
+    "resistencia": {
+      "tipo": "Reflexos",
+      "cd": "Des",
+      "efeito": "reduz_metade"
+    }
+  },
+  "description": "Uma granada rudimentar. Para usar a bomba, você precisa empunhá-la, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-la em um ponto em alcance curto. Criaturas a até 3m desse ponto sofrem 6d6 pontos de dano de impacto (Reflexos CD Des reduz à metade)."
+}

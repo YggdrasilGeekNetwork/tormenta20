@@ -1,0 +1,88 @@
+{
+  "id": "druida",
+  "name": "Druida",
+  "hit_points": {
+    "initial": 16,
+    "per_level": 4
+  },
+  "mana_points": {
+    "per_level": 4
+  },
+  "skills": {
+    "mandatory": [
+      { "name": "Sobrevivência", "attribute": "Sab" },
+      { "name": "Vontade", "attribute": "Sab" }
+    ],
+    "choose_amount": 4,
+    "choose_from": [
+      { "name": "Adestramento", "attribute": "Car" },
+      { "name": "Atletismo", "attribute": "For" },
+      { "name": "Cavalgar", "attribute": "Des" },
+      { "name": "Conhecimento", "attribute": "Int" },
+      { "name": "Cura", "attribute": "Sab" },
+      { "name": "Fortitude", "attribute": "Con" },
+      { "name": "Iniciativa", "attribute": "Des" },
+      { "name": "Intuição", "attribute": "Sab" },
+      { "name": "Luta", "attribute": "For" },
+      { "name": "Misticismo", "attribute": "Int" },
+      { "name": "Ofício", "attribute": "Int" },
+      { "name": "Percepção", "attribute": "Sab" },
+      { "name": "Religião", "attribute": "Sab" }
+    ]
+  },
+  "proficiencies": {
+    "weapons": [],
+    "armors": [],
+    "shields": true
+  },
+  "abilities": [
+    "devoto",
+    "empatia_selvagem",
+    "caminho_dos_ermos",
+    "forca_da_natureza"
+  ],
+  "powers": [
+    "aspecto_da_primavera",
+    "aspecto_do_inverno",
+    "aspecto_do_outono",
+    "aspecto_do_verao",
+    "aumento_de_atributo",
+    "companheiro_animal",
+    "companheiro_animal_aprimorado",
+    "companheiro_animal_lendario",
+    "companheiro_animal_magico",
+    "coracao_da_selva",
+    "espirito_dos_equinocios",
+    "espirito_dos_solsticios",
+    "forca_dos_penhascos",
+    "forma_primal",
+    "forma_selvagem",
+    "liberdade_da_pradaria",
+    "magia_natural",
+    "presas_afiadas",
+    "segredos_da_natureza",
+    "tranquilidade_dos_lagos"
+  ],
+  "progression": [
+    { "level": 1, "abilities": ["devoto", "empatia_selvagem", "magias"] },
+    { "level": 2, "abilities": ["caminho_dos_ermos", "poder_de_druida"] },
+    { "level": 3, "abilities": ["poder_de_druida"] },
+    { "level": 4, "abilities": ["poder_de_druida"] },
+    { "level": 5, "abilities": ["poder_de_druida"] },
+    { "level": 6, "abilities": ["poder_de_druida"] },
+    { "level": 7, "abilities": ["poder_de_druida"] },
+    { "level": 8, "abilities": ["poder_de_druida"] },
+    { "level": 9, "abilities": ["poder_de_druida"] },
+    { "level": 10, "abilities": ["poder_de_druida"] },
+    { "level": 11, "abilities": ["poder_de_druida"] },
+    { "level": 12, "abilities": ["poder_de_druida"] },
+    { "level": 13, "abilities": ["poder_de_druida"] },
+    { "level": 14, "abilities": ["poder_de_druida"] },
+    { "level": 15, "abilities": ["poder_de_druida"] },
+    { "level": 16, "abilities": ["poder_de_druida"] },
+    { "level": 17, "abilities": ["poder_de_druida"] },
+    { "level": 18, "abilities": ["poder_de_druida"] },
+    { "level": 19, "abilities": ["poder_de_druida"] },
+    { "level": 20, "abilities": ["forca_da_natureza", "poder_de_druida"] }
+  ]
+}

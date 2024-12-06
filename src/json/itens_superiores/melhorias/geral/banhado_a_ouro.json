@@ -1,0 +1,17 @@
+{
+  "id": "banhado_a_ouro",
+  "name": "Banhado a Ouro",
+  "type": "melhoria",
+  "categoria": ["arma", "armadura", "escudo", "ferramenta", "vestuario", "esoterico"],
+  "efeito": {
+    "bonus_diplomacia": 2,
+    "possivel_penalidade": {
+      "valor": -2,
+      "condicao": "contra pessoas que desprezam ostentação",
+      "a_criterio_do_mestre": true
+    }
+  },
+  "aviso": "Pode atrair a cobiça de ladrões.",
+  "prerequisitos": null,
+  "description": "Uma melhoria favorita de nobres pomposos ou de aventureiros que acabaram de enriquecer. Fornece +2 em Diplomacia. O mestre pode mudar o bônus para uma penalidade de –2 contra pessoas que desprezam ostentação. Além disso, pode atrair a cobiça de ladrões."
+}

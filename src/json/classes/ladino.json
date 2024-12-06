@@ -1,0 +1,96 @@
+{
+  "id": "ladino",
+  "name": "Ladino",
+  "hit_points": {
+    "initial": 12,
+    "per_level": 3
+  },
+  "mana_points": {
+    "per_level": 4
+  },
+  "skills": {
+    "mandatory": [
+      { "name": "Ladinagem", "attribute": "Des" },
+      { "name": "Reflexos", "attribute": "Des" }
+    ],
+    "choose_amount": 8,
+    "choose_from": [
+      { "name": "Acrobacia", "attribute": "Des" },
+      { "name": "Atletismo", "attribute": "For" },
+      { "name": "Atuação", "attribute": "Car" },
+      { "name": "Cavalgar", "attribute": "Des" },
+      { "name": "Conhecimento", "attribute": "Int" },
+      { "name": "Diplomacia", "attribute": "Car" },
+      { "name": "Enganação", "attribute": "Car" },
+      { "name": "Furtividade", "attribute": "Des" },
+      { "name": "Iniciativa", "attribute": "Des" },
+      { "name": "Intimidação", "attribute": "Car" },
+      { "name": "Intuição", "attribute": "Sab" },
+      { "name": "Investigação", "attribute": "Int" },
+      { "name": "Jogatina", "attribute": "Car" },
+      { "name": "Luta", "attribute": "For" },
+      { "name": "Ofício", "attribute": "Int" },
+      { "name": "Percepção", "attribute": "Sab" },
+      { "name": "Pilotagem", "attribute": "Des" },
+      { "name": "Pontaria", "attribute": "Des" }
+    ]
+  },
+  "proficiencies": {
+    "weapons": [],
+    "armors": [],
+    "shields": false
+  },
+  "abilities": [
+    "ataque_furtivo",
+    "especialista",
+    "evasao",
+    "esquiva_sobrenatural",
+    "olho_nas_costas",
+    "evasao_aprimorada",
+    "a_pessoa_ceerta_para_o_trabalho"
+  ],
+  "powers": [
+    "assassinar",
+    "aumento_de_atributo",
+    "emboscar",
+    "escapista",
+    "fuga_formidavel",
+    "gatuno",
+    "integrante_de_guilda",
+    "ladrao_arcano",
+    "mao_na_boca",
+    "maos_rapidas",
+    "mente_criminosa",
+    "oportunismo",
+    "rolamento_defensivo",
+    "roubo_de_mana",
+    "saqueador_de_tumbas",
+    "sombra",
+    "truque_magico",
+    "velocidade_ladina",
+    "veneno_persistente",
+    "veneno_potente"
+  ],
+  "progression": [
+    { "level": 1, "abilities": ["ataque_furtivo", "especialista"] },
+    { "level": 2, "abilities": ["evasao", "poder_de_ladino"] },
+    { "level": 3, "abilities": ["poder_de_ladino"] },
+    { "level": 4, "abilities": ["esquiva_sobrenatural", "poder_de_ladino"] },
+    { "level": 5, "abilities": ["poder_de_ladino"] },
+    { "level": 6, "abilities": ["poder_de_ladino"] },
+    { "level": 7, "abilities": ["poder_de_ladino"] },
+    { "level": 8, "abilities": ["olho_nas_costas", "poder_de_ladino"] },
+    { "level": 9, "abilities": ["poder_de_ladino"] },
+    { "level": 10, "abilities": ["evasao_aprimorada", "poder_de_ladino"] },
+    { "level": 11, "abilities": ["poder_de_ladino"] },
+    { "level": 12, "abilities": ["poder_de_ladino"] },
+    { "level": 13, "abilities": ["poder_de_ladino"] },
+    { "level": 14, "abilities": ["poder_de_ladino"] },
+    { "level": 15, "abilities": ["poder_de_ladino"] },
+    { "level": 16, "abilities": ["poder_de_ladino"] },
+    { "level": 17, "abilities": ["poder_de_ladino"] },
+    { "level": 18, "abilities": ["poder_de_ladino"] },
+    { "level": 19, "abilities": ["poder_de_ladino"] },
+    { "level": 20, "abilities": ["a_pessoa_ceerta_para_o_trabalho", "poder_de_ladino"] }
+  ]
+}

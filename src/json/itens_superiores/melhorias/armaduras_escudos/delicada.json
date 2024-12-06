@@ -1,0 +1,15 @@
+{
+  "id": "delicada",
+  "name": "Delicada",
+  "type": "melhoria",
+  "categoria": "armadura",
+  "restricao": {
+    "tipo": "armadura_pesada"
+  },
+  "efeito": {
+    "aplica_destreza_defesa": 1
+  },
+  "prerequisitos": null,
+  "incompativel_com": ["reforcada"],
+  "description": "Apenas os materiais mais leves foram usados nesta armadura. As placas têm a espessura mínima necessária para oferecer a proteção que devem. Esta melhoria só pode ser aplicada a armaduras pesadas e permite que o personagem aplique 1 ponto de sua Destreza na Defesa (ou de outro atributo, caso o utilize em vez de Des). Uma armadura não pode ser delicada e reforçada."
+}

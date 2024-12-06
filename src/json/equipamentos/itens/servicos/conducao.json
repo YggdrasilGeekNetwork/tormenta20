@@ -1,0 +1,19 @@
+{
+  "id": "conducao",
+  "name": "Condução",
+  "type": "servico",
+  "categoria": "servico",
+  "periodo": "dia",
+  "tipos": ["terrestre", "maritima", "aerea"],
+  "veiculos": {
+    "terrestre": "carroças",
+    "maritima": "navios",
+    "aerea": "balões goblins"
+  },
+  "risco_balao": {
+    "chance": "1 em 20",
+    "por": "100 km",
+    "resultado": "queda (não fatal)"
+  },
+  "description": "Inclui viagens terrestres (em carroças), marítimas (em navios) ou aéreas (balões goblins). Viajar em balões goblins é arriscado: a cada 100 km há 1 chance em 20 de queda (não fatal)."
+}

@@ -1,0 +1,18 @@
+{
+  "id": "aura_de_paz",
+  "name": "Aura de Paz",
+  "deities": ["marah"],
+  "description": "Você pode gastar 2 PM para gerar uma aura de paz com 9m de raio e duração de uma cena. Qualquer inimigo dentro da aura que tente fazer uma ação hostil contra você deve fazer um teste de Vontade (CD Car). Se falhar, perderá sua ação. Se passar, fica imune a esta habilidade por um dia.",
+  "effects": {
+    "type": "active",
+    "cost": "2 PM",
+    "aura": {
+      "radius": "9m",
+      "duration": "cena",
+      "trigger": "inimigo tenta ação hostil",
+      "save": "Vontade (CD Car)",
+      "effect_on_fail": "perde a ação",
+      "immunity_on_success": "1 dia"
+    }
+  }
+}

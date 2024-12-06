@@ -1,0 +1,35 @@
+{
+  "id": "algemas",
+  "name": "Algemas",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 15,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "empunhado",
+  "tamanho_alvo": "Medio",
+  "regras": {
+    "prender": {
+      "requer_agarrar": true,
+      "teste_adicional": "agarrar"
+    },
+    "modos": [
+      {
+        "id": "dois_pulsos",
+        "efeito": "penalidade -5 em testes que exijam mãos, impede conjuração"
+      },
+      {
+        "id": "pulso_objeto",
+        "efeito": "impede movimento"
+      }
+    ],
+    "escapar": {
+      "acao": "completa",
+      "testes": [
+        { "pericia": "Acrobacia", "cd": 30 },
+        { "pericia": "Força", "cd": 25 }
+      ]
+    }
+  },
+  "description": "Um par de algemas para criaturas Médias. Prender uma criatura que não esteja indefesa exige empunhar a algema, agarrar o alvo e vencer um novo teste de agarrar contra ela."
+}

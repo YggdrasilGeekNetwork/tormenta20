@@ -1,0 +1,15 @@
+{
+  "id": "curandeira_perfeita",
+  "name": "Curandeira Perfeita",
+  "deities": ["lena"],
+  "description": "Você sempre pode escolher 10 em testes de Cura. Além disso, não sofre penalidade por usar essa perícia sem uma maleta de medicamentos. Se possuir o item, recebe +2 no teste de Cura (ou +5, se ele for aprimorado).",
+  "effects": {
+    "type": "passive",
+    "take_10": "Cura",
+    "removes_penalty": "usar Cura sem maleta de medicamentos",
+    "conditional_bonus": [
+      {"condition": "possui maleta de medicamentos", "skill": "Cura", "bonus": 2},
+      {"condition": "possui maleta de medicamentos aprimorada", "skill": "Cura", "bonus": 5}
+    ]
+  }
+}

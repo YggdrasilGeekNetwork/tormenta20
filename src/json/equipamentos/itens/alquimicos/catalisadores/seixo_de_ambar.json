@@ -1,0 +1,18 @@
+{
+  "id": "seixo_de_ambar",
+  "name": "Seixo de Âmbar",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 30,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "material": "seiva de árvore fossilizada",
+  "efeito": {
+    "reducao_custo_pm": 1,
+    "escola": "transmutação"
+  },
+  "description": "Essa 'gema' feita de seiva de árvore fossilizada diminui o custo de magias de transmutação em –1 PM."
+}

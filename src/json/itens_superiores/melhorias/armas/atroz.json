@@ -1,0 +1,11 @@
+{
+  "id": "atroz",
+  "name": "Atroz",
+  "type": "melhoria",
+  "categoria": "arma",
+  "efeito": {
+    "bonus_dano": 2
+  },
+  "prerequisitos": ["cruel"],
+  "description": "A arma é um amontoado de pontas, ganchos e protuberâncias. É difícil empunhá-la sem se machucar, mas ela fornece +2 nas rolagens de dano."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "criminoso",
+  "name": "Criminoso",
+  "description": "Fazer o bem é bonito, mas não enche barriga — pelo menos, assim você foi ensinado. Por necessidade, ambição ou apenas sem conhecer outra vida, você foi um bandido durante boa parte da juventude. Furtava bolsas, trapaceava em jogos de taverna, emboscava viajantes nas estradas ou até aceitava contratos para matar. Agia sozinho, com seu próprio bando, pertencia a uma guilda de ladrões. Tornar-se aventureiro talvez seja uma forma de expiar por seus crimes, ou apenas o passo seguinte; em vez de mercadores, roubar tesouros de dragões!",
+  "items": ["Estojo de disfarces ou gazua"],
+  "benefits": {
+    "skills": ["Enganação", "Furtividade", "Ladinagem"],
+    "powers": ["Punguista", "Venefício"]
+  },
+  "unique_power": "punguista"
+}

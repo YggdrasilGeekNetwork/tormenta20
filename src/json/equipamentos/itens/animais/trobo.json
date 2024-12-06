@@ -1,0 +1,14 @@
+{
+  "id": "trobo",
+  "name": "Trobo",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 200,
+  "espacos": 0,
+  "parceiro": {
+    "tipo": "montaria",
+    "nivel": "iniciante"
+  },
+  "usos": ["montaria", "carga", "tracao"],
+  "description": "Estas enormes aves, também chamadas de pássaros-touros, são parecidas com avestruzes com chifres, couro e cascos. Não têm asas. Possuem poucas penas, que servem apenas como ornamento. Muito dóceis, trobos são usados em áreas rurais como animais de carga e tração, mas também podem ser usados como montaria."
+}

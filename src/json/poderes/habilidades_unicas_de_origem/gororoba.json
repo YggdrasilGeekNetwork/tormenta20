@@ -1,0 +1,12 @@
+{
+  "id": "gororoba",
+  "name": "Gororoba",
+  "origin": "taverneiro",
+  "description": "Você não sofre a penalidade de –5 para fabricar um prato especial adicional.",
+  "effects": {
+    "crafting_bonus": {
+      "activity": "fabricar prato especial adicional",
+      "ignore_penalty": -5
+    }
+  }
+}

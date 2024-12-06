@@ -1,0 +1,10 @@
+{
+  "id": "visao_nas_trevas",
+  "name": "Visão nas Trevas",
+  "deities": ["tenebra"],
+  "description": "Você enxerga perfeitamente no escuro, incluindo em magias de escuridão.",
+  "effects": {
+    "type": "passive",
+    "senses": ["visão no escuro perfeita", "ignora magias de escuridão"]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "a_prova_de_tudo",
+  "name": "À Prova de Tudo",
+  "origin": "batedor",
+  "description": "Você não sofre penalidade em deslocamento e Sobrevivência por clima ruim e por terreno difícil natural.",
+  "effects": {
+    "immunity_penalties": [
+      { "type": "deslocamento", "condition": "clima ruim" },
+      { "type": "deslocamento", "condition": "terreno difícil natural" },
+      { "type": "Sobrevivência", "condition": "clima ruim" },
+      { "type": "Sobrevivência", "condition": "terreno difícil natural" }
+    ]
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "essencia_abissal",
+  "name": "Essência Abissal",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 150,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "origem": "sangue de criaturas demoníacas",
+  "efeito": {
+    "aumenta_dado_dano_fogo": {
+      "d4": "d6",
+      "d6": "d8",
+      "d8": "d10",
+      "d10": "d12"
+    }
+  },
+  "description": "Um líquido espesso, produzido através do sangue de criaturas demoníacas. Aumenta os dados de dano de magias de fogo em uma categoria — d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (o máximo)."
+}

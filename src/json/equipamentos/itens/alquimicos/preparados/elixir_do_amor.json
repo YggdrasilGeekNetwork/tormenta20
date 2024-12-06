@@ -1,0 +1,23 @@
+{
+  "id": "elixir_do_amor",
+  "name": "Elixir do Amor",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 100,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "uso": "ingestao",
+  "alvo": "humanoide",
+  "efeito": {
+    "condicao_aplicada": "enfeitiçado",
+    "gatilho": "primeira criatura que enxergar",
+    "duracao": "1d3 dias",
+    "resistencia": {
+      "tipo": "Vontade",
+      "cd": "Car",
+      "efeito": "anula"
+    }
+  },
+  "description": "Um humanoide que beba este líquido adocicado fica apaixonado pela primeira criatura que enxergar (condição enfeitiçado; Vontade CD Car anula). O efeito dura 1d3 dias."
+}

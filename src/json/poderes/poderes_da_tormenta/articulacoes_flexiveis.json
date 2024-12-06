@@ -1,0 +1,15 @@
+{
+  "id": "articulacoes_flexiveis",
+  "name": "Articulações Flexíveis",
+  "description": "Você recebe +1 em Acrobacia, Furtividade e Reflexos. Este bônus aumenta em +1 para cada dois outros poderes da Tormenta que você possui.",
+  "effects": {
+    "type": "passive",
+    "skill_bonuses": [
+      {"skill": "Acrobacia", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"},
+      {"skill": "Furtividade", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"}
+    ],
+    "save_bonuses": [
+      {"save": "Reflexos", "base": 1, "scaling": "+1 por cada 2 outros poderes da Tormenta"}
+    ]
+  }
+}

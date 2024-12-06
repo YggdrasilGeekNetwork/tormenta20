@@ -1,0 +1,10 @@
+{
+  "id": "dom_artistico",
+  "name": "Dom Artístico",
+  "origin": "artista",
+  "description": "Você recebe +2 em testes de Atuação, e recebe o dobro de tibares em apresentações.",
+  "effects": {
+    "skill_bonuses": [{ "skill": "Atuação", "value": 2 }],
+    "income_multiplier": { "activity": "apresentações", "multiplier": 2 }
+  }
+}

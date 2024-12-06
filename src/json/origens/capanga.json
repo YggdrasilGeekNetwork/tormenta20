@@ -1,0 +1,11 @@
+{
+  "id": "capanga",
+  "name": "Capanga",
+  "description": "Agilidade e esperteza são importantes no mundo do crime, mas não são tudo; às vezes é preciso esmurrar alguém. Por ser grande, forte ou mal-encarado, você acabou trabalhando como músculos para algum bandido, ou integrando um bando, quadrilha ou guilda de ladrões. Talvez você não fosse muito bom em bater carteiras nas ruas de Ahlen, mas sabia erguer alguém pelo tornozelo e sacudir até as moedas caírem. Hoje, como aventureiro, você provavelmente deixou essa época para trás — pelo menos até que alguém precise ser \"convencido\" a colaborar.",
+  "items": ["Tatuagem ou outro adereço de sua gangue (+1 em Intimidação)", "Uma arma simples corpo a corpo"],
+  "benefits": {
+    "skills": ["Luta", "Intimidação"],
+    "powers": ["Confissão", "um poder de combate a sua escolha"]
+  },
+  "unique_power": "confissao"
+}

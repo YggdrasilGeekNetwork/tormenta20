@@ -1,13 +1,21 @@
 PATH
   remote: .
   specs:
-    tormenta20 (0.1.0)
+    tormenta20 (0.2.1)
+      activerecord (~> 8.0)
       activesupport (~> 8.0)
+      sqlite3 (~> 2.0)
 
 GEM
   remote: https://rubygems.org/
   specs:
-    activesupport (8.0.0)
+    activemodel (8.0.4)
+      activesupport (= 8.0.4)
+    activerecord (8.0.4)
+      activemodel (= 8.0.4)
+      activesupport (= 8.0.4)
+      timeout (>= 0.4.0)
+    activesupport (8.0.4)
       base64
       benchmark (>= 0.3)
       bigdecimal
@@ -71,6 +79,8 @@ GEM
       parser (>= 3.3.1.0)
     ruby-progressbar (1.13.0)
     securerandom (0.4.0)
+    sqlite3 (2.7.3-x86_64-linux-gnu)
+    timeout (0.6.0)
     tzinfo (2.0.6)
       concurrent-ruby (~> 1.0)
     unicode-display_width (3.1.2)

@@ -1,0 +1,14 @@
+{
+  "id": "influencia_militar",
+  "name": "Influência Militar",
+  "origin": "soldado",
+  "description": "Você fez amigos nas forças armadas. Onde houver acampamentos ou bases militares, você pode conseguir hospedagem e informações para você e seus aliados.",
+  "effects": {
+    "social_benefits": {
+      "lodging": true,
+      "information": true,
+      "location": "acampamentos ou bases militares",
+      "includes_allies": true
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "astucia_da_serpente",
+  "name": "Astúcia da Serpente",
+  "deities": ["sszzaas"],
+  "description": "Você recebe +2 em Enganação, Furtividade e Intuição.",
+  "effects": {
+    "type": "passive",
+    "skill_bonuses": [
+      {"skill": "Enganação", "bonus": 2},
+      {"skill": "Furtividade", "bonus": 2},
+      {"skill": "Intuição", "bonus": 2}
+    ]
+  }
+}

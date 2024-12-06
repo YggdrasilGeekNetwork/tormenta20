@@ -1,0 +1,13 @@
+{
+  "id": "couro_batido",
+  "name": "Couro Batido",
+  "type": "armadura",
+  "categoria": "leve",
+  "preco": 35,
+  "bonus_defesa": 3,
+  "penalidade_armadura": -1,
+  "espacos": 2,
+  "especial": null,
+  "vestir_remover": "acao_completa",
+  "description": "Versão mais pesada da armadura de couro, reforçada com rebites de metal."
+}

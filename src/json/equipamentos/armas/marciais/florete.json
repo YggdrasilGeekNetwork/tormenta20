@@ -1,0 +1,17 @@
+{
+  "id": "florete",
+  "name": "Florete",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 20,
+  "dano": "1d6",
+  "critico": "18",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": ["agil"],
+  "especial": null,
+  "description": "A lâmina leve e fina desta espada torna a arma muito precisa. O florete é uma arma ágil."
+}

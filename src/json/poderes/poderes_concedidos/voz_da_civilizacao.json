@@ -1,0 +1,10 @@
+{
+  "id": "voz_da_civilizacao",
+  "name": "Voz da Civilização",
+  "deities": ["tanna_toh"],
+  "description": "Você está sempre sob efeito de Compreensão.",
+  "effects": {
+    "type": "passive",
+    "permanent_spell_effect": "Compreensão"
+  }
+}

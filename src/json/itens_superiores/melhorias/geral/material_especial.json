@@ -1,0 +1,13 @@
+{
+  "id": "material_especial",
+  "name": "Material Especial",
+  "type": "melhoria",
+  "categoria": ["arma", "armadura", "escudo", "esoterico"],
+  "efeito": {
+    "referencia": "materiais_especiais",
+    "descricao": "Conforme o material escolhido"
+  },
+  "preco_adicional": "ver tabela de materiais especiais",
+  "prerequisitos": null,
+  "description": "A arma, armadura, escudo ou item esotérico é feito de, ou banhado com, um material especial. Cada material fornece um benefício, cumulativo com outros benefícios de melhorias, mas possui um preço adicional que deve ser pago além do preço da melhoria. Fabricar um item de material especial é uma melhoria porque materiais especiais exigem um trabalho mais complexo do que materiais comuns."
+}

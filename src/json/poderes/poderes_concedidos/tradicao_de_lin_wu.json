@@ -1,0 +1,14 @@
+{
+  "id": "tradicao_de_lin_wu",
+  "name": "Tradição de Lin-Wu",
+  "deities": ["lin_wu"],
+  "description": "Você considera a katana uma arma simples e, se for proficiente em armas marciais, recebe +1 na margem de ameaça com ela.",
+  "effects": {
+    "type": "passive",
+    "weapon_proficiency": {"weapon": "katana", "type": "simples"},
+    "conditional_bonus": {
+      "condition": "proficiente em armas marciais",
+      "benefit": "+1 na margem de ameaça com katana"
+    }
+  }
+}

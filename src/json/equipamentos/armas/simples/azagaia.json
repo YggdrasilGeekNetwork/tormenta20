@@ -1,0 +1,20 @@
+{
+  "id": "azagaia",
+  "name": "Azagaia",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "distancia",
+  "subtipo_distancia": "arremesso",
+  "empunhadura": "uma_mao",
+  "preco": 1,
+  "dano": "1d6",
+  "critico": "x2",
+  "alcance": "medio",
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "corpo_a_corpo_penalidade": -5
+  },
+  "description": "Uma lança leve e flexível, própria para arremesso. Pode ser usada como arma corpo a corpo, mas você sofre uma penalidade de –5 no teste de ataque."
+}
