@@ -372,6 +372,7 @@ end
 
 # Run seeds if this file is executed directly
 if __FILE__ == $PROGRAM_NAME
-  Tormenta20::Database.setup(mode: :build)
+  ENV["TORMENTA20_DB_MODE"] = "create_on_build"
+  Tormenta20::Database.setup
   Tormenta20::Seeds.import_all
 end

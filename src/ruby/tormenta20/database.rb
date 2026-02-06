@@ -7,89 +7,52 @@ require "fileutils"
 module Tormenta20
   # Database connection and setup management for Tormenta20.
   #
-  # This module handles all database operations including connection management,
-  # schema creation, and data seeding.
+  # Configuration via environment variables:
+  # - TORMENTA20_DB_MODE: "built_in" (default), "create_on_build", or "path"
+  # - TORMENTA20_DB_PATH: Custom path (required when mode is "path")
   #
-  # @example Setup with default options
-  #   Tormenta20::Database.setup
+  # @example Using built-in database (default)
+  #   # No configuration needed, uses pre-built database from gem
+  #   require 'tormenta20'
   #
-  # @example Setup with custom database path
-  #   Tormenta20::Database.setup(db_path: "/custom/path/tormenta20.sqlite3")
+  # @example Creating database on build
+  #   # Set before requiring the gem:
+  #   # TORMENTA20_DB_MODE=create_on_build
+  #
+  # @example Using custom path
+  #   # TORMENTA20_DB_MODE=path
+  #   # TORMENTA20_DB_PATH=/my/custom/path.sqlite3
   module Database
-    class << self
-      # @!attribute [rw] mode
-      #   @return [Symbol] Current database mode (:builtin, :build, or :lazy)
-      attr_accessor :mode
+    # Valid database modes
+    MODES = %w[built_in create_on_build path].freeze
 
-      # @!attribute [rw] db_path
-      #   @return [String] Path to the SQLite database file
-      attr_accessor :db_path
+    class << self
+      # @return [String] Current database mode
+      def mode
+        @mode ||= ENV.fetch("TORMENTA20_DB_MODE", "built_in")
+      end
+
+      # @return [String] Path to the SQLite database file
+      def db_path
+        @db_path ||= resolve_db_path
+      end
 
       # Initialize and configure the database connection.
       #
-      # @param mode [Symbol] Database initialization mode:
-      #   - `:builtin` - Use pre-built database (connects immediately)
-      #   - `:build` - Build database on load (creates if missing, then connects)
-      #   - `:lazy` - Build database on first use (default)
-      # @param db_path [String, nil] Custom path to SQLite database file.
-      #   If nil, uses the default path.
       # @return [void]
-      # @raise [ArgumentError] If an invalid mode is provided
-      #
-      # @example Default lazy setup
-      #   Database.setup
-      #
-      # @example Immediate connection with builtin database
-      #   Database.setup(mode: :builtin)
-      def setup(mode: :lazy, db_path: nil)
-        @mode = mode
-        @db_path = db_path || default_db_path
+      def setup
+        validate_mode!
         @setup_done = true
 
-        case mode
-        when :builtin
-          connect_to_database
-        when :build
-          ensure_database_exists
-          connect_to_database
-        when :lazy
-          # Connection will be established on first use via ensure_connected
-          nil
-        else
-          raise ArgumentError, "Invalid mode: #{mode}. Use :builtin, :build, or :lazy"
-        end
+        ensure_database_exists if mode == "create_on_build"
+        connect_to_database
       end
 
       # Ensure database is connected, setting up if needed.
       #
-      # This method is called automatically when models are accessed.
-      # It handles lazy initialization of the database connection.
-      #
       # @return [void]
       def ensure_connected
         setup unless @setup_done
-        connect_to_database unless connected?
-      end
-
-      # Establish connection to the SQLite database.
-      #
-      # Creates the database if it doesn't exist (in lazy mode) and
-      # establishes an ActiveRecord connection.
-      #
-      # @return [void]
-      def connect_to_database
-        return if connected?
-
-        ensure_database_exists if mode == :lazy
-
-        ActiveRecord::Base.establish_connection(
-          adapter: "sqlite3",
-          database: db_path,
-          pool: 5,
-          timeout: 5000
-        )
-
-        @connected = true
       end
 
       # Check if database connection is active.
@@ -101,62 +64,12 @@ module Tormenta20
         false
       end
 
-      # Ensure database file and schema exist.
-      #
-      # Creates the database directory, file, and runs the schema
-      # if the database doesn't exist.
+      # Disconnect from the database.
       #
       # @return [void]
-      def ensure_database_exists
-        db_dir = File.dirname(db_path)
-        FileUtils.mkdir_p(db_dir) unless Dir.exist?(db_dir)
-
-        needs_seed = !File.exist?(db_path)
-
-        return unless needs_seed
-
-        # Create empty database
-        SQLite3::Database.new(db_path).close
-
-        # Run schema if available
-        run_schema if schema_exists?
-
-        # Seed data after schema creation
-        seed_database
-      end
-
-      # Seed database with data from JSON files.
-      #
-      # @return [void]
-      def seed_database
-        return if Seeder.seeded?
-
-        Seeder.seed_all(verbose: false)
-      end
-
-      # Run pending database migrations.
-      #
-      # @return [void]
-      def migrate
-        connect_to_database
-        ActiveRecord::MigrationContext.new(migrations_path, ActiveRecord::SchemaMigration).migrate
-      end
-
-      # Rollback database migrations.
-      #
-      # @param steps [Integer] Number of migrations to rollback
-      # @return [void]
-      def rollback(steps: 1)
-        connect_to_database
-        ActiveRecord::MigrationContext.new(migrations_path, ActiveRecord::SchemaMigration).rollback(steps)
-      end
-
-      # Get current database migration version.
-      #
-      # @return [Integer] Current migration version number
-      def version
-        connect_to_database
-        ActiveRecord::Base.connection.migration_context.current_version
+      def disconnect
+        ActiveRecord::Base.remove_connection if connected?
+        @connected = false
       end
 
       # Reset database by dropping and recreating it.
@@ -168,14 +81,6 @@ module Tormenta20
         File.delete(db_path) if File.exist?(db_path)
         ensure_database_exists
         connect_to_database
-      end
-
-      # Disconnect from the database.
-      #
-      # @return [void]
-      def disconnect
-        ActiveRecord::Base.remove_connection if connected?
-        @connected = false
       end
 
       # Get the default database file path.
@@ -192,31 +97,62 @@ module Tormenta20
         File.expand_path("../../../db/schema.sql", __dir__)
       end
 
-      # Get the migrations directory path.
-      #
-      # @return [String] Absolute path to the migrations directory
-      def migrations_path
-        File.expand_path("../../../db/migrate", __dir__)
-      end
-
       private
 
-      # Check if schema file exists.
-      #
-      # @return [Boolean] true if schema.sql exists
-      # @api private
+      def resolve_db_path
+        case mode
+        when "path"
+          ENV.fetch("TORMENTA20_DB_PATH") do
+            raise ArgumentError, "TORMENTA20_DB_PATH is required when TORMENTA20_DB_MODE=path"
+          end
+        else
+          default_db_path
+        end
+      end
+
+      def validate_mode!
+        return if MODES.include?(mode)
+
+        raise ArgumentError, "Invalid TORMENTA20_DB_MODE: #{mode}. Valid: #{MODES.join(", ")}"
+      end
+
+      def connect_to_database
+        return if connected?
+
+        ActiveRecord::Base.establish_connection(
+          adapter: "sqlite3",
+          database: db_path,
+          pool: 5,
+          timeout: 5000
+        )
+
+        @connected = true
+      end
+
+      def ensure_database_exists
+        db_dir = File.dirname(db_path)
+        FileUtils.mkdir_p(db_dir) unless Dir.exist?(db_dir)
+
+        return if File.exist?(db_path)
+
+        SQLite3::Database.new(db_path).close
+        run_schema if schema_exists?
+        seed_database
+      end
+
+      def seed_database
+        return if Seeder.seeded?
+
+        Seeder.seed_all(verbose: false)
+      end
+
       def schema_exists?
         File.exist?(schema_path)
       end
 
-      # Run schema SQL file to create database tables.
-      #
-      # @return [void]
-      # @api private
       def run_schema
         connect_to_database
         sql = File.read(schema_path)
-        # Use execute_batch to handle multi-statement SQL including triggers
         ActiveRecord::Base.connection.raw_connection.execute_batch(sql)
       end
     end

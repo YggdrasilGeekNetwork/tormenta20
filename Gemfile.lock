@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    tormenta20 (0.2.1)
+    tormenta20 (0.2.2)
       activerecord (~> 8.0)
       activesupport (~> 8.0)
       sqlite3 (~> 2.0)

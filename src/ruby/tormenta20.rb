@@ -33,20 +33,16 @@ module Tormenta20
   class << self
     # Configure and setup the database connection.
     #
-    # @param mode [Symbol] Database mode:
-    #   - `:builtin` - Use pre-built database (default)
-    #   - `:build` - Build database on load
-    #   - `:lazy` - Build database on first use
-    # @param db_path [String, nil] Custom path to SQLite database file
+    # Configuration is done via environment variables:
+    # - TORMENTA20_DB_MODE: "built_in" (default), "create_on_build", or "path"
+    # - TORMENTA20_DB_PATH: Custom path (required when mode is "path")
+    #
     # @return [void]
     #
-    # @example Use default builtin database
+    # @example Default usage (built-in database)
     #   Tormenta20.setup
-    #
-    # @example Use custom database path
-    #   Tormenta20.setup(db_path: "/path/to/custom.sqlite3")
-    def setup(mode: :builtin, db_path: nil)
-      Database.setup(mode: mode, db_path: db_path)
+    def setup
+      Database.setup
     end
 
     # @!group Query Interface

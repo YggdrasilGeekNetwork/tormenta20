@@ -1,0 +1,377 @@
+#!/usr/bin/env ruby
+# frozen_string_literal: true
+
+require "optparse"
+require "fileutils"
+
+# CLI for managing the Tormenta20 database
+module Tormenta20CLI
+  class << self
+    def run(args)
+      options = parse_options(args)
+      command = args.shift || "help"
+
+      case command
+      when "build"
+        build_database(options)
+      when "seed"
+        seed_data(options)
+      when "reset"
+        reset_database(options)
+      when "info"
+        show_info(options)
+      when "export"
+        export_json(options)
+      when "import"
+        import_json(options)
+      when "help", "--help", "-h"
+        show_help
+      else
+        puts "Unknown command: #{command}"
+        show_help
+        exit 1
+      end
+    end
+
+    private
+
+    def parse_options(args)
+      options = {}
+
+      OptionParser.new do |opts|
+        opts.banner = "Usage: tormenta20 <command> [options]"
+
+        opts.on("-p", "--path PATH", "Database path") do |path|
+          options[:path] = path
+        end
+
+        opts.on("-t", "--tables TABLES", "Comma-separated tables to seed") do |tables|
+          options[:tables] = tables.split(",").map(&:strip)
+        end
+
+        opts.on("-j", "--json PATH", "JSON file or directory path") do |path|
+          options[:json_path] = path
+        end
+
+        opts.on("-o", "--output PATH", "Output path for export") do |path|
+          options[:output] = path
+        end
+
+        opts.on("-v", "--verbose", "Verbose output") do
+          options[:verbose] = true
+        end
+
+        opts.on("-f", "--force", "Force overwrite") do
+          options[:force] = true
+        end
+      end.parse!(args)
+
+      options
+    end
+
+    def setup_env(options)
+      if options[:path]
+        ENV["TORMENTA20_DB_MODE"] = "path"
+        ENV["TORMENTA20_DB_PATH"] = File.expand_path(options[:path])
+      else
+        ENV["TORMENTA20_DB_MODE"] = "create_on_build"
+      end
+
+      require "tormenta20"
+    end
+
+    def build_database(options)
+      puts "Building database..."
+
+      if options[:path]
+        path = File.expand_path(options[:path])
+        FileUtils.rm_f(path) if options[:force] && File.exist?(path)
+
+        if File.exist?(path) && !options[:force]
+          puts "Database already exists at #{path}"
+          puts "Use --force to overwrite"
+          exit 1
+        end
+
+        ENV["TORMENTA20_DB_MODE"] = "path"
+        ENV["TORMENTA20_DB_PATH"] = path
+      else
+        ENV["TORMENTA20_DB_MODE"] = "create_on_build"
+      end
+
+      require "tormenta20"
+
+      # Force rebuild
+      Tormenta20::Database.disconnect if Tormenta20::Database.connected?
+      FileUtils.rm_f(Tormenta20::Database.db_path) if options[:force]
+
+      Tormenta20::Database.send(:ensure_database_exists)
+      Tormenta20::Database.send(:connect_to_database)
+
+      puts "Database built at: #{Tormenta20::Database.db_path}"
+      show_summary
+    end
+
+    def seed_data(options)
+      setup_env(options)
+
+      tables = options[:tables] || all_tables
+
+      puts "Seeding tables: #{tables.join(", ")}"
+
+      tables.each do |table|
+        seed_table(table, options)
+      end
+
+      show_summary
+    end
+
+    def reset_database(options)
+      setup_env(options)
+
+      puts "Resetting database..."
+      Tormenta20::Database.reset
+      puts "Database reset complete."
+      show_summary
+    end
+
+    def show_info(options)
+      setup_env(options)
+
+      puts "Tormenta20 Database Info"
+      puts "=" * 40
+      puts "Mode: #{Tormenta20::Database.mode}"
+      puts "Path: #{Tormenta20::Database.db_path}"
+      puts "Connected: #{Tormenta20::Database.connected?}"
+      puts ""
+      show_summary
+    end
+
+    def export_json(options)
+      setup_env(options)
+
+      output_dir = options[:output] || "./export"
+      tables = options[:tables] || all_tables
+
+      FileUtils.mkdir_p(output_dir)
+
+      tables.each do |table|
+        export_table(table, output_dir, options)
+      end
+
+      puts "Exported to: #{output_dir}"
+    end
+
+    def import_json(options)
+      setup_env(options)
+
+      json_path = options[:json_path]
+      unless json_path
+        puts "Error: --json PATH is required"
+        exit 1
+      end
+
+      if File.directory?(json_path)
+        import_directory(json_path, options)
+      elsif File.file?(json_path)
+        import_file(json_path, options)
+      else
+        puts "Error: Path not found: #{json_path}"
+        exit 1
+      end
+    end
+
+    def show_help
+      puts <<~HELP
+        Tormenta20 Database CLI
+
+        Usage: tormenta20 <command> [options]
+
+        Commands:
+          build     Build/rebuild the database from JSON files
+          seed      Seed specific tables
+          reset     Reset the database (delete and rebuild)
+          info      Show database information
+          export    Export data to JSON files
+          import    Import JSON file(s) into the database
+          help      Show this help
+
+        Options:
+          -p, --path PATH       Custom database path
+          -t, --tables TABLES   Comma-separated tables (origens,classes,magias,...)
+          -j, --json PATH       JSON file or directory to import
+          -o, --output PATH     Output directory for export
+          -v, --verbose         Verbose output
+          -f, --force           Force overwrite existing files
+
+        Tables:
+          origens, poderes, divindades, classes, magias,
+          armas, armaduras, escudos, itens,
+          materiais_especiais, melhorias, regras
+
+        Examples:
+          tormenta20 build                          # Build with default path
+          tormenta20 build -p ./my.db -f            # Build at custom path
+          tormenta20 seed -t magias,classes         # Seed only specific tables
+          tormenta20 import -j ./custom_spell.json  # Import a JSON file
+          tormenta20 export -o ./backup             # Export all to JSON
+          tormenta20 info                           # Show database info
+      HELP
+    end
+
+    def all_tables
+      %w[origens poderes divindades classes magias armas armaduras escudos itens materiais_especiais melhorias regras]
+    end
+
+    def seed_table(table, options)
+      print "  Seeding #{table}..."
+
+      case table
+      when "origens"
+        Tormenta20::Seeder.send(:seed_origens)
+      when "poderes"
+        Tormenta20::Seeder.send(:seed_poderes_habilidades_unicas)
+        Tormenta20::Seeder.send(:seed_poderes_concedidos)
+        Tormenta20::Seeder.send(:seed_poderes_tormenta)
+      when "divindades"
+        Tormenta20::Seeder.send(:seed_divindades)
+      when "classes"
+        Tormenta20::Seeder.send(:seed_classes)
+      when "magias"
+        Tormenta20::Seeder.send(:seed_magias)
+      when "armas"
+        Tormenta20::Seeder.send(:seed_armas)
+      when "armaduras"
+        Tormenta20::Seeder.send(:seed_armaduras)
+      when "escudos"
+        Tormenta20::Seeder.send(:seed_escudos)
+      when "itens"
+        Tormenta20::Seeder.send(:seed_itens)
+      when "materiais_especiais"
+        Tormenta20::Seeder.send(:seed_materiais_especiais)
+      when "melhorias"
+        Tormenta20::Seeder.send(:seed_melhorias)
+      when "regras"
+        Tormenta20::Seeder.send(:seed_regras)
+      else
+        puts " unknown table"
+        return
+      end
+
+      puts " done"
+    end
+
+    def export_table(table, output_dir, options)
+      model = table_to_model(table)
+      return unless model
+
+      table_dir = File.join(output_dir, table)
+      FileUtils.mkdir_p(table_dir)
+
+      count = 0
+      model.find_each do |record|
+        file_path = File.join(table_dir, "#{record.id}.json")
+        File.write(file_path, JSON.pretty_generate(record.to_h))
+        count += 1
+      end
+
+      puts "  Exported #{count} #{table}" if options[:verbose]
+    end
+
+    def import_directory(dir_path, options)
+      Dir.glob(File.join(dir_path, "**/*.json")).each do |file|
+        import_file(file, options)
+      end
+    end
+
+    def import_file(file_path, options)
+      data = JSON.parse(File.read(file_path), symbolize_names: true)
+
+      # Try to determine the table from the file path or data
+      table = detect_table(file_path, data)
+      model = table_to_model(table)
+
+      unless model
+        puts "  Skipping #{file_path}: unknown table"
+        return
+      end
+
+      record = model.find_or_initialize_by(id: data[:id])
+      data.each do |key, value|
+        record.send("#{key}=", value) if record.respond_to?("#{key}=")
+      end
+      record.save!
+
+      puts "  Imported #{data[:id]} into #{table}" if options[:verbose]
+    rescue StandardError => e
+      puts "  Error importing #{file_path}: #{e.message}"
+    end
+
+    def detect_table(file_path, data)
+      # Try to detect from path
+      path_parts = file_path.split("/")
+      possible_tables = all_tables
+
+      path_parts.each do |part|
+        return part if possible_tables.include?(part)
+      end
+
+      # Try to detect from data structure
+      return "magias" if data[:circle] && data[:school]
+      return "classes" if data[:hit_points] && data[:abilities]
+      return "divindades" if data[:energy] && data[:granted_powers]
+      return "origens" if data[:benefits] && data[:unique_power]
+      return "armas" if data[:damage] && data[:critical]
+      return "armaduras" if data[:defense_bonus] && data[:category]
+      return "escudos" if data[:defense_bonus] && !data[:category]
+
+      nil
+    end
+
+    def table_to_model(table)
+      case table
+      when "origens" then Tormenta20::Models::Origem
+      when "poderes" then Tormenta20::Models::Poder
+      when "divindades" then Tormenta20::Models::Divindade
+      when "classes" then Tormenta20::Models::Classe
+      when "magias" then Tormenta20::Models::Magia
+      when "armas" then Tormenta20::Models::Arma
+      when "armaduras" then Tormenta20::Models::Armadura
+      when "escudos" then Tormenta20::Models::Escudo
+      when "itens" then Tormenta20::Models::Item
+      when "materiais_especiais" then Tormenta20::Models::MaterialEspecial
+      when "melhorias" then Tormenta20::Models::Melhoria
+      when "regras" then Tormenta20::Models::Regra
+      end
+    end
+
+    def show_summary
+      puts ""
+      puts "Database Summary:"
+      puts "-" * 40
+
+      {
+        "Origens" => Tormenta20::Models::Origem,
+        "Poderes" => Tormenta20::Models::Poder,
+        "Divindades" => Tormenta20::Models::Divindade,
+        "Classes" => Tormenta20::Models::Classe,
+        "Magias" => Tormenta20::Models::Magia,
+        "Armas" => Tormenta20::Models::Arma,
+        "Armaduras" => Tormenta20::Models::Armadura,
+        "Escudos" => Tormenta20::Models::Escudo,
+        "Itens" => Tormenta20::Models::Item,
+        "Materiais Especiais" => Tormenta20::Models::MaterialEspecial,
+        "Melhorias" => Tormenta20::Models::Melhoria,
+        "Regras" => Tormenta20::Models::Regra
+      }.each do |name, model|
+        printf "  %-20s %d\n", "#{name}:", model.count
+      rescue StandardError
+        printf "  %-20s %s\n", "#{name}:", "N/A"
+      end
+
+      puts "-" * 40
+    end
+  end
+end
+
+Tormenta20CLI.run(ARGV)
