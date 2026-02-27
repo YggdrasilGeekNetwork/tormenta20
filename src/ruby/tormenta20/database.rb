@@ -59,7 +59,7 @@ module Tormenta20
       #
       # @return [Boolean] true if connected, false otherwise
       def connected?
-        @connected == true && ActiveRecord::Base.connected?
+        @connected == true && Models::Base.connected?
       rescue StandardError
         false
       end
@@ -68,7 +68,7 @@ module Tormenta20
       #
       # @return [void]
       def disconnect
-        ActiveRecord::Base.remove_connection if connected?
+        Models::Base.remove_connection if connected?
         @connected = false
       end
 
@@ -119,7 +119,7 @@ module Tormenta20
       def connect_to_database
         return if connected?
 
-        ActiveRecord::Base.establish_connection(
+        Models::Base.establish_connection(
           adapter: "sqlite3",
           database: db_path,
           pool: 5,
@@ -153,7 +153,7 @@ module Tormenta20
       def run_schema
         connect_to_database
         sql = File.read(schema_path)
-        ActiveRecord::Base.connection.raw_connection.execute_batch(sql)
+        Models::Base.connection.raw_connection.execute_batch(sql)
       end
     end
   end

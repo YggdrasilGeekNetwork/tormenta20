@@ -34,6 +34,7 @@ def main
   seed_poderes_concedidos(db)
   seed_poderes_tormenta(db)
   seed_classes(db)
+  seed_habilidades_de_classe(db)
   seed_magias(db)
   seed_escudos(db)
   seed_materiais_especiais(db)
@@ -122,6 +123,42 @@ end
 def seed_classes(db)
   import_json_files(db, "classes", "classes",
                     %w[id name hit_points mana_points skills proficiencies abilities powers progression spellcasting])
+end
+
+def seed_habilidades_de_classe(db)
+  base_dir = File.join(JSON_BASE_PATH, "poderes", "habilidades_de_classe")
+  return unless Dir.exist?(base_dir)
+
+  count = 0
+  Dir.each_child(base_dir) do |class_dir|
+    class_path = File.join(base_dir, class_dir)
+    next unless File.directory?(class_path)
+
+    class_id = class_dir
+
+    Dir.glob(File.join(class_path, "*.json")).each do |file|
+      data = JSON.parse(File.read(file))
+      next if data["id"].nil?
+
+      db.execute(
+        "INSERT OR REPLACE INTO poderes (id, name, type, class_id, description, effects, prerequisites) VALUES (?, ?, ?, ?, ?, ?, ?)",
+        [
+          data["id"],
+          data["name"] || data["id"],
+          "poder_classe",
+          class_id,
+          data["description"],
+          (data["effects"] || {}).to_json,
+          (data["requirements"] || data["prerequisites"] || []).to_json
+        ]
+      )
+      count += 1
+    rescue StandardError => e
+      puts "  Error importing #{File.basename(file)}: #{e.message}"
+    end
+  end
+
+  puts "  Imported #{count} habilidades_de_classe"
 end
 
 def seed_magias(db)
