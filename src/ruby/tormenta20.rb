@@ -162,6 +162,16 @@ module Tormenta20
       Models::Regra
     end
 
+    # Access the Raca (Race) model for querying playable races.
+    #
+    # @return [Class<Models::Raca>] The Raca model class
+    # @example
+    #   Tormenta20.racas.all
+    #   Tormenta20.racas.find("anao")
+    def racas
+      Models::Raca
+    end
+
     # @!endgroup
   end
 

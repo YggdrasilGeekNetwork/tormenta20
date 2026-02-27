@@ -1,0 +1,14 @@
+{
+  "id": "lefou",
+  "name": "Lefou",
+  "description": "Com a influência macabra da Tormenta permeando cada vez mais o mundo, surgiram os lefou. Estes meios-demônios de aparência grotesca passaram a nascer em famílias de outras raças, sendo logo sacrificados ou expulsos. Entre os que escapam, muitos escolhem abraçar o mal, enquanto outros decidem combatê-lo.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "carisma": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["cria_da_tormenta", "deformidade"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

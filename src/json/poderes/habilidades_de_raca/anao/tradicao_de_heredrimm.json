@@ -1,0 +1,11 @@
+{
+  "id": "tradicao_de_heredrimm",
+  "name": "Tradição de Heredrimm",
+  "type": "habilidade_de_raca",
+  "race": "anao",
+  "description": "Para você, todos os machados, martelos, marretas e picaretas são armas simples. Você recebe +2 em ataques com essas armas.",
+  "effects": {
+    "weapon_proficiency": ["machados", "martelos", "marretas", "picaretas"],
+    "attack_bonus": { "value": 2, "weapon_types": ["machados", "martelos", "marretas", "picaretas"] }
+  }
+}

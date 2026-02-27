@@ -1,0 +1,10 @@
+{
+  "id": "hibrido",
+  "name": "Híbrido",
+  "type": "habilidade_de_raca",
+  "race": "kliren",
+  "description": "Sua natureza multifacetada fez com que você aprendesse conhecimentos variados. Você se torna treinado em uma perícia a sua escolha (não precisa ser da sua classe).",
+  "effects": {
+    "trained_skills_choices": 1
+  }
+}

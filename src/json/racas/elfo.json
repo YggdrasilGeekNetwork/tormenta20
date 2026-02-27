@@ -1,0 +1,14 @@
+{
+  "id": "elfo",
+  "name": "Elfo",
+  "description": "Seres feitos para a beleza e para a guerra, tão habilidosos com magia quanto com espadas e arcos. Elegantes, astutos, de vidas quase eternas, parecem superiores aos humanos em tudo. Com a queda de Glórienn, os elfos se tornaram um povo sem uma deusa — um povo independente.",
+  "size": "médio",
+  "movement": 12,
+  "vision": "baixa_luminosidade",
+  "vision_range": null,
+  "attribute_bonuses": { "inteligencia": 2, "destreza": 1, "constituicao": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["graca_de_glorienn", "sangue_magico", "sentidos_elficos"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

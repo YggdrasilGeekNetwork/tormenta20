@@ -1,0 +1,14 @@
+{
+  "id": "anao",
+  "name": "Anão",
+  "description": "O mais resiliente dos povos. Em suas cidadelas subterrâneas, trabalham duro escavando minas e forjando metal em belas armas, armaduras e joias. São honestos e determinados, honrando a família e a tradição. Apesar de sua profunda paixão por forja e cerveja, pouca coisa é mais preciosa para um anão que cultivar uma barba longa e orgulhosa.",
+  "size": "médio",
+  "movement": 6,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": { "constituicao": 2, "sabedoria": 1, "destreza": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["conhecimento_das_rochas", "devagar_e_sempre", "duro_como_pedra", "tradicao_de_heredrimm"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

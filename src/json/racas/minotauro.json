@@ -1,0 +1,14 @@
+{
+  "id": "minotauro",
+  "name": "Minotauro",
+  "description": "Povo guerreiro, orgulhoso e poderoso, criadores de uma civilização avançada, com a missão sagrada de proteger e governar os fracos. Após a morte de sua divindade e a decadência de seu Império, os minotauros lutam para recuperar a glória perdida ou encontrar um novo papel no mundo.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "forca": 2, "constituicao": 1, "sabedoria": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["chifres", "couro_rigido", "faro", "medo_de_altura"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

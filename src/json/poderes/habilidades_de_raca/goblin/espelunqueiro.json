@@ -1,0 +1,11 @@
+{
+  "id": "espelunqueiro",
+  "name": "Espelunqueiro",
+  "type": "habilidade_de_raca",
+  "race": "goblin",
+  "description": "Você recebe visão no escuro e deslocamento de escalada igual ao seu deslocamento terrestre.",
+  "effects": {
+    "vision": "visao_no_escuro",
+    "climb_speed": "equal_to_land_speed"
+  }
+}

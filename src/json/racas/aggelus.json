@@ -1,0 +1,14 @@
+{
+  "id": "aggelus",
+  "name": "Aggelus",
+  "description": "Descendentes de extraplanares divinos com traços celestiais, os aggelus são seres ligados às forças da luz. Por serem ligados às forças opostas da luz e trevas, suraggel têm traços diferentes: os aggelus orientam-se para o lado celestial. Podem ser ladinos ou paladinos — não se espante com as contradições.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": { "sabedoria": 2, "carisma": 1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["heranca_divina", "luz_sagrada"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

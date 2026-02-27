@@ -1,0 +1,13 @@
+{
+  "id": "tatuagem_mistica",
+  "name": "Tatuagem Mística",
+  "type": "habilidade_de_raca",
+  "race": "qareen",
+  "description": "Você pode lançar uma magia de 1º círculo a sua escolha (atributo-chave Carisma). Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+  "effects": {
+    "spell_circle": 1,
+    "spellcasting_attribute": "carisma",
+    "pm_discount_if_relearned": 1,
+    "spell": "chosen"
+  }
+}

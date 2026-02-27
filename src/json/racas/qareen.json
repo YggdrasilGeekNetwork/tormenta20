@@ -1,0 +1,14 @@
+{
+  "id": "qareen",
+  "name": "Qareen",
+  "description": "Descendentes de poderosos gênios, os qareen são otimistas, generosos e prestativos, sempre ansiosos por ajudar. Consideram-se abençoados pela Deusa da Magia, exibindo como evidência a marca de Wynna em seus corpos. Sua magia é mais poderosa quando usada para realizar desejos de outros.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "carisma": 2, "inteligencia": 1, "sabedoria": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["desejos", "resistencia_elemental", "tatuagem_mistica"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

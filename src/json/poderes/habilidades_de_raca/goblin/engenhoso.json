@@ -1,0 +1,11 @@
+{
+  "id": "engenhoso",
+  "name": "Engenhoso",
+  "type": "habilidade_de_raca",
+  "race": "goblin",
+  "description": "Você não sofre penalidades em testes de perícia por não usar ferramentas. Se usar a ferramenta necessária, recebe +2 no teste de perícia.",
+  "effects": {
+    "ignore_no_tool_penalty": true,
+    "tool_bonus": 2
+  }
+}

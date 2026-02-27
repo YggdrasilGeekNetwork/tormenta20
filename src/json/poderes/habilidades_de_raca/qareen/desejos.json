@@ -1,0 +1,11 @@
+{
+  "id": "desejos",
+  "name": "Desejos",
+  "type": "habilidade_de_raca",
+  "race": "qareen",
+  "description": "Se lançar uma magia que alguém tenha pedido desde seu último turno, o custo da magia diminui em –1 PM. Fazer um desejo ao qareen é uma ação livre.",
+  "effects": {
+    "pm_discount": 1,
+    "trigger": "magia_solicitada_por_aliado"
+  }
+}

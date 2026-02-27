@@ -1,0 +1,10 @@
+{
+  "id": "armadura_ossea",
+  "name": "Armadura Óssea",
+  "type": "habilidade_de_raca",
+  "race": "osteon",
+  "description": "Você recebe redução de corte, frio e perfuração 5.",
+  "effects": {
+    "damage_reduction": { "corte": 5, "frio": 5, "perfuracao": 5 }
+  }
+}

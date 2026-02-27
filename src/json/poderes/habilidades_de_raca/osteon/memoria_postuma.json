@@ -1,0 +1,10 @@
+{
+  "id": "memoria_postuma",
+  "name": "Memória Póstuma",
+  "type": "habilidade_de_raca",
+  "race": "osteon",
+  "description": "Você se torna treinado em uma perícia (não precisa ser da sua classe) ou recebe um poder geral a sua escolha. Como alternativa, você pode ser um osteon de outra raça humanoide que não humano. Neste caso, você ganha uma habilidade dessa raça a sua escolha. Se a raça era de tamanho diferente de Médio, você também possui sua categoria de tamanho.",
+  "effects": {
+    "choose_one": ["trained_skill", "general_power", "racial_ability_from_other_race"]
+  }
+}

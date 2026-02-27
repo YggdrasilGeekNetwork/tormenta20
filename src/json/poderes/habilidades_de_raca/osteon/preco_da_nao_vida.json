@@ -1,0 +1,12 @@
+{
+  "id": "preco_da_nao_vida",
+  "name": "Preço da Não Vida",
+  "type": "habilidade_de_raca",
+  "race": "osteon",
+  "description": "Você precisa passar oito horas sob a luz de estrelas ou no subterrâneo. Se fizer isso, recupera PV e PM por descanso em condições normais (osteon não são afetados por condições boas ou ruins de descanso). Caso contrário, sofre os efeitos de fome.",
+  "effects": {
+    "rest_requirement": "starlight_or_underground",
+    "rest_hours": 8,
+    "failure_condition": "fome"
+  }
+}

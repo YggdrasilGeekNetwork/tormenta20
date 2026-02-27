@@ -1,0 +1,16 @@
+{
+  "id": "olhar_atordoante",
+  "name": "Olhar Atordoante",
+  "type": "habilidade_de_raca",
+  "race": "medusa",
+  "description": "Você pode gastar uma ação de movimento e 1 PM para forçar uma criatura em alcance curto a fazer um teste de Fortitude (CD Car). Se a criatura falhar, fica atordoada por uma rodada. Apenas uma vez por cena.",
+  "effects": {
+    "cost": { "pm": 1, "action": "movimento" },
+    "save": "fortitude",
+    "save_cd_attribute": "carisma",
+    "condition": "atordoado",
+    "duration": "1 rodada",
+    "range": "curto",
+    "uses_per_scene": 1
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "mestre_do_tridente",
+  "name": "Mestre do Tridente",
+  "type": "habilidade_de_raca",
+  "race": "sereia_tritao",
+  "description": "Para você, o tridente é uma arma simples. Além disso, você recebe +2 em rolagens de dano com azagaias, lanças e tridentes.",
+  "effects": {
+    "weapon_as_simple": ["tridente"],
+    "damage_bonus": { "weapons": ["azagaia", "lanca", "tridente"], "value": 2 }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "versatil",
+  "name": "Versátil",
+  "type": "habilidade_de_raca",
+  "race": "humano",
+  "description": "Você se torna treinado em duas perícias a sua escolha (não precisam ser da sua classe). Você pode trocar uma dessas perícias por um poder geral a sua escolha.",
+  "effects": {
+    "skill_training": { "amount": 2, "free_choice": true },
+    "optional_swap": { "one_skill_for": "poder_geral" }
+  }
+}

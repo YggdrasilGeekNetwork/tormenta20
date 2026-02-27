@@ -1,0 +1,12 @@
+{
+  "id": "resistencia_elemental",
+  "name": "Resistência Elemental",
+  "type": "habilidade_de_raca",
+  "race": "qareen",
+  "description": "Conforme sua ascendência, você recebe redução 10 a um tipo de dano. Escolha uma: frio (qareen da água), eletricidade (do ar), fogo (do fogo), ácido (da terra), luz (da luz) ou trevas (qareen das trevas).",
+  "effects": {
+    "damage_reduction": 10,
+    "damage_type": "chosen"
+  },
+  "choices": ["frio", "eletricidade", "fogo", "acido", "luz", "trevas"]
+}

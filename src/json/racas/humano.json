@@ -1,0 +1,14 @@
+{
+  "id": "humano",
+  "name": "Humano",
+  "description": "O povo mais numeroso em Arton, considerados os escolhidos dos deuses. Em sua variedade e adaptabilidade, são encontrados em quase todos os pontos do continente — dos vales férteis do Reinado às vastidões áridas do Deserto da Perdição. São exploradores e desbravadores ambiciosos, sempre buscando algo além.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": {},
+  "skill_bonuses": [],
+  "racial_abilities": ["versatil"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

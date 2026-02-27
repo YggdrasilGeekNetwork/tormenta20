@@ -1,0 +1,15 @@
+{
+  "id": "natureza_venenosa",
+  "name": "Natureza Venenosa",
+  "type": "habilidade_de_raca",
+  "race": "medusa",
+  "description": "Você recebe resistência a veneno +5 e pode gastar uma ação de movimento e 1 PM para envenenar uma arma que esteja usando. A arma causa perda de 1d12 pontos de vida. O veneno dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro).",
+  "effects": {
+    "resistance": { "veneno": 5 },
+    "poison_weapon": {
+      "cost": { "pm": 1, "action": "movimento" },
+      "damage": "1d12",
+      "duration": "until_hit_or_end_of_scene"
+    }
+  }
+}

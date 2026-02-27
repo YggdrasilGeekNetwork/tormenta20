@@ -1,0 +1,11 @@
+{
+  "id": "medo_de_altura",
+  "name": "Medo de Altura",
+  "type": "habilidade_de_raca",
+  "race": "minotauro",
+  "description": "Se estiver adjacente a uma queda de 3m ou mais de altura (como um buraco ou penhasco), você fica abalado.",
+  "effects": {
+    "condition": "abalado",
+    "trigger": "adjacente_a_queda_3m_ou_mais"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "asas_de_borboleta",
+  "name": "Asas de Borboleta",
+  "type": "habilidade_de_raca",
+  "race": "silfide",
+  "description": "Seu tamanho é Minúsculo. Você pode pairar a 1,5m do chão com deslocamento 9m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Você pode gastar 1 PM por rodada para voar com deslocamento de 12m.",
+  "effects": {
+    "size": "minúsculo",
+    "hover_movement": 9,
+    "fly_movement": 12,
+    "fly_cost_per_round": { "pm": 1 },
+    "ignores_difficult_terrain": true,
+    "immune_fall_damage": true
+  }
+}

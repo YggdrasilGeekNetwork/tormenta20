@@ -1,0 +1,13 @@
+{
+  "id": "engenhosidade",
+  "name": "Engenhosidade",
+  "type": "habilidade_de_raca",
+  "race": "kliren",
+  "description": "Quando faz um teste de perícia, você pode gastar 2 PM para somar sua Inteligência no teste. Você não pode usar esta habilidade em testes de ataque. Caso receba esta habilidade novamente, seu custo é reduzido em –1 PM.",
+  "effects": {
+    "skill_check_bonus_attribute": "inteligencia",
+    "cost": { "pm": 2 },
+    "excludes": "ataque",
+    "pm_discount_if_relearned": 1
+  }
+}

@@ -43,6 +43,7 @@ module Tormenta20
         poder_concedido
         poder_tormenta
         poder_classe
+        habilidade_de_raca
         poder_geral
         poder_combate
         poder_destino

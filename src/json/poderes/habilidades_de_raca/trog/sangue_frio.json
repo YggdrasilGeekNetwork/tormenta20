@@ -1,0 +1,12 @@
+{
+  "id": "sangue_frio",
+  "name": "Sangue Frio",
+  "type": "habilidade_de_raca",
+  "race": "trog",
+  "description": "Você sofre 1 ponto de dano adicional por dado de dano de frio.",
+  "effects": {
+    "extra_damage_per_die": 1,
+    "damage_type": "frio",
+    "condition": "desvantagem"
+  }
+}

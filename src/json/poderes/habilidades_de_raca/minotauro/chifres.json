@@ -1,0 +1,11 @@
+{
+  "id": "chifres",
+  "name": "Chifres",
+  "type": "habilidade_de_raca",
+  "race": "minotauro",
+  "description": "Você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres.",
+  "effects": {
+    "natural_weapon": { "name": "Chifres", "damage": "1d6", "critical": "x2", "damage_type": "perfuracao" },
+    "extra_attack": { "cost_pm": 1, "trigger": "agredir_com_outra_arma", "limit": "uma_vez_por_rodada" }
+  }
+}

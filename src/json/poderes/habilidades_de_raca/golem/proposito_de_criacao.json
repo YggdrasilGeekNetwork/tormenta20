@@ -1,0 +1,11 @@
+{
+  "id": "proposito_de_criacao",
+  "name": "Propósito de Criação",
+  "type": "habilidade_de_raca",
+  "race": "golem",
+  "description": "Você foi construído pronto para um propósito específico e não teve uma infância. Você não tem direito a escolher uma origem, mas recebe um poder geral a sua escolha.",
+  "effects": {
+    "no_origin": true,
+    "general_power_choices": 1
+  }
+}

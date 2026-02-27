@@ -1,0 +1,14 @@
+{
+  "id": "hynne",
+  "name": "Hynne",
+  "description": "Também conhecidos como halflings ou \"pequeninos\", os hynne são apreciadores de boa comida e casas aconchegantes. Quando decidem aventurar-se pelo mundo, recorrem à agilidade e encanto naturais para ludibriar os inimigos. Foram recentemente forçados a fugir de seu antigo reino natal, sendo acolhidos pelas Repúblicas Livres de Sambúrdia.",
+  "size": "pequeno",
+  "movement": 6,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "destreza": 2, "carisma": 1, "forca": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["arremessador", "pequeno_e_rechonchudo", "sorte_salvadora"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

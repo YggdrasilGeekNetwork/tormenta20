@@ -1,0 +1,13 @@
+{
+  "id": "magia_das_fadas",
+  "name": "Magia das Fadas",
+  "type": "habilidade_de_raca",
+  "race": "silfide",
+  "description": "Você pode lançar duas das magias a seguir (atributo-chave Carisma): Criar Ilusão, Enfeitiçar, Luz (como uma magia arcana) e Sono. Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM.",
+  "effects": {
+    "spellcasting_attribute": "carisma",
+    "choose_spells": 2,
+    "available_spells": ["criar_ilusao", "enfeiticar", "luz", "sono"],
+    "pm_discount_if_relearned": 1
+  }
+}

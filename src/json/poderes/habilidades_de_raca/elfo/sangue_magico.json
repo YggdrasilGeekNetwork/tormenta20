@@ -1,0 +1,10 @@
+{
+  "id": "sangue_magico",
+  "name": "Sangue Mágico",
+  "type": "habilidade_de_raca",
+  "race": "elfo",
+  "description": "Você recebe +1 ponto de mana por nível.",
+  "effects": {
+    "mp_bonus_per_level": 1
+  }
+}

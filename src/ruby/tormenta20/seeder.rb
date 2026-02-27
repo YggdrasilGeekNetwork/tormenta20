@@ -12,12 +12,15 @@ module Tormenta20
         @verbose = verbose
         log "Seeding database..."
 
+        seed_racas
+        seed_habilidades_de_raca
         seed_origens
         seed_poderes_habilidades_unicas
         seed_divindades
         seed_poderes_concedidos
         seed_poderes_tormenta
         seed_classes
+        seed_habilidades_de_classe
         seed_magias
         seed_equipamentos
         seed_itens_superiores
@@ -36,6 +39,41 @@ module Tormenta20
 
       def log(message)
         puts message if @verbose
+      end
+
+      def seed_racas
+        import_json_files(
+          "racas",
+          Models::Raca,
+          %i[id name description size movement vision vision_range
+             attribute_bonuses skill_bonuses racial_abilities
+             chosen_abilities_amount available_chosen_abilities]
+        )
+      end
+
+      def seed_habilidades_de_raca
+        base_dir = File.join(JSON_BASE_PATH, "poderes", "habilidades_de_raca")
+        return unless Dir.exist?(base_dir)
+
+        Dir.each_child(base_dir) do |race_dir|
+          race_path = File.join(base_dir, race_dir)
+          next unless File.directory?(race_path)
+
+          Dir.glob(File.join(race_path, "*.json")).each do |file|
+            data = JSON.parse(File.read(file), symbolize_names: true)
+            next if data[:id].nil?
+
+            record = Models::Poder.find_or_initialize_by(id: data[:id])
+            record.name        = data[:name] || data[:id].to_s.humanize
+            record.type        = "habilidade_de_raca"
+            record.description = data[:description]
+            record.effects     = data[:effects] || {}
+            record.prerequisites = data[:prerequisites] || []
+            record.save!
+          rescue StandardError
+            next
+          end
+        end
       end
 
       def seed_origens
@@ -92,6 +130,35 @@ module Tormenta20
           Models::Classe,
           %i[id name hit_points mana_points skills proficiencies abilities powers progression spellcasting]
         )
+      end
+
+      def seed_habilidades_de_classe
+        base_dir = File.join(JSON_BASE_PATH, "poderes", "habilidades_de_classe")
+        return unless Dir.exist?(base_dir)
+
+        Dir.each_child(base_dir) do |class_dir|
+          class_path = File.join(base_dir, class_dir)
+          next unless File.directory?(class_path)
+          next if class_dir == "base.json"
+
+          class_id = class_dir
+
+          Dir.glob(File.join(class_path, "*.json")).each do |file|
+            data = JSON.parse(File.read(file), symbolize_names: true)
+            next if data[:id].nil?
+
+            record = Models::Poder.find_or_initialize_by(id: data[:id])
+            record.name        = data[:name] || data[:id].to_s.humanize
+            record.type        = "poder_classe"
+            record.class_id    = class_id
+            record.description = data[:description]
+            record.effects     = data[:effects] || []
+            record.prerequisites = data[:requirements] || []
+            record.save!
+          rescue StandardError
+            next
+          end
+        end
       end
 
       def seed_magias
@@ -246,7 +313,7 @@ module Tormenta20
         json_dir = File.join(JSON_BASE_PATH, subdir)
         return unless Dir.exist?(json_dir)
 
-        Dir.glob(File.join(json_dir, "*.json")).each do |file|
+        Dir.glob(File.join(json_dir, "**", "*.json")).each do |file|
           data = JSON.parse(File.read(file), symbolize_names: true)
           data = transform.call(data) if transform
 

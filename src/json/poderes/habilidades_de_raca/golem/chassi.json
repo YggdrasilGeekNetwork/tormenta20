@@ -1,0 +1,14 @@
+{
+  "id": "chassi",
+  "name": "Chassi",
+  "type": "habilidade_de_raca",
+  "race": "golem",
+  "description": "Seu corpo artificial é resistente, mas rígido. Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe +2 na Defesa, mas possui penalidade de armadura –2. Você leva um dia para vestir ou remover uma armadura. Por ser acoplada, sua armadura não conta no limite de itens que você pode usar (mas você continua só podendo usar uma armadura).",
+  "effects": {
+    "movement": 6,
+    "movement_unaffected_by_armor": true,
+    "defense_bonus": 2,
+    "armor_penalty": -2,
+    "armor_equip_time": "1 dia"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "graca_de_glorienn",
+  "name": "Graça de Glórienn",
+  "type": "habilidade_de_raca",
+  "race": "elfo",
+  "description": "Seu deslocamento é 12m (em vez de 9m).",
+  "effects": {
+    "movement_override": 12
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "peste_esguia",
+  "name": "Peste Esguia",
+  "type": "habilidade_de_raca",
+  "race": "goblin",
+  "description": "Seu tamanho é Pequeno, mas seu deslocamento se mantém 9m.",
+  "effects": {
+    "size": "pequeno",
+    "movement_override": 9
+  }
+}

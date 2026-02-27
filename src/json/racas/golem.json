@@ -1,0 +1,14 @@
+{
+  "id": "golem",
+  "name": "Golem",
+  "description": "Construtos movidos por espíritos elementais selvagens, capturados e lacrados por meios mágicos em corpos de pedra e metal. Muitos conformam-se com seus papéis como trabalhadores e soldados, enquanto outros demonstram alta inteligência, personalidade e iniciativa. Podem fazer tudo que outras raças fazem, até mesmo conjurar magias.",
+  "size": "médio",
+  "movement": 6,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": { "forca": 2, "constituicao": 1, "carisma": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["chassi", "criatura_artificial", "fonte_elemental", "proposito_de_criacao"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

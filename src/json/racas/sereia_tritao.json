@@ -1,0 +1,14 @@
+{
+  "id": "sereia_tritao",
+  "name": "Sereia/Tritão",
+  "description": "Seres de torso humanoide e corpo de peixe que podem adotar forma bípede para caminhar em terras emersas. Enquanto algumas sereias temem ou desprezam os humanos, outras enxergam Arton como um mundo misterioso, exótico, cheio de oportunidades e aventuras.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": {},
+  "skill_bonuses": [],
+  "racial_abilities": ["cancao_dos_mares", "mestre_do_tridente", "transformacao_anfibia"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

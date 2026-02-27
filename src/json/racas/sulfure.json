@@ -1,0 +1,14 @@
+{
+  "id": "sulfure",
+  "name": "Sulfure",
+  "description": "Descendentes de extraplanares divinos com traços demoníacos, os sulfure são seres ligados às forças das trevas. Sub-tipo abissal dos suraggel, por serem ligados às trevas possuem traços demoníacos. Podem ser paladinos ou ladinos — não se espante com as contradições.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": { "destreza": 2, "inteligencia": 1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["heranca_divina", "sombras_profanas"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

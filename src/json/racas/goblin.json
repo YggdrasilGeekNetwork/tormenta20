@@ -1,0 +1,14 @@
+{
+  "id": "goblin",
+  "name": "Goblin",
+  "description": "Estes pequenos seres feiosos conseguiram um lugar entre os povos do Reinado. Podem ser encontrados em todas as grandes cidades, muitos vivendo na imundície, outros prosperando em carreiras que quase ninguém tentaria: espiões, aeronautas, engenhoqueiros. Onde o anão teimoso e o elfo empolado falham, o goblin pode dar um jeito.",
+  "size": "pequeno",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": { "destreza": 2, "inteligencia": 1, "carisma": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["engenhoso", "espelunqueiro", "peste_esguia", "rato_das_ruas"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

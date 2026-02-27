@@ -1,0 +1,14 @@
+{
+  "id": "sentidos_elficos",
+  "name": "Sentidos Élficos",
+  "type": "habilidade_de_raca",
+  "race": "elfo",
+  "description": "Você recebe visão na penumbra e +2 em Misticismo e Percepção.",
+  "effects": {
+    "vision": "visao_na_penumbra",
+    "skill_bonus": [
+      { "skill": "misticismo", "value": 2 },
+      { "skill": "percepcao", "value": 2 }
+    ]
+  }
+}

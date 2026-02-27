@@ -1,0 +1,14 @@
+{
+  "id": "osteon",
+  "name": "Osteon",
+  "description": "Esqueletos conscientes e inteligentes, conhecidos como osteon. Alguns atribuem seu surgimento à queda de Ragnar, antigo Deus da Morte; outros dizem ser consequência da ascensão de Ferren Asloth como um poderoso lich. Demonstram inteligência e consciência das raças vivas, sendo capazes de adotar quaisquer de suas profissões e devoções.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": { "constituicao": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["armadura_ossea", "memoria_postuma", "natureza_esqueletica", "preco_da_nao_vida"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

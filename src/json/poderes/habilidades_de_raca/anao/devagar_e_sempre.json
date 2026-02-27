@@ -1,0 +1,12 @@
+{
+  "id": "devagar_e_sempre",
+  "name": "Devagar e Sempre",
+  "type": "habilidade_de_raca",
+  "race": "anao",
+  "description": "Seu deslocamento é 6m (em vez de 9m). Porém, seu deslocamento não é reduzido por uso de armadura ou excesso de carga.",
+  "effects": {
+    "movement_override": 6,
+    "ignore_armor_movement_penalty": true,
+    "ignore_encumbrance_movement_penalty": true
+  }
+}

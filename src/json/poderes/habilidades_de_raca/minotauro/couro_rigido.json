@@ -1,0 +1,10 @@
+{
+  "id": "couro_rigido",
+  "name": "Couro Rígido",
+  "type": "habilidade_de_raca",
+  "race": "minotauro",
+  "description": "Sua pele é dura como a de um touro. Você recebe +1 na Defesa.",
+  "effects": {
+    "defense_bonus": 1
+  }
+}

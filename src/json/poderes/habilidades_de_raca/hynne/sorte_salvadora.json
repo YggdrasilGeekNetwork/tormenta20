@@ -1,0 +1,11 @@
+{
+  "id": "sorte_salvadora",
+  "name": "Sorte Salvadora",
+  "type": "habilidade_de_raca",
+  "race": "hynne",
+  "description": "Quando faz um teste de resistência, você pode gastar 1 PM para rolar este teste novamente.",
+  "effects": {
+    "reroll": "resistencia",
+    "cost": { "pm": 1 }
+  }
+}

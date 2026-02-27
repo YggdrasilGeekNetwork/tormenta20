@@ -1,0 +1,14 @@
+{
+  "id": "kliren",
+  "name": "Kliren",
+  "description": "Visitantes de outro mundo, combinação entre humanos e gnomos. Somam a alta inteligência gnômica e a curiosidade humana, resultando em seres de extrema engenhosidade, criatividade e talento com aparatos mecânicos. Seriam capazes de grandes feitos, não fossem a impulsividade e imprudência que por vezes abreviam suas vidas.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "inteligencia": 2, "carisma": 1, "forca": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["hibrido", "engenhosidade", "ossos_frageis", "vanguardista"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

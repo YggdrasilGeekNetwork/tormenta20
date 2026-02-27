@@ -1,0 +1,14 @@
+{
+  "id": "luz_sagrada",
+  "name": "Luz Sagrada",
+  "type": "habilidade_de_raca",
+  "race": "aggelus",
+  "description": "Você recebe +2 em Diplomacia e Intuição. Além disso, pode lançar Luz (como uma magia divina; atributo-chave Carisma). Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+  "effects": {
+    "skill_bonus": { "diplomacia": 2, "intuicao": 2 },
+    "spell": "luz",
+    "spell_type": "divina",
+    "spellcasting_attribute": "carisma",
+    "pm_discount_if_relearned": 1
+  }
+}

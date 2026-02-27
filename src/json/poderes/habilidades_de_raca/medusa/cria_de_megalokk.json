@@ -1,0 +1,11 @@
+{
+  "id": "cria_de_megalokk",
+  "name": "Cria de Megalokk",
+  "type": "habilidade_de_raca",
+  "race": "medusa",
+  "description": "Você é uma criatura do tipo monstro e recebe visão no escuro.",
+  "effects": {
+    "creature_type": "monstro",
+    "vision": "visao_no_escuro"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "id": "mau_cheiro",
+  "name": "Mau Cheiro",
+  "type": "habilidade_de_raca",
+  "race": "trog",
+  "description": "Você pode gastar uma ação padrão e 2 PM para expelir um gás fétido. Todas as criaturas (exceto trogs) em alcance curto devem passar em um teste de Fortitude contra veneno (CD Con) ou ficarão enjoadas durante 1d6 rodadas. Uma criatura que passe no teste de resistência fica imune a esta habilidade por um dia.",
+  "effects": {
+    "cost": { "pm": 2, "action": "padrão" },
+    "area": "curto",
+    "save": "fortitude",
+    "save_type": "veneno",
+    "save_cd_attribute": "constituicao",
+    "condition": "enjoado",
+    "duration": "1d6 rodadas",
+    "immunity_on_success": "1 dia"
+  }
+}

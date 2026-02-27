@@ -1,0 +1,14 @@
+{
+  "id": "faro",
+  "name": "Faro",
+  "type": "habilidade_de_raca",
+  "race": "minotauro",
+  "description": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha.",
+  "effects": {
+    "keen_smell": true,
+    "vs_unseen_short_range": {
+      "no_flat_footed": true,
+      "total_concealment_miss_chance": 20
+    }
+  }
+}

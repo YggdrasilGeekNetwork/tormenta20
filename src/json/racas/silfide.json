@@ -1,0 +1,14 @@
+{
+  "id": "silfide",
+  "name": "Sílfide",
+  "description": "As mais numerosas fadas em Arton são estas criaturinhas esvoaçantes, com suas delicadas asas de inseto e grandes olhos escuros. Curiosas e brincalhonas, parecem sempre à procura de alguma diversão, levando todos a subestimá-las. Gostam de usar magias e ilusões para pregar peças.",
+  "size": "minúsculo",
+  "movement": 9,
+  "vision": "baixa_luminosidade",
+  "vision_range": null,
+  "attribute_bonuses": { "carisma": 2, "destreza": 1, "forca": -2 },
+  "skill_bonuses": [],
+  "racial_abilities": ["asas_de_borboleta", "espirito_da_natureza", "magia_das_fadas"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

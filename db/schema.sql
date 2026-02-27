@@ -38,6 +38,7 @@ CREATE TABLE IF NOT EXISTS poderes (
     'poder_concedido',
     'poder_tormenta',
     'poder_classe',
+    'habilidade_de_raca',
     'poder_geral',
     'poder_combate',
     'poder_destino',
@@ -47,6 +48,7 @@ CREATE TABLE IF NOT EXISTS poderes (
   effects JSON DEFAULT '{}',
   prerequisites JSON DEFAULT '[]',
   origin_id TEXT,
+  class_id TEXT,
   deities JSON DEFAULT '[]',
   created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
   updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
@@ -343,6 +345,34 @@ CREATE TRIGGER IF NOT EXISTS update_regras_timestamp
 AFTER UPDATE ON regras
 BEGIN
   UPDATE regras SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
+END;
+
+-- -----------------------------------------------------------------------------
+-- RAÇAS (Playable Races)
+-- -----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS racas (
+  id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  description TEXT,
+  size TEXT NOT NULL DEFAULT 'médio',
+  movement INTEGER NOT NULL DEFAULT 9,
+  vision TEXT DEFAULT 'normal',
+  vision_range INTEGER,
+  attribute_bonuses JSON DEFAULT '{}',
+  skill_bonuses JSON DEFAULT '[]',
+  racial_abilities JSON DEFAULT '[]',
+  chosen_abilities_amount INTEGER DEFAULT 0,
+  available_chosen_abilities JSON DEFAULT '[]',
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_racas_name ON racas(name);
+
+CREATE TRIGGER IF NOT EXISTS update_racas_timestamp
+AFTER UPDATE ON racas
+BEGIN
+  UPDATE racas SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
 END;
 
 -- =============================================================================

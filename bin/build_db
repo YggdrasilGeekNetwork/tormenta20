@@ -26,6 +26,8 @@ def main
 
   # Seed all data
   puts "Seeding data..."
+  seed_racas(db)
+  seed_habilidades_de_raca(db)
   seed_origens(db)
   seed_poderes_habilidades_unicas(db)
   seed_divindades(db)
@@ -41,6 +43,41 @@ def main
 
   puts "Database built successfully at #{DB_PATH}"
   print_summary
+end
+
+def seed_racas(db)
+  import_json_files(db, "racas", "racas",
+                    %w[id name description size movement vision vision_range
+                       attribute_bonuses skill_bonuses racial_abilities
+                       chosen_abilities_amount available_chosen_abilities])
+end
+
+def seed_habilidades_de_raca(db)
+  base_dir = File.join(JSON_BASE_PATH, "poderes", "habilidades_de_raca")
+  return unless Dir.exist?(base_dir)
+
+  count = 0
+  Dir.glob(File.join(base_dir, "**", "*.json")).each do |file|
+    data = JSON.parse(File.read(file))
+    next if data["id"].nil?
+
+    db.execute(
+      "INSERT OR REPLACE INTO poderes (id, name, type, description, effects, prerequisites) VALUES (?, ?, ?, ?, ?, ?)",
+      [
+        data["id"],
+        data["name"] || data["id"],
+        "habilidade_de_raca",
+        data["description"],
+        (data["effects"] || {}).to_json,
+        (data["prerequisites"] || []).to_json
+      ]
+    )
+    count += 1
+  rescue StandardError => e
+    puts "  Error importing #{File.basename(file)}: #{e.message}"
+  end
+
+  puts "  Imported #{count} habilidades_de_raca"
 end
 
 def seed_origens(db)
@@ -206,7 +243,7 @@ def print_summary
 
   puts "\nDatabase Summary:"
   puts "-" * 40
-  %w[origens poderes divindades classes magias escudos materiais_especiais regras].each do |table|
+  %w[racas origens poderes divindades classes magias escudos materiais_especiais regras].each do |table|
     count = db.get_first_value("SELECT COUNT(*) FROM #{table}")
     puts "  #{table}: #{count}"
   end

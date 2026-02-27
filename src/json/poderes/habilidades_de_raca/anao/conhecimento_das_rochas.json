@@ -1,0 +1,14 @@
+{
+  "id": "conhecimento_das_rochas",
+  "name": "Conhecimento das Rochas",
+  "type": "habilidade_de_raca",
+  "race": "anao",
+  "description": "Você recebe visão no escuro e +2 em testes de Percepção e Sobrevivência realizados no subterrâneo.",
+  "effects": {
+    "vision": "visao_no_escuro",
+    "skill_bonus": [
+      { "skill": "percepcao", "value": 2, "condition": "subterraneo" },
+      { "skill": "sobrevivencia", "value": 2, "condition": "subterraneo" }
+    ]
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "trog",
+  "name": "Trog",
+  "description": "Trogloditas (ou 'trogs') são homens-lagarto primitivos e subterrâneos que odeiam todos os outros seres — especialmente os que sabem forjar aço. Uns poucos, no entanto, divergem da crueldade e selvageria inerentes à raça. Abandonam a tribo ou são expulsos, escolhendo caminhos surpreendentes: druidas, clérigos, bucaneiros.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": { "constituicao": 2, "forca": 1, "inteligencia": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["mau_cheiro", "mordida", "reptiliano", "sangue_frio"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": []
+}

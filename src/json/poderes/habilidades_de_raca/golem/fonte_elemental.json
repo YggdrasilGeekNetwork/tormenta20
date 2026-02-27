@@ -1,0 +1,12 @@
+{
+  "id": "fonte_elemental",
+  "name": "Fonte Elemental",
+  "type": "habilidade_de_raca",
+  "race": "golem",
+  "description": "Você possui um espírito elemental preso em seu corpo. Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano desse tipo. Se fosse sofrer dano mágico desse tipo, em vez disso cura PV em quantidade igual à metade do dano.",
+  "effects": {
+    "damage_immunity": "chosen",
+    "healing_from_chosen_damage": 0.5
+  },
+  "choices": ["frio", "eletricidade", "fogo", "acido"]
+}

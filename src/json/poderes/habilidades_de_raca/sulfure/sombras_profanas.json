@@ -1,0 +1,14 @@
+{
+  "id": "sombras_profanas",
+  "name": "Sombras Profanas",
+  "type": "habilidade_de_raca",
+  "race": "sulfure",
+  "description": "Você recebe +2 em Enganação e Furtividade. Além disso, pode lançar Escuridão (como uma magia divina; atributo-chave Inteligência). Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+  "effects": {
+    "skill_bonus": { "enganacao": 2, "furtividade": 2 },
+    "spell": "escuridao",
+    "spell_type": "divina",
+    "spellcasting_attribute": "inteligencia",
+    "pm_discount_if_relearned": 1
+  }
+}

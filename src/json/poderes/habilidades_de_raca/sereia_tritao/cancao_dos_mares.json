@@ -1,0 +1,13 @@
+{
+  "id": "cancao_dos_mares",
+  "name": "Canção dos Mares",
+  "type": "habilidade_de_raca",
+  "race": "sereia_tritao",
+  "description": "Você pode lançar duas das magias a seguir: Amedrontar, Comando, Despedaçar, Enfeitiçar, Hipnotismo ou Sono (atributo-chave Carisma). Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM.",
+  "effects": {
+    "spellcasting_attribute": "carisma",
+    "choose_spells": 2,
+    "available_spells": ["amedrontar", "comando", "despedacar", "enfeiticar", "hipnotismo", "sono"],
+    "pm_discount_if_relearned": 1
+  }
+}

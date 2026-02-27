@@ -1,0 +1,10 @@
+{
+  "id": "duro_como_pedra",
+  "name": "Duro como Pedra",
+  "type": "habilidade_de_raca",
+  "race": "anao",
+  "description": "Você recebe +3 pontos de vida no 1º nível e +1 por nível seguinte.",
+  "effects": {
+    "hp_bonus": { "at_level_1": 3, "per_level_after": 1 }
+  }
+}

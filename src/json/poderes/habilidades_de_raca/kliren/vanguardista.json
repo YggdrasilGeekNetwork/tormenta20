@@ -1,0 +1,12 @@
+{
+  "id": "vanguardista",
+  "name": "Vanguardista",
+  "type": "habilidade_de_raca",
+  "race": "kliren",
+  "description": "Você recebe proficiência em armas de fogo e +2 em Ofício (um qualquer, a sua escolha).",
+  "effects": {
+    "weapon_proficiency": ["armas_de_fogo"],
+    "skill_bonus": { "oficio": 2 },
+    "skill_choice": "oficio"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "cria_da_tormenta",
+  "name": "Cria da Tormenta",
+  "type": "habilidade_de_raca",
+  "race": "lefou",
+  "description": "Você é uma criatura do tipo monstro e recebe +5 em testes de resistência contra efeitos causados por lefeu e pela Tormenta.",
+  "effects": {
+    "creature_type": "monstro",
+    "resistance_bonus": { "value": 5, "against": ["efeitos_lefeu", "tormenta"] }
+  }
+}
