@@ -1,0 +1,12 @@
+{
+  "id": "fascinado",
+  "name": "Fascinado",
+  "description": "Você está hipnotizado por um estímulo. Sofre –5 em testes de Percepção e só pode fazer ações de observar o que o fascina (não pode atacar, se mover ou fazer outras ações).",
+  "effects": [
+    "-5 em testes de Percepção",
+    "Só pode observar a fonte da fascinação",
+    "Não pode atacar, se mover ou realizar outras ações"
+  ],
+  "condition_type": "mental",
+  "escalates_to": null
+}

@@ -1,0 +1,10 @@
+{
+  "id": "confuso",
+  "name": "Confuso",
+  "description": "Você age de forma aleatória e imprevisível. No início de cada turno, role 1d6: 1–2 age normalmente, 3–4 não faz nada, 5–6 ataca o alvo mais próximo (aliado ou inimigo).",
+  "effects": [
+    "No início do turno role 1d6: 1-2 age normalmente, 3-4 fica pasmo, 5-6 ataca o alvo mais próximo"
+  ],
+  "condition_type": "mental",
+  "escalates_to": null
+}

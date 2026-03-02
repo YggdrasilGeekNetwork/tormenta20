@@ -172,6 +172,16 @@ module Tormenta20
       Models::Raca
     end
 
+    # Access the Condicao (Status Condition) model for querying conditions.
+    #
+    # @return [Class<Models::Condicao>] The Condicao model class
+    # @example
+    #   Tormenta20.condicoes.all
+    #   Tormenta20.condicoes.by_type("medo")
+    def condicoes
+      Models::Condicao
+    end
+
     # @!endgroup
   end
 

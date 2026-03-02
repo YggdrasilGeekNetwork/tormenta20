@@ -39,6 +39,7 @@ def main
   seed_escudos(db)
   seed_materiais_especiais(db)
   seed_regras(db)
+  seed_condicoes(db)
 
   db.close
 
@@ -250,6 +251,11 @@ def seed_regras(db)
                     })
 end
 
+def seed_condicoes(db)
+  import_json_files(db, "condicoes", "condicoes",
+                    %w[id name description effects condition_type escalates_to])
+end
+
 def import_json_files(db, subdir, table, columns, extra: {}, transform: nil)
   json_dir = File.join(JSON_BASE_PATH, subdir)
   return unless Dir.exist?(json_dir)
@@ -280,7 +286,7 @@ def print_summary
 
   puts "\nDatabase Summary:"
   puts "-" * 40
-  %w[racas origens poderes divindades classes magias escudos materiais_especiais regras].each do |table|
+  %w[racas origens poderes divindades classes magias escudos materiais_especiais regras condicoes].each do |table|
     count = db.get_first_value("SELECT COUNT(*) FROM #{table}")
     puts "  #{table}: #{count}"
   end

@@ -1,0 +1,13 @@
+{
+  "id": "agarrado",
+  "name": "Agarrado",
+  "description": "Você está sendo segurado por uma criatura ou efeito. Fica desprevenido e imóvel, sofre –2 em jogadas de ataque e só pode usar armas leves ou armas naturais.",
+  "effects": [
+    "Fica desprevenido",
+    "Fica imóvel",
+    "-2 em jogadas de ataque",
+    "Só pode usar armas leves ou naturais"
+  ],
+  "condition_type": null,
+  "escalates_to": null
+}

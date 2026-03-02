@@ -1,0 +1,8 @@
+{
+  "id": "enjoado",
+  "name": "Enjoado",
+  "description": "Você está com náusea. Em cada rodada, pode usar apenas uma ação padrão ou uma ação de movimento (não ambas).",
+  "effects": ["Pode usar apenas uma ação padrão OU uma ação de movimento por rodada (não ambas)"],
+  "condition_type": "metabolismo",
+  "escalates_to": null
+}

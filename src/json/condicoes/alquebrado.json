@@ -1,0 +1,8 @@
+{
+  "id": "alquebrado",
+  "name": "Alquebrado",
+  "description": "Sua mente está enfraquecida. O custo em PM de todas as suas habilidades aumenta em +1.",
+  "effects": ["Custo em PM de todas as habilidades +1"],
+  "condition_type": "mental",
+  "escalates_to": null
+}

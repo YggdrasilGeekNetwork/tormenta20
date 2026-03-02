@@ -1,0 +1,8 @@
+{
+  "id": "imovel",
+  "name": "Imóvel",
+  "description": "Você não consegue se mover. Todos os seus deslocamentos são reduzidos a 0m.",
+  "effects": ["Todos os deslocamentos reduzidos a 0m"],
+  "condition_type": "movimento",
+  "escalates_to": null
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cego",
+  "name": "Cego",
+  "description": "Você não consegue ver. Fica desprevenido e lento. Sofre –5 em testes de perícias baseadas em Força ou Destreza. Todos os alvos têm cobertura total contra seus ataques.",
+  "effects": [
+    "Fica desprevenido",
+    "Fica lento",
+    "-5 em testes de perícias baseadas em Força ou Destreza",
+    "Todos os alvos têm cobertura total contra seus ataques"
+  ],
+  "condition_type": "sentidos",
+  "escalates_to": null
+}

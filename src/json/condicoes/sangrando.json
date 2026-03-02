@@ -1,0 +1,10 @@
+{
+  "id": "sangrando",
+  "name": "Sangrando",
+  "description": "Você está com uma ferida aberta e sangrando. No início de cada turno, deve fazer um teste de Constituição (CD 15) ou sofrer 1d6 pontos de dano.",
+  "effects": [
+    "No início de cada turno: teste de Constituição CD 15 ou sofre 1d6 de dano"
+  ],
+  "condition_type": "metabolismo",
+  "escalates_to": null
+}

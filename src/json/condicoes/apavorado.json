@@ -1,0 +1,11 @@
+{
+  "id": "apavorado",
+  "name": "Apavorado",
+  "description": "Você está dominado pelo medo. Sofre –5 em testes de perícia e não pode se aproximar voluntariamente da fonte do seu medo.",
+  "effects": [
+    "-5 em testes de perícia",
+    "Não pode se aproximar voluntariamente da fonte do medo"
+  ],
+  "condition_type": "medo",
+  "escalates_to": null
+}

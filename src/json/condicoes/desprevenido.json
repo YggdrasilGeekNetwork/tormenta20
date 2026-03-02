@@ -1,0 +1,11 @@
+{
+  "id": "desprevenido",
+  "name": "Desprevenido",
+  "description": "Você está sem se defender adequadamente. Sofre –5 na Defesa e em Reflexos.",
+  "effects": [
+    "-5 na Defesa",
+    "-5 em Reflexos"
+  ],
+  "condition_type": null,
+  "escalates_to": null
+}

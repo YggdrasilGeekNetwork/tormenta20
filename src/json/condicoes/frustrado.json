@@ -1,0 +1,11 @@
+{
+  "id": "frustrado",
+  "name": "Frustrado",
+  "description": "Você está mentalmente abalado. Sofre –2 em testes de Inteligência, Sabedoria e Carisma. Se ficar frustrado novamente, fica esmorecido.",
+  "effects": [
+    "-2 em testes de Inteligência, Sabedoria e Carisma",
+    "Se ficar frustrado novamente → fica esmorecido"
+  ],
+  "condition_type": "mental",
+  "escalates_to": "esmorecido"
+}

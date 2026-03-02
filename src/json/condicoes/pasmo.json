@@ -1,0 +1,8 @@
+{
+  "id": "pasmo",
+  "name": "Pasmo",
+  "description": "Você está atordoado mentalmente e não consegue agir. Perde todas as suas ações neste turno.",
+  "effects": ["Perde todas as ações no turno"],
+  "condition_type": "mental",
+  "escalates_to": null
+}

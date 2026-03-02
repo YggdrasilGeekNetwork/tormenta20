@@ -1,0 +1,11 @@
+{
+  "id": "atordoado",
+  "name": "Atordoado",
+  "description": "Você está confuso e incapaz de agir. Fica desprevenido e perde sua ação no turno.",
+  "effects": [
+    "Fica desprevenido",
+    "Perde a ação no turno"
+  ],
+  "condition_type": "mental",
+  "escalates_to": null
+}

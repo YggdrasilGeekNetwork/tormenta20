@@ -1,0 +1,13 @@
+{
+  "id": "caido",
+  "name": "Caído",
+  "description": "Você está prostrado no chão. Sofre –5 na Defesa contra ataques corpo a corpo, mas +5 na Defesa contra ataques à distância. Sofre –5 em jogadas de ataque corpo a corpo. Seu deslocamento é reduzido a 1,5m (apenas rastejando).",
+  "effects": [
+    "-5 na Defesa contra ataques corpo a corpo",
+    "+5 na Defesa contra ataques à distância",
+    "-5 em jogadas de ataque corpo a corpo",
+    "Deslocamento reduzido a 1,5m (rastejar)"
+  ],
+  "condition_type": null,
+  "escalates_to": null
+}

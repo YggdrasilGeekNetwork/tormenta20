@@ -1,0 +1,11 @@
+{
+  "id": "enfeiticado",
+  "name": "Enfeitiçado",
+  "description": "Você está sob encantamento e considera a fonte do efeito como amiga. A fonte recebe +10 em testes de Diplomacia contra você.",
+  "effects": [
+    "Considera a fonte do efeito como aliada",
+    "A fonte recebe +10 em testes de Diplomacia contra você"
+  ],
+  "condition_type": "mental",
+  "escalates_to": null
+}

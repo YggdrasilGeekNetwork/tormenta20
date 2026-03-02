@@ -1,0 +1,8 @@
+{
+  "id": "abalado",
+  "name": "Abalado",
+  "description": "Você fica com medo. Sofre –2 em testes de perícia.",
+  "effects": ["-2 em testes de perícia"],
+  "condition_type": "medo",
+  "escalates_to": null
+}

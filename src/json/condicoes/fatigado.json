@@ -1,0 +1,12 @@
+{
+  "id": "fatigado",
+  "name": "Fatigado",
+  "description": "Você está cansado. Fica fraco e vulnerável. Se ficar fatigado novamente, fica exausto.",
+  "effects": [
+    "Fica fraco",
+    "Fica vulnerável",
+    "Se ficar fatigado novamente → fica exausto"
+  ],
+  "condition_type": "cansaco",
+  "escalates_to": "exausto"
+}

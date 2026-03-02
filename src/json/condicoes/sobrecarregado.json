@@ -1,0 +1,11 @@
+{
+  "id": "sobrecarregado",
+  "name": "Sobrecarregado",
+  "description": "Você está carregando peso excessivo. Sofre –5 na penalidade de armadura e seu deslocamento é reduzido em –3m.",
+  "effects": [
+    "-5 na penalidade de armadura",
+    "Deslocamento reduzido em –3m"
+  ],
+  "condition_type": null,
+  "escalates_to": null
+}

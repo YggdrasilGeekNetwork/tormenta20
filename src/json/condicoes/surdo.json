@@ -1,0 +1,12 @@
+{
+  "id": "surdo",
+  "name": "Surdo",
+  "description": "Você não consegue ouvir. Falha automaticamente em testes de Percepção baseados em audição e sofre –5 em testes de Iniciativa. Há chance de falha ao lançar magias com componente verbal.",
+  "effects": [
+    "Falha automática em testes de Percepção auditiva",
+    "-5 em testes de Iniciativa",
+    "Chance de falha em magias com componente verbal"
+  ],
+  "condition_type": "sentidos",
+  "escalates_to": null
+}

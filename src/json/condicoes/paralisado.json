@@ -1,0 +1,12 @@
+{
+  "id": "paralisado",
+  "name": "Paralisado",
+  "description": "Seu corpo está completamente imóvel. Fica imóvel e indefeso. Só pode realizar ações mentais (como ativar habilidades que não exijam movimento).",
+  "effects": [
+    "Fica imóvel",
+    "Fica indefeso",
+    "Só pode realizar ações mentais"
+  ],
+  "condition_type": null,
+  "escalates_to": null
+}

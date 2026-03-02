@@ -1,0 +1,11 @@
+{
+  "id": "petrificado",
+  "name": "Petrificado",
+  "description": "Você foi transformado em pedra ou material inerte. Fica inconsciente e ganha RD 8 (contra todos os tipos de dano). Efeito do tipo metamorfose.",
+  "effects": [
+    "Fica inconsciente",
+    "Ganha RD 8 (todos os tipos de dano)"
+  ],
+  "condition_type": "metamorfose",
+  "escalates_to": null
+}

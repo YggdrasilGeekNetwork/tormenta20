@@ -1,0 +1,13 @@
+{
+  "id": "indefeso",
+  "name": "Indefeso",
+  "description": "Você está completamente vulnerável. Fica desprevenido, sofre –10 na Defesa, falha automaticamente em Reflexos e pode sofrer um golpe de misericórdia.",
+  "effects": [
+    "Fica desprevenido",
+    "-10 na Defesa",
+    "Falha automaticamente em testes de Reflexos",
+    "Pode sofrer golpe de misericórdia"
+  ],
+  "condition_type": null,
+  "escalates_to": null
+}

@@ -1,0 +1,11 @@
+{
+  "id": "inconsciente",
+  "name": "Inconsciente",
+  "description": "Você está desmaiado ou dormindo. Fica indefeso e não pode realizar nenhuma ação.",
+  "effects": [
+    "Fica indefeso",
+    "Não pode realizar nenhuma ação"
+  ],
+  "condition_type": null,
+  "escalates_to": null
+}

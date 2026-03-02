@@ -1,0 +1,11 @@
+{
+  "id": "ofuscado",
+  "name": "Ofuscado",
+  "description": "Sua visão está prejudicada por luz intensa ou escuridão parcial. Sofre –2 em jogadas de ataque e em testes de Percepção.",
+  "effects": [
+    "-2 em jogadas de ataque",
+    "-2 em testes de Percepção"
+  ],
+  "condition_type": "sentidos",
+  "escalates_to": null
+}

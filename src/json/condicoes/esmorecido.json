@@ -1,0 +1,8 @@
+{
+  "id": "esmorecido",
+  "name": "Esmorecido",
+  "description": "Sua mente está seriamente abalada. Sofre –5 em testes de Inteligência, Sabedoria e Carisma.",
+  "effects": ["-5 em testes de Inteligência, Sabedoria e Carisma"],
+  "condition_type": "mental",
+  "escalates_to": null
+}

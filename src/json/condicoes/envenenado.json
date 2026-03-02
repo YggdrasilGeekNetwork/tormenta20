@@ -1,0 +1,8 @@
+{
+  "id": "envenenado",
+  "name": "Envenenado",
+  "description": "Você está sob efeito de veneno. Os efeitos variam conforme o veneno específico.",
+  "effects": ["Efeitos variam conforme o veneno (veja a descrição do veneno)"],
+  "condition_type": "veneno",
+  "escalates_to": null
+}

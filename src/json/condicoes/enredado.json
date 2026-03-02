@@ -1,0 +1,12 @@
+{
+  "id": "enredado",
+  "name": "Enredado",
+  "description": "Você está preso por teias, cipós ou efeito similar. Fica lento e vulnerável, e sofre –2 em jogadas de ataque.",
+  "effects": [
+    "Fica lento",
+    "Fica vulnerável",
+    "-2 em jogadas de ataque"
+  ],
+  "condition_type": "movimento",
+  "escalates_to": null
+}

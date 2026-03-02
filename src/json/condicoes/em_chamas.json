@@ -1,0 +1,11 @@
+{
+  "id": "em_chamas",
+  "name": "Em Chamas",
+  "description": "Você está pegando fogo. Sofre 1d6 pontos de dano de fogo no início de cada turno. Você pode apagar as chamas usando uma ação padrão para se jogar no chão e rolar.",
+  "effects": [
+    "1d6 pontos de dano de fogo no início de cada turno",
+    "Ação padrão para apagar (jogar no chão e rolar)"
+  ],
+  "condition_type": null,
+  "escalates_to": null
+}

@@ -1,0 +1,11 @@
+{
+  "id": "fraco",
+  "name": "Fraco",
+  "description": "Seu corpo está enfraquecido. Sofre –2 em testes de Força, Destreza e Constituição. Se ficar fraco novamente, fica debilitado.",
+  "effects": [
+    "-2 em testes de Força, Destreza e Constituição",
+    "Se ficar fraco novamente → fica debilitado"
+  ],
+  "condition_type": null,
+  "escalates_to": "debilitado"
+}

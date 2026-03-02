@@ -1,0 +1,13 @@
+{
+  "id": "exausto",
+  "name": "Exausto",
+  "description": "Você está exausto de fadiga. Fica debilitado, lento e vulnerável. Se ficar exausto novamente, fica inconsciente.",
+  "effects": [
+    "Fica debilitado",
+    "Fica lento",
+    "Fica vulnerável",
+    "Se ficar exausto novamente → fica inconsciente"
+  ],
+  "condition_type": "cansaco",
+  "escalates_to": "inconsciente"
+}

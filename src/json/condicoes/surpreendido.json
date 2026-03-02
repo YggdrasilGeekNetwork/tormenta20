@@ -1,0 +1,11 @@
+{
+  "id": "surpreendido",
+  "name": "Surpreendido",
+  "description": "Você foi pego de surpresa no início do combate. Fica desprevenido e não pode realizar ações no turno de surpresa.",
+  "effects": [
+    "Fica desprevenido",
+    "Não pode realizar ações no turno de surpresa"
+  ],
+  "condition_type": null,
+  "escalates_to": null
+}

@@ -1,0 +1,12 @@
+{
+  "id": "lento",
+  "name": "Lento",
+  "description": "Você está se movendo devagar. Seu deslocamento é reduzido à metade e você não pode correr nem fazer investidas.",
+  "effects": [
+    "Deslocamento reduzido à metade",
+    "Não pode correr",
+    "Não pode fazer investidas"
+  ],
+  "condition_type": "movimento",
+  "escalates_to": null
+}

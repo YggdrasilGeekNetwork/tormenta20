@@ -375,6 +375,29 @@ BEGIN
   UPDATE racas SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
 END;
 
+-- -----------------------------------------------------------------------------
+-- CONDIÇÕES (Status Conditions)
+-- -----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS condicoes (
+  id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  description TEXT,
+  effects JSON DEFAULT '[]',
+  condition_type TEXT,
+  escalates_to TEXT,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_condicoes_name ON condicoes(name);
+CREATE INDEX IF NOT EXISTS idx_condicoes_type ON condicoes(condition_type);
+
+CREATE TRIGGER IF NOT EXISTS update_condicoes_timestamp
+AFTER UPDATE ON condicoes
+BEGIN
+  UPDATE condicoes SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
+END;
+
 -- =============================================================================
 -- VIEWS ÚTEIS
 -- =============================================================================

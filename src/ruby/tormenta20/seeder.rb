@@ -25,6 +25,7 @@ module Tormenta20
         seed_equipamentos
         seed_itens_superiores
         seed_regras
+        seed_condicoes
 
         log "Database seeded successfully!"
       end
@@ -306,6 +307,14 @@ module Tormenta20
             data_content = raw.reject { |k, _| base_keys.include?(k) }
             { id: raw[:id], name: raw[:name], description: raw[:description], data: data_content }
           }
+        )
+      end
+
+      def seed_condicoes
+        import_json_files(
+          "condicoes",
+          Models::Condicao,
+          %i[id name description effects condition_type escalates_to]
         )
       end
 

@@ -1,0 +1,8 @@
+{
+  "id": "vulneravel",
+  "name": "Vulnerável",
+  "description": "Você está com a guarda baixa. Sofre –2 na Defesa.",
+  "effects": ["-2 na Defesa"],
+  "condition_type": null,
+  "escalates_to": null
+}

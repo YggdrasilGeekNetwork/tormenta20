@@ -1,0 +1,11 @@
+{
+  "id": "debilitado",
+  "name": "Debilitado",
+  "description": "Seu corpo está seriamente comprometido. Sofre –5 em testes de Força, Destreza e Constituição. Se ficar debilitado novamente, fica inconsciente.",
+  "effects": [
+    "-5 em testes de Força, Destreza e Constituição",
+    "Se ficar debilitado novamente → fica inconsciente"
+  ],
+  "condition_type": null,
+  "escalates_to": "inconsciente"
+}
