@@ -19,6 +19,7 @@ module Tormenta20
         seed_divindades
         seed_poderes_concedidos
         seed_poderes_tormenta
+        seed_poderes_gerais
         seed_classes
         seed_habilidades_de_classe
         seed_magias
@@ -125,6 +126,27 @@ module Tormenta20
         )
       end
 
+      def seed_poderes_gerais
+        base_dir = File.join(JSON_BASE_PATH, "poderes", "poderes_gerais")
+        return unless Dir.exist?(base_dir)
+
+        Dir.glob(File.join(base_dir, "**", "*.json")).each do |file|
+          data = JSON.parse(File.read(file), symbolize_names: true)
+          next if data[:id].nil?
+
+          record = Models::Poder.find_or_initialize_by(id: data[:id])
+          record.name        = data[:name] || data[:id].to_s.humanize
+          record.type        = data[:type] || "poder_geral"
+          record.description = data[:description]
+          record.effects     = data[:effects] || []
+          record.costs       = data[:costs] || []
+          record.prerequisites = data[:requirements] || []
+          record.save!
+        rescue StandardError
+          next
+        end
+      end
+
       def seed_classes
         import_json_files(
           "classes",
@@ -154,6 +176,7 @@ module Tormenta20
             record.class_id    = class_id
             record.description = data[:description]
             record.effects     = data[:effects] || []
+            record.costs       = data[:costs] || []
             record.prerequisites = data[:requirements] || []
             record.save!
           rescue StandardError
@@ -341,3 +364,4 @@ module Tormenta20
     end
   end
 end
+

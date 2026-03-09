@@ -45,7 +45,8 @@ CREATE TABLE IF NOT EXISTS poderes (
     'poder_magia'
   )),
   description TEXT,
-  effects JSON DEFAULT '{}',
+  effects JSON DEFAULT '[]',
+  costs JSON DEFAULT '[]',
   prerequisites JSON DEFAULT '[]',
   origin_id TEXT,
   class_id TEXT,

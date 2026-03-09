@@ -30,6 +30,7 @@ module Tormenta20
         import_divindades
         import_poderes_concedidos
         import_poderes_tormenta
+        import_poderes_gerais
         import_classes
         import_magias
         import_equipamentos
@@ -102,6 +103,44 @@ module Tormenta20
           %i[id name description effects prerequisites],
           extra_attrs: { type: "poder_tormenta" }
         )
+      end
+
+      # =======================================================================
+      # PODERES GERAIS (combate, destino, magia)
+      # =======================================================================
+      def import_poderes_gerais
+        puts "\nImporting poderes_gerais..."
+
+        json_dir = File.join(JSON_BASE_PATH, "poderes/poderes_gerais")
+        return puts "  Directory not found: #{json_dir}" unless Dir.exist?(json_dir)
+
+        files = Dir.glob(File.join(json_dir, "**", "*.json"))
+        puts "  Found #{files.size} files"
+
+        success_count = 0
+        error_count = 0
+
+        files.each_with_index do |file, index|
+          data = JSON.parse(File.read(file), symbolize_names: true)
+
+          record = Models::Poder.find_or_initialize_by(id: data[:id])
+          record.name        = data[:name]
+          record.type        = data[:type]
+          record.description = data[:description]
+          record.effects     = data[:effects] || []
+          record.costs       = data[:costs] || []
+          record.prerequisites = data[:requirements] || []
+          record.save!
+
+          success_count += 1
+          print "\r  Imported: #{index + 1}/#{files.size}" if ((index + 1) % 10).zero?
+        rescue StandardError => e
+          error_count += 1
+          puts "\n  Error importing #{File.basename(file)}: #{e.message}"
+        end
+
+        puts "\n  Successfully imported #{success_count} poderes_gerais"
+        puts "  Failed to import #{error_count} poderes_gerais" if error_count.positive?
       end
 
       # =======================================================================
