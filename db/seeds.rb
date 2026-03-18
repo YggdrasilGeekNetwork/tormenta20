@@ -163,7 +163,7 @@ module Tormenta20
         json_dir = File.join(JSON_BASE_PATH, "magias")
         return puts "  Directory not found: #{json_dir}" unless Dir.exist?(json_dir)
 
-        files = Dir.glob(File.join(json_dir, "*.json"))
+        files = Dir.glob(File.join(json_dir, "**", "*.json"))
         puts "  Found #{files.size} magia files"
 
         success_count = 0
@@ -249,11 +249,29 @@ module Tormenta20
         import_itens
       end
 
+      PROFICIENCIA_TO_CATEGORY = {
+        "simples" => "simples",
+        "marcial" => "marciais",
+        "exotica" => "exoticas",
+        "fogo" => "fogo"
+      }.freeze
+
       def import_armas
         import_json_files(
           "equipamentos/armas",
           Models::Arma,
-          %i[id name category price damage damage_type critical range weight properties description]
+          %i[id name category price damage damage_type critical range weight properties description],
+          transform: lambda { |data|
+            data[:category]    ||= PROFICIENCIA_TO_CATEGORY[data.delete(:proficiencia).to_s]
+            data[:price]       ||= data.delete(:preco)
+            data[:damage]      ||= data.delete(:dano)
+            data[:damage_type] ||= data.delete(:tipo_dano)
+            data[:critical]    ||= data.delete(:critico)
+            data[:range]       ||= data.delete(:alcance)
+            data[:weight]      ||= data.delete(:espacos)
+            data[:properties]  ||= [data.delete(:habilidades), data.delete(:especial)].flatten.compact
+            data
+          }
         )
       end
 
@@ -261,7 +279,16 @@ module Tormenta20
         import_json_files(
           "equipamentos/armaduras",
           Models::Armadura,
-          %i[id name category price defense_bonus armor_penalty weight properties description]
+          %i[id name category price defense_bonus armor_penalty weight properties description],
+          transform: lambda { |data|
+            data[:category]      ||= data.delete(:categoria)
+            data[:price]         ||= data.delete(:preco)
+            data[:defense_bonus] ||= data.delete(:bonus_defesa)
+            data[:armor_penalty] ||= data.delete(:penalidade_armadura)
+            data[:weight]        ||= data.delete(:espacos)
+            data[:properties]    ||= [data.delete(:especial)].flatten.compact
+            data
+          }
         )
       end
 
@@ -284,7 +311,13 @@ module Tormenta20
         import_json_files(
           "equipamentos/itens",
           Models::Item,
-          %i[id name category price weight description effects]
+          %i[id name category price weight description effects],
+          transform: lambda { |data|
+            data[:category] ||= data.delete(:categoria)
+            data[:price]    ||= data.delete(:preco)
+            data[:weight]   ||= data.delete(:espacos)
+            data
+          }
         )
       end
 
@@ -374,7 +407,7 @@ module Tormenta20
           return
         end
 
-        files = Dir.glob(File.join(json_dir, "*.json"))
+        files = Dir.glob(File.join(json_dir, "**", "*.json"))
         puts "  Found #{files.size} files"
 
         return if files.empty?
