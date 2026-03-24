@@ -260,11 +260,31 @@ module Tormenta20
         seed_itens
       end
 
+      PROFICIENCIA_TO_CATEGORY = {
+        "simples" => "simples",
+        "marcial" => "marciais",
+        "marciais" => "marciais",
+        "exotica" => "exoticas",
+        "exoticas" => "exoticas",
+        "fogo" => "fogo"
+      }.freeze
+
       def seed_armas
         import_json_files(
           "equipamentos/armas",
           Models::Arma,
-          %i[id name category price damage damage_type critical range weight properties description]
+          %i[id name category price damage damage_type critical range weight properties description],
+          transform: lambda { |data|
+            data[:category]    = PROFICIENCIA_TO_CATEGORY[data.delete(:proficiencia).to_s] if data.key?(:proficiencia)
+            data[:price]       = data.delete(:preco)       if data.key?(:preco)
+            data[:damage]      = data.delete(:dano)        if data.key?(:dano)
+            data[:damage_type] = data.delete(:tipo_dano)   if data.key?(:tipo_dano)
+            data[:critical]    = data.delete(:critico)     if data.key?(:critico)
+            data[:range]       = data.delete(:alcance)     if data.key?(:alcance)
+            data[:weight]      = data.delete(:espacos)     if data.key?(:espacos)
+            data[:properties]  = data.delete(:habilidades) if data.key?(:habilidades)
+            data
+          }
         )
       end
 

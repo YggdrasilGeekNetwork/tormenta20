@@ -1,6 +1,6 @@
 {
   "id": "acrobatico",
-  "name": "Acobático",
+  "name": "Acrobático",
   "type": "poder_geral",
   "sub_type": "poder_de_destino",
   "description": "Você pode usar seu modificador de Destreza em vez de Força em testes de Atletismo. Além disso, terreno difícil não reduz seu deslocamento nem o impede de realizar investidas.",
