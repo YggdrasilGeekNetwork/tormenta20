@@ -2,7 +2,17 @@
   "id": "gladiador",
   "name": "Gladiador",
   "description": "Combates de arena são um entretenimento popular em Arton — a ponto de atrair muitos jovens praticantes. Podem ser combates até a morte ou apenas encenações elaboradas ou ainda corridas de cavalo, arquearia e outros esportes menos sangrentos. Você se envolveu nesse mundo glamoroso por ser tradição em sua família, por admirar algum gladiador renomado ou apenas por sede de fama e fortuna. Um evento traumático, uma desilusão ou o puro tédio levou você a abandonar as arenas e aplausos, usando sua experiência em torneios para viver aventuras.",
-  "items": ["Uma arma marcial ou exótica", "Um item sem valor recebido de um admirador"],
+  "items": [
+    {
+      "type": "choice",
+      "text": "Arma da arena",
+      "options": [
+        { "text": "Arma marcial (à sua escolha)" },
+        { "text": "Arma exótica (à sua escolha)" }
+      ]
+    },
+    { "type": "fixed", "text": "Item de um admirador (sem valor monetário)" }
+  ],
   "benefits": {
     "skills": ["Atuação", "Luta"],
     "powers": ["Atraente", "Pão e Circo", "Torcida", "um poder de combate a sua escolha"]

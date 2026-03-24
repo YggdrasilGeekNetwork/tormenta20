@@ -2,7 +2,10 @@
   "id": "artesao",
   "name": "Artesão",
   "description": "Do alfaiate habilidoso em costurar as vestes da nobreza ao armeiro que forja armas letais, você foi treinado por um parente, mestre ou guilda para fabricar itens importantes no mundo civilizado. Suas habilidades podem ter sido aprendidas para o trabalho, mas se mostraram úteis durante as aventuras.",
-  "items": ["Instrumentos de ofício (qualquer)", "Um item que você possa fabricar de até T$ 50"],
+  "items": [
+    { "type": "fixed", "text": "Instrumentos de ofício (à sua escolha)" },
+    { "type": "fixed", "text": "Um item que você possa fabricar de até T$ 50" }
+  ],
   "benefits": {
     "skills": ["Ofício", "Vontade"],
     "powers": ["Frutos do Trabalho", "Sortudo"]

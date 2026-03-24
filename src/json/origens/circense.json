@@ -2,7 +2,9 @@
   "id": "circense",
   "name": "Circense",
   "description": "Você treinou acrobacia, malabarismo, mágica ou outra forma de arte circense. Talvez tenha aprendido sozinho, durante as brincadeiras de infância. Talvez tenha sido ensinado por um ente querido, tornando essa arte uma forte ligação com seu passado. Ou ainda, é possível que tenha sido forçado a aprender seus truques para sobreviver nas ruas. De qualquer forma, são aptidões que podem ser úteis em suas aventuras.",
-  "items": ["Três bolas coloridas para malabarismo (+1 em Atuação)"],
+  "items": [
+    { "type": "fixed", "text": "Três bolas coloridas para malabarismo (+1 em Atuação)", "quantity": 3 }
+  ],
   "benefits": {
     "skills": ["Acrobacia", "Atuação", "Reflexos"],
     "powers": ["Acrobático", "Torcida", "Truque de Mágica"]

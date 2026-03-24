@@ -23,7 +23,11 @@ module Tormenta20
     # @!attribute [rw] description
     #   @return [String] Origin description
     # @!attribute [rw] items
-    #   @return [Array] Starting items
+    #   @return [Array<Hash>] Starting items. Each entry has:
+    #     - "type" (String): "fixed" or "choice"
+    #     - "text" (String): item name or choice prompt
+    #     - "quantity" (Integer, optional): number of items (default 1)
+    #     - "options" (Array<Hash>, choice only): array of { "text" => String }
     # @!attribute [rw] benefits
     #   @return [Hash] Benefits with "skills" and "powers" keys
     # @!attribute [rw] unique_power
