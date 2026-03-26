@@ -4,20 +4,20 @@ Acesso: `Tormenta20.melhorias`
 
 ## Atributos
 
-| Atributo | Tipo | Descricao |
+| Atributo | Tipo | Descrição |
 |----------|------|-----------|
-| `id` | String | Identificador unico |
+| `id` | String | Identificador único |
 | `name` | String | Nome da melhoria |
-| `description` | String | Descricao |
-| `applicable_to` | Array | Tipos de item aplicaveis |
-| `price` | String | Preco/custo |
+| `description` | String | Descrição |
+| `applicable_to` | Array | Tipos de item aplicáveis |
+| `price` | String | Preço/custo |
 | `effects` | Array | Efeitos da melhoria |
 
 ## Scopes (Filtros)
 
-Este modelo nao possui scopes especificos. Use queries ActiveRecord padrao.
+Este modelo não possui scopes específicos. Use queries ActiveRecord padrão.
 
-## Metodos de Instancia
+## Métodos de Instância
 
 ```ruby
 melhoria = Tormenta20.melhorias.first
@@ -33,12 +33,12 @@ Tormenta20.melhorias.all.each do |m|
   puts "#{m.name}: #{m.price}"
 end
 
-# Buscar melhoria especifica
+# Buscar melhoria específica
 melhoria = Tormenta20.melhorias.find("afiada")
 puts melhoria.name           # Nome
-puts melhoria.description    # Descricao
-puts melhoria.price          # Preco
-puts melhoria.applicable_to  # Tipos de item aplicaveis
+puts melhoria.description    # Descrição
+puts melhoria.price          # Preço
+puts melhoria.applicable_to  # Tipos de item aplicáveis
 
 # Melhorias para armas
 Tormenta20.melhorias.select do |m|
@@ -50,6 +50,6 @@ Tormenta20.melhorias.select do |m|
   m.applicable_to&.include?("armadura")
 end
 
-# Melhorias ordenadas por preco
+# Melhorias ordenadas por preço
 Tormenta20.melhorias.order(:price)
 ```

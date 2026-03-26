@@ -40,6 +40,8 @@ def main
   seed_materiais_especiais(db)
   seed_regras(db)
   seed_condicoes(db)
+  seed_livros(db)
+  seed_indice_remissivo(db)
 
   db.close
 
@@ -256,6 +258,36 @@ def seed_condicoes(db)
                     %w[id name description effects condition_type escalates_to])
 end
 
+def seed_livros(db)
+  import_json_files(db, "livros", "livros", %w[id nome nome_curto])
+end
+
+def seed_indice_remissivo(db)
+  json_path = File.join(JSON_BASE_PATH, "indice_remissivo")
+  return unless Dir.exist?(json_path)
+
+  count = 0
+  Dir.glob(File.join(json_path, "*.json")).each do |file|
+    livro_id = File.basename(file, ".json")
+    entries  = JSON.parse(File.read(file))
+    next unless entries.is_a?(Array)
+
+    entries.each do |entry|
+      next unless entry["termo"] && entry["pagina"]
+
+      db.execute(
+        "INSERT OR REPLACE INTO indice_remissivo (livro_id, termo, pagina, tabela, registro_id) VALUES (?, ?, ?, ?, ?)",
+        [livro_id, entry["termo"], entry["pagina"].to_i, entry["tabela"], entry["registro_id"]]
+      )
+      count += 1
+    end
+  rescue StandardError => e
+    puts "  Error importing #{File.basename(file)}: #{e.message}"
+  end
+
+  puts "  Imported #{count} entradas de índice remissivo"
+end
+
 def import_json_files(db, subdir, table, columns, extra: {}, transform: nil)
   json_dir = File.join(JSON_BASE_PATH, subdir)
   return unless Dir.exist?(json_dir)
@@ -286,7 +318,7 @@ def print_summary
 
   puts "\nDatabase Summary:"
   puts "-" * 40
-  %w[racas origens poderes divindades classes magias escudos materiais_especiais regras condicoes].each do |table|
+  %w[racas origens poderes divindades classes magias escudos materiais_especiais regras condicoes livros indice_remissivo].each do |table|
     count = db.get_first_value("SELECT COUNT(*) FROM #{table}")
     puts "  #{table}: #{count}"
   end

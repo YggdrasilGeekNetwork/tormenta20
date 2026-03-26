@@ -399,6 +399,50 @@ BEGIN
   UPDATE condicoes SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
 END;
 
+-- -----------------------------------------------------------------------------
+-- LIVROS (Books) — fonte bibliográfica dos dados
+-- -----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS livros (
+  id        TEXT PRIMARY KEY,   -- slug do livro, ex: "t20_eja"
+  nome      TEXT NOT NULL,      -- nome completo
+  nome_curto TEXT NOT NULL,     -- abreviação exibida, ex: "T20 - EJA"
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TRIGGER IF NOT EXISTS update_livros_timestamp
+AFTER UPDATE ON livros
+BEGIN
+  UPDATE livros SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
+END;
+
+-- -----------------------------------------------------------------------------
+-- INDICE_REMISSIVO — entradas do índice remissivo dos livros
+-- Cada linha é um termo do índice associado a uma página.
+-- Os campos `tabela` e `registro_id` são preenchidos quando o termo é
+-- associado a um registro de outra tabela (ex: classes, poderes, magias…).
+-- -----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS indice_remissivo (
+  id          INTEGER PRIMARY KEY AUTOINCREMENT,
+  livro_id    TEXT    NOT NULL REFERENCES livros(id),
+  termo       TEXT    NOT NULL,  -- termo exatamente como aparece no índice
+  pagina      INTEGER NOT NULL,  -- número da página
+  tabela      TEXT,              -- tabela associada (ex: "classes", "poderes")
+  registro_id TEXT,              -- id do registro associado (ex: "guerreiro")
+  created_at  DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at  DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_indice_termo    ON indice_remissivo(termo);
+CREATE INDEX IF NOT EXISTS idx_indice_livro    ON indice_remissivo(livro_id);
+CREATE INDEX IF NOT EXISTS idx_indice_registro ON indice_remissivo(tabela, registro_id);
+
+CREATE TRIGGER IF NOT EXISTS update_indice_remissivo_timestamp
+AFTER UPDATE ON indice_remissivo
+BEGIN
+  UPDATE indice_remissivo SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
+END;
+
 -- =============================================================================
 -- VIEWS ÚTEIS
 -- =============================================================================

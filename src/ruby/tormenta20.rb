@@ -6,6 +6,9 @@ require "sqlite3"
 
 require_relative "tormenta20/database"
 
+# Load concerns before models
+require_relative "tormenta20/concerns/book_referenceable"
+
 # Load base model first, then other models
 require_relative "tormenta20/models/base"
 Dir["#{__dir__}/tormenta20/models/*.rb"].each { |file| require file unless file.include?("base") }
@@ -180,6 +183,20 @@ module Tormenta20
     #   Tormenta20.condicoes.by_type("medo")
     def condicoes
       Models::Condicao
+    end
+
+    # Acesso aos livros cadastrados.
+    #
+    # @return [Class] Tormenta20::Models::Livro
+    def livros
+      Models::Livro
+    end
+
+    # Acesso ao índice remissivo.
+    #
+    # @return [Class] Tormenta20::Models::IndiceRemissivo
+    def indice_remissivo
+      Models::IndiceRemissivo
     end
 
     # @!endgroup

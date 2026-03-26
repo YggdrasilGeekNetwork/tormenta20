@@ -4,22 +4,22 @@ Acesso: `Tormenta20.escudos`
 
 ## Atributos
 
-| Atributo | Tipo | Descricao |
+| Atributo | Tipo | Descrição |
 |----------|------|-----------|
-| `id` | String | Identificador unico |
+| `id` | String | Identificador único |
 | `name` | String | Nome do escudo |
-| `price` | String | Preco |
-| `defense_bonus` | Integer | Bonus de defesa |
+| `price` | String | Preço |
+| `defense_bonus` | Integer | Bônus de defesa |
 | `armor_penalty` | Integer | Penalidade de armadura |
-| `weight` | String | Peso/espacos |
+| `weight` | String | Peso/espaços |
 | `properties` | Array | Propriedades especiais |
-| `description` | String | Descricao |
+| `description` | String | Descrição |
 
 ## Scopes (Filtros)
 
-Este modelo nao possui scopes especificos. Use queries ActiveRecord padrao.
+Este modelo não possui scopes específicos. Use queries ActiveRecord padrão.
 
-## Metodos de Instancia
+## Métodos de Instância
 
 ```ruby
 escudo = Tormenta20.escudos.first
@@ -35,15 +35,15 @@ Tormenta20.escudos.all.each do |e|
   puts "#{e.name}: +#{e.defense_bonus} Defesa, -#{e.armor_penalty} penalidade"
 end
 
-# Buscar escudo especifico
+# Buscar escudo específico
 escudo = Tormenta20.escudos.find("escudo_leve")
 puts escudo.name           # Nome
-puts escudo.defense_bonus  # Bonus de defesa
+puts escudo.defense_bonus  # Bônus de defesa
 puts escudo.armor_penalty  # Penalidade
 
-# Escudo com maior bonus
+# Escudo com maior bônus
 Tormenta20.escudos.order(defense_bonus: :desc).first
 
-# Escudos ordenados por preco
+# Escudos ordenados por preço
 Tormenta20.escudos.order(:price)
 ```

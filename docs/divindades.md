@@ -4,19 +4,19 @@ Acesso: `Tormenta20.divindades`
 
 ## Atributos
 
-| Atributo | Tipo | Descricao |
+| Atributo | Tipo | Descrição |
 |----------|------|-----------|
-| `id` | String | Identificador unico |
+| `id` | String | Identificador único |
 | `name` | String | Nome da divindade |
-| `title` | String | Titulo/epiteto |
-| `description` | String | Descricao |
-| `beliefs_objectives` | String | Crencas e objetivos |
-| `holy_symbol` | String | Simbolo sagrado |
+| `title` | String | Título/epíteto |
+| `description` | String | Descrição |
+| `beliefs_objectives` | String | Crenças e objetivos |
+| `holy_symbol` | String | Símbolo sagrado |
 | `energy` | String | Tipo de energia: `positiva`, `negativa`, `qualquer` |
 | `preferred_weapon` | String | Arma preferida |
-| `devotees` | Hash | Devotos tipicos (races, classes) |
+| `devotees` | Hash | Devotos típicos (races, classes) |
 | `granted_powers` | Array | Lista de poderes concedidos |
-| `obligations_restrictions` | String | Obrigacoes e restricoes |
+| `obligations_restrictions` | String | Obrigações e restrições |
 
 ## Scopes (Filtros)
 
@@ -29,12 +29,12 @@ Tormenta20.divindades.energia_qualquer  # Deuses de energia neutra
 Tormenta20.divindades.by_energy("positiva")
 ```
 
-## Metodos de Instancia
+## Métodos de Instância
 
 ```ruby
 divindade = Tormenta20.divindades.find("khalmyr")
 
-divindade.races    # Racas devotas
+divindade.races    # Raças devotas
 # => ["humano", "anao"]
 
 divindade.classes  # Classes devotas
@@ -56,14 +56,14 @@ Tormenta20.divindades.energia_positiva.each do |d|
   puts "#{d.name}: #{d.granted_powers.join(', ')}"
 end
 
-# Buscar divindade especifica
+# Buscar divindade específica
 khalmyr = Tormenta20.divindades.find("khalmyr")
 puts khalmyr.name              # => "Khalmyr"
-puts khalmyr.title             # => "O Deus da Justica"
+puts khalmyr.title             # => "O Deus da Justiça"
 puts khalmyr.preferred_weapon  # => "Espada longa"
 puts khalmyr.granted_powers    # Lista de poderes concedidos
 
-# Divindades que concedem um poder especifico
+# Divindades que concedem um poder específico
 Tormenta20.divindades.select do |d|
   d.granted_powers&.include?("cura_pelas_maos")
 end
@@ -72,6 +72,6 @@ end
 Tormenta20.divindades.group(:energy).count
 # => {"positiva"=>12, "negativa"=>6, "qualquer"=>2}
 
-# Divindades adoradas por uma raca
+# Divindades adoradas por uma raça
 Tormenta20.divindades.select { |d| d.races.include?("elfo") }
 ```

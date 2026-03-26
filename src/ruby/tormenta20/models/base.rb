@@ -14,6 +14,8 @@ module Tormenta20
     # @abstract Subclass and set table_name to create a new model
     class Base < ActiveRecord::Base
       self.abstract_class = true
+
+      include Concerns::BookReferenceable
     end
   end
 end

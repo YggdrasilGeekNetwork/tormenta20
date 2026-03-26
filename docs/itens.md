@@ -4,14 +4,14 @@ Acesso: `Tormenta20.itens`
 
 ## Atributos
 
-| Atributo | Tipo | Descricao |
+| Atributo | Tipo | Descrição |
 |----------|------|-----------|
-| `id` | String | Identificador unico |
+| `id` | String | Identificador único |
 | `name` | String | Nome do item |
 | `category` | String | Categoria do item |
-| `price` | String | Preco |
-| `weight` | String | Peso/espacos |
-| `description` | String | Descricao |
+| `price` | String | Preço |
+| `weight` | String | Peso/espaços |
+| `description` | String | Descrição |
 | `effects` | Array | Efeitos do item |
 
 ## Scopes (Filtros)
@@ -24,7 +24,7 @@ Tormenta20.itens.by_category("ferramenta")
 Tormenta20.itens.by_category("vestuario")
 ```
 
-## Metodos de Instancia
+## Métodos de Instância
 
 ```ruby
 item = Tormenta20.itens.first
@@ -45,11 +45,11 @@ Tormenta20.itens.by_category("alquimico").each do |i|
   puts "#{i.name}: #{i.description}"
 end
 
-# Buscar item especifico
+# Buscar item específico
 item = Tormenta20.itens.find("corda")
 puts item.name         # Nome
-puts item.price        # Preco
-puts item.description  # Descricao
+puts item.price        # Preço
+puts item.description  # Descrição
 
 # Itens ordenados por nome
 Tormenta20.itens.order(:name)

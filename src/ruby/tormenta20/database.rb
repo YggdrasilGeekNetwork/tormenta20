@@ -125,6 +125,7 @@ module Tormenta20
           pool: 5,
           timeout: 5000
         )
+        Models::Base.logger = nil
 
         @connected = true
       end

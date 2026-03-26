@@ -4,18 +4,18 @@ Acesso: `Tormenta20.regras`
 
 ## Atributos
 
-| Atributo | Tipo | Descricao |
+| Atributo | Tipo | Descrição |
 |----------|------|-----------|
-| `id` | String | Identificador unico |
+| `id` | String | Identificador único |
 | `name` | String | Nome da regra/tabela |
-| `description` | String | Descricao |
+| `description` | String | Descrição |
 | `data` | Hash | Dados estruturados da regra |
 
 ## Scopes (Filtros)
 
-Este modelo nao possui scopes especificos. Use queries ActiveRecord padrao.
+Este modelo não possui scopes específicos. Use queries ActiveRecord padrão.
 
-## Metodos de Instancia
+## Métodos de Instância
 
 ```ruby
 regra = Tormenta20.regras.first
@@ -31,10 +31,10 @@ Tormenta20.regras.all.each do |r|
   puts "#{r.name}: #{r.description}"
 end
 
-# Buscar regra especifica
+# Buscar regra específica
 pericias = Tormenta20.regras.find("pericias")
 puts pericias.name         # => "Pericias"
-puts pericias.description  # Descricao
+puts pericias.description  # Descrição
 puts pericias.data         # Dados estruturados (Hash)
 
 # Acessar dados de uma regra

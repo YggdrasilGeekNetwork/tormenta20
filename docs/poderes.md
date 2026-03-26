@@ -4,22 +4,22 @@ Acesso: `Tormenta20.poderes`
 
 ## Atributos
 
-| Atributo | Tipo | Descricao |
+| Atributo | Tipo | Descrição |
 |----------|------|-----------|
-| `id` | String | Identificador unico |
+| `id` | String | Identificador único |
 | `name` | String | Nome do poder |
 | `type` | String | Tipo do poder |
-| `description` | String | Descricao |
+| `description` | String | Descrição |
 | `effects` | Array | Efeitos do poder |
-| `prerequisites` | Array | Pre-requisitos |
-| `origin_id` | String | ID da origem associada (se aplicavel) |
-| `deities` | Array | Divindades que concedem (se aplicavel) |
+| `prerequisites` | Array | Pré-requisitos |
+| `origin_id` | String | ID da origem associada (se aplicável) |
+| `deities` | Array | Divindades que concedem (se aplicável) |
 
 ## Tipos de Poder
 
-| Tipo | Descricao |
+| Tipo | Descrição |
 |------|-----------|
-| `habilidade_unica_origem` | Habilidades unicas de origem |
+| `habilidade_unica_origem` | Habilidades únicas de origem |
 | `poder_concedido` | Poderes concedidos por divindades |
 | `poder_tormenta` | Poderes da Tormenta |
 | `poder_classe` | Poderes de classe |
@@ -33,7 +33,7 @@ Acesso: `Tormenta20.poderes`
 ### Por Tipo
 
 ```ruby
-Tormenta20.poderes.habilidades_unicas   # Habilidades unicas de origem
+Tormenta20.poderes.habilidades_unicas   # Habilidades únicas de origem
 Tormenta20.poderes.poderes_concedidos   # Poderes concedidos por divindades
 Tormenta20.poderes.poderes_tormenta     # Poderes da Tormenta
 Tormenta20.poderes.poderes_classe       # Poderes de classe
@@ -53,7 +53,7 @@ Tormenta20.poderes.by_origin("soldado")  # Poderes da origem Soldado
 Tormenta20.poderes.by_deity("khalmyr")  # Poderes concedidos por Khalmyr
 ```
 
-## Metodos de Instancia
+## Métodos de Instância
 
 ```ruby
 poder = Tormenta20.poderes.find("ataque_poderoso")
@@ -79,12 +79,12 @@ Tormenta20.poderes.poderes_tormenta.each do |p|
   puts "#{p.name}: #{p.description}"
 end
 
-# Habilidades unicas de uma origem especifica
+# Habilidades únicas de uma origem específica
 Tormenta20.poderes.habilidades_unicas.by_origin("soldado").each do |p|
   puts p.name
 end
 
-# Poderes com pre-requisitos
+# Poderes com pré-requisitos
 Tormenta20.poderes.where.not(prerequisites: nil).each do |p|
   puts "#{p.name}: requer #{p.prerequisites}"
 end
