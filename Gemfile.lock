@@ -35,6 +35,7 @@ GEM
     concurrent-ruby (1.3.4)
     connection_pool (2.4.1)
     diff-lcs (1.5.1)
+    docile (1.4.1)
     drb (2.2.1)
     i18n (1.14.6)
       concurrent-ruby (~> 1.0)
@@ -53,6 +54,7 @@ GEM
     rbs (3.7.0)
       logger
     regexp_parser (2.9.3)
+    rexml (3.4.4)
     rspec (3.13.0)
       rspec-core (~> 3.13.0)
       rspec-expectations (~> 3.13.0)
@@ -80,6 +82,15 @@ GEM
       parser (>= 3.3.1.0)
     ruby-progressbar (1.13.0)
     securerandom (0.4.0)
+    simplecov (0.22.0)
+      docile (~> 1.1)
+      simplecov-html (~> 0.11)
+      simplecov_json_formatter (~> 0.1)
+    simplecov-cobertura (3.1.0)
+      rexml
+      simplecov (~> 0.19)
+    simplecov-html (0.13.2)
+    simplecov_json_formatter (0.1.4)
     sqlite3 (2.7.3)
       mini_portile2 (~> 2.8.0)
     sqlite3 (2.7.3-x86_64-linux-gnu)
@@ -100,6 +111,8 @@ DEPENDENCIES
   rbs (~> 3.7)
   rspec (~> 3.0)
   rubocop (~> 1.21)
+  simplecov
+  simplecov-cobertura
   tormenta20!
 
 BUNDLED WITH

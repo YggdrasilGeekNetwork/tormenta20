@@ -1,5 +1,16 @@
 # frozen_string_literal: true
 
+if ENV["COVERAGE"]
+  require "simplecov"
+  require "simplecov-cobertura"
+  SimpleCov.start do
+    formatter SimpleCov::Formatter::CoberturaFormatter
+    add_filter "/spec/"
+    add_filter "/db/"
+    add_filter "/bin/"
+  end
+end
+
 require_relative "../../src/ruby/tormenta20"
 
 Bundler.setup(:default, :test)
