@@ -5,7 +5,7 @@ require_relative "spec_helper"
 RSpec.describe Tormenta20::Database do
   describe "connection" do
     it "can execute queries" do
-      result = ActiveRecord::Base.connection.execute("SELECT 1")
+      result = Tormenta20::Models::Base.connection.execute("SELECT 1")
       expect(result).not_to be_nil
     end
   end
@@ -33,7 +33,7 @@ RSpec.describe Tormenta20::Database do
 
   describe "database content" do
     it "has all required tables" do
-      tables = ActiveRecord::Base.connection.tables
+      tables = Tormenta20::Models::Base.connection.tables
       expected_tables = %w[origens poderes divindades classes magias escudos materiais_especiais regras]
       expected_tables.each do |table|
         expect(tables).to include(table), "Expected table '#{table}' to exist"
@@ -43,35 +43,35 @@ RSpec.describe Tormenta20::Database do
 
   describe "data counts" do
     it "has origens loaded" do
-      expect(Tormenta20::Models::Origem.count).to be > 0
+      expect(Tormenta20::Models::Origem.count).to be_positive
     end
 
     it "has poderes loaded" do
-      expect(Tormenta20::Models::Poder.count).to be > 0
+      expect(Tormenta20::Models::Poder.count).to be_positive
     end
 
     it "has divindades loaded" do
-      expect(Tormenta20::Models::Divindade.count).to be > 0
+      expect(Tormenta20::Models::Divindade.count).to be_positive
     end
 
     it "has classes loaded" do
-      expect(Tormenta20::Models::Classe.count).to be > 0
+      expect(Tormenta20::Models::Classe.count).to be_positive
     end
 
     it "has magias loaded" do
-      expect(Tormenta20::Models::Magia.count).to be > 0
+      expect(Tormenta20::Models::Magia.count).to be_positive
     end
 
     it "has escudos loaded" do
-      expect(Tormenta20::Models::Escudo.count).to be > 0
+      expect(Tormenta20::Models::Escudo.count).to be_positive
     end
 
     it "has materiais_especiais loaded" do
-      expect(Tormenta20::Models::MaterialEspecial.count).to be > 0
+      expect(Tormenta20::Models::MaterialEspecial.count).to be_positive
     end
 
     it "has regras loaded" do
-      expect(Tormenta20::Models::Regra.count).to be > 0
+      expect(Tormenta20::Models::Regra.count).to be_positive
     end
   end
 end

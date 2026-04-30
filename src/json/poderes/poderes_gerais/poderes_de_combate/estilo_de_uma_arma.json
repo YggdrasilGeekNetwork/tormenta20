@@ -1,6 +1,6 @@
 {
-  "id": "",
-  "name": "",
+  "id": "estilo_de_uma_arma",
+  "name": "Estilo de Uma Arma",
   "type": "poder_geral",
   "sub_type": "poder_de_combate",
   "description": "Se estiver usando uma arma corpo a corpo em uma das mãos e nada na outra, você recebe +2 na Defesa e nos testes de ataque com essa arma (exceto ataques desarmados)",

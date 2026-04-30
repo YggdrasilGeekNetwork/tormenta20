@@ -223,7 +223,7 @@ module Tormenta20CLI
       %w[origens poderes divindades classes magias armas armaduras escudos itens materiais_especiais melhorias regras]
     end
 
-    def seed_table(table, options)
+    def seed_table(table, _options)
       print "  Seeding #{table}..."
 
       case table
@@ -364,9 +364,9 @@ module Tormenta20CLI
         "Melhorias" => Tormenta20::Models::Melhoria,
         "Regras" => Tormenta20::Models::Regra
       }.each do |name, model|
-        printf "  %-20s %d\n", "#{name}:", model.count
+        puts "  #{"#{name}:".ljust(20)} #{model.count}"
       rescue StandardError
-        printf "  %-20s %s\n", "#{name}:", "N/A"
+        puts "  #{"#{name}:".ljust(20)} N/A"
       end
 
       puts "-" * 40

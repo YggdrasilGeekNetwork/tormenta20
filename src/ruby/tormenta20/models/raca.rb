@@ -4,6 +4,7 @@ require "active_record"
 
 module Tormenta20
   module Models
+    # ActiveRecord model for raças (playable races).
     class Raca < Base
       self.table_name = "racas"
 

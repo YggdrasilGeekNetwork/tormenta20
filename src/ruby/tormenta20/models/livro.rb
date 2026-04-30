@@ -4,6 +4,7 @@ require "active_record"
 
 module Tormenta20
   module Models
+    # ActiveRecord model for livros (books).
     class Livro < Base
       self.table_name = "livros"
 
@@ -18,8 +19,8 @@ module Tormenta20
 
       def to_h
         {
-          id:         id,
-          nome:       nome,
+          id: id,
+          nome: nome,
           nome_curto: nome_curto
         }
       end
