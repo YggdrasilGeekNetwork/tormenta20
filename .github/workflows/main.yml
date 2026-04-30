@@ -80,11 +80,12 @@ jobs:
 
       - name: Publish gem
         env:
-          GEM_VERSION: ${{ github.event.release.tag_name }}
+          GEM_VERSION: ${{ github.event.release.name }}
         run: |
           mkdir -p ~/.gem
           printf -- "---\n:rubygems_api_key: %s\n" "${{ secrets.RUBYGEMS_API_KEY }}" > ~/.gem/credentials
           chmod 0600 ~/.gem/credentials
+          bundle config set --local frozen false
           bundle exec rake build_db
           gem build tormenta20.gemspec
           gem push tormenta20-*.gem
