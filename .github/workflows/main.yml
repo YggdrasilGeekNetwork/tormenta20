@@ -21,9 +21,6 @@ jobs:
           ruby-version: "3.3.6"
           bundler-cache: true
 
-      - name: Build database
-        run: bundle exec rake build_db
-
       - name: Run specs and RuboCop
         run: bundle exec rake
         env:
@@ -74,5 +71,5 @@ jobs:
           mkdir -p ~/.gem
           printf -- "---\n:rubygems_api_key: %s\n" "${{ secrets.RUBYGEMS_API_KEY }}" > ~/.gem/credentials
           chmod 0600 ~/.gem/credentials
-          gem build tormenta20.gemspec
-          gem push tormenta20-*.gem
+          bundle exec rake build
+          gem push pkg/tormenta20-*.gem

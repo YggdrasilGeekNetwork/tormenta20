@@ -268,7 +268,7 @@ bundle install
 
 ### Construir o Banco de Dados
 
-O banco de dados SQLite é construído a partir dos arquivos JSON em `src/json/`:
+O arquivo `db/tormenta20.sqlite3` é **gerado** a partir dos JSONs em `src/json/` e não está versionado no repositório. É necessário gerá-lo antes de rodar os specs ou a gem localmente:
 
 ```bash
 # Construir apenas o banco
@@ -277,6 +277,8 @@ rake build_db
 # Build completo da gem (inclui build_db automaticamente)
 rake build
 ```
+
+Os specs (`rake spec` / `rake`) também executam `build_db` automaticamente antes de rodar.
 
 ### Estrutura do Projeto
 

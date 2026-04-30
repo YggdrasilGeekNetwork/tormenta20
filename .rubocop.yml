@@ -33,3 +33,6 @@ Metrics/PerceivedComplexity:
 
 Layout/LineLength:
   Max: 200
+
+Rails/RakeEnvironment:
+  Enabled: false

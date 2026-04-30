@@ -17,5 +17,6 @@ task :build_db do
   ruby "bin/build_db"
 end
 
-# Ensure database is built before gem packaging
+# Ensure database is built before specs and gem packaging
+Rake::Task[:spec].enhance([:build_db])
 Rake::Task[:build].enhance([:build_db])
