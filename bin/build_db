@@ -37,6 +37,9 @@ def main
   seed_classes(db)
   seed_habilidades_de_classe(db)
   seed_magias(db)
+  seed_armaduras(db)
+  seed_armas(db)
+  seed_itens(db)
   seed_escudos(db)
   seed_materiais_especiais(db)
   seed_regras(db)
@@ -264,6 +267,116 @@ def insert_magia(db, data)
   db.execute(sql, values)
 end
 
+ARMA_CATEGORY_MAP = {
+  "simples" => "simples",
+  "marcial" => "marciais",
+  "exotica" => "exoticas",
+  "fogo" => "fogo"
+}.freeze
+
+def seed_armaduras(db)
+  base_dir = File.join(JSON_BASE_PATH, "equipamentos", "armaduras")
+  return unless Dir.exist?(base_dir)
+
+  count = 0
+  Dir.glob(File.join(base_dir, "**", "*.json")).each do |file|
+    data = JSON.parse(File.read(file))
+    next if data["id"].nil?
+
+    category = data["categoria"]
+    properties = data["especial"].then { |s| s.nil? ? [] : [s] }
+
+    db.execute(
+      "INSERT OR REPLACE INTO armaduras (id, name, category, price, defense_bonus, armor_penalty, weight, properties, description) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+      [
+        data["id"],
+        data["name"],
+        category,
+        data["preco"],
+        data["bonus_defesa"] || 0,
+        data["penalidade_armadura"] || 0,
+        data["espacos"],
+        properties.to_json,
+        data["description"]
+      ]
+    )
+    count += 1
+  rescue StandardError => e
+    puts "  Error importing #{File.basename(file)}: #{e.message}"
+  end
+
+  puts "  Imported #{count} armaduras"
+end
+
+def seed_armas(db)
+  base_dir = File.join(JSON_BASE_PATH, "equipamentos", "armas")
+  return unless Dir.exist?(base_dir)
+
+  count = 0
+  Dir.glob(File.join(base_dir, "**", "*.json")).each do |file|
+    data = JSON.parse(File.read(file))
+    next if data["id"].nil?
+
+    raw_cat = data["proficiencia"] || File.basename(File.dirname(file))
+    category = ARMA_CATEGORY_MAP.fetch(raw_cat, raw_cat)
+    properties = [data["habilidades"], data["especial"]].flatten.compact
+
+    db.execute(
+      "INSERT OR REPLACE INTO armas (id, name, category, price, damage, damage_type, critical, range, weight, properties, description) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+      [
+        data["id"],
+        data["name"],
+        category,
+        data["preco"],
+        data["dano"],
+        data["tipo_dano"].is_a?(Array) ? data["tipo_dano"].to_json : data["tipo_dano"],
+        data["critico"],
+        data["alcance"],
+        data["espacos"],
+        properties.to_json,
+        data["description"]
+      ]
+    )
+    count += 1
+  rescue StandardError => e
+    puts "  Error importing #{File.basename(file)}: #{e.message}"
+  end
+
+  puts "  Imported #{count} armas"
+end
+
+def seed_itens(db)
+  base_dir = File.join(JSON_BASE_PATH, "equipamentos", "itens")
+  return unless Dir.exist?(base_dir)
+
+  count = 0
+  base_keys = %w[id name categoria preco espacos description]
+  Dir.glob(File.join(base_dir, "**", "*.json")).each do |file|
+    data = JSON.parse(File.read(file))
+    next if data["id"].nil?
+
+    effects = data.reject { |k, _| base_keys.include?(k) }
+
+    db.execute(
+      "INSERT OR REPLACE INTO itens (id, name, category, price, weight, description, effects) VALUES (?, ?, ?, ?, ?, ?, ?)",
+      [
+        data["id"],
+        data["name"],
+        data["categoria"],
+        data["preco"],
+        data["espacos"],
+        data["description"],
+        effects.to_json
+      ]
+    )
+    count += 1
+  rescue StandardError => e
+    puts "  Error importing #{File.basename(file)}: #{e.message}"
+  end
+
+  puts "  Imported #{count} itens"
+end
+
 def seed_escudos(db)
   import_json_files(db, "equipamentos/escudos", "escudos",
                     %w[id name price defense_bonus armor_penalty weight properties description],
@@ -356,7 +469,7 @@ def print_summary
 
   puts "\nDatabase Summary:"
   puts "-" * 40
-  %w[racas origens poderes divindades classes magias escudos materiais_especiais regras condicoes livros indice_remissivo].each do |table|
+  %w[racas origens poderes divindades classes magias armaduras armas itens escudos materiais_especiais regras condicoes livros indice_remissivo].each do |table|
     count = db.get_first_value("SELECT COUNT(*) FROM #{table}")
     puts "  #{table}: #{count}"
   end
