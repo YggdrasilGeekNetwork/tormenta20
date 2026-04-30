@@ -316,7 +316,17 @@ tormenta20/
 ### Testes
 
 ```bash
-rake spec
+bin/test
+```
+
+Ou individualmente:
+
+```bash
+# Apenas specs
+bundle exec rspec
+
+# Suite completa (build_db + specs + rubocop + jsonlint)
+bin/ci
 ```
 
 ### Linting

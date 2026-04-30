@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+cd "$(dirname "${BASH_SOURCE[0]}")/.."
+
+echo "==> Building database..."
+bundle exec rake build_db
+
+echo "==> Running specs..."
+bundle exec rspec "$@"
