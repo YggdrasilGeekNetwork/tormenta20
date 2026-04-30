@@ -1,0 +1,27 @@
+{
+  "id": "arremesso_multiplo",
+  "name": "Arremesso Múltiplo",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Uma vez por rodada, quando faz um ataque com uma arma de arremesso, você pode gastar 1 PM para fazer um ataque adicional contra o mesmo alvo, arremessando outra arma de arremesso.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "des",
+      "value": 13
+    },
+    {
+      "type": "power",
+      "sub_type": "hard",
+      "power": "estilo_de_arremeso"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "cost": "1 PM",
+      "trigger": "ataque_arremesso"
+    }
+  ]
+}

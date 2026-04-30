@@ -9,7 +9,7 @@
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 5
-    },
+    }
   ],
   "effects": [
     {
@@ -83,6 +83,6 @@
       "skill": "a_sua_escolha",
       "value": 2,
       "requirement": "character_lvl_20"
-    },
+    }
   ]
 }

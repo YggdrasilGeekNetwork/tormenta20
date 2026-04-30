@@ -1,0 +1,28 @@
+{
+  "id": "estilo_de_arma_longa",
+  "name": "Estilo de Arma Longa",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Você recebe +2 em testes de ataque com armas alongadas e pode atacar alvos adjacentes com essas armas.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "for",
+      "value": 13
+    },
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "luta"
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": 2,
+      "duration": "permanente",
+      "requirements": { "weapon": "arma_longa" }
+    }
+  ]
+}

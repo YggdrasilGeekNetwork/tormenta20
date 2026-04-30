@@ -1,0 +1,21 @@
+{
+  "id": "piqueiro",
+  "name": "Piqueiro",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Uma vez por rodada, se estiver empunhando uma arma alongada e um inimigo entrar voluntariamente em seu alcance corpo a corpo, você pode gastar 1 PM para fazer um ataque corpo a corpo contra este oponente com esta arma. Se o oponente tiver se aproximado fazendo uma investida, seu ataque causa dois dados de dano extra do mesmo tipo.",
+  "requirements": [
+    {
+      "type": "power",
+      "sub_type": "hard",
+      "power": "estilo_de_arma_longa"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "cost": "1 PM",
+      "trigger": "inimigo_entra_no_alcance"
+    }
+  ]
+}

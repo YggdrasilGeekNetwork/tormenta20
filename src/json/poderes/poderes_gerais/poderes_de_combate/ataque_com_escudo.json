@@ -1,0 +1,21 @@
+{
+  "id": "ataque_com_escudo",
+  "name": "Ataque com Escudo",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Uma vez por rodada, se estiver empunhando um escudo e fizer a ação agredir, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com o escudo. Este ataque não faz você perder o bônus do escudo na Defesa.",
+  "requirements": [
+    {
+      "type": "power",
+      "sub_type": "hard",
+      "power": "estilo_de_arma_e_escudo"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "cost": "1 PM",
+      "trigger": "acao_agredir"
+    }
+  ]
+}

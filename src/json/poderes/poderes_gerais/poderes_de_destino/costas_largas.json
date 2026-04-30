@@ -1,0 +1,28 @@
+{
+  "id": "costas_largas",
+  "name": "Costas Largas",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Seu limite de carga aumenta em 5 espaços e você pode se beneficiar de um item vestido adicional.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "con",
+      "value": 13
+    },
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "for",
+      "value": 13
+    }
+  ],
+  "effects": [
+    {
+      "type": "inventory_improvement",
+      "value": 5,
+      "duration": "permanente"
+    }
+  ]
+}
