@@ -50,9 +50,23 @@ jobs:
       - name: Lint JSON files
         run: find src/json -name "*.json" | xargs jsonlint
 
+  tag:
+    name: Auto-tag
+    needs: [spec, jsonlint]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create timestamp tag
+        run: |
+          TAG="v$(date -u +'%Y%m%d-%H%M%S')"
+          git tag "$TAG"
+          git push origin "$TAG"
+
   publish:
     name: Publish to RubyGems
-    needs: [spec, jsonlint]
     if: github.event_name == 'release'
     runs-on: ubuntu-latest
 
@@ -71,5 +85,6 @@ jobs:
           mkdir -p ~/.gem
           printf -- "---\n:rubygems_api_key: %s\n" "${{ secrets.RUBYGEMS_API_KEY }}" > ~/.gem/credentials
           chmod 0600 ~/.gem/credentials
-          bundle exec rake build
-          gem push pkg/tormenta20-*.gem
+          bundle exec rake build_db
+          gem build tormenta20.gemspec
+          gem push tormenta20-*.gem
