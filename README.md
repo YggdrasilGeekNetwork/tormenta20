@@ -2,7 +2,7 @@
 
 [![Gem Version](https://img.shields.io/gem/v/tormenta20)](https://rubygems.org/gems/tormenta20)
 [![CI](https://github.com/LuanGB/tormenta20/actions/workflows/main.yml/badge.svg)](https://github.com/LuanGB/tormenta20/actions/workflows/main.yml)
-[![Coverage](https://codecov.io/gh/LuanGB/tormenta20/branch/main/graph/badge.svg)](https://codecov.io/gh/LuanGB/tormenta20)
+[![Coverage](https://codecov.io/gh/YggdrasilGeekNetwork/tormenta20/graph/badge.svg?token=XB8BTBS6PJ)](https://codecov.io/gh/YggdrasilGeekNetwork/tormenta20)
 [![License](https://img.shields.io/github/license/LuanGB/tormenta20)](LICENSE.txt)
 
 Uma biblioteca Ruby com dados do RPG de mesa brasileiro Tormenta20.
