@@ -1,5 +1,10 @@
 # Tormenta20
 
+[![Gem Version](https://img.shields.io/gem/v/tormenta20)](https://rubygems.org/gems/tormenta20)
+[![CI](https://github.com/LuanGB/tormenta20/actions/workflows/main.yml/badge.svg)](https://github.com/LuanGB/tormenta20/actions/workflows/main.yml)
+[![Coverage](https://codecov.io/gh/LuanGB/tormenta20/branch/main/graph/badge.svg)](https://codecov.io/gh/LuanGB/tormenta20)
+[![License](https://img.shields.io/github/license/LuanGB/tormenta20)](LICENSE.txt)
+
 Uma biblioteca Ruby com dados do RPG de mesa brasileiro Tormenta20.
 
 A gem inclui um banco de dados SQLite pré-populado com informações sobre magias, classes, origens, divindades, poderes, equipamentos, raças e condições do sistema Tormenta20. Todos os registros expõem referências de livro e página via o concern `BookReferenceable`.
