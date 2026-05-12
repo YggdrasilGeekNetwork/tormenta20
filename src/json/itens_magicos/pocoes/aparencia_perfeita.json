@@ -1,0 +1,13 @@
+{
+  "id": "aparencia_perfeita",
+  "name": "Aparência Perfeita",
+  "subtipo": "pocao",
+  "spell_id": "aparencia_perfeita",
+  "pm_cost": 3,
+  "categoria": "medio",
+  "preco": 270,
+  "roll_min": 41,
+  "roll_max": 42,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Aparência Perfeita."
+}

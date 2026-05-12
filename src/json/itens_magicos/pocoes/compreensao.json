@@ -1,0 +1,13 @@
+{
+  "id": "compreensao",
+  "name": "Compreensão",
+  "subtipo": "pocao",
+  "spell_id": "compreensao",
+  "pm_cost": 1,
+  "categoria": "menor",
+  "preco": 30,
+  "roll_min": 7,
+  "roll_max": 7,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Compreensão."
+}

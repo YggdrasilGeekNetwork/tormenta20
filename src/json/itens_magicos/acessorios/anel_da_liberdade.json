@@ -1,0 +1,10 @@
+{
+  "id": "anel_da_liberdade",
+  "name": "Anel da Liberdade",
+  "categoria": "maior",
+  "preco": 60000,
+  "roll_min": 73,
+  "roll_max": 77,
+  "description": "Forjado em ouro, este anel é uma relíquia da Igreja de Valkaria. Você fica permanentemente sob efeito de Libertação.",
+  "efeito": {}
+}

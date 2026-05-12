@@ -1,0 +1,13 @@
+{
+  "id": "camuflagem_ilusoria",
+  "name": "Camuflagem Ilusória",
+  "subtipo": "pocao",
+  "spell_id": "camuflagem_ilusoria",
+  "pm_cost": 3,
+  "categoria": "medio",
+  "preco": 270,
+  "roll_min": 50,
+  "roll_max": 51,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Camuflagem Ilusória."
+}

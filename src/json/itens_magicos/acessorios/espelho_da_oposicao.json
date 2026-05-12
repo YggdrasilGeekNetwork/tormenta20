@@ -1,0 +1,10 @@
+{
+  "id": "espelho_da_oposicao",
+  "name": "Espelho da Oposição",
+  "categoria": "maior",
+  "preco": 75000,
+  "roll_min": 88,
+  "roll_max": 89,
+  "description": "Este item lembra um espelho normal com cerca de 1m de comprimento e 1,5m de altura. Pode ser fixado em qualquer superfície e ativado (ou desativado) com um comando. Quando uma criatura observa seu reflexo, o espelho cria uma cópia sua, com as mesmas habilidades e equipamento. A duplicata ataca a criatura original; quando um dos dois é derrotado, a duplicata e seus itens desaparecem.",
+  "efeito": {}
+}

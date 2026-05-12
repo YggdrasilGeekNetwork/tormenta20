@@ -1,0 +1,14 @@
+{
+  "id": "pingente_da_sensatez",
+  "name": "Pingente da Sensatez",
+  "categoria": "menor",
+  "preco": 4500,
+  "roll_min": 66,
+  "roll_max": 71,
+  "description": "Esta pequena pérola com uma corrente leve é usada como um colar. Você recebe +1 em Sabedoria (somente após um dia de uso).",
+  "efeito": {
+    "bonus_atributo": {
+      "sabedoria": 1
+    }
+  }
+}

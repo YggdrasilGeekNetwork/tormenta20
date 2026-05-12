@@ -1,0 +1,13 @@
+{
+  "id": "vitalidade_fantasma",
+  "name": "Vitalidade Fantasma",
+  "subtipo": "pocao",
+  "spell_id": "vitalidade_fantasma",
+  "pm_cost": 1,
+  "categoria": "menor",
+  "preco": 30,
+  "roll_min": 36,
+  "roll_max": 36,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Vitalidade Fantasma."
+}

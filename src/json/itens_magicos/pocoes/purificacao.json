@@ -1,0 +1,13 @@
+{
+  "id": "purificacao",
+  "name": "Purificação",
+  "subtipo": "pocao",
+  "spell_id": "purificacao",
+  "pm_cost": 3,
+  "categoria": "medio",
+  "preco": 270,
+  "roll_min": 71,
+  "roll_max": 75,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Purificação."
+}

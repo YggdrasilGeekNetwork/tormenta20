@@ -1,0 +1,13 @@
+{
+  "id": "tranca_arcana",
+  "name": "Tranca Arcana",
+  "subtipo": "oleo",
+  "spell_id": "tranca_arcana",
+  "pm_cost": 1,
+  "categoria": "menor",
+  "preco": 30,
+  "roll_min": 34,
+  "roll_max": 34,
+  "aprimoramento": null,
+  "description": "Óleo que gera o efeito da magia Tranca Arcana."
+}

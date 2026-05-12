@@ -1,0 +1,19 @@
+{
+  "id": "anel_refletor",
+  "name": "Anel Refletor",
+  "categoria": "maior",
+  "preco": 51000,
+  "roll_min": 53,
+  "roll_max": 57,
+  "description": "Este aro de platina é poderoso contra conjuradores. Uma vez por rodada, quando você é alvo de uma magia, pode gastar PM igual ao custo dela para refleti-la de volta ao seu conjurador. As características da magia (efeitos, CD...) se mantêm, mas você toma qualquer decisão exigida por ela.",
+  "efeito": {
+    "habilidades_ativas": [
+      {
+        "nome": "Refletir Magia",
+        "descricao": "Uma vez por rodada, quando alvo de uma magia, gaste PM igual ao custo dela para refleti-la de volta ao conjurador.",
+        "custo_pm": -1,
+        "acao": "reacao"
+      }
+    ]
+  }
+}

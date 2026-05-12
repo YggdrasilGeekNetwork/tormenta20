@@ -1,0 +1,13 @@
+{
+  "id": "braceletes_de_ouro",
+  "name": "Braceletes de Ouro",
+  "categoria": "maior",
+  "preco": 64500,
+  "roll_min": 83,
+  "roll_max": 87,
+  "description": "Como braceletes de bronze, mas fornece +8 na Defesa. Estes braceletes geram um campo de força invisível, porém tangível, cumulativo com outros itens mágicos, mas não com armaduras.",
+  "efeito": {
+    "bonus_defesa": 8,
+    "bonus_defesa_nao_acumula_armadura": true
+  }
+}

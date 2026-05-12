@@ -1,0 +1,13 @@
+{
+  "id": "voz_divina",
+  "name": "Voz Divina",
+  "subtipo": "pocao",
+  "spell_id": "voz_divina",
+  "pm_cost": 3,
+  "categoria": "medio",
+  "preco": 270,
+  "roll_min": 80,
+  "roll_max": 80,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Voz Divina."
+}

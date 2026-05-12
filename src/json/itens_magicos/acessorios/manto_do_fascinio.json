@@ -1,0 +1,14 @@
+{
+  "id": "manto_do_fascinio",
+  "name": "Manto do Fascínio",
+  "categoria": "menor",
+  "preco": 4500,
+  "roll_min": 60,
+  "roll_max": 65,
+  "description": "Este manto de veludo possui bordados de ouro. Você recebe +1 em Carisma (somente após um dia de uso).",
+  "efeito": {
+    "bonus_atributo": {
+      "carisma": 1
+    }
+  }
+}

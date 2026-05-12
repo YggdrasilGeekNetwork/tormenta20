@@ -1,0 +1,10 @@
+{
+  "id": "fortificado",
+  "name": "Fortificado",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "efeito": {
+    "descricao_curta": "25% (escudo) ou 50% (armadura) de ignorar dano extra de críticos e ataques furtivos"
+  },
+  "description": "Você recebe 25% de chance (para escudos) e 50% de chance (para armaduras) de ignorar o dano extra de acertos críticos e ataques furtivos."
+}

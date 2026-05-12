@@ -1,0 +1,12 @@
+{
+  "id": "anel_da_regeneracao",
+  "name": "Anel da Regeneração",
+  "categoria": "maior",
+  "preco": 150000,
+  "roll_min": 97,
+  "roll_max": 98,
+  "description": "Você recebe Cura Acelerada 5 (somente após um dia de uso).",
+  "efeito": {
+    "cura_acelerada": 5
+  }
+}

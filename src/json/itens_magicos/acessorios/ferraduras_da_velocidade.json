@@ -1,0 +1,10 @@
+{
+  "id": "ferraduras_da_velocidade",
+  "name": "Ferraduras da Velocidade",
+  "categoria": "menor",
+  "preco": 3000,
+  "roll_min": 13,
+  "roll_max": 14,
+  "description": "Este conjunto de ferraduras pode ser fixado nos cascos de um cavalo (ou outro parceiro montaria, a critério do mestre) para aumentar seu deslocamento em +3m.",
+  "efeito": {}
+}

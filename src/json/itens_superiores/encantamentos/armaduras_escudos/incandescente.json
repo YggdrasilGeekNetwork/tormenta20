@@ -1,0 +1,10 @@
+{
+  "id": "incandescente",
+  "name": "Incandescente",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "efeito": {
+    "descricao_curta": "Redução de fogo 10; 2 PM: labaredas causam 1d6 de fogo em adjacentes por rodada"
+  },
+  "description": "Você recebe redução de fogo 10 e pode gastar uma ação de movimento e 2 PM para fazer o item emitir labaredas até o fim da cena. Se fizer isso, no início de cada um de seus turnos você causa 1d6 pontos de dano de fogo em todas as criaturas adjacentes. Um item incandescente é avermelhado e quente ao toque."
+}

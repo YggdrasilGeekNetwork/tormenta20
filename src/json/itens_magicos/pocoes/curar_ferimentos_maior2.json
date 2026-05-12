@@ -1,0 +1,13 @@
+{
+  "id": "curar_ferimentos_maior2",
+  "name": "Curar Ferimentos (11d8+11 PV)",
+  "subtipo": "pocao",
+  "spell_id": "curar_ferimentos",
+  "pm_cost": 10,
+  "categoria": "maior",
+  "preco": 3000,
+  "roll_min": 97,
+  "roll_max": 100,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Curar Ferimentos, curando 11d8+11 PV."
+}

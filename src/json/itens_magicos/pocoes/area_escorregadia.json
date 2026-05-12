@@ -1,0 +1,13 @@
+{
+  "id": "area_escorregadia",
+  "name": "Área Escorregadia",
+  "subtipo": "granada",
+  "spell_id": "area_escorregadia",
+  "pm_cost": 1,
+  "categoria": "menor",
+  "preco": 30,
+  "roll_min": 2,
+  "roll_max": 3,
+  "aprimoramento": null,
+  "description": "Granada que gera o efeito da magia Área Escorregadia."
+}

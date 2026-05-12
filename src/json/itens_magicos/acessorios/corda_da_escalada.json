@@ -1,0 +1,10 @@
+{
+  "id": "corda_da_escalada",
+  "name": "Corda da Escalada",
+  "categoria": "menor",
+  "preco": 3000,
+  "roll_min": 8,
+  "roll_max": 12,
+  "description": "Esta corda de 15m é bastante fina, mas forte o suficiente para suportar até seis criaturas Médias (ou 120 espaços). Com um comando (uma ação de movimento), a corda se move em qualquer direção (incluindo para cima) a 3m por rodada, fixando-se firmemente onde você quiser. Ela pode se desamarrar e voltar da mesma forma.",
+  "efeito": {}
+}

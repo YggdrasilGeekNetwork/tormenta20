@@ -1,0 +1,10 @@
+{
+  "id": "piedosa",
+  "name": "Piedosa",
+  "type": "encantamento",
+  "categoria": "arma",
+  "efeito": {
+    "descricao_curta": "+1d8 de dano não letal (pode desativar por 1 PM)"
+  },
+  "description": "A arma causa +1d8 de dano, mas todo o dano causado é não letal. Você pode gastar 1 PM para desativar e ativar este encanto."
+}

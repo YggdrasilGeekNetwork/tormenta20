@@ -1,0 +1,10 @@
+{
+  "id": "sombrio",
+  "name": "Sombrio",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "efeito": {
+    "descricao_curta": "+5 em Furtividade; ignora penalidade de armadura para Furtividade"
+  },
+  "description": "Você recebe +5 em Furtividade e ignora a penalidade de armadura do item para testes dessa perícia. Um item sombrio é escuro, fosco e bem lubrificado, para não fazer barulho."
+}

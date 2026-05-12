@@ -1,0 +1,25 @@
+{
+  "id": "orbe_das_tempestades",
+  "name": "Orbe das Tempestades",
+  "categoria": "maior",
+  "preco": 97500,
+  "roll_min": 95,
+  "roll_max": 96,
+  "description": "Esta esfera de vidro com 20cm de diâmetro contém fumaça e raios em seu interior. Você pode lançar Controlar o Clima e Fúria do Panteão (CD Sab). Caso já conheça as magias, o custo para lançá-las diminui em –1 PM. Além disso, você e todos os seus aliados adjacentes ficam sob efeito de Suporte Ambiental.",
+  "efeito": {
+    "habilidades_ativas": [
+      {
+        "nome": "Controlar o Clima (sem PM)",
+        "descricao": "Lança Controlar o Clima (CD Sab) sem pagar PM. Se já conhecer, custo reduzido em –1 PM.",
+        "custo_pm": 0,
+        "acao": "padrao"
+      },
+      {
+        "nome": "Fúria do Panteão (sem PM)",
+        "descricao": "Lança Fúria do Panteão (CD Sab) sem pagar PM. Se já conhecer, custo reduzido em –1 PM.",
+        "custo_pm": 0,
+        "acao": "padrao"
+      }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "estatueta_animista",
+  "name": "Estatueta Animista",
+  "categoria": "maior",
+  "preco": 51000,
+  "roll_min": 68,
+  "roll_max": 72,
+  "description": "Esta estatueta de pedra é esculpida na forma de um animal. Quando é atirada no chão e a palavra de comando é proferida, transforma-se no animal correspondente. O animal fornece os benefícios de um parceiro veterano até o fim da cena, quando então volta à sua forma de estatueta. O tipo de parceiro é definido pelo animal: raposa (ajudante; perícias definidas na fabricação do item), onça (assassino), águia (atirador), lobo (combatente), leão (fortão) ou urso (guardião).",
+  "efeito": {}
+}

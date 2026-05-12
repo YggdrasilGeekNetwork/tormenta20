@@ -1,0 +1,19 @@
+{
+  "id": "botas_aladas",
+  "name": "Botas Aladas",
+  "categoria": "medio",
+  "preco": 15000,
+  "roll_min": 11,
+  "roll_max": 14,
+  "description": "Você pode gastar 2 PM para fazer asas brotarem dos calcanhares destas botas e receber deslocamento de voo 12m por uma rodada. Você pode gastar 1 PM no início de cada um de seus turnos para manter esse efeito.",
+  "efeito": {
+    "habilidades_ativas": [
+      {
+        "nome": "Voo",
+        "descricao": "Gaste 2 PM para ganhar deslocamento de voo 12m por uma rodada. Gaste 1 PM no início de cada turno para manter.",
+        "custo_pm": 2,
+        "acao": "livre"
+      }
+    ]
+  }
+}

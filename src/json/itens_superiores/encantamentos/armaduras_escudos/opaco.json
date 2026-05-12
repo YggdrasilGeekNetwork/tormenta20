@@ -1,0 +1,10 @@
+{
+  "id": "opaco",
+  "name": "Opaco",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "efeito": {
+    "descricao_curta": "Redução de ácido, eletricidade, fogo e frio 10"
+  },
+  "description": "Você recebe redução de ácido, eletricidade, fogo e frio 10. Um item opaco parece sem cor, totalmente comum e desinteressante."
+}

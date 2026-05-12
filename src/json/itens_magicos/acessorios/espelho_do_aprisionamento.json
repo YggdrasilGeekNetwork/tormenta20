@@ -1,0 +1,10 @@
+{
+  "id": "espelho_do_aprisionamento",
+  "name": "Espelho do Aprisionamento",
+  "categoria": "maior",
+  "preco": 150000,
+  "roll_min": 99,
+  "roll_max": 100,
+  "description": "Este item de cristal, com 1,5m de altura e moldura de metal, pode ser fixado em qualquer superfície e ativado (ou desativado) com um comando. Qualquer criatura que se aproxime a alcance curto do espelho do aprisionamento e enxergue seu próprio reflexo deve passar em um teste de Reflexos (CD Int) ou será transportada magicamente para um espaço extradimensional dentro do espelho, ficando presa ali. O tamanho da criatura não importa — mas construtos, mortos-vivos e objetos não podem ser transportados. Com um comando, é possível conversar com uma criatura presa no espelho ou libertá-la. Se o espelho for quebrado, todas as criaturas dentro dele são libertadas.",
+  "efeito": {}
+}

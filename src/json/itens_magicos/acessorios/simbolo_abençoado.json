@@ -1,0 +1,10 @@
+{
+  "id": "simbolo_abençoado",
+  "name": "Símbolo Abençoado",
+  "categoria": "medio",
+  "preco": 21000,
+  "roll_min": 55,
+  "roll_max": 58,
+  "description": "Conta como um símbolo sagrado. Se você for devoto do deus, o custo de suas magias divinas diminui em –1 PM (cumulativo com o poder Símbolo Sagrado Energizado). Apenas devotos desse deus podem fabricar um símbolo abençoado.",
+  "efeito": {}
+}

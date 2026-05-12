@@ -1,0 +1,19 @@
+{
+  "id": "gema_elemental",
+  "name": "Gema Elemental",
+  "categoria": "maior",
+  "preco": 30000,
+  "roll_min": 5,
+  "roll_max": 9,
+  "description": "Você pode lançar Conjurar Elemental sem pagar seu custo em PM.",
+  "efeito": {
+    "habilidades_ativas": [
+      {
+        "nome": "Conjurar Elemental (sem PM)",
+        "descricao": "Lança Conjurar Elemental sem pagar PM.",
+        "custo_pm": 0,
+        "acao": "padrao"
+      }
+    ]
+  }
+}

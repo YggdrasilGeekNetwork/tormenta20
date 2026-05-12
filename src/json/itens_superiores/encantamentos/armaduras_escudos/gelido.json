@@ -1,0 +1,10 @@
+{
+  "id": "gelido",
+  "name": "Gélido",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "efeito": {
+    "descricao_curta": "Redução de frio 10; 2 PM: cobre-se de gelo e ganha 10 PV temporários"
+  },
+  "description": "Você recebe redução de frio 10 e pode gastar uma ação de movimento e 2 PM para se cobrir de gelo até o fim da cena. Se fizer isso, recebe 10 PV temporários. Um item gélido é azulado e frio ao toque."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "anel_de_telecinesia",
+  "name": "Anel de Telecinesia",
+  "categoria": "medio",
+  "preco": 10500,
+  "roll_min": 1,
+  "roll_max": 4,
+  "description": "Você pode lançar Telecinesia (CD Int). Caso já conheça a magia, o custo para lançá-la diminui em –1 PM.",
+  "efeito": {
+    "habilidades_ativas": [
+      {
+        "nome": "Telecinesia",
+        "descricao": "Lança Telecinesia (CD Int). Se já conhecer a magia, custo reduzido em –1 PM.",
+        "custo_pm": 0,
+        "acao": "padrao"
+      }
+    ]
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "id": "anel_da_protecao",
+  "name": "Anel da Proteção",
+  "categoria": "menor",
+  "preco": 9000,
+  "roll_min": 90,
+  "roll_max": 96,
+  "description": "Este anel desvia ataques contra seu usuário. Você recebe +2 de Defesa.",
+  "efeito": {
+    "bonus_defesa": 2
+  }
+}

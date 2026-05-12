@@ -1,0 +1,10 @@
+{
+  "id": "caveira_maldita",
+  "name": "Caveira Maldita",
+  "categoria": "medio",
+  "preco": 10500,
+  "roll_min": 9,
+  "roll_max": 10,
+  "description": "Esta pedra esculpida em formato de crânio gera o efeito da magia Profanar, com o crânio como ponto de origem. Mortos-vivos e devotos de deuses que canalizam apenas energia negativa na área de efeito recebem +2 em testes e Defesa.",
+  "efeito": {}
+}

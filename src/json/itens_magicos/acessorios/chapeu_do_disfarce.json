@@ -1,0 +1,19 @@
+{
+  "id": "chapeu_do_disfarce",
+  "name": "Chapéu do Disfarce",
+  "categoria": "menor",
+  "preco": 6000,
+  "roll_min": 78,
+  "roll_max": 82,
+  "description": "Você pode lançar Disfarce Ilusório (CD Car), com o aprimoramento que inclui odores e sensações e muda o bônus em Enganação para disfarces para +20, sem pagar seu custo em PM. Você não pode usar outros aprimoramentos. Como parte do disfarce, o chapéu pode mudar para um elmo, faixa, tiara, gorro, touca e assim por diante.",
+  "efeito": {
+    "habilidades_ativas": [
+      {
+        "nome": "Disfarce Ilusório (sem PM)",
+        "descricao": "Lança Disfarce Ilusório (CD Car) sem pagar PM, com aprimoramento de odores/sensações e +20 em Enganação para disfarces.",
+        "custo_pm": 0,
+        "acao": "padrao"
+      }
+    ]
+  }
+}

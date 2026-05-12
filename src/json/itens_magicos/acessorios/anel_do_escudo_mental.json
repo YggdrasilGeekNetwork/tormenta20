@@ -1,0 +1,10 @@
+{
+  "id": "anel_do_escudo_mental",
+  "name": "Anel do Escudo Mental",
+  "categoria": "menor",
+  "preco": 9000,
+  "roll_min": 97,
+  "roll_max": 98,
+  "description": "Você recebe imunidade a magias de adivinhação.",
+  "efeito": {}
+}

@@ -1,0 +1,10 @@
+{
+  "id": "anel_do_sustento",
+  "name": "Anel do Sustento",
+  "categoria": "menor",
+  "preco": 3000,
+  "roll_min": 1,
+  "roll_max": 2,
+  "description": "Você não precisa comer ou beber e precisa dormir apenas duas horas por noite para descansar. Os efeitos do anel só se ativam após uma semana de uso.",
+  "efeito": {}
+}

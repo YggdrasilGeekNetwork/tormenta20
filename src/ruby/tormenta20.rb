@@ -147,6 +147,16 @@ module Tormenta20
       Models::MaterialEspecial
     end
 
+    # Access the Encantamento (Enchantment) model for querying magic enchantments.
+    #
+    # @return [Class<Models::Encantamento>] The Encantamento model class
+    # @example
+    #   Tormenta20.encantamentos.armas
+    #   Tormenta20.encantamentos.armaduras_escudos
+    def encantamentos
+      Models::Encantamento
+    end
+
     # Access the Melhoria (Enhancement) model for querying magic enhancements.
     #
     # @return [Class<Models::Melhoria>] The Melhoria model class
@@ -197,6 +207,26 @@ module Tormenta20
     # @return [Class] Tormenta20::Models::IndiceRemissivo
     def indice_remissivo
       Models::IndiceRemissivo
+    end
+
+    # Access the Pocao (Potion) model for querying magic potions, oils and grenades.
+    #
+    # @return [Class<Models::Pocao>] The Pocao model class
+    # @example
+    #   Tormenta20.pocoes.menores
+    #   Tormenta20.pocoes.granadas
+    def pocoes
+      Models::Pocao
+    end
+
+    # Access the AcessorioMagico (Magic Accessory) model for querying magic accessories.
+    #
+    # @return [Class<Models::AcessorioMagico>] The AcessorioMagico model class
+    # @example
+    #   Tormenta20.acessorios.maiores
+    #   Tormenta20.acessorios.find("anel_da_protecao")
+    def acessorios
+      Models::AcessorioMagico
     end
 
     # @!endgroup

@@ -1,0 +1,10 @@
+{
+  "id": "tomo_da_compreensao",
+  "name": "Tomo da Compreensão",
+  "categoria": "maior",
+  "preco": 30000,
+  "roll_min": 35,
+  "roll_max": 40,
+  "description": "Este livro volumoso contém ensinamentos para tornar o leitor mais centrado e aguçar sua percepção, mas também possui um poderoso efeito mágico. Ler o livro leva uma semana e aumenta seu valor de Sabedoria em +1 permanentemente (o atributo só pode ser aumentado uma vez com o Tomo). Assim que o livro é lido, a magia desaparece de suas páginas e ele se torna um item mundano.",
+  "efeito": {}
+}

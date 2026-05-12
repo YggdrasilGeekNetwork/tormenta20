@@ -1,0 +1,10 @@
+{
+  "id": "vassoura_voadora",
+  "name": "Vassoura Voadora",
+  "categoria": "medio",
+  "preco": 21000,
+  "roll_min": 51,
+  "roll_max": 54,
+  "description": "Como um tapete voador, mas pode carregar duas pessoas (ou 40 espaços).",
+  "efeito": {}
+}

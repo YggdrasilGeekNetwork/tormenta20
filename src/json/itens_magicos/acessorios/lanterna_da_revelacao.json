@@ -1,0 +1,10 @@
+{
+  "id": "lanterna_da_revelacao",
+  "name": "Lanterna da Revelação",
+  "categoria": "menor",
+  "preco": 6000,
+  "roll_min": 85,
+  "roll_max": 89,
+  "description": "Este item funciona como um lampião normal, mas sua luz revela todas as criaturas e objetos invisíveis no alcance.",
+  "efeito": {}
+}

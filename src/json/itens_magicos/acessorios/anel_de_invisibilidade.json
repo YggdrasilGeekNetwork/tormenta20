@@ -1,0 +1,10 @@
+{
+  "id": "anel_de_invisibilidade",
+  "name": "Anel de Invisibilidade",
+  "categoria": "medio",
+  "preco": 21000,
+  "roll_min": 31,
+  "roll_max": 34,
+  "description": "Ao colocar este anel de prata, você fica sob efeito de Invisibilidade. O efeito termina se você fizer um ataque ou lançar uma magia ofensiva, mas você pode tirar e recolocar o anel (uma ação padrão) para que ele volte a funcionar.",
+  "efeito": {}
+}

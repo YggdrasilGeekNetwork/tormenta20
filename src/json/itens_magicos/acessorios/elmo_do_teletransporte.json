@@ -1,0 +1,25 @@
+{
+  "id": "elmo_do_teletransporte",
+  "name": "Elmo do Teletransporte",
+  "categoria": "maior",
+  "preco": 30000,
+  "roll_min": 1,
+  "roll_max": 2,
+  "description": "Você pode lançar Salto Dimensional e Teletransporte, mas apenas em você mesmo. Caso já conheça as magias, o custo para lançá-las diminui em –1 PM.",
+  "efeito": {
+    "habilidades_ativas": [
+      {
+        "nome": "Salto Dimensional",
+        "descricao": "Lança Salto Dimensional apenas em você mesmo (sem PM). Se já conhecer, custo reduzido em –1 PM.",
+        "custo_pm": 0,
+        "acao": "movimento"
+      },
+      {
+        "nome": "Teletransporte",
+        "descricao": "Lança Teletransporte apenas em você mesmo (sem PM). Se já conhecer, custo reduzido em –1 PM.",
+        "custo_pm": 0,
+        "acao": "padrao"
+      }
+    ]
+  }
+}

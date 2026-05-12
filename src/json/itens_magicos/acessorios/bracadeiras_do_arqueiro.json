@@ -1,0 +1,12 @@
+{
+  "id": "bracadeiras_do_arqueiro",
+  "name": "Braçadeiras do Arqueiro",
+  "categoria": "medio",
+  "preco": 21000,
+  "roll_min": 35,
+  "roll_max": 38,
+  "description": "Você recebe +2 em rolagens de dano com armas de ataque à distância (cumulativo com outros itens).",
+  "efeito": {
+    "bonus_dano_distancia": 2
+  }
+}

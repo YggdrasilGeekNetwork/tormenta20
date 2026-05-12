@@ -1,0 +1,13 @@
+{
+  "id": "mente_divina",
+  "name": "Mente Divina",
+  "subtipo": "pocao",
+  "spell_id": "mente_divina",
+  "pm_cost": 3,
+  "categoria": "medio",
+  "preco": 270,
+  "roll_min": 67,
+  "roll_max": 68,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Mente Divina."
+}

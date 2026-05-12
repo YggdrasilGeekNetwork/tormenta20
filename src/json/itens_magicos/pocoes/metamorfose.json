@@ -1,0 +1,13 @@
+{
+  "id": "metamorfose",
+  "name": "Metamorfose",
+  "subtipo": "pocao",
+  "spell_id": "metamorfose",
+  "pm_cost": 3,
+  "categoria": "medio",
+  "preco": 270,
+  "roll_min": 69,
+  "roll_max": 70,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Metamorfose."
+}

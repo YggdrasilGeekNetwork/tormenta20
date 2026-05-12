@@ -1,0 +1,10 @@
+{
+  "id": "sagrada",
+  "name": "Sagrada",
+  "type": "encantamento",
+  "categoria": "arma",
+  "efeito": {
+    "descricao_curta": "+2d8 de dano contra devotos do Mal e criaturas malignas"
+  },
+  "description": "A arma causa +2d8 de dano contra devotos de deuses que canalizam apenas energia negativa e criaturas malignas (a critério do mestre). Uma arma sagrada emite uma sutil luz pura."
+}

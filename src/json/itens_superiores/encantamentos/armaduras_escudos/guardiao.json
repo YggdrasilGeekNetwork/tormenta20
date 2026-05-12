@@ -1,0 +1,13 @@
+{
+  "id": "guardiao",
+  "name": "Guardião",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "conta_como_dois": true,
+  "prerequisitos": ["defensor"],
+  "efeito": {
+    "bonus_defesa": 4,
+    "descricao_curta": "+4 na Defesa; pré-req: defensor. Conta como dois encantos"
+  },
+  "description": "O item emite um campo de força que desvia ataques. O bônus na Defesa do item aumenta em +4. Pré-requisito: defensor. Conta como dois encantos."
+}

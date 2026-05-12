@@ -1,0 +1,13 @@
+{
+  "id": "fisico_divino_maior",
+  "name": "Físico Divino (três atributos)",
+  "subtipo": "pocao",
+  "spell_id": "fisico_divino",
+  "pm_cost": 6,
+  "categoria": "maior",
+  "preco": 1080,
+  "roll_min": 89,
+  "roll_max": 89,
+  "aprimoramento": "três atributos",
+  "description": "Poção que gera o efeito da magia Físico Divino com aprimoramento para três atributos."
+}

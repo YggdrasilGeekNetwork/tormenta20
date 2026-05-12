@@ -1,0 +1,14 @@
+{
+  "id": "tiara_da_sapiencia",
+  "name": "Tiara da Sapiência",
+  "categoria": "medio",
+  "preco": 25500,
+  "roll_min": 95,
+  "roll_max": 100,
+  "description": "Esta tiara delicada possui uma gema que descansa sobre a testa. Você recebe +2 em Inteligência (somente após um dia de uso).",
+  "efeito": {
+    "bonus_atributo": {
+      "inteligencia": 2
+    }
+  }
+}

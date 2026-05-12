@@ -307,6 +307,30 @@ BEGIN
 END;
 
 -- -----------------------------------------------------------------------------
+-- ITENS SUPERIORES - ENCANTAMENTOS (Enchantments)
+-- -----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS encantamentos (
+  id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  description TEXT,
+  categoria TEXT NOT NULL,           -- 'arma' | 'armadura_escudo'
+  escudo_only INTEGER DEFAULT 0,     -- boolean: only for shields
+  conta_como_dois INTEGER DEFAULT 0, -- boolean: counts as two enchantments
+  prerequisitos JSON DEFAULT '[]',
+  efeito JSON DEFAULT '{}',
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_encantamentos_categoria ON encantamentos(categoria);
+
+CREATE TRIGGER IF NOT EXISTS update_encantamentos_timestamp
+AFTER UPDATE ON encantamentos
+BEGIN
+  UPDATE encantamentos SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
+END;
+
+-- -----------------------------------------------------------------------------
 -- ITENS SUPERIORES - MELHORIAS (Enhancements)
 -- -----------------------------------------------------------------------------
 CREATE TABLE IF NOT EXISTS melhorias (
@@ -441,6 +465,58 @@ CREATE TRIGGER IF NOT EXISTS update_indice_remissivo_timestamp
 AFTER UPDATE ON indice_remissivo
 BEGIN
   UPDATE indice_remissivo SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
+END;
+
+-- -----------------------------------------------------------------------------
+-- ITENS MÁGICOS - POÇÕES (Potions, Oils and Grenades)
+-- -----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS pocoes (
+  id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  subtipo TEXT NOT NULL,
+  spell_id TEXT NOT NULL,
+  pm_cost INTEGER NOT NULL,
+  categoria TEXT NOT NULL,
+  preco INTEGER,
+  roll_min INTEGER,
+  roll_max INTEGER,
+  aprimoramento TEXT,
+  description TEXT,
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_pocoes_categoria ON pocoes(categoria);
+CREATE INDEX IF NOT EXISTS idx_pocoes_subtipo ON pocoes(subtipo);
+
+CREATE TRIGGER IF NOT EXISTS update_pocoes_timestamp
+AFTER UPDATE ON pocoes
+BEGIN
+  UPDATE pocoes SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
+END;
+
+-- -----------------------------------------------------------------------------
+-- ITENS MÁGICOS - ACESSÓRIOS (Magic Accessories)
+-- -----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS acessorios_magicos (
+  id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  categoria TEXT NOT NULL,
+  preco INTEGER,
+  roll_min INTEGER,
+  roll_max INTEGER,
+  description TEXT,
+  efeito TEXT DEFAULT '{}',
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_acessorios_magicos_categoria ON acessorios_magicos(categoria);
+
+CREATE TRIGGER IF NOT EXISTS update_acessorios_magicos_timestamp
+AFTER UPDATE ON acessorios_magicos
+BEGIN
+  UPDATE acessorios_magicos SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
 END;
 
 -- =============================================================================

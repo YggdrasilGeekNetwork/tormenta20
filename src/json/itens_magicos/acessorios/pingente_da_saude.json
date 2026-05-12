@@ -1,0 +1,10 @@
+{
+  "id": "pingente_da_saude",
+  "name": "Pingente da Saúde",
+  "categoria": "menor",
+  "preco": 9000,
+  "roll_min": 99,
+  "roll_max": 100,
+  "description": "O usuário desta joia verde em um cordão de prata recebe imunidade a doenças e venenos. Os efeitos só se ativam após uma semana de uso.",
+  "efeito": {}
+}

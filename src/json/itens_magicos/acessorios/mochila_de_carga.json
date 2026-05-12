@@ -1,0 +1,10 @@
+{
+  "id": "mochila_de_carga",
+  "name": "Mochila de Carga",
+  "categoria": "menor",
+  "preco": 3000,
+  "roll_min": 30,
+  "roll_max": 34,
+  "description": "Este item, que parece uma simples mochila de pano, está na verdade ligado a um espaço interdimensional — fazendo com que seja maior por dentro do que por fora. A mochila de carga aumenta sua capacidade de carga em 10 espaços (ela própria não gasta um espaço). Se a mochila for rasgada, os objetos em seu interior são destruídos. Criaturas vivas colocadas no interior da mochila podem sobreviver até 10 minutos, mas depois disso ficarão sem ar.",
+  "efeito": {}
+}

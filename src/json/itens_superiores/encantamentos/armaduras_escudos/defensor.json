@@ -1,0 +1,11 @@
+{
+  "id": "defensor",
+  "name": "Defensor",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "efeito": {
+    "bonus_defesa": 2,
+    "descricao_curta": "+2 na Defesa"
+  },
+  "description": "O item é encantado para desviar golpes. O bônus na Defesa do item aumenta em +2."
+}

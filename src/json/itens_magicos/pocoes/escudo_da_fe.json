@@ -1,0 +1,13 @@
+{
+  "id": "escudo_da_fe",
+  "name": "Escudo da Fé",
+  "subtipo": "pocao",
+  "spell_id": "escudo_da_fe",
+  "pm_cost": 2,
+  "categoria": "menor",
+  "preco": 120,
+  "roll_min": 37,
+  "roll_max": 38,
+  "aprimoramento": "duração cena",
+  "description": "Poção que gera o efeito da magia Escudo da Fé com aprimoramento para duração cena."
+}
