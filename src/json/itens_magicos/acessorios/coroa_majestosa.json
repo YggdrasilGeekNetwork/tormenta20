@@ -1,0 +1,14 @@
+{
+  "id": "coroa_majestosa",
+  "name": "Coroa Majestosa",
+  "categoria": "medio",
+  "preco": 25500,
+  "roll_min": 75,
+  "roll_max": 80,
+  "description": "Esta coroa de ouro possui dezenas de pedras preciosas. Você recebe +2 em Carisma (somente após um dia de uso).",
+  "efeito": {
+    "bonus_atributo": {
+      "carisma": 2
+    }
+  }
+}

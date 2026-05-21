@@ -1,0 +1,12 @@
+{
+  "id": "corrosiva",
+  "name": "Corrosiva",
+  "type": "encantamento",
+  "categoria": "arma",
+  "efeito": {
+    "dano_extra": "1d6",
+    "tipo_dano_extra": "ácido",
+    "descricao_curta": "+1d6 de dano de ácido; por 2 PM a vítima sofre 4d4 de ácido na próxima rodada"
+  },
+  "description": "A arma causa +1d6 de dano de ácido. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, a vítima sofre 4d4 pontos de dano de ácido na próxima rodada. Uma arma corrosiva exala vapores e goteja líquido tóxico."
+}

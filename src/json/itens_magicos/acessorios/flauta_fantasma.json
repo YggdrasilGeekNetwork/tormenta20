@@ -1,0 +1,19 @@
+{
+  "id": "flauta_fantasma",
+  "name": "Flauta Fantasma",
+  "categoria": "menor",
+  "preco": 6000,
+  "roll_min": 83,
+  "roll_max": 84,
+  "description": "Se for treinado em Atuação, você pode lançar Esculpir Sons (CD Car) sem pagar seu custo em PM.",
+  "efeito": {
+    "habilidades_ativas": [
+      {
+        "nome": "Esculpir Sons (sem PM)",
+        "descricao": "Se treinado em Atuação, lança Esculpir Sons (CD Car) sem pagar PM.",
+        "custo_pm": 0,
+        "acao": "padrao"
+      }
+    ]
+  }
+}

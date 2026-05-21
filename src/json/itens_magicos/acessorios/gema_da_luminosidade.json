@@ -1,0 +1,19 @@
+{
+  "id": "gema_da_luminosidade",
+  "name": "Gema da Luminosidade",
+  "categoria": "menor",
+  "preco": 3000,
+  "roll_min": 20,
+  "roll_max": 24,
+  "description": "Este cristal tem a aparência de um longo prisma. Com um comando, emite luz equivalente a uma tocha ou então um raio brilhante, que deixa uma criatura em alcance curto cega por 1d4 rodadas (Fort CD Car evita).",
+  "efeito": {
+    "habilidades_ativas": [
+      {
+        "nome": "Raio de Luz",
+        "descricao": "Emite luz de tocha ou um raio brilhante que cega criatura em alcance curto por 1d4 rodadas (Fort CD Car).",
+        "custo_pm": 0,
+        "acao": "padrao"
+      }
+    ]
+  }
+}

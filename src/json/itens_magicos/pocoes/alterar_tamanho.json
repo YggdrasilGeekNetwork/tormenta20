@@ -1,0 +1,13 @@
+{
+  "id": "alterar_tamanho",
+  "name": "Alterar Tamanho",
+  "subtipo": "pocao",
+  "spell_id": "alterar_tamanho",
+  "pm_cost": 3,
+  "categoria": "medio",
+  "preco": 270,
+  "roll_min": 39,
+  "roll_max": 40,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Alterar Tamanho."
+}

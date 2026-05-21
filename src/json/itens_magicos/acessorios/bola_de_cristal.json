@@ -1,0 +1,19 @@
+{
+  "id": "bola_de_cristal",
+  "name": "Bola de Cristal",
+  "categoria": "medio",
+  "preco": 10500,
+  "roll_min": 5,
+  "roll_max": 8,
+  "description": "Esta pequena esfera revela pessoas e lugares distantes. Olhar através dela é uma ação completa e gera a magia Vidência (CD Sab).",
+  "efeito": {
+    "habilidades_ativas": [
+      {
+        "nome": "Vidência",
+        "descricao": "Olhar pela bola de cristal (ação completa) gera o efeito de Vidência (CD Sab).",
+        "custo_pm": 0,
+        "acao": "completa"
+      }
+    ]
+  }
+}

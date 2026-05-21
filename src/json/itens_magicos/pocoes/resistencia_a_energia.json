@@ -1,0 +1,13 @@
+{
+  "id": "resistencia_a_energia",
+  "name": "Resistência a Energia",
+  "subtipo": "pocao",
+  "spell_id": "resistencia_a_energia",
+  "pm_cost": 1,
+  "categoria": "menor",
+  "preco": 30,
+  "roll_min": 29,
+  "roll_max": 30,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Resistência a Energia."
+}

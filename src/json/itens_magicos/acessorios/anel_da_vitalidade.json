@@ -1,0 +1,12 @@
+{
+  "id": "anel_da_vitalidade",
+  "name": "Anel da Vitalidade",
+  "categoria": "medio",
+  "preco": 21000,
+  "roll_min": 25,
+  "roll_max": 30,
+  "description": "Você recebe +10 PV (somente após um dia de uso).",
+  "efeito": {
+    "bonus_pv": 10
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "abascanto",
+  "name": "Abascanto",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "efeito": {
+    "descricao_curta": "Resistência a magia +5"
+  },
+  "description": "Você recebe resistência a magia +5."
+}

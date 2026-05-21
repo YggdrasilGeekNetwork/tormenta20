@@ -3,7 +3,7 @@
   "name": "Curar Ferimentos",
   "type": "divina",
   "circle": "1",
-  "school": "abjur",
+  "school": "evoc",
   "execution": "padrão",
   "execution_details": null,
   "range": "toque",

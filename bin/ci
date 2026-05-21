@@ -1,0 +1,20 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+ROOT="$(cd "$(dirname "$0")/.." && pwd)"
+cd "$ROOT"
+
+echo "==> Building database..."
+bundle exec rake build_db
+
+echo "==> Running specs..."
+COVERAGE=true bundle exec rspec
+
+echo "==> Running RuboCop..."
+bundle exec rubocop
+
+echo "==> Linting JSON files..."
+find src/json -name "*.json" | xargs bundle exec jsonlint
+
+echo ""
+echo "All checks passed."

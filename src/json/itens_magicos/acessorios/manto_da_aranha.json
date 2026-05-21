@@ -1,0 +1,20 @@
+{
+  "id": "manto_da_aranha",
+  "name": "Manto da Aranha",
+  "categoria": "medio",
+  "preco": 21000,
+  "roll_min": 47,
+  "roll_max": 50,
+  "description": "Este manto é feito de seda negra com fios de prata bordados. Você recebe deslocamento de escalada igual ao seu deslocamento terrestre, +5 em testes de resistência contra venenos e imunidade a teias mundanas ou mágicas. Além disso, pode lançar Teia (CD Des). Caso já conheça a magia, o custo para lançá-la diminui em –1 PM.",
+  "efeito": {
+    "bonus_saves_veneno": 5,
+    "habilidades_ativas": [
+      {
+        "nome": "Teia (sem PM)",
+        "descricao": "Lança Teia (CD Des) sem pagar PM. Se já conhecer, custo reduzido em –1 PM.",
+        "custo_pm": 0,
+        "acao": "padrao"
+      }
+    ]
+  }
+}

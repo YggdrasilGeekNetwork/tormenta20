@@ -1,0 +1,13 @@
+{
+  "id": "faixas_do_pugilista",
+  "name": "Faixas do Pugilista",
+  "categoria": "medio",
+  "preco": 21000,
+  "roll_min": 43,
+  "roll_max": 46,
+  "description": "Estas faixas surradas são amarradas nos punhos, nos braços ou na testa. Você recebe +2 em testes de ataque e rolagens de dano com ataques desarmados (cumulativo com outros itens).",
+  "efeito": {
+    "bonus_ataque_desarmado": 2,
+    "bonus_dano_desarmado": 2
+  }
+}

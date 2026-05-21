@@ -1,0 +1,14 @@
+{
+  "id": "cinto_da_forca_do_gigante",
+  "name": "Cinto da Força do Gigante",
+  "categoria": "medio",
+  "preco": 25500,
+  "roll_min": 69,
+  "roll_max": 74,
+  "description": "Este cinto largo é feito de couro com rebites de ferro. Você recebe +2 em Força (somente após um dia de uso).",
+  "efeito": {
+    "bonus_atributo": {
+      "forca": 2
+    }
+  }
+}

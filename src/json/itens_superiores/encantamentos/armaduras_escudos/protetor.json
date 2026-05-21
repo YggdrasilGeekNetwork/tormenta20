@@ -1,0 +1,10 @@
+{
+  "id": "protetor",
+  "name": "Protetor",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "efeito": {
+    "descricao_curta": "+2 em testes de resistência"
+  },
+  "description": "Você recebe +2 em testes de resistência."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "drenante",
+  "name": "Drenante",
+  "type": "encantamento",
+  "categoria": "arma",
+  "efeito": {
+    "descricao_curta": "Crítico: vítima fica fraca, você ganha 2d10 PV temporários"
+  },
+  "description": "Quando você faz um acerto crítico em uma criatura viva, a criatura fica fraca e você ganha 2d10 pontos de vida temporários. Uma arma drenante emite um brilho púrpura."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "fantasmagorico",
+  "name": "Fantasmagórico",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "efeito": {
+    "descricao_curta": "Você pode lançar Manto de Sombras"
+  },
+  "description": "Você pode lançar a magia Manto de Sombras. Um item fantasmagórico é cinzento e esfumaçado."
+}

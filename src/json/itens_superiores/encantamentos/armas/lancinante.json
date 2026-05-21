@@ -1,0 +1,12 @@
+{
+  "id": "lancinante",
+  "name": "Lancinante",
+  "type": "encantamento",
+  "categoria": "arma",
+  "conta_como_dois": true,
+  "prerequisitos": ["dilacerante"],
+  "efeito": {
+    "descricao_curta": "+10 dano OU multiplica bônus em críticos; substitui dilacerante"
+  },
+  "description": "A arma inflige ferimentos mortais. Quando faz um acerto crítico com a arma, você causa +10 pontos de dano ou, além de multiplicar os dados de dano, multiplica também quaisquer bônus numéricos, a sua escolha. Este efeito substitui o efeito de dilacerante. Pré-requisito: dilacerante. Conta como dois encantos."
+}

@@ -1,0 +1,19 @@
+{
+  "id": "garrafa_da_fumaca_eterna",
+  "name": "Garrafa da Fumaça Eterna",
+  "categoria": "menor",
+  "preco": 3000,
+  "roll_min": 15,
+  "roll_max": 19,
+  "description": "Você pode abrir a tampa desta ânfora de metal para lançar a magia Névoa sem pagar seu custo em PM. A fumaça persiste até a garrafa ser tampada. Após isso, dissipa-se no fim da cena (ou após 4 rodadas, sob vento forte, ou 1 rodada, sob um vendaval).",
+  "efeito": {
+    "habilidades_ativas": [
+      {
+        "nome": "Névoa (sem PM)",
+        "descricao": "Abra a tampa para lançar Névoa sem pagar PM. A fumaça persiste até a garrafa ser tampada.",
+        "custo_pm": 0,
+        "acao": "padrao"
+      }
+    ]
+  }
+}

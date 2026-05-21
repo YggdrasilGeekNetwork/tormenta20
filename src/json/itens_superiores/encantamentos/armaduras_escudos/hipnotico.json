@@ -1,0 +1,10 @@
+{
+  "id": "hipnotico",
+  "name": "Hipnótico",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "efeito": {
+    "descricao_curta": "3 PM: inimigos em alcance curto ficam fascinados 1d6 rodadas (Vontade CD Car evita)"
+  },
+  "description": "Você pode gastar uma ação padrão e 3 PM para emitir luzes coloridas. Inimigos em alcance curto devem passar num teste de Vontade (CD Car) ou ficarão fascinados por 1d6 rodadas. O efeito termina se qualquer criatura afetada for atacada. Um item hipnótico é espalhafatoso e colorido."
+}

@@ -1,0 +1,11 @@
+{
+  "id": "animado",
+  "name": "Animado",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "escudo_only": true,
+  "efeito": {
+    "descricao_curta": "Escudo flutua ao redor por 1 PM, protege com as mãos livres (apenas escudos)"
+  },
+  "description": "Você pode gastar uma ação de movimento e 1 PM para fazer o escudo flutuar ao seu redor até o fim da cena. Você recebe o mesmo bônus na Defesa que receberia se estivesse empunhando o escudo, mas fica com as duas mãos livres. Você só pode ser protegido por um escudo ao mesmo tempo. Apenas escudos."
+}

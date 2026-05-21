@@ -1,0 +1,13 @@
+{
+  "id": "visao_mistica",
+  "name": "Visão Mística",
+  "subtipo": "pocao",
+  "spell_id": "visao_mistica",
+  "pm_cost": 1,
+  "categoria": "menor",
+  "preco": 30,
+  "roll_min": 35,
+  "roll_max": 35,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Visão Mística."
+}

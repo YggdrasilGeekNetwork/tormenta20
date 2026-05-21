@@ -1,0 +1,12 @@
+{
+  "id": "anel_da_energia",
+  "name": "Anel da Energia",
+  "categoria": "medio",
+  "preco": 21000,
+  "roll_min": 19,
+  "roll_max": 24,
+  "description": "Você recebe +5 PM (somente após um dia de uso).",
+  "efeito": {
+    "bonus_pm": 5
+  }
+}

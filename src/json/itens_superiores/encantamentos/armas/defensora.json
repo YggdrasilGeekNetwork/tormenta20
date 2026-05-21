@@ -1,0 +1,11 @@
+{
+  "id": "defensora",
+  "name": "Defensora",
+  "type": "encantamento",
+  "categoria": "arma",
+  "efeito": {
+    "bonus_defesa": 2,
+    "descricao_curta": "+2 na Defesa"
+  },
+  "description": "A arma se movimenta para aparar ataques contra você. Você recebe +2 na Defesa."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "conjuradora",
+  "name": "Conjuradora",
+  "type": "encantamento",
+  "categoria": "arma",
+  "efeito": {
+    "descricao_curta": "Armazena uma magia; descarrega ao acertar o ataque"
+  },
+  "description": "Um conjurador pode lançar na arma uma magia que tenha como alvo uma criatura ou que afete uma área. A magia não gera efeito na hora; em vez disso, fica guardada no item. Quando acerta um ataque com a arma, você pode descarregar a magia guardada como uma ação livre e sem pagar seu custo. Uma vez que a magia seja descarregada, outra pode ser armazenada."
+}

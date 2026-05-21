@@ -1,0 +1,10 @@
+{
+  "id": "tapete_voador",
+  "name": "Tapete Voador",
+  "categoria": "maior",
+  "preco": 60000,
+  "roll_min": 78,
+  "roll_max": 82,
+  "description": "Com um comando, este tapete flutua, fornecendo deslocamento de voo 12m. O tapete tem 3m x 3m e pode carregar seis criaturas Médias (ou 120 espaços). Se você estiver em alcance longo do tapete, pode comandar o voo dele.",
+  "efeito": {}
+}

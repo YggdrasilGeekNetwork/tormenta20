@@ -1,0 +1,10 @@
+{
+  "id": "veloz",
+  "name": "Veloz",
+  "type": "encantamento",
+  "categoria": "arma",
+  "efeito": {
+    "descricao_curta": "Fornece Ataque Extra; se já possui, reduz custo em -1 PM"
+  },
+  "description": "Você recebe a habilidade Ataque Extra, do guerreiro, mas só pode usá-la com esta arma. Se já a possui, em vez disso, o custo para usá-la com esta arma diminui em –1 PM."
+}

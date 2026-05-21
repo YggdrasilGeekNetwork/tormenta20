@@ -1,0 +1,14 @@
+{
+  "id": "estola_da_serenidade",
+  "name": "Estola da Serenidade",
+  "categoria": "medio",
+  "preco": 25500,
+  "roll_min": 81,
+  "roll_max": 86,
+  "description": "Esta faixa de pano com inscrições mágicas é usada sobre a nuca, com as duas extremidades caindo na frente do corpo. Você recebe +2 em Sabedoria (somente após um dia de uso).",
+  "efeito": {
+    "bonus_atributo": {
+      "sabedoria": 2
+    }
+  }
+}

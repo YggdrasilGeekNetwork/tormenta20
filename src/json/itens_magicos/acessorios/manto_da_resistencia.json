@@ -1,0 +1,12 @@
+{
+  "id": "manto_da_resistencia",
+  "name": "Manto da Resistência",
+  "categoria": "menor",
+  "preco": 4500,
+  "roll_min": 53,
+  "roll_max": 59,
+  "description": "Este manto de tecido grosso e pesado protege seu usuário. Você recebe +2 em testes de resistência.",
+  "efeito": {
+    "bonus_saves": 2
+  }
+}

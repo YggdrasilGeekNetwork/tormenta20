@@ -1,0 +1,22 @@
+{
+  "id": "manto_do_morcego",
+  "name": "Manto do Morcego",
+  "categoria": "medio",
+  "preco": 25500,
+  "roll_min": 87,
+  "roll_max": 88,
+  "description": "Este manto marrom escuro ou negro fornece +5 em Furtividade e permite que você fique pendurado de ponta-cabeça no teto, como um morcego. Além disso, você pode gastar uma ação padrão para segurar as pontas do manto e se transformar em um morcego. Seu tamanho muda para Minúsculo e você recebe deslocamento de voo 12m e uma arma natural de mordida (dano 1d4, perfuração). Em outros aspectos, isso funciona como a Forma Selvagem do druida. Você só pode se transformar em morcego à noite ou em ambientes escuros.",
+  "efeito": {
+    "bonus_pericia": {
+      "furtividade": 5
+    },
+    "habilidades_ativas": [
+      {
+        "nome": "Forma de Morcego",
+        "descricao": "Gaste uma ação padrão para se transformar em morcego (tamanho Minúsculo, voo 12m, mordida 1d4). Apenas à noite ou em ambientes escuros.",
+        "custo_pm": 0,
+        "acao": "padrao"
+      }
+    ]
+  }
+}

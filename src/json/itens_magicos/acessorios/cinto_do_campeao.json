@@ -1,0 +1,14 @@
+{
+  "id": "cinto_do_campeao",
+  "name": "Cinto do Campeão",
+  "categoria": "maior",
+  "preco": 51000,
+  "roll_min": 58,
+  "roll_max": 60,
+  "description": "Este cinturão de ouro é cravejado de joias e possui gravuras de gladiadores e pugilistas minotauros. Você recebe +1 em Força e a habilidade Briga (somente após um dia de uso). Caso já a possua, seu dano desarmado será calculado como se você possuísse quatro níveis de lutador a mais (máximo 2d12). Por fim, caso possua o poder Torcida, o bônus que você recebe por ele aumenta para +3.",
+  "efeito": {
+    "bonus_atributo": {
+      "forca": 1
+    }
+  }
+}

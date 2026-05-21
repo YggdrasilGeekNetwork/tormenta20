@@ -1,0 +1,13 @@
+{
+  "id": "braceletes_de_bronze",
+  "name": "Braceletes de Bronze",
+  "categoria": "medio",
+  "preco": 16500,
+  "roll_min": 15,
+  "roll_max": 18,
+  "description": "Estes braceletes geram um campo de força invisível, porém tangível. Você recebe +4 na Defesa, cumulativo com outros itens mágicos, mas não com armaduras.",
+  "efeito": {
+    "bonus_defesa": 4,
+    "bonus_defesa_nao_acumula_armadura": true
+  }
+}

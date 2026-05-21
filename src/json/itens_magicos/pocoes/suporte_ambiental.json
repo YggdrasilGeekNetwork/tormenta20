@@ -1,0 +1,13 @@
+{
+  "id": "suporte_ambiental",
+  "name": "Suporte Ambiental",
+  "subtipo": "pocao",
+  "spell_id": "suporte_ambiental",
+  "pm_cost": 1,
+  "categoria": "menor",
+  "preco": 30,
+  "roll_min": 33,
+  "roll_max": 33,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Suporte Ambiental."
+}

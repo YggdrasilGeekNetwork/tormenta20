@@ -1,0 +1,13 @@
+{
+  "id": "luz",
+  "name": "Luz",
+  "subtipo": "oleo",
+  "spell_id": "luz",
+  "pm_cost": 1,
+  "categoria": "menor",
+  "preco": 30,
+  "roll_min": 21,
+  "roll_max": 22,
+  "aprimoramento": null,
+  "description": "Óleo que gera o efeito da magia Luz."
+}

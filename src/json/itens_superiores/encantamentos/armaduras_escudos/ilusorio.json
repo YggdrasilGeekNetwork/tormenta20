@@ -1,0 +1,10 @@
+{
+  "id": "ilusorio",
+  "name": "Ilusório",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "efeito": {
+    "descricao_curta": "1 PM: item assume aparência de roupa comum, mantendo propriedades"
+  },
+  "description": "Você pode gastar uma ação de movimento e 1 PM para fazer o item adquirir a aparência de uma roupa comum, mas mantendo suas propriedades (bônus na Defesa, penalidade de armadura...). A magia Visão da Verdade revela o item disfarçado."
+}

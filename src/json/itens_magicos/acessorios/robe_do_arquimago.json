@@ -1,0 +1,10 @@
+{
+  "id": "robe_do_arquimago",
+  "name": "Robe do Arquimago",
+  "categoria": "maior",
+  "preco": 90000,
+  "roll_min": 90,
+  "roll_max": 94,
+  "description": "Este traje pesado alinha-se com as energias arcanas emitidas por seu usuário para gerar um campo protetor. Se você for um conjurador arcano, recebe um bônus na Defesa igual a 5 + o círculo de magia mais alto que puder lançar e um bônus em testes de resistência igual à metade do bônus na Defesa. Assim, um arcanista de 9º nível (capaz de lançar magias de 3º círculo) recebe +8 na Defesa e +4 em testes de resistência.",
+  "efeito": {}
+}

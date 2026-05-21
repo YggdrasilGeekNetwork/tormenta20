@@ -36,15 +36,15 @@ module Tormenta20
       scope :para_tabela,   ->(tabela)      { where(tabela: tabela) }
       scope :associados,                    -> { where.not(registro_id: nil) }
       scope :nao_associados,                -> { where(registro_id: nil) }
-      scope :buscar_termo,  ->(q)           { where("termo LIKE ?", "%#{q}%") }
+      scope :buscar_termo, ->(q) { where("termo LIKE ?", "%#{q}%") }
 
       def to_h
         {
-          id:          id,
-          livro_id:    livro_id,
-          termo:       termo,
-          pagina:      pagina,
-          tabela:      tabela,
+          id: id,
+          livro_id: livro_id,
+          termo: termo,
+          pagina: pagina,
+          tabela: tabela,
           registro_id: registro_id
         }.compact
       end

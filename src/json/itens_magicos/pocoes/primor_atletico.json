@@ -1,0 +1,13 @@
+{
+  "id": "primor_atletico",
+  "name": "Primor Atlético",
+  "subtipo": "pocao",
+  "spell_id": "primor_atletico",
+  "pm_cost": 1,
+  "categoria": "menor",
+  "preco": 30,
+  "roll_min": 25,
+  "roll_max": 26,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Primor Atlético."
+}

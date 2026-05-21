@@ -1,0 +1,13 @@
+{
+  "id": "arma_magica_maior",
+  "name": "Arma Mágica (bônus +3)",
+  "subtipo": "oleo",
+  "spell_id": "arma_magica",
+  "pm_cost": 5,
+  "categoria": "medio",
+  "preco": 750,
+  "roll_min": 81,
+  "roll_max": 82,
+  "aprimoramento": "bônus +3",
+  "description": "Óleo que gera o efeito da magia Arma Mágica com aprimoramento para bônus +3."
+}

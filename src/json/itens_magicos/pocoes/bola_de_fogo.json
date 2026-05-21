@@ -1,0 +1,13 @@
+{
+  "id": "bola_de_fogo",
+  "name": "Bola de Fogo",
+  "subtipo": "granada",
+  "spell_id": "bola_de_fogo",
+  "pm_cost": 3,
+  "categoria": "medio",
+  "preco": 270,
+  "roll_min": 44,
+  "roll_max": 49,
+  "aprimoramento": null,
+  "description": "Granada que gera o efeito da magia Bola de Fogo."
+}

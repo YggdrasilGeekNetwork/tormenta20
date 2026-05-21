@@ -1,0 +1,14 @@
+{
+  "id": "torque_do_vigor",
+  "name": "Torque do Vigor",
+  "categoria": "menor",
+  "preco": 4500,
+  "roll_min": 72,
+  "roll_max": 77,
+  "description": "O acabamento deste colar ou bracelete remete a um animal poderoso, como um urso ou lobo. Você recebe +1 em Constituição (somente após um dia de uso).",
+  "efeito": {
+    "bonus_atributo": {
+      "constituicao": 1
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "esmacador",
+  "name": "Esmagador",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "escudo_only": true,
+  "efeito": {
+    "descricao_curta": "+2 ataque e dano; dano aumenta um passo (apenas escudos)"
+  },
+  "description": "Este escudo fornece +2 em ataques e dano e tem seu dano aumentado em um passo. Apenas escudos."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "fisico_divino",
+  "name": "Físico Divino",
+  "subtipo": "pocao",
+  "spell_id": "fisico_divino",
+  "pm_cost": 3,
+  "categoria": "medio",
+  "preco": 270,
+  "roll_min": 63,
+  "roll_max": 66,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Físico Divino."
+}

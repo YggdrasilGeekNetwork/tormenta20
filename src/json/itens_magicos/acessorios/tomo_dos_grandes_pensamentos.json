@@ -1,0 +1,10 @@
+{
+  "id": "tomo_dos_grandes_pensamentos",
+  "name": "Tomo dos Grandes Pensamentos",
+  "categoria": "maior",
+  "preco": 30000,
+  "roll_min": 47,
+  "roll_max": 52,
+  "description": "Este livro pesado contém exercícios para aprimorar o raciocínio e a memória, mas mesclado às palavras há um poderoso efeito mágico. Ler o livro leva uma semana e aumenta seu valor de Inteligência em +1 permanentemente (o atributo só pode ser aumentado uma vez com o Tomo). Assim que o livro é lido, a magia desaparece de suas páginas e ele se torna um item mundano.",
+  "efeito": {}
+}

@@ -1,0 +1,19 @@
+{
+  "id": "bainha_magica",
+  "name": "Bainha Mágica",
+  "categoria": "menor",
+  "preco": 3000,
+  "roll_min": 3,
+  "roll_max": 7,
+  "description": "Esta bainha de couro curtido e prata muda de tamanho para acomodar qualquer arma corpo a corpo. Você pode lançar Arma Mágica em qualquer arma na bainha sem pagar seu custo em PM.",
+  "efeito": {
+    "habilidades_ativas": [
+      {
+        "nome": "Arma Mágica (sem PM)",
+        "descricao": "Lança Arma Mágica em qualquer arma na bainha sem pagar PM.",
+        "custo_pm": 0,
+        "acao": "padrao"
+      }
+    ]
+  }
+}

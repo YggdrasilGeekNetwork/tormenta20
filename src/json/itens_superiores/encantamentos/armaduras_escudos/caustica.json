@@ -1,0 +1,10 @@
+{
+  "id": "caustica",
+  "name": "Cáustica",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "efeito": {
+    "descricao_curta": "Redução de ácido 10; 2 PM: ataques causam +1d4 de ácido até fim da cena"
+  },
+  "description": "Você recebe redução de ácido 10 e pode gastar uma ação de movimento e 2 PM para fazer o item gotejar ácido. Se fizer isso, seus ataques causam +1d4 de dano de ácido até o fim da cena."
+}

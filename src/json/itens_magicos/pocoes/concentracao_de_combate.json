@@ -1,0 +1,13 @@
+{
+  "id": "concentracao_de_combate",
+  "name": "Concentração de Combate",
+  "subtipo": "pocao",
+  "spell_id": "concentracao_de_combate",
+  "pm_cost": 3,
+  "categoria": "medio",
+  "preco": 270,
+  "roll_min": 52,
+  "roll_max": 53,
+  "aprimoramento": "duração cena",
+  "description": "Poção que gera o efeito da magia Concentração de Combate com aprimoramento para duração cena."
+}

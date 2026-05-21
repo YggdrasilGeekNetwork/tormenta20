@@ -1,0 +1,10 @@
+{
+  "id": "medalhao_de_lena",
+  "name": "Medalhão de Lena",
+  "categoria": "maior",
+  "preco": 30000,
+  "roll_min": 28,
+  "roll_max": 34,
+  "description": "Quando você é reduzido a 0 ou menos PV, esta joia emite uma explosão de energia positiva que cura 100 PV (antes que você caia). Este poder só se ativa uma vez por dia.",
+  "efeito": {}
+}

@@ -1,0 +1,22 @@
+{
+  "id": "inventario_organizado",
+  "name": "Inventário Organizado",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Você soma sua Inteligência no limite de espaços que pode carregar. Para você, itens muito leves ou pequenos, que normalmente ocupam meio espaço, em vez disso ocupam 1/4 de espaço.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "int",
+      "value": 13
+    }
+  ],
+  "effects": [
+    {
+      "type": "inventory_improvement",
+      "value": "int_modifier",
+      "duration": "permanente"
+    }
+  ]
+}

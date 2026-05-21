@@ -1,0 +1,10 @@
+{
+  "id": "assassina",
+  "name": "Assassina",
+  "type": "encantamento",
+  "categoria": "arma",
+  "efeito": {
+    "descricao_curta": "Ataque Furtivo usa d8; pode rolar novamente dados 1 por 2 PM"
+  },
+  "description": "A arma aumenta os dados de dano extra de um ataque furtivo para d8. Além disso, quando faz um Ataque Furtivo, você pode gastar 2 PM. Se fizer isso, pode rolar novamente quaisquer resultados 1 nesses dados de dano extra."
+}

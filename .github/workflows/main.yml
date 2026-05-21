@@ -1,39 +1,45 @@
-name: Ruby
+name: CI
 
 on:
   push:
-    branches:
-      - master
-
+    branches: [main]
   pull_request:
+    branches: [main]
+  release:
+    types: [published]
 
 jobs:
-  build:
+  spec:
+    name: Specs
     runs-on: ubuntu-latest
-    name: Ruby ${{ matrix.ruby }}
-    strategy:
-      matrix:
-        ruby:
-          - '3.3.6'
 
     steps:
       - uses: actions/checkout@v4
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+
+      - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: ${{ matrix.ruby }}
+          ruby-version: "3.3.6"
           bundler-cache: true
-      - name: Run the default task
+
+      - name: Run specs and RuboCop
         run: bundle exec rake
+        env:
+          COVERAGE: "true"
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          files: coverage/coverage.xml
+          token: ${{ secrets.CODECOV_TOKEN }}
 
   jsonlint:
+    name: JSON Lint
     runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@v4
 
-      - name: Set up Ruby
-        uses: ruby/setup-ruby@v1
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
         with:
           ruby-version: .ruby-version
           bundler-cache: true
@@ -41,5 +47,53 @@ jobs:
       - name: Install JSON Lint
         run: gem install jsonlint
 
-      - name: Lint jsons for consistency
-        run: jsonlint src/json/*.json
+      - name: Lint JSON files
+        run: find src/json -name "*.json" | xargs jsonlint
+
+  tag:
+    name: Auto-tag
+    needs: [spec, jsonlint]
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - name: Create timestamp tag
+        run: |
+          TAG="v$(date -u +'%Y%m%d-%H%M%S')"
+          git tag "$TAG"
+          git push origin "$TAG"
+
+  publish:
+    name: Publish to RubyGems
+    if: github.event_name == 'release'
+    runs-on: ubuntu-latest
+    # permissions:
+    #   contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: .ruby-version
+          bundler-cache: true
+
+      - name: Publish gem
+        env:
+          GEM_VERSION: ${{ github.event.release.name }}
+        run: |
+          mkdir -p ~/.gem
+          printf -- "---\n:rubygems_api_key: %s\n" "${{ secrets.RUBYGEMS_API_KEY }}" > ~/.gem/credentials
+          chmod 0600 ~/.gem/credentials
+          bundle config set --local frozen false
+          bundle exec rake build_db
+          gem build tormenta20.gemspec
+          gem push tormenta20-*.gem
+
+      # - name: Delete release on failure
+      #   if: failure()
+      #   env:
+      #     GH_TOKEN: ${{ github.token }}
+      #   run: gh release delete "${{ github.event.release.name }}" --yes

@@ -1,0 +1,10 @@
+{
+  "id": "sanguinaria",
+  "name": "Sanguinária",
+  "type": "encantamento",
+  "categoria": "arma",
+  "efeito": {
+    "descricao_curta": "Vítima sangra (cumulativo: +1d6 PV/rodada por acerto)"
+  },
+  "description": "Uma criatura viva atingida fica sangrando. A perda de PV por sangramento causada pela arma é cumulativa — uma criatura atingida duas vezes perde 2d6 PV por sangramento por rodada."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "sono",
+  "name": "Sono",
+  "subtipo": "pocao",
+  "spell_id": "sono",
+  "pm_cost": 1,
+  "categoria": "menor",
+  "preco": 30,
+  "roll_min": 31,
+  "roll_max": 32,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Sono."
+}

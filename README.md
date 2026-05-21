@@ -1,5 +1,10 @@
 # Tormenta20
 
+[![Gem Version](https://img.shields.io/gem/v/tormenta20)](https://rubygems.org/gems/tormenta20)
+[![CI](https://github.com/LuanGB/tormenta20/actions/workflows/main.yml/badge.svg)](https://github.com/LuanGB/tormenta20/actions/workflows/main.yml)
+[![Coverage](https://codecov.io/gh/YggdrasilGeekNetwork/tormenta20/graph/badge.svg?token=XB8BTBS6PJ)](https://codecov.io/gh/YggdrasilGeekNetwork/tormenta20)
+[![License](https://img.shields.io/github/license/LuanGB/tormenta20)](LICENSE.txt)
+
 Uma biblioteca Ruby com dados do RPG de mesa brasileiro Tormenta20.
 
 A gem inclui um banco de dados SQLite pré-populado com informações sobre magias, classes, origens, divindades, poderes, equipamentos, raças e condições do sistema Tormenta20. Todos os registros expõem referências de livro e página via o concern `BookReferenceable`.
@@ -263,7 +268,7 @@ bundle install
 
 ### Construir o Banco de Dados
 
-O banco de dados SQLite é construído a partir dos arquivos JSON em `src/json/`:
+O arquivo `db/tormenta20.sqlite3` é **gerado** a partir dos JSONs em `src/json/` e não está versionado no repositório. É necessário gerá-lo antes de rodar os specs ou a gem localmente:
 
 ```bash
 # Construir apenas o banco
@@ -272,6 +277,8 @@ rake build_db
 # Build completo da gem (inclui build_db automaticamente)
 rake build
 ```
+
+Os specs (`rake spec` / `rake`) também executam `build_db` automaticamente antes de rodar.
 
 ### Estrutura do Projeto
 
@@ -311,7 +318,17 @@ tormenta20/
 ### Testes
 
 ```bash
-rake spec
+bin/test
+```
+
+Ou individualmente:
+
+```bash
+# Apenas specs
+bundle exec rspec
+
+# Suite completa (build_db + specs + rubocop + jsonlint)
+bin/ci
 ```
 
 ### Linting

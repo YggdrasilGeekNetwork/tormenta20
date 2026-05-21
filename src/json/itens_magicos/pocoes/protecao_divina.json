@@ -1,0 +1,13 @@
+{
+  "id": "protecao_divina",
+  "name": "Proteção Divina",
+  "subtipo": "pocao",
+  "spell_id": "protecao_divina",
+  "pm_cost": 1,
+  "categoria": "menor",
+  "preco": 30,
+  "roll_min": 27,
+  "roll_max": 28,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Proteção Divina."
+}

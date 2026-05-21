@@ -1,0 +1,14 @@
+{
+  "id": "manoplas_da_forca_do_ogro",
+  "name": "Manoplas da Força do Ogro",
+  "categoria": "menor",
+  "preco": 4500,
+  "roll_min": 47,
+  "roll_max": 52,
+  "description": "Este par de luvas é feito de couro grosso com rebites de ferro. Você recebe +1 em Força (somente após um dia de uso).",
+  "efeito": {
+    "bonus_atributo": {
+      "forca": 1
+    }
+  }
+}

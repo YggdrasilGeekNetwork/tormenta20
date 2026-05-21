@@ -1,0 +1,12 @@
+{
+  "id": "colar_guardiao",
+  "name": "Colar Guardião",
+  "categoria": "maior",
+  "preco": 51000,
+  "roll_min": 61,
+  "roll_max": 67,
+  "description": "Este diamante lapidado preso em uma corrente de platina deflete ataques contra seu usuário. Você recebe +5 na Defesa.",
+  "efeito": {
+    "bonus_defesa": 5
+  }
+}

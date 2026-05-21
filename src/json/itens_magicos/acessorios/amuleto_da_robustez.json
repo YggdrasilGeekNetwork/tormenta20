@@ -1,0 +1,14 @@
+{
+  "id": "amuleto_da_robustez",
+  "name": "Amuleto da Robustez",
+  "categoria": "medio",
+  "preco": 25500,
+  "roll_min": 59,
+  "roll_max": 64,
+  "description": "Este disco com corrente de ouro é usado como um colar. Você recebe +2 em Constituição (somente após um dia de uso).",
+  "efeito": {
+    "bonus_atributo": {
+      "constituicao": 2
+    }
+  }
+}

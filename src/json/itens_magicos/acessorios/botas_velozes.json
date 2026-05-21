@@ -1,0 +1,20 @@
+{
+  "id": "botas_velozes",
+  "name": "Botas Velozes",
+  "categoria": "medio",
+  "preco": 25500,
+  "roll_min": 65,
+  "roll_max": 68,
+  "description": "Você recebe +3m em seu deslocamento e pode lançar Velocidade (apenas sobre você mesmo).",
+  "efeito": {
+    "bonus_deslocamento": 3,
+    "habilidades_ativas": [
+      {
+        "nome": "Velocidade",
+        "descricao": "Lança Velocidade apenas em você mesmo.",
+        "custo_pm": 0,
+        "acao": "padrao"
+      }
+    ]
+  }
+}

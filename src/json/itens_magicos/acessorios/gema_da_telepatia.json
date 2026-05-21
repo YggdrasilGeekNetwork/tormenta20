@@ -1,0 +1,25 @@
+{
+  "id": "gema_da_telepatia",
+  "name": "Gema da Telepatia",
+  "categoria": "maior",
+  "preco": 30000,
+  "roll_min": 3,
+  "roll_max": 4,
+  "description": "Você pode lançar Compreensão e Enfeitiçar (CD Car) sem pagar seu custo em PM.",
+  "efeito": {
+    "habilidades_ativas": [
+      {
+        "nome": "Compreensão (sem PM)",
+        "descricao": "Lança Compreensão sem pagar PM.",
+        "custo_pm": 0,
+        "acao": "padrao"
+      },
+      {
+        "nome": "Enfeitiçar (sem PM)",
+        "descricao": "Lança Enfeitiçar (CD Car) sem pagar PM.",
+        "custo_pm": 0,
+        "acao": "padrao"
+      }
+    ]
+  }
+}

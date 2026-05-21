@@ -1,0 +1,10 @@
+{
+  "id": "invulneravel",
+  "name": "Invulnerável",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "efeito": {
+    "descricao_curta": "Redução de dano 2 (escudo) ou 5 (armadura)"
+  },
+  "description": "Você recebe redução de dano 2 (para escudos) ou 5 (para armaduras)."
+}

@@ -44,8 +44,8 @@ module Tormenta20
         return @_indice_entry if defined?(@_indice_entry)
 
         @_indice_entry = Models::IndiceRemissivo
-          .includes(:livro)
-          .find_by(tabela: self.class.table_name, registro_id: id.to_s)
+                         .includes(:livro)
+                         .find_by(tabela: self.class.table_name, registro_id: id.to_s)
       end
     end
   end

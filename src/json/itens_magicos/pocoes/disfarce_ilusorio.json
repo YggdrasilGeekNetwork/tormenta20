@@ -1,0 +1,13 @@
+{
+  "id": "disfarce_ilusorio",
+  "name": "Disfarce Ilusório",
+  "subtipo": "pocao",
+  "spell_id": "disfarce_ilusorio",
+  "pm_cost": 1,
+  "categoria": "menor",
+  "preco": 30,
+  "roll_min": 16,
+  "roll_max": 18,
+  "aprimoramento": null,
+  "description": "Poção que gera o efeito da magia Disfarce Ilusório."
+}

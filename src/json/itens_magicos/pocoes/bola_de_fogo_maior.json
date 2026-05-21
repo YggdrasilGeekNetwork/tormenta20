@@ -1,0 +1,13 @@
+{
+  "id": "bola_de_fogo_maior",
+  "name": "Bola de Fogo (10d6 de dano)",
+  "subtipo": "granada",
+  "spell_id": "bola_de_fogo",
+  "pm_cost": 7,
+  "categoria": "maior",
+  "preco": 1470,
+  "roll_min": 93,
+  "roll_max": 96,
+  "aprimoramento": "10d6 de dano",
+  "description": "Granada que gera o efeito da magia Bola de Fogo com aprimoramento para 10d6 de dano."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "abençoar_alimentos",
+  "name": "Abençoar Alimentos",
+  "subtipo": "oleo",
+  "spell_id": "abencoar_alimentos",
+  "pm_cost": 1,
+  "categoria": "menor",
+  "preco": 30,
+  "roll_min": 1,
+  "roll_max": 1,
+  "aprimoramento": null,
+  "description": "Óleo que gera o efeito da magia Abençoar Alimentos."
+}

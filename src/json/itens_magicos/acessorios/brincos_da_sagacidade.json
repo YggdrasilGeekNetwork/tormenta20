@@ -1,0 +1,14 @@
+{
+  "id": "brincos_da_sagacidade",
+  "name": "Brincos da Sagacidade",
+  "categoria": "menor",
+  "preco": 4500,
+  "roll_min": 35,
+  "roll_max": 40,
+  "description": "Este par de brincos de safira aguça o raciocínio. Você recebe +1 em Inteligência (somente após um dia de uso).",
+  "efeito": {
+    "bonus_atributo": {
+      "inteligencia": 1
+    }
+  }
+}

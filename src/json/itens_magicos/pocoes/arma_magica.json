@@ -1,0 +1,13 @@
+{
+  "id": "arma_magica",
+  "name": "Arma Mágica",
+  "subtipo": "oleo",
+  "spell_id": "arma_magica",
+  "pm_cost": 1,
+  "categoria": "menor",
+  "preco": 30,
+  "roll_min": 4,
+  "roll_max": 6,
+  "aprimoramento": null,
+  "description": "Óleo que gera o efeito da magia Arma Mágica."
+}

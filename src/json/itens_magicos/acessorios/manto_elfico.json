@@ -1,0 +1,14 @@
+{
+  "id": "manto_elfico",
+  "name": "Manto Élfico",
+  "categoria": "menor",
+  "preco": 3000,
+  "roll_min": 25,
+  "roll_max": 29,
+  "description": "Indistinguível de um manto cinza comum. Entretanto, quando usado com o capuz cobrindo o rosto, fornece +5 em Furtividade.",
+  "efeito": {
+    "bonus_pericia": {
+      "furtividade": 5
+    }
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "id": "magnifica",
+  "name": "Magnífica",
+  "type": "encantamento",
+  "categoria": "arma",
+  "conta_como_dois": true,
+  "prerequisitos": ["formidavel"],
+  "efeito": {
+    "bonus_ataque": 4,
+    "bonus_dano": 4,
+    "descricao_curta": "+4 ataque e +4 dano; pré-req: formidável"
+  },
+  "description": "A arma é encantada para desferir golpes perfeitos. Ela fornece +4 em testes de ataque e rolagens de dano. Pré-requisito: formidável. Conta como dois encantos."
+}
