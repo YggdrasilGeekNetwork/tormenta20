@@ -1,0 +1,22 @@
+{
+  "id": "guerra",
+  "name": "Guerra",
+  "atributo": "INT",
+  "trained_only": true,
+  "armor_penalty": false,
+  "description": "Você foi educado em tática, estratégia e logística.",
+  "uses": [
+    {
+      "name": "Analisar Terreno",
+      "cd": 20,
+      "trained_only": false,
+      "description": "Como uma ação de movimento, você pode observar o campo de batalha. Se passar, descobre uma vantagem, como cobertura, camuflagem ou terreno elevado, se houver."
+    },
+    {
+      "name": "Plano de Ação",
+      "cd": 20,
+      "trained_only": false,
+      "description": "Como uma ação padrão, você orienta um aliado em alcance médio. Se passar, fornece +5 na Iniciativa dele. Se ele ficar com uma Iniciativa maior do que a sua e ainda não tiver agido nesta rodada, age imediatamente após seu turno. Nas próximas rodadas, ele age de acordo com a nova ordem."
+    }
+  ]
+}

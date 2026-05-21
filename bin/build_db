@@ -48,6 +48,8 @@ def main
   seed_acessorios(db)
   seed_regras(db)
   seed_condicoes(db)
+  seed_pericias(db)
+  seed_tabelas(db)
   seed_livros(db)
   seed_indice_remissivo(db)
 
@@ -515,6 +517,22 @@ def seed_condicoes(db)
                     %w[id name description effects condition_type escalates_to])
 end
 
+def seed_pericias(db)
+  import_json_files(db, "pericias", "pericias",
+                    %w[id name atributo trained_only armor_penalty resistance_skill description uses],
+                    transform: lambda { |data|
+                      data["trained_only"]     = data["trained_only"]     ? 1 : 0
+                      data["armor_penalty"]    = data["armor_penalty"]    ? 1 : 0
+                      data["resistance_skill"] = data["resistance_skill"] ? 1 : 0
+                      data
+                    })
+end
+
+def seed_tabelas(db)
+  import_json_files(db, "tabelas", "tabelas",
+                    %w[id name description headers rows])
+end
+
 def seed_livros(db)
   import_json_files(db, "livros", "livros", %w[id nome nome_curto])
 end
@@ -577,7 +595,7 @@ def print_summary
   puts "-" * 40
   %w[racas origens poderes divindades classes magias armaduras armas itens escudos
      materiais_especiais melhorias encantamentos pocoes acessorios_magicos
-     regras condicoes livros indice_remissivo].each do |table|
+     regras condicoes pericias tabelas livros indice_remissivo].each do |table|
     count = db.get_first_value("SELECT COUNT(*) FROM #{table}")
     puts "  #{table}: #{count}"
   end

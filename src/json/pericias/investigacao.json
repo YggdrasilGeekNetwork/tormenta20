@@ -1,0 +1,22 @@
+{
+  "id": "investigacao",
+  "name": "Investigação",
+  "atributo": "INT",
+  "trained_only": false,
+  "armor_penalty": false,
+  "description": "Você sabe encontrar pistas e informações.",
+  "uses": [
+    {
+      "name": "Interrogar",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você descobre informações perguntando ou indo para um lugar movimentado e mantendo os ouvidos atentos. Informações gerais não exigem teste. Informações restritas, que poucas pessoas conhecem, têm CD 20. Informações confidenciais ou que podem colocar em risco quem falar sobre elas têm CD 30. Este uso gasta uma hora e T$ 3d6 (para comprar bebidas, subornar oficiais etc.)."
+    },
+    {
+      "name": "Procurar",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você examina um local em busca de algo. A CD varia: 15 para um item no meio de uma bagunça, mas não necessariamente escondido; 20 para um item escondido (cofre atrás de um quadro, documento no fundo falso de uma gaveta); 30 para um item muito bem escondido (passagem secreta ativada por um botão, documento escrito com tinta invisível). Este uso gasta desde uma ação completa até um dia. Você também pode encontrar armadilhas (CD de acordo com a armadilha) e rastros."
+    }
+  ]
+}

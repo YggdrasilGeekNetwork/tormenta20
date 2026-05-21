@@ -1,0 +1,14 @@
+{
+  "id": "jogatina_resultados",
+  "name": "Resultados de Jogatina",
+  "description": "Resultados de um teste de Jogatina para o uso Apostar.",
+  "headers": ["Teste", "Ganho"],
+  "rows": [
+    { "Teste": "9 ou menos", "Ganho": "Nenhum" },
+    { "Teste": "10 a 14",    "Ganho": "Metade da aposta" },
+    { "Teste": "15 a 19",    "Ganho": "Valor da aposta (empate)" },
+    { "Teste": "20 a 29",    "Ganho": "Dobro da aposta" },
+    { "Teste": "30 a 39",    "Ganho": "Triplo da aposta" },
+    { "Teste": "40 ou mais", "Ganho": "Quíntuplo da aposta" }
+  ]
+}

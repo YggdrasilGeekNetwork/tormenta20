@@ -1,0 +1,28 @@
+{
+  "id": "cavalgar",
+  "name": "Cavalgar",
+  "atributo": "DES",
+  "trained_only": false,
+  "armor_penalty": false,
+  "description": "Você sabe conduzir animais de montaria, como cavalos, trobos e grifos. Ações simples não exigem testes — você pode encilhar, montar, cavalgar em terreno plano e desmontar automaticamente. Ações perigosas, entretanto, exigem testes da perícia. Esta perícia exige uma sela. Sem ela, você sofre –5 no teste.",
+  "uses": [
+    {
+      "name": "Conduzir",
+      "cd": null,
+      "trained_only": false,
+      "description": "Cavalgar através de obstáculos exige testes de Cavalgar. A CD é 15 para terreno ruim e obstáculos pequenos (planície pedregosa, vala estreita) e 25 para terreno perigoso ou obstáculos grandes (encosta nevada, pântano traiçoeiro). Se você falhar, cai da montaria e sofre 1d6 pontos de dano. Conduzir é parte de seu movimento e não exige uma ação."
+    },
+    {
+      "name": "Galopar",
+      "cd": null,
+      "trained_only": false,
+      "description": "Gaste uma ação completa e faça um teste de Cavalgar. Você avança um número de quadrados de 1,5m igual ao resultado do teste. Seu teste sofre um modificador de +/–2 para cada 1,5m de deslocamento acima ou abaixo de 9m que você possua."
+    },
+    {
+      "name": "Montar Rapidamente",
+      "cd": 20,
+      "trained_only": false,
+      "description": "Você pode montar ou desmontar como uma ação livre (o normal é gastar uma ação de movimento). Se falhar por 5 ou mais, você cai no chão."
+    }
+  ]
+}

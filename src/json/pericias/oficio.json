@@ -1,0 +1,34 @@
+{
+  "id": "oficio",
+  "name": "Ofício",
+  "atributo": "INT",
+  "trained_only": true,
+  "armor_penalty": false,
+  "description": "Ofício na verdade são várias perícias diferentes. Cada uma permite fabricar itens de certas categorias: Armeiro (Armas e Armaduras & Escudos), Artesão (Equipamento de Aventura, Ferramentas, Esotéricos e Veículos), Alquimista (Alquímicos), Cozinheiro (Alimentação), Alfaiate (Vestuário). Cada Ofício exige instrumentos de ofício específicos. Sem eles, você sofre –5 no teste.",
+  "uses": [
+    {
+      "name": "Consertar",
+      "cd": null,
+      "trained_only": false,
+      "description": "Reparar um item destruído tem a mesma CD para fabricá-lo. Cada tentativa consome uma hora de trabalho e um décimo do preço original do item. Em caso de falha, o tempo e o dinheiro são perdidos (mas você pode tentar novamente)."
+    },
+    {
+      "name": "Fabricar",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você produz um item gastando matéria-prima (um terço do preço) e tempo de trabalho. O tempo depende do tipo: um dia para consumíveis; uma semana para não consumíveis comuns; um mês para não consumíveis superiores e/ou mágicos. A CD é 15 para itens simples e 20 para itens complexos. Para consumíveis, você pode sofrer –5 no teste para fabricar duas unidades no mesmo tempo."
+    },
+    {
+      "name": "Identificar",
+      "cd": 20,
+      "trained_only": false,
+      "description": "Você pode identificar itens raros e exóticos ligados ao seu Ofício. Se passar, descobre as propriedades do item e seu preço. Este uso gasta uma ação completa."
+    },
+    {
+      "name": "Sustento",
+      "cd": 15,
+      "trained_only": false,
+      "description": "Com uma semana de trabalho e um teste de Ofício, você ganha T$ 1, mais T$ 1 por ponto que seu teste exceder a CD. Por exemplo, com resultado 20, ganha T$ 6 pela semana de trabalho."
+    }
+  ]
+}

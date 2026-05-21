@@ -1,0 +1,22 @@
+{
+  "id": "adestramento",
+  "name": "Adestramento",
+  "atributo": "CAR",
+  "trained_only": true,
+  "armor_penalty": false,
+  "description": "Você sabe lidar com animais.",
+  "uses": [
+    {
+      "name": "Acalmar Animal",
+      "cd": 25,
+      "trained_only": false,
+      "description": "Você acalma um animal nervoso ou agressivo. Isso permite a você controlar um cavalo assustado ou convencer um lobo a não devorá-lo. Este uso gasta uma ação completa."
+    },
+    {
+      "name": "Manejar Animal",
+      "cd": 15,
+      "trained_only": false,
+      "description": "Você faz um animal realizar uma tarefa para a qual foi treinado (como \"atacar\", \"sentar\", \"vigiar\"...). Isso permite usar Adestramento como Pilotagem para veículos de tração animal. Este uso gasta uma ação de movimento."
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "id": "sobrevivencia",
+  "name": "Sobrevivência",
+  "atributo": "SAB",
+  "trained_only": false,
+  "armor_penalty": false,
+  "description": "Você está em casa nos ermos.",
+  "uses": [
+    {
+      "name": "Acampamento",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você consegue abrigo e alimento para você e seu grupo por um dia (caçando, pescando, colhendo frutos...). A CD depende do terreno: 15 para planícies e colinas, 20 para florestas e pântanos, 25 para desertos ou montanhas e 30 para regiões planares perigosas ou áreas de Tormenta. Regiões áridas e clima ruim impõem penalidade cumulativa de –5. Este uso exige equipamento de viagem. Sem ele, você sofre –5 em seu teste."
+    },
+    {
+      "name": "Identificar Criatura",
+      "cd": null,
+      "trained_only": false,
+      "description": "A CD é 15 + ND da criatura. Você pode identificar um animal ou monstro. Veja a perícia Misticismo para detalhes."
+    },
+    {
+      "name": "Orientar-se",
+      "cd": null,
+      "trained_only": false,
+      "description": "Um personagem viajando pelos ermos precisa fazer um teste de Sobrevivência por dia para avançar. A CD depende do tipo de terreno. Se passar, você avança seu deslocamento normal. Se falhar, avança apenas metade. Se falhar por 5 ou mais, se perde e não avança pelo dia. Num grupo, um personagem deve ser escolhido como guia."
+    },
+    {
+      "name": "Rastrear",
+      "cd": null,
+      "trained_only": true,
+      "description": "Você pode identificar e seguir rastros. A CD é 15 para solo macio (neve, lama), 20 para solo comum (grama, terra) e 25 para solo duro (rocha ou piso de interiores). A CD diminui em –5 se você estiver rastreando um grupo grande ou criaturas Enormes ou Colossais, mas aumenta em +5 em visibilidade precária. Enquanto rastreia, seu deslocamento é reduzido à metade. A cada dia desde a criação dos rastros, a CD aumenta em +1."
+    }
+  ]
+}

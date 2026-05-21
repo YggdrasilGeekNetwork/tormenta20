@@ -1,0 +1,6 @@
+{
+  "id": "pericias_de_resistencia",
+  "name": "Perícias de Resistência",
+  "description": "Fortitude, Reflexos e Vontade são usadas para resistir a efeitos negativos, como uma explosão ou um encantamento de controle mental. Por isso, são chamadas de perícias de resistência. Efeitos que afetem seus \"testes de resistência\" afetam todos os testes destas perícias. Assim, um efeito que forneça +1 em testes de resistência fornece +1 em Fortitude, Reflexos e Vontade.",
+  "pericias": ["fortitude", "reflexos", "vontade"]
+}

@@ -1,0 +1,46 @@
+{
+  "id": "misticismo",
+  "name": "Misticismo",
+  "atributo": "INT",
+  "trained_only": true,
+  "armor_penalty": false,
+  "description": "Esta perícia envolve o conhecimento de magias, itens mágicos e fenômenos sobrenaturais.",
+  "uses": [
+    {
+      "name": "Detectar Magia",
+      "cd": 15,
+      "trained_only": false,
+      "description": "Como uma ação completa, você detecta a presença e intensidade de auras mágicas em alcance curto (mas não suas localizações exatas). A intensidade depende do círculo da magia ou categoria do item mágico. Caso a aura esteja atrás de uma barreira, você sofre penalidade (–5 para madeira ou pedra, –10 para ferro ou chumbo)."
+    },
+    {
+      "name": "Identificar Criatura",
+      "cd": null,
+      "trained_only": false,
+      "description": "A CD é 15 + ND da criatura. Você analisa uma criatura mágica (construto, dragão, fada, morto-vivo etc.) que possa ver. Se passar, lembra uma característica da criatura. Para cada 5 pontos pelos quais o resultado superar a CD, você lembra outra característica. Se falhar por 5 ou mais, tira uma conclusão errada. Este uso gasta uma ação padrão."
+    },
+    {
+      "name": "Identificar Item Mágico",
+      "cd": null,
+      "trained_only": false,
+      "description": "A CD é 20 para itens mágicos menores, 25 para médios e 30 para maiores. Você estuda um item mágico para identificar seus poderes. Este uso gasta uma hora. Você pode sofrer –10 no teste para diminuir o tempo para uma ação completa."
+    },
+    {
+      "name": "Identificar Magia",
+      "cd": null,
+      "trained_only": false,
+      "description": "A CD é 15 + custo em PM da magia. Quando alguém lança uma magia, você pode adivinhar qual é através de seus gestos e palavras. Este uso é uma reação."
+    },
+    {
+      "name": "Informação",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você responde dúvidas relativas a magias, itens mágicos, fenômenos sobrenaturais, runas, profecias, planos de existência etc. Questões simples não exigem teste. Questões complexas tem CD 20. Por fim, mistérios e enigmas tem CD 30."
+    },
+    {
+      "name": "Lançar Magia de Armadura",
+      "cd": null,
+      "trained_only": false,
+      "description": "A CD é 20 + custo em PM da magia. Lançar uma magia arcana usando armadura exige um teste. Esse teste sofre penalidade de armadura. Se falhar, a magia não funciona, mas gasta pontos de mana mesmo assim."
+    }
+  ]
+}

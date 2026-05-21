@@ -27,6 +27,8 @@ module Tormenta20
         seed_itens_superiores
         seed_regras
         seed_condicoes
+        seed_pericias
+        seed_tabelas
 
         log "Database seeded successfully!"
       end
@@ -358,6 +360,22 @@ module Tormenta20
           "condicoes",
           Models::Condicao,
           %i[id name description effects condition_type escalates_to]
+        )
+      end
+
+      def seed_pericias
+        import_json_files(
+          "pericias",
+          Models::Pericia,
+          %i[id name atributo trained_only armor_penalty resistance_skill description uses]
+        )
+      end
+
+      def seed_tabelas
+        import_json_files(
+          "tabelas",
+          Models::Tabela,
+          %i[id name description headers rows]
         )
       end
 

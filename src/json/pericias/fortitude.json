@@ -1,0 +1,10 @@
+{
+  "id": "fortitude",
+  "name": "Fortitude",
+  "atributo": "CON",
+  "trained_only": false,
+  "armor_penalty": false,
+  "resistance_skill": true,
+  "description": "Você usa esta perícia para resistir a efeitos que exigem vitalidade, como doenças e venenos. A CD é determinada pelo efeito. Você também usa Fortitude para manter seu fôlego quando está correndo ou sem respirar. A CD é 15 +1 por teste anterior.",
+  "uses": []
+}

@@ -1,0 +1,46 @@
+{
+  "id": "acrobacia",
+  "name": "Acrobacia",
+  "atributo": "DES",
+  "trained_only": false,
+  "armor_penalty": true,
+  "description": "Você consegue fazer proezas acrobáticas.",
+  "uses": [
+    {
+      "name": "Amortecer Queda",
+      "cd": 15,
+      "trained_only": true,
+      "description": "Quando cai, você pode gastar uma reação e fazer um teste de Acrobacia para reduzir o dano. Se passar, reduz o dano da queda em 1d6, mais 1d6 para cada 5 pontos pelos quais o resultado do teste exceder a CD. Se reduzir o dano a zero, você cai de pé."
+    },
+    {
+      "name": "Equilíbrio",
+      "cd": null,
+      "trained_only": false,
+      "description": "Se estiver andando por superfícies precárias, você precisa fazer testes de Acrobacia para não cair. Cada ação de movimento exige um teste. Se passar, você avança metade do seu deslocamento. Se falhar, não avança. Se falhar por 5 ou mais, cai. A CD é 10 para piso escorregadio, 15 para uma superfície estreita (como o topo de um muro) e 20 para uma superfície muito estreita (como uma corda esticada). Você pode sofrer –5 no teste para avançar seu deslocamento total. Quando está se equilibrando você fica desprevenido e, se sofrer dano, deve fazer um novo teste de Acrobacia; se falhar, cai."
+    },
+    {
+      "name": "Escapar",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você pode escapar de amarras. A dificuldade varia: cordas (CD igual ao resultado do teste de Destreza de quem o amarrou +10), redes (CD 20), algemas (CD 30). Este uso gasta uma ação completa."
+    },
+    {
+      "name": "Levantar-se Rapidamente",
+      "cd": 20,
+      "trained_only": true,
+      "description": "Se estiver caído, você pode fazer um teste de Acrobacia para ficar de pé. Você precisa ter uma ação de movimento disponível. Se passar no teste, se levanta como uma ação livre. Se falhar, gasta sua ação de movimento, mas continua caído."
+    },
+    {
+      "name": "Passar por Espaço Apertado",
+      "cd": 25,
+      "trained_only": true,
+      "description": "Você pode se espremer por espaços estreitos, suficientes para criaturas uma categoria de tamanho menor. Você gasta uma ação completa e avança metade do deslocamento."
+    },
+    {
+      "name": "Passar por Inimigo",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você pode atravessar um espaço ocupado por um inimigo como parte de seu movimento. Faça um teste de Acrobacia oposto ao teste de Acrobacia, Iniciativa ou Luta do oponente (o que for melhor). Se você passar, atravessa o espaço; se falhar, não atravessa e sua ação de movimento termina. Um espaço ocupado por um inimigo conta como terreno difícil."
+    }
+  ]
+}

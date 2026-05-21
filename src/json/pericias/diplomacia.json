@@ -1,0 +1,28 @@
+{
+  "id": "diplomacia",
+  "name": "Diplomacia",
+  "atributo": "CAR",
+  "trained_only": false,
+  "armor_penalty": false,
+  "description": "Você convence pessoas com lábia e argumentação. Usos de Diplomacia são efeitos mentais.",
+  "uses": [
+    {
+      "name": "Barganha",
+      "cd": null,
+      "trained_only": false,
+      "description": "Comprando ou vendendo algo, você pode barganhar. Seu teste de Diplomacia é oposto pelo teste de Vontade do negociante. Se passar, você muda o preço em 10% a seu favor. Se passar por 10 ou mais, muda em 20%. Se falhar por 5 ou mais, você ofende o negociante — ele não voltará a tratar com você durante pelo menos uma semana."
+    },
+    {
+      "name": "Mudar Atitude",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você muda a categoria de atitude de um NPC em relação a você ou a outra pessoa. Faça um teste de Diplomacia oposto pelo teste de Vontade do alvo. Se você passar, muda a atitude dele em uma categoria para cima ou para baixo, à sua escolha (ou, se passar por 10 ou mais, em duas categorias). Se falhar por 5 ou mais, a atitude do alvo muda uma categoria na direção oposta. Este uso gasta um minuto. Você pode sofrer –10 no teste para fazê-lo como uma ação completa. Você só pode mudar a atitude de um mesmo alvo uma vez por dia."
+    },
+    {
+      "name": "Persuasão",
+      "cd": 20,
+      "trained_only": false,
+      "description": "Você convence uma pessoa a fazer algo, como responder uma pergunta ou prestar um favor. Se essa coisa for custosa, você sofre –5 em seu teste. Se for perigosa, você sofre –10 ou falha automaticamente. De acordo com o mestre, seu teste pode ser oposto ao teste de Vontade da pessoa. Este uso gasta um minuto ou mais, de acordo com o mestre."
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "intimidacao",
+  "name": "Intimidação",
+  "atributo": "CAR",
+  "trained_only": false,
+  "armor_penalty": false,
+  "description": "Você pode assustar ou coagir outras pessoas. Usos de Intimidação são efeitos de medo.",
+  "uses": [
+    {
+      "name": "Assustar",
+      "cd": null,
+      "trained_only": false,
+      "description": "Gaste uma ação padrão e faça um teste de Intimidação oposto pelo teste de Vontade de uma criatura em alcance curto. Se você passar, ela fica abalada pelo resto da cena. Se você passar por 10 ou mais, ela fica apavorada por uma rodada e então abalada pelo resto da cena."
+    },
+    {
+      "name": "Coagir",
+      "cd": null,
+      "trained_only": false,
+      "description": "Faça um teste de Intimidação oposto pelo teste de Vontade de uma criatura inteligente (Int –3 ou maior) adjacente. Se você passar, ela obedece uma ordem sua. Se você mandá-la fazer algo perigoso ou que vá contra a natureza dela, ela recebe +5 no teste ou passa automaticamente. Este uso gasta um minuto ou mais, de acordo com o mestre, e deixa o alvo hostil contra você."
+    }
+  ]
+}

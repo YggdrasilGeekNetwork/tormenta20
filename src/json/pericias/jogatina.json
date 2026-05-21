@@ -1,0 +1,17 @@
+{
+  "id": "jogatina",
+  "name": "Jogatina",
+  "atributo": "CAR",
+  "trained_only": true,
+  "armor_penalty": false,
+  "description": "Você sabe jogar jogos de azar.",
+  "uses": [
+    {
+      "name": "Apostar",
+      "cd": null,
+      "trained_only": false,
+      "table_id": "jogatina_resultados",
+      "description": "Para resolver uma noite de jogatina, pague T$ 1d10, faça um teste de perícia e consulte a tabela de resultados. O mestre pode variar o valor da aposta básica."
+    }
+  ]
+}

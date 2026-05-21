@@ -1,0 +1,9 @@
+{
+  "id": "iniciativa",
+  "name": "Iniciativa",
+  "atributo": "DES",
+  "trained_only": false,
+  "armor_penalty": false,
+  "description": "Esta perícia determina sua velocidade de reação em situações de perigo. Quando uma cena de ação começa, cada personagem envolvido faz um teste de Iniciativa. Eles então agem em ordem decrescente dos resultados.",
+  "uses": []
+}

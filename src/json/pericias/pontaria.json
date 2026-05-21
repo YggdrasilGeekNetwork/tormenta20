@@ -1,0 +1,9 @@
+{
+  "id": "pontaria",
+  "name": "Pontaria",
+  "atributo": "DES",
+  "trained_only": false,
+  "armor_penalty": false,
+  "description": "Você usa Pontaria para fazer ataques à distância. A CD é a Defesa do alvo. Se você acertar, causa dano de acordo com a arma utilizada.",
+  "uses": []
+}

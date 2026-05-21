@@ -519,6 +519,52 @@ BEGIN
   UPDATE acessorios_magicos SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
 END;
 
+-- -----------------------------------------------------------------------------
+-- PERÍCIAS (Skills)
+-- -----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS pericias (
+  id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  atributo TEXT NOT NULL CHECK(atributo IN ('FOR', 'DES', 'CON', 'INT', 'SAB', 'CAR')),
+  trained_only INTEGER NOT NULL DEFAULT 0,
+  armor_penalty INTEGER NOT NULL DEFAULT 0,
+  resistance_skill INTEGER NOT NULL DEFAULT 0,
+  description TEXT,
+  uses JSON DEFAULT '[]',
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_pericias_atributo ON pericias(atributo);
+CREATE INDEX IF NOT EXISTS idx_pericias_trained_only ON pericias(trained_only);
+
+CREATE TRIGGER IF NOT EXISTS update_pericias_timestamp
+AFTER UPDATE ON pericias
+BEGIN
+  UPDATE pericias SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
+END;
+
+-- -----------------------------------------------------------------------------
+-- TABELAS (Reference Tables)
+-- -----------------------------------------------------------------------------
+CREATE TABLE IF NOT EXISTS tabelas (
+  id TEXT PRIMARY KEY,
+  name TEXT NOT NULL,
+  description TEXT,
+  headers JSON NOT NULL DEFAULT '[]',
+  rows JSON NOT NULL DEFAULT '[]',
+  created_at DATETIME DEFAULT CURRENT_TIMESTAMP,
+  updated_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE INDEX IF NOT EXISTS idx_tabelas_name ON tabelas(name);
+
+CREATE TRIGGER IF NOT EXISTS update_tabelas_timestamp
+AFTER UPDATE ON tabelas
+BEGIN
+  UPDATE tabelas SET updated_at = CURRENT_TIMESTAMP WHERE id = NEW.id;
+END;
+
 -- =============================================================================
 -- VIEWS ÚTEIS
 -- =============================================================================

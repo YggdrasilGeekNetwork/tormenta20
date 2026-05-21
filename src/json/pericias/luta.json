@@ -1,0 +1,9 @@
+{
+  "id": "luta",
+  "name": "Luta",
+  "atributo": "FOR",
+  "trained_only": false,
+  "armor_penalty": false,
+  "description": "Você usa Luta para fazer ataques corpo a corpo. A CD é a Defesa do alvo. Se você acertar, causa dano de acordo com a arma utilizada.",
+  "uses": []
+}

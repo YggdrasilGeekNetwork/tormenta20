@@ -1,0 +1,22 @@
+{
+  "id": "percepcao",
+  "name": "Percepção",
+  "atributo": "SAB",
+  "trained_only": false,
+  "armor_penalty": false,
+  "description": "Você nota coisas usando seus sentidos.",
+  "uses": [
+    {
+      "name": "Observar",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você vê coisas discretas ou escondidas. A CD varia de 15, para algo difícil de ser visto, a 30, para algo quase invisível. Para pessoas ou itens escondidos, a CD é o resultado do teste de Furtividade ou Ladinagem feito para esconder a pessoa ou o item. Você também pode ler lábios (CD 20)."
+    },
+    {
+      "name": "Ouvir",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você escuta barulhos sutis. Uma conversa casual próxima tem CD 0. Ouvir pessoas sussurrando tem CD 15. Ouvir do outro lado de uma porta aumenta a CD em +10. Você pode fazer testes de Percepção para ouvir mesmo que esteja dormindo, mas sofre –10 no teste; um sucesso faz você acordar. Perceber criaturas que não possam ser vistas tem CD 20, ou +10 no teste de Furtividade da criatura, o que for maior."
+    }
+  ]
+}

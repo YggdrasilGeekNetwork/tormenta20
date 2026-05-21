@@ -1,0 +1,22 @@
+{
+  "id": "conhecimento",
+  "name": "Conhecimento",
+  "atributo": "INT",
+  "trained_only": true,
+  "armor_penalty": false,
+  "description": "Você estudou diversos campos do saber, como aritmética, astronomia, dialética, geografia, história...",
+  "uses": [
+    {
+      "name": "Idiomas",
+      "cd": 20,
+      "trained_only": false,
+      "description": "Você pode entender idiomas desconhecidos. Se falhar por 5 ou mais, você tira uma conclusão falsa. Idiomas exóticos ou muito antigos têm CD 30."
+    },
+    {
+      "name": "Informação",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você responde dúvidas gerais. Questões simples, como o ano de fundação de um reino, não exigem testes. Questões complexas, como saber o antídoto de um veneno, tem CD 20. Por fim, mistérios e enigmas, como a origem de uma antiga maldição, tem CD 30."
+    }
+  ]
+}

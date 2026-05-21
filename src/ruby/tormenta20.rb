@@ -202,6 +202,26 @@ module Tormenta20
       Models::Livro
     end
 
+    # Access the Pericia (Skill) model for querying skill rules.
+    #
+    # @return [Class<Models::Pericia>] The Pericia model class
+    # @example
+    #   Tormenta20.pericias.all
+    #   Tormenta20.pericias.trained_only
+    #   Tormenta20.pericias.by_attribute("DES")
+    def pericias
+      Models::Pericia
+    end
+
+    # Access the Tabela (Reference Table) model for querying game tables.
+    #
+    # @return [Class<Models::Tabela>] The Tabela model class
+    # @example
+    #   Tormenta20.tabelas.find("jogatina_resultados")
+    def tabelas
+      Models::Tabela
+    end
+
     # Acesso ao índice remissivo.
     #
     # @return [Class] Tormenta20::Models::IndiceRemissivo

@@ -1,0 +1,22 @@
+{
+  "id": "nobreza",
+  "name": "Nobreza",
+  "atributo": "INT",
+  "trained_only": true,
+  "armor_penalty": false,
+  "description": "Você recebeu a educação de um nobre.",
+  "uses": [
+    {
+      "name": "Etiqueta",
+      "cd": 15,
+      "trained_only": false,
+      "description": "Você sabe se portar em ambientes aristocráticos, como bailes e audiências."
+    },
+    {
+      "name": "Informação",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você responde dúvidas relativas a leis, tradições, linhagens e heráldica. Questões simples não exigem teste. Questões complexas tem CD 20. Por fim, mistérios e enigmas tem CD 30."
+    }
+  ]
+}

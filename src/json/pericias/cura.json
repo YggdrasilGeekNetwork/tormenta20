@@ -1,0 +1,34 @@
+{
+  "id": "cura",
+  "name": "Cura",
+  "atributo": "SAB",
+  "trained_only": false,
+  "armor_penalty": false,
+  "description": "Você sabe tratar ferimentos, doenças e venenos. Esta perícia exige uma maleta de medicamentos. Sem ela, você sofre –5 no teste. Você pode usar a perícia Cura em si mesmo, mas sofre –5 no teste.",
+  "uses": [
+    {
+      "name": "Cuidados Prolongados",
+      "cd": 15,
+      "trained_only": true,
+      "description": "Você trata uma pessoa para que ela se recupere mais rapidamente. Se passar, ela aumenta sua recuperação de PV em +1 por nível nesse dia. Este uso leva uma hora e o número máximo de pessoas que você pode cuidar é igual ao seu nível."
+    },
+    {
+      "name": "Necropsia",
+      "cd": 20,
+      "trained_only": true,
+      "description": "Você examina um cadáver para determinar a causa e o momento aproximado da morte. Causas raras ou extraordinárias, como um veneno ou maldição, possuem CD 30. Este uso leva dez minutos."
+    },
+    {
+      "name": "Primeiros Socorros",
+      "cd": 15,
+      "trained_only": false,
+      "description": "Você estabiliza um personagem adjacente que esteja sangrando. Este uso gasta uma ação padrão."
+    },
+    {
+      "name": "Tratamento",
+      "cd": null,
+      "trained_only": true,
+      "description": "Você ajuda a vítima de uma doença ou veneno com efeito contínuo. Gaste uma ação completa e faça um teste de Cura contra a CD da doença ou veneno. Se você passar, o paciente recebe +5 em seu próximo teste de Fortitude contra esse efeito."
+    }
+  ]
+}

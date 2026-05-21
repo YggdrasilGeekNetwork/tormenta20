@@ -1,0 +1,46 @@
+{
+  "id": "enganacao",
+  "name": "Enganação",
+  "atributo": "CAR",
+  "trained_only": false,
+  "armor_penalty": false,
+  "description": "Você manipula pessoas com blefes e trapaças.",
+  "uses": [
+    {
+      "name": "Disfarce",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você muda sua aparência ou a de outra pessoa. Faça um teste de Enganação oposto pelo teste de Percepção de quem prestar atenção no disfarçado. Se você passar, a pessoa acredita no disfarce; caso contrário, percebe que há algo errado. Disfarces muito complexos (como uma raça diferente) impõem –5 no seu teste. Se o disfarce é de uma pessoa específica, quem conhecer essa pessoa recebe +10 no teste de Percepção. Um disfarce exige dez minutos e um estojo de disfarces. Sem ele, você sofre –5 no teste."
+    },
+    {
+      "name": "Falsificação",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você falsifica um documento. Faça um teste de Enganação oposto pelo teste de Percepção de quem examinar o documento. Se você passar, a pessoa acredita na falsificação; caso contrário, percebe que é falso. Se o documento é muito complexo, ou inclui uma assinatura ou carimbo específico, você sofre –10 no teste. Usada em conjunto com Ofício, você pode falsificar outros objetos."
+    },
+    {
+      "name": "Fintar",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você pode gastar uma ação padrão e fazer um teste de Enganação oposto a um teste de Reflexos de um ser em alcance curto. Se você passar, ele fica desprevenido contra seu próximo ataque, se realizado até o fim de seu próximo turno."
+    },
+    {
+      "name": "Insinuação",
+      "cd": 20,
+      "trained_only": false,
+      "description": "Você fala algo para alguém sem que outras pessoas entendam do que você está falando. Se você passar, o receptor entende sua mensagem. Se você falhar por 5 ou mais, ele entende algo diferente do que você queria. Outras pessoas podem fazer um teste de Intuição oposto ao seu teste de Enganação. Se passarem, entendem o que você está dizendo."
+    },
+    {
+      "name": "Intriga",
+      "cd": 20,
+      "trained_only": false,
+      "description": "Você espalha uma fofoca. Intrigas muito improváveis têm CD 30. Se você falhar por 5 ou mais, o alvo da intriga descobre que você está fofocando a respeito dele. Uma pessoa pode investigar a fonte da intriga (CD igual ao seu teste para a intriga). Este uso exige um dia ou mais, de acordo com o mestre."
+    },
+    {
+      "name": "Mentir",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você faz uma pessoa acreditar em algo que não é verdade. Seu teste é oposto pelo teste de Intuição da vítima. Mentiras muito implausíveis impõem uma penalidade de –10 em seu teste."
+    }
+  ]
+}

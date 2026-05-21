@@ -1,0 +1,9 @@
+{
+  "id": "pilotagem",
+  "name": "Pilotagem",
+  "atributo": "DES",
+  "trained_only": true,
+  "armor_penalty": false,
+  "description": "Você sabe operar veículos como carroças, barcos e balões. Ações simples não exigem testes — você pode atrelhar seus trobos a sua carroça e conduzi-la pela estrada, ou levantar âncora e velejar seu navio em águas tranquilas, automaticamente. Conduzir um veículo em situações ruins exige uma ação de movimento e um teste de Pilotagem (CD 15). Se falhar, você avança metade do deslocamento. Se falhar por 5 ou mais, se acidenta. Situações extremas aumentam a CD para 25.",
+  "uses": []
+}

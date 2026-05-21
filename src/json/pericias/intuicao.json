@@ -1,0 +1,22 @@
+{
+  "id": "intuicao",
+  "name": "Intuição",
+  "atributo": "SAB",
+  "trained_only": false,
+  "armor_penalty": false,
+  "description": "Esta perícia mede sua empatia e \"sexto sentido\".",
+  "uses": [
+    {
+      "name": "Perceber Mentira",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você descobre se alguém está mentindo (veja a perícia Enganação)."
+    },
+    {
+      "name": "Pressentimento",
+      "cd": 20,
+      "trained_only": true,
+      "description": "Você analisa uma pessoa, para ter uma noção de sua índole ou caráter, ou uma situação, para saber se há algo anormal (por exemplo, se os habitantes de uma vila estão agindo de forma estranha). Este uso apenas indica se há algo anormal, mas não revela a causa."
+    }
+  ]
+}

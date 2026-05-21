@@ -1,0 +1,34 @@
+{
+  "id": "religiao",
+  "name": "Religião",
+  "atributo": "SAB",
+  "trained_only": true,
+  "armor_penalty": false,
+  "description": "Você possui conhecimento sobre os deuses e as religiões de Arton.",
+  "uses": [
+    {
+      "name": "Identificar Criatura",
+      "cd": null,
+      "trained_only": false,
+      "description": "A CD é 15 + ND da criatura. Você pode identificar uma criatura com origem divina (anjos, demônios, alguns mortos-vivos e construtos etc.). Veja a perícia Misticismo para detalhes."
+    },
+    {
+      "name": "Identificar Item Mágico",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você pode identificar um item mágico de origem divina. Veja a perícia Misticismo para detalhes."
+    },
+    {
+      "name": "Informação",
+      "cd": null,
+      "trained_only": false,
+      "description": "Você responde dúvidas relativas a deuses, profecias, planos de existência etc. Questões simples não exigem teste. Questões complexas tem CD 20. Por fim, mistérios e enigmas tem CD 30."
+    },
+    {
+      "name": "Rito",
+      "cd": 20,
+      "trained_only": false,
+      "description": "Você realiza uma cerimônia religiosa, como um batizado, casamento ou funeral. Isso inclui a cerimônia de penitência para redimir um devoto que tenha descumprido as Obrigações & Restrições de sua divindade. Uma cerimônia de penitência exige um sacrifício de T$ 100 por nível de personagem do devoto ou a realização de uma missão sagrada."
+    }
+  ]
+}
