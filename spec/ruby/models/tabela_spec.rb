@@ -44,7 +44,7 @@ RSpec.describe Tormenta20::Models::Tabela do
         expect(hash).to be_a(Hash)
         expect(hash[:id]).to eq("jogatina_resultados")
         expect(hash[:headers]).to be_an(Array)
-        expect(hash[:headers]).to eq(["Teste", "Ganho"])
+        expect(hash[:headers]).to eq(%w[Teste Ganho])
         expect(hash[:rows]).to be_an(Array)
         expect(hash[:rows].size).to eq(6)
       end
