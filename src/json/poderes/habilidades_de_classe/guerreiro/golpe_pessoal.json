@@ -4,7 +4,27 @@
   "type": "habilidade_de_classe",
   "sub_type": "poder_de_guerreiro",
   "description": "Quando faz um ataque, você pode desferir seu Golpe Pessoal, uma manobra única, com efeitos determinados por você. Você constrói o seu Golpe Pessoal escolhendo efeitos da lista a seguir. Cada efeito possui um custo; a soma   deles será o custo do Golpe Pessoal (mínimo 1 PM e máximo igual ao seu nível). O Golpe Pessoal só pode ser usado com um tipo de arma específico (por exemplo, apenas espadas longas). Quando sobe de nível, você pode reconstruir seu Golpe Pessoal e alterar a arma que ele usa. Você pode escolher este poder outras vezes para golpes diferentes.",
-  "requirements": "ver_texto",
-  "effects": "ver_texto",
-  "costs": "ver_texto"
+  "requirements": null,
+  "effects": {
+    "options": [
+      { "id": "preciso", "name": "Preciso", "cost": 1, "description": "+2 no ataque" },
+      { "id": "penetrante", "name": "Penetrante", "cost": 1, "description": "Ignora resistência" },
+      { "id": "brutal", "name": "Brutal", "cost": 1, "description": "+1 dado de dano" },
+      { "id": "qualquer_arma", "name": "Qualquer Arma", "cost": 1, "description": "Funciona com qualquer arma" },
+      { "id": "teleguiado", "name": "Teleguiado", "cost": 1, "description": "Alvo não pode esquivar" },
+      { "id": "impactante", "name": "Impactante", "cost": 1, "description": "Empurra o alvo 1,5m" },
+      { "id": "a_distancia", "name": "À Distância", "cost": 1, "description": "Alcance curto" },
+      { "id": "destruidor", "name": "Destruidor", "cost": 2, "description": "+1 no multiplicador de crítico" },
+      { "id": "letal", "name": "Letal", "cost": 2, "description": "+2 na margem de ameaça" },
+      { "id": "elemental", "name": "Elemental", "cost": 2, "description": "+2d6 dano elementar" },
+      { "id": "atordoante", "name": "Atordoante", "cost": 2, "description": "Alvo faz Fort ou fica atordoado" },
+      { "id": "conjurador", "name": "Conjurador", "cost": 2, "description": "Combina com magia" },
+      { "id": "amplo", "name": "Amplo", "cost": 3, "description": "Afeta todos em alcance curto" },
+      { "id": "lento", "name": "Lento", "cost": -1, "description": "Ação completa em vez de padrão" },
+      { "id": "sacrificio", "name": "Sacrifício", "cost": -2, "description": "Paga com PV em vez de PM" },
+      { "id": "perto_da_morte", "name": "Perto da Morte", "cost": -2, "description": "Só funciona com PV ≤ metade" }
+    ],
+    "elemental_types": ["fogo", "frio", "eletricidade", "acido", "sonico", "luz", "trevas"]
+  },
+  "costs": null
 }
