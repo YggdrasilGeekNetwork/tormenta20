@@ -34,12 +34,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/LuanGB/tormenta20.git"
+    "url": "git+https://github.com/YggdrasilGeekNetwork/tormenta20.git"
   },
   "bugs": {
-    "url": "https://github.com/LuanGB/tormenta20/issues"
+    "url": "https://github.com/YggdrasilGeekNetwork/tormenta20/issues"
   },
-  "homepage": "https://github.com/LuanGB/tormenta20#readme",
+  "homepage": "https://github.com/YggdrasilGeekNetwork/tormenta20#readme",
   "dependencies": {
     "better-sqlite3": "^9.6.0"
   },

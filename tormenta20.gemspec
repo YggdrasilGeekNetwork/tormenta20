@@ -12,13 +12,13 @@ Gem::Specification.new do |spec|
   spec.description = "Ruby library providing ActiveRecord models backed by a bundled SQLite database " \
                      "with spells, classes, origins, deities, powers, equipment, races and conditions " \
                      "from the Tormenta20 system."
-  spec.homepage = "https://github.com/LuanGB/tormenta20"
+  spec.homepage = "https://github.com/YggdrasilGeekNetwork/tormenta20"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["homepage_uri"]       = spec.homepage
-  spec.metadata["source_code_uri"]    = "https://github.com/LuanGB/tormenta20"
-  spec.metadata["changelog_uri"]      = "https://github.com/LuanGB/tormenta20/blob/main/CHANGELOG.md"
+  spec.metadata["source_code_uri"]    = "https://github.com/YggdrasilGeekNetwork/tormenta20"
+  spec.metadata["changelog_uri"]      = "https://github.com/YggdrasilGeekNetwork/tormenta20/blob/main/CHANGELOG.md"
   spec.metadata["documentation_uri"]  = "https://rubydoc.info/gems/tormenta20"
 
   spec.files = Dir[
