@@ -147,8 +147,16 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      - name: Set version from release tag
-        run: npm version "${GITHUB_REF_NAME#v}" --no-git-tag-version
+      - name: Set version from release name
+        env:
+          RELEASE_NAME: ${{ github.event.release.name }}
+        run: |
+          VERSION="${RELEASE_NAME#v}"
+          if ! echo "$VERSION" | grep -qE '^[0-9]+\.[0-9]+\.[0-9]+'; then
+            echo "Error: release name '$RELEASE_NAME' is not a semver version (e.g. 1.2.3). Aborting npm publish."
+            exit 1
+          fi
+          npm version "$VERSION" --no-git-tag-version
 
       - name: Build database
         run: npm run seed
