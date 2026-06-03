@@ -1,0 +1,4 @@
+src/ruby/**/*.rb
+--readme README.md
+--output-dir docs/ruby
+--title "Tormenta20 Ruby API"

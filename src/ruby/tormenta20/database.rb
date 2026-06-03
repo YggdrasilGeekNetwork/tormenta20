@@ -119,15 +119,23 @@ module Tormenta20
       def connect_to_database
         return if connected?
 
-        Models::Base.establish_connection(
+        config = {
           adapter: "sqlite3",
           database: db_path,
           pool: 5,
           timeout: 5000
-        )
+        }
+
+        config[:flags] = SQLite3::Constants::Open::READONLY if readonly?
+
+        Models::Base.establish_connection(config)
         Models::Base.logger = nil
 
         @connected = true
+      end
+
+      def readonly?
+        mode != "create_on_build"
       end
 
       def ensure_database_exists

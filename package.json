@@ -1,33 +1,53 @@
 {
   "name": "tormenta20",
-  "version": "0.1.0",
-  "description": "A Ruby, Node and Python library with data about the Brazilian TTRPG, Tormenta20",
-  "main": "src/ts/index.ts",
-  "directories": {
-    "src": "src/ts"
+  "version": "0.2.19",
+  "description": "TypeScript/JavaScript library with data about the Brazilian TTRPG Tormenta20 — spells, classes, origins, deities, powers, equipment, races and conditions.",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
   },
+  "files": [
+    "dist",
+    "db/tormenta20.sqlite3"
+  ],
   "scripts": {
     "build": "tsc",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LuanGB/tormenta20.git"
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "docs": "typedoc",
+    "seed": "tsx src/ts/seeder.ts",
+    "dev": "tsx src/ts/index.ts",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "ttrpg",
     "rpg",
     "tormenta",
-    "tormenta20"
+    "tormenta20",
+    "brazil"
   ],
   "author": "LuanGB",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LuanGB/tormenta20.git"
+  },
   "bugs": {
     "url": "https://github.com/LuanGB/tormenta20/issues"
   },
   "homepage": "https://github.com/LuanGB/tormenta20#readme",
   "dependencies": {
-    "typescript": "^5.7.2"
+    "better-sqlite3": "^9.6.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.12",
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typedoc": "^0.28.19",
+    "typescript": "^5.7.2",
+    "vitest": "^3.0.0"
+  }
 }

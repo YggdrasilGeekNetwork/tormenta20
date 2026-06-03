@@ -11,7 +11,18 @@ module Tormenta20
     # inherits from ActiveRecord::Base. This provides common functionality
     # and ensures all models share the same database connection.
     #
-    # @abstract Subclass and set table_name to create a new model
+    # Every concrete model adds {Concerns::BookReferenceable}, which provides
+    # the {Concerns::BookReferenceable#book_reference} method for sourcebook
+    # page lookup.
+    #
+    # @abstract Subclass and set +table_name+ to create a new model
+    #
+    # @!attribute [rw] id
+    #   @return [String] Unique string identifier (e.g. +"guerreiro"+, +"espada_longa"+)
+    # @!attribute [r] created_at
+    #   @return [Time] Record creation timestamp
+    # @!attribute [r] updated_at
+    #   @return [Time] Record last-update timestamp
     class Base < ActiveRecord::Base
       self.abstract_class = true
 

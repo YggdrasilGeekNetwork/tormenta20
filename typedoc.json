@@ -1,0 +1,16 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["src/ts/index.ts"],
+  "out": "docs/typedoc",
+  "name": "tormenta20",
+  "readme": "README.md",
+  "excludePrivate": true,
+  "excludeProtected": true,
+  "excludeInternal": true,
+  "includeVersion": true,
+  "gitRevision": "main",
+  "highlightLanguages": ["typescript", "javascript", "ruby", "bash", "json", "sql"],
+  "navigationLinks": {
+    "GitHub": "https://github.com/LuanGB/tormenta20"
+  }
+}

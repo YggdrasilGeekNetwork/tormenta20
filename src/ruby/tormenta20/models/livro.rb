@@ -4,7 +4,20 @@ require "active_record"
 
 module Tormenta20
   module Models
-    # ActiveRecord model for livros (books).
+    # ActiveRecord model for livros (sourcebooks).
+    #
+    # Livros are the target of {IndiceRemissivo} entries, which link
+    # game terms to page numbers in a specific book.
+    #
+    # @example
+    #   Livro.find_by(id: "t20_eja").nome_curto  # => "T20 - EJA"
+    #
+    # @!attribute [rw] id
+    #   @return [String] Unique identifier (e.g. +"t20_eja"+)
+    # @!attribute [rw] nome
+    #   @return [String] Full book title
+    # @!attribute [rw] nome_curto
+    #   @return [String] Short reference abbreviation (e.g. +"T20 - EJA"+)
     class Livro < Base
       self.table_name = "livros"
 
