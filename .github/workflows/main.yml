@@ -5,13 +5,6 @@ on:
     branches: [main]
   pull_request:
     branches: [main]
-  release:
-    types: [published]
-  workflow_dispatch:
-    inputs:
-      version:
-        description: "Version to publish (e.g. 0.2.22)"
-        required: true
 
 jobs:
   test-ruby:
@@ -99,89 +92,3 @@ jobs:
           TAG="v$(date -u +'%Y%m%d-%H%M%S')"
           git tag "$TAG"
           git push origin "$TAG"
-
-  publish-gem:
-    name: Publish to RubyGems
-    if: github.event_name == 'release' || github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: ruby/setup-ruby@v1
-        with:
-          ruby-version: .ruby-version
-          bundler-cache: true
-
-      - name: Publish gem
-        env:
-          GEM_VERSION: ${{ github.event.release.name || github.event.inputs.version }}
-        run: |
-          mkdir -p ~/.gem
-          printf -- "---\n:rubygems_api_key: %s\n" "${{ secrets.RUBYGEMS_API_KEY }}" > ~/.gem/credentials
-          chmod 0600 ~/.gem/credentials
-          bundle config set --local frozen false
-          bundle exec rake build_db
-          gem build tormenta20.gemspec
-          output=$(gem push tormenta20-*.gem 2>&1) && echo "$output" || {
-            if echo "$output" | grep -q "Repushing of gem versions is not allowed"; then
-              echo "Version already published on RubyGems, skipping."
-            else
-              echo "$output" && exit 1
-            fi
-          }
-
-      # - name: Delete release on failure
-      #   if: failure()
-      #   env:
-      #     GH_TOKEN: ${{ github.token }}
-      #   run: gh release delete "${{ github.event.release.name }}" --yes
-
-  publish-npm:
-    name: Publish to npm
-    if: github.event_name == 'release' || github.event_name == 'workflow_dispatch'
-    runs-on: ubuntu-latest
-    permissions:
-      id-token: write
-
-    steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          registry-url: https://registry.npmjs.org
-          cache: npm
-
-
-      - name: Install dependencies
-        run: npm ci
-
-      - name: Set version from release name
-        env:
-          RELEASE_NAME: ${{ github.event.release.name || github.event.inputs.version }}
-        run: |
-          VERSION="${RELEASE_NAME#v}"
-          if ! echo "$VERSION" | grep -qE '^[0-9]+\.[0-9]+\.[0-9]+'; then
-            echo "Error: release name '$RELEASE_NAME' is not a semver version (e.g. 1.2.3). Aborting npm publish."
-            exit 1
-          fi
-          npm version "$VERSION" --no-git-tag-version
-
-      - name: Build database
-        run: npm run seed
-
-      - name: Build
-        run: npm run build
-
-      - name: Publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
-        run: |
-          output=$(npm publish --access public --provenance 2>&1) && echo "$output" || {
-            if echo "$output" | grep -qE 'cannot publish over the previously published|EPUBLISHCONFLICT'; then
-              echo "Version already published on npm, skipping."
-            else
-              echo "$output" && exit 1
-            fi
-          }

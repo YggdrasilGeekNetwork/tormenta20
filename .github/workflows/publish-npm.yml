@@ -1,0 +1,58 @@
+name: Publish npm
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to publish (e.g. 0.2.22)"
+        required: true
+
+jobs:
+  publish-npm:
+    name: Publish to npm
+    runs-on: ubuntu-latest
+    permissions:
+      id-token: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          registry-url: https://registry.npmjs.org
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Set version from release name
+        env:
+          RELEASE_NAME: ${{ github.event.release.name || github.event.inputs.version }}
+        run: |
+          VERSION="${RELEASE_NAME#v}"
+          if ! echo "$VERSION" | grep -qE '^[0-9]+\.[0-9]+\.[0-9]+'; then
+            echo "Error: release name '$RELEASE_NAME' is not a semver version (e.g. 1.2.3). Aborting npm publish."
+            exit 1
+          fi
+          npm version "$VERSION" --no-git-tag-version
+
+      - name: Build database
+        run: npm run seed
+
+      - name: Build
+        run: npm run build
+
+      - name: Publish
+        env:
+          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+        run: |
+          output=$(npm publish --access public --provenance 2>&1) && echo "$output" || {
+            if echo "$output" | grep -qE 'cannot publish over the previously published|EPUBLISHCONFLICT'; then
+              echo "Version already published on npm, skipping."
+            else
+              echo "$output" && exit 1
+            fi
+          }

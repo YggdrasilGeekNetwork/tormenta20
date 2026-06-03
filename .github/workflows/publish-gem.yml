@@ -1,0 +1,41 @@
+name: Publish Gem
+
+on:
+  release:
+    types: [published]
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Version to publish (e.g. 0.2.22)"
+        required: true
+
+jobs:
+  publish-gem:
+    name: Publish to RubyGems
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: .ruby-version
+          bundler-cache: true
+
+      - name: Publish gem
+        env:
+          GEM_VERSION: ${{ github.event.release.name || github.event.inputs.version }}
+        run: |
+          mkdir -p ~/.gem
+          printf -- "---\n:rubygems_api_key: %s\n" "${{ secrets.RUBYGEMS_API_KEY }}" > ~/.gem/credentials
+          chmod 0600 ~/.gem/credentials
+          bundle config set --local frozen false
+          bundle exec rake build_db
+          gem build tormenta20.gemspec
+          output=$(gem push tormenta20-*.gem 2>&1) && echo "$output" || {
+            if echo "$output" | grep -q "Repushing of gem versions is not allowed"; then
+              echo "Version already published on RubyGems, skipping."
+            else
+              echo "$output" && exit 1
+            fi
+          }
