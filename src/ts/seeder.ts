@@ -66,6 +66,10 @@ export function seed(): void {
   seedCondicoes(insert)
   seedPericias(insert)
   seedRegras(insert)
+  seedTabelas(insert)
+  seedLivros(insert)
+  seedItensmagicos(insert)
+  seedIndiceRemissivo()
 
   db.pragma("foreign_keys = ON")
   db.close()
@@ -322,6 +326,78 @@ function seedRegras(insert: ReturnType<typeof Database.prototype.transaction>): 
     const { id, name, description, ...rest } = r
     return { id, name, description: description ?? null, data: rest }
   }))
+}
+
+function seedTabelas(insert: ReturnType<typeof Database.prototype.transaction>): void {
+  if (!existsDir(join(JSON_DIR, "tabelas"))) return
+  const tabelas = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "tabelas"))
+  insert("tabelas", tabelas.map((t) => ({
+    id: t.id, name: t.name, description: t.description ?? null,
+    headers: t.headers ?? [],
+    rows: t.rows ?? [],
+  })))
+}
+
+function seedLivros(insert: ReturnType<typeof Database.prototype.transaction>): void {
+  if (!existsDir(join(JSON_DIR, "livros"))) return
+  const livros = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "livros"))
+  insert("livros", livros.map((l) => ({
+    id: l.id, nome: l.nome, nome_curto: l.nome_curto,
+  })))
+}
+
+function seedItensmagicos(insert: ReturnType<typeof Database.prototype.transaction>): void {
+  const base = join(JSON_DIR, "itens_magicos")
+
+  if (existsDir(join(base, "pocoes"))) {
+    const pocoes = loadJsonDir<Record<string, unknown>>(join(base, "pocoes"))
+    insert("pocoes", pocoes.map((p) => ({
+      id: p.id, name: p.name, subtipo: p.subtipo, spell_id: p.spell_id,
+      pm_cost: p.pm_cost, categoria: p.categoria, preco: p.preco ?? null,
+      roll_min: p.roll_min ?? null, roll_max: p.roll_max ?? null,
+      aprimoramento: p.aprimoramento ?? null, description: p.description ?? null,
+    })))
+  }
+
+  if (existsDir(join(base, "acessorios"))) {
+    const acessorios = loadJsonDir<Record<string, unknown>>(join(base, "acessorios"))
+    insert("acessorios_magicos", acessorios.map((a) => ({
+      id: a.id, name: a.name, categoria: a.categoria, preco: a.preco ?? null,
+      roll_min: a.roll_min ?? null, roll_max: a.roll_max ?? null,
+      description: a.description ?? null, efeito: a.efeito ?? {},
+    })))
+  }
+}
+
+function seedIndiceRemissivo(): void {
+  if (!existsDir(join(JSON_DIR, "indice_remissivo"))) return
+  const rows: Record<string, unknown>[] = []
+
+  for (const file of readdirSync(join(JSON_DIR, "indice_remissivo"))) {
+    if (!file.endsWith(".json")) continue
+    const livroId = file.replace(".json", "")
+    const entries = JSON.parse(readFileSync(join(JSON_DIR, "indice_remissivo", file), "utf-8")) as Record<string, unknown>[]
+    if (!Array.isArray(entries)) continue
+    for (const e of entries) {
+      if (!e.termo || !e.pagina) continue
+      rows.push({
+        livro_id: livroId,
+        termo: e.termo,
+        pagina: Number(e.pagina),
+        tabela: e.tabela ?? null,
+        registro_id: e.registro_id ?? null,
+      })
+    }
+  }
+
+  if (rows.length === 0) return
+  const db2 = new Database(DB_PATH)
+  const stmt = db2.prepare("INSERT OR REPLACE INTO indice_remissivo (livro_id, termo, pagina, tabela, registro_id) VALUES (?, ?, ?, ?, ?)")
+  const run = db2.transaction(() => {
+    for (const r of rows) stmt.run(r.livro_id, r.termo, r.pagina, r.tabela, r.registro_id)
+  })
+  run()
+  db2.close()
 }
 
 function existsDir(path: string): boolean {
