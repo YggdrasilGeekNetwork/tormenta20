@@ -135,7 +135,7 @@ module Tormenta20
       end
 
       def readonly?
-        mode != "create_on_build"
+        mode != "create_on_build" && File.exist?(db_path)
       end
 
       def ensure_database_exists

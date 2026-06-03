@@ -6,10 +6,11 @@ import { existsSync } from "fs"
 const __dirname = dirname(fileURLToPath(import.meta.url))
 
 function findPackageRoot(): string {
-  // Resolves correctly whether called from src/ts/ (dev/test) or dist/ (compiled)
+  // Resolves correctly whether called from src/ts/ (dev/test) or dist/ (compiled).
+  // Checks for the db/ directory (committed) rather than the sqlite file (gitignored).
   for (const rel of ["../../", "../"]) {
     const candidate = resolve(__dirname, rel)
-    if (existsSync(join(candidate, "db", "tormenta20.sqlite3"))) return candidate
+    if (existsSync(join(candidate, "db"))) return candidate
   }
   throw new Error(`Cannot locate tormenta20 package root from: ${__dirname}`)
 }

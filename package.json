@@ -21,7 +21,7 @@
     "docs": "typedoc",
     "seed": "tsx src/ts/seeder.ts",
     "dev": "tsx src/ts/index.ts",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run seed && npm run build"
   },
   "keywords": [
     "ttrpg",
