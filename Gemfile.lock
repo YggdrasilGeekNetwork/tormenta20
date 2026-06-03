@@ -101,6 +101,7 @@ GEM
       unicode-emoji (~> 4.0, >= 4.0.4)
     unicode-emoji (4.0.4)
     uri (1.0.2)
+    yard (0.9.44)
 
 PLATFORMS
   ruby
@@ -114,6 +115,7 @@ DEPENDENCIES
   simplecov
   simplecov-cobertura
   tormenta20!
+  yard
 
 BUNDLED WITH
    2.5.23
