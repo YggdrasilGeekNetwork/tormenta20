@@ -1,6 +1,7 @@
 {
   "name": "tormenta20",
-  "version": "0.2.19",
+  "version": "0.0.0",
+  "//version": "set automatically from the GitHub release tag by CI (npm version ${tag} --no-git-tag-version)",
   "description": "TypeScript/JavaScript library with data about the Brazilian TTRPG Tormenta20 — spells, classes, origins, deities, powers, equipment, races and conditions.",
   "type": "module",
   "exports": {
