@@ -9,7 +9,7 @@ RSpec.describe "Tormenta20 Query Interface" do
     end
 
     it "allows querying" do
-      expect(Tormenta20.origens.count).to be > 0
+      expect(Tormenta20.origens.count).to be_positive
     end
 
     it "allows chaining scopes" do
@@ -23,7 +23,7 @@ RSpec.describe "Tormenta20 Query Interface" do
     end
 
     it "allows querying" do
-      expect(Tormenta20.poderes.count).to be > 0
+      expect(Tormenta20.poderes.count).to be_positive
     end
 
     it "allows chaining scopes" do
@@ -38,7 +38,7 @@ RSpec.describe "Tormenta20 Query Interface" do
     end
 
     it "allows querying" do
-      expect(Tormenta20.divindades.count).to be > 0
+      expect(Tormenta20.divindades.count).to be_positive
     end
 
     it "allows chaining scopes" do
@@ -52,7 +52,7 @@ RSpec.describe "Tormenta20 Query Interface" do
     end
 
     it "allows querying" do
-      expect(Tormenta20.classes.count).to be > 0
+      expect(Tormenta20.classes.count).to be_positive
     end
 
     it "allows chaining scopes" do
@@ -66,7 +66,7 @@ RSpec.describe "Tormenta20 Query Interface" do
     end
 
     it "allows querying" do
-      expect(Tormenta20.magias.count).to be > 0
+      expect(Tormenta20.magias.count).to be_positive
     end
 
     it "allows chaining scopes" do
@@ -103,7 +103,7 @@ RSpec.describe "Tormenta20 Query Interface" do
     end
 
     it "allows querying" do
-      expect(Tormenta20.escudos.count).to be > 0
+      expect(Tormenta20.escudos.count).to be_positive
     end
   end
 
@@ -119,7 +119,7 @@ RSpec.describe "Tormenta20 Query Interface" do
     end
 
     it "allows querying" do
-      expect(Tormenta20.materiais_especiais.count).to be > 0
+      expect(Tormenta20.materiais_especiais.count).to be_positive
     end
   end
 
@@ -135,7 +135,7 @@ RSpec.describe "Tormenta20 Query Interface" do
     end
 
     it "allows querying" do
-      expect(Tormenta20.regras.count).to be > 0
+      expect(Tormenta20.regras.count).to be_positive
     end
   end
 

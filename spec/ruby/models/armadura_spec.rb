@@ -29,12 +29,12 @@ RSpec.describe Tormenta20::Models::Armadura do
 
   describe "data integrity" do
     it "has armaduras loaded from JSON" do
-      expect(described_class.count).to be > 0
+      expect(described_class.count).to be_positive
     end
 
     it "each armadura has a positive defense_bonus" do
       described_class.find_each do |a|
-        expect(a.defense_bonus).to be > 0
+        expect(a.defense_bonus).to be_positive
       end
     end
   end

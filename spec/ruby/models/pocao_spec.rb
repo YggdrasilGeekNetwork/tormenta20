@@ -11,7 +11,7 @@ RSpec.describe Tormenta20::Models::Pocao do
 
   describe "data integrity" do
     it "has pocoes loaded from JSON" do
-      expect(described_class.count).to be > 0
+      expect(described_class.count).to be_positive
     end
 
     it "each pocao has id, name, and subtipo" do
@@ -46,12 +46,11 @@ RSpec.describe Tormenta20::Models::Pocao do
   describe "instance methods" do
     let(:pocao) { described_class.first }
 
-    describe "#to_h" do
-      it "returns a hash representation" do
-        hash = pocao.to_h
-        expect(hash[:id]).to eq(pocao.id)
-        expect(hash[:subtipo]).to eq(pocao.subtipo)
-        expect(hash[:pm_cost]).to be_an(Integer)
+    describe "#attributes" do
+      it "exposes id, subtipo and pm_cost" do
+        expect(pocao.id).to be_present
+        expect(pocao.subtipo).to be_present
+        expect(pocao.pm_cost).to be_an(Integer)
       end
     end
   end

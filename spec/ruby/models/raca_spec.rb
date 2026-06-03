@@ -11,12 +11,12 @@ RSpec.describe Tormenta20::Models::Raca do
 
   describe "data integrity" do
     it "has racas loaded from JSON" do
-      expect(described_class.count).to be > 0
+      expect(described_class.count).to be_positive
     end
 
     it "each raca has movement > 0" do
       described_class.find_each do |r|
-        expect(r.movement).to be > 0
+        expect(r.movement).to be_positive
       end
     end
   end
@@ -40,7 +40,7 @@ RSpec.describe Tormenta20::Models::Raca do
       it "returns a hash with size and movement" do
         hash = humano.to_h
         expect(hash[:size]).to eq("médio")
-        expect(hash[:movement]).to be > 0
+        expect(hash[:movement]).to be_positive
       end
     end
   end

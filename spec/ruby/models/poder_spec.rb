@@ -39,7 +39,7 @@ RSpec.describe Tormenta20::Models::Poder do
 
   describe "data integrity" do
     it "has poderes loaded from JSON" do
-      expect(described_class.count).to be > 0
+      expect(described_class.count).to be_positive
     end
 
     it "each poder has required fields" do

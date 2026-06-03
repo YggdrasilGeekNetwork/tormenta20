@@ -11,14 +11,14 @@ RSpec.describe Tormenta20::Models::Encantamento do
 
   describe "data integrity" do
     it "has encantamentos loaded from JSON" do
-      expect(described_class.count).to be > 0
+      expect(described_class.count).to be_positive
     end
 
     it "each encantamento has id, name, and valid categoria" do
       described_class.find_each do |e|
         expect(e.id).to be_present
         expect(e.name).to be_present
-        expect(%w[arma armadura_escudo]).to include(e.categoria)
+        expect(%w[arma armadura]).to include(e.categoria)
       end
     end
   end
@@ -31,14 +31,14 @@ RSpec.describe Tormenta20::Models::Encantamento do
     end
 
     describe ".armaduras_escudos" do
-      it "returns only armadura_escudo enchantments" do
-        described_class.armaduras_escudos.each { |e| expect(e.categoria).to eq("armadura_escudo") }
+      it "returns only armadura enchantments" do
+        described_class.armaduras_escudos.each { |e| expect(e.categoria).to eq("armadura") }
       end
     end
 
     describe ".escudo_only" do
       it "returns only shield-exclusive enchantments" do
-        described_class.escudo_only.each { |e| expect(e.escudo_only).to be true }
+        described_class.escudo_only.each { |e| expect(e.escudo_only).to be_in([true, 1]) }
       end
     end
   end

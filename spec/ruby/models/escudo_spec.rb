@@ -31,7 +31,7 @@ RSpec.describe Tormenta20::Models::Escudo do
 
   describe "data integrity" do
     it "has escudos loaded from JSON" do
-      expect(described_class.count).to be > 0
+      expect(described_class.count).to be_positive
     end
 
     it "each escudo has required fields" do

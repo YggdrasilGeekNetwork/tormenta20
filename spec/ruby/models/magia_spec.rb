@@ -67,7 +67,7 @@ RSpec.describe Tormenta20::Models::Magia do
 
   describe "data integrity" do
     it "has magias loaded from JSON" do
-      expect(described_class.count).to be > 0
+      expect(described_class.count).to be_positive
     end
 
     it "each magia has required fields" do

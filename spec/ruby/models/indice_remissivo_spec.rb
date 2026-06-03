@@ -11,13 +11,13 @@ RSpec.describe Tormenta20::Models::IndiceRemissivo do
 
   describe "data integrity" do
     it "has entries loaded" do
-      expect(described_class.count).to be > 0
+      expect(described_class.count).to be_positive
     end
 
     it "each entry has termo and pagina" do
       described_class.find_each do |i|
         expect(i.termo).to be_present
-        expect(i.pagina).to be > 0
+        expect(i.pagina).to be_positive
       end
     end
   end

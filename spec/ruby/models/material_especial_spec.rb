@@ -25,7 +25,7 @@ RSpec.describe Tormenta20::Models::MaterialEspecial do
 
   describe "data integrity" do
     it "has materiais_especiais loaded from JSON" do
-      expect(described_class.count).to be > 0
+      expect(described_class.count).to be_positive
     end
 
     it "each material has required fields" do

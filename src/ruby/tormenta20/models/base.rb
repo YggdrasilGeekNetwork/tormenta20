@@ -27,6 +27,40 @@ module Tormenta20
       self.abstract_class = true
 
       include Concerns::BookReferenceable
+
+      # Raised when any write operation is attempted on the Tormenta20 database.
+      # The database is read-only by design — it ships as pre-built data.
+      class ReadOnlyError < StandardError
+        def initialize(msg = "Tormenta20 database is read-only")
+          super
+        end
+      end
+
+      # @!group Read-only enforcement
+
+      def readonly?
+        true
+      end
+
+      def destroy
+        raise ReadOnlyError
+      end
+      alias destroy! destroy
+
+      WRITE_CLASS_METHODS = %i[
+        create create!
+        insert insert! insert_all insert_all!
+        upsert upsert_all
+        update_all
+        delete delete_all
+        destroy_all
+      ].freeze
+
+      WRITE_CLASS_METHODS.each do |m|
+        define_singleton_method(m) { |*| raise ReadOnlyError }
+      end
+
+      # @!endgroup
     end
   end
 end

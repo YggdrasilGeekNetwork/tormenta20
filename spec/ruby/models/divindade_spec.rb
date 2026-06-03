@@ -39,7 +39,7 @@ RSpec.describe Tormenta20::Models::Divindade do
 
   describe "data integrity" do
     it "has divindades loaded from JSON" do
-      expect(described_class.count).to be > 0
+      expect(described_class.count).to be_positive
     end
 
     it "each divindade has required fields" do

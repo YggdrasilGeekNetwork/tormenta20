@@ -25,7 +25,7 @@ RSpec.describe Tormenta20::Models::Origem do
 
   describe "data integrity" do
     it "has origens loaded from JSON" do
-      expect(described_class.count).to be > 0
+      expect(described_class.count).to be_positive
     end
 
     it "each origem has required fields" do

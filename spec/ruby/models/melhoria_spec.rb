@@ -11,7 +11,7 @@ RSpec.describe Tormenta20::Models::Melhoria do
 
   describe "data integrity" do
     it "has melhorias loaded from JSON" do
-      expect(described_class.count).to be > 0
+      expect(described_class.count).to be_positive
     end
 
     it "each melhoria has id and name" do

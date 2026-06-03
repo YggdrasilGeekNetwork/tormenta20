@@ -11,7 +11,7 @@ RSpec.describe Tormenta20::Models::Livro do
 
   describe "data integrity" do
     it "has livros loaded" do
-      expect(described_class.count).to be > 0
+      expect(described_class.count).to be_positive
     end
 
     it "each livro has nome and nome_curto" do

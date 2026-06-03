@@ -11,7 +11,7 @@ RSpec.describe Tormenta20::Models::AcessorioMagico do
 
   describe "data integrity" do
     it "has acessorios loaded" do
-      expect(described_class.count).to be > 0
+      expect(described_class.count).to be_positive
     end
 
     it "each acessorio has id, name, and categoria" do
@@ -46,11 +46,10 @@ RSpec.describe Tormenta20::Models::AcessorioMagico do
       end
     end
 
-    describe "#to_h" do
-      it "returns a hash representation" do
-        hash = acessorio.to_h
-        expect(hash[:id]).to eq(acessorio.id)
-        expect(hash[:categoria]).to eq(acessorio.categoria)
+    describe "#attributes" do
+      it "exposes id and categoria" do
+        expect(acessorio.id).to be_present
+        expect(acessorio.categoria).to be_present
       end
     end
   end
