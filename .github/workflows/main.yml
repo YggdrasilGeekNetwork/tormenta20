@@ -176,7 +176,7 @@ jobs:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           output=$(npm publish --access public --provenance 2>&1) && echo "$output" || {
-            if echo "$output" | grep -qE 'E403|cannot publish over|previously published'; then
+            if echo "$output" | grep -qE 'cannot publish over the previously published|EPUBLISHCONFLICT'; then
               echo "Version already published on npm, skipping."
             else
               echo "$output" && exit 1
