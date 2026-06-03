@@ -211,13 +211,20 @@ function seedMagias(insert: ReturnType<typeof Database.prototype.transaction>): 
   }))
 }
 
+const ARMA_CATEGORY_MAP: Record<string, string> = {
+  simples: "simples",
+  marcial: "marciais",
+  exotica: "exoticas",
+  fogo: "fogo",
+}
+
 function seedEquipamentos(insert: ReturnType<typeof Database.prototype.transaction>): void {
   const eqDir = join(JSON_DIR, "equipamentos")
 
   const armas = loadJsonFiles<Record<string, unknown>>(join(eqDir, "armas"))
   insert("armas", armas.map((a) => ({
     id: a.id, name: a.name,
-    category: a.proficiencia,
+    category: ARMA_CATEGORY_MAP[a.proficiencia as string] ?? a.proficiencia,
     price: a.preco ?? 0,
     damage: a.dano ?? null,
     damage_type: a.tipo_dano ?? null,
