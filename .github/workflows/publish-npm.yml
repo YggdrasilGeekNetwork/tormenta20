@@ -46,8 +46,6 @@ jobs:
         run: npm run build
 
       - name: Publish
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
         run: |
           output=$(npm publish --access public --provenance 2>&1) && echo "$output" || {
             if echo "$output" | grep -qE 'cannot publish over the previously published|EPUBLISHCONFLICT'; then
