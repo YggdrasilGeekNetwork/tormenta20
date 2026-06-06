@@ -7,6 +7,7 @@ on:
       - 'src/ts/**'
       - 'typedoc.json'
       - 'README.md'
+      - 'docs/index.html'
   workflow_dispatch:
 
 concurrency:
@@ -20,7 +21,7 @@ permissions:
 
 jobs:
   deploy-docs:
-    name: Build and deploy TypeDoc
+    name: Deploy to GitHub Pages
     runs-on: ubuntu-latest
     environment:
       name: github-pages
@@ -43,13 +44,16 @@ jobs:
       - name: Build docs
         run: npm run docs
 
+      - name: Copy README to docs
+        run: cp README.md docs/README.md
+
       - name: Setup Pages
         uses: actions/configure-pages@v5
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: docs/typedoc
+          path: docs
 
       - name: Deploy
         id: deployment
