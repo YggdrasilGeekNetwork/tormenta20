@@ -18,3 +18,5 @@
 
 # generated database — run `rake build_db` to create
 /db/tormenta20.sqlite3
+/db/tormenta20.sqlite3-shm
+/db/tormenta20.sqlite3-wal
