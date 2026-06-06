@@ -41,7 +41,7 @@
   },
   "homepage": "https://github.com/YggdrasilGeekNetwork/tormenta20#readme",
   "dependencies": {
-    "better-sqlite3": "^9.6.0"
+    "better-sqlite3": "^12.10.0"
   },
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.12",
@@ -49,6 +49,6 @@
     "tsx": "^4.19.0",
     "typedoc": "^0.28.19",
     "typescript": "^5.7.2",
-    "vitest": "^3.0.0"
+    "vitest": "^4.1.8"
   }
 }
