@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tormenta20 — Docs</title>
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --bg: #0d1117;
+      --bg2: #161b22;
+      --border: #30363d;
+      --text: #e6edf3;
+      --muted: #8b949e;
+      --accent: #58a6ff;
+      --accent2: #bc8cff;
+      --green: #3fb950;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+    }
+
+    /* ── Header ── */
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+    }
+
+    header h1 { font-size: 1.15rem; font-weight: 700; }
+    header h1 span { color: var(--accent2); }
+
+    nav { display: flex; gap: 1.25rem; margin-left: auto; }
+    nav a {
+      font-size: 0.875rem;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.15s;
+    }
+    nav a:hover { color: var(--text); }
+
+    /* ── Layout ── */
+    .layout {
+      display: grid;
+      grid-template-columns: 240px 1fr;
+      min-height: calc(100vh - 57px);
+    }
+
+    /* ── Sidebar ── */
+    aside {
+      border-right: 1px solid var(--border);
+      padding: 1.5rem 1rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.1rem;
+    }
+
+    .sidebar-section {
+      font-size: 0.66rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.09em;
+      color: var(--muted);
+      padding: 1rem 0.5rem 0.25rem;
+      margin-top: 0.5rem;
+      border-top: 1px solid var(--border);
+    }
+
+    span.sidebar-section:first-of-type {
+      border-top: none;
+      padding-top: 0.25rem;
+      margin-top: 0;
+    }
+
+    aside a {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 0.5rem;
+      border-radius: 6px;
+      font-size: 0.875rem;
+      color: var(--muted);
+      text-decoration: none;
+      transition: background 0.12s, color 0.12s;
+    }
+
+    aside a:hover { background: var(--bg2); color: var(--text); }
+    aside a.active {
+      background: var(--bg2);
+      color: var(--accent);
+      box-shadow: inset 2px 0 0 var(--accent);
+    }
+
+    .badge {
+      margin-left: auto;
+      font-size: 0.63rem;
+      padding: 0.1rem 0.4rem;
+      border-radius: 99px;
+      font-weight: 600;
+      border: 1px solid;
+      flex-shrink: 0;
+    }
+
+    .badge-ts { color: #3178c6; border-color: #3178c6; }
+    .badge-rb { color: #cc342d; border-color: #cc342d; }
+    .badge-ext { color: var(--border); border-color: var(--border); }
+
+    /* ── Collapsible model sections ── */
+    details { border: none; }
+
+    summary.nav-section-toggle {
+      list-style: none;
+      cursor: pointer;
+      user-select: none;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      padding: 0.4rem 0.5rem;
+      border-radius: 6px;
+      font-size: 0.875rem;
+      color: var(--muted);
+      transition: background 0.12s, color 0.12s;
+    }
+    summary.nav-section-toggle::-webkit-details-marker { display: none; }
+    summary.nav-section-toggle:hover { background: var(--bg2); color: var(--text); }
+
+    .nav-chevron {
+      font-size: 0.75rem;
+      display: inline-block;
+      transition: transform 0.2s;
+      color: var(--border);
+      flex-shrink: 0;
+    }
+    details[open] > summary .nav-chevron { transform: rotate(90deg); }
+
+    details > a { padding-left: 1.5rem; font-size: 0.825rem; }
+
+    /* ── Content ── */
+    main {
+      padding: 2rem 3rem;
+      max-width: 860px;
+    }
+
+    /* ── Markdown ── */
+    .markdown-body { font-size: 0.9rem; line-height: 1.7; color: var(--text); }
+    .markdown-body h1, .markdown-body h2, .markdown-body h3 {
+      font-weight: 600; margin: 1.5rem 0 0.5rem;
+      padding-bottom: 0.3rem;
+      border-bottom: 1px solid var(--border);
+      color: var(--text);
+    }
+    .markdown-body h1 { font-size: 1.5rem; }
+    .markdown-body h2 { font-size: 1.2rem; }
+    .markdown-body h3 { font-size: 1rem; border-bottom: none; }
+    .markdown-body p { margin: 0.75rem 0; }
+    .markdown-body a { color: var(--accent); text-decoration: none; }
+    .markdown-body a:hover { text-decoration: underline; }
+    .markdown-body code {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 4px;
+      padding: 0.1em 0.4em;
+      font-size: 0.85em;
+      font-family: "SF Mono", "Fira Code", monospace;
+      color: var(--accent2);
+    }
+    .markdown-body pre {
+      background: var(--bg2);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem;
+      overflow-x: auto;
+      margin: 1rem 0;
+    }
+    .markdown-body pre code {
+      background: none;
+      border: none;
+      padding: 0;
+      color: var(--text);
+      font-size: 0.85rem;
+    }
+    .markdown-body ul, .markdown-body ol { padding-left: 1.5rem; margin: 0.75rem 0; }
+    .markdown-body li { margin: 0.25rem 0; }
+    .markdown-body blockquote {
+      border-left: 3px solid var(--border);
+      padding-left: 1rem;
+      color: var(--muted);
+      margin: 1rem 0;
+    }
+    .markdown-body img { max-width: 100%; height: auto; }
+    .markdown-body table {
+      border-collapse: collapse;
+      width: 100%;
+      margin: 1rem 0;
+      font-size: 0.85rem;
+    }
+    .markdown-body th, .markdown-body td {
+      border: 1px solid var(--border);
+      padding: 0.5rem 0.75rem;
+      text-align: left;
+    }
+    .markdown-body th { background: var(--bg2); font-weight: 600; }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      .layout { grid-template-columns: 1fr; }
+      aside { display: none; }
+      main { padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>tormenta<span>20</span></h1>
+  <nav>
+    <a href="typedoc/" target="_blank" rel="noopener noreferrer">TS API</a>
+    <a href="https://rubydoc.info/gems/tormenta20" target="_blank" rel="noopener noreferrer">Ruby API</a>
+    <a href="https://github.com/YggdrasilGeekNetwork/tormenta20" target="_blank" rel="noopener noreferrer">GitHub</a>
+  </nav>
+</header>
+
+<div class="layout">
+  <aside id="sidebar"></aside>
+
+  <main>
+    <div class="markdown-body" id="readme">
+      <p style="color:var(--muted)">Carregando...</p>
+    </div>
+  </main>
+</div>
+
+<script src="nav.js"></script>
+<script>
+  buildNav(document.getElementById("sidebar"), null)
+
+  fetch("https://raw.githubusercontent.com/YggdrasilGeekNetwork/tormenta20/main/README.md")
+    .then(r => r.ok ? r.text() : Promise.reject())
+    .then(md => {
+      const linked = md.replace(
+        /\(docs\/(ruby|ts)\/([^)]+\.md)\)/g,
+        "(viewer.html?src=$1/$2)"
+      )
+      const el = document.getElementById("readme")
+      el.innerHTML = marked.parse(linked)
+      el.querySelectorAll("a:has(img)").forEach(a => {
+        a.target = "_blank"
+        a.rel = "noopener noreferrer"
+      })
+    })
+    .catch(() => {
+      document.getElementById("readme").innerHTML =
+        '<p style="color:var(--muted)">README não disponível.</p>'
+    })
+</script>
+
+</body>
+</html>

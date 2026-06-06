@@ -86,17 +86,3 @@ jobs:
           token: ${{ secrets.CODECOV_TOKEN }}
           flags: typescript
 
-  tag:
-    name: Auto-tag
-    needs: [test-ruby, jsonlint, test-ts]
-    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
-    runs-on: ubuntu-latest
-    permissions:
-      contents: write
-    steps:
-      - uses: actions/checkout@v6
-      - name: Create timestamp tag
-        run: |
-          TAG="v$(date -u +'%Y%m%d-%H%M%S')"
-          git tag "$TAG"
-          git push origin "$TAG"

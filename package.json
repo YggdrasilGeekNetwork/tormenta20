@@ -40,7 +40,7 @@
   "bugs": {
     "url": "https://github.com/YggdrasilGeekNetwork/tormenta20/issues"
   },
-  "homepage": "https://github.com/YggdrasilGeekNetwork/tormenta20#readme",
+  "homepage": "https://yggdrasilgeeknetwork.github.io/tormenta20/",
   "dependencies": {
     "better-sqlite3": "^12.10.0"
   },

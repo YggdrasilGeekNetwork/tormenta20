@@ -5,7 +5,7 @@
 [![CI](https://github.com/YggdrasilGeekNetwork/tormenta20/actions/workflows/main.yml/badge.svg)](https://github.com/YggdrasilGeekNetwork/tormenta20/actions/workflows/main.yml)
 [![Coverage](https://codecov.io/gh/YggdrasilGeekNetwork/tormenta20/graph/badge.svg?token=XB8BTBS6PJ)](https://codecov.io/gh/YggdrasilGeekNetwork/tormenta20)
 [![Ruby Docs](https://img.shields.io/badge/docs-rubydoc.info-red)](https://rubydoc.info/gems/tormenta20)
-[![TS Docs](https://img.shields.io/badge/docs-typedoc-blue)](https://yggdrasilgeeknetwork.github.io/tormenta20/typedoc/)
+[![Docs](https://img.shields.io/badge/docs-online-blue)](https://yggdrasilgeeknetwork.github.io/tormenta20/)
 [![License](https://img.shields.io/badge/license-MIT-blue)](LICENSE.txt)
 
 Uma biblioteca Ruby, TypeScript e Python com dados do RPG de mesa brasileiro Tormenta20.

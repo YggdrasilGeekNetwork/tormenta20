@@ -16,6 +16,9 @@
 /pkg/
 /src/tormenta20.egg-info/
 
+# generated docs — run `npm run docs` to create
+/docs/typedoc/
+
 # generated database — run `rake build_db` to create
 /db/tormenta20.sqlite3
 /db/tormenta20.sqlite3-shm

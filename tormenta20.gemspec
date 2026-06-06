@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.description = "Ruby library providing ActiveRecord models backed by a bundled SQLite database " \
                      "with spells, classes, origins, deities, powers, equipment, races and conditions " \
                      "from the Tormenta20 system."
-  spec.homepage = "https://github.com/YggdrasilGeekNetwork/tormenta20"
+  spec.homepage = "https://yggdrasilgeeknetwork.github.io/tormenta20/"
   spec.license = "MIT"
   spec.required_ruby_version = ">= 3.0.0"
 
