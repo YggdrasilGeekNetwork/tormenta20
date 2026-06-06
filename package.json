@@ -18,6 +18,7 @@
     "build": "tsc",
     "test": "vitest run",
     "test:watch": "vitest",
+    "coverage": "vitest run --coverage",
     "docs": "typedoc",
     "seed": "tsx src/ts/seeder.ts",
     "dev": "tsx src/ts/index.ts",
@@ -46,6 +47,7 @@
   "devDependencies": {
     "@types/better-sqlite3": "^7.6.12",
     "@types/node": "^22.0.0",
+    "@vitest/coverage-v8": "^4.1.8",
     "tsx": "^4.19.0",
     "typedoc": "^0.28.19",
     "typescript": "^5.7.2",

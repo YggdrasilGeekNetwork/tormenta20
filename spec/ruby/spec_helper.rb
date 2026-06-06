@@ -5,6 +5,7 @@ if ENV["COVERAGE"]
   require "simplecov-cobertura"
   SimpleCov.start do
     formatter SimpleCov::Formatter::CoberturaFormatter
+    coverage_dir "coverage/ruby"
     add_filter "/spec/"
     add_filter "/db/"
     add_filter "/bin/"

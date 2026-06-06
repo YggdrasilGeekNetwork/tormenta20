@@ -30,8 +30,9 @@ jobs:
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v4
         with:
-          files: coverage/coverage.xml
+          files: coverage/ruby/coverage.xml
           token: ${{ secrets.CODECOV_TOKEN }}
+          flags: ruby
 
   jsonlint:
     name: JSON Lint
@@ -75,8 +76,15 @@ jobs:
       - name: Build
         run: npm run build
 
-      - name: Run tests
-        run: npm test
+      - name: Run tests with coverage
+        run: npm run coverage
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          files: coverage/ts/lcov.info
+          token: ${{ secrets.CODECOV_TOKEN }}
+          flags: typescript
 
   tag:
     name: Auto-tag
