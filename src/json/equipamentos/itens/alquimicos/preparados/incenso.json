@@ -1,0 +1,16 @@
+{
+  "id": "incenso",
+  "name": "Incenso",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 12,
+  "espacos": 0.5,
+  "uso": "consumivel",
+  "efeito": {
+    "condicao": "gasto como parte de uma Missa",
+    "efeito": "cada participante recebe 2 PM temporários (cumulativos com os efeitos da Missa)"
+  },
+  "description": "Estes bastões delgados podem ser acesos, lentamente liberando um cheiro agradável no ambiente. Como alternativa, incensos podem ser grânulos queimados em braseiros. Seja como for, a atmosfera criada pela queima de um incenso facilita a conexão com os deuses. Se gastar um incenso como parte de uma Missa, cada participante recebe 2 PM temporários (cumulativos com os efeitos da Missa).",
+  "livro": "deuses_de_arton"
+}

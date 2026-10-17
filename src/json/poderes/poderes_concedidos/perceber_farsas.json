@@ -1,0 +1,9 @@
+{
+  "id": "perceber_farsas",
+  "name": "Perceber Farsas",
+  "deities": ["tanna_toh"],
+  "description": "Você recebe +5 em Intuição e se torna imune a efeitos de ilusão.",
+  "effects": { "type": "passivo", "efeito": "+5 em Intuição; imunidade a efeitos de ilusão" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

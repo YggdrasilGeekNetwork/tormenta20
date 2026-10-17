@@ -1,0 +1,14 @@
+{
+  "id": "veu_diafano",
+  "name": "Véu Diáfano",
+  "deities": ["marah"],
+  "subtipo": "acessorio",
+  "classificacao": "Acessório médio",
+  "preco": 13500,
+  "description": "Esta roupa leve e semitransparente conta como uma veste de seda aprimorada. Se você for um devoto de Marah, o véu diáfano torna sua aparência misteriosa e sedutora, fornecendo +1 em Carisma (apenas após 1 dia de uso) e +2 na Defesa (cumulativo com outros bônus de itens).",
+  "effects": [
+    { "type": "passivo", "efeito": "conta como veste de seda aprimorada" },
+    { "type": "devoto", "deity": "marah", "requer": "1 dia de uso", "efeito": "+1 em Carisma e +2 na Defesa (cumulativo com outros bônus de itens)" }
+  ],
+  "livro": "deuses_de_arton"
+}

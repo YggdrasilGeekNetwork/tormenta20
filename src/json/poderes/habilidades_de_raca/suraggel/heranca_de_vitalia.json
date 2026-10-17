@@ -1,0 +1,17 @@
+{
+  "id": "heranca_de_vitalia",
+  "name": "Herança de Vitalia",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "A força da vida corre intensa em seu sangue. Você recebe +5 PV por patamar e sua recuperação de pontos de vida com descanso aumenta em uma categoria.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "hp_bonus_per_tier": 5,
+    "rest_recovery_step_increase": 1
+  },
+  "livro": "deuses_de_arton"
+}

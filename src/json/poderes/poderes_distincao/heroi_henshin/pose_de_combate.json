@@ -1,0 +1,25 @@
+{
+  "id": "pose_de_combate",
+  "name": "Pose de Combate",
+  "description": "Escolha uma pose de combate (veja a lista). Uma vez feita, essa escolha não pode ser alterada. A cada outro poder da distinção você recebe outra pose a sua escolha. Para assumir uma pose, você deve estar vestindo seu traje de combate e gastar uma ação de movimento e 2 PM; os efeitos duram até o fim da cena ou até assumir outra pose.",
+  "effects": [
+    {
+      "type": "escolha_de_lista",
+      "quantidade_inicial": 1,
+      "ganha_mais_uma_por": "outro poder da distinção",
+      "custo_para_assumir": { "acao": "movimento", "pm": 2 },
+      "duracao": "até o fim da cena ou até assumir outra pose",
+      "opcoes": [
+        { "id": "acrobacia_espalhafatosa", "name": "Acrobacia Espalhafatosa", "description": "Ao assumir, todos os inimigos em alcance curto ficam vulneráveis por 1 rodada (uma criatura só uma vez por cena). Seu deslocamento aumenta em 3m e você recebe +5 em Acrobacia." },
+        { "id": "calor_do_combate", "name": "Calor do Combate", "description": "Você recebe +2 em testes de ataque e rolagens de dano, mas sofre –2 na Defesa. A cada outros dois poderes da distinção, esses bônus aumentam em +1." },
+        { "id": "coordenacao_de_coreografia", "name": "Coordenação de Coreografia", "description": "Ao assumir, você se torna o último na iniciativa. Em seu turno, para cada aliado que fez pelo menos um ataque desde o seu turno anterior, você recebe +1 em suas rolagens de dano." },
+        { "id": "defender_o_sonho", "name": "Defender o Sonho", "description": "Seus aliados recebem +2 em testes de perícia (exceto ataque). A cada outros dois poderes da distinção, esse bônus aumenta em +1." },
+        { "id": "julgamento_heroico", "name": "Julgamento Heroico", "description": "Ao assumir, escolha um inimigo em alcance curto: suas rolagens de dano contra ele recebem +1d8 de luz, mas você sofre –2 em ataque contra outras criaturas. A cada dois outros poderes da distinção, o dado de luz aumenta um passo." },
+        { "id": "poder_da_amizade", "name": "Poder da Amizade", "description": "Ao assumir, e no início de cada um dos seus turnos, seus aliados recebem PV temporários iguais a 5 + o total de poderes da distinção que você possui." },
+        { "id": "terror_dos_injustos", "name": "Terror dos Injustos", "description": "Qualquer criatura em alcance curto que faça uma ação hostil contra você ou um aliado fica abalada (Vontade CD Car evita; a criatura não pode ser afetada de novo por esta pose por 1 dia)." }
+      ]
+    }
+  ],
+  "requirements": ["treinado em Luta", "Sequência de Transformação"],
+  "livro": "deuses_de_arton"
+}

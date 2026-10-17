@@ -1,0 +1,9 @@
+{
+  "id": "sorvo_de_mana",
+  "name": "Sorvo de Mana",
+  "deities": ["wynna"],
+  "description": "Sempre que falhar no teste de resistência contra uma magia de um inimigo, você recupera uma quantidade de PM igual ao círculo dela.",
+  "effects": { "type": "passivo", "gatilho": "falhar em teste de resistência contra magia de um inimigo", "efeito": "recupera PM igual ao círculo da magia" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

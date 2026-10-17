@@ -1,0 +1,17 @@
+{
+  "id": "abraco_da_noite",
+  "name": "Abraço da Noite",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 3,
+  "espacos": 0,
+  "deity": "tenebra",
+  "efeito": {
+    "requer_devoto": "tenebra",
+    "duracao": "até o fim do dia",
+    "efeito": "pode usar o poder Carícia Sombria uma vez; se já o possui, pode usá-lo causando 4d6 de dano de trevas (em vez de 2d6)",
+    "observacao": "mortos-vivos podem receber o benefício deste prato"
+  },
+  "description": "Dizem que este doce gelado e aveludado como a noite foi criado por clérigos anões para homenagear sua mãe Ayrelynn (Tenebra). Até o fim do dia, você pode usar o poder Carícia Sombria uma vez. Se já o possui, pode usá-lo uma vez causando 4d6 pontos de dano de trevas (em vez de 2d6). Pela graça da Mãe Noite, mortos-vivos podem receber o benefício deste prato especial.",
+  "livro": "deuses_de_arton"
+}

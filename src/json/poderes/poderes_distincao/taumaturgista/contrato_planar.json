@@ -1,0 +1,10 @@
+{
+  "id": "contrato_planar",
+  "name": "Contrato Planar",
+  "description": "Você tem um segundo amigo de outro mundo. Escolha um efeito de Barganha Planar para esse segundo amigo. Se escolher um igual, ele é cumulativo.",
+  "effects": [
+    { "type": "passivo", "efeito": "concede um segundo Amigo de Outro Mundo, com seu próprio efeito de Barganha Planar (cumulativo se repetido)" }
+  ],
+  "requirements": ["Barganha Planar"],
+  "livro": "deuses_de_arton"
+}

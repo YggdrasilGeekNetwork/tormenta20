@@ -1,0 +1,9 @@
+{
+  "id": "golpe_tempestuoso",
+  "name": "Golpe Tempestuoso",
+  "deities": ["oceano"],
+  "description": "Quando acerta um ataque corpo a corpo, você pode gastar 2 PM. Se fizer isso, a criatura é empurrada 3m em uma direção a sua escolha e fica desprevenida por 1 rodada.",
+  "effects": { "type": "ativado", "gatilho": "acertar ataque corpo a corpo", "custo_pm": 2, "efeito": "empurra o alvo 3m em direção escolhida e ele fica desprevenido por 1 rodada" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

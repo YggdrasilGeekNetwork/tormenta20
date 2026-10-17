@@ -1,0 +1,17 @@
+{
+  "id": "baculo_da_retribuicao",
+  "name": "Báculo da Retribuição",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 200,
+  "espacos": 1,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "gatilho": "gastar ao menos 1 PM em uma magia de cura de luz",
+    "rolagem": "1d4",
+    "efeito_no_4": "além do normal, a magia recupera 1 PM de cada criatura curada"
+  },
+  "description": "Este bastão longo possui uma ponta curva, geralmente adornada com um símbolo religioso. Sempre que gastar pelo menos 1 PM em uma magia de cura de luz, role 1d4. Com um resultado 4, além do normal, a magia recupera 1 PM de cada criatura curada.",
+  "livro": "deuses_de_arton"
+}

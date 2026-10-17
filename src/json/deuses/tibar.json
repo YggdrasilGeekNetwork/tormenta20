@@ -1,0 +1,27 @@
+{
+  "id": "tibar",
+  "name": "Tibar",
+  "title": "Deus do Comércio",
+  "description": "Cerca de 400 anos atrás, para facilitar o comércio e regulamentar os valores de cada mercadoria, foi cunhada uma moeda de prata com 1,5cm de diâmetro, criada por um humano chamado Quindogar Tolliannor, o primeiro conselheiro real de Deheon e grande adepto das artes da barganha e negociação. A moeda foi batizada de tibar e ficou tão popular que seu criador começou a ser chamado pelo mesmo nome. Com o tempo, Quindogar ascendeu a Deus do Comércio, com o nome Tibar. Não se sabe mais como era a aparência original de Tibar, pois a crença dos fiéis foi tanta que hoje sua face é a mesma cunhada nas moedas de prata, cobre e ouro que circulam pelo Reinado e além. Toda e qualquer troca, seja um escambo, seja uma transação financeira, é domínio de Tibar.",
+  "beliefs_objectives": [
+    "Realizar negócios",
+    "Completar transações comerciais",
+    "Incentivar a troca de bens e mercadorias",
+    "Criar e proteger caravanas comerciais",
+    "Vender e comprar itens",
+    "Fomentar a prosperidade"
+  ],
+  "holy_symbol": "Um tibar",
+  "energy": "qualquer",
+  "preferred_weapon": null,
+  "devotees": {
+    "races": ["anoes", "elfos", "golens", "hynne", "kallyanach", "kliren", "minotauros", "nagahs", "qareen"],
+    "classes": ["arcanistas", "bardos", "bucaneiros", "cacadores", "guerreiros", "inventores", "nobres"]
+  },
+  "granted_powers": ["incentivador_da_economia"],
+  "obligations_restrictions": "Um devoto de Tibar nunca pode deixar de comercializar. Ele sempre deve barganhar em qualquer transação financeira de que participar e, uma vez a cada semana, deve gastar pelo menos T$ 50 por patamar em itens ou serviços. Devotos deste deus não podem usar a magia Arma Espiritual e similares (Tibar não tem arma preferida).",
+  "rank": "menor",
+  "natureza": "mortal_ascendido",
+  "status_divino": 5,
+  "livro": "deuses_de_arton"
+}

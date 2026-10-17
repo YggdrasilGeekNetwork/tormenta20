@@ -1,0 +1,15 @@
+{
+  "id": "anel_eclesiastico",
+  "name": "Anel Eclesiástico",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 50,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "requer": "ser clérigo ou frade",
+    "bonus": { "diplomacia": 1, "intimidacao": 1 }
+  },
+  "description": "Este anel é um símbolo da autoridade de um sacerdote. Pessoas comuns tendem a se impressionar com estes anéis, até mesmo se ajoelhando para beijá-los na mão de seus portadores. Se for um clérigo ou frade e estiver vestindo um anel eclesiástico, você recebe +1 em Diplomacia e Intimidação.",
+  "livro": "deuses_de_arton"
+}

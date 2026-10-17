@@ -1,0 +1,15 @@
+{
+  "id": "espada_imaculada",
+  "name": "Espada Imaculada",
+  "deities": ["thyatis"],
+  "subtipo": "arma",
+  "base_item": "espada_longa",
+  "classificacao": "Arma específica média",
+  "preco": 45000,
+  "description": "Esta espada longa precisa tem cabo de aço tingido de vermelho vivo, com asas de pássaro servindo de guarda-mão. Se você for um devoto de Thyatis, ela se torna uma espada longa precisa formidável e você pode gastar 2 PM para fazer a lâmina dela se tornar plasma vermelho até o fim da cena. Nesse estado, o bônus de ataque da espada muda para +4 e seu dano aumenta em dois passos, muda para fogo não letal e ignora 20 pontos de redução de dano.",
+  "effects": [
+    { "type": "passivo", "enchantment": "precisa" },
+    { "type": "devoto", "deity": "thyatis", "enchantment": "precisa formidável", "custo_pm": 2, "duracao": "até o fim da cena", "efeito": "a lâmina se torna plasma vermelho: bônus de ataque muda para +4, dano aumenta em dois passos, muda para fogo não letal e ignora 20 de redução de dano" }
+  ],
+  "livro": "deuses_de_arton"
+}

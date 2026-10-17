@@ -1,0 +1,12 @@
+{
+  "id": "sermao_da_egide",
+  "name": "Sermão da Égide",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Você pode gastar uma ação padrão e 3 PM para orar por proteção para uma criatura em alcance curto. Até o seu próximo turno, quando essa criatura sofrer dano, ela pode gastar essa proteção para reduzir esse dano à metade.",
+  "requirements": [],
+  "effects": [
+    { "type": "ativado", "acao": "padrão", "custo_pm": 3, "alcance": "curto", "efeito": "até o próximo turno do frade, a criatura protegida pode reduzir à metade o próximo dano que sofrer" }
+  ],
+  "livro": "deuses_de_arton"
+}

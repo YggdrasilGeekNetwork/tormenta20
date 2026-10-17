@@ -1,0 +1,9 @@
+{
+  "id": "magia_piedosa",
+  "name": "Magia Piedosa",
+  "deities": ["lena", "thyatis"],
+  "description": "Quando lança uma magia que causa dano, você pode fazer com que ela cause dano não letal.",
+  "effects": { "type": "ativado", "gatilho": "lançar magia que causa dano", "efeito": "a magia passa a causar dano não letal" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

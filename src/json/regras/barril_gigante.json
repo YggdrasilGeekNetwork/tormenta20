@@ -1,0 +1,18 @@
+{
+  "id": "barril_gigante",
+  "name": "Barril Gigante de...",
+  "description": "Gigantes das rochas (em todas as suas variações) costumam carregar um barril contendo vários litros de uma bebida. Em combate, o gigante pode ingerir uma dose para se fortalecer, ou derramá-la sobre inimigos para entorpecê-los. A CD para resistir aos efeitos é indicada na ficha do gigante. Um barril gigante encontrado como tesouro ocupa 5 espaços e tem 1d4+1 cargas; usá-lo conta como a habilidade Barril Gigante de... (CD For).",
+  "bebidas": [
+    { "nome": "Aguardente", "efeito": "Criaturas em um cone de 6m ficam enjoadas (Fort reduz a duração para 1 rodada)." },
+    { "nome": "Dilínio", "efeito": "O gigante recebe redução de dano 5/mágico até o fim da cena." },
+    { "nome": "Hidromel", "efeito": "Criaturas em um raio de 3m em alcance curto recebem +2 em testes de ataque e rolagens de dano até o fim da cena, mas ficam confusas por 1d2 rodadas (Fort evita a condição)." },
+    { "nome": "Rum", "efeito": "O gigante recebe imunidade a efeitos de fadiga e de metabolismo por 1d4+1 rodadas, mas depois fica fraco." },
+    { "nome": "Sidra", "efeito": "Uma criatura em alcance curto sofre 1d8+15 de dano de impacto e fica atordoada por 1 rodada (Fort reduz à metade e evita; só pode ser atordoada 1x por cena)." },
+    { "nome": "Vinho", "efeito": "Até o fim da cena, o gigante recebe Cura Acelerada 5, mas sofre -5 em Vontade." }
+  ],
+  "pavio_curto": {
+    "acao": "reação",
+    "descricao": "Quando é ofendido ou sofre dano de um inimigo, o gigante (das rochas, do gelo ou dos mares) entra em fúria. Recebe +3 em testes de ataque e rolagens de dano, e seus ataques deixam as vítimas sangrando, mas deve sempre atacar a criatura mais próxima. A fúria termina se, ao fim da rodada, ele não tiver atacado nem sido alvo de um efeito hostil."
+  },
+  "livro": "deuses_de_arton"
+}

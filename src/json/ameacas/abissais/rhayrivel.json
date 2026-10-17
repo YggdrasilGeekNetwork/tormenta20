@@ -1,0 +1,34 @@
+{
+  "id": "rhayrivel",
+  "name": "Rhayrivel",
+  "nd": 7,
+  "tipo": "Espírito",
+  "subtipo": "abissal",
+  "tamanho": "médio",
+  "grupo": "abissais",
+  "pv": 280,
+  "pm": null,
+  "defesa": 31,
+  "salvaguardas": { "fort": 19, "ref": 15, "von": 7 },
+  "reducao_de_dano": "5",
+  "imunidades": ["ácido", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 7,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 6, "des": 2, "con": 4, "int": 1, "sab": 0, "car": -2 },
+  "pericias": { "intimidacao": 14 },
+  "ataques": [
+    { "nome": "Cimitarra", "quantidade": 2, "bonus": 24, "dano": [{ "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 20, "tipo": "corte" }], "critico": "18" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Correntes Farpadas", "acao": "padrão", "salvaguarda": "Fortitude", "cd": 24, "efeito_sucesso": "reduz à metade e evita a dor e a penalidade", "descricao": "O rhayrivel projeta suas correntes contra uma criatura em alcance curto. A vítima sofre 3d6+26 pontos de dano de corte e é acometida por uma dor profunda, que causa uma penalidade de -5 em testes de perícia até o fim da cena (Fort CD 24 reduz à metade e evita a dor e a penalidade). Um efeito capaz de remover uma condição de fadiga remove a dor e a penalidade." },
+    { "nome": "Sadismo", "descricao": "O rhayrivel recebe +5 em testes de ataque e rolagens de dano contra criaturas que estejam sangrando." },
+    { "nome": "Talho Atroz", "salvaguarda": "Fortitude", "cd": 24, "efeito_sucesso": "evita", "descricao": "Uma criatura atingida por um ataque de cimitarra do rhayrivel fica sangrando (Fort CD 24 evita)." }
+  ],
+  "tesouro": "Padrão.",
+  "description": "Humano careca de olhos vermelhos e língua bifurcada, o corpo coberto de lâminas, correntes e ganchos de aço farpado enxertados na carne. Legionário sádico que ama infligir dor e sofrimento.",
+  "livro": "deuses_de_arton"
+}

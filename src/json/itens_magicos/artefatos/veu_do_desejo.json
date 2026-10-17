@@ -1,0 +1,11 @@
+{
+  "id": "veu_do_desejo",
+  "name": "Véu do Desejo",
+  "description": "Este manto branco de tecido leve concede +5 em Atuação, em testes de resistência e na CD para resistir a suas habilidades, e fornece redução de dano 10.",
+  "effects": [
+    { "type": "clothing_type", "base": "manto" },
+    { "type": "bônus", "attribute": "atuacao,testes_de_resistencia,cd_habilidades", "amount": "+5" },
+    { "type": "reducao_de_dano", "valor": 10 }
+  ],
+  "livro": "deuses_de_arton"
+}

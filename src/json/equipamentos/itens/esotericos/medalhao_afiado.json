@@ -1,0 +1,16 @@
+{
+  "id": "medalhao_afiado",
+  "name": "Medalhão Afiado",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 900,
+  "espacos": 1,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "gatilho": "lançar magia que fornece bônus em testes de ataque",
+    "efeito": "a magia também fornece +1 na margem de ameaça desses ataques"
+  },
+  "description": "Um pequeno medalhão com bordas afiadas e a imagem de uma arma gravada. Quando você lança uma magia que fornece um bônus em testes de ataque, ela também fornece +1 na margem de ameaça desses ataques.",
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "sortudo_de_nimb",
+  "name": "Sortudo de Nimb",
+  "description": "Aventureiro abençoado pelo Deus do Caos que confia inteiramente na sorte — sem planejamento, sem talento especial, sem esforço — e sempre, de alguma forma, acaba bem.",
+  "admissao": "Em termos de regras: o jogador não pode montar um personagem poderoso, eficiente ou com combos entre poderes (o mestre decide o que conta como combo), e deve manter a ficha 'malfeita' — planejar a ficha a qualquer momento faz perder a distinção. O candidato deve então vencer três desafios que poderiam matar o personagem usando apenas sorte, rolando os dados secos, sem modificadores nem habilidades para alterar o resultado. Por fim, jogador e mestre rolam 1d20 três vezes cada; se o mestre vencer duas das três rolagens, o candidato não consegue a distinção (mas fica livre para planejar a ficha normalmente). Se o jogador vencer, torna-se um sortudo de Nimb.",
+  "marca_nome": "Sorte Boba",
+  "marca_descricao": "Quando usa uma habilidade que permite rolar qualquer dado novamente, você rola dois dados desse tipo e usa o melhor resultado.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

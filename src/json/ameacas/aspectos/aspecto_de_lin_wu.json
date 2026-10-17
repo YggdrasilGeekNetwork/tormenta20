@@ -1,0 +1,37 @@
+{
+  "id": "aspecto_de_lin_wu",
+  "name": "Aspecto de Lin-Wu",
+  "nd": 4,
+  "tipo": "Espírito",
+  "subtipo": "dragão",
+  "tamanho": "grande",
+  "grupo": "aspectos",
+  "pv": 158,
+  "pm": 36,
+  "defesa": 22,
+  "salvaguardas": { "fort": 12, "ref": 4, "von": 16 },
+  "reducao_de_dano": 5,
+  "resistencia_a_magia": 2,
+  "imunidades": ["atordoamento", "eletricidade", "medo", "metabolismo", "metamorfose", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": ["ácido"],
+  "iniciativa": 6,
+  "percepcao": 12,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 24 },
+  "atributos": { "for": 7, "des": 2, "con": 6, "int": 4, "sab": 6, "car": 5 },
+  "pericias": { "conhecimento": 10, "diplomacia": 11, "intuicao": 12, "misticismo": 10, "religiao": 12 },
+  "ataques": [
+    { "nome": "Mordida", "bonus": 14, "dano": [{ "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 7, "tipo": "perfuração" }], "critico": "18" },
+    { "nome": "Garra", "quantidade": 2, "bonus": 14, "dano": [{ "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 5, "tipo": "corte" }], "critico": "18" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Conduta Honrosa", "descricao": "O aspecto emana uma aura de honra de 9m de raio. Criaturas à escolha do aspecto nessa área recebem +2 em testes de perícia, desde que ajam de forma exemplar (obedecendo ao Código de Honra, Código do Herói ou às Obrigações & Restrições de Lin-Wu). Uma criatura que viole esses códigos perde o bônus e só pode recuperá-lo realizando um rito em nome de Lin-Wu." },
+    { "nome": "Dragão Divino", "descricao": "O aspecto possui todas as habilidades de dragões celestiais (Magia Celestial, Metamorfose Celestial, Presença Celestial)." },
+    { "nome": "Magias (clérigo 6º, CD 20)", "descricao": "Arma Mágica (padrão, 5 PM): arma adjacente se torna mágica, +1 em ataque/dano, +1d6 de dano de eletricidade até o fim da cena. Bênção (padrão, 3 PM): aliados em alcance curto +2 em ataque e dano até o fim da cena. Curar Ferimentos (padrão, 5 PM): criatura adjacente cura 6d8+6 PV. Oração (padrão, 3 PM, sustentada): aspecto e aliados em alcance curto +2 em perícias e dano; inimigos em alcance curto -2. Orientação (padrão, 1 PM): criatura em alcance curto rola dois dados e usa o melhor no próximo teste de perícia." },
+    { "nome": "Parceiro", "descricao": "O aspecto de Lin-Wu é um parceiro montaria (Grande) que concede deslocamento de voo 24m, +2 em Nobreza e Vontade, e a habilidade Conduta Honrosa. Violar os códigos impostos por essa habilidade impede o uso futuro desta montaria." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Criatura serpentina de escamas brilhantes, antenas em forma de chifres e olhos como pérolas, encarnação temporária de Lin-Wu na forma de um dragão celestial. Rígido e inflexível quanto à honra e etiqueta.",
+  "livro": "deuses_de_arton"
+}

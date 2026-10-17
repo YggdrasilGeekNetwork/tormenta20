@@ -1,0 +1,24 @@
+{
+  "id": "heranca_de_drashantyr",
+  "name": "Herança de Drashantyr",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "Graças ao poder elemental dos dragões, você recebe +1 PM e redução de ácido, eletricidade, fogo, frio, luz e trevas 5.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "pm_bonus": 1,
+    "damage_reduction": {
+      "acido": 5,
+      "eletricidade": 5,
+      "fogo": 5,
+      "frio": 5,
+      "luz": 5,
+      "trevas": 5
+    }
+  },
+  "livro": "deuses_de_arton"
+}

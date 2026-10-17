@@ -1,0 +1,10 @@
+{
+  "id": "colecionador_monstruoso",
+  "name": "Colecionador Monstruoso",
+  "description": "Druida de Megalokk que rejeita completamente a influência de Allihanna, buscando conexão cada vez maior com os monstros até ser capaz de se transformar neles.",
+  "admissao": "Apenas druidas de Megalokk podem tentar. O candidato deve passar um mês vivendo inteiramente como um monstro — comendo apenas após matar em acessos de fúria, sem guardar comida ou escolher presas fáceis, sem buscar abrigo, resistindo ao sono, sem cooperar com ninguém, abandonando a autopreservação. Depois, deve escolher um monstro no mínimo tão poderoso quanto ele mesmo e, sozinho e sem equipamentos, caçá-lo, matá-lo e devorá-lo por inteiro, adquirindo a capacidade de se transformar nele. A partir daí, pode caçar em grupo os monstros seguintes, desde que participe do combate, cause dano direto e devore a maior parte do corpo.",
+  "marca_nome": "Através da Selvageria",
+  "marca_descricao": "Quando usa Forma Selvagem, seu tipo muda para monstro e você recebe +1 no multiplicador de crítico com armas naturais.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

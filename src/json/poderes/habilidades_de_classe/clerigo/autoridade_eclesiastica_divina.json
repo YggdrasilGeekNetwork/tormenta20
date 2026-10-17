@@ -1,0 +1,37 @@
+{
+  "id": "autoridade_eclesiastica_divina",
+  "name": "Autoridade Eclesiástica (versão por divindade)",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Versão alternativa de Autoridade Eclesiástica (Deuses de Arton, p.22), com efeito específico para cada uma das vinte divindades do Panteão em vez do benefício genérico. Você recebe +5 em testes de Diplomacia e Intimidação ao lidar com devotos de sua divindade, além do benefício específico de sua divindade (veja `effects`, chaveado pelo id da divindade). Pré-requisitos: 5º nível de clérigo ou frade, devoto de um deus maior.",
+  "requirements": [
+    { "type": "character_lvl", "sub_type": "hard", "value": 5 },
+    { "type": "devoto_de_deus_maior", "sub_type": "hard" }
+  ],
+  "effects": {
+    "base": { "skill_improvement": 5, "skills": ["diplomacia", "intimidacao"], "restrictions": "apenas contra devotos da própria divindade" },
+    "por_divindade": {
+      "aharadak": "Aprende e pode lançar Sussurros Insanos como magia divina. Em um templo de Aharadak (ou com 5+ outros devotos), pode gastar 1 hora num ritual para receber um 'embrião rubro' (ocupa 1 espaço); até o fim da aventura ou até repetir o ritual, pode despertá-lo para ganhar 1 poder da Tormenta à escolha (cujos pré-requisitos cumpra) até o fim da cena.",
+      "allihanna": "+5 em Adestramento e Cavalgar, usáveis com animais mesmo sem treinamento. Ao descansar em terreno natural, recebe 1d4 de auxílio por patamar, somável a um teste de perícia até o fim do dia.",
+      "arsenal": "Ao visitar um templo de Arsenal, pode orar para que uma arma, armadura ou escudo escolhido receba uma melhoria à escolha (exceto material especial, fora do limite de melhorias do item); funciona também em armas/munições de Conjurar Arma. Dura até o fim da aventura ou até orar por outra melhoria.",
+      "azgher": "+5 em Sobrevivência. Uma vez por aventura, em um templo de Azgher, pode medir o peso da própria alma com um teste de Religião (CD 15/20/25 segundo o quanto seguiu as Obrigações & Restrições no último mês) e ganha 1 TO por patamar por ponto acima da CD.",
+      "hyninn": "Ao chegar numa comunidade, teste de Sabedoria CD 10 para contatar ladrões locais: enquanto lá, +5 em Diplomacia (barganha) e Investigação (interrogar); uma vez na estadia pode ganhar um parceiro veterano (ajudante, assassino, fortão, perseguidor ou vigilante) fora do limite de parceiros.",
+      "kallyadranoch": "+5 em Intimidação. Em um templo de Kallyadranoch, durante uma cena à escolha, sempre que aplicar uma condição de medo em inimigos, recupera 1d4 PM.",
+      "khalmyr": "+5 em Diplomacia e Intimidação com agentes da lei. Uma vez por aventura, em um templo de Khalmyr, pode solicitar uma escolta de até dois parceiros iniciantes (combatente, guardião ou médico) que o acompanham até o fim da aventura.",
+      "lena": "Recebe o poder Aparência Inofensiva (ou +2 na CD para resistir a ele, se já o possui). Ao descansar um dia inteiro num templo de Lena, recebe +1 em testes de resistência e +1 PV por nível até o fim da aventura; pode estender o benefício a aliados que façam o mesmo.",
+      "lin_wu": "+2 em testes de perícia e na CD de suas habilidades contra criaturas treinadas em Enganação, Furtividade ou Ladinagem, ou que tenham Ataque Furtivo.",
+      "marah": "+1 em Carisma. Ao usar uma habilidade que cause enfeitiçado, fascinado ou pasmo, pode gastar 2 PM para fazer as criaturas afetadas rolarem dois dados no teste de resistência e usarem o pior resultado.",
+      "megalokk": "A atitude de monstros com Int -3 ou menor melhora em uma categoria em relação a você; se mesmo assim o atacarem, +1 em testes de ataque e rolagens de dano contra eles.",
+      "nimb": "Uma vez por dia, pode impor o status de Autoridade de Nimb a outra criatura não devota em alcance curto: teste de Vontade CD Sab — se passar, você fica confuso; se falhar, ela fica sob as Obrigações & Restrições de Nimb por um dia (e você fica livre delas no mesmo período, além de atrair a atenção de outros devotos de Nimb para ela).",
+      "oceano": "Deslocamento de natação dobrado. Uma vez por dia, em água natural, pode gastar 1 PM para convocar um parceiro iniciante anfíbio/aquático (combatente, fortão ou guardião) fora do limite de parceiros, até o fim do dia.",
+      "sszzaas": "Pode conduzir uma cerimônia (3+ outros devotos, 1 hora, local escondido): por outro devoto presente, +1 no total de PM até o fim da aventura e +1 em Enganação (ambos limitados pelo nível); o bônus em Enganação é permanente mas cai 1 a cada uso da perícia.",
+      "tanna_toh": "+5 em Conhecimento e em testes de perícia para identificar criatura/item/magia. Ao visitar um templo de Tanna-Toh, pode escolher uma perícia não treinada e ganhar os benefícios de treinamento nela até o fim da aventura ou até reusar.",
+      "tenebra": "Em um templo de Tenebra à noite, pode conduzir a Missa 'Súplica à Deusa das Trevas' (efeitos durando uma semana): participantes recebem redução de luz e fogo 5 e seus efeitos de trevas causam +1 dado de dano, dobrado à noite.",
+      "thwor": "+5 em testes baseados em Carisma para convencer alguém a ajudar a causa duyshidakk. Em um templo de Thwor (ou local com diagrama do Akzath), você e aliados escolhidos podem se aproximar de um lado do Akzath: +10 PV e +1 em perícias (exceto ataque) OU +1 em ataque e dano, até o fim da aventura ou até trocar.",
+      "thyatis": "Recebe um ícone da fênix (item esotérico, símbolo sagrado de Thyatis) que reduz em -1 PM o custo de magias de adivinhação e fogo (cumulativo); se perdido, repõe-se visitando um templo de Thyatis e doando T$ 100.",
+      "valkaria": "Pode permanecer uma aventura inteira num mesmo local se houver um templo de Valkaria a até um dia de distância. Ao decretar uma 'demanda' num templo de Valkaria, recebe +1 PV por nível e inverte as condições de descanso (relento = confortável, sob teto = ruim) até cumprir a demanda; abandoná-la deixa você alquebrado até fazer penitência.",
+      "wynna": "Paga metade do preço de pergaminhos, poções e serviços em templos de Wynna. Ao meditar um dia num templo de Wynna, escolhe uma magia desconhecida (arcana ou divina, até 2º círculo) e pode lançá-la pagando o custo normal, até o fim da aventura ou até reusar."
+    }
+  },
+  "livro": "deuses_de_arton"
+}

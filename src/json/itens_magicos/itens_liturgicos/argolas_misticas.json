@@ -1,0 +1,13 @@
+{
+  "id": "argolas_misticas",
+  "name": "Argolas Místicas",
+  "deities": ["wynna"],
+  "subtipo": "acessorio",
+  "classificacao": "Acessório médio",
+  "preco": 25500,
+  "description": "Esta peculiar peça de vestuário consiste de tiras de couro cru conectadas por pequenas argolas metálicas. O conjunto é costurado, tratado com óleos alquímicos e abençoado por louvores a Wynna. Quando um devoto de Wynna lança uma magia, a energia flui pelas tiras (que funcionam como canais) em direção às argolas (que funcionam como um tipo de ímã místico), acumulando-se nelas. Normalmente, quando um arcanista conjura um feitiço, quantidades residuais da mana canalizada se dissipam na natureza; as argolas impedem isso, potencializando o esforço do conjurador. Em termos de regras, se você estiver vestindo as argolas místicas, for um devoto de Wynna e lançar uma magia, recebe +2 PM para gastar em aprimoramentos. Esses PM podem ultrapassar o limite de gasto de mana do devoto.",
+  "effects": [
+    { "type": "devoto", "deity": "wynna", "gatilho": "lançar uma magia", "efeito": "recebe +2 PM para gastar em aprimoramentos, podendo ultrapassar o limite de gasto de mana" }
+  ],
+  "livro": "deuses_de_arton"
+}

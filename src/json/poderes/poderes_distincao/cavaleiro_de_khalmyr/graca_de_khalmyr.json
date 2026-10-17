@@ -1,0 +1,10 @@
+{
+  "id": "graca_de_khalmyr",
+  "name": "Graça de Khalmyr",
+  "description": "Quando faz um teste de resistência ou sofre um ataque, você pode gastar uma quantidade de PM a sua escolha (limitada pela sua Sabedoria). Para cada PM que gastar, recebe +2 no teste ou na Defesa contra esse ataque.",
+  "effects": [
+    { "type": "ativado", "gatilho": "teste de resistência ou sofrer um ataque", "custo_pm_maximo": "sua Sabedoria", "bonus_por_pm": 2, "aplica_em": ["teste de resistência", "Defesa contra o ataque"] }
+  ],
+  "requirements": ["Sab 2", "Vitória da Ordem"],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "escapatoria_de_hyninn",
+  "name": "Escapatória de Hyninn",
+  "type": "divina",
+  "circle": "1",
+  "school": "abjur",
+  "execution": "reação",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": { "amount": 1, "up_to": false, "type": "você" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "instantânea",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Por um breve instante, você adquire uma agilidade espantosa para se esquivar de algum perigo súbito. Você recebe +5 em um teste de Ladinagem para desarmar armadilhas ou de Reflexos.",
+  "enhancements": [
+    { "cost": 2, "type": "muda", "description": "muda o alcance para curto e o alvo para 1 criatura. Requer 2º círculo.", "extra_details": { "requirements": "2º círculo" } },
+    { "cost": 5, "type": "muda", "description": "muda a execução para padrão e a duração para cena. Em vez do normal, o bônus se aplica a todos os testes destas perícias pela duração. Requer 3º círculo.", "extra_details": { "requirements": "3º círculo" } },
+    { "cost": 3, "type": "aumenta", "description": "(Apenas Devotos de Hyninn): além do normal, o alvo pode usar Evasão.", "extra_details": { "requirements": "devoto de Hyninn" } },
+    { "cost": 7, "type": "aumenta", "description": "(Apenas Devotos de Hyninn): além do normal, o alvo pode usar Evasão Aprimorada. Requer 4° círculo.", "extra_details": { "requirements": "devoto de Hyninn; 4º círculo" } }
+  ],
+  "effects": [
+    { "type": "bônus", "attribute": "ladinagem_desarmar_armadilhas,reflexos", "amount": "+5", "resistence_requirement": null, "extra_requirements": null }
+  ],
+  "livro": "deuses_de_arton"
+}

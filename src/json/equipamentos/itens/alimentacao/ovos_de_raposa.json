@@ -1,0 +1,16 @@
+{
+  "id": "ovos_de_raposa",
+  "name": "Ovos de Raposa",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 3,
+  "espacos": 0,
+  "deity": "hyninn",
+  "efeito": {
+    "requer_devoto": "hyninn",
+    "frequencia": "1x_nesse_dia",
+    "efeito": "pode rolar novamente um teste de Enganação ou Ladinagem recém-feito"
+  },
+  "description": "O tempero do Deus dos Ladrões garante que estes ovos recheados tenham sempre um sabor diferente e inesperado. Uma vez nesse dia, você pode rolar novamente um teste de Enganação ou Ladinagem recém-feito.",
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "robe_professoral",
+  "name": "Robe Professoral",
+  "description": "Este robe de aparência comum e desgastada fornece +10 na Defesa, +5 em testes de resistência e redução de dano 10.",
+  "effects": [
+    { "type": "clothing_type", "base": "robe" },
+    { "type": "bônus", "attribute": "defesa", "amount": "+10" },
+    { "type": "bônus", "attribute": "testes_de_resistencia", "amount": "+5" },
+    { "type": "reducao_de_dano", "valor": 10 }
+  ],
+  "livro": "deuses_de_arton"
+}

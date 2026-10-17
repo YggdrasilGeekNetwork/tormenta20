@@ -1,0 +1,9 @@
+{
+  "id": "mordida_de_vibora",
+  "name": "Mordida de Víbora",
+  "deities": ["sszzaas"],
+  "description": "Você recebe uma arma natural de mordida (dano 1d6, crítico x2, perfuração). Suas presas são retráteis e podem armazenar até 2 doses de veneno de contato. Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Se acertar, pode inocular uma das doses de veneno no alvo.",
+  "effects": { "type": "passivo", "efeito": "arma natural de mordida (1d6, crítico x2, perfuração) que armazena até 2 doses de veneno de contato", "extra": { "type": "ativado", "frequencia": "1x_por_rodada", "gatilho": "usar a ação agredir com outra arma", "custo_pm": 1, "efeito": "ataque corpo a corpo extra com a mordida; se acertar, pode inocular uma dose de veneno armazenada" } },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

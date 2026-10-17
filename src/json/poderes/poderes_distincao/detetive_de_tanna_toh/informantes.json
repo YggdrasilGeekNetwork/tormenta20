@@ -1,0 +1,23 @@
+{
+  "id": "informantes",
+  "name": "Informantes",
+  "description": "Você possui um informante (veja a lista) a sua escolha. A cada outro poder da distinção, você recebe um informante adicional. Um informante é um NPC que auxilia com conhecimento especializado, mas não se envolve em missões arriscadas — seu benefício só pode ser usado se puder visitá-lo ou contatá-lo. Uma vez por aventura, pode trocar a localização de seus informantes.",
+  "effects": [
+    {
+      "type": "escolha_de_lista",
+      "quantidade_inicial": 1,
+      "ganha_mais_um_por": "outro poder da distinção",
+      "troca": "1x por aventura pode realocar seus informantes",
+      "opcoes": [
+        { "id": "aristocrata", "name": "Aristocrata", "description": "Alguém com laços nas camadas mais elevadas da sociedade. Você pode usar o poder Favor. Se já tiver esse poder, em vez disso recebe +5 no teste de Diplomacia para obter o favor." },
+        { "id": "armeiro", "name": "Armeiro", "description": "Um artesão especialista em armas. Você pode usar Investigação no lugar de Ofício para identificar armas. Uma vez por aventura, um de seus itens recebe uma melhoria a sua escolha que dura até o fim da aventura." },
+        { "id": "boticario", "name": "Boticário", "description": "Um alquimista e comerciante de preparados. Você pode usar Investigação no lugar de Ofício para identificar itens alquímicos e poções. Uma vez por aventura, recebe itens alquímicos e poções a sua escolha com preço total de até T$ 200 por poder da distinção que possui." },
+        { "id": "curandeiro", "name": "Curandeiro", "description": "Alguém versado em medicina. Você pode usar Investigação no lugar de Cura para necropsia e, uma vez por aventura, recebe três doses de um preparado alquímico experimental (duram até serem gastas ou até o fim da aventura); usá-lo é uma ação de movimento e fornece cura acelerada 5 por um número de rodadas igual ao nível do usuário." },
+        { "id": "erudito", "name": "Erudito", "description": "Um acadêmico capaz de auxiliá-lo em pesquisas. Uma vez por aventura, para cada poder da distinção você recebe 4d4 dados de consulta (duram até serem gastos ou até o fim da aventura); ao fazer um teste de perícia baseada em Inteligência ou Sabedoria, pode gastar até 2d4 deles e somar o resultado ao teste, mesmo após rolar mas antes do resultado ser revelado." },
+        { "id": "estalajadeiro", "name": "Estalajadeiro", "description": "Uma estalagem pode ser um porto seguro e fonte de informações. Você tem descanso luxuoso nela e, ao fazer um teste de Investigação para interrogar, rola dois dados e usa o melhor resultado." }
+      ]
+    }
+  ],
+  "requirements": ["Traçar Perfil"],
+  "livro": "deuses_de_arton"
+}

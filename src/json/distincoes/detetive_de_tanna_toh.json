@@ -1,0 +1,10 @@
+{
+  "id": "detetive_de_tanna_toh",
+  "name": "Detetive de Tanna-Toh",
+  "description": "Devoto da Deusa do Conhecimento que investiga crimes através de fatos comprováveis e deduções lógicas, nunca por suposição.",
+  "admissao": "Apenas devotos de Tanna-Toh podem se tornar detetives. O candidato precisa dominar disciplinas como leis, funcionamento de organizações criminosas, punga e arrombamento, furtividade, observação de suspeitos, interrogatório, alquimia e lógica pura — geralmente estudando com a guarda da cidade, um espião aposentado, alquimistas ou uma guilda de ladrões. Por fim, deve solucionar um caso real e insolúvel (não bastam confissões obtidas por meios brutais ou uma única pista): precisa cruzar informações, fazer deduções, obter provas materiais e apontar o culpado às autoridades.",
+  "marca_nome": "Nada Além de Fatos",
+  "marca_descricao": "Você recebe +5 em Intuição e Investigação.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "pacificacao",
+  "name": "Pacificação",
+  "description": "Sempre que derrotar um inimigo sem matá-lo, você recebe +10 PV e +2 PM cumulativos até o fim da aventura. A cada aventura, você pode receber esse benefício um número de vezes igual ao total de poderes da distinção que possui.",
+  "effects": [
+    { "type": "passivo", "gatilho": "derrotar um inimigo sem matá-lo", "efeito": "+10 PV e +2 PM cumulativos até o fim da aventura", "limite": "por aventura, igual ao total de poderes da distinção que possui" }
+  ],
+  "requirements": ["Presença do Bem"],
+  "livro": "deuses_de_arton"
+}

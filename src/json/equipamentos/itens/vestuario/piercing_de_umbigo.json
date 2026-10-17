@@ -1,0 +1,15 @@
+{
+  "id": "piercing_de_umbigo",
+  "name": "Piercing de Umbigo",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 50,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "condicao": "estar sem armadura ou usando armadura sensual",
+    "efeito": "+1 na CD de habilidades que causam enfeitiçado, fascinado ou pasmo"
+  },
+  "description": "Esta joia, muito apreciada por devotos de Marah, deve ser usada na barriga ou em outra parte do corpo visível e, por assim dizer, sensual. A CD para resistir às suas habilidades que causam as condições enfeitiçado, fascinado ou pasmo aumenta em +1, mas apenas se você estiver sem armadura ou usando uma armadura sensual.",
+  "livro": "deuses_de_arton"
+}

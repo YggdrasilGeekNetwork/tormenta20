@@ -1,0 +1,10 @@
+{
+  "id": "improvisador_de_lena",
+  "name": "Improvisador de Lena",
+  "description": "Aventureiro humano que domina todos os aspectos da vida de aventura exceto o combate, resolvendo problemas com criatividade, itens improvisados e conhecimento amplo em vez de armas ou violência.",
+  "admissao": "Apenas humanos podem se tornar improvisadores (membros de outras raças precisam passar ao menos seis meses imersos em uma cultura humana). O candidato deve ser um artesão, pesquisador, engenheiro ou similar, e precisa de um evento — trágico ou não — que o faça rejeitar o uso de armas. Depois disso, deve vencer dois combates desafiadores sem ferir ninguém (nem seus companheiros usando violência), através de criatividade genuína, não apenas uma magia que deixe o inimigo desacordado. Por fim, deve resolver uma situação de vida ou morte que normalmente exigiria equipamento, mas sem equipamento nenhum — usando apenas criatividade, nunca magias, força bruta ou conhecimento previamente aprendido.",
+  "marca_nome": "Código do Improvisador",
+  "marca_descricao": "Você segue o Código da Paz. Além disso, uma vez por cena, pode gastar uma ação de movimento para, a partir de itens do ambiente, improvisar uma ferramenta especial que ocupa 1 espaço; até o fim da cena, pode gastá-la para receber +2 em um teste de perícia ou reduzir em –1 PM o custo de uma habilidade.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

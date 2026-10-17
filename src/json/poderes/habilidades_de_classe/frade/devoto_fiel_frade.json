@@ -1,0 +1,11 @@
+{
+  "id": "devoto_fiel_frade",
+  "name": "Devoto Fiel",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Você se torna devoto de um deus maior. Veja as regras de devotos em Tormenta20, p. 96. Ao contrário de devotos normais, você recebe dois poderes concedidos por se tornar devoto, em vez de apenas um.\nComo alternativa, você pode cultuar o Panteão como um todo. Não recebe nenhum Poder Concedido, mas sua única obrigação e restrição é não usar armas cortantes ou perfurantes (porque derramam sangue, algo que frades do Panteão consideram proibido). Sua arma preferida é a maça e você pode canalizar energia positiva ou negativa a sua escolha (uma vez feita, essa escolha não pode ser mudada). Cultuar o Panteão conta como sua devoção.",
+  "requirements": "ver_texto",
+  "effects": "ver_texto",
+  "costs": null,
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "pao_de_thwor",
+  "name": "Pão de Thwor",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 1,
+  "espacos": 0,
+  "deity": "thwor",
+  "efeito": {
+    "requer_devoto": "thwor",
+    "duracao": "até o fim do dia",
+    "frequencia": "1x_por_dia",
+    "gatilho": "teste de Fortitude ou de perícia baseada em Força",
+    "efeito": "pode rolar novamente esse teste"
+  },
+  "description": "O pão, um alimento tão simples quanto importante, simboliza a tenacidade e resistência duyshidakk. Uma vez até o fim do dia, quando faz um teste de Fortitude ou de perícia baseada em Força, você pode rolá-lo novamente.",
+  "livro": "deuses_de_arton"
+}

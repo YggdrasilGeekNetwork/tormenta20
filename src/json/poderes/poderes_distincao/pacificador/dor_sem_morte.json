@@ -1,0 +1,10 @@
+{
+  "id": "dor_sem_morte",
+  "name": "Dor sem Morte",
+  "description": "Quando faz um ataque que causa dano não letal, você pode gastar 1 PM. Se fizer isso e acertar o ataque, o oponente sofre uma condição a sua escolha entre fraco, frustrado ou lento (Fortitude CD For ou Des evita). Para cada poder da distinção que você possui, a CD para resistir a este efeito aumenta em +1.",
+  "effects": [
+    { "type": "ativado", "custo_pm": 1, "gatilho": "acertar ataque de dano não letal", "efeito": "impõe fraco, frustrado ou lento à escolha (Fortitude CD For ou Des evita)", "escalavel": "CD +1 por poder da distinção que possui" }
+  ],
+  "requirements": ["Combate Pacífico"],
+  "livro": "deuses_de_arton"
+}

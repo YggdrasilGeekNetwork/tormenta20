@@ -1,0 +1,10 @@
+{
+  "id": "veredito_inquisitorial",
+  "name": "Veredito Inquisitorial",
+  "description": "Quando usa Golpe Purificador, você pode gastar +6 PM. Se fizer isso e acertar o ataque, você atrapalha o fluxo de mana do alvo: até o fim da cena, a próxima vez que ele for executar uma ação com um custo em PM, deve fazer um teste de Vontade oposto ao resultado do seu teste de ataque. Se falhar, a ação não tem efeito (mas os PM são gastos mesmo assim).",
+  "effects": [
+    { "type": "ativado", "gatilho": "usar Golpe Purificador", "custo_pm_adicional": 6, "efeito": "se acertar, a próxima ação com custo em PM do alvo até o fim da cena exige um teste de Vontade oposto ao teste de ataque; falhar anula a ação (PM ainda são gastos)" }
+  ],
+  "requirements": ["quatro outros poderes da distinção"],
+  "livro": "deuses_de_arton"
+}

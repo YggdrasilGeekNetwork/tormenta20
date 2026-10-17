@@ -1,0 +1,30 @@
+{
+  "id": "arma_de_jade",
+  "name": "Arma de Jade",
+  "type": "divina",
+  "circle": "1",
+  "school": "trans",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "toque",
+  "target": { "amount": 1, "up_to": false, "type": "arma" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Esta magia ofertada por Lin-Wu transfere temporariamente para uma arma as qualidades místicas do jade, um raro material de Tamu-ra. A arma é considerada mágica, pode ser sacada e guardada como ação livre e fornece +1 nos testes de ataque e rolagens de dano (isso conta como um bônus de encanto). Contra espíritos, os bônus fornecidos pela magia são dobrados.",
+  "enhancements": [
+    { "cost": 1, "type": "aumenta", "description": "a arma causa +1d4 de dano de eletricidade.", "extra_details": null },
+    { "cost": 2, "type": "aumenta", "description": "aumenta o bônus de ataque e dano em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar).", "extra_details": null },
+    { "cost": 2, "type": "muda", "description": "(Apenas Devotos de Lin-Wu): muda o bônus de dano do aprimoramento acima para +2d4.", "extra_details": { "requirements": "devoto de Lin-Wu" } }
+  ],
+  "effects": [
+    { "type": "bônus", "attribute": "ataque,dano", "amount": "+1", "resistence_requirement": null, "extra_requirements": "dobrado contra espíritos" }
+  ],
+  "livro": "deuses_de_arton"
+}

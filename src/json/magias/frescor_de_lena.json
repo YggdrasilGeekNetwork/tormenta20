@@ -1,0 +1,31 @@
+{
+  "id": "frescor_de_lena",
+  "name": "Frescor de Lena",
+  "type": "divina",
+  "circle": "1",
+  "school": "abjur",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": null,
+  "effect": "area",
+  "effect_details": { "shape": "esfera", "dimention": "raio", "size": "9m", "other_details": null },
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "instantânea",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Você emana uma aura refrescante, que envolve você e aliados na área. A aura purifica o ar ao redor, eliminando todo tipo de fumaça, poeira, gás nocivo, nuvem ácida ou veneno de inalação, exceto se forem gerados por magias de 2º círculo ou maior.",
+  "enhancements": [
+    { "cost": 2, "type": "aumenta", "description": "aumenta em 1 o círculo de magia afetado (limitado pelo círculo máximo de magia que você pode lançar).", "extra_details": null },
+    { "cost": 2, "type": "muda", "description": "muda o alcance para toque, a área para alvo (1 criatura) e a duração para 1 dia. Em vez do normal, suprime uma doença do alvo. Requer 2° círculo.", "extra_details": { "requirements": "2º círculo" } },
+    { "cost": 3, "type": "muda", "description": "(Apenas Devotos de Lena): como acima, mas quando faz o teste da doença nesse dia, o alvo recebe um bônus de +5. Requer 3° círculo.", "extra_details": { "requirements": "devoto de Lena; 3º círculo" } },
+    { "cost": 9, "type": "muda", "description": "(Apenas Devotos de Lena): muda o alcance para toque, a área para alvo (1 criatura) e adiciona componente material (ervas no valor de T$ 1.000). O alvo recupera 1 ponto de atributo perdido por uma doença. Requer 4° círculo.", "extra_details": { "requirements": "devoto de Lena; 4º círculo" } }
+  ],
+  "effects": [
+    { "type": "purificação", "attribute": "ar", "amount": null, "resistence_requirement": null, "extra_requirements": "remove fumaça, poeira, gás nocivo, nuvem ácida e veneno de inalação de até 1º círculo" }
+  ],
+  "livro": "deuses_de_arton"
+}

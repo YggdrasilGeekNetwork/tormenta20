@@ -1,0 +1,11 @@
+{
+  "id": "invocacao_corrompida",
+  "name": "Invocação Corrompida",
+  "description": "Um ou mais dos seus amigos de outro mundo se tornam corrompidos pela Tormenta. Quando esse amigo é invocado, criaturas a sua escolha em um raio de 6m dele perdem 2d4 PM (CD Sab reduz à metade). Se isso zerar seus PM, a criatura fica confusa. Além disso, enquanto esse amigo estiver presente, você recebe +5 em Percepção e não pode ser flanqueado.",
+  "effects": [
+    { "type": "passivo", "gatilho": "invocar o amigo corrompido", "efeito": "criaturas a 6m perdem 2d4 PM (CD Sab reduz à metade); ficam confusas se zerarem os PM" },
+    { "type": "passivo", "condicao": "amigo corrompido presente", "efeito": "+5 em Percepção e não pode ser flanqueado" }
+  ],
+  "requirements": ["Amigo de Outro Mundo", "dois poderes da Tormenta"],
+  "livro": "deuses_de_arton"
+}

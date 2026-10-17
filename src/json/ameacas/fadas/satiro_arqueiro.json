@@ -1,0 +1,35 @@
+{
+  "id": "satiro_arqueiro",
+  "name": "Sátiro Arqueiro",
+  "nd": 2,
+  "tipo": "Espírito",
+  "subtipo": "sátiro",
+  "tamanho": "médio",
+  "grupo": "fadas",
+  "pv": 13,
+  "pm": null,
+  "defesa": 18,
+  "salvaguardas": { "fort": 7, "ref": 12, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 2,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 1, "des": 3, "con": 1, "int": 0, "sab": -1, "car": 2 },
+  "pericias": { "atletismo": 6, "atuacao": 7 },
+  "ataques": [
+    { "nome": "Chifres", "bonus": 9, "dano": [{ "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 1, "tipo": "impacto" }], "critico": null },
+    { "nome": "Arco Curto", "bonus": 14, "dano": [{ "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 3, "tipo": "perfuração" }], "critico": "x3" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Disparo Rápido", "acao": "completa", "descricao": "O sátiro arqueiro faz dois ataques de arco curto com uma penalidade de -2 em cada teste." },
+    { "nome": "Flautista Mágico", "acao": "padrão", "descricao": "O sátiro lança uma das magias abaixo como um bardo, com os efeitos descritos, mas sem gastar PM (CD 16); só pode usar esta habilidade empunhando sua flauta. Amedrontar: animal ou humanoide em alcance curto fica apavorado por 1 rodada e depois abalado (Von reduz para abalado por 1d4 rodadas). Enfeitiçar: animal ou humanoide em alcance curto fica enfeitiçado (Von anula). Hipnotismo: animal ou humanoide em alcance curto fica fascinado (Von anula e deixa imune por 1 dia). Sono: humanoide em alcance curto fica inconsciente e caído, ou exausto por 1 rodada depois fatigado se em combate (Von reduz para fatigado por 1d4 rodadas)." }
+  ],
+  "equipamento": ["arco_curto", "armadura_de_couro", "flechas_x10", "flauta"],
+  "tesouro": "Nenhum.",
+  "description": "Humanoide de baixa estatura com chifres e pernas de bode, arqueiro exímio e apreciador dos prazeres da vida. Usa música encantada para seduzir ou adormecer vítimas quando prefere não se esforçar em caçar.",
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "infortunio_de_sszzaas",
+  "name": "Infortúnio de Sszzaas",
+  "type": "divina",
+  "circle": "1",
+  "school": "necro",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "curto",
+  "target": { "amount": 1, "up_to": false, "type": "criatura" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": { "effect": "anula", "skill": "vontade" },
+  "extra_costs": null,
+  "description": "Esta maldição menor reduz a resiliência da vítima, tornando-a mais suscetível a efeitos nocivos. O alvo sofre –2 em testes de sua resistência originalmente mais baixa.",
+  "enhancements": [
+    { "cost": 1, "type": "aumenta", "description": "além do normal, a vítima perde imunidade a venenos até o fim da próxima rodada. Requer 2° círculo.", "extra_details": { "requirements": "2º círculo" } },
+    { "cost": 2, "type": "aumenta", "description": "aumenta a penalidade em –1 (penalidade máxima limitada pelo círculo máximo de magia que você pode lançar).", "extra_details": null },
+    { "cost": 3, "type": "aumenta", "description": "(Apenas Devotos de Sszzaas): além do normal, quando o alvo morre, deixa para trás um pequeno cristal com memórias e segredos. Ao resolver uma busca, um personagem pode quebrar um desses cristais para receber +2 em um teste de perícia. Requer 3° círculo.", "extra_details": { "requirements": "devoto de Sszzaas; 3º círculo" } }
+  ],
+  "effects": [
+    { "type": "penalidade", "attribute": "resistencia_mais_baixa", "amount": "-2", "resistence_requirement": "anula", "extra_requirements": null }
+  ],
+  "livro": "deuses_de_arton"
+}

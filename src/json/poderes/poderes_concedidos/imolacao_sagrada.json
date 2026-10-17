@@ -1,0 +1,9 @@
+{
+  "id": "imolacao_sagrada",
+  "name": "Imolação Sagrada",
+  "deities": ["azgher", "thyatis"],
+  "description": "Você pode gastar uma ação padrão e 1 PM para cobrir seus braços com chamas com duração sustentada. Nesse estado, seus ataques corpo a corpo causam +1d6 pontos de dano de fogo.",
+  "effects": { "type": "ativado", "acao": "padrão", "custo_pm": 1, "duracao": "sustentada", "efeito": "ataques corpo a corpo causam +1d6 de dano de fogo" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

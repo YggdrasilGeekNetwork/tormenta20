@@ -1,0 +1,41 @@
+{
+  "id": "yazzu",
+  "name": "Yazzu",
+  "nd": 10,
+  "tipo": "Espírito",
+  "subtipo": "gênio",
+  "tamanho": "grande",
+  "grupo": "genios",
+  "pv": 292,
+  "pm": 72,
+  "defesa": 31,
+  "salvaguardas": { "fort": 23, "ref": 18, "von": 10 },
+  "reducao_de_dano": null,
+  "imunidades": ["encantamento", "frio"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 5,
+  "visao": [],
+  "deslocamento": { "terrestre": 9, "natacao": 12, "voo": 12 },
+  "atributos": { "for": 3, "des": 5, "con": 2, "int": 1, "sab": 0, "car": 3 },
+  "pericias": { "atletismo": 12, "diplomacia": 18, "furtividade": 14, "ladinagem": 14, "misticismo": 12 },
+  "ataques": [
+    { "nome": "Tridente", "quantidade": 2, "bonus": 25, "dano": [{ "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 18, "tipo": "perfuração" }, { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 0, "tipo": "frio" }], "critico": null },
+    { "nome": "Tridente (à distância)", "bonus": 23, "dano": [{ "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 18, "tipo": "perfuração" }, { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 0, "tipo": "frio" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Dentro de uma Lampadazinha", "descricao": "Para cada dia sem um pacto ativo, perde 1 PM; ao chegar a 0, sofre um efeito debilitante, revertido ao firmar novo pacto." },
+    { "nome": "Poderes Cósmicos Fenomenais", "acao": "completa", "descricao": "Firma pacto com uma criatura voluntária, tornando-se parceiro iniciante e reduzindo o custo de suas habilidades em -1 PM enquanto presente." },
+    { "nome": "Servo dos Deuses", "descricao": "Pode lançar Viagem Planar sem componente material, apenas em si mesmo." },
+    { "nome": "Contracorrente", "acao": "reação", "custo_pm": 3, "descricao": "Quando faz um ataque à distância com seu tridente, teleporta-se para um espaço livre adjacente ao alvo." },
+    { "nome": "Onda Poderosa", "acao": "padrão", "salvaguarda": "Fortitude", "cd": 32, "efeito_sucesso": "reduz à metade e evita o empurrão", "descricao": "Cria uma onda num quadrado de 6m em alcance médio; criaturas na área são empurradas 6m e sofrem 8d10 de dano de impacto (Fort CD 32 reduz à metade e evita o empurrão)." },
+    { "nome": "Turbilhão", "acao": "padrão", "descricao": "Faz uma manobra derrubar com o tridente (teste +29) contra todas as criaturas adjacentes." },
+    { "nome": "Magias (feiticeiro 12º, CD 32)", "descricao": "Área Escorregadia (padrão, 1 PM): criaturas em 3m de lado em alcance curto fazem Reflexos CD 32 ou caem; movimento posterior exige Acrobacia CD 15. Controlar Água (padrão, 6 PM): controla água numa esfera de 30m até o fim da cena. Criar Elementos (padrão, 6 PM): preenche espaço Colossal com água ou gelo. Dardo Gélido (padrão, 7 PM): 8d6 de dano de frio e lento por 1 rodada (Fort reduz à metade e evita). Salto Dimensional (reação, 5 PM): +5 na Defesa e Reflexos contra um ataque iminente, depois salta para espaço adjacente." },
+    { "nome": "Parceiro", "descricao": "Iniciante: +2 contra manobras de combate e efeitos de movimento. Veterano: cria onda 4,5m causando 4d4 de dano e caído, 1x por rodada por 4 PM. Mestre: bônus sobe para +4 e dano da onda para 4d6." }
+  ],
+  "equipamento": ["tridente_aumentado_banhado_a_ouro"],
+  "tesouro": "Padrão.",
+  "description": "Gênio da água, bondoso e generoso como os outros gênios, mas o mais combativo e ávido por liberdade. Encontrado perto de mares e rios, usa a fúria dos oceanos em batalha.",
+  "livro": "deuses_de_arton"
+}

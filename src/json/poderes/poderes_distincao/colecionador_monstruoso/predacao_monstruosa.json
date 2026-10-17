@@ -1,0 +1,10 @@
+{
+  "id": "predacao_monstruosa",
+  "name": "Predação Monstruosa",
+  "description": "Você pode gastar uma ação completa para devorar um monstro abatido. Se fizer isso, até o fim da aventura você recebe +10 PV e +1 em testes de ataque e rolagens de dano com armas naturais. Para cada outros dois poderes da distinção, você pode acumular esses efeitos uma vez.",
+  "effects": [
+    { "type": "ativado", "acao": "completa", "gatilho": "devorar um monstro abatido", "efeito": "até o fim da aventura, +10 PV e +1 em testes de ataque e rolagens de dano com armas naturais", "acumulavel": "mais uma vez a cada outros dois poderes da distinção" }
+  ],
+  "requirements": ["Forma Monstruosa"],
+  "livro": "deuses_de_arton"
+}

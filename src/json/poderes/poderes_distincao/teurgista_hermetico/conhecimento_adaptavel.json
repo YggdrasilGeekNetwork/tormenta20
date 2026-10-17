@@ -1,0 +1,10 @@
+{
+  "id": "conhecimento_adaptavel",
+  "name": "Conhecimento Adaptável",
+  "description": "Quando falha em um teste de Misticismo ou Religião, você pode gastar 1 PM para repetir esse teste usando a outra perícia (Misticismo para um teste de Religião e vice-versa).",
+  "effects": [
+    { "type": "ativado", "custo_pm": 1, "gatilho": "falhar em teste de Misticismo ou Religião", "efeito": "repete o teste usando a outra perícia" }
+  ],
+  "requirements": ["Conjuração Unificada"],
+  "livro": "deuses_de_arton"
+}

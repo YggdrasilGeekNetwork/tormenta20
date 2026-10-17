@@ -1,0 +1,12 @@
+{
+  "id": "mensageiro_do_deserto",
+  "name": "Mensageiro do Deserto",
+  "description": "Este arco curto magnífico veloz causa 6d6 pontos de dano de fogo a todas as criaturas a até 6m do alvo.",
+  "effects": [
+    { "type": "weapon_type", "base": "arco_curto" },
+    { "type": "enchantment", "name": "magnífico" },
+    { "type": "enchantment", "name": "veloz" },
+    { "type": "dano_extra", "dado": "6d6", "tipo": "fogo", "area": "todas as criaturas a até 6m do alvo" }
+  ],
+  "livro": "deuses_de_arton"
+}

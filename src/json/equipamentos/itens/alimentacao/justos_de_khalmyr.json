@@ -1,0 +1,16 @@
+{
+  "id": "justos_de_khalmyr",
+  "name": "Justos de Khalmyr",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 2,
+  "espacos": 0,
+  "deity": "khalmyr",
+  "efeito": {
+    "requer_devoto": "khalmyr",
+    "duracao": "até o fim do dia",
+    "efeito": "quando fizer um teste de perícia, pode gastar o efeito deste prato para escolher 10 nesse teste (em vez de usar o valor rolado no d20)"
+  },
+  "description": "Assim como a justiça, este biscoitinho foi criado para chegar a todos. Até o fim do dia, quando fizer um teste de perícia, você pode gastar o efeito deste prato para escolher 10 nesse teste (em vez de usar o valor rolado no d20).",
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "sacrario_da_resiliencia",
+  "name": "Sacrário da Resiliência",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Você e seus aliados dentro do sacrário recebem +2 em testes de resistência e na Defesa. Quando cria este sacrário, você pode gastar mais PM para fortalecer seu efeito; para cada 2 PM adicionais gastos, o bônus concedido pelo sacrário aumenta em +1 (bônus máximo limitado pelo círculo máximo de magias que você pode lançar). Segue as regras gerais de Sacrários.",
+  "requirements": [
+    { "type": "character_lvl", "sub_type": "hard", "value": 5, "note": "5º nível de frade" }
+  ],
+  "effects": [
+    { "type": "sacrario", "efeito_base": "+2 em testes de resistência e na Defesa para você e aliados na área", "escalavel": "+1 ao bônus por +2 PM adicionais gastos na criação, até o limite do círculo máximo de magia acessível" }
+  ],
+  "livro": "deuses_de_arton"
+}

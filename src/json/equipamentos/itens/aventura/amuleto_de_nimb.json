@@ -1,0 +1,16 @@
+{
+  "id": "amuleto_de_nimb",
+  "name": "Amuleto de Nimb",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 30,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "teste_inteligencia": { "cd": 10 },
+    "falha": "pode rolar novamente o teste de perícia e usar o melhor resultado",
+    "consumivel": true
+  },
+  "description": "Este amuleto em formato de dado não é usado apenas por devotos de Nimb — todos os artonianos podem se beneficiar dele. Quando faz um teste de perícia, você pode fazer um teste de Inteligência (CD 10). Se fizer o teste de Inteligência e falhar nele, pode rolar novamente o teste de perícia e usar o melhor resultado. Uma vez que você use este efeito em um teste, o amuleto perde seus 'poderes', tornando-se inútil.",
+  "livro": "deuses_de_arton"
+}

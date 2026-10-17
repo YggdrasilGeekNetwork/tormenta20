@@ -1,0 +1,16 @@
+{
+  "id": "assado_de_entranhas",
+  "name": "Assado de Entranhas",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 2,
+  "espacos": 0,
+  "deity": "megalokk",
+  "efeito": {
+    "requer_devoto": "megalokk",
+    "duracao": "até o fim do dia, efeito dura 1 cena",
+    "efeito": "+1 nas rolagens de dano com armas corpo a corpo por uma cena"
+  },
+  "description": "Este assado tem uma aparência pouco agradável, mas desperta os instintos mais primais. Feito com técnicas simples dos ermos, pode ser fabricado também com Sobrevivência. Até o fim do dia, você pode invocar esses instintos para receber +1 nas rolagens de dano com armas corpo a corpo por uma cena.",
+  "livro": "deuses_de_arton"
+}

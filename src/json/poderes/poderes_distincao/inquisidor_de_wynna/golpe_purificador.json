@@ -1,0 +1,10 @@
+{
+  "id": "golpe_purificador",
+  "name": "Golpe Purificador",
+  "description": "Quando usa Golpe Divino, você pode gastar 2 PM para transformá-lo em um golpe purificador. Se acertar o ataque, além do dano, você causa um efeito semelhante à magia Dissipar Magia sobre o alvo, usando o resultado do teste de ataque no lugar do teste de Misticismo.",
+  "effects": [
+    { "type": "ativado", "custo_pm": 2, "gatilho": "usar Golpe Divino", "efeito": "se acertar, causa efeito de Dissipar Magia no alvo, usando o teste de ataque no lugar do teste de Misticismo" }
+  ],
+  "requirements": ["Abençoado", "Golpe Divino"],
+  "livro": "deuses_de_arton"
+}

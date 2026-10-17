@@ -1,0 +1,32 @@
+{
+  "id": "bofetada_de_nimb",
+  "name": "Bofetada de Nimb",
+  "type": "divina",
+  "circle": "1",
+  "school": "evoc",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "curto",
+  "target": { "amount": 1, "up_to": false, "type": "humanoide" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "instantânea",
+  "duration_details": null,
+  "resistence": { "effect": "parcial", "skill": "vontade" },
+  "extra_costs": null,
+  "description": "Uma mão mágica surge diante do alvo e o esbofeteia na face, ou em outra parte vulnerável, desaparecendo em seguida. O golpe não causa dano, mas é bastante humilhante. Se o alvo falhar na resistência, fica desprevenido por 1 rodada e vulnerável; se passar, fica apenas vulnerável por 1 rodada.",
+  "enhancements": [
+    { "cost": 1, "type": "aumenta", "description": "alvos que falhem na resistência ficam vulneráveis pela cena.", "extra_details": null },
+    { "cost": 2, "type": "muda", "description": "muda o alvo para 1 criatura.", "extra_details": null },
+    { "cost": 2, "type": "muda", "description": "em vez do normal, a mão dá leves tapinhas que acalmam os alvos e anulam uma condição entre abalado, alquebrado, apavorado e frustrado. Requer 2° círculo.", "extra_details": { "requirements": "2º círculo" } },
+    { "cost": 3, "type": "aumenta", "description": "alvos que falhem na resistência ficam desprevenidos por 1d4+1 rodadas, em vez de apenas 1.", "extra_details": null },
+    { "cost": 5, "type": "aumenta", "description": "(Apenas Devotos de Nimb): afeta todos os alvos válidos a sua escolha dentro do alcance.", "extra_details": { "requirements": "devoto de Nimb" } }
+  ],
+  "effects": [
+    { "type": "condição", "attribute": "desprevenido,vulneravel", "amount": "1_rodada", "resistence_requirement": "falha", "extra_requirements": "sucesso na resistência: apenas vulnerável por 1 rodada" }
+  ],
+  "livro": "deuses_de_arton"
+}

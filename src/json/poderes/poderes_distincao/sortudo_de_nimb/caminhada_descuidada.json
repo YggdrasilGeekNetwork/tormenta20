@@ -1,0 +1,10 @@
+{
+  "id": "caminhada_descuidada",
+  "name": "Caminhada Descuidada",
+  "description": "Quando um ataque ou habilidade causa dano a você, você pode gastar 2 PM para fazer um teste de Vontade com CD igual ao resultado do teste de ataque ou à CD para resistir à habilidade. Se passar nesse teste, você não sofre dano e, se passar por 10 ou mais, uma criatura a sua escolha dentro do alcance do ataque ou da habilidade sofre o dano que seria causado.",
+  "effects": [
+    { "type": "ativado", "custo_pm": 2, "gatilho": "sofrer dano de ataque ou habilidade", "teste": "Vontade, CD = resultado do ataque ou CD da habilidade", "efeito": "se passar, não sofre dano; se passar por 10+, redireciona o dano para outra criatura no alcance" }
+  ],
+  "requirements": ["Bênção de Nimb"],
+  "livro": "deuses_de_arton"
+}

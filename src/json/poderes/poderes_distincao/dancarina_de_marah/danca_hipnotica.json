@@ -1,0 +1,10 @@
+{
+  "id": "danca_hipnotica",
+  "name": "Dança Hipnótica",
+  "description": "Se estiver em Transe Dançante, no início de cada um dos seus turnos, a categoria de atitude de cada inimigo dentro da aura melhora em um passo (apenas uma vez por cena) e ele fica fascinado (Vontade CD Car evita os efeitos e a criatura fica imune a esta habilidade até o fim da cena).",
+  "effects": [
+    { "type": "passivo", "condicao": "em Transe Dançante", "efeito": "no início de cada turno seu, cada inimigo na aura melhora sua atitude em um passo (1x por cena) e fica fascinado; Vontade CD Car evita, imunidade até o fim da cena" }
+  ],
+  "requirements": ["Êxtase da Dançarina", "três poderes concedidos de Marah"],
+  "livro": "deuses_de_arton"
+}

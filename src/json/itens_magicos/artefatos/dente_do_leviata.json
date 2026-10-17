@@ -1,0 +1,18 @@
+{
+  "id": "dente_do_leviata",
+  "name": "Dente do Leviatã",
+  "description": "Este tridente aumentado atroz equilibrado pungente de arremesso trovejante veloz é feito de uma única presa de uma criatura marinha desconhecida. Decorado com símbolos oceânicos, esta poderosa arma ignora 30 pontos da redução de dano de seus alvos. Além disso, quando faz um acerto crítico, seu dano aumenta dois passos (antes de ser multiplicado). Se empunhar o Dente do Leviatã em alto mar, você pode lançar as magias Controlar Água (apenas para água salgada), Controlar o Clima e Fúria do Panteão (atributo-chave Sabedoria).",
+  "effects": [
+    { "type": "weapon_type", "base": "tridente" },
+    { "type": "enchantment", "name": "aumentado" },
+    { "type": "enchantment", "name": "atroz" },
+    { "type": "enchantment", "name": "equilibrado" },
+    { "type": "enchantment", "name": "pungente" },
+    { "type": "enchantment", "name": "de_arremesso" },
+    { "type": "enchantment", "name": "trovejante" },
+    { "type": "enchantment", "name": "veloz" },
+    { "type": "special", "efeito": "ignora 30 pontos de redução de dano; em acerto crítico, dano aumenta dois passos antes de ser multiplicado" },
+    { "type": "ativado", "condicao": "empunhado em alto mar", "efeito": "pode lançar Controlar Água (apenas água salgada), Controlar o Clima e Fúria do Panteão (atributo-chave Sabedoria)" }
+  ],
+  "livro": "deuses_de_arton"
+}

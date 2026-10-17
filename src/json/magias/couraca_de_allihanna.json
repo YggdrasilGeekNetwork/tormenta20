@@ -1,0 +1,32 @@
+{
+  "id": "couraca_de_allihanna",
+  "name": "Couraça de Allihanna",
+  "type": "divina",
+  "circle": "2",
+  "school": "abjur",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "toque",
+  "target": { "amount": 1, "up_to": false, "type": "armadura ou vestuário" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Lisandra de Galrasia foi a primeira a manifestar uma armadura fibrosa, mas hoje outros podem fazer o mesmo. Esta magia transforma o alvo em uma couraça arbórea. Se for uma armadura, seu bônus na Defesa aumenta em +2 e se for um vestuário, passa a fornecer +2 na Defesa (não cumulativo com armadura). Os efeitos desta magia contam como um bônus de encanto e ela só pode ser lançada em terrenos naturais. Dahllan recebem 1 PM para usar em aprimoramentos ao lançá-la.",
+  "enhancements": [
+    { "cost": 1, "type": "aumenta", "description": "aumenta a Defesa em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar).", "extra_details": null },
+    { "cost": 2, "type": "aumenta", "description": "além do normal, suas magias de evocação e transmutação custam –1 PM.", "extra_details": null },
+    { "cost": 2, "type": "aumenta", "description": "o alvo é recoberto por folhas e galhos. Você recebe +5 em testes de Furtividade e pode se esconder mesmo sem camuflagem ou cobertura disponível.", "extra_details": null },
+    { "cost": 2, "type": "aumenta", "description": "além do normal, o alvo fornece o mesmo bônus em testes de resistência. Requer 3° círculo.", "extra_details": { "requirements": "3º círculo" } },
+    { "cost": 3, "type": "aumenta", "description": "além do normal, o alvo é recoberto esporos de cogumelo. Quando uma criatura faz um ataque corpo a corpo contra você, ela deve fazer um teste de Fortitude (CD da magia). Se falhar, fica paralisada por 1 rodada (apenas uma vez por cena) e lenta. Se passar, fica lenta por 1 rodada. Requer 3° círculo.", "extra_details": { "requirements": "3º círculo" } }
+  ],
+  "effects": [
+    { "type": "bônus", "attribute": "defesa", "amount": "+2", "resistence_requirement": null, "extra_requirements": "restrito a terrenos naturais" }
+  ],
+  "livro": "deuses_de_arton"
+}

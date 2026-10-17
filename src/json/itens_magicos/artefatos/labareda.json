@@ -1,0 +1,15 @@
+{
+  "id": "labareda",
+  "name": "Labareda",
+  "description": "A arma principal do Avatar de Azgher é uma cimitarra atroz precisa ameaçadora anticriatura (morto-vivo) magnífica que causa +6d6 pontos de dano de fogo.",
+  "effects": [
+    { "type": "weapon_type", "base": "cimitarra" },
+    { "type": "enchantment", "name": "atroz" },
+    { "type": "enchantment", "name": "precisa" },
+    { "type": "enchantment", "name": "ameaçadora" },
+    { "type": "enchantment", "name": "anticriatura", "alvo": "morto-vivo" },
+    { "type": "enchantment", "name": "magnífica" },
+    { "type": "dano_extra", "dado": "6d6", "tipo": "fogo" }
+  ],
+  "livro": "deuses_de_arton"
+}

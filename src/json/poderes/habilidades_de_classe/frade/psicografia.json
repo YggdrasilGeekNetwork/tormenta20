@@ -1,0 +1,15 @@
+{
+  "id": "psicografia",
+  "name": "Psicografia",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Seus textos recebem inspiração divina. Você pode fabricar pergaminhos de qualquer magia divina (mesmo uma que não conheça) de quaisquer círculos a que tenha acesso. A CD para fabricar um desses pergaminhos aumenta em +5.",
+  "requirements": [
+    { "type": "feature", "sub_type": "hard", "id": "copista" },
+    { "type": "character_lvl", "sub_type": "hard", "value": 5, "note": "5º nível de frade" }
+  ],
+  "effects": [
+    { "type": "passivo", "efeito": "fabrica pergaminhos de qualquer magia divina acessível, mesmo desconhecida; CD de fabricação +5" }
+  ],
+  "livro": "deuses_de_arton"
+}

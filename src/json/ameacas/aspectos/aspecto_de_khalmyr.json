@@ -1,0 +1,38 @@
+{
+  "id": "aspecto_de_khalmyr",
+  "name": "Aspecto de Khalmyr",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "anão",
+  "tamanho": "médio",
+  "grupo": "aspectos",
+  "pv": 200,
+  "pm": null,
+  "defesa": 24,
+  "salvaguardas": { "fort": 11, "ref": 5, "von": 17 },
+  "reducao_de_dano": 5,
+  "imunidades": ["acertos críticos", "medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 6,
+  "visao": [],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 5, "des": 0, "con": 5, "int": 0, "sab": 2, "car": 5 },
+  "pericias": { "atletismo": 9, "diplomacia": 11, "intuicao": 11, "nobreza": 6, "religiao": 11 },
+  "ataques": [
+    { "nome": "Espada-Calibre", "quantidade": 2, "bonus": 17, "dano": [{ "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 15, "tipo": "corte" }], "critico": "19" },
+    { "nome": "Espada-Calibre (à distância)", "bonus": 17, "dano": [{ "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 7, "tipo": "perfuração" }], "critico": "19/x3" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Cura Pelas Mãos", "acao": "movimento", "descricao": "O aspecto de Khalmyr cura 5 pontos de vida por luz de uma criatura adjacente." },
+    { "nome": "Destruir o Crime", "acao": "livre", "descricao": "Uma vez por rodada, quando o aspecto ataca em corpo a corpo um devoto que, a critério do mestre, seja culpado de um crime, ele recebe +5 no teste de ataque e +9 na rolagem de dano." },
+    { "nome": "Espada-Calibre", "acao": "livre", "descricao": "Quando ataca em corpo a corpo com sua espada-calibre, o aspecto pode disparar sua bala para causar +7 pontos de dano de perfuração. Recarga (movimento)." },
+    { "nome": "Ordenar Sorte", "descricao": "Uma vez por rodada, o aspecto pode escolher 10 em um teste qualquer." },
+    { "nome": "Parceiro", "descricao": "O aspecto de Khalmyr é um parceiro veterano que fornece +3 na Defesa e imunidade a acertos críticos e medo. Apoia apenas personagens que considere dignos e que não tenham cometido crimes." }
+  ],
+  "equipamento": ["armadura_completa", "balas_x20", "escudo_pesado", "espada_calibre"],
+  "tesouro": "Padrão.",
+  "description": "Anão em armadura brilhante de mitral empunhando um escudo com o símbolo de Khalmyr, encarnação temporária do Deus da Justiça. Intolerante e rígido com qualquer infração da lei, mas bravo e valoroso em batalha.",
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "nao_fui_eu",
+  "name": "Não Fui Eu",
+  "description": "Quando é alvo de uma ação hostil de uma criatura inteligente (Int –3 ou maior), você pode gastar 2 PM e fazer um teste de Enganação oposto pelo teste de Vontade dessa criatura. Se o alvo for devoto de uma divindade da qual você é considerado devoto, você recebe +5 nesse teste. Se passar, a ação hostil falha e a criatura perde a ação. Você só pode usar este poder uma vez por criatura por cena.",
+  "effects": [
+    { "type": "ativado", "custo_pm": 2, "gatilho": "ser alvo de ação hostil de criatura inteligente (Int -3 ou maior)", "teste_oposto": "Enganação vs Vontade", "bonus_condicional": "+5 se o alvo for devoto de uma divindade da qual você é considerado devoto", "efeito": "se vencer, a ação hostil falha e a criatura perde a ação", "limite": "1x por criatura por cena" }
+  ],
+  "requirements": ["Está nas Escrituras"],
+  "livro": "deuses_de_arton"
+}

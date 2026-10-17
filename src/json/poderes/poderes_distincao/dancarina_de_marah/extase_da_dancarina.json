@@ -1,0 +1,10 @@
+{
+  "id": "extase_da_dancarina",
+  "name": "Êxtase da Dançarina",
+  "description": "Enquanto estiver em Transe Dançante, você soma o bônus do seu Transe na CD dos testes de Vontade das suas habilidades contra criaturas dentro da aura.",
+  "effects": [
+    { "type": "passivo", "condicao": "em Transe Dançante", "efeito": "soma o bônus do Transe Dançante na CD de Vontade das suas habilidades contra criaturas na aura" }
+  ],
+  "requirements": ["Transe Dançante"],
+  "livro": "deuses_de_arton"
+}

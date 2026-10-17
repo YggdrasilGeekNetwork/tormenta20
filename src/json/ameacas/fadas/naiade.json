@@ -1,0 +1,32 @@
+{
+  "id": "naiade",
+  "name": "Náiade",
+  "nd": 3,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "fadas",
+  "pv": 74,
+  "pm": 18,
+  "defesa": 19,
+  "salvaguardas": { "fort": 7, "ref": 13, "von": 9 },
+  "reducao_de_dano": null,
+  "imunidades": ["encantamento", "frio"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 7,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "natacao": 18 },
+  "atributos": { "for": 0, "des": 4, "con": 1, "int": 1, "sab": 3, "car": 4 },
+  "pericias": { "conhecimento": 6, "furtividade": 9, "intuicao": 10, "sobrevivencia": 10 },
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Abraço das Águas", "acao": "movimento", "salvaguarda": "Fortitude", "cd": 19, "efeito_sucesso": "evita o afogamento nessa rodada", "descricao": "A náiade faz um teste de Agarrar (bônus +12) oposto contra uma criatura adjacente. Uma criatura agarrada deve fazer um teste de Fortitude por rodada (CD 19) para não se afogar; a cada falha, sofre 1 ponto de dano temporário de Constituição até morrer ou respirar novamente. A vítima não percebe o que está acontecendo e se sente confortável; para agir em seu turno, precisa passar em um teste de Vontade (CD 19)." },
+    { "nome": "Linguagem Natural", "descricao": "A náiade pode falar com animais livremente." },
+    { "nome": "Magias (conjuradora arcana 3º, CD 19)", "descricao": "Criar Ilusão (padrão, 1 PM): ilusão com imagens em alcance médio, até 4 cubos de 1,5m. Dardo Gélido (padrão, 3 PM): criatura em alcance curto sofre 4d6 de dano de frio e fica lenta por 1 rodada (Fort reduz à metade e evita). Imagem Espelhada (padrão, 3 PM): três cópias ilusórias concedem +6 na Defesa, perdendo 1 cópia e -2 na Defesa a cada erro sofrido." }
+  ],
+  "tesouro": "Padrão.",
+  "description": "Fada de água com forma de mulher bela e esguia, ligada a rios e córregos. Tímida e reclusa, mas pode se tornar perigosa e afogar mortais que ameacem seu ambiente.",
+  "livro": "deuses_de_arton"
+}

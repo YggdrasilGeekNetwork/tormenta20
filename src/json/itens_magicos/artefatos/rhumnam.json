@@ -1,0 +1,17 @@
+{
+  "id": "rhumnam",
+  "name": "Rhumnam, a Espada-Pistola",
+  "description": "A lendária espada de Khalmyr, o Deus da Justiça, foi remodelada por Ingram Brassbones usando uma forja divina de Tenebra, ganhando um gatilho, um cano paralelo à lâmina e um compartimento para pólvora e balas. Rhumnam é uma espada-calibre aumentada pungente defensora magnífica. No modo arma corpo a corpo ela tem o encanto energética e, no modo pistola, caçadora. É uma arma inteligente, capaz de falar todos os idiomas de Arton e com percepção às cegas (médio). Nas mãos de um portador indigno (alguém maligno ou culpado de crimes graves), Rhumnam se reduz a uma espada-calibre aumentada mundana (sem encantos) que causa pesadelos terríveis (como o aprimoramento da magia Sonho que causa pesadelos, Vontade CD 49). Empunhada por alguém digno (a critério do mestre), torna o portador imune a magias arcanas e, ao acertar um ataque contra alvos malignos ou culpados de crimes graves, causa dano dobrado. Rhumnam não causa dano a criaturas que, a critério do mestre, sejam inocentes.",
+  "effects": [
+    { "type": "weapon_type", "base": "espada_calibre_aumentada" },
+    { "type": "enchantment", "name": "pungente" },
+    { "type": "enchantment", "name": "defensora" },
+    { "type": "enchantment", "name": "magnífica" },
+    { "type": "enchantment", "name": "energética", "modo": "arma corpo a corpo" },
+    { "type": "enchantment", "name": "caçadora", "modo": "pistola" },
+    { "type": "intelligent_item", "artefato_nivel": 20, "ego": 40, "int": 3, "sab": 5, "car": 4, "pm": 31, "pericias": { "conhecimento": 19, "intuicao": 21, "percepcao": 21 }, "magias": ["compreensao", "circulo_da_justica", "visao_mistica"], "cd": 25, "atributo_chave": "sabedoria", "idiomas": "todos os idiomas de Arton", "visao": "percepção às cegas (médio)" },
+    { "type": "restriction", "portador_indigno": "maligno ou culpado de crimes graves", "efeito_indigno": "reduz a espada-calibre aumentada mundana (sem encantos) que causa pesadelos terríveis (Vontade CD 49)" },
+    { "type": "devoto", "portador_digno": "a critério do mestre", "efeito": "imunidade a magias arcanas; dano dobrado contra malignos ou culpados de crimes graves; não causa dano a inocentes" }
+  ],
+  "livro": "deuses_de_arton"
+}

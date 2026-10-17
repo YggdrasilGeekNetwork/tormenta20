@@ -1,0 +1,10 @@
+{
+  "id": "detectar_anticriacao",
+  "name": "Detectar Anticriação",
+  "description": "Você soma seu Carisma em Intuição e Percepção. Além disso, está permanentemente sob o efeito da magia Detectar Ameaças, com todos os seus aprimoramentos, mas apenas para efeitos da Tormenta.",
+  "effects": [
+    { "type": "passivo", "efeito": "soma Carisma em Intuição e Percepção; efeito permanente de Detectar Ameaças (com aprimoramentos) restrito a efeitos da Tormenta" }
+  ],
+  "requirements": ["treinado em Percepção", "Destruir Anticriação"],
+  "livro": "deuses_de_arton"
+}

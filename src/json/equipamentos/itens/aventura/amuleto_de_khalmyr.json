@@ -1,0 +1,16 @@
+{
+  "id": "amuleto_de_khalmyr",
+  "name": "Amuleto de Khalmyr",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 30,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "teste_sabedoria": { "cd": 10 },
+    "sucesso": "escolhe 10 no teste de perícia, em vez de rolar",
+    "consumivel": true
+  },
+  "description": "Este amuleto em formato de balança não é usado apenas por devotos de Khalmyr — todos os artonianos podem se beneficiar dele. Quando faz um teste de perícia, você pode fazer um teste de Sabedoria (CD 10). Se passar, pode escolher 10 para esse teste de perícia (em vez de usar o valor rolado no d20). Uma vez que você use este efeito em um teste, o amuleto perde seus 'poderes', tornando-se inútil.",
+  "livro": "deuses_de_arton"
+}

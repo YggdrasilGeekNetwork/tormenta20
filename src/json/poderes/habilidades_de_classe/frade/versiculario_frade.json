@@ -1,0 +1,15 @@
+{
+  "id": "versiculario_frade",
+  "name": "Versiculário",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "No 2º nível, você recebe um versiculário, um livro de anotações religiosas pessoais. Uma vez por dia, você pode gastar 1 hora estudando suas anotações no versiculário. Quando faz isso, escolha uma quantidade de magias igual à sua Inteligência (limitada pelo seu nível). Até o próximo dia, quando lança uma dessas magias, você recebe +1 PM para gastar em aprimoramentos. Se perder seu versiculário, você pode escrever outro com 1 semana de trabalho e o gasto de T$ 100.",
+  "requirements": [
+    { "type": "character_lvl", "sub_type": "hard", "value": 2 }
+  ],
+  "effects": [
+    { "type": "ativado", "frequencia": "1x_por_dia", "tempo": "1 hora", "efeito": "escolhe magias em número igual à Inteligência (limitado pelo nível); até o dia seguinte, lançá-las concede +1 PM extra para aprimoramentos" },
+    { "type": "reposicao", "tempo": "1 semana", "custo": "T$ 100" }
+  ],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "avatar_de_thyatis",
+  "name": "Avatar de Thyatis",
+  "nd": 19,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "avatares",
+  "pv": 1140,
+  "pm": null,
+  "defesa": 59,
+  "salvaguardas": { "fort": 19, "ref": 32, "von": 26 },
+  "reducao_de_dano": "10/trevas",
+  "imunidades": ["doenças", "fogo", "medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 25,
+  "percepcao": 36,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "voo": 18 },
+  "atributos": { "for": 12, "des": 8, "con": 12, "int": 11, "sab": 16, "car": 10 },
+  "pericias": { "conhecimento": 31, "diplomacia": 30, "intuicao": 36, "religiao": 33 },
+  "ataques": [
+    { "nome": "Mordida", "bonus": 52, "dano": [{ "dados": [{ "quantidade": 5, "faces": 10 }], "bonus": 30, "tipo": "perfuração" }, { "dados": [{ "quantidade": 20, "faces": 6 }], "bonus": 30, "tipo": "fogo" }], "critico": null },
+    { "nome": "Garra", "quantidade": 2, "bonus": 52, "dano": [{ "dados": [{ "quantidade": 5, "faces": 8 }], "bonus": 30, "tipo": "corte" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "O Avatar possui Evasão." },
+    { "nome": "Maior que a Morte", "descricao": "O Avatar é imune a efeitos que matam instantaneamente ou reduzem atributos a 0, e não pode ser mantido morto permanentemente." },
+    { "nome": "Armas Abençoadas", "descricao": "As armas naturais do Avatar de Thyatis são consideradas mágicas e sagradas; elas causam +4d8 pontos de dano contra devotos de deuses que canalizam apenas energia negativa e criaturas malignas (a critério do mestre)." },
+    { "nome": "Canto da Fênix", "acao": "reação", "salvaguarda": "Fortitude", "cd": 47, "efeito_sucesso": "reduz à metade", "descricao": "Quando o Avatar chega a 0 PV ou menos, seu corpo explode. Todas as criaturas em um raio de 30m sofrem 300 pontos de dano de fogo (Fort CD 47 reduz à metade)." },
+    { "nome": "Centelha Divina", "descricao": "O Avatar pode lançar qualquer magia divina como um clérigo de 19º nível sem gastar PM (CD 47, limite de PM 19). Uma vez por rodada, ele pode lançar Alterar Destino ou Segunda Chance como uma ação livre." },
+    { "nome": "Destino Reescrito", "descricao": "Uma criatura que morra na presença do Avatar é ressuscitada 1d6 rodadas após sua morte. Pelas próximas 24 horas essa criatura ficará inconsciente, imersa em um sono profundo permeado por visões enviadas por Thyatis. As visões revelam o motivo da presença do Avatar e carregam um comando que deve ser obedecido pela criatura. Até que a missão seja cumprida, a cada semana em que a criatura não estiver ativamente buscando cumpri-la, ela recebe uma penalidade cumulativa de –2 em todos os testes." },
+    { "nome": "Fogo Purificador", "descricao": "Dano de fogo causado pelo Avatar ignora RD, e imunidade a fogo apenas o reduz à metade." },
+    { "nome": "Não Há Morte", "descricao": "Quando o Avatar explode por sua habilidade Canto da Fênix, ressurge no mesmo local, 1d6 rodadas depois. Ele retorna completamente restaurado, mas com apenas metade dos seus pontos de vida iniciais. Ele não pode usar esta habilidade novamente até recuperar todos os seus PV." },
+    { "nome": "Telepatia Inata", "descricao": "O Avatar pode se comunicar telepaticamente com qualquer criatura em alcance longo." },
+    { "nome": "Visão Flamejante", "descricao": "O Avatar está permanentemente sob efeito das magias Visão Mística, com o aprimoramento que permite enxergar criaturas e objetos invisíveis, e Visão da Verdade." }
+  ],
+  "tesouro": "Pena flamejante (se o portador da pena morrer, ela é automaticamente consumida e ele é ressuscitado após 1d6 rodadas). Em raras ocasiões, o Avatar pode presentear um aliado com uma dessas penas.",
+  "description": "Manifestação física de Thyatis, o Deus da Ressurreição e da Profecia. Ninguém morre em sua presença sem propósito — ele os devolve à vida com uma missão a cumprir.",
+  "livro": "deuses_de_arton"
+}

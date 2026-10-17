@@ -1,0 +1,36 @@
+{
+  "id": "gigante_das_rochas",
+  "name": "Gigante das Rochas",
+  "nd": 9,
+  "tipo": "Humanoide",
+  "subtipo": "gigante",
+  "tamanho": "enorme",
+  "grupo": "gigantes",
+  "pv": 380,
+  "pm": null,
+  "defesa": 33,
+  "salvaguardas": { "fort": 21, "ref": 9, "von": 14 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 5,
+  "visao": [],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 11, "des": -1, "con": 4, "int": 1, "sab": -1, "car": -1 },
+  "pericias": { "atletismo": 19, "intuicao": 7, "oficio_cervejeiro": 9, "sobrevivencia": 7 },
+  "ataques": [
+    { "nome": "Machado de Batalha", "quantidade": 2, "bonus": 26, "dano": [{ "dados": [{ "quantidade": 4, "faces": 12 }], "bonus": 10, "tipo": "corte" }], "critico": "x4" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Barril Gigante de...", "acao": "completa", "descricao": "O gigante das rochas usa uma dose da bebida de seu barril gigante (CD 28)." },
+    { "nome": "Arremessar Barris", "acao": "padrão", "salvaguarda": "Reflexos", "cd": 28, "efeito_sucesso": "reduz à metade", "descricao": "O gigante arremessa seu barril em um quadrado de 3m em alcance curto. Criaturas na área sofrem 7d12 de dano de impacto (Ref CD 28 reduz à metade). Recarga (recuperar o barril)." },
+    { "nome": "Fúria Blindada", "descricao": "Enquanto sob efeito de Pavio Curto, sofre apenas metade do dano de corte, impacto e perfuração não mágico." },
+    { "nome": "Pavio Curto", "acao": "reação", "descricao": "Quando é ofendido ou sofre dano de um inimigo, entra em fúria: +3 em ataque e dano, ataques causam sangramento, mas deve atacar a criatura mais próxima. Termina se não atacar nem for alvo de ação hostil ao fim da rodada." }
+  ],
+  "equipamento": ["barril_gigante", "couraca", "machado_de_batalha_aumentado_macico"],
+  "tesouro": "Metade.",
+  "description": "O gigante clássico das histórias de aventura, maior e mais forte que o das colinas, mas não estúpido ou selvagem. Vive em aldeias organizadas, aprecia festas, torneios e bebidas lendárias.",
+  "livro": "deuses_de_arton"
+}

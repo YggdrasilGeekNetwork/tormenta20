@@ -1,0 +1,22 @@
+{
+  "id": "heranca_abencoada",
+  "name": "Herança Abençoada",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Nova linhagem para o caminho do Feiticeiro (Deuses de Arton, Cap. 1, p.33), representando uma centelha de poder divino no sangue do arcanista. Básica (escolhida ao assumir esta linhagem): escolha um deus maior — essa escolha não pode ser mudada depois. Você aprende uma magia divina de 1º círculo e pode aprender magias divinas de 1º círculo como magias de feiticeiro. No 2º nível de arcanista, você recebe um poder concedido do deus escolhido (aprovado pelo mestre), sem precisar ser devoto dele (mas pode ser devoto desse ou de outro deus). Aprimorada (no mesmo nível em que recebe Herança Aprimorada): suas magias divinas de círculo igual ou menor que sua Sabedoria custam –1 PM, e você pode aprender magias divinas de 2º e 3º círculos como magias de feiticeiro. Superior (no mesmo nível em que recebe Herança Superior): +1 em Sabedoria; aprende uma magia divina de cada círculo a que tenha acesso, limitado por sua Sabedoria (pode trocá-las por outras dos mesmos círculos a cada dia, após descansar); pode aprender magias divinas de 4º e 5º círculos como magias de feiticeiro.",
+  "requirements": [
+    { "type": "character_lvl", "sub_type": "soft", "value": 1 },
+    { "type": "caminho_do_arcanista", "sub_type": "hard", "id": "feiticeiro" }
+  ],
+  "effects": [
+    { "type": "spell_grant", "circle": 1, "spell_type": "divina", "tier": "basica" },
+    { "type": "learn_as", "spell_type": "divina", "circles": [1], "as": "magia_de_feiticeiro", "tier": "basica" },
+    { "type": "granted_power_grant", "deity": "escolhida_na_linhagem", "requires_devotion": false, "level": 2, "tier": "basica" },
+    { "type": "pm_discount", "value": 1, "spell_type": "divina", "condition": "circulo <= Sabedoria", "tier": "aprimorada" },
+    { "type": "learn_as", "spell_type": "divina", "circles": [2, 3], "as": "magia_de_feiticeiro", "tier": "aprimorada" },
+    { "type": "attribute_bonus", "attribute": "sabedoria", "value": 1, "tier": "superior" },
+    { "type": "spell_grant", "circle": "cada_circulo_acessivel", "spell_type": "divina", "limit": "Sabedoria", "swappable_daily": true, "tier": "superior" },
+    { "type": "learn_as", "spell_type": "divina", "circles": [4, 5], "as": "magia_de_feiticeiro", "tier": "superior" }
+  ],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "dadivas_do_dragao",
+  "name": "Dádivas do Dragão",
+  "description": "Você aprende e pode lançar uma magia divina de 1º círculo a sua escolha (atributo-chave Sabedoria). A cada dois outros poderes da distinção, você aprende uma magia divina de 1º círculo adicional. Se for um conjurador divino, essas magias podem ser de qualquer círculo a que tenha acesso.",
+  "effects": [
+    { "type": "passivo", "efeito": "aprende uma magia divina de 1º círculo (atributo-chave Sabedoria)", "escalavel": "mais uma magia divina de 1º círculo a cada dois outros poderes da distinção", "excecao": "conjuradores divinos podem escolher magias de qualquer círculo já acessível" }
+  ],
+  "requirements": ["treinado em Religião", "Ira Dracônica"],
+  "livro": "deuses_de_arton"
+}

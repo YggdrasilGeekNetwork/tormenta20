@@ -1,0 +1,24 @@
+{
+  "id": "heranca_de_magika",
+  "name": "Herança de Magika",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "Você aprende e pode lançar uma magia arcana de 1º círculo a sua escolha (atributo-chave Inteligência ou Carisma, a sua escolha). Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "spell_choice": {
+      "circle": 1,
+      "type": "arcana"
+    },
+    "spellcasting_attribute_options": [
+      "inteligencia",
+      "carisma"
+    ],
+    "pm_discount_if_relearned": 1
+  },
+  "livro": "deuses_de_arton"
+}

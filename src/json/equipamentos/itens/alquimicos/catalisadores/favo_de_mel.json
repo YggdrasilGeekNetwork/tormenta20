@@ -1,0 +1,18 @@
+{
+  "id": "favo_de_mel",
+  "name": "Favo de Mel",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 30,
+  "espacos": 0.5,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "gatilho": "lançar magia divina",
+    "efeito": "remove uma condição de cansaço de uma das criaturas afetadas",
+    "observacao": "pode empunhar vários favos de mel na mesma mão e usá-los na mesma magia para afetar criaturas diferentes"
+  },
+  "description": "Um favo doce e saboroso. Quando lança uma magia divina, você pode remover uma condição de cansaço de uma das criaturas afetadas por ela. Ao contrário de outros catalisadores, você pode empunhar vários favos de mel na mesma mão e usá-los na mesma magia para afetar criaturas diferentes.",
+  "livro": "deuses_de_arton"
+}

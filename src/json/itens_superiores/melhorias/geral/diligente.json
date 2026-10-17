@@ -1,0 +1,12 @@
+{
+  "id": "diligente",
+  "name": "Diligente",
+  "type": "melhoria",
+  "categoria": ["armadura", "escudo", "ferramenta", "vestuario"],
+  "prerequisitos": null,
+  "description": "O item é decorado com símbolos que evocam aspectos divinos de combate ou proteção. Reduz o custo do poder Prece de Combate em –1 PM.",
+  "effects": [
+    { "type": "reducao_custo_pm", "habilidade": "prece_de_combate", "valor": 1 }
+  ],
+  "livro": "deuses_de_arton"
+}

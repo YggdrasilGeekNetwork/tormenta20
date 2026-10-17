@@ -1,0 +1,16 @@
+{
+  "id": "manto_de_alto_sacerdote",
+  "name": "Manto de Alto Sacerdote",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 100,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "requer": "poder Autoridade Eclesiástica",
+    "condicao": "após 1 dia de uso",
+    "efeito": "+1 PM por patamar acima de iniciante"
+  },
+  "description": "Um manto longo com mangas, que cobre todo o corpo. Esta batina é ricamente adornada, feita de tecidos finos de alta qualidade, e tem mais em comum com as vestimentas de um nobre do que com o hábito de um frade. Se você possuir o poder Autoridade Eclesiástica, recebe +1 PM por patamar acima de iniciante (somente após um dia de uso).",
+  "livro": "deuses_de_arton"
+}

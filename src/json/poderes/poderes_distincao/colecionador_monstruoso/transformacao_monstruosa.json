@@ -1,0 +1,27 @@
+{
+  "id": "transformacao_monstruosa",
+  "name": "Transformação Monstruosa",
+  "description": "Quando usa Forma Monstruosa, você pode gastar PM extras (somados ao custo de Forma Selvagem) para ganhar novas habilidades entre aquelas a que tem acesso. Para ter acesso a uma habilidade, você deve derrotar um monstro que a possua em sua ficha e se alimentar de seu corpo (a critério do mestre, outras habilidades parecidas podem atender esse requisito).",
+  "effects": [
+    {
+      "type": "escolha_de_lista",
+      "gatilho": "usar Forma Monstruosa",
+      "condicao_de_acesso": "derrotar e se alimentar de um monstro que possua a habilidade (ou equivalente, a critério do mestre)",
+      "opcoes": [
+        { "id": "agarrar_aprimorado", "name": "Agarrar Aprimorado", "custo_pm": 1, "description": "Um de seus tipos de armas naturais (como 'garras') recebe +2 em testes para agarrar. Uma vez por rodada, quando acerta um ataque com essa arma, você pode gastar 1 PM para fazer a manobra agarrar com ela como ação livre contra a criatura atingida." },
+        { "id": "arma_natural_extra", "name": "Arma Natural Extra", "custo_pm": 1, "description": "Você recebe uma arma natural adicional (dano 1d6 de corte, impacto ou perfuração a sua escolha, crítico x2). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com essa arma." },
+        { "id": "borrao_de_tigre_de_hyninn", "name": "Borrão de Tigre-de-Hyninn", "custo_pm": 2, "description": "Ataques contra você têm 25% de chance de falha. Você pode escolher esta habilidade uma segunda vez para aumentar a chance de falha para 50%." },
+        { "id": "brutalidade_incontida_de_razzakham", "name": "Brutalidade Incontida de Razza'kham", "custo_pm": 1, "description": "Sempre que rolar o resultado máximo em um dado de dano de uma arma natural, role um dado extra, repetindo até um limite de dados extras igual ao valor máximo do dado." },
+        { "id": "carapaca_espinhosa", "name": "Carapaça Espinhosa", "custo_pm": 1, "description": "Quando você sofre dano por um ataque corpo a corpo, o atacante sofre dano de perfuração igual a 1d6 + sua Constituição. Você pode escolher esta habilidade outras vezes para aumentar o dano em +1d6." },
+        { "id": "dilacerar", "name": "Dilacerar", "custo_pm": 1, "description": "Se acertar dois ataques de garra em uma criatura na mesma rodada, você causa +2d8 pontos de dano de corte a ela." },
+        { "id": "meiose_glopica", "name": "Meiose Glópica", "custo_pm": 1, "description": "Quando se transforma, você invoca 1d4+2 glops capangas em espaços desocupados em alcance curto (deslocamento e escalada 6m; Defesa 10, 1 PV, falham automaticamente em testes de resistência ou opostos; não contam no limite de parceiros e desaparecem ao morrer ou no fim da cena). Ação de movimento para fazê-los andar, ação padrão para fazê-los causar 1d4 de impacto + 1d4 de ácido a criaturas adjacentes. Uma vez por rodada, ao sofrer dano, você pode sacrificar um glop em alcance curto para reduzir o dano à metade." },
+        { "id": "orgao_elemental", "name": "Órgão Elemental", "custo_pm": 1, "description": "Uma de suas armas naturais causa +1d6 pontos de dano de um tipo escolhido ao se transformar, entre ácido, eletricidade, fogo e frio. Você pode escolher esta habilidade outras vezes para armas diferentes." },
+        { "id": "regeneracao", "name": "Regeneração", "custo_pm": 1, "description": "Uma vez por cena, você pode gastar 1 PM para receber Cura Acelerada 5. Esta habilidade termina quando tiver curado um total de 30 PV ou no fim da cena." },
+        { "id": "tentaculos", "name": "Tentáculos", "custo_pm": 1, "description": "Uma de suas armas naturais é um tentáculo (dano de impacto) com +3m de alcance. Você pode escolher esta habilidade outras vezes para armas naturais diferentes." },
+        { "id": "veneno", "name": "Veneno", "custo_pm": 2, "description": "Uma de suas armas naturais causa 1d12 de perda de vida por veneno. Você pode escolher esta habilidade outras vezes para armas naturais diferentes." }
+      ]
+    }
+  ],
+  "requirements": [],
+  "livro": "deuses_de_arton"
+}

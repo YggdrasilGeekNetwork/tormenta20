@@ -1,0 +1,37 @@
+{
+  "id": "kemooz",
+  "name": "Kemooz",
+  "nd": 9,
+  "tipo": "Espírito",
+  "subtipo": "gênio",
+  "tamanho": "grande",
+  "grupo": "genios",
+  "pv": 280,
+  "pm": 57,
+  "defesa": 34,
+  "salvaguardas": { "fort": 21, "ref": 6, "von": 15 },
+  "reducao_de_dano": 10,
+  "imunidades": ["encantamento", "ácido"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 14,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "escavacao": 9 },
+  "atributos": { "for": 4, "des": 1, "con": 5, "int": 2, "sab": 3, "car": 0 },
+  "pericias": { "atletismo": 14, "misticismo": 12 },
+  "ataques": [
+    { "nome": "Pancada", "bonus": 25, "dano": [{ "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 42, "tipo": "impacto" }, { "dados": [{ "quantidade": 6, "faces": 8 }], "bonus": 0, "tipo": "ácido" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Dentro de uma Lampadazinha", "descricao": "Para cada dia sem um pacto ativo, perde 1 PM; ao chegar a 0, sofre um efeito debilitante, revertido ao firmar novo pacto." },
+    { "nome": "Poderes Cósmicos Fenomenais", "acao": "completa", "descricao": "Firma pacto com uma criatura voluntária, tornando-se parceiro iniciante e reduzindo o custo de suas habilidades em -1 PM enquanto presente." },
+    { "nome": "Servo dos Deuses", "descricao": "Pode lançar Viagem Planar sem componente material, apenas em si mesmo." },
+    { "nome": "Terraformista", "descricao": "Se o kemooz estiver em contato com o solo, o custo de sua magia Controlar Terra é reduzido à metade (após outros efeitos redutores)." },
+    { "nome": "Magias (feiticeiro 9º, CD 30)", "descricao": "Amarras Etéreas (padrão, 6 PM): laços agarram criatura em alcance médio (Ref evita); cada laço Defesa 10, 10 PV, RD 5, imune a dano mágico. Controlar Terra (padrão, 9 PM): transforma 9 cubos de terra em alcance longo em parede (RD 8, 50 PV) com cobertura total. Jato Corrosivo (padrão, 9 PM): linha de 9m causa 10d6 de dano de ácido (10d6+4 a construtos/objetos; Ref reduz à metade)." },
+    { "nome": "Parceiro", "descricao": "Iniciante: cria um cubo de terra 1,5m (RD 5, 30 PV) a até 9m, até 4 cubos simultâneos. Veterano: +2 na Defesa. Mestre: pode lançar Controlar Terra (atributo-chave Carisma)." }
+  ],
+  "tesouro": "Padrão.",
+  "description": "Gênio da terra, engenheiro e construtor que erguiu os palácios dos deuses e várias cordilheiras de Arton. Sério por fora, mas bondoso e generoso como os demais gênios, embora leve os desejos de forma literal demais.",
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "katana_da_determinacao",
+  "name": "Katana da Determinação",
+  "deities": ["lin_wu"],
+  "subtipo": "arma",
+  "base_item": "katana",
+  "classificacao": "Arma específica média",
+  "preco": 54000,
+  "description": "Esta katana precisa e pungente é feita de aço tamuraniano e tem cabo coberto de tiras de couro trançadas. A lâmina tem coloração avermelhada, sinal de Lin-Wu para que seus devotos nunca se esqueçam da tragédia que se abateu sobre seu povo. Se você for um devoto de Lin-Wu, a arma se torna uma katana precisa pungente formidável que ignora a imunidade a acertos críticos de lefeu. Sempre que você derrotar um lefeu com a katana, cura 2d8+2 PV e recebe +2 nas rolagens de dano (cumulativo com esse efeito e de outros itens) até o fim da cena. Se você for um devoto de patamar campeão ou superior, ela se torna uma katana precisa pungente magnífica.",
+  "effects": [
+    { "type": "passivo", "enchantment": "precisa pungente" },
+    { "type": "devoto", "deity": "lin_wu", "enchantment": "precisa pungente formidável", "efeito": "ignora imunidade a críticos de lefeu", "gatilho": "derrotar um lefeu com a arma", "bonus": "cura 2d8+2 PV e +2 em rolagens de dano (cumulativo) até o fim da cena" },
+    { "type": "devoto_patamar", "deity": "lin_wu", "patamar_minimo": "campeao", "enchantment": "precisa pungente magnífica" }
+  ],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "o_futuro_que_vier_disso",
+  "name": "O Futuro que Vier Disso",
+  "deities": ["thwor"],
+  "description": "Quando faz um teste, você pode rolar um dado a sua escolha (d4 a d20) e somar o resultado a esse teste. Quando você faz isso, o mestre recebe um dado do mesmo tipo, que pode gastar para aplicar como penalidade em um de seus testes até o fim da próxima sessão. Você não pode usar este poder novamente na mesma sessão até que o mestre use o dado que recebeu.",
+  "effects": { "type": "ativado", "gatilho": "fazer um teste", "efeito": "rola um dado à escolha (d4 a d20) e soma ao teste", "custo": "o mestre recebe um dado do mesmo tipo para aplicar como penalidade em um teste seu até o fim da próxima sessão", "restricao": "não pode usar de novo na mesma sessão até o mestre gastar o dado recebido" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

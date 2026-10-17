@@ -1,0 +1,15 @@
+{
+  "id": "mangual_aventureiro",
+  "name": "Mangual Aventureiro",
+  "deities": ["valkaria"],
+  "subtipo": "arma",
+  "base_item": "mangual",
+  "classificacao": "Arma específica média",
+  "preco": 40000,
+  "description": "Este mangual certeiro e cruel tem o cabo e a cabeça feitos de aço, interligados por uma corrente folheada a ouro. Se você for um devoto de Valkaria, ele se torna um mangual dançarino formidável. Se você estiver lutando em um lugar no qual nunca esteve antes, o dano do mangual aventureiro aumenta em dois passos.",
+  "effects": [
+    { "type": "passivo", "enchantment": "certeiro cruel" },
+    { "type": "devoto", "deity": "valkaria", "enchantment": "dançarino formidável", "condicao": "lutando em um lugar no qual nunca esteve antes", "efeito": "dano aumenta em dois passos" }
+  ],
+  "livro": "deuses_de_arton"
+}

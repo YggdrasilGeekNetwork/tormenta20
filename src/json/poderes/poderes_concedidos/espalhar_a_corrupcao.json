@@ -1,0 +1,9 @@
+{
+  "id": "espalhar_a_corrupcao",
+  "name": "Espalhar a Corrupção",
+  "deities": ["aharadak"],
+  "description": "Quando chega em uma comunidade, você pode gastar um dia e fazer um teste de Religião (CD 20). Se passar, você planta a semente da corrupção no coração das pessoas em uma área equivalente a uma aldeia, um castelo ou um bairro de uma cidade grande. Por uma semana, ou até você partir do lugar, a categoria de atitude dessas pessoas em relação umas às outras piora em um passo.",
+  "effects": { "type": "ativado", "tempo": "1 dia", "teste": "Religião CD 20", "efeito": "a atitude das pessoas de uma área (aldeia/castelo/bairro) entre si piora um passo, por 1 semana ou até você partir" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

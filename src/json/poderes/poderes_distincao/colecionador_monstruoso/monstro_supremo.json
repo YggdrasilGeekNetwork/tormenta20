@@ -1,0 +1,10 @@
+{
+  "id": "monstro_supremo",
+  "name": "Monstro Supremo",
+  "description": "Quando usa Forma Selvagem Superior, você recebe o subtipo kaiju e ganha imunidade a efeitos de metabolismo e mentais, medo, metamorfose, paralisia e veneno, e seus ataques ignoram 20 pontos de RD.",
+  "effects": [
+    { "type": "ativado", "gatilho": "usar Forma Selvagem Superior", "efeito": "recebe subtipo kaiju; imunidade a metabolismo, mentais, medo, metamorfose, paralisia e veneno; ataques ignoram 20 de RD" }
+  ],
+  "requirements": ["Forma Selvagem Superior", "ter usado Predação Monstruosa em um kaiju"],
+  "livro": "deuses_de_arton"
+}

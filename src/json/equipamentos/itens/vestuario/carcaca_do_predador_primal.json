@@ -1,0 +1,15 @@
+{
+  "id": "carcaca_do_predador_primal",
+  "name": "Carcaça do Predador Primal",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 150,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "gatilho": "adquirir forma de criatura selvagem (Forma Selvagem, Metamorfose)",
+    "efeito": "bônus na Defesa concedido pela forma aumenta em +1"
+  },
+  "description": "Esta carcaça de um animal ou monstro é trabalhada na forma de uma capa ou manto. Quando adquire a forma de uma criatura selvagem (como pelo poder Forma Selvagem ou pela magia Metamorfose), o bônus na Defesa concedido pela forma aumenta em +1.",
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "adaga_noturna",
+  "name": "Adaga Noturna",
+  "deities": ["tenebra"],
+  "description": "Você pode gastar 1 PM para fazer uma arma de perfuração que esteja usando causar +1d6 pontos de dano de frio até o fim da cena.",
+  "effects": { "type": "ativado", "custo_pm": 1, "efeito": "arma de perfuração empunhada causa +1d6 de dano de frio até o fim da cena" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

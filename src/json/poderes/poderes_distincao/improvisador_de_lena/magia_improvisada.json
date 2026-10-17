@@ -1,0 +1,10 @@
+{
+  "id": "magia_improvisada",
+  "name": "Magia Improvisada",
+  "description": "Você pode gastar uma ação completa para improvisar uma forma de simular um feito místico. Escolha uma magia de 1º círculo e faça um teste de Inteligência (CD 10, +2 para cada vez que usou este poder no mesmo dia). Se passar, até o fim da cena, você pode lançar a magia escolhida uma única vez, pagando seu custo normal (atributo-chave Inteligência). Esta não é uma habilidade mágica, mas capacidade de improvisação (Magias Simuladas, Heróis de Arton).",
+  "effects": [
+    { "type": "ativado", "acao": "completa", "teste": "Inteligência, CD 10 +2 por uso já feito no mesmo dia", "efeito": "se passar, pode lançar a magia de 1º círculo escolhida uma vez até o fim da cena, pagando o custo normal (atributo-chave Inteligência); não conta como habilidade mágica" }
+  ],
+  "requirements": ["treinado em Misticismo", "Poder Improvisado"],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "sufle_rubro",
+  "name": "Suflê Rubro",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 3,
+  "espacos": 0,
+  "deity": "aharadak",
+  "efeito": {
+    "requer_devoto": "aharadak",
+    "gatilho": "início de qualquer cena de ação",
+    "rolagem": "1d6",
+    "resultado_impar": "fica fascinado na primeira rodada",
+    "resultado_par": "recebe +5 em um teste de perícia à escolha feito até o fim do próximo turno"
+  },
+  "description": "Quase um alimento ritualístico, este prato oferece um vislumbre do raciocínio alienígena e incompreensível dos lefeu. No início de qualquer cena de ação, role 1d6. Com um resultado ímpar, você fica fascinado na primeira rodada, perdido em devaneios sobre a futilidade da vida. Com um resultado par, entretanto, você enxerga falhas na Criação que podem ser exploradas a seu favor. Você recebe +5 em um teste de perícia a sua escolha feito até o fim de seu próximo turno.",
+  "livro": "deuses_de_arton"
+}

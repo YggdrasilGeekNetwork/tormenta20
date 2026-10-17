@@ -1,0 +1,10 @@
+{
+  "id": "elementar",
+  "name": "Elementar",
+  "description": "Você pode gastar 10 minutos para analisar a cena de um evento ocorrido há no máximo dois dias por poder da distinção que possui. Se fizer isso, você pode fazer um teste de Investigação para identificar criatura contra o responsável pelo evento (CD Int da criatura) como se ele estivesse presente — e pode usar Traçar Perfil contra ele como o normal —, mas não descobre sua identidade automaticamente. Se o evento foi cometido por mais de uma criatura, considere apenas o líder delas. Você só pode usar este poder uma vez por cena de crime.",
+  "effects": [
+    { "type": "ativado", "tempo": "10 minutos", "janela_temporal": "até 2 dias por poder da distinção que possui", "efeito": "teste de Investigação (identificar criatura, CD Int) contra o responsável por um evento como se estivesse presente; permite usar Traçar Perfil, mas não revela identidade automaticamente", "limite": "1x por cena de crime" }
+  ],
+  "requirements": ["Traçar Perfil"],
+  "livro": "deuses_de_arton"
+}

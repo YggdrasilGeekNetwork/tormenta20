@@ -1,0 +1,29 @@
+{
+  "id": "orbe_do_oceano",
+  "name": "Orbe do Oceano",
+  "type": "divina",
+  "circle": "1",
+  "school": "abjur",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": { "amount": 1, "up_to": false, "type": "você" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "sustentada",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "O suposto desaparecimento do Oceano se mostra particularmente misterioso pelo fato de que seus devotos ainda podem lançar magias. Você cria um globo protetor de água salgada que ocupa 1 quadrado e o acompanha, fornecendo a você camuflagem leve e cobertura leve.",
+  "enhancements": [
+    { "cost": 4, "type": "muda", "description": "muda a duração para cena. Requer 3º círculo.", "extra_details": { "requirements": "3º círculo" } },
+    { "cost": 2, "type": "aumenta", "description": "(Apenas Devotos de Oceano): além do normal, você é considerado submerso. Isso exige que você prenda a respiração (a menos que possa respirar debaixo d'água), mas faz com que sofra apenas a metade do dano de armas de corte e impacto que não sejam armas naturais e é considerado submerso para benefícios de suas habilidades que dependam dessa situação.", "extra_details": { "requirements": "devoto de Oceano" } }
+  ],
+  "effects": [
+    { "type": "camuflagem", "attribute": "leve", "amount": null, "resistence_requirement": null, "extra_requirements": "cobertura leve; globo ocupa 1 quadrado e acompanha o conjurador" }
+  ],
+  "livro": "deuses_de_arton"
+}

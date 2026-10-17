@@ -1,0 +1,25 @@
+{
+  "id": "circulo_externo",
+  "name": "Círculo Externo",
+  "description": "Escolha um dos conceitos da roda externa do Akzath. Você recebe a habilidade relacionada. Você pode escolher este poder até três vezes para conceitos diferentes, mas a cada vez adicional deve escolher um conceito adjacente a outro que já possua no diagrama do Akzath. Uma vez por dia você pode alterar todos os poderes desta distinção que tiver.",
+  "effects": [
+    {
+      "type": "escolha_de_lista",
+      "quantidade_maxima": 3,
+      "regra_de_escolha": "a partir da segunda escolha, o conceito deve ser adjacente a um já possuído no diagrama do Akzath",
+      "pode_trocar": "1x por dia, todos os poderes desta distinção que possui",
+      "opcoes": [
+        { "id": "vida", "name": "Vida", "description": "Quando você ou um aliado em alcance curto morre, você pode gastar 3 PM para que a criatura se mantenha viva por mais 1 rodada (ainda sofre os efeitos do que a matou e morre na rodada seguinte, a menos que sejam revertidos ou dissipados). Pode ser usado mesmo inconsciente." },
+        { "id": "ignorancia", "name": "Ignorância", "description": "Quando uma criatura em alcance curto faz um teste de perícia ou usa uma habilidade com CD, você pode gastar 3 PM para impor uma penalidade de –5 nesse teste ou nessa CD (apenas para esse uso)." },
+        { "id": "mudanca", "name": "Mudança", "description": "Você pode rezar uma Missa especial. Cada participante pode escolher uma característica que possui um atributo-chave (Defesa, uma habilidade, uma perícia, o modificador de dano de um item) e substituir esse atributo por outro a sua escolha pela duração do efeito da Missa." },
+        { "id": "fim", "name": "Fim", "description": "Você pode gastar uma ação completa e 5 PM para encerrar a cena atual e iniciar uma nova imediatamente, encerrando efeitos de duração cena ou até 10 minutos (habilidades limitadas pela cena podem ser usadas de novo; Iniciativa é rolada novamente se aplicável). Não afeta eventos narrativos, nem pode ser usada numa cena iniciada por ela mesma." },
+        { "id": "morte", "name": "Morte", "description": "Quando passa em um teste de Constituição para remover a condição sangrando, recupera 1d8 PV por cada teste desses já feito na cena. Sempre que faz um acerto crítico ou reduz um inimigo a 0 PV, recupera 1d8 PV; excedente acima do máximo vira PV temporários (cumulativo até o dobro do nível de personagem)." },
+        { "id": "conhecimento", "name": "Conhecimento", "description": "Você pode gastar 3 PM para expandir o conhecimento do Akzath a outros. Escolha uma perícia que exija treinamento; até o fim da cena, você e aliados em alcance curto recebem os benefícios de ser treinado nela." },
+        { "id": "continuidade", "name": "Continuidade", "description": "Uma vez por rodada, quando uma habilidade ou item com duração instantânea é usado em um alvo em alcance curto, você pode gastar 3 PM para que esse efeito seja usado novamente na rodada seguinte sobre o mesmo alvo. Não pode repetir um efeito já repetido por este poder." },
+        { "id": "inicio", "name": "Início", "description": "Você pode gastar 3 PM para criar uma bolha temporal na qual o tempo passa mais devagar, como o congelamento de Controlar o Tempo, exceto que fornece apenas 1 turno extra. Só funciona na primeira rodada de cada cena." }
+      ]
+    }
+  ],
+  "requirements": ["treinado em Religião", "devoto de Thwor"],
+  "livro": "deuses_de_arton"
+}

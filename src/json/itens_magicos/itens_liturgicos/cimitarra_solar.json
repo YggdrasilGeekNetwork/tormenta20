@@ -1,0 +1,16 @@
+{
+  "id": "cimitarra_solar",
+  "name": "Cimitarra Solar",
+  "deities": ["azgher"],
+  "subtipo": "arma",
+  "base_item": "cimitarra",
+  "classificacao": "Arma específica média",
+  "preco": 54000,
+  "description": "Esta cimitarra pungente tem cabo de marfim e lâmina de aço reluzente. Quando reflete a luz do sol, o aço tem um brilho dourado. Se você for um devoto de Azgher, a arma se torna uma cimitarra pungente flamejante formidável. Sob a luz do sol, a cimitarra reluz mais forte, com um brilho dourado, e aumenta o dano da bola de fogo que dispara (pelo encanto flamejante) para 12d6. Se você for de patamar campeão ou superior, a arma se torna uma cimitarra precisa flamejante magnífica.",
+  "effects": [
+    { "type": "passivo", "enchantment": "pungente" },
+    { "type": "devoto", "deity": "azgher", "enchantment": "pungente flamejante formidável", "condicao": "sob luz do sol", "efeito": "dano da bola de fogo do encanto flamejante aumenta para 12d6" },
+    { "type": "devoto_patamar", "deity": "azgher", "patamar_minimo": "campeao", "enchantment": "precisa flamejante magnífica" }
+  ],
+  "livro": "deuses_de_arton"
+}

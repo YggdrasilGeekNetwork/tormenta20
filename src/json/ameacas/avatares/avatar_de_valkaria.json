@@ -1,0 +1,41 @@
+{
+  "id": "avatar_de_valkaria",
+  "name": "Avatar de Valkaria",
+  "nd": 20,
+  "tipo": "Espírito",
+  "subtipo": "humano",
+  "tamanho": "médio",
+  "grupo": "avatares",
+  "pv": 3800,
+  "pm": null,
+  "defesa": 68,
+  "salvaguardas": { "fort": 33, "ref": 25, "von": 38 },
+  "reducao_de_dano": 20,
+  "imunidades": ["efeitos mentais", "efeitos de movimento", "medo"],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": [],
+  "iniciativa": 32,
+  "percepcao": 24,
+  "visao": [],
+  "deslocamento": { "terrestre": 18 },
+  "atributos": { "for": 14, "des": 14, "con": 12, "int": 10, "sab": 6, "car": 15 },
+  "pericias": { "acrobacia": 32, "atletismo": 32, "atuacao": 33, "diplomacia": 33, "intuicao": 27 },
+  "ataques": [
+    { "nome": "Exploradora", "quantidade": 4, "bonus": 65, "dano": [{ "dados": [{ "quantidade": 8, "faces": 8 }], "bonus": 35, "tipo": "corte" }, { "dados": [{ "quantidade": 6, "faces": 8 }], "bonus": 0, "tipo": "luz" }], "critico": "16" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Maior que a Morte", "descricao": "O Avatar é imune a efeitos que matam instantaneamente ou reduzem atributos a 0, e não pode ser mantido morto permanentemente." },
+    { "nome": "Sem Redução por Terreno Difícil", "descricao": "O Avatar não sofre redução de deslocamento por terreno difícil." },
+    { "nome": "Alcançar o Infinito", "descricao": "Quando o Avatar de Valkaria faz um teste de perícia, um resultado de 17 ou mais no dado sempre é um sucesso, não importando o valor a ser alcançado." },
+    { "nome": "Aventureira Mística", "acao": "livre", "descricao": "Uma vez por rodada, quando executa uma ação padrão, o Avatar lança uma de suas magias." },
+    { "nome": "Centelha Divina", "descricao": "O Avatar pode lançar qualquer magia divina como um clérigo de 20º nível sem gastar PM (CD 55, limite de PM 20)." },
+    { "nome": "Livre Como a Ambição", "descricao": "O Avatar pode atravessar objetos sólidos, como paredes, como se fosse intangível." },
+    { "nome": "Passo Divino", "acao": "livre", "descricao": "Uma vez por rodada, o avatar se move 3m." },
+    { "nome": "Mudança Encarnada", "descricao": "O Avatar começa cada cena com três habilidades escolhidas entre: Aventureira Completa (+5 em testes de perícia); Desafiante Sagrada (livre, sustentada: aura de 18m onde criaturas escolhem combater ousadamente com uma restrição tipo Bravata Imprudente, ganhando 1 PM temporário cumulativo por turno, ou sofrer -5 em testes de perícia e dano); Intervenção Direta (completa, 1x por cena: lança até três magias, depois fica incapacitado de lançar magias por 1d4 rodadas); Mais Além! (reação: ao rolar 17+ num d20, recebe uma ação completa mesmo fora do seu turno); Mestra Exploradora (ao se mover 12m ou mais, +5 na margem de ameaça e +2d10 de dano contra não humanos); Realeza Divina (reação: rola novamente um teste recém-feito e escolhe o resultado); Resiliência Heroica (reação, 1x por cena: evita sofrer dano). O Avatar pode gastar uma ação padrão para trocar uma habilidade por outra não usada na cena, mas só depois de ter usado todas as iniciais ao menos uma vez." }
+  ],
+  "equipamento": ["exploradora", "cota_de_malha_fortificada_guardia_sem_penalidade"],
+  "tesouro": "Nenhum.",
+  "description": "Manifestação física de Valkaria, a Deusa da Ambição. Empunha a espada Exploradora, forjada para desafiar os limites do possível.",
+  "livro": "deuses_de_arton"
+}

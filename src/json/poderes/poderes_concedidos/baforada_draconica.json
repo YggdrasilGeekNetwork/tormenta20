@@ -1,0 +1,9 @@
+{
+  "id": "baforada_draconica",
+  "name": "Baforada Dracônica",
+  "deities": ["kallyadranoch"],
+  "description": "Escolha um elemento entre ácido, eletricidade, fogo, frio, luz ou trevas (uma vez feita, essa escolha não pode ser mudada). Uma vez por rodada, você pode gastar PM (limitados por sua Constituição) para desferir um sopro elemental em uma criatura em alcance curto. Para cada PM que você gastar, o alvo sofre 1d10 pontos de dano do tipo escolhido (Reflexos CD Con reduz à metade). Recarga (movimento).",
+  "effects": { "type": "ativado", "frequencia": "1x_por_rodada", "custo_pm_maximo": "sua Constituição", "efeito": "1d10 de dano do elemento escolhido por PM gasto, em criatura em alcance curto (Reflexos CD Con reduz à metade)", "recarga": "ação de movimento" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

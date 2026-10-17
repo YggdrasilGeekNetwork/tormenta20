@@ -1,0 +1,14 @@
+{
+  "id": "acelerar_sacrario",
+  "name": "Acelerar Sacrário",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Quando cria um sacrário, você pode gastar +2 PM para criá-lo como uma ação de movimento (em vez de uma ação padrão).",
+  "requirements": [
+    { "type": "character_lvl", "sub_type": "hard", "value": 5, "note": "5º nível de frade" }
+  ],
+  "effects": [
+    { "type": "ativado", "gatilho": "criar um sacrário", "custo_pm_adicional": 2, "efeito": "ação de movimento em vez de padrão" }
+  ],
+  "livro": "deuses_de_arton"
+}

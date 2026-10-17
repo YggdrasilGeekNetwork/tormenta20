@@ -1,0 +1,9 @@
+{
+  "id": "resplendor_divino",
+  "name": "Resplendor Divino",
+  "deities": ["azgher"],
+  "description": "Você pode gastar 2 PM para gerar uma aura de luz solar com 9m de raio que dura até o fim da cena. Além de sofrer os efeitos de exposição à luz, criaturas dentro da aura perdem toda camuflagem por escuridão e efeitos semelhantes (como da cobertura de sombras do aprimoramento da magia Escuridão).",
+  "effects": { "type": "ativado", "custo_pm": 2, "alcance": "9m de raio", "duracao": "até o fim da cena", "efeito": "criaturas na área sofrem exposição à luz e perdem camuflagem por escuridão e efeitos semelhantes" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

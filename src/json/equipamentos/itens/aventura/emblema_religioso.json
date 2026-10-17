@@ -1,0 +1,17 @@
+{
+  "id": "emblema_religioso",
+  "name": "Emblema Religioso",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 30,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "requer": "específico de um deus; só funciona com devotos daquela divindade",
+    "acao": "movimento",
+    "custo_pm": 1,
+    "efeito": "recebe os benefícios de ser treinado em Religião em um teste dessa perícia até o fim da cena"
+  },
+  "description": "Esta chapa fina de cobre maleável é gravada com a imagem de uma figura religiosa importante e vendida ou distribuída para peregrinos e fiéis em igrejas e templos. Existem emblemas religiosos específicos para cada deus e eles só funcionam com devotos da divindade específica. Você pode gastar uma ação de movimento e 1 PM para receber os benefícios de ser treinado em Religião em um teste dessa perícia até o fim da cena.",
+  "livro": "deuses_de_arton"
+}

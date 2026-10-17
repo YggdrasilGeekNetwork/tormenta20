@@ -1,0 +1,15 @@
+{
+  "id": "solo_santificado_frade",
+  "name": "Solo Santificado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "No 20º nível, o raio de sua Dádiva da Fé muda para 30m e criaturas afetadas por ela também somam o bônus concedido pela habilidade na CD de suas próprias habilidades.",
+  "requirements": [
+    { "type": "character_lvl", "sub_type": "hard", "value": 20 },
+    { "type": "feature", "sub_type": "hard", "id": "dadiva_da_fe_frade" }
+  ],
+  "effects": [
+    { "type": "passivo", "efeito": "aumenta o raio da Dádiva da Fé para 30m; criaturas afetadas somam o bônus da habilidade também na CD de suas próprias habilidades" }
+  ],
+  "livro": "deuses_de_arton"
+}

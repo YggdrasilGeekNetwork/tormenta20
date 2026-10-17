@@ -1,0 +1,9 @@
+{
+  "id": "ferramentas_da_guerra",
+  "name": "Ferramentas da Guerra",
+  "deities": ["arsenal"],
+  "description": "Uma vez por dia, você pode gastar 1 hora e T$ 10 por item para abençoar uma quantidade de itens limitada por sua Sabedoria. Armas abençoadas dessa forma fornecem +2 em rolagens de dano, e armaduras e escudos fornecem RD 2. Se o usuário de um item abençoado for derrotado em combate, o item é destruído. Os efeitos da bênção duram 1 dia.",
+  "effects": { "type": "ativado", "frequencia": "1x_por_dia", "tempo": "1 hora", "custo": "T$ 10 por item, até um número de itens igual à Sabedoria", "duracao": "1 dia", "efeito": "armas abençoadas: +2 em dano; armaduras/escudos abençoados: RD 2", "risco": "o item é destruído se o usuário for derrotado em combate" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

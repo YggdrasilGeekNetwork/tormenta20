@@ -1,0 +1,9 @@
+{
+  "id": "armadura_de_ossos",
+  "name": "Armadura de Ossos",
+  "deities": ["tenebra"],
+  "description": "Você pode gastar uma ação de movimento e 2 PM para receber +2 na Defesa e em Intimidação, e redução de corte, frio e trevas 5 até o fim da cena.",
+  "effects": { "type": "ativado", "acao": "movimento", "custo_pm": 2, "duracao": "até o fim da cena", "efeito": "+2 na Defesa e Intimidação; redução de corte, frio e trevas 5" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

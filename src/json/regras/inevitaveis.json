@@ -1,0 +1,15 @@
+{
+  "id": "inevitaveis",
+  "name": "Habilidades de Inevitáveis",
+  "description": "Regra-base compartilhada por todos os inevitáveis — construtos celestiais forjados pelos deuses para caçar e punir transgressores (Deuses de Arton, Cap. 4): Fado, Probo e Parcus.",
+  "habilidades": [
+    { "nome": "Encontrar o Culpado", "descricao": "O inevitável sempre sabe a localização da criatura que deve caçar, como se estivesse permanentemente sob efeito da magia Localização com área equivalente a toda Arton." },
+    { "nome": "Investir a Culpa", "descricao": "Cada inevitável é criado para caçar uma criatura específica. Contra essa criatura, recebe +5 em testes de perícia e seus ataques causam +2d6 pontos de dano de luz." },
+    { "nome": "Visão da Justiça", "descricao": "O inevitável está permanentemente sob o efeito básico da magia Visão da Verdade." }
+  ],
+  "chassi_golem_desperto": {
+    "descricao": "Com o suplemento Ameaças de Arton, inevitáveis podem ser usados como chassi para golens despertos.",
+    "chassi_dourado": "Carisma +2, Força +1. Pode gastar 1 PM para marcar uma criatura em alcance curto como culpada; até o fim da cena (ou até marcar outra), sempre sabe onde ela está e, 1x por rodada, um ataque contra ela causa +1d6 de dano de luz."
+  },
+  "livro": "deuses_de_arton"
+}

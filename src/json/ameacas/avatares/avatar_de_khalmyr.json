@@ -1,0 +1,43 @@
+{
+  "id": "avatar_de_khalmyr",
+  "name": "Avatar de Khalmyr",
+  "nd": 20,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "avatares",
+  "pv": 2500,
+  "pm": null,
+  "defesa": 66,
+  "salvaguardas": { "fort": 30, "ref": 22, "von": 38 },
+  "reducao_de_dano": 20,
+  "imunidades": ["acertos críticos", "efeitos mentais", "medo"],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": [],
+  "iniciativa": 22,
+  "percepcao": 32,
+  "visao": [],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 14, "des": 6, "con": 16, "int": 8, "sab": 16, "car": 12 },
+  "pericias": { "cavalgar": 24, "conhecimento": 30, "diplomacia": 38, "guerra": 34, "intuicao": 40, "investigacao": 34, "nobreza": 34, "religiao": 40 },
+  "ataques": [
+    { "nome": "Rhumnam", "quantidade": 4, "bonus": 58, "dano": [{ "dados": [{ "quantidade": 6, "faces": 6 }], "bonus": 40, "tipo": "corte" }, { "dados": [{ "quantidade": 6, "faces": 8 }], "bonus": 0, "tipo": "luz" }], "critico": "18" },
+    { "nome": "Rhumnam (à distância)", "bonus": 58, "alcance": "médio", "dano": [{ "dados": [{ "quantidade": 6, "faces": 6 }], "bonus": 40, "tipo": "corte" }, { "dados": [{ "quantidade": 6, "faces": 8 }], "bonus": 0, "tipo": "luz" }], "critico": "x4" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Maior que a Morte", "descricao": "O Avatar é imune a efeitos que matam instantaneamente ou reduzem atributos a 0, e não pode ser mantido morto permanentemente." },
+    { "nome": "Centelha Divina", "descricao": "O Avatar de Khalmyr pode lançar qualquer magia divina como um clérigo de 20º nível sem gastar PM (CD 52, limite de PM 20). Uma vez por rodada, ele pode lançar Círculo da Justiça como ação livre." },
+    { "nome": "Cura Pelas Mãos", "acao": "movimento", "descricao": "O Avatar cura 10d6+10 pontos de vida por luz de uma criatura em alcance curto e remove dela as condições abalado, apavorado, atordoado, cego, doente, exausto, fatigado e surdo." },
+    { "nome": "Eu Tenho o Tabuleiro", "salvaguarda": "Vontade", "cd": 52, "efeito_sucesso": "imune pelo resto da cena", "descricao": "O Avatar emana uma aura de ordem de 30m de raio. Cada criatura que comece seu turno dentro da aura deve fazer um teste de Vontade (CD 52). Se falhar, até o fim do seu turno todas as suas rolagens de d20 para testes de perícia são automaticamente 10. Se passar no teste de Vontade, a criatura fica imune a esta habilidade pelo resto da cena." },
+    { "nome": "Julgamento dos Culpados", "salvaguarda": "Vontade", "cd": 52, "efeito_sucesso": "muda para apavorada", "descricao": "Uma criatura culpada de crimes graves ou maligna (a critério do mestre) que comece seu turno na aura de ordem do Avatar fica paralisada (Vont CD 52 muda para apavorada e a criatura não pode mais ser paralisada por esta habilidade pelo resto da cena). Esta habilidade afeta mesmo criaturas imunes a efeitos de medo e de movimento." },
+    { "nome": "Julgamento dos Inocentes", "descricao": "Uma criatura que, a critério do mestre, seja bondosa ou inocente que comece seu turno na aura de ordem do Avatar recebe +6 em testes de ataque e na Defesa, e redução de dano 10." },
+    { "nome": "Pilar da Criação", "acao": "livre", "descricao": "O Avatar recebe +6 na Defesa e redução de dano 30 até o fim da cena ou até encerrar esta habilidade (uma ação livre), mas seu deslocamento é reduzido à metade e ele não pode correr ou fazer investidas." },
+    { "nome": "Rhumnam", "descricao": "Quando o Avatar acerta um ataque com Rhumnam em uma criatura culpada de crimes graves ou maligna (a critério do mestre), a criatura é completamente destruída. Contra inocentes, os ataques do Avatar com Rhumnam não causam dano. Além disso, enquanto estiver empunhando Rhumnam, o Avatar recebe imunidade a magias arcanas." },
+    { "nome": "Ver Além da Mentira", "descricao": "O Avatar está permanentemente sob o efeito básico da magia Visão da Verdade." }
+  ],
+  "equipamento": ["balas_x20", "baluarte_anao", "rhumnam"],
+  "tesouro": "Nenhum.",
+  "description": "Manifestação física de Khalmyr, o Deus da Justiça. Empunha Rhumnam, uma arma capaz de destruir completamente os culpados de crimes graves, mas inofensiva contra inocentes. Às vezes prefere portar uma montante mágica comum em seu lugar, usando as mesmas estatísticas corpo a corpo, sem os ataques à distância e efeitos de Rhumnam.",
+  "livro": "deuses_de_arton"
+}

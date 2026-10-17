@@ -1,0 +1,43 @@
+{
+  "id": "avatar_de_sszzaas",
+  "name": "Avatar de Sszzaas",
+  "nd": 19,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "avatares",
+  "pv": 1007,
+  "pm": null,
+  "defesa": 59,
+  "salvaguardas": { "fort": 26, "ref": 30, "von": 33 },
+  "reducao_de_dano": 10,
+  "imunidades": ["veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 34,
+  "percepcao": 30,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 7, "des": 14, "con": 6, "int": 20, "sab": 10, "car": 17 },
+  "pericias": { "acrobacia": 31, "conhecimento": 40, "diplomacia": 34, "enganacao": 37, "furtividade": 31, "intuicao": 30, "investigacao": 37, "ladinagem": 31, "misticismo": 37, "oficio_alquimista": 37 },
+  "ataques": [
+    { "nome": "Inoculadora", "bonus": 52, "dano": [{ "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 31, "tipo": "perfuração" }], "critico": "15/x4", "extra_requirements": "mais veneno" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão Aprimorada", "descricao": "O Avatar possui Evasão Aprimorada." },
+    { "nome": "Maior que a Morte", "descricao": "O Avatar é imune a efeitos que matam instantaneamente ou reduzem atributos a 0, e não pode ser mantido morto permanentemente." },
+    { "nome": "Não Pode Ser Flanqueado ou Surpreendido", "descricao": "O Avatar não pode ser flanqueado ou surpreendido." },
+    { "nome": "Ataque Furtivo", "descricao": "+10d8 de dano em ataque furtivo." },
+    { "nome": "Centelha Divina", "descricao": "O Avatar de Sszzaas pode lançar qualquer magia divina, ou magia arcana de ilusão, como um clérigo de 19º nível sem gastar PM (CD 49, limite de PM 20) usando apenas concentração (Magia Discreta). Outros personagens só percebem que ele lançou uma magia se passarem num teste de Misticismo (CD 40)." },
+    { "nome": "Falso Amigo", "descricao": "Quando usa Disfarce Ilusório para mudar a própria aparência, o Avatar recebe um bônus adicional de +10 nos testes de Enganação. Alternativamente, com o suplemento Ameaças de Arton, ele pode agir como um falso amigo mestre de qualquer tipo." },
+    { "nome": "Manto do Traidor", "descricao": "O Avatar pode se esconder mesmo sem camuflagem ou cobertura disponíveis, não sofre penalidade em testes de Furtividade por se mover ao seu deslocamento normal e reduz a penalidade em Furtividade por atacar e fazer outras ações chamativas para –5." },
+    { "nome": "Reviravolta", "descricao": "O alvo do primeiro ataque do Avatar em cada cena é considerado desprevenido." },
+    { "nome": "Senhor da Intriga", "descricao": "Quando faz um teste de uma perícia baseada em Inteligência ou Carisma, o Avatar rola dois dados e usa o melhor resultado." },
+    { "nome": "Trocar de Pele", "acao": "reação", "salvaguarda": "Vontade", "cd": 49, "efeito_sucesso": "evita", "descricao": "Uma vez por rodada, ao ser alvo de um efeito hostil, o Avatar pode trocar de lugar com uma criatura em alcance médio (Von CD 49 evita). A criatura trocada passa a ser o novo alvo da ação." },
+    { "nome": "Veneno", "descricao": "Peçonha anciã (perde 3d12 pontos de vida por rodada durante 3 rodadas, ignora imunidade a veneno, Fort CD 49 reduz a duração para 1 rodada)." }
+  ],
+  "equipamento": ["inoculadora"],
+  "tesouro": "Nenhum.",
+  "description": "Manifestação física de Sszzaas, o Deus da Traição. Mestre do disfarce e do veneno, empunha a adaga Inoculadora.",
+  "livro": "deuses_de_arton"
+}

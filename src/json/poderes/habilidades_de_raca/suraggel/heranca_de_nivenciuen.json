@@ -1,0 +1,22 @@
+{
+  "id": "heranca_de_nivenciuen",
+  "name": "Herança de Nivenciuén",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "Mesmo que o Reino de Glórienn tenha sofrido um destino terrível, a antiga soberania élfica ainda permeia seu sangue. Você recebe +2 em Misticismo e uma habilidade racial dos elfos entre Graça de Glórienn e Sangue Mágico.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "skill_bonus": {
+      "misticismo": 2
+    },
+    "ability_choice": [
+      "graca_de_glorienn",
+      "sangue_magico"
+    ]
+  },
+  "livro": "deuses_de_arton"
+}

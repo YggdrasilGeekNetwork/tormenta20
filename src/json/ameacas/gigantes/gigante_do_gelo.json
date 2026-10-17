@@ -1,0 +1,36 @@
+{
+  "id": "gigante_do_gelo",
+  "name": "Gigante do Gelo",
+  "nd": 9,
+  "tipo": "Humanoide",
+  "subtipo": "gigante",
+  "tamanho": "enorme",
+  "grupo": "gigantes",
+  "pv": 380,
+  "pm": null,
+  "defesa": 33,
+  "salvaguardas": { "fort": 21, "ref": 9, "von": 14 },
+  "reducao_de_dano": "15/frio",
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 5,
+  "visao": [],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 11, "des": -1, "con": 4, "int": 1, "sab": -1, "car": -1 },
+  "pericias": { "atletismo": 21, "intuicao": 7, "oficio_cozinheiro": 11, "sobrevivencia": 7 },
+  "ataques": [
+    { "nome": "Machado de Batalha", "quantidade": 2, "bonus": 26, "dano": [{ "dados": [{ "quantidade": 4, "faces": 12 }], "bonus": 8, "tipo": "corte" }, { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 0, "tipo": "frio" }], "critico": "x3" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arremessar Geleira", "acao": "completa", "salvaguarda": "Reflexos", "cd": 28, "efeito_sucesso": "reduz à metade e evita a condição", "descricao": "O gigante arremessa um pedaço de geleira em um quadrado de 4,5m em alcance curto. Criaturas na área sofrem 8d12 de dano de frio e ficam lentas (Ref CD 28 reduz à metade e evita a condição)." },
+    { "nome": "Barril Gigante de...", "acao": "completa", "descricao": "O gigante usa uma dose da bebida de seu barril gigante (CD 28)." },
+    { "nome": "Fúria Gélida", "descricao": "Enquanto sob efeito de Pavio Curto, emana uma aura de 9m de frio e ventos fortes: recebe camuflagem leve contra ataques à distância feitos de fora da aura, e criaturas dentro sofrem 4d6 de dano de frio no início dos turnos do gigante (Fort CD 28 reduz à metade)." },
+    { "nome": "Pavio Curto", "acao": "reação", "descricao": "Quando é ofendido ou sofre dano de um inimigo, entra em fúria: +3 em ataque e dano, ataques causam sangramento, mas deve atacar a criatura mais próxima. Termina se não atacar nem for alvo de ação hostil ao fim da rodada." }
+  ],
+  "equipamento": ["barril_gigante", "gibao_de_peles", "machado_de_batalha_aumentado_de_gelo_eterno"],
+  "tesouro": "Metade.",
+  "description": "Variante regional do gigante das rochas que vive nas montanhas Uivantes, dominando o frio em combate.",
+  "livro": "deuses_de_arton"
+}

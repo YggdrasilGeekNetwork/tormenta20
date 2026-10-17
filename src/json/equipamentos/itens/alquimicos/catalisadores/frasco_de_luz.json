@@ -1,0 +1,14 @@
+{
+  "id": "frasco_de_luz",
+  "name": "Frasco de Luz",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 30,
+  "espacos": 0.5,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": { "bonus_cd_magias_luz": 2 },
+  "description": "Este pequeno frasco cristalino contém uma gota de um líquido luminoso. Fornece +2 na CD de magias de luz.",
+  "livro": "deuses_de_arton"
+}

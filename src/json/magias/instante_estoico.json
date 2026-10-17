@@ -1,0 +1,31 @@
+{
+  "id": "instante_estoico",
+  "name": "Instante Estoico",
+  "type": "divina",
+  "circle": "1",
+  "school": "abjur",
+  "execution": "reação",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": { "amount": 1, "up_to": false, "type": "você" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "instantânea",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Invocando a proteção de Khalmyr, você resiste a agressões potencialmente perigosas. Quando sofre dano não mágico, você recebe RD 10 contra esse dano.",
+  "enhancements": [
+    { "cost": 1, "type": "muda", "description": "muda a RD para 20. Requer 2° círculo.", "extra_details": { "requirements": "2º círculo" } },
+    { "cost": 2, "type": "aumenta", "description": "além do normal, para cada 10 pontos de dano que a magia reduzir em um turno, sua próxima rolagem de dano feita até a próxima rodada causa +1d6 pontos de dano de essência.", "extra_details": null },
+    { "cost": 1, "type": "muda", "description": "(Apenas Devotos de Khalmyr): muda a execução para padrão e a duração para cena, até ser descarregada. Em vez do normal, quando sofre dano não mágico, você pode receber RD 10 contra esse dano. A magia é descarregada após você usar este efeito pela terceira vez. Requer 3º círculo.", "extra_details": { "requirements": "devoto de Khalmyr; 3º círculo" } },
+    { "cost": 2, "type": "muda", "description": "(Apenas Devotos de Khalmyr): muda o alcance para toque e o alvo para 1 criatura.", "extra_details": { "requirements": "devoto de Khalmyr" } }
+  ],
+  "effects": [
+    { "type": "redução_de_dano", "attribute": "rd_contra_dano_nao_magico", "amount": "10", "resistence_requirement": null, "extra_requirements": null }
+  ],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "pegaso",
+  "name": "Pégaso",
+  "nd": 3,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "celestiais",
+  "pv": 105,
+  "pm": null,
+  "defesa": 21,
+  "salvaguardas": { "fort": 13, "ref": 10, "von": 4 },
+  "reducao_de_dano": null,
+  "resistencias": { "magia_arcana": 5 },
+  "imunidades": ["encantamento", "medo"],
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 3,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 15, "voo": 24 },
+  "atributos": { "for": 6, "des": 2, "con": 3, "int": 0, "sab": 2, "car": 2 },
+  "pericias": { "atletismo": 11, "intuicao": 10 },
+  "ataques": [
+    { "nome": "Cascos", "bonus": 14, "dano": [{ "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 5, "tipo": "impacto" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Investida Aérea", "descricao": "Quando faz uma investida alada, o pégaso causa +2d8 de dano com seus cascos e pode continuar se movendo depois do ataque, no mesmo sentido, até o dobro de seu deslocamento." },
+    { "nome": "Parceiro", "descricao": "O pégaso é um parceiro montaria (Grande) que aceita apenas devotos de deuses com paladinos. Iniciante: +2 em Intuição, deslocamento 15m (ainda não voa com cavaleiro). Veterano: deslocamento de voo 15m, +2 em Vontade. Mestre: ação de movimento extra por turno (só para deslocar-se) e +2 em testes de ataque." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Magnífico cavalo alado, branco e brilhante como a lua cheia. Celestial criado por deuses de bondade e justiça, sobretudo Khalmyr, que só aceita ser cavalgado por devotos dignos.",
+  "livro": "deuses_de_arton"
+}

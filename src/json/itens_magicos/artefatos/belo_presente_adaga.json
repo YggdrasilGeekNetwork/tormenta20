@@ -1,0 +1,12 @@
+{
+  "id": "belo_presente_adaga",
+  "name": "Belo Presente",
+  "description": "A adaga empregada pelo Avatar de Wynna é mais um símbolo — e um poderoso amplificador mágico — do que uma arma. Ela conta como um orbe cristalino e uma varinha arcana, e permite que você sustente até três magias ao mesmo tempo. Além disso, ela armazena 20 PM (que são totalmente recuperados ao amanhecer) que podem ser usados apenas para sustentar habilidades mágicas.",
+  "effects": [
+    { "type": "weapon_type", "base": "adaga" },
+    { "type": "special", "efeito": "conta como orbe cristalino e varinha arcana" },
+    { "type": "special", "efeito": "permite sustentar até 3 magias simultaneamente" },
+    { "type": "special", "efeito": "armazena 20 PM, recuperados totalmente ao amanhecer, usáveis apenas para sustentar habilidades mágicas" }
+  ],
+  "livro": "deuses_de_arton"
+}

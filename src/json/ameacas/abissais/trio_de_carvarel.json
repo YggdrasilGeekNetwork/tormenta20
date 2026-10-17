@@ -1,0 +1,34 @@
+{
+  "id": "trio_de_carvarel",
+  "name": "Trio de Carvarel",
+  "nd": 8,
+  "tipo": "Espírito",
+  "subtipo": "abissal",
+  "tamanho": "grande",
+  "grupo": "abissais",
+  "pv": 305,
+  "pm": null,
+  "defesa": 33,
+  "salvaguardas": { "fort": 19, "ref": 16, "von": 15 },
+  "reducao_de_dano": 5,
+  "imunidades": ["ácido", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 3,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": 3, "con": 4, "int": -2, "sab": 1, "car": -1 },
+  "pericias": { "atletismo": 13, "intimidacao": 9 },
+  "ataques": [
+    { "nome": "Machado de Guerra", "quantidade": 2, "bonus": 26, "dano": [{ "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 16, "tipo": "corte" }], "critico": "x3", "extra_requirements": "[bando]" },
+    { "nome": "Chifres", "quantidade": 2, "bonus": 26, "dano": [{ "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 10, "tipo": "impacto" }], "critico": null, "extra_requirements": "[bando]; alternativa ao machado de guerra" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Marrada Infernal", "acao": "completa", "descricao": "O trio de carvarel faz uma investida e desfere todos os seus ataques de machado de guerra e de chifres contra quaisquer criaturas em alcance. Todos os ataques recebem o bônus de +2 da investida, mas o trio não pode fazer mais de dois ataques contra a mesma criatura." }
+  ],
+  "equipamento": ["machado_de_guerra_cruel_x3"],
+  "tesouro": "Padrão.",
+  "description": "Um bando de três carvarel (guerreiros de chifres abissais) agindo como uma única unidade de combate. Carvarel individuais já existem como 'guerreiro de chifres'; este bloco representa o trio lutando em conjunto.",
+  "livro": "deuses_de_arton"
+}

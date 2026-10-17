@@ -1,0 +1,14 @@
+{
+  "id": "dadiva_da_fe_frade",
+  "name": "Dádiva da Fé",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "No 5º nível, você recebe Proteção Sagrada (se sua divindade canaliza energia positiva) ou Cólera Divina (se canaliza energia negativa).\nProteção Sagrada: você pode gastar uma ação de movimento e até 2 PM por círculo de magia a que tem acesso para energizar seu símbolo sagrado até o fim da cena. Enquanto estiver empunhando o símbolo, ele projeta uma aura com 9m de raio; criaturas a sua escolha dentro dela recebem redução de dano igual à metade do total de PM gastos.\nCólera Divina: mesmo custo e aura, mas criaturas a sua escolha dentro da aura recebem um bônus em suas rolagens de dano igual à metade do total de PM gastos.",
+  "requirements": [
+    { "type": "character_lvl", "sub_type": "hard", "value": 5 }
+  ],
+  "effects": [
+    { "type": "ativado", "acao": "movimento", "custo_pm": "até 2 por círculo de magia acessível", "duracao": "até o fim da cena", "alcance_aura": "9m de raio", "variante_positiva": "criaturas escolhidas na aura recebem redução de dano igual à metade do total de PM gastos", "variante_negativa": "criaturas escolhidas na aura recebem bônus em rolagens de dano igual à metade do total de PM gastos" }
+  ],
+  "livro": "deuses_de_arton"
+}

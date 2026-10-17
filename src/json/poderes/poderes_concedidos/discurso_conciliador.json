@@ -1,0 +1,9 @@
+{
+  "id": "discurso_conciliador",
+  "name": "Discurso Conciliador",
+  "deities": ["marah"],
+  "description": "Quando faz um teste de Diplomacia para mudar atitude, você pode rolar dois dados e usar o melhor resultado ou ambos (como se tivesse usado mudar atitude duas vezes). Se passar em ambos, as mudanças de atitude são cumulativas.",
+  "effects": { "type": "passivo", "gatilho": "teste de Diplomacia para mudar atitude", "efeito": "rola 2 dados e usa o melhor, ou usa ambos como 2 tentativas de mudar atitude (cumulativas se ambas passarem)" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

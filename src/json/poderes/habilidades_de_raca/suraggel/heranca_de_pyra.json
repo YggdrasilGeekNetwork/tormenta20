@@ -1,0 +1,16 @@
+{
+  "id": "heranca_de_pyra",
+  "name": "Herança de Pyra",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "Em algum lugar dentro de você, sempre existe uma segunda chance. Quando faz um teste de resistência ou um teste de atributo para remover uma condição, você pode gastar 2 PM para rolá-lo novamente.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "reroll_saving_throw_or_condition_removal_cost_pm": 2
+  },
+  "livro": "deuses_de_arton"
+}

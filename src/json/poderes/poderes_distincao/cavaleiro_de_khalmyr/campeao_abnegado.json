@@ -1,0 +1,10 @@
+{
+  "id": "campeao_abnegado",
+  "name": "Campeão Abnegado",
+  "description": "Os bônus concedidos por Ao Sabor do Destino são dobrados. Além disso, você pode usar itens litúrgicos fabricados por devotos de Khalmyr sem perder os benefícios do poder.",
+  "effects": [
+    { "type": "passivo", "efeito": "dobra os bônus de Ao Sabor do Destino; permite usar itens litúrgicos de devotos de Khalmyr sem perder os benefícios do poder" }
+  ],
+  "requirements": ["Ao Sabor do Destino", "Vitória da Ordem"],
+  "livro": "deuses_de_arton"
+}

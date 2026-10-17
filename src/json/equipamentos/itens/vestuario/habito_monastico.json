@@ -1,0 +1,15 @@
+{
+  "id": "habito_monastico",
+  "name": "Hábito Monástico",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 30,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "bonus": { "vontade_vs_mental": 2, "cd_magia_tranquilidade": 2 },
+    "penalidade": { "pericias_carisma_vs_ricos_nobres_arrogantes": -2 }
+  },
+  "description": "Uma vestimenta simples, em geral de tecido cru, amarrada com um cinto de corda. A humildade dos religiosos que vestem estes hábitos só é rivalizada por sua temperança. Fornece +2 em Vontade contra efeitos mentais e aumenta em +2 a CD da magia Tranquilidade. Porém, impõe –2 em perícias baseadas em Carisma contra pessoas ricas, nobres ou arrogantes.",
+  "livro": "deuses_de_arton"
+}

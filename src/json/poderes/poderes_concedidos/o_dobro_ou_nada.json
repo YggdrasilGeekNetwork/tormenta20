@@ -1,0 +1,9 @@
+{
+  "id": "o_dobro_ou_nada",
+  "name": "O Dobro ou Nada",
+  "deities": ["hyninn", "nimb"],
+  "description": "Quando usa uma habilidade com custo em PM, você pode pagar o dobro desse custo (após aplicar efeitos que alterem o custo) para aumentar a CD da habilidade em +5. Se pelo menos um alvo passar no teste de resistência, você fica alquebrado. Este poder não pode ser usado em magias, incluindo simuladas.",
+  "effects": { "type": "ativado", "gatilho": "usar habilidade com custo em PM (exceto magias ou habilidades que as simulem)", "custo_pm": "dobro do custo normal (após outros modificadores)", "efeito": "CD da habilidade aumenta em +5", "risco": "se ao menos um alvo passar na resistência, fica alquebrado" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

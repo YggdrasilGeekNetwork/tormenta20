@@ -1,0 +1,14 @@
+{
+  "id": "oficio_do_mosteiro",
+  "name": "Ofício do Mosteiro",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Você pode fabricar itens de vestuário com Ofício (artesão) e pode usar essa perícia para fabricar itens com uma melhoria.",
+  "requirements": [
+    { "type": "trained_skill", "sub_type": "hard", "skill": "oficio_artesao" }
+  ],
+  "effects": [
+    { "type": "passivo", "efeito": "fabrica itens de vestuário com Ofício (artesão), incluindo itens com uma melhoria" }
+  ],
+  "livro": "deuses_de_arton"
+}

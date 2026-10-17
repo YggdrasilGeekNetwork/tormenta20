@@ -1,0 +1,11 @@
+{
+  "id": "funcao_metamagica_de_m",
+  "name": "Função Metamágica de M",
+  "description": "Você passa a rolar 1d6 para determinar sua Constante M (em vez de 1d4). Além disso, uma vez por rodada, se um ou mais dados forem rolados para definir o efeito de uma habilidade mágica usada em alcance médio e o resultado de um desses dados for sua Constante M, você pode lançar uma magia como ação livre (mas ainda limitado a uma magia como ação livre na rodada) até o fim de seu próximo turno.",
+  "effects": [
+    { "type": "passivo", "efeito": "Constante M passa a ser 1d6 em vez de 1d4" },
+    { "type": "passivo", "frequencia": "1x_por_rodada", "gatilho": "um dado de efeito de habilidade mágica em alcance médio resulta na sua Constante M", "efeito": "pode lançar uma magia como ação livre até o fim do próximo turno (ainda limitado a 1 magia como ação livre por rodada)" }
+  ],
+  "requirements": ["Magicometria"],
+  "livro": "deuses_de_arton"
+}

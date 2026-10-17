@@ -1,0 +1,10 @@
+{
+  "id": "armamento_trabalhado",
+  "name": "Armamento Trabalhado",
+  "description": "Quando usa Conjurar Arma, você pode gastar uma quantidade de PM adicionais igual ao dobro do total de poderes da distinção que possui. Para cada 2 PM gastos dessa forma, a arma recebe uma melhoria a sua escolha (até o máximo de 4 melhorias). Se pagar um total de 10 PM adicionais, além das melhorias a arma recebe um encanto a sua escolha.",
+  "effects": [
+    { "type": "ativado", "gatilho": "usar Conjurar Arma", "custo_pm_maximo_adicional": "2x o total de poderes da distinção que possui", "efeito": "a cada 2 PM extras, +1 melhoria na arma (máx. 4); 10 PM extras no total também concede um encanto à escolha" }
+  ],
+  "requirements": ["Conjurar Arma", "Forja Devocional"],
+  "livro": "deuses_de_arton"
+}

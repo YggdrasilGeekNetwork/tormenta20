@@ -1,0 +1,17 @@
+{
+  "id": "justos_virtuosos",
+  "name": "Justos Virtuosos",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 6,
+  "espacos": 0,
+  "deity": "sszzaas",
+  "efeito": {
+    "requer_devoto": "sszzaas",
+    "frequencia": "1x_nesse_dia",
+    "gatilho": "inimigo em alcance curto usa uma habilidade",
+    "efeito": "você pode ser afetado por essa habilidade como se fosse um aliado desse inimigo (se aplicável)"
+  },
+  "description": "Este biscoito, propositalmente semelhante à receita de Khalmyr, guarda uma surpresa na forma de um recheio azedo, capaz de estragar qualquer apetite. Uma vez nesse dia, quando um inimigo em alcance curto usa uma habilidade, você pode invocar o poder deste doce para ser afetado por essa habilidade como se fosse um aliado desse inimigo (se aplicável).",
+  "livro": "deuses_de_arton"
+}

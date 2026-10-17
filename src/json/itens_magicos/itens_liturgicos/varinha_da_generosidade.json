@@ -1,0 +1,14 @@
+{
+  "id": "varinha_da_generosidade",
+  "name": "Varinha da Generosidade",
+  "deities": ["wynna"],
+  "subtipo": "acessorio",
+  "classificacao": "Acessório médio",
+  "preco": 30000,
+  "description": "Esta varinha arcana poderosa de madeira Tollon tem várias runas que emanam um brilho púrpura quando encontram a luz da lua. Se você for um devoto de Wynna, a varinha gera um campo de força que fornece redução de dano 5. Além disso, sempre que você lança uma magia, a mana usada na conjuração flui através da varinha para um aliado em alcance curto a sua escolha. Esse aliado recebe 1 PM temporário por círculo da magia lançada (limitado pelo total de PM gastos na magia). Cada aliado só pode receber mana de uma varinha da generosidade uma vez por dia.",
+  "effects": [
+    { "type": "devoto", "deity": "wynna", "efeito": "campo de força: redução de dano 5" },
+    { "type": "devoto", "deity": "wynna", "gatilho": "lançar uma magia", "efeito": "um aliado escolhido em alcance curto recebe 1 PM temporário por círculo da magia (limitado pelo total de PM gastos)", "limite": "cada aliado só pode receber 1x por dia" }
+  ],
+  "livro": "deuses_de_arton"
+}

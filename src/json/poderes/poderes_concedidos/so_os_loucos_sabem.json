@@ -1,0 +1,9 @@
+{
+  "id": "so_os_loucos_sabem",
+  "name": "Só os Loucos Sabem",
+  "deities": ["nimb"],
+  "description": "Role duas perícias na Tabela 6-6 (Tormenta20, p. 279). Você se torna treinado nelas (se já for, recebe +3 nessa perícia). No começo de cada dia, você pode gastar 3 PM para rolar novas perícias.",
+  "effects": { "type": "ativado", "rolagem": "2 perícias na tabela de Desafios de Buscas", "efeito": "treinado nas perícias roladas (se já for treinado, +3 nessa perícia)", "custo_pm": 3, "frequencia": "pode rerrolar no começo de cada dia por 3 PM" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

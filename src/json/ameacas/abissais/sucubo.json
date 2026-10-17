@@ -1,0 +1,36 @@
+{
+  "id": "sucubo",
+  "name": "Súcubo",
+  "nd": 5,
+  "tipo": "Espírito",
+  "subtipo": "abissal",
+  "tamanho": "médio",
+  "grupo": "abissais",
+  "pv": 140,
+  "pm": 30,
+  "defesa": 21,
+  "salvaguardas": { "fort": 5, "ref": 11, "von": 17 },
+  "reducao_de_dano": "10/fogo_frio_trevas",
+  "imunidades": ["ácido", "encantamento", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": ["luz"],
+  "iniciativa": 7,
+  "percepcao": 6,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 15 },
+  "atributos": { "for": -1, "des": 3, "con": 2, "int": 3, "sab": 2, "car": 10 },
+  "pericias": { "atuacao": 19, "diplomacia": 19, "enganacao": 19, "intuicao": 6 },
+  "ataques": [
+    { "nome": "Garra", "quantidade": 2, "bonus": 15, "dano": [{ "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 10, "tipo": "corte" }], "critico": "19" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Beijo Drenante", "acao": "padrão", "salvaguarda": "Vontade", "cd": 22, "efeito_sucesso": "evita", "descricao": "O súcubo beija uma criatura adjacente, que fica enfeitiçada e frustrada (Von CD 22 evita). Falhas consecutivas na mesma cena se acumulam: na segunda, a criatura fica esmorecida; na terceira, fica inconsciente; na quarta, a vítima morre e o súcubo recupera 6d6 PM." },
+    { "nome": "Desejo Encarnado", "descricao": "Quando faz um teste de uma perícia baseada em Carisma, o súcubo rola dois dados e usa o melhor resultado." },
+    { "nome": "Mudar Forma", "acao": "padrão", "descricao": "O súcubo assume a forma de qualquer humanoide de tamanho Pequeno a Grande, como o efeito da magia Metamorfose. Pode permanecer na forma escolhida por tempo indeterminado, mas, se morrer, reverte à forma natural." },
+    { "nome": "Magias (conjurador 7º, CD 22, 24 para encantamento)", "descricao": "Enfeitiçar (padrão, 6 PM): espírito, humanoide ou monstro em alcance curto fica enfeitiçado (Von evita). Imagem Espelhada (padrão, 5 PM): cria cinco cópias ilusórias que fornecem +10 na Defesa, perdendo 1 imagem e -2 na Defesa a cada erro sofrido. Marca da Obediência (padrão, 3 PM): uma criatura adjacente não ataca o súcubo ou seus aliados até o fim da cena (Von evita, repetível a cada turno). Sono (padrão, 1 PM): criatura em alcance curto fica exausta por 1d4+1 rodadas, depois fatigada (Von muda para fatigado por 1d4 rodadas)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão.",
+  "description": "Abissal de beleza indescritível, que se apresenta diferente a cada observador conforme seus desejos mais íntimos. Seduz mortais para colecionar almas, evitando combate direto e preferindo enfeitiçar inimigos para que lutem entre si.",
+  "livro": "deuses_de_arton"
+}

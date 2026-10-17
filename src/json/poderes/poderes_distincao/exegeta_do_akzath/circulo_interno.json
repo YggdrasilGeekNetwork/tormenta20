@@ -1,0 +1,24 @@
+{
+  "id": "circulo_interno",
+  "name": "Círculo Interno",
+  "description": "Escolha um dos conceitos da roda interna do Akzath. Você recebe a habilidade relacionada. Você pode escolher este poder até duas vezes para conceitos diferentes. Cada conceito tem como pré-requisito um dos conceitos do Círculo Externo. Quando troca os poderes do Círculo Externo, também pode trocar os do Círculo Interno.",
+  "effects": [
+    {
+      "type": "escolha_de_lista",
+      "quantidade_maxima": 2,
+      "regra_de_escolha": "cada opção exige ter o conceito correspondente do Círculo Externo já adquirido",
+      "opcoes": [
+        { "id": "nos", "name": "Nós", "description": "No início de cada dia, escolha aliados até o valor de sua Sabedoria. Até o fim do dia, em vez de PV individuais, vocês compartilham um total de PV igual à soma dos PV de cada um (dano, cura e perda de vida aplicados ao total, após RD etc. do alvo original); se o total acabar, todos sofrem os efeitos de 0 PV ou menos, mas cada um ainda morre em seu limite individual.", "pre_requisito": "vida" },
+        { "id": "dentro", "name": "Dentro", "description": "Quando lança uma magia com alcance pessoal, você recebe +2 PM para gastar em aprimoramentos.", "pre_requisito": "ignorancia" },
+        { "id": "estagnacao", "name": "Estagnação", "description": "Você pode gastar uma ação padrão e 3 PM para gerar um pulso de estagnação numa esfera de 6m em alcance médio: cada criatura na área sob um efeito de duração maior que instantânea faz um teste de Vontade (CD Sab); se falhar, todos esses efeitos são dissipados.", "pre_requisito": "mudanca" },
+        { "id": "trevas", "name": "Trevas", "description": "Quando usa uma habilidade mágica com teste de resistência, pode gastar 1 PM; alvos que falharem na resistência não podem recuperar pontos de vida por 1 rodada.", "pre_requisito": "fim" },
+        { "id": "fora", "name": "Fora", "description": "Quando usa uma habilidade mágica com efeito em área, pode gastar 1 PM para excluir da área uma quantidade de alvos igual a sua Sabedoria.", "pre_requisito": "morte" },
+        { "id": "eles", "name": "Eles", "description": "Inimigos em alcance curto que você possa perceber sofrem –2 em testes de ataque e rolagens de dano contra você; essa penalidade aumenta para –5 se estiverem em alcance médio.", "pre_requisito": "conhecimento" },
+        { "id": "movimento", "name": "Movimento", "description": "Uma vez por rodada, quando uma criatura em alcance curto vai fazer uma ação de movimento para se deslocar, pode gastar 2 PM para forçar um teste de Fortitude (CD Sab); se falhar, ela perde a ação de movimento e você recebe uma ação de movimento adicional no seu próximo turno.", "pre_requisito": "continuidade" },
+        { "id": "luz", "name": "Luz", "description": "Sempre que rolar o resultado máximo em um dado de cura ou dano de luz, role um dado extra e some ao resultado, repetindo até um limite de dados extras igual ao valor máximo do dado.", "pre_requisito": "inicio" }
+      ]
+    }
+  ],
+  "requirements": [],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "heranca_de_serena",
+  "name": "Herança de Serena",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "Pela proteção de Marah, você recebe +2 na Defesa e em testes de resistência contra oponentes aos quais não tenha causado dano, perda de PV ou condições (exceto enfeitiçado, fascinado e pasmo) nessa cena.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "defense_bonus": 2,
+    "resistance_bonus_vs_untouched_opponents": 2
+  },
+  "livro": "deuses_de_arton"
+}

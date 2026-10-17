@@ -1,0 +1,15 @@
+{
+  "id": "armadura_dos_neladriel",
+  "name": "Armadura dos Neladriel",
+  "subtipo": "armadura",
+  "base_item": "meia_armadura",
+  "preco": 65000,
+  "description": "Composta de placas impossivelmente leves, essa meia armadura reforçada guardiã de mitral existe apenas na posse dos muhir ou de valorosos heróis presenteados pelos celestiais. Ela conta como uma armadura leve para fins de aplicar a Destreza na Defesa e para uso de habilidades que normalmente não podem ser usadas com armadura pesada (como Escaramuça e Evasão).",
+  "effects": [
+    { "type": "armor_type", "base": "meia_armadura_de_mitral" },
+    { "type": "enchantment", "name": "reforçada" },
+    { "type": "enchantment", "name": "guardiã" },
+    { "type": "special", "efeito": "conta como armadura leve para aplicar Destreza na Defesa e usar habilidades que exigem armadura leve (como Escaramuça e Evasão)" }
+  ],
+  "livro": "deuses_de_arton"
+}

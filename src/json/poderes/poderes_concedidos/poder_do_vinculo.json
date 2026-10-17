@@ -1,0 +1,9 @@
+{
+  "id": "poder_do_vinculo",
+  "name": "Poder do Vínculo",
+  "deities": ["wynna"],
+  "description": "Você pode gastar uma ação de movimento e uma quantidade de PM (limitada ao círculo de magias a que tem acesso) para tocar em uma criatura capaz de lançar magias. O custo em PM da próxima magia que ela lançar diminui em um valor igual aos PM que você gastou.",
+  "effects": { "type": "ativado", "acao": "movimento", "custo_pm": "variável, limitado ao círculo de magias a que tem acesso", "efeito": "a próxima magia lançada pelo alvo tocado custa -X PM, onde X é a quantidade de PM gasta" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

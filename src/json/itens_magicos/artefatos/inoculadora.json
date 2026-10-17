@@ -1,0 +1,14 @@
+{
+  "id": "inoculadora",
+  "name": "Inoculadora",
+  "description": "O Avatar de Sszzaas geralmente empunha a Inoculadora, a arma mágica do próprio Sszzaas. Esta arma de lâmina completamente negra é uma adaga precisa assassina magnífica venenosa. A lâmina está sempre carregada com uma dose de qualquer veneno conhecido pelo portador. Ele pode trocar esse veneno por outro conhecido com uma ação de movimento.",
+  "effects": [
+    { "type": "weapon_type", "base": "adaga" },
+    { "type": "enchantment", "name": "precisa" },
+    { "type": "enchantment", "name": "assassina" },
+    { "type": "enchantment", "name": "magnífica" },
+    { "type": "enchantment", "name": "venenosa" },
+    { "type": "special", "efeito": "mantém sempre uma dose de qualquer veneno conhecido pelo portador; pode trocar o veneno carregado com uma ação de movimento" }
+  ],
+  "livro": "deuses_de_arton"
+}

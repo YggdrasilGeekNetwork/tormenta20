@@ -1,0 +1,18 @@
+{
+  "id": "renascer_gentil",
+  "name": "Renascer Gentil",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 30,
+  "espacos": 0,
+  "deity": "thyatis",
+  "efeito": {
+    "requer_devoto": "thyatis",
+    "duracao": "até o fim do dia",
+    "frequencia": "1x_nesse_dia",
+    "gatilho": "PV reduzidos a 0 ou menos por dano",
+    "efeito": "em vez disso, os PV são reduzidos a 1"
+  },
+  "description": "Esta pastilha refrescante e ardida, tradicionalmente distribuída por devotos a pessoas em dificuldade, é carregada de esperanças. A primeira vez até o fim do dia em que seus PV forem reduzidos a 0 ou menos por dano, em vez disso eles são reduzidos a 1.",
+  "livro": "deuses_de_arton"
+}

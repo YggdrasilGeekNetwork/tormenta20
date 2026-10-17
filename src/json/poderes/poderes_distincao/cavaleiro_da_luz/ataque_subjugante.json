@@ -1,0 +1,10 @@
+{
+  "id": "ataque_subjugante",
+  "name": "Ataque Subjugante",
+  "description": "Quando faz um ataque com uma arma corpo a corpo, você pode gastar 2 PM para desferir um golpe subjugante. Você soma seu Carisma no teste de ataque e +1d8 na rolagem de dano (se já soma seu Carisma no ataque, em vez disso recebe +2 no teste). Se causar dano, deixa o alvo vulnerável.",
+  "effects": [
+    { "type": "ativado", "custo_pm": 2, "gatilho": "ataque com arma corpo a corpo", "bonus_ataque": "soma Carisma (ou +2 se já soma Carisma no ataque)", "bonus_dano": "+1d8", "efeito_adicional": "se causar dano, alvo fica vulnerável" }
+  ],
+  "requirements": ["treinado em Luta", "Car 1"],
+  "livro": "deuses_de_arton"
+}

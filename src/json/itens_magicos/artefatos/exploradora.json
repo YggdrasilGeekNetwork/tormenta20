@@ -1,0 +1,16 @@
+{
+  "id": "exploradora",
+  "name": "Exploradora",
+  "description": "A espada empregada pelo Avatar de Valkaria é uma arma poderosa que, assim como a própria deusa, desafia os limites do possível. Ela é uma espada longa ameaçadora defensora lancinante magnífica precisa veloz. Em mãos de um devoto de Valkaria, esta arma causa dano dobrado.",
+  "effects": [
+    { "type": "weapon_type", "base": "espada_longa" },
+    { "type": "enchantment", "name": "ameaçadora" },
+    { "type": "enchantment", "name": "defensora" },
+    { "type": "enchantment", "name": "lancinante" },
+    { "type": "enchantment", "name": "magnífica" },
+    { "type": "enchantment", "name": "precisa" },
+    { "type": "enchantment", "name": "veloz" },
+    { "type": "devoto", "deity": "valkaria", "efeito": "dano dobrado" }
+  ],
+  "livro": "deuses_de_arton"
+}

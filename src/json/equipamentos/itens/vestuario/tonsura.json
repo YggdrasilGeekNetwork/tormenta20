@@ -1,0 +1,16 @@
+{
+  "id": "tonsura",
+  "name": "Tonsura",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 3,
+  "espacos": 0,
+  "uso": "vestido",
+  "efeito": {
+    "penalidade": { "intimidacao": -5 },
+    "beneficio": "permite usar o poder Aparência Inofensiva; se já possuir, pode usá-lo contra as duas primeiras criaturas inteligentes que o atacarem em uma cena",
+    "observacao": "conta como item vestido (precisa deixar a cabeça à mostra), mas não ocupa espaço"
+  },
+  "description": "Não uma roupa, mas um estilo de cabelo. A tonsura pode significar que o devoto tem o topo da cabeça raspado, ou toda a frente do couro cabeludo, ou ainda algum corte mais exótico. Impõe –5 em Intimidação, mas permite usar o poder Aparência Inofensiva. Se já tiver este poder, em vez disso você pode usá-lo contra as duas primeiras criaturas inteligentes que o atacarem em uma cena. Uma tonsura conta como um item vestido porque você precisa deixar a cabeça à mostra, mas não ocupa um espaço.",
+  "livro": "deuses_de_arton"
+}

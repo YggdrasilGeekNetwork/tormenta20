@@ -1,0 +1,40 @@
+{
+  "id": "avatar_de_lin_wu",
+  "name": "Avatar de Lin-Wu",
+  "nd": 19,
+  "tipo": "Espírito",
+  "subtipo": "dragão",
+  "tamanho": "enorme",
+  "grupo": "avatares",
+  "pv": 1284,
+  "pm": null,
+  "defesa": 56,
+  "salvaguardas": { "fort": 19, "ref": 27, "von": 33 },
+  "reducao_de_dano": 30,
+  "imunidades": ["atordoamento", "efeitos de metabolismo", "eletricidade", "ilusão", "medo", "metamorfose", "paralisia"],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": [],
+  "iniciativa": 29,
+  "percepcao": 35,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 15, "voo": 30 },
+  "atributos": { "for": 12, "des": 12, "con": 10, "int": 8, "sab": 18, "car": 10 },
+  "pericias": { "atletismo": 29, "conhecimento": 28, "guerra": 28, "intimidacao": 27, "intuicao": 35, "nobreza": 33, "religiao": 38 },
+  "ataques": [
+    { "nome": "Kaminari", "quantidade": 2, "bonus": 54, "dano": [{ "dados": [], "bonus": 72, "tipo": "corte", "nota": "dano já maximizado por Kiai Celestial (36+36)" }, { "dados": [], "bonus": 30, "tipo": "eletricidade" }], "critico": "17/x3" },
+    { "nome": "Garra", "quantidade": 2, "bonus": 52, "dano": [{ "dados": [], "bonus": 40, "tipo": "corte", "nota": "dano já maximizado por Kiai Celestial (24+16)" }], "critico": "18" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Centelha Divina", "descricao": "O Avatar de Lin-Wu lança qualquer magia divina como um clérigo de 19º nível sem gastar PM (CD 48, limite de PM 19). Uma vez por rodada, ele pode lançar Fúria do Panteão como uma ação livre. Alternativamente, com o suplemento Ameaças de Arton, em vez disso ele lança Katana Celestial." },
+    { "nome": "Dragão Divino", "descricao": "O Avatar tem todas as habilidades de dragões celestiais." },
+    { "nome": "Explosão de Relâmpagos", "salvaguarda": "Reflexos", "cd": 49, "efeito_sucesso": "reduz à metade", "descricao": "Quando o Avatar acerta um ataque com Kaminari, outras criaturas a 6m do alvo desse ataque sofrem 30 pontos de dano de eletricidade (Ref CD 49 reduz à metade)." },
+    { "nome": "Kiai Celestial", "descricao": "O Avatar sempre causa dano máximo, sem necessidade de rolar dados (já contabilizado nos valores de dano acima)." },
+    { "nome": "Mil Cortes", "acao": "completa", "descricao": "O Avatar faz um ataque com Kaminari em um cone de 30m. Ele faz um único ataque e compara o resultado com a Defesa de todas as criaturas na área. Então faz uma única rolagem de dano e aplica-a em cada inimigo atingido. Caso o ataque seja um acerto crítico, o Avatar pode usar esta habilidade uma segunda vez. Recarga (movimento)." },
+    { "nome": "Punir a Desonra", "descricao": "Quando ataca uma criatura que possui um código de conduta (como Código de Honra ou devoção a alguma divindade) e que, a critério do mestre, não esteja obedecendo a esse código, o Avatar rola dois dados e escolhe o melhor resultado." }
+  ],
+  "equipamento": ["kaminari"],
+  "tesouro": "Nenhum.",
+  "description": "Manifestação física de Lin-Wu, o Deus da Honra. Dragão celestial que empunha Kaminari, a espada que fulmina os desonrados.",
+  "livro": "deuses_de_arton"
+}

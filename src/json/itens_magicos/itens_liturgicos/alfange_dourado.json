@@ -1,0 +1,15 @@
+{
+  "id": "alfange_dourado",
+  "name": "Alfange Dourado",
+  "deities": ["azgher"],
+  "subtipo": "arma",
+  "base_item": "alfange",
+  "classificacao": "Arma específica média",
+  "preco": 36000,
+  "description": "A lâmina deste alfange maciço é feita de ouro alquimicamente tratado para ser duro como aço. Isso o torna muito pesado (–2 em testes de ataque), mas muda seu dano base para 2d6. Se você for um devoto de Azgher, pode gastar uma ação completa para entoar palavras sagradas e encostar ouro (itens ou tibares) na lâmina do alfange dourado. Se fizer isso, o ouro derrete e a arma brilha com energia mágica. Até o fim do dia, o alfange dourado perde sua penalidade em testes de ataque e recebe um bônus em testes de ataque e rolagens de dano de acordo com o sacrifício: bônus de +2 para T$ 10, +3 para T$ 100, +4 para T$ 500 e +5 para T$ 1.000.",
+  "effects": [
+    { "type": "passivo", "efeito": "-2 em testes de ataque; dano base 2d6 (maciço)" },
+    { "type": "devoto", "deity": "azgher", "acao": "completa", "custo_material": "sacrifício de ouro (itens ou tibares)", "efeito": "remove a penalidade de ataque e concede bônus em ataque e dano até o fim do dia: +2 (T$10), +3 (T$100), +4 (T$500), +5 (T$1.000)" }
+  ],
+  "livro": "deuses_de_arton"
+}

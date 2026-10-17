@@ -1,0 +1,16 @@
+{
+  "id": "bencao_dos_mares",
+  "name": "Bênção dos Mares",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 4,
+  "espacos": 0,
+  "deity": "oceano",
+  "efeito": {
+    "requer_devoto": "oceano",
+    "duracao": "até o fim do dia, efeito dura 1 cena",
+    "efeito": "adquire deslocamento de natação igual ao deslocamento normal; se já possuir deslocamento de natação, aumenta em +3m"
+  },
+  "description": "Este festival de ostras se tornou uma lenda entre as gentes do mar. Dizem que, em momentos de grande aflição, o próprio deus envia estes presentes para restaurar a força de quem depende do mar. Até o fim do dia, você pode invocar o poder do Deus dos Mares para adquirir deslocamento de natação, igual ao seu deslocamento, por uma cena (se já possuir esse deslocamento, em vez disso ele aumenta em +3m).",
+  "livro": "deuses_de_arton"
+}

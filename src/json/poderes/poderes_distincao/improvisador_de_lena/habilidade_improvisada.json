@@ -1,0 +1,10 @@
+{
+  "id": "habilidade_improvisada",
+  "name": "Habilidade Improvisada",
+  "description": "Você pode gastar uma ação padrão e 3 PM para improvisar uma forma de executar uma tarefa. Escolha uma habilidade de uma classe (exceto Magias) que não seja a sua. Até o fim da cena, ou até usar este poder novamente, você pode utilizar essa habilidade como um personagem de nível igual ao seu total de poderes da distinção.",
+  "effects": [
+    { "type": "ativado", "acao": "padrão", "custo_pm": 3, "efeito": "escolhe uma habilidade de outra classe (exceto Magias) e passa a poder usá-la como se tivesse nível igual ao total de poderes da distinção, até o fim da cena ou até reusar este poder" }
+  ],
+  "requirements": ["Poder Improvisado"],
+  "livro": "deuses_de_arton"
+}

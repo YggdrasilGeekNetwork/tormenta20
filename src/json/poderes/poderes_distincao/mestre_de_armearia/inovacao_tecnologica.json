@@ -1,0 +1,26 @@
+{
+  "id": "inovacao_tecnologica",
+  "name": "Inovação Tecnológica",
+  "description": "Você adiciona uma inovação a uma arma de fogo que possua e passa a poder fabricar armas de fogo superiores com inovações (veja a lista). Inovações são técnicas experimentais exclusivas de seu criador — não funcionam nas mãos de outra pessoa. Funcionam como melhorias: uma arma pode ter até quatro inovações, seguindo a CD e o preço da Tabela 3-7 (melhorias). Só podem ser aplicadas a armas de fogo, armas híbridas (apenas no modo arma de fogo) e suas munições. Não têm valor comercial.",
+  "effects": [
+    { "type": "passivo", "efeito": "concede uma inovação a uma arma de fogo já possuída e habilita fabricar armas de fogo superiores com inovações (máx. 4 por arma, preço/CD como melhorias)" },
+    {
+      "type": "escolha_de_lista",
+      "descricao": "lista de inovações disponíveis para aplicar (uma por vez, ao fabricar ou depois)",
+      "opcoes": [
+        { "id": "camara_de_bala", "name": "Câmara de Bala (Arma)", "description": "A arma recebe uma câmara e mecanismo que armazena uma bala. Ao atacar corpo a corpo, pode acionar o mecanismo para disparar a bala; se acertar, causa +2d6 de dano. A arma conta como arma de fogo para os poderes de mestre de armearia. Recarregar a câmara é uma ação padrão." },
+        { "id": "cano_duplo", "name": "Cano Duplo (Arma)", "description": "A arma tem dois canos com carregadores independentes, disparáveis e recarregáveis individualmente. Pode disparar ambos como se tivesse Disparo Rápido; se já possuir esse poder, não sofre a penalidade de ataque ao usá-lo com esta arma." },
+        { "id": "cano_serrado", "name": "Cano Serrado (Arma)", "description": "Cano mais curto: menos preciso, mais fácil de manusear em corpo a corpo. Contra oponente adjacente, causa um dado de dano extra do mesmo tipo, mas sofre -2 em ataque contra alvos não adjacentes." },
+        { "id": "empunhadura_de_seguranca", "name": "Empunhadura de Segurança (Arma)", "description": "Mecanismo na empunhadura dificulta a remoção da arma da mão: +5 nos testes para resistir às manobras desarmar e quebrar contra a arma (cumulativo)." },
+        { "id": "explosiva", "name": "Explosiva (Munição)", "description": "A munição detona com o impacto: se acertar, todas as criaturas adjacentes ao alvo sofrem o dano do ataque (Reflexos CD Int reduz à metade). Pré-requisito: Pólvora de Smokestone." },
+        { "id": "fragmentavel", "name": "Fragmentável (Munição)", "description": "A bala se estilhaça ao atingir o alvo. Sempre que rolar o resultado máximo em um dado de dano da arma, role um dado extra." },
+        { "id": "mira_calibravel", "name": "Mira Calibrável (Arma)", "description": "Sistema de mira regulável. Ao usar a ação mirar, recebe +2 em testes de ataque e na margem de ameaça com a arma até o fim do turno. Pré-requisito: Mira Telescópica." },
+        { "id": "polvora_de_smokestone", "name": "Pólvora de Smokestone (Munição)", "description": "Uma arma de fogo usando esta munição causa +1 ponto de dano por dado (exceto dados extras)." },
+        { "id": "tambor", "name": "Tambor (Arma)", "description": "Tambor giratório que armazena 4 munições. Recarregar uma arma com tambor é uma ação completa. Pré-requisito: outra inovação qualquer." },
+        { "id": "tanque_flamejante", "name": "Tanque Flamejante (Arma)", "description": "Compartimento com mistura de pedra-de-fumaça e fogo alquímico: muda o dano para fogo e, ao disparar, espalha a munição em uma linha de 6m (ataque à distância comparado à Defesa de cada criatura na área). Recarregar exige ação completa, 1 bala e 1 fogo alquímico." }
+      ]
+    }
+  ],
+  "requirements": ["Prata da Casa"],
+  "livro": "deuses_de_arton"
+}

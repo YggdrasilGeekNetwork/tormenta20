@@ -1,0 +1,9 @@
+{
+  "id": "proeminencia_solar",
+  "name": "Proeminência Solar",
+  "deities": ["azgher"],
+  "description": "Suas magias que causam dano de fogo e que têm um teste de resistência recebem o seguinte aprimoramento: +1 PM: criaturas que falhem na resistência ficam em chamas e lentas até apagarem as chamas.",
+  "effects": { "type": "aprimoramento_de_magia", "escopo": "magias de dano de fogo com teste de resistência", "custo_pm": 1, "efeito": "criaturas que falharem na resistência ficam em chamas e lentas até apagarem o fogo" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

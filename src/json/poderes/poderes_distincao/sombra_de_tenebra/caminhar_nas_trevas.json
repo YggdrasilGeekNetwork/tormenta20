@@ -1,0 +1,10 @@
+{
+  "id": "caminhar_nas_trevas",
+  "name": "Caminhar nas Trevas",
+  "description": "Você aprende e pode lançar Manto de Sombras. Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Para cada dois outros poderes da distinção que você possui, a ação necessária para lançar essa magia diminui em um passo (de padrão para movimento e de movimento para livre).",
+  "effects": [
+    { "type": "passivo", "efeito": "aprende e pode lançar Manto de Sombras; se já a conhece, custo -1 PM", "escalavel": "ação para lançá-la diminui um passo a cada dois outros poderes da distinção" }
+  ],
+  "requirements": ["treinado em Acrobacia e Furtividade", "Passo Sombrio", "capaz de enxergar no escuro"],
+  "livro": "deuses_de_arton"
+}

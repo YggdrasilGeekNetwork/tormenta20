@@ -1,0 +1,38 @@
+{
+  "id": "aspecto_de_kallyadranoch",
+  "name": "Aspecto de Kallyadranoch",
+  "nd": 6,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "grande",
+  "grupo": "aspectos",
+  "pv": 280,
+  "pm": null,
+  "defesa": 28,
+  "salvaguardas": { "fort": 18, "ref": 6, "von": 12 },
+  "reducao_de_dano": 5,
+  "resistencia_a_magia": 2,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 9,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 18 },
+  "atributos": { "for": 8, "des": 3, "con": 6, "int": 2, "sab": 2, "car": 4 },
+  "pericias": { "atletismo": 13, "intimidacao": 11, "misticismo": 9 },
+  "ataques": [
+    { "nome": "Mordida", "bonus": 21, "dano": [{ "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 14, "tipo": "perfuração" }], "critico": "19" },
+    { "nome": "Garra", "quantidade": 2, "bonus": 21, "dano": [{ "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 14, "tipo": "corte" }], "critico": "19" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura Aterradora", "salvaguarda": "Vontade", "cd": 23, "efeito_sucesso": "evita", "descricao": "Aura Aterradora de dragão (Vontade CD 23 evita)." },
+    { "nome": "Escamas Multicor", "descricao": "A essência dracônica do aspecto muda constantemente. No início de cada rodada role 1d6 para determinar seu elemento; o aspecto é imune a dano do tipo de sua essência atual: 1) Ácido (vulnerável por 1d4 rodadas); 2) Eletricidade (ofuscado por 1d4 rodadas); 3) Fogo (em chamas); 4) Frio (lento por 1d4 rodadas); 5) Luz (cego por 1d4 rodadas); 6) Trevas (enjoado por 1d4 rodadas)." },
+    { "nome": "Sopro", "acao": "padrão", "salvaguarda": "Reflexos", "cd": 23, "efeito_sucesso": "reduz à metade e evita a condição", "descricao": "O aspecto usa um dos sopros abaixo; dano e condição conforme a essência dracônica atual (Ref CD 23 reduz à metade e evita a condição). Cone de 9m: 6d12 de dano. Explosão (esfera de 6m em alcance médio): 6d12 de dano. Linha de 12m: 6d12 de dano, com dados máximos gerando dado extra em cascata. Nuvem (cubo de 6m por 2 rodadas): 6d6 de dano a quem começar o turno na área. Recarga (movimento)." },
+    { "nome": "Varrer", "acao": "livre", "descricao": "Uma vez por rodada, quando o aspecto faz um ataque corpo a corpo e reduz os PV do alvo a 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance." },
+    { "nome": "Parceiro", "descricao": "No improvável caso de o aspecto considerar alguém digno de cavalgá-lo em combate, funciona como um parceiro dragão jovem mestre." }
+  ],
+  "tesouro": "Dobro e 3 peças de couro de dragão de tipos definidos aleatoriamente (CD 21 para extrair).",
+  "description": "Dragão não muito maior que um cavalo, revestido de escamas brilhantes e espinhos afiados, encarnação temporária de Kallyadranoch. Orgulhoso e arrogante, só auxilia quem o trate com a devida adulação, súplica ou oferenda.",
+  "livro": "deuses_de_arton"
+}

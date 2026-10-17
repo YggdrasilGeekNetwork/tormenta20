@@ -1,0 +1,10 @@
+{
+  "id": "tibarita",
+  "name": "Tibarita",
+  "description": "Devoto de Tibar que compreende o aspecto transcendental do gasto: para ele, luxo, ostentação e prazeres materiais não são decadentes, mas sagrados, e o dinheiro pode literalmente comprar aspectos da realidade.",
+  "admissao": "Apenas devotos de Tibar podem tentar, e o candidato precisa primeiro encontrar um tibarita que o eduque ou ler sobre o caminho em algum texto sagrado. A provação real exige passar três meses gastando absolutamente tudo que ganha em até um dia, sem doar nada a companheiros ou estranhos, e sem que o gasto tenha qualquer utilidade prática ou de combate (nada de melhorias em armas, armaduras novas, barcos, trajes úteis...). Durante essa jornada, deve também ter uma experiência extravagante (viajar pelos reinos dos deuses, por exemplo), adquirir uma obra de arte de um mestre e provar uma comida ou bebida única — tudo comprado com dinheiro, nunca conquistado por façanhas, o que exige descobrir como bancar tudo isso sem nunca conseguir economizar.",
+  "marca_nome": "Poder Monetário",
+  "marca_descricao": "Quando usa uma habilidade com um custo em PM, você pode consumir uma quantidade de tibares de ouro (limitada por seu Carisma) para pagar 1 PM do custo por TO consumido. Pode consumir um número de TO por dia igual ao seu nível. Se já possuir essa habilidade, o limite de TO por dia aumenta em +5.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

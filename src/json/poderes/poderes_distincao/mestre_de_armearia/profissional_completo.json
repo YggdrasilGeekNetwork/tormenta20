@@ -1,0 +1,10 @@
+{
+  "id": "profissional_completo",
+  "name": "Profissional Completo",
+  "description": "Quando ataca com uma arma de fogo que tenha fabricado, você pode substituir testes de Pontaria por testes de Ofício (armeiro), e pode usar Maestria em Perícia nos ataques com ela.",
+  "effects": [
+    { "type": "passivo", "efeito": "substitui Pontaria por Ofício (armeiro) em ataques com armas de fogo fabricadas por você; permite usar Maestria em Perícia nesses ataques" }
+  ],
+  "requirements": ["Prata da Casa", "Maestria em Perícia (Ofício [armeiro])"],
+  "livro": "deuses_de_arton"
+}

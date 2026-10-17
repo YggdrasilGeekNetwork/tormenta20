@@ -1,0 +1,10 @@
+{
+  "id": "desprezo_pelo_ordinario",
+  "name": "Desprezo pelo Ordinário",
+  "description": "Sempre que sofre dano não mágico, você pode gastar 2 PM para reduzir esse dano à metade.",
+  "effects": [
+    { "type": "ativado", "custo_pm": 2, "gatilho": "sofrer dano não mágico", "efeito": "reduz o dano à metade" }
+  ],
+  "requirements": ["Forja Devocional"],
+  "livro": "deuses_de_arton"
+}

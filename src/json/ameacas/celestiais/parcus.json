@@ -1,0 +1,41 @@
+{
+  "id": "parcus",
+  "name": "Parcus",
+  "nd": 14,
+  "tipo": "Construto",
+  "subtipo": "inevitável",
+  "tamanho": "médio",
+  "grupo": "celestiais",
+  "pv": 700,
+  "pm": null,
+  "defesa": 44,
+  "salvaguardas": { "fort": 22, "ref": 14, "von": 28 },
+  "cura_acelerada": 10,
+  "reducao_de_dano": 15,
+  "resistencia_a_magia": 5,
+  "imunidades": ["eletricidade", "trevas"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 15,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 7, "des": 3, "con": 4, "int": 0, "sab": 4, "car": 3 },
+  "pericias": { "conhecimento": 11, "intuicao": 20, "misticismo": 11, "sobrevivencia": 15 },
+  "ataques": [
+    { "nome": "Punho Trovejante", "quantidade": 2, "bonus": 34, "dano": [{ "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 12, "tipo": "impacto" }, { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 0, "tipo": "eletricidade" }], "critico": "19/x3" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Encontrar o Culpado", "descricao": "Sempre sabe a localização da criatura que deve caçar, como sob efeito permanente de Localização com área equivalente a toda Arton." },
+    { "nome": "Investir a Culpa", "descricao": "Contra a criatura que deve caçar, recebe +5 em testes de perícia e seus ataques causam +2d6 de dano de luz." },
+    { "nome": "Visão da Justiça", "descricao": "Está permanentemente sob o efeito básico da magia Visão da Verdade." },
+    { "nome": "Aura de Luz", "descricao": "No início de cada turno do parcus, todas as criaturas em um raio de 9m dele sofrem 8d6 pontos de dano de luz." },
+    { "nome": "Aura Antimagia", "descricao": "O parcus está permanentemente cercado por uma aura de 9m de raio que gera um efeito semelhante ao da magia Campo Antimagia." },
+    { "nome": "Corrente de Relâmpagos", "acao": "padrão", "salvaguarda": "Reflexos", "cd": 37, "efeito_sucesso": "reduz à metade", "descricao": "Criaturas à escolha do parcus em alcance médio sofrem 8d8 de dano de eletricidade e 8d8 de dano de luz (Ref CD 37 reduz à metade). Recarga (movimento)." },
+    { "nome": "Sentença de Re-Morte", "acao": "padrão", "salvaguarda": "Fortitude", "cd": 37, "efeito_sucesso": "evita o efeito sobre PV e reduz a condição", "descricao": "Uma vez por cena, marca uma criatura em alcance curto. Até o fim da cena, não pode curar PV nem receber PV temporários e, se for morto-vivo, fica alquebrada (Fort CD 37 evita o efeito sobre PV e reduz a condição para esmorecido)." },
+    { "nome": "Vingador Celestial", "acao": "reação", "descricao": "Quando é reduzido a 350 PV ou menos, até o fim da cena recebe deslocamento de voo 12m, sua cura acelerada aumenta para 15, seu dano de luz se torna maximizado e a área de suas auras aumenta para 30m." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "O mais poderoso dos inevitáveis comuns, caça aqueles que tentam trapacear a morte — necromantes, vampiros, liches e outros mortos-vivos.",
+  "livro": "deuses_de_arton"
+}

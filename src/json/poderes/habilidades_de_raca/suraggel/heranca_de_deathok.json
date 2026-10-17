@@ -1,0 +1,20 @@
+{
+  "id": "heranca_de_deathok",
+  "name": "Herança de Deathok",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "A mudança constante faz parte de sua alma. Você recebe +2 em duas perícias a sua escolha. A cada manhã, você pode trocar essas perícias.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "skill_bonus_choice": {
+      "count": 2,
+      "value": 2
+    },
+    "swappable_daily": true
+  },
+  "livro": "deuses_de_arton"
+}

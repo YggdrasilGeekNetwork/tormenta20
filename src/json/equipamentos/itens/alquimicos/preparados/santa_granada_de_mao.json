@@ -1,0 +1,22 @@
+{
+  "id": "santa_granada_de_mao",
+  "name": "Santa Granada de Mão",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 150,
+  "espacos": 0.5,
+  "uso": "empunhado",
+  "acao": "movimento (acender) + padrao (arremessar)",
+  "alcance": "curto",
+  "restricao": "só pode ser fabricado por devotos de deuses que canalizam energia positiva",
+  "efeito": {
+    "area": "3m do ponto de impacto",
+    "alvos_validos": ["morto-vivo", "abissal"],
+    "dano": "6d12",
+    "tipo_dano": "luz",
+    "resistencia": { "tipo": "Reflexos", "cd": "Sab", "efeito": "reduz_metade" }
+  },
+  "description": "Unindo fé e ciência, este controverso equipamento é a melhor escolha contra hordas de mortos-vivos e abissais. Para usar a granada, você precisa empunhá-la, gastar uma ação de movimento para acender seu pavio e uma ação padrão para arremessá-la em um ponto em alcance curto. Mortos-vivos e abissais a até 3m desse ponto sofrem 6d12 pontos de dano de luz (Reflexos CD Sab reduz à metade). Este item só pode ser fabricado por devotos de deuses que canalizam energia positiva.",
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "cavaleiro_da_luz",
+  "name": "Cavaleiro da Luz",
+  "description": "Combatente da Ordem da Luz, exímio ginete especializado em armaduras pesadas e armas tradicionais, representante de um ideal de nobreza incorrupta ligado à aristocracia de Bielefeld.",
+  "admissao": "Ingressar diretamente (sem uma década como escudeiro) exige que o candidato se apresente no Castelo da Luz, em Norm (Bielefeld), e consiga um cavaleiro da Luz de boa reputação disposto a apadrinhá-lo — o padrinho empenha sua própria honra nisso. O candidato precisa ser capaz de usar armadura pesada e armas tradicionais de cavalaria, saber cavalgar, e não pode ser devoto de deuses desonrados ou traiçoeiros. Deve então 'provar sua honra' ao padrinho (o critério varia por cavaleiro: linhagem, meses em posições humildes, uma missão heroica ou uma peregrinação) e, sendo adulto, vencer um cavaleiro experiente em duelo não letal. Ao final, participa de uma cerimônia de sagração à cavalaria seguida da iniciação na Ordem da Luz.",
+  "marca_nome": "Etiqueta da Ordem da Luz",
+  "marca_descricao": "Você segue tanto o Código de Honra da classe cavaleiro quanto as Obrigações & Restrições de Khalmyr. Soma seu Carisma em Guerra e Nobreza, e consegue hospedagem confortável e informações em qualquer lugar afiliado à Ordem da Luz.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

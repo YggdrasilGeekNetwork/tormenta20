@@ -1,0 +1,17 @@
+{
+  "id": "heranca_de_kundali",
+  "name": "Herança de Kundali",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "Pelo espírito protetor, mas também opressor, de Tauron, você recebe +2 na Defesa e em testes de manobras de combate.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "defense_bonus": 2,
+    "combat_maneuver_bonus": 2
+  },
+  "livro": "deuses_de_arton"
+}

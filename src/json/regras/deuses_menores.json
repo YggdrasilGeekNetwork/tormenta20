@@ -1,0 +1,80 @@
+{
+  "id": "deuses_menores",
+  "name": "Deuses Menores",
+  "description": "Regra opcional completa para personagens que buscam, ou já alcançaram, o status de divindade menor (Deuses de Arton, Cap. 3, p.228-238). Cobre naturezas, status divino, poder concedido, limite de círculo de magia, dádivas, guardiões divinos e desafios divinos.",
+  "naturezas": [
+    { "id": "conceito_vivo", "nome": "Conceito Vivo", "descricao": "A divindade se origina de uma ideia, um ato ou um evento específicos, que desperta a fé e devoção de um número suficiente de pessoas. Diferente de outros deuses menores, um conceito vivo não tem forma física." },
+    { "id": "entidade_primordial", "nome": "Entidade Primordial", "descricao": "Seres fundamentais, necessários para a vida dos artonianos ou para a própria existência em Arton, que surgiram espontaneamente nos primórdios da Criação. Apenas aqueles que atraem a atenção de devotos se tornam deuses menores." },
+    { "id": "dragao_real", "nome": "Dragão-Real", "descricao": "Feras ancestrais de enorme poder físico e místico. Aqueles que descendem de Kallyadranoch são dotados também de centelha divina, ocupando o posto de deuses menores." },
+    { "id": "mortal_ascendido", "nome": "Mortal Ascendido", "descricao": "O caminho dos mortais que buscam alcançar a divindade. Heróis que realizam grandes feitos podem atrair a admiração, e a devoção, daqueles impactados positivamente por seus atos. Mesmo animais podem se tornar símbolos que despertam a fé de outros." },
+    { "id": "objeto_desperto", "nome": "Objeto Desperto", "descricao": "Um item inanimado, como uma arma ou estatueta, pode se tornar magicamente consciente e ser cultuado por adoradores. Objetos despertos geralmente não se movem, repousando em um santuário ou local seguro." }
+  ],
+  "status_divino": [
+    { "status": 1, "descricao": "Pouco mais que santos ou heróis locais (um ídolo, uma formação natural peculiar, uma joia de família, um animal curioso ou um líder carismático local). É quase impossível ser conhecido fora do círculo imediato; o culto é restrito a aldeias, famílias, tribos ou pequenos grupos de cultistas." },
+    { "status": 2, "descricao": "Poder pessoal considerável, com fiéis já fora das fronteiras de sua região de origem, apoiado por um grande número de adoradores e/ou uma modesta organização formal." },
+    { "status": 3, "descricao": "Nomes entoados através de reinos inteiros ou conhecidos em terras distantes (um Deus dos Coelhos, uma Deusa das Múmias). Considerável número de fiéis e organização, local ou regional. Grande parte dos deuses menores mais conhecidos de Arton está neste status." },
+    { "status": 4, "descricao": "Deuses que representam grandes povos ou raças sem deus maior próprio, ideias poderosas ou aspectos culturais muito importantes em nações inteiras." },
+    { "status": 5, "descricao": "Os mais soberanos e influentes deuses menores, entre os seres mais poderosos de Arton (como os Dragões-Reais divinos ou Tibar, o Deus do Comércio). São os únicos capazes de ascender a divindades maiores quando o Panteão está incompleto." }
+  ],
+  "regras_gerais": [
+    "Todos os deuses menores possuem crenças e objetivos, símbolo sagrado e demais características padrão de deuses, além de uma natureza e um status divino.",
+    "Deuses Menores e Paladinos: um deus menor que aceite paladinos entre seus seguidores pode ter apenas um (o 'paladino único') por vez.",
+    "Todos os deuses menores podem ter clérigos e frades; conforme sua natureza, também podem ter druidas e paladinos, e aceitar devotos de outras raças ou classes.",
+    "Círculos de Magias: devotos de deuses menores em classes conjuradoras divinas só podem aprender e lançar magias até o círculo máximo que seu deus oferece, mesmo que seu nível permita acesso a círculos superiores. Ao atingir esse limite, o devoto pode acatar a limitação, abandonar a devoção por um deus mais poderoso, ou buscar elevar o status de sua divindade. Esta limitação não se aplica caso o próprio devoto se torne um deus menor: ele mantém sua capacidade de lançar qualquer círculo que já pudesse lançar, independente do status divino.",
+    "Poder Concedido: cada deus menor oferece um único poder concedido. Para devotos de classes divinas que normalmente teriam acesso a dois poderes concedidos, em vez de um segundo poder o devoto recebe PM adicionais iguais a 1 + o status divino do deus, limitado por seu nível."
+  ],
+  "tornando_se_deus_menor": "O primeiro passo é realizar, em jogo, um feito relevante que transforme o personagem em um símbolo com significado específico (o mestre decide se é relevante o suficiente; pode envolver aliados). Depois, o personagem executa uma busca relacionada ao tipo de deus menor que almeja se tornar, e precisa acumular duas recompensas dessa busca (que não precisam vir da mesma busca nem ser sequenciais, e não oferecem outros benefícios). Ao reunir as duas recompensas, o personagem se torna um deus menor de status divino 1, com natureza mortal ascendido (a menos que seja um guardião divino), perdendo qualquer devoção anterior e se tornando devoto de si mesmo (a menos que seja guardião divino, caso em que se torna devoto do novo deus menor).",
+  "evoluindo_status_divino": "Para aumentar o status divino, o personagem (ou a entidade da qual é guardião divino) precisa obter mais seguidores: uma busca especial seguindo as mesmas regras de 'Tornando-se Deus Menor' (por exemplo, construir um santuário ou peregrinar espalhando a fé). Ao reunir as duas recompensas dessa busca, o status divino aumenta em 1.",
+  "dadivas": {
+    "descricao": "Dádivas são benefícios pessoais que um deus menor pode escolher ao completar uma busca de aprimoramento (uma recompensa = uma dádiva à escolha). Um deus menor só pode escolher dádivas cujos pré-requisitos cumpra, e pode ter no máximo duas vezes seu status divino em dádivas. Benefícios de dádivas contam como bônus de estruturas e não se acumulam com outros bônus de estruturas. Poderes marcados com guardião (ver lista) funcionam de forma diferente se o deus menor for um item desperto: em vez de receber o benefício, o deus menor pode concedê-lo a seu usuário.",
+    "lista": [
+      { "nome": "Ampliar Conhecimento", "prerequisito": "conceito vivo", "descricao": "Você se torna treinado em até três perícias associadas ao seu conceito (aprovadas pelo mestre)." },
+      { "nome": "Aprimoramento Divino", "prerequisito": "status divino 2", "descricao": "Você recebe +1 em um atributo." },
+      { "nome": "Aptidão Divina", "prerequisito": "entidade primordial, Dragão-Real ou mortal ascendido", "descricao": "Você recebe +5 em uma perícia relacionada ao seu conceito, exceto Luta ou Pontaria. Pode escolher esta dádiva outras vezes para perícias diferentes." },
+      { "nome": "Clero", "prerequisito": "Paróquia", "descricao": "Você passa a ser acompanhado por um sacerdote de sua fé (parceiro iniciante: adepto, magivocador ou médico, à escolha), que fornece +2 em Religião e em uma segunda perícia relacionada ao seu conceito (exceto Luta ou Pontaria). Vira veterano em status divino 3 e mestre em status divino 5. Se morrer, pode ser substituído com uma semana de trabalho." },
+      { "nome": "Defesa Divina", "prerequisito": null, "descricao": "Você recebe +2 na Defesa." },
+      { "nome": "Essência Divina", "prerequisito": null, "descricao": "Você recebe +1 PM por status divino." },
+      { "nome": "Imortal", "prerequisito": "Semi-Imortal", "descricao": "Você se torna imune a efeitos de cansaço, metabólicos e de veneno. Não tem longevidade máxima: pode viver para sempre, morrendo apenas de causas violentas ou por razões excepcionais." },
+      { "nome": "Intuição Divina", "prerequisito": null, "descricao": "Você soma seu status divino em Intuição. Quando fica surpreendido, pode fazer um teste de Intuição para pressentimento; se passar, ignora a condição." },
+      { "nome": "Manifestação Divina", "prerequisito": null, "guardiao": true, "descricao": "Você pode gastar 1 PM e uma ação de movimento para conceder a uma criatura +5 em um teste de perícia, ou +1 em todos os testes de uma perícia durante uma cena. Também pode encantar um item para fornecer +1 em determinados testes durante uma cena, e executar pequenas manifestações de poder narrativas relacionadas ao seu conceito, a critério do mestre." },
+      { "nome": "Milagre", "prerequisito": null, "guardiao": true, "descricao": "Você aprende e pode lançar uma magia divina de 1º círculo (atributo-chave Sabedoria). Pode escolher esta dádiva outras vezes; a cada nova escolha, a magia pode ser de um círculo igual ao número de Milagres que possui (limitado pelo status divino), e pré-requisitos de círculo também podem ser cumpridos dessa forma." },
+      { "nome": "Paladino Único", "prerequisito": "aceitar paladinos entre seus devotos; não pode ser escolhida se você ou outro membro do grupo for o paladino único", "descricao": "Você passa a ser acompanhado pelo paladino único de sua fé (parceiro iniciante). Vira veterano em status divino 4 e mestre em status divino 5. Se morrer, pode ser substituído com uma semana de oração." },
+      { "nome": "Paróquia", "prerequisito": null, "descricao": "Você passa a ser acompanhado por um grupo de devotos fervorosos (parceiro) que o auxiliam em tarefas cotidianas. Sua condição de descanso sobe uma categoria. Vira veterano em status divino 2 e mestre em status divino 3. Se morrerem, podem ser substituídos com uma semana de pregação." },
+      { "nome": "Presença Divina", "prerequisito": null, "guardiao": true, "descricao": "Você recebe +5 em Diplomacia e Intimidação contra pessoas treinadas em Religião ou devotos de qualquer deus. No início de cada cena, pode gastar 1 PM para fazer um teste de uma dessas perícias com essas pessoas." },
+      { "nome": "Resiliência Divina", "prerequisito": null, "descricao": "Você recebe +2 em testes de resistência." },
+      { "nome": "Semi-Imortal", "prerequisito": "entidade primordial, Dragão-Real ou mortal ascendido", "descricao": "Você recebe um bônus igual ao seu status divino em testes de resistência contra efeitos de cansaço, metabólicos e de veneno." },
+      { "nome": "Vigor Divino", "prerequisito": null, "descricao": "Você recebe +10 PV por status divino." }
+    ]
+  },
+  "guardiao_divino": {
+    "descricao": "Quando um jogador quer promover a fé de um deus menor de natureza inadequada a um personagem jogador (conceito vivo, objeto desperto) ou de um deus menor que é um NPC, ele joga como guardião divino: o principal representante do deus em sua busca por reconhecimento e poder, executando as mesmas ações necessárias para aumentar o status divino e obter dádivas como se fosse o próprio deus menor. Em troca, o guardião recebe os benefícios de qualquer dádiva do deus menor marcada como 'guardiao' que, a critério do mestre, possa se aplicar a ele, além de poder contar com a presença do deus menor (como um parceiro, se for um mortal ascendido, ou podendo ser empunhado, se for um objeto desperto).",
+    "exemplo": "Ghortur, um orc caçador, foi escolhido por seu povo como guardião divino de Alzakir, o Deus Menor das Flechas, um arco longo desperto de status divino 1. Como guardião, Ghortur pode realizar as ações necessárias para aumentar o status divino de Alzakir e obter novas dádivas para ele; em troca, pode empunhar Alzakir como arma e se beneficia das dádivas aplicáveis."
+  },
+  "paladino_unico": {
+    "descricao": "Parceiro-guerreiro sagrado, protetor, campeão e muitas vezes melhor amigo do deus menor.",
+    "iniciante": "+2 em testes de ataque e na Defesa.",
+    "veterano": "Pode usar a habilidade Golpe Divino como um paladino de nível igual ao do deus menor (se já tiver essa habilidade, seu custo diminui em -1 PM).",
+    "mestre": "Muda para +3 em testes de ataque e na Defesa, e pode usar a habilidade Cura Pelas Mãos como um paladino de nível igual ao do deus menor (se já tiver essa habilidade, seu custo diminui em -1 PM)."
+  },
+  "devotos_fervorosos": {
+    "descricao": "Grupo de capangas devotos que acompanham o deus menor como um único parceiro.",
+    "iniciante": "Seis devotos (deslocamento 9m, Defesa 10 + Sabedoria do deus menor, 1 PV, dano 1d6+1 de perfuração cada).",
+    "veterano": "O grupo aumenta para sete devotos.",
+    "mestre": "O grupo aumenta para nove devotos e o dano deles se torna 1d8+1.",
+    "uso_em_combate": "É preciso gastar uma ação completa para posicionar cada devoto em um espaço desocupado em alcance curto. Uma vez posicionados, uma ação de movimento os move seu deslocamento, ou uma ação padrão os faz causar dano automático a criaturas adjacentes. Os devotos falham automaticamente em qualquer teste oposto. Um devoto reduzido a 0 PV não pode ser usado pelo restante da cena."
+  },
+  "desafios_divinos": {
+    "descricao": "No início de cada tempo entre aventuras, role 1d10 + o status divino do deus menor e consulte a tabela abaixo.",
+    "tabela": [
+      { "faixa": "2-6", "nome": "Nenhum desafio", "efeito": "Seus fiéis estão satisfeitos e nenhum problema os aflige por ora." },
+      { "faixa": "7-8", "nome": "Súplicas dos Fiéis", "efeito": "Você precisa auxiliar alguns fiéis com uma tarefa complexa. Faça um teste de Religião (ou outra perícia relacionada ao seu conceito, a critério do mestre) com CD 20 + o dobro do status divino. Se falhar, seus PM máximos diminuem em 1 por nível de personagem durante a próxima aventura." },
+      { "faixa": "9", "nome": "Ladainha Incessante", "efeito": "Você fica fatigado pela próxima aventura (mesmo que seja imune a essa condição)." },
+      { "faixa": "10", "nome": "Reza Torta", "efeito": "Você fica frustrado pela próxima aventura (mesmo que seja imune a essa condição)." },
+      { "faixa": "11", "nome": "Inquisidores", "efeito": "Pela próxima aventura, seu status divino é reduzido em 1." },
+      { "faixa": "12", "nome": "Visita Extraplanar", "efeito": "Um espírito (celestial ou abissal) de ND equivalente ao do grupo surge em algum momento da próxima aventura, podendo lutar ao lado dos inimigos do grupo ou atrapalhá-lo de outra forma." },
+      { "faixa": "13", "nome": "Interferência Pessoal", "efeito": "Um de seus itens mágicos, escolhido aleatoriamente, é destruído." },
+      { "faixa": "14+", "nome": "Maldição de Deus Maior", "efeito": "Você deve fazer três testes de perícias diferentes (como uma busca) e passar nos três. Caso contrário, seu status divino é reduzido em 1 e você fica alquebrado pela próxima aventura." }
+    ]
+  },
+  "livro": "deuses_de_arton"
+}

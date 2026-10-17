@@ -1,0 +1,9 @@
+{
+  "id": "belo_presente",
+  "name": "Belo Presente",
+  "deities": ["wynna"],
+  "description": "Uma vez por cena, você pode pedir a Wynna o conhecimento de uma magia que tenha visto sendo lançada nessa aventura e que seja de um círculo a que você tenha acesso. Gaste uma ação padrão e faça um teste de Religião (CD 15 + custo em PM da magia). Se passar, você pode lançar essa magia até o fim do seu próximo turno (pagando seus custos normais).",
+  "effects": { "type": "ativado", "frequencia": "1x_por_cena", "acao": "padrão", "teste": "Religião, CD 15 + custo em PM da magia", "efeito": "se passar, pode lançar uma magia vista na aventura (de círculo acessível) até o fim do próximo turno, pagando o custo normal" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

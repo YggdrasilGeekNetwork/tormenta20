@@ -1,0 +1,16 @@
+{
+  "id": "machado_lamnoriano",
+  "name": "Machado Lamnoriano",
+  "deities": ["thwor"],
+  "subtipo": "arma",
+  "base_item": "machado_de_guerra",
+  "classificacao": "Arma específica menor",
+  "preco": 22500,
+  "description": "Este machado de guerra atroz possui cabo feito da madeira de árvores milenares, que nascem apenas no continente sul, e lâmina de aço regado pelo sangue dos incontáveis massacres que já ocorreram nessa terra bestial. Se você for um devoto de Thwor, ele se torna um machado de guerra atroz formidável. Sempre que você entrar em fúria, o machado lamnoriano se retorce e cresce, energizado pela sua raiva, e seu dano aumenta em um passo. Se você for de patamar campeão ou superior, o dano aumenta em mais um passo (dois passos ao todo).",
+  "effects": [
+    { "type": "passivo", "enchantment": "atroz" },
+    { "type": "devoto", "deity": "thwor", "enchantment": "atroz formidável", "gatilho": "entrar em fúria", "efeito": "dano aumenta em um passo" },
+    { "type": "devoto_patamar", "deity": "thwor", "patamar_minimo": "campeao", "efeito": "dano aumenta mais um passo (dois passos ao todo)" }
+  ],
+  "livro": "deuses_de_arton"
+}

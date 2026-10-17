@@ -1,0 +1,15 @@
+{
+  "id": "casamento",
+  "name": "Casamento",
+  "type": "servico",
+  "categoria": "servico",
+  "preco": 150,
+  "unidade_preco": "por pessoa",
+  "efeito": {
+    "efeito": "reserva conjunta de 3 PM, usável apenas se os cônjuges estiverem em alcance curto um do outro",
+    "recuperacao": "qualquer um dos cônjuges pode recuperar esses PM (inclusive com descanso)",
+    "observacao": "algumas religiões (notavelmente Marah) permitem poligamia"
+  },
+  "description": "Você se casa com uma pessoa amada. Em geral, casamentos são entre duas pessoas, mas algumas religiões (notavelmente Marah) permitem a poligamia. O poder do amor fornece aos pombinhos uma reserva conjunta de 3 PM, que eles só podem usar se estiverem em alcance curto um do outro. Qualquer um deles pode recuperar esses PM (inclusive com descanso).",
+  "livro": "deuses_de_arton"
+}

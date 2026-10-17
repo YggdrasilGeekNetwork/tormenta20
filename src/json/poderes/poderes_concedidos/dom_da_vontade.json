@@ -1,0 +1,12 @@
+{
+  "id": "dom_da_vontade",
+  "name": "Dom da Vontade",
+  "deities": ["khalmyr"],
+  "description": "Você recebe +2 em Vontade e, uma vez por cena, quando passa em um teste de Vontade contra um efeito de um inimigo ou de um perigo apresentado pelo mestre, recebe 1d4 PM temporários.",
+  "effects": [
+    { "type": "passivo", "efeito": "+2 em Vontade" },
+    { "type": "passivo", "frequencia": "1x_por_cena", "gatilho": "passar em teste de Vontade contra efeito de inimigo ou perigo", "efeito": "1d4 PM temporários" }
+  ],
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

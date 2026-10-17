@@ -1,0 +1,9 @@
+{
+  "id": "barreira_de_coral",
+  "name": "Barreira de Coral",
+  "deities": ["oceano"],
+  "description": "Você pode gastar uma ação de movimento e 3 PM para cobrir seu corpo de coral. Até o fim da cena, você recebe +5 na Defesa e, sempre que sofrer um ataque corpo a corpo, o atacante sofre dano de perfuração igual a 1d6 + sua Constituição. Para cada patamar acima de iniciante, esse dano aumenta em +1d6.",
+  "effects": { "type": "ativado", "acao": "movimento", "custo_pm": 3, "duracao": "até o fim da cena", "efeito": "+5 na Defesa; atacantes corpo a corpo sofrem 1d6 + Constituição de dano de perfuração", "escalavel": "+1d6 por patamar acima de iniciante" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

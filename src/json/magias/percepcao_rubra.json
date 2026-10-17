@@ -1,0 +1,29 @@
+{
+  "id": "percepcao_rubra",
+  "name": "Percepção Rubra",
+  "type": "universal",
+  "circle": "1",
+  "school": "adiv",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": { "amount": 1, "up_to": false, "type": "você" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Esta magia faz o conjurador adquirir, por algum tempo, a estranha percepção de tempo dos lefeu — que permite ver alguns momentos no futuro. O alvo recebe +1 em testes de ataque, em Reflexos e na Defesa.",
+  "enhancements": [
+    { "cost": 1, "type": "muda", "description": "muda o alcance para curto e o alvo para 1 criatura.", "extra_details": null },
+    { "cost": 2, "type": "aumenta", "description": "(Apenas Devotos de Aharadak): aumenta o bônus em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar).", "extra_details": { "requirements": "devoto de Aharadak" } }
+  ],
+  "effects": [
+    { "type": "bônus", "attribute": "ataque,reflexos,defesa", "amount": "+1", "resistence_requirement": null, "extra_requirements": null }
+  ],
+  "livro": "deuses_de_arton"
+}

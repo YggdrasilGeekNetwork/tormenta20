@@ -1,0 +1,9 @@
+{
+  "id": "chamado_monstruoso",
+  "name": "Chamado Monstruoso",
+  "deities": ["megalokk"],
+  "description": "Você aprende e pode lançar Conjurar Monstro e pode lançar e sustentar essa magia sem violar suas Obrigações & Restrições. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+  "effects": { "type": "passivo", "efeito": "aprende Conjurar Monstro, podendo lançá-la e sustentá-la sem violar Obrigações & Restrições; se já a conhece, custo -1 PM" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "pacificador",
+  "name": "Pacificador",
+  "description": "Combatente treinado que impõe a si mesmo o dever de nunca matar, acreditando que só se pode preservar aquilo que verdadeiramente esteve em risco.",
+  "admissao": "É um caminho solitário de autoconhecimento, sem mestres ou mosteiros. O candidato deve anunciar publicamente que está embarcando na jornada e então treinar corpo e mente para o combate por algumas horas todo santo dia, sem exceção — falhar um único dia reinicia todo o processo, incluindo etapas já cumpridas. Deve participar de dez combates na linha de frente, sofrendo e desferindo golpes sem nunca recuar nem ficar fora de ação, tendo a chance de matar um inimigo e escolhendo não fazê-lo, sem que ninguém morra no combate (combates malsucedidos simplesmente não contam para o total, mas faltar ao treino em qualquer dia zera a contagem). Ao completar os dez, deve se retirar para uma meditação intensa e árdua de pelo menos doze horas; se seu corpo aguentar e sua mente absorver os ensinamentos, torna-se um pacificador.",
+  "marca_nome": "Armas da Paz",
+  "marca_descricao": "Você adota o Código da Paz (não pode matar nem causar dano letal, sob pena de perder todos os PM até o dia seguinte) e se torna proficiente com qualquer arma que não cause dano ou que tenha a habilidade inata de causar dano não letal. Além disso, recebe +1 em testes de ataque e rolagens de dano com ataques que causam dano não letal.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

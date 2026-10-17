@@ -1,0 +1,16 @@
+{
+  "id": "frescor_de_nimb",
+  "name": "Frescor de Nimb",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 1,
+  "espacos": 0,
+  "deity": "nimb",
+  "efeito": {
+    "requer_devoto": "nimb",
+    "efeito": "escolha um deus aleatoriamente e recebe o benefício do prato especial desse deus",
+    "excecao": "se rolar Nimb, role novamente duas vezes, repetindo sempre que rolar o Deus do Caos"
+  },
+  "description": "Mesmo os paladares mais refinados têm dificuldade em descrever o frescor de Nimb. Ao ingerir este prato, escolha um deus aleatoriamente. Você recebe o benefício do prato desse deus (se for Nimb, role novamente duas vezes, repetindo isso sempre que rolar o Deus do Caos).",
+  "livro": "deuses_de_arton"
+}

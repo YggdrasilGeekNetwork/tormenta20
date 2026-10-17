@@ -1,0 +1,15 @@
+{
+  "id": "coroa_da_uniao_purpura",
+  "name": "A Coroa da União Púrpura",
+  "description": "Não forjada pelos deuses, mas esculpida por mãos mortais durante um ritual de sacrifício na Clareira dos Mistérios, nos Ermos Púrpuras, feita de ossos de feras e tendões de guerreiros. Concede seus poderes apenas ao Rei das Tribos escolhido no ritual (ou a um desafiante que o mate em combate ritual e tome seu lugar). Se o rei morrer ou abandonar seu posto, a Coroa perde seus poderes e começa a apodrecer. Se os princípios da União Púrpura forem traídos (como substituir o caos pela ordem, ou propor paz quando escolhido para a guerra), a coroa se torna um fardo amaldiçoado e seus guerreiros se voltam contra o rei.",
+  "effects": [
+    { "type": "restriction", "requisito": "ser o Rei das Tribos escolhido no ritual da Clareira dos Mistérios, ou tê-lo derrotado em combate ritual e tomado seu lugar" },
+    { "type": "special", "efeito": "concede a habilidade Fúria do bárbaro; se já a possuir, custo para ativá-la diminui em -1 PM e seus bônus aumentam em +2" },
+    { "type": "special", "efeito": "torna-se treinado em Diplomacia, Enganação e Intimidação" },
+    { "type": "special", "efeito": "concede o poder Comandar; o bônus fornecido pelo poder aumenta em +2" },
+    { "type": "special", "efeito": "a atitude de todos os membros dos Ermos Púrpuras melhora uma categoria em relação ao portador" },
+    { "type": "ativado", "acao": "movimento", "custo_pm": 2, "efeito": "invoca 2d6+1 capangas guerreiros púrpuras (Defesa 17, 1 PV, falham automaticamente em testes de resistência ou opostos, deslocamento 12m) em espaços desocupados em alcance curto; podem andar (ação livre, 1x por rodada) ou causar 1d8+5 de dano de perfuração a criaturas adjacentes (ação de movimento); desaparecem ao morrer ou no fim da cena; não agem sem receber ordem" },
+    { "type": "maldicao", "gatilho": "abandonar ou trair os princípios da Coroa", "efeito": "perde todos os benefícios; a atitude de membros dos Ermos Púrpuras piora uma categoria" }
+  ],
+  "livro": "deuses_de_arton"
+}

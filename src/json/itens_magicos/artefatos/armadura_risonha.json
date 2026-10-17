@@ -1,0 +1,13 @@
+{
+  "id": "armadura_risonha",
+  "name": "A Armadura Risonha",
+  "description": "Forjada com materiais planares do reino divino de Al-Gazara, feita de caos puro, esta armadura completa reluzente foi concedida a grandes campeões de Nimb. A Armadura Risonha é uma armadura completa guardiã reluzente que não restringe os movimentos do usuário — ele é considerado sem armadura e sob efeito de Libertação. Além disso, gera um efeito de caos e aleatoriedade: sempre que uma criatura em alcance curto fizer um teste, deve rolar 2d20 e usar o pior resultado. Devotos de Nimb, Hyninn e outras criaturas especialmente caóticas (a critério do mestre) também rolam 2d20, mas usam o melhor resultado. A armadura não afeta a mente ou as ações de seu usuário, apenas torna o caos atraente. Quando encontrada, às vezes a armadura pode ser acompanhada por um escudo pesado guardião refletor, cujo encanto refletor não consome PM para ser utilizado (mas continua podendo ser usado apenas uma vez por rodada).",
+  "effects": [
+    { "type": "armor_type", "base": "armadura_completa" },
+    { "type": "enchantment", "name": "guardiã" },
+    { "type": "special", "efeito": "usuário é considerado sem armadura e sob efeito de Libertação" },
+    { "type": "aura", "alcance": "curto", "efeito": "criaturas no alcance rolam 2d20 e usam o pior resultado em testes; devotos de Nimb, Hyninn ou criaturas caóticas usam o melhor resultado" },
+    { "type": "conjunto", "item_acompanhante": "escudo pesado guardião refletor, cujo encanto refletor não consome PM (mas segue limitado a 1x por rodada)" }
+  ],
+  "livro": "deuses_de_arton"
+}

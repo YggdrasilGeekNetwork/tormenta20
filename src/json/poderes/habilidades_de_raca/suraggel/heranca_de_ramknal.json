@@ -1,0 +1,26 @@
+{
+  "id": "heranca_de_ramknal",
+  "name": "Herança de Ramknal",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "Escolha duas perícias entre Acrobacia, Enganação, Furtividade, Jogatina e Ladinagem. Quando faz um teste da perícia escolhida, você pode gastar 2 PM para receber +5 nesse teste.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "skill_choice": {
+      "count": 2,
+      "options": [
+        "acrobacia",
+        "enganacao",
+        "furtividade",
+        "jogatina",
+        "ladinagem"
+      ]
+    },
+    "pm_cost_for_plus5": 2
+  },
+  "livro": "deuses_de_arton"
+}

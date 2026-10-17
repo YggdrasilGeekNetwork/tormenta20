@@ -1,0 +1,9 @@
+{
+  "id": "vitoria_a_qualquer_custo",
+  "name": "Vitória a Qualquer Custo",
+  "deities": ["arsenal"],
+  "description": "Quando faz um teste de ataque, de resistência ou de Guerra, você pode gastar 2 PM para rolar novamente esse teste. Você pode fazer isso várias vezes no mesmo teste, mas cada novo uso aumenta o custo em +1 PM.",
+  "effects": { "type": "ativado", "gatilho": "teste de ataque, resistência ou Guerra", "custo_pm": 2, "efeito": "rola novamente o teste", "repeticao": "pode repetir no mesmo teste, cada uso adicional custa +1 PM" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

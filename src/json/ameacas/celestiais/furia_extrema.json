@@ -1,0 +1,39 @@
+{
+  "id": "furia_extrema",
+  "name": "Fúria Extrema",
+  "nd": 20,
+  "tipo": "Espírito",
+  "subtipo": "celestial",
+  "tamanho": "colossal",
+  "grupo": "celestiais",
+  "pv": 1200,
+  "pm": null,
+  "defesa": 61,
+  "salvaguardas": { "fort": 32, "ref": 30, "von": 20 },
+  "reducao_de_dano": 40,
+  "imunidades": ["efeitos mentais", "efeitos de metabolismo", "efeitos de movimento", "medo", "metamorfose", "trevas"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 20,
+  "percepcao": 20,
+  "visao": ["percepção às cegas (longo)"],
+  "deslocamento": { "terrestre": 12, "voo": 15 },
+  "atributos": { "for": 15, "des": 10, "con": 15, "int": 0, "sab": 8, "car": 10 },
+  "pericias": {},
+  "ataques": [
+    { "nome": "Lâmina Flamejante", "quantidade": 2, "bonus": 54, "dano": [{ "dados": [{ "quantidade": 5, "faces": 8 }], "bonus": 20, "tipo": "fogo" }, { "dados": [{ "quantidade": 5, "faces": 8 }], "bonus": 20, "tipo": "luz" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Celeridade Divina", "descricao": "O fúria extrema pode executar uma ação padrão adicional em cada um de seus turnos." },
+    { "nome": "Fogo Sagrado", "descricao": "O dano de fogo e de luz causados pelo fúria ignoram 30 pontos de redução de dano cada e, contra criaturas imunes a fogo ou luz, ainda causam metade do dano. Quando sofre dano de fogo ou luz, o fúria recupera PV em vez de perdê-los." },
+    { "nome": "Halo de Terror Absoluto", "salvaguarda": "Vontade", "cd": 49, "efeito_sucesso": "reduz à metade e muda para abalado", "descricao": "No início de cada turno do fúria, criaturas em um raio de 9m sofrem 6d8 de dano de fogo e 6d8 de dano de luz e ficam apavoradas (Von CD 49 reduz à metade e muda a condição para abalado). Uma criatura imune a medo ainda fica abalada se falhar na resistência, mas não se passar." },
+    { "nome": "Liberar Essência Celestial", "acao": "reação", "salvaguarda": "Reflexos", "cd": 49, "efeito_sucesso": "reduz à metade", "descricao": "Caso o fúria seja reduzido a 0 PV ou menos, explode, causando 15d8 de dano de fogo e 15d8 de dano de luz em todas criaturas em um raio de 30m (Ref CD 49 reduz à metade)." },
+    { "nome": "Olhar Fumegante", "acao": "padrão", "salvaguarda": "Reflexos", "cd": 49, "efeito_sucesso": "reduz à metade e evita as condições", "descricao": "Uma criatura em alcance longo sofre 15d8 de dano de fogo e 15d8 de dano de luz, fica ofuscada por 1 rodada e em chamas (Ref CD 49 reduz à metade e evita as condições). Recarga (movimento)." },
+    { "nome": "Retribuição", "salvaguarda": "Fortitude", "cd": 49, "efeito_sucesso": "reduz à metade", "descricao": "Quando uma criatura causa dano ao fúria, sofre a mesma quantidade de dano (Fort CD 49 reduz à metade)." },
+    { "nome": "Teletransporte", "acao": "movimento", "descricao": "O fúria se teletransporta para um espaço desocupado que possa perceber a até 30m." },
+    { "nome": "Ver Além da Mentira", "descricao": "O fúria extrema está permanentemente sob o efeito básico da magia Visão da Verdade." }
+  ],
+  "tesouro": "Lâmina flamejante (CD 35 para extrair, reduz em 1 PM o custo para fabricar uma vingadora sagrada).",
+  "description": "O celestial mais poderoso que existe, surgindo apenas em eventos extraordinários quando o destino do mundo está em jogo. Expressão máxima do bem e da ordem, não protege ou cura — traz punição e destruição ao mal.",
+  "livro": "deuses_de_arton"
+}

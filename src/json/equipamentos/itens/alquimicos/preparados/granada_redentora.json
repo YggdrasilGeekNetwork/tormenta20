@@ -1,0 +1,20 @@
+{
+  "id": "granada_redentora",
+  "name": "Granada Redentora",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 60,
+  "espacos": 0.5,
+  "uso": "empunhado",
+  "acao": "padrao",
+  "alcance": "curto",
+  "restricao": "só pode ser fabricado por devotos de deuses que canalizam energia positiva",
+  "efeito": {
+    "area": "3m do ponto de impacto",
+    "cura": "6d4",
+    "tipo": "luz"
+  },
+  "description": "Este dispositivo contém uma carga de um preparado curativo santificado. Para usar a granada redentora, você precisa empunhá-la e gastar uma ação padrão para arremessá-la em um ponto em alcance curto. Criaturas a até 3m desse ponto recuperam 6d4 pontos de vida por luz. Este item só pode ser fabricado por devotos de deuses que canalizam energia positiva.",
+  "livro": "deuses_de_arton"
+}

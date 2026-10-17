@@ -1,0 +1,10 @@
+{
+  "id": "calice_dos_deuses",
+  "name": "O Cálice dos Deuses",
+  "description": "Moldado em metal reluzente de origem incerta, este cálice tem superfícies adornadas com motivos que representam as divindades do antigo Panteão, incluindo aquelas hoje ausentes: Glórienn, Keenn, Ragnar e Tauron. O poder do cálice é ativado quando qualquer líquido é despejado em seu interior; seu conteúdo é transformado em uma versão límpida, potável e mágica da substância original, purificando e anulando bebidas prejudiciais e infundindo coragem e ímpeto heroico em quem bebe. Aqueles que provam o licor abençoado recebem: +5 em todos os testes e rolagens de dano; 50 pontos de vida temporários; 20 pontos de mana temporários; imunidade a medo. Os efeitos duram 24 horas, acumulam-se com quaisquer outros efeitos de itens e não podem ser encerrados nem suprimidos. Contudo, trazem consigo um preço: aqueles que bebem do Cálice dos Deuses são tomados por confiança desmedida, consideram-se invencíveis e agem com entusiasmo, otimismo e imprudência extremos. Em termos de jogo, enquanto está sob efeito do Cálice, um personagem não pode usar Furtividade, preparar ações ou escolher 10 ou 20 em testes.",
+  "effects": [
+    { "type": "ativado", "gatilho": "despejar qualquer líquido no cálice e bebê-lo", "duracao": "24 horas, cumulativo com outros efeitos de itens, não pode ser encerrado ou suprimido", "efeito": "+5 em todos os testes e rolagens de dano; 50 PV temporários; 20 PM temporários; imunidade a medo" },
+    { "type": "custo", "efeito": "enquanto sob efeito, não pode usar Furtividade, preparar ações ou escolher 10 ou 20 em testes" }
+  ],
+  "livro": "deuses_de_arton"
+}

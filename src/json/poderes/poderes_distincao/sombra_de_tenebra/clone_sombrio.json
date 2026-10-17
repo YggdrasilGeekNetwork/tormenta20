@@ -1,0 +1,10 @@
+{
+  "id": "clone_sombrio",
+  "name": "Clone Sombrio",
+  "description": "Você pode gastar uma ação padrão e 3 PM para criar um clone de sombras em um espaço desocupado em alcance curto. Ele tem suas características, mas Evasão, imunidade a efeitos mentais e 1 PV. No início dos seus turnos, pode usar a ação movimentar-se. Uma vez por rodada, você pode gastar uma ação de movimento para fazê-lo causar, em uma criatura adjacente, 1d6 de dano de frio por poder da distinção que você possui, ou executar uma manobra de combate. Para cada dois outros poderes da distinção que possui, pode pagar +3 PM para invocar um clone adicional.",
+  "effects": [
+    { "type": "ativado", "acao": "padrão", "custo_pm": 3, "efeito": "cria um clone de sombras (suas características, Evasão, imune a mental, 1 PV) em espaço desocupado em alcance curto", "acao_do_clone": "1x por rodada, ação de movimento sua faz o clone causar 1d6 de frio por poder da distinção (ou uma manobra) em criatura adjacente", "escalavel": "+3 PM por clone adicional a cada dois outros poderes da distinção" }
+  ],
+  "requirements": ["treinado em Misticismo", "Miragem de Sombras"],
+  "livro": "deuses_de_arton"
+}

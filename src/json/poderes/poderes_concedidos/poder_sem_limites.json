@@ -1,0 +1,9 @@
+{
+  "id": "poder_sem_limites",
+  "name": "Poder Sem Limites",
+  "deities": ["kallyadranoch"],
+  "description": "A CD e os limites de PM de suas habilidades (exceto magias e habilidades que as simulem) aumentam em um valor igual ao seu patamar.",
+  "effects": { "type": "passivo", "escopo": "habilidades que não sejam magias ou simulem magias", "efeito": "CD e limites de PM aumentam em valor igual ao patamar" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

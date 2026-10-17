@@ -1,0 +1,10 @@
+{
+  "id": "selvageria_incontrolavel",
+  "name": "Selvageria Incontrolável",
+  "description": "Enquanto está em Forma Selvagem, você não fica inconsciente por estar com 0 PV ou menos (mas ainda morre se chegar em um valor negativo igual à metade de seus PV máximos).",
+  "effects": [
+    { "type": "passivo", "condicao": "em Forma Selvagem", "efeito": "não fica inconsciente com 0 PV ou menos; morre apenas ao chegar a um valor negativo igual à metade dos PV máximos" }
+  ],
+  "requirements": ["Vigor Monstruoso"],
+  "livro": "deuses_de_arton"
+}

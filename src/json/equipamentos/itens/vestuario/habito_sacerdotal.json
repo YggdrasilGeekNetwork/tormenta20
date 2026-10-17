@@ -1,0 +1,14 @@
+{
+  "id": "habito_sacerdotal",
+  "name": "Hábito Sacerdotal",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 30,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "bonus": { "pericias_carisma_com_devotos_da_mesma_divindade": 2 }
+  },
+  "description": "Para o sacerdote que dedica sua vida à fé, mas não de forma tão extrema quanto os monges, uma roupa mais atraente e confortável. A aparência desta batina varia muito de acordo com a religião do devoto, mas ela sempre concede +2 em testes de perícias baseadas em Carisma com devotos da mesma divindade.",
+  "livro": "deuses_de_arton"
+}

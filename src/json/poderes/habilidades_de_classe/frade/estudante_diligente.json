@@ -1,0 +1,12 @@
+{
+  "id": "estudante_diligente",
+  "name": "Estudante Diligente",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "No começo do dia você pode escolher uma perícia em que não seja treinado. Se fizer isso, até o fim do dia você sofre uma penalidade de –2 PM, mas pode fazer testes da perícia escolhida como se fosse treinado nela.",
+  "requirements": [],
+  "effects": [
+    { "type": "ativado", "gatilho": "início do dia", "custo": "-2 PM pelo resto do dia", "efeito": "trata-se como treinado numa perícia escolhida não treinada, pelo resto do dia" }
+  ],
+  "livro": "deuses_de_arton"
+}

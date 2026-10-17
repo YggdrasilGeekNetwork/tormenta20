@@ -1,0 +1,36 @@
+{
+  "id": "gigante_do_fogo",
+  "name": "Gigante do Fogo",
+  "nd": 11,
+  "tipo": "Humanoide",
+  "subtipo": "gigante",
+  "tamanho": "enorme",
+  "grupo": "gigantes",
+  "pv": 390,
+  "pm": null,
+  "defesa": 36,
+  "salvaguardas": { "fort": 24, "ref": 9, "von": 15 },
+  "reducao_de_dano": 10,
+  "imunidades": ["fogo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 9,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 12, "des": -2, "con": 4, "int": 3, "sab": -1, "car": 1 },
+  "pericias": { "atletismo": 23, "guerra": 12, "oficio_armeiro": 14 },
+  "ataques": [
+    { "nome": "Machado de Batalha", "quantidade": 3, "bonus": 27, "dano": [{ "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 16, "tipo": "corte" }, { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 0, "tipo": "fogo" }], "critico": "x3" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arremessar Bigorna", "acao": "padrão", "salvaguarda": "Reflexos", "cd": 33, "efeito_sucesso": "reduz à metade e evita a condição", "descricao": "O gigante arremessa sua bigorna em um quadrado de 4,5m em alcance curto. Criaturas na área sofrem 10d12 de dano (metade impacto, metade fogo) e ficam em chamas (Ref CD 33 reduz à metade e evita a condição). Recarga (recuperar a bigorna)." },
+    { "nome": "Bigorna Flamejante", "acao": "padrão", "descricao": "O gigante faz uma arma adjacente causar +2d6 de dano de fogo até o fim da cena. Não pode usar esta habilidade no mesmo turno que Arremessar Bigorna." },
+    { "nome": "Falange de Fogo", "descricao": "Aliados adjacentes ao gigante recebem redução de dano 5." },
+    { "nome": "Ponto de Forja", "salvaguarda": "Fortitude", "cd": 33, "efeito_sucesso": "evita a avaria", "descricao": "Criaturas que causem dano corpo a corpo contra o gigante ou contra um aliado adjacente a ele sofrem 4d6 de dano e ficam com suas armas avariadas (Fort CD 33 evita a avaria)." }
+  ],
+  "equipamento": ["machado_de_batalha_de_adamante_aumentado", "meia_armadura_banhada_a_ouro"],
+  "tesouro": "Padrão.",
+  "description": "Gigante parecido com um anão em proporções monstruosas, com corpo em brasa e cabelo de fogo. Militarizado e estratégico, combatendo com tática e armas superiores desde antes dos anões descobrirem a forja.",
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "conjuracao_unificada",
+  "name": "Conjuração Unificada",
+  "description": "Escolha um entre seus atributos-chave de magias. Você pode usar esse atributo como atributo-chave de todas as suas magias e habilidades relacionadas a elas, exceto cálculo de PM. Entretanto, restrições que afetem qualquer um de seus tipos de magias (como o uso de armaduras e magias arcanas) passam a afetar ambos os tipos.",
+  "effects": [
+    { "type": "passivo", "efeito": "unifica o atributo-chave de todas as magias e habilidades relacionadas (exceto cálculo de PM) num único atributo escolhido; restrições de um tipo de magia passam a valer para os dois tipos" }
+  ],
+  "requirements": ["treinado em Misticismo e Religião", "habilidade Magias (arcanas)", "habilidade Magias (divinas)"],
+  "livro": "deuses_de_arton"
+}

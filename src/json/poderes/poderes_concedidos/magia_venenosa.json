@@ -1,0 +1,9 @@
+{
+  "id": "magia_venenosa",
+  "name": "Magia Venenosa",
+  "deities": ["sszzaas"],
+  "description": "Suas magias com resistência Fortitude recebem o seguinte aprimoramento. +1 PM: além do normal, criaturas que falharem perdem 1d12 PV por veneno, ou 1d6 se passarem na resistência.",
+  "effects": { "type": "aprimoramento_de_magia", "escopo": "magias com resistência Fortitude", "custo_pm": 1, "efeito": "criaturas que falharem na resistência perdem 1d12 PV por veneno, ou 1d6 PV se passarem" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

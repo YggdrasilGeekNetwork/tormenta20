@@ -1,0 +1,9 @@
+{
+  "id": "alimentar_se_do_pavor",
+  "name": "Alimentar-se do Pavor",
+  "deities": ["kallyadranoch", "megalokk"],
+  "description": "Quando uma criatura em alcance curto sob efeito de uma condição de medo morre, você recebe pontos de vida temporários iguais ao dobro do seu ND, que duram até o fim da cena.",
+  "effects": { "type": "passivo", "gatilho": "criatura sob condição de medo em alcance curto morre", "efeito": "PV temporários = 2x seu ND, até o fim da cena" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

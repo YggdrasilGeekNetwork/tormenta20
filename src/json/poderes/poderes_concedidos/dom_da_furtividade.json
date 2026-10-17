@@ -1,0 +1,9 @@
+{
+  "id": "dom_da_furtividade",
+  "name": "Dom da Furtividade",
+  "deities": ["hyninn"],
+  "description": "Você soma sua Sabedoria em Furtividade e, para você, lançar magias é um ato pouco chamativo, o que reduz a penalidade para se esconder após conjurar para –10 (mas você ainda precisa de gestos e palavras).",
+  "effects": { "type": "passivo", "efeito": "soma Sabedoria em Furtividade; penalidade para se esconder após lançar magia reduzida para -10" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

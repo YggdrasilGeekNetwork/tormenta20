@@ -1,0 +1,39 @@
+{
+  "id": "avatar_de_tanna_toh",
+  "name": "Avatar de Tanna-Toh",
+  "nd": 20,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "avatares",
+  "pv": 953,
+  "pm": null,
+  "defesa": 57,
+  "salvaguardas": { "fort": 27, "ref": 35, "von": 41 },
+  "reducao_de_dano": 10,
+  "imunidades": ["efeitos mentais", "ilusão"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 23,
+  "percepcao": 35,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 6, "des": 6, "con": 6, "int": 20, "sab": 14, "car": 8 },
+  "pericias": { "atuacao": 29, "conhecimento": 41, "cura": 32, "intuicao": 35, "misticismo": 38, "nobreza": 38, "religiao": 35 },
+  "ataques": [
+    { "nome": "Cajado do Poder", "bonus": 54, "dano": [{ "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 20, "tipo": "impacto" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Maior que a Morte", "descricao": "O Avatar é imune a efeitos que matam instantaneamente ou reduzem atributos a 0, e não pode ser mantido morto permanentemente." },
+    { "nome": "Centelha Divina", "descricao": "O Avatar de Tanna-Toh pode lançar qualquer magia arcana ou divina como um conjurador de 19º nível sem gastar PM (CD 51, limite de PM 20). Uma vez por rodada, pode lançar a magia Comando como ação livre." },
+    { "nome": "Compartilhar Conhecimento", "acao": "movimento", "descricao": "Uma criatura em alcance curto se torna treinada em uma perícia em que não era treinada. Este efeito dura até o fim do dia." },
+    { "nome": "Golpe Semântico", "descricao": "O Avatar pode substituir testes de Diplomacia e Intimidação por testes de Conhecimento." },
+    { "nome": "Mestra da Verdade", "descricao": "O Avatar sempre sabe quando alguém está mentindo. Além disso, quando faz um teste de uma perícia baseada em Inteligência ou Sabedoria, ele rola dois dados e escolhe o melhor resultado." },
+    { "nome": "Plantar Curiosidade", "acao": "padrão", "salvaguarda": "Vontade", "cd": 51, "efeito_sucesso": "evita a penalidade", "descricao": "Uma criatura adjacente é infundida de imensa curiosidade e necessidade de cumprir uma tarefa à escolha do Avatar pela próxima semana. Enquanto está nessa missão, o alvo recebe +2 em testes de perícia. O Avatar não pode escolher missões suicidas ou que contrariem as Obrigações & Restrições de Tanna-Toh. A criatura pode recusar a missão — mas, no fim de cada dia em que não se esforçar para cumprir a tarefa, deve fazer um teste de Vontade (CD 51); se falhar, sofre uma penalidade cumulativa de –2 em todos os testes e rolagens." },
+    { "nome": "Poder das Histórias", "acao": "completa", "descricao": "O Avatar retira de sua bolsa um livro da Biblioteca de Tanna-Toh, com histórias tão poderosas que seus personagens escapam das páginas. O Avatar invoca uma ou mais criaturas em alcance curto, cujo ND total somado seja igual ao seu. As criaturas surgem em alcance curto e agem a partir da próxima rodada, em suas iniciativas." }
+  ],
+  "equipamento": ["cajado_do_poder", "robe_professoral"],
+  "tesouro": "Nenhum.",
+  "description": "Manifestação física de Tanna-Toh, a Deusa do Conhecimento. Carrega o Cajado do Poder e veste o Robe Professoral, invocando histórias de sua Biblioteca quando necessário.",
+  "livro": "deuses_de_arton"
+}

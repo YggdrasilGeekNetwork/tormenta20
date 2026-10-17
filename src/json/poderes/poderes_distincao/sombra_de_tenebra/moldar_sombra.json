@@ -1,0 +1,10 @@
+{
+  "id": "moldar_sombra",
+  "name": "Moldar Sombra",
+  "description": "Você pode gastar uma ação de movimento e 2 PM para criar uma arma corpo a corpo ou de arremesso com a qual seja proficiente, ou uma ferramenta. O item surge em sua mão e dura até o fim da cena ou até passar 1 rodada sem ser empunhado por você. Armas criadas dessa forma causam dano de trevas em vez do seu tipo normal e ferramentas fornecem +1 em testes das respectivas perícias (cumulativo com quaisquer bônus já fornecidos pela ferramenta). Para cada dois outros poderes da distinção que você possui, o bônus fornecido pela ferramenta aumenta em +1.",
+  "effects": [
+    { "type": "ativado", "acao": "movimento", "custo_pm": 2, "efeito": "cria uma arma proficiente (dano de trevas) ou ferramenta (+1 em perícia relacionada, cumulativo) de sombra, na mão; dura até o fim da cena ou 1 rodada sem ser empunhada", "escalavel": "+1 no bônus da ferramenta a cada dois outros poderes da distinção" }
+  ],
+  "requirements": ["Miragem de Sombras"],
+  "livro": "deuses_de_arton"
+}

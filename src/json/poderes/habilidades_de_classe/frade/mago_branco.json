@@ -1,0 +1,14 @@
+{
+  "id": "mago_branco",
+  "name": "Mago Branco",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Suas magias de cura de luz custam –1 PM e curam +1 PV por dado de cura.",
+  "requirements": [
+    { "type": "character_lvl", "sub_type": "hard", "value": 3, "note": "3º nível de frade" }
+  ],
+  "effects": [
+    { "type": "passivo", "aplica_em": "magias de cura de luz", "efeito": "custo -1 PM, cura +1 PV por dado" }
+  ],
+  "livro": "deuses_de_arton"
+}

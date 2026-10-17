@@ -1,0 +1,20 @@
+{
+  "id": "heranca_de_ordine",
+  "name": "Herança de Ordine",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "As forças da lei e ordem de Khalmyr afetam suas ações. Você recebe +2 em Intuição, em Investigação e em testes sem rolagens de dados (ao escolher 0, 10 ou 20).",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "skill_bonus": {
+      "intuicao": 2,
+      "investigacao": 2
+    },
+    "take_0_10_20_bonus": 2
+  },
+  "livro": "deuses_de_arton"
+}

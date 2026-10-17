@@ -1,0 +1,9 @@
+{
+  "id": "corromper_equipamento",
+  "name": "Corromper Equipamento",
+  "deities": ["aharadak"],
+  "description": "Você pode gastar 2 PM para cobrir uma arma, um escudo ou um esotérico que esteja empunhando com carapaça quitinosa. Até o fim da cena, o item recebe os benefícios de matéria vermelha, cumulativo com outros materiais especiais. Se usar este poder em uma arma produzida com Armamento Aberrante, seu custo é reduzido em –1 PM.",
+  "effects": { "type": "ativado", "custo_pm": 2, "duracao": "até o fim da cena", "efeito": "item empunhado ganha os benefícios de matéria vermelha, cumulativo com outros materiais especiais", "desconto": "-1 PM se usado em arma de Armamento Aberrante" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

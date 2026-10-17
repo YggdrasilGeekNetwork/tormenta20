@@ -1,0 +1,10 @@
+{
+  "id": "vitoria_da_ordem",
+  "name": "Vitória da Ordem",
+  "description": "Quando faz um ataque corpo a corpo, você pode gastar 2 PM para concentrar sua fé em seu golpe. Você soma sua Sabedoria no teste de ataque (se já faz isso, em vez disso recebe +2 no teste de ataque) e +1d8 na rolagem de dano.",
+  "effects": [
+    { "type": "ativado", "custo_pm": 2, "gatilho": "ataque corpo a corpo", "bonus_ataque": "soma Sabedoria (ou +2 se já soma Sabedoria no ataque)", "bonus_dano": "+1d8" }
+  ],
+  "requirements": ["devoto de Khalmyr", "treinado em Luta"],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "heroi_de_arton",
+  "name": "Herói de Arton",
+  "description": "Uma vez por rodada, você pode gastar 2 PM para transformar um acerto crítico que tenha recém sofrido em um acerto normal, para repetir um teste de resistência recém realizado, ou para reduzir à metade o dano causado por uma fonte da Tormenta.",
+  "effects": [
+    { "type": "ativado", "frequencia": "1x_por_rodada", "custo_pm": 2, "opcoes_de_efeito": ["transforma um acerto crítico recém sofrido em acerto normal", "repete um teste de resistência recém realizado", "reduz à metade o dano de uma fonte da Tormenta"] }
+  ],
+  "requirements": ["Herói dos Reinos"],
+  "livro": "deuses_de_arton"
+}

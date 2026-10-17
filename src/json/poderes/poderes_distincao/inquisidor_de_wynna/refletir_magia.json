@@ -1,0 +1,10 @@
+{
+  "id": "refletir_magia",
+  "name": "Refletir Magia",
+  "description": "Quando passa em um teste de resistência contra uma habilidade mágica, você pode gastar 6 PM para refletir esse efeito de volta à sua fonte. Você não sofre nenhum efeito da habilidade (outros alvos são afetados normalmente) e a fonte é afetada por ela como se fosse um dos alvos originais (ainda tem direito a testes de resistência).",
+  "effects": [
+    { "type": "ativado", "custo_pm": 6, "gatilho": "passar em teste de resistência contra habilidade mágica", "efeito": "reflete o efeito de volta à fonte, que é tratada como alvo original (com direito a resistência); você não sofre o efeito" }
+  ],
+  "requirements": ["outros dois poderes da distinção"],
+  "livro": "deuses_de_arton"
+}

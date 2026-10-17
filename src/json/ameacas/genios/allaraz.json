@@ -1,0 +1,40 @@
+{
+  "id": "allaraz",
+  "name": "Allaraz",
+  "nd": 14,
+  "tipo": "Espírito",
+  "subtipo": "gênio",
+  "tamanho": "grande",
+  "grupo": "genios",
+  "pv": 490,
+  "pm": 113,
+  "defesa": 44,
+  "salvaguardas": { "fort": 14, "ref": 22, "von": 28 },
+  "resistencia_a_magia": 5,
+  "reducao_de_dano": null,
+  "imunidades": ["dano de luz"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 17,
+  "percepcao": 11,
+  "visao": [],
+  "deslocamento": { "terrestre": 12, "voo": 15 },
+  "atributos": { "for": 4, "des": 4, "con": 3, "int": 2, "sab": 4, "car": 8 },
+  "pericias": { "conhecimento": 15, "diplomacia": 20, "misticismo": 20, "religiao": 17 },
+  "ataques": [
+    { "nome": "Pancada", "quantidade": 2, "bonus": 37, "dano": [{ "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 25, "tipo": "impacto" }, { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 0, "tipo": "luz" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Dentro de uma Lampadazinha", "descricao": "Para cada dia sem um pacto ativo, perde 1 PM; ao chegar a 0, sofre um efeito debilitante, revertido ao firmar novo pacto." },
+    { "nome": "Poderes Cósmicos Fenomenais", "acao": "completa", "descricao": "Firma pacto com uma criatura voluntária, tornando-se parceiro iniciante e reduzindo o custo de suas habilidades em -1 PM enquanto presente." },
+    { "nome": "Servo dos Deuses", "descricao": "Pode lançar Viagem Planar sem componente material, apenas em si mesmo." },
+    { "nome": "Contramágica Aprimorada", "acao": "reação", "descricao": "Uma vez por rodada, o allaraz faz uma contramágica." },
+    { "nome": "Proteger Criação", "acao": "reação", "custo_pm": 10, "descricao": "Uma vez por rodada, quando uma criatura em alcance curto sofre dano, o allaraz concede RD 50 a ela contra esse dano." },
+    { "nome": "Reverter Destruição", "acao": "completa", "custo_pm": 5, "descricao": "Criaturas em alcance curto à escolha do allaraz que tenham sofrido dano nessa cena recuperam 6d8+6 PV." },
+    { "nome": "Magias (feiticeiro 14º, CD 40, limite de PM 22)", "descricao": "Dissipar Magia (padrão, 3 PM): dissipa magias com CD igual ou menor ao teste de Misticismo. Explosão Caleidoscópica (padrão, 10 PM): raio de 6m, atordoadas 1 rodada e enjoadas 1d4 rodadas. Flecha de Luz (padrão, 16 PM): duas criaturas em alcance médio sofrem 6d8+6 de dano de luz e ficam cegas 1d4 rodadas depois ofuscadas. Globo de Invulnerabilidade (padrão, 10 PM, sustentada): esfera de 3m detém magias de até 3º círculo. Leque Cromático (padrão, 8 PM): cone de 4,5m, atordoadas 1 rodada (1x por cena, Von anula), ofuscadas e vulneráveis. Raio Solar (padrão, 18 PM): linha de 30m, 10d8 (10d12 em mortos-vivos) de dano de luz, cegas 1d4 rodadas e ofuscadas 1 rodada (Ref reduz à metade e evita). Selo de Mana (padrão, 10 PM): criaturas escolhidas em alcance curto precisam passar em Vontade ao gastar PM, senão a ação falha mas o custo é pago." },
+    { "nome": "Parceiro", "descricao": "Iniciante: lança magia de ilusão ou evocação de 1º círculo (atributo-chave Carisma). Veterano: pode lançar Campo de Força. Mestre: gasta 4 PM para curar 5d8+5 PV em alcance curto, 1x por rodada." }
+  ],
+  "tesouro": "Padrão.",
+  "description": "Gênio da luz, versão arcana dos celestiais, com a missão de combater os gênios das trevas (dabbus) e proteger as obras dos deuses.",
+  "livro": "deuses_de_arton"
+}

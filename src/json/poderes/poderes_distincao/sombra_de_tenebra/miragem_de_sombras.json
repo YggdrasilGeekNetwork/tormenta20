@@ -1,0 +1,11 @@
+{
+  "id": "miragem_de_sombras",
+  "name": "Miragem de Sombras",
+  "description": "Você aprende a magia Criar Ilusões (CD Int). Se possuir três outros poderes da distinção, a magia recebe o seguinte aprimoramento: +2 PM: suas ilusões emanam uma aura de 3m que concede camuflagem leve por escuridão a criaturas adjacentes a elas.",
+  "effects": [
+    { "type": "passivo", "efeito": "aprende Criar Ilusões (CD Int)" },
+    { "type": "aprimoramento_de_magia", "requisito": "três outros poderes da distinção", "custo_pm": 2, "efeito": "ilusões emanam aura de 3m dando camuflagem leve por escuridão a criaturas adjacentes a elas" }
+  ],
+  "requirements": ["Caminhar nas Trevas"],
+  "livro": "deuses_de_arton"
+}

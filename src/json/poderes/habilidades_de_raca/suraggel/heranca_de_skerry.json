@@ -1,0 +1,20 @@
+{
+  "id": "heranca_de_skerry",
+  "name": "Herança de Skerry",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "Você carrega a força de criatividade. Quando faz um teste de Ofício, pode gastar 1 PM para ser treinado na perícia em questão ou para rolar dois dados e usar o melhor resultado.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "craft_pm_cost": 1,
+    "craft_benefit_options": [
+      "torna_se_treinado",
+      "rola_2_dados_usa_melhor"
+    ]
+  },
+  "livro": "deuses_de_arton"
+}

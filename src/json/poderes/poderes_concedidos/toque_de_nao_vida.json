@@ -1,0 +1,9 @@
+{
+  "id": "toque_de_nao_vida",
+  "name": "Toque de Não Vida",
+  "deities": ["tenebra"],
+  "description": "Você pode gastar uma ação de movimento e 2 PM para fornecer a si mesmo ou a uma criatura adjacente 2d12 PV temporários (que são sempre os primeiros a serem perdidos) e, enquanto os PV temporários durarem, camuflagem leve.",
+  "effects": { "type": "ativado", "acao": "movimento", "custo_pm": 2, "alcance": "você mesmo ou criatura adjacente", "efeito": "concede 2d12 PV temporários (perdidos primeiro) e camuflagem leve enquanto durarem" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

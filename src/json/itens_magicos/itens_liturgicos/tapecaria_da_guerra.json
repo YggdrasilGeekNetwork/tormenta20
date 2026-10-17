@@ -1,0 +1,14 @@
+{
+  "id": "tapecaria_da_guerra",
+  "name": "Tapeçaria da Guerra",
+  "deities": ["arsenal"],
+  "subtipo": "acessorio",
+  "classificacao": "Acessório maior",
+  "preco": 35000,
+  "description": "Esta tapeçaria velha e manchada de sangue mostra um campo de batalha, com imagens representando terreno, tropas e objetivos. Analisar a tapeçaria aguça a sua percepção estratégica — ela funciona como uma ferramenta aprimorada, fornecendo +2 em Guerra. Se você for um devoto de Arsenal, estiver em combate e gastar uma ação completa para analisar a tapeçaria, a magia do item se revela, com as imagens se movendo para representar a batalha na qual você está. Como parte da ação completa, você faz um teste de Guerra (CD 20). Se você passar, o bônus em Guerra se estende para todos os testes de perícia, seus e de seus aliados em alcance curto, até o fim da cena. Se passar por 20 ou mais (ou seja, se somar 40 ou mais no teste de Guerra), você e seus aliados em alcance curto recebem uma ação padrão adicional, cada um em seu próximo turno (apenas uma vez por cena). Analisar a tapeçaria requer as duas mãos.",
+  "effects": [
+    { "type": "passivo", "efeito": "funciona como ferramenta aprimorada, +2 em Guerra" },
+    { "type": "devoto", "deity": "arsenal", "acao": "completa", "gatilho": "em combate, analisar a tapeçaria", "teste": "Guerra CD 20", "efeito": "sucesso: bônus em Guerra se estende a todos os testes de perícia do devoto e aliados em alcance curto até o fim da cena; sucesso por 20+ (40+ no teste): ação padrão adicional para o devoto e aliados em alcance curto, 1x por cena" }
+  ],
+  "livro": "deuses_de_arton"
+}

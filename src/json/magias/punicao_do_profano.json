@@ -1,0 +1,31 @@
+{
+  "id": "punicao_do_profano",
+  "name": "Punição do Profano",
+  "type": "divina",
+  "circle": "2",
+  "school": "evoc",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "curto",
+  "target": { "amount": 1, "up_to": false, "type": "humanoide" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "instantânea",
+  "duration_details": null,
+  "resistence": { "effect": "reduz_à_metade", "skill": "vontade" },
+  "extra_costs": null,
+  "description": "Por meio de um brado poderoso, entoando um dogma de sua religião, você inflige dano a devotos de divindades adversárias. Esta magia causa 6d8 pontos de dano de impacto a devotos de deuses que canalizam energia oposta a seu deus. Assim, se sua divindade canaliza energia positiva, a magia afeta devotos de deuses que canalizem energia negativa, e vice-versa. Devotos de deuses que canalizam qualquer energia ou criaturas que não sejam devotas sofrem apenas metade do dano. A magia afeta celestiais e abissais como se fossem devotos, respectivamente, de deuses de energia positiva e negativa, enquanto suraggel são afetados conforme sua herança. Nesses casos, a natureza planar se sobrepõe à devoção (um aggelus devoto de Tenebra ainda é considerado de energia positiva).",
+  "enhancements": [
+    { "cost": 1, "type": "muda", "description": "muda o alvo para 1 espírito ou morto-vivo.", "extra_details": null },
+    { "cost": 2, "type": "aumenta", "description": "aumenta o dano em +2d8.", "extra_details": null },
+    { "cost": 2, "type": "muda", "description": "muda o alvo para 1 criatura.", "extra_details": null },
+    { "cost": 3, "type": "muda", "description": "muda o alvo para criaturas escolhidas. Requer 3° círculo.", "extra_details": { "requirements": "3º círculo" } }
+  ],
+  "effects": [
+    { "type": "dano", "attribute": "impacto", "amount": "6d8", "resistence_requirement": "reduz_à_metade", "extra_requirements": "dano completo apenas contra devotos de energia oposta à do conjurador; metade do dano contra devotos de qualquer energia ou não-devotos" }
+  ],
+  "livro": "deuses_de_arton"
+}

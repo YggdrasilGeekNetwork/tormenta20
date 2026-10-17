@@ -1,0 +1,14 @@
+{
+  "id": "sacrario_do_compartilhamento",
+  "name": "Sacrário do Compartilhamento",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Este sacrário tem duração sustentada. Quando lança uma magia de 1º ou 2º círculo que tenha apenas você como alvo, se estiver em alcance curto deste sacrário você pode gastar 2 PM para que um aliado dentro dele receba o efeito básico dessa magia. Segue as regras gerais de Sacrários.",
+  "requirements": [
+    { "type": "character_lvl", "sub_type": "hard", "value": 7, "note": "7º nível de frade" }
+  ],
+  "effects": [
+    { "type": "sacrario", "duracao": "sustentada", "gatilho": "lançar magia de 1º ou 2º círculo com você como único alvo, estando em alcance curto do sacrário", "custo_pm": 2, "efeito": "um aliado dentro do sacrário recebe o efeito básico da magia" }
+  ],
+  "livro": "deuses_de_arton"
+}

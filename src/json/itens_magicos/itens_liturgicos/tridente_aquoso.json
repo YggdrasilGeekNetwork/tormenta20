@@ -1,0 +1,16 @@
+{
+  "id": "tridente_aquoso",
+  "name": "Tridente Aquoso",
+  "deities": ["oceano"],
+  "subtipo": "arma",
+  "base_item": "tridente",
+  "classificacao": "Arma específica média",
+  "preco": 54000,
+  "description": "Este tridente pungente é feito de coral azulado, e suas três pontas emanam uma tênue névoa gelada. Se você for um devoto do Oceano, ele se torna um tridente pungente congelante formidável. Se o tridente aquoso for mergulhado em água (exige uma ação de movimento e um reservatório de água grande o suficiente, como uma tina, cocho, banheira, rio…), torna-se magnífico até o fim da cena.",
+  "effects": [
+    { "type": "passivo", "enchantment": "pungente" },
+    { "type": "devoto", "deity": "oceano", "enchantment": "pungente congelante formidável" },
+    { "type": "devoto", "deity": "oceano", "acao": "movimento", "gatilho": "mergulhar o tridente em um reservatório de água grande o suficiente", "efeito": "torna-se magnífico até o fim da cena" }
+  ],
+  "livro": "deuses_de_arton"
+}

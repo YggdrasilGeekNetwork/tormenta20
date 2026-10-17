@@ -1,0 +1,42 @@
+{
+  "id": "avatar_de_kallyadranoch",
+  "name": "Avatar de Kallyadranoch",
+  "nd": 20,
+  "tipo": "Espírito",
+  "subtipo": "dragão",
+  "tamanho": "médio",
+  "grupo": "avatares",
+  "pv": 1405,
+  "pm": null,
+  "defesa": 50,
+  "salvaguardas": { "fort": 20, "ref": 28, "von": 35 },
+  "reducao_de_dano": 50,
+  "imunidades": ["ácido", "atordoamento", "cansaço", "dano de luz", "eletricidade", "essência", "fogo", "frio", "metamorfose", "paralisia", "trevas", "veneno"],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": [],
+  "iniciativa": 20,
+  "percepcao": 18,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 18 },
+  "atributos": { "for": 13, "des": 8, "con": 12, "int": 14, "sab": 6, "car": 19 },
+  "pericias": { "conhecimento": 35, "diplomacia": 37, "enganacao": 37, "intimidacao": 40, "misticismo": 40, "nobreza": 40, "oficio_escriba": 35, "religiao": 27 },
+  "ataques": [
+    { "nome": "Mordida", "bonus": 52, "dano": [{ "dados": [{ "quantidade": 5, "faces": 12 }], "bonus": 50, "tipo": "perfuração" }], "critico": "17/x3" },
+    { "nome": "Garra", "quantidade": 2, "bonus": 50, "dano": [{ "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 35, "tipo": "corte" }], "critico": "19/x2" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ajoelhem-se Perante Mim", "acao": "padrão", "salvaguarda": "Fortitude", "cd": 50, "efeito_sucesso": "evita a condição e reduz o efeito para penalidade de -5", "descricao": "O Avatar emite um comando de subserviência. Criaturas à escolha dele em alcance curto ficam caídas e não podem executar ações hostis contra ele por 1 rodada (Fort CD 50 evita a condição e reduz o efeito para penalidade de –5 em testes contra o Avatar por 1 rodada)." },
+    { "nome": "Aura Aterradora", "salvaguarda": "Vontade", "cd": 50, "efeito_sucesso": "evita", "descricao": "Aura Aterradora de dragão (Vontade CD 50 evita)." },
+    { "nome": "Cálice", "acao": "livre", "descricao": "Uma vez por rodada, o Avatar ignora todas as penalidades e restrições impostas por uma condição ou efeito." },
+    { "nome": "Centelha Divina", "descricao": "O Avatar lança qualquer magia arcana como um mago de 20º nível sem gastar PM (CD 50, limite de PM 20). Sempre que uma criatura falha no teste de resistência contra uma magia do Avatar, fica abalada (essa condição ignora imunidade a medo e é cumulativa)." },
+    { "nome": "Majestade Altiva", "salvaguarda": "Vontade", "cd": 50, "efeito_sucesso": "evita", "descricao": "No início de cada turno do Avatar, todas as criaturas em alcance médio que estejam apavoradas ficam fascinadas (Von CD 50 evita e a criatura não é mais afetada por esta habilidade até o fim do dia)." },
+    { "nome": "Metamorfose Dracônica", "acao": "completa", "descricao": "O Avatar se transforma em outra criatura, como a magia Metamorfose (mas sem limitação para tamanhos menores que o seu). Se for morto, ele reverte a sua forma original." },
+    { "nome": "Servos de Kallyadranoch", "acao": "livre", "descricao": "Uma vez por cena, o Avatar invoca 6 capangas dragões campeões (um de cada tipo entre ácido, eletricidade, fogo, frio, luz e trevas) que surgem em espaços desocupados em alcance longo. Eles agem no início da próxima rodada do Avatar, têm deslocamento de voo 18m e podem gastar uma ação padrão para emitir um sopro em um cone de 9m, que causa 6d12 pontos de dano de seu tipo de energia. Os dragões são Grandes, têm For 5, Des 1, 110 PV, Defesa 32, imunidades de dragão e a dano de seu tipo, usam os valores do Avatar com –5 para qualquer teste oposto ou de resistência e desaparecem quando mortos ou ao fim da cena." },
+    { "nome": "Sopro Supremo", "acao": "padrão", "salvaguarda": "Reflexos", "cd": 50, "efeito_sucesso": "reduz à metade", "descricao": "O Avatar exala uma combinação de energias em um cone de 30m. Criaturas nessa área sofrem 7d12 pontos de dano de cada tipo de energia entre ácido, eletricidade, fogo, frio, luz e trevas (42d12 no total; Ref CD 50 reduz à metade). Sempre que rolar um 12 em um dado de dano, o Avatar causa +1d12 pontos de dano do mesmo tipo. O sopro ignora RD, e imunidade a esses tipos de dano apenas o reduz à metade. Recarga (movimento)." },
+    { "nome": "Tomar Poder", "acao": "padrão", "descricao": "O Avatar faz um teste de Misticismo para roubar o poder mágico em um raio de 9m em alcance médio. Ele dissipa todas as magias nessa área com CD igual ou menor que o resultado de seu teste e recebe os benefícios dessas magias à escolha dele por 1d4+1 rodadas." }
+  ],
+  "tesouro": "Triplo.",
+  "description": "Manifestação física de Kallyadranoch, o Deus dos Dragões. Pode assumir a forma de qualquer dragão e comanda servos dracônicos de todos os tipos de energia. Veja também `avatar_de_kallyadranoch_dragao` (ND \"S\", livro ameacas_de_arton), uma versão distinta apresentada no capítulo da Igreja de Kallyadranoch de Ameaças de Arton.",
+  "livro": "deuses_de_arton"
+}

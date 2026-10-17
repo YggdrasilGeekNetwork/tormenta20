@@ -1,0 +1,24 @@
+{
+  "id": "cabriolas_de_bobo",
+  "name": "Cabriolas de Bobo",
+  "description": "Escolha duas cabriolas (veja a lista). Essa escolha não pode ser mudada depois, mas a cada outro poder da distinção você pode escolher uma nova cabriola. Cabriolas contam como Música de Bardo e seguem suas regras.",
+  "effects": [
+    {
+      "type": "escolha_de_lista",
+      "quantidade_inicial": 2,
+      "ganha_mais_uma_por": "outro poder da distinção",
+      "opcoes": [
+        { "id": "deboche_magico", "name": "Deboche Mágico", "description": "Escolha uma criatura no alcance e faça um teste de Atuação. Até o fim da cena, na próxima vez que a criatura usar uma habilidade mágica, deve passar em um teste de Vontade (CD igual ao resultado do seu teste de Atuação); se falhar, a habilidade não funciona e custos pagos são perdidos. Mental." },
+        { "id": "humor_macabro", "name": "Humor Macabro", "description": "Escolha uma criatura no alcance. Até o fim da cena, na próxima vez que você ou um aliado causar dano a essa criatura, outra criatura pode fazer um ataque corpo a corpo contra ela como reação." },
+        { "id": "humor_macabro_em_massa", "name": "Humor Macabro em Massa", "description": "Como Humor Macabro, mas afeta cada criatura a sua escolha no alcance. Pré-requisito: Humor Macabro." },
+        { "id": "imitacao_irritante", "name": "Imitação Irritante", "description": "Faça um teste de Atuação oposto ao teste de Vontade de uma criatura no alcance. Se vencer, até o início do seu próximo turno o alvo sofre –5 em quaisquer testes de perícia que já tenha usado nessa cena. Mental." },
+        { "id": "passo_hilariante", "name": "Passo Hilariante", "description": "Faça um teste de Atuação oposto ao teste de Vontade de uma criatura no alcance. Se vencer, ela fica pasma por 1 rodada (uma vez por cena) e vulnerável por 1d4+1 rodadas. Se perder, ela fica vulnerável por 1 rodada." },
+        { "id": "passo_hilariante_em_massa", "name": "Passo Hilariante em Massa", "description": "Como Passo Hilariante, mas afeta cada criatura a sua escolha no alcance. Pré-requisito: Passo Hilariante." },
+        { "id": "pirueta_desajeitada", "name": "Pirueta Desajeitada", "description": "Faça um teste de Atuação oposto pelo teste de Vontade de cada criatura a sua escolha no alcance. Alvos que percam ficam enredados (nos próprios pés) por 1d4+1 rodadas e caídos; alvos que passem ficam enredados por 1 rodada. Movimento." },
+        { "id": "rir_da_desgraca_alheia", "name": "Rir da Desgraça Alheia", "description": "Faça um teste de Atuação oposto ao teste de Vontade de uma criatura no alcance. Se vencer, até o fim da cena, sempre que ela falhar em um teste de perícia, sofre uma penalidade cumulativa de –1 nessa perícia até o fim da cena (limitada pelo seu total de poderes da distinção). Mental." }
+      ]
+    }
+  ],
+  "requirements": ["devoto de Hyninn", "treinado em Acrobacia e Atuação"],
+  "livro": "deuses_de_arton"
+}

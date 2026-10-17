@@ -1,0 +1,9 @@
+{
+  "id": "redirecionar_destino",
+  "name": "Redirecionar Destino",
+  "deities": ["thyatis"],
+  "description": "No início de cada dia, role um d20 e anote seu valor. Uma vez por rodada, quando uma criatura em alcance curto faz um teste, você pode gastar 3 PM para substituir o resultado do d20 desse teste pelo último valor anotado para este poder. O resultado do d20 substituído se torna seu novo valor anotado.",
+  "effects": { "type": "ativado", "preparo": "role 1d20 no início de cada dia e anote o valor", "frequencia": "1x_por_rodada", "custo_pm": 3, "gatilho": "criatura em alcance curto faz um teste", "efeito": "substitui o d20 do teste pelo valor anotado; o resultado substituído se torna o novo valor anotado" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

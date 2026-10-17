@@ -1,0 +1,14 @@
+{
+  "id": "colar_de_presas",
+  "name": "Colar de Presas",
+  "deities": ["megalokk"],
+  "subtipo": "acessorio",
+  "classificacao": "Acessório médio",
+  "preco": 21000,
+  "description": "Este adereço é feito com dentes e garras de monstros unidos por tendões. Se for vestido, fornece +2 em Intimidação, mas impõe –2 em Diplomacia. Mais do que isso, carrega em seu âmago o instinto brutal das feras e, se você for um devoto de Megalokk, fornece também +2 em testes de ataque e rolagens de dano com armas naturais.",
+  "effects": [
+    { "type": "passivo", "efeito": "+2 em Intimidação, -2 em Diplomacia" },
+    { "type": "devoto", "deity": "megalokk", "efeito": "+2 em testes de ataque e rolagens de dano com armas naturais" }
+  ],
+  "livro": "deuses_de_arton"
+}

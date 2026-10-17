@@ -1,0 +1,10 @@
+{
+  "id": "amigo_de_outro_mundo",
+  "name": "Amigo de Outro Mundo",
+  "description": "Você tem um amigo de outro mundo, uma criatura extraplanar que pode invocar em momentos de necessidade. Escolha um parceiro entre os parceiros básicos, ou entre pilly, luminar, pégaso ou dragonete. Uma vez feita, essa escolha não pode ser mudada. Você pode gastar uma ação de movimento e 2 PM para invocá-lo; ele aparece com um brilho de luz mágica e permanece até o fim da cena ou até ser destruído (um amigo destruído não pode ser invocado novamente por 1 dia). Seu amigo é um parceiro iniciante mas, para cada dois outros poderes da distinção, sobe um nível (de iniciante para veterano, de veterano para mestre).",
+  "effects": [
+    { "type": "ativado", "acao": "movimento", "custo_pm": 2, "duracao": "até o fim da cena ou até ser destruído (1 dia de espera se destruído)", "efeito": "invoca um parceiro extraplanar escolhido (parceiro básico, pilly, luminar, pégaso ou dragonete), iniciante", "escalavel": "sobe um nível (iniciante→veterano→mestre) a cada dois outros poderes da distinção" }
+  ],
+  "requirements": ["treinado em Religião", "capacidade de lançar magias divinas de 3º círculo", "Servo Divino"],
+  "livro": "deuses_de_arton"
+}

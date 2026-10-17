@@ -1,0 +1,10 @@
+{
+  "id": "exegeta_do_akzath",
+  "name": "Exegeta do Akzath",
+  "description": "Estudioso do Akzath, a filosofia cosmológica duyshidakk codificada por Thwor, capaz de interpretar sua posição no círculo de conceitos da Criação para compreender — e até alterar — eventos passados e futuros.",
+  "admissao": "Não há um caminho fixo: tudo depende de onde o candidato está no grande círculo do Akzath, e ações que o aproximem dos conceitos certos podem levá-lo a esse destino. Caminhos comuns incluem imersão profunda em estudo e conhecimento, afastamento radical de tudo que lhe é familiar (peregrinação, imersão em outra cultura), uma experiência de quase morte que muda sua forma de pensar, ou meditação/aprisionamento em isolamento. Duyshidakk ou não, devoto de Thwor ou não, a única coisa que importa é a posição do candidato no Akzath — muitos apenas 'descobrem' em retrospecto que sempre estiveram próximos dele.",
+  "marca_nome": "Compreender o Akzath",
+  "marca_descricao": "No início de cada cena, escolha uma perícia. Até o fim da cena, sempre que fizer um teste da perícia escolhida, você pode gastar 1 PM para substituí-lo por um teste de Religião.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

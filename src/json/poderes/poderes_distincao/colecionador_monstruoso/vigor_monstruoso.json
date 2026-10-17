@@ -1,0 +1,10 @@
+{
+  "id": "vigor_monstruoso",
+  "name": "Vigor Monstruoso",
+  "description": "Quando usa Forma Selvagem, para cada 1 PM gasto nessa habilidade você recebe 3 PV temporários.",
+  "effects": [
+    { "type": "passivo", "gatilho": "usar Forma Selvagem", "efeito": "3 PV temporários por PM gasto na habilidade" }
+  ],
+  "requirements": ["Forma Monstruosa"],
+  "livro": "deuses_de_arton"
+}

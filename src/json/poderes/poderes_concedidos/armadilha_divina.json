@@ -1,0 +1,9 @@
+{
+  "id": "armadilha_divina",
+  "name": "Armadilha Divina",
+  "deities": ["hyninn"],
+  "description": "Você recebe um poder de Armadilha do caçador a sua escolha. Por ser criada a partir de energia divina, essa armadilha pode ser preparada em locais sem os materiais propícios.",
+  "effects": { "type": "passivo", "efeito": "concede um poder de Armadilha do caçador à escolha; a armadilha pode ser preparada sem os materiais normalmente exigidos" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

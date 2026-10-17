@@ -1,0 +1,40 @@
+{
+  "id": "eiradaan_nobre",
+  "name": "Eiradaan Nobre",
+  "nd": 13,
+  "tipo": "Espírito",
+  "subtipo": "eiradaan",
+  "tamanho": "médio",
+  "grupo": "fadas",
+  "pv": 470,
+  "pm": 65,
+  "defesa": 41,
+  "salvaguardas": { "fort": 14, "ref": 19, "von": 26 },
+  "resistencia_a_magia": 4,
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 16,
+  "percepcao": 14,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 2, "des": 4, "con": 3, "int": 2, "sab": 4, "car": 6 },
+  "pericias": { "cavalgar": 16, "conhecimento": 14, "diplomacia": 18, "intuicao": 14, "misticismo": 14, "sobrevivencia": 14 },
+  "ataques": [
+    { "nome": "Espada Longa de Mitral", "quantidade": 2, "bonus": 35, "dano": [{ "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 52, "tipo": "corte" }], "critico": "18" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Canção da Melancolia", "descricao": "Quando faz um teste de Vontade contra efeitos mentais, o eiradaan nobre rola dois dados e usa o pior resultado." },
+    { "nome": "Código de Honra", "descricao": "O eiradaan não pode atacar um oponente pelas costas (não se beneficia do bônus de flanquear), caído, desprevenido ou incapaz de lutar." },
+    { "nome": "Duelo", "acao": "livre", "custo_pm": 2, "descricao": "O eiradaan escolhe um oponente em alcance curto e recebe +2 em testes de ataque e rolagens de dano contra ele até o fim da cena ou até atacar outro oponente." },
+    { "nome": "Montaria Celestial", "descricao": "O eiradaan cavalga um gamo celestial, parceiro montaria Grande. Montado, seu deslocamento se torna 15m e recebe uma ação de movimento extra (apenas para se deslocar)." },
+    { "nome": "Sentidos Místicos", "descricao": "O eiradaan está sempre sob o efeito básico de Visão Mística." },
+    { "nome": "Magias (feiticeiro 13º, CD 37; lança magias montado sem testes de concentração; custo de aprimoramentos reduzido em -1 PM, já contabilizado)", "descricao": "Concentração de Combate (padrão, 7 PM): até o fim da cena, ataques do eiradaan rolam dois dados e usam o melhor; ataques contra ele rolam dois e usam o pior. Libertação (padrão, 9 PM): fica imune a efeitos de movimento. Relâmpago (padrão, 15 PM): 16d8 de dano de eletricidade em criaturas escolhidas em alcance médio (Ref reduz à metade). Selo de Mana (padrão, 6 PM): criatura adjacente deve passar em Vontade sempre que gastar PM, ou a ação falha mas os PM são gastos mesmo assim. Velocidade (padrão, 3 PM, sustentada): ação padrão adicional por turno, não usável para magias." },
+    { "nome": "Parceiro (Gamo)", "descricao": "O gamo é um parceiro montaria (Grande). Iniciante: deslocamento 12m, ignora terreno difícil. Veterano: deslocamento de voo 12m. Mestre: gasta uma ação completa e 10 PM para transportar a si e ao gamo para o Plano Etéreo." }
+  ],
+  "equipamento": ["espada_longa_de_mitral"],
+  "tesouro": "Padrão.",
+  "description": "Cavaleiro feérico, guardião, guerreiro e soldado de elite da Rainha das Fadas, montado em um gamo celestial. Vive conforme códigos de honra e glória, duelando e protegendo locais sagrados.",
+  "livro": "deuses_de_arton"
+}

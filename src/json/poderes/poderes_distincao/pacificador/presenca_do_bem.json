@@ -1,0 +1,10 @@
+{
+  "id": "presenca_do_bem",
+  "name": "Presença do Bem",
+  "description": "Você pode gastar uma ação de movimento e 1 PM para fornecer +2 na Defesa e em testes de resistência a você e todos os aliados adjacentes até o fim da cena. O bônus se encerra para uma criatura se ela causar dano letal.",
+  "effects": [
+    { "type": "ativado", "acao": "movimento", "custo_pm": 1, "efeito": "+2 na Defesa e em testes de resistência para você e aliados adjacentes, até o fim da cena", "cancelamento": "o bônus termina para a criatura que causar dano letal" }
+  ],
+  "requirements": ["Combate Pacífico"],
+  "livro": "deuses_de_arton"
+}

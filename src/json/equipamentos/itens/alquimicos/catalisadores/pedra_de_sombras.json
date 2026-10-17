@@ -1,0 +1,14 @@
+{
+  "id": "pedra_de_sombras",
+  "name": "Pedra de Sombras",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 30,
+  "espacos": 0.5,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": { "reducao_custo_pm_magias_trevas": 1 },
+  "description": "Este fragmento de escuridão sólida reduz em –1 PM o custo de magias de trevas.",
+  "livro": "deuses_de_arton"
+}

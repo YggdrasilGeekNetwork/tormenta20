@@ -1,0 +1,10 @@
+{
+  "id": "sopro_compartilhado",
+  "name": "Sopro Compartilhado",
+  "description": "Você recebe o poder concedido Baforada Dracônica para o elemento do sopro de seu companheiro dragão. Se você já possui esse poder, seu dano total aumenta em mais dois dados e, quando usa seu sopro, você pode escolher entre afetar uma criatura em alcance médio ou todas as criaturas em um cone de 6m.",
+  "effects": [
+    { "type": "passivo", "efeito": "concede Baforada Dracônica no elemento do sopro do companheiro dragão", "interacao": "se já possuir o poder, +2 dados de dano e escolha entre alvo único (alcance médio) ou cone de 6m" }
+  ],
+  "requirements": ["Ira Dracônica"],
+  "livro": "deuses_de_arton"
+}

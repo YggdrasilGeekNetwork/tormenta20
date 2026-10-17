@@ -1,0 +1,10 @@
+{
+  "id": "rir_de_tudo",
+  "name": "Rir de Tudo",
+  "description": "Uma vez por cena, quando fizer um teste de resistência contra uma habilidade de um inimigo, você pode gastar 3 PM para usar Atuação no lugar da perícia apropriada. Se fizer isso e passar no teste, você reverte o efeito: qualquer dano ou perda de vida se torna pontos de vida temporários (que desaparecem ao fim da cena) e qualquer penalidade numérica se torna um bônus equivalente até o fim da cena.",
+  "effects": [
+    { "type": "ativado", "frequencia": "1x_por_cena", "custo_pm": 3, "efeito": "usa Atuação no lugar da perícia de resistência apropriada; se passar, dano/perda de PV vira PV temporário e penalidades numéricas viram bônus equivalentes até o fim da cena" }
+  ],
+  "requirements": ["Arremedar"],
+  "livro": "deuses_de_arton"
+}

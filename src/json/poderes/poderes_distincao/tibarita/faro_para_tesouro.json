@@ -1,0 +1,10 @@
+{
+  "id": "faro_para_tesouro",
+  "name": "Faro para Tesouro",
+  "description": "Sempre que é feita uma rolagem para determinar a chance de você ganhar dinheiro e/ou a quantidade de dinheiro que será obtida (incluindo recompensas aleatórias e rolagens de tesouros), você rola duas vezes e escolhe entre um dos resultados.",
+  "effects": [
+    { "type": "passivo", "gatilho": "rolagem para ganhar dinheiro ou determinar sua quantidade (recompensas, tesouros)", "efeito": "rola duas vezes e escolhe o resultado" }
+  ],
+  "requirements": ["O Preço do Sucesso"],
+  "livro": "deuses_de_arton"
+}

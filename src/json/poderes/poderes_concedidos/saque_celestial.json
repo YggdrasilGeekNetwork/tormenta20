@@ -1,0 +1,9 @@
+{
+  "id": "saque_celestial",
+  "name": "Saque Celestial",
+  "deities": ["lin_wu"],
+  "description": "Você pode gastar 1 PM para sacar ou guardar uma arma como uma ação livre. Se sacar sua arma e fizer um ataque corpo a corpo no mesmo turno, você recebe +2 nesse teste de ataque e seu dano aumenta em dois passos (apenas uma vez contra cada criatura por cena).",
+  "effects": { "type": "ativado", "custo_pm": 1, "acao": "livre", "efeito": "saca ou guarda uma arma; se sacar e atacar corpo a corpo no mesmo turno, +2 no teste de ataque e dano aumenta 2 passos (uma vez por criatura por cena)" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

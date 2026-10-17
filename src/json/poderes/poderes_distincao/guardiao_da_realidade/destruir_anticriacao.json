@@ -1,0 +1,10 @@
+{
+  "id": "destruir_anticriacao",
+  "name": "Destruir Anticriação",
+  "description": "Quando faz um ataque corpo a corpo, você pode gastar 2 PM para canalizar a realidade em seu golpe. Você soma seu Carisma ao teste de ataque e +1d8 à rolagem de dano e, se o alvo for uma criatura da Tormenta, ignora sua imunidade a acertos críticos. Se possuir a habilidade Golpe Divino, em vez disso ela causa dois dados extras de dano e ignora a imunidade a acertos críticos de criaturas da Tormenta.",
+  "effects": [
+    { "type": "ativado", "custo_pm": 2, "gatilho": "ataque corpo a corpo", "bonus_ataque": "soma Carisma", "bonus_dano": "+1d8", "efeito_adicional": "ignora imunidade a acerto crítico de criaturas da Tormenta", "interacao": "se possuir Golpe Divino, esta aplica +2 dados extras de dano e a mesma ruptura de imunidade, em vez do efeito padrão" }
+  ],
+  "requirements": ["treinado em Luta", "Vontade de Ferro"],
+  "livro": "deuses_de_arton"
+}

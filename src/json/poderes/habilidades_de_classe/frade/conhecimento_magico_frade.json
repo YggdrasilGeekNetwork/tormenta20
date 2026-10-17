@@ -1,0 +1,12 @@
+{
+  "id": "conhecimento_magico_frade",
+  "name": "Conhecimento Mágico",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Você aprende duas magias de qualquer círculo que possa lançar. Você pode escolher este poder quantas vezes quiser.",
+  "requirements": [],
+  "effects": [
+    { "type": "passivo", "efeito": "aprende 2 magias de qualquer círculo acessível", "repetivel": true }
+  ],
+  "livro": "deuses_de_arton"
+}

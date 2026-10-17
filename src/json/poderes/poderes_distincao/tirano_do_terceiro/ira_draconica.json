@@ -1,0 +1,10 @@
+{
+  "id": "ira_draconica",
+  "name": "Ira Dracônica",
+  "description": "Você pode gastar 3 PM para invocar o aspecto combativo de Kallyadranoch até o fim da cena. Você recebe redução de dano 5 e +2 em testes de ataque, rolagens de dano e na CD de seu Sopro Compartilhado e de suas habilidades mágicas.",
+  "effects": [
+    { "type": "ativado", "custo_pm": 3, "duracao": "até o fim da cena", "efeito": "RD 5, +2 em testes de ataque, rolagens de dano e na CD do Sopro Compartilhado e de habilidades mágicas" }
+  ],
+  "requirements": ["treinado em Luta", "Aspecto de Kallyadranoch"],
+  "livro": "deuses_de_arton"
+}

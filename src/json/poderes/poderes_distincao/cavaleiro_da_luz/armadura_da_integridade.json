@@ -1,0 +1,10 @@
+{
+  "id": "armadura_da_integridade",
+  "name": "Armadura da Integridade",
+  "description": "Na primeira rodada de um combate, você pode gastar uma ação de movimento e 3 PM para fazer um teste de Diplomacia. Para cada 10 pontos no resultado desse teste, seus inimigos em alcance médio sofrem –1 em rolagens de dano até o fim da cena ou até você ficar inconsciente.",
+  "effects": [
+    { "type": "ativado", "acao": "movimento", "custo_pm": 3, "restricao": "apenas na primeira rodada de combate", "teste": "Diplomacia", "efeito": "a cada 10 no resultado, inimigos em alcance médio sofrem -1 em rolagens de dano até o fim da cena ou até você ficar inconsciente" }
+  ],
+  "requirements": ["treinado em Diplomacia", "Alcunha"],
+  "livro": "deuses_de_arton"
+}

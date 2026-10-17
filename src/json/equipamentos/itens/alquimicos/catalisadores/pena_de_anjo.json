@@ -1,0 +1,17 @@
+{
+  "id": "pena_de_anjo",
+  "name": "Pena de Anjo",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 30,
+  "espacos": 0.5,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "gatilho": "catalisador em magia divina",
+    "efeito": "alvos recuperam 1d8 PV (além dos efeitos da magia)"
+  },
+  "description": "Um presente sagrado, estas penas são concedidas apenas aos mais devotados… ou compradas nos templos das principais religiões de Arton. Os alvos de uma magia divina lançada com uma pena de anjo recuperam 1d8 PV (além dos efeitos da magia).",
+  "livro": "deuses_de_arton"
+}

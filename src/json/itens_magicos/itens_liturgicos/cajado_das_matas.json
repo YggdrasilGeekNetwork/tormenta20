@@ -1,0 +1,15 @@
+{
+  "id": "cajado_das_matas",
+  "name": "Cajado das Matas",
+  "deities": ["allihanna"],
+  "subtipo": "arma",
+  "base_item": "bordao",
+  "classificacao": "Arma específica menor",
+  "preco": 27000,
+  "description": "Este bordão é feito com galhos retorcidos e trançados com couro. Se você for devoto de Allihanna, ele se torna um bordão formidável e, enquanto você estiver ao ar livre e pisando sobre terra, fornece +2 na Defesa (cumulativo com outros bônus de itens). Se for um devoto de patamar campeão ou superior, a arma se torna um bordão magnífico.",
+  "effects": [
+    { "type": "devoto", "deity": "allihanna", "enchantment": "formidável", "condicao": "ao ar livre e pisando sobre terra", "efeito": "+2 na Defesa (cumulativo com outros bônus de itens)" },
+    { "type": "devoto_patamar", "deity": "allihanna", "patamar_minimo": "campeao", "enchantment": "magnífico" }
+  ],
+  "livro": "deuses_de_arton"
+}

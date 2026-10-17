@@ -1,0 +1,15 @@
+{
+  "id": "memorizar_liturgia",
+  "name": "Memorizar Liturgia",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Uma vez por dia, você pode gastar 1 hora de estudo e um número de pergaminhos que contenham magias divinas igual ou menor que sua Inteligência. Até o fim do dia, você pode lançar as magias contidas nesses pergaminhos como se as conhecesse ou, se já conhecia a magia, você soma sua Inteligência no limite de PM para lançá-la.",
+  "requirements": [
+    { "type": "feature", "sub_type": "hard", "id": "copista" },
+    { "type": "character_lvl", "sub_type": "hard", "value": 8, "note": "8º nível de frade" }
+  ],
+  "effects": [
+    { "type": "ativado", "frequencia": "1x_por_dia", "tempo": "1 hora", "custo": "pergaminhos com magias divinas, em número até sua Inteligência", "efeito": "até o fim do dia, lança as magias desses pergaminhos como se as conhecesse; se já as conhece, soma a Inteligência ao limite de PM para lançá-las" }
+  ],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,37 @@
+{
+  "id": "shiradi",
+  "name": "Shiradi",
+  "nd": 7,
+  "tipo": "Espírito",
+  "subtipo": "celestial",
+  "tamanho": "grande",
+  "grupo": "celestiais",
+  "pv": 299,
+  "pm": null,
+  "defesa": 29,
+  "salvaguardas": { "fort": 14, "ref": 19, "von": 7 },
+  "reducao_de_dano": 10,
+  "imunidades": ["efeitos de metabolismo", "efeitos de movimento", "surpreendido"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 10,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 15 },
+  "atributos": { "for": 4, "des": 3, "con": 4, "int": 2, "sab": 1, "car": 6 },
+  "pericias": { "atuacao": 13, "furtividade": 12, "investigacao": 9, "intimidacao": 13 },
+  "ataques": [
+    { "nome": "Garra", "quantidade": 2, "bonus": 26, "dano": [{ "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 18, "tipo": "corte" }], "critico": "19" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão Aprimorada", "descricao": "O shiradi possui Evasão Aprimorada." },
+    { "nome": "Brincar com a Comida", "acao": "padrão", "salvaguarda": "Fortitude", "cd": 24, "efeito_sucesso": "reduz arremesso para 3m e evita condição", "descricao": "O shiradi faz dois ataques de garra contra uma criatura, causando dano não letal; se ambos acertarem, a criatura é arremessada 6m e fica confusa por 1 rodada (Fort CD 24 reduz o arremesso para 3m e evita a condição)." },
+    { "nome": "Entrada Majestosa", "salvaguarda": "Vontade", "cd": 24, "efeito_sucesso": "reduz para 1 rodada", "descricao": "Quando uma criatura vê o shiradi pela primeira vez na cena, fica fascinada por 1d4+1 rodadas (Von CD 24 reduz para 1 rodada)." },
+    { "nome": "Presença Libertadora", "descricao": "Criaturas em alcance curto do shiradi recebem +5 em testes contra efeitos de movimento." },
+    { "nome": "Rugido Divino", "acao": "padrão", "salvaguarda": "Vontade", "cd": 24, "efeito_sucesso": "reduz para abaladas por 1d4+1 rodadas", "descricao": "Criaturas em alcance curto do shiradi ficam apavoradas por 1d4 rodadas e depois abaladas (Von CD 24 reduz para abaladas por 1d4+1 rodadas). Recarga (movimento)." }
+  ],
+  "equipamento": ["simbolo_sagrado_de_valkaria"],
+  "tesouro": "Nenhum.",
+  "description": "Grande felino humanoide alado com cabeça, garras e cauda de leão, pelagem dourada e porte majestoso. Celestial campeão da liberdade, combate tiranos e liberta prisioneiros, mas gosta de brincar com suas presas antes de abatê-las.",
+  "livro": "deuses_de_arton"
+}

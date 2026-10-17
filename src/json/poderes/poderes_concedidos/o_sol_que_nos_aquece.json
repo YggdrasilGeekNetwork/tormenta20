@@ -1,0 +1,9 @@
+{
+  "id": "o_sol_que_nos_aquece",
+  "name": "O Sol que nos Aquece",
+  "deities": ["allihanna", "azgher"],
+  "description": "Você pode gastar uma ação padrão e 2 PM para projetar uma aura de luz solar em um raio de 6m. Nessa área, habilidades mágicas de fogo ou luz e relacionadas a plantas (como Controlar Plantas) custam –1 PM (cumulativo com outras reduções) e criaturas com sensibilidade a luz e mortos-vivos ficam vulneráveis.",
+  "effects": { "type": "ativado", "acao": "padrão", "custo_pm": 2, "alcance": "6m de raio", "efeito": "habilidades mágicas de fogo, luz ou relacionadas a plantas custam -1 PM (cumulativo); criaturas com sensibilidade a luz e mortos-vivos ficam vulneráveis na área" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

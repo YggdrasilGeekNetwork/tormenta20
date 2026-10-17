@@ -1,0 +1,10 @@
+{
+  "id": "no_ritmo_da_magia",
+  "name": "No Ritmo da Magia",
+  "description": "Enquanto está em Transe Dançante, você pode lançar a magia Salto Dimensional. Caso aprenda essa magia, durante o Transe o custo dela diminui em –1 PM.",
+  "effects": [
+    { "type": "passivo", "condicao": "em Transe Dançante", "efeito": "pode lançar Salto Dimensional; se já a conhece, custo -1 PM durante o Transe" }
+  ],
+  "requirements": ["Transe Dançante"],
+  "livro": "deuses_de_arton"
+}

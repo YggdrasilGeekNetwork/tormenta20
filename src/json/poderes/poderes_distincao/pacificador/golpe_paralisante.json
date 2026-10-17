@@ -1,0 +1,10 @@
+{
+  "id": "golpe_paralisante",
+  "name": "Golpe Paralisante",
+  "description": "Você pode gastar uma ação padrão e 3 PM para interromper o fluxo de energia corporal de uma criatura adjacente. A vítima fica paralisada (Fortitude CD For ou Des reduz para lenta). A cada rodada, a criatura pode gastar uma ação completa para fazer um novo teste de Fortitude; se passar, liberta-se do efeito. Para cada poder da distinção que você possui, a CD para resistir a este efeito aumenta em +1. Metabolismo.",
+  "effects": [
+    { "type": "ativado", "acao": "padrão", "custo_pm": 3, "alcance": "adjacente", "teste_resistencia": "Fortitude CD For ou Des (reduz a lenta)", "efeito": "paralisia; vítima pode gastar ação completa por rodada para novo teste e se libertar", "escalavel": "CD +1 por poder da distinção que possui", "tag": "metabolismo" }
+  ],
+  "requirements": ["Dor sem Morte"],
+  "livro": "deuses_de_arton"
+}

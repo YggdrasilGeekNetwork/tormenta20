@@ -1,0 +1,16 @@
+{
+  "id": "cajado_de_pastor",
+  "name": "Cajado de Pastor",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 12,
+  "espacos": 2,
+  "uso": "empunhado",
+  "efeito": {
+    "condicao": "rezar uma Missa usando este item",
+    "bonus_participante": { "pv_temporarios": 5, "pm_temporarios": 1 },
+    "cumulativo_com_missa": true
+  },
+  "description": "Um cajado comprido, com uma extremidade reta e a outra em semicírculo. Usado originalmente para guiar ovelhas, é símbolo de algumas religiões pacíficas e campestres. Se você rezar uma Missa usando um cajado de pastor, cada participante recebe 5 PV e 1 PM temporários (cumulativos com os efeitos da missa).",
+  "livro": "deuses_de_arton"
+}

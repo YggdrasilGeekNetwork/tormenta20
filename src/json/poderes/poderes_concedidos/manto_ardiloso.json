@@ -1,0 +1,9 @@
+{
+  "id": "manto_ardiloso",
+  "name": "Manto Ardiloso",
+  "deities": ["sszzaas"],
+  "description": "Você aprende a magia Disfarce Ilusório (CD Car). Na primeira vez que interage com alguém enquanto está sob efeito dessa magia, você recebe +10 no teste de Diplomacia para mudar a atitude dela. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+  "effects": { "type": "passivo", "efeito": "aprende Disfarce Ilusório (CD Car); +10 em Diplomacia na primeira interação sob o efeito; aprender de novo reduz custo em -1 PM" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

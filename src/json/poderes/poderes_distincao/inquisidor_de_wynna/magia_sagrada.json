@@ -1,0 +1,10 @@
+{
+  "id": "magia_sagrada",
+  "name": "Magia Sagrada",
+  "description": "Quando lança uma magia que causa dano, você pode gastar 2 PM para receber +2 na CD e +1d8 na rolagem de dano da magia. Para cada outro poder da distinção que possuir, você pode gastar +1 PM para aumentar o dano em +1d8.",
+  "effects": [
+    { "type": "ativado", "gatilho": "lançar magia que causa dano", "custo_pm": 2, "efeito": "+2 na CD e +1d8 no dano", "escalavel": "+1 PM adicional por outro poder da distinção, cada um dando +1d8 de dano extra" }
+  ],
+  "requirements": ["Golpe Purificador", "Orar"],
+  "livro": "deuses_de_arton"
+}

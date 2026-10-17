@@ -1,0 +1,9 @@
+{
+  "id": "fundamentalista",
+  "name": "Fundamentalista",
+  "description": "Regra geral de devoção (Deuses de Arton, Cap. 1, p.11). Um fundamentalista é um devoto extremo, que segue não só as Obrigações & Restrições padrão de sua divindade à risca, mas também dogmas adicionais, mais rígidos, específicos da divindade. Em troca de tamanha lealdade, recebe um poder concedido adicional.",
+  "beneficio": "+1 poder concedido adicional.",
+  "penalidade": "Segue as Obrigações & Restrições padrão e também os dogmas específicos de sua divindade. Ao violar qualquer um deles, perde seus pontos de mana e habilidades de classe divina, recuperáveis apenas após um descanso a partir do dia seguinte. Se violar novamente na mesma aventura, só recupera PM e habilidades após cumprir uma penitência imposta por outro fundamentalista do mesmo deus. Fundamentalistas só usam a arma favorita de sua divindade — usar qualquer outra é violação de dogma.",
+  "restricao_de_classe": "Praticamente só clérigos, druidas, frades e paladinos se tornam fundamentalistas (as classes mais próximas dos deuses); outras classes podem, mas adotam o dogma de uma dessas quatro classes por afinidade, com o mesmo benefício e penalidade.",
+  "livro": "deuses_de_arton"
+}

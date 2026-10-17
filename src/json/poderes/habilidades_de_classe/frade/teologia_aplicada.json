@@ -1,0 +1,12 @@
+{
+  "id": "teologia_aplicada",
+  "name": "Teologia Aplicada",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Escolha duas perícias. Quando faz um teste de uma dessas perícias (exceto testes de ataque), você pode gastar 1 PM para rolar novamente esse teste, usando Religião. Você pode escolher este poder outras vezes para perícias diferentes.",
+  "requirements": [],
+  "effects": [
+    { "type": "ativado", "custo_pm": 1, "gatilho": "teste de uma das duas perícias escolhidas (exceto ataque)", "efeito": "rola novamente o teste usando Religião" }
+  ],
+  "livro": "deuses_de_arton"
+}

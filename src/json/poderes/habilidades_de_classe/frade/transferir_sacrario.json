@@ -1,0 +1,12 @@
+{
+  "id": "transferir_sacrario",
+  "name": "Transferir Sacrário",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Você pode gastar uma ação de movimento e 1 PM para transferir um de seus sacrários no alcance em que você pode criá-lo para outro ponto no mesmo alcance.",
+  "requirements": [],
+  "effects": [
+    { "type": "ativado", "acao": "movimento", "custo_pm": 1, "efeito": "move um sacrário existente para outro ponto dentro do alcance em que ele poderia ser criado" }
+  ],
+  "livro": "deuses_de_arton"
+}

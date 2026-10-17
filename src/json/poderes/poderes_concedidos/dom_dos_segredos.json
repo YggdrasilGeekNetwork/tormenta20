@@ -1,0 +1,9 @@
+{
+  "id": "dom_dos_segredos",
+  "name": "Dom dos Segredos",
+  "deities": ["sszzaas"],
+  "description": "Você pode gastar uma ação padrão e 2 PM para suplicar a Sszzaas por um segredo místico. Faça um teste de Carisma (CD 10, +2 para cada vez que usou este poder no mesmo dia). Se passar, você aprende e pode lançar uma magia de 1º círculo até o fim da cena (atributo-chave Car ou o seu atributo de conjuração, se houver).",
+  "effects": { "type": "ativado", "acao": "padrão", "custo_pm": 2, "teste": "Carisma, CD 10 +2 por uso no mesmo dia", "efeito": "se passar, aprende e lança uma magia de 1º círculo até o fim da cena (atributo-chave Carisma ou o de conjuração, se houver)" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "jubilo_na_dor",
+  "name": "Júbilo na Dor",
+  "deities": ["aharadak"],
+  "description": "Quando causa ou sofre dano, você recebe redução de dano 1. Esse efeito é cumulativo e limitado por sua Sabedoria e termina se você passar 1 rodada sem causar ou sofrer dano.",
+  "effects": { "type": "passivo", "gatilho": "causar ou sofrer dano", "efeito": "ganha RD 1, cumulativo e limitado pela Sabedoria", "termino": "termina após 1 rodada sem causar ou sofrer dano" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

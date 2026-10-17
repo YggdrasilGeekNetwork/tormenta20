@@ -1,0 +1,10 @@
+{
+  "id": "poder_improvisado",
+  "name": "Poder Improvisado",
+  "description": "Você pode gastar uma ação padrão e 3 PM para pensar em uma solução criativa para um problema a sua frente. Escolha um poder de classe ou geral (exceto poderes concedidos e da Tormenta) cujos pré-requisitos você cumpra. Para efeitos desse poder, considere que seu nível em qualquer classe é igual ao seu total de poderes da distinção. Até o fim da cena, ou até usar este poder novamente, você pode utilizar o poder escolhido.",
+  "effects": [
+    { "type": "ativado", "acao": "padrão", "custo_pm": 3, "efeito": "escolhe um poder de classe ou geral (exceto concedido/tormenta) cujos pré-requisitos cumpra, tratando seu nível de classe como igual ao total de poderes da distinção; pode usá-lo até o fim da cena ou até reusar este poder" }
+  ],
+  "requirements": ["Gambiarra Mestra"],
+  "livro": "deuses_de_arton"
+}

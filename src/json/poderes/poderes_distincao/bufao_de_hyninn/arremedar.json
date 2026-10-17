@@ -1,0 +1,10 @@
+{
+  "id": "arremedar",
+  "name": "Arremedar",
+  "description": "Uma vez por rodada, quando uma criatura em alcance curto que você possa ver faz um teste de perícia, você pode imitá-la da forma mais ridícula possível: faça um teste de Atuação para ajudar, mas em vez de fornecer um bônus, você impõe uma penalidade ao teste da criatura.",
+  "effects": [
+    { "type": "ativado", "frequencia": "1x_por_rodada", "efeito": "teste de Atuação para ajudar, mas impõe penalidade em vez de bônus ao teste de perícia de uma criatura em alcance curto" }
+  ],
+  "requirements": ["Cabriolas de Bobo"],
+  "livro": "deuses_de_arton"
+}

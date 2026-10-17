@@ -1,0 +1,9 @@
+{
+  "id": "quebrar_encanto",
+  "name": "Quebrar Encanto",
+  "deities": ["khalmyr"],
+  "description": "Você recebe +2 em testes de ataque para quebrar. Quando usa essa manobra, você pode gastar 2 PM. Se você acertar o ataque, o item e seu portador sofrem o efeito de Dissipar Magia, usando o resultado do teste de quebrar como teste de Misticismo e CD para resistir.",
+  "effects": { "type": "passivo", "efeito": "+2 em testes de ataque para quebrar", "extra": { "type": "ativado", "gatilho": "usar a manobra quebrar", "custo_pm": 2, "efeito": "se acertar, item e portador sofrem Dissipar Magia, usando o resultado do teste de quebrar como teste de Misticismo e CD" } },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

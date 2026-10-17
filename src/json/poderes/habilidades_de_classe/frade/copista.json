@@ -1,0 +1,14 @@
+{
+  "id": "copista",
+  "name": "Copista",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Você pode criar pergaminhos, como se tivesse o poder Escrever Pergaminho. Se tiver ambos, pode fabricar o dobro de pergaminhos ao mesmo tempo (pagando o custo de matéria-prima de ambos).",
+  "requirements": [
+    { "type": "trained_skill", "sub_type": "hard", "skill": "oficio_escriba" }
+  ],
+  "effects": [
+    { "type": "passivo", "efeito": "pode criar pergaminhos como se tivesse Escrever Pergaminho; se já o possuir, dobra a quantidade fabricada simultaneamente (pagando matéria-prima de ambos)" }
+  ],
+  "livro": "deuses_de_arton"
+}

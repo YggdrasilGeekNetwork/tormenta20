@@ -1,0 +1,16 @@
+{
+  "id": "sandalias",
+  "name": "Sandálias",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 9,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "penalidade": { "resistir_clima_e_derrubado": -2 },
+    "bonus": { "pm": 1 },
+    "requer_bonus": "ser um conjurador divino"
+  },
+  "description": "Um solado resistente para proteger os pés de objetos pontiagudos como pedras e espinhos, mas não da chuva. Muitas vezes sandálias são usadas como sinal de humildade e abnegação. Impõem uma penalidade de –2 em testes para resistir a condições climáticas e para evitar ser derrubado no chão. Entretanto, fornecem +1 ponto de mana, mas apenas se você for um conjurador divino.",
+  "livro": "deuses_de_arton"
+}

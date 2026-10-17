@@ -1,0 +1,37 @@
+{
+  "id": "duende_maior",
+  "name": "Duende Maior",
+  "nd": 5,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "fadas",
+  "pv": 127,
+  "pm": 34,
+  "defesa": 22,
+  "salvaguardas": { "fort": 6, "ref": 12, "von": 16 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 8,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 2, "con": 2, "int": 2, "sab": 2, "car": 4 },
+  "pericias": { "conhecimento": 8, "enganacao": 10, "furtividade": 8, "misticismo": 8 },
+  "ataques": [
+    { "nome": "Adaga", "bonus": 15, "dano": [{ "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 8, "tipo": "perfuração" }], "critico": "19" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "O duende maior possui Evasão." },
+    { "nome": "Sortudo", "acao": "reação", "custo_pm": 3, "descricao": "Quando faz um teste, o duende maior o rola novamente." },
+    { "nome": "Tabu", "descricao": "Todo duende possui um tabu que pode ser descoberto com um teste de Conhecimento (CD 30) ou de Investigação (CD 20). Um personagem que conheça o tabu pode forçar o duende a ajudar com um teste de Enganação oposto a Vontade. Quando impedido de cumprir seu tabu, o duende morre em 1d4+1 dias." },
+    { "nome": "Magia Discreta", "acao": "livre", "custo_pm": 2, "descricao": "Quando lança uma magia, o duende não precisa gesticular ou falar e pode lançar com as mãos presas, amordaçado etc. Perceber que ele lançou uma magia exige passar em um teste de Misticismo (CD 20)." },
+    { "nome": "Magias (conjurador arcano 5º, CD 22)", "descricao": "Enfeitiçar (padrão, 1 PM): humanoide em alcance curto fica enfeitiçado (Vontade evita). Dissipar Magia (padrão, 3 PM): dissipa magias com CD igual ou menor ao teste de Misticismo. Invisibilidade (padrão, 5 PM): fica invisível até o fim da cena ou até ação hostil, com camuflagem total e +10 em Furtividade contra ouvir. Sussurros Insanos (padrão, 3 PM): humanoide em alcance curto fica confuso (Von anula)." }
+  ],
+  "equipamento": ["adaga"],
+  "tesouro": "Padrão.",
+  "description": "Versão mais poderosa e inteligente do duende, com domínio de magias de dissipação e invisibilidade. Mantém o mesmo tabu fatal de todo duende.",
+  "livro": "deuses_de_arton"
+}

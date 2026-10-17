@@ -1,0 +1,15 @@
+{
+  "id": "bordao_sabichao",
+  "name": "Bordão Sabichão",
+  "deities": ["tanna_toh"],
+  "subtipo": "arma",
+  "base_item": "bordao",
+  "classificacao": "Arma específica maior",
+  "preco": 72000,
+  "description": "Este bordão maciço é feito de metal e cravejado de gemas, todas da mesma cor (cada cajado individual tem sua cor). Se você for um devoto de Tanna-Toh, ele se torna um bordão maciço formidável piedoso. Além disso, sempre que você faz um teste de perícia, pode gastar 2 PM. Nesse caso, o item sussurra um conselho ou lembrete, permitindo que você some sua Sabedoria ao teste.",
+  "effects": [
+    { "type": "passivo", "enchantment": "maciço" },
+    { "type": "devoto", "deity": "tanna_toh", "enchantment": "maciço formidável piedoso", "custo_pm": 2, "gatilho": "fazer um teste de perícia", "efeito": "soma a Sabedoria ao teste" }
+  ],
+  "livro": "deuses_de_arton"
+}

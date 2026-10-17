@@ -1,0 +1,10 @@
+{
+  "id": "pira_da_inquisicao",
+  "name": "Pira da Inquisição",
+  "description": "Enquanto sua Aura Sagrada estiver ativa, no início de seus turnos, você gera um efeito semelhante a Dissipar Magia (usando Vontade no lugar de Misticismo) em criaturas e objetos a sua escolha na área. Para cada círculo de magia dissipada dessa forma, seu conjurador sofre 1d8+1 pontos de dano de essência.",
+  "effects": [
+    { "type": "passivo", "condicao": "Aura Sagrada ativa", "gatilho": "início de cada um dos seus turnos", "efeito": "efeito de Dissipar Magia (usando Vontade) em alvos escolhidos na área; para cada círculo dissipado, o conjurador da magia sofre 1d8+1 de dano de essência" }
+  ],
+  "requirements": ["Aura Sagrada", "Golpe Purificador"],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "virtude_do_forjador",
+  "name": "Virtude do Forjador",
+  "description": "Você pode fabricar armas superiores com uma melhoria. Para cada outro poder da distinção que possuir, pode fabricar armas com uma melhoria adicional (até um máximo de 4 melhorias). Se aprender a fabricar armas superiores por outra habilidade, gasta metade do tempo para fabricá-las.",
+  "effects": [
+    { "type": "passivo", "efeito": "pode fabricar armas superiores com 1 melhoria, +1 melhoria por outro poder da distinção (máx. 4); metade do tempo de fabricação se já souber fazer armas superiores por outra habilidade" }
+  ],
+  "requirements": ["treinado em Luta e Ofício (armeiro)", "um poder concedido de Arsenal"],
+  "livro": "deuses_de_arton"
+}

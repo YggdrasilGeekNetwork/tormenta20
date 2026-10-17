@@ -1,0 +1,12 @@
+{
+  "id": "aumento_de_atributo_frade",
+  "name": "Aumento de Atributo",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo.",
+  "requirements": [],
+  "effects": [
+    { "type": "attribute_bonus", "value": 1, "attribute": "escolha", "limite": "1x por patamar por atributo" }
+  ],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "cavaleiro_de_khalmyr",
+  "name": "Cavaleiro de Khalmyr",
+  "description": "Sacerdote-guerreiro plebeu e recluso da Ordem de Khalmyr, que abre mão de posses e título para seguir a Norma e combater o mal sem objetivos pessoais.",
+  "admissao": "O candidato deve viajar até o Mosteiro de Khalmyr, nas Montanhas Lannestul, e se apresentar a um Líder de Destacamento, escolhendo o Destacamento que lhe parece mais adequado. O Líder o submete a uma série de testes (morais, de meditação ou físicos, variando por Destacamento); rejeitado por um Líder, não pode tentar com outro. Aprovado, recebe um mês de instrução de combate e teologia e a Primeira Bênção (todos os deveres, nenhum privilégio ainda). Abre mão de sobrenome, título de nobreza e posses que não caibam em seu cavalo, recebe equipamento básico da Ordem e parte em uma peregrinação de um ano combatendo o mal (pode ser acompanhado por um grupo). Ao retornar, presta contas à Alta Cúpula (doze cavaleiros); aprovado, recebe a Segunda Bênção, passa um dia e uma noite em jejum e meditação e é sagrado cavaleiro de Khalmyr.",
+  "marca_nome": "Seguir a Norma",
+  "marca_descricao": "Você segue o Código da Norma — nunca pode mentir, trapacear, roubar ou recusar ajuda a um inocente; não pode possuir títulos como cavaleiro/nobre, itens mágicos criados por não devotos de Khalmyr, mais posses do que carregue consigo, nem fixar residência por mais de 30 dias em uma comunidade (sem benefícios de bases/domínios). Violar o código faz perder todos os PM, recuperáveis só a partir do dia seguinte. Em troca, você recebe +2 em Fortitude e Vontade.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

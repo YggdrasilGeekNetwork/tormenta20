@@ -1,0 +1,10 @@
+{
+  "id": "presente_dos_deuses_do_sumo_sacerdote",
+  "name": "Presente dos Deuses",
+  "description": "Você recebe a habilidade Magias, como um clérigo de nível igual ao dobro dos poderes da distinção que você possui. Se já possui essa habilidade, em vez disso soma sua Sabedoria no limite de PM que pode gastar em magias divinas e em seu total de PM (cumulativo com efeitos que já o fazem).",
+  "effects": [
+    { "type": "passivo", "efeito": "concede a habilidade Magias como clérigo de nível = 2x o total de poderes da distinção; se já a possui, soma Sabedoria ao limite de PM gasto em magias divinas e ao total de PM, cumulativamente" }
+  ],
+  "requirements": ["Bênção do Patrono"],
+  "livro": "deuses_de_arton"
+}

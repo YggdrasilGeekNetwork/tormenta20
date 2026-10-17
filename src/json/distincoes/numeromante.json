@@ -1,0 +1,10 @@
+{
+  "id": "numeromante",
+  "name": "Numeromante",
+  "description": "Conjurador que descende da tradição matemática sar-allan e transforma raciocínio matemático em poder arcano, usando números como chave para manipular a realidade.",
+  "admissao": "O candidato precisa encontrar uma das raras escolas de numeromancia (um instituto na Academia Arcana, um templo de Tanna-Toh, ou os matemáticos sar-allan na Cidade no Deserto) e conseguir um orientador, que exige capacidade de lançar magias arcanas e conhecimento avançado de matemática. Segue então um currículo de disciplinas com provas e trabalhos, comparecendo a aulas ao menos algumas vezes por mês — processo que pode levar anos. Ao concluir as disciplinas, deve elaborar uma tese original sobre numeromancia, normalmente sozinho (o orientador costuma desaparecer nessa fase, retornando só para a banca final). Deve explicar o assunto da tese com suas próprias palavras e demonstrar os cálculos e provas aos avaliadores; se aprovada, torna-se um numeromante.",
+  "marca_nome": "Matemágica para Iniciantes",
+  "marca_descricao": "Sempre que você lançar uma magia com um custo em PM igual a um quadrado perfeito (1, 4, 9, 16, 25, 36 etc.), o custo de sua próxima magia lançada até o fim da cena diminui em –1 PM.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

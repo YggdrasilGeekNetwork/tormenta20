@@ -1,0 +1,14 @@
+{
+  "id": "kazidhaan",
+  "name": "Kazidhaan",
+  "description": "A arma do Lorde das Profundezas é uma montante atroz pungente magnífica profana, conhecida pelos abissais também como 'Eliminadora'. Seu poder mais assustador não é sua capacidade destrutiva, mas seu efeito sobre aqueles que ela derrota: se uma criatura tiver seus pontos de vida reduzidos a 0 ou menos por um ataque de Kazidhaan feito por um abissal, uma marca é inscrita permanentemente em sua pele. Enquanto tiver a marca, o abissal que a derrotou pode lhe dar comandos telepáticos (exceto ordens claramente suicidas) de qualquer lugar no mesmo Plano. A criatura pode resistir a um comando com um teste de Vontade (CD Car do abissal; 51 para Abahddon); se passar, resiste a esse comando específico por 1 dia. A marca só pode ser removida em um ritual de purificação realizado por pelo menos três clérigos com acesso a magias de 4º círculo, custando T$ 1.000.",
+  "effects": [
+    { "type": "weapon_type", "base": "montante" },
+    { "type": "enchantment", "name": "atroz" },
+    { "type": "enchantment", "name": "pungente" },
+    { "type": "enchantment", "name": "magnífica" },
+    { "type": "enchantment", "name": "profana" },
+    { "type": "special", "gatilho": "reduzir uma criatura a 0 PV ou menos em um ataque feito por um abissal", "efeito": "marca permanente que permite comandos telepáticos no mesmo Plano; Vontade CD Car do abissal (51 para Abahddon) resiste por 1 dia; remoção exige ritual com 3 clérigos de 4º círculo, T$ 1.000" }
+  ],
+  "livro": "deuses_de_arton"
+}

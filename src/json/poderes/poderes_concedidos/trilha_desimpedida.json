@@ -1,0 +1,9 @@
+{
+  "id": "trilha_desimpedida",
+  "name": "Trilha Desimpedida",
+  "deities": ["allihanna"],
+  "description": "Você aprende e pode lançar a magia Caminhos da Natureza. Se aprender essa magia, o custo dela diminui em –1 PM.",
+  "effects": { "type": "passivo", "efeito": "aprende e pode lançar Caminhos da Natureza; aprender de novo reduz o custo em -1 PM" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

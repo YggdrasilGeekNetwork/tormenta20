@@ -1,0 +1,9 @@
+{
+  "id": "remorso_do_belicista",
+  "name": "Remorso do Belicista",
+  "deities": ["marah"],
+  "description": "Uma vez por rodada, quando sofre dano de um inimigo, você pode gastar 1 PM. Se fizer isso, ele sofre uma penalidade cumulativa de –2 em testes de ataque e rolagens de dano até o fim da cena. Mental.",
+  "effects": { "type": "ativado", "frequencia": "1x_por_rodada", "gatilho": "sofrer dano de um inimigo", "custo_pm": 1, "efeito": "o inimigo sofre -2 cumulativo em testes de ataque e rolagens de dano até o fim da cena", "tag": "mental" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

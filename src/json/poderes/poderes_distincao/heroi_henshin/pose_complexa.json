@@ -1,0 +1,10 @@
+{
+  "id": "pose_complexa",
+  "name": "Pose Complexa",
+  "description": "Você pode ativar duas poses de combate ao mesmo tempo.",
+  "effects": [
+    { "type": "passivo", "efeito": "pode manter duas poses de combate ativas simultaneamente" }
+  ],
+  "requirements": ["duas poses de combate"],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "palavra_de_poder",
+  "name": "Palavra de Poder",
+  "deities": ["tanna_toh"],
+  "description": "Você aprende e pode lançar Comando. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+  "effects": { "type": "passivo", "efeito": "aprende e pode lançar Comando; aprender de novo reduz o custo em -1 PM" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

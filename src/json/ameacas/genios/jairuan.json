@@ -1,0 +1,38 @@
+{
+  "id": "jairuan",
+  "name": "Jairuan",
+  "nd": 6,
+  "tipo": "Espírito",
+  "subtipo": "gênio",
+  "tamanho": "grande",
+  "grupo": "genios",
+  "pv": 158,
+  "pm": 41,
+  "defesa": 21,
+  "salvaguardas": { "fort": 12, "ref": 16, "von": 8 },
+  "reducao_de_dano": null,
+  "imunidades": ["encantamento", "eletricidade"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 5,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 12 },
+  "atributos": { "for": 2, "des": 5, "con": 3, "int": 2, "sab": 1, "car": 4 },
+  "pericias": { "atletismo": 14, "intimidacao": 9, "misticismo": 9 },
+  "ataques": [
+    { "nome": "Cimitarra", "quantidade": 2, "bonus": 18, "dano": [{ "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 10, "tipo": "corte" }], "critico": "18" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Dentro de uma Lampadazinha", "descricao": "Para cada dia sem um pacto ativo, perde 1 PM; ao chegar a 0, sofre um efeito debilitante definido pelo mestre, revertido ao firmar novo pacto." },
+    { "nome": "Poderes Cósmicos Fenomenais", "acao": "completa", "descricao": "Firma pacto com uma criatura voluntária, tornando-se parceiro iniciante e reduzindo o custo de suas habilidades em -1 PM enquanto presente." },
+    { "nome": "Servo dos Deuses", "descricao": "Pode lançar Viagem Planar sem componente material, apenas em si mesmo." },
+    { "nome": "Vendaval", "acao": "movimento", "salvaguarda": "Reflexos", "cd": 22, "efeito_sucesso": "reduz à metade", "descricao": "Criaturas em uma área de 3m em alcance médio sofrem 4d8+25 pontos de dano de impacto (Ref CD 22 reduz à metade). Recarga (movimento)." },
+    { "nome": "Magias (feiticeiro 6º, CD 22)", "descricao": "Enfeitiçar (padrão, 1 PM): humanoide em alcance curto fica enfeitiçado (Von evita). Invisibilidade (padrão, 5 PM): fica invisível até o fim da cena ou ação hostil, camuflagem total, +10 em Furtividade contra ouvir. Relâmpago (padrão, 5 PM): 8d6 de dano de eletricidade em linha de 30m (Ref reduz à metade)." },
+    { "nome": "Parceiro", "descricao": "Iniciante: lança uma magia de encantamento ou ilusão de 1º círculo (atributo-chave Carisma). Veterano: deslocamento 12m (normal e voo). Mestre: deslocamento 18m (normal e voo), pode carregar uma criatura Média ou menor voando sem penalidade." }
+  ],
+  "equipamento": ["cimitarra"],
+  "tesouro": "Padrão.",
+  "description": "Gênio do ar, o mais amistoso e sociável entre os gênios, servindo em grandes cidades ou acompanhando grupos de heróis. Pacifista, prefere diálogo e truques a violência direta.",
+  "livro": "deuses_de_arton"
+}

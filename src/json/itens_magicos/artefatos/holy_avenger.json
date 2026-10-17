@@ -1,0 +1,14 @@
+{
+  "id": "holy_avenger",
+  "name": "Holy Avenger",
+  "description": "A espada mágica mais poderosa em toda a Criação. Forjada pelo Panteão a partir do poder do Paladino de Arton e incrustada com um vigésimo primeiro Rubi da Virtude, a Holy Avenger é capaz de matar até mesmo deuses. É uma espada bastarda que fornece +10 em testes de ataque e causa +4d12 pontos de dano de essência. Seu usuário recebe +5 em testes de resistência e pode gastar uma ação padrão para lançar Dissipar Magia (apenas o efeito básico; use um teste de Luta no lugar de Misticismo). Por fim, quando ataca com a espada, seu usuário pode gastar 20 PM; se fizer isso e atingir seu alvo, ele é completamente destruído, sem direito a teste de resistência. Esse efeito pode destruir até mesmo um deus maior, mesmo se for atingido em seu próprio reino divino.",
+  "effects": [
+    { "type": "weapon_type", "base": "espada_bastarda" },
+    { "type": "bônus", "attribute": "ataque", "amount": "+10" },
+    { "type": "dano_extra", "dado": "4d12", "tipo": "essência" },
+    { "type": "bônus", "attribute": "testes_de_resistencia", "amount": "+5" },
+    { "type": "ativado", "acao": "padrão", "efeito": "lança Dissipar Magia (apenas efeito básico; usa teste de Luta no lugar de Misticismo)" },
+    { "type": "ativado", "custo_pm": 20, "gatilho": "atacar e atingir o alvo", "efeito": "o alvo é completamente destruído, sem direito a teste de resistência, mesmo sendo um deus maior em seu próprio reino divino" }
+  ],
+  "livro": "deuses_de_arton"
+}

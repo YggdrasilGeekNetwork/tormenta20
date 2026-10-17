@@ -1,0 +1,10 @@
+{
+  "id": "saude_comprada",
+  "name": "Saúde Comprada",
+  "description": "Você pode gastar uma ação completa e uma quantidade de tibares de ouro (limitada pelo seu Carisma) para 'comprar' saúde para uma criatura adjacente. Para cada TO gasto, você recupera 3d8 PV da criatura ou remove uma de suas condições entre abalado, alquebrado, apavorado, atordoado, cego, confuso, enfeitiçado, esmorecido, exausto, fatigado, frustrado, pasmo e surdo.",
+  "effects": [
+    { "type": "ativado", "acao": "completa", "custo": "TO limitado pelo Carisma", "alvo": "criatura adjacente", "efeito": "por TO gasto: 3d8 PV curados ou remove uma condição da lista (abalado, alquebrado, apavorado, atordoado, cego, confuso, enfeitiçado, esmorecido, exausto, fatigado, frustrado, pasmo, surdo)" }
+  ],
+  "requirements": ["O Preço do Sucesso"],
+  "livro": "deuses_de_arton"
+}

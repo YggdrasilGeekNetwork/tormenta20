@@ -1,0 +1,9 @@
+{
+  "id": "temor_arcano",
+  "name": "Temor Arcano",
+  "deities": ["kallyadranoch"],
+  "description": "Quando um inimigo em alcance médio sob efeito de uma condição de medo falha em um teste de resistência contra uma de suas magias, você recebe 1 PM temporário cumulativo. Você pode ganhar um máximo de PM temporários por cena igual ao seu nível, e eles desaparecem no fim da cena.",
+  "effects": { "type": "passivo", "gatilho": "inimigo em alcance médio sob condição de medo falha na resistência contra sua magia", "efeito": "ganha 1 PM temporário cumulativo", "limite": "máximo de PM temporários por cena igual ao nível", "duracao": "PM temporários desaparecem no fim da cena" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

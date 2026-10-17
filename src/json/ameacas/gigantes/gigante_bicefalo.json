@@ -1,0 +1,36 @@
+{
+  "id": "gigante_bicefalo",
+  "name": "Gigante Bicéfalo",
+  "nd": 13,
+  "tipo": "Humanoide",
+  "subtipo": "gigante",
+  "tamanho": "enorme",
+  "grupo": "gigantes",
+  "pv": 680,
+  "pm": null,
+  "defesa": 44,
+  "salvaguardas": { "fort": 26, "ref": 11, "von": 20 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 17,
+  "visao": [],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 14, "des": -1, "con": 10, "int": -2, "sab": 1, "car": -2 },
+  "pericias": { "atletismo": 26, "intimidacao": 13 },
+  "ataques": [
+    { "nome": "Clava", "quantidade": 2, "bonus": 38, "dano": [{ "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 40, "tipo": "impacto" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arremessar Duas Rochas", "acao": "completa", "salvaguarda": "Reflexos", "cd": 35, "efeito_sucesso": "reduz à metade", "descricao": "Arremessa duas rochas, cada uma em um quadrado de 3m em alcance curto. Criaturas nas áreas sofrem 6d12 de dano de impacto (Ref CD 35 reduz à metade)." },
+    { "nome": "Atropelamento", "acao": "completa", "salvaguarda": "Reflexos", "cd": 35, "efeito_sucesso": "reduz à metade e evita a condição", "descricao": "Percorre até o dobro de seu deslocamento, passando pelos espaços de inimigos menores (não duas vezes pelo mesmo espaço). Criaturas atropeladas sofrem 6d10+40 de dano de impacto e ficam caídas (Ref CD 35 reduz à metade e evita a condição). Recarga (movimento)." },
+    { "nome": "Duas Cabeças...", "descricao": "Quando faz um teste de Intuição ou Vontade, faz dois testes e usa o melhor resultado." },
+    { "nome": "...Brigam Mais do que Uma", "descricao": "Quando usa Duas Cabeças... em teste contra perícia baseada em Carisma ou efeito de encantamento, se passar em apenas um dos testes, fica pasmo por 1 rodada (1x por cena para a mesma perícia/efeito)." }
+  ],
+  "equipamento": ["clava_aumentada_x2"],
+  "tesouro": "Dobro.",
+  "description": "Versão mais massiva e monstruosa do gigante das rochas, com duas cabeças de mentes e personalidades distintas controlando cada metade do corpo — forte, mas desajeitado quando as cabeças discordam.",
+  "livro": "deuses_de_arton"
+}

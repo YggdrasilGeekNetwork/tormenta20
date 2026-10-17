@@ -1,0 +1,10 @@
+{
+  "id": "inquisidor_de_wynna",
+  "name": "Inquisidor de Wynna",
+  "description": "Paladino que se torna campeão divino da Deusa da Magia, garantindo que a magia arcana seja usada livremente mas nunca para prejudicar inocentes.",
+  "admissao": "Apenas paladinos podem se tornar inquisidores, e precisam de conhecimento ao menos teórico de magia arcana (a capacidade de lançar magias simples é uma vantagem). O candidato deve se apresentar em um templo dos inquisidores de Wynna e, se aceito, é designado a um único instrutor por um período indefinido — às vezes anos —, que impõe desafios e dilemas arbitrários (enfrentar um elemental sem se defender do próprio elemento, ler um pergaminho desconhecido, disparar uma armadilha arcana de propósito) sem nunca revelar a lição pretendida; cabe ao candidato explicá-la depois. Ajuda de companheiros durante uma tarefa a invalida. Ao fim do treinamento, o candidato deve identificar um problema arcano real, presidir um tribunal como juiz e dar sua sentença; se ela coincidir com a do mestre observador, é iniciado como um verdadeiro inquisidor.",
+  "marca_nome": "Padroeira Adotiva",
+  "marca_descricao": "Você recebe o poder Centelha Mágica, mas continua sendo um paladino e devoto de sua divindade original. Além disso, quando escolhe o poder Orar, pode aprender também magias arcanas de 1º círculo como se fossem divinas.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "heranca_de_werra",
+  "name": "Herança de Werra",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "Você possui um conhecimento intuitivo para armas. Você recebe +1 em testes de ataque com armas e proficiência com armas marciais ou com duas armas exóticas.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "attack_bonus": 1,
+    "proficiency_choice": [
+      "armas_marciais",
+      "duas_armas_exoticas"
+    ]
+  },
+  "livro": "deuses_de_arton"
+}

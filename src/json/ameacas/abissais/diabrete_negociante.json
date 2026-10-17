@@ -1,0 +1,36 @@
+{
+  "id": "diabrete_negociante",
+  "name": "Diabrete Negociante",
+  "nd": 4,
+  "tipo": "Espírito",
+  "subtipo": "abissal",
+  "tamanho": "pequeno",
+  "grupo": "abissais",
+  "pv": 120,
+  "pm": null,
+  "defesa": 21,
+  "salvaguardas": { "fort": 4, "ref": 15, "von": 11 },
+  "reducao_de_dano": "5/fogo_e_frio",
+  "imunidades": ["ácido", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 6,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6, "voo": 12 },
+  "atributos": { "for": 0, "des": 3, "con": 0, "int": 6, "sab": 2, "car": 5 },
+  "pericias": { "enganacao": 14, "intuicao": 11, "oficio_armeiro": 13, "oficio_artesao": 13 },
+  "ataques": [
+    { "nome": "Martelo de Forja", "bonus": 15, "dano": [{ "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 8, "tipo": "impacto" }], "critico": "x3" },
+    { "nome": "Mordida", "bonus": 15, "dano": [{ "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 8, "tipo": "perfuração" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Barganha", "descricao": "O diabrete negociante pode conceder um Desejo a uma criatura. Em troca, a criatura dá algo muito importante e imaterial, à escolha do mestre. Exemplos: Amor (um parceiro abandona o personagem, limite de parceiros diminui em -1); Coragem (falha automaticamente em resistências contra medo e sofre -5 em Iniciativa); Felicidade (perde benefícios de itens de alimentação e nunca tem recuperação melhor que normal); Juventude (perde 1 ponto de Constituição e falha automaticamente contra efeitos de cansaço)." },
+    { "nome": "Confundir", "acao": "padrão", "salvaguarda": "Vontade", "cd": 18, "efeito_sucesso": "evita e fica imune por 1 dia", "descricao": "Uma criatura em alcance curto fica confusa (Von CD 18 evita e a criatura fica imune a esta habilidade por um dia). Recarga (movimento)." },
+    { "nome": "Risada Enervante", "descricao": "Criaturas a até 9m do diabrete sofrem -2 em Intuição e Vontade." }
+  ],
+  "equipamento": ["instrumentos_de_oficio_armeiro_aprimorados", "instrumentos_de_oficio_artesao_aprimorados"],
+  "tesouro": "Padrão e 1d4-1 itens feitos dos sentimentos de alguém.",
+  "description": "Diabrete inteligente e perigoso que negocia barganhas: concede um Desejo em troca de algo imaterial e valioso da vítima (amor, coragem, felicidade, juventude), forjando o que toma em itens poderosos.",
+  "livro": "deuses_de_arton"
+}

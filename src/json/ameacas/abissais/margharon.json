@@ -1,0 +1,39 @@
+{
+  "id": "margharon",
+  "name": "Margharon",
+  "nd": 14,
+  "tipo": "Espírito",
+  "subtipo": "abissal",
+  "tamanho": "enorme",
+  "grupo": "abissais",
+  "pv": 490,
+  "pm": 70,
+  "defesa": 44,
+  "salvaguardas": { "fort": 28, "ref": 14, "von": 22 },
+  "reducao_de_dano": 20,
+  "resistencia_a_magia": 4,
+  "imunidades": ["ácido", "atordoamento", "eletricidade", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 12,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": 0, "con": 4, "int": 6, "sab": 3, "car": 6 },
+  "pericias": { "diplomacia": 17, "enganacao": 22, "misticismo": 19, "intimidacao": 17, "intuicao": 16, "investigacao": 17 },
+  "ataques": [
+    { "nome": "Tentáculo", "quantidade": 4, "bonus": 37, "dano": [{ "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 28, "tipo": "impacto" }], "critico": null },
+    { "nome": "Mordida", "bonus": 37, "dano": [{ "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 22, "tipo": "perfuração" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Fortificação 50%", "descricao": "O margharon tem 50% de chance de ignorar qualquer acerto crítico ou ataque furtivo sofrido." },
+    { "nome": "Agarrar Aprimorado", "descricao": "Tentáculo (teste +39)." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o margharon muda a execução dela para livre." },
+    { "nome": "Mudar Forma", "acao": "padrão", "descricao": "O margharon assume a forma de qualquer humanoide de tamanho Pequeno a Enorme, como o efeito da magia Metamorfose. Pode permanecer na forma escolhida por tempo indeterminado, mas, se morrer, reverte à forma natural." },
+    { "nome": "Magias (conjurador 14º, CD 40)", "descricao": "Dissipar Magia (padrão, 3 PM): escolhe criatura, objeto ou esfera de 3m em alcance médio e faz teste de Misticismo, dissipando magias com CD igual ou menor. Muralha Elemental (padrão, 14 PM): muralha de fogo de até 30m por 3m de altura em alcance médio, causando 2d8 de dano de fogo a até 6m ao ser lançada e no início dos turnos do margharon; atravessá-la causa 16d6 de dano de fogo. Relâmpago (padrão, 12 PM): relâmpago em cada criatura escolhida em alcance médio, 12d6 de dano de eletricidade (Ref reduz à metade). Teletransporte (padrão, 6 PM): teleporta-se a até 1.000km, com teste de Misticismo (CD 20/30/40 conforme familiaridade com o destino); falha o leva a 1d10x10km de distância e, com 1 natural, fica atordoado por 1d4 rodadas." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão.",
+  "description": "Aberração gigantesca e cônica coberta de tentáculos, disfarçada como um nobre elfo, humano ou qareen. Mercador de almas dos reinos divinos, oferece contratos que concedem o maior desejo da vítima em troca de sua alma — a Maldição da Mortalidade.",
+  "livro": "deuses_de_arton"
+}

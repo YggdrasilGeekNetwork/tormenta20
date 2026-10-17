@@ -1,0 +1,9 @@
+{
+  "id": "mestre_de_si",
+  "name": "Mestre de Si",
+  "deities": ["lin_wu"],
+  "description": "Você passa automaticamente no primeiro teste de Vontade contra um efeito de um inimigo que fizer a cada cena.",
+  "effects": { "type": "passivo", "frequencia": "1x_por_cena", "efeito": "sucesso automático no primeiro teste de Vontade contra efeito de inimigo na cena" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

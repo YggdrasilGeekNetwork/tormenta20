@@ -1,0 +1,10 @@
+{
+  "id": "sumo_sacerdote",
+  "name": "Sumo-Sacerdote",
+  "description": "Líder espiritual máximo de uma das vinte religiões do Panteão, elo direto entre uma divindade e seus devotos, cuja autoridade equivale a desafiar o próprio deus se contestada.",
+  "admissao": "Normalmente apenas uma pessoa ocupa o cargo por vez. O candidato deve chamar a atenção da divindade com um ato (ou vários) de extrema relevância para as crenças da religião — o que pode significar desafiar o atual sumo-sacerdote em combate ou disputa, ou resolver um conflito que ele falhou em resolver. Um ato assim é sentido por toda Arton. Em casos raros, o processo ocorre discretamente quando o escolhido não almeja o posto, sendo alguém humilde capaz de guiar os fiéis com simplicidade — nesse caso, pode ser iluminado, tomado por compreensão súbita, ou recebido pela própria divindade.",
+  "marca_nome": "Autoridade Divina",
+  "marca_descricao": "Você é a autoridade máxima em uma igreja reconhecida pelos outros membros de sua fé. Você recebe o poder Autoridade Eclesiástica para sua divindade. Se já tiver esse poder, em vez disso recebe +2 em Religião e na CD de suas magias divinas.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

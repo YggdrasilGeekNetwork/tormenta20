@@ -1,0 +1,41 @@
+{
+  "id": "avatar_de_arsenal",
+  "name": "Avatar de Arsenal",
+  "nd": 18,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "avatares",
+  "pv": 1080,
+  "pm": null,
+  "defesa": 60,
+  "salvaguardas": { "fort": 32, "ref": 17, "von": 30 },
+  "reducao_de_dano": 10,
+  "cura_acelerada": 5,
+  "imunidades": ["efeitos mentais", "medo"],
+  "resistencias": { "aventureiros": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 23,
+  "percepcao": 25,
+  "visao": [],
+  "deslocamento": { "terrestre": 12, "voo": 12 },
+  "atributos": { "for": 14, "des": 6, "con": 12, "int": 9, "sab": 8, "car": 8 },
+  "pericias": { "atletismo": 31, "guerra": 39, "intimidacao": 28, "misticismo": 26, "pilotagem": 23, "religiao": 25 },
+  "ataques": [
+    { "nome": "Martelo dos Trovões", "bonus": 49, "dano": [{ "dados": [{ "quantidade": 8, "faces": 8 }], "bonus": 36, "tipo": "impacto" }, { "dados": [{ "quantidade": 8, "faces": 6 }], "bonus": 0, "tipo": "eletricidade" }], "critico": "19/x3" },
+    { "nome": "Holy Avenger", "quantidade": 2, "bonus": 49, "dano": [{ "dados": [{ "quantidade": 6, "faces": 12 }], "bonus": 36, "tipo": "corte" }], "critico": "18" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Maior que a Morte", "descricao": "O Avatar é imune a efeitos que matam instantaneamente ou reduzem atributos a 0, e não pode ser mantido morto permanentemente." },
+    { "nome": "Acessar Arsenal", "acao": "padrão", "descricao": "O Avatar de Arsenal troca um dos itens equipados de sua Algibeira Infinita por outro item mágico qualquer (exceto itens únicos, como artefatos). Acessórios fornecem seus benefícios normalmente e surgem acoplados à armadura; eles não precisam ser vestidos ou empunhados. Armas e armaduras substituem as que o avatar estiver usando; substitua apenas os efeitos mágicos dos itens. Se um item tiver uma habilidade com custo em pontos de mana, o Avatar pode usá-la sem gastar PM (limite de PM 18)." },
+    { "nome": "Algibeira Infinita", "descricao": "O Avatar tem acesso à imensa coleção de itens mágicos de Arsenal e começa cada cena equipado com um elmo do teletransporte, botas aladas e um anel do sustento." },
+    { "nome": "Centelha Divina", "descricao": "O Avatar pode lançar qualquer magia divina como um clérigo de 18º nível sem gastar PM (CD 47, limite de PM 18) e pode lançar a magia Soco de Arsenal como ação livre uma vez por rodada." },
+    { "nome": "Extinção", "acao": "padrão", "descricao": "Uma vez por cena, o Avatar faz um ataque com a Holy Avenger contra uma criatura. Se acertar, a criatura é completamente destruída." },
+    { "nome": "Plano de Contigência", "acao": "reação", "descricao": "Uma vez por rodada, quando é alvo de um acerto crítico, manobra de combate ou habilidade mágica, o Avatar recebe +10 nos testes para resistir a esse efeito e redução de dano 50 contra qualquer dano que ele cause." },
+    { "nome": "Varrer", "acao": "livre", "descricao": "Uma vez por rodada, quando o Avatar faz um ataque corpo a corpo e reduz os pontos de vida do alvo a 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance." }
+  ],
+  "equipamento": ["armadura_de_arsenal", "holy_avenger", "martelo_dos_trovoes"],
+  "tesouro": "Padrão, mais quaisquer itens equipados por Algibeira Infinita.",
+  "description": "Manifestação física de Arsenal, o Deus dos Guerreiros. Carrega os maiores tesouros mágicos de Arton em sua Algibeira Infinita.",
+  "livro": "deuses_de_arton"
+}

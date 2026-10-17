@@ -1,0 +1,19 @@
+{
+  "id": "agua_benta_concentrada",
+  "name": "Água Benta Concentrada",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 60,
+  "espacos": 0.5,
+  "uso": "empunhado",
+  "acao": "padrao",
+  "alcance": "curto",
+  "alvos_validos": ["morto-vivo", "demonio", "diabo"],
+  "efeito": {
+    "dano": "4d10",
+    "tipo_dano": "luz",
+    "resistencia": { "tipo": "Reflexos", "cd": "Sab", "efeito": "reduz_metade" }
+  },
+  "description": "Criada com os mais puros ingredientes, esta água funciona como água benta, mas causa 4d10 pontos de dano. É fabricada com o mesmo aprimoramento de Abençoar Alimentos, mas seu componente material custa T$ 30.",
+  "livro": "deuses_de_arton"
+}

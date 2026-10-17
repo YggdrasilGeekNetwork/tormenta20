@@ -1,0 +1,14 @@
+{
+  "id": "algo_de_nimb",
+  "name": "Alguma Coisa de Nimb...",
+  "deities": ["nimb"],
+  "subtipo": "arma",
+  "base_item": "arma_corpo_a_corpo_simples_de_uma_mao",
+  "classificacao": "Arma específica média",
+  "preco": 54000,
+  "description": "Uma frigideira. Um salame. Uma pluma de avestruz prateada. Todos esses objetos, e quaisquer outros, podem ser itens litúrgicos de Nimb. Esses itens só aparecem para devotos do Caos e sempre em momentos inesperados. O devoto sabe instintivamente que a adaga na bota do guarda, a espiga de milho caída no campo ou a panela do cozinheiro goblin é um item sagrado de seu deus. Nas mãos de um devoto de Nimb, o item funciona como uma arma corpo a corpo simples de uma mão formidável veloz. Independente da forma do item, causa 3d8 pontos de dano (se necessário, role 1d3 para cada ataque, sendo 1 = corte, 2 = impacto e 3 = perfuração), com crítico x2. Quando faz um ataque com o item litúrgico, você pode gastar 1 PM. Se fizer isso e acertar, para cada resultado ímpar que rolar em um dado de dano, rola um dado extra de dano do mesmo tipo, repetindo o processo a cada resultado ímpar.",
+  "effects": [
+    { "type": "devoto", "deity": "nimb", "enchantment": "formidável veloz", "efeito": "funciona como arma corpo a corpo simples de uma mão causando 3d8 (tipo de dano aleatório: 1d3, 1=corte, 2=impacto, 3=perfuração), crítico x2", "ativado": { "custo_pm": 1, "gatilho": "acertar um ataque com o item", "efeito": "cada resultado ímpar em um dado de dano gera um dado extra do mesmo tipo, repetindo em cascata" } }
+  ],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "coriza_e_espirros",
+  "name": "Coriza e Espirros",
+  "description": "A critério do mestre, criaturas feéricas (fadas, duendes, eiradaan) podem causar efeitos adversos aos aventureiros. Ao final de cada cena em que um personagem interage com uma ou mais criaturas feéricas pela primeira vez, ele deve fazer um teste de Fortitude (CD 20). Se falhar, contrai a doença febre do riso. Alternativamente, com o suplemento Ameaças de Arton, usa-se a doença rinite feérica.",
+  "gatilho": "fim de cena em que o personagem interage com uma ou mais criaturas feéricas pela primeira vez",
+  "teste": "Fortitude CD 20",
+  "falha": "contrai a doença febre do riso (ou rinite feérica, com o suplemento Ameaças de Arton)",
+  "livro": "deuses_de_arton"
+}

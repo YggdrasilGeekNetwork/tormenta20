@@ -1,0 +1,13 @@
+{
+  "id": "contas_de_oracao",
+  "name": "Contas de Oração",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 500,
+  "espacos": 1,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": { "aumenta_limite_pm_magias_divinas": 1 },
+  "description": "Este item está presente em muitas religiões artonianas, consistindo de várias pequenas esferas, miçangas, conchas ou outros ornamentos parecidos, presos por um cordão. Elas têm a função de ajudar o devoto a contar as orações ou cânticos que já fez, assim auxiliando-o a se concentrar em suas orações. Aumenta seu limite de PM para magias divinas em +1.",
+  "livro": "deuses_de_arton"
+}

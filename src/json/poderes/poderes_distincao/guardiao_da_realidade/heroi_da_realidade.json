@@ -1,0 +1,10 @@
+{
+  "id": "heroi_da_realidade",
+  "name": "Herói da Realidade",
+  "description": "Você projeta uma aura de realidade constante com 9m de raio. Criaturas a sua escolha nessa aura são protegidas de efeitos de áreas de Tormenta e de templos de Aharadak: não ficam frustradas ao entrar nesses locais e seus itens mágicos encantados não perdem encantos; o aumento de custo de suas habilidades por estar nesses locais diminui em 1. Dano contra criaturas da Tormenta a sua escolha dentro da aura ignora RD igual ao seu Carisma e elas sofrem penalidade em rolagens de dano igual ao seu Carisma.",
+  "effects": [
+    { "type": "passivo", "alcance": "9m de raio", "efeito": "protege aliados escolhidos de frustração e perda de encantos em áreas de Tormenta/templos de Aharadak; reduz em 1 o aumento de custo de habilidades nesses locais; criaturas da Tormenta na aura sofrem RD ignorada e penalidade de dano iguais ao seu Carisma" }
+  ],
+  "requirements": ["Herói de Arton"],
+  "livro": "deuses_de_arton"
+}

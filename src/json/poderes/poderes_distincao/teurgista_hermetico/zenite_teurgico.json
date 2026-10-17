@@ -1,0 +1,10 @@
+{
+  "id": "zenite_teurgico",
+  "name": "Zênite Teúrgico",
+  "description": "Quando lança uma magia que causa dano, você pode aplicar a ela efeitos específicos de um tipo de dano como se ela fosse de todos os tipos. Por exemplo, você pode usar um cetro elemental (fogo) com uma magia Adaga Mental.",
+  "effects": [
+    { "type": "passivo", "gatilho": "lançar magia que causa dano", "efeito": "trata a magia como se fosse de todos os tipos de dano, para fins de efeitos específicos de um tipo (ex.: itens elementais)" }
+  ],
+  "requirements": ["Conhecimento Adaptável", "Teurgia Aplicada"],
+  "livro": "deuses_de_arton"
+}

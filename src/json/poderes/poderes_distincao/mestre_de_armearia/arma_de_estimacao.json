@@ -1,0 +1,10 @@
+{
+  "id": "arma_de_estimacao",
+  "name": "Arma de Estimação",
+  "description": "Escolha uma arma de fogo que tenha fabricado para receber uma habilidade de classe de 1º nível de uma classe que não seja a sua. Você só pode escolher uma habilidade ativada ao fazer um ataque ou usar a ação agredir (como Ataque Especial) ou que afete testes de ataque e/ou rolagens de dano e possa ser usada com a arma escolhida (como Duelo ou Marca da Presa). Pode escolher Magias, mas aprende uma única magia usável na/com a arma, sem somar o atributo-chave da habilidade ao total de PM. Usa a habilidade como se tivesse 1 nível naquela classe, apenas com a arma escolhida.",
+  "effects": [
+    { "type": "passivo", "efeito": "uma arma de fogo fabricada por você ganha uma habilidade de classe de 1º nível de outra classe (restrita a habilidades de ataque/agredir ou que afetem ataque/dano), utilizável apenas com essa arma como se você tivesse nível 1 na classe de origem" }
+  ],
+  "requirements": ["Profissional Completo", "ter feito três acertos críticos no mesmo combate com a arma escolhida"],
+  "livro": "deuses_de_arton"
+}

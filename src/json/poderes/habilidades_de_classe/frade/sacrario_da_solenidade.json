@@ -1,0 +1,12 @@
+{
+  "id": "sacrario_da_solenidade",
+  "name": "Sacrário da Solenidade",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Criaturas dentro da área ficam sob condição terrível para lançar magias e sofrem –2 na Defesa. Quando cria este sacrário você pode gastar mais PM para fortalecer seu efeito; para cada 2 PM adicionais gastos, a penalidade causada pelo sacrário aumenta em 1 (penalidade máxima limitada pelo círculo máximo de magias que você pode lançar). Segue as regras gerais de Sacrários.",
+  "requirements": [],
+  "effects": [
+    { "type": "sacrario", "efeito_base": "criaturas na área sofrem condição terrível para lançar magias e -2 na Defesa", "escalavel": "-1 adicional na penalidade por +2 PM adicionais gastos na criação, até o limite do círculo máximo de magia acessível" }
+  ],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "fe_e_razao",
+  "name": "Fé e Razão",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Quando usa uma habilidade de frade, você pode gastar uma quantidade de PM limitada por sua Inteligência. Se fizer isso, a CD dessa habilidade aumenta em +1 por PM gasto.",
+  "requirements": [],
+  "effects": [
+    { "type": "ativado", "gatilho": "usar uma habilidade de frade", "custo_pm_maximo": "sua Inteligência", "efeito": "+1 na CD da habilidade por PM gasto" }
+  ],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "tirano_do_terceiro",
+  "name": "Tirano do Terceiro",
+  "description": "Devoto de Kallyadranoch (o Terceiro) que dobra a vontade de um dragão jovem e o torna sua montaria, formando um vínculo místico e inquebrável que representa o Deus dos Dragões no mundo material.",
+  "admissao": "Apenas devotos de Kallyadranoch podem tentar. Existe um único passo, mas nada fácil: o candidato deve localizar um dragão jovem e convencê-lo a servir de montaria, sem ajuda de companheiros. Não basta um acordo temporário ou um favor — é preciso dobrar de fato a vontade do dragão, seja pela força bruta, por engano (juramentos sagrados, um item mágico) ou por uma proposta que prove que o candidato merece ser obedecido. Uma vez que o dragão se dobre, cavaleiro e dragão formam um vínculo místico e inquebrável, e o candidato se torna um tirano do Terceiro; o dragão será sua montaria até que um dos dois morra.",
+  "marca_nome": "Companheiro Dragão",
+  "marca_descricao": "Você recebe um companheiro dragão jovem (de um tipo a sua escolha) que serve como um parceiro montaria iniciante — usa as estatísticas de um grifo destruidor iniciante com subtipo dragão ou, com o suplemento Ameaças de Arton, um dragão jovem; ao ter três poderes da distinção torna-se veterano, e com todos os cinco vira mestre (e um dragão adulto Enorme com Aura Aterradora e Metamorfose Dracônica). Se o companheiro dragão morrer, você fica atordoado por 1 rodada; pode ser substituído com uma ação entre aventuras.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

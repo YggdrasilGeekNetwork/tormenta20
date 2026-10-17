@@ -1,0 +1,9 @@
+{
+  "id": "jurista_divino",
+  "name": "Jurista Divino",
+  "deities": ["lin_wu", "khalmyr"],
+  "description": "Você pode usar Sabedoria para Nobreza (em vez de Inteligência) e pode usar essa perícia no lugar de Diplomacia e Intimidação.",
+  "effects": { "type": "passivo", "efeito": "usa Sabedoria para Nobreza (em vez de Inteligência) e pode usar Nobreza no lugar de Diplomacia e Intimidação" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

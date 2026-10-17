@@ -1,0 +1,9 @@
+{
+  "id": "espirito_do_conhecimento",
+  "name": "Espírito do Conhecimento",
+  "deities": ["tanna_toh"],
+  "description": "Você pode gastar uma ação padrão e 2 PM para invocar uma manifestação do saber em um espaço desocupado em alcance curto. Ela é um espírito Minúsculo que tem deslocamento de voo 6m, Força nula, Defesa 15, 1 PV, visão no escuro e falha em qualquer teste oposto. No início de seus turnos, ela pode usar a ação movimentar-se uma vez. Você pode perceber tudo que a manifestação for capaz de perceber e pode lançar magias a partir dela (exceto magias de alcance pessoal com alvo você). A manifestação desaparece quando morre ou no fim da cena.",
+  "effects": { "type": "ativado", "acao": "padrão", "custo_pm": 2, "efeito": "invoca um espírito Minúsculo (voo 6m, Defesa 15, 1 PV, visão no escuro, falha testes opostos automaticamente) pelo qual pode perceber e lançar magias (exceto as de alcance pessoal com alvo você); some até morrer ou fim da cena" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

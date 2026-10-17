@@ -1,0 +1,29 @@
+{
+  "id": "bolsas_de_gigante",
+  "name": "Bolsas de Gigante",
+  "description": "Gigantes das colinas costumam carregar grandes sacos de couro ou pele onde guardam todos os 'tesouros' que encontram em seu caminho. Uma bolsa recém-encontrada tem 1d4 desses 'tesouros'; o mestre pode determinar o que eles são ou rolar na tabela.",
+  "rolagem": "1d20",
+  "tabela": [
+    { "resultado": 1, "item": "Um pedaço de carne estragada (pode conter uma doença)." },
+    { "resultado": 2, "item": "1d3 ratos esfomeados." },
+    { "resultado": 3, "item": "Um elmo mastigado." },
+    { "resultado": 4, "item": "Algemas forradas de couro preto." },
+    { "resultado": 5, "item": "Uma bota reforçada. Com outra dessas forma-se um par." },
+    { "resultado": 6, "item": "Um espelho que um dia foi mágico. Ainda reflete a última imagem que presenciou." },
+    { "resultado": 7, "item": "Um pé de cabra." },
+    { "resultado": 8, "item": "Uma peruca desgrenhada." },
+    { "resultado": 9, "item": "Um saco de dormir. Parece ter algo ou alguém dentro..." },
+    { "resultado": 10, "item": "Uma arma qualquer." },
+    { "resultado": 11, "item": "Um emplastro grotesco de ervas medicinais (aplicá-las é uma ação completa que cura 4d6 PV)." },
+    { "resultado": 12, "item": "As roupas de um camponês. Onde estará seu antigo dono?" },
+    { "resultado": 13, "item": "Um pato (ainda vivo). Pode ser domesticado." },
+    { "resultado": 14, "item": "Uma sela em bom estado." },
+    { "resultado": 15, "item": "Um estandarte enrolado. Talvez exista uma recompensa por ele?" },
+    { "resultado": 16, "item": "Uma poção mágica. A saliva ressecada no frasco torna impossível identificá-la." },
+    { "resultado": 17, "item": "Uma riqueza menor." },
+    { "resultado": 18, "item": "Uma riqueza média." },
+    { "resultado": 19, "item": "Um item superior (2 melhorias) determinado aleatoriamente." },
+    { "resultado": 20, "item": "Um item mágico menor determinado aleatoriamente (apenas uma vez por bolsa; se rolar outro 20, role novamente)." }
+  ],
+  "livro": "deuses_de_arton"
+}

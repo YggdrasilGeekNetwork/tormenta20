@@ -1,0 +1,36 @@
+{
+  "id": "protetor",
+  "name": "Protetor",
+  "nd": 7,
+  "tipo": "Espírito",
+  "subtipo": "celestial",
+  "tamanho": "médio",
+  "grupo": "celestiais",
+  "pv": 280,
+  "pm": null,
+  "defesa": 32,
+  "salvaguardas": { "fort": 18, "ref": 9, "von": 14 },
+  "reducao_de_dano": 10,
+  "resistencia_a_magia": 3,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 10,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 18 },
+  "atributos": { "for": 5, "des": 2, "con": 4, "int": 1, "sab": 3, "car": 4 },
+  "pericias": { "diplomacia": 13, "intuicao": 12, "religiao": 12 },
+  "ataques": [
+    { "nome": "Maça", "bonus": 24, "dano": [{ "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 20, "tipo": "impacto" }, { "dados": [{ "quantidade": 4, "faces": 6 }], "bonus": 10, "tipo": "luz" }], "critico": "19" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura Protetora", "acao": "movimento", "descricao": "Aliados do protetor em alcance curto recebem +2 na Defesa e em testes de resistência até o fim da cena." },
+    { "nome": "Rasante", "descricao": "Quando um protetor executa uma investida voando contra um inimigo no solo, seu ataque causa +4d6 pontos de dano de luz." },
+    { "nome": "Voo em Formação", "descricao": "Se dois ou mais protetores estiverem voando e adjacentes entre si, cada um recebe +2 em testes de ataque e na Defesa e não pode ser flanqueado." }
+  ],
+  "equipamento": ["escudo_pesado", "maca_banhada_a_ouro"],
+  "tesouro": "Padrão.",
+  "description": "Celestial de aparência humanoide com grandes asas emplumadas e brancas, conhecido como 'anjo da guarda'. Defende os fracos e inocentes contra demônios e outras forças do mal, combatendo em formação quando em grupo.",
+  "livro": "deuses_de_arton"
+}

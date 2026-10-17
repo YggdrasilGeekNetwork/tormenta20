@@ -1,0 +1,10 @@
+{
+  "id": "abusar_da_paciencia",
+  "name": "Abusar da Paciência",
+  "description": "Você pode fazer um teste de Religião (CD 15, +5 para cada outra vez que usou este poder no mesmo dia) para incomodar um deus qualquer em troca de poder mágico. Se passar, até o fim da cena pode lançar uma magia divina que não conheça, de qualquer círculo a que tenha acesso, pagando seus custos normalmente. Se falhar, não pode mais usar este poder até o fim do dia.",
+  "effects": [
+    { "type": "ativado", "teste": "Religião, CD 15 +5 por uso já feito no mesmo dia", "efeito": "se passar, pode lançar até o fim da cena uma magia divina desconhecida de qualquer círculo acessível, pagando o custo normal", "falha": "não pode reusar este poder até o fim do dia" }
+  ],
+  "requirements": ["Está nas Escrituras", "capacidade de lançar magias divinas de 2º círculo"],
+  "livro": "deuses_de_arton"
+}

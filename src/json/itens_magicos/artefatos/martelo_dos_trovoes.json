@@ -1,0 +1,15 @@
+{
+  "id": "martelo_dos_trovoes",
+  "name": "Martelo dos Trovões",
+  "description": "Esta poderosa arma é um martelo de guerra cruel pungente magnífico elétrico de arremesso. Se acertar um ataque de arremesso com este martelo, além de causar dano você empurra o alvo 4,5m na direção oposta.",
+  "effects": [
+    { "type": "weapon_type", "base": "martelo_de_guerra" },
+    { "type": "enchantment", "name": "cruel" },
+    { "type": "enchantment", "name": "pungente" },
+    { "type": "enchantment", "name": "magnífico" },
+    { "type": "enchantment", "name": "elétrico" },
+    { "type": "enchantment", "name": "de_arremesso" },
+    { "type": "special", "gatilho": "acertar um ataque de arremesso com o martelo", "efeito": "empurra o alvo 4,5m na direção oposta" }
+  ],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "saliva_acida",
+  "name": "Saliva Ácida",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 150,
+  "espacos": 0.5,
+  "uso": "aplicado_em_arma_ou_municao",
+  "obtencao": "só pode ser obtida do cadáver de um jhumariel, não pode ser fabricada normalmente",
+  "efeito": {
+    "acao_aplicar": "padrão",
+    "capacidade": "cobre uma arma corpo a corpo ou 20 munições",
+    "duracao": "até o fim da cena",
+    "efeito": "a arma (ou munição) causa +1d8 de dano de ácido"
+  },
+  "description": "Este líquido viscoso e esverdeado só pode ser obtido do cadáver de um jhumariel, e não pode ser fabricado normalmente. Uma dose é suficiente para cobrir uma arma corpo a corpo ou 20 munições; aplicá-la é uma ação padrão e faz a arma (ou a munição) causar +1d8 pontos de dano de ácido até o fim da cena.",
+  "livro": "deuses_de_arton"
+}

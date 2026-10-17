@@ -1,0 +1,30 @@
+{
+  "id": "execucao_de_thwor",
+  "name": "Execução de Thwor",
+  "type": "divina",
+  "circle": "1",
+  "school": "necro",
+  "execution": "movimento",
+  "execution_details": null,
+  "range": "curto",
+  "target": { "amount": 1, "up_to": false, "type": "humanoide sob efeito de uma condição de medo" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "1_rodada",
+  "duration_details": null,
+  "resistence": { "effect": "anula", "skill": "vontade" },
+  "extra_costs": null,
+  "description": "Se acertar seu próximo ataque no alvo, ele se torna um acerto crítico. Se for um crítico naturalmente, em vez disso seu multiplicador aumenta em +1.",
+  "enhancements": [
+    { "cost": 2, "type": "muda", "description": "muda o alvo para 1 criatura. Requer 2º círculo.", "extra_details": { "requirements": "2º círculo" } },
+    { "cost": 5, "type": "muda", "description": "em vez do normal, a magia afeta 1 alvo sob efeito de uma condição mental. Requer 3º círculo.", "extra_details": { "requirements": "3º círculo" } },
+    { "cost": 7, "type": "muda", "description": "(Apenas Devotos de Thwor): se o ataque for um acerto crítico naturalmente, em vez do normal ele causa o efeito de um golpe de misericórdia. Requer 5º círculo.", "extra_details": { "requirements": "devoto de Thwor; 5º círculo" } }
+  ],
+  "effects": [
+    { "type": "condição", "attribute": "acerto_critico_garantido", "amount": null, "resistence_requirement": "anula", "extra_requirements": "se já for crítico natural, multiplicador aumenta em +1" }
+  ],
+  "livro": "deuses_de_arton"
+}

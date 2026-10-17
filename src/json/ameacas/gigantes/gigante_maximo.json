@@ -1,0 +1,33 @@
+{
+  "id": "gigante_maximo",
+  "name": "Gigante Máximo",
+  "nd": 20,
+  "tipo": "Humanoide",
+  "subtipo": "gigante",
+  "tamanho": "colossal",
+  "grupo": "gigantes",
+  "pv": null,
+  "pm": null,
+  "defesa": 70,
+  "salvaguardas": { "fort": 38, "ref": 25, "von": 33 },
+  "reducao_de_dano": null,
+  "imunidades": ["atordoamento", "encantamento", "dano mental (exceto cabeça)", "metamorfose", "efeitos de movimento"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 16,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 45 },
+  "atributos": { "for": 20, "des": -3, "con": 20, "int": -2, "sab": 0, "car": -2 },
+  "pericias": {},
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Grande Demais", "descricao": "O gigante é muito grande para ser derrotado de uma só vez: é necessário escalá-lo e derrotar cada parte do corpo individualmente. Cada parte conta como uma criatura individual com seus próprios PV. Escalar uma parte exige ação completa e teste de Atletismo (CD conforme a etapa); falhar impede avançar e causa 8d6 de dano de impacto; falhar por 5+ causa 16d6 e faz cair para a parte anterior; falhar por 10+ derruba ao chão com dano de queda da parte em que estava. Deslocamento de escalada/voo dá +10 no teste; veículo ou montaria voadora/escaladora permite usar Cavalgar ou Pilotagem no lugar de Atletismo. Partes: (1) Duas Pernas, CD 20, dano de queda 10d6, 750 PV cada — cada perna derrotada reduz o deslocamento em 15m e os Ataques Colossais de perna em 1; (2) Tronco, CD 25, dano de queda 20d6, 3.000 PV; (3) Dois Braços, CD 30, dano de queda 30d6, 750 PV cada — cada braço derrotado reduz os Ataques Colossais de braço (exceto Tapa) em 1; (4) Cabeça, CD 40, dano de queda 40d6, 1.000 PV, Cura Acelerada 500 (reduzida em 100 para cada outra parte derrotada); derrotar a cabeça deixa o gigante inconsciente." },
+    { "nome": "Titânico", "descricao": "É imune a manobras de combate, não pode ser flanqueado e sofre metade do dano de ataques que não sejam de outra criatura Titânica. Quando se move, pisoteia criaturas ou objetos Enormes ou menores em seu caminho, causando 20d8 de dano de impacto (1x por rodada por criatura, Ref CD 55 reduz à metade). Seus ataques ignoram redução de dano e atingem todas as criaturas em um quadrado de 6m." },
+    { "nome": "Ataques Colossais", "acao": "padrão", "descricao": "O gigante máximo usa duas habilidades diferentes entre: Agarrar (braço, teste +75; a vítima se solta com ação padrão e manobra/Acrobacia oposta, ou causando 100 de dano ao braço). Apertar (braço; 1d100+50 de dano de impacto a criatura agarrada). Arremessar (braço; arremessa criatura agarrada a alcance longo, 30d6 de dano de impacto e caída, Acrobacia ou Ref CD 55 reduz à metade). Chute (perna; quadrado de 9m em alcance curto, 3d20+25 de dano de impacto, arremessada 30m e caída, Fort CD 55 reduz à metade e evita). Pisotear (perna; efeito básico de Terremoto em raio de 90m, não mágico, não afeta o gigante). Safanão (braço; derruba quem o escala, Ref CD 55 evita, senão cai e sofre dano de queda da etapa). Tapa (braço; teste +65, dano 1d100+100 de impacto; usável mesmo com braços derrotados, com -10 no teste e metade do dano)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Dobro.",
+  "description": "O gigante das nuvens, mito persistente de Arton: tão vasto que sua cabeça desaparece nas nuvens e seu corpo abriga vegetação, construções e parasitas. Dorme por décadas ou séculos; quando desperta com fome, pode devorar rebanhos ou povoados inteiros. Só pode ser derrotado escalando-o e vencendo cada parte do corpo individualmente.",
+  "livro": "deuses_de_arton"
+}

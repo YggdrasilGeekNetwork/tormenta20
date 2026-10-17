@@ -1,0 +1,15 @@
+{
+  "id": "alabarda_da_coragem",
+  "name": "Alabarda da Coragem",
+  "deities": ["lin_wu"],
+  "subtipo": "arma",
+  "base_item": "alabarda",
+  "classificacao": "Arma específica média",
+  "preco": 36000,
+  "description": "Esta alabarda certeira precisa possui fitas decorativas que dançam como a cauda de um dragão quando ela é usada em batalha. Se você for um devoto de Lin-Wu, ela se torna uma alabarda certeira precisa formidável que fornece +5 em Iniciativa. Sempre que você for o primeiro a agir em um combate, recebe 2 PM temporários por nível, que duram até o fim da cena.",
+  "effects": [
+    { "type": "passivo", "enchantment": "certeira precisa" },
+    { "type": "devoto", "deity": "lin_wu", "enchantment": "certeira precisa formidável", "efeito": "+5 em Iniciativa", "gatilho": "ser o primeiro a agir em combate", "bonus": "2 PM temporários por nível até o fim da cena" }
+  ],
+  "livro": "deuses_de_arton"
+}

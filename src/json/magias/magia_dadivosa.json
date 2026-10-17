@@ -1,0 +1,29 @@
+{
+  "id": "magia_dadivosa",
+  "name": "Magia Dadivosa",
+  "type": "divina",
+  "circle": "1",
+  "school": "trans",
+  "execution": "movimento",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": { "amount": 1, "up_to": false, "type": "você" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "cena_ate_ser_descarregada",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Não é comum descrever uma divindade maior do Panteão como 'maluquinha'. Contudo, há ocasiões em que Wynna faz por merecer — como quando oferece estas dádivas caóticas. No início de seu turno, role 1d4. Em um resultado 4, você recebe 1 PM temporário que só pode ser gasto em aprimoramentos de magias. A magia é descarregada quando você recebe um total de 4 PM temporários. Você só pode lançar esta magia uma vez por cena.",
+  "enhancements": [
+    { "cost": 1, "type": "muda", "description": "muda o alcance para curto e o alvo para 1 criatura. Requer 3° círculo.", "extra_details": { "requirements": "3º círculo" } },
+    { "cost": 0, "type": "muda", "description": "(Apenas Devotos de Wynna): muda a execução para padrão, o ganho para +2 PM temporários e o limite para descarregar para +8 PM.", "extra_details": { "requirements": "devoto de Wynna" } }
+  ],
+  "effects": [
+    { "type": "recurso", "attribute": "pm_temporario_so_para_aprimoramentos", "amount": "1", "resistence_requirement": null, "extra_requirements": "rolagem 1d4 por turno; 25% de chance; descarrega aos 4 PM acumulados; 1x por cena" }
+  ],
+  "livro": "deuses_de_arton"
+}

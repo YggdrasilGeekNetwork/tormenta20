@@ -1,0 +1,10 @@
+{
+  "id": "esta_nas_escrituras",
+  "name": "Está nas Escrituras",
+  "description": "Quando falha em um teste de Enganação ou Religião, você pode gastar 1 PM para repetir esse teste usando a outra perícia (Enganação para um teste de Religião e vice-versa).",
+  "effects": [
+    { "type": "ativado", "custo_pm": 1, "gatilho": "falhar em teste de Enganação ou Religião", "efeito": "repete o teste usando a outra perícia" }
+  ],
+  "requirements": ["Sincretismo Oportuno"],
+  "livro": "deuses_de_arton"
+}

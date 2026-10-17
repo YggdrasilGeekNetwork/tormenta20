@@ -1,0 +1,11 @@
+{
+  "id": "combate_pacifico",
+  "name": "Combate Pacífico",
+  "description": "Quando é atingido por um ataque corpo a corpo, você pode gastar 1 PM para fazer um teste de manobra. Se o resultado do seu teste for maior que o do atacante, você evita o ataque. Além disso, quando uma criatura atacá-lo e errar, você pode gastar 1 PM para fazer uma manobra contra essa criatura (desde que ela esteja em seu alcance). Você pode usar cada um desses efeitos uma vez por rodada.",
+  "effects": [
+    { "type": "ativado", "custo_pm": 1, "gatilho": "sofrer ataque corpo a corpo", "efeito": "teste de manobra; se maior que o do atacante, evita o ataque", "frequencia": "1x_por_rodada" },
+    { "type": "ativado", "custo_pm": 1, "gatilho": "criatura erra um ataque contra você", "efeito": "faz uma manobra contra ela, se estiver em alcance", "frequencia": "1x_por_rodada" }
+  ],
+  "requirements": ["treinado em Luta"],
+  "livro": "deuses_de_arton"
+}

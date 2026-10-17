@@ -1,0 +1,10 @@
+{
+  "id": "gostei_vou_comprar",
+  "name": "Gostei, Vou Comprar!",
+  "description": "Quando uma criatura em alcance curto usa uma habilidade de classe que você possa ver, você pode gastar 6 PM para 'comprar' essa habilidade. Até o fim da cena, você pode usá-la como uma habilidade de raça (se ela usar um atributo para algo, use seu Carisma). Se 'comprar' outra habilidade, você perde a anterior. Habilidades de ameaças com o mesmo nome de habilidades de classe, e cada uma de suas magias, também podem ser 'compradas' com este poder.",
+  "effects": [
+    { "type": "ativado", "custo_pm": 6, "gatilho": "ver uma criatura em alcance curto usar uma habilidade de classe (ou equivalente de ameaça, ou magia)", "efeito": "usa a habilidade comprada como habilidade de raça (usando Carisma no lugar do atributo dela) até o fim da cena; comprar outra substitui a anterior" }
+  ],
+  "requirements": ["O Preço do Sucesso", "ter gastado pelo menos T$ 100.000 ao longo da carreira de aventureiro"],
+  "livro": "deuses_de_arton"
+}

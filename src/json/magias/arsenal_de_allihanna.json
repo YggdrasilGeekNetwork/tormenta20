@@ -1,0 +1,30 @@
+{
+  "id": "arsenal_de_allihanna",
+  "name": "Arsenal de Allihanna",
+  "type": "divina",
+  "circle": "1",
+  "school": "trans",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": null,
+  "effect": "arma criada em sua mão",
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Outrora chamada Armamento de Allihanna, esta magia recentemente recebeu um novo nome — com implicações curiosas. Utilizada pela primeira vez por Lisandra de Galrasia, diz-se que a verdadeira origem da magia estaria relacionada a seu pai, Arsenal, então mortal. Você invoca uma arma a sua escolha, em uma versão de madeira mágica que fornece +1 nos testes de ataque e rolagens de dano (isso conta como um bônus de encanto) e conta como uma arma primitiva para efeitos como a magia Armamento da Natureza. Se for uma arma de disparo, ela produz sua própria munição (mas você pode usar munição normal, se quiser). Arsenal de Allihanna não cria armas complexas (como bestas ou armas de fogo) e seus efeitos só funcionam em suas mãos.",
+  "enhancements": [
+    { "cost": 2, "type": "aumenta", "description": "aumenta o bônus em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar).", "extra_details": null },
+    { "cost": 2, "type": "muda", "description": "a arma, ou sua munição, é recoberta de espinhos. Ela causa +1d6 pontos de dano e o alvo do ataque fica sangrando.", "extra_details": null },
+    { "cost": 3, "type": "muda", "description": "(Apenas Devotos de Allihanna ou Dahllan): muda o alvo para uma planta e o alcance para toque. A planta manifesta uma arma corpo a corpo simples de madeira Tollon e uma armadura de couro batido reforçada. Se você tiver o suplemento Ameaças de Arton, ela pode manifestar uma espada espinhenta ou um fruto da espada-mãe. Se estiver apto, você empunha/veste os itens como ação livre e eles desaparecem quando a magia acaba. Requer 2º círculo.", "extra_details": { "requirements": "devoto de Allihanna ou Dahllan; requer 2º círculo" } }
+  ],
+  "effects": [
+    { "type": "convocação", "attribute": "arma", "amount": null, "resistence_requirement": null, "extra_requirements": "arma de madeira mágica com +1 em ataque e dano" }
+  ],
+  "livro": "deuses_de_arton"
+}

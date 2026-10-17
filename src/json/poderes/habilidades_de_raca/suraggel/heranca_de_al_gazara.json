@@ -1,0 +1,16 @@
+{
+  "id": "heranca_de_al_gazara",
+  "name": "Herança de Al-Gazara",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "Devido à presença do puro caos primordial de Nimb em seu sangue, você recebe +1 em um atributo aleatório.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "attribute_bonus_random": 1
+  },
+  "livro": "deuses_de_arton"
+}

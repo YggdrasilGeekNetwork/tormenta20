@@ -1,0 +1,10 @@
+{
+  "id": "quem_ri_por_ultimo",
+  "name": "Quem Ri Por Último…",
+  "description": "Enquanto for o último na ordem de iniciativa, você recebe +1 em testes de perícia e na CD de suas habilidades contra criaturas que já tenham agido na rodada. Esses bônus aumentam em +1 para cada dois outros poderes da distinção que você possui.",
+  "effects": [
+    { "type": "passivo", "condicao": "último na ordem de iniciativa", "bonus_base": 1, "aplica_em": ["testes de perícia", "CD das próprias habilidades"], "contra": "criaturas que já agiram na rodada", "escalavel": "+1 a cada dois outros poderes da distinção" }
+  ],
+  "requirements": ["Cabriolas de Bobo"],
+  "livro": "deuses_de_arton"
+}

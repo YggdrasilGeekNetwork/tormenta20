@@ -1,0 +1,16 @@
+{
+  "id": "afiador_solar",
+  "name": "Afiador Solar",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 100,
+  "espacos": 1,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "gatilho": "lançar magia que tenha arma como alvo e forneça dados adicionais de dano a ela",
+    "efeito": "pode mudar o tipo desse dano adicional para luz"
+  },
+  "description": "Esta pequena pedra de amolar canaliza luz para suas armas. Quando lança uma magia que tenha como alvo uma arma e que forneça dados adicionais de dano a ela, você pode mudar o tipo desse dano adicional para luz.",
+  "livro": "deuses_de_arton"
+}

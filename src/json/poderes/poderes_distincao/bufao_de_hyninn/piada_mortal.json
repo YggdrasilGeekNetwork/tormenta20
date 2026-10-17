@@ -1,0 +1,10 @@
+{
+  "id": "piada_mortal",
+  "name": "Piada Mortal",
+  "description": "Você pode gastar uma ação completa e 6 PM para contar uma piada tão hilária que o resto da vida parece perder o sentido. Faça um teste de Atuação oposto pela Vontade de uma criatura inteligente (Int –3 ou maior) em alcance curto. Se vencer, a criatura deve gastar sua próxima ação padrão para atacar a si mesma da maneira mais eficiente possível. Uma criatura só pode ser alvo deste poder uma vez por cena. Mental.",
+  "effects": [
+    { "type": "ativado", "acao": "completa", "custo_pm": 6, "teste_oposto": "Atuação vs Vontade", "restricao_alvo": "criatura inteligente (Int -3 ou maior)", "efeito": "se vencer, alvo gasta a próxima ação padrão atacando a si mesmo da forma mais eficiente possível", "limite": "1x por cena por criatura", "tag": "mental" }
+  ],
+  "requirements": ["Cabriolas de Bobo", "Canção Assustadora"],
+  "livro": "deuses_de_arton"
+}

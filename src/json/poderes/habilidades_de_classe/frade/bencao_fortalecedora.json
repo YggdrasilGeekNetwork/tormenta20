@@ -1,0 +1,14 @@
+{
+  "id": "bencao_fortalecedora",
+  "name": "Bênção Fortalecedora",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Quando você lança Bênção, os aliados abençoados recebem uma quantidade de PV temporários igual a 5 vezes o bônus em testes de ataque fornecido pela magia. Esses PV temporários duram enquanto a magia durar.",
+  "requirements": [
+    { "type": "feature", "sub_type": "hard", "id": "bencao" }
+  ],
+  "effects": [
+    { "type": "passivo", "gatilho": "lançar Bênção", "efeito": "aliados abençoados recebem PV temporários = 5x o bônus de ataque da magia, durando enquanto ela durar" }
+  ],
+  "livro": "deuses_de_arton"
+}

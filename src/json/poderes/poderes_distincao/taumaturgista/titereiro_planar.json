@@ -1,0 +1,10 @@
+{
+  "id": "titereiro_planar",
+  "name": "Titereiro Planar",
+  "description": "Quando lança Conjurar Monstro, você pode dar ordens ao monstro como uma ação de movimento (em vez de uma ação padrão) e a magia não conta no limite de magias que você pode sustentar em um turno.",
+  "effects": [
+    { "type": "passivo", "efeito": "dar ordens ao monstro de Conjurar Monstro custa ação de movimento; a magia não conta no limite de magias sustentadas por turno" }
+  ],
+  "requirements": ["Conjurar Monstro", "Amigo de Outro Mundo"],
+  "livro": "deuses_de_arton"
+}

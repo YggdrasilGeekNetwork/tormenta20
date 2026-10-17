@@ -1,0 +1,19 @@
+{
+  "id": "heranca_de_venomia",
+  "name": "Herança de Venomia",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "Ser escorregadio como Sszzaas faz parte de sua natureza, mesmo que você não goste disso. Você recebe +2 em Enganação e em testes para evitar manobras de combate e efeitos de movimento.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "skill_bonus": {
+      "enganacao": 2
+    },
+    "bonus_vs_combat_maneuvers_and_movement_effects": 2
+  },
+  "livro": "deuses_de_arton"
+}

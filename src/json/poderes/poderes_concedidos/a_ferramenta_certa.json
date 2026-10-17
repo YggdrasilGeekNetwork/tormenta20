@@ -1,0 +1,9 @@
+{
+  "id": "a_ferramenta_certa",
+  "name": "A Ferramenta Certa",
+  "deities": ["hyninn"],
+  "description": "Você pode gastar 1 PM para fazer uma ferramenta ou um equipamento de aventura de até T$ 400 aparecer na sua mão ou em um espaço adjacente. O item dura até o fim da cena, ou até deixar sua posse.",
+  "effects": { "type": "ativado", "custo_pm": 1, "efeito": "faz surgir uma ferramenta ou equipamento de aventura de até T$ 400 na mão ou espaço adjacente, até o fim da cena ou até deixar sua posse" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

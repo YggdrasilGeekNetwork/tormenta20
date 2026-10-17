@@ -1,0 +1,14 @@
+{
+  "id": "zelador_dos_vinhedos",
+  "name": "Zelador dos Vinhedos",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Você pode usar Ofício (cozinheiro) para preparar poções de magias que você conheça e cujo alvo seja 1 criatura. As poções tomam a forma de bebidas e seguem as regras desses itens (Heróis de Arton, Capítulo 3), exceto que ingeri-las é uma ação padrão. A bebida pode ser comum ou especial; no segundo caso, a CD para fabricá-la aumenta em +5 e o custo aumenta conforme a bebida especial, mas consumi-la gera ambos os efeitos (da poção e da bebida especial).",
+  "requirements": [
+    { "type": "trained_skill", "sub_type": "hard", "skill": "oficio_cozinheiro" }
+  ],
+  "effects": [
+    { "type": "passivo", "efeito": "fabrica poções de magias conhecidas (alvo 1 criatura) na forma de bebidas (regras de Heróis de Arton), ingerir é ação padrão; bebida especial soma +5 na CD de fabricação e aplica os efeitos de ambas ao ser consumida" }
+  ],
+  "livro": "deuses_de_arton"
+}

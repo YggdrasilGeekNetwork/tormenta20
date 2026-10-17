@@ -1,0 +1,9 @@
+{
+  "id": "magia_caotica",
+  "name": "Magia Caótica",
+  "deities": ["nimb"],
+  "description": "Quando lança uma magia, você pode gastar +2 PM. Se fizer isso, a CD para resistir a essa magia é calculada com 1d20 + seus modificadores, em vez de 10 + seus modificadores.",
+  "effects": { "type": "ativado", "gatilho": "lançar uma magia", "custo_pm": 2, "efeito": "CD da magia passa a ser 1d20 + modificadores, em vez de 10 + modificadores" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

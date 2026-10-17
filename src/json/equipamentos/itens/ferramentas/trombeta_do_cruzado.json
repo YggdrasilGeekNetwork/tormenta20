@@ -1,0 +1,17 @@
+{
+  "id": "trombeta_do_cruzado",
+  "name": "Trombeta do Cruzado",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 100,
+  "espacos": 1,
+  "uso": "empunhado",
+  "efeito": {
+    "condicao": "empunhar ao usar um poder concedido ou magia divina que convoca capangas (ex.: Servos do Dragão, Conjurar Mortos-vivos)",
+    "efeito": "custo da habilidade reduzido em -1 PM; capangas convocados recebem +2 em rolagens de dano",
+    "conta_como": "instrumento musical"
+  },
+  "description": "Esta trombeta santificada infunde energia divina nas criaturas que você convoca. Se estiver empunhando esta trombeta quando usa um poder concedido ou uma magia divina que convoca capangas (como Servos do Dragão ou Conjurar Mortos-vivos), o custo da habilidade é reduzido em –1 PM e os capangas convocados recebem +2 em rolagens de dano. Conta como um instrumento musical.",
+  "livro": "deuses_de_arton"
+}

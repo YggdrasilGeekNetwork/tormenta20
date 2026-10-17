@@ -1,0 +1,14 @@
+{
+  "id": "escrivaninha_consagrada",
+  "name": "Escrivaninha Consagrada",
+  "deities": ["tanna_toh"],
+  "subtipo": "acessorio",
+  "classificacao": "Acessório menor",
+  "preco": 9000,
+  "description": "Esta caixa de madeira repleta de dobradiças possui o símbolo de Tanna-Toh pintado na tampa. Ela pode ser aberta e desdobrada para virar uma escrivaninha portátil, útil para aventureiros que querem ter um espaço para ler e escrever mesmo nos ermos. Se você for um devoto da Deusa do Conhecimento e usar a escrivaninha consagrada para estudar por 1 hora, dobra seu bônus de treinamento em uma perícia baseada em Int ou Sab a sua escolha por 1 dia. Além disso, caso possa fabricar pergaminhos, uma vez por aventura recebe 1d3 pergaminhos que poderia ter criado. Considere que você escreveu esses pergaminhos durante seu tempo livre. A escrivaninha consagrada ocupa 2 espaços.",
+  "effects": [
+    { "type": "devoto", "deity": "tanna_toh", "tempo": "1 hora de estudo", "efeito": "dobra o bônus de treinamento em uma perícia baseada em Int ou Sab à escolha, por 1 dia" },
+    { "type": "devoto", "deity": "tanna_toh", "frequencia": "1x_por_aventura", "requer": "capacidade de fabricar pergaminhos", "efeito": "recebe 1d3 pergaminhos que poderia ter criado" }
+  ],
+  "livro": "deuses_de_arton"
+}

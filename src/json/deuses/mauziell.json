@@ -1,0 +1,25 @@
+{
+  "id": "mauziell",
+  "name": "Mauziell",
+  "title": "Deusa das Avós",
+  "description": "Uma velhinha enrugada e de aparência frágil, que mora em uma cabana no meio da floresta em Tollon. É impossível chegar a essa cabana por meios mágicos; existem apenas dois caminhos pela floresta — um longo e iluminado, que não chega a lugar nenhum, e outro estreito e escuro, cercado por olhos na sombra: o verdadeiro caminho. Mauziell afirma que vive ali para que seus netos tenham que vencer perigos para levar-lhe cestas de doces, e sua casa é abarrotada de enfeites e crochês. Mauziell tem idade para ser a avó de qualquer criatura (deuses inclusos) e sempre tem informações e objetos que apenas uma avó teria. Todos são netos de Mauziell, e por isso seus devotos são instigados a agir como ela, cuidando dos outros como apenas avós são capazes. Teve grande participação na empreitada de Orion Drake para libertar o Império de Jade da Tormenta, ajudando a recrutar deuses e derrotando Andaluzia, a Bruxa sem Rosto, na batalha na área de Tormenta de Tamu-ra.",
+  "beliefs_objectives": [
+    "Cuidar dos outros como se fossem netos",
+    "Guardar coisas para que não se percam",
+    "Instigar pessoas a agir de forma adequada",
+    "Servir como exemplo"
+  ],
+  "holy_symbol": "Uma cesta de piquenique",
+  "energy": "positiva",
+  "preferred_weapon": "Bengala (conta como uma clava)",
+  "devotees": {
+    "races": ["anoes", "centauros", "duendes", "elfos", "gnolls", "lefou", "qareen", "hynne", "satiros", "tengu"],
+    "classes": ["arcanistas", "bardos", "cacadores", "cavaleiros", "guerreiros", "nobres", "paladinos"]
+  },
+  "granted_powers": ["guardei_para_voce"],
+  "obligations_restrictions": "Um devoto de Mauziell é, para todos os efeitos, uma avó, e portanto precisa da ajuda de seus 'netos' para realizar tarefas, como abrir potes de geleia ou carregar coisas pesadas. O devoto deve pedir a ajuda de uma criatura para realizar alguma tarefa pelo menos uma vez por dia (ou por sessão de jogo, o que demorar mais), como forma de honrar sua divindade. Em termos de jogo, a criatura deve passar em um teste de perícia aplicável ao pedido com CD mínima 15 + metade do nível do devoto.",
+  "rank": "menor",
+  "natureza": "entidade_primordial",
+  "status_divino": 4,
+  "livro": "deuses_de_arton"
+}

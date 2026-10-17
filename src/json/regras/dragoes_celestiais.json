@@ -1,0 +1,11 @@
+{
+  "id": "dragoes_celestiais",
+  "name": "Habilidades de Dragões Celestiais",
+  "description": "Regra-base compartilhada por criaturas draconiformes celestiais (Deuses de Arton, Cap. 4), como o Aspecto de Lin-Wu e o Avatar de Lin-Wu.",
+  "habilidades": [
+    { "nome": "Magia Celestial", "descricao": "Podem lançar magias sem palavras mágicas, gestos, concentração ou componentes materiais." },
+    { "nome": "Metamorfose Celestial", "acao": "completa", "descricao": "Podem se transformar em outras criaturas, como a magia Metamorfose (mas sem limitação para tamanhos menores que os seus). Um dragão morto reverte a sua forma original." },
+    { "nome": "Presença Celestial", "salvaguarda": "Vontade", "descricao": "Uma criatura que comece seu turno em alcance longo de um dragão celestial adulto ou mais velho fica apavorada (4 níveis ou menos) ou abalada (5+ níveis) até o fim da cena. Criaturas com um código de conduta (cavaleiros, paladinos) ou devotos de Khalmyr ou Lin-Wu ficam fascinadas, independente de seu nível (Vontade evita em todos os casos). Passar no teste de resistência deixa imune a esta habilidade por um dia." }
+  ],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "pregador",
+  "name": "Pregador",
+  "description": "Devoto real e capaz de operar milagres reais, mas que nem sempre obedece a todos os desígnios de seu deus patrono, adaptando a fé às comunidades desassistidas por igrejas formais.",
+  "admissao": "Ao contrário de outros caminhos, o candidato deve abandonar qualquer igreja formal à qual pertença: não pode recorrer a recursos da ordem, receber ajuda de outros devotos da mesma fé ou revelar sua fé para obter privilégios, vivendo como o povo comum por uma estação inteira. Durante esse tempo, deve forçar os limites dos dogmas de seu deus, sendo punido algumas vezes no processo (se nunca for punido, não está se esforçando o suficiente). Depois, deve encontrar uma comunidade não servida por nenhum clérigo ou frade (o próprio grupo de aventureiros não conta) e atuar ali como conselheiro espiritual até que a maior parte aceite seu patrono como divindade principal — processo que pode levar meses ou anos. Por fim, deve descumprir algum dos requisitos aqui listados, justificando que na verdade fez a coisa certa.",
+  "marca_nome": "Vista Grossa",
+  "marca_descricao": "Sempre que violar as Obrigações & Restrições de uma divindade que precisa cumprir, você pode fazer um teste de Religião (CD 10, +5 para cada outra vez que usou este poder na mesma aventura). Se passar, não sofre nenhuma consequência por essa violação.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

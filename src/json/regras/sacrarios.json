@@ -1,0 +1,14 @@
+{
+  "id": "sacrarios",
+  "name": "Sacrários",
+  "description": "Regra-base compartilhada por vários poderes de frade (Deuses de Arton, p.39). Um sacrário é uma área consagrada pelo poder divino do frade.",
+  "regras": [
+    "Criar um sacrário gasta uma ação padrão e 3 PM.",
+    "Um sacrário ocupa uma esfera de 3m de raio em alcance curto.",
+    "Um sacrário dura até o fim da cena, a menos que sua descrição diga o contrário.",
+    "Você pode ter um número de sacrários ativos simultâneos igual à sua Sabedoria.",
+    "Um sacrário não pode ser criado em uma área afetada por outro sacrário ou onde haja um símbolo visível de uma divindade diferente da sua.",
+    "Para ser afetada, uma criatura precisa estar inteiramente dentro da área do sacrário."
+  ],
+  "livro": "deuses_de_arton"
+}

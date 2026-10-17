@@ -1,0 +1,10 @@
+{
+  "id": "revirar_os_bolsos",
+  "name": "Revirar os Bolsos",
+  "description": "A cada cena, o primeiro tibar de ouro que você consumir para pagar um custo em PM paga 1d4 PM desse custo.",
+  "effects": [
+    { "type": "passivo", "frequencia": "1x_por_cena", "efeito": "o primeiro TO consumido para pagar um custo em PM paga 1d4 PM em vez de 1" }
+  ],
+  "requirements": ["O Preço do Sucesso"],
+  "livro": "deuses_de_arton"
+}

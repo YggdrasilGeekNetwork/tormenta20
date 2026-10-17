@@ -1,0 +1,10 @@
+{
+  "id": "dancarina_de_marah",
+  "name": "Dançarina de Marah",
+  "description": "Devota de Marah que transforma o corpo em veículo do amor divino, usando dança para acalmar violência, desarmar hostilidades e inspirar aliados.",
+  "admissao": "A candidata precisa ser devota de Marah. É recrutada por uma dançarina experiente (que atua como olheira) ou procura por conta própria um convento de Marah, então passa por um teste perante uma banca de juízes: uma performance de dança adaptável a diferentes estilos, uma prova de cultura (arte e religião) e teologia, e uma prova de resistência física em posições difíceis por tempo prolongado. Aprovada, muda-se para o convento por uma estação inteira, sem contato externo. Ao fim, deve empreender uma missão à sua escolha para resolver um conflito significativo usando apenas sua arte (ainda sem os poderes da distinção), depois retornar e se apresentar aos mestres com uma coreografia autoral contando essa história; a nota da banca decide sua aprovação final.",
+  "marca_nome": "Graça de Marah",
+  "marca_descricao": "Você soma sua Sabedoria em Atuação. Além disso, pode substituir testes de Diplomacia por testes de Atuação.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "estola",
+  "name": "Estola",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 150,
+  "espacos": 1,
+  "requer_misticismo": true,
+  "uso": "vestido",
+  "efeito": {
+    "escopo": "uma magia divina específica adornada na estola",
+    "efeito": "+2 na CD para resistir a essa magia"
+  },
+  "description": "Uma faixa larga e comprida que sacerdotes usam em torno do pescoço. Cada estola é adornada com símbolos que remetem a uma magia divina específica, e o uso de um destes acessórios indica que o sacerdote está ocupado com algum dever eclesiástico ligado a essa magia. A CD para resistir à magia divina representada na estola aumenta em +2. Ao contrário de outros itens esotéricos, uma estola pode ser vestida em vez de empunhada.",
+  "livro": "deuses_de_arton"
+}

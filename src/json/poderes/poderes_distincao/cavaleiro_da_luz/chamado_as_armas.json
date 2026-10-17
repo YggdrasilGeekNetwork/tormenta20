@@ -1,0 +1,10 @@
+{
+  "id": "chamado_as_armas",
+  "name": "Chamado às Armas",
+  "description": "Uma vez por rodada, você pode gastar uma ação de movimento e 3 PM para encorajar seus companheiros. Até o início do seu próximo turno, você e seus aliados em alcance curto que fizerem uma ação agredir podem fazer um ataque adicional.",
+  "effects": [
+    { "type": "ativado", "frequencia": "1x_por_rodada", "acao": "movimento", "custo_pm": 3, "efeito": "até o início do próximo turno, você e aliados em alcance curto que usem a ação agredir podem fazer um ataque adicional" }
+  ],
+  "requirements": ["Comandar", "quatro outros poderes de cavaleiro da Luz"],
+  "livro": "deuses_de_arton"
+}

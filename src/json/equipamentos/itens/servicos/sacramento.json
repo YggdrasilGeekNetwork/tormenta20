@@ -1,0 +1,16 @@
+{
+  "id": "sacramento",
+  "name": "Sacramento",
+  "type": "servico",
+  "categoria": "servico",
+  "preco": 50,
+  "efeito": {
+    "requer": "ser devoto; só pode ser recebido em templos da própria divindade",
+    "escolha": "uma magia divina de 1º círculo",
+    "duracao": "até o fim da aventura",
+    "frequencia": "1x_por_aventura",
+    "efeito": "lança a magia escolhida uma única vez, sem aprimoramentos, gastando 2 PM (atributo-chave Sabedoria)"
+  },
+  "description": "Este rito religioso transfere uma fração de poder divino para um fiel. Por sua importância e dificuldade, é reservado para aqueles mais propensos a fazer bom uso desta dádiva; em geral, aventureiros envolvidos em uma missão de cunho divino. Escolha uma magia divina de 1º círculo; até o fim da aventura, você pode lançar essa magia uma única vez, sem aprimoramentos, gastando 2 PM (atributo-chave Sabedoria). Apenas devotos podem receber um sacramento e, obviamente, somente em templos de sua divindade.",
+  "livro": "deuses_de_arton"
+}

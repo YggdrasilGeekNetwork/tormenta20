@@ -1,0 +1,14 @@
+{
+  "id": "coroa_de_flores",
+  "name": "Coroa de Flores",
+  "deities": ["allihanna"],
+  "subtipo": "acessorio",
+  "classificacao": "Acessório menor",
+  "preco": 9000,
+  "description": "Este adereço é feito com ramos verdejantes e flores brancas, rosas, amarelas e lilases e, abençoado pela magia da natureza, permanece sempre vistoso. Se você for um devoto de Allihanna e vestir a coroa de flores, recebe +1 em Sabedoria (apenas após 1 dia de uso) e suas magias com efeitos numéricos variáveis recebem um bônus de +1 por dado (por exemplo, Curar Ferimentos lançada para curar 4d8+4 PV irá curar 4d8+8 PV).",
+  "effects": [
+    { "type": "devoto", "deity": "allihanna", "requer": "1 dia de uso", "efeito": "+1 em Sabedoria" },
+    { "type": "devoto", "deity": "allihanna", "efeito": "magias com efeitos numéricos variáveis recebem +1 por dado" }
+  ],
+  "livro": "deuses_de_arton"
+}

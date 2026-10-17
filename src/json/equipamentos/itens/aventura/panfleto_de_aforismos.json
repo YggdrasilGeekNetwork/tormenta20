@@ -1,0 +1,17 @@
+{
+  "id": "panfleto_de_aforismos",
+  "name": "Panfleto de Aforismos",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 60,
+  "espacos": 1,
+  "uso": "guardado",
+  "efeito": {
+    "requer": "específico de um deus; só funciona com seus devotos",
+    "acao": "completa",
+    "custo_pm": 1,
+    "efeito": "remove uma condição entre: debilitado, enjoado, exausto, fatigado, fraco ou vulnerável"
+  },
+  "description": "Às vezes as religiões artonianas contam com tomos de fácil leitura, sem conteúdo pesado — apenas citações motivadoras, conselhos simples, dicas de exercícios de respiração e pequenos excertos que ajudam o fiel a relaxar. Cada panfleto de aforismos é específico de um deus e só funciona com seus devotos. Se estiver debilitado, enjoado, exausto, fatigado, fraco ou vulnerável, você pode gastar uma ação completa e 1 PM para remover uma dessas condições.",
+  "livro": "deuses_de_arton"
+}

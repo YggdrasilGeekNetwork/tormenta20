@@ -1,0 +1,13 @@
+{
+  "id": "turibulo_ungido",
+  "name": "Turíbulo Ungido",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 100,
+  "espacos": 1,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": { "aumenta_area_magias": "1,5m" },
+  "description": "Um vaso ou incensário formado por um fornilho na ponta de uma corrente, onde se queimam ervas e incensos. Aumenta a área de suas magias em +1,5m (uma magia que afeta um raio de 3m passa a afetar um raio de 4,5m, por exemplo).",
+  "livro": "deuses_de_arton"
+}

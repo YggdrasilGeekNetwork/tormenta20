@@ -1,0 +1,34 @@
+{
+  "id": "diabrete",
+  "name": "Diabrete",
+  "nd": 2,
+  "tipo": "Espírito",
+  "subtipo": "abissal",
+  "tamanho": "minúsculo",
+  "grupo": "abissais",
+  "pv": 20,
+  "pm": null,
+  "defesa": 17,
+  "salvaguardas": { "fort": 6, "ref": 12, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": ["ácido", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 4,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6, "voo": 12 },
+  "atributos": { "for": -2, "des": 2, "con": 0, "int": 2, "sab": 1, "car": 1 },
+  "pericias": { "furtividade": 10, "misticismo": 7 },
+  "ataques": [
+    { "nome": "Ferrão", "bonus": 14, "dano": [{ "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 8, "tipo": "perfuração" }], "critico": null, "extra_requirements": "mais veneno" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Peste Invisível", "acao": "padrão", "descricao": "O diabrete se torna invisível (como na magia Invisibilidade) até o fim da cena ou até fazer um ataque." },
+    { "nome": "Veneno", "descricao": "Peçonha comum (perde 1d12 pontos de vida, Fort CD 16 evita)." },
+    { "nome": "Familiar", "descricao": "Um diabrete fornece +1 PM para gastar em aprimoramentos sempre que o devoto lança uma magia de ilusão ou veneno." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Diminuto humanoide careca, com asas de couro e cauda fina terminada em ferrão. Abissal menor, covarde e travesso, usado por outros demônios ou mortais como familiar ou espião.",
+  "livro": "deuses_de_arton"
+}

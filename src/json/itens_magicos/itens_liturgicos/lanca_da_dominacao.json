@@ -1,0 +1,14 @@
+{
+  "id": "lanca_da_dominacao",
+  "name": "Lança da Dominação",
+  "deities": ["kallyadranoch"],
+  "subtipo": "arma",
+  "base_item": "lanca",
+  "classificacao": "Arma específica média",
+  "preco": 45000,
+  "description": "Esta lança maciça é feita de uma única haste de metal cinza escuro, e tem um tênue brilho alaranjado. Se você for um devoto de Kallyadranoch, torna-se uma lança maciça que fornece +1 em testes de ataque e rolagens de dano e, a cada acerto, causa +1d10 pontos de dano de ácido, eletricidade, fogo ou frio (a escolha do usuário a cada golpe). Cada vez que você sobe de nível enquanto estiver com a lança, os bônus que ela fornece em ataque e dano aumentam em +1 (até um máximo de +6). Entretanto, a cada mês que você passar separado da lança da dominação, os bônus dela diminuem em –1 (até um mínimo de +1).",
+  "effects": [
+    { "type": "devoto", "deity": "kallyadranoch", "enchantment": "maciça", "efeito": "+1 em testes de ataque e rolagens de dano; a cada acerto, +1d10 de dano (ácido, eletricidade, fogo ou frio, à escolha)", "progressao": "o bônus aumenta +1 a cada nível ganho com a lança em posse (máximo +6) e diminui -1 por mês separado dela (mínimo +1)" }
+  ],
+  "livro": "deuses_de_arton"
+}

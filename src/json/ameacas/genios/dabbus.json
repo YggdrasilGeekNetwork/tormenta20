@@ -1,0 +1,38 @@
+{
+  "id": "dabbus",
+  "name": "Dabbus",
+  "nd": 15,
+  "tipo": "Espírito",
+  "subtipo": "gênio",
+  "tamanho": "grande",
+  "grupo": "genios",
+  "pv": 525,
+  "pm": 98,
+  "defesa": 48,
+  "salvaguardas": { "fort": 15, "ref": 22, "von": 28 },
+  "resistencias": { "magia_arcana": 10 },
+  "reducao_de_dano": null,
+  "imunidades": ["trevas"],
+  "vulnerabilidades": [],
+  "iniciativa": 18,
+  "percepcao": 9,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 15 },
+  "atributos": { "for": 3, "des": 5, "con": 4, "int": 2, "sab": 2, "car": 8 },
+  "pericias": { "enganacao": 21, "intimidacao": 21, "misticismo": 17 },
+  "ataques": [
+    { "nome": "Pancada", "quantidade": 2, "bonus": 41, "dano": [{ "dados": [{ "quantidade": 3, "faces": 10 }], "bonus": 25, "tipo": "impacto" }, { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 0, "tipo": "trevas" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Conduta Dabbus", "descricao": "Um dabbus só aceita amos malignos ou devotos de deuses de energia apenas negativa; normalmente não serve a personagens jogadores." },
+    { "nome": "Dentro de uma Lampadazinha", "descricao": "Para cada dia sem um pacto ativo, perde 1 PM; ao chegar a 0, sofre um efeito debilitante, revertido ao firmar novo pacto." },
+    { "nome": "Servo dos Deuses", "descricao": "Pode lançar Viagem Planar sem componente material, apenas em si mesmo." },
+    { "nome": "Devorar Magia", "acao": "reação", "descricao": "Quando passa no teste de resistência contra uma magia da qual foi alvo, não sofre nenhum efeito e recupera PM igual ao valor gasto nela." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, muda a execução dela para livre." },
+    { "nome": "Ódio Ancestral", "descricao": "Quando o dabbus reduz os PV de um inimigo a 0 ou menos, recupera metade do dano que causou a esse inimigo." },
+    { "nome": "Magias (feiticeiro 15º, CD 42)", "descricao": "Crânio Voador de Vladislav (padrão, 9 PM): dois crânios causam 6d8+6 de dano de trevas e deixam abaladas (Fort reduz à metade e evita). Desintegrar (padrão, 14 PM): 12d12 de dano de essência (Fort reduz para 3d12); reduzido a 0 PV vira pó. Manto das Trevas (padrão, 6 PM, sustentada): fica incorpóreo e teleporta-se entre sombras; sofre 1 dano/rodada sob luz solar. Tentáculos de Trevas (padrão, 10 PM): tentáculos em esfera de 6m agarram e esmagam criaturas, 8d6 de dano de trevas. Toque Vampírico (padrão, 15 PM): ataque corpo a corpo causa +15d6 de trevas e cura a metade desse dano. Transformação de Guerra (padrão, 6 PM, sustentada): +6 em Defesa/ataque/dano corpo a corpo e 30 PV temporários, mas não pode lançar outras magias. Velocidade (padrão, 10 PM, sustentada): ação padrão adicional por turno. Vitalidade Fantasma (padrão, 10 PM): esfera de 6m, 3d10 de dano de trevas a vivos (Fort reduz à metade), cura PV temporários iguais ao dano total." }
+  ],
+  "tesouro": "Padrão.",
+  "description": "Gênio das trevas, criado por deuses malignos para destruir as obras de rivais. Egoísta e cheio de ódio, só aceita amos cruéis e impiedosos, podendo se voltar contra senhores que demonstrem piedade.",
+  "livro": "deuses_de_arton"
+}

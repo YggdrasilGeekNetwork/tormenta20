@@ -1,0 +1,10 @@
+{
+  "id": "manto_da_justica",
+  "name": "Manto da Justiça",
+  "description": "Você pode gastar 3 PM para projetar uma aura de ordem com 9m de raio e duração sustentada. Dentro da aura, você se torna imune a efeitos de medo e mentais, você e seus aliados recebem redução de dano igual à sua Sabedoria e inimigos que comecem seus turnos dentro da aura ficam enjoados por 1d6 rodadas (Vontade CD Sab evita e a criatura fica imune a esta habilidade por 1 dia).",
+  "effects": [
+    { "type": "ativado", "custo_pm": 3, "duracao": "sustentada", "alcance": "9m de raio", "efeito": "imunidade a medo e efeitos mentais para você; redução de dano igual à Sabedoria para você e aliados na aura; inimigos que iniciem o turno na aura ficam enjoados 1d6 rodadas (Vontade CD Sab evita, imunidade por 1 dia)" }
+  ],
+  "requirements": ["Vitória da Ordem", "dois outros poderes da distinção"],
+  "livro": "deuses_de_arton"
+}

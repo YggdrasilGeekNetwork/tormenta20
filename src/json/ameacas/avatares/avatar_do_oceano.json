@@ -1,0 +1,41 @@
+{
+  "id": "avatar_do_oceano",
+  "name": "Avatar do Oceano",
+  "nd": 20,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "avatares",
+  "pv": 2500,
+  "pm": null,
+  "defesa": 65,
+  "salvaguardas": { "fort": 36, "ref": 30, "von": 22 },
+  "reducao_de_dano": 20,
+  "imunidades": ["acertos críticos", "fogo", "frio", "queda", "precipitações"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 34,
+  "percepcao": 28,
+  "visao": ["percepção às cegas (longo)"],
+  "deslocamento": { "terrestre": 12, "natacao": 36 },
+  "atributos": { "for": 12, "des": 8, "con": 16, "int": 8, "sab": 12, "car": 8 },
+  "pericias": { "adestramento": 34, "atletismo": 33, "diplomacia": 29, "intimidacao": 29, "religiao": 33, "sobrevivencia": 38 },
+  "ataques": [
+    { "nome": "Dente do Leviatã", "quantidade": 4, "bonus": 58, "dano": [{ "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 50, "tipo": "perfuração" }, { "dados": [{ "quantidade": 4, "faces": 12 }], "bonus": 0, "tipo": "frio" }], "critico": null },
+    { "nome": "Jato d'Água", "quantidade": 6, "bonus": 58, "alcance": "longo", "dano": [{ "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 35, "tipo": "impacto" }, { "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 0, "tipo": "frio" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Caçador Submarino", "descricao": "Quando faz um teste de perícia em um ambiente aquático, o Avatar do Oceano rola dois dados e usa o melhor resultado." },
+    { "nome": "Centelha Divina", "descricao": "O Avatar pode lançar qualquer magia divina como um clérigo de 20º nível sem gastar PM (CD 51, limite de PM 20). Se estiver em terreno aquático, o custo de suas magias é reduzido em –4 PM e a CD para resistir a elas aumenta em +4." },
+    { "nome": "Dominar as Tempestades", "acao": "completa", "descricao": "O Avatar pode alterar o clima em uma esfera de 2 km ao seu redor (como o efeito básico da magia Controlar o Clima)." },
+    { "nome": "Forma Animal", "acao": "completa", "descricao": "O Avatar adquire a forma de um monstro marinho gigantesco. Ele recebe +5 em Força e na Defesa, seu ataque corpo a corpo muda para mordida +58 (4d12+25) e pancada x8 +54 (4d12+20) e seu tamanho muda para Colossal. Nessa forma, ele não pode falar, mas pode lançar magias." },
+    { "nome": "Golpe Tempestuoso", "acao": "livre", "salvaguarda": "Fortitude", "cd": 51, "efeito_sucesso": "evita", "descricao": "Uma criatura atingida por um ataque corpo a corpo do Avatar é empurrada 1,5m para cada 5 pontos de dano que sofrer (Fort CD 51 evita)." },
+    { "nome": "Mar em Fúria", "acao": "completa", "salvaguarda": "Fortitude", "cd": 51, "efeito_sucesso": "reduz à metade e evita ser tragado", "descricao": "Se estiver no mar, o Avatar invoca um maremoto em uma esfera de 30m de raio. Criaturas nessa área sofrem 15d10 pontos de dano, metade frio e metade impacto, e são tragadas para dentro do mar (Fort CD 51 reduz à metade e evita ser tragado). Uma criatura tragada afunda 1,5m para cada 5 pontos de dano sofrido. Recarga (movimento)." },
+    { "nome": "Onda Colossal", "acao": "completa", "descricao": "O Avatar inunda uma esfera com 15m de raio em alcance médio de uma fonte de água salgada em alcance longo. A área se torna um corpo de água salgada que conta como terreno difícil para criaturas sem deslocamento de natação." },
+    { "nome": "Voz das Marés", "descricao": "O Avatar pode falar com animais, espíritos, humanoides e monstros marinhos (como o efeito da magia Voz Divina)." }
+  ],
+  "equipamento": ["dente_do_leviata"],
+  "tesouro": "Dobro.",
+  "description": "Manifestação física do Oceano, o Deus dos Mares. Comanda tempestades e marés, empunhando o tridente Dente do Leviatã.",
+  "livro": "deuses_de_arton"
+}

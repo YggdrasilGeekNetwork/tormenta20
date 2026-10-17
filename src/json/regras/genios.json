@@ -1,0 +1,13 @@
+{
+  "id": "genios",
+  "name": "Habilidades e Conduta de Gênios",
+  "description": "Regras compartilhadas por todos os gênios (Deuses de Arton, Cap. 4): servos mágicos extraplanares criados pelos deuses, imortais, que não crescem nem envelhecem.",
+  "habilidades_compartilhadas": [
+    { "nome": "Dentro de uma Lampadazinha", "descricao": "Para cada dia sem um pacto ativo, o total de PM do gênio é reduzido em 1; se chegar a 0 PM dessa forma, sofre um efeito debilitante (varia por gênio: diminuir de tamanho para Minúsculo, ficar aprisionado em um objeto mundano como anel ou lâmpada, etc., a critério do mestre). Revertido ao firmar um pacto com um amo." },
+    { "nome": "Poderes Cósmicos Fenomenais", "acao": "completa", "descricao": "O gênio estabelece um pacto com uma criatura inteligente (Int -3 ou maior) voluntária em alcance curto, que se torna seu amo. O gênio se torna um parceiro iniciante do amo e, enquanto presente na cena, o custo de suas próprias habilidades mágicas é reduzido em -1 PM. Um gênio só pode ter um amo por vez, podendo encerrar o pacto a qualquer momento com uma ação completa." },
+    { "nome": "Servo dos Deuses", "descricao": "Todos os gênios podem lançar a magia Viagem Planar, sem necessidade de componente material, mas apenas em si mesmos." }
+  ],
+  "conduta": "Cada gênio tem seus próprios critérios sobre quem aceitará como amo e que favores está dispos to a prestar. Gênios são geralmente bondosos, recusando-se a servir amos malignos de bom grado (os que servem a tais mestres normalmente estão aprisionados ou sob servidão mágica). Um gênio que aceita um amo de bom grado se torna um parceiro iniciante; conforme a relação se estreita, seus poderes de parceiro aumentam, a critério do mestre.",
+  "desejos": "A habilidade mais característica de alguns gênios é conceder desejos mágicos (como a magia Desejo), mas nem todos os gênios podem fazer isso, e os que podem não o fazem levianamente. Em termos de jogo, gênios que concedem desejos normalmente não são parceiros — são NPCs sob controle do mestre, que podem usar desejos como recompensa por serviços ou boas ações dos personagens.",
+  "livro": "deuses_de_arton"
+}

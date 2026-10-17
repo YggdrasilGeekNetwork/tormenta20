@@ -1,0 +1,10 @@
+{
+  "id": "evolucao_espiritual",
+  "name": "Evolução Espiritual",
+  "description": "Para cada poder da distinção, você recebe +5 PV e +2 PM, e a CD de suas magias divinas e de seus poderes concedidos por sua divindade aumenta em +1.",
+  "effects": [
+    { "type": "passivo", "efeito": "+5 PV e +2 PM por poder da distinção que possui; +1 na CD de magias divinas e poderes concedidos da sua divindade, por poder da distinção" }
+  ],
+  "requirements": ["Proteção Divina"],
+  "livro": "deuses_de_arton"
+}

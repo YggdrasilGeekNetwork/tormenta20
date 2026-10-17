@@ -1,0 +1,37 @@
+{
+  "id": "orel",
+  "name": "Orel",
+  "nd": 16,
+  "tipo": "Espírito",
+  "subtipo": "celestial",
+  "tamanho": "grande",
+  "grupo": "celestiais",
+  "pv": 400,
+  "pm": null,
+  "defesa": 51,
+  "salvaguardas": { "fort": 24, "ref": 16, "von": 30 },
+  "reducao_de_dano": 20,
+  "resistencia_a_magia": 5,
+  "imunidades": ["eletricidade", "encantamento"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 19,
+  "visao": ["percepção às cegas (médio)"],
+  "deslocamento": { "voo": 18 },
+  "atributos": { "for": 0, "des": 0, "con": 1, "int": 5, "sab": 5, "car": 4 },
+  "pericias": { "conhecimento": 19, "diplomacia": 18, "intuicao": 19, "misticismo": 19, "religiao": 21 },
+  "ataques": [
+    { "nome": "Feixe Luminoso", "quantidade": 4, "bonus": 44, "dano": [{ "dados": [{ "quantidade": 8, "faces": 6 }], "bonus": 27, "tipo": "luz" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura de Bondade", "salvaguarda": "Vontade", "cd": 44, "efeito_sucesso": "evita", "descricao": "O orel emana uma aura de bondade com 9m de raio. Aliados dentro recebem imunidade a encantamento e +5 na Defesa e em testes de resistência. Inimigos que comecem seus turnos na área ficam cegos (Von CD 44 evita)." },
+    { "nome": "Conjurador Angelical", "descricao": "O orel pode lançar e sustentar qualquer magia arcana de 4º círculo ou menor sem gastar PM, como um mago de 16º nível (CD 44)." },
+    { "nome": "Geometria Divina", "acao": "completa", "descricao": "O orel lança duas magias com execução de ação padrão ou menor." },
+    { "nome": "Recomposição Divina", "descricao": "No início do seu turno, se não tiver sido reduzido a 0 PV ou menos, o orel volta a ter 400 PV." },
+    { "nome": "Sentidos Superiores", "descricao": "O orel está sempre sob o efeito básico da magia Visão da Verdade." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Celestial da ordem com forma metálica e geométrica em constante mutação, sem feições visíveis. Maior conjurador arcano entre os anjos, rastreia cabalas de demônios escondidas entre os mortais.",
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "protecao_divina",
+  "name": "Proteção Divina",
+  "description": "Você passa automaticamente em testes de resistência contra magias divinas lançadas por devotos de sua divindade.",
+  "effects": [
+    { "type": "passivo", "efeito": "sucesso automático em testes de resistência contra magias divinas de devotos da mesma divindade" }
+  ],
+  "requirements": ["treinado em Religião", "devoto de um deus maior"],
+  "livro": "deuses_de_arton"
+}

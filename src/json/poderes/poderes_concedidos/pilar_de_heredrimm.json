@@ -1,0 +1,9 @@
+{
+  "id": "pilar_de_heredrimm",
+  "name": "Pilar de Heredrimm",
+  "deities": ["khalmyr"],
+  "description": "Você pode gastar 2 PM para receber +2 na Defesa e redução de dano 5 até o fim da cena ou até encerrar este poder (uma ação livre). Enquanto esse efeito estiver ativo, seu deslocamento é reduzido à metade.",
+  "effects": { "type": "ativado", "custo_pm": 2, "duracao": "até o fim da cena ou até encerrar (ação livre)", "efeito": "+2 na Defesa e RD 5", "penalidade": "deslocamento reduzido à metade enquanto ativo" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,41 @@
+{
+  "id": "muhir",
+  "name": "Muhir",
+  "nd": 15,
+  "tipo": "Espírito",
+  "subtipo": "celestial",
+  "tamanho": "médio",
+  "grupo": "celestiais",
+  "pv": 750,
+  "pm": 77,
+  "defesa": 50,
+  "salvaguardas": { "fort": 22, "ref": 28, "von": 15 },
+  "reducao_de_dano": 10,
+  "imunidades": ["eletricidade", "encantamento", "dano de luz", "fogo"],
+  "resistencias": {},
+  "vulnerabilidades": ["trevas"],
+  "iniciativa": 20,
+  "percepcao": 9,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 7, "des": 7, "con": 6, "int": 3, "sab": 2, "car": 6 },
+  "pericias": { "atuacao": 19, "cura": 15, "intimidacao": 19, "religiao": 15 },
+  "ataques": [
+    { "nome": "Espada Bastarda", "quantidade": 2, "bonus": 41, "dano": [{ "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 25, "tipo": "corte" }, { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 0, "tipo": "fogo" }], "critico": "17" },
+    { "nome": "Pistola", "quantidade": 2, "bonus": 39, "dano": [{ "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 20, "tipo": "perfuração" }, { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 0, "tipo": "fogo" }], "critico": "18/x4" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão Aprimorada", "descricao": "O muhir possui Evasão Aprimorada." },
+    { "nome": "Armas Divinas", "descricao": "Qualquer arma empunhada pelo muhir causa +1d6 de dano de fogo (já contabilizado) e se torna sagrada." },
+    { "nome": "Foco Momentâneo", "acao": "movimento", "descricao": "O muhir escolhe uma perícia. Até o fim da cena, ou até usar de novo, recebe +10 nessa perícia, mas sofre -5 em todas as demais." },
+    { "nome": "Golpe Pessoal", "acao": "reação", "custo_pm": 3, "descricao": "Uma vez por rodada, quando acerta uma criatura com ataque corpo a corpo, também causa 10d6 de dano de eletricidade em criaturas à escolha em alcance médio da criatura atingida." },
+    { "nome": "Investida Surpreendente", "acao": "reação", "descricao": "Quando o muhir faz uma investida, a criatura atacada fica surpreendida contra esse ataque (uma vez por cena por criatura)." },
+    { "nome": "Não Tão Rápido!", "acao": "reação", "descricao": "Uma vez por rodada, quando uma criatura em alcance natural do muhir se move voluntariamente para fora desse alcance, ele faz um ataque à distância com uma pistola contra ela, sem a penalidade usual de -5 contra oponente em combate corpo a corpo." },
+    { "nome": "Saque Rápido", "descricao": "O muhir pode sacar ou guardar itens como ação livre e recarregar sua pistola como ação de movimento." },
+    { "nome": "Magias (conjurador divino 15º, CD 40)", "descricao": "Heroísmo (padrão, 12 PM): criatura adjacente imune a medo, 40 PV temporários, +6 em ataque/dano contra inimigo de maior ND. Libertação (padrão, 15 PM): cinco criaturas em alcance curto imunes a efeitos de movimento. Sopro da Salvação (padrão, 14 PM): cone de 9m cura 4d8+4 PV e remove uma longa lista de condições." }
+  ],
+  "equipamento": ["armadura_dos_neladriel", "balas_x20", "espada_bastarda_certeira_precisa", "pistola_certeira_maciza_x2"],
+  "tesouro": "Metade.",
+  "description": "Cavaleiro errante celestial, um dos maiores guerreiros em todos os Planos, viajando sem destino e combatendo o mal onde o encontra, sem servir diretamente a nenhum deus.",
+  "livro": "deuses_de_arton"
+}

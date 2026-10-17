@@ -1,0 +1,15 @@
+{
+  "id": "garras_do_predador_primal",
+  "name": "Garras do Predador Primal",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 300,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "gatilho": "adquirir forma de criatura selvagem (Forma Selvagem, Metamorfose)",
+    "efeito": "+1 nas rolagens de dano com armas naturais"
+  },
+  "description": "Estas garras de um animal ou monstro são trabalhadas na forma de um colar ou um par de braceletes. Quando adquire a forma de uma criatura selvagem (como pelo poder Forma Selvagem ou pela magia Metamorfose), você recebe +1 nas rolagens de dano com armas naturais.",
+  "livro": "deuses_de_arton"
+}

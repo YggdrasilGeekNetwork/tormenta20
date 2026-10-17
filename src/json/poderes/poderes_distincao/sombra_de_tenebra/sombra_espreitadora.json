@@ -1,0 +1,10 @@
+{
+  "id": "sombra_espreitadora",
+  "name": "Sombra Espreitadora",
+  "description": "Sempre que usar Passo Sombrio para alcançar um espaço adjacente a uma criatura, você pode fazer um teste de Acrobacia oposto ao teste de Percepção ou Reflexos dela. Se você passar, essa criatura fica desprevenida contra seu próximo ataque e esse ataque causa +1 ponto de dano de trevas por dado de dano.",
+  "effects": [
+    { "type": "ativado", "gatilho": "usar Passo Sombrio para chegar adjacente a uma criatura", "teste_oposto": "Acrobacia vs Percepção ou Reflexos", "efeito": "criatura fica desprevenida contra o próximo ataque, que causa +1 dano de trevas por dado" }
+  ],
+  "requirements": ["Caminhar nas Trevas", "Passo Sombrio"],
+  "livro": "deuses_de_arton"
+}

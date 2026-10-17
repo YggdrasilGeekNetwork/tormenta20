@@ -1,0 +1,10 @@
+{
+  "id": "aspecto_de_kallyadranoch",
+  "name": "Aspecto de Kallyadranoch",
+  "description": "Você se torna imune à Aura Aterradora de dragões e recebe redução de dano 10 contra o tipo de dano do sopro do seu companheiro dragão. Além disso, se possuir o poder Escamas Dracônicas, os bônus fornecidos por ele aumentam para +5.",
+  "effects": [
+    { "type": "passivo", "efeito": "imunidade à Aura Aterradora de dragões; RD 10 contra o tipo de dano do sopro do companheiro dragão", "interacao": "se possuir Escamas Dracônicas, seus bônus aumentam para +5" }
+  ],
+  "requirements": ["devoto de Kallyadranoch", "treinado em Cavalgar"],
+  "livro": "deuses_de_arton"
+}

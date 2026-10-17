@@ -1,0 +1,14 @@
+{
+  "id": "canto_monastico",
+  "name": "Canto Monástico",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Você pode gastar uma ação padrão e 1 PM para entoar um cântico religioso. Faça um teste de Atuação para ajudar. Seus aliados em alcance curto recebem um bônus igual ao bônus de ajuda em um teste de perícia feito até o fim da cena ou na CD para resistir a uma de suas habilidades usada até o fim da cena.",
+  "requirements": [
+    { "type": "trained_skill", "sub_type": "hard", "skill": "atuacao" }
+  ],
+  "effects": [
+    { "type": "ativado", "acao": "padrão", "custo_pm": 1, "teste": "Atuação (ajudar)", "efeito": "aliados em alcance curto recebem o bônus de ajuda em um teste de perícia ou na CD de uma habilidade do frade, até o fim da cena" }
+  ],
+  "livro": "deuses_de_arton"
+}

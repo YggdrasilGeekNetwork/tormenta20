@@ -1,0 +1,9 @@
+{
+  "id": "passo_sombrio",
+  "name": "Passo Sombrio",
+  "deities": ["tenebra"],
+  "description": "Uma vez por rodada, você pode gastar 2 PM para se teleportar para um espaço desocupado em alcance curto. Se tanto você quanto esse espaço estiverem sob escuridão, o custo deste poder diminui em –1 PM. Você não pode usar este poder se estiver imóvel.",
+  "effects": { "type": "ativado", "frequencia": "1x_por_rodada", "custo_pm": 2, "alcance": "curto", "efeito": "teleporta para espaço desocupado em alcance curto", "reducao": "-1 PM se você e o destino estiverem sob escuridão", "restricao": "não pode ser usado se estiver imóvel" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

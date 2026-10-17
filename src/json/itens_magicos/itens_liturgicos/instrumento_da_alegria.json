@@ -1,0 +1,15 @@
+{
+  "id": "instrumento_da_alegria",
+  "name": "Instrumento da Alegria",
+  "deities": ["marah"],
+  "subtipo": "acessorio",
+  "classificacao": "Acessório médio",
+  "preco": 10500,
+  "description": "Um instrumento musical comum, como um bandolim, flauta ou tambor, aprimorado (+1 em Atuação). Se você for treinado em Atuação e estiver empunhando o instrumento da alegria, pode gastar uma ação padrão e 1 PM para tocar uma música envolvente, que fornece +2 em testes de perícia para você e seus aliados em alcance médio até o fim da cena (cumulativo com outros bônus de itens). Se você for devoto de Marah e usar um poder de Música, pode ativar o efeito do item com uma ação livre.",
+  "effects": [
+    { "type": "passivo", "efeito": "+1 em Atuação (instrumento aprimorado)" },
+    { "type": "ativado", "requer": "treinado em Atuação", "acao": "padrão", "custo_pm": 1, "efeito": "+2 em testes de perícia para si e aliados em alcance médio até o fim da cena (cumulativo)" },
+    { "type": "devoto", "deity": "marah", "condicao": "usar um poder de Música", "efeito": "pode ativar o efeito do item com ação livre" }
+  ],
+  "livro": "deuses_de_arton"
+}

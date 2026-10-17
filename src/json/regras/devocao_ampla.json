@@ -1,0 +1,7 @@
+{
+  "id": "devocao_ampla",
+  "name": "Devoção Ampla",
+  "description": "Nova regra (Deuses de Arton, Cap. 1, p.11). Clérigos e frades do Panteão (devotos de todos os vinte deuses, não de um único patrono), druidas de Arton e paladinos do bem não recebem poderes concedidos — em compensação pela devoção ampla, recebem +2 PM por patamar.",
+  "regra": "Clérigos/frades do Panteão, druidas de Arton e paladinos do Bem não recebem poderes concedidos; em troca, recebem +2 PM por patamar.",
+  "livro": "deuses_de_arton"
+}

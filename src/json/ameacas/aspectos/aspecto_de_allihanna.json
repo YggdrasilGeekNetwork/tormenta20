@@ -1,0 +1,35 @@
+{
+  "id": "aspecto_de_allihanna",
+  "name": "Aspecto de Allihanna",
+  "nd": 5,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "aspectos",
+  "pv": 200,
+  "pm": null,
+  "defesa": 24,
+  "salvaguardas": { "fort": 17, "ref": 11, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 6,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 4, "des": 2, "con": 4, "int": -4, "sab": 2, "car": 0 },
+  "pericias": { "atletismo": 8, "sobrevivencia": 10 },
+  "ataques": [
+    { "nome": "Galhada", "bonus": 17, "dano": [{ "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 9, "tipo": "perfuração" }], "critico": "x3" },
+    { "nome": "Garra", "quantidade": 2, "bonus": 17, "dano": [{ "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 9, "tipo": "corte" }], "critico": "18" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Sem Redução por Terreno Difícil Natural", "descricao": "O aspecto não sofre redução de deslocamento por terreno difícil de origem natural." },
+    { "nome": "Rugido de Centenas", "acao": "padrão", "salvaguarda": "Vontade", "cd": 20, "efeito_sucesso": "evita", "descricao": "O aspecto de Allihanna emite um poderoso rugido. Todas as criaturas em um raio de 9m ficam paralisadas por 1 rodada e abaladas (Von CD 20 evita). Uma criatura só pode ser paralisada por esta habilidade uma vez por cena. Medo. Recarga (padrão)." },
+    { "nome": "Parceiro", "descricao": "O aspecto de Allihanna é um parceiro veterano que fornece os benefícios de dois tipos de parceiro, escolhidos entre os disponíveis para companheiros animais. Uma vez por rodada, pode gastar uma ação de movimento e 2 PM para mudar os tipos escolhidos. Só segue um devoto de Allihanna." }
+  ],
+  "tesouro": "3d4 rações de viagem (CD 20 para extrair).",
+  "description": "Criatura estranha e bela, mescla de vários animais selvagens — corpo de felino, galhada de alce, cauda de garanhão. Encarnação temporária e menos poderosa de Allihanna, com comportamento caprichoso e temperamental de animal.",
+  "livro": "deuses_de_arton"
+}

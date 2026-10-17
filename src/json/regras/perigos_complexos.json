@@ -1,0 +1,74 @@
+{
+  "id": "perigos_complexos",
+  "name": "Perigos Complexos",
+  "description": "Novos perigos complexos relacionados às forças divinas de Arton (Deuses de Arton, Cap. 4): maldições ou punições empregadas pelos deuses, resultado da ação de clérigos ou devotos, ou acidentes envolvendo magia divina. As ações descritas em cada perigo são exemplos, não as únicas opções dos personagens; o mestre pode aprovar outras ações usando as mecânicas descritas como base.",
+  "perigos": [
+    {
+      "nome": "Vento Abrasador",
+      "nd": 3,
+      "descricao": "Em regiões áridas, rajadas de vento ardente capazes de arrancar a pele dos ossos e queimá-los surpreendem o grupo, que deve resistir até que passem.",
+      "objetivo": "Sobreviver à rajada de vento, que dura 1d4+2 rodadas.",
+      "efeito": "No início de cada rodada, cada personagem sofre 1d12 de dano de corte e 1d12 de dano de fogo e fica fatigado (condição cumulativa). Um teste de Fortitude (CD 20, +2 por teste anterior) reduz o dano à metade e evita a condição.",
+      "acoes": [
+        { "nome": "Abrigar-se", "teste": "Sobrevivência CD 20", "efeito": "Se passar, recebe +5 no teste de Fortitude na próxima rodada." },
+        { "nome": "Orar por Piedade", "teste": "Religião CD 25", "efeito": "Se passar, reduz a duração do perigo em uma rodada. Só pode ser tentada uma vez por personagem. Devotos de Allihanna ou Azgher recebem +5." },
+        { "nome": "Ajudar em Oração", "teste": "varia", "efeito": "Ajuda o teste de Religião de outro personagem; cada perícia que não seja Religião só pode ser usada uma vez ao longo do perigo." },
+        { "nome": "Refrescar-se", "teste": "nenhum", "efeito": "Gasta um item ou magia aprovada para se refrescar; não sofre o dano de fogo na próxima rodada." }
+      ]
+    },
+    {
+      "nome": "Pântano Amaldiçoado",
+      "nd": 5,
+      "descricao": "Os aventureiros precisam atravessar um brejo escuro de águas fétidas; brumas e vegetação afastam os heróis uns dos outros, e cada um deve contar consigo mesmo.",
+      "objetivo": "Atravessar o pântano; cada personagem deve acumular 5 avanços.",
+      "efeito": "No início de cada rodada, cada personagem rola 1d8 na tabela de eventos. Um personagem inconsciente continua rolando, mas só sofre efeito de mordida de monstro, fumos ácidos ou insetos peçonhentos; se não for retirado, acorda após 4 rodadas (mantendo as outras condições).",
+      "tabela_eventos": [
+        { "resultado": 1, "nome": "Mordida de monstro", "efeito": "Ataque corpo a corpo (teste +20, dano 6d6+10 de corte)." },
+        { "resultado": 2, "nome": "Brumas traiçoeiras", "efeito": "Perde um avanço; se não tinha nenhum, fica fatigado (cumulativo)." },
+        { "resultado": 3, "nome": "Águas profundas", "efeito": "Teste de Atletismo (CD 20) para nadar; escapa de todo modo, mas fica fatigado se falhar (cumulativo)." },
+        { "resultado": 4, "nome": "Fumos ácidos", "efeito": "6d6 de dano de ácido (Fort CD 20 reduz à metade)." },
+        { "resultado": 5, "nome": "Visão aterrorizante", "efeito": "1d8 de dano psíquico e fica abalado até sair do pântano (Von CD 20 reduz o dano à metade e evita); se já abalado, fica apavorado e perde a próxima ação; a CD aumenta +2 a cada vez que este evento é rolado. Medo." },
+        { "resultado": 6, "nome": "Insetos peçonhentos", "efeito": "Perde 2d12 PV e fica fraco até o fim da próxima rodada (Fort CD 20 reduz a perda à metade e evita). Veneno." },
+        { "resultado": 7, "nome": "Galhos afiados", "efeito": "2d4 de dano de corte." },
+        { "resultado": 8, "nome": "Nenhum evento", "efeito": "Nada acontece." }
+      ],
+      "acoes": [
+        { "nome": "Avançar", "teste": "Sobrevivência CD 20 ou outra perícia aprovada CD 25 (1x cada)", "efeito": "Se passar, acumula um avanço. Se falhar por 5+, faz duas rolagens de evento na próxima rodada." },
+        { "nome": "Guiar Aliado", "teste": "Sobrevivência CD 25 ou outra CD 30", "efeito": "Como Avançar, mas ambos (guia e aliado com mesmo nº de avanços ou um a menos) acumulam avanço; falha por 5+ causa duas rolagens de evento para ambos." },
+        { "nome": "Procurar Caminho", "teste": "Investigação ou Percepção CD 20", "efeito": "Se passar, ele ou aliado próximo recebe +5 no próximo teste de Avançar ou Guiar Aliado." },
+        { "nome": "Corrida Desesperada", "teste": "Atletismo CD 20", "efeito": "Se passar, acumula dois avanços; de todo modo faz uma rolagem de evento e sofre seus efeitos imediatamente." },
+        { "nome": "Oração de Salvaguarda", "teste": "Religião CD 20, 1 PM", "efeito": "Se passar, ele ou aliado pode rolar novamente o dado de evento no próximo turno e escolher o resultado." },
+        { "nome": "Recuar", "teste": "nenhum", "efeito": "Diminui seu número de avanços em um." }
+      ]
+    },
+    {
+      "nome": "Cataclismo",
+      "nd": 17,
+      "descricao": "Os deuses estão furiosos com algo que o grupo, ou outros, fizeram. Cabe aos personagens lidar com a ira divina.",
+      "objetivo": "Aplacar as divindades, ou sobreviver à fúria delas. Termina ao acumular 7 perdões ou após 1d6+3 rodadas, o que vier primeiro. Se terminar pela duração, devotos perdem seus poderes concedidos por uma aventura e seus PM totais diminuem permanentemente em 1d4.",
+      "efeito": "No início de cada rodada, rola-se 1d10 na tabela de eventos, afetando todo o grupo. Personagens podem usar habilidades/itens para evitar os efeitos como numa rodada de combate, mas perdem a ação do perigo complexo nessa rodada.",
+      "tabela_eventos": [
+        { "resultado": 1, "nome": "O vazio da existência", "efeito": "Todos ficam alquebrados; devotos perdem poderes concedidos e magias divinas exigem Vontade (CD 25 + custo em PM) ou são perdidas (PM gastos mesmo assim). Se rolado de novo, todos sofrem 10d8 de dano psíquico e perdem 2d8 PM." },
+        { "resultado": 2, "nome": "Chuva de meteoros", "efeito": "15d6 de dano de impacto, 15d6 de dano de fogo, caídos e agarrados sob pedras (Ref CD 45 reduz à metade e evita); escapar exige ação padrão e Atletismo CD 30." },
+        { "resultado": 3, "nome": "Raio fulminante", "efeito": "Um membro aleatório sofre 10d10+10 de eletricidade e 10d10+10 de luz; outro em alcance curto pode gastar a ação para Reflexos CD 45 e dividir o dano." },
+        { "resultado": 4, "nome": "Terremoto", "efeito": "Personagens no solo fazem Reflexos CD 45 ou caem em uma fenda (12d6 de dano de impacto); escapar exige ação completa e Atletismo CD 30 ou deslocamento vertical de 9m+; fendas se fecham na próxima rodada, matando quem estiver dentro." },
+        { "resultado": 5, "nome": "Dilúvio", "efeito": "10d12 de dano de impacto a todos (mesmo voadores); Atletismo CD 30 ou perde a ação lutando contra o afogamento." },
+        { "resultado": 6, "nome": "Erupção vulcânica", "efeito": "Quem não se mover 45m (30 quadrados) em 1 rodada sofre 20d6 de dano de fogo nesta rodada e mais 20d6 na próxima." },
+        { "resultado": 7, "nome": "Trevas entrópicas", "efeito": "Todos perdem 10d8 PV (Fortitude CD 45 reduz à metade)." },
+        { "resultado": 8, "nome": "Fanáticos penitentes", "efeito": "10d6 de dano de perfuração nesta rodada e ao fim de cada rodada seguinte, até causar 200 de dano à turba ou acumular 3 sucessos em Diplomacia CD 35 ou Intimidação CD 30 (ação completa cada); dano letal à turba força rolar dois eventos na próxima rodada." },
+        { "resultado": 9, "nome": "Hoste celestial / Horda demoníaca", "efeito": "Um inimigo por personagem ataca (teste +47, dano 4d12+20) nesta rodada e nas seguintes até serem mortos ou expulsos; cada inimigo tem Defesa 50, +25 em resistência, 1 PV." },
+        { "resultado": 10, "nome": "Reprovação divina", "efeito": "Todos perdem metade de seus PV e PM atuais; qualquer habilidade benéfica ativa é encerrada." }
+      ],
+      "acoes": [
+        { "nome": "Aplacar os Deuses", "teste": "perícia pertinente CD 50, 5 PM", "efeito": "Se passar, o grupo ganha 1 perdão; a perícia usada não pode ser reutilizada por ninguém nesta ação. Devotos recebem +5." },
+        { "nome": "Martírio", "teste": "Vontade CD 40 depois Fortitude CD 40", "efeito": "Perde 4d12 PV; pode se encolher ou continuar exposto (Vontade CD 40) para perder mais 4d12; se passar, Fortitude CD 40 para perder mais 4d12 (até 12d12 total) e ganhar 1 perdão. Não pode repetir se já teve sucesso." },
+        { "nome": "Procurar Abrigo", "teste": "Atletismo ou Furtividade CD 40", "efeito": "Se passar, recebe +5 em resistência contra eventos na próxima rodada e pode resistir mesmo a eventos que normalmente não permitem (CD 45; sucesso reduz dano/perda à metade)." },
+        { "nome": "Heroísmo", "teste": "Iniciativa ou Percepção CD 40", "efeito": "Se passar, concede a um aliado +5 em resistência contra eventos na próxima rodada, ou permite testes de resistência mesmo quando normalmente não seriam permitidos." },
+        { "nome": "Orar por Perdão", "teste": "Religião CD 40, 5 PM", "efeito": "Se passar, ele ou um aliado fica imune a qualquer evento rolado na próxima rodada." },
+        { "nome": "Estudar Escrituras", "teste": "Religião CD 40", "efeito": "Se passar, concede a si mesmo ou a um aliado +5 em um teste de Aplacar os Deuses." }
+      ]
+    }
+  ],
+  "perigos_mundanos": "O mestre pode adaptar estes perigos para situações mais corriqueiras (ex.: Vento Abrasador como onda de calor, Pântano Amaldiçoado como charco inóspito não sobrenatural), diminuindo danos e CDs — por exemplo, 'mordida de monstro' pode representar um jacaré ou jiboia com estatísticas mais modestas (teste de ataque +14, dano 2d6+5).",
+  "livro": "deuses_de_arton"
+}

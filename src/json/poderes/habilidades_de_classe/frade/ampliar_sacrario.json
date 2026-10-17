@@ -1,0 +1,14 @@
+{
+  "id": "ampliar_sacrario",
+  "name": "Ampliar Sacrário",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Você pode criar sacrários em alcance médio e eles passam a ocupar uma esfera de 6m de raio.",
+  "requirements": [
+    { "type": "character_lvl", "sub_type": "hard", "value": 10, "note": "10º nível de frade" }
+  ],
+  "effects": [
+    { "type": "passivo", "efeito": "sacrários passam a ter alcance médio e esfera de 6m de raio (em vez de alcance curto e 3m)" }
+  ],
+  "livro": "deuses_de_arton"
+}

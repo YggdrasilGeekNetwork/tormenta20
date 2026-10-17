@@ -1,0 +1,9 @@
+{
+  "id": "curar_o_espirito",
+  "name": "Curar o Espírito",
+  "deities": ["lena"],
+  "description": "Você pode gastar uma ação completa para inspirar esperança em uma criatura que possa tocar. Faça um teste de Carisma (CD 10). Se você passar, a criatura recupera 1d4+1 PM. Você só pode usar este poder uma vez por dia numa mesma criatura.",
+  "effects": { "type": "ativado", "acao": "completa", "teste": "Carisma CD 10", "efeito": "criatura tocada recupera 1d4+1 PM", "limite": "1x por dia por criatura" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

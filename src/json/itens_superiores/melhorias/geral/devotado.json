@@ -1,0 +1,12 @@
+{
+  "id": "devotado",
+  "name": "Devotado",
+  "type": "melhoria",
+  "categoria": ["arma", "armadura", "escudo", "ferramenta", "vestuario"],
+  "prerequisitos": ["inscrito"],
+  "description": "O item foi banhado em água abençoada e sintonizado com o espírito de seu usuário. Escolha um poder concedido com custo em PM. Esse custo é reduzido em –1.",
+  "effects": [
+    { "type": "reducao_custo_pm", "habilidade": "poder_concedido_escolhido", "valor": 1 }
+  ],
+  "livro": "deuses_de_arton"
+}

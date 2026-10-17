@@ -1,0 +1,31 @@
+{
+  "id": "siroco_de_azgher",
+  "name": "Siroco de Azgher",
+  "type": "divina",
+  "circle": "1",
+  "school": "evoc",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "curto",
+  "target": { "amount": 1, "up_to": false, "type": "criatura" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "instantânea",
+  "duration_details": null,
+  "resistence": { "effect": "reduz_à_metade", "skill": "reflexos" },
+  "extra_costs": null,
+  "description": "Invocando a fúria do Deus-Sol, você cria uma breve e focada tempestade de areia, capaz de esfolar a carne dos ossos! Criaturas afetadas sofrem dano de corte conforme seu grau de proteção: 3d6 se estiverem sem armadura, 2d6 se estiverem com armadura leve e 1d6 se estiverem com armadura pesada.",
+  "enhancements": [
+    { "cost": 1, "type": "aumenta", "description": "aumenta o dano em +1d6.", "extra_details": null },
+    { "cost": 1, "type": "muda", "description": "muda o tipo de dano para luz.", "extra_details": null },
+    { "cost": 1, "type": "muda", "description": "muda o alcance para pessoal e o alvo para área (cone de 9m). Requer 2° círculo.", "extra_details": { "requirements": "2º círculo" } },
+    { "cost": 1, "type": "aumenta", "description": "(Apenas Devotos de Azgher): além do normal, criaturas que falhem na resistência ficam em chamas e sangrando.", "extra_details": { "requirements": "devoto de Azgher" } }
+  ],
+  "effects": [
+    { "type": "dano", "attribute": "corte", "amount": "3d6_sem_armadura,2d6_armadura_leve,1d6_armadura_pesada", "resistence_requirement": "reduz_à_metade", "extra_requirements": null }
+  ],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "gizzehi",
+  "name": "Gizzehi",
+  "nd": 12,
+  "tipo": "Espírito",
+  "subtipo": "gênio",
+  "tamanho": "grande",
+  "grupo": "genios",
+  "pv": 412,
+  "pm": 85,
+  "defesa": 39,
+  "salvaguardas": { "fort": 11, "ref": 27, "von": 19 },
+  "reducao_de_dano": null,
+  "imunidades": ["encantamento", "fogo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 13,
+  "percepcao": 12,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "voo": 12 },
+  "atributos": { "for": -1, "des": 3, "con": 2, "int": 2, "sab": 1, "car": 7 },
+  "pericias": { "diplomacia": 19, "enganacao": 22, "misticismo": 14 },
+  "ataques": [
+    { "nome": "Pancada", "bonus": 27, "dano": [{ "dados": [{ "quantidade": 1, "faces": 3 }], "bonus": 3, "tipo": "impacto" }, { "dados": [{ "quantidade": 8, "faces": 6 }], "bonus": 0, "tipo": "fogo" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Dentro de uma Lampadazinha", "descricao": "Para cada dia sem um pacto ativo, perde 1 PM; ao chegar a 0, sofre um efeito debilitante, revertido ao firmar novo pacto." },
+    { "nome": "Poderes Cósmicos Fenomenais", "acao": "completa", "descricao": "Firma pacto com uma criatura voluntária, tornando-se parceiro iniciante e reduzindo o custo de suas habilidades em -1 PM enquanto presente." },
+    { "nome": "Servo dos Deuses", "descricao": "Pode lançar Viagem Planar sem componente material, apenas em si mesmo." },
+    { "nome": "Magias (feiticeiro 15º, CD 35)", "descricao": "Açoite Flamejante (movimento, 7 PM, sustentada): ataque padrão causa 6d8 de dano de fogo e deixa em chamas e enredado (Ref reduz à metade e evita). Coluna de Chamas (padrão, 13 PM): cilindro de 3m de raio e 30m de altura em alcance longo, 13d6 de dano de fogo + 6d6 de luz (Ref reduz à metade). Controlar Fogo (padrão, 3 PM): cria, molda, move ou extingue chamas em alcance médio. Explosão Caleidoscópica (padrão, 10 PM): raio de 6m, atordoadas 1 rodada e enjoadas 1d4 rodadas (Fort muda para desprevenidas; 1x por cena). Marca da Obediência (padrão, 6 PM): criatura adjacente não ataca até o fim da cena (Von evita; falha causa 3d6 de dano psíquico)." },
+    { "nome": "Parceiro", "descricao": "Iniciante: ataques corpo a corpo deixam o alvo em chamas mágicas. Veterano: dano das chamas aumenta para 1d8. Mestre: apagar o fogo exige ação completa em vez de padrão." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Gênio do fogo, cheio de ódio e revolta contra a servidão, diferente dos demais gênios que servem com alegria. Tenta deturpar desejos para prejudicar quem os faz, mesmo cumprindo ordens.",
+  "livro": "deuses_de_arton"
+}

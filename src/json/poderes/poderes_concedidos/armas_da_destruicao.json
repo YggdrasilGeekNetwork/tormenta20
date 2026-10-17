@@ -1,0 +1,9 @@
+{
+  "id": "armas_da_destruicao",
+  "name": "Armas da Destruição",
+  "deities": ["arsenal"],
+  "description": "Você recebe +1 nas rolagens de dano e no multiplicador de crítico com armas nas quais é proficiente.",
+  "effects": { "type": "passivo", "efeito": "+1 em rolagens de dano e no multiplicador de crítico com armas nas quais é proficiente" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

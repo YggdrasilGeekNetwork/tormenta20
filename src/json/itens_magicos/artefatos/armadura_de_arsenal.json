@@ -1,0 +1,13 @@
+{
+  "id": "armadura_de_arsenal",
+  "name": "Armadura de Arsenal",
+  "description": "Esta é uma armadura completa de adamante guardiã invulnerável protetora capaz de assimilar até três itens mágicos vestidos. Itens armazenados dessa forma fornecem seus benefícios normalmente, não podem ser desarmados e não contam no limite de itens vestidos do personagem.",
+  "effects": [
+    { "type": "armor_type", "base": "armadura_completa_de_adamante" },
+    { "type": "enchantment", "name": "guardiã" },
+    { "type": "enchantment", "name": "invulnerável" },
+    { "type": "enchantment", "name": "protetora" },
+    { "type": "special", "efeito": "assimila até 3 itens mágicos vestidos; itens assimilados fornecem seus benefícios normalmente, não podem ser desarmados e não contam no limite de itens vestidos" }
+  ],
+  "livro": "deuses_de_arton"
+}

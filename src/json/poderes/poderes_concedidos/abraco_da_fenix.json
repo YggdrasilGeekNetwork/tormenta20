@@ -1,0 +1,9 @@
+{
+  "id": "abraco_da_fenix",
+  "name": "Abraço da Fênix",
+  "deities": ["thyatis"],
+  "description": "Você se torna imune a fogo. Se fosse sofrer dano mágico de fogo, em vez disso cura PV em quantidade igual à metade desse dano (se já faz isso por outro efeito, cura a quantidade completa).",
+  "effects": { "type": "passivo", "efeito": "imunidade a fogo; dano mágico de fogo que sofreria se converte em cura de metade do valor (cura total se já tiver efeito semelhante)" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

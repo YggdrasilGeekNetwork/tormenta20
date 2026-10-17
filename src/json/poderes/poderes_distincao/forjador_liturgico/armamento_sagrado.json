@@ -1,0 +1,10 @@
+{
+  "id": "armamento_sagrado",
+  "name": "Armamento Sagrado",
+  "description": "O custo do seu poder Abençoar Arma diminui em –1 PM e você pode usá-lo com qualquer arma que tenha fabricado.",
+  "effects": [
+    { "type": "passivo", "efeito": "Abençoar Arma custa -1 PM e pode ser usado em qualquer arma que você tenha fabricado" }
+  ],
+  "requirements": ["Abençoar Arma", "Virtude do Forjador"],
+  "livro": "deuses_de_arton"
+}

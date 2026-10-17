@@ -1,0 +1,34 @@
+{
+  "id": "galokk_capanga",
+  "name": "Galokk Capanga",
+  "nd": 6,
+  "tipo": "Humanoide",
+  "subtipo": "gigante",
+  "tamanho": "grande",
+  "grupo": "gigantes",
+  "pv": 50,
+  "pm": null,
+  "defesa": 26,
+  "salvaguardas": { "fort": 17, "ref": 7, "von": 12 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 3,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 4, "des": 0, "con": 2, "int": -1, "sab": 0, "car": -2 },
+  "pericias": { "atletismo": 9, "intimidacao": 5 },
+  "ataques": [
+    { "nome": "Machado de Guerra", "quantidade": 2, "bonus": 24, "dano": [{ "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 19, "tipo": "corte" }], "critico": "x3" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Força dos Titãs", "descricao": "Quando acerta um ataque corpo a corpo, pode rolar mais uma vez qualquer resultado máximo da rolagem de dano e adicionar o novo resultado ao dano causado." },
+    { "nome": "Forçar a Barra", "acao": "reação", "descricao": "Uma vez por rodada, quando faz um teste de resistência, soma sua Força (+4) nesse teste." }
+  ],
+  "equipamento": ["couro_batido", "machado_de_guerra_aumentado"],
+  "tesouro": "Nenhum.",
+  "description": "Meio-gigante (galokk) a serviço como capanga. Galokk não são uma raça nem descendem de gigantes verdadeiros — surgem de formas não naturais, como maldições ou favores de Megalokk.",
+  "livro": "deuses_de_arton"
+}

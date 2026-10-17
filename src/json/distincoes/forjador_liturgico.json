@@ -1,0 +1,10 @@
+{
+  "id": "forjador_liturgico",
+  "name": "Forjador Litúrgico",
+  "description": "Ferreiro-guerreiro da Ordem dos Forjadores Litúrgicos, devoto de Arsenal, que forja armas sagradas e testa combatentes em duelo para saber quem é digno de portá-las.",
+  "admissao": "O candidato deve ser devoto de Arsenal e um ferreiro e armeiro exímio, e então procurar a Ordem dos Forjadores Litúrgicos (encontrada em templos, campos de batalha ou regiões ermas perigosas). Ao encontrar um forjador, o combate é inevitável — se não for considerado digno, deve seguir ganhando poder até se mostrar à altura; ao duelar, deve concordar em entregar suas armas em caso de derrota. Se aceito, é levado ao templo secreto da ordem, onde passa seis meses (podendo ser intercalados com aventuras) forjando seis armas, cada uma melhor que a anterior. No teste final, enfrenta um professor usando apenas as armas forjadas; se perder, treina mais um mês e forja outra arma até vencer. Ao vencer, toma as armas do professor, passa por uma cerimônia de iniciação nos mistérios das armas e recebe o elmo símbolo da ordem.",
+  "marca_nome": "Ferreiro Sagrado",
+  "marca_descricao": "Você recebe +2 em Ofício (armeiro) e em rolagens de dano com armas que tenha fabricado.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

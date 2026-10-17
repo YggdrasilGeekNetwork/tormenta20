@@ -1,0 +1,12 @@
+{
+  "id": "sacrario_da_verdade",
+  "name": "Sacrário da Verdade",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Sempre que uma criatura na área passa em um teste de Acrobacia, Enganação, Furtividade ou Ladinagem, ou acerta um ataque contra uma criatura sob efeito de uma ou mais condições, ela sofre 2d6 pontos de dano psíquico por círculo de magia a que você tem acesso. Segue as regras gerais de Sacrários.",
+  "requirements": [],
+  "effects": [
+    { "type": "sacrario", "gatilho": "passar em teste de Acrobacia/Enganação/Furtividade/Ladinagem na área, ou acertar ataque contra criatura sob condição na área", "efeito": "2d6 de dano psíquico por círculo de magia acessível ao frade" }
+  ],
+  "livro": "deuses_de_arton"
+}

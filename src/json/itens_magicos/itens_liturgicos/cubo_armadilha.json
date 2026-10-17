@@ -1,0 +1,14 @@
+{
+  "id": "cubo_armadilha",
+  "name": "Cubo Armadilha",
+  "deities": ["hyninn"],
+  "subtipo": "acessorio",
+  "classificacao": "Acessório médio",
+  "preco": 25000,
+  "description": "Este pequeno cubo de metal possui diversos botões em sua superfície, mas se você apertá-los nada acontece… Exceto se você for um devoto de Hyninn. Um devoto da Trapaça pode gastar uma ação padrão para apertar os botões e escolher um espaço desocupado em alcance curto. O cubo então flutua até esse espaço e desaparece, ficando invisível e intangível. O primeiro inimigo que entrar nesse espaço é atingido por diversas serras e lâminas que surgem do nada, sofrendo 10d8 pontos de dano de corte (Ref CD Int reduz à metade). Para cada dado de dano que rolar um resultado mínimo ou máximo (ou seja, '1' ou '8'), role 1d8 extra, repetindo o processo a cada resultado mínimo ou máximo. O cubo então reaparece e flutua para seu dono (se ele estiver até alcance longo) ou fica parado no chão (se ele estiver mais longe do que isso). Uma criatura que veja o cubo armadilha sendo ativado pode simplesmente evitar o espaço para onde ele foi. Uma criatura que procure por armadilhas tem direito a um teste de Investigação (CD 30 + Int do usuário); se passar, percebe a forma etérea do cubo e pode passar por ele sem ativá-lo; se passar e for devota de Hyninn, o cubo reaparece e flutua para ela, adotando-a como nova dona.",
+  "effects": [
+    { "type": "devoto", "deity": "hyninn", "acao": "padrão", "efeito": "o cubo flutua até um espaço desocupado em alcance curto e fica invisível/intangível; o primeiro inimigo a entrar nesse espaço sofre 10d8 de dano de corte (Ref CD Int reduz à metade), com dados mínimos/máximos ('1' ou '8') gerando 1d8 extra em cascata; depois o cubo retorna ao dono (se em alcance longo) ou fica no chão" },
+    { "type": "deteccao", "teste": "Investigação CD 30 + Int do usuário", "efeito": "percebe a forma etérea e pode passar sem ativar; se devota de Hyninn e passar, adota o cubo como nova dona" }
+  ],
+  "livro": "deuses_de_arton"
+}

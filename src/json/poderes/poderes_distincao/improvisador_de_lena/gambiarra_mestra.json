@@ -1,0 +1,10 @@
+{
+  "id": "gambiarra_mestra",
+  "name": "Gambiarra Mestra",
+  "description": "Você pode gastar uma ação de movimento e 3 PM para improvisar algum tipo de gambiarra para uma tarefa específica. Escolha uma perícia. Até o fim da cena, você pode usar sua gambiarra para substituir testes da perícia escolhida por testes de Ofício.",
+  "effects": [
+    { "type": "ativado", "acao": "movimento", "custo_pm": 3, "efeito": "escolhe uma perícia; até o fim da cena pode substituir testes dela por testes de Ofício" }
+  ],
+  "requirements": ["treinado em Investigação e Ofício"],
+  "livro": "deuses_de_arton"
+}

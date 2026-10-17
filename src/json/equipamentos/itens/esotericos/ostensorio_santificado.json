@@ -1,0 +1,17 @@
+{
+  "id": "ostensorio_santificado",
+  "name": "Ostensório Santificado",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 750,
+  "espacos": 1,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "escolha": "uma magia que você possa lançar",
+    "efeito": "custo diminui em -1 PM (cumulativo com outras reduções)",
+    "restricao": "apenas se lançada em devotos do seu deus"
+  },
+  "description": "Uma obra de arte dedicada ao deus, muitas vezes contendo uma relíquia. Escolha uma magia que você possa lançar. Seu custo diminui em –1 PM (cumulativo com outras reduções), mas somente se for lançada em devotos do seu deus.",
+  "livro": "deuses_de_arton"
+}

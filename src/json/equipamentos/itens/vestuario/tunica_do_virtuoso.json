@@ -1,0 +1,15 @@
+{
+  "id": "tunica_do_virtuoso",
+  "name": "Túnica do Virtuoso",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 25,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "condicao": "após 1 dia de uso",
+    "efeito": "conta como uma Virtude Paladinesca para cálculo dos PM adicionais recebidos por esses poderes"
+  },
+  "description": "Esta túnica de algodão tem um corte simples e prático, que faz jus às verdadeiras virtudes de um paladino. Conta como uma Virtude Paladinesca para cálculo dos PM adicionais que você recebe por esses poderes (somente após um dia de uso).",
+  "livro": "deuses_de_arton"
+}

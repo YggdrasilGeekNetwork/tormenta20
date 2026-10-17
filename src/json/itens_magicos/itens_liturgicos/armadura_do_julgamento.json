@@ -1,0 +1,16 @@
+{
+  "id": "armadura_do_julgamento",
+  "name": "Armadura do Julgamento",
+  "deities": ["khalmyr"],
+  "subtipo": "armadura",
+  "base_item": "armadura_completa",
+  "classificacao": "Armadura específica média",
+  "preco": 54000,
+  "description": "Esta armadura completa polida reforçada é feita de aço reluzente quase tão reflexivo quanto um espelho. Se você for um devoto de Khalmyr, ela se torna uma armadura completa polida reforçada defensora. Sempre que uma criatura atacá-lo, você pode gastar 2 PM para fazê-la ver seus pecados refletidos na armadura. A criatura fica pasma por 1 rodada (apenas uma vez por cena) e frustrada (Von CD Sab reduz para apenas frustrada). Se você for um devoto de patamar campeão ou superior, a armadura se torna uma armadura completa polida reforçada guardiã.",
+  "effects": [
+    { "type": "passivo", "enchantment": "polida reforçada" },
+    { "type": "devoto", "deity": "khalmyr", "enchantment": "polida reforçada defensora", "custo_pm": 2, "gatilho": "ser atacado por uma criatura", "efeito": "a criatura fica pasma por 1 rodada (1x por cena) e frustrada (Von CD Sab reduz para apenas frustrada)" },
+    { "type": "devoto_patamar", "deity": "khalmyr", "patamar_minimo": "campeao", "enchantment": "polida reforçada guardiã" }
+  ],
+  "livro": "deuses_de_arton"
+}

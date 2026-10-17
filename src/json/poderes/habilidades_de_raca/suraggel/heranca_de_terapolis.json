@@ -1,0 +1,23 @@
+{
+  "id": "heranca_de_terapolis",
+  "name": "Herança de Terápolis",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "Você recebe +2 em Intuição e Vontade, e pode fazer testes dessas perícias contra ilusões automaticamente, sem precisar interagir com elas.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "skill_bonus": {
+      "intuicao": 2,
+      "vontade": 2
+    },
+    "automatic_check_vs_illusions": [
+      "intuicao",
+      "vontade"
+    ]
+  },
+  "livro": "deuses_de_arton"
+}

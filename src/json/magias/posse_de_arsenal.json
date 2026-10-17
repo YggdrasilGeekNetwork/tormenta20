@@ -1,0 +1,28 @@
+{
+  "id": "posse_de_arsenal",
+  "name": "Posse de Arsenal",
+  "type": "divina",
+  "circle": "1",
+  "school": "conv",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": { "amount": 1, "up_to": false, "type": "item empunhado" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "1_dia",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Esta magia cria um vínculo poderoso entre você e seus pertences, dificultando sua perda ou roubo. Você recebe +5 em testes contra as manobras desarmar e quebrar, e de Percepção contra punga (veja Ladinagem) para roubá-lo. Além disso, se tiver o item tirado de você involuntariamente e ele estiver em alcance curto, você pode invocá-lo às suas mãos com uma ação livre.",
+  "enhancements": [
+    { "cost": 2, "type": "aumenta", "description": "(Apenas Devotos de Arsenal): além do normal, você também pode convocar uma arma à sua mão mesmo se ela tiver sido arremessada voluntariamente.", "extra_details": { "requirements": "devoto de Arsenal" } }
+  ],
+  "effects": [
+    { "type": "bônus", "attribute": "desarmar,quebrar,percepcao_vs_punga", "amount": "+5", "resistence_requirement": null, "extra_requirements": "pode convocar o item de volta com ação livre se roubado em alcance curto" }
+  ],
+  "livro": "deuses_de_arton"
+}

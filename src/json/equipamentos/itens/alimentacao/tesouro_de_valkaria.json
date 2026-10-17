@@ -1,0 +1,16 @@
+{
+  "id": "tesouro_de_valkaria",
+  "name": "Tesouro de Valkaria",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 2,
+  "espacos": 0,
+  "deity": "valkaria",
+  "efeito": {
+    "requer_devoto": "valkaria",
+    "frequencia": "1x_nesse_dia",
+    "efeito": "+5 em um teste de resistência contra efeitos de movimento"
+  },
+  "description": "Este prato, que mistura grãos com carnes menos nobres e temperos fortes, é popular entre viajantes, sendo frequentemente preparado em acampamentos à beira das estradas. Uma vez nesse dia, você recebe +5 em um teste de resistência contra efeitos de movimento.",
+  "livro": "deuses_de_arton"
+}

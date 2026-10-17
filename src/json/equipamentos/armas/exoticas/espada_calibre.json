@@ -1,0 +1,23 @@
+{
+  "id": "espada_calibre",
+  "name": "Espada-Calibre",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 1000,
+  "dano": "1d8",
+  "critico": "19",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "modo_arma_de_fogo": { "dano": "2d6", "critico": "19/x3", "tipo_dano": "perfuracao", "alcance": "curto", "requer_proficiencia_armas_de_fogo": true },
+    "disparo_em_corpo_a_corpo": "ao atacar em modo corpo a corpo, pode acionar o mecanismo para disparar a bala; se acertar, causa +2d6 de dano de perfuração",
+    "sem_proficiencia_fogo": "atacar em modo arma de fogo sem proficiência com armas de fogo é considerado não proficiente",
+    "recarga": "ação padrão"
+  },
+  "description": "Uma blasfêmia para alguns, esta arma é uma espada de lâmina pesada acoplada a uma pistola. A espada-calibre é uma arma híbrida que pode ser usada em dois modos: como uma arma corpo a corpo adaptável (dano 1d8, crítico 19, corte) ou como uma arma de fogo (dano 2d6, crítico 19/x3, perfuração, alcance curto). Quando faz um ataque com a espada-calibre em modo corpo a corpo, você pode acionar seu mecanismo para disparar a bala; se acertar, causa +2d6 pontos de dano de perfuração. Para atacar com ela em modo arma de fogo, você deve também ter proficiência com armas de fogo, ou é considerado não proficiente com ela. Recarregar a espada-calibre é uma ação padrão.",
+  "livro": "deuses_de_arton"
+}

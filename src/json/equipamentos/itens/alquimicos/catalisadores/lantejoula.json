@@ -1,0 +1,14 @@
+{
+  "id": "lantejoula",
+  "name": "Lantejoula",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 30,
+  "espacos": 0.5,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": { "reducao_custo_pm_magias_ilusao": 1 },
+  "description": "Um pequeno pedaço de um material reflexivo, que é consumido como parte da magia. Diminui o custo de magias de ilusão em –1 PM.",
+  "livro": "deuses_de_arton"
+}

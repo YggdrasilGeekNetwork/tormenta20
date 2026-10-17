@@ -1,0 +1,10 @@
+{
+  "id": "bencao_de_nimb",
+  "name": "Bênção de Nimb",
+  "description": "Sempre que faz um teste ou rola um dado em uma tabela ou para determinar a ocorrência de um evento (como o dado de confusão das Obrigações & Restrições de Nimb), você rola duas vezes e escolhe qual resultado usar. A critério do mestre, este poder pode se aplicar a outras rolagens de eventos aleatórios, como a chance de ocorrer um encontro.",
+  "effects": [
+    { "type": "passivo", "efeito": "rola duas vezes em testes ou tabelas/eventos aleatórios e escolhe o resultado" }
+  ],
+  "requirements": ["Sorte Visitante"],
+  "livro": "deuses_de_arton"
+}

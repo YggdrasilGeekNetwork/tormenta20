@@ -1,0 +1,11 @@
+{
+  "id": "heroi_dos_reinos",
+  "name": "Herói dos Reinos",
+  "description": "Na primeira rodada de cada combate, você recebe uma quantidade de PM temporários igual ao seu Carisma. Além disso, uma vez por rodada, quando você usa uma habilidade contra um efeito da Tormenta, o custo dessa habilidade é reduzido em –1 PM (cumulativo com outras reduções).",
+  "effects": [
+    { "type": "passivo", "gatilho": "primeira rodada de combate", "efeito": "PM temporários iguais ao Carisma" },
+    { "type": "passivo", "frequencia": "1x_por_rodada", "gatilho": "usar uma habilidade contra um efeito da Tormenta", "efeito": "custo reduzido em -1 PM, cumulativo com outras reduções" }
+  ],
+  "requirements": ["Detectar Anticriação"],
+  "livro": "deuses_de_arton"
+}

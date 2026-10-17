@@ -1,0 +1,10 @@
+{
+  "id": "vontade_sobre_materia",
+  "name": "Vontade Sobre Matéria",
+  "description": "Quando lança uma magia, você pode pagar +1 PM para que ela ignore imunidades e resistências baseadas em sua escola ou tipo (arcana ou divina).",
+  "effects": [
+    { "type": "ativado", "custo_pm_adicional": 1, "gatilho": "lançar uma magia", "efeito": "ignora imunidades e resistências baseadas na escola ou tipo (arcana/divina) da magia" }
+  ],
+  "requirements": ["Teurgia Aplicada"],
+  "livro": "deuses_de_arton"
+}

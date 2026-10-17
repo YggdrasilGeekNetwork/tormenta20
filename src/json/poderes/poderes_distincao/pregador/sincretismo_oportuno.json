@@ -1,0 +1,10 @@
+{
+  "id": "sincretismo_oportuno",
+  "name": "Sincretismo Oportuno",
+  "description": "Você pode gastar uma ação padrão e 3 PM para orar a uma divindade que não seja a sua. Se fizer isso, recebe um poder concedido dela, mas passa a ser considerado seu devoto para efeitos de Obrigações & Restrições. Esse efeito dura até o fim da cena ou até você usá-lo novamente. Se violar as Obrigações & Restrições da divindade, você perde o poder obtido e não pode ganhar poderes dessa divindade até o fim da aventura.",
+  "effects": [
+    { "type": "ativado", "acao": "padrão", "custo_pm": 3, "efeito": "recebe um poder concedido de outra divindade e passa a ser considerado devoto dela (sujeito às Obrigações & Restrições), até o fim da cena ou até reusar", "penalidade": "violar as Obrigações & Restrições da divindade emprestada faz perder o poder e bloqueia novos poderes dela até o fim da aventura" }
+  ],
+  "requirements": ["treinado em Enganação e Religião", "Devoto Fiel"],
+  "livro": "deuses_de_arton"
+}

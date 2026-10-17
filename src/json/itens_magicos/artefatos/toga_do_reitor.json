@@ -1,0 +1,15 @@
+{
+  "id": "toga_do_reitor",
+  "name": "A Toga do Reitor",
+  "description": "Artefato ofertado pela própria Wynna a seu devoto Talude, mestre máximo da Grande Academia Arcana. A Toga do Reitor é um manto elaborado, de tecido comprido e pesado. Conta como um robe místico aprimorado que fornece +10 na Defesa, +5 em testes de resistência e redução de dano 20 contra ácido, eletricidade, essência, fogo, frio, luz, psíquico e trevas. Além disso, sempre que seu usuário é alvo de uma magia de até 3º círculo, não sofre nenhum efeito; em vez disso, recebe um número de PM temporários igual ao custo da magia. Por fim, sempre que seu usuário lança uma magia, recebe +5 PM para gastar em aprimoramentos nela. Os poderes da Toga do Reitor funcionam apenas se o usuário for treinado em Conhecimento e Misticismo e puder lançar magias arcanas de 4º círculo ou superior. Para outros usuários, ela é apenas um robe místico aprimorado mundano.",
+  "effects": [
+    { "type": "clothing_type", "base": "robe_mistico_aprimorado" },
+    { "type": "restriction", "requisito": "treinado em Conhecimento e Misticismo e capaz de lançar magias arcanas de 4º círculo ou superior", "penalidade_se_nao_atender": "funciona apenas como robe místico aprimorado mundano, sem os poderes abaixo" },
+    { "type": "bônus", "attribute": "defesa", "amount": "+10" },
+    { "type": "bônus", "attribute": "testes_de_resistencia", "amount": "+5" },
+    { "type": "reducao_de_dano", "valor": 20, "tipos": ["ácido", "eletricidade", "essência", "fogo", "frio", "luz", "psíquico", "trevas"] },
+    { "type": "special", "gatilho": "ser alvo de magia de até 3º círculo", "efeito": "não sofre efeito; recebe PM temporários iguais ao custo da magia" },
+    { "type": "special", "gatilho": "lançar uma magia", "efeito": "recebe +5 PM para gastar em aprimoramentos" }
+  ],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "bencao_do_patrono",
+  "name": "Bênção do Patrono",
+  "description": "Você recebe um poder concedido de seu deus, desde que cumpra seus pré-requisitos. Além disso, pode gastar uma ação de movimento para trocar um de seus poderes concedidos por outro. Para cada outro poder da distinção, você recebe um novo poder concedido. Este poder afeta apenas poderes recebidos por sua devoção.",
+  "effects": [
+    { "type": "passivo", "efeito": "recebe um poder concedido de sua divindade (cumprindo pré-requisitos); pode trocar um poder concedido por outro com uma ação de movimento", "escalavel": "1 poder concedido adicional por outro poder da distinção que possui" }
+  ],
+  "requirements": ["Proteção Divina"],
+  "livro": "deuses_de_arton"
+}

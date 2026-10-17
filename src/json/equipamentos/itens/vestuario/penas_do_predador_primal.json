@@ -1,0 +1,15 @@
+{
+  "id": "penas_do_predador_primal",
+  "name": "Penas do Predador Primal",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 100,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "gatilho": "estar sob forma de criatura selvagem (Forma Selvagem, Metamorfose)",
+    "efeito": "+2 em Atletismo e deslocamento aumenta em +3m"
+  },
+  "description": "Estas penas de um animal ou monstro são costuradas como uma capa ou um capuz. Quando adquire a forma de uma criatura selvagem (como pelo poder Forma Selvagem ou pela magia Metamorfose), enquanto estiver nessa forma você recebe +2 em Atletismo e seu deslocamento aumenta em +3m.",
+  "livro": "deuses_de_arton"
+}

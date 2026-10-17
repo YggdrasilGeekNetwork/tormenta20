@@ -1,0 +1,36 @@
+{
+  "id": "duende_menor",
+  "name": "Duende Menor",
+  "nd": 1,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "pequeno",
+  "grupo": "fadas",
+  "pv": 22,
+  "pm": 9,
+  "defesa": 14,
+  "salvaguardas": { "fort": 1, "ref": 6, "von": 10 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 6,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": -1, "des": 2, "con": -1, "int": 0, "sab": 2, "car": 3 },
+  "pericias": { "conhecimento": 2, "enganacao": 5, "furtividade": 6 },
+  "ataques": [
+    { "nome": "Adaga", "bonus": 7, "dano": [{ "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 4, "tipo": "perfuração" }], "critico": "19" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "O duende menor possui Evasão." },
+    { "nome": "Sortudo", "acao": "reação", "custo_pm": 3, "descricao": "Quando faz um teste, o duende menor o rola novamente." },
+    { "nome": "Tabu", "descricao": "Todo duende possui um tabu que pode ser descoberto com um teste de Conhecimento (CD 30) ou de Investigação (CD 20) para interrogar plebeus da região. Um personagem que conheça o tabu pode forçar o duende a ajudar com um teste de Enganação oposto a Vontade. Quando impedido de cumprir seu tabu, o duende morre em 1d4+1 dias." },
+    { "nome": "Magias (conjurador arcano 1º, CD 16)", "descricao": "Enfeitiçar (padrão, 1 PM): humanoide em alcance curto fica enfeitiçado (Vontade evita). Criar Ilusão (padrão, 1 PM): ilusão com imagens em alcance médio, até 4 cubos de 1,5m (Von desacredita). Sono (padrão, 1 PM): humanoide em alcance curto fica inconsciente e caído, ou exausto por 1 rodada depois fatigado se em combate (Von reduz para fatigado por 1d4 rodadas)." }
+  ],
+  "equipamento": ["adaga"],
+  "tesouro": "Padrão.",
+  "description": "Pequena fada de aparência variada e infantil, dedicada a tarefas aparentemente sem sentido mas importantes para si mesma. Todo duende tem um tabu secreto que, se violado ou impedido, o mata em poucos dias.",
+  "livro": "deuses_de_arton"
+}

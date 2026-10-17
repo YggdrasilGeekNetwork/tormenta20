@@ -1,0 +1,12 @@
+{
+  "id": "canonico",
+  "name": "Canônico",
+  "type": "melhoria",
+  "categoria": ["arma", "armadura", "escudo", "ferramenta", "vestuario"],
+  "prerequisitos": null,
+  "description": "O item possui inscrições sagradas referentes a uma divindade específica. Se você for devoto dessa divindade, a CD de suas habilidades mágicas aumenta em +1.",
+  "effects": [
+    { "type": "devoto", "efeito": "+1 na CD de habilidades mágicas", "condicao": "ser devoto da divindade específica do item" }
+  ],
+  "livro": "deuses_de_arton"
+}

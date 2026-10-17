@@ -1,0 +1,10 @@
+{
+  "id": "olha_so_quem_diria",
+  "name": "Olha Só, Quem Diria?",
+  "description": "Uma vez por cena, você pode gastar uma ação completa e 6 PM para fazer um item mágico menor, a sua escolha, surgir em um espaço desocupado em alcance curto. Você não pode escolher itens únicos ou artefatos. O item desaparece ao fim da cena, ou se passar ao controle de outra pessoa, e quaisquer benefícios concedidos por ele desaparecem quando isso acontece.",
+  "effects": [
+    { "type": "ativado", "frequencia": "1x_por_cena", "acao": "completa", "custo_pm": 6, "efeito": "faz surgir um item mágico menor à escolha (exceto únicos/artefatos) em espaço desocupado em alcance curto; desaparece no fim da cena ou ao mudar de dono" }
+  ],
+  "requirements": ["50/50"],
+  "livro": "deuses_de_arton"
+}

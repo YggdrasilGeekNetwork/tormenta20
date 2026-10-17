@@ -1,0 +1,10 @@
+{
+  "id": "sombra_de_tenebra",
+  "name": "Sombra de Tenebra",
+  "description": "Infiltrador, assassino ou espião ladino escolhido pessoalmente por Tenebra, que vê nas sombras um reflexo de si mesmo e um portal para poder místico.",
+  "admissao": "Os candidatos são escolhidos a dedo pela própria Tenebra e contactados em sonho, que lhes sussurra uma missão — sempre com a exigência de ser cumprida inteiramente à noite, sem que o candidato seja tocado pelo sol até completá-la (podem ser necessárias várias missões). Falhar significa nunca mais poder tentar, e alguns que falham morrem dormindo. Concluída essa etapa, a deusa revela em sonho o nome de um templo oculto, longe de qualquer claridade; o candidato deve viajar sozinho até lá sem nunca ser tocado pelo sol, meditar na escuridão até que Tenebra se revele fisicamente e lhe faça uma proposta. Ninguém jamais recusou. Aceita a proposta, o candidato pode voltar a existir sob o sol, tendo se tornado um sombra de Tenebra.",
+  "marca_nome": "Ameaça das Sombras",
+  "marca_descricao": "Se estiver em uma área de escuridão, você pode usar a habilidade Ataque Furtivo +1d6. Se já possui a habilidade, o bônus é cumulativo.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

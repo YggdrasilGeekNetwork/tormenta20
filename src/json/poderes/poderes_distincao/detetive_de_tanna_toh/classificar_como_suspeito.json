@@ -1,0 +1,10 @@
+{
+  "id": "classificar_como_suspeito",
+  "name": "Classificar como Suspeito",
+  "description": "Quando usa Traçar Perfil, você pode classificar o alvo como um suspeito. Se fizer isso, os bônus fornecidos por esse poder duram até o fim da aventura e, quando faz um teste de Investigação ou Intuição contra essa criatura, você rola dois dados e usa o melhor resultado. Você pode ter um máximo de suspeitos por aventura igual ao total de poderes da distinção que possui. Você pode remover um suspeito de sua lista, mas apenas se reunir provas que o eliminem como tal.",
+  "effects": [
+    { "type": "passivo", "gatilho": "usar Traçar Perfil", "efeito": "classifica o alvo como suspeito: bônus de Traçar Perfil duram até o fim da aventura e testes de Investigação/Intuição contra ele rolam 2 dados e usam o melhor", "limite": "número de suspeitos = total de poderes da distinção que possui", "remocao": "apenas reunindo provas que eliminem o suspeito" }
+  ],
+  "requirements": ["Traçar Perfil"],
+  "livro": "deuses_de_arton"
+}

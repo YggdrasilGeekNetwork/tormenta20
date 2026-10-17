@@ -1,0 +1,37 @@
+{
+  "id": "velha_bruxa",
+  "name": "Velha Bruxa",
+  "nd": 9,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "fadas",
+  "pv": 270,
+  "pm": 63,
+  "defesa": 31,
+  "salvaguardas": { "fort": 16, "ref": 9, "von": 20 },
+  "reducao_de_dano": "10/adamante",
+  "imunidades": ["doenças", "encantamento"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 10,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 2, "des": 1, "con": 2, "int": 4, "sab": 1, "car": 3 },
+  "pericias": { "conhecimento": 12, "enganacao": 13, "misticismo": 14 },
+  "ataques": [
+    { "nome": "Garra", "quantidade": 2, "bonus": 25, "dano": [{ "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 16, "tipo": "corte" }], "critico": null },
+    { "nome": "Mordida", "bonus": 25, "dano": [{ "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 14, "tipo": "perfuração" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Careta Horripilante", "acao": "movimento", "salvaguarda": "Vontade", "cd": 30, "efeito_sucesso": "evita e fica imune por 1 dia", "descricao": "Criaturas em alcance curto ficam abaladas (Von CD 30 evita e fica imune por 1 dia)." },
+    { "nome": "Dê um Trocado Para Esta Bruxa", "salvaguarda": "Vontade", "cd": 30, "efeito_sucesso": "percebe a tramoia e fica imune por 1 dia", "descricao": "A velha bruxa pede algo a transeuntes. Quem se oferece a atender faz um teste de Vontade (CD 30); se falhar, fica enfeitiçado, seguindo-a aonde mandar." },
+    { "nome": "Voar, Voar", "descricao": "A bruxa pode voar usando um pilão, vassoura ou outro instrumento, que concede deslocamento de voo 18m apenas para ela." },
+    { "nome": "Magias (bruxa 9º, CD 30; foco arcano é o objeto que usa para voar)", "descricao": "Conjurar Monstro (completa, 6 PM, sustentada): invoca monstro Grande (Defesa 31, imune a Fort/Von, For 7, Des 2, 75 PV, deslocamento 12m) que se move o dobro ou causa 4d6+10 de dano de impacto a até 3m. Muralha Elemental (padrão, 9 PM): muralha de fogo de até 30m por 3m, 2d8 de dano de fogo a até 6m ao lançar e no início dos turnos da bruxa; atravessar causa 12d8. Rogar Maldição (padrão, 6 PM, sustentada): criatura em alcance curto fica debilitada, lenta e esmorecida, incapaz de se comunicar ou lançar magias (Fort evita). Vidência (completa, 6 PM, sustentada): vê e ouve criatura à escolha em alcance ilimitado (Von evita, modificado pela familiaridade)." }
+  ],
+  "equipamento": ["vassoura_ou_pilao"],
+  "tesouro": "Padrão.",
+  "description": "Fada com aparência de bruxa idosa exageradamente grotesca, que vive para amedrontar mortais disfarçando seus abusos como necessidades fingidas. Voa em caldeirões, pilões ou vassouras, morando em habitações mágicas ambulantes.",
+  "livro": "deuses_de_arton"
+}

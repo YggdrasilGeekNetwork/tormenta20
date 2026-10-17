@@ -1,0 +1,9 @@
+{
+  "id": "conviccao_ambiciosa",
+  "name": "Convicção Ambiciosa",
+  "deities": ["valkaria"],
+  "description": "Quando luta em desvantagem (um encontro contra o dobro de inimigos que seu grupo, ou com ND maior que o do grupo), você recebe +2 em testes de perícia até o fim da cena. Além disso, se houver um ou mais inimigos de ND igual ou maior que seu nível, você recebe uma ação padrão extra em seu primeiro turno de combate.",
+  "effects": { "type": "passivo", "gatilho": "lutar em desvantagem numérica ou de ND", "efeito": "+2 em testes de perícia até o fim da cena; ação padrão extra no primeiro turno se houver inimigo de ND >= seu nível" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

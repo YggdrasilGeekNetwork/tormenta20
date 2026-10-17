@@ -1,0 +1,9 @@
+{
+  "id": "ushultt",
+  "name": "Ushultt",
+  "deities": ["thwor"],
+  "description": "Escolha um de seus aliados como seu ushultt. Enquanto estiverem em alcance curto um do outro, vocês recebem +2 em testes de ataque e rolagens de dano (esse bônus aumenta para +3 se o ushultt também for duyshidakk). Você pode trocar seu ushultt uma vez por aventura.",
+  "effects": { "type": "passivo", "efeito": "escolhe um aliado como ushultt; enquanto em alcance curto, ambos recebem +2 em testes de ataque e rolagens de dano (+3 se o ushultt for duyshidakk)", "troca": "pode trocar de ushultt uma vez por aventura" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "caldeirao_da_vida",
+  "name": "Caldeirão da Vida",
+  "deities": ["lena"],
+  "subtipo": "acessorio",
+  "classificacao": "Acessório médio",
+  "preco": 25000,
+  "description": "Esta grande panela de ferro é abençoada com o poder de Lena, e permite preparar refeições únicas. Para isso, você precisa gastar 1 hora, T$ 5 e fazer um teste de Ofício (cozinheiro) contra CD 15. Se você passar, faz comida suficiente para até 5 criaturas Médias ou Pequenas (uma criatura Minúscula come o equivalente à metade de uma criatura Média, uma criatura Grande ou Enorme come o dobro e uma criatura Colossal come o quádruplo). Todos que se alimentarem dela recebem +2 nos testes de resistência por um dia e, se forem devotos de Lena, recebem também 10 PV temporários. Também é possível preparar um prato especial no caldeirão: faça um único teste de Ofício (cozinheiro) com a CD do prato especial +5 e some o custo da comida do caldeirão ao do prato especial; se passar, os benefícios se acumulam.",
+  "effects": [
+    { "type": "ativado", "tempo": "1 hora", "custo_material": "T$ 5", "teste": "Ofício (cozinheiro) CD 15", "efeito": "prepara comida para até 5 criaturas Médias/Pequenas; quem se alimenta recebe +2 em testes de resistência por 1 dia", "devoto": { "deity": "lena", "efeito_extra": "também recebe 10 PV temporários" } },
+    { "type": "combinacao", "efeito": "pode preparar um prato especial no caldeirão com um único teste de Ofício (cozinheiro) na CD do prato +5, acumulando custo e benefícios" }
+  ],
+  "livro": "deuses_de_arton"
+}

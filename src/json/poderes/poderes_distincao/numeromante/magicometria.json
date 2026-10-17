@@ -1,0 +1,10 @@
+{
+  "id": "magicometria",
+  "name": "Magicometria",
+  "description": "Quando uma habilidade mágica com efeito baseado em dados é usada em alcance médio, você pode fazer um teste de Misticismo (CD 15 + o custo em PM da habilidade). Se passar, você pode rolar novamente uma quantidade de dados do efeito igual a sua Constante M.",
+  "effects": [
+    { "type": "ativado", "gatilho": "habilidade mágica com efeito baseado em dados usada em alcance médio", "teste": "Misticismo, CD 15 + custo em PM da habilidade", "efeito": "rola novamente uma quantidade de dados igual à Constante M" }
+  ],
+  "requirements": ["Aplicar Constante M"],
+  "livro": "deuses_de_arton"
+}

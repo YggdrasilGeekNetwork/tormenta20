@@ -1,0 +1,16 @@
+{
+  "id": "guardei_para_voce",
+  "name": "Guardei para Você",
+  "deities": ["mauziell"],
+  "description": "Você pode gastar uma ação de movimento e 1 PM para produzir uma lembrança, na forma de uma memória ou de um objeto, para um aliado em alcance curto. Uma memória fornece +1d4 em um teste de perícia feito até o fim da cena, enquanto um objeto é uma versão mundana e não superior de um item não consumível a sua escolha, que dura até o fim da cena ou até ser largado pelo aliado. Você só pode produzir uma lembrança para cada aliado na mesma cena.",
+  "effects": {
+    "type": "ativado",
+    "acao": "movimento",
+    "custo_pm": 1,
+    "alcance": "curto",
+    "efeito": "produz uma memória (+1d4 em um teste de perícia até o fim da cena) ou um objeto (versão mundana não superior de um item não consumível à escolha, até o fim da cena ou até ser largado)",
+    "limite": "1 lembrança por aliado por cena"
+  },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

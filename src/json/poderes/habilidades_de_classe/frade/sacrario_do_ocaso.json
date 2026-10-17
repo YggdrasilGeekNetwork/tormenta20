@@ -1,0 +1,12 @@
+{
+  "id": "sacrario_do_ocaso",
+  "name": "Sacrário do Ocaso",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Este sacrário é criado com 60 pontos de ocaso. No início de seus turnos, o sacrário perde 1d10 pontos de ocaso, e cada criatura dentro dele perde esse valor em PV. A perda de PV aumenta em +1d10 para cada círculo de magia que você possa lançar além do 1º. Quando cria o sacrário, você pode gastar mais PM para fortalecer seu efeito; para cada PM adicional gasto, o sacrário é criado com +20 pontos de ocaso. O sacrário desaparece quando seus pontos de ocaso terminam. Segue as regras gerais de Sacrários.",
+  "requirements": [],
+  "effects": [
+    { "type": "sacrario", "pontos_de_ocaso_iniciais": 60, "perda_por_turno": "1d10 (+1d10 por círculo de magia acessível além do 1º)", "efeito": "cada criatura na área perde PV igual aos pontos de ocaso perdidos no turno; sacrário acaba quando os pontos de ocaso zeram", "escalavel": "+20 pontos de ocaso iniciais por PM adicional gasto na criação" }
+  ],
+  "livro": "deuses_de_arton"
+}

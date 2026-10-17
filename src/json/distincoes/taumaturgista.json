@@ -1,0 +1,10 @@
+{
+  "id": "taumaturgista",
+  "name": "Taumaturgista",
+  "description": "Conjurador especializado em invocar criaturas de outros Planos e negociar com elas vantajosamente, usando pactos e barganhas para trazer poder extraplanar a Arton em seu proveito.",
+  "admissao": "O caminho é solitário e perigoso, e nunca deve ser buscado abertamente. O candidato precisa primeiro obter tomos raríssimos sobre magias planares, incluindo obrigatoriamente um tomo de origem nardmyr (exigindo uma expedição às ruínas de Lamnor). Depois, deve invocar um extraplanar de poder considerável e firmar um acordo levando a melhor — enganando-o, convencendo-o a ceder algo por preço baixo ou intimidando-o — sem entregar sua alma ou servidão sem perceber. Por fim, deve visitar o Plano do extraplanar com quem contratou e negociar, em território hostil, com o mestre ou superior dele, para trazer o extraplanar menos poderoso a Arton como servo ou aliado, saindo sem perder nada valioso. Conseguir que o extraplanar assine um contrato que o prejudica confere o título de taumaturgista.",
+  "marca_nome": "Auxiliar Divino",
+  "marca_descricao": "Você aprende e pode lançar uma das seguintes magias como uma de suas magias divinas: Conjurar Monstro, Montaria Arcana ou Servos Invisíveis. A cada dois poderes da distinção, aprende e pode lançar outra dessas magias (se repetir uma já conhecida, seu custo diminui em –1 PM).",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

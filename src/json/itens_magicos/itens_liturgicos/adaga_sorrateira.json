@@ -1,0 +1,15 @@
+{
+  "id": "adaga_sorrateira",
+  "name": "Adaga Sorrateira",
+  "deities": ["hyninn"],
+  "subtipo": "arma",
+  "base_item": "adaga",
+  "classificacao": "Arma específica menor",
+  "preco": 22500,
+  "description": "Esta adaga é feita do que parece ser metal enferrujado. Se você for um devoto de Hyninn, ela se torna uma adaga formidável. Além disso, na primeira vez em que você passar em um teste de Enganação ou Furtividade em cada cena, você recebe +5 em um teste ou rolagem a sua escolha até o fim da cena (cumulativo com outros bônus de itens). Se você for de patamar campeão ou superior, a arma se torna uma adaga magnífica.",
+  "effects": [
+    { "type": "devoto", "deity": "hyninn", "enchantment": "formidável", "frequencia": "1x_por_cena", "gatilho": "passar em teste de Enganação ou Furtividade", "efeito": "+5 em teste ou rolagem à escolha até o fim da cena (cumulativo)" },
+    { "type": "devoto_patamar", "deity": "hyninn", "patamar_minimo": "campeao", "enchantment": "magnífica" }
+  ],
+  "livro": "deuses_de_arton"
+}

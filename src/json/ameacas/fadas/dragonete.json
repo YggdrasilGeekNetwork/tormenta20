@@ -1,0 +1,38 @@
+{
+  "id": "dragonete",
+  "name": "Dragonete",
+  "nd": 4,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "pequeno",
+  "grupo": "fadas",
+  "pv": 100,
+  "pm": null,
+  "defesa": 21,
+  "salvaguardas": { "fort": 6, "ref": 14, "von": 10 },
+  "resistencia_a_magia": 2,
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 11,
+  "percepcao": 6,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 12 },
+  "atributos": { "for": 0, "des": 4, "con": 1, "int": -1, "sab": 2, "car": 4 },
+  "pericias": { "furtividade": 12, "intuicao": 8, "misticismo": 5 },
+  "ataques": [
+    { "nome": "Garra", "bonus": 14, "dano": [{ "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 8, "tipo": "corte" }], "critico": null },
+    { "nome": "Mordida", "bonus": 14, "dano": [{ "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 6, "tipo": "perfuração" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Baforada Iridescente", "acao": "padrão", "salvaguarda": "Vontade", "cd": 20, "efeito_sucesso": "evita", "descricao": "O dragonete sopra um pó iridescente. Criaturas em um cone de 4,5m ficam atordoadas por 1 rodada e ofuscadas (Von CD 20 evita). Uma criatura só pode ficar atordoada por esta habilidade uma vez por cena. Recarga (movimento)." },
+    { "nome": "Ladrão de Magias", "acao": "reação", "descricao": "Uma vez por rodada, quando uma criatura em alcance curto se torna alvo de uma magia, o dragonete 'rouba' seu efeito para si mesmo; a magia funciona normalmente, mas o dragonete se torna seu novo alvo." },
+    { "nome": "Sumiço", "acao": "padrão", "descricao": "O dragonete fica invisível como pela magia Invisibilidade." },
+    { "nome": "Visão Arcana", "descricao": "O dragonete está sempre sob o efeito básico de Visão Mística." },
+    { "nome": "Parceiro", "descricao": "Um dragonete parceiro fornece: Iniciante, -1 PM no custo de magias de encantamento e ilusão. Veterano, aumenta o alcance dessas magias em um passo. Mestre, a redução de custo se torna cumulativa com outras e fica sempre sob Visão Mística." }
+  ],
+  "tesouro": "Padrão.",
+  "description": "Pequena criatura do tamanho de um gato com aparência de dragão em miniatura e asas translúcidas de inseto. Fada brincalhona, cobiçada por conjuradores como familiar devido à sua capacidade de potencializar magias.",
+  "livro": "deuses_de_arton"
+}

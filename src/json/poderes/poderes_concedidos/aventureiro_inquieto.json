@@ -1,0 +1,9 @@
+{
+  "id": "aventureiro_inquieto",
+  "name": "Aventureiro Inquieto",
+  "deities": ["valkaria"],
+  "description": "Uma vez por busca, você pode rolar novamente um teste recém-realizado (mas deve aceitar o novo resultado) e, quando recebe uma recompensa ou um castigo aleatório por uma busca (incluindo rolagens na Tabela 8-1), rola dois dados e escolhe entre os dois resultados.",
+  "effects": { "type": "ativado", "frequencia": "1x_por_busca", "efeito": "rola novamente um teste recém-feito (aceitando o novo resultado); recompensas/castigos aleatórios de busca rolam 2 dados e escolhe o resultado" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

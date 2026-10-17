@@ -1,0 +1,10 @@
+{
+  "id": "cinquenta_cinquenta",
+  "name": "50/50",
+  "description": "Você pode gastar 5 PM e uma ação de movimento para gerar uma aura com 9m de raio de sorte e azar absolutos, com duração sustentada. Dentro dessa aura, todos os testes são resolvidos com uma rolagem de 1d2; resultados 1 são falhas e 2 são sucessos. Sempre que um teste dentro da aura for um sucesso, você recupera 2 PM e, sempre que for uma falha, você perde 2 PM.",
+  "effects": [
+    { "type": "ativado", "acao": "movimento", "custo_pm": 5, "duracao": "sustentada", "alcance": "9m de raio", "efeito": "todos os testes na aura viram uma rolagem de 1d2 (1 = falha, 2 = sucesso); você ganha 2 PM por sucesso e perde 2 PM por falha na área" }
+  ],
+  "requirements": ["Sorte É o Que Se Faz"],
+  "livro": "deuses_de_arton"
+}

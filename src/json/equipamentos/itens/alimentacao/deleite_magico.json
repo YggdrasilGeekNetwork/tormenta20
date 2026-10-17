@@ -1,0 +1,18 @@
+{
+  "id": "deleite_magico",
+  "name": "Deleite Mágico",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 18,
+  "espacos": 0,
+  "deity": "wynna",
+  "efeito": {
+    "requer_devoto": "wynna",
+    "escolha": "uma magia de 1º círculo",
+    "duracao": "até o fim do dia",
+    "frequencia": "1x_por_dia",
+    "efeito": "lança a magia escolhida uma única vez, sem aprimoramentos, gastando 2 PM (atributo-chave Sabedoria)"
+  },
+  "description": "Em Arton, a magia pode ser comum, mas não deixa de ser especial. Ao consumir este folhado místico, escolha uma magia de 1º círculo. Até o fim do dia, você pode lançá-la uma única vez, sem aprimoramentos, gastando 2 PM (atributo-chave Sabedoria).",
+  "livro": "deuses_de_arton"
+}

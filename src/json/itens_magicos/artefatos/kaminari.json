@@ -1,0 +1,16 @@
+{
+  "id": "kaminari",
+  "name": "Kaminari",
+  "description": "A espada do Deus da Honra é uma katana precisa pungente trovejante veloz. Apenas devotos de Lin-Wu ou criaturas que obedeçam a algum código de conduta (como Código de Honra ou similares) podem utilizar esta espada; nas mãos de qualquer outra pessoa, ela se torna uma katana sem habilidades que impõe –2 em testes de ataque e rolagens de dano. Enquanto empunhar Kaminari, você pode gastar uma ação completa e 5 PM para atacar todas as criaturas em um cone de 30m. Você faz um único ataque e compara o resultado com a Defesa de todas as criaturas na área. Então faz uma única rolagem de dano e aplica-a em cada inimigo atingido. Caso o ataque seja um acerto crítico, você pode gastar 5 PM para usar essa habilidade uma segunda vez. Se uma criatura chegar a 0 PV ou menos por um golpe desta arma, ela é fulminada por eletricidade e completamente destruída.",
+  "effects": [
+    { "type": "weapon_type", "base": "katana" },
+    { "type": "enchantment", "name": "precisa" },
+    { "type": "enchantment", "name": "pungente" },
+    { "type": "enchantment", "name": "trovejante" },
+    { "type": "enchantment", "name": "veloz" },
+    { "type": "restriction", "requisito": "devoto de Lin-Wu ou criatura com código de conduta", "penalidade_se_nao_atender": "-2 em testes de ataque e rolagens de dano, sem habilidades especiais" },
+    { "type": "ativado", "acao": "completa", "custo_pm": 5, "area": "cone de 30m", "descricao": "ataque único comparado à Defesa de todas as criaturas na área; uma única rolagem de dano aplicada a todos os atingidos; se crítico, pode gastar mais 5 PM para usar de novo" },
+    { "type": "special", "efeito": "criatura reduzida a 0 PV ou menos por um golpe desta arma é fulminada por eletricidade e completamente destruída" }
+  ],
+  "livro": "deuses_de_arton"
+}

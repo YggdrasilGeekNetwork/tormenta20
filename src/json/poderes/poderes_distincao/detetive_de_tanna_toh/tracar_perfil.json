@@ -1,0 +1,11 @@
+{
+  "id": "tracar_perfil",
+  "name": "Traçar Perfil",
+  "description": "Você pode usar Investigação para identificar criaturas em quaisquer criaturas inteligentes (Int –3 ou maior). Quando identifica uma criatura dessa forma, além das informações recebidas, você pode gastar 2 PM para traçar seu perfil: até o fim da cena, você recebe +1 em testes de perícia e na CD de suas habilidades contra ela para cada poder da distinção que você possui.",
+  "effects": [
+    { "type": "passivo", "efeito": "usa Investigação para identificar criaturas inteligentes (Int -3 ou maior), no lugar de Misticismo" },
+    { "type": "ativado", "custo_pm": 2, "gatilho": "identificar uma criatura", "efeito": "até o fim da cena, +1 em testes de perícia e na CD de habilidades contra ela, por poder da distinção que possui" }
+  ],
+  "requirements": ["devoto de Tanna-Toh", "Investigador", "Mente Analítica"],
+  "livro": "deuses_de_arton"
+}

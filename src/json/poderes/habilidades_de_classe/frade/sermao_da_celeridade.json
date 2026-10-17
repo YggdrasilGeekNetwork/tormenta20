@@ -1,0 +1,14 @@
+{
+  "id": "sermao_da_celeridade",
+  "name": "Sermão da Celeridade",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Uma vez por rodada, você pode gastar 5 PM para fazer um aliado em alcance curto ganhar uma ação padrão adicional no próximo turno dele. Você só pode usar esta habilidade uma vez por cena em cada aliado.",
+  "requirements": [
+    { "type": "character_lvl", "sub_type": "hard", "value": 8, "note": "8º nível de frade" }
+  ],
+  "effects": [
+    { "type": "ativado", "frequencia": "1x_por_rodada", "custo_pm": 5, "efeito": "um aliado em alcance curto ganha uma ação padrão adicional no próximo turno dele", "limite": "1x por cena, por aliado" }
+  ],
+  "livro": "deuses_de_arton"
+}

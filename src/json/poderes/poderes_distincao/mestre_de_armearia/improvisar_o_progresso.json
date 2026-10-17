@@ -1,0 +1,11 @@
+{
+  "id": "improvisar_o_progresso",
+  "name": "Improvisar o Progresso",
+  "description": "Você pode gastar uma ação completa e 2 PM para aplicar uma melhoria (exceto material especial) em uma arma de fogo que esteja empunhando. Não precisa pagar o custo nem fazer o teste de Ofício (armeiro), mas a melhoria só dura até o fim da cena. Pode gastar +2 PM para aplicar também uma inovação. A melhoria e a inovação não contam nos limites da arma.",
+  "effects": [
+    { "type": "ativado", "acao": "completa", "custo_pm": 2, "efeito": "aplica uma melhoria temporária (até o fim da cena) sem custo ou teste de Ofício em uma arma de fogo empunhada; fora do limite de melhorias da arma" },
+    { "type": "ativado", "custo_pm_adicional": 2, "efeito": "também aplica uma inovação temporária, fora do limite de inovações" }
+  ],
+  "requirements": ["Inovação Tecnológica", "ter construído pelo menos três armas com melhorias exclusivas"],
+  "livro": "deuses_de_arton"
+}

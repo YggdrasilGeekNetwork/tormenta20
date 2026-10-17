@@ -1,0 +1,16 @@
+{
+  "id": "adaga_ofidica",
+  "name": "Adaga Ofídica",
+  "deities": ["sszzaas"],
+  "subtipo": "arma",
+  "base_item": "adaga",
+  "classificacao": "Arma específica média",
+  "preco": 36000,
+  "description": "Esta adaga cruel é feita da presa de uma serpente gigantesca. Possui um compartimento oco no cabo com veneno (peçonha concentrada) que é magicamente reposto a cada golpe. Se você for um devoto de Sszzaas, ela se torna uma adaga cruel formidável que ignora qualquer resistência ou imunidade a veneno de uma criatura atingida. Se você for de patamar campeão ou superior, o veneno vira peçonha potente.",
+  "effects": [
+    { "type": "passivo", "enchantment": "cruel", "veneno": "peçonha concentrada, reposta magicamente a cada golpe" },
+    { "type": "devoto", "deity": "sszzaas", "enchantment": "cruel formidável", "efeito": "ignora resistência ou imunidade a veneno da criatura atingida" },
+    { "type": "devoto_patamar", "deity": "sszzaas", "patamar_minimo": "campeao", "efeito": "o veneno vira peçonha potente" }
+  ],
+  "livro": "deuses_de_arton"
+}

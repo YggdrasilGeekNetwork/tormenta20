@@ -1,0 +1,10 @@
+{
+  "id": "transe_dancante",
+  "name": "Transe Dançante",
+  "description": "Você pode gastar 3 PM para entrar em um transe dançante que gera uma aura de 9m de raio. Para manter esse transe, em cada um dos seus turnos você precisa se deslocar pelo menos 6m, sem passar pelos mesmos quadrados. Você e seus aliados dentro da aura podem executar uma ação de movimento adicional por turno e recebem +2 em testes de resistência e na Defesa. Para cada dois outros poderes da distinção que você possui, esse bônus aumenta em +1.",
+  "effects": [
+    { "type": "ativado", "custo_pm": 3, "duracao": "sustentada (exige deslocar-se ao menos 6m por turno, sem repetir quadrados)", "alcance": "9m de raio", "efeito": "você e aliados na aura ganham uma ação de movimento adicional por turno e +2 em testes de resistência e Defesa", "escalavel": "+1 a cada dois outros poderes da distinção" }
+  ],
+  "requirements": ["Foco em Perícia (Atuação)", "dois poderes concedidos de Marah"],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "aplicar_constante_m",
+  "name": "Aplicar Constante M",
+  "description": "No início de cada cena, role 1d4 e anote o resultado. Esse número passa a ser sua Constante M. Suas magias com um teste de resistência ganham o seguinte aprimoramento: +2 PM: criaturas que falhem no teste de resistência sofrem uma penalidade na Defesa e em testes de resistência igual a sua Constante M.",
+  "effects": [
+    { "type": "passivo", "gatilho": "início de cada cena", "efeito": "rola 1d4, define a Constante M" },
+    { "type": "aprimoramento_de_magia", "custo_pm": 2, "requisito": "magia com teste de resistência", "efeito": "criaturas que falharem sofrem penalidade na Defesa e em testes de resistência igual à Constante M" }
+  ],
+  "requirements": ["treinado em Conhecimento e Misticismo", "capacidade de lançar magias arcanas de 2º círculo"],
+  "livro": "deuses_de_arton"
+}

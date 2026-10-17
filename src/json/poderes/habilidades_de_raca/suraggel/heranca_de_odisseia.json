@@ -1,0 +1,20 @@
+{
+  "id": "heranca_de_odisseia",
+  "name": "Herança de Odisseia",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "Sua alma tocada por Valkaria está sempre preparada para problemas! Você recebe +2 em Iniciativa e Percepção, e sua capacidade de carga aumenta em 2 espaços.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "skill_bonus": {
+      "iniciativa": 2,
+      "percepcao": 2
+    },
+    "carrying_capacity_bonus_spaces": 2
+  },
+  "livro": "deuses_de_arton"
+}

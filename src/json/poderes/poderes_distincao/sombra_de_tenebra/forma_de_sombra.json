@@ -1,0 +1,11 @@
+{
+  "id": "forma_de_sombra",
+  "name": "Forma de Sombra",
+  "description": "Enquanto estiver sob efeito de Manto de Sombras, você causa +1 ponto de dano por dado de dano de trevas. Além disso, quando faz um ataque, você pode gastar 1 PM para cobrir sua arma de sombras: esse ataque pode afetar uma criatura normal e, se for um ataque furtivo, o dano extra dessa habilidade se torna dano de trevas.",
+  "effects": [
+    { "type": "passivo", "condicao": "sob Manto de Sombras", "efeito": "+1 dano por dado de dano de trevas" },
+    { "type": "ativado", "custo_pm": 1, "gatilho": "fazer um ataque", "efeito": "arma coberta de sombras pode afetar criatura normal; converte dano extra de ataque furtivo em dano de trevas" }
+  ],
+  "requirements": ["Ataque Furtivo", "Sombra Espreitadora"],
+  "livro": "deuses_de_arton"
+}

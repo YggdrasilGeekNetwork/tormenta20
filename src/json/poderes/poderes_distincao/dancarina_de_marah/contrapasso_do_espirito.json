@@ -1,0 +1,10 @@
+{
+  "id": "contrapasso_do_espirito",
+  "name": "Contrapasso do Espírito",
+  "description": "Enquanto estiver em Transe Dançante, no início de cada um dos seus turnos, você e seus aliados dentro da aura recebem uma quantidade de PV temporários igual a 5 + seu Carisma.",
+  "effects": [
+    { "type": "passivo", "condicao": "em Transe Dançante", "efeito": "no início de cada turno seu, você e aliados na aura recebem 5 + Carisma em PV temporários" }
+  ],
+  "requirements": ["Transe Dançante"],
+  "livro": "deuses_de_arton"
+}

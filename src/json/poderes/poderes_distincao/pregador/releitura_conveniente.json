@@ -1,0 +1,10 @@
+{
+  "id": "releitura_conveniente",
+  "name": "Releitura Conveniente",
+  "description": "Você pode gastar 1 PM para considerar uma característica de uma divindade como parte das características do seu deus. Você pode escolher entre Arma Preferida, Canalizar Energia ou ser considerado devoto desse deus para cumprir requisitos de usar habilidades e itens. Esse efeito dura até o fim da cena ou até você usá-lo novamente.",
+  "effects": [
+    { "type": "ativado", "custo_pm": 1, "efeito": "adota Arma Preferida, Canalizar Energia ou devoção de outra divindade como se fosse do seu deus, até o fim da cena ou até reusar" }
+  ],
+  "requirements": ["Sincretismo Oportuno"],
+  "livro": "deuses_de_arton"
+}

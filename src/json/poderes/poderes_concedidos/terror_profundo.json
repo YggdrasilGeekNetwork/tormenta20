@@ -1,0 +1,9 @@
+{
+  "id": "terror_profundo",
+  "name": "Terror Profundo",
+  "deities": ["kallyadranoch", "megalokk", "thwor"],
+  "description": "Você recebe +2 em Intimidação e na CD de seus efeitos de medo.",
+  "effects": { "type": "passivo", "efeito": "+2 em Intimidação e na CD de efeitos de medo" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

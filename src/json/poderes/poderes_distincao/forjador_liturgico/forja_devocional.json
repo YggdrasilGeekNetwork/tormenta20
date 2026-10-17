@@ -1,0 +1,10 @@
+{
+  "id": "forja_devocional",
+  "name": "Forja Devocional",
+  "description": "Você consegue transplantar encantos de outras armas para aquelas que você fabricou. Para isso, gaste metade do tempo necessário para fabricar a arma mágica e faça um teste de Ofício (armeiro) com a CD de fabricação dela. Se passar, a arma perde seus encantos e eles são transferidos para uma arma que você tenha fabricado (essa arma deve atender aos pré-requisitos dos encantos e respeitar o limite de encantos que pode ter).",
+  "effects": [
+    { "type": "ativado", "tempo": "metade do tempo normal de fabricação da arma mágica de origem", "teste": "Ofício (armeiro), CD de fabricação da arma", "efeito": "transfere os encantos de uma arma mágica para uma arma fabricada por você (respeitando pré-requisitos e limite de encantos)" }
+  ],
+  "requirements": ["Virtude do Forjador"],
+  "livro": "deuses_de_arton"
+}

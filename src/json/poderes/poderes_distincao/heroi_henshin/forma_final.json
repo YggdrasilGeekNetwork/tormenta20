@@ -1,0 +1,10 @@
+{
+  "id": "forma_final",
+  "name": "Forma Final",
+  "description": "Quando usa sua Sequência de Transformação, você pode gastar 5 PM. Se fizer isso, os itens invocados pela sequência recebem um encanto cada, que não contam em seu limite de encantos e que duram até o fim da cena.",
+  "effects": [
+    { "type": "ativado", "gatilho": "usar Sequência de Transformação", "custo_pm": 5, "efeito": "os itens invocados recebem um encanto cada (fora do limite normal), até o fim da cena" }
+  ],
+  "requirements": ["quatro outros poderes da distinção"],
+  "livro": "deuses_de_arton"
+}

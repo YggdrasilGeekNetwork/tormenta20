@@ -1,0 +1,16 @@
+{
+  "id": "patua",
+  "name": "Patuá",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 50,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "requer": "ter uma devoção",
+    "reducao_de_dano": "2/mundano",
+    "resistencia_a_magia": 1
+  },
+  "description": "Vários deuses artonianos ensinam seus devotos a fazer pequenos sacos contendo ervas, substâncias sagradas, pedaços de pergaminhos com orações e outros objetos minúsculos. Esses saquinhos são vestidos como amuletos, pendurados no pescoço, e protegem o devoto de todos os males. Se tiver uma devoção, você recebe redução de dano 2/mundano e resistência a magia +1.",
+  "livro": "deuses_de_arton"
+}

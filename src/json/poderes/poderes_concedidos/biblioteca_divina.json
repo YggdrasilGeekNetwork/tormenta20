@@ -1,0 +1,9 @@
+{
+  "id": "biblioteca_divina",
+  "name": "Biblioteca Divina",
+  "deities": ["tanna_toh"],
+  "description": "Você recebe uma perícia treinada. A cada patamar de jogo acima de iniciante, recebe mais uma perícia treinada.",
+  "effects": { "type": "passivo", "efeito": "1 perícia treinada; +1 perícia treinada por patamar acima de iniciante" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

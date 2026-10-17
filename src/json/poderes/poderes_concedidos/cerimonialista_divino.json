@@ -1,0 +1,9 @@
+{
+  "id": "cerimonialista_divino",
+  "name": "Cerimonialista Divino",
+  "deities": ["lin_wu"],
+  "description": "Uma vez por dia, você pode gastar 1 hora para executar uma cerimônia tradicional que afeta até 1 + seu Carisma criaturas por 1 dia. Faça um teste de Religião com um bônus igual ao seu Carisma. Para cada 10 pontos do resultado, cada criatura afetada recebe um dado de auxílio. Quando faz um teste de atributo ou perícia (exceto Enganação, Furtividade e Ladinagem), a criatura pode gastar um deles para receber +1d6 de bônus no teste. Para criaturas que gastarem T$ 25 em oferendas no ritual, esse bônus muda para +1d8.",
+  "effects": { "type": "ativado", "frequencia": "1x_por_dia", "tempo": "1 hora", "alvos_maximos": "1 + Carisma", "teste": "Religião + Carisma", "efeito": "cada 10 pontos do resultado concede 1 dado de auxílio (+1d6, ou +1d8 se a criatura gastou T$ 25 em oferendas) usável em testes de atributo/perícia (exceto Enganação/Furtividade/Ladinagem), por 1 dia" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "paixao_de_marah",
+  "name": "Paixão de Marah",
+  "type": "divina",
+  "circle": "1",
+  "school": "encan",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": { "amount": 1, "up_to": false, "type": "você" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Você é cercado por uma aura de magnetismo pessoal que o torna mais interessante e atraente aos olhos dos demais. Você recebe +2 em perícias originalmente baseadas em Carisma (exceto Intimidação).",
+  "enhancements": [
+    { "cost": 2, "type": "muda", "description": "muda o alcance para curto e o alvo para 1 criatura.", "extra_details": null },
+    { "cost": 1, "type": "aumenta", "description": "(Apenas Devotos de Marah): além do normal, o alvo recebe +1 em Carisma. Esse aumento não oferece PV ou PM adicionais.", "extra_details": { "requirements": "devoto de Marah" } },
+    { "cost": 3, "type": "muda", "description": "(Apenas Devotos de Marah): muda a duração para 1 dia. Requer 2º círculo.", "extra_details": { "requirements": "devoto de Marah; 2º círculo" } }
+  ],
+  "effects": [
+    { "type": "bônus", "attribute": "pericias_carisma_exceto_intimidacao", "amount": "+2", "resistence_requirement": null, "extra_requirements": null }
+  ],
+  "livro": "deuses_de_arton"
+}

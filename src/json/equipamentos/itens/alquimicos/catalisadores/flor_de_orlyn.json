@@ -1,0 +1,17 @@
+{
+  "id": "flor_de_orlyn",
+  "name": "Flor de Orlyn",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 30,
+  "espacos": 0.5,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "gatilho": "aplicada a uma magia de cura que afeta uma criatura",
+    "efeito": "uma segunda criatura no alcance da magia recupera PV igual à metade do efeito da magia"
+  },
+  "description": "Quando aplicada a uma magia de cura que afeta uma criatura, esta flor dourada faz com que uma segunda criatura no alcance da magia recupere uma quantidade de PV igual à metade do efeito da magia.",
+  "livro": "deuses_de_arton"
+}

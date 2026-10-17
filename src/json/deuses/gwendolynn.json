@@ -1,0 +1,26 @@
+{
+  "id": "gwendolynn",
+  "name": "Gwendolynn",
+  "title": "Deusa da Liberdade",
+  "description": "Uma elfa de longas tranças loiras, quase sempre de armadura e carregando um bordão. Ex-aventureira, participou de várias buscas que pareciam missões simples, mas acabaram mudando o destino de Arton. Libertou o feudo de Adhurian de monstros conjurados a partir da Joia da Alma e envolveu-se com os organizadores da Revolta da Lavoura, sendo uma das principais responsáveis por acabar com o escravagismo no Império de Tauron. Então ainda uma clériga de Tanna-Toh, Gwen se mostrou um símbolo de força, esperança e resistência, expondo ao mundo a traição de Glórienn e tornando-se um foco de devoção. Finalmente, ascendeu a divindade menor protegendo a cidade de Tiberus da destruição pela Tormenta. Gwen prega liberdade de todo tipo de escravidão, física ou mental.",
+  "beliefs_objectives": [
+    "Libertar escravos",
+    "Libertar mentes",
+    "Transformar sistemas rígidos e antiquados",
+    "Lutar contra qualquer submissão involuntária",
+    "Pregar a independência"
+  ],
+  "holy_symbol": "Um elo de corrente partido ao meio",
+  "energy": "positiva",
+  "preferred_weapon": "Cajado de batalha",
+  "devotees": {
+    "races": ["dahllan", "duendes", "elfos", "elfos_do_mar", "eiradaan", "galokk", "goblins", "lefou", "minotauros", "qareen", "kliren", "satiros", "silfides", "velocis"],
+    "classes": ["bardos", "bucaneiros", "inventores", "ladinos", "paladinos"]
+  },
+  "granted_powers": ["liberdade_irrestrita"],
+  "obligations_restrictions": "Devotos de Gwendolynn jamais podem recusar uma missão que envolva a libertação de escravos, exceto quando isso significa a morte ou a ruína de seus próprios aliados.",
+  "rank": "menor",
+  "natureza": "mortal_ascendido",
+  "status_divino": 3,
+  "livro": "deuses_de_arton"
+}

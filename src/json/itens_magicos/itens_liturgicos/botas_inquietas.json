@@ -1,0 +1,14 @@
+{
+  "id": "botas_inquietas",
+  "name": "Botas Inquietas",
+  "deities": ["valkaria"],
+  "subtipo": "acessorio",
+  "classificacao": "Acessório médio",
+  "preco": 15000,
+  "description": "Esse par de botas reforçadas é bastante surrado, com marcas dos diversos terrenos pelos quais já passou: carrapichos de florestas, manchas das águas escuras de pântanos, pequenos rasgos das pedras afiadas de montanhas… Se você for um devoto de Valkaria e vestir as botas inquietas, sente um grande desejo de viajar e desbravar o mundo — e a disposição para tal empreitada! Você recebe +1 em Constituição (apenas após 1 dia de uso) e +5 em testes de Fortitude para marcha forçada. Além disso, sempre que realizar uma investida durante um combate, recebe 1 PM temporário cumulativo (até um máximo de 3 PM por patamar por dia).",
+  "effects": [
+    { "type": "devoto", "deity": "valkaria", "requer": "1 dia de uso", "efeito": "+1 em Constituição e +5 em Fortitude para marcha forçada" },
+    { "type": "devoto", "deity": "valkaria", "gatilho": "realizar uma investida em combate", "efeito": "1 PM temporário cumulativo", "limite": "máximo de 3 PM por patamar por dia" }
+  ],
+  "livro": "deuses_de_arton"
+}

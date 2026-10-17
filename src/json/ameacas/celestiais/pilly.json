@@ -1,0 +1,33 @@
+{
+  "id": "pilly",
+  "name": "Pilly",
+  "nd": 3,
+  "tipo": "Espírito",
+  "subtipo": "celestial",
+  "tamanho": "minúsculo",
+  "grupo": "celestiais",
+  "pv": 22,
+  "pm": null,
+  "defesa": 18,
+  "salvaguardas": { "fort": 8, "ref": 14, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 3,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "voo": 18 },
+  "atributos": { "for": -3, "des": 4, "con": -1, "int": 1, "sab": 0, "car": 3 },
+  "pericias": { "acrobacia": 9, "conhecimento": 6, "diplomacia": 8 },
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Raio Iridescente", "acao": "padrão", "salvaguarda": "Reflexos", "cd": 18, "efeito_sucesso": "reduz à metade", "descricao": "O pilly dispara um raio colorido em criaturas em alcance médio a sua escolha. Cada criatura sofre 2d4+6 pontos de dano de eletricidade (Ref CD 18 reduz à metade)." },
+    { "nome": "Sono Tranquilo", "acao": "padrão", "salvaguarda": "Fortitude", "cd": 18, "efeito_sucesso": "reduz para exaustas por 1d4 rodadas", "descricao": "O pilly emana um pó fino de suas asas, que cobre um raio de 9m. Criaturas à escolha dele nessa área ficam inconscientes e caídas (Fort CD 18 reduz para exaustas por 1d4 rodadas). Cansaço." },
+    { "nome": "Velocidade Celestial", "acao": "livre", "descricao": "O pilly aumenta seu deslocamento para 24m por 1 rodada, mas nesse turno só pode executar ações de movimento. Só pode usar esta habilidade no início do seu turno." },
+    { "nome": "Parceiro", "descricao": "Um pilly parceiro fornece: Iniciante, reduz o custo de magias divinas de encantamento em -1 PM. Veterano, como acima, mais deslocamento de voo 9m. Mestre, reduz o custo em -2 PM." }
+  ],
+  "tesouro": "Metade.",
+  "description": "Pequeno celestial parecido com uma fada, de quatro asas de inseto coloridas. Um dos menores e mais fracos anjos, dedicado a alegrar e divertir aqueles em desalento, evitando confronto.",
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "manjar_da_paz",
+  "name": "Manjar da Paz",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 7,
+  "espacos": 0,
+  "deity": "marah",
+  "efeito": {
+    "requer_devoto": "marah",
+    "frequencia": "1x_nesse_dia",
+    "gatilho": "criatura em alcance curto faz um ataque",
+    "efeito": "pode fazer com que ela role dois dados e use o pior resultado"
+  },
+  "description": "Esta delícia, compartilhada com alegria pelos devotos de Marah, é degustada em toda Arton. Uma vez nesse dia, quando uma criatura em alcance curto fizer um ataque, você pode fazer com que ela role dois dados e use o pior resultado.",
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "exaltar_honra",
+  "name": "Exaltar Honra",
+  "deities": ["lin_wu"],
+  "description": "Você pode gastar 2 PM para gerar uma aura de honradez de 9m de raio que dura até o fim da cena. Dentro dessa área, devotos de Lin-Wu e personagens que sigam algum código de conduta (como Código de Honra ou Código do Herói) recebem +5 em Diplomacia e Nobreza, e todas as criaturas na área sofrem –5 em perícias desonradas (Enganação, Furtividade e Ladinagem). Apenas personagens com a habilidade Abençoado ou Devoto Fiel podem escolher este poder.",
+  "effects": { "type": "ativado", "custo_pm": 2, "duracao": "até o fim da cena", "alcance": "9m de raio", "efeito": "devotos de Lin-Wu e personagens com código de conduta recebem +5 em Diplomacia e Nobreza; todas as criaturas na área sofrem -5 em Enganação/Furtividade/Ladinagem" },
+  "prerequisites": ["habilidade Abençoado ou Devoto Fiel"],
+  "livro": "deuses_de_arton"
+}

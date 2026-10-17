@@ -1,0 +1,14 @@
+{
+  "id": "cozinheiro_da_abadia",
+  "name": "Cozinheiro da Abadia",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Quando prepara um prato especial, você pode combinar os efeitos de dois pratos. Você faz apenas um teste de Ofício, mas paga o custo de ambos.",
+  "requirements": [
+    { "type": "trained_skill", "sub_type": "hard", "skill": "oficio_cozinheiro" }
+  ],
+  "effects": [
+    { "type": "passivo", "efeito": "combina os efeitos de 2 pratos especiais num só teste de Ofício, pagando o custo dos dois" }
+  ],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "conduite",
+  "name": "Conduíte",
+  "type": "melhoria",
+  "categoria": "arma",
+  "prerequisitos": null,
+  "description": "A empunhadura da arma é ornamentada com uma medalha ou outro objeto minúsculo de significado religioso que a torna mais propícia para receber bênçãos. O custo para usar o poder Abençoar Arma nela é reduzido em –1 PM.",
+  "effects": [
+    { "type": "reducao_custo_pm", "habilidade": "abencoar_arma", "valor": 1 }
+  ],
+  "livro": "deuses_de_arton"
+}

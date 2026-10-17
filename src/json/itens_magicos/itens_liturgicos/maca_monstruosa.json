@@ -1,0 +1,16 @@
+{
+  "id": "maca_monstruosa",
+  "name": "Maça Monstruosa",
+  "deities": ["megalokk"],
+  "subtipo": "arma",
+  "base_item": "maca",
+  "classificacao": "Arma específica menor",
+  "preco": 27000,
+  "description": "Esta maça atroz é feita de rocha vulcânica pontiaguda e afiada. Se você for um devoto de Megalokk, ela se torna uma arma formidável e seu dano aumenta em dois passos. Se você for de patamar campeão ou superior, seu dano aumenta em mais dois passos (para um total de quatro).",
+  "effects": [
+    { "type": "passivo", "enchantment": "atroz" },
+    { "type": "devoto", "deity": "megalokk", "enchantment": "formidável", "efeito": "dano aumenta em dois passos" },
+    { "type": "devoto_patamar", "deity": "megalokk", "patamar_minimo": "campeao", "efeito": "dano aumenta mais dois passos (quatro passos no total)" }
+  ],
+  "livro": "deuses_de_arton"
+}

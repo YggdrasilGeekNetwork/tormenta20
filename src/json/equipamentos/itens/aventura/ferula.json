@@ -1,0 +1,15 @@
+{
+  "id": "ferula",
+  "name": "Férula",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 100,
+  "espacos": 1,
+  "uso": "empunhado",
+  "efeito": {
+    "bonus_canalizar_energia": "+1d6",
+    "pode_ser_usada_como_arma": "maça (mesmas estatísticas)"
+  },
+  "description": "Um cajado luxuoso (feito de madeira de boa qualidade ou de um metal precioso) com um símbolo sagrado no topo. Usado em procissões, na leitura de textos sagrados e na administração de sacramentos. O efeito de sua habilidade Canalizar Energia aumenta em +1d6. Uma férula pode ser usada como arma, com as estatísticas de uma maça.",
+  "livro": "deuses_de_arton"
+}

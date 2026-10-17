@@ -1,0 +1,18 @@
+{
+  "id": "heranca_de_pelagia",
+  "name": "Herança de Pelágia",
+  "type": "habilidade_de_raca",
+  "race": "suraggel",
+  "description": "Mesmo nas situações mais desesperadoras, seu espírito se mantém plácido e imperturbável como o próprio Oceano. Escolha três perícias. Com elas, você pode gastar 1 PM para escolher 10 em qualquer situação, exceto testes de ataque.",
+  "effects": {
+    "variant_of": "suraggel",
+    "replaces": [
+      "luz_sagrada",
+      "sombras_profanas"
+    ],
+    "skill_choice_count": 3,
+    "pm_cost_to_take_10_any_situation": 1,
+    "excludes": "testes de ataque"
+  },
+  "livro": "deuses_de_arton"
+}

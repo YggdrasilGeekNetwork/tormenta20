@@ -1,0 +1,10 @@
+{
+  "id": "sequencia_dedutiva",
+  "name": "Sequência Dedutiva",
+  "description": "Sempre que você passa em um teste de Investigação e sempre que você (o jogador) deduz uma informação relevante sobre a aventura em questão (a critério do mestre), você recebe um bônus cumulativo de +1 em testes de perícias baseadas em Inteligência, Sabedoria e Carisma relacionados à aventura (limitado pelo total de poderes da distinção que possui). Esses bônus diminuem em –1 se você falhar em um teste de Investigação e desaparecem no fim da aventura.",
+  "effects": [
+    { "type": "passivo", "gatilho": "passar em teste de Investigação ou deduzir uma informação relevante (critério do mestre)", "efeito": "+1 cumulativo em testes de perícia baseados em Int/Sab/Car relacionados à aventura, limitado pelo total de poderes da distinção", "penalidade": "-1 ao falhar em teste de Investigação; zera no fim da aventura" }
+  ],
+  "requirements": ["Traçar Perfil"],
+  "livro": "deuses_de_arton"
+}

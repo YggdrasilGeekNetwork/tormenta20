@@ -1,0 +1,33 @@
+{
+  "id": "driade",
+  "name": "Dríade",
+  "nd": 4,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "fadas",
+  "pv": 98,
+  "pm": 24,
+  "defesa": 21,
+  "salvaguardas": { "fort": 4, "ref": 11, "von": 15 },
+  "reducao_de_dano": "5/adamante",
+  "imunidades": ["efeitos mentais"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 12,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": -1, "des": 3, "con": 0, "int": 1, "sab": 5, "car": 6 },
+  "pericias": { "adestramento": 12, "diplomacia": 12, "intuicao": 9, "furtividade": 9, "misticismo": 6, "sobrevivencia": 15 },
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Sem Redução por Terreno Difícil Natural", "descricao": "A dríade não sofre redução de deslocamento por terreno difícil de origem natural." },
+    { "nome": "Caminhar em Árvores", "acao": "completa", "descricao": "A dríade entra em uma árvore adjacente maior do que ela e pode permanecer dentro percebendo os arredores normalmente (sem executar outras ações). Pode sair na mesma árvore ou em qualquer outra em um raio de 1km como ação livre. Se estiver dentro de uma árvore destruída, reaparece e perde 10d6 PV." },
+    { "nome": "Simbiose", "descricao": "A verdadeira forma de uma dríade é uma enorme árvore. Quando sua forma humanoide é destruída, outra surge em poucos dias nessa árvore. A forma humanoide não pode se afastar mais de 1km da floresta onde repousa sua árvore, ou perde 8d6 PV por hora (cura apenas ao retornar). A única forma de matar uma dríade é destruir sua árvore." },
+    { "nome": "Magias (conjuradora 4º, CD 20)", "descricao": "Comando (padrão, 4 PM): duas criaturas em alcance curto ficam pasmas por 1 rodada no início do próximo turno (Von evita, 1x por cena por criatura). Controlar Plantas (padrão, 2 PM): quadrado de 9m de vegetação em alcance curto vira terreno difícil; criaturas na área ficam enredadas e imóveis (Ref evita). Enfeitiçar (padrão, 1 PM): humanoide em alcance curto fica enfeitiçado (Von anula). Tranquilidade (padrão, 2 PM): criatura em alcance curto fica indiferente e não pode agir hostilmente (Von reduz a -2 em ataque) até o fim da cena." }
+  ],
+  "tesouro": "Padrão.",
+  "description": "Fada magicamente ligada a bosques e florestas, com pele esverdeada e cabelo como folhagem. Defende as árvores contra lenhadores e desbravadores; sua alma vive em uma árvore antiga, e só pode ser realmente destruída se a árvore for destruída.",
+  "livro": "deuses_de_arton"
+}

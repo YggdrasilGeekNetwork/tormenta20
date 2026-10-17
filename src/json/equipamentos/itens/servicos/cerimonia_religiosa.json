@@ -1,0 +1,13 @@
+{
+  "id": "cerimonia_religiosa",
+  "name": "Cerimônia Religiosa",
+  "type": "servico",
+  "categoria": "servico",
+  "preco": 20,
+  "efeito": {
+    "requer": "ser devoto da divindade do templo",
+    "efeito": "+1 em Religião e Vontade, e +2 PM até o fim da aventura"
+  },
+  "description": "Frades e clérigos podem celebrar ritos em campo, mas para um fiel, nada se compara a ouvir as palavras sagradas na casa de seu deus. Assistir a uma cerimônia em um templo da divindade da qual você é devoto fornece +1 em Religião e Vontade e +2 PM até o fim da aventura.",
+  "livro": "deuses_de_arton"
+}

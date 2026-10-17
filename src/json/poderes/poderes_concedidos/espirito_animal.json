@@ -1,0 +1,9 @@
+{
+  "id": "espirito_animal",
+  "name": "Espírito Animal",
+  "deities": ["allihanna"],
+  "description": "Você pode gastar uma ação de movimento e 2 PM para conjurar um espírito animal que o envolve e luta com você. Até o fim da cena, você não pode ser flanqueado e recebe 10 PV temporários e uma arma natural (dano 1d6, crítico x2, tipo a sua escolha entre corte, impacto ou perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com essa arma. Quando usa este poder, você pode gastar PM adicionais (custo total limitado por sua Sabedoria); para cada PM adicional, os PV temporários aumentam em +5.",
+  "effects": { "type": "ativado", "acao": "movimento", "custo_pm": 2, "duracao": "até o fim da cena", "efeito": "não pode ser flanqueado; +10 PV temporários; arma natural 1d6 x2 (tipo à escolha); 1 PM por rodada para ataque extra com a arma natural", "escalavel": "+5 PV temporários por PM adicional (limitado pela Sabedoria)" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

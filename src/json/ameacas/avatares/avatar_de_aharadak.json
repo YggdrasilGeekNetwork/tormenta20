@@ -1,0 +1,40 @@
+{
+  "id": "avatar_de_aharadak",
+  "name": "Avatar de Aharadak",
+  "nd": 20,
+  "tipo": "Monstro",
+  "subtipo": "lekael",
+  "tamanho": "colossal",
+  "grupo": "avatares",
+  "pv": 2477,
+  "pm": null,
+  "defesa": 73,
+  "salvaguardas": { "fort": 37, "ref": 27, "von": 31 },
+  "reducao_de_dano": 20,
+  "imunidades": ["efeitos mentais", "medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 22,
+  "percepcao": 31,
+  "visao": ["percepção às cegas (longo)"],
+  "deslocamento": { "terrestre": 3, "voo": 12 },
+  "atributos": { "for": 18, "des": 6, "con": 12, "int": 16, "sab": 10, "car": 5 },
+  "pericias": { "atletismo": 34, "conhecimento": 34, "diplomacia": 36, "enganacao": 36, "intimidacao": 36, "intuicao": 36, "misticismo": 34, "religiao": 28 },
+  "ataques": [
+    { "nome": "Garra", "quantidade": 7, "bonus": 67, "dano": [{ "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 31, "tipo": "perfuração" }], "critico": "19" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Carapaça Suprema", "descricao": "O Avatar sofre apenas metade do dano de fontes mundanas, exceto aço-rubi." },
+    { "nome": "Domínio sobre o Tempo", "descricao": "O Avatar pode fazer duas ações padrão e duas ações de movimento a cada turno." },
+    { "nome": "Insanidade da Tormenta", "salvaguarda": "Vontade", "cd": 51, "efeito_sucesso": "evita", "descricao": "2d20 PM (Von CD 51 evita). Esta habilidade pode afetar mesmo criaturas que já foram afetadas pela Insanidade da Tormenta de outras criaturas nesse dia." },
+    { "nome": "Invocar Lefeu", "acao": "completa", "descricao": "Uma vez por cena, o Avatar invoca um ou mais lefeu a sua escolha, cujo ND total somado seja igual a 20. Eles surgem em alcance curto e agem a partir da próxima rodada, em suas iniciativas." },
+    { "nome": "Poder sobre a Realidade", "descricao": "O Avatar pode lançar qualquer magia simulada de até 4º círculo como um conjurador de 20º nível sem gastar PM (CD 51, limite de PM 20) e pode lançar Momento de Tormenta uma vez por rodada como uma ação livre." },
+    { "nome": "Percepção Perfeita", "descricao": "O Avatar está sempre sob efeito de Visão da Verdade, com todos os aprimoramentos." },
+    { "nome": "Presentes Rubros", "acao": "completa", "descricao": "O Avatar fornece suas bênçãos a uma criatura voluntária em alcance curto. O alvo recebe dois poderes da Tormenta a sua escolha (alternativamente, com o suplemento Ameaças de Arton, pode receber um simbionte). Uma criatura só pode ser alvo desta habilidade uma vez. Uma criatura que tenha recebido uma bênção dessa forma irá inevitavelmente ao mundo de Aharadak após sua morte e não pode ser revivida de nenhuma forma." },
+    { "nome": "Telepatia", "descricao": "O Avatar pode se comunicar com qualquer criatura inteligente (Int –3 ou mais) dentro de uma área de Tormenta ou a até 1km dela." },
+    { "nome": "Terror Absoluto", "salvaguarda": "Vontade", "cd": 51, "efeito_sucesso": "evita", "descricao": "O Avatar emana uma aura de medo de 30m de raio. Criaturas à escolha dele que entrem ou comecem seus turnos na aura ficam abaladas (CD 51 evita); se já estiverem abaladas, ficam apavoradas. Uma criatura apavorada dessa forma sofre os efeitos de falhar no teste de resistência contra a Insanidade da Tormenta do Avatar. Criaturas imunes a medo ainda são afetadas pela aura mas recebem +5 nos testes de resistência contra ela. Medo." }
+  ],
+  "tesouro": "2d6 peças rubras (CD 35 para extrair, cada peça vale T$ 1.500 para fabricar itens de matéria vermelha)",
+  "description": "Manifestação física de Aharadak, o Deus da Tormenta. Comanda os lefeu e corrompe a realidade ao seu redor.",
+  "livro": "deuses_de_arton"
+}

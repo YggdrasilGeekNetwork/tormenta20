@@ -1,0 +1,10 @@
+{
+  "id": "montaria_especial",
+  "name": "Montaria Especial",
+  "description": "Você pode gastar uma ação de movimento e 2 PM para invocar sua montaria especial: aparece com um brilho de luz dourada ao seu lado e fica até o fim da cena, quando retorna magicamente. É um parceiro montaria veterano de um tipo a sua escolha (aprovado pelo mestre) ou um birrotor henshin (veículo Grande, deslocamento 15m, Defesa 10 + Destreza do condutor, PV iguais à metade dos seus, carrega até 2 criaturas Médias ou 40 espaços, permite investidas como se montado). Caso já possua uma montaria de outra habilidade, em vez disso você pode invocá-la com este poder e ela se torna também uma montaria iniciante de outro tipo a sua escolha.",
+  "effects": [
+    { "type": "ativado", "acao": "movimento", "custo_pm": 2, "duracao": "até o fim da cena", "efeito": "invoca um parceiro montaria veterano de tipo escolhido (aprovado pelo mestre) ou um birrotor henshin", "birrotor_henshin": { "tamanho": "Grande", "deslocamento": "15m", "defesa": "10 + Des do condutor", "pv": "metade dos seus PV", "capacidade": "2 criaturas Médias ou 40 espaços", "tag": "veículo" } }
+  ],
+  "requirements": ["treinado em Cavalgar ou Pilotagem", "Sequência de Transformação"],
+  "livro": "deuses_de_arton"
+}

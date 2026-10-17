@@ -1,0 +1,38 @@
+{
+  "id": "eiradaan_guardiao",
+  "name": "Eiradaan Guardião",
+  "nd": 7,
+  "tipo": "Espírito",
+  "subtipo": "eiradaan",
+  "tamanho": "médio",
+  "grupo": "fadas",
+  "pv": 215,
+  "pm": 35,
+  "defesa": 28,
+  "salvaguardas": { "fort": 7, "ref": 14, "von": 20 },
+  "resistencia_a_magia": 2,
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 10,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 2, "des": 4, "con": 2, "int": 1, "sab": 3, "car": 5 },
+  "pericias": { "atletismo": 9, "conhecimento": 8, "diplomacia": 12, "intuicao": 10, "misticismo": 10, "sobrevivencia": 10 },
+  "ataques": [
+    { "nome": "Espada Longa de Mitral", "quantidade": 2, "bonus": 22, "dano": [{ "dados": [{ "quantidade": 3, "faces": 8 }], "bonus": 20, "tipo": "corte" }], "critico": "18" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Canção da Melancolia", "descricao": "Quando faz um teste de Vontade contra efeitos mentais, o eiradaan guardião rola dois dados e usa o pior resultado." },
+    { "nome": "Essência Feérica", "descricao": "O eiradaan pode falar com animais livremente." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, muda a execução dela para livre." },
+    { "nome": "Sentidos Místicos", "descricao": "O eiradaan está sempre sob o efeito básico de Visão Mística." },
+    { "nome": "Magias (feiticeiro 7º, CD 26; custo de aprimoramentos reduzido em -1 PM, já contabilizado)", "descricao": "Amarras Etéreas (padrão, 5 PM): laços de energia agarram criatura em alcance médio (Ref evita); cada laço tem Defesa 10, 10 PV, RD 5, imune a dano mágico. Dissipar Magia (padrão, 3 PM): dissipa magias com CD igual ou menor ao teste de Misticismo. Enfeitiçar (padrão, 5 PM): humanoides em alcance curto ficam enfeitiçados até ação hostil (Von evita). Relâmpago (padrão, 6 PM): 8d8 de dano de eletricidade em criaturas escolhidas em alcance médio (Ref reduz à metade). Velocidade (padrão, 3 PM, sustentada): ação padrão adicional por turno, não usável para lançar magias." }
+  ],
+  "equipamento": ["espada_longa_de_mitral"],
+  "tesouro": "Padrão.",
+  "description": "Elfo arcano de beleza e magia superiores, ancestral lendário dos elfos atuais, expulso de seu reino divino após falhar em proteger Lena. Entrega-se a momentos de melancolia, tornando-se perigoso quando sua antiga mágoa é despertada.",
+  "livro": "deuses_de_arton"
+}

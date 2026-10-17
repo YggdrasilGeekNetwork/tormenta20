@@ -1,0 +1,30 @@
+{
+  "id": "protecao_de_tauron",
+  "name": "Proteção de Tauron",
+  "type": "divina",
+  "circle": "1",
+  "school": "abjur",
+  "execution": "movimento",
+  "execution_details": null,
+  "range": "curto",
+  "target": { "amount": 1, "up_to": false, "type": "criatura que não você" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Esta antiga magia ofertada pelo Deus da Força ainda pode ser lançada mesmo após sua morte, preservada por divindades simpatizantes em honra a seu aspecto como protetor dos fracos. Quando a magia é lançada, luz sagrada envolve o alvo, que se torna um 'protegido'; ele recebe +2 na Defesa e, quando se move em sua direção, o deslocamento dele é dobrado. Além disso, você sabe a direção e distância do alvo, e também se ele está ferido ou afetado por qualquer condição, independentemente da distância. Você não pode lançar esta magia enquanto for o 'protegido' de outra criatura.",
+  "enhancements": [
+    { "cost": 2, "type": "aumenta", "description": "além do normal, você pode usar habilidades mágicas com alcance de toque no alvo como se elas tivessem alcance curto.", "extra_details": null },
+    { "cost": 2, "type": "aumenta", "description": "aumenta o bônus na Defesa em +2 (bônus máximo limitado ao dobro do círculo máximo de magia que você pode lançar). Requer 2º círculo.", "extra_details": { "requirements": "2º círculo" } },
+    { "cost": 2, "type": "aumenta", "description": "(Apenas Minotauros): além do normal, uma vez por rodada, quando uma criatura faz uma ação hostil contra o protegido, você pode gastar 1 PM para fazer um ataque corpo a corpo contra ela, desde que ela esteja em seu alcance pessoal.", "extra_details": { "requirements": "minotauro" } }
+  ],
+  "effects": [
+    { "type": "bônus", "attribute": "defesa", "amount": "+2", "resistence_requirement": null, "extra_requirements": "deslocamento do protegido dobrado quando se move em direção ao conjurador; conjurador sabe direção/distância/estado do protegido" }
+  ],
+  "livro": "deuses_de_arton"
+}

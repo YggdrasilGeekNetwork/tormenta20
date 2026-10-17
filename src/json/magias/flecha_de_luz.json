@@ -1,0 +1,34 @@
+{
+  "id": "flecha_de_luz",
+  "name": "Flecha de Luz",
+  "type": "universal",
+  "circle": "1",
+  "school": "evoc",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "medio_30m_20q",
+  "target": { "amount": 1, "up_to": false, "type": "criatura" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "instantânea",
+  "duration_details": null,
+  "resistence": { "effect": "parcial", "skill": "reflexos" },
+  "extra_costs": null,
+  "description": "Esta magia lança uma flecha luminosa contra o alvo, que sofre 2d8+2 pontos de dano de luz e fica ofuscado por 1 rodada. Passar no teste de resistência reduz o dano à metade e evita a condição.",
+  "enhancements": [
+    { "cost": 1, "type": "muda", "description": "muda o alvo para uma criatura que tenha causado dano a você ou a seus aliados na última rodada e os dados de dano da magia para d10.", "extra_details": null },
+    { "cost": 2, "type": "aumenta", "description": "aumenta o dano em +1d8+1.", "extra_details": null },
+    { "cost": 2, "type": "aumenta", "description": "aumenta o número de alvos em +1 (número de alvos adicionais limitado pelo círculo máximo de magia que você pode lançar).", "extra_details": null },
+    { "cost": 2, "type": "muda", "description": "(Apenas Arcanos): alvos que falhem na resistência ficam cegos por 1 rodada e então ofuscados. Requer 2º círculo.", "extra_details": { "requirements": "arcano; 2º círculo" } },
+    { "cost": 3, "type": "muda", "description": "(Apenas Arqueiros de Lenórienn): muda o alcance para pessoal, o alvo para seu arco arcano, a duração para sustentada e a resistência para nenhuma. Em vez do normal, o alvo emite luz como uma tocha e causa +2d8+2 pontos de dano de luz. Criaturas que sofram dano do arco ficam ofuscadas.", "extra_details": { "requirements": "Arqueiro de Lenórienn" } },
+    { "cost": 1, "type": "muda", "description": "(Apenas Elfos): muda o alvo para 1 duyshidakk ou 1 devoto de Aharadak, Tauron ou Thwor. Muda os dados de dano para d10.", "extra_details": { "requirements": "elfo" } },
+    { "cost": 2, "type": "aumenta", "description": "(Apenas Divinos): além do normal, para cada alvo que falhar na resistência, o próximo aliado que causar dano a ele recebe uma quantidade de PV temporários igual à metade do dano causado pela magia. Requer 2º círculo.", "extra_details": { "requirements": "conjurador divino; 2º círculo" } }
+  ],
+  "effects": [
+    { "type": "dano", "attribute": "luz", "amount": "2d8+2", "resistence_requirement": "parcial", "extra_requirements": "alvo fica ofuscado por 1 rodada se falhar" }
+  ],
+  "livro": "deuses_de_arton"
+}

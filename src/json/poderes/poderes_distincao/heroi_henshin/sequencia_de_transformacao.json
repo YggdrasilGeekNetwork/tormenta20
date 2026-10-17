@@ -1,0 +1,11 @@
+{
+  "id": "sequencia_de_transformacao",
+  "name": "Sequência de Transformação",
+  "description": "Escolha uma arma, escudo ou esotérico. Esse item e seu traje de combate recebem, cada um, uma melhoria a sua escolha (exceto material especial) que não conta em seu limite de melhorias. Você pode gastar uma ação de movimento para executar uma sequência de transformação: sua armadura surge vestida em você e o item escolhido aparece em sua mão, independentemente de onde estejam.",
+  "effects": [
+    { "type": "passivo", "efeito": "traje de combate e um item escolhido (arma, escudo ou esotérico) recebem cada um uma melhoria extra que não conta no limite" },
+    { "type": "ativado", "acao": "movimento", "efeito": "invoca o traje de combate vestido e o item escolhido na mão, não importa onde estejam" }
+  ],
+  "requirements": ["Vontade de Ferro"],
+  "livro": "deuses_de_arton"
+}

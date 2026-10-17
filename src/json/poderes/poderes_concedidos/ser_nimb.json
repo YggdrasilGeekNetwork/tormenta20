@@ -1,0 +1,22 @@
+{
+  "id": "ser_nimb",
+  "name": "Nimb",
+  "deities": ["nimb"],
+  "description": "Você é Nimb. Ou um filho ou filha dele. Ou uma casca de banana na qual ele escorregou certa vez. Você pode gastar uma ação padrão e 2 PM para gerar uma habilidade única. Para isso, role 1d6 em cada coluna abaixo.",
+  "effects": {
+    "type": "ativado",
+    "acao": "padrão",
+    "custo_pm": 2,
+    "rolagem": "1d6 em cada coluna (Área/Alvo x Efeito)",
+    "tabela": [
+      { "resultado": 1, "area_alvo": "criaturas em um cone de 6m", "efeito": "ficam verdes por 1 dia e recebem -2 em testes baseados em Carisma" },
+      { "resultado": 2, "area_alvo": "até 1d3 criaturas em alcance médio", "efeito": "curam 3d6 PV" },
+      { "resultado": 3, "area_alvo": "criaturas em um raio de 9m", "efeito": "no próximo teste, rolam 2 dados e escolhem o resultado" },
+      { "resultado": 4, "area_alvo": "criaturas em uma esfera de 6m de raio em alcance curto", "efeito": "perdem 3d6+3 PV" },
+      { "resultado": 5, "area_alvo": "criaturas em 1d3 linhas de 15m", "efeito": "recebem 1d4 PM temporários por 1 rodada" },
+      { "resultado": 6, "area_alvo": "criaturas escolhidas em alcance curto", "efeito": "podem usar Poder Oculto até o fim da cena" }
+    ]
+  },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

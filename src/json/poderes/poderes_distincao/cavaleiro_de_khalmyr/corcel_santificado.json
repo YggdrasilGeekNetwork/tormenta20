@@ -1,0 +1,10 @@
+{
+  "id": "corcel_santificado",
+  "name": "Corcel Santificado",
+  "description": "Você recebe um cavalo de guerra parceiro veterano. Caso já possua uma montaria fornecida por outra habilidade, em vez disso essa montaria se torna também um parceiro guardião iniciante. Caso perca sua montaria, você pode receber outra visitando o Mosteiro de Khalmyr.",
+  "effects": [
+    { "type": "concede_parceiro", "tipo": "cavalo_de_guerra", "nivel": "veterano", "se_ja_possui_montaria": "torna-se também parceiro guardião iniciante", "reposicao": "visitar o Mosteiro de Khalmyr" }
+  ],
+  "requirements": ["treinado em Cavalgar", "Vitória da Ordem"],
+  "livro": "deuses_de_arton"
+}

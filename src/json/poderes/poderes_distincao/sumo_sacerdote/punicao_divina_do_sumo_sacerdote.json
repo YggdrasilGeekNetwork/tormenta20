@@ -1,0 +1,10 @@
+{
+  "id": "punicao_divina_do_sumo_sacerdote",
+  "name": "Punição Divina",
+  "description": "Você pode gastar uma ação padrão para cancelar as magias divinas e os poderes concedidos de um devoto de sua divindade em sua linha de visão (Vontade CD Sab, +1 por poder da distinção, evita; o devoto não pode ser punido de novo por 1 dia). A punição pode ser revertida com uma ação padrão sua ou com uma missão sagrada realizada como parte de um rito.",
+  "effects": [
+    { "type": "ativado", "acao": "padrão", "alcance": "linha de visão", "alvo": "devoto de sua divindade", "teste_resistencia": "Vontade CD Sab +1 por poder da distinção", "efeito": "cancela as magias divinas e poderes concedidos ativos do alvo; imune por 1 dia", "reversao": "ação padrão do sumo-sacerdote ou uma missão sagrada em rito" }
+  ],
+  "requirements": ["Bênção do Patrono"],
+  "livro": "deuses_de_arton"
+}

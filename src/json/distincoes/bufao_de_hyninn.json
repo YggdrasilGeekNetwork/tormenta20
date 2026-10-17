@@ -1,0 +1,10 @@
+{
+  "id": "bufao_de_hyninn",
+  "name": "Bufão de Hyninn",
+  "description": "Devoto de Hyninn que usa o humor mais cruel e a zombaria como arma sagrada, não levando nada — nem a vida, nem a morte — a sério.",
+  "admissao": "O candidato deve ser devoto de Hyninn e ter atuado como bobo da corte de um senhor específico por ao menos um mês (não basta se apresentar em tavernas ou feiras). Depois, sem apoio de qualquer grupo organizado, deve pregar três peças em vítimas diferentes — inteligentes e não monstruosas —, cada uma mais elaborada e perigosa que a anterior: a primeira causando um ferimento sério ou prejuízo econômico significativo, a segunda uma perda irremediável (separação, expulsão, transformação permanente), a terceira custando a vida da vítima. Em todas as três, alguém que não seja o candidato ou a vítima deve rir.",
+  "marca_nome": "Chapéu do Bobo",
+  "marca_descricao": "Você recebe um gorro com guizos — item de vestuário que não ocupa espaços nem conta no limite de itens vestidos, permite usar Músicas de Bardo sem empunhar instrumento e fornece +2 em Atuação e Enganação, mas impõe –2 em Diplomacia e Intimidação. Só funciona com você.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

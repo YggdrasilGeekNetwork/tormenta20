@@ -1,0 +1,10 @@
+{
+  "id": "apoteose_do_terceiro",
+  "name": "Apoteose do Terceiro",
+  "description": "Se estiver com seu companheiro dragão e sob efeito de Ira Dracônica, você pode gastar uma ação completa e 10 PM para se fundir a ele com duração sustentada. Você continua recebendo os benefícios de seu dragão, mas seu tipo muda para monstro e seu tamanho muda para Grande, e você recebe imunidade contra o tipo de dano do seu parceiro, deslocamento de voo 18m e +2 em Força, Constituição, Inteligência e Carisma (esse aumento não oferece PV, PM ou perícias adicionais). Além disso, recebe uma arma natural de mordida (1d8, crítico x2, perfuração); uma vez por rodada, quando usa a ação agredir para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo de mordida (se já possuir uma mordida, em vez disso seu dano aumenta em dois passos).",
+  "effects": [
+    { "type": "ativado", "acao": "completa", "custo_pm": 10, "condicao": "com o companheiro dragão presente e sob Ira Dracônica", "duracao": "sustentada", "efeito": "funde-se ao dragão: tipo vira monstro, tamanho Grande, imunidade ao tipo de dano do parceiro, voo 18m, +2 em For/Con/Int/Car (sem PV/PM/perícias extras), ganha mordida 1d8 x2 perfuração (ou +2 passos de dano se já tiver mordida) utilizável por 1 PM ao usar agredir com outra arma" }
+  ],
+  "requirements": ["Dádivas do Dragão", "Sopro Compartilhado"],
+  "livro": "deuses_de_arton"
+}

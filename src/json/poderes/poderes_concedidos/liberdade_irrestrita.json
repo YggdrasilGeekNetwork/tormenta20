@@ -1,0 +1,12 @@
+{
+  "id": "liberdade_irrestrita",
+  "name": "Liberdade Irrestrita",
+  "deities": ["gwendolynn"],
+  "description": "Você recebe +2 em testes de manobra para evitar ser agarrado e de resistência contra efeitos mentais, de medo, de metamorfose e de movimento. Além disso, se falhar num desses testes, pode rolá-lo novamente. Se ainda assim falhar, no início de cada um de seus turnos pode rolar esse teste novamente, como uma ação livre e com um bônus cumulativo de +2, até se libertar.",
+  "effects": [
+    { "type": "bônus", "attribute": "manobra_evitar_agarrar,resistencia_mental_medo_metamorfose_movimento", "amount": "+2" },
+    { "type": "passivo", "gatilho": "falhar em um desses testes", "efeito": "pode rolar novamente; se falhar de novo, pode continuar rolando no início de cada turno (ação livre) com +2 cumulativo até se libertar" }
+  ],
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

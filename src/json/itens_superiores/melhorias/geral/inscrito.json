@@ -1,0 +1,12 @@
+{
+  "id": "inscrito",
+  "name": "Inscrito",
+  "type": "melhoria",
+  "categoria": ["arma", "armadura", "escudo", "ferramenta", "vestuario"],
+  "prerequisitos": null,
+  "description": "O item possui inscrições religiosas de uma divindade específica e conta como um símbolo sagrado desse deus (inclusive fornecendo o bônus de +1 em testes de resistência).",
+  "effects": [
+    { "type": "simbolo_sagrado", "efeito": "conta como símbolo sagrado visível da divindade escolhida, incluindo o bônus de +1 em testes de resistência" }
+  ],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "vestido_noturno",
+  "name": "Vestido Noturno",
+  "deities": ["tenebra"],
+  "subtipo": "acessorio",
+  "classificacao": "Acessório médio",
+  "preco": 21000,
+  "description": "Este vestido negro possui pequenos diamantes costurados em seu tecido, que cintilam como as estrelas do céu noturno. Conta como uma veste de seda aprimorada cravejada de gemas, fornecendo +2 em Enganação e Reflexos. Se você for um devoto de Tenebra e vestir este item, pode gastar uma ação padrão e 5 PM para ficar invisível até o fim da cena (recebe camuflagem total e +10 em testes de Furtividade contra ouvir, e criaturas que não possam vê-lo ficam desprevenidas contra seus ataques). Esse efeito termina se você fizer uma ação hostil direta contra uma criatura.",
+  "effects": [
+    { "type": "passivo", "efeito": "conta como veste de seda aprimorada cravejada de gemas; +2 em Enganação e Reflexos" },
+    { "type": "devoto", "deity": "tenebra", "acao": "padrão", "custo_pm": 5, "efeito": "fica invisível até o fim da cena (camuflagem total, +10 em Furtividade contra ouvir, inimigos que não o vejam ficam desprevenidos contra seus ataques); termina se fizer ação hostil direta" }
+  ],
+  "livro": "deuses_de_arton"
+}

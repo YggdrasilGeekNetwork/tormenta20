@@ -1,0 +1,14 @@
+{
+  "id": "ossos_draconicos",
+  "name": "Ossos Dracônicos",
+  "deities": ["kallyadranoch"],
+  "subtipo": "acessorio",
+  "classificacao": "Acessório maior",
+  "preco": 90000,
+  "description": "Este item possui a forma de um acessório — como um colar, máscara, colete ou par de brincos — feito de ossos especialmente densos e duros. Qualquer um que toque nos ossos dracônicos sente que eles emanam uma tênue energia — calor, frio, estática ou outra, conforme a natureza do dragão a partir do qual foram feitos. Se forem vestidos, os ossos dracônicos fornecem +4 em Intimidação e –2 em Diplomacia. Se forem vestidos por um devoto de Kallyadranoch, emprestam o poder armazenado neles, fornecendo também +2 em Força, +2 em Carisma e +2 na CD de todas as habilidades do devoto.",
+  "effects": [
+    { "type": "passivo", "efeito": "+4 em Intimidação, -2 em Diplomacia" },
+    { "type": "devoto", "deity": "kallyadranoch", "efeito": "+2 em Força, +2 em Carisma e +2 na CD de todas as habilidades" }
+  ],
+  "livro": "deuses_de_arton"
+}

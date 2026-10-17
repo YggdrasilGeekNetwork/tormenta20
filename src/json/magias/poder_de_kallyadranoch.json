@@ -1,0 +1,29 @@
+{
+  "id": "poder_de_kallyadranoch",
+  "name": "Poder de Kallyadranoch",
+  "type": "divina",
+  "circle": "1",
+  "school": "evoc",
+  "execution": "movimento",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": { "amount": 1, "up_to": false, "type": "você" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "1_turno",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Por um breve momento, você manifesta uma pequena parte da força e majestade das grandes feras dracônicas: a capacidade de criar elementos em sua forma mais pura. Até o fim do seu turno, a CD para resistir às suas habilidades mágicas que causam dano de ácido, eletricidade, fogo ou frio aumenta em +2.",
+  "enhancements": [
+    { "cost": 2, "type": "aumenta", "description": "aumenta a CD em +1 (bônus máximo limitado pelo círculo máximo de magias que você pode lançar). Requer 3° círculo.", "extra_details": { "requirements": "3º círculo" } },
+    { "cost": 1, "type": "aumenta", "description": "(Apenas Devotos de Kallyadranoch): além do normal, criaturas que falhem nos testes de resistência contra suas habilidades mágicas sofrem uma condição baseada no tipo de dano. Ácido: vulnerável até o fim da cena. Eletricidade: atordoado por 1 rodada (apenas uma vez por cena). Fogo: em chamas e vulnerável enquanto estiver em chamas. Frio: lento até o fim da cena. Requer 2° círculo.", "extra_details": { "requirements": "devoto de Kallyadranoch; 2º círculo" } }
+  ],
+  "effects": [
+    { "type": "bônus", "attribute": "cd_habilidades_acido_eletricidade_fogo_frio", "amount": "+2", "resistence_requirement": null, "extra_requirements": "dura até o fim do turno" }
+  ],
+  "livro": "deuses_de_arton"
+}

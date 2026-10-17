@@ -1,0 +1,40 @@
+{
+  "id": "avatar_de_allihanna",
+  "name": "Avatar de Allihanna",
+  "nd": 20,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "avatares",
+  "pv": 1200,
+  "pm": null,
+  "defesa": 61,
+  "salvaguardas": { "fort": 20, "ref": 34, "von": 28 },
+  "reducao_de_dano": 20,
+  "imunidades": [],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": [],
+  "iniciativa": 26,
+  "percepcao": 32,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 15, "escalada": 15, "escavacao": 15, "natacao": 15, "voo": 15 },
+  "atributos": { "for": 8, "des": 8, "con": 10, "int": 7, "sab": 14, "car": 10 },
+  "pericias": { "adestramento": 41, "atletismo": 26, "furtividade": 26, "intimidacao": 28, "intuicao": 32, "misticismo": 25, "religiao": 32, "sobrevivencia": 35 },
+  "ataques": [
+    { "nome": "Arsenal Natural", "quantidade": 4, "bonus": 54, "dano": [{ "dados": [], "tipo": "especial" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Não Pode Ser Flanqueado", "descricao": "O Avatar não pode ser flanqueado." },
+    { "nome": "Maior que a Morte", "descricao": "O Avatar é imune a efeitos que matam instantaneamente ou reduzem atributos a 0, e não pode ser mantido morto permanentemente." },
+    { "nome": "Sem Redução por Terreno Difícil Natural", "descricao": "O Avatar não sofre redução de deslocamento por terreno difícil de origem natural." },
+    { "nome": "Arsenal Natural", "descricao": "Quando faz cada um de seus ataques de Arsenal Natural, o Avatar de Allihanna escolhe uma das armas naturais a seguir (pode escolher a mesma arma múltiplas vezes). Cauda: dano 8d12+29, alcance 6m. Chifres: dano 10d10+24, ignora 10 pontos de redução de dano do alvo. Garra: dano 6d12+31, crítico 19, caso acerte dois ataques de garra em uma mesma criatura no mesmo turno, causa mais 4d12 pontos de dano. Mordida: dano 8d12+28, crítico x3, caso acerte, pode fazer a manobra derrubar como uma ação livre (teste +59). Tentáculo: dano 6d10+39, caso acerte, pode fazer a manobra agarrar como uma ação livre (teste +59)." },
+    { "nome": "Centelha Divina", "descricao": "O Avatar pode lançar qualquer magia divina como um clérigo de 20º nível sem gastar PM (CD 49, limite de PM 20). Se estiver em terreno natural, o custo das magias do Avatar é reduzido em –4 PM e a CD para resistir a elas aumenta em +4." },
+    { "nome": "Deusa dos Animais", "acao": "padrão", "salvaguarda": "Vontade", "cd": 49, "efeito_sucesso": "evita", "descricao": "Cada animal em alcance médio deve fazer um teste de Vontade (CD 49). Se falhar, fica sob controle do Avatar até o fim da cena. Se o animal for um parceiro, em vez disso o personagem que ele segue faz um teste de Adestramento (CD 40) para evitar o controle. Animais sob controle do Avatar funcionam como parceiros, não contam em seu limite de parceiros e seus benefícios são cumulativos." },
+    { "nome": "Forma Natural", "acao": "completa", "descricao": "O Avatar assume a forma de um animal ou planta a sua escolha de tamanho entre Pequeno e Enorme. Ele recebe +10 em testes de Enganação para se passar por essa criatura, mas seu Arsenal Natural fica limitado às armas compatíveis com a forma escolhida. Suas demais estatísticas não mudam." },
+    { "nome": "Voz da Natureza", "descricao": "O Avatar pode falar com animais (como o efeito da magia Voz Divina)." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Manifestação física de Allihanna, a Deusa da Natureza. Costuma assumir a forma de uma fera quimérica de muitas cabeças ou de qualquer animal natural, sempre maior e mais majestoso.",
+  "livro": "deuses_de_arton"
+}

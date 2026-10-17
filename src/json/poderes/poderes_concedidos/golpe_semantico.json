@@ -1,0 +1,9 @@
+{
+  "id": "golpe_semantico",
+  "name": "Golpe Semântico",
+  "deities": ["tanna_toh"],
+  "description": "Você pode substituir testes de Diplomacia e Intimidação por Conhecimento.",
+  "effects": { "type": "passivo", "efeito": "pode usar Conhecimento no lugar de Diplomacia e Intimidação" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

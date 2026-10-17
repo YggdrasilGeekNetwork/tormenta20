@@ -1,0 +1,10 @@
+{
+  "id": "sorte_e_o_que_se_faz",
+  "name": "Sorte é o Que Se Faz",
+  "description": "Uma vez por rodada, quando uma criatura em alcance curto faz um teste de perícia, você pode gastar 3 PM para influenciar a sorte, ou o azar, dela. Se fizer isso, role 1d20. Você pode trocar os resultados das duas rolagens (a criatura usa o resultado do seu d20 e você fica com o resultado do d20 dela). Até o fim da cena, você pode usar o resultado trocado como a rolagem de um de seus testes de perícia. Você só pode usar este poder uma vez por teste de perícia na mesma cena para cada criatura.",
+  "effects": [
+    { "type": "ativado", "frequencia": "1x_por_rodada", "custo_pm": 3, "gatilho": "criatura em alcance curto faz teste de perícia", "efeito": "role 1d20 e troque com o resultado da criatura; pode usar o resultado dela como um de seus próprios testes de perícia até o fim da cena", "limite": "1x por teste de perícia na cena, por criatura" }
+  ],
+  "requirements": ["Bênção de Nimb"],
+  "livro": "deuses_de_arton"
+}

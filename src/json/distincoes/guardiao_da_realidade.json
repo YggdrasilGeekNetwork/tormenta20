@@ -1,0 +1,10 @@
+{
+  "id": "guardiao_da_realidade",
+  "name": "Guardião da Realidade",
+  "description": "Protetor raro de toda a Criação artoniana contra a Tormenta e seus lefeu, geralmente um paladino que coloca a defesa de Arton acima de qualquer causa ou reino específico.",
+  "admissao": "O candidato deve estar completamente livre da mácula da Tormenta. Precisa conquistar uma vitória significativa contra um ou mais lefeu que representem um grande desafio, colocando-se como protetor de seus aliados na linha de frente, e destruir com suas próprias armas ou mãos o lefeu mais poderoso enfrentado pelo grupo. Originalmente exigia também a bênção de todas as vinte divindades do Panteão; com a ascensão de Aharadak como Deus da Tormenta, isso tornou-se impossível, sendo substituído por outras provas de dedicação, como remover a corrupção da Tormenta de um inocente ou eliminar uma célula de culto a Aharadak (alguns acreditam que isso chama a atenção do próprio Aharadak, que concede o apoio necessário).",
+  "marca_nome": "Escudo da Realidade",
+  "marca_descricao": "Você recebe +5 em testes de resistência. Contra efeitos da Tormenta, esse bônus aumenta em +1 por poder da distinção.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

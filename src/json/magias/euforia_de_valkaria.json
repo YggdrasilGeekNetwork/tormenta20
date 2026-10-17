@@ -1,0 +1,31 @@
+{
+  "id": "euforia_de_valkaria",
+  "name": "Euforia de Valkaria",
+  "type": "divina",
+  "circle": "1",
+  "school": "encan",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": { "amount": 1, "up_to": false, "type": "você" },
+  "effect": null,
+  "effect_details": null,
+  "area_effect": null,
+  "area_effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Esta magia enche o alvo de disposição, apagando o medo (e bom senso) em seu coração e impedindo-o de ser intimidado por desafios árduos. O alvo se torna imune a medo e recebe +1 em testes de ataque quando luta em desvantagem (um encontro contra o dobro de inimigos que seu grupo, ou com ND maior que o do grupo).",
+  "enhancements": [
+    { "cost": 2, "type": "aumenta", "description": "aumenta o bônus em testes de ataque em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar).", "extra_details": null },
+    { "cost": 2, "type": "muda", "description": "muda a execução para reação e a duração para 1 rodada. Em vez do normal, o alvo recebe imunidade a medo e +5 em Vontade. Requer 2° círculo.", "extra_details": { "requirements": "2º círculo" } },
+    { "cost": 2, "type": "muda", "description": "muda o alvo para área de esfera com 3m de raio. Você e todos os aliados na área são afetados pela magia. Requer 2º círculo.", "extra_details": { "requirements": "2º círculo" } },
+    { "cost": 1, "type": "muda", "description": "(Apenas Devotos de Valkaria): muda o alcance para toque e o alvo para 1 criatura.", "extra_details": { "requirements": "devoto de Valkaria" } }
+  ],
+  "effects": [
+    { "type": "bônus", "attribute": "ataque", "amount": "+1", "resistence_requirement": null, "extra_requirements": "apenas quando luta em desvantagem; imune a medo" }
+  ],
+  "livro": "deuses_de_arton"
+}

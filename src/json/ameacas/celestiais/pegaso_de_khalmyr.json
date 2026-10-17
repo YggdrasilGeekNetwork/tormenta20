@@ -1,0 +1,38 @@
+{
+  "id": "pegaso_de_khalmyr",
+  "name": "Pégaso de Khalmyr",
+  "nd": 15,
+  "tipo": "Espírito",
+  "subtipo": "celestial",
+  "tamanho": "grande",
+  "grupo": "celestiais",
+  "pv": 750,
+  "pm": 50,
+  "defesa": 50,
+  "salvaguardas": { "fort": 22, "ref": 15, "von": 28 },
+  "reducao_de_dano": null,
+  "resistencias": { "magia_arcana": 15 },
+  "imunidades": ["encantamento", "medo"],
+  "vulnerabilidades": [],
+  "iniciativa": 16,
+  "percepcao": 19,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 18, "voo": 36 },
+  "atributos": { "for": 8, "des": 3, "con": 5, "int": 1, "sab": 3, "car": 5 },
+  "pericias": { "atletismo": 21, "diplomacia": 18, "guerra": 14, "intuicao": 21, "nobreza": 14, "religiao": 16 },
+  "ataques": [
+    { "nome": "Cascos", "quantidade": 2, "bonus": 39, "dano": [{ "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 35, "tipo": "impacto" }], "critico": null, "extra_requirements": "sagrados; +2d8 contra devotos de energia negativa ou criaturas malignas" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Asas Guardiãs", "descricao": "As asas do Pégaso de Khalmyr funcionam como uma aura com 9m de raio. Aliados nessa área recebem redução de dano 5." },
+    { "nome": "Aura de Ordem", "salvaguarda": "Vontade", "cd": 40, "efeito_sucesso": "reduz penalidade para -10, permite mentir e não dissipa", "descricao": "O Pégaso emana uma aura de ordem com 30m de raio. Criaturas que comecem seu turno dentro sofrem -20 em Acrobacia, Enganação, Furtividade e Ladinagem e não podem mentir deliberadamente; seus efeitos de encantamento, ilusão e transmutação são dissipados (Von CD 40 reduz a penalidade para -10, permite mentir e não dissipa os efeitos)." },
+    { "nome": "Cascos Sagrados", "descricao": "Os cascos do Pégaso são armas mágicas que causam +2d8 de dano contra devotos de deuses que canalizam apenas energia negativa e criaturas malignas." },
+    { "nome": "Meteoro", "acao": "completa", "descricao": "O Pégaso faz uma investida alada contra uma criatura e ataca com seus dois ataques de cascos contra o mesmo alvo, cada um recebendo o bônus de +2 da investida e causando +4d10 de dano." },
+    { "nome": "Ver Além das Mentiras", "descricao": "O Pégaso está permanentemente sob o efeito básico da magia Visão da Verdade." },
+    { "nome": "Magias (clérigo de Khalmyr 15º, CD 40)", "descricao": "Heroísmo (padrão, 12 PM): criatura adjacente imune a medo, 40 PV temporários, +6 em ataque/dano contra o inimigo de maior ND. Sopro da Salvação (padrão, 14 PM): cone de 9m cura 4d8+4 PV e remove uma longa lista de condições. Viagem Planar (padrão, 12 PM): o Pégaso e até 5 criaturas voluntárias tocadas viajam para outro Plano." },
+    { "nome": "Parceiro", "descricao": "O Pégaso de Khalmyr é um parceiro montaria (Grande) mestre, aceitando apenas quem julgue digno ou devotos de Khalmyr. Deslocamento 18m (voo 36m), ação de movimento extra por turno para se deslocar, e pode lançar Círculo da Justiça (custo -1 PM se já conhecida)." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "O Pégaso original de Khalmyr, montaria sagrada pessoal do Deus da Justiça, muito mais poderoso que os pégasos comuns.",
+  "livro": "deuses_de_arton"
+}

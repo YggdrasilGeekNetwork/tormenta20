@@ -1,0 +1,37 @@
+{
+  "id": "gigante_real",
+  "name": "Gigante Real",
+  "nd": 19,
+  "tipo": "Humanoide",
+  "subtipo": "gigante",
+  "tamanho": "colossal",
+  "grupo": "gigantes",
+  "pv": 1140,
+  "pm": null,
+  "defesa": 59,
+  "salvaguardas": { "fort": 32, "ref": 26, "von": 19 },
+  "reducao_de_dano": 20,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 9,
+  "visao": [],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 17, "des": -1, "con": 15, "int": -1, "sab": 0, "car": 0 },
+  "pericias": { "atletismo": 34, "intimidacao": 34 },
+  "ataques": [
+    { "nome": "Clava", "quantidade": 3, "bonus": 52, "dano": [{ "dados": [{ "quantidade": 5, "faces": 20 }], "bonus": 40, "tipo": "impacto" }], "critico": "x3" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Fortificação 50%", "descricao": "Tem 50% de chance de ignorar qualquer acerto crítico ou ataque furtivo sofrido." },
+    { "nome": "Titânico", "descricao": "É imune a manobras de combate, não pode ser flanqueado e sofre metade do dano de ataques que não sejam de outra criatura Titânica. Quando se move, pisoteia criaturas ou objetos Enormes ou menores em seu caminho, causando 18d6 de dano de impacto (1x por rodada por criatura, Ref CD 47 reduz à metade). Seus ataques ignoram redução de dano e atingem todas as criaturas em um quadrado de 6m (um único teste de ataque comparado à Defesa de cada inimigo na área)." },
+    { "nome": "Arremessar Descomunal", "acao": "completa", "salvaguarda": "Reflexos/Acrobacia", "cd": 47, "efeito_sucesso": "reduz à metade e evita as condições", "descricao": "Arremessa uma criatura agarrada ou objeto Enorme ou menor em alcance longo. Criaturas na área (e a criatura arremessada) sofrem 20d10+40 de dano de impacto e ficam atordoadas por 1 rodada e caídas (Ref CD 47 reduz à metade e evita; atordoamento só 1x por cena)." },
+    { "nome": "Golpe Racha-Montanha", "acao": "completa", "descricao": "Um único ataque corpo a corpo com +5 na margem de ameaça e no multiplicador de crítico. Recarga (movimento)." },
+    { "nome": "Pisotear o Solo", "acao": "completa", "salvaguarda": "Reflexos", "cd": 47, "efeito_sucesso": "reduz à metade e evita a condição", "descricao": "Onda de choque em raio de 30m. Criaturas em contato com o solo sofrem 25d12 de dano de impacto e ficam caídas (Ref CD 47 reduz à metade e evita a condição). Recarga (movimento)." }
+  ],
+  "equipamento": ["clava_gigante", "meia_armadura"],
+  "tesouro": "Padrão.",
+  "description": "O maior tipo de gigante humanoide existente, criado por Megalokk, vivendo isolado e sem se reproduzir desde sua criação. Extremamente irritadiço, mas curioso sobre os povos menores.",
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "forma_monstruosa",
+  "name": "Forma Monstruosa",
+  "description": "Quando usa Forma Selvagem, você pode gastar PM adicionais (limitados pelo total de poderes da distinção que possui) para receber habilidades adicionais de criaturas que já devorou (veja Transformação Monstruosa) como parte de sua transformação.",
+  "effects": [
+    { "type": "ativado", "gatilho": "usar Forma Selvagem", "custo_pm_maximo": "total de poderes da distinção que possui", "efeito": "ganha habilidades adicionais de criaturas já devoradas, ver Transformação Monstruosa" }
+  ],
+  "requirements": ["Forma Selvagem", "devoto de Megalokk"],
+  "livro": "deuses_de_arton"
+}

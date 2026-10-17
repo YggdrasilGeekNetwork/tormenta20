@@ -1,0 +1,12 @@
+{
+  "id": "sacrario_da_erudicao",
+  "name": "Sacrário da Erudição",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "Quando lançam magias a partir de pergaminhos, você e seus aliados dentro do sacrário recebem +1 PM para gastar em aprimoramentos (mesmo que não conheçam a magia). Segue as regras gerais de Sacrários.",
+  "requirements": [],
+  "effects": [
+    { "type": "sacrario", "gatilho": "lançar magia a partir de pergaminho dentro da área", "efeito": "+1 PM para aprimoramentos, mesmo sem conhecer a magia" }
+  ],
+  "livro": "deuses_de_arton"
+}

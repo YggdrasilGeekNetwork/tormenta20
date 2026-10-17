@@ -1,0 +1,9 @@
+{
+  "id": "transbordar_cura",
+  "name": "Transbordar Cura",
+  "deities": ["lena"],
+  "description": "Quando você usa um efeito de cura, quaisquer pontos de vida excedentes desse efeito se tornam pontos de vida temporários, até um valor máximo igual ao dobro do nível do alvo.",
+  "effects": { "type": "passivo", "gatilho": "usar um efeito de cura", "efeito": "PV excedentes tornam-se PV temporários, até o máximo do dobro do nível do alvo" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

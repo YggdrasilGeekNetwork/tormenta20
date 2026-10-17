@@ -1,0 +1,15 @@
+{
+  "id": "espada_monastica",
+  "name": "Espada Monástica",
+  "deities": ["khalmyr"],
+  "subtipo": "arma",
+  "base_item": "espada_longa",
+  "classificacao": "Arma específica média",
+  "preco": 54000,
+  "description": "Esta espada longa certeira possui lâmina de aço reluzente e cabo de ouro com orações ao Deus da Justiça inscritas. Se você for um devoto de Khalmyr e estiver empunhando a espada monástica, pode gastar uma ação de movimento para ler um dos versículos inscritos nela e fazer um teste de Religião (CD 20). Se passar, a arma se torna formidável. Se passar por 10 ou mais, ela gera o efeito básico de Oração. Se passar por 20 ou mais, a arma se torna magnífica. Estes efeitos duram até o fim da cena.",
+  "effects": [
+    { "type": "passivo", "enchantment": "certeira" },
+    { "type": "devoto", "deity": "khalmyr", "acao": "movimento", "teste": "Religião CD 20", "efeito": "sucesso: arma formidável; sucesso por 10+: gera o efeito básico de Oração; sucesso por 20+: arma magnífica. Duram até o fim da cena" }
+  ],
+  "livro": "deuses_de_arton"
+}

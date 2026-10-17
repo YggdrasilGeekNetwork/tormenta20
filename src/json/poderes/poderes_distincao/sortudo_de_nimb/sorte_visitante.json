@@ -1,0 +1,10 @@
+{
+  "id": "sorte_visitante",
+  "name": "Sorte Visitante",
+  "description": "No início de cada cena, role 1d8. Em um resultado 1, até o fim da cena você pode rolar novamente qualquer teste recém-feito. A cada dois outros poderes da distinção, esse d8 diminui em um passo.",
+  "effects": [
+    { "type": "passivo", "gatilho": "início de cada cena", "efeito": "rola 1d8; em 1, pode repetir qualquer teste recém-feito até o fim da cena", "escalavel": "dado diminui um passo (d8→d6→d4...) a cada dois outros poderes da distinção" }
+  ],
+  "requirements": ["Sortudo ou Sorte dos Loucos", "devoto de Nimb"],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "correcao_do_desvio_padrao",
+  "name": "Correção do Desvio Padrão",
+  "description": "Suas magias com efeitos baseados em dados recebem o seguinte aprimoramento: +3 PM: para cada dado do efeito que rolar menos da metade de seu valor máximo, você pode considerar o resultado como a metade de seu valor máximo (por exemplo, um d6 que role 2 é considerado 3).",
+  "effects": [
+    { "type": "aprimoramento_de_magia", "custo_pm": 3, "requisito": "magia com efeito baseado em dados", "efeito": "cada dado que role menos da metade do máximo pode ser tratado como metade do máximo" }
+  ],
+  "requirements": ["Magicometria"],
+  "livro": "deuses_de_arton"
+}

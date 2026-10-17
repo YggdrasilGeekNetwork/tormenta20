@@ -1,0 +1,10 @@
+{
+  "id": "heroi_henshin",
+  "name": "Herói Henshin",
+  "description": "Campeão de identidade dupla que se transforma de uma pessoa comum e enfraquecida em um guerreiro poderoso e reluzente, sempre acompanhado de uma montaria ou veículo especial.",
+  "admissao": "É impossível seguir um caminho fixo — a transformação deve 'acontecer' com o candidato. Todo herói henshin surge de um evento extraordinário e é acompanhado por uma montaria fiel ou veículo extraordinário que só ele sabe operar. Ao encontrar a força que promove sua transformação (um bracelete mágico, um fantasma ancestral, uma organização secreta, uma entidade divina...) e aceitar o chamado, o candidato é testado moralmente, sem saber disso, para provar seu coração puro e motivos altruístas. Se passar, ganha acesso à transformação mas nenhum poder ainda — e sua forma comum fica mais fraca. É testado mais duas vezes em circunstâncias diferentes (salvar inocentes, abrir mão de tesouros, sacrificar-se por estranhos), muitas vezes sendo atacado por inimigos da força que lhe concedeu o dom, devendo lutar com honra e sem vantagens. Ao passar em todos os testes, ganha acesso às primeiras capacidades de sua forma heroica.",
+  "marca_nome": "Armadura Especial",
+  "marca_descricao": "Você transforma uma armadura ou item de vestuário em seu traje de combate: ele fornece +1 na Defesa (ou aumenta o bônus de Defesa já fornecido em +1) e reduz sua penalidade de armadura em –1. Se perder o traje, pode transformar outro com um dia de trabalho e T$ 100.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

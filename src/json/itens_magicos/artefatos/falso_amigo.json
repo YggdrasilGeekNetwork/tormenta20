@@ -1,0 +1,13 @@
+{
+  "id": "falso_amigo",
+  "name": "Falso Amigo",
+  "description": "A arma preferida de Hyninn, Falso Amigo é uma adaga formidável assassina de arremesso. Você recebe a habilidade Assassinar, do ladino, mas só pode usá-la com esta arma. Se já a possui, em vez disso o custo para usá-la com esta arma diminui em –1 PM. Além disso, enquanto estiver empunhando esta arma, você pode fazer um ataque furtivo adicional por rodada.",
+  "effects": [
+    { "type": "weapon_type", "base": "adaga" },
+    { "type": "enchantment", "name": "formidável" },
+    { "type": "enchantment", "name": "assassina" },
+    { "type": "enchantment", "name": "de_arremesso" },
+    { "type": "special", "efeito": "concede a habilidade Assassinar (ladino) usável só com esta arma, ou reduz seu custo em -1 PM se já a possuir; permite um ataque furtivo adicional por rodada" }
+  ],
+  "livro": "deuses_de_arton"
+}

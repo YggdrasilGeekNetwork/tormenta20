@@ -1,0 +1,41 @@
+{
+  "id": "avatar_de_wynna",
+  "name": "Avatar de Wynna",
+  "nd": 20,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "avatares",
+  "pv": 1800,
+  "pm": null,
+  "defesa": 63,
+  "salvaguardas": { "fort": 22, "ref": 36, "von": 30 },
+  "reducao_de_dano": 10,
+  "imunidades": ["efeitos mentais", "itens mundanos"],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": [],
+  "iniciativa": 26,
+  "percepcao": 24,
+  "visao": [],
+  "deslocamento": { "terrestre": 9, "voo": 12 },
+  "atributos": { "for": 6, "des": 8, "con": 6, "int": 15, "sab": 6, "car": 19 },
+  "pericias": { "atuacao": 37, "diplomacia": 37, "misticismo": 41 },
+  "ataques": [
+    { "nome": "Belo Presente (adaga)", "bonus": 54, "dano": [{ "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 11, "tipo": "perfuração" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Maior que a Morte", "descricao": "O Avatar é imune a efeitos que matam instantaneamente ou reduzem atributos a 0, e não pode ser mantido morto permanentemente." },
+    { "nome": "Carícia Mágica", "acao": "padrão", "descricao": "O Avatar de Wynna pode abençoar uma criatura em alcance curto. A criatura aprende e pode lançar uma magia qualquer de 1º círculo, à escolha do Avatar (atributo-chave escolhido pela criatura entre Inteligência e Carisma)." },
+    { "nome": "Centelha Divina", "descricao": "O Avatar pode lançar qualquer magia como um conjurador de 20º nível sem gastar PM (CD 55, limite de PM 30)." },
+    { "nome": "Conjuração Tríplice", "acao": "completa", "descricao": "O Avatar lança três magias de escolas e círculos diferentes que tenham tempo de conjuração de uma ação padrão ou menor." },
+    { "nome": "Metamagia Suprema", "acao": "reação", "descricao": "Uma vez por rodada, quando uma magia é lançada a partir de um ponto em alcance longo, o Avatar pode alterar algumas de suas características. Ele pode mudar o tipo de dano da magia, pode escolher se o dano será letal ou não letal e pode mudar o tipo de teste de resistência dela." },
+    { "nome": "Sem Atalhos", "acao": "completa", "descricao": "O Avatar dissipa todos os itens mágicos permanentes em alcance curto. Para cada item dissipado dessa forma, seu portador aprende uma magia de 1º círculo, arcana ou divina, à escolha do Avatar (atributo-chave escolhido pelo portador entre Inteligência e Carisma)." },
+    { "nome": "Visão da Magia", "descricao": "O Avatar está sempre sob efeito de Visão Mística, com todos os aprimoramentos." },
+    { "nome": "Vivificar Magia", "acao": "reação", "descricao": "Uma vez por rodada, o Avatar pode anular uma magia lançada em alcance médio. No início do próximo turno do Avatar, essa magia se torna um capanga feitiço vivo que surge em um ponto à escolha do Avatar entre ele e a fonte da magia original. Um feitiço vivo tem Defesa 20, 1 PV, é imune a dano e falha automaticamente em qualquer teste de resistência ou oposto. O Avatar pode gastar uma ação de movimento para fazer todos os feitiços vivos andarem (deslocamento de voo 12m) ou para dissipá-los. Para cada feitiço vivo que se dissipa dessa forma, o Avatar lança a magia da qual o feitiço se originou (usando suas próprias características), tendo como ponto de origem o espaço onde o feitiço estava quando foi dissipado." }
+  ],
+  "equipamento": ["belo_presente_adaga"],
+  "tesouro": "Nenhum.",
+  "description": "Manifestação física de Wynna, a Deusa da Magia. Mestra suprema da conjuração, empunha a adaga Belo Presente.",
+  "livro": "deuses_de_arton"
+}

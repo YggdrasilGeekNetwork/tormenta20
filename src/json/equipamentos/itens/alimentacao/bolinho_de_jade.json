@@ -1,0 +1,16 @@
+{
+  "id": "bolinho_de_jade",
+  "name": "Bolinho de Jade",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 4,
+  "espacos": 0,
+  "deity": "lin_wu",
+  "efeito": {
+    "requer_devoto": "lin_wu",
+    "duracao": "até o fim do dia",
+    "efeito": "pode usar o poder Kiai Divino uma vez; se já o possui, pode usá-lo sem pagar seu custo em PM"
+  },
+  "description": "Este prosaico bolinho de ervas é como a honra pregada por Lin-Wu: simples, direto e verdadeiro. Até o fim do dia, você pode usar o poder Kiai Divino uma vez. Se já o possui, pode usá-lo uma vez sem pagar seu custo em PM.",
+  "livro": "deuses_de_arton"
+}

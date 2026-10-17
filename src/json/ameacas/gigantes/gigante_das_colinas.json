@@ -1,0 +1,33 @@
+{
+  "id": "gigante_das_colinas",
+  "name": "Gigante das Colinas",
+  "nd": 7,
+  "tipo": "Humanoide",
+  "subtipo": "gigante",
+  "tamanho": "enorme",
+  "grupo": "gigantes",
+  "pv": 280,
+  "pm": null,
+  "defesa": 31,
+  "salvaguardas": { "fort": 20, "ref": 14, "von": 7 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 2,
+  "percepcao": 2,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 9, "des": -1, "con": 3, "int": -2, "sab": -1, "car": -1 },
+  "pericias": { "atletismo": 16, "intimidacao": 8, "sobrevivencia": 6 },
+  "ataques": [
+    { "nome": "Clava", "quantidade": 2, "bonus": 24, "dano": [{ "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 24, "tipo": "impacto" }], "critico": null }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arremessar Rochas", "acao": "completa", "salvaguarda": "Reflexos", "cd": 24, "efeito_sucesso": "reduz à metade", "descricao": "O gigante arremessa uma rocha em um quadrado de 3m em alcance curto. Criaturas na área sofrem 6d12 de dano de impacto (Ref CD 24 reduz à metade)." }
+  ],
+  "equipamento": ["clava_aumentada", "gibao_de_peles"],
+  "tesouro": "Bolsa de gigante.",
+  "description": "O menor e mais numeroso dos gigantes, bruto e selvagem, vivendo em cavernas ou como nômade, atacando povoados ou formando tribos simples lideradas pelo mais forte.",
+  "livro": "deuses_de_arton"
+}

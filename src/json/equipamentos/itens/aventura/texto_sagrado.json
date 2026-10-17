@@ -1,0 +1,17 @@
+{
+  "id": "texto_sagrado",
+  "name": "Texto Sagrado",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 60,
+  "espacos": 1,
+  "uso": "guardado",
+  "efeito": {
+    "requer": "específico de um deus; só funciona com seus devotos",
+    "acao": "completa",
+    "custo_pm": 1,
+    "efeito": "remove uma condição entre: abalado, alquebrado, apavorado, esmorecido ou frustrado"
+  },
+  "description": "Todas as religiões de Arton têm um ou mais textos sagrados — escrituras, parábolas, relatos históricos ou até mesmo diagramas que contêm os maiores valores da divindade e oferecem alento a seus fiéis em momentos de necessidade. Cada texto sagrado é específico de um deus e só funciona com seus devotos. Se estiver abalado, alquebrado, apavorado, esmorecido ou frustrado, você pode gastar uma ação completa e 1 PM para remover uma dessas condições.",
+  "livro": "deuses_de_arton"
+}

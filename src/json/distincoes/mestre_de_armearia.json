@@ -1,0 +1,10 @@
+{
+  "id": "mestre_de_armearia",
+  "name": "Mestre de Armearia",
+  "description": "Armeiro que domina as técnicas anãs de criação e aprimoramento de armas de fogo, combinando combate, artesanato e comércio em um só ofício quase religioso.",
+  "admissao": "O candidato deve se empregar em uma armearia e progredir pela Guilda dos Armeiros de Doherimm: aprendiz, companheiro e por fim mestre. Não precisa ser anão, mas candidatos de outras raças devem provar seu valor antes do primeiro teste. Deve primeiro forjar uma arma de fogo sob supervisão para ser aceito como aprendiz; após seis meses de estudo, forjar uma arma de fogo com melhorias para se tornar companheiro; após mais seis meses, forjar uma arma de fogo totalmente nova para se tornar mestre. Por fim, precisa montar sua própria armearia (podendo ser um negócio itinerante), dominando todo o processo de fabricação, uso e venda, tornando-se um verdadeiro mestre de armearia.",
+  "marca_nome": "Domínio da Pólvora",
+  "marca_descricao": "Você recebe +2 em testes de perícia (exceto de ataque) relacionados a armas de fogo e suas munições, incluindo testes para esconder, fabricar, identificar e negociar.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

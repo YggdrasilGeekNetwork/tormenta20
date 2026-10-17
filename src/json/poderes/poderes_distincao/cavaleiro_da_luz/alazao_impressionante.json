@@ -1,0 +1,10 @@
+{
+  "id": "alazao_impressionante",
+  "name": "Alazão Impressionante",
+  "description": "Você recebe um cavalo de guerra parceiro veterano. Caso já possua uma montaria fornecida por outra habilidade, em vez disso essa montaria se torna também um parceiro ajudante iniciante. Caso perca sua montaria, você pode receber outra visitando o Castelo da Luz.",
+  "effects": [
+    { "type": "concede_parceiro", "tipo": "cavalo_de_guerra", "nivel": "veterano", "se_ja_possui_montaria": "torna-se também parceiro ajudante iniciante", "reposicao": "visitar o Castelo da Luz" }
+  ],
+  "requirements": ["treinado em Cavalgar", "Ataque Subjugante"],
+  "livro": "deuses_de_arton"
+}

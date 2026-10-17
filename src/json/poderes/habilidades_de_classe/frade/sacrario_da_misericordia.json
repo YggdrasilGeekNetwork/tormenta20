@@ -1,0 +1,14 @@
+{
+  "id": "sacrario_da_misericordia",
+  "name": "Sacrário da Misericórdia",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "No início dos seus turnos, cada criatura a sua escolha dentro do sacrário recupera uma quantidade de PV igual a 5 + sua Sabedoria. Este sacrário tem duração sustentada. Segue as regras gerais de Sacrários.",
+  "requirements": [
+    { "type": "character_lvl", "sub_type": "hard", "value": 5, "note": "5º nível de frade" }
+  ],
+  "effects": [
+    { "type": "sacrario", "duracao": "sustentada", "gatilho": "início dos seus turnos", "efeito": "criaturas escolhidas na área curam 5 + Sabedoria PV" }
+  ],
+  "livro": "deuses_de_arton"
+}

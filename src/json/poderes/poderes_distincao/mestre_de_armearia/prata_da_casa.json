@@ -1,0 +1,10 @@
+{
+  "id": "prata_da_casa",
+  "name": "Prata da Casa",
+  "description": "Você pode fabricar armas de fogo não mágicas em uma semana, em vez de um mês, e recebe +1 em testes de ataque e rolagens de dano com armas de fogo que tenha fabricado. A cada dois outros poderes da distinção, esses bônus aumentam em +1.",
+  "effects": [
+    { "type": "passivo", "efeito": "fabrica armas de fogo não mágicas em 1 semana em vez de 1 mês; +1 em ataque e dano com armas de fogo que fabricou", "escalavel": "+1 a cada dois outros poderes da distinção" }
+  ],
+  "requirements": ["Balística"],
+  "livro": "deuses_de_arton"
+}

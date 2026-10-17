@@ -1,0 +1,13 @@
+{
+  "id": "raio_de_sol",
+  "name": "Raio de Sol",
+  "description": "Uma lança de arremesso energética magnífica que causa +2d12 pontos de dano de luz e deixa o alvo ofuscado.",
+  "effects": [
+    { "type": "weapon_type", "base": "lanca_de_arremesso" },
+    { "type": "enchantment", "name": "energética" },
+    { "type": "enchantment", "name": "magnífica" },
+    { "type": "dano_extra", "dado": "2d12", "tipo": "luz" },
+    { "type": "condição", "efeito": "deixa o alvo ofuscado" }
+  ],
+  "livro": "deuses_de_arton"
+}

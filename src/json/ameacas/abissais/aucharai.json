@@ -1,0 +1,37 @@
+{
+  "id": "aucharai",
+  "name": "Aucharai",
+  "nd": 6,
+  "tipo": "Espírito",
+  "subtipo": "abissal",
+  "tamanho": "médio",
+  "grupo": "abissais",
+  "pv": 240,
+  "pm": null,
+  "defesa": 26,
+  "salvaguardas": { "fort": 8, "ref": 18, "von": 10 },
+  "reducao_de_dano": 5,
+  "imunidades": ["ácido", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 6,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 4, "des": 5, "con": 2, "int": 3, "sab": 1, "car": 1 },
+  "pericias": { "acrobacia": 10, "atletismo": 9, "furtividade": 15, "ladinagem": 8 },
+  "ataques": [
+    { "nome": "Espada Curta", "quantidade": 2, "bonus": 20, "dano": [{ "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 18, "tipo": "corte" }], "critico": "19" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "O aucharai possui Evasão." },
+    { "nome": "Ataque Furtivo", "descricao": "+2d6 de dano em ataque furtivo." },
+    { "nome": "Detectar Pensamentos", "descricao": "O aucharai detecta constantemente os pensamentos superficiais de todas as criaturas inteligentes em alcance curto. Ele não pode ser surpreendido por criaturas cujos pensamentos esteja detectando dessa forma e recebe +2 na Defesa e em testes de perícia contra elas. Uma criatura ciente desta habilidade pode gastar uma ação de movimento e fazer um teste de Vontade (CD 24); se passar, esconde seus pensamentos até o fim da cena." },
+    { "nome": "Escurecer Olhos", "acao": "padrão", "salvaguarda": "Fortitude", "cd": 24, "efeito_sucesso": "reduz para 1 rodada", "descricao": "O aucharai invoca uma sombra mística sobre os olhos de uma criatura em alcance curto. A vítima fica cega (Fort CD 24 reduz para 1 rodada). Recarga (movimento)." },
+    { "nome": "Protegido Pela Escuridão", "descricao": "Se estiver em uma condição de pouca iluminação que forneça camuflagem leve, em vez disso o aucharai recebe camuflagem total." },
+    { "nome": "Visão Abissal", "descricao": "O aucharai está permanentemente sob efeito da magia Visão Mística com o aprimoramento que permite enxergar criaturas e objetos invisíveis." }
+  ],
+  "tesouro": "Padrão.",
+  "description": "Demônio alto e magro, de pele negra e lustrosa, com presas e olhos flamejantes. Espião e assassino abissal, especializado em rastrear e eliminar alvos em silêncio.",
+  "livro": "deuses_de_arton"
+}

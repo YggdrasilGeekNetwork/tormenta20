@@ -1,0 +1,13 @@
+{
+  "id": "incentivador_da_economia",
+  "name": "Incentivador da Economia",
+  "deities": ["tibar"],
+  "description": "A cada T$ 50 x seu nível que gastar em uma aventura, você recebe +1 PM cumulativo até o fim da aventura.",
+  "effects": {
+    "type": "passivo",
+    "gatilho": "gastar T$ 50 x nível em uma aventura",
+    "efeito": "+1 PM cumulativo até o fim da aventura"
+  },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

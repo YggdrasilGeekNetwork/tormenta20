@@ -1,0 +1,16 @@
+{
+  "id": "caldo_de_lena",
+  "name": "Caldo de Lena",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 3,
+  "espacos": 0,
+  "deity": "lena",
+  "efeito": {
+    "requer_devoto": "lena",
+    "gatilho": "receber cura mágica de luz",
+    "efeito": "recupera +2 PV"
+  },
+  "description": "Esta sobremesa a base de milho é perfeita para celebrar a fertilidade do campo. Uma comida tão doce é ideal para acalentar aventureiros cansados após um dia difícil. Quando recebe cura mágica de luz, você recupera +2 PV.",
+  "livro": "deuses_de_arton"
+}

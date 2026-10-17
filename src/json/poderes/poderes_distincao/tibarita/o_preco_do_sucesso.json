@@ -1,0 +1,10 @@
+{
+  "id": "o_preco_do_sucesso",
+  "name": "O Preço do Sucesso",
+  "description": "Quando vai fazer um teste de perícia, você pode comprar um resultado em vez de rolar um dado. Você deve gastar T$ 100 por número desejado no dado (um 18, por exemplo, custa T$ 1.800). Contudo, um resultado comprado dessa forma não é um sucesso automático (deve superar a CD etc.).",
+  "effects": [
+    { "type": "ativado", "gatilho": "fazer um teste de perícia", "custo": "T$ 100 por número desejado no d20 (ex.: 18 custa T$ 1.800)", "efeito": "usa o número comprado em vez de rolar; ainda precisa superar a CD normalmente" }
+  ],
+  "requirements": ["devoto de Tibar", "Car 3"],
+  "livro": "deuses_de_arton"
+}

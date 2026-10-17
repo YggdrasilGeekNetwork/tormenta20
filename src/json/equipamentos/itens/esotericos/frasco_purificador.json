@@ -1,0 +1,20 @@
+{
+  "id": "frasco_purificador",
+  "name": "Frasco Purificador",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 100,
+  "espacos": 1,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "capacidade_doses": 10,
+    "gatilho": "lançar magia com uma criatura como alvo",
+    "custo": "doses (limitado pela Sabedoria)",
+    "efeito_por_dose": "o alvo da magia também recupera 1d4 PV",
+    "recarga": { "acao": "completa", "custo": "2 doses de água benta" },
+    "restricao": "só pode ser usado por devotos de divindades que canalizam energia positiva"
+  },
+  "description": "Este pequeno vasilhame contém 10 doses de uma combinação de água e especiarias santificadas. Quando lança uma magia que tenha uma criatura como alvo, você pode gastar uma quantidade dessas doses (limitada por sua Sabedoria); para cada dose gasta, o alvo da magia também recupera 1d4 PV. Recarregar um frasco purificador é uma ação completa e consome 2 doses de água benta. Um frasco purificador só pode ser usado por devotos de divindades que canalizam energia positiva.",
+  "livro": "deuses_de_arton"
+}

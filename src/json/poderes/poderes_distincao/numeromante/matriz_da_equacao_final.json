@@ -1,0 +1,10 @@
+{
+  "id": "matriz_da_equacao_final",
+  "name": "Matriz da Equação Final",
+  "description": "Suas magias que causam dano baseado em dados ganham o seguinte aprimoramento: +2 PM: em vez de rolar todos os dados de dano da magia, você pode rolar um único dado e multiplicar seu resultado pela quantidade de dados original do efeito.",
+  "effects": [
+    { "type": "aprimoramento_de_magia", "custo_pm": 2, "requisito": "magia com dano baseado em dados", "efeito": "rola um único dado e multiplica pelo número original de dados do efeito, em vez de rolar todos" }
+  ],
+  "requirements": ["Correção do Desvio Padrão", "dois poderes de magia"],
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "estouro_da_trobada",
+  "name": "Estouro da Trobada",
+  "deities": ["allihanna"],
+  "description": "Você pode gastar uma ação completa e 2 PM para convocar uma manada de trobos (ou outro animal da região) em um ponto desocupado a sua escolha em alcance curto com duração sustentada. A manada é Enorme e pode passar pelo espaço de outras criaturas. Você pode gastar uma ação de movimento para mover a manada 12m em linha reta. Criaturas pelas quais ela passar sofrem 3d6 pontos de dano de impacto e ficam caídas (Fort CD Sab reduz à metade e evita a condição).",
+  "effects": { "type": "ativado", "acao": "completa", "custo_pm": 2, "duracao": "sustentada", "efeito": "convoca uma manada Enorme que atravessa espaços de outras criaturas; ação de movimento para mover 12m em linha reta, causando 3d6 de dano de impacto e caído a quem atravessar (Fort CD Sab reduz à metade e evita a condição)" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

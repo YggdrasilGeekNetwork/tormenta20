@@ -1,0 +1,9 @@
+{
+  "id": "navegador_sagrado",
+  "name": "Navegador Sagrado",
+  "deities": ["oceano"],
+  "description": "Você pode usar Sabedoria para Pilotagem (em vez de Destreza) e, enquanto estiver em uma embarcação aquática, suas magias divinas custam –2 PM.",
+  "effects": { "type": "passivo", "efeito": "usa Sabedoria para Pilotagem (em vez de Destreza); magias divinas custam -2 PM enquanto estiver em embarcação aquática" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

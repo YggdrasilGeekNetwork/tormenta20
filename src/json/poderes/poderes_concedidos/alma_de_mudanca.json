@@ -1,0 +1,9 @@
+{
+  "id": "alma_de_mudanca",
+  "name": "Alma de Mudança",
+  "deities": ["thwor", "valkaria"],
+  "description": "No início de cada aventura, você pode trocar uma quantidade de poderes (limitada por sua Sabedoria) por poderes diferentes cujos pré-requisitos cumpra. Você não pode trocar este poder.",
+  "effects": { "type": "passivo", "gatilho": "início de cada aventura", "efeito": "troca poderes (limitado pela Sabedoria) por outros cujos pré-requisitos cumpra; este poder não pode ser trocado" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

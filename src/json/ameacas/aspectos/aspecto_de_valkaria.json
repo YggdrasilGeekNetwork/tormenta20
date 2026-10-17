@@ -1,0 +1,40 @@
+{
+  "id": "aspecto_de_valkaria",
+  "name": "Aspecto de Valkaria",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "humana",
+  "tamanho": "médio",
+  "grupo": "aspectos",
+  "pv": 180,
+  "pm": null,
+  "defesa": 24,
+  "salvaguardas": { "fort": 11, "ref": 17, "von": 5 },
+  "reducao_de_dano": 5,
+  "resistencia_a_magia": 2,
+  "imunidades": ["efeitos de movimento", "medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 4,
+  "visao": [],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 2, "des": 6, "con": 4, "int": 2, "sab": 0, "car": 3 },
+  "pericias": { "acrobacia": 12, "atletismo": 8 },
+  "ataques": [
+    { "nome": "Florete", "quantidade": 2, "bonus": 18, "dano": [{ "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 8, "tipo": "perfuração" }], "critico": "15/x3" }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "O aspecto de Valkaria possui Evasão." },
+    { "nome": "Almejar o Impossível", "descricao": "Quando o aspecto de Valkaria faz um teste de perícia, um resultado de 19 ou mais no dado sempre é um sucesso, não importando o valor a ser alcançado." },
+    { "nome": "Arrumar Encrenca", "descricao": "O aspecto pode passar por espaços ocupados por inimigos sem redução em seu deslocamento e sem necessidade de testes de Acrobacia." },
+    { "nome": "Bloqueio Contundente", "acao": "reação", "descricao": "Uma vez por rodada, quando é atingido por um ataque corpo a corpo, o aspecto pode fazer um teste de ataque. Se o resultado for maior que o do oponente, evita o ataque e causa 2d6 pontos de dano de perfuração a ele." },
+    { "nome": "Esgrima Acrobática", "acao": "movimento", "descricao": "O aspecto percorre até metade de seu deslocamento e, até o final do turno, recebe +5 em testes de ataque, em rolagens de dano e na margem de ameaça." },
+    { "nome": "Estocada Oportunista", "acao": "livre", "descricao": "Uma vez por rodada, quando passa por um espaço ocupado por um inimigo, o aspecto pode fazer um ataque corpo a corpo contra ele." },
+    { "nome": "Parceiro", "descricao": "O aspecto de Valkaria é um parceiro veterano que fornece +2 em Acrobacia e em testes opostos e de resistência contra efeitos de movimento, além de permitir usar Bloqueio Contundente (causando dano igual ao dano básico da arma, se evitar o ataque). Viola as Obrigações & Restrições de Valkaria e o aspecto deixa de apoiar." }
+  ],
+  "equipamento": ["couraca_sob_medida", "florete_certeiro_preciso", "sapato_de_camurca_aprimorado"],
+  "tesouro": "Nenhum.",
+  "description": "Garota afoita vestida como duelista urbana, encarnação temporária de Valkaria, com confiança excessiva em suas capacidades e sempre pronta para a próxima aventura ou encrenca.",
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "vender_indulgencias",
+  "name": "Vender Indulgências",
+  "description": "Quando um aliado em alcance curto faz um teste de perícia, ele pode gastar 3 PM para rolar novamente esse teste. Se ele fizer isso, você recebe 1 PM temporário cumulativo. Você pode ganhar um máximo de PM temporários por cena igual ao total de poderes da distinção que possui. Esses pontos temporários desaparecem no fim da cena.",
+  "effects": [
+    { "type": "passivo", "gatilho": "aliado em alcance curto gasta 3 PM para rolar novamente um teste de perícia", "efeito": "você recebe 1 PM temporário cumulativo", "limite": "por cena, igual ao total de poderes da distinção que possui" }
+  ],
+  "requirements": ["Sincretismo Oportuno"],
+  "livro": "deuses_de_arton"
+}

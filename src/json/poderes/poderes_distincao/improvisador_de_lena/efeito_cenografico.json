@@ -1,0 +1,10 @@
+{
+  "id": "efeito_cenografico",
+  "name": "Efeito Cenográfico",
+  "description": "Quando causa dano não letal a uma criatura viva, você pode gastar 2 PM para desferir um golpe cenográfico. A vítima deve fazer um teste de Fortitude (CD Int, +1 por poder da distinção que você possui). Se falhar, ela fica inconsciente (se for um capanga) ou atordoada por 1 rodada (apenas uma vez por cena) se for de outro tipo.",
+  "effects": [
+    { "type": "ativado", "custo_pm": 2, "gatilho": "causar dano não letal a uma criatura viva", "teste_resistencia": "Fortitude, CD Int +1 por poder da distinção que possui", "efeito": "capanga fica inconsciente; outro tipo fica atordoado por 1 rodada (1x por cena)" }
+  ],
+  "requirements": ["Poder Improvisado"],
+  "livro": "deuses_de_arton"
+}

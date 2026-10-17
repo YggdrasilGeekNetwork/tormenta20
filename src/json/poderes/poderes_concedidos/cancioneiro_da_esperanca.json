@@ -1,0 +1,9 @@
+{
+  "id": "cancioneiro_da_esperanca",
+  "name": "Cancioneiro da Esperança",
+  "deities": ["marah"],
+  "description": "Você pode gastar uma ação padrão e 2 PM para entoar uma canção de superação e paz. Criaturas escolhidas (limitadas por seu Carisma) em alcance curto recebem +2 em testes (exceto testes de ataque) e +3m de deslocamento até o fim da cena. Se uma criatura afetada for executar uma ação hostil, perde esses bônus.",
+  "effects": { "type": "ativado", "acao": "padrão", "custo_pm": 2, "limite_alvos": "sua Carisma", "efeito": "+2 em testes (exceto ataque) e +3m de deslocamento até o fim da cena; perde o bônus ao agir de forma hostil" },
+  "prerequisites": [],
+  "livro": "deuses_de_arton"
+}

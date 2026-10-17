@@ -1,0 +1,14 @@
+{
+  "id": "invocar_aspecto",
+  "name": "Invocando Aspectos",
+  "description": "Ritual para invocar um aspecto dos deuses (Deuses de Arton, Cap. 4, p.268).",
+  "requisitos": "Só pode ser realizado por um devoto da divindade em questão que seja treinado em Religião e tenha o poder Celebrar Ritual.",
+  "custo": { "tempo": "1 hora", "pm": 10, "material": "T$ 3.000 em materiais litúrgicos apropriados à divindade" },
+  "teste": "Religião, CD 25 + ND do aspecto invocado",
+  "auxiliares": "O celebrante pode empregar até três auxiliares, que não precisam ser devotos; cada um faz um teste de Religião para ajudar o celebrante, e se for devoto da divindade, reduz o custo do ritual em -1 PM.",
+  "resultado_sucesso": "O aspecto é invocado. Sua atitude inicial depende da divindade que representa, a critério do mestre. O tempo de permanência depende da capacidade do celebrante em persuadi-lo a ajudar.",
+  "resultado_falha": "Um ritual falho não causa maiores problemas além do gasto de PM e materiais.",
+  "resultado_falha_critica": "Em um resultado 1 natural no teste de Religião, o ritual é um desastre: o celebrante pode ter ofendido seu deus ou invocado outro aspecto, que será hostil ao celebrante e a seus aliados.",
+  "observacao": "A critério do mestre, um deus pode exigir custos específicos (de conhecimento do celebrante); deuses malignos podem exigir sacrifícios em troca de sua atenção.",
+  "livro": "deuses_de_arton"
+}

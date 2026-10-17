@@ -1,0 +1,10 @@
+{
+  "id": "teurgista_hermetico",
+  "name": "Teurgista Hermético",
+  "description": "Conjurador excepcional que combina magia arcana e divina com maestria, tratando-as como aspectos de um mesmo poder universal, atuando tanto em combate quanto como conselheiro e estudioso.",
+  "admissao": "O candidato precisa ser aceito em uma instituição de ensino de magia arcana de prestígio (como a Academia Arcana, ou bons cursos em Wynlla e Ubani) para estudar teoria e filosofia arcana, dedicando-se só a isso por um ou dois meses e passando em todas as provas exigidas. Depois, precisa ser aceito como estudante de teoria mística e filosofia num templo de Wynna ou Kallyadranoch — um passo muito mais difícil, já que poucos templos dessas divindades mantêm centros de estudo teórico, exigindo às vezes meses ou anos de busca — e permanecer imerso em estudos por pelo menos mais um mês, cumprindo as tarefas dos sacerdotes. Por fim, deve elaborar uma teoria original que una magia arcana e divina e apresentá-la a um grupo de estudiosos, que devem entendê-la, não dormir durante a palestra, e não chamá-lo de charlatão ou herege.",
+  "marca_nome": "Princípio Hermético",
+  "marca_descricao": "Você é considerado um conjurador tanto arcano quanto divino, e suas magias são consideradas tanto arcanas quanto divinas.",
+  "nivel_minimo": 5,
+  "livro": "deuses_de_arton"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "sacrario_das_sombras",
+  "name": "Sacrário das Sombras",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_frade",
+  "description": "A área do sacrário é coberta por sombras; criaturas dentro dela recebem camuflagem leve e, se forem mortos-vivos, também recebem +2 na Defesa e em testes de perícia. Segue as regras gerais de Sacrários.",
+  "requirements": [],
+  "effects": [
+    { "type": "sacrario", "efeito": "criaturas na área recebem camuflagem leve; mortos-vivos na área também recebem +2 na Defesa e em testes de perícia" }
+  ],
+  "livro": "deuses_de_arton"
+}

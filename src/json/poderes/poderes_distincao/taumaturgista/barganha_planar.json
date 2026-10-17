@@ -1,0 +1,19 @@
+{
+  "id": "barganha_planar",
+  "name": "Barganha Planar",
+  "description": "Escolha um dos efeitos a seguir (uma vez feita, essa escolha não pode ser alterada). Quando invoca seu amigo de outro mundo, ele traz uma fração de poder extraplanar do tipo escolhido.",
+  "effects": [
+    {
+      "type": "escolha_de_lista",
+      "gatilho": "invocar Amigo de Outro Mundo",
+      "opcoes": [
+        { "id": "abissal", "name": "Abissal", "description": "Criaturas a sua escolha em 6m dele sofrem 2d8+2 de dano de trevas e ficam abaladas por 1 rodada (Vontade CD Sab reduz à metade e evita a condição)." },
+        { "id": "celestial", "name": "Celestial", "description": "Criaturas a sua escolha em 6m dele recebem 4d8+4 PV temporários." },
+        { "id": "elemental", "name": "Elemental", "description": "Escolha ácido, eletricidade, fogo ou frio. Criaturas a sua escolha em 6m dele sofrem 2d12+2 de dano do tipo escolhido (Reflexos CD Sab reduz à metade)." },
+        { "id": "ferico", "name": "Feérico", "description": "Criaturas a sua escolha em 6m dele sofrem -2 em testes de Vontade por 1 rodada." }
+      ]
+    }
+  ],
+  "requirements": ["Amigo de Outro Mundo"],
+  "livro": "deuses_de_arton"
+}

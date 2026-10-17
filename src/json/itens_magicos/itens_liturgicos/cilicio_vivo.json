@@ -1,0 +1,15 @@
+{
+  "id": "cilicio_vivo",
+  "name": "Cilício Vivo",
+  "deities": ["aharadak"],
+  "subtipo": "acessorio",
+  "classificacao": "Acessório maior",
+  "preco": 37000,
+  "description": "Esta cinta de couro possui anzóis enferrujados e afiados. Para usar o cilício vivo, você deve amarrá-lo em sua coxa ou braço (ele conta como um item vestido), de forma a cravar os anzóis em sua carne. O cilício então bebe de seu sangue, adquirindo uma consistência úmida e pulsante. Isso reduz seus PV máximos em 1 por nível. Porém, a dor constante o mantém vigilante, fornecendo um bônus de +1 em todos os seus testes (cumulativo com outros bônus de itens). Se você for um devoto de Aharadak, o bônus aumenta para +2. Se for um devoto de Aharadak de patamar campeão ou superior, o cilício vivo também aumenta seus PM máximos em +1 por nível.",
+  "effects": [
+    { "type": "passivo", "custo": "reduz PV máximos em 1 por nível", "efeito": "+1 em todos os testes (cumulativo com outros bônus de itens)" },
+    { "type": "devoto", "deity": "aharadak", "efeito": "o bônus em todos os testes aumenta para +2" },
+    { "type": "devoto_patamar", "deity": "aharadak", "patamar_minimo": "campeao", "efeito": "aumenta também os PM máximos em +1 por nível" }
+  ],
+  "livro": "deuses_de_arton"
+}

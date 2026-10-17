@@ -1,0 +1,12 @@
+{
+  "id": "apanhador_de_sonhos",
+  "name": "Apanhador de Sonhos",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 40,
+  "espacos": 1,
+  "uso": "guardado",
+  "efeito": { "bonus_resistencia_dormindo": 2 },
+  "description": "Muitos artonianos acreditam que ficam mais vulneráveis enquanto estão dormindo. Este item é uma pequena estrutura de madeira, cordões, contas e penas feita por um sacerdote para proteger o descanso de seus fiéis. Se estiver em posse de um apanhador de sonhos, recebe +2 em testes de resistência quando estiver dormindo.",
+  "livro": "deuses_de_arton"
+}

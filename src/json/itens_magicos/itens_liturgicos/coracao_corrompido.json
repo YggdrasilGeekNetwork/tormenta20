@@ -1,0 +1,13 @@
+{
+  "id": "coracao_corrompido",
+  "name": "Coração Corrompido",
+  "deities": ["aharadak"],
+  "subtipo": "acessorio",
+  "classificacao": "Acessório maior",
+  "preco": 45000,
+  "description": "Este pequeno baú de madeira esconde um coração cinzento e ressequido. Se um devoto de Aharadak matar uma criatura inteligente e derramar um pouco do sangue dela no coração, ele volta à 'vida', ficando vermelho e pulsante. Enquanto o coração corrompido estiver vivo, qualquer dano ou condição causado ao devoto será absorvido pelo item. O coração pode absorver até 100 pontos de dano e três condições. Quando isso acontecer, volta ao seu estado 'morto'... até um novo sacrifício ser feito. O devoto não precisa estar em posse do coração para o efeito funcionar, apenas saber onde ele está.",
+  "effects": [
+    { "type": "devoto", "deity": "aharadak", "gatilho": "matar criatura inteligente e derramar sangue no coração", "efeito": "o coração 'revive' e absorve até 100 pontos de dano e 3 condições sofridos pelo devoto antes de 'morrer' de novo", "observacao": "não precisa estar em posse do item, apenas saber sua localização" }
+  ],
+  "livro": "deuses_de_arton"
+}
