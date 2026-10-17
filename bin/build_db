@@ -486,7 +486,7 @@ def seed_escudos(db)
                     %w[id name price defense_bonus armor_penalty weight properties description],
                     transform: lambda { |data|
                       data["price"] ||= data.delete("preco")
-                      data["defense_bonus"] ||= data.delete("bonus_defesa")
+                      data["defense_bonus"] = data.delete("bonus_defesa") || data["defense_bonus"] || 0
                       data["armor_penalty"] ||= data.delete("penalidade_armadura")
                       data["weight"] ||= data.delete("espacos")
                       data

@@ -65,6 +65,13 @@ export function seed(): void {
   seedItensSuperiores(insert)
   seedCondicoes(insert)
   seedPericias(insert)
+  seedClassesVariantes(insert)
+  seedDistincoes(insert)
+  seedComplicacoes(insert)
+  seedBasesTipos(insert)
+  seedComodos(insert)
+  seedMobilias(insert)
+  seedConstrucoesDominio(insert)
   seedRegras(insert)
   seedTabelas(insert)
   seedLivros(insert)
@@ -81,9 +88,26 @@ export function seed(): void {
   console.log("✓ Tormenta 20 database seeded successfully")
 }
 
+function livroIdOf(x: Record<string, unknown>): string {
+  return (x.livro as string | undefined) ?? "t20_eja"
+}
+
 function seedRacas(insert: ReturnType<typeof Database.prototype.transaction>): void {
   const racas = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "racas"))
-  insert("racas", racas)
+  insert("racas", racas.map((r) => ({
+    id: r.id, name: r.name, description: r.description ?? null,
+    size: r.size ?? "médio", movement: r.movement ?? 9,
+    vision: r.vision ?? "normal", vision_range: r.vision_range ?? null,
+    attribute_bonuses: r.attribute_bonuses ?? {},
+    chosen_attribute_bonus: r.chosen_attribute_bonus ?? null,
+    skill_bonuses: r.skill_bonuses ?? [],
+    racial_abilities: r.racial_abilities ?? [],
+    chosen_abilities_amount: r.chosen_abilities_amount ?? 0,
+    available_chosen_abilities: r.available_chosen_abilities ?? [],
+    longevidade: r.longevidade ?? null, devocao: r.devocao ?? null,
+    ability_swap: r.ability_swap ?? null,
+    livro_id: livroIdOf(r),
+  })))
 }
 
 function seedOrigens(insert: ReturnType<typeof Database.prototype.transaction>): void {
@@ -91,6 +115,7 @@ function seedOrigens(insert: ReturnType<typeof Database.prototype.transaction>):
   insert("origens", origens.map((o) => ({
     id: o.id, name: o.name, description: o.description ?? null,
     items: o.items ?? [], benefits: o.benefits ?? {}, unique_power: o.unique_power ?? null,
+    livro_id: livroIdOf(o),
   })))
 }
 
@@ -104,6 +129,7 @@ function seedDivindades(insert: ReturnType<typeof Database.prototype.transaction
     obligations_restrictions: d.obligations_restrictions ?? null,
     rank: d.rank ?? "maior", natureza: d.natureza ?? null,
     status_divino: d.status_divino ?? null,
+    livro_id: livroIdOf(d),
   })))
 }
 
@@ -116,6 +142,7 @@ function seedClasses(insert: ReturnType<typeof Database.prototype.transaction>):
     abilities: c.abilities ?? [], powers: c.powers ?? [],
     progression: c.progression ?? [],
     spellcasting: c.spellcasting && Object.keys(c.spellcasting as object).length > 0 ? c.spellcasting : null,
+    livro_id: livroIdOf(c),
   })))
 }
 
@@ -127,6 +154,15 @@ const PODER_DIR_TYPE_MAP: Record<string, string> = {
   poderes_de_combate: "poder_combate",
   poderes_de_destino: "poder_destino",
   poderes_de_magia: "poder_magia",
+}
+
+// Within poderes_gerais/, a file's own sub_type/type (not its subdirectory) decides
+// its final type, mirroring Ruby's PODER_GERAL_TYPE_MAP — unmapped values (e.g.
+// poder_de_grupo, poder_de_raca) pass through unchanged.
+const PODER_GERAL_TYPE_MAP: Record<string, string> = {
+  poder_de_combate: "poder_combate",
+  poder_de_destino: "poder_destino",
+  poder_de_magia: "poder_magia",
 }
 
 function seedPoderes(insert: ReturnType<typeof Database.prototype.transaction>): void {
@@ -141,9 +177,22 @@ function seedPoderes(insert: ReturnType<typeof Database.prototype.transaction>):
       for (const subDir of readdirSync(topPath)) {
         const subPath = join(topPath, subDir)
         if (!statSync(subPath).isDirectory()) continue
-        const type = PODER_DIR_TYPE_MAP[subDir] ?? "poder_geral"
         const files = loadJsonFiles<Record<string, unknown>>(subPath)
-        rows.push(...files.map((p) => mapPoder(p, type, null, null)))
+        rows.push(...files.map((p) => {
+          const rawType = (p.sub_type as string | undefined) ?? (p.type as string | undefined) ?? "poder_geral"
+          const type = PODER_GERAL_TYPE_MAP[rawType] ?? rawType
+          return mapPoder(p, type, null, null)
+        }))
+      }
+      continue
+    }
+
+    if (topDir === "poderes_distincao") {
+      for (const distincaoDir of readdirSync(topPath)) {
+        const distincaoPath = join(topPath, distincaoDir)
+        if (!statSync(distincaoPath).isDirectory()) continue
+        const files = loadJsonDir<Record<string, unknown>>(distincaoPath)
+        rows.push(...files.map((p) => mapPoder(p, "poder_distincao", null, null, distincaoDir)))
       }
       continue
     }
@@ -187,14 +236,21 @@ function seedPoderes(insert: ReturnType<typeof Database.prototype.transaction>):
   insert("poderes", rows)
 }
 
-function mapPoder(p: Record<string, unknown>, type: string, originId: string | null, classId: string | null): Record<string, unknown> {
+function mapPoder(
+  p: Record<string, unknown>,
+  type: string,
+  originId: string | null,
+  classId: string | null,
+  distincaoId: string | null = null
+): Record<string, unknown> {
   return {
     id: p.id, name: p.name, type,
     description: p.description ?? null,
     effects: p.effects ?? [], costs: p.costs ?? [],
     prerequisites: p.requirements ?? p.prerequisites ?? [],
-    origin_id: originId, class_id: classId,
+    origin_id: originId, class_id: classId, distincao_id: distincaoId,
     deities: p.deities ?? [],
+    livro_id: livroIdOf(p),
   }
 }
 
@@ -218,6 +274,7 @@ function seedMagias(insert: ReturnType<typeof Database.prototype.transaction>): 
       extra_costs_material_component: null, extra_costs_material_cost: null,
       extra_costs_pm_debuff: null, extra_costs_pm_sacrifice: null,
       enhancements: m.enhancements ?? [], effects: m.effects ?? [],
+      livro_id: livroIdOf(m),
     }
   }))
 }
@@ -244,6 +301,7 @@ function seedEquipamentos(insert: ReturnType<typeof Database.prototype.transacti
     weight: a.espacos ?? 0,
     properties: a.habilidades ?? [],
     description: a.description ?? null,
+    livro_id: livroIdOf(a),
   })))
 
   const armaduras = loadJsonFiles<Record<string, unknown>>(join(eqDir, "armaduras"))
@@ -255,6 +313,7 @@ function seedEquipamentos(insert: ReturnType<typeof Database.prototype.transacti
     weight: a.espacos ?? a.weight ?? 0,
     properties: a.habilidades ?? a.properties ?? [],
     description: a.description ?? null,
+    livro_id: livroIdOf(a),
   })))
 
   const escudos = loadJsonFiles<Record<string, unknown>>(join(eqDir, "escudos"))
@@ -266,6 +325,7 @@ function seedEquipamentos(insert: ReturnType<typeof Database.prototype.transacti
     weight: e.espacos ?? e.weight ?? 0,
     properties: e.habilidades ?? e.properties ?? [],
     description: e.description ?? null,
+    livro_id: livroIdOf(e),
   })))
 
   const itens = loadJsonFiles<Record<string, unknown>>(join(eqDir, "itens"))
@@ -275,6 +335,7 @@ function seedEquipamentos(insert: ReturnType<typeof Database.prototype.transacti
     weight: i.espacos ?? i.weight ?? 0,
     description: i.description ?? null,
     effects: i.effects ?? {},
+    livro_id: livroIdOf(i),
   })))
 }
 
@@ -286,6 +347,7 @@ function seedItensSuperiores(insert: ReturnType<typeof Database.prototype.transa
     id: m.id, name: m.name, description: m.description ?? null,
     applicable_to: [], price_modifier: m.precos_adicionais ?? m.price_modifier ?? {},
     effects: m.efeitos ?? m.effects ?? {},
+    livro_id: livroIdOf(m),
   })))
 
   const melhorias = loadJsonFiles<Record<string, unknown>>(join(dir, "melhorias"))
@@ -293,6 +355,7 @@ function seedItensSuperiores(insert: ReturnType<typeof Database.prototype.transa
     id: m.id, name: m.name, description: m.description ?? null,
     applicable_to: m.applicable_to ?? [], price: m.price ?? 0,
     effects: m.effects ?? {},
+    livro_id: livroIdOf(m),
   })))
 
   const encantamentos = loadJsonFiles<Record<string, unknown>>(join(dir, "encantamentos"))
@@ -301,8 +364,10 @@ function seedItensSuperiores(insert: ReturnType<typeof Database.prototype.transa
     categoria: e.categoria ?? "arma",
     escudo_only: e.escudo_only ? 1 : 0,
     conta_como_dois: e.conta_como_dois ? 1 : 0,
+    maldicao: e.maldicao ? 1 : 0,
     prerequisitos: e.prerequisitos ?? [],
-    efeito: e.efeito ?? {},
+    effects: e.effects ?? [],
+    livro_id: livroIdOf(e),
   })))
 }
 
@@ -312,6 +377,7 @@ function seedCondicoes(insert: ReturnType<typeof Database.prototype.transaction>
     id: c.id, name: c.name, description: c.description ?? null,
     effects: c.effects ?? [], condition_type: c.condition_type ?? c.tipo ?? null,
     escalates_to: c.escalates_to ?? null,
+    livro_id: livroIdOf(c),
   })))
 }
 
@@ -323,6 +389,80 @@ function seedPericias(insert: ReturnType<typeof Database.prototype.transaction>)
     armor_penalty: p.armor_penalty ? 1 : 0,
     resistance_skill: p.resistance_skill ? 1 : 0,
     description: p.description ?? null, uses: p.uses ?? [],
+    livro_id: livroIdOf(p),
+  })))
+}
+
+function seedClassesVariantes(insert: ReturnType<typeof Database.prototype.transaction>): void {
+  if (!existsDir(join(JSON_DIR, "classes_variantes"))) return
+  const rows = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "classes_variantes"))
+  insert("classes_variantes", rows.map((r) => ({
+    id: r.id, name: r.name, base_class_id: r.base_class_id,
+    description: r.description ?? null, diffs: r.diffs ?? [],
+    livro_id: livroIdOf(r),
+  })))
+}
+
+function seedDistincoes(insert: ReturnType<typeof Database.prototype.transaction>): void {
+  if (!existsDir(join(JSON_DIR, "distincoes"))) return
+  const rows = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "distincoes"))
+  insert("distincoes", rows.map((r) => ({
+    id: r.id, name: r.name, description: r.description ?? null,
+    admissao: r.admissao ?? null, marca_nome: r.marca_nome ?? null,
+    marca_descricao: r.marca_descricao ?? null, nivel_minimo: r.nivel_minimo ?? null,
+    livro_id: livroIdOf(r),
+  })))
+}
+
+function seedComplicacoes(insert: ReturnType<typeof Database.prototype.transaction>): void {
+  if (!existsDir(join(JSON_DIR, "complicacoes"))) return
+  const rows = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "complicacoes"))
+  insert("complicacoes", rows.map((r) => ({
+    id: r.id, name: r.name, description: r.description ?? null,
+    categoria: r.categoria ?? "geral", effects: r.effects ?? [],
+    livro_id: livroIdOf(r),
+  })))
+}
+
+function seedBasesTipos(insert: ReturnType<typeof Database.prototype.transaction>): void {
+  if (!existsDir(join(JSON_DIR, "bases_tipos"))) return
+  const rows = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "bases_tipos"))
+  insert("bases_tipos", rows.map((r) => ({
+    id: r.id, name: r.name, description: r.description ?? null,
+    effects: r.effects ?? [],
+    livro_id: livroIdOf(r),
+  })))
+}
+
+function seedComodos(insert: ReturnType<typeof Database.prototype.transaction>): void {
+  if (!existsDir(join(JSON_DIR, "comodos"))) return
+  const rows = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "comodos"))
+  insert("comodos", rows.map((r) => ({
+    id: r.id, name: r.name, description: r.description ?? null,
+    effects: r.effects ?? [], prerequisito: r.prerequisito ?? null,
+    livro_id: livroIdOf(r),
+  })))
+}
+
+function seedMobilias(insert: ReturnType<typeof Database.prototype.transaction>): void {
+  if (!existsDir(join(JSON_DIR, "mobilias"))) return
+  const rows = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "mobilias"))
+  insert("mobilias", rows.map((r) => ({
+    id: r.id, name: r.name, description: r.description ?? null,
+    effects: r.effects ?? [], preco: r.preco ?? null,
+    comodo_alvo: r.comodo_alvo ?? null,
+    livro_id: livroIdOf(r),
+  })))
+}
+
+function seedConstrucoesDominio(insert: ReturnType<typeof Database.prototype.transaction>): void {
+  if (!existsDir(join(JSON_DIR, "construcoes_dominio"))) return
+  const rows = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "construcoes_dominio"))
+  insert("construcoes_dominio", rows.map((r) => ({
+    id: r.id, name: r.name, description: r.description ?? null,
+    categoria: r.categoria, custo: r.custo ?? null,
+    effects: r.effects ?? [], prerequisito: r.prerequisito ?? null,
+    livro_id: livroIdOf(r),
   })))
 }
 
@@ -330,8 +470,8 @@ function seedRegras(insert: ReturnType<typeof Database.prototype.transaction>): 
   if (!existsDir(join(JSON_DIR, "regras"))) return
   const regras = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "regras"))
   insert("regras", regras.map((r) => {
-    const { id, name, description, ...rest } = r
-    return { id, name, description: description ?? null, data: rest }
+    const { id, name, description, livro, livro_id, ...rest } = r
+    return { id, name, description: description ?? null, data: rest, livro_id: (livro_id as string | undefined) ?? (livro as string | undefined) ?? "t20_eja" }
   }))
 }
 
@@ -342,6 +482,8 @@ function seedTabelas(insert: ReturnType<typeof Database.prototype.transaction>):
     id: t.id, name: t.name, description: t.description ?? null,
     headers: t.headers ?? [],
     rows: t.rows ?? [],
+    dice: t.dice ?? null,
+    livro_id: livroIdOf(t),
   })))
 }
 
@@ -363,6 +505,7 @@ function seedItensmagicos(insert: ReturnType<typeof Database.prototype.transacti
       pm_cost: p.pm_cost, categoria: p.categoria, preco: p.preco ?? null,
       roll_min: p.roll_min ?? null, roll_max: p.roll_max ?? null,
       aprimoramento: p.aprimoramento ?? null, description: p.description ?? null,
+      livro_id: livroIdOf(p),
     })))
   }
 
@@ -371,7 +514,18 @@ function seedItensmagicos(insert: ReturnType<typeof Database.prototype.transacti
     insert("acessorios_magicos", acessorios.map((a) => ({
       id: a.id, name: a.name, categoria: a.categoria, preco: a.preco ?? null,
       roll_min: a.roll_min ?? null, roll_max: a.roll_max ?? null,
-      description: a.description ?? null, efeito: a.efeito ?? {},
+      description: a.description ?? null, effects: a.effects ?? [],
+      livro_id: livroIdOf(a),
+    })))
+  }
+
+  if (existsDir(join(base, "esotericos"))) {
+    const esotericos = loadJsonDir<Record<string, unknown>>(join(base, "esotericos"))
+    insert("esotericos_magicos", esotericos.map((e) => ({
+      id: e.id, name: e.name, categoria: e.categoria, preco: e.preco ?? null,
+      roll_min: e.roll_min ?? null, roll_max: e.roll_max ?? null,
+      description: e.description ?? null, effects: e.effects ?? [],
+      livro_id: livroIdOf(e),
     })))
   }
 }
@@ -417,6 +571,7 @@ function seedArmasMagicasEspecificas(insert: ReturnType<typeof Database.prototyp
     preco: r.preco ?? null,
     description: r.description ?? null,
     effects: r.effects ?? [],
+    livro_id: livroIdOf(r),
   })))
 }
 
@@ -431,6 +586,7 @@ function seedArmadurasEscudosMagicos(insert: ReturnType<typeof Database.prototyp
     preco: r.preco ?? null,
     description: r.description ?? null,
     effects: r.effects ?? [],
+    livro_id: livroIdOf(r),
   })))
 }
 
@@ -447,6 +603,7 @@ function seedItensLiturgicos(insert: ReturnType<typeof Database.prototype.transa
     preco: r.preco ?? null,
     description: r.description ?? null,
     effects: r.effects ?? [],
+    livro_id: livroIdOf(r),
   })))
 }
 
@@ -458,6 +615,7 @@ function seedArtefatos(insert: ReturnType<typeof Database.prototype.transaction>
     id: r.id, name: r.name,
     description: r.description ?? null,
     effects: r.effects ?? [],
+    livro_id: livroIdOf(r),
   })))
 }
 
@@ -494,6 +652,7 @@ function seedAmeacas(insert: ReturnType<typeof Database.prototype.transaction>):
       description: r.description ?? null,
       familiar: r.familiar ?? null,
       parceiro: r.parceiro ?? null,
+      livro_id: livroIdOf(r),
     }
   }))
 }
