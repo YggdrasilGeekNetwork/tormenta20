@@ -1,0 +1,12 @@
+{
+  "id": "criado_pelas_voracis",
+  "name": "Criado pelas Voracis",
+  "origin": "criado_pelas_voracis",
+  "description": "Você recebe +2 na Defesa e Sobrevivência e +3m em seu deslocamento.",
+  "effects": {
+    "bonus_defesa": 2,
+    "bonus_sobrevivencia": 2,
+    "bonus_deslocamento": "3m"
+  },
+  "livro": "atlas_de_arton"
+}

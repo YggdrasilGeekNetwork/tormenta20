@@ -1,0 +1,26 @@
+{
+  "id": "agricultor_sambur",
+  "name": "Agricultor Sambur",
+  "description": "Origem regional de Repúblicas Livres de Sambúrdia. Você trabalhou nos campos férteis das Repúblicas Livres, onde aprendeu muito sobre os animais, a natureza e o trabalho duro.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Ferramenta agrícola (mesmas estatísticas de uma lança)"
+    },
+    {
+      "type": "fixed",
+      "text": "T$ 100 (um presente de despedida da sua família)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Adestramento",
+      "Sobrevivência"
+    ],
+    "powers": [
+      "Agricultor Sambur"
+    ]
+  },
+  "unique_power": "agricultor_sambur",
+  "livro": "atlas_de_arton"
+}

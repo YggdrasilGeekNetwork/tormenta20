@@ -1,0 +1,23 @@
+{
+  "id": "irmao_sem_esporas",
+  "name": "Irmão sem Esporas",
+  "description": "Origem regional de Namalkah. Você possui um cavalo que o acompanha desde a infância; vocês cresceram juntos, tornando-se verdadeiros irmãos.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Bálsamo restaurador"
+    },
+    {
+      "type": "fixed",
+      "text": "Sela"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Irmão sem Esporas"
+    ]
+  },
+  "unique_power": "irmao_sem_esporas",
+  "livro": "atlas_de_arton"
+}

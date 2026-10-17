@@ -1,0 +1,30 @@
+{
+  "id": "catador_da_cidade_velha",
+  "name": "Catador da Cidade Velha",
+  "description": "Origem regional de Nova Malpetrim. As ruínas inundadas da Velha Malpetrim guardam riquezas, segredos e incontáveis perigos. Você cresceu vasculhando essas profundezas em busca do almoço do dia seguinte.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Luneta"
+    },
+    {
+      "type": "fixed",
+      "text": "Luvas de pelica"
+    },
+    {
+      "type": "fixed",
+      "text": "Tranqueiras resgatadas do mar (2 espaços, valor de venda T$ 100)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Fortitude",
+      "Percepção"
+    ],
+    "powers": [
+      "Catador da Cidade Velha"
+    ]
+  },
+  "unique_power": "catador_da_cidade_velha",
+  "livro": "atlas_de_arton"
+}

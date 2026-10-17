@@ -1,0 +1,18 @@
+{
+  "id": "assistente_forense",
+  "name": "Assistente Forense",
+  "origin": "assistente_forense",
+  "description": "Você é treinado em Investigação e pode usar esta perícia para necropsia, identificar itens alquímicos e rastrear (veja as perícias Cura, Ofício e Sobrevivência). Além disso, pode identificar criaturas em uma cena de crime mesmo que elas não estejam mais presentes, com penalidade de -1 para cada dia decorrido; se passar, também identifica a raça da criatura.",
+  "effects": {
+    "usos_investigacao": [
+      "necropsia",
+      "identificar itens alquímicos",
+      "rastrear"
+    ],
+    "identificar_criatura_ausente": {
+      "penalidade_por_dia": -1,
+      "sucesso_extra": "identifica a raça"
+    }
+  },
+  "livro": "atlas_de_arton"
+}

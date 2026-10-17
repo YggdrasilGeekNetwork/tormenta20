@@ -1,0 +1,23 @@
+{
+  "id": "estudante_da_academia",
+  "name": "Estudante da Academia",
+  "description": "Origem regional de Academia Arcana. Você frequentou a Academia Arcana. Pode ou não ter se tornado um arcanista, mas com certeza aprendeu algo sobre lançar magias.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Coleção de livros (uma qualquer)"
+    },
+    {
+      "type": "fixed",
+      "text": "Essência de mana x2"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Estudante da Academia"
+    ]
+  },
+  "unique_power": "estudante_da_academia",
+  "livro": "atlas_de_arton"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "cria_da_favela",
+  "name": "Cria da Favela",
+  "origin": "cria_da_favela",
+  "description": "Você recebe +1 em Constituição e, por piores que sejam as condições de descanso, sua recuperação é sempre pelo menos normal.",
+  "effects": {
+    "bonus_atributo": {
+      "constituicao": 1
+    },
+    "recuperacao_minima": "normal, independente das condições de descanso"
+  },
+  "livro": "atlas_de_arton"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "querido_filho",
+  "name": "Querido Filho",
+  "description": "Origem regional de Aslothia. Você passou parte de sua juventude em Aslothia. Lá, por escolha ou imposição do destino, abraçou a dádiva das trevas.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Essência de sombra"
+    },
+    {
+      "type": "fixed",
+      "text": "Manto camuflado (urbano)"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Querido Filho"
+    ]
+  },
+  "unique_power": "querido_filho",
+  "livro": "atlas_de_arton"
+}

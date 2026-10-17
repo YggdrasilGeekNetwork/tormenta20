@@ -1,0 +1,23 @@
+{
+  "id": "um_com_os_kami",
+  "name": "Um com os Kami",
+  "description": "Origem regional de Tamu-ra. Desde muito novo, você vê e ouve seres que não podem ser percebidos pela maioria das pessoas. São os kami, os espíritos divinos de Tamu-ra. Às vezes estão enfurecidos; outras vezes, querem pedir sua ajuda. Na maior parte das ocasiões, apenas acham graça de ser percebidos por você e por isso o tratam como amigo.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Bálsamo restaurador"
+    },
+    {
+      "type": "fixed",
+      "text": "Essência de mana"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Um com os Kami"
+    ]
+  },
+  "unique_power": "um_com_os_kami",
+  "livro": "atlas_de_arton"
+}

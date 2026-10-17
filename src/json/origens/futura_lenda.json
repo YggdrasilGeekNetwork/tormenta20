@@ -1,0 +1,23 @@
+{
+  "id": "futura_lenda",
+  "name": "Futura Lenda",
+  "description": "Origem regional de Nova Malpetrim. Você nasceu ouvindo histórias sobre heróis, talvez tenha sido batizado com o nome de um deles e por fim decidiu fazer a única coisa que tinha sentido: superá-los!",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma simples ou marcial com nome pomposo (e nenhuma melhoria)"
+    },
+    {
+      "type": "fixed",
+      "text": "Essência de mana x2"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Futura Lenda"
+    ]
+  },
+  "unique_power": "futura_lenda",
+  "livro": "atlas_de_arton"
+}

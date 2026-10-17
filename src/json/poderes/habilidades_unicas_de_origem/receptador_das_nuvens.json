@@ -1,0 +1,16 @@
+{
+  "id": "receptador_das_nuvens",
+  "name": "Receptador das Nuvens",
+  "origin": "receptador_das_nuvens",
+  "description": "Você possui contatos em Vectora que lhe dão acesso a mercadorias. Se estiver em um lugar onde, a critério do mestre, possa acessar seus contatos, você pode gastar 1 dia para obter um aparato mágico: um item de 1 espaço que você pode empunhar para lançar uma magia de 1º círculo (atributo-chave Inteligência), escolhida ao obter o aparato. Você pode ter até 2 aparatos ao mesmo tempo. Os aparatos não têm valor comercial.",
+  "effects": {
+    "aparato_magico": {
+      "custo": "1 dia",
+      "espacos": 1,
+      "magia": "1º círculo, atributo-chave Inteligência, escolhida ao obter",
+      "limite": 2,
+      "valor_comercial": "nenhum"
+    }
+  },
+  "livro": "atlas_de_arton"
+}

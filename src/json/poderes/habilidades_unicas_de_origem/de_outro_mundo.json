@@ -1,0 +1,20 @@
+{
+  "id": "de_outro_mundo",
+  "name": "De Outro Mundo",
+  "origin": "de_outro_mundo",
+  "description": "Você possui uma habilidade ou tecnologia especial de seu mundo de origem. Escolha uma magia de 1º círculo e um atributo-chave para ela. Se for uma habilidade, você pode lançar essa magia. Se for uma tecnologia, você recebe um item Minúsculo (RD 10, PV iguais à metade dos seus) que ocupa 1 espaço e deve ser empunhado para lançar a magia, mas seu limite de PM para ela aumenta em +2. Por fim, escolha se o efeito será mágico ou mundano (nesse caso, não contará como uma magia, exceto para fins de acúmulo). O mestre tem a palavra final sobre qualquer efeito e combinação.",
+  "effects": {
+    "escolha": "magia de 1º círculo + atributo-chave",
+    "modo_habilidade": "pode lançar a magia diretamente",
+    "modo_tecnologia": {
+      "item_minusculo": {
+        "rd": 10,
+        "pv": "metade do seu",
+        "espacos": 1
+      },
+      "bonus_limite_pm": 2
+    },
+    "escolha_natureza": "mágico ou mundano"
+  },
+  "livro": "atlas_de_arton"
+}

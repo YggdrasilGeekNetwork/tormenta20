@@ -1,0 +1,25 @@
+{
+  "id": "armeiro_armado",
+  "name": "Armeiro Armado",
+  "description": "Origem regional de Zakharov. Você aprendeu o ofício mais tradicional e respeitado de Zakharov. Suas armas não são apenas instrumentos de combate, mas obras de arte.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma marcial"
+    },
+    {
+      "type": "fixed",
+      "text": "Instrumentos de Ofício (armeiro)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Ofício (armeiro)"
+    ],
+    "powers": [
+      "Armeiro Armado"
+    ]
+  },
+  "unique_power": "armeiro_armado",
+  "livro": "atlas_de_arton"
+}

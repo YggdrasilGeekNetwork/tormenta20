@@ -1,0 +1,12 @@
+{
+  "id": "ginete_de_tumarkhan",
+  "name": "Ginete de Tumarkhân",
+  "origin": "ginete_de_tumarkhan",
+  "description": "Você é treinado em Cavalgar e possui um parceiro tumarkhân iniciante, com quem recebe +2 em testes de Adestramento e Cavalgar. Se receber outra montaria especial, pode usar seu tumarkhân como essa montaria, acumulando o bônus em perícias com os benefícios da montaria especial.",
+  "effects": {
+    "parceiro": "tumarkhan (iniciante)",
+    "bonus_adestramento_e_cavalgar": 2,
+    "compatibilidade_montaria_especial": true
+  },
+  "livro": "atlas_de_arton"
+}

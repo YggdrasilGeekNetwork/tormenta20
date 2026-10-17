@@ -1,0 +1,11 @@
+{
+  "id": "filhote_da_revoada",
+  "name": "Filhote da Revoada",
+  "origin": "filhote_da_revoada",
+  "description": "Você é treinado em Acrobacia e Pilotagem. Quando faz um teste de uma dessas perícias, pode gastar 1 PM para rolar um dado adicional e usar o melhor resultado.",
+  "effects": {
+    "custo_pm": 1,
+    "efeito": "rola um dado adicional e usa o melhor resultado em Acrobacia ou Pilotagem"
+  },
+  "livro": "atlas_de_arton"
+}

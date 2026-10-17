@@ -1,0 +1,11 @@
+{
+  "id": "amoque_purpura",
+  "name": "Amoque Púrpura",
+  "origin": "amoque_purpura",
+  "description": "Você é treinado em Intimidação e, quando está sob efeito de Fúria, Fúria Divina ou Poder Oculto, recebe +2 em rolagens de dano.",
+  "effects": {
+    "condicao": "sob efeito de Fúria, Fúria Divina ou Poder Oculto",
+    "bonus_dano": 2
+  },
+  "livro": "atlas_de_arton"
+}

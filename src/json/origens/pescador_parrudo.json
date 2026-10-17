@@ -1,0 +1,23 @@
+{
+  "id": "pescador_parrudo",
+  "name": "Pescador Parrudo",
+  "description": "Origem regional de Khubar. Desde criança, você pesca nas águas profundas de Khubar. Tal atividade deixou seu corpo forte e resistente.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Vara de pesca (pode usar Sobrevivência para sustento)"
+    },
+    {
+      "type": "fixed",
+      "text": "Peixes raros salgados para revenda (1 espaço, T$ 50)"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Pescador Parrudo"
+    ]
+  },
+  "unique_power": "pescador_parrudo",
+  "livro": "atlas_de_arton"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "amazona_de_hippion",
+  "name": "Amazona de Hippion",
+  "origin": "amazona_de_hippion",
+  "description": "Você é treinada em Cavalgar e, se não estiver usando armadura pesada, soma seu Carisma nos PM, limitado pelo seu nível (apenas após um dia).",
+  "effects": {
+    "condicao": "sem armadura pesada",
+    "bonus_pm": "carisma, limitado pelo nível, apenas após um dia"
+  },
+  "livro": "atlas_de_arton"
+}

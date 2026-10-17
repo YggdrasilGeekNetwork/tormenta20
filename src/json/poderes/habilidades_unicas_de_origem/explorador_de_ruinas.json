@@ -1,0 +1,13 @@
+{
+  "id": "explorador_de_ruinas",
+  "name": "Explorador de Ruínas",
+  "origin": "explorador_de_ruinas",
+  "description": "Você recebe +2 em Ladinagem, Percepção e Reflexos e +3m em seu deslocamento.",
+  "effects": {
+    "bonus_ladinagem": 2,
+    "bonus_percepcao": 2,
+    "bonus_reflexos": 2,
+    "bonus_deslocamento": "3m"
+  },
+  "livro": "atlas_de_arton"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "criado_pelas_voracis",
+  "name": "Criado pelas Voracis",
+  "description": "Origem regional de Galrasia. Ainda jovem, você foi encontrado por um grupo de voracis em Galrasia. Elas o adotaram e o criaram de acordo com suas tradições e valores.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma simples"
+    },
+    {
+      "type": "fixed",
+      "text": "Armadura leve"
+    },
+    {
+      "type": "fixed",
+      "text": "Lança"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Criado pelas Voracis"
+    ]
+  },
+  "unique_power": "criado_pelas_voracis",
+  "livro": "atlas_de_arton"
+}

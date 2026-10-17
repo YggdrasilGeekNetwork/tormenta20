@@ -1,0 +1,27 @@
+{
+  "id": "aprendiz_de_dragoeiro",
+  "name": "Aprendiz de Dragoeiro",
+  "description": "Origem regional de Sckharshantallas. Você aprendeu técnicas para enfrentar dragões tolos a ponto de entrar em Sckharshantallas — o que certamente será útil contra outras feras.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma simples ou marcial à sua escolha"
+    },
+    {
+      "type": "fixed",
+      "text": "Troféu de caça"
+    },
+    {
+      "type": "fixed",
+      "text": "Treckod"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Aprendiz de Dragoeiro"
+    ]
+  },
+  "unique_power": "aprendiz_de_dragoeiro",
+  "livro": "atlas_de_arton"
+}

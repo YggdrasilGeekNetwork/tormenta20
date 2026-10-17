@@ -1,0 +1,23 @@
+{
+  "id": "nitamuraniano",
+  "name": "Nitamuraniano",
+  "description": "Origem regional de Valkaria. Você foi criado na maior comunidade tamuraniana fora do próprio Império de Jade. Seus valores culturais misturam as complexas e distintas tradições deheoni e tamuranianas.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arco longo ou katana"
+    },
+    {
+      "type": "fixed",
+      "text": "Camisa bufante ou traje de seda"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Nitamuraniano"
+    ]
+  },
+  "unique_power": "nitamuraniano",
+  "livro": "atlas_de_arton"
+}

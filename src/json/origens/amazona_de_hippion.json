@@ -1,0 +1,25 @@
+{
+  "id": "amazona_de_hippion",
+  "name": "Amazona de Hippion",
+  "description": "Origem regional de Deheon, Namalkah. Você é uma das orgulhosas amazonas de Hippion, um dos povos nativos de Arton Norte.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma simples ou marcial"
+    },
+    {
+      "type": "fixed",
+      "text": "Cavalo de guerra"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Cavalgar"
+    ],
+    "powers": [
+      "Amazona de Hippion"
+    ]
+  },
+  "unique_power": "amazona_de_hippion",
+  "livro": "atlas_de_arton"
+}

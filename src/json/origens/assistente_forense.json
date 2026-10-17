@@ -1,0 +1,21 @@
+{
+  "id": "assistente_forense",
+  "name": "Assistente Forense",
+  "description": "Origem regional de Salistick. Você cresceu em Salistick, onde teve contato com o que a ciência tem de mais avançado para a detecção e solução de crimes. Suas capacidades de dedução e análise se tornaram profundamente aguçadas.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Lupa (conta como uma ferramenta que fornece +1 em Investigação)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Investigação"
+    ],
+    "powers": [
+      "Assistente Forense"
+    ]
+  },
+  "unique_power": "assistente_forense",
+  "livro": "atlas_de_arton"
+}

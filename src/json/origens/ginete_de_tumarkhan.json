@@ -1,0 +1,25 @@
+{
+  "id": "ginete_de_tumarkhan",
+  "name": "Ginete de Tumarkhân",
+  "description": "Origem regional de Khubar. O povo de Khubar usa o lagarto tumarkhân como montaria. Você estabeleceu um elo com um desses animais, que o acompanha em suas jornadas.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Bálsamo restaurador"
+    },
+    {
+      "type": "fixed",
+      "text": "Sela"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Cavalgar"
+    ],
+    "powers": [
+      "Ginete de Tumarkhân"
+    ]
+  },
+  "unique_power": "ginete_de_tumarkhan",
+  "livro": "atlas_de_arton"
+}

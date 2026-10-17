@@ -1,0 +1,14 @@
+{
+  "id": "plebeu_arcano",
+  "name": "Plebeu Arcano",
+  "origin": "plebeu_arcano",
+  "description": "Você recebe +2 PM. Além disso, uma vez por rodada, quando falha em um teste de resistência contra um efeito mágico, você pode gastar 1 PM para rolar novamente esse teste.",
+  "effects": {
+    "bonus_pm": 2,
+    "rerolar_resistencia_magica": {
+      "custo_pm": 1,
+      "frequencia": "1x_por_rodada"
+    }
+  },
+  "livro": "atlas_de_arton"
+}

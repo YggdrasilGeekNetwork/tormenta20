@@ -1,0 +1,27 @@
+{
+  "id": "nomade_sar_allan",
+  "name": "Nômade Sar-Allan",
+  "description": "Origem regional de Halak-Tûr. Você cresceu entre os sar-allan, aprendendo a resistir aos rigores — e aos predadores — do deserto.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma simples ou marcial"
+    },
+    {
+      "type": "fixed",
+      "text": "Corcel do deserto ou dromedário (veja Ameaças de Arton)"
+    },
+    {
+      "type": "fixed",
+      "text": "Manto camuflado (deserto)"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Nômade Sar-Allan"
+    ]
+  },
+  "unique_power": "nomade_sar_allan",
+  "livro": "atlas_de_arton"
+}

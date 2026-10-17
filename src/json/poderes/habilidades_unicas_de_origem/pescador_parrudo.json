@@ -1,0 +1,14 @@
+{
+  "id": "pescador_parrudo",
+  "name": "Pescador Parrudo",
+  "origin": "pescador_parrudo",
+  "description": "Você recebe +2 em Atletismo, Fortitude e Sobrevivência e +3 PV. Além disso, quando faz um teste de Atletismo para nadar você avança seu deslocamento completo (em vez de apenas a metade).",
+  "effects": {
+    "bonus_atletismo": 2,
+    "bonus_fortitude": 2,
+    "bonus_sobrevivencia": 2,
+    "bonus_pv": 3,
+    "natacao": "avança deslocamento completo em vez de metade"
+  },
+  "livro": "atlas_de_arton"
+}

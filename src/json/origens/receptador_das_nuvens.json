@@ -1,0 +1,19 @@
+{
+  "id": "receptador_das_nuvens",
+  "name": "Receptador das Nuvens",
+  "description": "Origem regional de Vectora. Você cresceu em Vectora, o fabuloso Mercado nas Nuvens. Andando entre os bazares e becos da cidade, conheceu diversos mercadores.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Mercadorias raras e variadas (2 espaços, T$ 300)"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Receptador das Nuvens"
+    ]
+  },
+  "unique_power": "receptador_das_nuvens",
+  "livro": "atlas_de_arton"
+}

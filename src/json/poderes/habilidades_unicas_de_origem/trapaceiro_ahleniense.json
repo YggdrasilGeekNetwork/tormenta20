@@ -1,0 +1,16 @@
+{
+  "id": "trapaceiro_ahleniense",
+  "name": "Trapaceiro Ahleniense",
+  "origin": "trapaceiro_ahleniense",
+  "description": "Você recebe +2 em Enganação e Furtividade e pode usar Carisma como atributo-chave de Ladinagem (em vez de Destreza).",
+  "effects": {
+    "bonus_enganacao": 2,
+    "bonus_furtividade": 2,
+    "troca_atributo_chave": {
+      "pericia": "ladinagem",
+      "de": "destreza",
+      "para": "carisma"
+    }
+  },
+  "livro": "atlas_de_arton"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "aprendiz_de_drogadora",
+  "name": "Aprendiz de Drogadora",
+  "description": "Origem regional de Galrasia. Você era discípula de uma voracis drogadora e estudou as artes de cura em Galrasia.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Bálsamo restaurador x2"
+    },
+    {
+      "type": "fixed",
+      "text": "Poção de curar ferimentos x2"
+    },
+    {
+      "type": "fixed",
+      "text": "Maleta de medicamentos"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Cura",
+      "Ofício (alquimista)"
+    ],
+    "powers": [
+      "Aprendiz de Drogadora"
+    ]
+  },
+  "unique_power": "aprendiz_de_drogadora",
+  "livro": "atlas_de_arton"
+}

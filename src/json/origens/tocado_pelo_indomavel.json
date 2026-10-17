@@ -1,0 +1,25 @@
+{
+  "id": "tocado_pelo_indomavel",
+  "name": "Tocado pelo Indomável",
+  "description": "Origem regional de Moreania. A face oposta da Dama Altiva, o Indomável é uma divindade de ferocidade e selvageria. Agraciado com o poder dos monstros, você tem dificuldade em se adequar às normas e restrições da sociedade.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Trapos surrados"
+    },
+    {
+      "type": "fixed",
+      "text": "Carcaça de couro de algum animal caçado por você (conta como um gibão de peles)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Atletismo"
+    ],
+    "powers": [
+      "Tocado pelo Indomável"
+    ]
+  },
+  "unique_power": "tocado_pelo_indomavel",
+  "livro": "atlas_de_arton"
+}

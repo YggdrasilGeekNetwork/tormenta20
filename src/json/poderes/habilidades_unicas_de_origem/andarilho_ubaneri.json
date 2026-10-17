@@ -1,0 +1,12 @@
+{
+  "id": "andarilho_ubaneri",
+  "name": "Andarilho Ubaneri",
+  "origin": "andarilho_ubaneri",
+  "description": "Você recebe um alikunhá, um parceiro iniciante que não conta em seu limite de parceiros, e proficiência com escudos. Caso já tenha essa proficiência, o bônus na Defesa que seu escudo fornece aumenta em +1.",
+  "effects": {
+    "parceiro": "alikunha (iniciante, não conta no limite de parceiros)",
+    "proficiencia": "escudos",
+    "se_ja_proficiente": "+1 na Defesa do escudo"
+  },
+  "livro": "atlas_de_arton"
+}

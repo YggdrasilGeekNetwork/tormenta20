@@ -1,0 +1,27 @@
+{
+  "id": "trapaceiro_ahleniense",
+  "name": "Trapaceiro Ahleniense",
+  "description": "Origem regional de Ahlen. Há um ditado em Ahlen: todo dia saem de casa um malandro e um otário. Você definitivamente aprendeu como não ser o otário.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Essência de sombra"
+    },
+    {
+      "type": "fixed",
+      "text": "Gazua"
+    },
+    {
+      "type": "fixed",
+      "text": "Estojo de disfarces"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Trapaceiro Ahleniense"
+    ]
+  },
+  "unique_power": "trapaceiro_ahleniense",
+  "livro": "atlas_de_arton"
+}

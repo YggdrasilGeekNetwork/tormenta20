@@ -1,0 +1,23 @@
+{
+  "id": "emissario_ubaneri",
+  "name": "Emissário Ubaneri",
+  "description": "Origem regional de Ubani. Você foi preparado para percorrer as terras distantes e conhecer mais sobre o mundo além da Savana. Você nunca fica solitário, pois está acompanhado de um alikunhá, um pequeno pedaço de Ubani.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Essência de mana"
+    },
+    {
+      "type": "fixed",
+      "text": "Mochila de aventureiro"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Emissário Ubaneri"
+    ]
+  },
+  "unique_power": "emissario_ubaneri",
+  "livro": "atlas_de_arton"
+}

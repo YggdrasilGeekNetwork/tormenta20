@@ -1,0 +1,11 @@
+{
+  "id": "cativo_das_fadas",
+  "name": "Cativo das Fadas",
+  "origin": "cativo_das_fadas",
+  "description": "Você recebe resistência a espíritos e magia +2 e +1 PV por nível de personagem.",
+  "effects": {
+    "resistencia_a_espiritos_e_magia": 2,
+    "bonus_pv_por_nivel": 1
+  },
+  "livro": "atlas_de_arton"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "profeta_do_akzath",
+  "name": "Profeta do Akzath",
+  "description": "Origem regional de Lamnor. Você conhece a verdade sobre o tempo e o destino, na forma do Akzath. Quem sabe será você a encontrar o novo Ayrrak?",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma simples ou marcial"
+    },
+    {
+      "type": "fixed",
+      "text": "Bordão"
+    },
+    {
+      "type": "fixed",
+      "text": "Pergaminho com diagrama do Akzath"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Religião"
+    ],
+    "powers": [
+      "Profeta do Akzath"
+    ]
+  },
+  "unique_power": "profeta_do_akzath",
+  "livro": "atlas_de_arton"
+}

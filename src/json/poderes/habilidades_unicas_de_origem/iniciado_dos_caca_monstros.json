@@ -1,0 +1,12 @@
+{
+  "id": "iniciado_dos_caca_monstros",
+  "name": "Iniciado dos Caça-Monstros",
+  "origin": "iniciado_dos_caca_monstros",
+  "description": "Você pode fazer testes para identificar criaturas com uma ação de movimento e, quando acerta um ataque em uma criatura não humanoide, pode gastar 1 PM para causar +1d8 pontos de dano.",
+  "effects": {
+    "identificar_criatura_acao": "movimento",
+    "custo_pm": 1,
+    "bonus_dano_nao_humanoide": "1d8"
+  },
+  "livro": "atlas_de_arton"
+}

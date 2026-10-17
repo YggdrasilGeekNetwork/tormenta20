@@ -1,0 +1,12 @@
+{
+  "id": "nobre_zakharoviano",
+  "name": "Nobre Zakharoviano",
+  "origin": "nobre_zakharoviano",
+  "description": "Você é treinado em Ofício (armeiro) e recebe uma arma superior com uma melhoria (exceto material especial). Se estiver de posse dessa arma, recebe +2 PM por patamar (apenas após um dia).",
+  "effects": {
+    "arma_concedida": "superior com uma melhoria (exceto material especial)",
+    "bonus_pm_por_patamar": 2,
+    "condicao": "em posse da arma, apenas após um dia"
+  },
+  "livro": "atlas_de_arton"
+}

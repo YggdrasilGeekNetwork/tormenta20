@@ -1,0 +1,15 @@
+{
+  "id": "lenhador_de_tollon",
+  "name": "Lenhador de Tollon",
+  "origin": "lenhador_de_tollon",
+  "description": "Você é treinado em Ofício (artesão) e recebe +5 em testes de perícias (exceto testes de ataque) relacionados a madeira. Além disso, você recebe proficiência com machadinhas e machados de batalha; caso já possua proficiência com essas armas, recebe +2 em rolagens de dano com elas.",
+  "effects": {
+    "bonus_pericias_madeira": 5,
+    "proficiencia": [
+      "machadinhas",
+      "machados de batalha"
+    ],
+    "se_ja_proficiente": "+2 em rolagens de dano"
+  },
+  "livro": "atlas_de_arton"
+}

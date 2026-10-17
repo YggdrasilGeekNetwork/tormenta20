@@ -1,0 +1,30 @@
+{
+  "id": "bandoleiro_da_fortaleza",
+  "name": "Bandoleiro da Fortaleza",
+  "description": "Origem regional de Khalifor. Você cresceu se esgueirando pelos becos de Khalifor, vendo o pior que humanos e duyshidakk têm a oferecer.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Adaga"
+    },
+    {
+      "type": "fixed",
+      "text": "Gazua"
+    },
+    {
+      "type": "fixed",
+      "text": "Manto camuflado (urbano)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Furtividade",
+      "Intimidação"
+    ],
+    "powers": [
+      "Bandoleiro da Fortaleza"
+    ]
+  },
+  "unique_power": "bandoleiro_da_fortaleza",
+  "livro": "atlas_de_arton"
+}

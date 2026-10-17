@@ -1,0 +1,25 @@
+{
+  "id": "estudante_do_colegio_real",
+  "name": "Estudante do Colégio Real",
+  "description": "Origem regional de Salistick. Você teve a oportunidade de estudar no ilustríssimo Colégio Real de Médicos de Salistick. Seu ceticismo e rigor científico o afastam dos deuses e o aproximam da compreensão da vida.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Bálsamo restaurador x3"
+    },
+    {
+      "type": "fixed",
+      "text": "Maleta de medicamentos"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Cura"
+    ],
+    "powers": [
+      "Estudante do Colégio Real"
+    ]
+  },
+  "unique_power": "estudante_do_colegio_real",
+  "livro": "atlas_de_arton"
+}

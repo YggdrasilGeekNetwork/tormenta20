@@ -1,0 +1,15 @@
+{
+  "id": "emissario_ubaneri",
+  "name": "Emissário Ubaneri",
+  "origin": "emissario_ubaneri",
+  "description": "Você recebe um alikunhá, um parceiro iniciante que não conta em seu limite de parceiros, e pode usar Sabedoria como atributo-chave de Misticismo (em vez de Inteligência).",
+  "effects": {
+    "parceiro": "alikunha (iniciante, não conta no limite de parceiros)",
+    "troca_atributo_chave": {
+      "pericia": "misticismo",
+      "de": "inteligencia",
+      "para": "sabedoria"
+    }
+  },
+  "livro": "atlas_de_arton"
+}

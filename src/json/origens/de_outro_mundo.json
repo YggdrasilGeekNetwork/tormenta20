@@ -1,0 +1,23 @@
+{
+  "id": "de_outro_mundo",
+  "name": "De Outro Mundo",
+  "description": "Origem regional de Éter Divino. Você veio de outro mundo através do Éter Divino. Como alternativa, pode ter chegado a Arton por uma tempestade de areia do Deserto da Perdição, via uma viagem planar de Vectora ou por qualquer outra forma mágica ou maluca.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Trajes exóticos"
+    },
+    {
+      "type": "fixed",
+      "text": "Um item qualquer de até T$ 100 do seu mundo natal"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "De Outro Mundo"
+    ]
+  },
+  "unique_power": "de_outro_mundo",
+  "livro": "atlas_de_arton"
+}

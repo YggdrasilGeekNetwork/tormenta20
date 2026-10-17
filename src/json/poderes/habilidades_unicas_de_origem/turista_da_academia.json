@@ -1,0 +1,11 @@
+{
+  "id": "turista_da_academia",
+  "name": "Turista da Academia",
+  "origin": "turista_da_academia",
+  "description": "Você recebe resistência a magia +2 e pode ativar pergaminhos de todas as magias arcanas de 1º círculo como se as conhecesse.",
+  "effects": {
+    "resistencia_a_magia": 2,
+    "ativar_pergaminhos": "magias arcanas de 1º círculo, como se conhecesse"
+  },
+  "livro": "atlas_de_arton"
+}

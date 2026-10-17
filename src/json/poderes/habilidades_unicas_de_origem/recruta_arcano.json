@@ -1,0 +1,11 @@
+{
+  "id": "recruta_arcano",
+  "name": "Recruta Arcano",
+  "origin": "recruta_arcano",
+  "description": "A CD para resistir a suas magias arcanas aumenta em +1 e elas causam +1 ponto de dano.",
+  "effects": {
+    "bonus_cd_magias_arcanas": 1,
+    "bonus_dano_magias_arcanas": 1
+  },
+  "livro": "atlas_de_arton"
+}

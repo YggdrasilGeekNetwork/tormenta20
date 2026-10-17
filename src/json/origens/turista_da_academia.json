@@ -1,0 +1,19 @@
+{
+  "id": "turista_da_academia",
+  "name": "Turista da Academia",
+  "description": "Origem regional de Academia Arcana. Você assistiu a algumas aulas na Academia Arcana. Não se tornou um arcanista, mas aprendeu a lidar com magias e enjambrar alguns truques!",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Três pergaminhos de magias arcanas de 1º círculo à sua escolha"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Turista da Academia"
+    ]
+  },
+  "unique_power": "turista_da_academia",
+  "livro": "atlas_de_arton"
+}

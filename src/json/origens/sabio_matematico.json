@@ -1,0 +1,25 @@
+{
+  "id": "sabio_matematico",
+  "name": "Sábio Matemático",
+  "description": "Origem regional de Halak-Tûr. Você estudou as complexas equações que os sar-allan usam para calcular a formação de portais no deserto. Talvez ainda não consiga prever esses eventos tão bem quanto seus mestres, mas sabe usar o poder da matemática para resolver diversos problemas.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Coleção de livros"
+    },
+    {
+      "type": "fixed",
+      "text": "Luneta"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Conhecimento"
+    ],
+    "powers": [
+      "Sábio Matemático"
+    ]
+  },
+  "unique_power": "sabio_matematico",
+  "livro": "atlas_de_arton"
+}

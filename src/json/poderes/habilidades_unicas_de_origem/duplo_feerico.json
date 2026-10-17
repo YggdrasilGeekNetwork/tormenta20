@@ -1,0 +1,11 @@
+{
+  "id": "duplo_feerico",
+  "name": "Duplo Feérico",
+  "origin": "duplo_feerico",
+  "description": "Escolha uma habilidade de classe de 1º nível de uma classe que não seja a sua. Você recebe essa habilidade e pode usá-la como se tivesse 1 nível naquela classe (se escolher a habilidade Magias, você aprende uma única magia e recebe +1 ponto de mana, mas não soma o atributo-chave da habilidade em seu total de PM).",
+  "effects": {
+    "escolha": "habilidade de classe de 1º nível de outra classe",
+    "caso_magias": "aprende uma magia, +1 PM, sem somar atributo-chave"
+  },
+  "livro": "atlas_de_arton"
+}

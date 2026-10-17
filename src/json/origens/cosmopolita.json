@@ -1,0 +1,27 @@
+{
+  "id": "cosmopolita",
+  "name": "Cosmopolita",
+  "description": "Origem regional de Valkaria. Tendo crescido na maior cidade de Arton, você já viu de tudo e está preparado para a maior parte.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Equipamento de viagem"
+    },
+    {
+      "type": "fixed",
+      "text": "Traje de viajante"
+    },
+    {
+      "type": "fixed",
+      "text": "Um item artístico de origem cultural indefinida (½ espaço, T$ 100)"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Cosmopolita"
+    ]
+  },
+  "unique_power": "cosmopolita",
+  "livro": "atlas_de_arton"
+}

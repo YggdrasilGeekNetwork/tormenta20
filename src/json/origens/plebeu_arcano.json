@@ -1,0 +1,27 @@
+{
+  "id": "plebeu_arcano",
+  "name": "Plebeu Arcano",
+  "description": "Origem regional de Wynlla. Crescer em Wynlla é estar próximo da magia. Esse contato o deixou mais acostumado aos aspectos místicos de Arton.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Bandoleira de poções"
+    },
+    {
+      "type": "fixed",
+      "text": "Gorro de ervas"
+    },
+    {
+      "type": "fixed",
+      "text": "Poção arcana de 1º círculo"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Plebeu Arcano"
+    ]
+  },
+  "unique_power": "plebeu_arcano",
+  "livro": "atlas_de_arton"
+}

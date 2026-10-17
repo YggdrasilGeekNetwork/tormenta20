@@ -1,0 +1,27 @@
+{
+  "id": "cria_da_favela",
+  "name": "Cria da Favela",
+  "description": "Origem regional de Valkaria. A Favela dos Goblins é um lugar empobrecido e injustiçado, esquecido pelos governantes de Valkaria. Essa comunidade o tornou resistente e incansável.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Andrajos de aldeão"
+    },
+    {
+      "type": "fixed",
+      "text": "Corda"
+    },
+    {
+      "type": "fixed",
+      "text": "Vara de madeira"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Cria da Favela"
+    ]
+  },
+  "unique_power": "cria_da_favela",
+  "livro": "atlas_de_arton"
+}

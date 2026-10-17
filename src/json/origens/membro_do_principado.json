@@ -1,0 +1,26 @@
+{
+  "id": "membro_do_principado",
+  "name": "Membro do Principado",
+  "description": "Origem regional de Repúblicas Livres de Sambúrdia. Você faz parte do Principado Mercante, uma das organizações mais poderosas das Repúblicas Livres. Ainda está longe do topo, mas até mesmo os Príncipes Mercantes começaram em algum lugar.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Carroça"
+    },
+    {
+      "type": "fixed",
+      "text": "Mercadorias sortidas (8 espaços, T$ 400)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Diplomacia",
+      "Intuição"
+    ],
+    "powers": [
+      "Membro do Principado"
+    ]
+  },
+  "unique_power": "membro_do_principado",
+  "livro": "atlas_de_arton"
+}

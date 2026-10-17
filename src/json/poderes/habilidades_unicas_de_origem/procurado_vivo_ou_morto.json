@@ -1,0 +1,13 @@
+{
+  "id": "procurado_vivo_ou_morto",
+  "name": "Procurado: Vivo ou Morto",
+  "origin": "procurado_vivo_ou_morto",
+  "description": "Você recebe proficiência com armas de fogo. Além disso, recebe +5 em testes de Intimidação e -5 em testes de Diplomacia contra qualquer um que, a critério do mestre, o reconheça e saiba de sua fama. Uma vez por aventura, a critério do mestre, você e seu grupo são atacados por caçadores de recompensa (um encontro de ND igual ou inferior ao do grupo).",
+  "effects": {
+    "proficiencia": "armas de fogo",
+    "bonus_intimidacao": 5,
+    "penalidade_diplomacia": -5,
+    "risco": "1x por aventura, encontro com caçadores de recompensa de ND igual ou inferior ao grupo (Por um Punhado de Tibares)"
+  },
+  "livro": "atlas_de_arton"
+}

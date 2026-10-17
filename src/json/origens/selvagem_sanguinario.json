@@ -1,0 +1,25 @@
+{
+  "id": "selvagem_sanguinario",
+  "name": "Selvagem Sanguinário",
+  "description": "Origem regional de Montanhas Sanguinárias. Você nasceu ou foi criado nas Montanhas Sanguinárias, um dos lugares mais brutais de Arton, onde aprendeu a sobreviver com base na determinação e força bruta.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma marcial"
+    },
+    {
+      "type": "fixed",
+      "text": "Gibão de peles"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Sobrevivência"
+    ],
+    "powers": [
+      "Selvagem Sanguinário"
+    ]
+  },
+  "unique_power": "selvagem_sanguinario",
+  "livro": "atlas_de_arton"
+}

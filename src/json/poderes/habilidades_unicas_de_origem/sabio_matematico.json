@@ -1,0 +1,14 @@
+{
+  "id": "sabio_matematico",
+  "name": "Sábio Matemático",
+  "origin": "sabio_matematico",
+  "description": "Você é treinado em Conhecimento. Além disso, aprende e pode lançar Concentração de Combate e Orientação. Estes efeitos não contam como magias (exceto para fins de acúmulo) e não são mágicos.",
+  "effects": {
+    "habilidades_concedidas": [
+      "Concentração de Combate",
+      "Orientação"
+    ],
+    "natureza": "não mágicas, não contam como magias exceto para acúmulo"
+  },
+  "livro": "atlas_de_arton"
+}

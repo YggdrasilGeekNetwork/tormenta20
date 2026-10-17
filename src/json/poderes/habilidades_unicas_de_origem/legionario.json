@@ -1,0 +1,18 @@
+{
+  "id": "legionario",
+  "name": "Legionário",
+  "origin": "legionario",
+  "description": "Você é treinado em Guerra e recebe proficiência com gládios (veja Ameaças de Arton) e escudos. Se estiver empunhando um gládio e um escudo pesado, recebe +1 na margem de ameaça e +1 na Defesa.",
+  "effects": {
+    "proficiencia": [
+      "gladio",
+      "escudos"
+    ],
+    "bonus_condicional": {
+      "condicao": "empunhando gládio e escudo pesado",
+      "margem_de_ameaca": 1,
+      "defesa": 1
+    }
+  },
+  "livro": "atlas_de_arton"
+}

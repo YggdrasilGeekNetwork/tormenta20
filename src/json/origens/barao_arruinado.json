@@ -1,0 +1,29 @@
+{
+  "id": "barao_arruinado",
+  "name": "Barão Arruinado",
+  "description": "Origem regional de Feudos de Trebuck. Você estava destinado a se tornar o senhor de um feudo, mas seu título se perdeu. Pelo menos isso o ensinou a lidar com os reveses da vida.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Anel com símbolo da família (T$ 200)"
+    },
+    {
+      "type": "fixed",
+      "text": "Títulos de terras expirados (+2 em Diplomacia com nobres e burocratas)"
+    },
+    {
+      "type": "fixed",
+      "text": "Traje da corte"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Nobreza"
+    ],
+    "powers": [
+      "Barão Arruinado"
+    ]
+  },
+  "unique_power": "barao_arruinado",
+  "livro": "atlas_de_arton"
+}

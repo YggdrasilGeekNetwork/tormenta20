@@ -1,0 +1,11 @@
+{
+  "id": "aspirante_a_heroi",
+  "name": "Aspirante a Herói",
+  "origin": "aspirante_a_heroi",
+  "description": "Você recebe +1 em um atributo à sua escolha.",
+  "effects": {
+    "bonus_atributo": 1,
+    "escolha": "um atributo"
+  },
+  "livro": "atlas_de_arton"
+}

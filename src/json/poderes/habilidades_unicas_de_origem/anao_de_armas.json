@@ -1,0 +1,16 @@
+{
+  "id": "anao_de_armas",
+  "name": "Anão de Armas",
+  "origin": "anao_de_armas",
+  "description": "Você é treinado em Ofício (armeiro) e recebe +2 em rolagens de dano com armas tradicionais anãs (machados, martelos, marretas e picaretas).",
+  "effects": {
+    "bonus_dano": 2,
+    "armas": [
+      "machados",
+      "martelos",
+      "marretas",
+      "picaretas"
+    ]
+  },
+  "livro": "atlas_de_arton"
+}

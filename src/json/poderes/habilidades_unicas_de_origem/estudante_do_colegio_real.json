@@ -1,0 +1,11 @@
+{
+  "id": "estudante_do_colegio_real",
+  "name": "Estudante do Colégio Real",
+  "origin": "estudante_do_colegio_real",
+  "description": "Você é treinado em Cura. Além disso, seus efeitos de cura recuperam +2 PV por dado. Você perde esse benefício caso se torne um devoto de qualquer tipo.",
+  "effects": {
+    "bonus_cura_por_dado": 2,
+    "restricao": "perde o benefício se tornar-se devoto"
+  },
+  "livro": "atlas_de_arton"
+}

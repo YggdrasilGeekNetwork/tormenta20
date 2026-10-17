@@ -1,0 +1,26 @@
+{
+  "id": "filhote_da_revoada",
+  "name": "Filhote da Revoada",
+  "description": "Origem regional de Lamnor. Você passou grande parte de sua juventude entre a Revoada Carnívora e seus perigosos e fantásticos engenhos voadores. Você ainda não tem seu próprio veículo, mas aprendeu duras lições entre voos e quedas.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Instrumentos de Ofício (artesão)"
+    },
+    {
+      "type": "fixed",
+      "text": "T$ 100 (que você está juntando para fabricar seu primeiro veículo aéreo)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Acrobacia",
+      "Pilotagem"
+    ],
+    "powers": [
+      "Filhote da Revoada"
+    ]
+  },
+  "unique_power": "filhote_da_revoada",
+  "livro": "atlas_de_arton"
+}

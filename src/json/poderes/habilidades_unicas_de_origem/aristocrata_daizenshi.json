@@ -1,0 +1,11 @@
+{
+  "id": "aristocrata_daizenshi",
+  "name": "Aristocrata Dai'zenshi",
+  "origin": "aristocrata_daizenshi",
+  "description": "Você é treinado em Nobreza. Além disso, ao completar um descanso, caso não tenha feito nenhum teste de Enganação, Furtividade ou Ladinagem desde seu último descanso, você recebe +1 PM temporário para cada dois níveis.",
+  "effects": {
+    "condicao": "nenhum teste de Enganação/Furtividade/Ladinagem desde o último descanso",
+    "pm_temporario": "+1 para cada dois níveis, ao completar um descanso"
+  },
+  "livro": "atlas_de_arton"
+}

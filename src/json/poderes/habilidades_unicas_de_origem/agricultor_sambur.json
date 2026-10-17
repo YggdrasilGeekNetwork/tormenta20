@@ -1,0 +1,12 @@
+{
+  "id": "agricultor_sambur",
+  "name": "Agricultor Sambur",
+  "origin": "agricultor_sambur",
+  "description": "Você é treinado em Adestramento e Sobrevivência e, uma vez por cena, pode gastar 1 PM para receber +1d6 em um teste de perícia.",
+  "effects": {
+    "custo_pm": 1,
+    "frequencia": "1x_por_cena",
+    "bonus_pericia": "1d6"
+  },
+  "livro": "atlas_de_arton"
+}

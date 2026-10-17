@@ -1,0 +1,16 @@
+{
+  "id": "insurgente_tapistano",
+  "name": "Insurgente Tapistano",
+  "origin": "insurgente_tapistano",
+  "description": "Você recebe +1 em Fortitude, Reflexos e Vontade. Além disso, recebe +3 pontos de vida no 1º nível e +1 PV por nível seguinte.",
+  "effects": {
+    "bonus_resistencias": {
+      "fortitude": 1,
+      "reflexos": 1,
+      "vontade": 1
+    },
+    "bonus_pv_nivel_1": 3,
+    "bonus_pv_por_nivel_seguinte": 1
+  },
+  "livro": "atlas_de_arton"
+}

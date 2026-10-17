@@ -1,0 +1,12 @@
+{
+  "id": "barao_arruinado",
+  "name": "Barão Arruinado",
+  "origin": "barao_arruinado",
+  "description": "Você é treinado em Nobreza. Sempre que falha em um teste de perícia e a falha acarreta uma consequência negativa, você recebe +2 em testes da mesma perícia até o final da cena.",
+  "effects": {
+    "condicao": "falha em teste de perícia com consequência negativa",
+    "bonus_pericia_mesma": 2,
+    "duracao": "até o fim da cena"
+  },
+  "livro": "atlas_de_arton"
+}

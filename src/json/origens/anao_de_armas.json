@@ -1,0 +1,25 @@
+{
+  "id": "anao_de_armas",
+  "name": "Anão de Armas",
+  "description": "Origem regional de Doherimm. Você foi treinado pela Guilda dos Armeiros, tendo aprendido a fabricar — e usar — armas anãs.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma marcial tradicional anã"
+    },
+    {
+      "type": "fixed",
+      "text": "Instrumentos de Ofício (armeiro)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Ofício (armeiro)"
+    ],
+    "powers": [
+      "Anão de Armas"
+    ]
+  },
+  "unique_power": "anao_de_armas",
+  "livro": "atlas_de_arton"
+}

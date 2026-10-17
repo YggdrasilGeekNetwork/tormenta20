@@ -1,0 +1,27 @@
+{
+  "id": "estandarte_vivo",
+  "name": "Estandarte Vivo",
+  "description": "Origem regional de Ermos Púrpuras. Muitas tribos dos Ermos Púrpuras acabaram extintas — por guerra, por doença ou pela corrupção da Tormenta. Sua tribo se foi, mas você permanece, uma prova viva de que um dia seu povo existiu.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma simples ou marcial"
+    },
+    {
+      "type": "fixed",
+      "text": "Gibão de peles"
+    },
+    {
+      "type": "fixed",
+      "text": "Fragmento do estandarte do seu povo (se vestido, fornece +1 em testes de Vontade)"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Estandarte Vivo"
+    ]
+  },
+  "unique_power": "estandarte_vivo",
+  "livro": "atlas_de_arton"
+}

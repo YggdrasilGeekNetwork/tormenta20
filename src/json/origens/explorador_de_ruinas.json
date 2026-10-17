@@ -1,0 +1,27 @@
+{
+  "id": "explorador_de_ruinas",
+  "name": "Explorador de Ruínas",
+  "description": "Origem regional de Ruínas de Tyrondir. A destruição de Tyrondir atraiu exploradores em busca de riquezas que possam ter sobrevivido à queda da Flecha de Fogo. Após um tempo nessa atividade, você aprendeu alguns truques úteis.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Mochila de aventureiro"
+    },
+    {
+      "type": "fixed",
+      "text": "Tocha"
+    },
+    {
+      "type": "fixed",
+      "text": "Vara de madeira (3m)"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Explorador de Ruínas"
+    ]
+  },
+  "unique_power": "explorador_de_ruinas",
+  "livro": "atlas_de_arton"
+}

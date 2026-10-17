@@ -1,0 +1,16 @@
+{
+  "id": "tocado_pelo_indomavel",
+  "name": "Tocado pelo Indomável",
+  "origin": "tocado_pelo_indomavel",
+  "description": "Você é treinado em Atletismo e recebe +2 em rolagens de dano com armas naturais e ataques desarmados.",
+  "effects": {
+    "bonus_dano": {
+      "valor": 2,
+      "tipo": [
+        "armas naturais",
+        "ataques desarmados"
+      ]
+    }
+  },
+  "livro": "atlas_de_arton"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "descendente_colleniano",
+  "name": "Descendente Colleniano",
+  "description": "Origem regional de Ahlen. Você descende do povo de Collen, um antigo reino insular absorvido por Ahlen. Sua linhagem tem olhos de cores incomuns, com alguns poucos chegando a apresentar poderes mágicos ligados à visão. Você é um desses poucos.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma simples"
+    },
+    {
+      "type": "fixed",
+      "text": "Estojo de disfarces"
+    },
+    {
+      "type": "fixed",
+      "text": "Ração de viagem x5"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Descendente Colleniano"
+    ]
+  },
+  "unique_power": "descendente_colleniano",
+  "livro": "atlas_de_arton"
+}

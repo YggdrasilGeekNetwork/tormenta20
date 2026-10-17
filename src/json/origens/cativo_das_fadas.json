@@ -1,0 +1,27 @@
+{
+  "id": "cativo_das_fadas",
+  "name": "Cativo das Fadas",
+  "description": "Origem regional de Pondsmânia. Quando era um bebê, você foi levado para a Pondsmânia. Talvez tenha sido trocado por seus pais em um acordo com uma fada, talvez tenha sido roubado pelas Cyruthnallach. De qualquer forma, sua infância foi permeada de brincadeiras bizarras e jogos feéricos.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Corda"
+    },
+    {
+      "type": "fixed",
+      "text": "Ração de viagem x10"
+    },
+    {
+      "type": "fixed",
+      "text": "Essência de mana"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Cativo das Fadas"
+    ]
+  },
+  "unique_power": "cativo_das_fadas",
+  "livro": "atlas_de_arton"
+}

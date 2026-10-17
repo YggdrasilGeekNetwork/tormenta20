@@ -1,0 +1,33 @@
+{
+  "id": "desertor_da_supremacia",
+  "name": "Desertor da Supremacia",
+  "description": "Origem regional de Supremacia Purista. Você passou pelo treinamento padrão dos batalhões puristas e talvez tenha visto de perto as atrocidades desses vilões. Seja como for, decidiu que não podia ficar neutro frente à Supremacia.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Brunea com símbolo purista raspado"
+    },
+    {
+      "type": "fixed",
+      "text": "Escudo pesado"
+    },
+    {
+      "type": "fixed",
+      "text": "Espada bastarda"
+    },
+    {
+      "type": "fixed",
+      "text": "Ração de viagem x10"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Guerra"
+    ],
+    "powers": [
+      "Desertor da Supremacia"
+    ]
+  },
+  "unique_power": "desertor_da_supremacia",
+  "livro": "atlas_de_arton"
+}

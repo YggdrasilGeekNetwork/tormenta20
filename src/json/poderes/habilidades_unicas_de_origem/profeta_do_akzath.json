@@ -1,0 +1,10 @@
+{
+  "id": "profeta_do_akzath",
+  "name": "Profeta do Akzath",
+  "origin": "profeta_do_akzath",
+  "description": "Você é treinado em Religião e pode lançar magias mesmo sob o efeito de Fúria Divina.",
+  "effects": {
+    "excecao": "pode lançar magias mesmo sob efeito de Fúria Divina"
+  },
+  "livro": "atlas_de_arton"
+}

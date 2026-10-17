@@ -1,0 +1,16 @@
+{
+  "id": "tamalu",
+  "name": "Tamalu",
+  "origin": "tamalu",
+  "description": "Você é treinado em Diplomacia e Nobreza e recebe uma tatuagem mística à sua escolha (+1 na Defesa, resistência a magia +2 ou a habilidade de lançar uma magia de 1º círculo com atributo-chave Sabedoria).",
+  "effects": {
+    "tatuagem_mistica_concedida": {
+      "escolha": [
+        "+1 na Defesa",
+        "resistência a magia +2",
+        "lançar magia de 1º círculo (atributo-chave Sabedoria)"
+      ]
+    }
+  },
+  "livro": "atlas_de_arton"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "legionario",
+  "name": "Legionário",
+  "description": "Origem regional de Império de Tauron. Você serviu nas legiões do Império de Tauron, onde aprendeu a usar o equipamento de um legionário. Agora que seu serviço terminou, você espera usar as técnicas aprendidas para dar um novo rumo a Tapista.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Brunea com símbolo de sua legião"
+    },
+    {
+      "type": "fixed",
+      "text": "Escudo pesado"
+    },
+    {
+      "type": "fixed",
+      "text": "Gládio"
+    },
+    {
+      "type": "fixed",
+      "text": "Ração de viagem x10"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Guerra"
+    ],
+    "powers": [
+      "Legionário"
+    ]
+  },
+  "unique_power": "legionario",
+  "livro": "atlas_de_arton"
+}

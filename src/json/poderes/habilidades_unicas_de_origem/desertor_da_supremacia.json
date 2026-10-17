@@ -1,0 +1,17 @@
+{
+  "id": "desertor_da_supremacia",
+  "name": "Desertor da Supremacia",
+  "origin": "desertor_da_supremacia",
+  "description": "Você é treinado em Guerra e recebe proficiência com espadas bastardas e escudos. Se estiver empunhando uma espada bastarda e um escudo pesado, recebe +2 em testes de ataque.",
+  "effects": {
+    "proficiencia": [
+      "espadas bastardas",
+      "escudos"
+    ],
+    "bonus_ataque_condicional": {
+      "valor": 2,
+      "condicao": "empunhando espada bastarda e escudo pesado"
+    }
+  },
+  "livro": "atlas_de_arton"
+}

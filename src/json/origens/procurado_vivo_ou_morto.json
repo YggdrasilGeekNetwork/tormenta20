@@ -1,0 +1,23 @@
+{
+  "id": "procurado_vivo_ou_morto",
+  "name": "Procurado: Vivo ou Morto",
+  "description": "Origem regional de Smokestone. Você é um pistoleiro infame nas cercanias de Smokestone, odiado e caçado por outros durões. Provavelmente foi tudo um engano e você ainda não faz jus a esse renome, mas sua cabeça está a prêmio!",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Pistola"
+    },
+    {
+      "type": "fixed",
+      "text": "Balas cruéis (20)"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Procurado: Vivo ou Morto"
+    ]
+  },
+  "unique_power": "procurado_vivo_ou_morto",
+  "livro": "atlas_de_arton"
+}

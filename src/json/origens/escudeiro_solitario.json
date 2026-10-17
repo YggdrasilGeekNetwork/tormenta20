@@ -1,0 +1,30 @@
+{
+  "id": "escudeiro_solitario",
+  "name": "Escudeiro Solitário",
+  "description": "Origem regional de Bielefeld. Ninguém sabe, mas você foi escudeiro de um cavaleiro de Bielefeld... ou cupincha de um trambiqueiro. Seu mestre era membro dos Cavaleiros Solitários, disposto a todo tipo de subterfúgio, intriga e traição para ajudar os verdadeiros heróis.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Cota de malha"
+    },
+    {
+      "type": "fixed",
+      "text": "Escudo pesado"
+    },
+    {
+      "type": "fixed",
+      "text": "Enfeite de elmo"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Enganação",
+      "Ladinagem"
+    ],
+    "powers": [
+      "Escudeiro Solitário"
+    ]
+  },
+  "unique_power": "escudeiro_solitario",
+  "livro": "atlas_de_arton"
+}

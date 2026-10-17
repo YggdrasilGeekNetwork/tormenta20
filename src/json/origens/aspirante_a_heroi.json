@@ -1,0 +1,23 @@
+{
+  "id": "aspirante_a_heroi",
+  "name": "Aspirante a Herói",
+  "description": "Origem regional de Deheon. Você nasceu para ser herói, com potencial para se tornar protagonista das canções épicas dos bardos.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Essência de mana"
+    },
+    {
+      "type": "fixed",
+      "text": "Mochila de aventureiro"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Aspirante a Herói"
+    ]
+  },
+  "unique_power": "aspirante_a_heroi",
+  "livro": "atlas_de_arton"
+}

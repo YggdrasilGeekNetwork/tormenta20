@@ -1,0 +1,25 @@
+{
+  "id": "liricista_de_lenorienn",
+  "name": "Liricista de Lenórienn",
+  "description": "Origem regional de Lamnor. Mesmo não tendo vivido o auge do Reino dos Elfos, você ouviu histórias suficientes para admirá-lo. Inspirado pelas tradições élficas, você aprendeu a transformar sua magia em arte.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Alaúde élfico"
+    },
+    {
+      "type": "fixed",
+      "text": "Réplica de uma peça artística élfica (1 espaço, T$ 50)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Atuação"
+    ],
+    "powers": [
+      "Liricista de Lenórienn"
+    ]
+  },
+  "unique_power": "liricista_de_lenorienn",
+  "livro": "atlas_de_arton"
+}

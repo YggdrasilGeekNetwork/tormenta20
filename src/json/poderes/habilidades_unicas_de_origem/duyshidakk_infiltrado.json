@@ -1,0 +1,16 @@
+{
+  "id": "duyshidakk_infiltrado",
+  "name": "Duyshidakk Infiltrado",
+  "origin": "duyshidakk_infiltrado",
+  "description": "Você recebe +2 em Furtividade e Vontade e pode usar Sabedoria como atributo-chave de Enganação (em vez de Carisma).",
+  "effects": {
+    "bonus_furtividade": 2,
+    "bonus_vontade": 2,
+    "troca_atributo_chave": {
+      "pericia": "enganacao",
+      "de": "carisma",
+      "para": "sabedoria"
+    }
+  },
+  "livro": "atlas_de_arton"
+}

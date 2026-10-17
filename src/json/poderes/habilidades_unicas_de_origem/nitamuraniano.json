@@ -1,0 +1,18 @@
+{
+  "id": "nitamuraniano",
+  "name": "Nitamuraniano",
+  "origin": "nitamuraniano",
+  "description": "Você recebe proficiência em katana e arco longo. Caso receba proficiência nessas armas novamente, recebe +2 em rolagens de dano com elas. Além disso, quando falha em um teste de perícia originalmente baseada em Sabedoria, você pode gastar 2 PM para refazer esse teste (apenas uma vez por teste).",
+  "effects": {
+    "proficiencia": [
+      "katana",
+      "arco longo"
+    ],
+    "se_proficiente_novamente": "+2 em rolagens de dano",
+    "refazer_teste_sabedoria": {
+      "custo_pm": 2,
+      "frequencia": "1x por teste"
+    }
+  },
+  "livro": "atlas_de_arton"
+}

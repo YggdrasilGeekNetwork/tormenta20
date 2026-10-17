@@ -1,0 +1,12 @@
+{
+  "id": "catador_da_cidade_velha",
+  "name": "Catador da Cidade Velha",
+  "origin": "catador_da_cidade_velha",
+  "description": "Você é treinado em Fortitude e Percepção e pode gastar 1 PM para receber deslocamento de natação igual ao seu deslocamento básico (se já tiver deslocamento de natação, em vez disso ele aumenta em +3m) por uma cena. Esse deslocamento não permite respirar debaixo d'água automaticamente, mas dobra o limite de tempo em que você pode segurar sua respiração.",
+  "effects": {
+    "custo_pm": 1,
+    "deslocamento_natacao": "igual ao deslocamento básico (ou +3m se já tiver), por uma cena",
+    "dobra_tempo_de_respiracao": true
+  },
+  "livro": "atlas_de_arton"
+}

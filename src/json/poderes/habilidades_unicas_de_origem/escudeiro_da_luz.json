@@ -1,0 +1,11 @@
+{
+  "id": "escudeiro_da_luz",
+  "name": "Escudeiro da Luz",
+  "origin": "escudeiro_da_luz",
+  "description": "Você é treinado em Nobreza. Além disso, recebe +2 na Defesa e +3 PM.",
+  "effects": {
+    "bonus_defesa": 2,
+    "bonus_pm": 3
+  },
+  "livro": "atlas_de_arton"
+}

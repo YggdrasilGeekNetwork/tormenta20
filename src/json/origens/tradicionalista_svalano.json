@@ -1,0 +1,31 @@
+{
+  "id": "tradicionalista_svalano",
+  "name": "Tradicionalista Svalano",
+  "description": "Origem regional de Svalas. Svalas é díspar, honrado e livre. Após todos os registros escritos do reino terem sido destruídos, a tradição svalana foi passada pela oralidade. Você é o fruto dessas histórias.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma simples ou marcial"
+    },
+    {
+      "type": "fixed",
+      "text": "Corda"
+    },
+    {
+      "type": "fixed",
+      "text": "Mochila de aventureiro"
+    },
+    {
+      "type": "fixed",
+      "text": "Vara de madeira (3m)"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Tradicionalista Svalano"
+    ]
+  },
+  "unique_power": "tradicionalista_svalano",
+  "livro": "atlas_de_arton"
+}

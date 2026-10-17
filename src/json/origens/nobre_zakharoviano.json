@@ -1,0 +1,21 @@
+{
+  "id": "nobre_zakharoviano",
+  "name": "Nobre Zakharoviano",
+  "description": "Origem regional de Zakharov. Você descende de uma das tradicionais famílias de nobres armeiros zakharovianos. Além do sobrenome, ostenta com orgulho uma de suas obras-primas.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Traje da corte"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Ofício (armeiro)"
+    ],
+    "powers": [
+      "Nobre Zakharoviano"
+    ]
+  },
+  "unique_power": "nobre_zakharoviano",
+  "livro": "atlas_de_arton"
+}

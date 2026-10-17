@@ -1,0 +1,11 @@
+{
+  "id": "estandarte_vivo",
+  "name": "Estandarte Vivo",
+  "origin": "estandarte_vivo",
+  "description": "Você recebe +2 em Sobrevivência e um poder de combate ou da Tormenta à sua escolha.",
+  "effects": {
+    "bonus_sobrevivencia": 2,
+    "escolha_poder": "combate ou da Tormenta"
+  },
+  "livro": "atlas_de_arton"
+}

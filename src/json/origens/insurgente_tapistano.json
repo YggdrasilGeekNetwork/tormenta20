@@ -1,0 +1,23 @@
+{
+  "id": "insurgente_tapistano",
+  "name": "Insurgente Tapistano",
+  "description": "Origem regional de Império de Tauron. O Império de Tauron está ruindo. O Deus da Força está morto. Para você, isso ainda não é suficiente. O povo só estará satisfeito quando todos os antigos generais e escravagistas forem punidos.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Amuleto com um símbolo da resistência reconhecível por outros rebeldes"
+    },
+    {
+      "type": "fixed",
+      "text": "Arma simples"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Insurgente Tapistano"
+    ]
+  },
+  "unique_power": "insurgente_tapistano",
+  "livro": "atlas_de_arton"
+}

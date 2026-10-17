@@ -1,0 +1,21 @@
+{
+  "id": "lenhador_de_tollon",
+  "name": "Lenhador de Tollon",
+  "description": "Origem regional de Floresta de Tollon. Você foi criado entre as imponentes árvores da Floresta de Tollon, que lhe serviram tanto como casa quanto como fonte de sustento.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Item superior de madeira Tollon"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Ofício (artesão)"
+    ],
+    "powers": [
+      "Lenhador de Tollon"
+    ]
+  },
+  "unique_power": "lenhador_de_tollon",
+  "livro": "atlas_de_arton"
+}

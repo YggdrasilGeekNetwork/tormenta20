@@ -1,0 +1,12 @@
+{
+  "id": "selvagem_sanguinario",
+  "name": "Selvagem Sanguinário",
+  "origin": "selvagem_sanguinario",
+  "description": "Você é treinado em Sobrevivência e, se não estiver usando armadura pesada, recebe +1 em rolagens de dano com armas e redução de dano 1.",
+  "effects": {
+    "condicao": "sem armadura pesada",
+    "bonus_dano": 1,
+    "reducao_de_dano": 1
+  },
+  "livro": "atlas_de_arton"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "andarilho_ubaneri",
+  "name": "Andarilho Ubaneri",
+  "description": "Origem regional de Ubani. Sonhando um dia ser membro da Patrulha da Fronteira, você pratica técnicas de lança e escudo e já conquistou a amizade de um alikunhá.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Escudo pesado"
+    },
+    {
+      "type": "fixed",
+      "text": "Lança"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Andarilho Ubaneri"
+    ]
+  },
+  "unique_power": "andarilho_ubaneri",
+  "livro": "atlas_de_arton"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "duplo_feerico",
+  "name": "Duplo Feérico",
+  "description": "Origem regional de Pondsmânia. Em algum lugar de Arton, há alguém igual a você. Com a mesma aparência, as mesmas capacidades, os mesmos ideais. Talvez isso rendesse uma boa amizade, mas esse alguém veio primeiro. Você é apenas a cópia feita por uma fada.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Essência de mana"
+    },
+    {
+      "type": "fixed",
+      "text": "Marca no corpo ou característica física não possuída pela sua versão original"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Duplo Feérico"
+    ]
+  },
+  "unique_power": "duplo_feerico",
+  "livro": "atlas_de_arton"
+}

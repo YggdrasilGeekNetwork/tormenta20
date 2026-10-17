@@ -1,0 +1,23 @@
+{
+  "id": "recruta_arcano",
+  "name": "Recruta Arcano",
+  "description": "Origem regional de Wynlla. Você serviu entre os Magos de Batalha de Wynlla. Agora, livre de suas obrigações cívicas, está pronto para seguir sua vida de aventuras.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Essência de mana x2"
+    },
+    {
+      "type": "fixed",
+      "text": "Varinha arcana"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Recruta Arcano"
+    ]
+  },
+  "unique_power": "recruta_arcano",
+  "livro": "atlas_de_arton"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "tradicionalista_svalano",
+  "name": "Tradicionalista Svalano",
+  "origin": "tradicionalista_svalano",
+  "description": "Você pode usar Sabedoria como atributo-chave de Conhecimento e Nobreza e pode fazer testes dessas perícias mesmo sem treinamento. Além disso, recebe +1 em Fortitude e Vontade.",
+  "effects": {
+    "troca_atributo_chave": {
+      "pericias": [
+        "conhecimento",
+        "nobreza"
+      ],
+      "de": "inteligencia",
+      "para": "sabedoria"
+    },
+    "testa_sem_treino": [
+      "conhecimento",
+      "nobreza"
+    ],
+    "bonus_resistencias": {
+      "fortitude": 1,
+      "vontade": 1
+    }
+  },
+  "livro": "atlas_de_arton"
+}

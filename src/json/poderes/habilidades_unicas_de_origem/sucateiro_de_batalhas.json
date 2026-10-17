@@ -1,0 +1,10 @@
+{
+  "id": "sucateiro_de_batalhas",
+  "name": "Sucateiro de Batalhas",
+  "origin": "sucateiro_de_batalhas",
+  "description": "Você é treinado em Guerra e Investigação. Além disso, quando rola na Tabela de Tesouro por Nível de Desafio, para cada tipo de tesouro (dinheiro ou item) você pode rolar novamente o resultado.",
+  "effects": {
+    "tesouro": "rolar novamente cada tipo de resultado na Tabela de Tesouro por ND"
+  },
+  "livro": "atlas_de_arton"
+}

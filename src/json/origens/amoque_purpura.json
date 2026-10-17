@@ -1,0 +1,25 @@
+{
+  "id": "amoque_purpura",
+  "name": "Amoque Púrpura",
+  "description": "Origem regional de Ermos Púrpuras. Raiva compele os golpes de guerreiros por todo o mundo, mas nos Ermos Púrpuras a prática é refinada ao limite. Você cresceu entre esses lutadores imprevisíveis.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma simples"
+    },
+    {
+      "type": "fixed",
+      "text": "Estandarte da sua tribo"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Intimidação"
+    ],
+    "powers": [
+      "Amoque Púrpura"
+    ]
+  },
+  "unique_power": "amoque_purpura",
+  "livro": "atlas_de_arton"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "iniciado_dos_caca_monstros",
+  "name": "Iniciado dos Caça-Monstros",
+  "description": "Origem regional de Montanhas Sanguinárias. Você foi iniciado na Guilda dos Caça-Monstros. Mesmo que ainda não seja capaz de vencer todas as criaturas, consegue ao menos identificá-las!",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma simples ou marcial"
+    },
+    {
+      "type": "fixed",
+      "text": "Gibão de peles"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Iniciado dos Caça-Monstros"
+    ]
+  },
+  "unique_power": "iniciado_dos_caca_monstros",
+  "livro": "atlas_de_arton"
+}

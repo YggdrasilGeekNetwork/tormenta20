@@ -1,0 +1,12 @@
+{
+  "id": "irmao_sem_esporas",
+  "name": "Irmão sem Esporas",
+  "origin": "irmao_sem_esporas",
+  "description": "Você possui um irmão cavalo, um cavalo de guerra parceiro iniciante que fornece +1 em testes de ataque e Reflexos. Se receber outra montaria especial, pode usar seu irmão cavalo como essa montaria, acumulando o bônus em perícias com os benefícios da montaria especial.",
+  "effects": {
+    "parceiro": "cavalo de guerra (iniciante)",
+    "bonus_ataque_e_reflexos": 1,
+    "compatibilidade_montaria_especial": true
+  },
+  "livro": "atlas_de_arton"
+}

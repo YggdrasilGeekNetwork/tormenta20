@@ -1,0 +1,11 @@
+{
+  "id": "cosmopolita",
+  "name": "Cosmopolita",
+  "origin": "cosmopolita",
+  "description": "Escolha um poder geral ou de uma classe na qual você tenha pelo menos dois níveis, e cujos requisitos você cumpra (exceto poderes concedidos ou da Tormenta). Você recebe esse poder. Uma vez por aventura, após concluir um descanso, pode trocar esse poder por outro.",
+  "effects": {
+    "escolha_poder": "geral ou de classe com pelo menos 2 níveis, requisitos cumpridos, exceto concedidos/Tormenta",
+    "troca": "1x por aventura, após descanso"
+  },
+  "livro": "atlas_de_arton"
+}

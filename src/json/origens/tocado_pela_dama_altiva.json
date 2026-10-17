@@ -1,0 +1,25 @@
+{
+  "id": "tocado_pela_dama_altiva",
+  "name": "Tocado pela Dama Altiva",
+  "description": "Origem regional de Moreania. Nascido em Moreania, você foi agraciado pela própria Mãe Natureza. Você consegue entender as vozes da natureza e pode invocar o auxílio dos filhos de Allihanna.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Bordão"
+    },
+    {
+      "type": "fixed",
+      "text": "Ração de viagem x5"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Adestramento"
+    ],
+    "powers": [
+      "Tocado pela Dama Altiva"
+    ]
+  },
+  "unique_power": "tocado_pela_dama_altiva",
+  "livro": "atlas_de_arton"
+}

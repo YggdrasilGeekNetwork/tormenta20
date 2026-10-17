@@ -1,0 +1,22 @@
+{
+  "id": "prisioneiro_das_catacumbas",
+  "name": "Prisioneiro das Catacumbas",
+  "description": "Origem regional de Catacumbas de Leverick. Você vivia uma vida comum e sem grandes emoções, até ter o azar de abrir a porta errada. Talvez também tenha sido por mero acaso que você escapou das Catacumbas de Leverick.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma marcial encontrada no corpo de alguém que não sobreviveu às Catacumbas"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Percepção",
+      "Reflexos"
+    ],
+    "powers": [
+      "Prisioneiro das Catacumbas"
+    ]
+  },
+  "unique_power": "prisioneiro_das_catacumbas",
+  "livro": "atlas_de_arton"
+}

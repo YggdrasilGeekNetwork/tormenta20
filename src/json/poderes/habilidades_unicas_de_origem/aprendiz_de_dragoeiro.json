@@ -1,0 +1,12 @@
+{
+  "id": "aprendiz_de_dragoeiro",
+  "name": "Aprendiz de Dragoeiro",
+  "origin": "aprendiz_de_dragoeiro",
+  "description": "Você recebe +2 na Defesa contra criaturas maiores que você e +2 em Reflexos. Além disso, se passar em um teste de Reflexos, seus ataques contra a fonte do efeito causam +1d8 pontos de dano até o final da cena.",
+  "effects": {
+    "bonus_defesa_contra_criaturas_maiores": 2,
+    "bonus_reflexos": 2,
+    "bonus_dano_condicional": "1d8 até o fim da cena, se passar em teste de Reflexos contra a fonte do efeito"
+  },
+  "livro": "atlas_de_arton"
+}

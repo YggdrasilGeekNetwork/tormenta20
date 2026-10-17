@@ -1,0 +1,11 @@
+{
+  "id": "recruta_da_fenix",
+  "name": "Recruta da Fênix",
+  "origin": "recruta_da_fenix",
+  "description": "Você recebe +1 PV por nível e redução de fogo 5, e é treinado em Cavalgar.",
+  "effects": {
+    "bonus_pv_por_nivel": 1,
+    "reducao_de_fogo": 5
+  },
+  "livro": "atlas_de_arton"
+}

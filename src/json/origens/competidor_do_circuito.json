@@ -1,0 +1,23 @@
+{
+  "id": "competidor_do_circuito",
+  "name": "Competidor do Circuito",
+  "description": "Origem regional de Feudos de Trebuck. Você percorreu o grande Circuito de Torneios de Trebuck. Pode ter sido parte da equipe de um cavaleiro ou um aspirante a competidor, ansiando por um dia disputar os eventos principais. Sua hora ainda não chegou, mas enquanto isso você usa o que aprendeu em suas aventuras.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma marcial"
+    },
+    {
+      "type": "fixed",
+      "text": "T$ 100 (suas economias para comprar equipamentos de torneio)"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Competidor do Circuito"
+    ]
+  },
+  "unique_power": "competidor_do_circuito",
+  "livro": "atlas_de_arton"
+}

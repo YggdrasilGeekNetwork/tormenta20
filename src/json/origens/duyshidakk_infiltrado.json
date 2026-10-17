@@ -1,0 +1,23 @@
+{
+  "id": "duyshidakk_infiltrado",
+  "name": "Duyshidakk Infiltrado",
+  "description": "Origem regional de Ruínas de Tyrondir. Você viveu entre o povo do Reinado por muito tempo, absorvendo seu modo de vida... mas secretamente devotado a construir O Mundo Como Deve Ser.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma marcial"
+    },
+    {
+      "type": "fixed",
+      "text": "Peças sobressalentes (T$ 100 para vender ou construir engenhocas)"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Duyshidakk Infiltrado"
+    ]
+  },
+  "unique_power": "duyshidakk_infiltrado",
+  "livro": "atlas_de_arton"
+}

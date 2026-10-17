@@ -1,0 +1,29 @@
+{
+  "id": "rebelde_agitador",
+  "name": "Rebelde Agitador",
+  "description": "Origem regional de Sckharshantallas. Sua terra natal, Sckharshantallas, está sob o jugo permanente de um monstro tirano. Você fez parte de grupos rebeldes, mas agora partiu para se aventurar. Espera se tornar forte para, um dia, depor o Dragão-Rei.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma simples ou marcial"
+    },
+    {
+      "type": "fixed",
+      "text": "Panfleto revolucionário"
+    },
+    {
+      "type": "fixed",
+      "text": "T$ 6d12 (impostos que você deixou de pagar)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Iniciativa"
+    ],
+    "powers": [
+      "Rebelde Agitador"
+    ]
+  },
+  "unique_power": "rebelde_agitador",
+  "livro": "atlas_de_arton"
+}

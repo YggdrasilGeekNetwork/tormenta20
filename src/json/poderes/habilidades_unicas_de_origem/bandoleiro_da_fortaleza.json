@@ -1,0 +1,10 @@
+{
+  "id": "bandoleiro_da_fortaleza",
+  "name": "Bandoleiro da Fortaleza",
+  "origin": "bandoleiro_da_fortaleza",
+  "description": "Você é treinado em Furtividade e Intimidação, e recebe resistência a medo +5.",
+  "effects": {
+    "resistencia_a_medo": 5
+  },
+  "livro": "atlas_de_arton"
+}

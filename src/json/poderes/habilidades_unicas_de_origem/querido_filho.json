@@ -1,0 +1,15 @@
+{
+  "id": "querido_filho",
+  "name": "Querido Filho",
+  "origin": "querido_filho",
+  "description": "Você recebe redução de frio e trevas 5 e visão no escuro. Se já possuir visão no escuro, em vez disso recebe +2 em Percepção.",
+  "effects": {
+    "reducao_de_dano": {
+      "frio": 5,
+      "trevas": 5
+    },
+    "visao": "escuro",
+    "se_ja_visao_no_escuro": "+2 em Percepção"
+  },
+  "livro": "atlas_de_arton"
+}

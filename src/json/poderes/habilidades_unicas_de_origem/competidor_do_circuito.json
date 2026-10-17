@@ -1,0 +1,12 @@
+{
+  "id": "competidor_do_circuito",
+  "name": "Competidor do Circuito",
+  "origin": "competidor_do_circuito",
+  "description": "Você recebe o poder Torcida. Enquanto está sob efeito desse poder, sempre que reduz um inimigo a 0 PV com um ataque corpo a corpo, você recupera 1 PM.",
+  "effects": {
+    "concede_poder": "Torcida",
+    "recupera_pm": 1,
+    "condicao": "reduzir inimigo a 0 PV com ataque corpo a corpo, sob efeito de Torcida"
+  },
+  "livro": "atlas_de_arton"
+}

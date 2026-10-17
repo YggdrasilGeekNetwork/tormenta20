@@ -1,0 +1,25 @@
+{
+  "id": "escudeiro_da_luz",
+  "name": "Escudeiro da Luz",
+  "description": "Origem regional de Bielefeld. Você não serviu a um cavaleiro errante qualquer, mas a um nobre e honrado cavaleiro da Luz. Ao lado dele, aprendeu todas as tarefas diárias desse ofício, além dos valores da nobreza e da justiça.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Cota de malha ou escudo pesado"
+    },
+    {
+      "type": "fixed",
+      "text": "Enfeite de elmo com o símbolo da Ordem da Luz"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Nobreza"
+    ],
+    "powers": [
+      "Escudeiro da Luz"
+    ]
+  },
+  "unique_power": "escudeiro_da_luz",
+  "livro": "atlas_de_arton"
+}

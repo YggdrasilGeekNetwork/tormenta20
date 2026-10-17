@@ -1,0 +1,10 @@
+{
+  "id": "aprendiz_de_drogadora",
+  "name": "Aprendiz de Drogadora",
+  "origin": "aprendiz_de_drogadora",
+  "description": "Você é treinada em Cura e Ofício (alquimista). Como usa partes de seu corpo para fabricar preparados alquímicos e poções, você gasta apenas 1/4 do preço dos itens em matérias-primas.",
+  "effects": {
+    "custo_materias_primas": "1/4 do preço normal para preparados alquímicos e poções"
+  },
+  "livro": "atlas_de_arton"
+}

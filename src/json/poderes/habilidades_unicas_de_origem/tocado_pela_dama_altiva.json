@@ -1,0 +1,15 @@
+{
+  "id": "tocado_pela_dama_altiva",
+  "name": "Tocado pela Dama Altiva",
+  "origin": "tocado_pela_dama_altiva",
+  "description": "Você é treinado em Adestramento e pode gastar 1 minuto e 1 PM para convocar um animal Minúsculo a sua escolha em seu auxílio. A criatura convocada fornece +2 nos seus testes de uma perícia específica e permanece auxiliando-o até o fim da cena. Você pode ter um número de criaturas convocadas simultâneas igual à sua Sabedoria (mínimo de 1).",
+  "effects": {
+    "custo": {
+      "tempo": "1 minuto",
+      "pm": 1
+    },
+    "convocacao": "animal Minúsculo à escolha, +2 em uma perícia específica, até o fim da cena",
+    "limite_simultaneo": "Sabedoria (mínimo 1)"
+  },
+  "livro": "atlas_de_arton"
+}

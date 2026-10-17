@@ -1,0 +1,11 @@
+{
+  "id": "estudante_da_academia",
+  "name": "Estudante da Academia",
+  "origin": "estudante_da_academia",
+  "description": "Você aprende e pode lançar uma magia arcana de 1º círculo a sua escolha (atributo-chave Inteligência). Além disso, pode fazer testes de Misticismo mesmo sem ser treinado nessa perícia. Se for treinado, recebe +2 em testes dela.",
+  "effects": {
+    "magia_concedida": "arcana de 1º círculo, escolhida, atributo-chave Inteligência",
+    "misticismo": "pode testar sem treino; +2 se treinado"
+  },
+  "livro": "atlas_de_arton"
+}

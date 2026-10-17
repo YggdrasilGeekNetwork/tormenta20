@@ -1,0 +1,15 @@
+{
+  "id": "membro_do_principado",
+  "name": "Membro do Principado",
+  "origin": "membro_do_principado",
+  "description": "Você é treinado em Diplomacia e Intuição. Quando chega em uma cidade pela primeira vez em cada aventura, pode fazer um teste de Diplomacia (CD 20); se passar, recebe 10% de desconto em todos os itens que comprar neste lugar (cumulativo com barganha).",
+  "effects": {
+    "teste": {
+      "pericia": "diplomacia",
+      "cd": 20,
+      "frequencia": "1x por cidade por aventura"
+    },
+    "desconto": "10%, cumulativo com barganha"
+  },
+  "livro": "atlas_de_arton"
+}

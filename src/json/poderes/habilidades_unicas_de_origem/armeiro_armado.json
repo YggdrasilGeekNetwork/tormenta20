@@ -1,0 +1,11 @@
+{
+  "id": "armeiro_armado",
+  "name": "Armeiro Armado",
+  "origin": "armeiro_armado",
+  "description": "Você é treinado em Ofício (armeiro) e pode fabricar armas com uma melhoria. Se aprender a fabricar armas superiores por outra habilidade, gasta apenas 1/4 do preço das melhorias que aplica em armas.",
+  "effects": {
+    "fabricacao": "armas com uma melhoria",
+    "custo_melhorias_se_outra_habilidade": "1/4 do preço"
+  },
+  "livro": "atlas_de_arton"
+}

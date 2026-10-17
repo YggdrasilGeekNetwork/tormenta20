@@ -1,0 +1,15 @@
+{
+  "id": "liricista_de_lenorienn",
+  "name": "Liricista de Lenórienn",
+  "origin": "liricista_de_lenorienn",
+  "description": "Você é treinado em Atuação e recebe +2 nessa perícia. Além disso, pode usar Carisma como atributo-chave de Misticismo (no lugar de Inteligência).",
+  "effects": {
+    "bonus_atuacao": 2,
+    "troca_atributo_chave": {
+      "pericia": "misticismo",
+      "de": "inteligencia",
+      "para": "carisma"
+    }
+  },
+  "livro": "atlas_de_arton"
+}

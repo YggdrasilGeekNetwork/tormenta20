@@ -1,0 +1,20 @@
+{
+  "id": "um_com_os_kami",
+  "name": "Um com os Kami",
+  "origin": "um_com_os_kami",
+  "description": "Você pode usar Sabedoria como atributo-chave de Misticismo (em vez de Inteligência). Além disso, é acompanhado por um kami incorpóreo e invisível, um parceiro especial que permite que você veja criaturas incorpóreas invisíveis e afete criaturas com seus ataques e habilidades como se fossem mágicos, e não conta em seu limite de parceiros. Uma vez por rodada você pode gastar 1 PM para executar o equivalente a uma ação de movimento que só pode ser usada para manipular um objeto solto em alcance curto. O kami não pode se afastar além de alcance curto de você. Se for destruído, o kami desaparece, retornando no início da próxima cena.",
+  "effects": {
+    "troca_atributo_chave": {
+      "pericia": "misticismo",
+      "de": "inteligencia",
+      "para": "sabedoria"
+    },
+    "parceiro": "kami incorpóreo e invisível, especial, não conta no limite",
+    "acao_kami": {
+      "custo_pm": 1,
+      "frequencia": "1x_por_rodada",
+      "efeito": "manipular objeto solto em alcance curto"
+    }
+  },
+  "livro": "atlas_de_arton"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "grumete_pirata",
+  "name": "Grumete Pirata",
+  "description": "Origem regional de Três Mares. Por paixão, sede de liberdade ou pura necessidade, você serviu em uma embarcação pirata.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Adaga"
+    },
+    {
+      "type": "fixed",
+      "text": "Corda"
+    },
+    {
+      "type": "fixed",
+      "text": "Tatuagem de sua antiga tripulação (+1 em Intimidação)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Acrobacia",
+      "Atletismo",
+      "Reflexos"
+    ],
+    "powers": [
+      "Grumete Pirata"
+    ]
+  },
+  "unique_power": "grumete_pirata",
+  "livro": "atlas_de_arton"
+}

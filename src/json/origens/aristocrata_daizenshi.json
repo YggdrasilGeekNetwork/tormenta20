@@ -1,0 +1,25 @@
+{
+  "id": "aristocrata_daizenshi",
+  "name": "Aristocrata Dai'zenshi",
+  "description": "Origem regional de Tamu-ra. Você faz parte da nobreza tamuraniana, como descendente direto de um dos três Grandes Clãs ou como vassalo em alguma família samurai. Assim, é visto como um exemplo a ser seguido.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Traje da corte"
+    },
+    {
+      "type": "fixed",
+      "text": "Katana superior com uma melhoria (exceto material especial)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Nobreza"
+    ],
+    "powers": [
+      "Aristocrata Dai'zenshi"
+    ]
+  },
+  "unique_power": "aristocrata_daizenshi",
+  "livro": "atlas_de_arton"
+}

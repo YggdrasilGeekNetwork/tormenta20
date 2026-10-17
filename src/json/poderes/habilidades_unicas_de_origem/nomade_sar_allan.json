@@ -1,0 +1,19 @@
+{
+  "id": "nomade_sar_allan",
+  "name": "Nômade Sar-Allan",
+  "origin": "nomade_sar_allan",
+  "description": "Você recebe +2 em Fortitude e Sobrevivência e nas rolagens de dano com alfanges, arcos curtos e cimitarras.",
+  "effects": {
+    "bonus_fortitude": 2,
+    "bonus_sobrevivencia": 2,
+    "bonus_dano_armas": {
+      "valor": 2,
+      "armas": [
+        "alfanges",
+        "arcos curtos",
+        "cimitarras"
+      ]
+    }
+  },
+  "livro": "atlas_de_arton"
+}

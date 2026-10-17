@@ -1,0 +1,12 @@
+{
+  "id": "descendente_colleniano",
+  "name": "Descendente Colleniano",
+  "origin": "descendente_colleniano",
+  "description": "Você recebe +2 em Percepção e pode lançar a magia Visão Mística. Caso aprenda essa magia novamente, seu custo diminui em -1 PM.",
+  "effects": {
+    "bonus_percepcao": 2,
+    "magia_concedida": "visao_mistica",
+    "reducao_custo_se_aprendida_novamente": 1
+  },
+  "livro": "atlas_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "guardiao_glacial",
+  "name": "Guardião Glacial",
+  "origin": "guardiao_glacial",
+  "description": "Você recebe redução de frio 5 e proficiência em arco longo e machado de batalha. Caso já possua proficiência com essas armas, você recebe +2 em rolagens de dano com elas.",
+  "effects": {
+    "reducao_de_frio": 5,
+    "proficiencia": [
+      "arco longo",
+      "machado de batalha"
+    ],
+    "se_ja_proficiente": "+2 em rolagens de dano com essas armas"
+  },
+  "livro": "atlas_de_arton"
+}

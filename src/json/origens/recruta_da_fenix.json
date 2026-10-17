@@ -1,0 +1,29 @@
+{
+  "id": "recruta_da_fenix",
+  "name": "Recruta da Fênix",
+  "description": "Origem regional de Triunphus. Você começou o treinamento para combater a Horda Moóck montado em um majestoso grifo. Por vontade própria ou imposição, você saiu da cidade antes de completar o treinamento... ou morrer!",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arma marcial"
+    },
+    {
+      "type": "fixed",
+      "text": "Brunea"
+    },
+    {
+      "type": "fixed",
+      "text": "Grifo iniciante"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Cavalgar"
+    ],
+    "powers": [
+      "Recruta da Fênix"
+    ]
+  },
+  "unique_power": "recruta_da_fenix",
+  "livro": "atlas_de_arton"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "guardiao_glacial",
+  "name": "Guardião Glacial",
+  "description": "Origem regional de Montanhas Uivantes. As Uivantes são inclementes, mas também precisam de seus protetores. Você treinou com eles e aprendeu como afugentar intrometidos.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Casaco longo"
+    },
+    {
+      "type": "fixed",
+      "text": "Cavalo glacial"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Guardião Glacial"
+    ]
+  },
+  "unique_power": "guardiao_glacial",
+  "livro": "atlas_de_arton"
+}

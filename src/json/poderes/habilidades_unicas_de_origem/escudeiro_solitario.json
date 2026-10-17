@@ -1,0 +1,11 @@
+{
+  "id": "escudeiro_solitario",
+  "name": "Escudeiro Solitário",
+  "origin": "escudeiro_solitario",
+  "description": "Você é treinado em Enganação e Ladinagem e recebe +10 em testes de Enganação para se disfarçar como cavaleiro da Luz. Além disso, se tiver Código de Honra (ou outro semelhante), atacar pelas costas não faz com que você o viole.",
+  "effects": {
+    "bonus_enganacao_disfarce": 10,
+    "excecao_codigo_de_honra": "atacar pelas costas não viola o código"
+  },
+  "livro": "atlas_de_arton"
+}
