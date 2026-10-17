@@ -3,8 +3,8 @@ import { Query } from "../query.js"
 
 const TABLE = "encantamentos"
 
-/** Whether the enchantment applies to weapons or to armors/shields. */
-export type EncantamentoCategoria = "arma" | "armadura"
+/** What kind of item the enchantment applies to. */
+export type EncantamentoCategoria = "arma" | "armadura" | "esoterico" | "acessorio"
 
 /**
  * An Encantamento (magical enchantment) that can be applied to weapons or armor/shields.
@@ -24,16 +24,18 @@ export class Encantamento extends BaseModel {
   get escudoOnly(): boolean { return BaseModel.bool(this._row.escudo_only) }
   /** `true` if this enchantment counts as two enchantment slots. */
   get contaComoDois(): boolean { return BaseModel.bool(this._row.conta_como_dois) }
+  /** `true` if this is a curse (negative effect on the wielder) rather than a positive enchantment. */
+  get maldicao(): boolean { return BaseModel.bool(this._row.maldicao) }
   /** JSON array of prerequisite descriptors. */
   get prerequisitos(): unknown[] { return BaseModel.json(this._row.prerequisitos, []) }
-  /** JSON object with mechanical effects. */
-  get efeito(): Record<string, unknown> { return BaseModel.json(this._row.efeito, {}) }
+  /** JSON array of typed mechanical effect objects. */
+  get effects(): unknown[] { return BaseModel.json(this._row.effects, []) }
 
   toH() {
     return {
       id: this.id, name: this.name, description: this.description, categoria: this.categoria,
-      escudo_only: this.escudoOnly, conta_como_dois: this.contaComoDois,
-      prerequisitos: this.prerequisitos, efeito: this.efeito,
+      escudo_only: this.escudoOnly, conta_como_dois: this.contaComoDois, maldicao: this.maldicao,
+      prerequisitos: this.prerequisitos, effects: this.effects,
     }
   }
 
@@ -50,4 +52,8 @@ export class Encantamento extends BaseModel {
   static armadurasEscudos(): Query<Encantamento> { return Encantamento.query().where("categoria = ?", "armadura") }
   /** Returns armor/shield enchantments applicable only to shields. */
   static escudoOnly(): Query<Encantamento> { return Encantamento.query().where("escudo_only = 1") }
+  /** Returns curses (negative enchantments). */
+  static maldicoes(): Query<Encantamento> { return Encantamento.query().where("maldicao = 1") }
+  /** Returns regular (non-curse) enchantments. */
+  static naoMaldicoes(): Query<Encantamento> { return Encantamento.query().where("maldicao IS NULL OR maldicao = 0") }
 }

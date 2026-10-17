@@ -1,9 +1,0 @@
-{
-  "id": "esquiva_sobrenatural",
-  "name": "Esquiva Sobrenatural",
-  "type": "habilidade_de_classe",
-  "sub_type": "poder_de_barbaro",
-  "description": "Seus instintos ficam tão apurados que você consegue reagir ao perigo antes que seus sentidos percebam. Você nunca fica surpreendido.",
-  "requirements": null,
-  "effects": "ver_texto"
-}

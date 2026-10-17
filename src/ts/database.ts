@@ -65,7 +65,7 @@ class Tormenta20Database {
   setup(): void {
     const readonly = this.mode !== "create_on_build"
     this._db = new Database(this.dbPath, { readonly })
-    this._db.pragma("journal_mode = WAL")
+    if (!readonly) this._db.pragma("journal_mode = WAL")
     this._db.pragma("foreign_keys = ON")
   }
 

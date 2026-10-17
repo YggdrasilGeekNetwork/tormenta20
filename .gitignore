@@ -23,3 +23,5 @@
 /db/tormenta20.sqlite3
 /db/tormenta20.sqlite3-shm
 /db/tormenta20.sqlite3-wal
+/db/tormenta20.sqlite3-journal
+.omc/

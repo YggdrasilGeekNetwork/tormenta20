@@ -59,6 +59,16 @@ module Tormenta20
       #   @return [ActiveRecord::Relation<Divindade>]
       scope :by_energy, ->(e) { where(energy: e) }
 
+      # @!method maiores
+      #   Filter major (greater) deities.
+      #   @return [ActiveRecord::Relation<Divindade>]
+      scope :maiores, -> { where(rank: "maior") }
+
+      # @!method menores
+      #   Filter minor (lesser) deities (Deuses de Arton, Cap. 3).
+      #   @return [ActiveRecord::Relation<Divindade>]
+      scope :menores, -> { where(rank: "menor") }
+
       # @!endgroup
 
       # Get races that typically worship this deity.
@@ -90,7 +100,10 @@ module Tormenta20
           preferred_weapon: preferred_weapon,
           devotees: devotees,
           granted_powers: granted_powers,
-          obligations_restrictions: obligations_restrictions
+          obligations_restrictions: obligations_restrictions,
+          rank: rank,
+          natureza: natureza,
+          status_divino: status_divino
         }.compact
       end
     end

@@ -33,6 +33,10 @@ export class Raca extends BaseModel {
   get visionRange(): number | null { return (this._row.vision_range as number) ?? null }
   /** Map of attribute key → bonus value (e.g. `{ DES: 2, INT: -2 }`). */
   get attributeBonuses(): Record<string, number> { return BaseModel.json(this._row.attribute_bonuses, {}) }
+  /** `{ count, value, exclude }` — "choose N attributes" pattern (Heróis de Arton); `null` for fixed-bonus races. */
+  get chosenAttributeBonus(): { count: number; value: number; exclude?: string[] } | null {
+    return BaseModel.json(this._row.chosen_attribute_bonus, null)
+  }
   /** JSON array of skill bonus descriptors. */
   get skillBonuses(): unknown[] { return BaseModel.json(this._row.skill_bonuses, []) }
   /** IDs of racial abilities all members of this race have. */
@@ -41,6 +45,14 @@ export class Raca extends BaseModel {
   get chosenAbilitiesAmount(): number { return (this._row.chosen_abilities_amount as number) ?? 0 }
   /** Pool of ability IDs the player chooses from. */
   get availableChosenAbilities(): unknown[] { return BaseModel.json(this._row.available_chosen_abilities, []) }
+  /** Lifespan multiplier (e.g. `"x2"`, `"x5"`, `"Normal"`), or `null`. Introduced in Heróis de Arton; absent for EJA races. */
+  get longevidade(): string | null { return (this._row.longevidade as string) ?? null }
+  /** Deity IDs commonly devoted to by this race, or `null`. */
+  get devocao(): string[] | null { return BaseModel.json(this._row.devocao, null) }
+  /** `{ replaces, options }` — a fixed racial ability that may be swapped for one of several variants (e.g. suraggel/Deuses de Arton), or `null`. */
+  get abilitySwap(): { replaces: string; options: string[] } | null {
+    return BaseModel.json(this._row.ability_swap, null)
+  }
 
   /**
    * Returns the racial attribute bonus for the given attribute key (e.g. `"FOR"`, `"DES"`).
@@ -64,9 +76,12 @@ export class Raca extends BaseModel {
       id: this.id, name: this.name, description: this.description,
       size: this.size, movement: this.movement, vision: this.vision,
       vision_range: this.visionRange, attribute_bonuses: this.attributeBonuses,
+      chosen_attribute_bonus: this.chosenAttributeBonus,
       skill_bonuses: this.skillBonuses, racial_abilities: this.racialAbilities,
       chosen_abilities_amount: this.chosenAbilitiesAmount,
       available_chosen_abilities: this.availableChosenAbilities,
+      longevidade: this.longevidade, devocao: this.devocao,
+      ability_swap: this.abilitySwap,
     }
   }
 

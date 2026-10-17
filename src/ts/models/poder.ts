@@ -16,11 +16,15 @@ const TABLE = "poderes"
  * - `poder_combate` — combat power
  * - `poder_destino` — destiny power
  * - `poder_magia` — magic power
+ * - `poder_de_raca` — race power (Heróis de Arton)
+ * - `poder_de_grupo` — group power (Heróis de Arton)
+ * - `poder_distincao` — distinction power; see `distincaoId`
  */
 export type PoderType =
   | "habilidade_unica_origem" | "poder_concedido" | "poder_tormenta"
   | "poder_classe" | "habilidade_de_raca" | "poder_geral"
   | "poder_combate" | "poder_destino" | "poder_magia"
+  | "poder_de_raca" | "poder_de_grupo" | "poder_distincao"
 
 /**
  * A Poder (power or ability) in Tormenta20.
@@ -49,6 +53,8 @@ export class Poder extends BaseModel {
   get originId(): string | null { return (this._row.origin_id as string) ?? null }
   /** ID of the associated {@link Classe}, or `null` for non-class powers. */
   get classId(): string | null { return (this._row.class_id as string) ?? null }
+  /** ID of the associated {@link Distincao}, or `null` for non-distinction powers. */
+  get distincaoId(): string | null { return (this._row.distincao_id as string) ?? null }
   /** IDs of deities that grant this power (for `poder_concedido`). */
   get deities(): string[] { return BaseModel.json(this._row.deities, []) }
 
@@ -59,7 +65,8 @@ export class Poder extends BaseModel {
     return {
       id: this.id, name: this.name, type: this.type, description: this.description,
       effects: this.effects, costs: this.costs, prerequisites: this.prerequisites,
-      origin_id: this.originId, class_id: this.classId, deities: this.deities,
+      origin_id: this.originId, class_id: this.classId, distincao_id: this.distincaoId,
+      deities: this.deities,
     }
   }
 
@@ -76,6 +83,8 @@ export class Poder extends BaseModel {
   static byOrigin(originId: string): Query<Poder> { return Poder.query().where("origin_id = ?", originId) }
   /** Returns powers associated with the given class ID. */
   static byClass(classId: string): Query<Poder> { return Poder.query().where("class_id = ?", classId) }
+  /** Returns powers belonging to the given distinction ID. */
+  static byDistincao(distincaoId: string): Query<Poder> { return Poder.query().where("distincao_id = ?", distincaoId) }
   /** Returns powers granted by the given deity ID. */
   static byDeity(deityId: string): Query<Poder> { return Poder.query().where("deities LIKE ?", `%${deityId}%`) }
 
@@ -88,4 +97,7 @@ export class Poder extends BaseModel {
   static poderesCombate(): Query<Poder> { return Poder.byType("poder_combate") }
   static poderesDestino(): Query<Poder> { return Poder.byType("poder_destino") }
   static poderesMagia(): Query<Poder> { return Poder.byType("poder_magia") }
+  static poderesDeRaca(): Query<Poder> { return Poder.byType("poder_de_raca") }
+  static poderesDeGrupo(): Query<Poder> { return Poder.byType("poder_de_grupo") }
+  static poderesDistincao(): Query<Poder> { return Poder.byType("poder_distincao") }
 }

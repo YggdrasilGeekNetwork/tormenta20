@@ -8,10 +8,11 @@ require_relative "tormenta20/database"
 
 # Load concerns before models
 require_relative "tormenta20/concerns/book_referenceable"
+require_relative "tormenta20/concerns/livro_scoped"
 
 # Load base model first, then other models
 require_relative "tormenta20/models/base"
-Dir["#{__dir__}/tormenta20/models/*.rb"].each { |file| require file unless file.include?("base") }
+Dir["#{__dir__}/tormenta20/models/*.rb"].each { |file| require file unless File.basename(file) == "base.rb" }
 
 # Load other modules
 Dir["#{__dir__}/tormenta20/*.rb"].each { |file| require file unless file.include?("database") }
@@ -68,6 +69,16 @@ module Tormenta20
     #   Tormenta20.poderes.by_type("poder_tormenta")
     def poderes
       Models::Poder
+    end
+
+    # Access the Distincao (Distinction) model for querying distinctions.
+    #
+    # @return [Class<Models::Distincao>] The Distincao model class
+    # @example
+    #   Tormenta20.distincoes.find("amazona")
+    #   Tormenta20.poderes.by_distincao("amazona")
+    def distincoes
+      Models::Distincao
     end
 
     # Access the Divindade (Deity) model for querying deities.
@@ -247,6 +258,97 @@ module Tormenta20
     #   Tormenta20.acessorios.find("anel_da_protecao")
     def acessorios
       Models::AcessorioMagico
+    end
+
+    # Access the EsotericoMagico (Magic Esoteric Implement) model for querying staffs,
+    # wands, holy symbols and other spellcasting foci.
+    #
+    # @return [Class<Models::EsotericoMagico>] The EsotericoMagico model class
+    # @example
+    #   Tormenta20.esotericos.maiores
+    #   Tormenta20.esotericos.find("cajado_do_poder")
+    def esotericos
+      Models::EsotericoMagico
+    end
+
+    # Access the Complicacao (Character Complication) model.
+    #
+    # @return [Class<Models::Complicacao>] The Complicacao model class
+    # @example
+    #   Tormenta20.complicacoes.gerais
+    #   Tormenta20.complicacoes.by_categoria("guerreiro")
+    def complicacoes
+      Models::Complicacao
+    end
+
+    # Access the BaseTipo (Headquarters Type) model.
+    # @return [Class<Models::BaseTipo>]
+    def bases_tipos
+      Models::BaseTipo
+    end
+
+    # Access the Comodo (Headquarters Room) model.
+    # @return [Class<Models::Comodo>]
+    def comodos
+      Models::Comodo
+    end
+
+    # Access the Mobilia (Headquarters Furniture) model.
+    # @return [Class<Models::Mobilia>]
+    def mobilias
+      Models::Mobilia
+    end
+
+    # Access the ConstrucaoDominio (Domain Building) model.
+    # @return [Class<Models::ConstrucaoDominio>]
+    def construcoes_dominio
+      Models::ConstrucaoDominio
+    end
+
+    # Access named specific magic weapons (Cap. 8, Tabela 8-9).
+    #
+    # @return [Class<Models::ArmaMagicaEspecifica>]
+    # @example
+    #   Tormenta20.armas_magicas.order(:preco)
+    def armas_magicas
+      Models::ArmaMagicaEspecifica
+    end
+
+    # Access named specific magic armors and shields (Cap. 8, Tabela 8-11).
+    #
+    # @return [Class<Models::ArmaduraMagicaEspecifica>]
+    # @example
+    #   Tormenta20.armaduras_magicas.escudos
+    def armaduras_magicas
+      Models::ArmaduraMagicaEspecifica
+    end
+
+    # Access liturgical items — named magic items tied to a specific deity
+    # (Deuses de Arton, Cap. 1).
+    #
+    # @return [Class<Models::ItemLiturgico>]
+    # @example
+    #   Tormenta20.itens_liturgicos.by_deity("aharadak")
+    def itens_liturgicos
+      Models::ItemLiturgico
+    end
+
+    # Access artifacts — unique, extremely powerful magic items (Cap. 8, pp. 350–353).
+    #
+    # @return [Class<Models::Artefato>]
+    # @example
+    #   Tormenta20.artefatos.all
+    def artefatos
+      Models::Artefato
+    end
+
+    # Access monster and enemy stat blocks (Cap. 7).
+    #
+    # @return [Class<Models::Ameaca>]
+    # @example
+    #   Tormenta20.ameacas.dragoes.order(:nd)
+    def ameacas
+      Models::Ameaca
     end
 
     # @!endgroup

@@ -34,6 +34,17 @@ RSpec.describe Tormenta20::Models::MaterialEspecial do
         expect(material.name).to be_present
       end
     end
+
+    it "effects is a hash keyed by category, each value a non-empty array of typed objects" do
+      described_class.find_each do |material|
+        expect(material.effects).to be_a(Hash)
+        material.effects.each_value do |category_effects|
+          expect(category_effects).to be_an(Array)
+          expect(category_effects).not_to be_empty
+          category_effects.each { |effect| expect(effect["type"]).to be_a(String) }
+        end
+      end
+    end
   end
 
   describe "instance methods" do

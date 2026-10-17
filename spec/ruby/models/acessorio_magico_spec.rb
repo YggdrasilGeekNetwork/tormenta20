@@ -37,12 +37,30 @@ RSpec.describe Tormenta20::Models::AcessorioMagico do
     end
   end
 
+  describe "data integrity" do
+    it "each acessorio has a non-empty effects array of typed objects" do
+      described_class.find_each do |a|
+        expect(a.effects).to be_an(Array)
+        expect(a.effects).not_to be_empty
+        a.effects.each { |effect| expect(effect["type"]).to be_a(String) }
+      end
+    end
+  end
+
   describe "instance methods" do
     let(:acessorio) { described_class.first }
 
-    describe "#efeito" do
-      it "returns a hash" do
-        expect(acessorio.efeito).to be_a(Hash)
+    describe "#effects" do
+      it "returns an array" do
+        expect(acessorio.effects).to be_an(Array)
+      end
+    end
+
+    describe "#to_h" do
+      it "returns a hash representation" do
+        hash = acessorio.to_h
+        expect(hash[:id]).to eq(acessorio.id)
+        expect(hash[:effects]).to be_an(Array)
       end
     end
 

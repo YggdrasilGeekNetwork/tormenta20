@@ -28,6 +28,8 @@ module Tormenta20
     #   @return [Integer, nil] Range of special vision in metres, or +nil+ for normal vision
     # @!attribute [rw] attribute_bonuses
     #   @return [Hash{String => Integer}] Map of attribute key to bonus value
+    # @!attribute [rw] chosen_attribute_bonus
+    #   @return [Hash, nil] +{ count:, value:, exclude: }+ — "choose N attributes" pattern (Heróis de Arton); +nil+ for fixed-bonus races
     # @!attribute [rw] skill_bonuses
     #   @return [Array] Skill bonus descriptors
     # @!attribute [rw] racial_abilities
@@ -36,6 +38,13 @@ module Tormenta20
     #   @return [Integer] Number of abilities the player selects at character creation
     # @!attribute [rw] available_chosen_abilities
     #   @return [Array] Pool of ability IDs to choose from
+    # @!attribute [rw] longevidade
+    #   @return [String, nil] Lifespan multiplier (e.g. +"x2"+, +"x5"+, +"Normal"+); introduced in Heróis de Arton, absent for EJA races
+    # @!attribute [rw] devocao
+    #   @return [Array<String>, nil] Deity IDs commonly devoted to by this race, or +nil+
+    # @!attribute [rw] ability_swap
+    #   @return [Hash, nil] +{ "replaces" => id, "options" => [ids] }+ — a fixed racial ability
+    #     that may be swapped for one of several variants (e.g. suraggel/Deuses de Arton); +nil+ when none exist
     class Raca < Base
       self.table_name = "racas"
 
@@ -84,10 +93,14 @@ module Tormenta20
           vision: vision,
           vision_range: vision_range,
           attribute_bonuses: attribute_bonuses || {},
+          chosen_attribute_bonus: chosen_attribute_bonus,
           skill_bonuses: skill_bonuses || [],
           racial_abilities: racial_abilities || [],
           chosen_abilities_amount: chosen_abilities_amount || 0,
-          available_chosen_abilities: available_chosen_abilities || []
+          available_chosen_abilities: available_chosen_abilities || [],
+          longevidade: longevidade,
+          devocao: devocao,
+          ability_swap: ability_swap
         }.compact
       end
     end

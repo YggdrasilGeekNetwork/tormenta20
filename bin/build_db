@@ -36,6 +36,14 @@ def main
   seed_poderes_gerais(db)
   seed_classes(db)
   seed_habilidades_de_classe(db)
+  seed_classes_variantes(db)
+  seed_distincoes(db)
+  seed_poderes_distincao(db)
+  seed_complicacoes(db)
+  seed_bases_tipos(db)
+  seed_comodos(db)
+  seed_mobilias(db)
+  seed_construcoes_dominio(db)
   seed_magias(db)
   seed_armaduras(db)
   seed_armas(db)
@@ -46,6 +54,12 @@ def main
   seed_encantamentos(db)
   seed_pocoes(db)
   seed_acessorios(db)
+  seed_esotericos(db)
+  seed_armas_magicas_especificas(db)
+  seed_armaduras_magicas_especificas(db)
+  seed_itens_liturgicos(db)
+  seed_artefatos(db)
+  seed_ameacas(db)
   seed_regras(db)
   seed_condicoes(db)
   seed_pericias(db)
@@ -62,8 +76,8 @@ end
 def seed_racas(db)
   import_json_files(db, "racas", "racas",
                     %w[id name description size movement vision vision_range
-                       attribute_bonuses skill_bonuses racial_abilities
-                       chosen_abilities_amount available_chosen_abilities])
+                       attribute_bonuses chosen_attribute_bonus skill_bonuses racial_abilities
+                       chosen_abilities_amount available_chosen_abilities longevidade devocao ability_swap])
 end
 
 def seed_habilidades_de_raca(db)
@@ -76,14 +90,15 @@ def seed_habilidades_de_raca(db)
     next if data["id"].nil?
 
     db.execute(
-      "INSERT OR REPLACE INTO poderes (id, name, type, description, effects, prerequisites) VALUES (?, ?, ?, ?, ?, ?)",
+      "INSERT OR REPLACE INTO poderes (id, name, type, description, effects, prerequisites, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?)",
       [
         data["id"],
         data["name"] || data["id"],
         "habilidade_de_raca",
         data["description"],
         (data["effects"] || {}).to_json,
-        (data["prerequisites"] || []).to_json
+        (data["prerequisites"] || []).to_json,
+        data["livro"] || "t20_eja"
       ]
     )
     count += 1
@@ -112,7 +127,12 @@ end
 def seed_divindades(db)
   import_json_files(db, "deuses", "divindades",
                     %w[id name title description beliefs_objectives holy_symbol energy
-                       preferred_weapon devotees granted_powers obligations_restrictions])
+                       preferred_weapon devotees granted_powers obligations_restrictions
+                       rank natureza status_divino],
+                    transform: lambda { |data|
+                      data["rank"] ||= "maior"
+                      data
+                    })
 end
 
 def seed_poderes_concedidos(db)
@@ -152,14 +172,15 @@ def seed_poderes_gerais(db)
     type = PODER_GERAL_TYPE_MAP.fetch(raw_type, raw_type)
 
     db.execute(
-      "INSERT OR REPLACE INTO poderes (id, name, type, description, effects, prerequisites) VALUES (?, ?, ?, ?, ?, ?)",
+      "INSERT OR REPLACE INTO poderes (id, name, type, description, effects, prerequisites, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?)",
       [
         data["id"],
         data["name"] || data["id"],
         type,
         data["description"],
         (data["effects"] || []).to_json,
-        (data["requirements"] || data["prerequisites"] || []).to_json
+        (data["requirements"] || data["prerequisites"] || []).to_json,
+        data["livro"] || "t20_eja"
       ]
     )
     count += 1
@@ -173,6 +194,78 @@ end
 def seed_classes(db)
   import_json_files(db, "classes", "classes",
                     %w[id name hit_points mana_points skills proficiencies abilities powers progression spellcasting])
+end
+
+def seed_classes_variantes(db)
+  import_json_files(db, "classes_variantes", "classes_variantes",
+                    %w[id name base_class_id description diffs])
+end
+
+def seed_distincoes(db)
+  import_json_files(db, "distincoes", "distincoes",
+                    %w[id name description admissao marca_nome marca_descricao nivel_minimo])
+end
+
+def seed_complicacoes(db)
+  import_json_files(db, "complicacoes", "complicacoes",
+                    %w[id name description categoria effects])
+end
+
+def seed_bases_tipos(db)
+  import_json_files(db, "bases_tipos", "bases_tipos",
+                    %w[id name description effects])
+end
+
+def seed_comodos(db)
+  import_json_files(db, "comodos", "comodos",
+                    %w[id name description effects prerequisito])
+end
+
+def seed_mobilias(db)
+  import_json_files(db, "mobilias", "mobilias",
+                    %w[id name description effects preco comodo_alvo])
+end
+
+def seed_construcoes_dominio(db)
+  import_json_files(db, "construcoes_dominio", "construcoes_dominio",
+                    %w[id name description categoria custo effects prerequisito])
+end
+
+def seed_poderes_distincao(db)
+  base_dir = File.join(JSON_BASE_PATH, "poderes", "poderes_distincao")
+  return unless Dir.exist?(base_dir)
+
+  count = 0
+  Dir.each_child(base_dir) do |distincao_dir|
+    distincao_path = File.join(base_dir, distincao_dir)
+    next unless File.directory?(distincao_path)
+
+    distincao_id = distincao_dir
+
+    Dir.glob(File.join(distincao_path, "*.json")).each do |file|
+      data = JSON.parse(File.read(file))
+      next if data["id"].nil?
+
+      db.execute(
+        "INSERT OR REPLACE INTO poderes (id, name, type, distincao_id, description, effects, prerequisites, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        [
+          data["id"],
+          data["name"] || data["id"],
+          "poder_distincao",
+          distincao_id,
+          data["description"],
+          (data["effects"] || []).to_json,
+          (data["requirements"] || data["prerequisites"] || []).to_json,
+          data["livro"] || "t20_eja"
+        ]
+      )
+      count += 1
+    rescue StandardError => e
+      puts "  Error importing #{File.basename(file)}: #{e.message}"
+    end
+  end
+
+  puts "  Imported #{count} poderes_distincao"
 end
 
 def seed_habilidades_de_classe(db)
@@ -191,7 +284,7 @@ def seed_habilidades_de_classe(db)
       next if data["id"].nil?
 
       db.execute(
-        "INSERT OR REPLACE INTO poderes (id, name, type, class_id, description, effects, prerequisites) VALUES (?, ?, ?, ?, ?, ?, ?)",
+        "INSERT OR REPLACE INTO poderes (id, name, type, class_id, description, effects, prerequisites, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
         [
           data["id"],
           data["name"] || data["id"],
@@ -199,7 +292,8 @@ def seed_habilidades_de_classe(db)
           class_id,
           data["description"],
           (data["effects"] || {}).to_json,
-          (data["requirements"] || data["prerequisites"] || []).to_json
+          (data["requirements"] || data["prerequisites"] || []).to_json,
+          data["livro"] || "t20_eja"
         ]
       )
       count += 1
@@ -247,8 +341,8 @@ def insert_magia(db, data)
       resistence_effect, resistence_skill,
       extra_costs_material_component, extra_costs_material_cost,
       extra_costs_pm_debuff, extra_costs_pm_sacrifice,
-      enhancements, effects
-    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
+      enhancements, effects, livro_id
+    ) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)
   SQL
 
   values = [
@@ -267,7 +361,8 @@ def insert_magia(db, data)
     resistence["effect"], resistence["skill"],
     extra_costs["material_component"], extra_costs["material_component_cost"],
     extra_costs["pm_debuff"], extra_costs["pm_sacrifice"],
-    (data["enhancements"] || []).to_json, (data["effects"] || []).to_json
+    (data["enhancements"] || []).to_json, (data["effects"] || []).to_json,
+    data["livro"] || "t20_eja"
   ]
 
   db.execute(sql, values)
@@ -293,7 +388,7 @@ def seed_armaduras(db)
     properties = data["especial"].then { |s| s.nil? ? [] : [s] }
 
     db.execute(
-      "INSERT OR REPLACE INTO armaduras (id, name, category, price, defense_bonus, armor_penalty, weight, properties, description) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
+      "INSERT OR REPLACE INTO armaduras (id, name, category, price, defense_bonus, armor_penalty, weight, properties, description, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
       [
         data["id"],
         data["name"],
@@ -303,7 +398,8 @@ def seed_armaduras(db)
         data["penalidade_armadura"] || 0,
         data["espacos"],
         properties.to_json,
-        data["description"]
+        data["description"],
+        data["livro"] || "t20_eja"
       ]
     )
     count += 1
@@ -328,7 +424,7 @@ def seed_armas(db)
     properties = [data["habilidades"], data["especial"]].flatten.compact
 
     db.execute(
-      "INSERT OR REPLACE INTO armas (id, name, category, price, damage, damage_type, critical, range, weight, properties, description) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
+      "INSERT OR REPLACE INTO armas (id, name, category, price, damage, damage_type, critical, range, weight, properties, description, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
       [
         data["id"],
         data["name"],
@@ -340,7 +436,8 @@ def seed_armas(db)
         data["alcance"],
         data["espacos"],
         properties.to_json,
-        data["description"]
+        data["description"],
+        data["livro"] || "t20_eja"
       ]
     )
     count += 1
@@ -356,7 +453,7 @@ def seed_itens(db)
   return unless Dir.exist?(base_dir)
 
   count = 0
-  base_keys = %w[id name categoria preco espacos description]
+  base_keys = %w[id name categoria preco espacos description livro]
   Dir.glob(File.join(base_dir, "**", "*.json")).each do |file|
     data = JSON.parse(File.read(file))
     next if data["id"].nil?
@@ -364,7 +461,7 @@ def seed_itens(db)
     effects = data.reject { |k, _| base_keys.include?(k) }
 
     db.execute(
-      "INSERT OR REPLACE INTO itens (id, name, category, price, weight, description, effects) VALUES (?, ?, ?, ?, ?, ?, ?)",
+      "INSERT OR REPLACE INTO itens (id, name, category, price, weight, description, effects, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
       [
         data["id"],
         data["name"],
@@ -372,7 +469,8 @@ def seed_itens(db)
         data["preco"],
         data["espacos"],
         data["description"],
-        effects.to_json
+        effects.to_json,
+        data["livro"] || "t20_eja"
       ]
     )
     count += 1
@@ -410,14 +508,15 @@ def seed_melhorias(db)
     next if data["id"].nil?
 
     db.execute(
-      "INSERT OR REPLACE INTO melhorias (id, name, description, applicable_to, price, effects) VALUES (?, ?, ?, ?, ?, ?)",
+      "INSERT OR REPLACE INTO melhorias (id, name, description, applicable_to, price, effects, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?)",
       [
         data["id"],
         data["name"],
         data["description"],
         (data["applicable_to"] || [data["categoria"]].compact).to_json,
         data["price"],
-        (data["efeito"] || data["effects"] || {}).to_json
+        (data["effects"] || []).to_json,
+        data["livro"] || "t20_eja"
       ]
     )
     count += 1
@@ -438,7 +537,7 @@ def seed_encantamentos(db)
     next if data["id"].nil?
 
     db.execute(
-      "INSERT OR REPLACE INTO encantamentos (id, name, description, categoria, escudo_only, conta_como_dois, prerequisitos, efeito) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+      "INSERT OR REPLACE INTO encantamentos (id, name, description, categoria, escudo_only, conta_como_dois, maldicao, prerequisitos, effects, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?)",
       [
         data["id"],
         data["name"],
@@ -446,8 +545,10 @@ def seed_encantamentos(db)
         data["categoria"],
         data["escudo_only"] ? 1 : 0,
         data["conta_como_dois"] ? 1 : 0,
+        data["maldicao"] ? 1 : 0,
         (data["prerequisitos"] || []).to_json,
-        (data["efeito"] || {}).to_json
+        (data["effects"] || []).to_json,
+        data["livro"] || "t20_eja"
       ]
     )
     count += 1
@@ -466,11 +567,12 @@ def seed_pocoes(db)
   Dir.glob("#{dir}/*.json").sort.each do |file|
     data = JSON.parse(File.read(file))
     db.execute(
-      "INSERT OR REPLACE INTO pocoes (id, name, subtipo, spell_id, pm_cost, categoria, preco, roll_min, roll_max, aprimoramento, description) VALUES (?,?,?,?,?,?,?,?,?,?,?)",
+      "INSERT OR REPLACE INTO pocoes (id, name, subtipo, spell_id, pm_cost, categoria, preco, roll_min, roll_max, aprimoramento, description, livro_id) VALUES (?,?,?,?,?,?,?,?,?,?,?,?)",
       [
         data["id"], data["name"], data["subtipo"], data["spell_id"],
         data["pm_cost"], data["categoria"], data["preco"],
-        data["roll_min"], data["roll_max"], data["aprimoramento"], data["description"]
+        data["roll_min"], data["roll_max"], data["aprimoramento"], data["description"],
+        data["livro"] || "t20_eja"
       ]
     )
     count += 1
@@ -488,11 +590,12 @@ def seed_acessorios(db)
   Dir.glob("#{dir}/*.json").sort.each do |file|
     data = JSON.parse(File.read(file))
     db.execute(
-      "INSERT OR REPLACE INTO acessorios_magicos (id, name, categoria, preco, roll_min, roll_max, description, efeito) VALUES (?,?,?,?,?,?,?,?)",
+      "INSERT OR REPLACE INTO acessorios_magicos (id, name, categoria, preco, roll_min, roll_max, description, effects, livro_id) VALUES (?,?,?,?,?,?,?,?,?)",
       [
         data["id"], data["name"], data["categoria"],
         data["preco"], data["roll_min"], data["roll_max"], data["description"],
-        (data["efeito"] || {}).to_json
+        (data["effects"] || []).to_json,
+        data["livro"] || "t20_eja"
       ]
     )
     count += 1
@@ -502,13 +605,113 @@ def seed_acessorios(db)
   puts "  Seeded #{count} acessorios_magicos"
 end
 
+def seed_esotericos(db)
+  dir = File.join(__dir__, "../src/json/itens_magicos/esotericos")
+  return unless Dir.exist?(dir)
+
+  count = 0
+  Dir.glob("#{dir}/*.json").sort.each do |file|
+    data = JSON.parse(File.read(file))
+    db.execute(
+      "INSERT OR REPLACE INTO esotericos_magicos (id, name, categoria, preco, roll_min, roll_max, description, effects, livro_id) VALUES (?,?,?,?,?,?,?,?,?)",
+      [
+        data["id"], data["name"], data["categoria"],
+        data["preco"], data["roll_min"], data["roll_max"], data["description"],
+        (data["effects"] || []).to_json,
+        data["livro"] || "t20_eja"
+      ]
+    )
+    count += 1
+  rescue StandardError => e
+    puts "  Error importing #{File.basename(file)}: #{e.message}"
+  end
+  puts "  Seeded #{count} esotericos_magicos"
+end
+
+def seed_armas_magicas_especificas(db)
+  import_json_files(db, "itens_magicos/armas_especificas", "armas_magicas_especificas",
+                    %w[id name base_weapon preco description effects])
+end
+
+def seed_armaduras_magicas_especificas(db)
+  import_json_files(db, "itens_magicos/armaduras_especificas", "armaduras_magicas_especificas",
+                    %w[id name subtipo base_item preco description effects])
+end
+
+def seed_itens_liturgicos(db)
+  import_json_files(db, "itens_magicos/itens_liturgicos", "itens_liturgicos",
+                    %w[id name deities subtipo base_item classificacao preco description effects])
+end
+
+def seed_artefatos(db)
+  import_json_files(db, "itens_magicos/artefatos", "artefatos",
+                    %w[id name description effects])
+end
+
+def seed_ameacas(db)
+  base_dir = File.join(JSON_BASE_PATH, "ameacas")
+  return unless Dir.exist?(base_dir)
+
+  count = 0
+  Dir.glob(File.join(base_dir, "**", "*.json")).each do |file|
+    data = JSON.parse(File.read(file))
+    next if data["id"].nil?
+
+    atributos = data["atributos"] || {}
+    salvaguardas = data["salvaguardas"] || {}
+
+    db.execute(
+      "INSERT OR REPLACE INTO ameacas (id, name, nd, tipo, subtipo, tamanho, grupo, pv, defesa, " \
+      "for, des, con, int, sab, car, iniciativa, deslocamento, salvaguardas, percepcao, visao, " \
+      "ataques, poderes_especiais, imunidades, resistencias, vulnerabilidades, reducao_de_dano, " \
+      "cura_acelerada, resistencia_a_magia, " \
+      "pericias, equipamento, tesouro, pm, description, familiar, parceiro, livro_id) " \
+      "VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)",
+      [
+        data["id"], data["name"], data["nd"],
+        data["tipo"], data["subtipo"],
+        data["tamanho"] || "médio",
+        data["grupo"],
+        data["pv"], data["defesa"],
+        atributos["for"], atributos["des"], atributos["con"],
+        atributos["int"], atributos["sab"], atributos["car"],
+        data["iniciativa"], (data["deslocamento"] || {}).to_json,
+        salvaguardas.to_json,
+        data["percepcao"], (data["visao"] || []).to_json,
+        (data["ataques"] || []).to_json,
+        (data["poderes_especiais"] || []).to_json,
+        (data["imunidades"] || []).to_json,
+        (data["resistencias"] || {}).to_json,
+        (data["vulnerabilidades"] || []).to_json,
+        data["reducao_de_dano"]&.to_json,
+        data["cura_acelerada"]&.to_json,
+        data["resistencia_a_magia"],
+        (data["pericias"] || {}).to_json,
+        (data["equipamento"] || []).to_json,
+        data["tesouro"],
+        data["pm"],
+        data["description"],
+        data["familiar"]&.to_json,
+        data["parceiro"]&.to_json,
+        data["livro"] || "t20_eja"
+      ]
+    )
+    count += 1
+  rescue StandardError => e
+    puts "  Error importing #{File.basename(file)}: #{e.message}"
+  end
+
+  puts "  Imported #{count} ameacas"
+end
+
 def seed_regras(db)
   import_json_files(db, "regras", "regras",
                     %w[id name description data],
                     transform: lambda { |raw|
-                      base_keys = %w[id name description]
+                      base_keys = %w[id name description livro livro_id]
                       data_content = raw.reject { |k, _| base_keys.include?(k) }
-                      { "id" => raw["id"], "name" => raw["name"], "description" => raw["description"], "data" => data_content }
+                      { "id" => raw["id"], "name" => raw["name"], "description" => raw["description"],
+                        "data" => data_content, "livro" => raw["livro"] }
                     })
 end
 
@@ -530,7 +733,7 @@ end
 
 def seed_tabelas(db)
   import_json_files(db, "tabelas", "tabelas",
-                    %w[id name description headers rows])
+                    %w[id name description headers rows dice])
 end
 
 def seed_livros(db)
@@ -567,11 +770,14 @@ def import_json_files(db, subdir, table, columns, extra: {}, transform: nil)
   json_dir = File.join(JSON_BASE_PATH, subdir)
   return unless Dir.exist?(json_dir)
 
+  columns += ["livro_id"] unless table == "livros"
+
   count = 0
   Dir.glob(File.join(json_dir, "*.json")).each do |file|
     data = JSON.parse(File.read(file))
     data = transform.call(data) if transform
     data.merge!(extra)
+    data["livro_id"] ||= data["livro"] || "t20_eja"
 
     values = columns.map do |col|
       val = data[col]
@@ -596,6 +802,12 @@ def print_summary
   %w[racas origens poderes divindades classes magias armaduras armas itens escudos
      materiais_especiais melhorias encantamentos pocoes acessorios_magicos
      regras condicoes pericias tabelas livros indice_remissivo].each do |table|
+    count = db.get_first_value("SELECT COUNT(*) FROM #{table}")
+    puts "  #{table}: #{count}"
+  end
+  %w[armas_magicas_especificas armaduras_magicas_especificas itens_liturgicos artefatos ameacas
+     classes_variantes distincoes esotericos_magicos complicacoes
+     bases_tipos comodos mobilias construcoes_dominio].each do |table|
     count = db.get_first_value("SELECT COUNT(*) FROM #{table}")
     puts "  #{table}: #{count}"
   end

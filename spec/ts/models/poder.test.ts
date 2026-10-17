@@ -5,6 +5,7 @@ const VALID_TYPES = [
   "habilidade_unica_origem", "poder_concedido", "poder_tormenta",
   "poder_classe", "habilidade_de_raca", "poder_geral",
   "poder_combate", "poder_destino", "poder_magia",
+  "poder_de_raca", "poder_de_grupo", "poder_distincao",
 ] as const
 
 describe("Poder", () => {
@@ -52,6 +53,15 @@ describe("Poder", () => {
       const result = Poder.byClass("guerreiro").all()
       expect(result.length).toBeGreaterThan(0)
       result.forEach((p) => expect(p.classId).toBe("guerreiro"))
+    })
+
+    it("byDistincao filters by distincao_id", () => {
+      const result = Poder.byDistincao("amazona").all()
+      expect(result.length).toBeGreaterThan(0)
+      result.forEach((p) => {
+        expect(p.distincaoId).toBe("amazona")
+        expect(p.type).toBe("poder_distincao")
+      })
     })
 
     it("byType filters correctly", () => {

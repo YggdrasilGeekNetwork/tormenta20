@@ -22,6 +22,16 @@ RSpec.describe Tormenta20::Models::Melhoria do
     end
   end
 
+  describe "data integrity" do
+    it "each melhoria has a non-empty effects array of typed objects" do
+      described_class.find_each do |m|
+        expect(m.effects).to be_an(Array)
+        expect(m.effects).not_to be_empty
+        m.effects.each { |effect| expect(effect["type"]).to be_a(String) }
+      end
+    end
+  end
+
   describe "instance methods" do
     let(:melhoria) { described_class.first }
 
@@ -30,7 +40,7 @@ RSpec.describe Tormenta20::Models::Melhoria do
         hash = melhoria.to_h
         expect(hash[:id]).to eq(melhoria.id)
         expect(hash[:name]).to eq(melhoria.name)
-        expect(hash[:effects]).to be_a(Hash)
+        expect(hash[:effects]).to be_an(Array)
       end
     end
   end

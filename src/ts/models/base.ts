@@ -24,6 +24,9 @@ export abstract class BaseModel {
   /** ISO 8601 timestamp of last update. */
   get updatedAt(): string { return this._row.updated_at as string }
 
+  /** Slug of the sourcebook this record was published in (e.g. `"t20_eja"`). */
+  get livroId(): string { return this._row.livro_id as string }
+
   /** Returns a plain-object representation of this record. */
   abstract toH(): Record<string, unknown>
 

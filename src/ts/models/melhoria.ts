@@ -20,8 +20,8 @@ export class Melhoria extends BaseModel {
   get applicableTo(): unknown[] { return BaseModel.json(this._row.applicable_to, []) }
   /** Price in tibares. */
   get price(): number { return (this._row.price as number) ?? 0 }
-  /** JSON object with mechanical effects. */
-  get effects(): Record<string, unknown> { return BaseModel.json(this._row.effects, {}) }
+  /** JSON array of typed mechanical effect objects. */
+  get effects(): unknown[] { return BaseModel.json(this._row.effects, []) }
 
   toH() {
     return {

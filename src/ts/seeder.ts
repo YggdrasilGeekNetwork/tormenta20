@@ -69,6 +69,11 @@ export function seed(): void {
   seedTabelas(insert)
   seedLivros(insert)
   seedItensmagicos(insert)
+  seedArmasMagicasEspecificas(insert)
+  seedArmadurasEscudosMagicos(insert)
+  seedItensLiturgicos(insert)
+  seedArtefatos(insert)
+  seedAmeacas(insert)
   seedIndiceRemissivo()
 
   db.pragma("foreign_keys = ON")
@@ -97,6 +102,8 @@ function seedDivindades(insert: ReturnType<typeof Database.prototype.transaction
     energy: d.energy ?? "qualquer", preferred_weapon: d.preferred_weapon ?? null,
     devotees: d.devotees ?? {}, granted_powers: d.granted_powers ?? [],
     obligations_restrictions: d.obligations_restrictions ?? null,
+    rank: d.rank ?? "maior", natureza: d.natureza ?? null,
+    status_divino: d.status_divino ?? null,
   })))
 }
 
@@ -398,6 +405,97 @@ function seedIndiceRemissivo(): void {
   })
   run()
   db2.close()
+}
+
+function seedArmasMagicasEspecificas(insert: ReturnType<typeof Database.prototype.transaction>): void {
+  const dir = join(JSON_DIR, "itens_magicos", "armas_especificas")
+  if (!existsDir(dir)) return
+  const rows = loadJsonDir<Record<string, unknown>>(dir)
+  insert("armas_magicas_especificas", rows.map((r) => ({
+    id: r.id, name: r.name,
+    base_weapon: r.base_weapon ?? null,
+    preco: r.preco ?? null,
+    description: r.description ?? null,
+    effects: r.effects ?? [],
+  })))
+}
+
+function seedArmadurasEscudosMagicos(insert: ReturnType<typeof Database.prototype.transaction>): void {
+  const dir = join(JSON_DIR, "itens_magicos", "armaduras_especificas")
+  if (!existsDir(dir)) return
+  const rows = loadJsonDir<Record<string, unknown>>(dir)
+  insert("armaduras_magicas_especificas", rows.map((r) => ({
+    id: r.id, name: r.name,
+    subtipo: r.subtipo ?? "armadura",
+    base_item: r.base_item ?? null,
+    preco: r.preco ?? null,
+    description: r.description ?? null,
+    effects: r.effects ?? [],
+  })))
+}
+
+function seedItensLiturgicos(insert: ReturnType<typeof Database.prototype.transaction>): void {
+  const dir = join(JSON_DIR, "itens_magicos", "itens_liturgicos")
+  if (!existsDir(dir)) return
+  const rows = loadJsonDir<Record<string, unknown>>(dir)
+  insert("itens_liturgicos", rows.map((r) => ({
+    id: r.id, name: r.name,
+    deities: r.deities ?? [],
+    subtipo: r.subtipo ?? null,
+    base_item: r.base_item ?? null,
+    classificacao: r.classificacao ?? null,
+    preco: r.preco ?? null,
+    description: r.description ?? null,
+    effects: r.effects ?? [],
+  })))
+}
+
+function seedArtefatos(insert: ReturnType<typeof Database.prototype.transaction>): void {
+  const dir = join(JSON_DIR, "itens_magicos", "artefatos")
+  if (!existsDir(dir)) return
+  const rows = loadJsonDir<Record<string, unknown>>(dir)
+  insert("artefatos", rows.map((r) => ({
+    id: r.id, name: r.name,
+    description: r.description ?? null,
+    effects: r.effects ?? [],
+  })))
+}
+
+function seedAmeacas(insert: ReturnType<typeof Database.prototype.transaction>): void {
+  const dir = join(JSON_DIR, "ameacas")
+  if (!existsDir(dir)) return
+  const rows = loadJsonFiles<Record<string, unknown>>(dir)
+  insert("ameacas", rows.map((r) => {
+    const attrs = (r.atributos as Record<string, number>) ?? {}
+    return {
+      id: r.id, name: r.name, nd: r.nd,
+      tipo: r.tipo ?? null, subtipo: r.subtipo ?? null,
+      tamanho: r.tamanho ?? "médio", grupo: r.grupo,
+      pv: r.pv ?? null, defesa: r.defesa ?? null,
+      for: attrs.for ?? null, des: attrs.des ?? null, con: attrs.con ?? null,
+      int: attrs.int ?? null, sab: attrs.sab ?? null, car: attrs.car ?? null,
+      iniciativa: r.iniciativa ?? null,
+      deslocamento: r.deslocamento ?? null,
+      salvaguardas: r.salvaguardas ?? {},
+      percepcao: r.percepcao ?? null,
+      visao: r.visao ?? null,
+      ataques: r.ataques ?? [],
+      poderes_especiais: r.poderes_especiais ?? [],
+      imunidades: r.imunidades ?? [],
+      resistencias: r.resistencias ?? {},
+      vulnerabilidades: r.vulnerabilidades ?? [],
+      reducao_de_dano: r.reducao_de_dano ?? null,
+      cura_acelerada: r.cura_acelerada ?? null,
+      resistencia_a_magia: r.resistencia_a_magia ?? null,
+      pericias: r.pericias ?? {},
+      equipamento: r.equipamento ?? [],
+      tesouro: r.tesouro ?? null,
+      pm: r.pm ?? null,
+      description: r.description ?? null,
+      familiar: r.familiar ?? null,
+      parceiro: r.parceiro ?? null,
+    }
+  }))
 }
 
 function existsDir(path: string): boolean {

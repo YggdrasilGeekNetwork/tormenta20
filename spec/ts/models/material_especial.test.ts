@@ -19,6 +19,19 @@ describe("MaterialEspecial", () => {
     }
   })
 
+  it("effects is an object keyed by category, each value a non-empty array of typed objects", () => {
+    for (const m of MaterialEspecial.all()) {
+      expect(typeof m.effects).toBe("object")
+      for (const categoryEffects of Object.values(m.effects)) {
+        expect(Array.isArray(categoryEffects)).toBe(true)
+        expect((categoryEffects as unknown[]).length).toBeGreaterThan(0)
+        for (const effect of categoryEffects as Record<string, unknown>[]) {
+          expect(typeof effect.type).toBe("string")
+        }
+      }
+    }
+  })
+
   it("toH returns all fields", () => {
     const m = MaterialEspecial.first()!
     const h = m.toH()

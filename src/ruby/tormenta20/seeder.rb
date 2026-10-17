@@ -12,23 +12,39 @@ module Tormenta20
         @verbose = verbose
         log "Seeding database..."
 
-        seed_racas
-        seed_habilidades_de_raca
-        seed_origens
-        seed_poderes_habilidades_unicas
-        seed_divindades
-        seed_poderes_concedidos
-        seed_poderes_tormenta
-        seed_poderes_gerais
-        seed_classes
-        seed_habilidades_de_classe
-        seed_magias
-        seed_equipamentos
-        seed_itens_superiores
-        seed_regras
-        seed_condicoes
-        seed_pericias
-        seed_tabelas
+        Thread.current[:tormenta20_seeding] = true
+        begin
+          seed_livros
+          seed_racas
+          seed_habilidades_de_raca
+          seed_origens
+          seed_poderes_habilidades_unicas
+          seed_divindades
+          seed_poderes_concedidos
+          seed_poderes_tormenta
+          seed_poderes_gerais
+          seed_classes
+          seed_habilidades_de_classe
+          seed_classes_variantes
+          seed_distincoes
+          seed_poderes_distincao
+          seed_complicacoes
+          seed_magias
+          seed_equipamentos
+          seed_itens_superiores
+          seed_regras
+          seed_condicoes
+          seed_pericias
+          seed_tabelas
+          seed_itens_magicos
+          seed_ameacas
+          seed_bases_tipos
+          seed_comodos
+          seed_mobilias
+          seed_indice_remissivo
+        ensure
+          Thread.current[:tormenta20_seeding] = false
+        end
 
         log "Database seeded successfully!"
       end
@@ -43,6 +59,41 @@ module Tormenta20
 
       def log(message)
         puts message if @verbose
+      end
+
+      def seed_livros
+        import_json_files(
+          "livros",
+          Models::Livro,
+          %i[id nome nome_curto]
+        )
+      end
+
+      def seed_indice_remissivo
+        json_dir = File.join(JSON_BASE_PATH, "indice_remissivo")
+        return unless Dir.exist?(json_dir)
+
+        Dir.glob(File.join(json_dir, "*.json")).each do |file|
+          livro_id = File.basename(file, ".json")
+          entries = JSON.parse(File.read(file), symbolize_names: true)
+          next unless entries.is_a?(Array)
+
+          entries.each do |entry|
+            next unless entry[:termo] && entry[:pagina]
+
+            Models::IndiceRemissivo.new(
+              livro_id: livro_id,
+              termo: entry[:termo],
+              pagina: entry[:pagina],
+              tabela: entry[:tabela],
+              registro_id: entry[:registro_id]
+            ).save!
+          rescue StandardError
+            next
+          end
+        rescue StandardError
+          next
+        end
       end
 
       def seed_racas
@@ -106,7 +157,8 @@ module Tormenta20
           "deuses",
           Models::Divindade,
           %i[id name title description beliefs_objectives holy_symbol energy
-             preferred_weapon devotees granted_powers obligations_restrictions]
+             preferred_weapon devotees granted_powers obligations_restrictions
+             rank natureza status_divino]
         )
       end
 
@@ -180,6 +232,82 @@ module Tormenta20
             record.effects     = data[:effects] || []
             record.costs       = data[:costs] || []
             record.prerequisites = data[:requirements] || []
+            record.save!
+          rescue StandardError
+            next
+          end
+        end
+      end
+
+      def seed_classes_variantes
+        import_json_files(
+          "classes_variantes",
+          Models::ClasseVariante,
+          %i[id name base_class_id description diffs]
+        )
+      end
+
+      def seed_distincoes
+        import_json_files(
+          "distincoes",
+          Models::Distincao,
+          %i[id name description admissao marca_nome marca_descricao nivel_minimo]
+        )
+      end
+
+      def seed_complicacoes
+        import_json_files(
+          "complicacoes",
+          Models::Complicacao,
+          %i[id name description categoria effects]
+        )
+      end
+
+      def seed_bases_tipos
+        import_json_files(
+          "bases_tipos",
+          Models::BaseTipo,
+          %i[id name description effects]
+        )
+      end
+
+      def seed_comodos
+        import_json_files(
+          "comodos",
+          Models::Comodo,
+          %i[id name description effects prerequisito]
+        )
+      end
+
+      def seed_mobilias
+        import_json_files(
+          "mobilias",
+          Models::Mobilia,
+          %i[id name description effects preco comodo_alvo]
+        )
+      end
+
+      def seed_poderes_distincao
+        base_dir = File.join(JSON_BASE_PATH, "poderes", "poderes_distincao")
+        return unless Dir.exist?(base_dir)
+
+        Dir.each_child(base_dir) do |distincao_dir|
+          distincao_path = File.join(base_dir, distincao_dir)
+          next unless File.directory?(distincao_path)
+
+          distincao_id = distincao_dir
+
+          Dir.glob(File.join(distincao_path, "*.json")).each do |file|
+            data = JSON.parse(File.read(file), symbolize_names: true)
+            next if data[:id].nil?
+
+            record = Models::Poder.find_or_initialize_by(id: data[:id])
+            record.name          = data[:name] || data[:id].to_s.humanize
+            record.type          = "poder_distincao"
+            record.distincao_id  = distincao_id
+            record.description   = data[:description]
+            record.effects       = data[:effects] || []
+            record.prerequisites = data[:requirements] || data[:prerequisites] || []
             record.save!
           rescue StandardError
             next
@@ -375,8 +503,90 @@ module Tormenta20
         import_json_files(
           "tabelas",
           Models::Tabela,
-          %i[id name description headers rows]
+          %i[id name description headers rows dice]
         )
+      end
+
+      def seed_itens_magicos
+        import_json_files(
+          "itens_magicos/armas_especificas",
+          Models::ArmaMagicaEspecifica,
+          %i[id name base_weapon preco description effects]
+        )
+
+        import_json_files(
+          "itens_magicos/armaduras_especificas",
+          Models::ArmaduraMagicaEspecifica,
+          %i[id name subtipo base_item preco description effects]
+        )
+
+        import_json_files(
+          "itens_magicos/itens_liturgicos",
+          Models::ItemLiturgico,
+          %i[id name deities subtipo base_item classificacao preco description effects]
+        )
+
+        import_json_files(
+          "itens_magicos/artefatos",
+          Models::Artefato,
+          %i[id name description effects]
+        )
+
+        import_json_files(
+          "itens_magicos/esotericos",
+          Models::EsotericoMagico,
+          %i[id name categoria preco roll_min roll_max description effects]
+        )
+      end
+
+      def seed_ameacas
+        json_dir = File.join(JSON_BASE_PATH, "ameacas")
+        return unless Dir.exist?(json_dir)
+
+        Dir.glob(File.join(json_dir, "**", "*.json")).each do |file|
+          data = JSON.parse(File.read(file), symbolize_names: true)
+          next if data[:id].nil?
+
+          attrs = data[:atributos] || {}
+          record = Models::Ameaca.find_or_initialize_by(id: data[:id])
+          record.name = data[:name]
+          record.nd = data[:nd]
+          record.tipo = data[:tipo]
+          record.subtipo = data[:subtipo]
+          record.tamanho = data[:tamanho] || "médio"
+          record.grupo = data[:grupo]
+          record.pv = data[:pv]
+          record.defesa = data[:defesa]
+          record[:for] = attrs[:for]
+          record.des = attrs[:des]
+          record.con = attrs[:con]
+          record.int = attrs[:int]
+          record.sab = attrs[:sab]
+          record.car = attrs[:car]
+          record.iniciativa = data[:iniciativa]
+          record.deslocamento = data[:deslocamento]
+          record.salvaguardas = data[:salvaguardas] || {}
+          record.percepcao = data[:percepcao]
+          record.visao = data[:visao]
+          record.ataques = data[:ataques] || []
+          record.poderes_especiais = data[:poderes_especiais] || []
+          record.imunidades = data[:imunidades] || []
+          record.resistencias = data[:resistencias] || {}
+          record.vulnerabilidades = data[:vulnerabilidades] || []
+          record.reducao_de_dano = data[:reducao_de_dano]
+          record.cura_acelerada = data[:cura_acelerada]
+          record.resistencia_a_magia = data[:resistencia_a_magia]
+          record.pericias = data[:pericias] || {}
+          record.equipamento = data[:equipamento] || []
+          record.tesouro = data[:tesouro]
+          record.pm = data[:pm]
+          record.description = data[:description]
+          record.familiar = data[:familiar]
+          record.parceiro = data[:parceiro]
+          record.save!
+        rescue StandardError
+          next
+        end
       end
 
       def import_json_files(subdir, model, attrs, extra_attrs: {}, transform: nil)

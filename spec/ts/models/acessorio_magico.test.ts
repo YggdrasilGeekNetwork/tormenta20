@@ -14,9 +14,13 @@ describe("AcessorioMagico", () => {
     }
   })
 
-  it("efeito is always an object", () => {
+  it("every acessorio has a non-empty effects array of typed objects", () => {
     for (const a of AcessorioMagico.all()) {
-      expect(typeof a.efeito).toBe("object")
+      expect(Array.isArray(a.effects)).toBe(true)
+      expect(a.effects.length).toBeGreaterThan(0)
+      for (const effect of a.effects as Record<string, unknown>[]) {
+        expect(typeof effect.type).toBe("string")
+      }
     }
   })
 
@@ -34,6 +38,6 @@ describe("AcessorioMagico", () => {
     const a = AcessorioMagico.first()!
     const h = a.toH()
     expect(h).toMatchObject({ id: a.id, name: a.name, categoria: a.categoria })
-    expect(h.efeito).toBeDefined()
+    expect(h.effects).toBeDefined()
   })
 })

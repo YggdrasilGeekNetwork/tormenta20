@@ -48,6 +48,9 @@ module Tormenta20
         poder_combate
         poder_destino
         poder_magia
+        poder_de_raca
+        poder_de_grupo
+        poder_distincao
       ].freeze
 
       validates :id, presence: true, uniqueness: true
@@ -99,6 +102,17 @@ module Tormenta20
       #   @return [ActiveRecord::Relation<Poder>]
       scope :by_deity, ->(deity_id) { where("json_extract(deities, '$') LIKE ?", "%#{deity_id}%") }
 
+      # @!method poderes_distincao
+      #   Filter distinction powers.
+      #   @return [ActiveRecord::Relation<Poder>]
+      scope :poderes_distincao, -> { where(type: "poder_distincao") }
+
+      # @!method by_distincao(distincao_id)
+      #   Filter powers belonging to a specific distinction.
+      #   @param distincao_id [String] Distinction ID
+      #   @return [ActiveRecord::Relation<Poder>]
+      scope :by_distincao, ->(distincao_id) { where(distincao_id: distincao_id) }
+
       # @!endgroup
 
       # Convert power to a hash representation.
@@ -113,6 +127,7 @@ module Tormenta20
           effects: effects,
           prerequisites: prerequisites,
           origin_id: origin_id,
+          distincao_id: distincao_id,
           deities: deities
         }.compact
       end

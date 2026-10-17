@@ -37,6 +37,12 @@ export class Divindade extends BaseModel {
   /** IDs of powers granted to devoted characters. */
   get grantedPowers(): string[] { return BaseModel.json(this._row.granted_powers, []) }
   get obligationsRestrictions(): string | null { return (this._row.obligations_restrictions as string) ?? null }
+  /** `"maior"` or `"menor"` (Deuses de Arton, Cap. 3). */
+  get rank(): "maior" | "menor" { return (this._row.rank as "maior" | "menor") ?? "maior" }
+  /** Minor deity nature (e.g. `"mortal_ascendido"`), or `null` for major deities. */
+  get natureza(): string | null { return (this._row.natureza as string) ?? null }
+  /** Minor deity power scale, 1 to 5, or `null` for major deities. */
+  get statusDivino(): number | null { return (this._row.status_divino as number) ?? null }
 
   /** Returns race IDs whose members commonly worship this deity. */
   races(): string[] { return (this.devotees.races as string[]) ?? [] }
@@ -52,6 +58,7 @@ export class Divindade extends BaseModel {
       energy: this.energy, preferred_weapon: this.preferredWeapon,
       devotees: this.devotees, granted_powers: this.grantedPowers,
       obligations_restrictions: this.obligationsRestrictions,
+      rank: this.rank, natureza: this.natureza, status_divino: this.statusDivino,
     }
   }
 
@@ -69,4 +76,9 @@ export class Divindade extends BaseModel {
   static energiaNegativa(): Query<Divindade> { return Divindade.byEnergy("negativa") }
   /** Returns deities that can channel either energy type. */
   static energiaQualquer(): Query<Divindade> { return Divindade.byEnergy("qualquer") }
+
+  /** Returns major (greater) deities. */
+  static maiores(): Query<Divindade> { return Divindade.query().where("rank = ?", "maior") }
+  /** Returns minor (lesser) deities (Deuses de Arton, Cap. 3). */
+  static menores(): Query<Divindade> { return Divindade.query().where("rank = ?", "menor") }
 }

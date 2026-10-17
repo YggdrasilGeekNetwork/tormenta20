@@ -13,12 +13,15 @@ module Tormenta20
     #
     # Every concrete model adds {Concerns::BookReferenceable}, which provides
     # the {Concerns::BookReferenceable#book_reference} method for sourcebook
-    # page lookup.
+    # page lookup, and {Concerns::LivroScoped}, which provides the +livro+
+    # association and +.do_livro+ scope for filtering by source book.
     #
     # @abstract Subclass and set +table_name+ to create a new model
     #
     # @!attribute [rw] id
     #   @return [String] Unique string identifier (e.g. +"guerreiro"+, +"espada_longa"+)
+    # @!attribute [rw] livro_id
+    #   @return [String] Slug of the sourcebook this record was published in (default +"t20_eja"+)
     # @!attribute [r] created_at
     #   @return [Time] Record creation timestamp
     # @!attribute [r] updated_at
@@ -27,6 +30,7 @@ module Tormenta20
       self.abstract_class = true
 
       include Concerns::BookReferenceable
+      include Concerns::LivroScoped
 
       # Raised when any write operation is attempted on the Tormenta20 database.
       # The database is read-only by design — it ships as pre-built data.
@@ -38,8 +42,17 @@ module Tormenta20
 
       # @!group Read-only enforcement
 
+      class << self
+        # @return [Boolean] true while {Tormenta20::Seeder} is populating a fresh database.
+        #   Internal escape hatch: seeding is a legitimate write path, distinct from a
+        #   consumer of the built gem mutating data.
+        def seeding?
+          Thread.current[:tormenta20_seeding] == true
+        end
+      end
+
       def readonly?
-        true
+        !self.class.seeding?
       end
 
       def destroy

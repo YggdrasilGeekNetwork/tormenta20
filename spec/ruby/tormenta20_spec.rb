@@ -21,6 +21,12 @@ RSpec.describe Tormenta20 do
       expect(Tormenta20::Models::Escudo).to be_a(Class)
       expect(Tormenta20::Models::MaterialEspecial).to be_a(Class)
       expect(Tormenta20::Models::Regra).to be_a(Class)
+      expect(Tormenta20::Models::Distincao).to be_a(Class)
+    end
+
+    it "exposes accessor methods matching their model class" do
+      expect(Tormenta20.poderes).to eq(Tormenta20::Models::Poder)
+      expect(Tormenta20.distincoes).to eq(Tormenta20::Models::Distincao)
     end
   end
 end

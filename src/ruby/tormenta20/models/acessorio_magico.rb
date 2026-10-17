@@ -8,7 +8,7 @@ module Tormenta20
     #
     # @example
     #   AcessorioMagico.menores.all
-    #   AcessorioMagico.find_by(id: "anel_de_protecao").efeito
+    #   AcessorioMagico.find_by(id: "anel_de_protecao").effects
     #
     # @!attribute [rw] id
     #   @return [String] Unique identifier
@@ -39,15 +39,12 @@ module Tormenta20
       scope :maiores, -> { where(categoria: "maior") }
       # @!endgroup
 
-      # Returns the parsed effect hash, handling both raw JSON strings and pre-parsed hashes.
-      # @return [Hash] Effect data, or +{}+ on parse failure
-      def efeito
-        raw = read_attribute(:efeito)
-        return {} if raw.blank?
-
-        raw.is_a?(Hash) ? raw : JSON.parse(raw)
-      rescue JSON::ParserError
-        {}
+      def to_h
+        {
+          id: id, name: name, categoria: categoria, preco: preco,
+          roll_min: roll_min, roll_max: roll_max,
+          description: description, effects: effects
+        }.compact
       end
     end
   end

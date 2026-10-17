@@ -90,6 +90,13 @@ RSpec.describe Tormenta20::Models::Poder do
         end
       end
     end
+
+    describe ".poderes_distincao / .by_distincao" do
+      it "returns only poder_distincao type, and by_distincao filters further" do
+        described_class.poderes_distincao.each { |poder| expect(poder.type).to eq("poder_distincao") }
+        described_class.by_distincao("amazona").each { |poder| expect(poder.distincao_id).to eq("amazona") }
+      end
+    end
   end
 
   describe "instance methods" do

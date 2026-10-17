@@ -21,11 +21,13 @@ module Tormenta20
 
       validates :id, presence: true, uniqueness: true
       validates :name, presence: true
-      validates :categoria, presence: true, inclusion: { in: %w[arma armadura_escudo] }
+      validates :categoria, presence: true, inclusion: { in: %w[arma armadura esoterico acessorio] }
 
       scope :armas, -> { where(categoria: "arma") }
-      scope :armaduras_escudos, -> { where(categoria: "armadura_escudo") }
+      scope :armaduras_escudos, -> { where(categoria: "armadura") }
       scope :escudo_only, -> { where(escudo_only: true) }
+      scope :maldicoes, -> { where(maldicao: true) }
+      scope :nao_maldicoes, -> { where(maldicao: [false, nil]) }
 
       def to_h
         {
@@ -35,8 +37,9 @@ module Tormenta20
           categoria: categoria,
           escudo_only: escudo_only == 1,
           conta_como_dois: conta_como_dois == 1,
+          maldicao: maldicao == 1,
           prerequisitos: prerequisitos,
-          efeito: efeito
+          effects: effects
         }.compact
       end
     end

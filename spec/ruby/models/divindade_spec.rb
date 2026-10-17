@@ -81,6 +81,30 @@ RSpec.describe Tormenta20::Models::Divindade do
         end
       end
     end
+
+    describe ".maiores and .menores" do
+      it "maiores returns only major deities and menores only minor ones" do
+        expect(described_class.maiores).not_to be_empty
+        described_class.maiores.each { |d| expect(d.rank).to eq("maior") }
+        expect(described_class.menores).not_to be_empty
+        described_class.menores.each { |d| expect(d.rank).to eq("menor") }
+      end
+    end
+  end
+
+  describe "deuses menores (Deuses de Arton)" do
+    it "tibar is a minor deity with natureza and status_divino" do
+      tibar = described_class.find_by(id: "tibar")
+      expect(tibar.rank).to eq("menor")
+      expect(tibar.natureza).to eq("mortal_ascendido")
+      expect(tibar.status_divino).to eq(5)
+    end
+
+    it "khalmyr (major deity) defaults to rank maior with no natureza" do
+      khalmyr = described_class.find_by(id: "khalmyr")
+      expect(khalmyr.rank).to eq("maior")
+      expect(khalmyr.natureza).to be_nil
+    end
   end
 
   describe "instance methods" do

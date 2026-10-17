@@ -18,7 +18,15 @@ RSpec.describe Tormenta20::Models::Encantamento do
       described_class.find_each do |e|
         expect(e.id).to be_present
         expect(e.name).to be_present
-        expect(%w[arma armadura]).to include(e.categoria)
+        expect(%w[arma armadura esoterico acessorio]).to include(e.categoria)
+      end
+    end
+
+    it "each encantamento has a non-empty effects array of typed objects" do
+      described_class.find_each do |e|
+        expect(e.effects).to be_an(Array)
+        expect(e.effects).not_to be_empty
+        e.effects.each { |effect| expect(effect["type"]).to be_a(String) }
       end
     end
   end
@@ -41,6 +49,18 @@ RSpec.describe Tormenta20::Models::Encantamento do
         described_class.escudo_only.each { |e| expect(e.escudo_only).to be_in([true, 1]) }
       end
     end
+
+    describe ".maldicoes" do
+      it "returns only cursed enchantments" do
+        described_class.maldicoes.each { |e| expect(e.maldicao).to be_in([true, 1]) }
+      end
+    end
+
+    describe ".nao_maldicoes" do
+      it "excludes cursed enchantments" do
+        described_class.nao_maldicoes.each { |e| expect(e.maldicao).to be_in([false, nil, 0]) }
+      end
+    end
   end
 
   describe "instance methods" do
@@ -51,6 +71,7 @@ RSpec.describe Tormenta20::Models::Encantamento do
         hash = enc.to_h
         expect([true, false]).to include(hash[:escudo_only])
         expect([true, false]).to include(hash[:conta_como_dois])
+        expect([true, false]).to include(hash[:maldicao])
       end
     end
   end

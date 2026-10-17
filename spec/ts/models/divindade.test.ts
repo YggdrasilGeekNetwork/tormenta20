@@ -35,6 +35,28 @@ describe("Divindade", () => {
     it("energiaQualquer returns only qualquer", () => {
       Divindade.energiaQualquer().all().forEach((d) => expect(d.energy).toBe("qualquer"))
     })
+
+    it("maiores and menores split by rank", () => {
+      expect(Divindade.maiores().all().length).toBeGreaterThan(0)
+      Divindade.maiores().all().forEach((d) => expect(d.rank).toBe("maior"))
+      expect(Divindade.menores().all().length).toBeGreaterThan(0)
+      Divindade.menores().all().forEach((d) => expect(d.rank).toBe("menor"))
+    })
+  })
+
+  describe("deuses menores (Deuses de Arton)", () => {
+    it("tibar is a minor deity with natureza and status_divino", () => {
+      const tibar = Divindade.find("tibar")!
+      expect(tibar.rank).toBe("menor")
+      expect(tibar.natureza).toBe("mortal_ascendido")
+      expect(tibar.statusDivino).toBe(5)
+    })
+
+    it("khalmyr (major deity) defaults to rank maior with no natureza", () => {
+      const khalmyr = Divindade.find("khalmyr")!
+      expect(khalmyr.rank).toBe("maior")
+      expect(khalmyr.natureza).toBeNull()
+    })
   })
 
   describe("instance methods", () => {

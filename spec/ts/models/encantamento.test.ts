@@ -10,7 +10,7 @@ describe("Encantamento", () => {
     for (const e of Encantamento.all()) {
       expect(e.id).toBeTruthy()
       expect(e.name).toBeTruthy()
-      expect(["arma", "armadura"]).toContain(e.categoria)
+      expect(["arma", "armadura", "esoterico", "acessorio"]).toContain(e.categoria)
     }
   })
 
@@ -33,6 +33,14 @@ describe("Encantamento", () => {
     it("escudoOnly returns only shield-exclusive enchantments", () => {
       Encantamento.escudoOnly().all().forEach((e) => expect(e.escudoOnly).toBe(true))
     })
+
+    it("maldicoes returns only cursed enchantments", () => {
+      Encantamento.maldicoes().all().forEach((e) => expect(e.maldicao).toBe(true))
+    })
+
+    it("naoMaldicoes excludes cursed enchantments", () => {
+      Encantamento.naoMaldicoes().all().forEach((e) => expect(e.maldicao).toBe(false))
+    })
   })
 
   it("toH coerces boolean fields", () => {
@@ -40,5 +48,16 @@ describe("Encantamento", () => {
     const h = e.toH()
     expect(typeof h.escudo_only).toBe("boolean")
     expect(typeof h.conta_como_dois).toBe("boolean")
+    expect(typeof h.maldicao).toBe("boolean")
+  })
+
+  it("every encantamento has a non-empty effects array of typed objects", () => {
+    for (const e of Encantamento.all()) {
+      expect(Array.isArray(e.effects)).toBe(true)
+      expect(e.effects.length).toBeGreaterThan(0)
+      for (const effect of e.effects as Record<string, unknown>[]) {
+        expect(typeof effect.type).toBe("string")
+      }
+    }
   })
 })

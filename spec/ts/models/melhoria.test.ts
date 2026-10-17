@@ -13,9 +13,13 @@ describe("Melhoria", () => {
     }
   })
 
-  it("effects is always an object", () => {
+  it("every melhoria has a non-empty effects array of typed objects", () => {
     for (const m of Melhoria.all()) {
-      expect(typeof m.effects).toBe("object")
+      expect(Array.isArray(m.effects)).toBe(true)
+      expect(m.effects.length).toBeGreaterThan(0)
+      for (const effect of m.effects as Record<string, unknown>[]) {
+        expect(typeof effect.type).toBe("string")
+      }
     }
   })
 

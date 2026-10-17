@@ -26,14 +26,14 @@ export class AcessorioMagico extends BaseModel {
   /** Maximum roll on the random loot table, or `null`. */
   get rollMax(): number | null { return (this._row.roll_max as number) ?? null }
   get description(): string | null { return (this._row.description as string) ?? null }
-  /** JSON object with mechanical effects. */
-  get efeito(): Record<string, unknown> { return BaseModel.json(this._row.efeito, {}) }
+  /** JSON array of typed mechanical effect objects. */
+  get effects(): unknown[] { return BaseModel.json(this._row.effects, []) }
 
   toH() {
     return {
       id: this.id, name: this.name, categoria: this.categoria, preco: this.preco,
       roll_min: this.rollMin, roll_max: this.rollMax,
-      description: this.description, efeito: this.efeito,
+      description: this.description, effects: this.effects,
     }
   }
 
