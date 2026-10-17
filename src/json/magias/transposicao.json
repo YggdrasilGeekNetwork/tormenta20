@@ -1,0 +1,66 @@
+{
+  "id": "transposicao",
+  "name": "Transposição",
+  "type": "arcana",
+  "circle": "2",
+  "school": "conv",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "curto_6m_9q",
+  "target": {
+    "amount": 2,
+    "up_to": null,
+    "type": "criaturas_voluntarias"
+  },
+  "effect": "alvo",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "instantânea",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Esta magia teletransporta duas criaturas, incluindo seu equipamento, fazendo com que troquem de lugar imediatamente.",
+  "enhancements": [
+    {
+      "cost": 2,
+      "type": "aumenta",
+      "description": "aumenta o número de alvos em +2. Você determina com quais criaturas cada alvo troca de lugar.",
+      "extra_details": null
+    },
+    {
+      "cost": 5,
+      "type": "muda",
+      "description": "a troca não exige linha de efeito, mas os alvos ainda devem estar dentro do alcance. Requer 3º círculo.",
+      "extra_details": {
+        "requirements": "3º círculo"
+      }
+    },
+    {
+      "cost": 5,
+      "type": "muda",
+      "description": "muda o alvo para 2 criaturas do tipo lacaio e adiciona resistência (Vontade anula). Requer 4º círculo.",
+      "extra_details": {
+        "requirements": "4º círculo",
+        "resistence": {
+          "effect": "anula",
+          "skill": "vontade"
+        },
+        "target": {
+          "amount": 2,
+          "up_to": null,
+          "type": "criaturas_do_tipo_lacaio"
+        }
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "outro",
+      "attribute": null,
+      "amount": null,
+      "resistence_requirement": null,
+      "extra_requirements": "troca_posicao_entre_duas_criaturas"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

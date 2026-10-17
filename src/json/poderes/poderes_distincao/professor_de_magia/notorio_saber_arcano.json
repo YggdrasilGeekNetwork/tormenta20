@@ -1,0 +1,22 @@
+{
+  "id": "notorio_saber_arcano",
+  "name": "Notório Saber Arcano",
+  "type": "poder_distincao",
+  "description": "Todo o respeito da Academia pelos mestres de notório saber. Você recebe um assistente, um parceiro veterano a sua escolha entre adepto e magivocador. Além disso, o custo adicional de seus poderes de aprimoramento diminui em –1 PM (somente com magias arcanas).",
+  "effects": [
+    {
+      "type": "concede_parceiro",
+      "tipo": "adepto ou magivocador (à escolha)",
+      "nivel": "veterano"
+    },
+    {
+      "type": "passivo",
+      "efeito": "custo adicional de poderes de aprimoramento com magias arcanas diminui em -1 PM"
+    }
+  ],
+  "requirements": [
+    "Orgulho do Mestre",
+    "dois poderes de aprimoramento"
+  ],
+  "livro": "herois_de_arton"
+}

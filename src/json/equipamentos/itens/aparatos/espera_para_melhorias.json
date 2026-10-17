@@ -1,0 +1,16 @@
+{
+  "id": "espera_para_melhorias",
+  "name": "Espera para Melhorias",
+  "type": "item",
+  "categoria": "aparato",
+  "preco": 150,
+  "espacos": 1,
+  "espacos_acoplado": 0,
+  "cd_fabricacao": 20,
+  "efeito": {
+    "permite_instalar_melhorias_de_itens_convencionais": true,
+    "multiplas_esperas": "cada uma permite instalar uma melhoria (efeitos iguais não se acumulam)"
+  },
+  "description": "Aparato usado por inventores para modificar o funcionamento de suas engenhocas. Enquanto acoplado a uma engenhoca, não ocupa espaços; uma engenhoca pode ter até dois aparatos diferentes. Usar um aparato aumenta a CD para ativar a engenhoca em +2 (dois aparatos, +5). Acoplar ou remover um aparato exige 1 hora de trabalho. Aparatos são fabricados com Ofício (engenhoqueiro), CD 20. Funciona como um adaptador que permite instalar melhorias de outros itens na engenhoca, seguindo as mesmas regras e custos para aplicar melhorias em itens convencionais. De forma geral, se uma melhoria afeta uma característica da magia simulada pela engenhoca, ela pode ser aplicada. Para materiais especiais, o custo da melhoria é baseado no tipo de efeito que ela vai gerar (arma, armadura ou esotérico — se mais de um for aplicável, escolha apenas uma). Uma engenhoca pode receber mais de uma espera, e cada uma permite instalar uma melhoria (mas efeitos iguais não se acumulam, como normal).",
+  "livro": "herois_de_arton"
+}

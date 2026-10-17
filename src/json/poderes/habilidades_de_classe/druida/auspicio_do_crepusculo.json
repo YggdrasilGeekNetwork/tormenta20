@@ -1,0 +1,35 @@
+{
+  "id": "auspicio_do_crepusculo",
+  "name": "Auspício do Crepúsculo",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Você pode gastar 1 PM para cobrir uma de suas armas com sombras até o fim da cena. A arma causa +1d6 pontos de dano de trevas. Se você estiver sob o efeito de escuridão, sempre que acertar um ataque com ela em combate, recebe 5 PV temporários cumulativos.",
+  "requirements": [
+    {
+      "type": "devotee_of_divinity",
+      "sub_type": "hard",
+      "divinity": "tenebra"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_type_improvement",
+      "value": "1d6",
+      "damage_type": "trevas",
+      "duration": "cena"
+    },
+    {
+      "type": "PV_improvement",
+      "value": 5,
+      "requirement": "acertar_ataque_sob_efeito_de_escuridao",
+      "duration": "cumulativo"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

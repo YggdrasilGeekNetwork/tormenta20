@@ -1,0 +1,32 @@
+{
+  "id": "mestre_das_posturas",
+  "name": "Mestre das Posturas",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "O custo para assumir uma postura de combate diminui em –1 PM e você pode assumir e manter duas posturas ao mesmo tempo. Pré-requisitos: dois poderes de postura, 11º nível de cavaleiro.",
+  "requirements": [
+    {
+      "type": "feature_group",
+      "sub_type": "hard",
+      "group": "postura_de_combate",
+      "value": 2
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "cost_reduction",
+      "value": 1,
+      "applies_to": "assumir_postura_de_combate"
+    },
+    {
+      "type": "special",
+      "value": "pode_manter_duas_posturas_de_combate_simultaneamente"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

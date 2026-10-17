@@ -1,0 +1,16 @@
+{
+  "id": "barba_queimada",
+  "name": "Barba Queimada",
+  "type": "item",
+  "categoria": "alimentacao",
+  "subcategoria": "bebida",
+  "preco": 45,
+  "espacos": 0.5,
+  "alcoolica": true,
+  "cd_embriaguez": 20,
+  "efeito": {
+    "reducao_dano": 2
+  },
+  "description": "Forte e amarga, esta cerveja anã fortalece o corpo e o espírito. Fornece redução de dano 2. CD 20.",
+  "livro": "herois_de_arton"
+}

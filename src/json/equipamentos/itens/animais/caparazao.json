@@ -1,0 +1,16 @@
+{
+  "id": "caparazao",
+  "name": "Caparazão",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 75,
+  "espacos": 1,
+  "uso": "vestido_pela_montaria",
+  "efeito": {
+    "bonus_diplomacia": 1,
+    "bonus_intimidacao": 1,
+    "cumulativo_com_beneficios_usuais": true
+  },
+  "description": "Espécie de \"roupa\" para montarias, o caparazão é uma cobertura de tecido finamente decorado que adorna e protege o corpo do animal. Uma montaria vestindo um caparazão fornece +1 em Diplomacia e Intimidação (além de seus benefícios usuais).",
+  "livro": "herois_de_arton"
+}

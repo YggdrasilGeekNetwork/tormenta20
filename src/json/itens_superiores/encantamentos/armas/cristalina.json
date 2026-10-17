@@ -1,0 +1,23 @@
+{
+  "id": "cristalina",
+  "name": "Cristalina",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma é feita de cristal, brilhando com cores prismáticas. Causa +1d6 de dano de luz. Uma vez por rodada, quando ataca, você pode gastar 1 PM. Se fizer isso e acertar o ataque, a criatura atingida fica ofuscada por 1 rodada.",
+  "effects": [
+    {
+      "type": "dano_extra",
+      "dados": "1d6",
+      "tipo_dano": "luz",
+      "automatico": true
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "frequencia": "por_rodada",
+      "gatilho": "ataca e acerta",
+      "efeito": "a criatura atingida fica ofuscada por 1 rodada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

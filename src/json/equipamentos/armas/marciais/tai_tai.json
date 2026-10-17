@@ -1,0 +1,28 @@
+{
+  "id": "tai_tai",
+  "name": "Tai-Tai",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "uma_mao",
+  "preco": 60,
+  "dano": "2d4",
+  "critico": "x2",
+  "alcance": "medio",
+  "tipo_dano": "impacto",
+  "espacos": 2,
+  "habilidades": [],
+  "especial": {
+    "municao_improvisada": {
+      "tipo": "pedras_comuns",
+      "dano_reduzido_passo": true
+    },
+    "amarrar_desamarrar": "acao_completa",
+    "recarregar": "acao_movimento",
+    "impede_disparar_se_mao_ocupada": true,
+    "bonus_arremessador": "aumenta o dano em um passo se tiver a habilidade Arremessador"
+  },
+  "description": "Dispositivo hynne, uma catapulta em miniatura presa ao antebraço, usada para disparar pedras polidas. Na falta de munição adequada, pode disparar pedras comuns, como uma funda, mas o dano é reduzido em um passo. Amarrar ou desamarrar um tai-tai no braço é uma ação completa e recarregá-lo é uma ação de movimento. Você pode segurar objetos com a mão do braço ao qual o tai-tai está amarrado, mas não pode dispará-lo enquanto faz isso. Se você tiver a habilidade Arremessador, o dano de seus ataques com um tai-tai aumenta em um passo.",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "forma_elemental",
+  "name": "Forma Elemental",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Quando usa Forma Selvagem, você pode gastar +2 PM para assumir uma forma elemental. Escolha entre ácido, eletricidade, fogo ou frio. Você recebe imunidade ao tipo de dano escolhido e vulnerabilidade ao tipo oposto. Além disso, o alcance de suas armas naturais aumenta em +1,5m e elas causam dano do tipo escolhido (em vez de seu dano normal).",
+  "requirements": [
+    {
+      "type": "devotee_of_divinity",
+      "sub_type": "hard",
+      "divinity": "arton"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "forma_selvagem"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_resistance_improvement",
+      "value": "imunidade",
+      "damage_type": "escolha_acido_eletricidade_fogo_ou_frio"
+    },
+    {
+      "type": "damage_resistence_penalty",
+      "value": "vulnerabilidade",
+      "damage_type": "tipo_oposto_ao_escolhido"
+    },
+    {
+      "type": "range_improvement",
+      "value": "1.5m",
+      "target": "armas_naturais"
+    },
+    {
+      "type": "damage_type_improvement",
+      "damage_type": "escolha",
+      "requirement": "substitui_dano_normal_de_armas_naturais"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM",
+      "note": "adicional_ao_custo_de_forma_selvagem"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

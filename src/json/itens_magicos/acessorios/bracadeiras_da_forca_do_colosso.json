@@ -1,0 +1,26 @@
+{
+  "id": "bracadeiras_da_forca_do_colosso",
+  "name": "Braçadeiras da Força do Colosso",
+  "categoria": "maior",
+  "preco": 120000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Estas braçadeiras de ferro negro são incrivelmente pesadas, mas fornecem um aumento massivo na força física do portador. Você recebe +4 em Força (somente após um dia de uso). Além disso, uma vez por cena, pode gastar 5 PM para aumentar esse bônus para +8 por 1 rodada.",
+  "effects": [
+    {
+      "type": "bonus_atributo",
+      "atributo": "forca",
+      "value": 4,
+      "condicao": "somente após um dia de uso"
+    },
+    {
+      "type": "bonus_atributo_temporario",
+      "atributo": "forca",
+      "value": 8,
+      "custo_pm": 5,
+      "duracao": "1 rodada",
+      "frequencia": "1x por cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

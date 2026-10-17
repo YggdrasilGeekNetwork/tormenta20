@@ -1,0 +1,60 @@
+{
+  "id": "maquina_de_combate",
+  "name": "Máquina de Combate",
+  "type": "arcana",
+  "circle": "2",
+  "school": "trans",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "toque",
+  "target": {
+    "amount": 1,
+    "up_to": null,
+    "type": "construto"
+  },
+  "effect": "alvo",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Esta magia energiza a fonte de energia de um golem ou outro construto, sobrecarregando-a temporariamente. O alvo recebe +5 em Atletismo e Luta, mas perde 1d4 pontos de vida no fim de cada turno em que executar uma ação padrão.",
+  "enhancements": [
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "além do normal, os ataques corpo a corpo do alvo causam +1d6 pontos de dano.",
+      "extra_details": null
+    },
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "além do normal, o alvo recebe +2 na Defesa.",
+      "extra_details": null
+    },
+    {
+      "cost": 2,
+      "type": "aumenta",
+      "description": "aumenta o bônus na Defesa em +1.",
+      "extra_details": null
+    }
+  ],
+  "effects": [
+    {
+      "type": "bônus",
+      "attribute": "atletismo,luta",
+      "amount": "+5",
+      "resistence_requirement": null,
+      "extra_requirements": null
+    },
+    {
+      "type": "dano",
+      "attribute": "pv",
+      "amount": "1d4",
+      "resistence_requirement": null,
+      "extra_requirements": "fim_de_cada_turno_com_acao_padrao"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

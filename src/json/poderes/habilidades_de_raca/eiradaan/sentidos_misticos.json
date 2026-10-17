@@ -1,0 +1,12 @@
+{
+  "id": "sentidos_misticos",
+  "name": "Sentidos Místicos",
+  "type": "habilidade_de_raca",
+  "race": "eiradaan",
+  "description": "Você está sempre sob o efeito básico da magia Visão Mística.",
+  "effects": {
+    "concede_magia_permanente": "visao_mistica",
+    "aprimoramento": "apenas efeito básico"
+  },
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "bom_de_trago",
+  "name": "Bom de Trago",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Uma vez por rodada, você pode ingerir uma bebida, preparado ou poção que esteja empunhando como uma ação livre.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "action_type_change",
+      "to_action": "livre",
+      "applies_to": "ingerir_bebida_preparado_ou_pocao_empunhada",
+      "frequency": "1_por_rodada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

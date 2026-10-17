@@ -1,0 +1,24 @@
+{
+  "id": "quarto_do_capitao",
+  "name": "Quarto do Capitão",
+  "description": "A casa da guarda é expandida com os aposentos para um oficial. Sob sua liderança, os guardas se tornam mais eficazes, o que aumenta o bônus em segurança fornecido pela guarita em +2 (para um total de +10). Além disso, o próprio capitão conta como um parceiro veterano, de um tipo entre atirador, combatente, fortão ou guardião, que pode acompanhar um dos residentes em suas aventuras.",
+  "effects": [
+    {
+      "type": "bonus_seguranca_base",
+      "value": 2,
+      "acumula_com": "casa_da_guarda"
+    },
+    {
+      "type": "parceiro_gratis",
+      "nivel": "veterano",
+      "tipos_possiveis": [
+        "atirador",
+        "combatente",
+        "fortao",
+        "guardiao"
+      ]
+    }
+  ],
+  "prerequisito": "sala da guarda",
+  "livro": "herois_de_arton"
+}

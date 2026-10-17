@@ -1,0 +1,20 @@
+{
+  "id": "energizar_arco",
+  "name": "Energizar Arco",
+  "type": "poder_distincao",
+  "description": "A primeira técnica aprendida pelo arqueiro de Lenórienn é entrelaçar sua magia com sua arma. Você aprende a magia Arma Mágica e pode lançá-la em seu arco arcano como uma ação de movimento (em vez de uma ação padrão). Se aprender novamente essa magia, seu custo diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "concede_magia",
+      "magia": "Arma Mágica",
+      "efeito": "pode lançar Arma Mágica em seu arco arcano como uma ação de movimento (em vez de padrão); se aprender novamente essa magia, seu custo diminui em –1 PM"
+    }
+  ],
+  "requirements": [
+    "treinado em Misticismo",
+    "treinado em Pontaria",
+    "habilidade de classe Magias",
+    "Foco em Arma (qualquer arco)"
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "masmorra",
+  "name": "Masmorra",
+  "description": "Um conjunto de túneis, salas e armadilhas, normalmente construído para proteger um tesouro. Planejar a masmorra faz com que você pense sobre como melhor derrotar invasores e fornece +2 na CD de suas habilidades (exceto magias).",
+  "categoria": "nobreza",
+  "custo": 20,
+  "effects": [
+    {
+      "type": "bonus_cd_habilidades",
+      "value": 2,
+      "excecao": "magias"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

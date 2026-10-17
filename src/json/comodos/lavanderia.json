@@ -1,0 +1,14 @@
+{
+  "id": "lavanderia",
+  "name": "Lavanderia",
+  "description": "Aqui as roupas dos heróis são remendadas, limpas, perfumadas e engomadas. Cada residente pode escolher um de seus itens de vestuário que modifique uma perícia. O item fornece um bônus de +1 nessa perícia (ou aumenta o bônus fornecido em +1, cumulativo com melhorias). Cada residente pode trocar esse item no início de cada aventura.",
+  "effects": [
+    {
+      "type": "bonus_item_vestuario_pericia",
+      "value": 1,
+      "trocavel_por_aventura": true
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "trupe_de_malabaristas",
+  "name": "Trupe de Malabaristas",
+  "description": "Estes acrobatas, mágicos e outros artistas podem divertir o regente e toda a sua corte, além de ensinar alguns truques úteis. Fornece +1 em Reflexos.",
+  "categoria": "enganacao",
+  "custo": 4,
+  "effects": [
+    {
+      "type": "bonus_resistencia",
+      "resistencia": "Reflexos",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

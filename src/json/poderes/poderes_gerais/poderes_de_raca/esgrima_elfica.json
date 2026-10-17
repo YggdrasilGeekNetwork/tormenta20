@@ -1,0 +1,27 @@
+{
+  "id": "esgrima_elfica",
+  "name": "Esgrima Élfica",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Sua raça mescla arte e guerra como nenhuma outra. Você recebe +1 em testes de ataque com espadas e, para você, todas as espadas são consideradas armas ágeis.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "elfo"
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": 1,
+      "weapon": "espadas"
+    },
+    {
+      "type": "weapon_type",
+      "value": "agil",
+      "weapon": "espadas"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

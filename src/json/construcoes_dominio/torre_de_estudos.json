@@ -1,0 +1,16 @@
+{
+  "id": "torre_de_estudos",
+  "name": "Torre de Estudos",
+  "description": "Esta torre isolada permite que você se dedique ao aprendizado místico. Quando você constrói uma torre de estudos, recebe um poder de arcanista cujos pré-requisitos cumpra.",
+  "categoria": "misticismo",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "recebe_poder",
+      "categoria": "arcanista",
+      "observacao": "cujos pré-requisitos cumpra"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

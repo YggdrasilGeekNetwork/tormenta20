@@ -1,0 +1,30 @@
+{
+  "id": "beberrao_selvagem",
+  "name": "Beberrão Selvagem",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Você pode gastar uma ação de movimento para ingerir um preparado alquímico que cause dano e tenha uma criatura como alvo. Se fizer isso, armazena o equivalente a 3 cargas do preparado em sua boca. Até o fim da cena, sempre que acerta um ataque corpo a corpo, você pode gastar uma carga para que o ataque cause dano adicional igual ao do preparado. Pré-requisito: Con 3.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "con",
+      "value": 3
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "action": "movimento",
+      "effect": "ingere_preparado_alquimico_de_dano_armazenando_3_cargas"
+    },
+    {
+      "type": "extra_damage",
+      "value": "dano_do_preparado",
+      "trigger": "acertar_ataque_corpo_a_corpo",
+      "cost": "1_carga",
+      "duration": "cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

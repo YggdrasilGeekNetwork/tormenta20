@@ -1,0 +1,15 @@
+{
+  "id": "maroto",
+  "name": "Maroto",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item parece pregar peças “inofensivas” contra você, atazanando sua vida incessantemente. Sempre que você for sacar um item, decida aleatoriamente qual item foi sacado. Por exemplo, se estiver tentando sacar uma espada, pode em vez disso sacar uma poção, uma bolsa de dinheiro ou um estojo de disfarces. Itens vestidos não podem ser sacados dessa forma. A única maneira de pegar algo que você esteja carregando sem sofrer esse efeito é pedir para um aliado fazer isso para você, então lhe entregar o item.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "sempre que tenta sacar um item que carrega, o item sacado é decidido aleatoriamente entre os que carrega (itens vestidos não entram nessa lista); a única forma de pegar o item certo é pedir que um aliado o faça por você"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

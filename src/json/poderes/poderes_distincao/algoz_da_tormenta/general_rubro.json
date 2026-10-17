@@ -1,0 +1,18 @@
+{
+  "id": "general_rubro",
+  "name": "General Rubro",
+  "type": "poder_distincao",
+  "description": "Os lefeu reconhecem o algoz como um deles. Lefeu de ND menor do que o seu nível são prestativos a você, enquanto criaturas tocadas pela Tormenta (lefeu, pessoas com poderes da Tormenta, cultistas, devotos de Aharadak etc.) capazes de percebê-lo ficam enfeitiçadas (Vontade CD Sab +2 para cada poder da Tormenta evita). Além disso, se você já possuir um parceiro fornecido por outra habilidade, ele se torna também um parceiro aberrante iniciante.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "lefeu de ND menor que o nível do algoz são prestativos a ele; criaturas tocadas pela Tormenta (lefeu, pessoas com poderes da Tormenta, cultistas, devotos de Aharadak etc.) capazes de percebê-lo ficam enfeitiçadas (Vontade CD Sab +2 para cada poder da Tormenta evita); se já possuir um parceiro de outra habilidade, ele também se torna um parceiro aberrante iniciante"
+    }
+  ],
+  "requirements": [
+    "Desprezo Profano",
+    "11º nível"
+  ],
+  "livro": "herois_de_arton",
+  "tormenta": true
+}

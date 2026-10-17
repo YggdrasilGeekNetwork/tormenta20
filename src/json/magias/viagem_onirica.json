@@ -1,0 +1,51 @@
+{
+  "id": "viagem_onirica",
+  "name": "Viagem Onírica",
+  "type": "arcana",
+  "circle": "2",
+  "school": "adiv",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": {
+    "amount": null,
+    "up_to": null,
+    "type": "você"
+  },
+  "effect": "voce",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": "a magia é cancelada caso seu corpo físico seja perturbado de qualquer forma",
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Lançar esta magia faz você adormecer e abandonar seu corpo físico. Você se torna um espírito incorpóreo com deslocamento de voo 18m. Você pode ver e ouvir, mas não falar ou emitir qualquer som — nem realizar ataques, lançar magias ou interagir de qualquer forma com criaturas e objetos materiais. Você ainda pode ser visto, em forma translúcida, e pode ser afetado por qualquer efeito que afete criaturas incorpóreas.\nQuando a magia acaba, você retorna imediatamente para seu corpo e desperta. A magia também é cancelada caso seu corpo físico seja perturbado de qualquer forma. Você sofre uma penalidade de –10 em testes de Percepção para notar ruídos próximos de seu corpo adormecido.",
+  "enhancements": [
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "você pode falar em sua forma incorpórea. Requer 3º círculo.",
+      "extra_details": {
+        "requirements": "3º círculo"
+      }
+    },
+    {
+      "cost": 5,
+      "type": "muda",
+      "description": "você pode lançar magias em sua forma incorpórea. Requer 4º círculo.",
+      "extra_details": {
+        "requirements": "4º círculo"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "transforma",
+      "attribute": "incorporeo",
+      "amount": null,
+      "resistence_requirement": null,
+      "extra_requirements": "deslocamento_de_voo_18m"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

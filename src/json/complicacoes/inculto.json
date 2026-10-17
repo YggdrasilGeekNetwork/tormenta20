@@ -1,0 +1,15 @@
+{
+  "id": "inculto",
+  "name": "Inculto",
+  "description": "Você não teve acesso à educação. Você é analfabeto e recebe duas perícias treinadas a menos (isso pode reduzir as perícias que você pode escolher a zero, mas não afeta as perícias fixas de sua classe).",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "restricao_pericias_treinadas",
+      "value": -2,
+      "descricao": "analfabeto; recebe duas perícias treinadas a menos (pode zerar as perícias a escolher, mas não afeta as perícias fixas de classe)"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

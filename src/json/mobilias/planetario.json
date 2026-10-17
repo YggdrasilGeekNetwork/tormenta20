@@ -1,0 +1,15 @@
+{
+  "id": "planetario",
+  "name": "Planetário",
+  "description": "Um modelo tridimensional de Arton e dos mundos dos deuses, assim como entendidos pelos maiores sábios. Instalado no observatório, permite usar o bônus do cômodo uma vez adicional por aventura.",
+  "effects": [
+    {
+      "type": "uso_adicional_do_comodo",
+      "value": 1,
+      "por": "aventura"
+    }
+  ],
+  "preco": 1500,
+  "comodo_alvo": "observatorio",
+  "livro": "herois_de_arton"
+}

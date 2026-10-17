@@ -1,0 +1,15 @@
+{
+  "id": "perfume_intoxicante",
+  "name": "Perfume Intoxicante",
+  "type": "poder_distincao",
+  "description": "A drogadora aprende a metabolizar feromônios em seu corpo, capazes de marcar perigos e preparar seus aliados contra eles. Você recebe +2 em Adestramento e Diplomacia e, quando você sofre um ataque corpo a corpo (sendo acertada ou não), o atacante é marcado por seus feromônios até o fim da cena. Você e seus aliados ignoram a camuflagem de criaturas marcadas dessa forma e recebem +2 em testes de ataque corpo a corpo ou à distância em alcance curto contra elas. Para cada dois outros poderes da distinção, todos os bônus fornecidos por este poder aumentam em +1.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "+2 em Adestramento e Diplomacia; ao sofrer ataque corpo a corpo, marca o atacante até o fim da cena — camuflagem ignorada e +2 em ataques corpo a corpo/curto alcance contra ele para você e aliados",
+      "escalavel": "todos os bônus aumentam em +1 para cada dois outros poderes da distinção que possui"
+    }
+  ],
+  "requirements": ["Curandeira Exímia"],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "atributos_variados",
+  "name": "Atributos Variados",
+  "description": "Regra opcional (Heróis de Arton, Cap. 4, p.280-281). O livro básico traz duas opções para definir atributos: pontos ou rolagem (ver 'custo_de_atributos'). A seguir estão seis opções alternativas de geração de atributos. Para os métodos que envolvem rolagens, os resultados são convertidos usando a mesma tabela de conversão de Tormenta20 p.17 (ver 'custo_de_atributos.niveis.faixa_rolagem_3d6').",
+  "metodos": [
+    {
+      "id": "classica",
+      "name": "Clássica",
+      "tipo": "rolagem",
+      "regra": "Como a rolagem padrão, mas rolando apenas 3d6 (em vez de 4d6 menos o menor), repetindo seis vezes.",
+      "nota": "Gera personagens fracos — a maior parte dos atributos ficará entre –1 e 2, com valores 3 e 4 sendo raros — e desequilibrados entre si. Indicado para histórias mais realistas, com clima brutal, nas quais os heróis surgem do povo comum. Variante 'raiz': role os valores em ordem (a primeira rolagem é Força, a segunda Destreza, e assim por diante) e jogue com o que sair."
+    },
+    {
+      "id": "epica",
+      "name": "Épica",
+      "tipo": "rolagem",
+      "regra": "Como a rolagem padrão, mas rolando 3d6+6 menos o menor, repetindo seis vezes.",
+      "nota": "O oposto da Clássica: gera personagens mais poderosos, quase certamente sem nenhum ponto fraco e com menos desequilíbrio entre si. Útil para emular histórias nas quais os heróis são 'escolhidos' de algum tipo."
+    },
+    {
+      "id": "valkaria",
+      "name": "Valkaria",
+      "tipo": "rolagem_distribuida",
+      "regra": "Cada atributo começa em 8. Role 7d6 e aplique cada dado (inteiro, sem quebrar em partes) como quiser nos seis atributos. Converta o resultado final de cada atributo usando a tabela de conversão de Tormenta20 p.17. O valor máximo convertido de um atributo é 4, mesmo que o total antes da conversão seja maior que 18.",
+      "exemplo": "Rola-se 7d6 e obtém-se 2, 2, 3, 3, 4, 5 e 5. Aplicam-se os dois 5 em Força (soma 18). Aplicam-se o 4 e o 2 em Destreza (soma 14). Aplicam-se dois 3 em Constituição (soma 14). Aplica-se o 2 restante em Sabedoria (soma 10). Como os dados acabaram, Inteligência e Carisma ficam no valor inicial de 8. Resultado convertido: Força 18 (valor convertido 4), Destreza 14 (2), Constituição 14 (2), Inteligência 8 (–1), Sabedoria 10 (0), Carisma 8 (–1)."
+    },
+    {
+      "id": "khalmyr",
+      "name": "Khalmyr",
+      "tipo": "distribuicao_fixa",
+      "regra": "Distribua os seguintes valores em seus atributos, sem rolar nada: 3, 3, 2, 1, 0 e –1.",
+      "valores": [3, 3, 2, 1, 0, -1],
+      "nota": "Gera personagens interessantes (com pontos fortes e fracos), mas completamente equilibrados entre si, já que todos os personagens do grupo terão os mesmos valores."
+    },
+    {
+      "id": "nimb",
+      "name": "Nimb",
+      "tipo": "rolagem_distribuida",
+      "regra": "Role 7d20 e descarte o menor resultado. Aplique cada um dos seis valores restantes em um atributo à escolha e converta-os usando a tabela de Tormenta20 p.17, com as seguintes adições.",
+      "conversoes_adicionais": [
+        { "resultado_d20": "1-3", "valor_atributo": -3 },
+        { "resultado_d20": "18-19", "valor_atributo": 4 },
+        { "resultado_d20": "20", "valor_atributo": 5 }
+      ],
+      "nota": "Pode gerar personagens muito poderosos (ou muito fracos!) e praticamente garante que o grupo será desequilibrado entre si. Use por sua conta e risco."
+    },
+    {
+      "id": "pontos_variados",
+      "name": "Pontos Variados",
+      "tipo": "pontos",
+      "regra": "Use o método de pontos do livro básico, mas aumentando ou diminuindo a pontuação de pontos disponíveis para gerar personagens mais ou menos poderosos.",
+      "sugestoes": [
+        { "pontos": 5, "uso": "campanhas 'pé no chão'" },
+        { "pontos": 15, "uso": "campanhas épicas e exageradas" }
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

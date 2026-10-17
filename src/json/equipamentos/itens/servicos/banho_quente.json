@@ -1,0 +1,14 @@
+{
+  "id": "banho_quente",
+  "name": "Banho Quente",
+  "type": "servico",
+  "categoria": "servico",
+  "preco": 10,
+  "efeito": {
+    "bonus_proximo_teste_resistencia": "1d6",
+    "duracao": "ate o fim do proximo dia",
+    "cumulativo_com_itens": true
+  },
+  "description": "Disponível em casas de banho e algumas estalagens, um bom banho é relaxante, limpa o corpo e fortalece a imunidade. Você recebe +1d6 em seu próximo teste de resistência feito até o fim do próximo dia (cumulativo com bônus de outros itens).",
+  "livro": "herois_de_arton"
+}

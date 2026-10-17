@@ -1,0 +1,16 @@
+{
+  "id": "armorial",
+  "name": "Armorial",
+  "description": "Esta sala repleta de brasões heráldicos e livros de genealogia ensina a importância de linhagens distintas. O custo de Orgulho diminui em -1 PM.",
+  "categoria": "nobreza",
+  "custo": 3,
+  "effects": [
+    {
+      "type": "reduz_custo_pm",
+      "habilidade": "Orgulho",
+      "value": 1
+    }
+  ],
+  "prerequisito": "forte",
+  "livro": "herois_de_arton"
+}

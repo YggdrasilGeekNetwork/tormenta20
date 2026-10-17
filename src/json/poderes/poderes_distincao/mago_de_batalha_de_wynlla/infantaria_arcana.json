@@ -1,0 +1,14 @@
+{
+  "id": "infantaria_arcana",
+  "name": "Infantaria Arcana",
+  "type": "poder_distincao",
+  "description": "O Mago de Batalha é perito em usar itens esotéricos como armas. Se lançar uma magia empunhando um item esotérico, você soma o número de poderes da distinção que possui ao bônus de dano de seu poder Arcano de Batalha. Além disso, criaturas que rolem um resultado 1 no teste de resistência de uma magia de dano sua sofrem +50% de dano da magia.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "soma o número de poderes da distinção ao bônus de dano do Arcano de Batalha ao lançar magia empunhando item esotérico; alvo que rola 1 no teste de resistência contra magia de dano sofre +50% de dano"
+    }
+  ],
+  "requirements": ["treinado em Guerra", "Conjurador Encouraçado", "vencer dez combates usando um item esotérico pelo menos uma vez em cada um"],
+  "livro": "herois_de_arton"
+}

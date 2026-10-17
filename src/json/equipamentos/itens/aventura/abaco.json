@@ -1,0 +1,17 @@
+{
+  "id": "abaco",
+  "name": "Ábaco",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 45,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "consultado",
+  "requisito": "treinado em Conhecimento",
+  "efeito": {
+    "oficio_sustento_recebe_to": true,
+    "bonus_limite_to_poder_monetario": 2
+  },
+  "description": "Instrumento desenvolvido pelos sábios sar-allan que permite fazer operações matemáticas complexas rapidamente. Para usar um ábaco você precisa ser treinado em Conhecimento. Se você fizer um teste de Ofício para sustento, recebe TO em vez de T$. Além disso, se possuir Poder Monetário, o limite de TO que pode gastar por dia aumenta em +2.",
+  "livro": "herois_de_arton"
+}

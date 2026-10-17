@@ -1,0 +1,42 @@
+{
+  "id": "apoteose_draconica",
+  "name": "Apoteose Dracônica",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "A influência de sua magia dracônica se torna cada vez mais evidente, tornando-o mais e mais próximo dos dragões. As magias do seu elemento escolhido causam +1 ponto de dano por dado e, contra criaturas imunes a esse elemento, ainda causam metade do dano. Contudo, você não pode mais lançar magias do tipo oposto ao seu elemento escolhido (fogo para frio e ácido para eletricidade). Pré-requisitos: Herança Superior (linhagem dracônica), 17° nível de arcanista.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "heranca_superior"
+    },
+    {
+      "type": "linhagem",
+      "sub_type": "hard",
+      "value": "draconica"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": 1,
+      "per": "dado",
+      "applies_to": "magias_do_elemento_escolhido"
+    },
+    {
+      "type": "bypass_immunity",
+      "value": "metade_do_dano",
+      "applies_to": "criaturas_imunes_ao_elemento_escolhido"
+    },
+    {
+      "type": "restriction",
+      "value": "nao_pode_lancar_magias_do_tipo_oposto_ao_elemento_escolhido"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

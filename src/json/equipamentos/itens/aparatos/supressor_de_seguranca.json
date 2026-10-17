@@ -1,0 +1,16 @@
+{
+  "id": "supressor_de_seguranca",
+  "name": "Supressor de Segurança",
+  "type": "item",
+  "categoria": "aparato",
+  "preco": 300,
+  "espacos": 1,
+  "espacos_acoplado": 0,
+  "cd_fabricacao": 20,
+  "efeito": {
+    "frequencia": "uma_vez_por_cena",
+    "efeito": "engenhoca não enguiça com uma falha no teste de ativação (não ativa o efeito, mas a CD do próximo teste não aumenta e ela continua funcionando sem precisar ser consertada)"
+  },
+  "description": "Aparato usado por inventores para modificar o funcionamento de suas engenhocas. Enquanto acoplado a uma engenhoca, não ocupa espaços; uma engenhoca pode ter até dois aparatos diferentes. Usar um aparato aumenta a CD para ativar a engenhoca em +2 (dois aparatos, +5). Acoplar ou remover um aparato exige 1 hora de trabalho. Aparatos são fabricados com Ofício (engenhoqueiro), CD 20. Sistema de mecanismos de contingência instalado dentro da engenhoca, que interrompe a operação do item em caso de mau funcionamento. Uma vez por cena, a engenhoca não enguiça com uma falha no teste de ativação (ela não ativa seu efeito, mas a CD para o próximo teste não aumenta e ela continua funcionando sem precisar ser consertada).",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "bravura_indomita",
+  "name": "Bravura Indômita",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Se estiver adjacente a dois ou mais inimigos aptos a atacá-lo, você recebe +2 em testes de ataque e na margem de ameaça.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "vontade"
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": 2,
+      "duration": "condicional",
+      "condition": "adjacente_a_dois_ou_mais_inimigos_aptos_a_ataca_lo"
+    },
+    {
+      "type": "threat_improvement",
+      "value": 2,
+      "duration": "condicional",
+      "condition": "adjacente_a_dois_ou_mais_inimigos_aptos_a_ataca_lo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

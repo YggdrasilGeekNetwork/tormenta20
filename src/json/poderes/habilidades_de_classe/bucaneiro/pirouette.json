@@ -1,0 +1,23 @@
+{
+  "id": "pirouette",
+  "name": "Pirouette",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Enquanto está sob efeito de En Garde, você pode gastar uma ação de movimento para receber +5 na Defesa por 1 rodada. Pré-requisito: En Garde.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "en_garde"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "action": "movimento",
+      "condition": "sob_efeito_de_en_garde",
+      "effect": "mais_5_na_defesa_por_1_rodada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

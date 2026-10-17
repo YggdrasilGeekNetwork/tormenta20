@@ -1,0 +1,21 @@
+{
+  "id": "instrumentos_da_celeridade",
+  "name": "Instrumentos da Celeridade",
+  "categoria": "medio",
+  "preco": 22500,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Existe uma versão destas ferramentas mágicas para cada perícia de Ofício. Conta como instrumentos do Ofício em questão aprimorado e permite fabricar um item adicional da mesma categoria e que tenha o mesmo tempo de fabricação ao mesmo tempo. Você precisa pagar o custo e fazer o teste de cada item.",
+  "effects": [
+    {
+      "type": "instrumento_oficio",
+      "oficio": "qualquer (versão específica por Ofício)",
+      "aprimorado": true
+    },
+    {
+      "type": "fabricacao_dupla",
+      "descricao": "permite fabricar um item adicional da mesma categoria e tempo de fabricação simultaneamente, pagando o custo e fazendo o teste de cada um"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

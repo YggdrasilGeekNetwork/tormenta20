@@ -1,0 +1,50 @@
+{
+  "id": "espiritualista",
+  "name": "Espiritualista",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Você recebe +1 PM a cada nível ímpar. Além disso, aprende e pode lançar uma magia adicional definida pelo seu animal totêmico (atributo-chave Sabedoria) e pode lançá-la e sustentá-la mesmo em fúria. As magias são: Coruja (Augúrio), Corvo (Voz Divina), Falcão (Mapear), Grifo (Físico Divino), Lobo (Localização), Raposa (Camuflagem Ilusória), Tartaruga (Vestimenta da Fé), Urso (Soco de Arsenal). Pré-requisitos: Sab 2, Totem Espiritual, 6º nível de bárbaro.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "sab",
+      "value": 2
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "totem_espiritual"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 6
+    }
+  ],
+  "effects": [
+    {
+      "type": "resource_gain",
+      "resource": "PM",
+      "value": 1,
+      "per": "nivel_impar"
+    },
+    {
+      "type": "learn_magic",
+      "value": 1,
+      "attribute_key": "sab",
+      "allowed_in_furia": true,
+      "options": {
+        "coruja": "auguerio",
+        "corvo": "voz_divina",
+        "falcao": "mapear",
+        "grifo": "fisico_divino",
+        "lobo": "localizacao",
+        "raposa": "camuflagem_ilusoria",
+        "tartaruga": "vestimenta_da_fe",
+        "urso": "soco_de_arsenal"
+      }
+    }
+  ],
+  "livro": "herois_de_arton"
+}

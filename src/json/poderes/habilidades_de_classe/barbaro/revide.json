@@ -1,0 +1,34 @@
+{
+  "id": "revide",
+  "name": "Revide",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Uma vez por rodada, quando sofre dano de um ataque corpo a corpo enquanto está em fúria, você pode gastar 2 PM para fazer um ataque corpo a corpo contra a criatura que o atacou, desde que ela esteja em seu alcance. Pré-requisitos: Frenesi, 11º nível de bárbaro.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "frenesi"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "frequency": "1_por_rodada",
+      "trigger": "sofrer_dano_de_ataque_corpo_a_corpo_em_furia",
+      "effect": "ataque_corpo_a_corpo_contra_atacante_em_alcance"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

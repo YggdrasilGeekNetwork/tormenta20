@@ -1,0 +1,16 @@
+{
+  "id": "caravancara",
+  "name": "Caravançará",
+  "description": "Um pátio cercado de hospedarias e armazéns, onde caravanas se formam. Você pode gastar uma ação de domínio e até 1d4 LO por nível de domínio para criar uma caravana. Na sua próxima etapa de impostos, faça um teste de Nobreza contra CD 20 + a quantidade de dados gastos (por exemplo, se você gastou 3d4 LO na caravana, a CD será 23). Se você passar, a caravana volta e você recebe 1d4+1 LO por dado gasto. Se passar por 5 ou mais, recebe 1d6+1 LO por dado. Se passar por 10 ou mais, recebe 2d4+1 LO por dado. Se você falhar, a caravana se perdeu e você não recebe nada.",
+  "categoria": "enganacao",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "cria_caravana",
+      "custo_maximo": "1d4 LO por nível de domínio",
+      "teste": "Nobreza CD 20 + dados gastos"
+    }
+  ],
+  "prerequisito": "bazar, estrada",
+  "livro": "herois_de_arton"
+}

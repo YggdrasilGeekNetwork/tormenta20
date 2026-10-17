@@ -1,0 +1,16 @@
+{
+  "id": "futomaki",
+  "name": "Futomaki",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 12,
+  "espacos": 0.5,
+  "livro": "herois_de_arton",
+  "ingredientes": ["cereal", "peixe"],
+  "custo_ingredientes": 8,
+  "cd_teste_oficio_cozinheiro": 20,
+  "efeito": {
+    "bonus_diplomacia": 2
+  },
+  "description": "Criado no Império de Jade, este prato consiste em um rolo de arroz recheado com peixes, folhas e raízes. Uma refeição elegante, que deixa todos dispostos a dialogar. Você recebe +2 em testes de Diplomacia."
+}

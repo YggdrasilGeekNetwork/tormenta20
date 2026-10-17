@@ -1,0 +1,19 @@
+{
+  "id": "pingente_da_dor_partilhada",
+  "name": "Pingente da Dor Partilhada",
+  "categoria": "medio",
+  "preco": 15000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta joia delicada, feita de prata escurecida, é ornamentada com um pequeno rubi em formato de lágrima, pulsando suavemente no ritmo do coração de seu portador. Quando um aliado em alcance curto se fere, você pode gastar 2 PM. Se fizer isso, o aliado não sofre o dano, mas você perde PV em quantidade igual ao dano que ele teria sofrido (após quaisquer efeitos que reduzam dano que seu aliado possua ou use, como RD ou Durão).",
+  "effects": [
+    {
+      "type": "transferir_dano",
+      "alcance": "curto",
+      "custo_pm": 2,
+      "gatilho": "aliado se fere",
+      "efeito": "aliado não sofre o dano; portador perde PV igual ao dano (após reduções de dano do aliado, como RD ou Durão)"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "emergencial",
+  "name": "Emergencial",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico está sempre vibrando, ansioso para agir. Se estiver empunhando este esotérico, uma vez por rodada, quando você ou um aliado em alcance curto sofre dano, você pode gastar 4 PM para lançar uma magia de cura na vítima desse dano como uma reação. Apenas magias com execução de ação de movimento, padrão ou completa podem ser lançadas dessa forma.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "reação",
+      "custo_pm": 4,
+      "limite": "uma vez por rodada",
+      "gatilho": "você ou um aliado em alcance curto sofre dano",
+      "efeito": "lança uma magia de cura na vítima desse dano",
+      "restricao": "apenas magias com execução de ação de movimento, padrão ou completa"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

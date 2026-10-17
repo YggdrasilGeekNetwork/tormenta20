@@ -1,0 +1,16 @@
+{
+  "id": "estrebaria",
+  "name": "Estrebaria",
+  "description": "Aqui os melhores animais são selecionados e treinados, garantindo que você sempre tenha uma montaria a sua altura. Você recebe um cavalo de guerra veterano. Caso já possua um, ele muda para mestre ou, se já o for, recebe os benefícios de outro tipo de parceiro iniciante (aprovado pelo mestre).",
+  "categoria": "guerra",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "recebe_montaria",
+      "montaria": "cavalo de guerra",
+      "patamar": "veterano"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

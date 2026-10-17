@@ -1,0 +1,11 @@
+{
+  "id": "entre_dois_mundos",
+  "name": "Entre Dois Mundos",
+  "type": "habilidade_de_raca",
+  "race": "meio_elfo",
+  "description": "Você recebe +1 em perícias baseadas em Carisma.",
+  "effects": {
+    "skill_bonus": [{ "atributo": "carisma", "value": 1 }]
+  },
+  "livro": "herois_de_arton"
+}

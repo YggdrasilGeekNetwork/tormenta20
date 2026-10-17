@@ -1,0 +1,15 @@
+{
+  "id": "expurgo_de_wynna",
+  "name": "Expurgo de Wynna",
+  "description": "Algo em você não agrada à Deusa da Magia. Você sofre –5 em testes de resistência contra efeitos mágicos.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_teste_resistencia",
+      "categoria": "efeitos_magicos",
+      "value": -5
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

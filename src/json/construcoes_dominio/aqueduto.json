@@ -1,0 +1,14 @@
+{
+  "id": "aqueduto",
+  "name": "Aqueduto",
+  "description": "Este canal construído sobre arcos de pedra com dezenas de metros de altura traz água para o coração do domínio. Quando você rola encontros aleatórios, rola duas vezes e escolhe um resultado.",
+  "categoria": "nobreza",
+  "custo": 15,
+  "effects": [
+    {
+      "type": "vantagem_encontros_aleatorios"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "laboratorio_natural",
+  "name": "Laboratório Natural",
+  "type": "poder_distincao",
+  "description": "O corpo da drogadora se torna um laboratório natural, capaz de converter ingredientes em fórmulas como um processo biológico. Um número de vezes por dia igual ao seu número de poderes da distinção, você pode fazer um teste de Ofício (alquimista) para fabricar um item alquímico ou uma poção, sem gastar tempo (mas você ainda gasta as matérias-primas).",
+  "effects": [
+    {
+      "type": "ativado",
+      "frequencia": "número de vezes por dia igual ao número de poderes da distinção",
+      "efeito": "teste de Ofício (alquimista) para fabricar item alquímico ou poção instantaneamente (ainda gasta matérias-primas)"
+    }
+  ],
+  "requirements": ["Remédios da Floresta"],
+  "livro": "herois_de_arton"
+}

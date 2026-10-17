@@ -1,0 +1,21 @@
+{
+  "id": "ampliar_brado",
+  "name": "Ampliar Brado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "O alcance de seus brados aumenta para médio e a CD para resistir a eles aumenta em +2.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "range_improvement",
+      "value": "medio",
+      "applies_to": "brados"
+    },
+    {
+      "type": "dc_improvement",
+      "value": 2,
+      "applies_to": "brados"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

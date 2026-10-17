@@ -1,0 +1,18 @@
+{
+  "id": "logica_alcoolica",
+  "name": "Lógica Alcoólica",
+  "type": "poder_distincao",
+  "description": "Quando o mestre bêbado entra em combate, ninguém sabe como ele vai lutar... Nem ele mesmo! No início de cada rodada, você recebe um dos benefícios a seguir, que dura por 1 rodada. Role 1d6: 1) +2 em testes de ataque; 2) +2 em rolagens de dano; 3) +3m de deslocamento; 4) +2 na Defesa; 5) +2 na margem de ameaça com ataques desarmados; 6) +2 em testes de resistência. Para cada dois outros poderes da distinção, esses bônus aumentam em +1 (ou +1,5m).",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "no início de cada rodada, role 1d6 para um benefício aleatório por 1 rodada: 1) +2 em ataque; 2) +2 em dano; 3) +3m deslocamento; 4) +2 Defesa; 5) +2 margem de ameaça desarmado; 6) +2 em resistência",
+      "escalavel": "a cada dois outros poderes da distinção, bônus aumentam em +1 (ou +1,5m)"
+    }
+  ],
+  "requirements": [
+    "treinado em Fortitude",
+    "Luta, Briga ou Estilo Desarmado"
+  ],
+  "livro": "herois_de_arton"
+}

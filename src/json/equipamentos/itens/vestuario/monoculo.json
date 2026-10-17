@@ -1,0 +1,15 @@
+{
+  "id": "monoculo",
+  "name": "Monóculo",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 50,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_poder_orgulho": 2
+  },
+  "description": "Lente corretiva utilizada para enxergar melhor com um olho, encaixada na órbita ocular do usuário. Na verdade, é um símbolo de dignidade, austeridade e empáfia. Quando você usa a habilidade Orgulho em um teste de Vontade, o bônus fornecido por ela aumenta em +2.",
+  "livro": "herois_de_arton"
+}

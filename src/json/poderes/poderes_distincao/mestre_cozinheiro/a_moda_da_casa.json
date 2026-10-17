@@ -1,0 +1,20 @@
+{
+  "id": "a_moda_da_casa",
+  "name": "À Moda da Casa",
+  "type": "poder_distincao",
+  "description": "\"...metade com pimenta, metade sem, e um terço sem cebola…\" Você pode preparar pratos especiais que combinam os efeitos de dois pratos diferentes — por exemplo, um caldo com os efeitos combinados de um prato de aventureiro e uma sopa de peixe. Fazer isso demora o mesmo tempo que um prato normal, mas consome os ingredientes de ambos e usa a mais alta CD para fabricar entre eles. Além disso, sempre que uma receita pedir um ingrediente específico, você pode substituí-lo por um ingrediente monstruoso.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "pode preparar pratos especiais combinando os efeitos de dois pratos diferentes; consome os ingredientes de ambos e usa a maior CD de fabricação entre eles"
+    },
+    {
+      "type": "passivo",
+      "efeito": "pode substituir qualquer ingrediente específico de receita por um ingrediente monstruoso"
+    }
+  ],
+  "requirements": [
+    "Tudo que Há de Bom"
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "carente_arma",
+  "name": "Carente",
+  "type": "encantamento",
+  "categoria": "arma",
+  "maldicao": true,
+  "description": "A arma não vai soltá-lo facilmente. Se a magia Purificação for lançada sobre você com o aprimoramento de +3 PM e você soltar a arma… ela reaparece em sua mão 1d4 rodadas depois! Uma magia Lendas e Histórias lançada sobre a arma revela como você pode se livrar dela em definitivo. Pode ser lançar Purificação e sacrificar 1d3 pontos de mana, fazer uma missão específica para deixar a arma feliz ou qualquer outra coisa, a critério do mestre.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "se você soltar a arma depois de ser alvo da magia Purificação com o aprimoramento de +3 PM, ela reaparece em sua mão 1d4 rodadas depois; uma magia Lendas e Histórias lançada sobre a arma revela a forma definitiva de se livrar dela, a critério do mestre"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

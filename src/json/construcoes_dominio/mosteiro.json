@@ -1,0 +1,16 @@
+{
+  "id": "mosteiro",
+  "name": "Mosteiro",
+  "description": "Uma habitação onde monges vivem em isolamento. Passar um tempo vivendo com os monges, de forma humilde e abnegada, fortalece sua fé. Você recebe +3 pontos de mana, mas apenas se for um conjurador divino (como um clérigo ou druida).",
+  "categoria": "religiao",
+  "custo": 15,
+  "effects": [
+    {
+      "type": "bonus_pm",
+      "value": 3,
+      "condicao": "apenas conjuradores divinos"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

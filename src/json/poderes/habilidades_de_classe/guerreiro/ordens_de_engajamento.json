@@ -1,0 +1,33 @@
+{
+  "id": "ordens_de_engajamento",
+  "name": "Ordens de Engajamento",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Uma vez por rodada, quando acerta um ataque em uma criatura sob efeito do seu Xadrez de Batalha, você pode gastar 2 PM para que um aliado em alcance curto possa fazer um ataque contra essa criatura.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "criar_oportunidade"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "target": "aliado_em_alcance_curto_ataca_a_mesma_criatura",
+      "requirement": "acertar_ataque_em_criatura_sob_xadrez_de_batalha"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

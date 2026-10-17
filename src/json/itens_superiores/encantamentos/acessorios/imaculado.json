@@ -1,0 +1,26 @@
+{
+  "id": "imaculado",
+  "name": "Imaculado",
+  "type": "encantamento",
+  "categoria": "acessorio",
+  "aplica_se_a": "vestuário",
+  "description": "O vestuário está sempre limpo e perfumado. Mesmo após emergir de um pântano ou esgoto, toda a imundície desaparece em 1 rodada. Fornece +2 em Diplomacia (cumulativo com outros bônus do item) e aumenta a CD de Aparência Inofensiva, Presença Aristocrática e efeitos similares em +2.",
+  "effects": [
+    {
+      "type": "auto_limpeza",
+      "duracao": "1 rodada"
+    },
+    {
+      "type": "bonus_pericia",
+      "pericia": "Diplomacia",
+      "value": 2,
+      "cumulativo": true
+    },
+    {
+      "type": "bonus_cd",
+      "condicao": "Aparência Inofensiva, Presença Aristocrática e efeitos similares",
+      "value": 2
+    }
+  ],
+  "livro": "herois_de_arton"
+}

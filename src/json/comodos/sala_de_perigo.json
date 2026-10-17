@@ -1,0 +1,13 @@
+{
+  "id": "sala_de_perigo",
+  "name": "Sala de Perigo",
+  "description": "Um espaço para prática de atividades aventurescas, com bonecos (ou mesmo construtos animados!) para treino de combate e áreas com obstáculos para treinos físicos. Os residentes recebem +2 em testes da ação treinamento.",
+  "effects": [
+    {
+      "type": "bonus_acao_treinamento",
+      "value": 2
+    }
+  ],
+  "prerequisito": "sistema de segurança",
+  "livro": "herois_de_arton"
+}

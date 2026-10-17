@@ -1,0 +1,34 @@
+{
+  "id": "canalizar_profanado",
+  "name": "Canalizar Profanado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Quando você usa Canalizar Energia Negativa, pode gastar 1 PM. Se fizer isso, além do normal, criaturas que falhem na resistência não podem recuperar PV por 1 rodada. Pré-requisitos: Canalizar Energia Negativa, 11° nível de clérigo.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "canalizar_energia_positiva_negativa"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "condition_inflict",
+      "condition": "nao_pode_recuperar_pv",
+      "duration": "1_rodada",
+      "applies_to": "criaturas_que_falham_na_resistencia_de_canalizar_energia_negativa"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

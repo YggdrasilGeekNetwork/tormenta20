@@ -1,0 +1,21 @@
+{
+  "id": "adaga_oposta",
+  "name": "Adaga Oposta",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "leve",
+  "preco": 12,
+  "dano": "1d4",
+  "critico": "19",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "bonus_aparar": 2,
+    "nota": "arma secundária com guarda elaborada, apropriada para bloqueios"
+  },
+  "description": "Muito usada por espadachins como arma secundária, esta adaga possui uma guarda elaborada que a torna mais apropriada para bloqueios. Quando usa uma habilidade que permite fazer um teste de ataque para evitar ou reduzir dano (como o poder Aparar), você recebe +2 nesse teste.",
+  "livro": "herois_de_arton"
+}

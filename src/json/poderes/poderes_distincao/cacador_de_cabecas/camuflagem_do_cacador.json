@@ -1,0 +1,18 @@
+{
+  "id": "camuflagem_do_cacador",
+  "name": "Camuflagem do Caçador",
+  "type": "poder_distincao",
+  "description": "Quando está oculto, o caçador de cabeças é capaz de apagar completamente sua presença. Quando você está sob camuflagem, seus inimigos aplicam a chance de erro por camuflagem a qualquer efeito contra você (não apenas ataques).",
+  "effects": [
+    {
+      "type": "passivo",
+      "condicao": "quando está sob camuflagem",
+      "efeito": "inimigos aplicam a chance de erro por camuflagem a qualquer efeito contra o caçador, não apenas ataques"
+    }
+  ],
+  "requirements": [
+    "Camuflagem",
+    "Predador Alfa"
+  ],
+  "livro": "herois_de_arton"
+}

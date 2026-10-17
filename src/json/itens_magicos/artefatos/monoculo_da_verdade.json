@@ -1,0 +1,23 @@
+{
+  "id": "monoculo_da_verdade",
+  "name": "O Monóculo da Verdade",
+  "description": "Entre os tesouros mais enigmáticos de Arton, o Monóculo da Verdade carrega a lenda de um soberano cuja astúcia rivalizava com qualquer deus. Teria sido forjado nos salões ocultos dos magos de Ahlen e pertenceu a Orestes Rigaud, o Longevo — monarca que desafiou tanto o tempo quanto as intrigas de seus inimigos. Com armação de prata ornada e lente escura como a noite, o monóculo brilhava em arcos coloridos ao capturar a luz. Com ele, Orestes enxergava através de ilusões e reconhecia venenos ocultos, frustrando assassinos e desarmando conspirações, mantendo o reino de Ahlen estável. Após sua morte natural, o monóculo desapareceu misteriosamente. Um clérigo de Hyninn, enviado para destruí-lo por ordem divina, foi seduzido pela cobiça: substituiu-o por uma imitação e vendeu o original a Mestre Arsenal por uma fortuna, traindo missão e deus. Hoje está nas mãos de algum novo dono, ou em meio aos tesouros de alguma masmorra.",
+  "effects": [
+    {
+      "type": "bonus_pm",
+      "value": 10,
+      "condicao": "apenas após um dia de uso"
+    },
+    {
+      "type": "bonus",
+      "alvos": ["Iniciativa", "Intuição", "Percepção"],
+      "value": 10
+    },
+    {
+      "type": "magias_concedidas",
+      "magias": ["Orientação", "Visão da Verdade"],
+      "nota": "pode usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um clérigo de seu nível"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

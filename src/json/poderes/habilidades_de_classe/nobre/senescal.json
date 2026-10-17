@@ -1,0 +1,27 @@
+{
+  "id": "senescal",
+  "name": "Senescal",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Você recebe +1 por patamar em testes de perícia para resolver ações de base, domínio ou negócio e, uma vez por turno dessas estruturas, pode executar uma ação de estrutura adicional.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": "1_por_patamar",
+      "requirement": "acoes_de_base_dominio_ou_negocio"
+    },
+    {
+      "type": "additional_action",
+      "note": "uma_acao_de_estrutura_adicional_por_turno_dessas_estruturas"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "pavao_celestial",
+  "name": "Pavão Celestial",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 150,
+  "espacos": 0.5,
+  "livro": "herois_de_arton",
+  "ingredientes": ["acucar_das_fadas", "carne_de_caca", "fruta"],
+  "custo_ingredientes": 85,
+  "cd_teste_oficio_cozinheiro": 30,
+  "efeito": {
+    "bonus_pericias_mentais": "1d4",
+    "atributos": ["inteligencia", "sabedoria", "carisma"]
+  },
+  "description": "Feito de ave de caça marinada em vinho e acompanhada de um molho espesso de pêssegos e figos, este prato é extremamente elegante. Você recebe +1d4 de bônus em testes de perícias baseadas em Inteligência, Sabedoria e Carisma."
+}

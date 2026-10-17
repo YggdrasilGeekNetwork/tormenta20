@@ -1,0 +1,14 @@
+{
+  "id": "idolo_dourado",
+  "name": "Ídolo Dourado",
+  "description": "Uma estatueta de ouro maciço, representando uma divindade, criatura ou personalidade importante para o grupo. Aumenta um dos bônus em perícias fornecidos pelo cômodo em +1.",
+  "effects": [
+    {
+      "type": "bonus_pericia_do_comodo",
+      "value": 1
+    }
+  ],
+  "preco": 1200,
+  "comodo_alvo": null,
+  "livro": "herois_de_arton"
+}

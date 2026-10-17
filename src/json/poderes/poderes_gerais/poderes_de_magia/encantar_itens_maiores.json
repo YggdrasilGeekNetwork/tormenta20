@@ -1,0 +1,27 @@
+{
+  "id": "encantar_itens_maiores",
+  "name": "Encantar Itens Maiores",
+  "type": "poder_geral",
+  "sub_type": "poder_de_magia",
+  "description": "Como Encantar Itens Menores, mas você pode encantar itens maiores.",
+  "requirements": [
+    {
+      "type": "magic_circle",
+      "sub_type": "hard",
+      "circle": 5
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "encantar_itens_medios"
+    }
+  ],
+  "effects": [
+    {
+      "type": "create_item",
+      "item_tier": "maior",
+      "permanent": true
+    }
+  ],
+  "livro": "herois_de_arton"
+}

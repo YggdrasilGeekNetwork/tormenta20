@@ -1,0 +1,23 @@
+{
+  "id": "balestra",
+  "name": "Balestra",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "duas_maos",
+  "preco": 180,
+  "dano": "1d12",
+  "critico": "19",
+  "alcance": "medio",
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "municao": "virotes",
+  "habilidades": [],
+  "especial": {
+    "usa_forca_dano": true,
+    "recarregar": "acao_padrao"
+  },
+  "description": "Versão mais robusta da besta pesada, que utiliza um sistema de catracas reguláveis para armar seu arco, permitindo que usuários mais fortes apliquem mais tensão à arma. Ao contrário de outras armas de disparo, você aplica sua Força às rolagens de dano com uma balestra. É muito pesada e complexa para ser usada sem treinamento especial, por isso é uma arma exótica. Recarregá-la é uma ação padrão.",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "resistencia_a_tormenta",
+  "name": "Resistência à Tormenta",
+  "type": "poder_distincao",
+  "description": "O relâmpago de sangue cai dos céus, mas o bárbaro não parece ter sido afetado. Você aprende e pode lançar Resistência a Energia. Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Além disso, ela recebe o seguinte aprimoramento. +2 PM: o alvo é protegido de certos efeitos de áreas de Tormenta e templos de Aharadak. Ao entrar nesses locais, ele não fica frustrado, seus itens mágicos encantados não perdem encantos e ele recebe +5 em testes de resistência contra Fenômenos Rubros.",
+  "effects": [
+    {
+      "type": "concede_magia",
+      "magia": "Resistência a Energia",
+      "efeito": "aprende e pode lançar Resistência a Energia; se aprender novamente, o custo diminui em –1 PM"
+    },
+    {
+      "type": "aprimoramento_magia",
+      "custo_pm": 2,
+      "magia": "Resistência a Energia",
+      "efeito": "o alvo é protegido de certos efeitos de áreas de Tormenta e templos de Aharadak: não fica frustrado ao entrar nesses locais, seus itens mágicos encantados não perdem encantos e recebe +5 em testes de resistência contra Fenômenos Rubros"
+    }
+  ],
+  "requirements": [
+    "Conjuração Insana"
+  ],
+  "livro": "herois_de_arton"
+}

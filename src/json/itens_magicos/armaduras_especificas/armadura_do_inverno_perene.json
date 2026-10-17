@@ -1,0 +1,36 @@
+{
+  "id": "armadura_do_inverno_perene",
+  "name": "Armadura do Inverno Perene",
+  "subtipo": "armadura",
+  "base_item": "couraca",
+  "preco": 40500,
+  "description": "Esta couraça defensora gélida de gelo eterno é coberta por névoa gelada. Quando você usa a habilidade ativada do encanto gélido, recebe 20 PV (em vez de 10). Além disso, pode lançar Área Escorregadia (CD Sab) como uma ação de movimento — o efeito assume a forma de uma fina camada de gelo escorregadio. Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensora"
+    },
+    {
+      "type": "enchantment",
+      "name": "gélida"
+    },
+    {
+      "type": "material_especial",
+      "name": "gelo_eterno"
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "usa a habilidade ativada do encanto gélido",
+      "efeito": "recebe 20 PV em vez de 10"
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Área Escorregadia",
+      "acao": "movimento",
+      "cd": "Sabedoria",
+      "reducao_custo_pm": 1,
+      "condicao": "se já souber lançar a magia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

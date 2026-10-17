@@ -1,0 +1,20 @@
+{
+  "id": "tomo_dos_companheiros",
+  "name": "Tomo dos Companheiros",
+  "categoria": "maior",
+  "preco": 45000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Diz-se que este livro volumoso veio da própria Biblioteca de Tanna-Toh, em seu reino divino. De tão poderosas suas histórias, os personagens às vezes escapam para a vida real. Você pode gastar uma ação completa e 3 PM para ler um trecho do livro e convocar um parceiro veterano de um tipo a sua escolha, que surge em um espaço desocupado adjacente. O parceiro dura até o fim do dia ou até você conjurar outro parceiro com o tomo.",
+  "effects": [
+    {
+      "type": "convocar_parceiro",
+      "acao": "ação completa",
+      "custo_pm": 3,
+      "nivel_parceiro": "veterano",
+      "escolha": "tipo à escolha",
+      "duracao": "até o fim do dia ou até convocar outro parceiro com o tomo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

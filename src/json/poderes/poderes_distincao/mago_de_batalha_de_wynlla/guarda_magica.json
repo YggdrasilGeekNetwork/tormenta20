@@ -1,0 +1,15 @@
+{
+  "id": "guarda_magica",
+  "name": "Guarda Mágica",
+  "type": "poder_distincao",
+  "description": "Mestre em utilizar suas magias como arma, o Mago de Batalha também aprende a usá-las como defesa. Quando lança uma magia arcana, você recebe uma quantidade de PV temporários, que duram até o início do seu próximo turno, igual ao total de PM gastos na magia.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "lançar uma magia arcana",
+      "efeito": "recebe PV temporários (até o início do próximo turno) iguais ao total de PM gastos na magia"
+    }
+  ],
+  "requirements": ["treinado em Fortitude", "Conjurador Encouraçado"],
+  "livro": "herois_de_arton"
+}

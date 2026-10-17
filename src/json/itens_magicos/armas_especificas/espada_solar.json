@@ -1,0 +1,20 @@
+{
+  "id": "espada_solar",
+  "name": "Espada Solar",
+  "base_weapon": "espada_bastarda",
+  "preco": 45000,
+  "description": "Esta espada bastarda magnífica emite uma luz dourada que aquece o entorno. Você pode gastar 3 PM para fazer a espada emitir um clarão que cega todos os inimigos em alcance curto por 1 rodada (Ref CD For ou Des evita).",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "magnífica"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 3,
+      "efeito": "a espada emite um clarão que cega todos os inimigos em alcance curto por 1 rodada",
+      "resistencia": "Reflexos CD For ou Des (à escolha) evita"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "biga_de_guerra",
+  "name": "Biga de Guerra",
+  "type": "item",
+  "categoria": "veiculo",
+  "preco": 250,
+  "espacos": 0,
+  "estatisticas": {
+    "tamanho": "grande",
+    "deslocamento": "12m",
+    "defesa": "12 + Des do piloto",
+    "pv": 75,
+    "rd": 5,
+    "capacidade_criaturas": 2,
+    "capacidade_tamanho": "medio",
+    "capacidade_espacos": 40
+  },
+  "tracao": [
+    "2 cavalos rapidos"
+  ],
+  "cobertura": "leve",
+  "especial": {
+    "investida_como_montado": true,
+    "tripulantes_sem_penalidade_ataques_arremesso_em_movimento": true
+  },
+  "description": "Algumas nações amazonas, além de montar em cavalos diretamente, equipam suas guerreiras com este veículo. Uma biga de guerra é como uma pequena carroça de duas rodas blindada, mas ainda assim leve e ágil, puxada por dois cavalos rápidos. O piloto fica de pé, com uma mão nas rédeas e a outra livre para empunhar armas. Se estiver conduzindo uma biga, você pode fazer investidas como se estivesse montado. Além disso, os tripulantes não sofrem penalidades em testes de ataque por atacar com armas de arremesso em uma biga em movimento. Fornece cobertura leve a quem estiver nela.",
+  "livro": "herois_de_arton"
+}

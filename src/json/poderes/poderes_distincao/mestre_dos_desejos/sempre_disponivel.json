@@ -1,0 +1,21 @@
+{
+  "id": "sempre_disponivel",
+  "name": "Sempre Disponível",
+  "type": "poder_distincao",
+  "description": "O mestre dos desejos sempre está onde é mais necessário. Você aprende e pode lançar a magia Salto Dimensional. Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Além disso, se um aliado estiver empunhando sua lâmpada e gastar uma ação livre para esfregá-la, até o fim do seu próximo turno você pode lançar essa magia sem pagar seu custo básico, mas deve ter como destino um espaço adjacente à lâmpada.",
+  "effects": [
+    {
+      "type": "concede_magia",
+      "magia": "Salto Dimensional",
+      "observacao": "se aprender novamente, custo diminui em -1 PM"
+    },
+    {
+      "type": "passivo",
+      "efeito": "se um aliado esfregar sua lâmpada (ação livre), até o fim do seu próximo turno pode lançar Salto Dimensional sem pagar custo básico, com destino adjacente à lâmpada"
+    }
+  ],
+  "requirements": [
+    "Gênio da Lâmpada"
+  ],
+  "livro": "herois_de_arton"
+}

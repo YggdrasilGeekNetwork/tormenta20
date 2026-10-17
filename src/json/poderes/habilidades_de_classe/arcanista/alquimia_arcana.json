@@ -1,0 +1,23 @@
+{
+  "id": "alquimia_arcana",
+  "name": "Alquimia Arcana",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "A CD para resistir aos preparados alquímicos e poções que você usa aumenta em +1 para cada círculo de magia a que você tiver acesso. Pré-requisito: treinado em Ofício (alquimista).",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "oficio_alquimista"
+    }
+  ],
+  "effects": [
+    {
+      "type": "dc_improvement",
+      "value": 1,
+      "per": "circulo_de_magia_com_acesso",
+      "applies_to": "preparados_alquimicos_e_pocoes"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

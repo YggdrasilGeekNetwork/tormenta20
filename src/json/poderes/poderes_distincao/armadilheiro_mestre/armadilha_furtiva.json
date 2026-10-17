@@ -1,0 +1,18 @@
+{
+  "id": "armadilha_furtiva",
+  "name": "Armadilha Furtiva",
+  "type": "poder_distincao",
+  "description": "O armadilheiro prepara surpresas particularmente letais. A CD para encontrar, desarmar e resistir às suas armadilhas aumenta em +5 e você adiciona o dano de seu Ataque Furtivo ao dano que elas causam. Este poder não funciona contra criaturas que não fiquem desprevenidas ou surpreendidas.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "a CD para encontrar, desarmar e resistir às armadilhas do armadilheiro aumenta em +5 e o dano de Ataque Furtivo é somado ao dano que elas causam",
+      "restricao": "não funciona contra criaturas que não fiquem desprevenidas ou surpreendidas"
+    }
+  ],
+  "requirements": [
+    "Armadilha Instantânea",
+    "Ataque Furtivo"
+  ],
+  "livro": "herois_de_arton"
+}

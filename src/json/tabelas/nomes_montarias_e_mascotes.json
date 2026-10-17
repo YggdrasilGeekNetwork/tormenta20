@@ -1,0 +1,413 @@
+{
+  "id": "nomes_montarias_e_mascotes",
+  "name": "Nomes para Montarias e Mascotes",
+  "description": "Tabela de sorteio de nomes para montarias, parceiros animais e mascotes (Tabela 1-28).",
+  "headers": [
+    "Faixa",
+    "Nome"
+  ],
+  "rows": [
+    {
+      "Faixa": "1",
+      "Nome": "Tocho"
+    },
+    {
+      "Faixa": "2",
+      "Nome": "Clavícula"
+    },
+    {
+      "Faixa": "3",
+      "Nome": "Duquesa"
+    },
+    {
+      "Faixa": "4",
+      "Nome": "Nimbinho"
+    },
+    {
+      "Faixa": "5",
+      "Nome": "Mortífero"
+    },
+    {
+      "Faixa": "6",
+      "Nome": "Nito"
+    },
+    {
+      "Faixa": "7",
+      "Nome": "Teneba"
+    },
+    {
+      "Faixa": "8",
+      "Nome": "Inna"
+    },
+    {
+      "Faixa": "9",
+      "Nome": "Perninha"
+    },
+    {
+      "Faixa": "10",
+      "Nome": "Veloz"
+    },
+    {
+      "Faixa": "11",
+      "Nome": "Músculo"
+    },
+    {
+      "Faixa": "12",
+      "Nome": "Cabeçudo"
+    },
+    {
+      "Faixa": "13",
+      "Nome": "Popita"
+    },
+    {
+      "Faixa": "14",
+      "Nome": "Cascudo"
+    },
+    {
+      "Faixa": "15",
+      "Nome": "Dentão"
+    },
+    {
+      "Faixa": "16",
+      "Nome": "Alishe"
+    },
+    {
+      "Faixa": "17",
+      "Nome": "Morcega"
+    },
+    {
+      "Faixa": "18",
+      "Nome": "Holy"
+    },
+    {
+      "Faixa": "19",
+      "Nome": "Empada"
+    },
+    {
+      "Faixa": "20",
+      "Nome": "Colosso"
+    },
+    {
+      "Faixa": "21",
+      "Nome": "Urro"
+    },
+    {
+      "Faixa": "22",
+      "Nome": "Cantrip"
+    },
+    {
+      "Faixa": "23",
+      "Nome": "Guerra"
+    },
+    {
+      "Faixa": "24",
+      "Nome": "Zarolho"
+    },
+    {
+      "Faixa": "25",
+      "Nome": "Rebelde"
+    },
+    {
+      "Faixa": "26",
+      "Nome": "Valkinha"
+    },
+    {
+      "Faixa": "27",
+      "Nome": "Toron"
+    },
+    {
+      "Faixa": "28",
+      "Nome": "Tormento"
+    },
+    {
+      "Faixa": "29",
+      "Nome": "Finta"
+    },
+    {
+      "Faixa": "30",
+      "Nome": "Barril"
+    },
+    {
+      "Faixa": "31",
+      "Nome": "Couraça"
+    },
+    {
+      "Faixa": "32",
+      "Nome": "Avesso"
+    },
+    {
+      "Faixa": "33",
+      "Nome": "Polvilho"
+    },
+    {
+      "Faixa": "34",
+      "Nome": "Torta"
+    },
+    {
+      "Faixa": "35",
+      "Nome": "Dora"
+    },
+    {
+      "Faixa": "36",
+      "Nome": "Barão"
+    },
+    {
+      "Faixa": "37",
+      "Nome": "Chicote"
+    },
+    {
+      "Faixa": "38",
+      "Nome": "Guardião"
+    },
+    {
+      "Faixa": "39",
+      "Nome": "Tesouro"
+    },
+    {
+      "Faixa": "40",
+      "Nome": "Farinha"
+    },
+    {
+      "Faixa": "41",
+      "Nome": "Bolovo"
+    },
+    {
+      "Faixa": "42",
+      "Nome": "Mara"
+    },
+    {
+      "Faixa": "43",
+      "Nome": "Veludo"
+    },
+    {
+      "Faixa": "44",
+      "Nome": "Polly"
+    },
+    {
+      "Faixa": "45",
+      "Nome": "Fofucho"
+    },
+    {
+      "Faixa": "46",
+      "Nome": "Gângster"
+    },
+    {
+      "Faixa": "47",
+      "Nome": "Vento"
+    },
+    {
+      "Faixa": "48",
+      "Nome": "Terror"
+    },
+    {
+      "Faixa": "49",
+      "Nome": "Ameaça"
+    },
+    {
+      "Faixa": "50",
+      "Nome": "Pipinho"
+    },
+    {
+      "Faixa": "51",
+      "Nome": "Merenda"
+    },
+    {
+      "Faixa": "52",
+      "Nome": "Geleia"
+    },
+    {
+      "Faixa": "53",
+      "Nome": "Diamante"
+    },
+    {
+      "Faixa": "54",
+      "Nome": "Ruivo"
+    },
+    {
+      "Faixa": "55",
+      "Nome": "Mancha"
+    },
+    {
+      "Faixa": "56",
+      "Nome": "Poeira"
+    },
+    {
+      "Faixa": "57",
+      "Nome": "Dodó"
+    },
+    {
+      "Faixa": "58",
+      "Nome": "Pangaré"
+    },
+    {
+      "Faixa": "59",
+      "Nome": "Safira"
+    },
+    {
+      "Faixa": "60",
+      "Nome": "Pulsifer"
+    },
+    {
+      "Faixa": "61",
+      "Nome": "Pimenta"
+    },
+    {
+      "Faixa": "62",
+      "Nome": "Muralha"
+    },
+    {
+      "Faixa": "63",
+      "Nome": "Vendaval"
+    },
+    {
+      "Faixa": "64",
+      "Nome": "Orvalho"
+    },
+    {
+      "Faixa": "65",
+      "Nome": "Tempesta"
+    },
+    {
+      "Faixa": "66",
+      "Nome": "Coragem"
+    },
+    {
+      "Faixa": "67",
+      "Nome": "Alvo"
+    },
+    {
+      "Faixa": "68",
+      "Nome": "Marmita"
+    },
+    {
+      "Faixa": "69",
+      "Nome": "Finn"
+    },
+    {
+      "Faixa": "70",
+      "Nome": "Dondonho"
+    },
+    {
+      "Faixa": "71",
+      "Nome": "Pé de Pano"
+    },
+    {
+      "Faixa": "72",
+      "Nome": "Silwer"
+    },
+    {
+      "Faixa": "73",
+      "Nome": "Pandy"
+    },
+    {
+      "Faixa": "74",
+      "Nome": "Malhada"
+    },
+    {
+      "Faixa": "75",
+      "Nome": "Pequeno"
+    },
+    {
+      "Faixa": "76",
+      "Nome": "Bolão"
+    },
+    {
+      "Faixa": "77",
+      "Nome": "Rabinho"
+    },
+    {
+      "Faixa": "78",
+      "Nome": "Barriga"
+    },
+    {
+      "Faixa": "79",
+      "Nome": "Arseno"
+    },
+    {
+      "Faixa": "80",
+      "Nome": "Adaga"
+    },
+    {
+      "Faixa": "81",
+      "Nome": "Hippinho"
+    },
+    {
+      "Faixa": "82",
+      "Nome": "Crítico"
+    },
+    {
+      "Faixa": "83",
+      "Nome": "Vinte"
+    },
+    {
+      "Faixa": "84",
+      "Nome": "Meloso"
+    },
+    {
+      "Faixa": "85",
+      "Nome": "Tibarzinho"
+    },
+    {
+      "Faixa": "86",
+      "Nome": "Sereno"
+    },
+    {
+      "Faixa": "87",
+      "Nome": "Leleven"
+    },
+    {
+      "Faixa": "88",
+      "Nome": "Azedo"
+    },
+    {
+      "Faixa": "89",
+      "Nome": "Escudo"
+    },
+    {
+      "Faixa": "90",
+      "Nome": "Dado"
+    },
+    {
+      "Faixa": "91",
+      "Nome": "Mano"
+    },
+    {
+      "Faixa": "92",
+      "Nome": "Sabugo"
+    },
+    {
+      "Faixa": "93",
+      "Nome": "Moranga"
+    },
+    {
+      "Faixa": "94",
+      "Nome": "Premiado"
+    },
+    {
+      "Faixa": "95",
+      "Nome": "Diabo"
+    },
+    {
+      "Faixa": "96",
+      "Nome": "Jupp"
+    },
+    {
+      "Faixa": "97",
+      "Nome": "Mistura"
+    },
+    {
+      "Faixa": "98",
+      "Nome": "Flecha"
+    },
+    {
+      "Faixa": "99",
+      "Nome": "Biscoitinho"
+    },
+    {
+      "Faixa": "100",
+      "Nome": "Zzssaas"
+    }
+  ],
+  "dice": "1d100",
+  "livro": "herois_de_arton"
+}

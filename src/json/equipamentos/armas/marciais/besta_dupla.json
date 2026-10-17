@@ -1,0 +1,24 @@
+{
+  "id": "besta_dupla",
+  "name": "Besta Dupla",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "duas_maos",
+  "preco": 125,
+  "dano": "1d8",
+  "critico": "19",
+  "alcance": "medio",
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "municao": "virotes",
+  "habilidades": [],
+  "especial": {
+    "permite_disparo_rapido": true,
+    "sem_penalidade_disparo_rapido_se_ja_possui": true,
+    "recarregar": "acao_completa"
+  },
+  "description": "Possui dois arcos sobrepostos, cada um capaz de armazenar um virote. Permite que você use o poder Disparo Rápido. Se já o possui, em vez disso pode usá-lo sem penalidade nos testes de ataque. Recarregar uma besta dupla é uma ação completa.",
+  "livro": "herois_de_arton"
+}

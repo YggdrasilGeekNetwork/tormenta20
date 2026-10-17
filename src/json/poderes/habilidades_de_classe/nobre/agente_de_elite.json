@@ -1,0 +1,22 @@
+{
+  "id": "agente_de_elite",
+  "name": "Agente de Elite",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Você recebe um agente especial, um parceiro veterano que fornece os benefícios de um parceiro a sua escolha (Tormenta20, p. 260) ou um poder de outra classe, cujos pré-requisitos você cumpra (para efeitos de nível na classe desse poder, considere seu nível de nobre −4). No início de cada aventura, você pode trocar seu agente.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "titulo_nobre"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null,
+  "livro": "herois_de_arton"
+}

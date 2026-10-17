@@ -1,0 +1,14 @@
+{
+  "id": "trabalhador_ocupado",
+  "name": "Trabalhador Ocupado",
+  "description": "Você está tão ocupado trabalhando para os outros que não tem tempo de fazer seus próprios projetos! Você não recebe a habilidade Protótipo e, quando recebe a habilidade Fabricar Item Superior, não recebe um item gratuito.",
+  "categoria": "inventor",
+  "effects": [
+    {
+      "type": "perda_habilidade",
+      "descricao": "não recebe a habilidade Protótipo; quando recebe Fabricar Item Superior, não recebe um item gratuito"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

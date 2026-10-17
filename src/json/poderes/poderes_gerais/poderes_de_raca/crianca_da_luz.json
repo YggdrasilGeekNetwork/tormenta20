@@ -1,0 +1,34 @@
+{
+  "id": "crianca_da_luz",
+  "name": "Criança da Luz",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "O sangue extraplanar é mais forte em você. Seu bônus racial em Diplomacia e Intuição aumenta para +5 e você recebe redução de eletricidade e frio 5.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "aggelus"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 5,
+      "skill": [
+        "diplomacia",
+        "intuicao"
+      ],
+      "replace_racial": true
+    },
+    {
+      "type": "damage_reduction",
+      "value": 5,
+      "damage_type": [
+        "eletricidade",
+        "frio"
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "infestada",
+  "name": "Infestada",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma é habitada por insetos mágicos. Sempre que você acerta um ataque em um inimigo, pode gastar 2 PM para liberar um enxame sobre ele — o alvo perde 2d6 pontos de vida por veneno e fica enjoado por 1d4 rodadas (Fort CD For ou Des evita a condição).",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "acerta um ataque em um inimigo",
+      "efeito": "libera um enxame sobre o alvo: perde 2d6 pontos de vida por veneno e fica enjoado por 1d4 rodadas",
+      "resistencia": "Fortitude CD For ou Des (à escolha) evita a condição"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

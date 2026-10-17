@@ -1,0 +1,23 @@
+{
+  "id": "armadilha_alquimica",
+  "name": "Armadilha Alquímica",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Quando prepara uma armadilha, você pode gastar uma dose de um preparado alquímico. Se fizer isso, as criaturas afetadas pela armadilha também sofrem os efeitos desse preparado automaticamente. Pré-requisito: Armadilheiro.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "armadilheiro"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "trigger": "preparar_armadilha",
+      "cost_extra": "1_dose_de_preparado_alquimico",
+      "effect": "criaturas_afetadas_pela_armadilha_sofrem_tambem_o_efeito_do_preparado"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

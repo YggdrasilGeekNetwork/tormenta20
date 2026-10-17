@@ -1,0 +1,18 @@
+{
+  "id": "inocencia_convicta",
+  "name": "Inocência Convicta",
+  "type": "poder_distincao",
+  "description": "\"É uma mentira da Legião Imperial! Mentira da Legião Imperial! Mentira!\" Quando falha em um teste de resistência, você pode gastar 2 PM para rolar novamente, usando Nobreza em vez da perícia original, com um bônus igual ao total de poderes da distinção que você possui.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "falha em um teste de resistência",
+      "efeito": "rola novamente usando Nobreza em vez da perícia original, com bônus igual ao total de poderes da distinção que possui"
+    }
+  ],
+  "requirements": [
+    "Um Minotauro de Bem"
+  ],
+  "livro": "herois_de_arton"
+}

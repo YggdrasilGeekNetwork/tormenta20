@@ -1,0 +1,23 @@
+{
+  "id": "postura_de_combate_sequencia_blindada",
+  "name": "Postura de Combate: Sequência Blindada",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Para assumir esta postura, você precisa estar vestindo armadura pesada. Quando faz a ação agredir, você pode fazer um ataque desarmado além de seus demais ataques.",
+  "requirements": [
+    {
+      "type": "equipment",
+      "sub_type": "hard",
+      "value": "armadura_pesada"
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "value": 1,
+      "weapon": "desarmado",
+      "trigger": "acao_agredir"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

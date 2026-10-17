@@ -1,0 +1,25 @@
+{
+  "id": "coroa_da_floresta_sussurrante",
+  "name": "Coroa da Floresta Sussurrante",
+  "categoria": "medio",
+  "preco": 21000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta tiara feita de galhos e folhas sempre verdes tem pequenas flores que se abrem ao toque. Ao vesti-la, você é considerado sob efeito da magia Voz Divina e pode lançar Acalmar Animal e Controlar Plantas (CD Sab; se já puder lançar uma dessas magias, pode lançá-la como uma ação de movimento).",
+  "effects": [
+    {
+      "type": "efeito_continuo",
+      "magia": "Voz Divina"
+    },
+    {
+      "type": "concede_magia_escolha",
+      "magias": [
+        "Acalmar Animal",
+        "Controlar Plantas"
+      ],
+      "cd_atributo": "Sab",
+      "condicao_se_ja_conhece": "pode lançar como ação de movimento"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

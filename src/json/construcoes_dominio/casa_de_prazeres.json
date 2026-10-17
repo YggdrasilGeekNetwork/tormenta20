@@ -1,0 +1,17 @@
+{
+  "id": "casa_de_prazeres",
+  "name": "Casa de Prazeres",
+  "description": "Um lugar onde sonhos podem ser comprados, pelo menos por algumas horas. Uma vez por aventura, você pode usar a habilidade Favor (Tormenta 20, p. 79). Se já possuí-la, recebe +5 no teste de Diplomacia para usá-la.",
+  "categoria": "enganacao",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "recebe_habilidade_ou_bonus",
+      "habilidade": "Favor",
+      "bonus_se_possuir": 5,
+      "frequencia": "uma_vez_por_aventura"
+    }
+  ],
+  "prerequisito": "taverna",
+  "livro": "herois_de_arton"
+}

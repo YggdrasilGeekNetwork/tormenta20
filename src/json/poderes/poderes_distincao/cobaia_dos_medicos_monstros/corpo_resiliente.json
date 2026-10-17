@@ -1,0 +1,15 @@
+{
+  "id": "corpo_resiliente",
+  "name": "Corpo Resiliente",
+  "type": "poder_distincao",
+  "description": "Sucessivas cirurgias resultaram em um fortalecimento inesperado do organismo da cobaia. Você não sofre a penalidade em Fortitude por implantes e seu limite de implantes aumenta em +1, +1 para cada dois outros poderes da distinção.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "ignora a penalidade em Fortitude causada por implantes; limite de implantes aumenta em +1",
+      "escalavel": "+1 no limite de implantes para cada dois outros poderes da distinção que possui"
+    }
+  ],
+  "requirements": ["Enxerto Experimental"],
+  "livro": "herois_de_arton"
+}

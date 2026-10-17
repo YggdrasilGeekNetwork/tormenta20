@@ -1,0 +1,16 @@
+{
+  "id": "fujao",
+  "name": "Fujão",
+  "type": "poder_distincao",
+  "description": "A maior proeza de um escapista é nunca estar onde seus inimigos esperam. Quando é atingido por um ataque ou um efeito que exija um teste de resistência, você pode gastar 2 PM para fazer uma pirueta defensiva. Faça um teste de Acrobacia para escapar e use esse resultado no lugar de sua Defesa contra esse ataque, ou do teste de resistência contra o efeito.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "ser atingido por um ataque ou sofrer um efeito que exija teste de resistência",
+      "efeito": "faz um teste de Acrobacia e usa o resultado no lugar da Defesa ou do teste de resistência"
+    }
+  ],
+  "requirements": ["treinado em Acrobacia", "Não Há Ninguém Aqui"],
+  "livro": "herois_de_arton"
+}

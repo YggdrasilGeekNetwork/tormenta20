@@ -1,0 +1,28 @@
+{
+  "id": "esoterismo",
+  "name": "Esoterismo",
+  "type": "poder_geral",
+  "sub_type": "poder_de_magia",
+  "description": "Quando lança uma magia, você pode pagar 2 PM para canalizá-la através de dois itens esotéricos diferentes simultaneamente, recebendo os benefícios de ambos.",
+  "requirements": [
+    {
+      "type": "magic_circle",
+      "sub_type": "hard",
+      "circle": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "spell_channel_through_two_items",
+      "item_type": "esoterico",
+      "benefit": "recebe_os_beneficios_de_ambos_os_itens"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

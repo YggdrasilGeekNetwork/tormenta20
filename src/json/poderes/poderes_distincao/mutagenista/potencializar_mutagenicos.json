@@ -1,0 +1,16 @@
+{
+  "id": "potencializar_mutagenicos",
+  "name": "Potencializar Mutagênicos",
+  "type": "poder_distincao",
+  "description": "Com a experimentação, o mutagenista desenvolve formas ainda mais eficientes de alterar seu corpo. O efeito básico de seus mutagênicos se torna seu efeito de exaurir (você ainda pode exauri-lo com efeitos cumulativos).",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "o efeito básico dos mutagênicos passa a ser o efeito de exaurir (ainda pode exaurir novamente, cumulativo)"
+    }
+  ],
+  "requirements": [
+    "Organismo Reagente"
+  ],
+  "livro": "herois_de_arton"
+}

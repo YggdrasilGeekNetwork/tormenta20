@@ -1,0 +1,29 @@
+{
+  "id": "pancada_estonteante",
+  "name": "Pancada Estonteante",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Quando ataca com uma arma corpo a corpo de impacto, você pode gastar 2 PM. Se você acertar o ataque, o alvo fica desprevenido por uma rodada (ou seja, até o fim do seu próximo turno).",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "luta"
+    }
+  ],
+  "effects": [
+    {
+      "type": "condition_on_hit",
+      "condition": "desprevenido",
+      "duration": "1_rodada",
+      "weapon": "corpo_a_corpo_de_impacto"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

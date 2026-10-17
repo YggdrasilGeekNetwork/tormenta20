@@ -1,0 +1,18 @@
+{
+  "id": "terremoto_da_furia",
+  "name": "Terremoto da Fúria",
+  "type": "poder_distincao",
+  "description": "O tamanho do gigante furioso é capaz de abalar o próprio terreno onde ele pisa. Quando está em fúria, você pode gastar uma ação de movimento e 3 PM para pisotear o chão, gerando uma onda de choque em um raio de 9m ao seu redor. Criaturas na área sofrem dano de impacto igual a 1d12 + sua Força e ficam caídas (Fortitude CD Força reduz à metade e evita a condição). Para cada categoria de tamanho acima de Médio que você tiver, o dano aumenta em +1d12.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 3,
+      "condicao": "em fúria",
+      "efeito": "onda de choque em raio de 9m: 1d12 + Força de dano de impacto e condição caído (Fortitude CD Força reduz à metade e evita a condição)",
+      "escalavel": "dano +1d12 por categoria de tamanho acima de Médio"
+    }
+  ],
+  "requirements": ["Fúria dos Gigantes"],
+  "livro": "herois_de_arton"
+}

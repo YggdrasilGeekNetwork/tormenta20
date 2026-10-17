@@ -1,0 +1,15 @@
+{
+  "id": "precavido",
+  "name": "Precavido",
+  "description": "Enquanto não conhece as capacidades do inimigo, você prefere lutar de maneira cautelosa. Tanta preocupação causa –2 em testes de ataque e resistência. A partir da segunda rodada de combate, você pode se livrar dessa penalidade até o fim da cena gastando uma ação de movimento e passando em um teste de Guerra (CD 15 + ND do inimigo mais poderoso na cena).",
+  "categoria": "guerreiro",
+  "effects": [
+    {
+      "type": "penalidade_teste_ataque_resistencia",
+      "value": -2,
+      "descricao": "a partir da 2ª rodada de combate, pode remover a penalidade até o fim da cena gastando ação de movimento e passando em teste de Guerra (CD 15 + ND do inimigo mais poderoso na cena)"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

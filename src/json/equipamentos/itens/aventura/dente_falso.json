@@ -1,0 +1,18 @@
+{
+  "id": "dente_falso",
+  "name": "Dente Falso",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 300,
+  "espacos": 0,
+  "cd_fabricacao": 15,
+  "uso": "acessorio",
+  "efeito": {
+    "carrega_consumivel_sem_ocupar_espaco": true,
+    "ingerir_conteudo": "acao_movimento",
+    "consumido_ao_usar": true,
+    "limite": "apenas um dente falso instalado por vez"
+  },
+  "description": "Minúsculo frasco disfarçado como um dente, dentro da boca do usuário. Permite carregar um preparado alquímico consumível ou uma poção sem ocupar espaços, além de permitir ingerir esse item como uma ação de movimento. É preciso quebrar o dente falso para ingerir seu conteúdo: uma vez que você faça isso, o dente falso é perdido. Você só pode ter um dente falso instalado por vez.",
+  "livro": "herois_de_arton"
+}

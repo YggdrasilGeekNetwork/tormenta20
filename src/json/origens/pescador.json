@@ -1,0 +1,26 @@
+{
+  "id": "pescador",
+  "name": "Pescador",
+  "description": "Ofício muito comum nas áreas costeiras de Arton, bem como nas muitas regiões cortadas pelo Rio dos Deuses e outros grandes cursos d'água. Utilizando redes, linhas e anzóis de materiais naturais, você pescava para consumo próprio, para sua família ou para comércio. Enfrentava longas horas em condições adversas nas margens ou embarcado. Dizem que pescadores têm muita paciência, mas a sua talvez tenha se esgotado quando aqueles elfos-do-mar roubaram sua pesca, ou quando os homens-piranhas afundaram seu barco, ou quando os lursh-lyin destruíram sua aldeia. Chega, para tudo há limite!",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Bolsa cheia de minhocas"
+    },
+    {
+      "type": "fixed",
+      "text": "Instrumentos de pescador"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Ofício (pescador)",
+      "Sobrevivência"
+    ],
+    "powers": [
+      "Instante Certeiro"
+    ]
+  },
+  "unique_power": "instante_certeiro",
+  "livro": "herois_de_arton"
+}

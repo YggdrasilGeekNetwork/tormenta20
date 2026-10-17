@@ -1,0 +1,32 @@
+{
+  "id": "saliva_corrosiva",
+  "name": "Saliva Corrosiva",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Sua mordida causa +1d6 pontos de dano de ácido. Além disso, você pode gastar uma ação de movimento para cobrir de saliva uma arma que esteja usando. A arma causa +1d6 pontos de dano de ácido. O ácido dura até você acertar um ataque ou até o fim da cena (o que acontecer primeiro).",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "trog"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "1d6",
+      "damage_type": "acido",
+      "weapon": "mordida"
+    },
+    {
+      "type": "active_ability",
+      "action": "movimento",
+      "effect": "damage_improvement",
+      "value": "1d6",
+      "damage_type": "acido",
+      "weapon": "arma_coberta_de_saliva",
+      "duration": "ate_acertar_um_ataque_ou_fim_da_cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "esfomeado",
+  "name": "Esfomeado",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item aumenta seu apetite a níveis pantagruélicos, fazendo com que você precise de uma quantidade enorme de comida para se saciar. Você precisa consumir o dobro de comida por dia, ou começa a sofrer os efeitos de fome e sede (Tormenta20, p. 319). Além disso, precisa consumir duas unidades de um item ingerido (gastando as ações para isso) para que ele tenha efeito.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "precisa consumir o dobro de comida por dia ou sofre os efeitos de fome e sede; itens ingeridos só fazem efeito se consumidos em dose dupla (gastando as ações necessárias para isso)"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

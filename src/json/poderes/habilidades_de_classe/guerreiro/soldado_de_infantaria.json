@@ -1,0 +1,20 @@
+{
+  "id": "soldado_de_infantaria",
+  "name": "Soldado de Infantaria",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Você recebe +3m em seu deslocamento e seu limite de carga aumenta em 6 espaços.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "displacement_improvement",
+      "value": "3m"
+    },
+    {
+      "type": "amount_weapon",
+      "note": "limite_de_carga_aumenta_em_6_espacos"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

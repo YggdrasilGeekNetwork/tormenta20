@@ -1,0 +1,15 @@
+{
+  "id": "campo_de_treinamento",
+  "name": "Campo de Treinamento",
+  "description": "Um descampado próximo, onde camponeses podem treinar manobras militares básicas. Permite recrutar milícias.",
+  "categoria": "nobreza",
+  "custo": 2,
+  "effects": [
+    {
+      "type": "recruta_unidade",
+      "unidade": "milicia"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

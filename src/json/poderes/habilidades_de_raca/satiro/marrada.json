@@ -1,0 +1,16 @@
+{
+  "id": "marrada",
+  "name": "Marrada",
+  "type": "habilidade_de_raca",
+  "race": "satiro",
+  "description": "Você possui uma arma natural de marrada (dano 1d6, crítico x2, impacto). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a marrada.",
+  "effects": {
+    "arma_natural": { "dados": "1d6", "critico": "x2", "tipo_dano": "impacto" },
+    "type": "active",
+    "cost": "1 PM",
+    "gatilho": "usa a ação agredir para atacar com outra arma",
+    "frequencia": "uma vez por rodada",
+    "efeito": "ataque corpo a corpo extra com a marrada"
+  },
+  "livro": "herois_de_arton"
+}

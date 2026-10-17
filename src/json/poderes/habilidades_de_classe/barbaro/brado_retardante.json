@@ -1,0 +1,18 @@
+{
+  "id": "brado_retardante",
+  "name": "Brado: Retardante",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Você dá um berro que faz seus inimigos hesitarem. Criaturas a sua escolha no alcance do brado ficam lentas por 1 rodada. Medo.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "condition_inflict",
+      "condition": "lento",
+      "duration": "1_rodada",
+      "applies_to": "criaturas_a_escolha_no_alcance_do_brado",
+      "tag": "medo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

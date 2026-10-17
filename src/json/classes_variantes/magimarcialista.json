@@ -1,0 +1,69 @@
+{
+  "id": "magimarcialista",
+  "name": "Magimarcialista",
+  "base_class_id": "bardo",
+  "description": "Um bardo que abandona quase todas as funções tradicionais do ofício — repertório de lendas, talento musical, inspirar companheiros, furtividade e habilidades sociais — para se concentrar em apenas uma coisa: combate. Une desde cedo treinamento com armas e magia destrutiva, tornando-se um especialista em ambos, além de curar aliados de maneira eficaz. Perícias: Atuação (Car) e Luta (For), mais 6 a sua escolha entre Acrobacia, Atletismo, Cavalgar, Conhecimento, Diplomacia, Enganação, Fortitude, Guerra, Iniciativa, Jogatina, Misticismo e Reflexos. Proficiências: como o bardo básico. Pontos de Vida: um magimarcialista começa com 16 pontos de vida + Constituição e ganha 4 PV + Constituição por nível (maior que o bardo básico). Pontos de Mana e Magias: como o bardo básico.",
+  "diffs": [
+    {
+      "nivel": 1,
+      "remove": ["inspiracao"],
+      "adiciona": [
+        {
+          "id": "cadencia_magimarcial",
+          "name": "Cadência Magimarcial",
+          "description": "Sempre que lança uma magia de bardo você recebe uma carga arcana, e sempre que faz a ação agredir, recebe uma carga marcial. O máximo de cargas de cada tipo é igual ao seu Carisma, e duram até o fim da cena."
+        },
+        {
+          "id": "magificacao",
+          "name": "Magificação",
+          "description": "Se tiver pelo menos 1 carga arcana e 1 carga marcial, você recebe +2 em testes de ataque e rolagens de dano e é considerado sob Inspiração. A cada cinco níveis, esse bônus aumenta em +1 (até +5 no 16º nível)."
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "remove": ["ecletico"],
+      "adiciona": [
+        {
+          "id": "bravado_magimarcial",
+          "name": "Bravado Magimarcial",
+          "description": "No 2º nível, ao lançar uma magia, você pode gastar 1 carga marcial para reduzir seu custo em -1 PM. Ao fazer um ataque, pode gastar 1 carga arcana para receber +1d6 na rolagem de dano."
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "danca_defensiva",
+          "name": "Dança Defensiva",
+          "description": "No 3º nível, em um teste de resistência, você pode gastar 1 carga marcial para +5 nesse teste. Ao sofrer dano, pode gastar 1 carga arcana para receber redução de dano 10 contra esse dano."
+        }
+      ]
+    },
+    {
+      "nivel": 7,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "arte_sublime",
+          "name": "Arte Sublime",
+          "description": "A partir do 7º nível, ao usar Bravado Magimarcial ou Dança Defensiva, você pode gastar uma carga adicional do tipo exigido para dobrar seu efeito."
+        }
+      ]
+    },
+    {
+      "nivel": 20,
+      "remove": ["artista_completo"],
+      "adiciona": [
+        {
+          "id": "crescendo_vitorioso",
+          "name": "Crescendo Vitorioso",
+          "description": "No 20º nível, no início de cada combate, você recebe 1 carga arcana e 1 carga marcial. Você soma seu total de cargas marciais na CD para resistir às suas habilidades de bardo, e o total de cargas arcanas em testes de ataque e rolagens de dano."
+        }
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

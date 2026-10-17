@@ -1,0 +1,14 @@
+{
+  "id": "glandula_de_infusao",
+  "name": "Glândula de Infusão",
+  "type": "poder_distincao",
+  "description": "Como um verdadeiro experimento, a cobaia recebe a vanguarda dos procedimentos do Grêmio. Escolha uma magia de até 2º círculo com alvo você ou 1 criatura. Você recebe um implante que permite lançar essa magia seguindo as regras de engenhocas (Tormenta20, p. 70), mas você usa Constituição e Fortitude respectivamente no lugar de Inteligência e Ofício (engenhoqueiro) e só pode ter você como alvo. Este é um efeito orgânico e não é afetado por efeitos que afetem especificamente engenhocas.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "concede um implante que permite lançar uma magia escolhida de até 2º círculo (alvo você ou 1 criatura) seguindo as regras de engenhocas, usando Constituição/Fortitude no lugar de Inteligência/Ofício (engenhoqueiro), com alvo restrito a você mesmo; efeito orgânico, imune a efeitos que afetam engenhocas"
+    }
+  ],
+  "requirements": ["Enxerto Experimental"],
+  "livro": "herois_de_arton"
+}

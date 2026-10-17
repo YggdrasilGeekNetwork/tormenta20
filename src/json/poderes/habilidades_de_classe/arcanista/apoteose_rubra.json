@@ -1,0 +1,42 @@
+{
+  "id": "apoteose_rubra",
+  "name": "Apoteose Rubra",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Você acolheu a corrupção rubra em seu ser — uma escolha que pode ser percebida por todos ao redor. Escolha uma magia que cause dano de cada círculo a que tem acesso. O tipo de dano dessas magias muda para psíquico. Além disso, quando lança uma magia de dano psíquico, você soma seu total de poderes da Tormenta na rolagem de dano. Este poder conta como um poder da Tormenta (exceto para perda de Carisma). Pré-requisitos: Herança Superior (linhagem rubra), 17° nível de arcanista.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "heranca_superior"
+    },
+    {
+      "type": "linhagem",
+      "sub_type": "hard",
+      "value": "rubra"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_type_change",
+      "value": "psiquico",
+      "applies_to": "uma_magia_de_dano_escolhida_por_circulo"
+    },
+    {
+      "type": "damage_improvement",
+      "value": "total_de_poderes_da_tormenta",
+      "applies_to": "magias_de_dano_psiquico"
+    },
+    {
+      "type": "counts_as",
+      "value": "poder_da_tormenta",
+      "exception": "perda_de_carisma"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

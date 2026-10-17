@@ -1,0 +1,22 @@
+{
+  "id": "catador_da_catastrofe",
+  "name": "Catador da Catástrofe",
+  "description": "A queda da Flecha de Fogo. As Guerras Táuricas. A invasão de Lenórienn. Todos os eventos cataclísmicos da história de Arton deixam ruínas e vítimas inocentes. Você foi uma delas. Antes de começar a caçar tesouros em masmorras cheias de monstros, você vasculhou lugares bem menos perigosos (mas igualmente sujos) em busca de sustento: terrenos devastados ou empobrecidos por alguma hecatombe. Você precisou viver dos restos deixados por um desses eventos — mantimentos nas ruínas de armazéns, comida em cozinhas palacianas devastadas, vazamentos em laboratórios de alquimia... Muitas vezes vendeu produtos de suas coletas por preços camaradas, mas o melhor você guardou para si mesmo. Talvez até tenha achado alguma coisa útil para um futuro aventureiro!",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Dois equipamentos de aventura de até T$ 150 cada à sua escolha"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Fortitude",
+      "Percepção"
+    ],
+    "powers": [
+      "Faro para Tesouros"
+    ]
+  },
+  "unique_power": "faro_para_tesouros",
+  "livro": "herois_de_arton"
+}

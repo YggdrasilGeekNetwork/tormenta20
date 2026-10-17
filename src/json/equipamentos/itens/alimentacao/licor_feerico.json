@@ -1,0 +1,17 @@
+{
+  "id": "licor_feerico",
+  "name": "Licor Feérico",
+  "type": "item",
+  "categoria": "alimentacao",
+  "subcategoria": "bebida",
+  "preco": 450,
+  "espacos": 0.5,
+  "alcoolica": true,
+  "cd_embriaguez": 25,
+  "efeito": {
+    "escolha_habilidade": true,
+    "reducao_custo_pm": -1
+  },
+  "description": "De aparência enevoada, esta bebida tem gosto adocicado, difícil de descrever. Dizem que é feita na Pondsmânia e trazida para o resto do Reinado com muita dificuldade. Escolha uma habilidade; o custo para ativá-la diminui em –1 PM. CD 25.",
+  "livro": "herois_de_arton"
+}

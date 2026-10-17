@@ -1,0 +1,16 @@
+{
+  "id": "guardar_num_potinho",
+  "name": "Guardar num Potinho",
+  "type": "poder_distincao",
+  "description": "\"Manda dois pra viagem!\" Quando prepara um prato especial, você pode gastar 1 ingrediente monstruoso adicional. Se fizer isso, ao fim da refeição você pode embalar os restos do prato na forma de um lanche — que pode ser consumido com uma ação padrão e fornece os mesmos benefícios do prato original. Lanches duram 1 dia por poder da distinção.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "gastando 1 ingrediente monstruoso adicional ao preparar um prato especial, pode embalar os restos como lanche (ação padrão para consumir, mesmos benefícios do prato); lanche dura 1 dia por poder da distinção"
+    }
+  ],
+  "requirements": [
+    "À Moda da Casa"
+  ],
+  "livro": "herois_de_arton"
+}

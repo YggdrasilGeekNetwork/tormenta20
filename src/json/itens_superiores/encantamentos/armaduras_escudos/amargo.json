@@ -1,0 +1,15 @@
+{
+  "id": "amargo",
+  "name": "Amargo",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item faz com que toda e qualquer substância que você coloque em sua boca tenha um gosto horrível, suficiente para fazê-lo engasgar. Você precisa passar em um teste de Vontade (CD 20) para usar qualquer item ingerido (incluindo bebidas, preparados, poções etc.). Além disso, a cada dia precisa passar nesse mesmo teste de Vontade para se alimentar o suficiente. Em caso de falha, começa a sofrer os efeitos de fome e sede (Tormenta20, p. 319).",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "precisa passar em um teste de Vontade (CD 20) para usar qualquer item ingerido (bebidas, preparados, poções etc.); a cada dia deve passar no mesmo teste para se alimentar, sob pena de sofrer os efeitos de fome e sede"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

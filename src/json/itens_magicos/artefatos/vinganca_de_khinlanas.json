@@ -1,0 +1,43 @@
+{
+  "id": "vinganca_de_khinlanas",
+  "name": "Vingança de Khinlanas",
+  "description": "A queda da cidade-estado élfica de Lenórienn é bem conhecida, mas poucos sabem sobre o último rei élfico e seu arco encantado. O Rei Khinlanas, orgulhoso e intransigente, governava com políticas de isolamento absoluto, e sua crença na perfeição de seu próprio povo separou Lenórienn do restante de Lamnor. Quando a Aliança Negra, liderada pelo cruel Thwor Khoshkothruk, marchou sobre o continente, Khinlanas recusou-se a buscar ajuda das \"raças inferiores\" — nem mesmo a captura de sua filha Tanya pelo líder bugbear o demoveu. Lenórienn ardeu e Khinlanas morreu, seu cadáver transformado em parte de um trono para o general bugbear. Seu arco pessoal sagrado, ofertado pela própria Glórienn, foi resgatado por aventureiros; feito de madeira verde-oliva e banhado em séculos de magia, ficou conhecido como Vingança de Khinlanas — um artefato que evoca a arrogância do monarca, mas também uma promessa de justiça para os elfos.",
+  "effects": [
+    {
+      "type": "weapon_type",
+      "base": "arco_longo"
+    },
+    {
+      "type": "enchantment",
+      "name": "atroz"
+    },
+    {
+      "type": "enchantment",
+      "name": "precisa"
+    },
+    {
+      "type": "enchantment",
+      "name": "pungente"
+    },
+    {
+      "type": "enchantment",
+      "name": "magnífica"
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "ser elfo",
+      "efeito": "+1 cumulativo em testes de ataque e rolagens de dano"
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "ser devoto de Glórienn",
+      "efeito": "+1 cumulativo em testes de ataque e rolagens de dano",
+      "nota": "cumulativo com o bônus de ser elfo, totalizando +2 em testes de ataque e rolagens de dano se ambas as condições forem atendidas"
+    },
+    {
+      "type": "passivo",
+      "efeito": "soma o Carisma do portador ao dano"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

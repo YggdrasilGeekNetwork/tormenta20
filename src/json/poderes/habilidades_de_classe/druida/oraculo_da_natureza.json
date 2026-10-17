@@ -1,0 +1,39 @@
+{
+  "id": "oraculo_da_natureza",
+  "name": "Oráculo da Natureza",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Você pode gastar uma ação de movimento para se conectar com as energias naturais do mundo. Enquanto você permanecer no mesmo lugar, a CD para resistir a suas magias aumenta em +2 e, sempre que você lança uma magia, recebe 2 PM para gastar em aprimoramentos. Se você estiver em um ambiente urbano, a ação necessária para usar este poder muda para completa.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "xama_mistico"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "CD_magic_improvement",
+      "value": 2,
+      "requirement": "permanecer_no_mesmo_lugar"
+    },
+    {
+      "type": "PM_improvement",
+      "value": 2,
+      "requirement": "ao_lancar_uma_magia",
+      "target": "aprimoramentos"
+    }
+  ],
+  "costs": [
+    {
+      "type": "acao_de_movimento",
+      "note": "acao_completa_em_ambiente_urbano"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

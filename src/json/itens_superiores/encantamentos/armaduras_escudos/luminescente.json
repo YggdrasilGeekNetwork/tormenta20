@@ -1,0 +1,23 @@
+{
+  "id": "luminescente",
+  "name": "Luminescente",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "Você pode lançar Luz e usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um clérigo de seu nível (CD Car). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM. Além disso, quando você lança essa magia, além de seus efeitos normais, criaturas com sensibilidade a luz devem passar em um teste de Vontade ou ficam cegas por 1 rodada (apenas uma vez por cena).",
+  "effects": [
+    {
+      "type": "concede_magia",
+      "magia": "Luz",
+      "cd": "Carisma",
+      "circulo_como": "clérigo",
+      "reducao_custo_pm": 1,
+      "condicao": "se já souber lançar a magia"
+    },
+    {
+      "type": "efeito_adicional_magia",
+      "magia": "Luz",
+      "efeito": "criaturas com sensibilidade a luz devem passar em teste de Vontade ou ficam cegas por 1 rodada (uma vez por cena)"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

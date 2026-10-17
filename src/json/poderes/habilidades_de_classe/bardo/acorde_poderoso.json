@@ -1,0 +1,33 @@
+{
+  "id": "acorde_poderoso",
+  "name": "Acorde Poderoso",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Os dados de dano do seu Acorde Místico aumentam para d10, o alcance dele aumenta para médio e, se você vencer o teste oposto, a vítima fica desprevenida, em vez de vulnerável. Pré-requisito: Acorde Místico.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "acorde_mistico"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_die_improvement",
+      "value": "d10",
+      "applies_to": "acorde_mistico"
+    },
+    {
+      "type": "range_improvement",
+      "value": "medio",
+      "applies_to": "acorde_mistico"
+    },
+    {
+      "type": "condition_change",
+      "from_condition": "vulneravel",
+      "to_condition": "desprevenido",
+      "applies_to": "acorde_mistico"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

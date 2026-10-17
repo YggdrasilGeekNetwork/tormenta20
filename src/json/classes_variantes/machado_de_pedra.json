@@ -1,0 +1,63 @@
+{
+  "id": "machado_de_pedra",
+  "name": "Machado de Pedra",
+  "base_class_id": "barbaro",
+  "description": "Os mais primitivos bárbaros de Arton, de comunidades que nunca tiveram contato com forasteiros: não dominam idiomas estrangeiros, não sabem forjar metal, não plantam nem criam animais, mas confiam em implementos de pedra e osso, além da pura força bruta. Perícias: Fortitude (Con) e Luta (For), mais 2 a sua escolha entre Adestramento, Atletismo, Cavalgar, Iniciativa, Intimidação, Ofício, Percepção, Pontaria, Sobrevivência e Vontade. Proficiências: escudos (perde a proficiência com armas marciais do bárbaro básico — veja a habilidade Machado de Pedra).",
+  "diffs": [
+    {
+      "nivel": 1,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "grunhidos",
+          "name": "Grunhidos",
+          "description": "Você conhece apenas o idioma rústico da sua comunidade e nenhum outro, comunicando-se com grunhidos e sons simples. Você conhece uma palavra em valkar por nível de machado de pedra."
+        },
+        {
+          "id": "machado_de_pedra_arma",
+          "name": "Machado de Pedra",
+          "description": "Você não recebe proficiência com armas simples, sabendo usar apenas adaga, azagaia, clava, funda, lança, machadinha e tacape (mais uma arma simples ou marcial a sua escolha no 9º nível). Ao atacar com uma arma natural, ataque desarmado ou uma dessas armas, você recebe +1 no teste de ataque e na rolagem de dano."
+        },
+        {
+          "id": "tanga_de_peles",
+          "name": "Tanga de Peles",
+          "description": "Você não recebe proficiência com armaduras leves. Se não estiver usando armadura, soma sua Constituição na Defesa, recebendo +1 adicional no 3º nível e a cada quatro níveis seguintes (até +5 no 19º nível)."
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "furia_primitiva",
+          "name": "Fúria Primitiva",
+          "description": "A partir do 2º nível, se não estiver usando armadura e estiver empunhando uma arma de sua habilidade Machado de Pedra, o custo de sua Fúria é reduzido em -1 PM. Uma vez por cena, ao entrar em fúria, você recebe PV temporários iguais ao seu nível + Constituição."
+        }
+      ]
+    },
+    {
+      "nivel": 5,
+      "remove": ["resistencia_a_dano"],
+      "adiciona": [
+        {
+          "id": "resiliencia_primal",
+          "name": "Resiliência Primal",
+          "description": "A partir do 5º nível, você recebe redução de dano 3. A cada três níveis, sua RD aumenta em 3, até um máximo de RD 15 no 17º nível."
+        }
+      ]
+    },
+    {
+      "nivel": 20,
+      "remove": ["furia_titanica"],
+      "adiciona": [
+        {
+          "id": "furia_rustica",
+          "name": "Fúria Rústica",
+          "description": "No 20º nível, ao entrar em fúria, você pode gastar 5 PM para receber Cura Acelerada 10 (cumulativa) durante a fúria e fazer um ataque desarmado adicional sempre que usar a ação agredir."
+        }
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

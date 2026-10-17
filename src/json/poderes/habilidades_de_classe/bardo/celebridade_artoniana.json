@@ -1,0 +1,36 @@
+{
+  "id": "celebridade_artoniana",
+  "name": "Celebridade Artoniana",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "No início de cada cena, você pode gastar 3 PM para fazer um teste de Atuação oposto pelo teste de Vontade de uma criatura inteligente (Int –3 ou maior) que possa ver. Se você vencer, a criatura se revela sua fã. Você recebe +5 em todos os testes de perícia contra ela e ela sofre –5 em todos os testes dela contra você até o fim da aventura. Quem vai querer agredir seu ídolo? Pré-requisitos: Estrelato, 17º nível de bardo.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "estrelato"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "trigger": "inicio_de_cena",
+      "test": "atuacao_oposto_vontade",
+      "target": "criatura_inteligente_int_menos3_ou_maior_visivel",
+      "effect": "criatura_vira_fa_bonus_5_em_pericias_contra_ela_penalidade_5_para_ela_ate_fim_da_aventura",
+      "on_win": true
+    }
+  ],
+  "costs": [
+    {
+      "value": 3,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

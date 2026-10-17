@@ -1,0 +1,20 @@
+{
+  "id": "martelo_do_titan",
+  "name": "Martelo do Titã",
+  "base_weapon": "martelo_de_guerra",
+  "preco": 22500,
+  "description": "Este martelo de guerra formidável, feito de rochas negras e pesadas, tem aparência robusta. Sempre que você faz um acerto crítico com ele, pode gastar 2 PM para empurrar o alvo 6m para trás.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "acerto crítico",
+      "efeito": "empurra o alvo 6m para trás"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

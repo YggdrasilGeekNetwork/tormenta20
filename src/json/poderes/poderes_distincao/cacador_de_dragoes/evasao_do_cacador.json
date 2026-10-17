@@ -1,0 +1,25 @@
+{
+  "id": "evasao_do_cacador",
+  "name": "Evasão do Caçador",
+  "type": "poder_distincao",
+  "description": "O caçador de dragões sabe o momento exato em que deve se esquivar. Quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano nenhum se passar e sofre apenas metade do dano se falhar. Além disso, uma vez por rodada, quando passa em um teste de Reflexos, você pode percorrer até metade do seu deslocamento. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver na condição imóvel.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade",
+      "efeito": "não sofre dano nenhum se passar no teste e sofre apenas metade do dano se falhar"
+    },
+    {
+      "type": "passivo",
+      "limite": "uma vez por rodada",
+      "gatilho": "passa em um teste de Reflexos",
+      "efeito": "pode percorrer até metade do seu deslocamento",
+      "restricao": "exige liberdade de movimentos; não pode ser usada na condição imóvel"
+    }
+  ],
+  "requirements": [
+    "treinado em Reflexos",
+    "Destemor Inflamado"
+  ],
+  "livro": "herois_de_arton"
+}

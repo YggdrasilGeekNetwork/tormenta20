@@ -1,0 +1,32 @@
+{
+  "id": "exaltacao_do_rejeitado",
+  "name": "Exaltação do Rejeitado",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Muitos acreditam que você não merece sua divindade, mas ela prova o contrário. Quando lança uma magia divina, você recebe um bônus em testes de resistência igual ao círculo da magia lançada, até o início do seu próximo turno.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "kaijin",
+        "lefou"
+      ]
+    },
+    {
+      "type": "class_feature",
+      "sub_type": "hard",
+      "id": "magias",
+      "note": "divinas"
+    }
+  ],
+  "effects": [
+    {
+      "type": "resistence_test_improvement",
+      "value": "circulo_da_magia_lancada",
+      "trigger": "lancar_magia_divina",
+      "duration": "ate_o_inicio_do_proximo_turno"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

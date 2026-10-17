@@ -1,0 +1,23 @@
+{
+  "id": "inspiracao_resoluta",
+  "name": "Inspiração Resoluta",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Quando você usa Inspiração, você e seus aliados aplicam o bônus recebido na Defesa (além de testes de perícia).",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "inspiracao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "extend_bonus",
+      "value": "bonus_de_inspiracao",
+      "applies_to": "defesa",
+      "in_addition_to": "testes_de_pericia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

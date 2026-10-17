@@ -1,0 +1,15 @@
+{
+  "id": "dance",
+  "name": "Dance!",
+  "type": "poder_distincao",
+  "description": "Todos os gestos do chapéu-preto inspiram ameaça. Quando faz um teste de Intimidação, você pode gastar 2 PM para fazer uma demonstração de habilidade com sua arma como parte desse teste. Se fizer isso, você recebe um bônus em seu teste de Intimidação igual ao atributo-chave de ataque com a arma que está usando.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "efeito": "em um teste de Intimidação, recebe bônus igual ao atributo-chave de ataque da arma empunhada"
+    }
+  ],
+  "requirements": ["Coração Duro"],
+  "livro": "herois_de_arton"
+}

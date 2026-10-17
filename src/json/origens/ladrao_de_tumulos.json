@@ -1,0 +1,26 @@
+{
+  "id": "ladrao_de_tumulos",
+  "name": "Ladrão de Túmulos",
+  "description": "Não a mais digna das profissões, mas se tornaria especialmente popular no pós-guerra. Você percorreu antigos campos de batalha e outros lugares de grande morticínio, coletando pertences daqueles que não precisavam mais. Ou ainda, você ousou literalmente saquear sepulturas consagradas aos deuses — ou seja, não apenas perturbou os mortos, mas também certos espíritos muito mais poderosos! Ainda bem que escolheu se tornar aventureiro, com certeza uma vida bem menos arriscada. Chega a ser surpresa você nunca ter sido assombrado ou amaldiçoado. Ainda.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Pá (mesmas estatísticas de uma lança)"
+    },
+    {
+      "type": "fixed",
+      "text": "Pé de cabra"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Ladinagem",
+      "Sobrevivência"
+    ],
+    "powers": [
+      "Profanador de Sepulturas"
+    ]
+  },
+  "unique_power": "profanador_de_sepulturas",
+  "livro": "herois_de_arton"
+}

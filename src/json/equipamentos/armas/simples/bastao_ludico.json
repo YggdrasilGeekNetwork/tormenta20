@@ -1,0 +1,26 @@
+{
+  "id": "bastao_ludico",
+  "name": "Bastão Lúdico",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 5,
+  "dano": "1d6",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "impacto",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "dano_nao_letal": true,
+    "rebater_arremesso": {
+      "requisito": "proficiencia_marcial",
+      "frequencia": "uma_vez_por_rodada",
+      "efeito": "teste de ataque para rebater um arremesso recebido; se superar o do atacante, evita o dano"
+    },
+    "bonus_aparar": 2
+  },
+  "description": "Bastão usado em jogos populares entre a aristocracia de Deheon, Namalkah e outros reinos, que consiste em arremessar e rebater bolas duras. Causa dano não letal. Se for proficiente com armas marciais, pode ser usado para rebater objetos arremessados (uma vez por rodada, teste de ataque comparado ao do atacante). Quando usa uma habilidade que permite um teste de ataque para evitar ou reduzir dano (como o poder Aparar), você recebe +2 nesse teste.",
+  "livro": "herois_de_arton"
+}

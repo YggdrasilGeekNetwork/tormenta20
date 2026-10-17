@@ -1,0 +1,23 @@
+{
+  "id": "acompanhamento_medico",
+  "name": "Acompanhamento Médico",
+  "type": "poder_distincao",
+  "description": "Acostumado a praticar seu ofício sob pressão, um médico de Salistick aprende a agir rapidamente. Para você, a ação necessária para prestar primeiros socorros e usar itens alquímicos que recuperam PV, PM ou condições é reduzida em um passo (até um mínimo de ação de movimento). Além disso, você pode gastar 5 PM e uma ação completa para fazer um teste de Cura (CD 30) em uma criatura adjacente que tenha morrido há até uma rodada. Se você passar, a criatura é ressuscitada com 1 PV. Você pode usar esse efeito uma vez por dia por criatura.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "reduz em um passo (mínimo ação de movimento) a ação para prestar primeiros socorros e usar itens alquímicos que recuperam PV, PM ou condições"
+    },
+    {
+      "type": "ativado",
+      "acao": "completa",
+      "custo_pm": 5,
+      "efeito": "teste de Cura CD 30 em criatura adjacente morta há até 1 rodada; se passar, ressuscita com 1 PV",
+      "limite": "uma vez por dia por criatura"
+    }
+  ],
+  "requirements": [
+    "Medicina Avançada"
+  ],
+  "livro": "herois_de_arton"
+}

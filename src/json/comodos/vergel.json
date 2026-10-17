@@ -1,0 +1,14 @@
+{
+  "id": "vergel",
+  "name": "Vergel",
+  "description": "Um ambiente externo repleto de árvores e vegetação, onde os residentes podem ficar em contato com a natureza. Fornece +1 em Sobrevivência.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "sobrevivencia",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

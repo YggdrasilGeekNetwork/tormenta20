@@ -1,0 +1,20 @@
+{
+  "id": "marrao",
+  "name": "Marrão",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 50,
+  "dano": "4d4",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "impacto",
+  "espacos": 2,
+  "habilidades": [
+    "desbalanceada"
+  ],
+  "especial": null,
+  "description": "Versão mais pesada da marreta de guerra, possui cabeça de metal capaz de partir pedra, aço e ossos. É muito grande para ser usada sem treinamento especial, por isso é uma arma exótica, e por seu peso também é uma arma desbalanceada.",
+  "livro": "herois_de_arton"
+}

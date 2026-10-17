@@ -1,0 +1,25 @@
+{
+  "id": "varinha_milenar",
+  "name": "Varinha Milenar",
+  "categoria": "maior",
+  "preco": 200000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Um esotérico ancestral, que já foi usado por diversos arquimagos ao longo da história artoniana… e absorveu um pouco do poder de cada um deles. A varinha milenar conta como uma varinha arcana, mas aumenta a CD para resistir a suas magias arcanas em +4 e aumenta todos os dados de dano de suas magias arcanas em um passo. É um item poderoso, mas exigente: se um inimigo passar em um teste de resistência contra uma magia sua, você perde 1 PV por PM gasto na magia.",
+  "effects": [
+    {
+      "type": "conta_como",
+      "item": "varinha_arcana",
+      "nota": "a CD para resistir a magias arcanas aumenta em +4 no total (em vez do +1 normal da varinha arcana)"
+    },
+    {
+      "type": "aumento_passo_dano",
+      "condicao": "dano de magias arcanas"
+    },
+    {
+      "type": "desvantagem",
+      "efeito": "se um inimigo passar em um teste de resistência contra uma magia sua, você perde 1 PV por PM gasto nela"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

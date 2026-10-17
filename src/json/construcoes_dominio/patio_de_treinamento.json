@@ -1,0 +1,24 @@
+{
+  "id": "patio_de_treinamento",
+  "name": "Pátio de Treinamento",
+  "description": "Um espaço para guardas praticarem seus golpes. Um regente que possua um pátio de treinamento acaba observando os exercícios, ficando mais apto. Você recebe uma proficiência a sua escolha ou +1 em testes de ataque.",
+  "categoria": "guerra",
+  "custo": 6,
+  "effects": [
+    {
+      "type": "escolha",
+      "opcoes": [
+        {
+          "type": "recebe_proficiencia",
+          "escolha": true
+        },
+        {
+          "type": "bonus_ataque",
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

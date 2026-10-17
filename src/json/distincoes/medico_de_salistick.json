@@ -1,0 +1,10 @@
+{
+  "id": "medico_de_salistick",
+  "name": "Médico de Salistick",
+  "description": "Curandeiro formado no Colégio Real de Médicos de Salistick, que trata doenças e ferimentos com ciência e método, sem recorrer a milagres divinos.",
+  "admissao": "O candidato não pode ser devoto de nenhum deus. Deve se apresentar ao Colégio Real de Médicos, em Salistick, e solicitar uma audiência de avaliação (custa T$ 5.000, com duas etapas de provas teóricas e práticas ao longo de uma semana; o Colégio conduz duas audiências por ano, em Pomo e Contenda). Candidatos aprovados elaboram um trabalho acadêmico sobre um tópico médico de seu interesse e o defendem perante uma banca; se aprovado, é aceito como aluno iniciante. O aluno frequenta então um semestre de disciplinas obrigatórias no Colégio Real, em Salistick, sem poder se ausentar sem autorização formal. No fim do semestre enfrenta a temida semana de provas, uma série de testes extremamente difíceis que medem tudo que aprendeu. Falhar em uma única prova exige repetir o semestre inteiro; falhar duas vezes tira a opção do curso intensivo, restando o caminho normal de quase uma década de estudo ou desistir da carreira. Quem emerge vitorioso recebe a certificação de médico de Salistick.",
+  "marca_nome": "Ciências Médicas",
+  "marca_descricao": "Para aqueles formados no Colégio Real, a medicina é uma ciência fundamentada na lógica e na razão. Você pode usar Inteligência como atributo-chave de Cura (em vez de Sabedoria). Se já faz isso por outro efeito, em vez disso recebe +2 nessa perícia.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

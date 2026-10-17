@@ -1,0 +1,25 @@
+{
+  "id": "tradicao_perdida_aprimorada",
+  "name": "Tradição Perdida Aprimorada",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Seu atributo-chave para lançar magias para a classe escolhida para Tradição Perdida passa a ser o atributo escolhido para esse poder (sujeito aos mesmos limites desse poder).",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "tradicao_perdida"
+    }
+  ],
+  "effects": [
+    {
+      "type": "switch_skill_attr",
+      "target": "atributo_chave_de_conjuracao_da_classe_de_tradicao_perdida",
+      "attr": "a_sua_escolha",
+      "limit": "mesmos_limites_de_tradicao_perdida"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "race_scope": "varias",
+  "race_scope_note": "não-humano, mesma condição racial de Tradição Perdida"
+}

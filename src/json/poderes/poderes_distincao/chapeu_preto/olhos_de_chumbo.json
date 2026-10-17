@@ -1,0 +1,16 @@
+{
+  "id": "olhos_de_chumbo",
+  "name": "Olhos de Chumbo",
+  "type": "poder_distincao",
+  "description": "Quando um chapéu-preto chega à cidade, é melhor fugir. Você projeta uma aura de medo com 9m de raio. Todas as criaturas a sua escolha nessa aura sofrem –2 em rolagens de dano e na Defesa. Essa penalidade aumenta em –1 para cada dois outros poderes da distinção que você possuir.",
+  "effects": [
+    {
+      "type": "medo",
+      "alcance": "aura de 9m de raio",
+      "efeito": "criaturas escolhidas na aura sofrem –2 em rolagens de dano e na Defesa",
+      "escalavel": "penalidade aumenta em –1 para cada dois outros poderes da distinção que possui"
+    }
+  ],
+  "requirements": ["Coração Duro", "ser procurado pelas autoridades por um crime"],
+  "livro": "herois_de_arton"
+}

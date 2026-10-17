@@ -1,0 +1,18 @@
+{
+  "id": "mochila_discreta",
+  "name": "Mochila Discreta",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 20,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "vestido",
+  "efeito": {
+    "compartimento_oculto_espacos": 1,
+    "bonus_ladinagem_ocultar": 5,
+    "cumulativo_com_bonus_do_proprio_item": true,
+    "nao_ocupa_espaco_de_carga": true
+  },
+  "description": "Como uma mochila normal, mas tem um compartimento oculto onde o usuário pode esconder objetos equivalentes a 1 espaço. Esses itens contam em sua capacidade de carga, mas você recebe +5 em testes de Ladinagem para ocultá-los (cumulativo com qualquer bônus concedido pelo próprio item). Uma mochila discreta deve ser vestida, mas não ocupa espaço de carga do personagem.",
+  "livro": "herois_de_arton"
+}

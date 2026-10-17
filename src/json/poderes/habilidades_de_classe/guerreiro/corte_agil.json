@@ -1,0 +1,34 @@
+{
+  "id": "corte_agil",
+  "name": "Corte Ágil",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Uma vez por rodada, quando faz um ataque com uma arma ágil ou leve, você pode gastar 1 PM para se mover até metade do seu deslocamento antes ou depois de fazer o ataque. Esse movimento não ativa reações dos inimigos (como de Ataque Reflexo).",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "des",
+      "value": 1
+    },
+    {
+      "type": "weapon_type",
+      "sub_type": "soft",
+      "weapon": ["agil", "leve"]
+    }
+  ],
+  "effects": [
+    {
+      "type": "displacement_improvement",
+      "value": "metade_do_deslocamento",
+      "requirement": "nao_ativa_reacoes_dos_inimigos"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

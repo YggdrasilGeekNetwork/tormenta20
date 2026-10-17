@@ -1,0 +1,23 @@
+{
+  "id": "duende",
+  "name": "Duende",
+  "description": "Fadas de aparência e tamanho variáveis, sem padrão físico algum, cada uma lembrando personagens de histórias infantis. Todo duende tem um tabu individual que nunca pode quebrar, sob pena de morte. Criação em 4 escolhas: (1) Natureza — Animal (+1 em um atributo à escolha), Vegetal (Natureza Vegetal + Florescer Feérico) ou Mineral (imunidade a efeitos de metabolismo, redução de corte/fogo/perfuração 5, não se beneficia de itens de alimentação); (2) Tamanho — Minúsculo, Pequeno, Médio ou Grande, cada um com seus próprios modificadores de tamanho, deslocamento e ajuste de atributo; (3) Dons — +1 em dois atributos diferentes à escolha (se Animal, um desses +1 pode se somar ao atributo já aumentado pela natureza); (4) Presentes de Magia e de Caos — escolha 3 dos 12 poderes mágicos disponíveis (uma vez por patamar, pode trocar um poder de classe por um presente extra). Pode ser criado de forma aleatória rolando 1d3/1d4/2d6/3d12 para natureza/tamanho/atributos/presentes, ganhando +2 PM inicial como recompensa.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": {},
+  "chosen_attribute_bonus": { "count": 2, "value": 1, "exclude": [] },
+  "skill_bonuses": [],
+  "racial_abilities": ["aversao_a_ferro_duende", "aversao_a_sinos_duende", "tabu_de_duende"],
+  "chosen_abilities_amount": 3,
+  "available_chosen_abilities": [
+    "afinidade_elemental_duende", "encantar_objetos_duende", "enfeiticar_duende",
+    "invisibilidade_de_duende", "lingua_da_natureza_duende", "maldicao_de_duende",
+    "mais_la_do_que_aqui", "metamorfose_animal_duende", "sonhos_profeticos_duende",
+    "velocidade_do_pensamento_duende", "visao_ferica_duende", "voo_de_duende"
+  ],
+  "longevidade": "Variável",
+  "devocao": ["allihanna", "hyninn", "nimb", "wynna"],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "anel_da_protecao_mental",
+  "name": "Anel da Proteção Mental",
+  "categoria": "menor",
+  "preco": 9000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este anel de platina contém uma pequena pedra lunar que brilha suavemente. Você recebe resistência a efeitos mentais +5.",
+  "effects": [
+    {
+      "type": "resistencia",
+      "alvo": "efeitos mentais",
+      "value": 5
+    }
+  ],
+  "livro": "herois_de_arton"
+}

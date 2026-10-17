@@ -1,0 +1,32 @@
+{
+  "id": "visco_persistente",
+  "name": "Visco Persistente",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 25,
+  "espacos": 0.5,
+  "uso": "empunhado",
+  "acao": "padrao",
+  "alcance": "curto",
+  "ataque": "toque_a_distancia",
+  "efeito": {
+    "dano": "4d4",
+    "tipo_dano": "acido",
+    "condicao": "enredada",
+    "resistencia": {
+      "teste": "Fortitude",
+      "cd": "Des",
+      "efeito": "reduz a metade e evita a condicao"
+    },
+    "soltar_se": {
+      "acao": "padrao",
+      "teste": {
+        "pericia": "Atletismo",
+        "cd": "CD do visco"
+      }
+    }
+  },
+  "description": "O líquido leitoso contido neste frasco se transforma em uma gosma corrosiva instantaneamente em contato com o ar. Para usá-lo, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 4d4 pontos de dano de ácido e fica enredada (Fortitude CD Des reduz à metade e evita a condição). Uma criatura enredada pode se soltar com uma ação padrão e um teste de Atletismo contra a CD do visco.",
+  "livro": "herois_de_arton"
+}

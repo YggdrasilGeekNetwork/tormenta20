@@ -1,0 +1,31 @@
+{
+  "id": "explicacao_cientifica",
+  "name": "Explicação Científica",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Você pode gastar uma ação de movimento e uma quantidade de PM limitada pela sua Inteligência para receber resistência a magia igual aos PM gastos até o fim da cena.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_resistance",
+      "value": "pm_gastos_limitado_pela_inteligencia",
+      "duration": "cena"
+    }
+  ],
+  "costs": [
+    {
+      "type": "acao_de_movimento"
+    },
+    {
+      "value": "limitado_pela_inteligencia",
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

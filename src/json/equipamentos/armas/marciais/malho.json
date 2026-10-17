@@ -1,0 +1,24 @@
+{
+  "id": "malho",
+  "name": "Malho",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 8,
+  "dano": "1d10",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "impacto",
+  "espacos": 2,
+  "habilidades": [],
+  "especial": {
+    "bonus_manobra": {
+      "derrubar": 2,
+      "empurrar": 2
+    },
+    "pode_ser_madeira_tollon": true
+  },
+  "description": "Ferramenta para uso em construções, este martelo possui cabeça de madeira dura e pesada, própria para enterrar estacas no chão. Não é tão eficiente quanto martelos projetados para guerra, mas seu peso excessivo pode desequilibrar oponentes. É uma arma versátil, fornecendo +2 em testes para derrubar ou empurrar. Por ser feito basicamente de madeira, pode ser fabricado de madeira Tollon.",
+  "livro": "herois_de_arton"
+}

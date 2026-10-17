@@ -1,0 +1,17 @@
+{
+  "id": "aspersao_curativa",
+  "name": "Aspersão Curativa",
+  "type": "poder_distincao",
+  "description": "As emanações corporais da drogadora atuam como medicamentos poderosos sob seu controle. Você pode gastar uma ação padrão e 3 PV (que não podem ser temporários) para secretar um líquido curativo sobre outra criatura adjacente. A criatura cura 3d6+3 pontos de vida ou uma de suas condições entre abalado, apavorado, alquebrado, atordoado, cego, confuso, debilitado, enjoado, envenenado, esmorecido, exausto, fascinado, fatigado, fraco, frustrado, lento, ofuscado, paralisado, pasmo ou surdo. Para cada outros dois poderes da distinção, você pode gastar mais 3 PV quando usa este poder para curar mais 3d6+3 PV ou mais uma condição (em qualquer combinação de efeitos). Pontos de vida gastos dessa forma só podem ser recuperados com descanso.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "padrao",
+      "custo": "3 PV (não temporários)",
+      "efeito": "criatura adjacente cura 3d6+3 PV ou remove uma condição da lista",
+      "escalavel": "para cada dois outros poderes da distinção, pode gastar mais 3 PV para curar mais 3d6+3 PV ou remover mais uma condição"
+    }
+  ],
+  "requirements": ["Curandeira Exímia"],
+  "livro": "herois_de_arton"
+}

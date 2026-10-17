@@ -1,0 +1,18 @@
+{
+  "id": "frenetica",
+  "name": "Frenética",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma se alimenta de seu espírito de luta. Sempre que acerta um ataque em um inimigo, você pode gastar 1 PM para receber +1 em testes de ataque e dano com ela até o fim da cena. Esse efeito é cumulativo até um máximo de +5.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "gatilho": "acerta um ataque em um inimigo",
+      "efeito": "recebe +1 em testes de ataque e dano com a arma até o fim da cena",
+      "cumulativo": true,
+      "maximo": 5
+    }
+  ],
+  "livro": "herois_de_arton"
+}

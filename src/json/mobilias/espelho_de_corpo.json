@@ -1,0 +1,20 @@
+{
+  "id": "espelho_de_corpo",
+  "name": "Espelho de Corpo",
+  "description": "Um luxo na maior parte de Arton, permite que um aventureiro se admire por completo e ajuste seu visual. Instalado na chapelaria, permite usar um item vestido adicional (para um total de dois adicionais). Instalado numa suíte, concede +1 em testes de perícias baseadas em Carisma.",
+  "effects": [
+    {
+      "type": "item_vestido_adicional",
+      "value": 1,
+      "comodo": "chapelaria"
+    },
+    {
+      "type": "bonus_pericias_carisma",
+      "value": 1,
+      "comodo": "suite"
+    }
+  ],
+  "preco": 2000,
+  "comodo_alvo": "chapelaria_ou_suite",
+  "livro": "herois_de_arton"
+}

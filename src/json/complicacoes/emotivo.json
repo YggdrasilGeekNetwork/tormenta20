@@ -1,0 +1,14 @@
+{
+  "id": "emotivo",
+  "name": "Emotivo",
+  "description": "Fadado a sofrer, você não se beneficia de efeitos que forneçam bônus numéricos (em atributos, testes, Defesa etc.) usados por outros personagens.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "perda_beneficio",
+      "descricao": "não se beneficia de efeitos que forneçam bônus numéricos (em atributos, testes, Defesa etc.) usados por outros personagens"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

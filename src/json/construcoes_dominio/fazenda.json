@@ -1,0 +1,17 @@
+{
+  "id": "fazenda",
+  "name": "Fazenda",
+  "description": "Este campo arado aumenta a produção agrícola do domínio e, consequentemente, a arrecadação de impostos. Fornece 1d6-2 LO por turno de domínio. Como secas, tempestades e pestes podem estragar a colheita, é possível que a fazenda dê prejuízo (mas veja a construção celeiro).",
+  "categoria": "nobreza",
+  "custo": 2,
+  "effects": [
+    {
+      "type": "renda_dominio",
+      "dado": "1d6",
+      "modificador": -2,
+      "frequencia": "por_turno"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

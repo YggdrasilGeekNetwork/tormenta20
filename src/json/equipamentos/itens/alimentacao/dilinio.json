@@ -1,0 +1,17 @@
+{
+  "id": "dilinio",
+  "name": "Dilínio",
+  "type": "item",
+  "categoria": "alimentacao",
+  "subcategoria": "bebida",
+  "preco": 600,
+  "espacos": 0.5,
+  "alcoolica": true,
+  "cd_embriaguez": 20,
+  "nao_pode_ser_fabricado": true,
+  "efeito": {
+    "aumento_limite_gasto_pm": 1
+  },
+  "description": "Destilado de Mortenstenn, antigo reino de Lamnor, feito com um cereal que só cresce no continente sul. A receita se perdeu após as invasões duyshidakk e poucos barris chegaram ao Reinado, o que explica seu altíssimo preço. Seu limite de gasto de PM aumenta em +1. CD 20. Não é possível fabricar este item.",
+  "livro": "herois_de_arton"
+}

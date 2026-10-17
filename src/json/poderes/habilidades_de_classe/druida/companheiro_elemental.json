@@ -1,0 +1,28 @@
+{
+  "id": "companheiro_elemental",
+  "name": "Companheiro Elemental",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Escolha um de seus companheiros animais. Ele recebe o tipo destruidor, ganhando os bônus de seu nível. Se você possuir o suplemento Ameaças de Arton, em vez disso ele pode se tornar também um parceiro aquin'ne, t'peel, pakk ou terrier (também ganhando o bônus de seu nível).",
+  "requirements": [
+    {
+      "type": "devotee_of_divinity",
+      "sub_type": "hard",
+      "divinity": "arton"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "companheiro_animal_druida"
+    }
+  ],
+  "effects": [
+    {
+      "type": "companion_type_change",
+      "companion_type": "destruidor",
+      "alternative": "aquinne_tpeel_pakk_ou_terrier_com_ameacas_de_arton"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "arma_amada",
+  "name": "Arma Amada",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Escolha uma arma. Com essa arma, você recebe +2 em rolagens de dano e +5 em testes de manobra para resistir a desarmar e quebrar.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "anao",
+        "hobgoblin"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": 2,
+      "weapon": "escolhida"
+    },
+    {
+      "type": "manouver_test_improvement",
+      "value": 5,
+      "maneuver": [
+        "desarmar",
+        "quebrar"
+      ],
+      "context": "resistir",
+      "weapon": "escolhida"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

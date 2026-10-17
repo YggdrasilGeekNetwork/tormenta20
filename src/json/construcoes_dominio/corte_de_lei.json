@@ -1,0 +1,15 @@
+{
+  "id": "corte_de_lei",
+  "name": "Corte de Lei",
+  "description": "Uma sala ou prédio onde o regente julga disputas entre seus súditos. Fazer isso torna-o mais capaz de discernir o certo do errado. Quando faz um teste de resistência contra um efeito mental, você rola dois dados e usa o melhor resultado.",
+  "categoria": "nobreza",
+  "custo": 5,
+  "effects": [
+    {
+      "type": "vantagem_resistencia",
+      "contra": "efeitos_mentais"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

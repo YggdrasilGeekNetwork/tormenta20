@@ -1,0 +1,25 @@
+{
+  "id": "purificador",
+  "name": "Purificador",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "Você recebe resistência a medo e mental +5 e pode gastar 2 PM para permitir que um aliado em alcance curto repita um teste de resistência contra um desses efeitos que o esteja afetando. Se ele passar, cancela o efeito. Você só pode usar essa habilidade uma vez por efeito.",
+  "effects": [
+    {
+      "type": "resistencia",
+      "tipo": "medo",
+      "value": 5
+    },
+    {
+      "type": "resistencia",
+      "tipo": "mental",
+      "value": 5
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "efeito": "permite que um aliado em alcance curto repita um teste de resistência contra medo ou mental que o esteja afetando; se passar, cancela o efeito (uma vez por efeito)"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

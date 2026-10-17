@@ -1,0 +1,27 @@
+{
+  "id": "vento_em_popa",
+  "name": "Vento em Popa",
+  "type": "poder_distincao",
+  "description": "Os capitães mais ligeiros têm os navios mais rápidos. Uma vez por rodada, você pode gastar 2 PM para realizar uma ação de movimento adicional em seu turno. Se tiver o poder Velocidade Ladina, em vez disso o custo para usá-lo diminui em –1 PM. Em ambos os casos, o custo diminui em –1 PM (cumulativo com este poder) se você estiver a bordo de um veículo aquático. Por fim, se você usar Audácia em testes de Acrobacia, Atletismo ou Pilotagem, seu custo diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "limite": "uma vez por rodada",
+      "efeito": "realiza uma ação de movimento adicional no turno",
+      "condicao_alternativa": "se possuir Velocidade Ladina, o custo desse poder diminui em –1 PM em vez de conceder a ação; em ambos os casos, o custo diminui em mais –1 PM (cumulativo) se estiver a bordo de um veículo aquático"
+    },
+    {
+      "type": "reducao_custo_pm",
+      "habilidade": "Audácia",
+      "condicao": "em testes de Acrobacia, Atletismo ou Pilotagem",
+      "value": 1
+    }
+  ],
+  "requirements": [
+    "treinado em Pilotagem",
+    "Içar a Bandeira Preta",
+    "Pernas do Mar"
+  ],
+  "livro": "herois_de_arton"
+}

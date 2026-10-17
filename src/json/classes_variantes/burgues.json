@@ -1,0 +1,91 @@
+{
+  "id": "burgues",
+  "name": "Burguês",
+  "base_class_id": "nobre",
+  "description": "Um aventureiro que, assim como o nobre, usa sua posição social para inspirar, liderar e auxiliar seus companheiros, mas sem discursos ou brasões — sabe que tudo pode ser comprado, até mesmo a vitória. Burgueses são plebeus que ascenderam através de comércio ou de um ofício. Perícias: Diplomacia (Car) e Vontade (Sab), mais 6 a sua escolha entre Adestramento, Atuação, Cavalgar, Conhecimento, Diplomacia, Enganação, Fortitude, Guerra, Iniciativa, Intimidação, Intuição, Investigação, Jogatina, Luta, Nobreza, Ofício, Percepção e Pontaria. Proficiências: nenhuma (diferente do nobre básico, que é proficiente com armas marciais, armaduras pesadas e escudos). Pontos de Vida: um burguês começa com 12 pontos de vida + Constituição e ganha 3 PV + Constituição por nível (menor que o nobre básico). Pontos de Mana: como o nobre básico.",
+  "diffs": [
+    {
+      "nivel": 1,
+      "remove": ["autoconfianca", "espolio"],
+      "adiciona": [
+        {
+          "id": "meios_de_producao",
+          "name": "Meios de Produção",
+          "description": "No início de cada aventura, você recebe T$ 100 em dinheiro, itens mundanos ou poções a sua escolha. Esse valor aumenta para T$ 300 no patamar veterano, T$ 600 no campeão e T$ 1.000 no lenda."
+        },
+        {
+          "id": "poder_monetario",
+          "name": "Poder Monetário",
+          "description": "Quando usa uma habilidade com um custo em PM, você pode consumir uma quantidade de tibares de ouro (limitada pelo seu Carisma). Cada TO consumido paga 1 PM do custo da habilidade. Você pode consumir um número de TO por dia igual ao seu nível (dobro a partir do 5º nível)."
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "remove": ["palavras_afiadas"],
+      "adiciona": [
+        {
+          "id": "desmoralizar",
+          "name": "Desmoralizar",
+          "description": "No 2º nível, você aprende e pode lançar Perdição apenas em criaturas inteligentes, usando aprimoramentos como um clérigo de seu nível. Não é uma habilidade mágica (Magias Simuladas, efeito Mental). A penalidade em testes de ataque aumenta em -1 a cada quatro níveis (2º: -1, 6º: -2, 10º: -3, 14º: -4, 18º: -5)."
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "remove": ["riqueza"],
+      "adiciona": [
+        {
+          "id": "negociante_nato",
+          "name": "Negociante Nato",
+          "description": "No 3º nível, ao chegar em uma nova comunidade, você pode gastar 1 dia fazendo contatos com o comércio local e um teste de Diplomacia (CD 20) para vender itens por 60% do preço (até 100% conforme o resultado exceda a CD)."
+        }
+      ]
+    },
+    {
+      "nivel": 4,
+      "remove": ["gritar_ordens"],
+      "adiciona": [
+        {
+          "id": "suborno",
+          "name": "Suborno",
+          "description": "No 4º nível, você aprende e pode lançar Enfeitiçar (atributo-chave Carisma), não sendo uma habilidade mágica (Magias Simuladas). A CD aumenta em +2 se você consumir pelo menos 1 tibar de ouro para pagar seu custo."
+        }
+      ]
+    },
+    {
+      "nivel": 5,
+      "remove": ["presenca_aristocratica"],
+      "adiciona": [
+        {
+          "id": "ostentacao",
+          "name": "Ostentação",
+          "description": "A partir do 5º nível, você pode se beneficiar de um item vestido adicional. A CD para resistir às suas habilidades de burguês aumenta em +1 por item banhado a ouro, cravejado de gemas ou de mitral que possuir (cumulativo, até +3)."
+        }
+      ]
+    },
+    {
+      "nivel": 9,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "novo_rico",
+          "name": "Novo Rico",
+          "description": "No 9º nível, para cada item mágico que você estiver vestindo, você recebe +1 PM por nível de poder do item (somente após 1 dia de uso)."
+        }
+      ]
+    },
+    {
+      "nivel": 20,
+      "remove": ["realeza"],
+      "adiciona": [
+        {
+          "id": "magnata",
+          "name": "Magnata",
+          "description": "No 20º nível, quando usa Desmoralizar, a penalidade em testes de ataque também se aplica à CD das habilidades das criaturas afetadas. Sempre que consome um tibar de ouro para pagar o custo em PM de uma habilidade, você recebe 10 PV temporários cumulativos, que duram até o fim da cena."
+        }
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

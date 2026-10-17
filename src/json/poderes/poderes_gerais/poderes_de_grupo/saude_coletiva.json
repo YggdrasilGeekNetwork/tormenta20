@@ -1,0 +1,26 @@
+{
+  "id": "saude_coletiva",
+  "name": "Saúde Coletiva",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Os sacerdotes e curandeiros de seu grupo conhecem muito bem seus pacientes, seu histórico e seu organismo, sendo capazes de curá-los melhor do que qualquer curandeiro desconhecido. Sempre que você curar outro membro do grupo que também possui este poder, os PV recuperados aumentam em +2 por dado de cura.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "healing_improvement",
+      "value": "2_por_dado_de_cura",
+      "trigger": "curar_membro_do_grupo_com_este_poder"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

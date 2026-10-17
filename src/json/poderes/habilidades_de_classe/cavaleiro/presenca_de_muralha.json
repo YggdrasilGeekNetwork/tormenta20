@@ -1,0 +1,25 @@
+{
+  "id": "presenca_de_muralha",
+  "name": "Presença de Muralha",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Você pode gastar 1 PM para gerar uma aura com 9m de raio e duração sustentada. Cada inimigo que começar seu turno nessa área deve fazer um teste de Vontade (CD Car). Se falhar, seu deslocamento é reduzido à metade pela duração do efeito. Se passar, não é mais afetado por este efeito nesse dia. Medo.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "active",
+      "radius": "9m",
+      "duration": "sustentada",
+      "tag": "medo",
+      "effect": "inimigos_que_comecam_o_turno_na_area_testam_vontade_cd_car_ou_tem_deslocamento_reduzido_a_metade",
+      "immunity_on_success": "pelo_resto_do_dia"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

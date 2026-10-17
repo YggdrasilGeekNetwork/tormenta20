@@ -1,0 +1,16 @@
+{
+  "id": "estou_bem_pessoal",
+  "name": "Estou Bem, Pessoal!",
+  "type": "poder_distincao",
+  "description": "Mais do que aprender a pilotar, um bom aeronauta aprende a se acidentar. Você recebe redução de fogo e impacto 5 e sofre apenas metade do dano de quedas.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "redução de fogo e impacto 5; sofre apenas metade do dano de quedas"
+    }
+  ],
+  "requirements": [
+    "Cabeça nas Nuvens"
+  ],
+  "livro": "herois_de_arton"
+}

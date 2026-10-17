@@ -1,0 +1,34 @@
+{
+  "id": "sequencia_dilaceradora",
+  "name": "Sequência Dilaceradora",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Quando usa Ambidestria, se acertar ambos os ataques, você pode gastar 1 PM para causar +2d8 pontos de dano no segundo ataque. Pré-requisitos: Ambidestria, 11° nível de caçador.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "ambidestria"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_damage",
+      "value": "2d8",
+      "trigger": "acertar_ambos_ataques_de_ambidestria",
+      "applies_to": "segundo_ataque"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

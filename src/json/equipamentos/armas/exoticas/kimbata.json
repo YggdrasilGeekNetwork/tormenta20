@@ -1,0 +1,25 @@
+{
+  "id": "kimbata",
+  "name": "Kimbata",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "leve",
+  "preco": 12,
+  "dano": "1d4",
+  "critico": "18",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [
+    "ocultavel",
+    "surpreendente"
+  ],
+  "especial": {
+    "ocultar_bonus": 5,
+    "surpreender_saque_acao_livre": true,
+    "furtividade_no_lugar_de_luta_vs_desprevenida": true
+  },
+  "description": "Faca em formato de meia-lua com uma pequena argola na extremidade do cabo, que permite movimentos rápidos capazes de surpreender qualquer oponente. A kimbata é uma arma ocultável e surpreendente, mas é muito pequena para ser usada efetivamente sem treinamento adequado, por isso é uma arma exótica. Quando ataca uma criatura desprevenida com esta arma, você pode usar Furtividade no lugar de Luta para o teste de ataque.",
+  "livro": "herois_de_arton"
+}

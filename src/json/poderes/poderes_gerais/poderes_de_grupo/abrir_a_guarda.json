@@ -1,0 +1,41 @@
+{
+  "id": "abrir_a_guarda",
+  "name": "Abrir a Guarda",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Numa luta individual, as mãos e pés de um combatente agem em conjunto, bloqueando, fintando e golpeando. Seu grupo é como um só corpo: em combate, cada um assume um papel, de forma perfeitamente coordenada. Quando você agarra ou derruba um inimigo, aliados com este poder em alcance curto desse inimigo podem gastar 2 PM para fazer um ataque contra ele. Cada personagem só pode fazer um ataque dessa forma por rodada.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": [
+        "luta",
+        "pontaria"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "extra_attack",
+      "target": "aliados_com_este_poder_em_alcance_curto_do_inimigo",
+      "trigger": "voce_agarra_ou_derruba_um_inimigo",
+      "frequency": "uma_vez_por_rodada_por_personagem"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

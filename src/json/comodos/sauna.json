@@ -1,0 +1,13 @@
+{
+  "id": "sauna",
+  "name": "Sauna",
+  "description": "Um conjunto de salas repletas de vapor, piscinas quentes e frias e até espaço para massagens. Uma vez por aventura, quando fizer um teste de resistência, cada residente pode rolar dois dados e usar o melhor resultado.",
+  "effects": [
+    {
+      "type": "rola_dois_usa_melhor",
+      "escopo": "um_teste_de_resistencia_por_aventura"
+    }
+  ],
+  "prerequisito": "base formidável ou melhor",
+  "livro": "herois_de_arton"
+}

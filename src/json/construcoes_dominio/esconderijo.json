@@ -1,0 +1,15 @@
+{
+  "id": "esconderijo",
+  "name": "Esconderijo",
+  "description": "Um covil de bandoleiros. Permite que você recrute bandidos.",
+  "categoria": "enganacao",
+  "custo": 8,
+  "effects": [
+    {
+      "type": "recruta_unidade",
+      "unidade": "bandidos"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

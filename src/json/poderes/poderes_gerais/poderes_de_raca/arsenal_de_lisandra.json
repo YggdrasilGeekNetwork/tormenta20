@@ -1,0 +1,31 @@
+{
+  "id": "arsenal_de_lisandra",
+  "name": "Arsenal de Lisandra",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você aprende e pode lançar Armamento da Natureza. Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Além disso, ao usar sua habilidade Armadura de Allihanna, você recebe um bônus na Defesa adicional de +1 por patamar (ou seja, Defesa +3 no patamar iniciante, +4 no veterano e assim por diante).",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "dahllan"
+    }
+  ],
+  "effects": [
+    {
+      "type": "receive_feature",
+      "feature": "aprende_magia_armamento_da_natureza"
+    },
+    {
+      "type": "PM_cost_reduction",
+      "reduction": -1,
+      "condition": "aprender_novamente_armamento_da_natureza"
+    },
+    {
+      "type": "defense_improvement",
+      "value": "1_por_patamar",
+      "condition": "usando_armadura_de_allihanna"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

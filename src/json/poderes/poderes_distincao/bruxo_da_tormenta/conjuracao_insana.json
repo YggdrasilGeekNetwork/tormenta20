@@ -1,0 +1,19 @@
+{
+  "id": "conjuracao_insana",
+  "name": "Conjuração Insana",
+  "type": "poder_distincao",
+  "description": "O bruxo da Tormenta alimenta suas magias com seus próprios demônios. Quando lança uma magia, você pode receber uma quantidade de pontos de insanidade, limitada pelo total de poderes da distinção que você possui. Se fizer isso, a CD dessa magia aumenta em +1 por PI recebido.",
+  "effects": [
+    {
+      "type": "ativado",
+      "gatilho": "lança uma magia",
+      "efeito": "pode receber uma quantidade de pontos de insanidade (limitada pelo total de poderes da distinção); a CD da magia aumenta em +1 por PI recebido"
+    }
+  ],
+  "requirements": [
+    "Int 2",
+    "Caminho do Arcanista (Mago ou Bruxo)",
+    "um poder da Tormenta"
+  ],
+  "livro": "herois_de_arton"
+}

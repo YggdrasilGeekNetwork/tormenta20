@@ -1,0 +1,23 @@
+{
+  "id": "coracao_do_inverno",
+  "name": "Coração do Inverno",
+  "categoria": "maior",
+  "preco": 45000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este cristal azul claro é muito frio ao toque, parecendo emitir uma aura gélida. Se estiver empunhando o cristal, você pode lançar Raio Polar (CD Int ou Car; se já puder lançar essa magia, seus dados de dano aumentam em um passo). Deixado em um aposento fechado e pequeno (equivalente a no máximo uma área de 9m de raio), faz com que seu interior se torne muito frio (abaixo de –10ºC).",
+  "effects": [
+    {
+      "type": "concede_magia",
+      "magia": "Raio Polar",
+      "cd_atributo": "Int ou Car",
+      "condicao_se_ja_conhece": "dados de dano aumentam em um passo"
+    },
+    {
+      "type": "resfriar_ambiente",
+      "area": "até 9m de raio, aposento fechado",
+      "temperatura": "abaixo de -10ºC"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

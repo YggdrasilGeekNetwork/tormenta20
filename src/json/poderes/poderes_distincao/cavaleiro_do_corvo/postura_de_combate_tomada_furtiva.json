@@ -1,0 +1,18 @@
+{
+  "id": "postura_de_combate_tomada_furtiva",
+  "name": "Postura de Combate: Tomada Furtiva",
+  "type": "poder_distincao",
+  "description": "Cavaleiros do Corvo aprendem a se mover em silêncio, enquanto avançam pelas linhas inimigas. Você pode realizar a ação mirar como ação livre, não sofre penalidade em testes de Furtividade por se mover ao seu deslocamento normal e recebe +2 em testes de ataque e rolagens de dano com ataques à distância. Esse bônus aumenta em +1 para cada dois outros poderes da distinção.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "pode realizar a ação mirar como ação livre; não sofre penalidade em testes de Furtividade por se mover ao deslocamento normal; +2 em testes de ataque e rolagens de dano com ataques à distância",
+      "escalavel": "esse bônus aumenta em +1 para cada dois outros poderes da distinção"
+    }
+  ],
+  "requirements": [
+    "treinado em Pontaria",
+    "Reconhecimento e Infiltração"
+  ],
+  "livro": "herois_de_arton"
+}

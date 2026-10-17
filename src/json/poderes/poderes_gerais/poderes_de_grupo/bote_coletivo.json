@@ -1,0 +1,43 @@
+{
+  "id": "bote_coletivo",
+  "name": "Bote Coletivo",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Seu grupo é especialista em saltar para a ação como um só, surpreendendo os inimigos com uma saraivada de ataques antes que eles consigam se preparar. Você recebe um bônus igual ao número de aliados com este poder em testes de Iniciativa e, na primeira rodada de cada combate, em testes de perícia e na CD de suas habilidades.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "iniciativa"
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "skill_improvement",
+      "value": "numero_de_aliados_com_este_poder",
+      "skill": "iniciativa"
+    },
+    {
+      "type": "skill_improvement",
+      "value": "numero_de_aliados_com_este_poder",
+      "skill": "todas",
+      "condition": "primeira_rodada_de_cada_combate"
+    },
+    {
+      "type": "expertise_improvement",
+      "value": "numero_de_aliados_com_este_poder",
+      "target": "cd_das_habilidades",
+      "condition": "primeira_rodada_de_cada_combate"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

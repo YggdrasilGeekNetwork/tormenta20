@@ -1,0 +1,16 @@
+{
+  "id": "sidra_ahleniense",
+  "name": "Sidra Ahleniense",
+  "type": "item",
+  "categoria": "alimentacao",
+  "subcategoria": "bebida",
+  "preco": 45,
+  "espacos": 0.5,
+  "alcoolica": true,
+  "cd_embriaguez": 15,
+  "efeito": {
+    "bonus_pericias_baseadas_carisma": 2
+  },
+  "description": "Esta bebida doce deixa qualquer um mais falante, fornecendo +2 em testes de perícias originalmente baseadas em Carisma. CD 15.",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "armadura_de_hussardo_alado",
+  "name": "Armadura de Hussardo Alado",
+  "type": "armadura",
+  "categoria": "pesada",
+  "preco": 4500,
+  "bonus_defesa": 10,
+  "penalidade_armadura": -6,
+  "espacos": 5,
+  "especial": {
+    "base": "armadura completa com hastes de penas nas costas simulando asas",
+    "investida_montada_intimidacao": {
+      "efeito": "teste de Intimidação para assustar o alvo de sua investida",
+      "frequencia": "uma vez por cena com cada oponente"
+    }
+  },
+  "vestir_remover": "acao_completa",
+  "description": "Alguns dos reinos mais avançados (e menos tradicionalistas) de Arton começaram a equipar seus cavaleiros com estas armaduras vistosas e impressionantes. É uma armadura completa com um adicional: duas hastes longas nas costas, cobertas de penas, que parecem asas. Quando você avança a galope, as \"asas\" zunem ao vento, criando um som desconcertante e amedrontador. Quando faz uma investida montada, você pode fazer um teste de Intimidação para assustar o alvo de sua investida. Esse efeito só funciona uma vez por cena com cada oponente.",
+  "livro": "herois_de_arton"
+}

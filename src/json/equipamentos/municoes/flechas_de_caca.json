@@ -1,0 +1,19 @@
+{
+  "id": "flechas_de_caca",
+  "name": "Flechas de Caça",
+  "type": "municao",
+  "preco": 10,
+  "quantidade": 20,
+  "espacos": 1,
+  "armas_compativeis": [
+    "arco_curto",
+    "arco_longo",
+    "arco_montado",
+    "arco_de_guerra"
+  ],
+  "especial": {
+    "dano_nao_letal": true
+  },
+  "description": "Flechas de cabeças chatas e pesadas, criadas para atordoar presas pequenas em vez de destruí-las completamente. Uma flecha de caça causa dano de impacto não letal.",
+  "livro": "herois_de_arton"
+}

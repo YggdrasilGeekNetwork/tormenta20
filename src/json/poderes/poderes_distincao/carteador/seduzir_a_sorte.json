@@ -1,0 +1,18 @@
+{
+  "id": "seduzir_a_sorte",
+  "name": "Seduzir a Sorte",
+  "type": "poder_distincao",
+  "description": "Contam-se histórias sobre um carteador capaz de rolar um 7 num dado de 6 faces. Quando rola um ou mais dados de auxílio, você pode pagar 1 PM para fazer uma aposta com o mestre. Você rola os seus dados de auxílio e soma o resultado, enquanto o mestre rola a mesma quantidade do mesmo tipo de dados em segredo. Após rolar seus dados, você deve adivinhar qual o maior resultado total (entre a sua rolagem e a do mestre). Se adivinhar corretamente, você recupera os dados de auxílio gastos. Se perder, fica frustrado.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "gatilho": "rola um ou mais dados de auxílio",
+      "efeito": "faz uma aposta com o mestre: soma o resultado de seus dados de auxílio contra a mesma quantidade rolada em segredo pelo mestre; deve adivinhar qual rolagem é maior; se acertar, recupera os dados de auxílio gastos; se errar, fica frustrado"
+    }
+  ],
+  "requirements": [
+    "Dado Viciado"
+  ],
+  "livro": "herois_de_arton"
+}

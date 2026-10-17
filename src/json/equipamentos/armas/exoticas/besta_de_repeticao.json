@@ -1,0 +1,32 @@
+{
+  "id": "besta_de_repeticao",
+  "name": "Besta de Repetição",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "duas_maos",
+  "preco": 250,
+  "dano": "1d8",
+  "critico": "19",
+  "alcance": "medio",
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "municao": "virotes",
+  "habilidades": [],
+  "especial": {
+    "caixa_de_virotes": 10,
+    "recarga_automatica": true,
+    "recarregar_um_virote": "acao_livre",
+    "recarregar_caixa_completa": "1_minuto",
+    "saraivada": {
+      "custo_virotes": 5,
+      "opcoes": [
+        "atacar até 3 alvos adjacentes (um único teste de ataque comparado com a Defesa de cada alvo)",
+        "causar um dado de dano extra em um único alvo"
+      ]
+    }
+  },
+  "description": "Possui uma caixa acoplada com espaço para até 10 virotes e um sistema de recarga automática. Por seu funcionamento complexo, é uma arma exótica. Porém, se for proficiente com esta arma, pode recarregar cada virote como uma ação livre (carregar toda a caixa demora 1 minuto) e, sempre que fizer um ataque com ela, pode gastar 5 virotes para disparar uma saraivada: atacar até três alvos adjacentes (um único teste de ataque comparado com a Defesa de cada alvo) ou causar um dado de dano extra em um único alvo.",
+  "livro": "herois_de_arton"
+}

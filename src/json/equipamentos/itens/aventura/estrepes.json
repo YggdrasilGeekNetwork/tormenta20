@@ -1,0 +1,19 @@
+{
+  "id": "estrepes",
+  "name": "Estrepes (bolsa para 3m)",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 5,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "consumivel",
+  "efeito": {
+    "acao": "padrao",
+    "area": "quadrado de até 3m de lado adjacente a você",
+    "dano": "1d4",
+    "tipo_dano": "perfuracao",
+    "condicao": "lenta até o fim do próximo turno da vítima"
+  },
+  "description": "Pequenas peças de metal com pontas afiadas. Você pode gastar uma ação padrão para cobrir com estrepes um quadrado de até 3m de lado adjacente a você. Eles causam 1d4 pontos de dano de perfuração em qualquer criatura que pise na área. Uma criatura que sofra dano dos estrepes fica lenta até o fim do próximo turno dela.",
+  "livro": "herois_de_arton"
+}

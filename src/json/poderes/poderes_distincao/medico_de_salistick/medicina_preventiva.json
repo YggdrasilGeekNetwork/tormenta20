@@ -1,0 +1,18 @@
+{
+  "id": "medicina_preventiva",
+  "name": "Medicina Preventiva",
+  "type": "poder_distincao",
+  "description": "Melhor que curar doenças é impedir que elas surjam. Você pode gastar 1 hora para cuidar da saúde de um número de pessoas igual ao seu nível. Para cada poder da distinção que você possui, cada pessoa atendida recebe 5 PV temporários e +1 em testes de resistência por 1 dia. Este poder pode ser usado ao mesmo tempo que cuidados prolongados (veja Cura, Tormenta20, p. 117) se você aplicar ambos às mesmas pessoas.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "1 hora",
+      "efeito": "cuida da saúde de um número de pessoas igual ao seu nível; cada pessoa recebe 5 PV temporários e +1 em testes de resistência por 1 dia, para cada poder da distinção que possui",
+      "escalavel": "por poder da distinção que possui"
+    }
+  ],
+  "requirements": [
+    "Medicina Avançada"
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "punhal_das_profundezas",
+  "name": "Punhal das Profundezas",
+  "base_weapon": "adaga",
+  "preco": 36000,
+  "description": "Uma adaga formidável curva feita de um material escuro e úmido, com cheiro de sal. Quando ataca com este punhal, você pode gastar 1 PM para causar +3d6 pontos de dano de ácido.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "gatilho": "ataca com o punhal",
+      "efeito": "causa +3d6 de dano de ácido"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

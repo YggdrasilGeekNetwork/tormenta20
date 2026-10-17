@@ -1,0 +1,34 @@
+{
+  "id": "corte_lacerante",
+  "name": "Corte Lacerante",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Quando ataca com uma arma corpo a corpo de corte, você pode gastar 2 PM. Se acertar o ataque, você causa +1d10 pontos de dano e o alvo fica sangrando.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "luta"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "1d10",
+      "weapon": "corpo_a_corpo_de_corte",
+      "condition_on_hit": true
+    },
+    {
+      "type": "condition_on_hit",
+      "condition": "sangrando",
+      "weapon": "corpo_a_corpo_de_corte"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

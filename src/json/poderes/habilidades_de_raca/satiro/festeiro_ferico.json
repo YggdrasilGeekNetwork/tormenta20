@@ -1,0 +1,16 @@
+{
+  "id": "festeiro_ferico",
+  "name": "Festeiro Feérico",
+  "type": "habilidade_de_raca",
+  "race": "satiro",
+  "description": "Você é uma criatura do tipo espírito, recebe visão na penumbra e +2 em Atuação e Fortitude.",
+  "effects": {
+    "creature_type": "espirito",
+    "vision": "baixa_luminosidade",
+    "skill_bonus": [
+      { "skill": "atuacao", "value": 2 },
+      { "skill": "fortitude", "value": 2 }
+    ]
+  },
+  "livro": "herois_de_arton"
+}

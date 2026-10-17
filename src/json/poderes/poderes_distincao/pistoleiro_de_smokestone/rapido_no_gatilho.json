@@ -1,0 +1,26 @@
+{
+  "id": "rapido_no_gatilho",
+  "name": "Rápido no Gatilho",
+  "type": "poder_distincao",
+  "description": "\"Você chama o infeliz para um duelo, olha bem nos olhos, saca primeiro e manda ele para o reino dos pés-juntos.\" Você recebe +2 em Iniciativa para cada poder da distinção que possui e, se for o primeiro na iniciativa, seus inimigos ficam desprevenidos contra você nessa rodada. Além disso, seu multiplicador de crítico contra criaturas desprevenidas aumenta em +1.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "+2 em Iniciativa para cada poder da distinção que possui"
+    },
+    {
+      "type": "passivo",
+      "condicao": "é o primeiro na iniciativa",
+      "efeito": "inimigos ficam desprevenidos contra você nessa rodada"
+    },
+    {
+      "type": "passivo",
+      "efeito": "multiplicador de crítico contra criaturas desprevenidas aumenta em +1"
+    }
+  ],
+  "requirements": [
+    "proficiência com armas de fogo",
+    "Saque Rápido"
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "uma_mao_lava_a_outra",
+  "name": "Uma Mão Lava a Outra",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "É sempre mais fácil encarar desafios cercado de companheiros. Mesmo quando tudo parece perdido, basta uma olhada para seus amigos para saber que tudo ficará bem. Quando faz um teste de perícia, você pode gastar 1 PM para rolar novamente esse teste. Você pode usar este poder um número de vezes por cena igual ao total de membros do grupo com este poder. Este poder não funciona em cenas de combate.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "mao_amiga"
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "roll_dice_again",
+      "requirements": "teste_de_pericia",
+      "frequency": "numero_de_vezes_por_cena_igual_ao_total_de_membros_do_grupo_com_este_poder",
+      "restriction": "nao_funciona_em_cenas_de_combate"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "id": "estalagem",
+  "name": "Estalagem",
+  "description": "Uma lugar onde lendas e canções são compartilhadas, fazendo com que todos se sintam mais heroicos. Uma vez por aventura, você pode realizar uma ação padrão adicional.",
+  "categoria": "nobreza",
+  "custo": 8,
+  "effects": [
+    {
+      "type": "acao_padrao_extra",
+      "frequencia": "uma_vez_por_aventura"
+    }
+  ],
+  "prerequisito": "estrada",
+  "livro": "herois_de_arton"
+}

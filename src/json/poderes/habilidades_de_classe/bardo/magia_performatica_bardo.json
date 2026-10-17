@@ -1,0 +1,31 @@
+{
+  "id": "magia_performatica_bardo",
+  "name": "Magia Performática",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Quando lança uma magia diante de uma ou mais criaturas inteligentes (Int –3 ou mais), você pode fazer um teste de Atuação (CD 20 + custo em PM da magia) para lançá-la de forma impressionante. Se você passar, a CD da magia aumenta em +1. Esse bônus aumenta em +1 para cada 10 pontos pelos quais o teste passar da CD. Se falhar, a magia não funciona. Pré-requisitos: Car 1, treinado em Atuação.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "car",
+      "value": 1
+    },
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "atuacao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "trigger": "lancar_magia_diante_de_criaturas_inteligentes_int_menos3_ou_mais",
+      "test": "atuacao",
+      "dc": "20_mais_custo_em_pm_da_magia",
+      "success": "cd_da_magia_aumenta_em_1_mais_1_a_cada_10_pontos_de_margem",
+      "failure": "magia_nao_funciona"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

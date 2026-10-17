@@ -1,0 +1,16 @@
+{
+  "id": "ornamento",
+  "name": "Ornamento",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 50,
+  "espacos": 1,
+  "uso": "vestido_pela_montaria",
+  "efeito": {
+    "frequencia": "uma_vez_por_cena",
+    "requisitos": "montado e treinado em Cavalgar",
+    "efeito": "exibir-se com a montaria para receber +1d4 em um teste de perícia baseada em Carisma"
+  },
+  "description": "Muito usado em desfiles, justas e outras ocasiões em que uma montaria precisa se mostrar garbosa. Uma vez por cena, se você estiver montado e for treinado em Cavalgar, pode se exibir com sua montaria para receber +1d4 em um teste de perícia baseada em Carisma.",
+  "livro": "herois_de_arton"
+}

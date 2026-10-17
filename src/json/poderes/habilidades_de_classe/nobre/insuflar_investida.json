@@ -1,0 +1,30 @@
+{
+  "id": "insuflar_investida",
+  "name": "Insuflar Investida",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Quando faz uma investida, você pode gastar 1 PM por aliado a sua escolha em alcance curto. Se fizer isso, a próxima investida que cada um desses aliados fizer até o início do seu próximo turno causa +2d8 pontos de dano.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "estrategista",
+      "note": "poder/habilidade base de nobre citada no livro como 'Estrategista'; nao localizada como arquivo de poder ja existente no gem (possivelmente distinta de estrategia.json)"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "2d8",
+      "target": "aliados_escolhidos",
+      "duration": "ate_o_inicio_do_proximo_turno"
+    }
+  ],
+  "costs": [
+    {
+      "value": "1_por_aliado",
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

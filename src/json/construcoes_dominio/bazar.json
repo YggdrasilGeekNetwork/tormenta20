@@ -1,0 +1,17 @@
+{
+  "id": "bazar",
+  "name": "Bazar",
+  "description": "Uma loja de artigos variados, como peles, sacas de grãos e ferramentas. Quando compra ou vende itens mundanos (não superiores e não mágicos), você muda o preço em 10% a seu favor.",
+  "categoria": "enganacao",
+  "custo": 5,
+  "effects": [
+    {
+      "type": "desconto_comercio",
+      "aplica_a": "itens mundanos",
+      "value": 10,
+      "unidade": "percentual"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

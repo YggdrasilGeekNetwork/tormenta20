@@ -1,0 +1,17 @@
+{
+  "id": "valentia",
+  "name": "Valentia",
+  "type": "poder_distincao",
+  "description": "Um Mosqueteiro de Rishantor não teme nenhum perigo. Você pode lançar Heroísmo, mas apenas sobre si mesmo. Esta não é uma habilidade mágica e provém de sua galanteria, panache e ousadia altaneira (veja \"Magias Simuladas\", p. 44).",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "pode lançar a magia Heroísmo apenas sobre si mesmo; não é uma habilidade mágica (magia simulada)"
+    }
+  ],
+  "requirements": [
+    "Mestre Esgrimista",
+    "dois outros poderes da distinção"
+  ],
+  "livro": "herois_de_arton"
+}

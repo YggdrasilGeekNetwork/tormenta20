@@ -1,0 +1,19 @@
+{
+  "id": "casa_da_guarda",
+  "name": "Casa da Guarda",
+  "description": "Esta instalação abriga uma guarnição que protege a base. O bônus em segurança fornecido pela guarita aumenta em +4. Além disso, os guardas podem acompanhar o grupo em suas aventuras, atuando junto a um dos personagens como um pelotão de infantaria veterano (um parceiro capanga).",
+  "effects": [
+    {
+      "type": "bonus_seguranca_base",
+      "value": 4,
+      "acumula_com": "guarita"
+    },
+    {
+      "type": "capanga_gratis",
+      "tipo": "pelotao_de_infantaria",
+      "nivel": "veterano"
+    }
+  ],
+  "prerequisito": "base formidável, guarita",
+  "livro": "herois_de_arton"
+}

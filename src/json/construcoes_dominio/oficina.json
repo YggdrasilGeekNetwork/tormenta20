@@ -1,0 +1,17 @@
+{
+  "id": "oficina",
+  "name": "Oficina",
+  "description": "Um galpão repleto de bancadas de trabalho e ferramentas, onde pessoas — incluindo o próprio regente — podem trabalhar nas melhores condições. Fornece +2 em Ofício (qualquer).",
+  "categoria": "nobreza",
+  "custo": 2,
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Ofício",
+      "value": 2,
+      "observacao": "qualquer especialização"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chassi_gracioso",
+  "name": "Chassi Gracioso",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Seu corpo artificial foi feito com materiais leves e belos. Você recebe +2 em Diplomacia e não possui a penalidade de armadura da habilidade Chassi.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "golem"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "skill": "diplomacia"
+    },
+    {
+      "type": "remove_debuff",
+      "debuff": "penalidade_de_armadura_da_habilidade_chassi"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

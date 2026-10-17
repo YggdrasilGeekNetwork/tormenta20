@@ -1,0 +1,18 @@
+{
+  "id": "cornamusa_de_doherimm",
+  "name": "Cornamusa de Doherimm",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 750,
+  "espacos": 2,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "requisito": "precisa ter pelo menos uma mão livre para usá-la",
+  "efeito": {
+    "reducao_custo_inspiracao_pm": -1,
+    "penalidade_defesa": -2
+  },
+  "description": "Criada pelos anões para reverberar na acústica de cavernas, é similar a uma gaita de foles, mas possui roncões imensos que sobem pelas costas do músico numa curva e repousam em seus ombros. Diferente de outros instrumentos, a cornamusa é vestida e não empunhada (mas você ainda precisa ter pelo menos uma mão livre para usá-la). Enquanto estiver vestindo a cornamusa, o custo de sua Inspiração é reduzido em –1 PM, mas você sofre –2 na Defesa. Conta como um instrumento musical.",
+  "livro": "herois_de_arton"
+}

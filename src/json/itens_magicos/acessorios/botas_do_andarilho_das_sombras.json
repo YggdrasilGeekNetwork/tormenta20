@@ -1,0 +1,24 @@
+{
+  "id": "botas_do_andarilho_das_sombras",
+  "name": "Botas do Andarilho das Sombras",
+  "categoria": "medio",
+  "preco": 15000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Estas botas de couro escuro são incrivelmente silenciosas, permitindo ao usuário se mover sem emitir sons. Você recebe +5 em testes de Furtividade realizados em ambientes urbanos ou escuros. Além disso, uma vez por dia, você pode lançar Salto Dimensional — mas apenas se existir no destino uma sombra de tamanho suficiente para sua passagem.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Furtividade",
+      "value": 5,
+      "condicao": "em ambientes urbanos ou escuros"
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Salto Dimensional",
+      "frequencia": "1x por dia",
+      "condicao": "requer sombra de tamanho suficiente no destino"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

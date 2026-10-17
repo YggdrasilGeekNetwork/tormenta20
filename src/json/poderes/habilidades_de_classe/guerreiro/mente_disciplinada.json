@@ -1,0 +1,23 @@
+{
+  "id": "mente_disciplinada",
+  "name": "Mente Disciplinada",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Sempre que você é afetado por uma habilidade de um aliado que fornece um bônus numérico em testes de perícia, rolagens de dano ou na Defesa, para você esse bônus aumenta em +1.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 6
+    }
+  ],
+  "effects": [
+    {
+      "type": "bonus",
+      "value": 1,
+      "requirement": "bonus_numerico_de_habilidade_de_aliado_em_pericia_dano_ou_defesa"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

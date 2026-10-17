@@ -1,0 +1,15 @@
+{
+  "id": "ligeiro",
+  "name": "Ligeiro",
+  "type": "encantamento",
+  "categoria": "acessorio",
+  "aplica_se_a": "qualquer acessório",
+  "description": "O item pode ser vestido ou removido com uma ação livre (acompanhada ou não de pose e olhar fatal).",
+  "effects": [
+    {
+      "type": "vestir_remover",
+      "acao": "ação livre"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

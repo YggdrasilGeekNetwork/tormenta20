@@ -1,0 +1,47 @@
+{
+  "id": "manifestar_totem",
+  "name": "Manifestar Totem",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Escolha um tipo de parceiro entre assassino, atirador, combatente, fortão, guardião, perseguidor ou montaria. Uma vez feita, essa escolha não pode ser mudada. Você pode gastar 3 PM e uma ação de movimento para invocar uma manifestação espiritual de seu animal totêmico até o fim da cena. Ele é um parceiro veterano do tipo escolhido. Pré-requisitos: Totem Espiritual, 7º nível de bárbaro.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "totem_espiritual"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 7
+    }
+  ],
+  "effects": [
+    {
+      "type": "choice",
+      "value": "tipo_de_parceiro",
+      "options": [
+        "assassino",
+        "atirador",
+        "combatente",
+        "fortao",
+        "guardiao",
+        "perseguidor",
+        "montaria"
+      ],
+      "permanent": true
+    },
+    {
+      "type": "active",
+      "action": "movimento",
+      "effect": "invoca_parceiro_veterano_do_tipo_escolhido_ate_fim_da_cena"
+    }
+  ],
+  "costs": [
+    {
+      "value": 3,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

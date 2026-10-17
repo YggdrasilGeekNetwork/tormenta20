@@ -1,0 +1,30 @@
+{
+  "id": "lanca_da_fenix",
+  "name": "Lança da Fênix",
+  "base_weapon": "lanca",
+  "preco": 100000,
+  "description": "Esta lança flamejante magnífica tem a ponta forjada no formato de uma chama. Sempre que reduz um inimigo a 0 PV, você recupera 10 PV. Além disso, uma vez por cena, caso você seja reduzido a 0 PV, pode gastar 5 PM para renascer como uma fênix. Se fizer isso, você é reerguido com metade de seus PV totais e gera uma explosão que causa 10d6 pontos de dano de fogo em todas as demais criaturas em um raio de 9m.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "flamejante"
+    },
+    {
+      "type": "enchantment",
+      "name": "magnífica"
+    },
+    {
+      "type": "passivo",
+      "gatilho": "reduz um inimigo a 0 PV",
+      "efeito": "você recupera 10 PV"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 5,
+      "frequencia": "uma_vez_por_cena",
+      "gatilho": "você é reduzido a 0 PV",
+      "efeito": "renasce como uma fênix: é reerguido com metade de seus PV totais e gera uma explosão que causa 10d6 de dano de fogo em todas as demais criaturas em um raio de 9m"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "pulverizante",
+  "name": "Pulverizante",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico foi feito para a destruição, uma ferramenta de morte que não admite segundas chances ou arrependimento. Quando lança uma magia que reduz os PV de uma criatura a 0 ou menos, você pode gastar 2 PM para que a criatura seja desintegrada, restando apenas um fino pó. Qualquer equipamento que a criatura esteja carregando, vestindo ou empunhando também é desintegrado, exceto itens mágicos. Um esotérico pulverizante não pode ser contido. Pré-requisito: outro encanto.",
+  "prerequisitos": [
+    "outro_encanto"
+  ],
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "reduz os PV de uma criatura a 0 ou menos com uma magia",
+      "efeito": "a criatura é desintegrada, restando apenas um fino pó; equipamentos que carregava, vestia ou empunhava também são desintegrados, exceto itens mágicos"
+    },
+    {
+      "type": "nota",
+      "descricao": "um esotérico pulverizante não pode também ser contido"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

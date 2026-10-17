@@ -1,0 +1,21 @@
+{
+  "id": "maca_estrela",
+  "name": "Maça-Estrela",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 20,
+  "dano": "2d4",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": [
+    "impacto",
+    "perfuracao"
+  ],
+  "espacos": 1,
+  "habilidades": [],
+  "especial": null,
+  "description": "Uma maça com cravos, exige mais treinamento para ser empunhada, mas desfere golpes mais perigosos. Por seu peso e pontas proeminentes, causa dano de impacto e perfuração ao mesmo tempo.",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "autoritario",
+  "name": "Autoritário",
+  "type": "encantamento",
+  "categoria": "acessorio",
+  "aplica_se_a": "vestuário",
+  "description": "O vestuário tem ornamentos volumosos no peitoral e nas ombreiras, tornando sua figura mais imponente. Fornece +2 em Intimidação (cumulativo com outros bônus do item) e aumenta a CD de seus efeitos de medo em +2.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Intimidação",
+      "value": 2,
+      "cumulativo": true
+    },
+    {
+      "type": "bonus_cd",
+      "condicao": "efeitos de medo",
+      "value": 2
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "construtor",
+  "name": "Construtor",
+  "description": "Nem tudo construído em Arton foi obra de algum inventor aventureiro, capaz de produzir engenhocas miraculosas que rivalizam com a própria magia. Para empreendimentos mais comuns, porém importantes — casas, castelos, estradas, pontes, muralhas... —, bastam construtores bem treinados e esforçados. Você estava satisfeito labutando com as próprias mãos ou liderando outros trabalhadores, erguendo edificações, gerenciando obras, usando suas habilidades para tornar vidas melhores. Poderia fazer isso para sempre, feliz e produtivo. O que aconteceu? Um gigante derrubou sua muralha? Um dragão destruiu seu castelo? Como você acabou em um grupo de aventureiros?",
+  "items": [
+    {
+      "type": "choice",
+      "text": "Ferramenta",
+      "options": [
+        {
+          "text": "Instrumentos de pedreiro"
+        },
+        {
+          "text": "Ferramenta pesada (mesmas estatísticas de uma maça)"
+        },
+        {
+          "text": "Ferramenta pesada (mesmas estatísticas de uma lança)"
+        }
+      ]
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Fortitude",
+      "Ofício (pedreiro)"
+    ],
+    "powers": [
+      "Ponto Fraco"
+    ]
+  },
+  "unique_power": "ponto_fraco",
+  "livro": "herois_de_arton"
+}

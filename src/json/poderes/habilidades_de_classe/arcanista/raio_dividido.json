@@ -1,0 +1,33 @@
+{
+  "id": "raio_dividido",
+  "name": "Raio Dividido",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Você pode usar Raio Arcano como uma ação completa, em vez de padrão. Se fizer isso, ele afeta um número de alvos igual ao seu atributo-chave. Pré-requisitos: Raio Arcano, 5º nível de arcanista.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "raio_arcano"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "action_type_change",
+      "from_action": "padrao",
+      "to_action": "completa",
+      "applies_to": "raio_arcano"
+    },
+    {
+      "type": "multi_target",
+      "value": "atributo_chave",
+      "applies_to": "raio_arcano"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

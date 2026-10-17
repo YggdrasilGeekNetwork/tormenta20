@@ -1,0 +1,17 @@
+{
+  "id": "engenharia_aeronautica",
+  "name": "Engenharia Aeronáutica",
+  "type": "poder_distincao",
+  "description": "Tendo “dominado” a fabricação de aeronaves, é hora de aprimorar o ornitóptero. Você pode fabricar ornitópteros superiores e acoplar até duas engenhocas neles, seguindo as regras normais de engenhocas. Elas não contam em seu limite de engenhocas e não precisam ser empunhadas ou vestidas, mas só podem ser ativadas se você estiver pilotando o ornitóptero.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "pode fabricar ornitópteros superiores e acoplar até duas engenhocas neles; as engenhocas não contam no limite normal de engenhocas nem precisam ser empunhadas ou vestidas, mas só podem ser ativadas se estiver pilotando o ornitóptero"
+    }
+  ],
+  "requirements": [
+    "Cabeça nas Nuvens",
+    "Engenhoqueiro"
+  ],
+  "livro": "herois_de_arton"
+}

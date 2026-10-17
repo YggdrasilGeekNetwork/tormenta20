@@ -1,0 +1,15 @@
+{
+  "id": "compacto",
+  "name": "Compacto",
+  "type": "encantamento",
+  "categoria": "acessorio",
+  "aplica_se_a": "qualquer equipamento",
+  "description": "Por meio de articulações engenhosas e bolsões planares, o equipamento não ocupa espaços.",
+  "effects": [
+    {
+      "type": "ignora_espaco",
+      "value": 0
+    }
+  ],
+  "livro": "herois_de_arton"
+}

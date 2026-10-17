@@ -1,0 +1,23 @@
+{
+  "id": "arcanista_de_linha_de_frente",
+  "name": "Arcanista de Linha de Frente",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Quando você lança uma magia, criaturas adjacentes sofrem –2 em seus testes de resistência contra ela e, se ela causar dano, causa um dado extra do mesmo tipo.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "saving_throw_penalty",
+      "value": -2,
+      "applies_to": "criaturas_adjacentes_ao_arcanista",
+      "trigger": "lancar_magia"
+    },
+    {
+      "type": "extra_damage_die",
+      "value": 1,
+      "applies_to": "criaturas_adjacentes_ao_arcanista",
+      "trigger": "magia_de_dano"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

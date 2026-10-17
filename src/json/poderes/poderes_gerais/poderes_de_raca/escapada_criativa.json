@@ -1,0 +1,31 @@
+{
+  "id": "escapada_criativa",
+  "name": "Escapada Criativa",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Quando faz um teste de resistência, você pode gastar 2 PM para somar sua Inteligência ao resultado do teste.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "goblin",
+        "meio_elfo"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "use_damage_attr",
+      "attr": "int",
+      "target": "teste_de_resistencia"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

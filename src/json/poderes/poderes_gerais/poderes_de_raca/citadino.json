@@ -1,0 +1,27 @@
+{
+  "id": "citadino",
+  "name": "Citadino",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você foi criado em uma metrópole, onde se acostumou a lidar com várias pessoas — mas também às facilidades da civilização. Você recebe +2 em testes de perícias baseadas em Carisma (exceto Adestramento).",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "humano",
+        "hynne",
+        "kliren",
+        "meio_elfo"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "skill": "baseadas_em_carisma_exceto_adestramento"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

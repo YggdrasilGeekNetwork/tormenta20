@@ -1,0 +1,14 @@
+{
+  "id": "memorial",
+  "name": "Memorial",
+  "description": "Um cômodo solene, com retratos de companheiros caídos, assim como alguns de seus pertences pessoais, garantindo que eles nunca sejam esquecidos. Caso um residente morra, o próximo personagem do mesmo jogador recebe +1 em um atributo.",
+  "effects": [
+    {
+      "type": "bonus_atributo_personagem_substituto",
+      "value": 1,
+      "condicao": "residente_morre"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

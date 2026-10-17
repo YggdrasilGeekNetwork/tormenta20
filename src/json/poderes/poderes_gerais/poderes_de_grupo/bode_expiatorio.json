@@ -1,0 +1,26 @@
+{
+  "id": "bode_expiatorio",
+  "name": "Bode Expiatório",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Você e seu grupo estão sempre dispostos a assumir a culpa uns pelos outros, mesmo que precisem \"forçar os limites da verdade\" para isso. Sempre que a categoria de atitude de um NPC piorar em relação a um personagem com este poder, você pode automaticamente assumir a culpa por qualquer evento ou interação que tenha causado isso. A categoria de atitude do NPC piora para você, permanecendo a mesma para seu aliado.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "attitude_transfer",
+      "trigger": "atitude_de_npc_piora_em_relacao_a_aliado_com_este_poder",
+      "effect": "voce_assume_a_culpa_e_a_atitude_piora_para_voce_em_vez_do_aliado"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

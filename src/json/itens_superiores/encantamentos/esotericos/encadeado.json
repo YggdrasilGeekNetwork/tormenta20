@@ -1,0 +1,16 @@
+{
+  "id": "encadeado",
+  "name": "Encadeado",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico impulsiona a energia mágica de seus feitiços, fazendo-a saltar para outros alvos. Uma vez por cena, quando você reduz os PV de um inimigo a 0 ou menos com uma magia, você pode causar metade do dano da magia a outro inimigo dentro do alcance original dela. O inimigo tem direito ao mesmo teste de resistência original e não sofre qualquer outro efeito da magia, apenas o dano.",
+  "effects": [
+    {
+      "type": "efeito_adicional_magia",
+      "limite": "uma vez por cena",
+      "gatilho": "reduz os PV de um inimigo a 0 ou menos com uma magia",
+      "efeito": "causa metade do dano da magia a outro inimigo dentro do alcance original dela; direito ao mesmo teste de resistência original; sofre apenas o dano, nenhum outro efeito"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

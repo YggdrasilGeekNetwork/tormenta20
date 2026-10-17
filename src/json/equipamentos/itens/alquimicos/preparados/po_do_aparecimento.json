@@ -1,0 +1,22 @@
+{
+  "id": "po_do_aparecimento",
+  "name": "Pó do Aparecimento",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 30,
+  "espacos": 0.5,
+  "uso": "empunhado",
+  "acao": "padrao",
+  "alcance": "curto",
+  "efeito": {
+    "area": {
+      "forma": "raio",
+      "tamanho": "3m"
+    },
+    "efeito_alvo": "criaturas invisíveis deixam de estar invisíveis e passam a ter apenas camuflagem leve",
+    "remocao": "1 minuto de trabalho"
+  },
+  "description": "Item favorito de aventureiros que se deparam com muitos inimigos invisíveis. Frasco contendo um pó de alguma cor berrante e bastante grudento. Para usá-lo, você gasta uma ação padrão e escolhe um ponto em alcance curto. Criaturas invisíveis a até 3m desse ponto deixam de estar invisíveis e passam a ter apenas camuflagem leve. Remover o pó do aparecimento demora 1 minuto.",
+  "livro": "herois_de_arton"
+}

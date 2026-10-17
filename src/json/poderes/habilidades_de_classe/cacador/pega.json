@@ -1,0 +1,31 @@
+{
+  "id": "pega",
+  "name": "Pega!",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Você pode gastar uma ação de movimento e 1 PM para fazer a manobra agarrar contra uma criatura em alcance curto usando Adestramento em vez de Luta, usando seu companheiro animal para isso. Se o alvo estiver sob efeito de sua Marca da Presa, você soma os dados dessa habilidade como um bônus no teste. A criatura permanece agarrada até vencer um teste de manobra contra seu companheiro animal (como acima) ou até você mandar seu animal soltá-la (uma ação livre). Pré-requisito: Companheiro Animal.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "companheiro_animal_cacador"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "action": "movimento",
+      "target": "criatura_em_alcance_curto",
+      "effect": "manobra_agarrar_usando_adestramento_em_vez_de_luta_via_companheiro_animal",
+      "bonus_if_marked": "soma_dados_de_marca_da_presa",
+      "release": "teste_de_manobra_ou_acao_livre_do_dono"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

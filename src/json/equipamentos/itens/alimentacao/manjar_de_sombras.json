@@ -1,0 +1,13 @@
+{
+  "id": "manjar_de_sombras",
+  "name": "Manjar de Sombras",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 20,
+  "espacos": 0,
+  "efeito": {
+    "ignora_proximos_pontos_dano_trevas": 10
+  },
+  "description": "A origem da receita original deste prato se perdeu, mas sua essência se manteve inalterada. Consiste em um manjar com ingredientes cultivados em terras próximas de cemitérios, que protege o corpo contra energias sombrias. Você ignora os próximos 10 pontos de dano de trevas que sofrer.",
+  "livro": "herois_de_arton"
+}

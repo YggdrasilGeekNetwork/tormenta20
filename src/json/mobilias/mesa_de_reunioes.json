@@ -1,0 +1,13 @@
+{
+  "id": "mesa_de_reunioes",
+  "name": "Mesa de Reuniões",
+  "description": "Uma enorme mesa de madeira (provavelmente Tollon). Se o grupo tiver um brasão ou outro símbolo, ele pode estar entalhado no tampo. Pode ser instalada na sala de guerra ou na sala de estar, e permite que os personagens conversem sobre táticas e atuem como uma unidade coesa. No início de cada combate, os personagens podem trocar os valores de iniciativa rolados entre si.",
+  "effects": [
+    {
+      "type": "trocar_iniciativa_entre_residentes"
+    }
+  ],
+  "preco": 2000,
+  "comodo_alvo": "sala_de_guerra_ou_sala_de_estar",
+  "livro": "herois_de_arton"
+}

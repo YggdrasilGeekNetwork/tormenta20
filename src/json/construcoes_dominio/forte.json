@@ -1,0 +1,15 @@
+{
+  "id": "forte",
+  "name": "Forte",
+  "description": "Uma torre de madeira erguida em uma posição elevada. O forte é um símbolo de poder, a sede da corte, a residência do regente e, acima de tudo, o lugar para onde todos correm em caso de ataque. Fornece +2 em Fortificação.",
+  "categoria": "nobreza",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "bonus_fortificacao",
+      "value": 2
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

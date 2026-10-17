@@ -1,0 +1,18 @@
+{
+  "id": "ampulheta_da_harmonia_temporal",
+  "name": "Ampulheta da Harmonia Temporal",
+  "categoria": "medio",
+  "preco": 10500,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Uma ampulheta dourada com areia prateada que parece flutuar em ciclos irregulares. Quando invertida, permite que você manipule levemente o fluxo do tempo ao redor, desacelerando ou acelerando pequenos eventos. Uma vez por dia, você pode realizar uma tarefa que normalmente consome de 1 minuto a 1 hora como uma ação completa.",
+  "effects": [
+    {
+      "type": "acelerar_tarefa",
+      "frequencia": "1x por dia",
+      "acao": "ação completa",
+      "substitui": "tarefa que consome de 1 minuto a 1 hora"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

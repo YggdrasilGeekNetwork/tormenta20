@@ -1,0 +1,32 @@
+{
+  "id": "fofocas_da_corte",
+  "name": "Fofocas da Corte",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Quando chega em um ambiente social (taverna, acampamento militar, praça de vila, salão de castelo etc.), você pode gastar 1 hora para se inteirar das \"novidades\". A critério do mestre, você recebe uma informação útil sobre os habitantes ou acontecimentos locais. Além disso, recebe 4d6 dados de auxílio. Sempre que faz um teste de perícia baseada em Carisma nesse ambiente, você pode gastar um desses dados e adicionar como um bônus no teste.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "intuicao"
+    },
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "investigacao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "bonus",
+      "value": "4d6_dados_de_auxilio",
+      "requirement": "pericia_baseada_em_carisma_no_ambiente_social_visitado"
+    }
+  ],
+  "costs": [
+    {
+      "type": "hora"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

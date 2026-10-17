@@ -1,0 +1,27 @@
+{
+  "id": "cao_de_briga",
+  "name": "Cão de Briga",
+  "description": "Nem todas as lutas com plateia envolvem gladiadores glamorosos em coliseus imponentes. Existe no Reinado um vasto submundo de torneios clandestinos, com poucas ou nenhuma regra, muito mais sangrentos. São sediados em tavernas suspeitas, galpões escuros, câmaras de esgotos ou mesmo masmorras, onde capangas armados garantem acesso a um público seleto. Sem carisma suficiente para as grandes arenas, mas com brutalidade de sobra, você foi um desses lutadores. O que teria acontecido para levá-lo a abandonar essa vida, juntando-se a um grupo de aventureiros?",
+  "items": [
+    {
+      "type": "choice",
+      "text": "Arma",
+      "options": [
+        {
+          "text": "Manoplas"
+        },
+        {
+          "text": "Arma marcial (à escolha)"
+        }
+      ]
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Lutador Clandestino"
+    ]
+  },
+  "unique_power": "lutador_clandestino",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "laminas_guardias",
+  "name": "Lâminas Guardiãs",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Enquanto você estiver empunhando duas armas corpo a corpo, recebe +2 na Defesa e em testes de resistência contra inimigos em seu alcance natural. Pré-requisitos: Ambidestria, 5° nível de caçador.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "ambidestria"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "defense_improvement",
+      "value": 2,
+      "condition": "empunhando_duas_armas_corpo_a_corpo",
+      "applies_to": "contra_inimigos_em_alcance_natural"
+    },
+    {
+      "type": "saving_throw_improvement",
+      "value": 2,
+      "condition": "empunhando_duas_armas_corpo_a_corpo",
+      "applies_to": "contra_inimigos_em_alcance_natural"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

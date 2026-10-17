@@ -1,0 +1,18 @@
+{
+  "id": "essencia_fantasmal",
+  "name": "Essência Fantasmal",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 30,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "origem": "ectoplasma encontrado em locais de aparições fantasmagóricas",
+  "efeito": {
+    "magia_ignora_rd": 5
+  },
+  "description": "Pasta fabricada a partir de ectoplasma encontrado em locais de aparições fantasmagóricas. A magia ignora 5 pontos da RD de todas as criaturas afetadas.",
+  "livro": "herois_de_arton"
+}

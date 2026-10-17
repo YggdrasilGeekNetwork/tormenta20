@@ -1,0 +1,16 @@
+{
+  "id": "chapeu_emplumado",
+  "name": "Chapéu Emplumado",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 50,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "acao": "movimento, na primeira rodada de um combate",
+    "efeito": "saudar seus inimigos para receber 1 PM temporário até o fim da cena"
+  },
+  "description": "Popular entre capitães piratas e duelistas fanfarrões, este enorme chapéu tem abas largas e uma gigantesca pluma. Na primeira rodada de um combate, você pode gastar uma ação de movimento para saudar seus inimigos. Se fizer isso, você recebe 1 PM temporário que dura até o fim da cena.",
+  "livro": "herois_de_arton"
+}

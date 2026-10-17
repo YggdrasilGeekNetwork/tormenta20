@@ -1,0 +1,18 @@
+{
+  "id": "exterminar_presa",
+  "name": "Exterminar Presa",
+  "type": "poder_distincao",
+  "description": "Quando alcança seu alvo, o caçador de cabeças não oferece segundas chances. Quando usa Marca da Presa, para cada poder da distinção você recebe 1 PM temporário que só pode ser usado contra a criatura marcada. Além disso, se fizer um acerto crítico contra essa criatura, seu dano adicional por Marca da Presa também é multiplicado.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "usa Marca da Presa",
+      "efeito": "recebe 1 PM temporário para cada poder da distinção, utilizável apenas contra a criatura marcada; se fizer um acerto crítico contra essa criatura, o dano adicional de Marca da Presa também é multiplicado"
+    }
+  ],
+  "requirements": [
+    "Espreitar",
+    "Predador Alfa"
+  ],
+  "livro": "herois_de_arton"
+}

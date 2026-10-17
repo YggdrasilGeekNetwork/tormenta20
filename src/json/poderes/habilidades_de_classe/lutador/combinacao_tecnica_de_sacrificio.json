@@ -1,0 +1,38 @@
+{
+  "id": "combinacao_tecnica_de_sacrificio",
+  "name": "Combinação: Técnica de Sacrifício",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Quando faz um ataque, você pode gastar 1 PM para que ele seja um movimento de projeção. Para isso, faça uma manobra agarrar com um bônus igual à sua contagem de combinações. Se vencer o teste de manobra, além de agarrar o oponente, você se joga no chão com ele. Ambos ficam caídos, mas ele sofre dano como se você tivesse acertado um ataque desarmado.",
+  "requirements": [
+    {
+      "type": "attack_type",
+      "sub_type": "soft",
+      "attack": "desarmado"
+    }
+  ],
+  "effects": [
+    {
+      "type": "manouver_improvement",
+      "manouver": "agarrar",
+      "value": "contagem_de_combinacoes"
+    },
+    {
+      "type": "condition",
+      "condition": "caido",
+      "requirement": "vencer_manobra",
+      "target": ["voce", "oponente"]
+    },
+    {
+      "type": "damage_ataque",
+      "note": "oponente_sofre_dano_como_se_fosse_um_ataque_desarmado_acertado"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

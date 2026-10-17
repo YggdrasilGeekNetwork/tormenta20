@@ -1,0 +1,19 @@
+{
+  "id": "reliquia_abencoada",
+  "name": "Relíquia Abençoada",
+  "description": "Uma relíquia sagrada — ou profana! Instalada no oratório, fornece a conjuradores divinos uma magia divina de qualquer círculo que eles possam lançar. Instalada na sala de estar, fornece +1 nos testes de resistência de todos os residentes.",
+  "effects": [
+    {
+      "type": "aprende_magia_divina_qualquer_circulo",
+      "comodo": "oratorio"
+    },
+    {
+      "type": "bonus_teste_resistencia",
+      "value": 1,
+      "comodo": "sala_de_estar"
+    }
+  ],
+  "preco": 2500,
+  "comodo_alvo": "oratorio_ou_sala_de_estar",
+  "livro": "herois_de_arton"
+}

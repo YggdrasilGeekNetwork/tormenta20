@@ -1,0 +1,22 @@
+{
+  "id": "golpe_dos_titas",
+  "name": "Golpe dos Titãs",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Quando você usa Força dos Titãs, resultados um ponto abaixo do máximo (por exemplo, 9 ao rolar 1d10) também permitem rolar o dado extra.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "galokk"
+    }
+  ],
+  "effects": [
+    {
+      "type": "feature_improvement",
+      "feature": "forca_dos_titas",
+      "value": "resultado_um_ponto_abaixo_do_maximo_tambem_ativa"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

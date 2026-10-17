@@ -1,0 +1,37 @@
+{
+  "id": "saraivada_alquimica",
+  "name": "Saraivada Alquímica",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Quando usa um preparado alquímico ou uma poção de dano, você pode gastar 2 PM e uma dose extra do mesmo item para aumentar o dano causado em 50%.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "granadeiro"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 7
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "50_por_cento",
+      "item_type": "preparado_alquimico_ou_pocao_de_dano"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    },
+    {
+      "type": "item_type",
+      "note": "gasta_tambem_uma_dose_extra_do_mesmo_item"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

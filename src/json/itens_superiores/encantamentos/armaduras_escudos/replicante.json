@@ -1,0 +1,16 @@
+{
+  "id": "replicante",
+  "name": "Replicante",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "O item possui pontas afiadas. Quando é atingido por um ataque corpo a corpo, você pode gastar 1 PM para causar 2d6 pontos de dano do mesmo tipo sofrido ao atacante e reduzir essa mesma quantidade do dano sofrido.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "gatilho": "atingido por um ataque corpo a corpo",
+      "efeito": "causa 2d6 de dano do mesmo tipo sofrido ao atacante e reduz essa quantidade do dano sofrido"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

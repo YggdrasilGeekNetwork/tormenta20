@@ -1,0 +1,22 @@
+{
+  "id": "discurso_de_batalha",
+  "name": "Discurso de Batalha",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Em seu primeiro turno de um combate, você pode gastar uma ação completa e fazer um teste de Diplomacia ou Intimidação. Se fizer isso, para cada 10 pontos no resultado do teste, você e seus aliados em alcance curto recebem 2 PM temporários. Esses PM temporários desaparecem no fim da cena.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "PM_improvement",
+      "value": "2_por_10_pontos_no_teste_de_diplomacia_ou_intimidacao",
+      "duration": "cena",
+      "requirement": "primeiro_turno_de_combate"
+    }
+  ],
+  "costs": [
+    {
+      "type": "acao_completa"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

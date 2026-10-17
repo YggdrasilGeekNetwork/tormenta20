@@ -1,0 +1,16 @@
+{
+  "id": "relicario",
+  "name": "Relicário",
+  "description": "Uma caixa, cofre ou armário onde um objeto sagrado é guardado. A relíquia protege o regente — ou talvez o que o proteja seja a fé das pessoas que visitam o relicário para rezar. Uma vez por aventura, você recebe +5 num teste de resistência.",
+  "categoria": "religiao",
+  "custo": 8,
+  "effects": [
+    {
+      "type": "bonus_resistencia_generico",
+      "value": 5,
+      "frequencia": "uma_vez_por_aventura"
+    }
+  ],
+  "prerequisito": "capela",
+  "livro": "herois_de_arton"
+}

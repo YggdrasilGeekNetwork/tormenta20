@@ -1,0 +1,15 @@
+{
+  "id": "aconchegante",
+  "name": "Aconchegante",
+  "type": "encantamento",
+  "categoria": "acessorio",
+  "aplica_se_a": "vestuário",
+  "description": "O vestuário torna o sono mais confortável, melhorando seu descanso em uma categoria.",
+  "effects": [
+    {
+      "type": "melhora_descanso",
+      "categorias": 1
+    }
+  ],
+  "livro": "herois_de_arton"
+}

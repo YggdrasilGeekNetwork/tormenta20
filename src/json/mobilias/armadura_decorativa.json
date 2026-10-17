@@ -1,0 +1,14 @@
+{
+  "id": "armadura_decorativa",
+  "name": "Armadura Decorativa",
+  "description": "Montada em um suporte, esta armadura é um lembrete dos perigos lá fora. Os residentes recebem +1 na Defesa.",
+  "effects": [
+    {
+      "type": "bonus_defesa",
+      "value": 1
+    }
+  ],
+  "preco": 2000,
+  "comodo_alvo": null,
+  "livro": "herois_de_arton"
+}

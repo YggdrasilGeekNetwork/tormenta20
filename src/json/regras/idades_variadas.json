@@ -1,0 +1,194 @@
+{
+  "id": "idades_variadas",
+  "name": "Idades Variadas",
+  "description": "Regra opcional que substitui os modificadores de atributos para personagens mais velhos descritos no livro básico. Personagens normalmente são jovens (a faixa etária padrão, sem efeitos em jogo), mas você pode escolher uma das sete faixas etárias a seguir para seu personagem e aplicar seus efeitos. Os efeitos das faixas etárias não são necessariamente equilibrados — recomendado apenas para grupos que não buscam um jogo totalmente balanceado.",
+  "livro": "herois_de_arton",
+  "faixas_etarias": [
+    {
+      "id": "crianca",
+      "name": "Criança",
+      "idade": "9 a 12 anos",
+      "modificadores_atributos": { "forca": -2, "constituicao": -1, "sabedoria": -1 },
+      "outras_habilidades": ["tamanho_menor", "sem_origem", "protegido_dos_deuses"],
+      "habilidades": [
+        {
+          "id": "tamanho_menor",
+          "name": "Tamanho Menor",
+          "description": "Você é uma categoria de tamanho menor que o padrão de sua raça (exceto se sua raça já for Minúscula; nesse caso, a mudança é apenas estética)."
+        },
+        {
+          "id": "sem_origem",
+          "name": "Sem Origem",
+          "description": "Você não recebe benefícios de origem. Você está apenas começando a viver os anos que definirão quem você será!"
+        },
+        {
+          "id": "protegido_dos_deuses",
+          "name": "Protegido dos Deuses",
+          "description": "Você recebe +2 na Defesa e +5 em todos os testes de resistência. Isso é uma mistura de sorte sobrenatural com o fato de que inimigos normalmente ignoram crianças, justamente por serem menos perigosas."
+        }
+      ],
+      "description": "A menor faixa etária possível para personagens jogadores. Crianças são fisicamente mais fracas e frágeis que adultos, além de menos capazes de entender as sutilezas do mundo. Nasceram durante a Guerra Artoniana, ou logo antes, mas eram muito pequenas para terem participado do conflito."
+    },
+    {
+      "id": "adolescente",
+      "name": "Adolescente",
+      "idade": "13 a 17 anos",
+      "modificadores_atributos": { "sabedoria": -1 },
+      "outras_habilidades": ["impeto_juvenil", "origem_em_construcao"],
+      "habilidades": [
+        {
+          "id": "impeto_juvenil",
+          "name": "Ímpeto Juvenil",
+          "description": "Você recebe +3 pontos de mana. Adolescentes acham que podem fazer qualquer coisa, e essa confiança os torna mais heroicos."
+        },
+        {
+          "id": "origem_em_construcao",
+          "name": "Origem em Construção",
+          "description": "Você recebe apenas um benefício de origem, em vez de dois (se sua origem possuir um único benefício, comece com uma perícia treinada a menos por sua classe)."
+        }
+      ],
+      "description": "Muitos aventureiros começam suas carreiras nesta idade. Adolescentes são conhecidos por sua impetuosidade e viram a Guerra Artoniana, mas dificilmente terão participado dela. Esta é a categoria de idade mais velha para um personagem que nasceu em Tamu-ra após a libertação da ilha."
+    },
+    {
+      "id": "jovem",
+      "name": "Jovem",
+      "idade": "18 a 24 anos",
+      "modificadores_atributos": {},
+      "outras_habilidades": [],
+      "habilidades": [],
+      "description": "A idade padrão. Heróis jovens usam as regras básicas de construção de personagem, sem modificadores. Jovens podem ter participado da Guerra Artoniana, mas provavelmente em postos iniciais."
+    },
+    {
+      "id": "adulto",
+      "name": "Adulto",
+      "idade": "25 a 39 anos",
+      "modificadores_atributos": {},
+      "outras_habilidades": ["ja_vi_coisas"],
+      "poder_geral_extra": true,
+      "complicacoes_de_idade": 1,
+      "habilidades": [
+        {
+          "id": "ja_vi_coisas",
+          "name": "Já Vi Coisas",
+          "description": "Você pode receber um poder geral. Nesse caso, também recebe uma complicação de idade."
+        }
+      ],
+      "description": "Uma idade comum para aventureiros. Um personagem adulto pode ter participado dos últimos grandes acontecimentos do mundo, como a Guerra Artoniana, a queda da Flecha de Fogo ou a rebelião de escravos no Império de Tauron. Também terá visto acontecimentos mais antigos, como a queda do Paladino de Arton, a primeira batalha contra a Tormenta em Trebuck e a Libertação de Valkaria, mas dificilmente terá participado deles."
+    },
+    {
+      "id": "maduro",
+      "name": "Maduro",
+      "idade": "40 a 59 anos",
+      "modificadores_atributos": {},
+      "niveis_extras": 1,
+      "complicacoes_de_idade": 2,
+      "outras_habilidades": ["veterano_calejado"],
+      "habilidades": [
+        {
+          "id": "veterano_calejado",
+          "name": "Veterano Calejado",
+          "description": "Você começa o jogo com um nível adicional em relação aos personagens mais novos do grupo. Por exemplo, se o grupo vai começar no 1º nível, você começa no 2º. Contudo, essa experiência tem seu preço — você recebe duas complicações de idade."
+        }
+      ],
+      "description": "Muitas figuras de autoridade, como burgomestres e capitães da guarda, são desta faixa etária. Um personagem maduro já terá visto muitas coisas, incluindo eventos como a chegada de Mestre Arsenal ao mundo de Arton, a guerra civil de Bielefeld e o surgimento da Tormenta no Império de Jade."
+    },
+    {
+      "id": "velho",
+      "name": "Velho",
+      "idade": "60 a 79 anos",
+      "modificadores_atributos": { "forca": -1, "destreza": -1, "constituicao": -1 },
+      "niveis_extras": 2,
+      "complicacoes_de_idade": 3,
+      "aumento_atributo_bloqueado_para": ["forca", "destreza", "constituicao"],
+      "outras_habilidades": ["ai_minhas_costas"],
+      "habilidades": [
+        {
+          "id": "ai_minhas_costas",
+          "name": "Ai Minhas Costas",
+          "description": "Você começa o jogo com dois níveis adicionais. Contudo, perde 1 ponto em todos os atributos físicos (Força, Destreza e Constituição) e recebe três complicações de idade. Além disso, não pode escolher o poder Aumento de Atributo para nenhum atributo físico."
+        }
+      ],
+      "description": "Num mundo de problemas como Arton, nem todos chegam a esta idade respeitável. Aqueles que a alcançam muitas vezes assumem posições de respeito, como mestres de guildas, alto sacerdotes ou conselheiros reais — embora alguns sejam apenas fazendeiros, artesãos ou aposentados. Um artoniano velho poderia até ter lutado no Dia dos Gigantes, em Valkaria."
+    },
+    {
+      "id": "anciao",
+      "name": "Ancião",
+      "idade": "80+ anos",
+      "modificadores_atributos": { "forca": -2, "destreza": -2, "constituicao": -2 },
+      "niveis_extras": 3,
+      "complicacoes_de_idade": 4,
+      "aumento_atributo_bloqueado_para": ["forca", "destreza", "constituicao"],
+      "outras_habilidades": ["o_inverno_da_vida"],
+      "habilidades": [
+        {
+          "id": "o_inverno_da_vida",
+          "name": "O Inverno da Vida",
+          "description": "Você começa o jogo com três níveis adicionais. Porém, perde 2 pontos em todos os atributos físicos (Força, Destreza e Constituição) e recebe quatro complicações de idade. Assim como velhos, você não pode escolher o poder Aumento de Atributo para atributos físicos."
+        }
+      ],
+      "description": "A última faixa etária. Em Arton, poucas pessoas chegam até aqui — mesmo aqueles que não encontram um fim violento normalmente acabam morrendo de velhice antes de se tornarem anciões. Um ancião é tão velho quanto o antigo Rei-Imperador Thormy e terá visto diversas mudanças no mundo, como os primeiros contatos formais entre o Reinado e Tamu-ra."
+    }
+  ],
+  "peso_da_idade": {
+    "description": "Personagens adultos ou mais velhos precisam escolher uma complicação de idade por faixa etária — uma para adultos, duas para maduros, três para velhos e quatro para anciões. Complicações de idade funcionam como complicações normais (Tormenta20, p. 282) e seus efeitos se acumulam. Um personagem sofre a complicação mesmo que seja imune a seu efeito.",
+    "complicacoes_por_faixa": { "adulto": 1, "maduro": 2, "velho": 3, "anciao": 4 },
+    "complicacoes": [
+      { "id": "abatido", "name": "Abatido", "description": "Seu vigor se foi. Você recebe –2 PV por nível." },
+      { "id": "catarata", "name": "Catarata", "description": "Seus olhos já não são os mesmos. Você sofre –5 em Percepção e Pontaria." },
+      { "id": "dedos_tremulos", "name": "Dedos Trêmulos", "description": "Você sofre –2 em Luta e Pontaria. Além disso, quando usa um item que esteja empunhando, role 1d4. Em um resultado 1, você derruba esse item." },
+      { "id": "definhamento", "name": "Definhamento", "description": "A idade roubou seu peso, deixando-o um fiapo do que era antes. Você sofre –5 em Fortitude e em testes de manobras de combate." },
+      { "id": "desatento", "name": "Desatento", "description": "Você já não é mais tão atento quanto outrora. Na primeira rodada de qualquer cena de ação, role um dado. Em um resultado ímpar, você fica surpreendido (mesmo que um efeito possa evitar isso)." },
+      { "id": "devagar_jovem", "name": "\"Devagar, Jovem!\"", "description": "Você já não anda no mesmo ritmo que antes. Seu deslocamento diminui em –3m e você não pode correr ou fazer investidas." },
+      { "id": "gota", "name": "Gota", "description": "Sempre que faz um teste de Destreza ou de perícias baseadas nesse atributo você perde 1d6 pontos de vida. Você só pode recuperar esses PV com descanso." },
+      { "id": "juntas_duras", "name": "Juntas Duras", "description": "Suas articulações doem. Você sofre –5 em testes de Acrobacia e Reflexos." },
+      { "id": "melancolico", "name": "Melancólico", "description": "Você já não tem mais tanta motivação para realizar grandes façanhas. Você perde 1 PM por nível." },
+      { "id": "memorias_tristes", "name": "Memórias Tristes", "description": "Você passou por um trauma, como a perda de um ente querido ou a culpa por um erro que cometeu e pelo qual nunca se perdoou. Sempre que rola um resultado 1 natural em qualquer teste, você fica pasmo por 1 rodada e frustrado até o fim do dia (cumulativo)." },
+      { "id": "no_meu_tempo", "name": "\"No Meu Tempo...\"", "description": "Você se prende a visões idealizadas de um passado que nunca existiu e se torna presa fácil para manipulação. Você sofre –5 em Intuição e Vontade." },
+      { "id": "pulmao_ruim", "name": "Pulmão Ruim", "description": "Quando corre ou prende a respiração, você precisa fazer testes de Fortitude para não ficar fatigado a partir da primeira rodada (normalmente, personagens só precisam fazer esses testes após um número de rodadas igual a sua Constituição +1). Além disso, sempre que faz uma investida, você fica fatigado até o fim da cena." },
+      { "id": "rabugento", "name": "Rabugento", "description": "Você reclama de tudo. Você sofre –5 em testes de Carisma e de perícias baseadas nesse atributo, exceto Intimidação." },
+      { "id": "recurvado", "name": "Recurvado", "description": "A idade dobrou suas costas. Você conta como uma categoria de tamanho menor para alcance natural, modificador de manobras e armas que pode empunhar (mas não para espaço ocupado, modificador de Furtividade ou dano de armas naturais)." },
+      { "id": "sono_ruim", "name": "Sono Ruim", "description": "Você acorda várias vezes no meio da noite, o que atrapalha seu descanso. Sua recuperação de PM e PV é sempre uma categoria pior. Se a condição de descanso já é ruim, você recupera apenas 1 PM e 1 PV, independentemente do seu nível. Se já recupera apenas 1 PM e 1 PV, não recupera nada!" },
+      { "id": "teimoso", "name": "Teimoso", "description": "Sempre que falha em um teste de atributo ou de perícia que possa tentar novamente, você é obrigado a tentar pelo menos mais uma vez (mesmo que isso possa prejudicá-lo). Teimoso é quem teima com você!" },
+      { "id": "tosse", "name": "Tosse", "description": "Em cenas de ação, role 1d6 no início de cada rodada. Num resultado 1, você tem uma crise de tosse e fica atordoado por 1 rodada. Em cenas de interpretação, role 1d6 sempre que fizer um teste de perícia baseada em Carisma. Num resultado 1, você tem uma crise de tosse e sofre uma penalidade de –5 nesse teste." },
+      { "id": "turrao", "name": "Turrão", "description": "Você faz tudo sempre do seu jeito e tem dificuldade de lidar com coisas nas quais não é perito. Você não recebe o bônus de metade do nível em perícias nas quais não é treinado." },
+      { "id": "velha_ferida", "name": "Velha Ferida", "description": "Você tem um machucado antigo, que nunca cicatrizou direito. Sempre que você sofre um acerto crítico, o multiplicador de dano aumenta em +1 e você fica fraco (mesmo que seja imune, cumulativo)." }
+    ]
+  },
+  "idades_das_racas": {
+    "description": "Os intervalos de idade das faixas etárias usam as idades humanas como referência. Contudo, certas raças envelhecem em ritmos diferentes. Embora as raças mais longevas amadureçam mais lentamente, elas amadurecem no mesmo ritmo de humanos até se tornarem adultas — ou seja, tanto humanos quanto elfos serão crianças dos 9 aos 12 anos, adolescentes dos 13 aos 17 e jovens a partir dos 18. As diferenças surgem apenas a partir da idade adulta.",
+    "grupos": [
+      {
+        "id": "envelhecimento_lento",
+        "racas": ["anao", "meio_elfo", "qareen"],
+        "multiplicador_a_partir_de_adulto": 2,
+        "exemplo": "Um anão se torna adulto aos 50 anos (25 x 2)."
+      },
+      {
+        "id": "envelhecimento_muito_lento",
+        "racas": ["dahllan", "duende", "eiradaan", "elfo", "golem", "osteon", "satiro", "silfide"],
+        "multiplicador_a_partir_de_adulto": 5,
+        "exemplo": "Um elfo se torna adulto aos 125 anos (25 x 5)."
+      },
+      {
+        "id": "envelhecimento_acelerado",
+        "racas": ["goblin", "trog"],
+        "multiplicador_todas_as_faixas": 0.7,
+        "descricao": "Multiplique todos os intervalos de idade deles por 0,7 (arredonde para o valor mais próximo).",
+        "exemplo_goblin": {
+          "crianca": "a partir dos 6 anos",
+          "adolescente": "a partir dos 9 anos",
+          "jovem": "a partir dos 13 anos",
+          "adulto": "a partir dos 18 anos",
+          "maduro": "a partir dos 28 anos",
+          "velho": "a partir dos 42 anos",
+          "anciao": "a partir dos 56 anos"
+        }
+      }
+    ]
+  },
+  "envelhecendo": "Quando atinge uma faixa etária maior, você ajusta seus efeitos de idade de acordo. Por exemplo, se for criança e se tornar adolescente, aumenta uma categoria de tamanho e recebe +2 em Força, +1 em Constituição, um benefício de origem e a habilidade Ímpeto Juvenil, mas perde a habilidade Protegido dos Deuses. Se mais tarde se tornar jovem, ganha +1 em Sabedoria e um benefício de origem (completando os dois habituais), mas perde a habilidade Ímpeto Juvenil.",
+  "fonte_da_juventude": {
+    "description": "Por padrão, personagens não morrem por causas naturais, mas se o mestre quiser ser mais realista (ou malvado) pode pedir que personagens velhos e anciões rolem 1d20 no início de cada aventura. Num resultado 1 para velhos, e de 1 a 3 para anciões, o tempo do personagem estará chegando ao fim. Durante essa aventura, ele sofre os efeitos de mais uma complicação de idade aleatória — e, após essa última chance de glória, partirá do mundo mortal."
+  },
+  "historias_de_maioridade": "Uma opção divertida envolvendo estas regras é começar uma campanha com personagens crianças e, depois de algumas aventuras, fazer um salto temporal, retomando a história com os mesmos heróis, agora crescidos, com a personalidade influenciada pelos eventos jogados em sua infância."
+}

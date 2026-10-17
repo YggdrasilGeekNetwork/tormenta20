@@ -1,0 +1,67 @@
+{
+  "id": "coracao_imortal",
+  "name": "Coração Imortal",
+  "type": "universal",
+  "circle": "3",
+  "school": "necro",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": {
+    "amount": null,
+    "up_to": null,
+    "type": "você"
+  },
+  "effect": "voce",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Manipulando energias necromânticas, você concentra sua força vital em uma parte específica do seu corpo. Você recebe fortificação 100% e imunidade a sangramento.",
+  "enhancements": [
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "muda a duração para 1 dia.",
+      "extra_details": {
+        "duration": "1_dia"
+      }
+    },
+    {
+      "cost": 2,
+      "type": "aumenta",
+      "description": "aumenta a cura do aprimoramento abaixo para +10 PV.",
+      "extra_details": null
+    },
+    {
+      "cost": 4,
+      "type": "muda",
+      "description": "adiciona componente material (um coração de pedra no valor de T$ 100). Além do normal, quando seus pontos de vida são reduzidos a 0 ou menos, você cura 30 PV e a magia se encerra. Você só pode ser curado por este aprimoramento uma vez por dia.",
+      "extra_details": {
+        "extra_costs": {
+          "material_component": "um coração de pedra",
+          "material_component_cost": "T$ 100"
+        }
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "bônus",
+      "attribute": "fortificacao",
+      "amount": "100%",
+      "resistence_requirement": null,
+      "extra_requirements": null
+    },
+    {
+      "type": "proteção",
+      "attribute": "imunidade_sangramento",
+      "amount": null,
+      "resistence_requirement": null,
+      "extra_requirements": null
+    }
+  ],
+  "livro": "herois_de_arton"
+}

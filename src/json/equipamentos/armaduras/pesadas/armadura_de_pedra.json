@@ -1,0 +1,20 @@
+{
+  "id": "armadura_de_pedra",
+  "name": "Armadura de Pedra",
+  "type": "armadura",
+  "categoria": "pesada",
+  "preco": 5500,
+  "bonus_defesa": 12,
+  "penalidade_armadura": -5,
+  "espacos": 5,
+  "especial": {
+    "reducao_dano": 2,
+    "cumulativo_com_itens": true,
+    "deslocamento_reduzido_pela_metade": true,
+    "nao_recebe_melhoria_material_especial": true,
+    "origem": "originalmente projetada por facções tradicionalistas da Guilda dos Armeiros de Doherimm, apenas em tamanho anão"
+  },
+  "vestir_remover": "acao_completa",
+  "description": "Armadura completa originalmente projetada por facções tradicionalistas da Guilda dos Armeiros de Doherimm, apenas em tamanho anão. Recentemente, anões rebeldes e interessados em lucro começaram a fabricar versões utilizáveis pelas demais raças artonianas. Além de sua defesa elevada, fornece redução de dano 2 (cumulativo com outros efeitos de itens). Contudo, toda essa proteção tem um custo: seu deslocamento é reduzido pela metade por esta armadura pesada, em vez de em 3m. A armadura de pedra não pode receber a melhoria material especial.",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "hesitante",
+  "name": "Hesitante",
+  "type": "encantamento",
+  "categoria": "arma",
+  "maldicao": true,
+  "description": "A arma parece não ter certeza sobre seus próprios acertos. Sempre que você fizer um acerto crítico, deve rolar novamente o ataque. Caso acerte, “confirma” o crítico. Caso erre esse segundo ataque, o crítico se transforma em um acerto normal.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "sempre que faz um acerto crítico com a arma, deve rolar novamente o ataque para confirmá-lo; se errar essa segunda rolagem, o crítico vira um acerto normal"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

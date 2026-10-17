@@ -1,0 +1,37 @@
+{
+  "id": "velho_de_guerra",
+  "name": "Velho de Guerra",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Seus olhos já viram muito e você não se abala facilmente. Você recebe +5 em Intimidação e imunidade a medo. Além disso, uma vez por cena pode gastar 5 PM para evitar completamente um efeito qualquer (ataque, magia etc.) usado contra você por outra criatura. Se o efeito for de área ou tiver outros alvos, continua funcionando normalmente contra eles.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "skill": "intimidacao",
+      "value": 5
+    },
+    {
+      "type": "condition_immunity",
+      "condition": "medo"
+    },
+    {
+      "type": "bonus",
+      "note": "uma_vez_por_cena_evita_completamente_um_efeito_ataque_ou_magia_usado_contra_voce_por_outra_criatura"
+    }
+  ],
+  "costs": [
+    {
+      "value": 5,
+      "type": "PM",
+      "note": "apenas_para_evitar_o_efeito_uma_vez_por_cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

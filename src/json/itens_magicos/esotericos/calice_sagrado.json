@@ -1,0 +1,23 @@
+{
+  "id": "calice_sagrado",
+  "name": "Cálice Sagrado",
+  "categoria": "maior",
+  "preco": 150000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este cálice pode ser luxuoso ou humilde — de ouro e adornado com gemas, ou de barro e feitio rústico —, conforme a divindade à qual foi consagrado. O custo de suas magias divinas diminui em –2 PM e todos os efeitos variáveis delas aumentam em +1 por dado.",
+  "effects": [
+    {
+      "type": "reducao_custo_pm_magia",
+      "value": 2,
+      "condicao": "magias divinas"
+    },
+    {
+      "type": "rolagem_efeito",
+      "value": 1,
+      "por_dado": true,
+      "condicao": "efeitos variáveis de magias divinas"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

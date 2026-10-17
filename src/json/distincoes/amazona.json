@@ -1,0 +1,10 @@
+{
+  "id": "amazona",
+  "name": "Amazona",
+  "description": "Guerreiras e ginetes exímias dos povos nômades amazonas, mulheres que defendem sua liberdade e a de suas irmãs.",
+  "admissao": "Existem dois caminhos. Para quem nasce entre as amazonas: viver um período de exílio entre outras sociedades artonianas e, ao retornar, passar por uma série de desafios propostos pelas líderes do povo (corrida a cavalo, combate, tiro ao alvo...), relatando após cada um o que aprendeu. Para quem busca o treinamento vindo de fora: localizar um grupo amazona sozinha e com montaria própria, persegui-lo até ser aceita, e então passar por um período de provações vivendo apenas com equipamento rudimentar, sem tocar os pés no chão, caçando a própria comida. Disponível apenas para mulheres; raça, origem e fase da vida em que se descobriu mulher não importam.",
+  "marca_nome": "Armadura das Amazonas",
+  "marca_descricao": "Se não estiver usando armadura pesada, você recebe +2 na Defesa.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

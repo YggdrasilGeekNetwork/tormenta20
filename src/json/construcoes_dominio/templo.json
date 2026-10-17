@@ -1,0 +1,15 @@
+{
+  "id": "templo",
+  "name": "Templo",
+  "description": "Um centro de devoção. Quando constrói um templo, você recebe um poder de clérigo.",
+  "categoria": "religiao",
+  "custo": 15,
+  "effects": [
+    {
+      "type": "recebe_poder",
+      "categoria": "clerigo"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

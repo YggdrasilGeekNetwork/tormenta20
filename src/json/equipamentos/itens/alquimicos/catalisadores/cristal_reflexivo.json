@@ -1,0 +1,17 @@
+{
+  "id": "cristal_reflexivo",
+  "name": "Cristal Reflexivo",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 30,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "bonus_defesa_durante_magia_adivinhacao": 1
+  },
+  "description": "Fragmento de um material refletor como espelho, que duplica as propriedades divinatórias de certas magias. Quando lança uma magia de adivinhação, você recebe +1 na Defesa pela duração da magia.",
+  "livro": "herois_de_arton"
+}

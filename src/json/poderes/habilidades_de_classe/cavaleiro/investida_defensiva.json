@@ -1,0 +1,20 @@
+{
+  "id": "investida_defensiva",
+  "name": "Investida Defensiva",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Quando faz uma investida, você não sofre a penalidade de –2 na Defesa e seu deslocamento não ativa reações de inimigos (como por Ataque Reflexo).",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "penalty_removal",
+      "value": -2,
+      "applies_to": "defesa_durante_investida"
+    },
+    {
+      "type": "no_trigger_reactions",
+      "applies_to": "deslocamento_da_investida"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

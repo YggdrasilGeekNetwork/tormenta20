@@ -1,0 +1,21 @@
+{
+  "id": "pergaminho_da_verdade_cosmica",
+  "name": "Pergaminho da Verdade Cósmica",
+  "categoria": "menor",
+  "preco": 9000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este perigoso pergaminho contém uma revelação divina tão poderosa e terrível que pode destruir a mente do leitor (avisos a esse respeito estão gravados no estojo externo). Abrir e olhar o pergaminho exige fazer um teste de Vontade (CD 40). Nenhum tipo de habilidade ou efeito que conceda sucessos automáticos ou permita escolher 10 funciona para esse teste. Em caso de falha, sua mente se despedaça — você sofre o efeito debilidade de Rogar Maldição, em sua versão permanente. Contudo, em caso de sucesso, você pode imediatamente lançar Intervenção Divina, para qualquer divindade que deseje, sem precisar gastar ou sacrificar PM, independente do efeito que peça. Uma vez utilizado, o pergaminho se desfaz em cinzas; o mesmo acontece com a verdade revelada, sendo impossível uma mente mortal contê-la.",
+  "effects": [
+    {
+      "type": "item_consumivel_unico",
+      "acao": "abrir e olhar",
+      "teste": "Vontade CD 40",
+      "restricao_teste": "não permite sucesso automático nem escolher 10",
+      "falha": "sofre o efeito debilidade de Rogar Maldição, em sua versão permanente",
+      "sucesso": "lança Intervenção Divina imediatamente, sem custo ou sacrifício de PM, para qualquer divindade e efeito desejado",
+      "consumo": "o pergaminho se desfaz em cinzas após o uso"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

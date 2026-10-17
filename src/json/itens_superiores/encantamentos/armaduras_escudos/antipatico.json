@@ -1,0 +1,15 @@
+{
+  "id": "antipatico",
+  "name": "Antipático",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item faz com que todos o tratem mal. De alguma forma, suas palavras sempre são interpretadas da pior forma, seus sorrisos sempre parecem deboche, seus elogios sempre soam como sarcasmo... Todos os NPCs que você encontra pela primeira vez têm atitude uma categoria pior com relação a você.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "NPCs que você encontra pela primeira vez têm atitude inicial uma categoria pior em relação a você"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

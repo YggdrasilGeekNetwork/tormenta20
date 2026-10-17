@@ -1,0 +1,20 @@
+{
+  "id": "cristal_da_voz_silenciosa",
+  "name": "Cristal da Voz Silenciosa",
+  "categoria": "menor",
+  "preco": 9000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Usado como pingente junto à garganta, este cristal permite ao usuário falar com uma voz mágica, audível apenas para as pessoas que ele selecionar, em alcance curto. Além de muito útil para comunicações secretas, o cristal também permite lançar magias sem necessidade de falar.",
+  "effects": [
+    {
+      "type": "fala_seletiva",
+      "alcance": "curto",
+      "descricao": "voz audível apenas para quem o usuário selecionar"
+    },
+    {
+      "type": "lancar_sem_componente_verbal"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

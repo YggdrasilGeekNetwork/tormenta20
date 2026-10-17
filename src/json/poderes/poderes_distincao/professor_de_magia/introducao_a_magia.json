@@ -1,0 +1,21 @@
+{
+  "id": "introducao_a_magia",
+  "name": "Introdução à Magia",
+  "type": "poder_distincao",
+  "description": "Alunos nessa etapa de aprendizado precisam de tutoria mais próxima e atenta. Você e seus aliados em alcance curto recebem +2 em Misticismo e Vontade. Além disso, sempre que você lança uma magia, o custo das magias de seus aliados diminui em –1 PM por 1 rodada.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "você e aliados em alcance curto recebem +2 em Misticismo e Vontade"
+    },
+    {
+      "type": "passivo",
+      "gatilho": "lança uma magia",
+      "efeito": "custo das magias de aliados diminui em -1 PM por 1 rodada"
+    }
+  ],
+  "requirements": [
+    "Pedagogia Mágica"
+  ],
+  "livro": "herois_de_arton"
+}

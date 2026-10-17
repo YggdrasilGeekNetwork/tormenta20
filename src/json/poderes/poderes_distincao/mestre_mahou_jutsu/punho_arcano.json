@@ -1,0 +1,20 @@
+{
+  "id": "punho_arcano",
+  "name": "Punho Arcano",
+  "type": "poder_distincao",
+  "description": "Quando o punho de um mestre mahou-jutsu golpeia, carrega consigo os maiores segredos arcanos. Uma vez por rodada, quando lança uma magia arcana com alcance de toque e execução de ação de movimento ou padrão, você pode gastar 2 PM para fazer um ataque desarmado contra o alvo da magia como ação livre. Se acertar esse ataque, a CD da magia aumenta em +1. Para cada dois outros poderes da distinção que você possui, a CD aumenta em +1.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "limite": "uma vez por rodada",
+      "gatilho": "lança magia arcana de alcance de toque, execução de movimento ou padrão",
+      "efeito": "faz ataque desarmado contra o alvo como ação livre; se acertar, CD da magia aumenta em +1",
+      "escalavel": "+1 na CD para cada dois outros poderes da distinção que possui"
+    }
+  ],
+  "requirements": [
+    "Mahou-Jutsu"
+  ],
+  "livro": "herois_de_arton"
+}

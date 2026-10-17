@@ -1,0 +1,10 @@
+{
+  "id": "mestre_mahou_jutsu",
+  "name": "Mestre Mahou-Jutsu",
+  "description": "Praticante do mahou-jutsu, arte marcial criada por gênios que funde combate desarmado e magia arcana em um único movimento fluido.",
+  "admissao": "O candidato precisa encontrar um mestre — são raríssimos os praticantes conhecidos em Arton (Mestre Chibi, na Academia Arcana, e Mestre Masaru Yudai, em Vectora) — e convencê-lo de que merece o treinamento. Deve provar sua aptidão tanto em combate desarmado quanto no caminho arcano através de dois desafios preparados pelo mestre, um superado apenas com os punhos e outro apenas com magia (tradicionalmente o \"círculo de luz\", enfrentando dois mashin de fogo — um imune a magia, outro imune a ataques físicos — sem deixar as velas ao redor se reacenderem). O treinamento em si dura semanas, meses ou anos, dependendo do mestre e do discípulo. Ao final, o candidato deve vencer novamente o desafio duplo, mas invertido: apenas os punhos no desafio arcano e apenas magia no desafio físico.",
+  "marca_nome": "Palma Mística",
+  "marca_descricao": "A primeira técnica do mahou-jutsu ensina a aplicar a precisão marcial na execução de magias. Enquanto tiver pelo menos uma mão livre, você recebe +2 em testes de ataque realizados como parte de magias (como o aprimoramento de Toque Chocante) e na CD de suas magias arcanas contra alvos em seu alcance corpo a corpo.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

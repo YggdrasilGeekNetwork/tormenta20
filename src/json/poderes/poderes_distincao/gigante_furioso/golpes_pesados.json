@@ -1,0 +1,16 @@
+{
+  "id": "golpes_pesados",
+  "name": "Golpes Pesados",
+  "type": "poder_distincao",
+  "description": "O tamanho e o volume do gigante são tão grandes que seus oponentes mal conseguem aguentar parados! Quando faz um ataque corpo a corpo em fúria, você pode gastar 1 PM. Se fizer isso e acertar o ataque, além do dano você faz uma manobra empurrar contra o alvo como uma ação livre (use o resultado do ataque como o teste de manobra). Se houver uma parede ou outro objeto sólido (não uma criatura) no caminho do alvo, ele sofre 1d12 pontos de dano de impacto para cada 3m que for empurrado. Se você possuir o poder Ataque Pesado e usá-lo nesse ataque para empurrar, você executa uma única manobra, mas recebe +5 no teste de manobra.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "condicao": "ataque corpo a corpo em fúria",
+      "efeito": "se acertar, faz manobra empurrar como ação livre usando o resultado do ataque; se o alvo colidir com objeto sólido, sofre 1d12 de dano de impacto a cada 3m empurrado"
+    }
+  ],
+  "requirements": ["Fúria dos Gigantes"],
+  "livro": "herois_de_arton"
+}

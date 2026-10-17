@@ -1,0 +1,17 @@
+{
+  "id": "pedra_de_maldicoes",
+  "name": "Pedra de Maldições",
+  "description": "Uma pedra com símbolos pintados em sangue — ou um altar de ossos, um livro feito de pele humana... Uma vez por aventura, uma criatura em alcance curto sofre -5 em seu próximo teste de resistência, se for realizado até o fim de seu próximo turno.",
+  "categoria": "misticismo",
+  "custo": 6,
+  "effects": [
+    {
+      "type": "penalidade_resistencia_alvo",
+      "value": -5,
+      "alcance": "curto",
+      "frequencia": "uma_vez_por_aventura"
+    }
+  ],
+  "prerequisito": "salao_dos_misterios",
+  "livro": "herois_de_arton"
+}

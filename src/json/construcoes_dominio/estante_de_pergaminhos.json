@@ -1,0 +1,15 @@
+{
+  "id": "estante_de_pergaminhos",
+  "name": "Estante de Pergaminhos",
+  "description": "Esta coleção de textos místicos permite que você descubra novos mistérios. Você aprende uma magia arcana.",
+  "categoria": "misticismo",
+  "custo": 12,
+  "effects": [
+    {
+      "type": "aprende_magia",
+      "tipo": "arcana"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

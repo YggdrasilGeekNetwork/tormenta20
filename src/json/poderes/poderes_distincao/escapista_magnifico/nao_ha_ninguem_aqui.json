@@ -1,0 +1,15 @@
+{
+  "id": "nao_ha_ninguem_aqui",
+  "name": "Não Há Ninguém Aqui",
+  "type": "poder_distincao",
+  "description": "Até mesmo os inimigos do escapista esquecem que ele existe. Você pode gastar 2 PM para se esconder mesmo sem camuflagem ou cobertura disponível. Se tiver o poder Camuflagem, além disso a penalidade em Furtividade para se esconder quando realiza uma ação chamativa é reduzida à metade (aplicado depois de outras reduções).",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "efeito": "esconde-se mesmo sem camuflagem ou cobertura disponível; com Camuflagem, penalidade em Furtividade para ações chamativas reduzida à metade"
+    }
+  ],
+  "requirements": ["Aparência Inofensiva", "Escapista"],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "biblioteca",
+  "name": "Biblioteca",
+  "description": "Com uma coleção de pergaminhos, livros e tomos variados, este lugar tem muito a ensinar. Você se torna treinado em uma perícia.",
+  "categoria": "nobreza",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "treina_pericia",
+      "escolha": true
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

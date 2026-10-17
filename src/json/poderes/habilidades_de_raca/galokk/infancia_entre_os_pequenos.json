@@ -1,0 +1,11 @@
+{
+  "id": "infancia_entre_os_pequenos",
+  "name": "Infância entre os Pequenos",
+  "type": "habilidade_de_raca",
+  "race": "galokk",
+  "description": "Você se torna treinado em uma perícia a sua escolha.",
+  "effects": {
+    "concede_treinamento_pericia": { "quantidade": 1, "escolha": true }
+  },
+  "livro": "herois_de_arton"
+}

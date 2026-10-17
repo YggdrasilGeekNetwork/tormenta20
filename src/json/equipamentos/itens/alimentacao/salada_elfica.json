@@ -1,0 +1,16 @@
+{
+  "id": "salada_elfica",
+  "name": "Salada Élfica",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 4,
+  "espacos": 0.5,
+  "livro": "herois_de_arton",
+  "ingredientes": ["fruta", "legume", "verdura"],
+  "custo_ingredientes": 5,
+  "cd_teste_oficio_cozinheiro": 20,
+  "efeito": {
+    "bonus_ataques_a_distancia": 1
+  },
+  "description": "Esta salada vegetariana leva uma mistura de folhas, frutas e legumes. Segundo os relatos, a receita foi inventada em Lenórienn e passada aos reinos humanos de Lamnor, antes do isolamento dos povos. Um prato leve e equilibrado, inspira disparos precisos. Fornece +1 em testes de ataque à distância."
+}

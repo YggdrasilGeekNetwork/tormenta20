@@ -1,0 +1,21 @@
+{
+  "id": "calma_la",
+  "name": "Calma Lá",
+  "type": "poder_distincao",
+  "description": "Uma língua rápida é vital para quem vive de passar os outros para trás. Você não sofre a penalidade de –10 por fazer um teste de Diplomacia para mudar atitude como uma ação completa e, quando a primeira rodada de combate se inicia, pode fazer um desses testes antes de todos os participantes agirem. Se mudar a atitude de algum inimigo para indiferente ou melhor dessa forma, em vez disso ele fica pasmo por 1 rodada.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "não sofre a penalidade de -10 ao fazer teste de Diplomacia para mudar atitude como ação completa"
+    },
+    {
+      "type": "passivo",
+      "gatilho": "início da primeira rodada de combate",
+      "efeito": "pode fazer esse teste antes de todos agirem; se mudar a atitude de um inimigo para indiferente ou melhor, ele fica pasmo por 1 rodada em vez disso"
+    }
+  ],
+  "requirements": [
+    "Aquele Papinho"
+  ],
+  "livro": "herois_de_arton"
+}

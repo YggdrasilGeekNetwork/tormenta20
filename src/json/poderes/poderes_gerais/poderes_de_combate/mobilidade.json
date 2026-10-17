@@ -1,0 +1,29 @@
+{
+  "id": "mobilidade",
+  "name": "Mobilidade",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Quando usa a ação movimentar-se e percorre pelo menos 6m, você recebe +2 em testes de ataque e na Defesa até o início do seu próximo turno.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "esquiva"
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": 2,
+      "trigger": "movimentar_se_pelo_menos_6m",
+      "duration": "ate_o_inicio_do_proximo_turno"
+    },
+    {
+      "type": "defense_improvement",
+      "value": 2,
+      "trigger": "movimentar_se_pelo_menos_6m",
+      "duration": "ate_o_inicio_do_proximo_turno"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

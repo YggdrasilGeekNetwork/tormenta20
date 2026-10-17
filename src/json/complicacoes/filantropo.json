@@ -1,0 +1,14 @@
+{
+  "id": "filantropo",
+  "name": "Filantropo",
+  "description": "Você doa parte de sua riqueza para fazer o bem. Você não recebe a habilidade Espólio e, quando usa sua habilidade Riqueza, recebe apenas metade do valor normal.",
+  "categoria": "nobre",
+  "effects": [
+    {
+      "type": "perda_habilidade",
+      "descricao": "não recebe a habilidade Espólio; quando usa a habilidade Riqueza, recebe apenas metade do valor normal"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

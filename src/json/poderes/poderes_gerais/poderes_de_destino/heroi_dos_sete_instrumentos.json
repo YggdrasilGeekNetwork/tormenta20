@@ -1,0 +1,26 @@
+{
+  "id": "heroi_dos_sete_instrumentos",
+  "name": "Herói dos Sete Instrumentos",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Você aprendeu de tudo um pouco e um pouco de tudo. Você recebe um bônus de +1 em testes de perícias nas quais não é treinado. No 7º nível esse bônus aumenta para +2 e, no 15º nível, aumenta para +3.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 1,
+      "skill": "pericias_nao_treinadas",
+      "scaling": [
+        {
+          "character_level": 7,
+          "value": 2
+        },
+        {
+          "character_level": 15,
+          "value": 3
+        }
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

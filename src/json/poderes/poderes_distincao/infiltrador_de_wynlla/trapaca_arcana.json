@@ -1,0 +1,14 @@
+{
+  "id": "trapaca_arcana",
+  "name": "Trapaça Arcana",
+  "type": "poder_distincao",
+  "description": "\"Meu nome é Elohim. Ylena Elohim.\" Você pode lançar magias arcanas de 1º círculo. Se tiver pelo menos três poderes da distinção, pode lançar também magias de 2º círculo. Você começa com duas magias de 1º círculo e, a cada outro poder da distinção, aprende uma magia de qualquer círculo que possa lançar. Você pode lançar essas magias vestindo armaduras leves sem precisar de testes de Misticismo. Seu atributo-chave para essas magias é Inteligência.",
+  "effects": [
+    {
+      "type": "concede_magias",
+      "efeito": "lança magias arcanas de 1º círculo (2º círculo com três poderes da distinção); começa com duas magias de 1º círculo, +1 magia por outro poder da distinção; sem testes de Misticismo em armaduras leves; atributo-chave Inteligência"
+    }
+  ],
+  "requirements": ["treinado em Enganação, Ladinagem e Misticismo", "capacidade de lançar pelo menos uma magia arcana"],
+  "livro": "herois_de_arton"
+}

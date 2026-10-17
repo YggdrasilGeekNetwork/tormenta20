@@ -1,0 +1,20 @@
+{
+  "id": "flecha_da_morte",
+  "name": "Flecha da Morte",
+  "type": "poder_distincao",
+  "description": "Tendo superado todos os tipos de inimigos, o arqueiro de Lenórienn aprende a infundir a essência da morte em suas flechas. Você pode gastar 1 dia e T$ 100 para criar uma flecha mágica chamada flecha da morte. Ela causa 1 dado extra de dano, fornece +2 na margem de ameaça e, se for usada em conjunto com Flecha de Toque ou Flecha Explosiva, aumenta a CD para resistir às magias em +2. Para cada dois outros poderes da distinção que você possui, esses bônus, e a quantidade de dados extras de dano, aumentam em +1. Você pode ter um máximo de flechas da morte igual ao total de poderes da distinção que possui (se criar uma além do seu limite, a flecha mais antiga perde seu poder).",
+  "effects": [
+    {
+      "type": "fabricacao",
+      "custo": "1 dia e T$ 100",
+      "efeito": "cria uma flecha da morte: causa 1 dado extra de dano, +2 na margem de ameaça e, se usada com Flecha de Toque ou Flecha Explosiva, +2 na CD para resistir às magias associadas",
+      "escalavel": "esses bônus e a quantidade de dados extras de dano aumentam em +1 para cada dois outros poderes da distinção",
+      "limite": "máximo de flechas da morte igual ao total de poderes da distinção que possui; se exceder, a mais antiga perde seu poder"
+    }
+  ],
+  "requirements": [
+    "Encantar Flechas",
+    "ter feito um acerto crítico com um arco em uma criatura de cada tipo"
+  ],
+  "livro": "herois_de_arton"
+}

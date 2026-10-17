@@ -1,0 +1,16 @@
+{
+  "id": "porco_deheoni",
+  "name": "Porco Deheoni",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 36,
+  "espacos": 0.5,
+  "livro": "herois_de_arton",
+  "ingredientes": ["porco", "fruta", "legume"],
+  "custo_ingredientes": 12,
+  "cd_teste_oficio_cozinheiro": 20,
+  "efeito": {
+    "bonus_ataques_corpo_a_corpo": 1
+  },
+  "description": "Um prato típico e popular em Deheon, que já se alastrou pelo Reinado. Comer um porco assado deixa-o valente e brigão. Você recebe +1 em testes de ataque corpo a corpo."
+}

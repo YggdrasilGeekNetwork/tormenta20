@@ -1,0 +1,27 @@
+{
+  "id": "farmacia_magica",
+  "name": "Farmácia Mágica",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Você pode usar Farmacêutico em poções de cura.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "alquimista_iniciado"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "farmaceutico"
+    }
+  ],
+  "effects": [
+    {
+      "type": "item_type",
+      "note": "pode_usar_farmaceutico_em_pocoes_de_cura"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

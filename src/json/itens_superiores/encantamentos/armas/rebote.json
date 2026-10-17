@@ -1,0 +1,15 @@
+{
+  "id": "rebote",
+  "name": "Rebote",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "Sempre que você erra um ataque em um inimigo, a arma ganha uma carga de energia (até um máximo de 3 cargas). Quando você acerta um ataque, a arma gasta todas as cargas de energia — para cada carga gasta, ela causa +1d6 pontos de dano.",
+  "effects": [
+    {
+      "type": "ativado",
+      "gatilho": "erra um ataque em um inimigo",
+      "efeito": "a arma ganha uma carga de energia (máximo 3); ao acertar um ataque, gasta todas as cargas e causa +1d6 de dano por carga gasta"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

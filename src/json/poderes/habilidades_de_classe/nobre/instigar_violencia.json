@@ -1,0 +1,33 @@
+{
+  "id": "instigar_violencia",
+  "name": "Instigar Violência",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Uma vez por rodada por aliado, quando um aliado em alcance curto faz um acerto crítico em um inimigo, você pode gastar 3 PM para que esse aliado faça mais um ataque contra o mesmo inimigo.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "guerra"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "target": "aliado_que_fez_acerto_critico",
+      "requirement": "aliado_em_alcance_curto"
+    }
+  ],
+  "costs": [
+    {
+      "value": 3,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

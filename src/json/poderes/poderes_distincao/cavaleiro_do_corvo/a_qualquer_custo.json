@@ -1,0 +1,19 @@
+{
+  "id": "a_qualquer_custo",
+  "name": "A Qualquer Custo",
+  "type": "poder_distincao",
+  "description": "Para um Cavaleiro do Corvo, nada é mais importante que o sucesso da missão. Você pode declarar um determinado objetivo como sua missão. Esse objetivo deve ser algo específico, como \"eliminar o dragão da Floresta dos Cem Olhos\" ou \"resgatar o sacerdote capturado pelos bandidos de estrada\". A preparação para a missão leva 1 dia, exige o gasto de T$ 500 em materiais e serviços (mapas, informantes etc.) e fornece um dos benefícios abaixo. Para cada outros dois poderes da distinção, fornece um benefício adicional diferente. • Busca e Destruição: uma de suas armas se torna uma arma anticriatura contra um tipo a sua escolha. • Guerra Não Convencional: você se torna treinado em duas perícias a sua escolha. • Inteligência Militar: você pode usar Guerra no lugar de duas perícias a sua escolha entre Conhecimento, Intuição, Investigação, Percepção e Sobrevivência. Você só pode ter uma missão de cada vez.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo": "1 dia de preparação e T$ 500 em materiais e serviços",
+      "efeito": "declara um objetivo específico como sua missão e recebe um dos benefícios: Busca e Destruição (uma arma se torna anticriatura contra um tipo à escolha), Guerra Não Convencional (treinado em duas perícias à escolha) ou Inteligência Militar (usa Guerra no lugar de duas perícias entre Conhecimento, Intuição, Investigação, Percepção e Sobrevivência)",
+      "escalavel": "a cada outros dois poderes da distinção, fornece um benefício adicional diferente",
+      "restricao": "só pode ter uma missão de cada vez"
+    }
+  ],
+  "requirements": [
+    "Reconhecimento e Infiltração"
+  ],
+  "livro": "herois_de_arton"
+}

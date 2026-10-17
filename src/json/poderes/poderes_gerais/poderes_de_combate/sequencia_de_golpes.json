@@ -1,0 +1,29 @@
+{
+  "id": "sequencia_de_golpes",
+  "name": "Sequência de Golpes",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Você desfere uma tempestade de golpes, usando a força de um movimento para impulsionar o outro, sem dar chance para sua vítima reagir. Quando você acerta um ataque corpo a corpo em uma criatura, recebe um bônus cumulativo de +1 em testes de ataque e rolagens de dano contra a mesma criatura nesse turno (limitado pela sua Força).",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": 1,
+      "cumulative": true,
+      "trigger": "acertar_ataque_corpo_a_corpo",
+      "duration": "mesmo_turno",
+      "target": "mesma_criatura",
+      "limit": "limitado_pela_forca"
+    },
+    {
+      "type": "damage_improvement",
+      "value": 1,
+      "cumulative": true,
+      "trigger": "acertar_ataque_corpo_a_corpo",
+      "duration": "mesmo_turno",
+      "target": "mesma_criatura",
+      "limit": "limitado_pela_forca"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

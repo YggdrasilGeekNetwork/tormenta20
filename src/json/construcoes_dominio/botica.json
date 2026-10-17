@@ -1,0 +1,16 @@
+{
+  "id": "botica",
+  "name": "Botica",
+  "description": "Esta cabana de madeira possui diversas ervas medicinais, que fortalecem sua saúde ao serem consumidas com sabedoria. Fornece +1 em Fortitude.",
+  "categoria": "nobreza",
+  "custo": 3,
+  "effects": [
+    {
+      "type": "bonus_resistencia",
+      "resistencia": "Fortitude",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

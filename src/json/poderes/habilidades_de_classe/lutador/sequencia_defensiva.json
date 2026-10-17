@@ -1,0 +1,25 @@
+{
+  "id": "sequencia_defensiva",
+  "name": "Sequência Defensiva",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Quando acerta um ataque desarmado em uma criatura, você recebe um bônus cumulativo de +2 na Defesa contra essa criatura até o início do seu próximo turno.",
+  "requirements": [
+    {
+      "type": "attack_type",
+      "sub_type": "soft",
+      "attack": "desarmado"
+    }
+  ],
+  "effects": [
+    {
+      "type": "defense_improvement",
+      "value": 2,
+      "cumulative": true,
+      "duration": "inicio_do_proximo_turno",
+      "target": "criatura_atacada"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

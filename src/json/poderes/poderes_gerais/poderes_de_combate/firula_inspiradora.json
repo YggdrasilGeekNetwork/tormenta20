@@ -1,0 +1,31 @@
+{
+  "id": "firula_inspiradora",
+  "name": "Firula Inspiradora",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Você pode gastar uma ação de movimento e 1 PM para realizar uma firula qualquer (girar sua arma, fazer uma dancinha…). Faça um teste de Atuação (CD 10). Se passar, você recebe +1 em testes de perícia e na Defesa, +1 adicional para cada 10 pontos pelos quais o resultado do teste exceder a CD, até o início do seu próximo turno.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "active_ability",
+      "action": "movimento",
+      "test": {
+        "skill": "atuacao",
+        "cd": 10
+      },
+      "on_success": {
+        "skill_improvement": 1,
+        "defense_improvement": 1,
+        "scaling": "+1 a cada 10 pontos que exceder a CD"
+      },
+      "duration": "ate_o_inicio_do_proximo_turno"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "id": "manipulacao_esqueletica",
+  "name": "Manipulação Esquelética",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você pode gastar uma ação de movimento e 1 PM para estender seus braços e aumentar seu alcance natural em +1,5m, para estender suas pernas e aumentar seu deslocamento terrestre em +3m ou para se transformar numa pilha de ossos que fornece +5 em Furtividade (nessa forma você só pode fazer reações ou cancelar esse efeito). A manipulação dura até o fim da cena, até você usar outra manipulação ou até você cancelar o efeito (uma ação livre).",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "osteon"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active_ability",
+      "action": "movimento",
+      "choose_one": [
+        {
+          "effect": "range_improvement",
+          "value": "1,5m",
+          "target": "alcance_natural"
+        },
+        {
+          "effect": "move_improvement",
+          "value": "3m",
+          "target": "deslocamento_terrestre"
+        },
+        {
+          "effect": "skill_improvement",
+          "value": 5,
+          "skill": "furtividade",
+          "form": "pilha_de_ossos",
+          "restriction": "so_pode_fazer_reacoes_ou_cancelar"
+        }
+      ],
+      "duration": "fim_da_cena_ou_ate_nova_manipulacao_ou_cancelar"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

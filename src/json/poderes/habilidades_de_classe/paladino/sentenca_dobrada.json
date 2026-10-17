@@ -1,0 +1,27 @@
+{
+  "id": "sentenca_dobrada",
+  "name": "Sentença Dobrada",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Quando profere um julgamento, você pode gastar +1 PM para proferir um segundo julgamento com a mesma ação (pagando o custo de ambos).",
+  "requirements": [
+    {
+      "type": "fearute_actived",
+      "sub_type": "soft",
+      "feature": "julgamento_divino"
+    }
+  ],
+  "effects": [
+    {
+      "type": "additional_action",
+      "note": "profere_um_segundo_julgamento_divino_com_a_mesma_acao_pagando_o_custo_de_ambos"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

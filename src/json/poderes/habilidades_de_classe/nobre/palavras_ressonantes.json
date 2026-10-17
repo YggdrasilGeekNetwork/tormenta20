@@ -1,0 +1,27 @@
+{
+  "id": "palavras_ressonantes",
+  "name": "Palavras Ressonantes",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Quando você usa Palavras Afiadas, sempre que rolar o resultado máximo ou um ponto abaixo do máximo em um dado da habilidade (por exemplo, um 5 ou 6 ao rolar 1d6), role um dado extra.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "palavras_afiadas"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "note": "role_um_dado_extra_ao_tirar_resultado_maximo_ou_um_ponto_abaixo_em_um_dado_de_palavras_afiadas"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "regeneracao_sobrenatural",
+  "name": "Regeneração Sobrenatural",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Enquanto está em fúria e com menos da metade de seus PV máximos, você tem Cura Acelerada 5. Pré-requisitos: Con 5, Vigor Primal, 5º nível de bárbaro.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "con",
+      "value": 5
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "vigor_primal"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "regeneration",
+      "value": 5,
+      "condition": "em_furia_com_menos_da_metade_dos_pv_maximos"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

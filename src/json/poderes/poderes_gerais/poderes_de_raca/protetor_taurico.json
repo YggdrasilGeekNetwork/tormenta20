@@ -1,0 +1,28 @@
+{
+  "id": "protetor_taurico",
+  "name": "Protetor Táurico",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você pode gastar uma ação de movimento para carregar consigo (no colo, sobre os ombros…) um aliado adjacente Médio ou menor. Você precisa de uma mão livre, que fica ocupada enquanto você estiver carregando o aliado. Enquanto está sendo carregado, o aliado é considerado sob cobertura leve (Defesa +5). Além disso, qualquer ataque contra o aliado tem 50% de chance de ter você, e não o aliado, como alvo.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "minotauro"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active_ability",
+      "action": "movimento",
+      "effect": "carrega_aliado_medio_ou_menor",
+      "requires": "uma_mao_livre_ocupada",
+      "target_bonus": {
+        "defense_improvement": 5,
+        "cover": "leve"
+      },
+      "redirect_chance": "50%"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "lutar_sujo",
+  "name": "Lutar Sujo",
+  "type": "poder_distincao",
+  "description": "Um pirata não tem nenhum pudor sobre chutar ferimentos ou enfiar dedos em olhos. Qualquer coisa vale a pena para vencer. Você pode fazer um teste de manobra para executar um truque sujo contra um inimigo. Se vencer, o inimigo sofre uma condição a sua escolha entre cego, enjoado, lento ou surdo por 1 rodada — ou até ele usar uma ação padrão para se recompor.",
+  "effects": [
+    {
+      "type": "ativado",
+      "efeito": "faz um teste de manobra para executar um truque sujo contra um inimigo; se vencer, o inimigo sofre uma condição à escolha (cego, enjoado, lento ou surdo) por 1 rodada ou até usar uma ação padrão para se recompor"
+    }
+  ],
+  "requirements": [
+    "Içar a Bandeira Preta"
+  ],
+  "livro": "herois_de_arton"
+}

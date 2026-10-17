@@ -1,0 +1,31 @@
+{
+  "id": "sifao_caustico",
+  "name": "Sifão Cáustico",
+  "type": "arma",
+  "proficiencia": "fogo",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "duas_maos",
+  "preco": 600,
+  "dano": "4d6",
+  "critico": "x2",
+  "alcance": "especial",
+  "tipo_dano": "acido",
+  "espacos": 2,
+  "municao": "acido",
+  "habilidades": [],
+  "especial": {
+    "area": {
+      "forma": "cone",
+      "tamanho": "6m"
+    },
+    "ataque": "um único teste à distância comparado com a Defesa de cada criatura na área",
+    "reservatorio_doses": 2,
+    "usos_por_dose": 5,
+    "recarregar": "acao_completa",
+    "aplica_bonus_dano_itens_alquimicos": true,
+    "ocupa_espaco_de_item_vestido": true
+  },
+  "description": "Formado por um cilindro metálico conectado por uma mangueira a uma mochila que armazena sua munição. Quando acionado, o cilindro dispersa ácido em um cone de 6m (seu alcance máximo). Para atacar, faça um ataque à distância e compare-o com a Defesa de cada criatura na área. Usa ácido como munição (Tormenta20, p.160); seu reservatório armazena duas doses, cada uma suficiente para 5 ataques, e carregá-lo é uma ação completa. Se você possuir habilidades que forneçam bônus em rolagens de dano com itens alquímicos, pode aplicar esse bônus com o sifão cáustico. Pela forma como é carregado, o sifão cáustico ocupa também o espaço de um item vestido.",
+  "livro": "herois_de_arton"
+}

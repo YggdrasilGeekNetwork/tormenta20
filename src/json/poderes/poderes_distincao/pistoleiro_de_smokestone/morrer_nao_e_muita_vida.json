@@ -1,0 +1,23 @@
+{
+  "id": "morrer_nao_e_muita_vida",
+  "name": "Morrer Não É Muita Vida",
+  "type": "poder_distincao",
+  "description": "\"A vida é dura, mas eu sou mais.\" Você aprendeu a se defender com o que tem. Quando se move 6m ou mais, você recebe +2 na Defesa e em Reflexos. Além disso, carrega um amuleto da sorte, como um tibar ou uma garrafinha de metal, que já salvou sua vida mais de uma vez. Uma vez por cena, quando sofre dano que o levaria a 0 PV ou menos, você pode ignorar esse dano.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "move-se 6m ou mais",
+      "efeito": "+2 na Defesa e em Reflexos"
+    },
+    {
+      "type": "passivo",
+      "limite": "uma vez por cena",
+      "gatilho": "sofreria dano que o levaria a 0 PV ou menos",
+      "efeito": "pode ignorar esse dano"
+    }
+  ],
+  "requirements": [
+    "Buscar Cobertura"
+  ],
+  "livro": "herois_de_arton"
+}

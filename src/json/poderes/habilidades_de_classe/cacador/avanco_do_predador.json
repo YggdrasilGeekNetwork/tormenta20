@@ -1,0 +1,34 @@
+{
+  "id": "avanco_do_predador",
+  "name": "Avanço do Predador",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Uma vez por rodada, quando uma criatura marcada por sua Marca da Presa se afasta voluntariamente de você, você pode gastar 1 PM para se mover na direção dela (até o limite do seu deslocamento). Pré-requisitos: Ímpeto, 11° nível de caçador.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "impeto"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "frequency": "1_por_rodada",
+      "trigger": "criatura_marcada_por_marca_da_presa_se_afasta_voluntariamente",
+      "effect": "move_se_na_direcao_dela_ate_o_limite_do_deslocamento"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

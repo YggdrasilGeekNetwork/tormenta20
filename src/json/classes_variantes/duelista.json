@@ -1,0 +1,53 @@
+{
+  "id": "duelista",
+  "name": "Duelista",
+  "base_class_id": "bucaneiro",
+  "description": "O mais austero e dedicado dos bucaneiros: um esgrimista orgulhoso e honrado, sempre pronto a desafiar quem ofenda sua honra ou a de outros. Perícias: Luta (For) ou Pontaria (Des) e Reflexos (Des), mais 2 à escolha entre Acrobacia, Atletismo, Atuação, Diplomacia, Fortitude, Iniciativa, Intimidação, Luta, Ofício, Percepção, Pilotagem e Pontaria.",
+  "diffs": [
+    {
+      "nivel": 1,
+      "remove": [
+        "audacia"
+      ],
+      "adiciona": [
+        {
+          "id": "duelo",
+          "name": "Duelo",
+          "description": "Você pode gastar 2 PM para escolher um oponente em alcance curto e receber +2 em testes de ataque e rolagens de dano contra ele até o fim da cena. Se atacar outro oponente, o bônus termina. A cada cinco níveis, você pode gastar +1 PM para aumentar o bônus em +1 (máximo +5 no 17º nível)."
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "remove": [
+        "evasao_bucaneiro"
+      ],
+      "adiciona": [
+        {
+          "id": "escola_de_duelo",
+          "name": "Escola de Duelo",
+          "description": "Escolha, permanentemente, uma escola: Ambidestra (empunhando duas armas, uma leve: +2 na Defesa e em Reflexos), Clássica (arma corpo a corpo em uma mão, nada na outra: +2 em rolagens de dano com essa arma), ou de Tiro (proficiência com armas de fogo leves e de uma mão; se já possuir, pode usar habilidades de bucaneiro de armas corpo a corpo leves/ágeis com elas)."
+        }
+      ]
+    },
+    {
+      "nivel": 4,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "truques_de_capa",
+          "name": "Truques de Capa",
+          "description": "Usando uma capa esvoaçante (ou item similar aprovado pelo mestre), pode gastar 2 PM e uma ação para gerar efeitos com ela."
+        }
+      ]
+    },
+    {
+      "nivel": 5,
+      "remove": [
+        "panache"
+      ],
+      "adiciona": []
+    }
+  ],
+  "livro": "herois_de_arton"
+}

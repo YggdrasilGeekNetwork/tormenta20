@@ -1,0 +1,22 @@
+{
+  "id": "conjuracao_magibelica",
+  "name": "Conjuração Magibélica",
+  "type": "poder_distincao",
+  "description": "As técnicas do Mago de Batalha tornam suas magias devastadoras, mas cobram um preço de seu corpo. Escolha uma técnica de conjuração magibélica entre Expandir, Fortalecer, Intensificar e Potencializar (veja abaixo). Uma vez feita, essa escolha não pode ser mudada. Para cada outro poder da distinção diferente (exceto Conjurador Encouraçado), você pode escolher uma técnica diferente.\n\nPara fazer uma conjuração magibélica, ao lançar uma magia faça um teste de Misticismo (CD 10 + custo em PM da magia + 5 por teste anterior na mesma cena). Se passar, você aplica uma de suas técnicas conhecidas à magia. Se falhar, fica fatigado até o fim da cena (essa condição é cumulativa e o afeta mesmo que você seja imune a ela). Lançar uma magia com conjuração magibélica é mais demorado; o tempo de conjuração da magia aumenta em um passo (de livre para movimento, de movimento para padrão e de padrão para completa). Não é possível aplicar uma conjuração magibélica a magias com tempo de conjuração de reação ou maior que padrão, e esse aumento é aplicado após quaisquer reduções (como a de Magia Acelerada).\n\n• Expandir: a área da magia aumenta em +3m (de raio ou lado), +3m para cada dois outros poderes da distinção que você possui.\n• Fortalecer: a magia causa um dado de dano adicional do mesmo tipo, mais um dado para cada dois outros poderes da distinção que você possui.\n• Intensificar: a magia ignora até 5 pontos da redução de dano dos alvos. Esse valor aumenta em 5 para cada dois outros poderes da distinção que você possui.\n• Potencializar: o limite de PM da magia aumenta em +2, +1 para cada dois outros poderes da distinção que você possui (esses PM adicionais não aumentam a CD para usar este poder).",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo": "teste de Misticismo CD 10 + custo em PM da magia + 5 por teste anterior na mesma cena",
+      "falha": "fatigado (cumulativo) até o fim da cena",
+      "efeito": "aplica uma técnica conhecida (Expandir, Fortalecer, Intensificar ou Potencializar) à magia; tempo de conjuração aumenta um passo; não aplicável a magias de reação ou tempo maior que padrão",
+      "tecnicas": [
+        "Expandir: +3m na área (raio ou lado), +3m a cada dois outros poderes da distinção",
+        "Fortalecer: +1 dado de dano do mesmo tipo, +1 dado a cada dois outros poderes da distinção",
+        "Intensificar: ignora até 5 de RD, +5 a cada dois outros poderes da distinção",
+        "Potencializar: limite de PM da magia +2, +1 a cada dois outros poderes da distinção (não aumenta a CD)"
+      ]
+    }
+  ],
+  "requirements": ["Conjurador Encouraçado"],
+  "livro": "herois_de_arton"
+}

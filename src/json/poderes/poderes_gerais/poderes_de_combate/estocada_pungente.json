@@ -1,0 +1,31 @@
+{
+  "id": "estocada_pungente",
+  "name": "Estocada Pungente",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Quando ataca com uma arma corpo a corpo de perfuração, você pode gastar 2 PM. Se acertar, o alvo sofre –5 em rolagens de dano por 1 rodada.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "luta"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_test_improvment",
+      "value": -5,
+      "target": "inimigo",
+      "duration": "1_rodada",
+      "weapon": "corpo_a_corpo_de_perfuracao",
+      "condition_on_hit": true
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

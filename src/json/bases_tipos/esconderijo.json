@@ -1,0 +1,9 @@
+{
+  "id": "esconderijo",
+  "name": "Esconderijo",
+  "description": "A base está em um local oculto ou disfarçado, longe de olhos indiscretos. Os residentes recebem +1 em testes de resistência.",
+  "effects": [
+    { "type": "bonus_resistencia", "value": 1 }
+  ],
+  "livro": "herois_de_arton"
+}

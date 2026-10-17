@@ -1,0 +1,18 @@
+{
+  "id": "tosco",
+  "name": "Tosco",
+  "description": "Você não se dá bem com objetos civilizados. Você não pode usar itens superiores. †",
+  "categoria": "druida",
+  "effects": [
+    {
+      "type": "restricao_equipamento",
+      "descricao": "não pode usar itens superiores"
+    },
+    {
+      "type": "comportamental",
+      "descricao": "se violar a complicação, perde todos os PM e só pode recuperá-los a partir do próximo dia"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

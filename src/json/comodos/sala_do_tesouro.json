@@ -1,0 +1,14 @@
+{
+  "id": "sala_do_tesouro",
+  "name": "Sala do Tesouro",
+  "description": "Um espaço protegido por uma pesada porta metálica, onde os heróis podem guardar os espólios pelos quais lutaram arduamente. Ter sua própria sala do tesouro deixa os aventureiros mais atentos às riquezas no caminho: qualquer rolagem de d% para definir tesouros aleatórios recebe um bônus de +5%.",
+  "effects": [
+    {
+      "type": "bonus_rolagem_tesouro_aleatorio",
+      "value": 5,
+      "unidade": "porcento"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

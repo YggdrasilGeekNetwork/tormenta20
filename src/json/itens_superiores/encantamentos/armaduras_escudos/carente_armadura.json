@@ -1,0 +1,15 @@
+{
+  "id": "carente_armadura",
+  "name": "Carente",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "Como a maldição de arma Carente (veja acima), mas aplicada a este item. Se a magia Purificação for lançada sobre você com o aprimoramento de +3 PM e você soltar ou remover o item… ele reaparece em você 1d4 rodadas depois! Uma magia Lendas e Histórias lançada sobre o item revela como você pode se livrar dele em definitivo.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "se você remover o item depois de ser alvo da magia Purificação com o aprimoramento de +3 PM, ele reaparece em você 1d4 rodadas depois; uma magia Lendas e Histórias lançada sobre o item revela a forma definitiva de se livrar dele, a critério do mestre"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

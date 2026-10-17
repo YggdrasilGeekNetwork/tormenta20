@@ -1,0 +1,51 @@
+{
+  "id": "asas_de_aco",
+  "name": "Asas de Aço",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Suas asas são sobrenaturalmente resistentes. Elas fornecem +2 na Defesa e podem ser usadas como armas naturais (dano 2d4, crítico x2, impacto). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com as asas (exceto se as estiver usando para voar).",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "harpia",
+        "kallyanach",
+        "pteros",
+        "suraggel"
+      ]
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "possuir_asas"
+    }
+  ],
+  "effects": [
+    {
+      "type": "defense_improvement",
+      "value": 2
+    },
+    {
+      "type": "natural_weapon_grant",
+      "weapon": "asas",
+      "damage": "2d4",
+      "critical": "x2",
+      "damage_type": "impacto"
+    },
+    {
+      "type": "extra_attack",
+      "weapon": "asas",
+      "frequency": "uma_vez_por_rodada",
+      "trigger": "acao_agredir_com_outra_arma",
+      "condition": "asas_nao_estao_sendo_usadas_para_voar"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

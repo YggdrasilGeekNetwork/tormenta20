@@ -1,0 +1,26 @@
+{
+  "id": "fumaca_onirica",
+  "name": "Fumaça Onírica",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 150,
+  "espacos": 0.5,
+  "cd_fabricacao": 20,
+  "inoculacao": "inalacao",
+  "resistencia_override": {
+    "teste": "Vontade"
+  },
+  "efeito": {
+    "falha": {
+      "condicao": "fascinada",
+      "duracao": "3 rodadas"
+    },
+    "sucesso": {
+      "condicao": "ofuscada",
+      "duracao": "1 rodada"
+    }
+  },
+  "description": "Gás de cores variadas que afeta a mente, fazendo a vítima experimentar ilusões encantadoras. Inalação, vítima fica fascinada por 3 rodadas (ofuscada por 1 rodada). Este veneno é resistido com Vontade.",
+  "livro": "herois_de_arton"
+}

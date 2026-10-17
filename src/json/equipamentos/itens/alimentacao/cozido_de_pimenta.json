@@ -1,0 +1,14 @@
+{
+  "id": "cozido_de_pimenta",
+  "name": "Cozido de Pimenta",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 10,
+  "espacos": 0,
+  "efeito": {
+    "bonus_fortitude": 1,
+    "cumulativo_com_itens": true
+  },
+  "description": "Prato forte, capaz de trazer lágrimas aos olhos do mais resistente dos comensais. Fornece +1 em Fortitude (cumulativo com bônus de outros itens).",
+  "livro": "herois_de_arton"
+}

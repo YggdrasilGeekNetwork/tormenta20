@@ -1,0 +1,17 @@
+{
+  "id": "ataque_arcano",
+  "name": "Ataque Arcano",
+  "type": "poder_distincao",
+  "description": "A magia flui através dos golpes do guerreiro mágico. Uma vez por rodada, quando faz um ataque corpo a corpo, você pode gastar 2 PM para desferir um ataque arcano. Se fizer isso e acertar o ataque, você pode lançar uma magia que tenha como alvo uma criatura ou que afete uma área como ação livre, tendo como alvo ou centro de sua área a criatura atingida. Apenas magias com execução de movimento ou padrão podem ser lançadas dessa forma.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "frequencia": "uma vez por rodada",
+      "condicao": "ataque corpo a corpo",
+      "efeito": "se acertar, lança como ação livre uma magia (execução movimento ou padrão) com alvo/centro na criatura atingida"
+    }
+  ],
+  "requirements": ["Fogo e Aço"],
+  "livro": "herois_de_arton"
+}

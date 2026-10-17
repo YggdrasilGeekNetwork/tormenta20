@@ -1,0 +1,30 @@
+{
+  "id": "onda_de_sangue",
+  "name": "Onda de Sangue",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Sempre que você deixa alguém sangrando, a perda de vida causada por sangramento aumenta em um passo (cumulativo até um máximo de d12) e a criatura falha automaticamente em seu próximo teste de Constituição para remover essa condição. Pré-requisito: Estocada no Flanco.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "estocada_no_flanco"
+    }
+  ],
+  "effects": [
+    {
+      "type": "condition_improvement",
+      "condition": "sangrando",
+      "value": 1,
+      "unit": "passo",
+      "cumulative_max": "d12",
+      "trigger": "infligir_sangrando"
+    },
+    {
+      "type": "auto_fail",
+      "test": "constituicao",
+      "trigger": "proximo_teste_para_remover_sangrando"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

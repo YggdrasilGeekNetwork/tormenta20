@@ -1,0 +1,28 @@
+{
+  "id": "magia_comunitaria",
+  "name": "Magia Comunitária",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Você e seu grupo são tão íntimos que sua magia trata seus companheiros como se fossem você mesmo. Uma vez por rodada, quando você lança uma magia com alvo você ou 1 criatura, para cada aliado em alcance curto com este poder você pode pagar o custo da magia novamente para que ele também se beneficie do efeito. Se o efeito tiver duração sustentada, cada personagem afetado precisa pagar seu custo individualmente.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "spell_share",
+      "trigger": "lancar_magia_de_alvo_voce_ou_1_criatura",
+      "frequency": "uma_vez_por_rodada",
+      "effect": "paga_o_custo_novamente_por_aliado_em_alcance_curto_com_este_poder_para_estender_o_beneficio",
+      "note": "duracao_sustentada_exige_pagamento_individual_continuo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

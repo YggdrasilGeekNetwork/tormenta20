@@ -1,0 +1,16 @@
+{
+  "id": "muralha",
+  "name": "Muralha",
+  "description": "Um muro alto formado por grandes blocos de pedra. Possui um passadiço no topo, protegido por merlões e ameias. Muda o bônus de Fortificação da paliçada para +5.",
+  "categoria": "nobreza",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "altera_bonus_fortificacao",
+      "construcao": "paliçada",
+      "novo_valor": 5
+    }
+  ],
+  "prerequisito": "palicada",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "pedinte",
+  "name": "Pedinte",
+  "description": "Você sobrevivia às margens da sociedade, perambulando por ruas movimentadas em cidades como Valkaria, Crovandir ou Zakharin. Muitas vezes ignorado ou desprezado, dependia da caridade de transeuntes e sobras de festividades locais para obter comida e abrigo. Sua rotina era marcada pela incerteza, enfrentando mau tempo, fome e, às vezes, criaturas que espreitavam nas ruas sombrias. Mas você era astuto, ouvia segredos murmurados nas tavernas e becos, testemunhava eventos cruciais despercebido pelos outros. Um dia, acabou obtendo alguma informação valiosa que mudou sua vida, levando a sua transformação em aventureiro.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Andrajos"
+    },
+    {
+      "type": "fixed",
+      "text": "Esmolas que guardou (1 bálsamo restaurador e 1 essência de mana)"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Migalhas Compartilhadas"
+    ]
+  },
+  "unique_power": "migalhas_compartilhadas",
+  "livro": "herois_de_arton"
+}

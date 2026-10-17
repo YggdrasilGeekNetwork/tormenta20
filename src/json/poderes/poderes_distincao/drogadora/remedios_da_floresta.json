@@ -1,0 +1,16 @@
+{
+  "id": "remedios_da_floresta",
+  "name": "Remédios da Floresta",
+  "type": "poder_distincao",
+  "description": "A drogadora aprende a empregar seu próprio corpo para produzir poções mágicas. Você aprende suas primeiras receitas de drogadora (magias divinas ou arcanas de 1º círculo em quantidade igual à sua Sabedoria, aprendendo uma receita adicional de até 2º círculo para cada poder da distinção) e pode gastar uma ação padrão para fabricar uma poção com essas receitas instantaneamente. Você não paga seu custo em tibares, mas gasta uma quantidade de PV (que não podem ser temporários) igual ao custo em PM da magia, e a poção só dura até o fim da cena. Pontos de vida perdidos dessa forma só podem ser recuperados por descanso.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "padrao",
+      "efeito": "fabrica instantaneamente uma poção de uma receita conhecida, pagando PV (não temporários) iguais ao custo em PM da magia em vez de tibares; a poção dura até o fim da cena",
+      "receitas_iniciais": "quantidade de receitas de 1º círculo igual à Sabedoria; +1 receita de até 2º círculo por poder da distinção"
+    }
+  ],
+  "requirements": ["Curandeira Exímia"],
+  "livro": "herois_de_arton"
+}

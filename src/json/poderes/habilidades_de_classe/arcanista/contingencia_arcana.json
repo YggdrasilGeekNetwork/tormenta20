@@ -1,0 +1,23 @@
+{
+  "id": "contingencia_arcana",
+  "name": "Contingência Arcana",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Quando lança Runa de Proteção com o aprimoramento que muda o alvo para “você”, você pode substituir o componente material da magia por uma penalidade em PM igual ao círculo da magia inscrita na runa. Pré-requisito: Runa de Proteção.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "runa_de_protecao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "replace_component",
+      "component": "material",
+      "replacement": "penalidade_em_pm_igual_ao_circulo_da_magia_inscrita",
+      "applies_to": "runa_de_protecao_com_aprimoramento_alvo_voce"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

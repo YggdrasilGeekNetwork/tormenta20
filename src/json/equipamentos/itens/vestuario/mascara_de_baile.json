@@ -1,0 +1,17 @@
+{
+  "id": "mascara_de_baile",
+  "name": "Máscara de Baile",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 25,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "frequencia": "uma_vez_por_cena",
+    "condicao": "estar em um baile, festa ou situação apropriada (a critério do mestre)",
+    "efeito": "colocar/trocar a máscara para repetir um teste de Diplomacia ou Enganação"
+  },
+  "description": "Tapa a região dos olhos, testa e às vezes o nariz, deixando à mostra a boca, o queixo e as orelhas. Muito popular em bailes e festas requintadas — ou picantes. Uma vez por cena, se estiver em um baile, festa ou outra situação apropriada (de acordo com o mestre), você pode colocar uma máscara de baile (ou trocar de máscara) para repetir um teste de Diplomacia ou Enganação.",
+  "livro": "herois_de_arton"
+}

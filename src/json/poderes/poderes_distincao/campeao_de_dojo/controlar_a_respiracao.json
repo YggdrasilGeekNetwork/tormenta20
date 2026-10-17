@@ -1,0 +1,18 @@
+{
+  "id": "controlar_a_respiracao",
+  "name": "Controlar a Respiração",
+  "type": "poder_distincao",
+  "description": "Graças a seu treinamento intenso, o campeão de dojo se torna mestre do próprio corpo. Você pode gastar uma ação de movimento e uma quantidade de PM limitada por sua Sabedoria. Para cada PM que gastar, recupera 2d6 pontos de vida. Para cada dois outros poderes da distinção que você possui, cada dado de cura aumenta em um passo.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "efeito": "gasta uma quantidade de PM limitada pela Sabedoria; recupera 2d6 PV para cada PM gasto",
+      "escalavel": "cada dado de cura aumenta em um passo para cada dois outros poderes da distinção"
+    }
+  ],
+  "requirements": [
+    "Golpe Concentrado"
+  ],
+  "livro": "herois_de_arton"
+}

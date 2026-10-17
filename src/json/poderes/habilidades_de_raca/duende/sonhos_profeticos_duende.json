@@ -1,0 +1,14 @@
+{
+  "id": "sonhos_profeticos_duende",
+  "name": "Sonhos Proféticos",
+  "type": "habilidade_de_raca",
+  "race": "duende",
+  "description": "Uma vez por cena, você pode gastar 3 PM para ter uma visão que, graças a sua natureza feérica, provavelmente se concretizará. Role 1d20. Até o fim da cena, você pode substituir o resultado do d20 de um teste realizado por uma criatura em alcance curto pelo resultado do dado que você rolou ao usar este presente.",
+  "effects": {
+    "type": "active",
+    "cost": "3 PM",
+    "frequencia": "uma vez por cena",
+    "efeito": "rola 1d20 antecipado; até o fim da cena, pode substituir o resultado do d20 de um teste de criatura em alcance curto por esse valor pré-rolado"
+  },
+  "livro": "herois_de_arton"
+}

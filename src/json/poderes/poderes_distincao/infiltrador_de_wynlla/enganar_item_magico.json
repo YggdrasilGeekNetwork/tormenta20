@@ -1,0 +1,14 @@
+{
+  "id": "enganar_item_magico",
+  "name": "Enganar Item Mágico",
+  "type": "poder_distincao",
+  "description": "\"Passe no Bureau Theuderulf, há alguns brinquedos novos esperando por você...\" Quando lança uma magia através de um item mágico que só permite o uso de aprimoramentos caso você conheça a magia, você pode usá-los mesmo sem conhecê-la. Além disso, pode ativar itens mágicos sem cumprir requisitos de raça, classe e devoção.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "usa aprimoramentos de itens mágicos mesmo sem conhecer a magia; ativa itens mágicos sem cumprir requisitos de raça, classe e devoção"
+    }
+  ],
+  "requirements": ["Trapaça Arcana"],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "algibeira_mordedora",
+  "name": "Algibeira Mordedora",
+  "categoria": "menor",
+  "preco": 1000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Possivelmente concebida por algum arcanista cansado de ser furtado por punguistas, esta bolsa transforma sua abertura em uma bocarra de dentes atrozes, travando mandíbulas poderosas na mão do infeliz que tenta acessar seu conteúdo sem permissão. Quando uma criatura faz um teste de Ladinagem para punga contra você, sofre 6d6 pontos de dano de corte e fica agarrada pela algibeira. Para se soltar, a criatura precisa gastar uma ação padrão e passar em um teste de Acrobacia (CD do item) — você pode liberar a criatura proferindo uma palavra de comando (uma ação livre).",
+  "effects": [
+    {
+      "type": "dano_ao_atacante",
+      "gatilho": "teste de Ladinagem para punga contra o portador",
+      "dano": "6d6",
+      "tipo_dano": "corte",
+      "efeito_adicional": "agarra o atacante"
+    },
+    {
+      "type": "condicao_escape",
+      "condicao": "agarrado",
+      "cd": "CD do item",
+      "teste": "Acrobacia",
+      "acao": "ação padrão"
+    },
+    {
+      "type": "liberar_agarrado",
+      "acao": "ação livre",
+      "gatilho": "palavra de comando"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

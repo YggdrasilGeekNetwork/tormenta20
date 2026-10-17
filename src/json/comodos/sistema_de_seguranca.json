@@ -1,0 +1,17 @@
+{
+  "id": "sistema_de_seguranca",
+  "name": "Sistema de Segurança",
+  "description": "A base possui armadilhas mundanas ou mágicas instaladas em sua entrada e/ou cômodos, que fornecem +4 de segurança à base. Os residentes, é claro, conhecem as senhas que precisam falar e as alavancas que precisam puxar para não serem vítimas de suas próprias defesas. Mais do que isso, por estarem acostumados a lidar com armadilhas, recebem +2 em testes de resistência contra esses perigos.",
+  "effects": [
+    {
+      "type": "bonus_seguranca_base",
+      "value": 4
+    },
+    {
+      "type": "bonus_teste_resistencia_armadilhas",
+      "value": 2
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

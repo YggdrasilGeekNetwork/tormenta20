@@ -1,0 +1,33 @@
+{
+  "id": "defesa_do_martir",
+  "name": "Defesa do Mártir",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Lutando juntos há muito tempo, você e seu grupo aprenderam a defender uns aos outros em momentos de necessidade. Uma vez por rodada, quando um aliado em alcance curto que também tenha este poder sofrer dano, você pode gastar 2 PM para sofrer esse dano no lugar dele.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "damage_redirect",
+      "trigger": "aliado_com_este_poder_em_alcance_curto_sofre_dano",
+      "effect": "voce_sofre_o_dano_no_lugar_dele",
+      "frequency": "uma_vez_por_rodada"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

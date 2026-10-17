@@ -1,0 +1,34 @@
+{
+  "id": "explosao_fulgente",
+  "name": "Explosão Fulgente",
+  "type": "poder_geral",
+  "sub_type": "poder_de_magia",
+  "description": "Suas chamas mágicas emitem um brilho intenso. Um alvo que falhe no teste de resistência fica cego por 1 rodada (ou ofuscado, se já ficou cego por este aprimoramento nessa cena). Este aprimoramento só pode ser aplicado em magias que causam dano de fogo e permitem testes de resistência.",
+  "requirements": [
+    {
+      "type": "class_feature",
+      "sub_type": "hard",
+      "id": "magias"
+    }
+  ],
+  "effects": [
+    {
+      "type": "spell_enhancement",
+      "applies_to": "magias_de_dano_de_fogo_com_teste_de_resistencia",
+      "on_fail": {
+        "condition": "cego",
+        "duration": "1_rodada"
+      },
+      "on_fail_repeat_same_scene": {
+        "condition": "ofuscado"
+      }
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

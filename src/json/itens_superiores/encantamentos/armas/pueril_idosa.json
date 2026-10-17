@@ -1,0 +1,15 @@
+{
+  "id": "pueril_idosa",
+  "name": "Pueril/Idosa",
+  "type": "encantamento",
+  "categoria": "arma",
+  "maldicao": true,
+  "description": "A cada combate, a arma faz com que você rejuvenesça ou envelheça um ano (cada arma com esta maldição causa rejuvenescimento ou envelhecimento, decidido aleatoriamente quando você acha a arma). Verifique os efeitos de envelhecimento em Tormenta20, p. 108 (ou use a regra de idades variáveis da página 288).",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "a cada combate, você envelhece ou rejuvenesce um ano; qual dos dois efeitos a arma causa é decidido aleatoriamente quando ela é encontrada e é fixo para aquele item; consulte as regras de envelhecimento (Tormenta20, p. 108)"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

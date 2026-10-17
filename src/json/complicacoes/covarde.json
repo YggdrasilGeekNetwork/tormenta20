@@ -1,0 +1,23 @@
+{
+  "id": "covarde",
+  "name": "Covarde",
+  "description": "Seu lema é \"aquele que foge hoje vive para lutar amanhã\". Claro, se puder evitar a luta de amanhã também, melhor ainda! Você sofre –5 em testes de resistência contra efeitos de medo e, no início de cada cena envolvendo qualquer tipo de risco ou perigo, deve rolar um dado. Em um resultado ímpar, você fica abalado (mesmo que seja imune a isso).",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_teste_resistencia",
+      "categoria": "medo",
+      "value": -5
+    },
+    {
+      "type": "condicao_condicional",
+      "gatilho": "inicio_de_cena_de_risco_ou_perigo",
+      "dado": "1d",
+      "condicao": "resultado_impar",
+      "efeito": "fica_abalado",
+      "ignora_imunidade": true
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

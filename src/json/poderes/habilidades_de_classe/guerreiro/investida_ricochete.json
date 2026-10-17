@@ -1,0 +1,33 @@
+{
+  "id": "investida_ricochete",
+  "name": "Investida Ricochete",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Uma vez por rodada, quando faz uma investida e acerta o ataque, você pode gastar 2 PM para atacar outra criatura que você consiga alcançar como parte dessa investida.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "bater_e_correr"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "requirement": "acertar_ataque_de_investida",
+      "target": "outra_criatura_alcancavel_na_investida"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

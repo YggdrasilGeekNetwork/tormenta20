@@ -1,0 +1,22 @@
+{
+  "id": "deslumbrante",
+  "name": "Deslumbrante",
+  "type": "melhoria",
+  "categoria": [
+    "armadura",
+    "vestuario"
+  ],
+  "prerequisitos": [
+    "banhado_a_ouro",
+    "cravejado_de_gemas"
+  ],
+  "description": "O item não é apenas decorado com metais ou pedras preciosas, ele é um ícone de ostentação dourada e brilhante, uma verdadeira pilha de luxo e exagero. A CD para resistir às suas habilidades baseadas em Carisma aumenta em +1. Só pode ser aplicada em armaduras e vestuários. Pré-requisito: banhado a ouro ou cravejado de gemas (qualquer um dos dois).",
+  "effects": [
+    {
+      "type": "aumento_cd_habilidades",
+      "atributo": "carisma",
+      "value": 1
+    }
+  ],
+  "livro": "herois_de_arton"
+}

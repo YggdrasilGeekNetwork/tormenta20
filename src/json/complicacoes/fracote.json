@@ -1,0 +1,15 @@
+{
+  "id": "fracote",
+  "name": "Fracote",
+  "description": "Você cresceu dentro dos muros de um palácio ou enfurnado na torre de um mago e nunca praticou atividades físicas. Você está permanentemente fraco (mesmo que seja imune a essa condição).",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "condicao_permanente",
+      "condicao": "fraco",
+      "ignora_imunidade": true
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

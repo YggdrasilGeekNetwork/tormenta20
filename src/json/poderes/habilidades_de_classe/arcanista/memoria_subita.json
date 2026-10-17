@@ -1,0 +1,23 @@
+{
+  "id": "memoria_subita",
+  "name": "Memória Súbita",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Escolha uma de suas magias que não esteja memorizada. Você pode gastar uma ação de movimento para memorizar essa magia até o fim da cena. Se fizer isso, uma de suas outras magias memorizadas, a sua escolha, deixa de estar memorizada. Pré-requisito: Mago.",
+  "requirements": [
+    {
+      "type": "caminho_do_arcanista",
+      "sub_type": "hard",
+      "id": "mago"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "action": "movimento",
+      "effect": "memoriza_magia_nao_memorizada_ate_fim_da_cena",
+      "cost_effect": "desmemoriza_outra_magia_memorizada_a_escolha"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

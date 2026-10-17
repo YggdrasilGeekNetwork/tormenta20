@@ -1,0 +1,16 @@
+{
+  "id": "sanguessuga",
+  "name": "Sanguessuga",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico possui entalhes de marfim pontiagudos, semelhantes a dentes caninos. Se você lançar uma magia e um ou mais inimigos falharem no teste de resistência contra ela, você recebe 10 PV temporários.",
+  "effects": [
+    {
+      "type": "bonus_pv",
+      "value": 10,
+      "temporario": true,
+      "gatilho": "um ou mais inimigos falham no teste de resistência contra uma magia sua"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "canil",
+  "name": "Canil",
+  "description": "Em troca de pulgas e cheiro forte, esta construção fornece companheiros tão ferozes quanto leais. Permite recrutar cães de guerra.",
+  "categoria": "guerra",
+  "custo": 4,
+  "effects": [
+    {
+      "type": "recruta_unidade",
+      "unidade": "caes_de_guerra"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

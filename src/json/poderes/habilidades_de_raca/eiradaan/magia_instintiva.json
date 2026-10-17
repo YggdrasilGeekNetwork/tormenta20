@@ -1,0 +1,13 @@
+{
+  "id": "magia_instintiva",
+  "name": "Magia Instintiva",
+  "type": "habilidade_de_raca",
+  "race": "eiradaan",
+  "description": "Você pode usar Sabedoria no lugar de seu atributo-chave de magias arcanas e Misticismo. Além disso, quando lança uma magia, você recebe +1 PM para gastar em seus aprimoramentos (não cumulativo com outros efeitos que fornecem PM para aprimoramentos, como bolsa de pó).",
+  "effects": {
+    "attribute_override": { "aplica_a": ["magias_arcanas", "Misticismo"], "atributo": "sabedoria" },
+    "bonus_pm_aprimoramento": 1,
+    "cumulativo": false
+  },
+  "livro": "herois_de_arton"
+}

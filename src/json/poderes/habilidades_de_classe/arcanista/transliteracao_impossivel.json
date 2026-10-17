@@ -1,0 +1,28 @@
+{
+  "id": "transliteracao_impossivel",
+  "name": "Transliteração Impossível",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Quando usa um pergaminho de uma magia que conheça, você recebe +2 PM para gastar em aprimoramentos e a magia não pode ser anulada por contramágica. Pré-requisito: Escriba Arcano.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "escriba_arcano"
+    }
+  ],
+  "effects": [
+    {
+      "type": "resource_gain",
+      "resource": "PM",
+      "value": 2,
+      "applies_to": "aprimoramentos_ao_usar_pergaminho_de_magia_conhecida"
+    },
+    {
+      "type": "immunity",
+      "value": "contramagica",
+      "applies_to": "magia_de_pergaminho_de_magia_conhecida"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

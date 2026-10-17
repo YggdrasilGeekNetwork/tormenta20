@@ -1,0 +1,22 @@
+{
+  "id": "usado",
+  "name": "Usado",
+  "type": "melhoria",
+  "categoria": [
+    "ferramenta",
+    "vestuario"
+  ],
+  "prerequisitos": null,
+  "restricao": {
+    "tipo": "nao_pode_ser_aplicada_por_artesao_apenas_adquirida_comprando_de_segunda_mao"
+  },
+  "description": "O item não foi comprado assim que foi fabricado — já está gasto e mostra marcas de uso, tendo passado pelas mãos de vários aventureiros, plebeus, nobres, bandidos... Em compensação, está \"amaciado\", ajustando-se melhor do que qualquer peça recém-feita e ainda não testada. Uma vez por dia, você pode rolar novamente um resultado 1 natural em um teste de perícia com o item. Esta melhoria não pode ser aplicada por um artesão, apenas adquirida quando o item é comprado de segunda mão.",
+  "effects": [
+    {
+      "type": "rerolagem_1_natural",
+      "contexto": "teste de perícia feito com o item",
+      "vezes_por_dia": 1
+    }
+  ],
+  "livro": "herois_de_arton"
+}

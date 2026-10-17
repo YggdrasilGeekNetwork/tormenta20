@@ -1,0 +1,15 @@
+{
+  "id": "avarenta",
+  "name": "Avarenta",
+  "type": "encantamento",
+  "categoria": "arma",
+  "maldicao": true,
+  "description": "A arma parece se recusar a causar dano, como se cada gota de sangue dos inimigos custasse a ela. É quase como se ela fosse avarenta quanto ao dano. Reduza todo dano causado pela arma para o múltiplo de 10 mais próximo. Assim, se a arma causar 15 pontos de dano, em vez disso irá causar apenas 10. Se causar 29, irá causar apenas 20 e assim por diante.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "todo dano causado pela arma é reduzido para o múltiplo de 10 mais próximo, para baixo (ex.: 15 vira 10; 29 vira 20)"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

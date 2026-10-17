@@ -1,0 +1,41 @@
+{
+  "id": "familiar_de_luz",
+  "name": "Familiar de Luz",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Seu familiar se transforma em uma criatura celestial. Além dos benefícios normais, seu familiar se torna imune a dano de luz e, sempre que lança uma magia que gere um efeito de luz, você recebe +1 PM para gastar em aprimoramentos.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "aggelus",
+        "qareen"
+      ],
+      "note": "aggelus, ou qareen da Luz"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "familiar"
+    }
+  ],
+  "effects": [
+    {
+      "type": "familiar_transform",
+      "form": "celestial"
+    },
+    {
+      "type": "immunity",
+      "value": "dano_de_luz",
+      "target": "familiar"
+    },
+    {
+      "type": "pm_improvement",
+      "value": 1,
+      "trigger": "lancar_magia_com_efeito_de_luz",
+      "use": "aprimoramentos"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

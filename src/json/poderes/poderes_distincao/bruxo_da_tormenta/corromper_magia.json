@@ -1,0 +1,18 @@
+{
+  "id": "corromper_magia",
+  "name": "Corromper Magia",
+  "type": "poder_distincao",
+  "description": "A corrupção empregada pelo bruxo da Tormenta se espalha através de suas magias. Quando lança uma magia de dano, você pode receber uma quantidade de pontos de insanidade limitada pelo total de poderes da distinção que você possui. Se fizer isso, para cada PI recebido, a magia causa +1d6 pontos de dano de essência.",
+  "effects": [
+    {
+      "type": "ativado",
+      "gatilho": "lança uma magia de dano",
+      "efeito": "pode receber pontos de insanidade (limitado pelo total de poderes da distinção); para cada PI recebido, a magia causa +1d6 pontos de dano de essência"
+    }
+  ],
+  "requirements": [
+    "Magia Antiaberrante",
+    "Resistência à Tormenta"
+  ],
+  "livro": "herois_de_arton"
+}

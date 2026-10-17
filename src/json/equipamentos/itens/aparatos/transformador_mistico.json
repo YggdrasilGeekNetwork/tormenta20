@@ -1,0 +1,16 @@
+{
+  "id": "transformador_mistico",
+  "name": "Transformador Místico",
+  "type": "item",
+  "categoria": "aparato",
+  "preco": 600,
+  "espacos": 1,
+  "espacos_acoplado": 0,
+  "cd_fabricacao": 20,
+  "efeito": {
+    "efeito": "permite acoplar um item esotérico à engenhoca, que fornece seus benefícios à magia simulada por ela, sem necessidade de ser empunhado",
+    "acoplar_remover_esoterico": "1 hora de trabalho"
+  },
+  "description": "Aparato usado por inventores para modificar o funcionamento de suas engenhocas. Enquanto acoplado a uma engenhoca, não ocupa espaços; uma engenhoca pode ter até dois aparatos diferentes. Usar um aparato aumenta a CD para ativar a engenhoca em +2 (dois aparatos, +5). Acoplar ou remover um aparato exige 1 hora de trabalho. Aparatos são fabricados com Ofício (engenhoqueiro), CD 20. Conjunto de cristais ligados a mecanismos complexos, capaz de captar a energia mágica inerente a certos objetos e convertê-la para uso em engenhocas. Permite acoplar um item esotérico à engenhoca, que fornece seus benefícios à magia simulada por ela (sem necessidade de ser empunhado). Acoplar ou remover o esotérico exige 1 hora de trabalho.",
+  "livro": "herois_de_arton"
+}

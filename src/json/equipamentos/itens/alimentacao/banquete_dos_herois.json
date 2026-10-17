@@ -1,0 +1,17 @@
+{
+  "id": "banquete_dos_herois",
+  "name": "Banquete dos Heróis",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 150,
+  "espacos": 0.5,
+  "livro": "herois_de_arton",
+  "ingredientes": ["carne_de_caca", "ovo_de_monstro", "avela_de_norba"],
+  "custo_ingredientes": 82,
+  "cd_teste_oficio_cozinheiro": 30,
+  "efeito": {
+    "bonus_atributo_a_escolha": 1,
+    "nota": "Esse aumento não oferece PV, PM e perícias adicionais."
+  },
+  "description": "Uma mesa repleta das melhores comidas que o dinheiro pode pagar. Você recebe +1 em um atributo a sua escolha. Esse aumento não oferece PV, PM e perícias adicionais."
+}

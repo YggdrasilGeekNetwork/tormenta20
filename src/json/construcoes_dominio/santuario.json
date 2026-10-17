@@ -1,0 +1,15 @@
+{
+  "id": "santuario",
+  "name": "Santuário",
+  "description": "Um lugar isolado, como uma gruta ou clareira escondida, ideal para venerar espíritos da natureza. Você recebe um poder de druida.",
+  "categoria": "religiao",
+  "custo": 4,
+  "effects": [
+    {
+      "type": "recebe_poder",
+      "categoria": "druida"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

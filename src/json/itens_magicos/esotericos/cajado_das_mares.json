@@ -1,0 +1,28 @@
+{
+  "id": "cajado_das_mares",
+  "name": "Cajado das Marés",
+  "categoria": "medio",
+  "preco": 27000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este cajado arcano glacial é feito de coral azul e conchas. Você recebe deslocamento de natação 9m (se já possui deslocamento de natação, ele aumenta em +3m). Além disso, você pode gastar uma ação de movimento e 2 PM para conjurar um redemoinho que empurra todos os inimigos adjacentes 4,5m para longe de você (Ref CD Int evita).",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "glacial"
+    },
+    {
+      "type": "deslocamento",
+      "tipo": "natação",
+      "value": 9,
+      "condicao": "se já possui deslocamento de natação, aumenta em +3m em vez disso"
+    },
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 2,
+      "efeito": "conjura um redemoinho que empurra todos os inimigos adjacentes 4,5m para longe de você (Reflexos CD Inteligência evita)"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

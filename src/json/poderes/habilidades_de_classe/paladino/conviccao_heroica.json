@@ -1,0 +1,33 @@
+{
+  "id": "conviccao_heroica",
+  "name": "Convicção Heroica",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Uma vez por cena, quando seus pontos de vida forem reduzidos a 0 ou menos, você pode gastar 5 PM para curar 50 PV.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    },
+    {
+      "type": "fearute_use_time",
+      "sub_type": "soft",
+      "time": "uma_vez_por_cena"
+    }
+  ],
+  "effects": [
+    {
+      "type": "PV_recovery",
+      "value": 50,
+      "requirement": "pv_reduzido_a_0_ou_menos"
+    }
+  ],
+  "costs": [
+    {
+      "value": 5,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "solo_profanado",
+  "name": "Solo Profanado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Quando você lança uma magia de dano de trevas dentro de uma área de Profanar, criaturas que falhem no teste de resistência da magia não podem curar PV por um número de rodadas igual ao círculo da magia. Pré-requisito: Profanar.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "magia_sagrada_profana"
+    }
+  ],
+  "effects": [
+    {
+      "type": "condition_inflict",
+      "condition": "nao_pode_curar_pv",
+      "duration": "rodadas_iguais_ao_circulo_da_magia",
+      "trigger": "magia_de_dano_de_trevas_dentro_de_area_de_profanar_com_falha_na_resistencia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

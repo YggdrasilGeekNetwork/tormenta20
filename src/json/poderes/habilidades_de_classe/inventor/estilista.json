@@ -1,0 +1,34 @@
+{
+  "id": "estilista",
+  "name": "Estilista",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Se estiver vestindo um item de vestuário feito por você mesmo, o bônus em perícias fornecido por ele aumenta em +1 e se aplica também a testes de Diplomacia e Enganação com criaturas inteligentes (Int –3 ou maior).",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "car",
+      "value": 1
+    },
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "oficio_alfaiate"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 1,
+      "requirement": "vestindo_item_de_vestuario_feito_por_voce_mesmo"
+    },
+    {
+      "type": "skill_improvement",
+      "skill": ["diplomacia", "enganacao"],
+      "requirement": "contra_criaturas_inteligentes_int_-3_ou_maior"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

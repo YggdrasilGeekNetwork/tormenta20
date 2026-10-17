@@ -1,0 +1,14 @@
+{
+  "id": "aparencia_insignificante",
+  "name": "Aparência Insignificante",
+  "type": "poder_distincao",
+  "description": "\"Eu queria atacar o escapista, mas só estou vendo esse garotinho...\" Você soma seu total de poderes da distinção na CD para resistir ao seu poder Aparência Inofensiva. Além disso, a cada cena, pode usar esse poder uma vez contra cada inimigo (em vez de apenas uma vez).",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "soma o total de poderes da distinção na CD de Aparência Inofensiva; pode usar Aparência Inofensiva uma vez por inimigo por cena"
+    }
+  ],
+  "requirements": ["Não Há Ninguém Aqui"],
+  "livro": "herois_de_arton"
+}

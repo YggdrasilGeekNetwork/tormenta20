@@ -1,0 +1,22 @@
+{
+  "id": "corpo_fechado",
+  "name": "Corpo Fechado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Quando faz um teste de resistência, você pode gastar 1 PM para somar sua Constituição no teste.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "add_attr_bonus",
+      "attr": "con",
+      "requirement": "teste_de_resistencia"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

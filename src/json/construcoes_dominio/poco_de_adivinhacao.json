@@ -1,0 +1,15 @@
+{
+  "id": "poco_de_adivinhacao",
+  "name": "Poço de Adivinhação",
+  "description": "Permite que o regente observe lugares — ou mesmo épocas — distantes, garantindo que fique preparado para qualquer tipo de situação. Uma vez por aventura, quando faz um teste, você pode rolar dois dados e usar o melhor resultado.",
+  "categoria": "misticismo",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "vantagem_teste",
+      "frequencia": "uma_vez_por_aventura"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

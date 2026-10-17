@@ -1,0 +1,17 @@
+{
+  "id": "missa_mente_abencoada",
+  "name": "Missa: Mente Abençoada",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Os participantes desta Missa recebem +2 em testes de perícias baseadas em Sabedoria.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "applies_to": "pericias_baseadas_em_sabedoria",
+      "target": "participantes_da_missa"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

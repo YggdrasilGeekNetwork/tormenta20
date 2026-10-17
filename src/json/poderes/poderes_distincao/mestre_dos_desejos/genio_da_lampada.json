@@ -1,0 +1,26 @@
+{
+  "id": "genio_da_lampada",
+  "name": "Gênio da Lâmpada",
+  "type": "poder_distincao",
+  "description": "Além de uma morada, a lâmpada é um refúgio, um lugar onde o mestre dos desejos pode descansar. Você recebe uma lâmpada mágica, um item Minúsculo com RD 10 e PV iguais à metade dos seus. Enquanto estiver de posse da lâmpada, você pode lançar a magia Refúgio sem pagar seu custo básico. Além disso, se for reduzido a 0 PV ou menos, você pode gastar 3 PM para ser transportado magicamente para dentro da lâmpada; isso interrompe qualquer perda de vida ou dano contínuo, mas o deixa inconsciente em um transe místico até você voltar a ter pelo menos 1 PV. Dentro da lâmpada, você recupera PV por descanso normalmente e pode ser afetado por efeitos mágicos de cura lançados sobre a lâmpada. Se perder sua lâmpada, você pode criar uma nova com uma semana de trabalho e T$ 100.",
+  "effects": [
+    {
+      "type": "concede_item",
+      "item": "lâmpada mágica (Minúscula, RD 10, PV igual à metade dos seus)"
+    },
+    {
+      "type": "passivo",
+      "efeito": "pode lançar Refúgio sem pagar seu custo básico enquanto tiver a lâmpada"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 3,
+      "efeito": "se reduzido a 0 PV ou menos, é transportado para dentro da lâmpada, interrompendo perda de vida/dano contínuo; fica inconsciente em transe até voltar a ter 1+ PV; recupera PV por descanso normalmente lá dentro"
+    }
+  ],
+  "requirements": [
+    "O Primeiro Desejo",
+    "Refúgio"
+  ],
+  "livro": "herois_de_arton"
+}

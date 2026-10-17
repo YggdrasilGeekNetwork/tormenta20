@@ -1,0 +1,31 @@
+{
+  "id": "marionetes",
+  "name": "Marionetes",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 90,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "maos": 2,
+  "nao_produz_som": true,
+  "efeito": {
+    "bonus_teste_oposto_atuacao": {
+      "poderes": [
+        "Balada Fascinante",
+        "Fascinar em Massa"
+      ],
+      "valor": 2
+    },
+    "bonus_cd": {
+      "poderes": [
+        "Manipular",
+        "Manipular em Massa"
+      ],
+      "valor": 2
+    }
+  },
+  "description": "Embora não produza nenhum som, este conjunto de bonecos articulados pode ser empregado como um \"instrumento musical\". Você recebe +2 no teste oposto de Atuação para usar os poderes Música: Balada Fascinante e Fascinar em Massa, e na CD dos poderes Manipular e Manipular em Massa.",
+  "livro": "herois_de_arton"
+}

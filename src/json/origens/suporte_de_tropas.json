@@ -1,0 +1,27 @@
+{
+  "id": "suporte_de_tropas",
+  "name": "Suporte de Tropas",
+  "description": "Exércitos em marcha não são formados apenas por combatentes. Muitas vezes são seguidos por grupos de mercadores, cozinheiros, costureiros, curandeiros, até coveiros que lidam com (ou saqueiam) os cadáveres. Estes seguidores são apreciados pelos soldados, por seu apoio às tropas no campo de batalha — mas podem ser desprezados pelos oficiais, considerados parasitas oportunistas. Em menor escala, também existem aqueles que acompanham aventureiros à distância, esperando colher seus espólios ou ajudar quando houver oportunidade. Você foi alguém assim, até se cansar de seguir e resolver se juntar ao grupo.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Equipamento de viagem"
+    },
+    {
+      "type": "fixed",
+      "text": "Instrumentos de ofício"
+    },
+    {
+      "type": "fixed",
+      "text": "Maleta de medicamentos"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Apoio de Retaguarda"
+    ]
+  },
+  "unique_power": "apoio_de_retaguarda",
+  "livro": "herois_de_arton"
+}

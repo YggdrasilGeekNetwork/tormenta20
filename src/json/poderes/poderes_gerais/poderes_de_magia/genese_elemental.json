@@ -1,0 +1,41 @@
+{
+  "id": "genese_elemental",
+  "name": "Gênese Elemental",
+  "type": "poder_geral",
+  "sub_type": "poder_de_magia",
+  "description": "Além do normal, a magia cria 1d4 (+1 por círculo) capangas elementais Pequenos em espaços desocupados adjacentes ao alvo ou dentro da área de efeito da magia (deslocamento 9m, Defesa 15, dano 1d6+1 do tipo da magia, imunidade a atordoamento, cansaço, dano do seu elemento, dano não letal, efeitos de metabolismo e paralisia). Eles desaparecem quando são reduzidos a 0 PV ou no fim da cena.",
+  "requirements": [
+    {
+      "type": "magic_circle",
+      "sub_type": "hard",
+      "circle": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "spell_enhancement",
+      "effect": "cria_1d4_mais_1_por_circulo_capangas_elementais_pequenos",
+      "capanga_stats": {
+        "deslocamento": "9m",
+        "defesa": 15,
+        "dano": "1d6+1_do_tipo_da_magia",
+        "imunidades": [
+          "atordoamento",
+          "cansaco",
+          "dano_do_elemento",
+          "dano_nao_letal",
+          "efeitos_de_metabolismo",
+          "paralisia"
+        ]
+      },
+      "duration": "ate_0_pv_ou_fim_da_cena"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 3,
+      "type": "PM"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "sede_de_guilda",
+  "name": "Sede de Guilda",
+  "description": "Esta associação reúne mestres de diversos ofícios, que podem fornecer o melhor equipamento possível ao regente. No início de cada aventura, um item a sua escolha recebe uma melhoria (exceto material especial), até um máximo de quatro.",
+  "categoria": "nobreza",
+  "custo": 15,
+  "effects": [
+    {
+      "type": "melhoria_item_gratis",
+      "frequencia": "por_aventura",
+      "maximo": 4,
+      "excecao": "material especial"
+    }
+  ],
+  "prerequisito": "oficina",
+  "livro": "herois_de_arton"
+}

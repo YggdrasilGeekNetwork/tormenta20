@@ -1,0 +1,14 @@
+{
+  "id": "cabeca_quente",
+  "name": "Cabeça Quente",
+  "description": "Sempre que você sofre dano, seu próximo turno deve ser dedicado a atacar a fonte do dano. Se não puder atacá-la — por exemplo, se a fonte do dano for um inimigo fora do seu alcance ou algo que por definição não possa ser atacado, como um raio proveniente de uma tempestade — você deve gastar sua próxima ação de movimento esbravejando contra o ar.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "restricao_acao",
+      "descricao": "sempre que sofre dano, o próximo turno deve ser dedicado a atacar a fonte do dano; se não puder, deve gastar a ação de movimento esbravejando contra o ar"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

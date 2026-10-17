@@ -1,0 +1,16 @@
+{
+  "id": "magia_traicoeira",
+  "name": "Magia Traiçoeira",
+  "type": "poder_distincao",
+  "description": "\"Parece que ele ficou... chocado.\" Quando lança uma magia de dano em um ou mais alvos desprevenidos, você pode usar seu ataque furtivo com ela em um deles. Custo: +2 PM.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "lançar magia de dano contra um ou mais alvos desprevenidos",
+      "efeito": "aplica ataque furtivo a um dos alvos desprevenidos"
+    }
+  ],
+  "requirements": ["Ataque Furtivo 3d6", "Disfarce Mental"],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "analise_tatica",
+  "name": "Análise Tática",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Você recebe +2 em Guerra e pode fazer testes dessa perícia para identificar criatura contra humanoides (veja Misticismo em Tormenta20, p. 121).",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "guerra"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "skill": "guerra",
+      "value": 2
+    },
+    {
+      "type": "skill_improvement",
+      "skill": "guerra",
+      "note": "pode_ser_usada_para_identificar_criatura_contra_humanoides"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

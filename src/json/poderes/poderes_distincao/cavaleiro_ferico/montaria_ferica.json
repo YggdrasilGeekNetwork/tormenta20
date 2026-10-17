@@ -1,0 +1,32 @@
+{
+  "id": "montaria_ferica",
+  "name": "Montaria Feérica",
+  "type": "poder_distincao",
+  "description": "O respeito do cavaleiro feérico pela natureza é recompensado na forma de um aliado leal. Você recebe um parceiro montaria veterano, escolhido entre cavalo de guerra, trobo ou outra criatura que, a critério do mestre, tenha uma natureza feérica. Caso já possua uma montaria fornecida por outra habilidade, em vez disso essa montaria se torna também um parceiro combatente iniciante. Você recebe +5 em testes de Cavalgar para correr e saltar com sua montaria. Caso perca sua montaria, você pode treinar outra com uma semana de trabalho.",
+  "effects": [
+    {
+      "type": "concede_parceiro",
+      "tipo": "montaria",
+      "nivel": "veterano",
+      "opcoes": [
+        "cavalo de guerra",
+        "trobo",
+        "outra criatura de natureza feérica a critério do mestre"
+      ],
+      "condicao_alternativa": "se já possuir uma montaria de outra habilidade, ela se torna também um parceiro combatente iniciante"
+    },
+    {
+      "type": "passivo",
+      "efeito": "+5 em testes de Cavalgar para correr e saltar com a montaria"
+    },
+    {
+      "type": "reposicao",
+      "efeito": "se perder a montaria, pode treinar outra com uma semana de trabalho"
+    }
+  ],
+  "requirements": [
+    "treinado em Cavalgar",
+    "Arte Élfica"
+  ],
+  "livro": "herois_de_arton"
+}

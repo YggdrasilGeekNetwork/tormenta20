@@ -1,0 +1,14 @@
+{
+  "id": "tabernaculo",
+  "name": "Tabernáculo",
+  "description": "Uma ampliação do oratório, inclui um espaço para pergaminhos e materiais para estudo de textos sacros. No início de cada aventura, cada residente pode escolher uma de suas magias divinas. Até o fim da aventura, o custo dessa magia diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "reduz_custo_magia_divina_escolhida",
+      "value": 1,
+      "unidade": "pm"
+    }
+  ],
+  "prerequisito": "oratório",
+  "livro": "herois_de_arton"
+}

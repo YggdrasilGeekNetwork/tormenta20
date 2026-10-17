@@ -1,0 +1,19 @@
+{
+  "id": "estandarte_ferramenta",
+  "name": "Estandarte",
+  "type": "item",
+  "categoria": "ferramenta",
+  "preco": 15,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "efeito": {
+    "requisito": "empunhado com uma mão",
+    "beneficio_capangas": {
+      "bonus_defesa": 1,
+      "bonus_dano": 1
+    }
+  },
+  "description": "Pedaço de tecido, geralmente retangular e com enfeites, com uma representação do brasão ou símbolo de uma família, senhor feudal ou deus. Montado em uma estrutura de madeira reforçada com metal, precisa ser empunhado com uma mão. Se você estiver empunhando um estandarte, seus capangas recebem +1 na Defesa e em rolagens de dano.",
+  "livro": "herois_de_arton"
+}

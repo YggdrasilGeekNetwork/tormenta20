@@ -1,0 +1,19 @@
+{
+  "id": "armadura_de_chumbo",
+  "name": "Armadura de Chumbo",
+  "type": "armadura",
+  "categoria": "pesada",
+  "preco": 750,
+  "bonus_defesa": 7,
+  "penalidade_armadura": -5,
+  "espacos": 5,
+  "especial": {
+    "reducao_dano": 2,
+    "reducao_dano_tipo": "mundano",
+    "resistencia_magia": 2,
+    "cumulativo_com_itens": true
+  },
+  "vestir_remover": "acao_completa",
+  "description": "Armadura extremamente pesada e desajeitada que faz o usuário parecer mais uma estátua do que um cavaleiro. É a preferida de alguns infelizes que já sofreram nas mãos de arcanistas. É mais pesada e incômoda do que uma armadura completa, sem oferecer a mesma proteção. No entanto, fornece redução de dano 2/mundano e resistência a magia +2, cumulativo com outros efeitos de itens.",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "noz_saltadora",
+  "name": "Noz Saltadora",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 90,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "teleporte_pos_magia": "4,5m"
+  },
+  "description": "Semente encantada com uma fagulha de magia de teletransporte. Após lançar a magia, você pode se teletransportar para qualquer espaço desocupado em 4,5m.",
+  "livro": "herois_de_arton"
+}

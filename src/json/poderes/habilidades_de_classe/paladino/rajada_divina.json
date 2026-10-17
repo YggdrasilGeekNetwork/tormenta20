@@ -1,0 +1,28 @@
+{
+  "id": "rajada_divina",
+  "name": "Rajada Divina",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Quando faz um Golpe Divino com Luz Purificadora, você pode gastar +1 PM para aumentar o alcance desse ataque para curto (ele ainda conta como um ataque corpo a corpo).",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "luz_purificadora"
+    }
+  ],
+  "effects": [
+    {
+      "type": "range_improvement",
+      "value": "curto",
+      "note": "ataque_ainda_conta_como_corpo_a_corpo"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

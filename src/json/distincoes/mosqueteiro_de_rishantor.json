@@ -1,0 +1,10 @@
+{
+  "id": "mosqueteiro_de_rishantor",
+  "name": "Mosqueteiro de Rishantor",
+  "description": "Guarda honesto demais para a corte corrupta de Rishantor, relegado a um batalhão desprezado que transformou espada e orgulho em símbolo de honra.",
+  "admissao": "O candidato deve se apresentar no Palácio Rishantor requisitando treinamento e serviço no batalhão — tarefa dificultada de propósito por guardas e nobres, que tentam de tudo para desencorajá-lo. Uma vez encontrado pelos Mosqueteiros, passa por uma extensa sabatina que investiga sua ética, moral e reputação, seguida de meses de treinamento excruciante como guarda, aulas de esgrima e testes de honra, enquanto guardas e nobres tentam corrompê-lo (quem cede é expulso sumariamente). Por fim, deve duelar contra três Mosqueteiros experientes — não para vencê-los, mas para provar coragem diante de um desafio impossível. Aceito, é recebido numa noite de festa, faz seu juramento e recebe chapéu, tabardo e espada.",
+  "marca_nome": "Equipamento Real",
+  "marca_descricao": "O equipamento de um Mosqueteiro de Rishantor deveria ser um deboche. Mas é ostentado com orgulho. Você recebe um tabardo, um florete ou rapieira e um chapéu emplumado. Enquanto você estiver usando esses itens, recebe um bônus de +1 Diplomacia, testes de ataque, rolagens de dano e na Defesa. Você não pode ser devoto de divindades capazes de canalizar energia negativa e deve seguir algum código de conduta (como Código de Honra). Se violá-lo, além das consequências normais, não poderá usar seus poderes de mosqueteiro até recuperar seus PM.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

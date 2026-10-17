@@ -1,0 +1,15 @@
+{
+  "id": "demonstracoes_praticas",
+  "name": "Demonstrações Práticas",
+  "type": "poder_distincao",
+  "description": "Nessa fase do aprendizado, exemplos práticos falam mais alto do que qualquer outra coisa… Quando um inimigo falha em um teste de resistência contra uma de suas magias, você pode fazer um teste de Misticismo para ajudar. Até a próxima rodada, cada aliado em alcance curto recebe um bônus em Misticismo e na CD de suas magias igual ao bônus fornecido por essa ajuda.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "inimigo falha em teste de resistência contra uma de suas magias",
+      "efeito": "pode fazer teste de Misticismo para ajudar; até a próxima rodada, aliados em alcance curto recebem esse bônus em Misticismo e na CD de suas magias"
+    }
+  ],
+  "requirements": [],
+  "livro": "herois_de_arton"
+}

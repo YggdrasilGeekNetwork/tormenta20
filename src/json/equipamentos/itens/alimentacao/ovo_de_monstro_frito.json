@@ -1,0 +1,16 @@
+{
+  "id": "ovo_de_monstro_frito",
+  "name": "Ovo de Monstro Frito",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 30,
+  "espacos": 0.5,
+  "livro": "herois_de_arton",
+  "ingredientes": ["ovo_de_monstro", "oleo"],
+  "custo_ingredientes": 53,
+  "cd_teste_oficio_cozinheiro": 25,
+  "efeito": {
+    "pv_temporarios": 10
+  },
+  "description": "A receita é simples — o segredo está nos ingredientes. Feito com ovos de monstros, este ovo frito é extremamente nutritivo. Você recebe +10 PV temporários."
+}

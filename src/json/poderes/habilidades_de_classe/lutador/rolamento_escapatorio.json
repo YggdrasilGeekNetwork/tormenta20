@@ -1,0 +1,28 @@
+{
+  "id": "rolamento_escapatorio",
+  "name": "Rolamento Escapatório",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Quando falha em um teste para evitar uma condição de movimento (como o teste oposto para evitar ser agarrado), você pode gastar 2 PM para rolá-lo novamente usando Acrobacia.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "acrobacia"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "note": "pode_repetir_o_teste_falho_usando_acrobacia",
+      "requirement": "falhar_em_teste_para_evitar_condicao_de_movimento"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

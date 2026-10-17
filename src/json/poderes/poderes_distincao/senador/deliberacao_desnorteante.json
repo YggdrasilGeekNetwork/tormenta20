@@ -1,0 +1,19 @@
+{
+  "id": "deliberacao_desnorteante",
+  "name": "Deliberação Desnorteante",
+  "type": "poder_distincao",
+  "description": "Sua argumentação complexa e intrincada é capaz de deixar seus adversários sem reação. Quando usa uma habilidade que exige um teste de Vontade, você pode gastar 1 PM. Se fizer isso, as criaturas que falharem nesse teste ficam pasmas por 1 rodada (uma vez por cena).",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "limite": "uma vez por cena",
+      "gatilho": "usa habilidade que exige teste de Vontade",
+      "efeito": "criaturas que falharem nesse teste ficam pasmas por 1 rodada"
+    }
+  ],
+  "requirements": [
+    "Cofres Fundos"
+  ],
+  "livro": "herois_de_arton"
+}

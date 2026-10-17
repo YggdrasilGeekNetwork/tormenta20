@@ -1,0 +1,16 @@
+{
+  "id": "magia_experimental",
+  "name": "Magia Experimental",
+  "type": "poder_distincao",
+  "description": "\"O tipo de magia que faço é instável. Quanto maior o efeito, maior o risco.\" Quando lança uma magia, você pode fazer um teste de Misticismo (CD 15 + o custo em PM da magia) para alterar seu funcionamento. Se passar, a magia recebe um dos benefícios a seguir, a sua escolha (ou dois, se o resultado for 20 natural): escolher um poder de aprimoramento que você não possui e aplicá-lo pagando seu custo adicional em PM; escolher um poder de aprimoramento que você possui e aplicá-lo sem custo adicional; ou reduzir o custo da magia em –1 PM (cumulativo com outras reduções). Se falhar no teste de Misticismo, a magia não tem efeito, mas você paga o custo dela mesmo assim. Se o resultado do teste for 1 natural, além disso você gera uma explosão arcana que atinge um raio de 9m; criaturas e objetos soltos nessa área sofrem 2d8 pontos de dano de essência por círculo da magia (Reflexos CD da magia reduz à metade; você mesmo não tem direito ao teste de resistência!).",
+  "effects": [
+    {
+      "type": "ativado",
+      "gatilho": "lançar uma magia",
+      "efeito": "teste de Misticismo (CD 15 + custo em PM); sucesso concede um benefício à escolha (aplicar aprimoramento não possuído pagando custo extra, aplicar aprimoramento possuído sem custo extra, ou –1 PM no custo da magia; dois benefícios em 20 natural)",
+      "falha": "magia não tem efeito mas o custo é pago; em 1 natural gera explosão de 9m de raio causando 2d8 de dano de essência por círculo da magia (Reflexos reduz à metade; sem teste de resistência para o próprio conjurador)"
+    }
+  ],
+  "requirements": ["habilidade de classe Magias", "treinado em Misticismo", "um poder de aprimoramento"],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "danificar_as_asas",
+  "name": "Danificar as Asas",
+  "type": "poder_distincao",
+  "description": "Com um ataque certeiro, o caçador de dragões atrapalha os movimentos do dragão. Quando você faz um ataque, pode gastar 2 PM para machucar as asas ou outro membro locomotor do alvo. Se você acertar o ataque, o alvo fica caído e lento (Fortitude CD For ou Des reduz para lento por 1 rodada e a criatura não pode mais ser afetada por este poder nessa cena). Para cada poder da distinção, a CD aumenta em +1. Esse aumento é dobrado contra dragões.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "faz um ataque",
+      "efeito": "se acertar, o alvo fica caído e lento (Fortitude CD For ou Des reduz a apenas lento por 1 rodada; a criatura não pode ser afetada de novo por este poder na mesma cena)",
+      "escalavel": "a CD aumenta em +1 para cada poder da distinção que possui; esse aumento é dobrado contra dragões"
+    }
+  ],
+  "requirements": [
+    "Destemor Inflamado"
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "poderes_maiores_item_inteligente",
+  "name": "Tabela 3-14: Poderes de Itens Mágicos Inteligentes (Poder Maior)",
+  "description": "Role 1d% para cada poder secundário maior que um item mágico inteligente possui (veja Tabela 3-13). Se um mesmo poder for rolado mais de uma vez, ignore e role novamente.",
+  "headers": ["Faixa", "Poder Maior"],
+  "rows": [
+    { "Faixa": "01-08", "Poder Maior": "Pode lançar Augúrio" },
+    { "Faixa": "09-14", "Poder Maior": "Pode lançar Campo de Força" },
+    { "Faixa": "15-20", "Poder Maior": "Pode lançar Círculo da Justiça" },
+    { "Faixa": "21-26", "Poder Maior": "Pode lançar Condição" },
+    { "Faixa": "27-31", "Poder Maior": "Pode lançar Controlar Fogo" },
+    { "Faixa": "32-40", "Poder Maior": "Pode lançar Curar Ferimentos" },
+    { "Faixa": "41-45", "Poder Maior": "Pode lançar Desespero Esmagador" },
+    { "Faixa": "46-50", "Poder Maior": "Pode lançar Globo da Verdade de Gwen" },
+    { "Faixa": "51-55", "Poder Maior": "Pode lançar Ligação Telepática" },
+    { "Faixa": "56-60", "Poder Maior": "Pode lançar Localização" },
+    { "Faixa": "61-65", "Poder Maior": "Pode lançar Purificação" },
+    { "Faixa": "66-75", "Poder Maior": "Pode lançar Raio Solar" },
+    { "Faixa": "76-80", "Poder Maior": "Pode lançar Soco de Arsenal" },
+    { "Faixa": "81-85", "Poder Maior": "Pode lançar Sopro das Uivantes" },
+    { "Faixa": "86-90", "Poder Maior": "Pode lançar Velocidade" },
+    { "Faixa": "91-100", "Poder Maior": "Fornece +1 em um atributo do usuário (defina aleatoriamente)" }
+  ],
+  "dice": "1d100",
+  "livro": "herois_de_arton"
+}

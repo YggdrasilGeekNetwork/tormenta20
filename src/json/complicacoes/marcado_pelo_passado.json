@@ -1,0 +1,19 @@
+{
+  "id": "marcado_pelo_passado",
+  "name": "Marcado pelo Passado",
+  "description": "Um evento em seu passado o deixou taciturno e sombrio. Você sofre –5 em Diplomacia e recebe –1 PM por nível de personagem.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_pericia",
+      "pericia": "diplomacia",
+      "value": -5
+    },
+    {
+      "type": "penalidade_pm_por_nivel",
+      "value": -1
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "quarto_luxuoso",
+  "name": "Quarto Luxuoso",
+  "description": "Você é um rei (ou algo parecido), então faz sentido que durma como um! Seu quarto tem uma cama enorme, com colchão de plumas de ganso, dossel, penteadeira e espelho. Por estar sempre descansado e bem-disposto, você recebe +5 pontos de vida.",
+  "categoria": "nobreza",
+  "custo": 2,
+  "effects": [
+    {
+      "type": "bonus_pv",
+      "value": 5
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

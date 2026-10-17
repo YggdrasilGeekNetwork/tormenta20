@@ -1,0 +1,13 @@
+{
+  "id": "cozinha",
+  "name": "Cozinha",
+  "description": "Um forno a lenha, prateleiras para ingredientes frescos e vários utensílios necessários para saciar a fome dos aventureiros. No início de cada aventura, você pode escolher dois pratos especiais da seção Alimentação. Os residentes recebem esses pratos embalados 'para viagem'. Cada um é um item que ocupa 0,5 espaço e dura até o fim da aventura ou até ser consumido.",
+  "effects": [
+    {
+      "type": "pratos_especiais_gratis_por_aventura",
+      "quantidade": 2
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

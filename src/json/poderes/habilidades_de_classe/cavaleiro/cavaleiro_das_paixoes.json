@@ -1,0 +1,23 @@
+{
+  "id": "cavaleiro_das_paixoes",
+  "name": "Cavaleiro das Paixões",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Você recebe +5 em testes de atributo para usar suas Paixões. Pré-requisito: um poder de Paixão.",
+  "requirements": [
+    {
+      "type": "feature_group",
+      "sub_type": "hard",
+      "group": "poder_de_paixao",
+      "value": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "attribute_test_improvement",
+      "value": 5,
+      "applies_to": "ativar_paixao"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "ciclo_da_vida",
+  "name": "Ciclo da Vida",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Uma vez por cena, você pode gastar uma ação padrão para fazer um cadáver em alcance curto se decompor instantaneamente. Se fizer isso, você recebe +2 pontos de mana por ND que a criatura tinha em vida. Esses PM adicionais duram até o fim do dia.",
+  "requirements": [
+    {
+      "type": "fearute_use_time",
+      "sub_type": "soft",
+      "time": "uma_vez_por_cena"
+    },
+    {
+      "type": "range_target",
+      "sub_type": "soft",
+      "range": "curto"
+    }
+  ],
+  "effects": [
+    {
+      "type": "PM_improvement",
+      "value": "2_por_nd_da_criatura",
+      "duration": "dia"
+    }
+  ],
+  "costs": [
+    {
+      "type": "acao_padrao"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

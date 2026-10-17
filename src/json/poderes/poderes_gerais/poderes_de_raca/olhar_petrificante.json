@@ -1,0 +1,49 @@
+{
+  "id": "olhar_petrificante",
+  "name": "Olhar Petrificante",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você pode gastar uma ação padrão e 3 PM para forçar uma criatura em alcance curto a fazer um teste de Fortitude (CD Car). Se a criatura falhar, fica lenta por 1d4 rodadas. Se já estiver lenta por este efeito, em vez disso é petrificada permanentemente — ela e seu equipamento se transformam em uma estátua inerte e sem consciência, com RD 8 e os mesmos PV que ela tinha em vida. Se a estátua for quebrada, a criatura morrerá.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "medusa"
+    },
+    {
+      "type": "character_level",
+      "sub_type": "hard",
+      "value": 9
+    }
+  ],
+  "effects": [
+    {
+      "type": "active_ability",
+      "action": "padrao",
+      "range": "curto",
+      "test": {
+        "save": "fortitude",
+        "cd": "car"
+      },
+      "on_fail": {
+        "condition": "lenta",
+        "duration": "1d4_rodadas"
+      },
+      "on_fail_if_already_slowed_by_this": {
+        "condition": "petrificado_permanente",
+        "stats": {
+          "rd": 8,
+          "pv": "mesmos_que_tinha_em_vida"
+        },
+        "death_if_statue_broken": true
+      }
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 3,
+      "type": "PM"
+    }
+  ]
+}

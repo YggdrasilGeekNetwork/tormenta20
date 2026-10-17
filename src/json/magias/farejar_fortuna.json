@@ -1,0 +1,56 @@
+{
+  "id": "farejar_fortuna",
+  "name": "Farejar Fortuna",
+  "type": "arcana",
+  "circle": "1",
+  "school": "adiv",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": {
+    "amount": null,
+    "up_to": null,
+    "type": "você"
+  },
+  "effect": "voce",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Ao lançar esta magia, você descobre se existe algum tesouro em alcance longo. Para este efeito, \"tesouro\" é qualquer acúmulo de itens valiosos (acima do dinheiro inicial de um personagem do seu nível) que não estejam sendo carregados ou vestidos por uma criatura inteligente.\nVocê sabe se há tesouros na área, mas não recebe nenhuma outra informação a respeito, como a direção ou localização do tesouro, seu valor exato, obstáculos no caminho... nada disso é informado pela magia.",
+  "enhancements": [
+    {
+      "cost": 1,
+      "type": "muda",
+      "description": "muda o alcance para toque, o alvo para um item recém-encontrado e a duração para instantânea. Em vez do normal, você recebe +5 em testes de perícia para identificar o item.",
+      "extra_details": {
+        "range": "toque",
+        "duration": "instantânea"
+      }
+    },
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "além do normal, você recebe +5 em testes de perícia para localizar o tesouro.",
+      "extra_details": null
+    },
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "em vez do normal, quando você rola qualquer dado para definir um tesouro, pode rolar dois dados e escolher qual resultado usar.",
+      "extra_details": null
+    }
+  ],
+  "effects": [
+    {
+      "type": "informação",
+      "attribute": "tesouro",
+      "amount": null,
+      "resistence_requirement": null,
+      "extra_requirements": "alcance_longo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

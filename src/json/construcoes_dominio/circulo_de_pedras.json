@@ -1,0 +1,16 @@
+{
+  "id": "circulo_de_pedras",
+  "name": "Círculo de Pedras",
+  "description": "Um círculo de pedras dispostas de forma a canalizar os poderes da natureza. Quando você usa Forma Selvagem, aumenta um dos bônus de atributo em +2.",
+  "categoria": "religiao",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "aumenta_bonus_habilidade",
+      "habilidade": "Forma Selvagem",
+      "value": 2
+    }
+  ],
+  "prerequisito": "santuario",
+  "livro": "herois_de_arton"
+}

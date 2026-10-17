@@ -1,0 +1,30 @@
+{
+  "id": "ossos_afiados",
+  "name": "Ossos Afiados",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você recebe +2 em Intimidação e +2 em rolagens de dano com armas naturais e ataques desarmados.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "osteon"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "skill": "intimidacao"
+    },
+    {
+      "type": "damage_improvement",
+      "value": 2,
+      "weapon": [
+        "armas_naturais",
+        "desarmado"
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

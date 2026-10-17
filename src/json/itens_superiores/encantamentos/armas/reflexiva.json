@@ -1,0 +1,20 @@
+{
+  "id": "reflexiva",
+  "name": "Reflexiva",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma tem uma superfície brilhante. Uma vez por rodada, quando é alvo de uma magia, você pode gastar uma quantidade de PM igual ao círculo da magia para refleti-la de volta ao conjurador. As características da magia (efeitos, CD...) se mantêm, mas você toma qualquer decisão exigida por ela. Pré-requisito: cristalina.",
+  "prerequisitos": [
+    "cristalina"
+  ],
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": "igual ao círculo da magia",
+      "frequencia": "por_rodada",
+      "gatilho": "alvo de uma magia",
+      "efeito": "reflete a magia de volta ao conjurador, mantendo suas características; você toma as decisões exigidas por ela"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "sala_do_trono",
+  "name": "Sala do Trono",
+  "description": "Uma sala ostentando flâmulas com o brasão do regente e um assento elevado, de onde ele pode receber seus súditos, emissários e outros nobres... E olhá-los de cima. Fornece +2 em Diplomacia.",
+  "categoria": "nobreza",
+  "custo": 5,
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Diplomacia",
+      "value": 2
+    }
+  ],
+  "prerequisito": "forte",
+  "livro": "herois_de_arton"
+}

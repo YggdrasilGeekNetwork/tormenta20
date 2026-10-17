@@ -1,0 +1,34 @@
+{
+  "id": "arma_divina",
+  "name": "Arma Divina",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Quando você usa Abençoar Arma, além dos efeitos normais, a sua arma adquire os efeitos do encanto sagrado (se você canalizar energia positiva) ou do encanto profano (se você canalizar energia negativa). Pré-requisitos: Abençoar Arma, 7º nível de clérigo.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "abencoar_arma"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 7
+    }
+  ],
+  "effects": [
+    {
+      "type": "grant_enchant",
+      "value": "sagrado",
+      "condition": "canaliza_energia_positiva",
+      "applies_to": "abencoar_arma"
+    },
+    {
+      "type": "grant_enchant",
+      "value": "profano",
+      "condition": "canaliza_energia_negativa",
+      "applies_to": "abencoar_arma"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

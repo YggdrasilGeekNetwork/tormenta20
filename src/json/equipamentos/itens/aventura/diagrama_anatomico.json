@@ -1,0 +1,15 @@
+{
+  "id": "diagrama_anatomico",
+  "name": "Diagrama Anatômico",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 75,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "consultado",
+  "efeito": {
+    "bonus_margem_ameaca_ataque_furtivo": 1
+  },
+  "description": "Pergaminho com esquemas detalhados do corpo das principais raças humanoides. À primeira vista parece feito para auxiliar curandeiros, mas um olhar mais atento revela que mostra as regiões mais vulneráveis desses corpos e explica as melhores formas de atacá-las. Quando usa Ataque Furtivo, você recebe +1 na margem de ameaça.",
+  "livro": "herois_de_arton"
+}

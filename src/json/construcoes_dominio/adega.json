@@ -1,0 +1,15 @@
+{
+  "id": "adega",
+  "name": "Adega",
+  "description": "Um espaço no porão com barris e garrafas de vinhos selecionados. Usufruir de uma adega fornece +3 pontos de mana.",
+  "categoria": "nobreza",
+  "custo": 4,
+  "effects": [
+    {
+      "type": "bonus_pm",
+      "value": 3
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

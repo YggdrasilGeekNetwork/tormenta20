@@ -1,0 +1,26 @@
+{
+  "id": "coroa_da_majestade_distorcida",
+  "name": "Coroa da Majestade Distorcida",
+  "categoria": "medio",
+  "preco": 25500,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta coroa de prata escura é adornada com pedras de obsidiana. Usada por alguns monarcas, permite exercer uma aura de autoridade inquestionável. Você recebe +1 de Carisma (somente após um dia de uso) e pode lançar Comando (CD Car) como uma ação de movimento e com um bônus de +2 na CD. Contudo, aqueles que passam em seu teste de resistência uma única vez não podem mais ser afetados — talvez explicando algumas prisões ou banimentos sem motivo aparente...",
+  "effects": [
+    {
+      "type": "bonus_atributo",
+      "atributo": "carisma",
+      "value": 1,
+      "condicao": "somente após um dia de uso"
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Comando",
+      "cd_atributo": "Car",
+      "acao": "ação de movimento",
+      "bonus_cd": 2,
+      "restricao": "quem resiste ao teste uma vez fica imune a esse efeito do item permanentemente"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

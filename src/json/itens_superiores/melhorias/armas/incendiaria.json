@@ -1,0 +1,24 @@
+{
+  "id": "incendiaria",
+  "name": "Incendiária",
+  "type": "melhoria",
+  "categoria": "arma",
+  "restricao": {
+    "tipo": "municao"
+  },
+  "prerequisitos": null,
+  "description": "Esta melhoria só pode ser aplicada em munições. A munição causa +1 ponto de dano de fogo e, se acertar por 5 ou mais, deixa o alvo em chamas.",
+  "effects": [
+    {
+      "type": "dano_extra",
+      "tipo_dano": "fogo",
+      "value": 1
+    },
+    {
+      "type": "condicao_ao_acertar",
+      "condicao": "em_chamas",
+      "requisito": "acertar_por_5_ou_mais"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

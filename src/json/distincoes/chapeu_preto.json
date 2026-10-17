@@ -1,0 +1,10 @@
+{
+  "id": "chapeu_preto",
+  "name": "Chapéu-Preto",
+  "description": "Pistoleiros amaldiçoados que testemunharam o pior que o mundo tem a oferecer e se tornaram personificações do medo e da violência armada.",
+  "admissao": "O candidato deve testemunhar pelo menos três atos de maldade marcante (pelo menos um deles com relação direta consigo), causando prejuízos significativos: passar um mês sem dormir direito, ficando constantemente cansado e exaurido; abrir mão de relações que lhe traziam benefícios (como ser expulso de uma guilda ou deserdado pela família); e sofrer um ferimento que o torne assustador ou afete sua capacidade de lutar, lançar magias ou realizar outra tarefa importante. Depois disso, deve renegar quaisquer laços com organizações ou entidades justas ou bondosas, incluindo devoção a divindades. Cumpridos esses requisitos, a maldição se manifesta: o candidato acorda com um objeto amaldiçoado — seu 'chapéu preto' — que o acompanhará para sempre.",
+  "marca_nome": "Esse Maldito Chapéu",
+  "marca_descricao": "Você recebe um \"chapéu preto\", um item que representa sua maldição. Você recebe +2 em Intimidação e na CD dos seus efeitos de medo, mas sofre –2 em Adestramento, Atuação e Diplomacia.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

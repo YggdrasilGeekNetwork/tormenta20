@@ -1,0 +1,14 @@
+{
+  "id": "memoria_draconica",
+  "name": "Memória Dracônica",
+  "type": "poder_distincao",
+  "description": "Assim como um verdadeiro dragão, o dracomante usa seu elemento de forma natural e instintiva. Você pode memorizar um número de magias adicionais por dia igual ao total de poderes da distinção que possui, mas só pode memorizar dessa forma magias que causam dano do mesmo tipo que a essência dracônica de seu mestre.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "memoriza magias adicionais por dia igual ao total de poderes da distinção, restritas a magias de dano do tipo da essência dracônica do mestre"
+    }
+  ],
+  "requirements": ["Dracomancia"],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "transformacao_repugnante",
+  "name": "Transformação Repugnante",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Quando usa Forma Selvagem, você pode gastar +2 PM. Se fizer isso, inimigos em alcance curto sofrem 1d6 pontos de dano psíquico para cada poder da Tormenta que você possui e ficam alquebrados e frustrados (Vontade CD Sab reduz à metade e evita as condições).",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "forma_aberrante"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_type",
+      "damage_type": "psiquico",
+      "value": "1d6_por_poder_da_tormenta"
+    },
+    {
+      "type": "condition",
+      "condition": ["alquebrado", "frustrado"],
+      "resistance": "vontade_cd_sab_reduz_a_metade_e_evita_condicoes"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM",
+      "note": "adicional_ao_custo_de_forma_selvagem"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

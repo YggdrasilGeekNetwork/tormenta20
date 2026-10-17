@@ -1,0 +1,21 @@
+{
+  "id": "armadura_de_folhas",
+  "name": "Armadura de Folhas",
+  "type": "armadura",
+  "categoria": "leve",
+  "preco": 75,
+  "bonus_defesa": 2,
+  "penalidade_armadura": 0,
+  "espacos": 2,
+  "especial": {
+    "bonus_pm": {
+      "requisito": "treinado em Sobrevivência",
+      "valor": 2,
+      "condicao": "somente após 1 dia de uso",
+      "cumulativo_com_itens": true
+    }
+  },
+  "vestir_remover": "acao_completa",
+  "description": "Traje de tecido leve sobre o qual são costuradas várias camadas de folhas especialmente preparadas com óleos naturais. É uma armadura leve que fornece pouca defesa, mas permite que o usuário se mantenha conectado com as forças da natureza. Se for treinado em Sobrevivência, você recebe +2 PM com esta armadura (somente após 1 dia de uso), cumulativo com outros efeitos de itens.",
+  "livro": "herois_de_arton"
+}

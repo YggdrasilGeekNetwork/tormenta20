@@ -1,0 +1,14 @@
+{
+  "id": "sacada",
+  "name": "Sacada",
+  "description": "Uma área aberta, que permite olhar a paisagem e estimula a conversa. Cada residente recebe +1 em Diplomacia.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "diplomacia",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

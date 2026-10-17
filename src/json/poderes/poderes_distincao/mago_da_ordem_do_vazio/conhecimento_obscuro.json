@@ -1,0 +1,16 @@
+{
+  "id": "conhecimento_obscuro",
+  "name": "Conhecimento Obscuro",
+  "type": "poder_distincao",
+  "description": "Os magos da Ordem do Vazio estudam tomos ocultos e podem tirar a melhor resposta de onde menos se espera. Quando vai fazer um teste de perícia, você pode gastar 2 PM para substituí-la por Misticismo (isso permite fazer testes de perícias que exijam treinamento mesmo sem ser treinado nelas). A cada vez que usar este poder novamente na mesma cena, você fica fatigado (essa condição é cumulativa e o afeta mesmo que você seja imune a ela).",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "efeito": "substitui um teste de perícia por Misticismo, mesmo em perícias que exigem treinamento",
+      "custo_adicional": "usar novamente na mesma cena causa fatigado cumulativo, mesmo se imune"
+    }
+  ],
+  "requirements": ["Magia Experimental"],
+  "livro": "herois_de_arton"
+}

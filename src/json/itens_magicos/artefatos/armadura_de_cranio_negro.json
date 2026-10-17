@@ -1,0 +1,31 @@
+{
+  "id": "armadura_de_cranio_negro",
+  "name": "A Armadura de Crânio Negro",
+  "description": "Este artefato é tão conhecido quanto a figura sinistra que o trajava: o primeiro algoz da Tormenta, o temível e mortal Crânio Negro — caçador e assassino forjado em sombras rubras, servindo aos Lordes da Tormenta sob o comando do senhor lefeu Gatzvalith. A armadura escura não é de metal, mas de uma liga tão forte e misteriosa que nada podia perfurá-la. Movia-se como se fosse viva, suas placas deslizando para facilitar movimentos e bloquear lâminas. Foi forjada por diabretes negociantes a partir das memórias de um membro do Esquadrão do Inferno, fragmentos que ainda hoje atormentam quem a veste. Crânio Negro acabou se tornando ele próprio um Lorde da Tormenta, mas foi derrotado e destruído em definitivo. A armadura segue cobiçada por outros algozes da Tormenta, talvez aguardando em alguma masmorra sinistra para ser encontrada.",
+  "effects": [
+    {
+      "type": "armor_type",
+      "base": "armadura_completa"
+    },
+    {
+      "type": "enchantment",
+      "name": "fortificada"
+    },
+    {
+      "type": "enchantment",
+      "name": "guardiã"
+    },
+    {
+      "type": "special",
+      "efeito": "apesar do peso e rigidez, não atrapalha os movimentos, permitindo saltos e acrobacias em meio ao combate: conta como uma armadura leve com penalidade de armadura 0"
+    },
+    {
+      "type": "hazard",
+      "gatilho": "início de cada combate",
+      "resistencia": "Vontade CD 25",
+      "efeito": "falha: fica atordoado por 1 rodada",
+      "nota": "efeito colateral das memórias da pessoa usadas em sua confecção, que bombardeiam o usuário"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

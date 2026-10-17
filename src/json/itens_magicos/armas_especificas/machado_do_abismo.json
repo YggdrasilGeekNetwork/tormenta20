@@ -1,0 +1,21 @@
+{
+  "id": "machado_do_abismo",
+  "name": "Machado do Abismo",
+  "base_weapon": "machado_de_batalha",
+  "preco": 36000,
+  "description": "Este machado de lâmina dupla é feito de metal negro e emite um leve brilho púrpura. É um machado de batalha macabro formidável. Você pode gastar uma ação de movimento e 3 PM para invocar uma onda de energia abissal. Quando faz isso, criaturas a sua escolha em um raio de 9m sofrem 4d8 pontos de dano de essência e ficam abaladas por 1 rodada (Vontade CD For ou Des reduz o dano à metade e evita a condição).",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 3,
+      "efeito": "invoca uma onda de energia abissal: criaturas a sua escolha em um raio de 9m sofrem 4d8 de dano de essência e ficam abaladas por 1 rodada",
+      "resistencia": "Vontade CD For ou Des (à escolha) reduz o dano à metade e evita a condição"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

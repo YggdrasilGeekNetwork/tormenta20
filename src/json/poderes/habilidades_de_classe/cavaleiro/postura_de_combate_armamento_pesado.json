@@ -1,0 +1,40 @@
+{
+  "id": "postura_de_combate_armamento_pesado",
+  "name": "Postura de Combate: Armamento Pesado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Para assumir esta postura, você precisa estar empunhando uma arma corpo a corpo de duas mãos. Você recebe +2 em Fortitude e em rolagens de dano com esta arma. Para cada PM adicional que você gastar quando assumir a postura, esse bônus aumenta em +1 (até um limite de +5). Além disso, quando acerta um ataque nesta postura, você pode empurrar o alvo 1,5m. Você precisa atacar todos os turnos para manter esta postura ativa.",
+  "requirements": [
+    {
+      "type": "equipment",
+      "sub_type": "hard",
+      "value": "arma_corpo_a_corpo_de_duas_maos"
+    }
+  ],
+  "effects": [
+    {
+      "type": "saving_throw_improvement",
+      "value": 2,
+      "save": "fortitude",
+      "max_bonus": 5,
+      "scalable_with_pm": true
+    },
+    {
+      "type": "damage_improvement",
+      "value": 2,
+      "applies_to": "arma_de_duas_maos_empunhada",
+      "max_bonus": 5,
+      "scalable_with_pm": true
+    },
+    {
+      "type": "forced_movement",
+      "value": "1,5m",
+      "trigger": "acertar_ataque_na_postura"
+    },
+    {
+      "type": "maintenance_condition",
+      "value": "atacar_todos_os_turnos"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

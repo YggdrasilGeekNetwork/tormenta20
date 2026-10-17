@@ -1,0 +1,31 @@
+{
+  "id": "mago_vermelho",
+  "name": "Mago Vermelho",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Se estiver empunhando uma arma leve ou ágil, você soma o círculo máximo de magias que pode lançar nos testes de ataque e nas rolagens de dano com ela. Além disso, a mão da arma é considerada livre para lançar magias. Pré-requisito: treinado em Misticismo.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "misticismo"
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": "circulo_maximo_de_magias",
+      "condition": "empunhando_arma_leve_ou_agil"
+    },
+    {
+      "type": "damage_improvement",
+      "value": "circulo_maximo_de_magias",
+      "condition": "empunhando_arma_leve_ou_agil"
+    },
+    {
+      "type": "special",
+      "value": "mao_da_arma_considerada_livre_para_lancar_magias"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "ferramenta_de_morte",
+  "name": "Ferramenta de Morte",
+  "type": "poder_distincao",
+  "description": "O Cavaleiro do Corvo aprende a compartilhar seu treinamento com seus aliados. Você pode gastar uma ação de movimento e uma quantidade de PM a sua escolha (limitada pela sua Inteligência) para coordenar um ataque contra um oponente em alcance curto. Até o início do seu próximo turno, você e seus aliados recebem um bônus igual ao total de PM gastos em testes de ataque e rolagens de dano e na margem de ameaça contra esse oponente. Este poder só pode ser usado uma vez contra a mesma criatura em cada cena.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "efeito": "gasta uma quantidade de PM à escolha (limitada pela Inteligência) para coordenar um ataque contra um oponente em alcance curto; até o início do próximo turno, você e seus aliados recebem um bônus igual ao total de PM gastos em testes de ataque, rolagens de dano e margem de ameaça contra esse oponente",
+      "limite": "uma vez contra a mesma criatura em cada cena"
+    }
+  ],
+  "requirements": [
+    "A Qualquer Custo",
+    "ter liderado um grupo de aventureiros em pelo menos dois combates vitoriosos (liderar significa participar do combate apenas auxiliando aliados)"
+  ],
+  "livro": "herois_de_arton"
+}

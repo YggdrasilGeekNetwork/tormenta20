@@ -1,0 +1,17 @@
+{
+  "id": "pandeiro_das_estradas",
+  "name": "Pandeiro das Estradas",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 200,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "maos": 1,
+  "efeito": {
+    "sustentar_musica_com_acao_movimento_em_vez_de_padrao": true
+  },
+  "description": "Instrumento de ritmos populares, que convida todos a se juntar ao seu som. Você pode gastar uma ação de movimento, em vez de uma ação padrão, para manter a concentração em uma Música de bardo que exija isso.",
+  "livro": "herois_de_arton"
+}

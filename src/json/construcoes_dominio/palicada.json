@@ -1,0 +1,15 @@
+{
+  "id": "palicada",
+  "name": "Paliçada",
+  "description": "Uma cerca feita de estacas pontiagudas fincadas no chão. Fornece +2 em Fortificação.",
+  "categoria": "nobreza",
+  "custo": 4,
+  "effects": [
+    {
+      "type": "bonus_fortificacao",
+      "value": 2
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

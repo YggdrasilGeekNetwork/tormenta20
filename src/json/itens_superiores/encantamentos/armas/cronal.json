@@ -1,0 +1,19 @@
+{
+  "id": "cronal",
+  "name": "Cronal",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "Quando ataca, você pode gastar 3 PM para prever o futuro. Se fizer isso, você rola dois dados e usa o melhor resultado, e no próximo ataque que você sofrer até seu próximo turno, o atacante rola dois dados e usa o pior resultado. Pré-requisito: formidável.",
+  "prerequisitos": [
+    "formidavel"
+  ],
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 3,
+      "gatilho": "ataca",
+      "efeito": "rola dois dados e usa o melhor resultado; no próximo ataque sofrido até seu próximo turno, o atacante rola dois dados e usa o pior resultado"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

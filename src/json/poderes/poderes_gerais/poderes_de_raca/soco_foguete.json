@@ -1,0 +1,30 @@
+{
+  "id": "soco_foguete",
+  "name": "Soco Foguete",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Quando faz um ataque corpo a corpo, você pode gastar 1 PM para disparar seu punho e atingir um alvo em alcance curto. Após o ataque, sua mão volta voando para você. Esse ataque não pode ser usado para agarrar.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "golem"
+    }
+  ],
+  "effects": [
+    {
+      "type": "range_type",
+      "range": "curto",
+      "trigger": "ataque_corpo_a_corpo",
+      "weapon": "punho",
+      "restriction": "nao_pode_ser_usado_para_agarrar"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

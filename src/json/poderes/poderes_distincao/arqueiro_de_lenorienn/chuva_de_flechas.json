@@ -1,0 +1,19 @@
+{
+  "id": "chuva_de_flechas",
+  "name": "Chuva de Flechas",
+  "type": "poder_distincao",
+  "description": "Combinando magia e arco, o arqueiro de Lenórienn cobre seus inimigos com flechas mortais. Você pode gastar uma ação padrão e 2 PM para multiplicar seu disparo. Faça um ataque à distância com seu arco e compare-o com a Defesa de um número de inimigos a sua escolha, no alcance do arco, limitado por seu atributo-chave para magias arcanas. Então faça uma única rolagem de dano e aplique-a a cada inimigo atingido. Você gasta apenas uma munição.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "padrão",
+      "custo_pm": 2,
+      "efeito": "faz um ataque à distância com o arco e compara com a Defesa de um número de inimigos a sua escolha (limitado pelo atributo-chave para magias arcanas), no alcance do arco; faz uma única rolagem de dano aplicada a cada inimigo atingido; gasta apenas uma munição"
+    }
+  ],
+  "requirements": [
+    "Energizar Arco",
+    "lançar magias arcanas de 3º círculo"
+  ],
+  "livro": "herois_de_arton"
+}

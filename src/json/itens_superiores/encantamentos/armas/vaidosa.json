@@ -1,0 +1,15 @@
+{
+  "id": "vaidosa",
+  "name": "Vaidosa",
+  "type": "encantamento",
+  "categoria": "arma",
+  "maldicao": true,
+  "description": "A arma exige ser reconhecida em todo o seu esplendor. Você precisa gastar 1 hora no início de cada dia bajulando-a, agradecendo por tudo que ela já fez por você, polindo sua lâmina e entoando odes a sua magnificência. Caso não faça isso, não pode atacar com a arma. Enquanto estiver de posse da arma, também não pode atacar de nenhuma outra forma, incluindo com armas naturais e ataques desarmados.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "precisa gastar 1 hora no início de cada dia bajulando a arma; se não fizer isso, não pode atacar com ela nem de nenhuma outra forma (incluindo armas naturais e desarmado) enquanto estiver de posse dela"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

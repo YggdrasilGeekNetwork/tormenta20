@@ -1,0 +1,15 @@
+{
+  "id": "do_contra",
+  "name": "Do Contra",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item faz com que você adote uma postura insolente e antagônica, mesmo em situações de vida ou morte. Quando um aliado lança uma magia em você, você é obrigado a fazer um teste de Vontade (CD da magia), no qual não pode falhar voluntariamente. Se passar, evita os efeitos da magia.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "quando um aliado lança uma magia em você, é obrigado a fazer um teste de Vontade (CD da magia) sem poder falhar voluntariamente; se passar, evita os efeitos da magia, mesmo que fossem benéficos"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

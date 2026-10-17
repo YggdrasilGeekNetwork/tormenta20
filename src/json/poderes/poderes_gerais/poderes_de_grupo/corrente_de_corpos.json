@@ -1,0 +1,28 @@
+{
+  "id": "corrente_de_corpos",
+  "name": "Corrente de Corpos",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "No campo de batalha, entregar rapidamente itens como preparados alquímicos, poções e até armas pode ser a diferença entre a vida e a morte. Uma vez por rodada, você pode entregar um item que esteja empunhando a qualquer aliado com este poder como uma ação livre. Para isso, vocês devem estar em alcance curto um do outro ou deve haver outros aliados com este poder entre os dois.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "change_acction",
+      "sub_type": "entregar_item_empunhado_a_aliado_com_este_poder",
+      "action": "livre",
+      "frequency": "uma_vez_por_rodada",
+      "range": "curto_ou_corrente_de_aliados_com_este_poder_entre_os_dois"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

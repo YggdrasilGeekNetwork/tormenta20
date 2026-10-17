@@ -1,0 +1,30 @@
+{
+  "id": "chuva_de_golpes",
+  "name": "Chuva de Golpes",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Quando ataca com duas armas empunhadas usando o poder Estilo de Duas Armas, você pode fazer um ataque desarmado adicional.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": [
+        "briga",
+        "estilo_desarmado"
+      ]
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "estilo_de_duas_armas"
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "weapon": "desarmado",
+      "trigger": "ataque_com_duas_armas_via_estilo_de_duas_armas"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

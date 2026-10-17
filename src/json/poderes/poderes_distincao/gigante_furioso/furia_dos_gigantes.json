@@ -1,0 +1,17 @@
+{
+  "id": "furia_dos_gigantes",
+  "name": "Fúria dos Gigantes",
+  "type": "poder_distincao",
+  "description": "O gigante transcende a simples fúria mental e passa a encarnar o desejo de destruição em seu corpo, tornando-se um avatar da ira. Quando entra em fúria, você pode gastar 2 PM para aumentar seu tamanho em uma categoria; isso aumenta sua Força em +2 e faz com que seu equipamento aumente para o tamanho adequado. O aumento de tamanho dura até sua fúria terminar. Para cada dois outros poderes da distinção, você pode gastar +2 PM para aumentar seu tamanho em uma categoria adicional, aumentando o bônus na Força em +2. Seu tamanho com este poder nunca pode ser maior que o da maior criatura que você já matou.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "entrar em fúria",
+      "efeito": "aumenta o tamanho em uma categoria (dura até o fim da fúria); Força +2; equipamento acompanha o novo tamanho",
+      "escalavel": "+2 PM para aumentar mais uma categoria de tamanho (+2 Força) a cada dois outros poderes da distinção; limite = tamanho da maior criatura já morta"
+    }
+  ],
+  "requirements": ["Con 3", "treinado em Fortitude", "Fúria"],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "faro_aprimorado",
+  "name": "Faro Aprimorado",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Seu olfato é ainda mais apurado que o padrão de sua raça. Você recebe +2 em Intuição, Investigação e Percepção, +5 em testes de Sobrevivência para rastrear e percebe automaticamente a presença de criaturas em alcance curto (mas não sua localização). De acordo com o mestre, criaturas sem cheiro (como alguns construtos ou seres incorpóreos) podem ser indetectáveis ao seu faro.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "minotauro",
+        "moreau_do_lobo"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "skill": [
+        "intuicao",
+        "investigacao",
+        "percepcao"
+      ]
+    },
+    {
+      "type": "skill_improvement",
+      "value": 5,
+      "skill": "sobrevivencia",
+      "condition": "rastrear"
+    },
+    {
+      "type": "detection",
+      "range": "curto",
+      "detects": "presenca_de_criaturas_nao_localizacao"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "flagelo_dos_duyshidakk",
+  "name": "Flagelo dos Duyshidakk",
+  "type": "poder_distincao",
+  "description": "Dez deles por um dos nossos. Você soma seu total de poderes da distinção em rolagens de dano contra bandos, enxames e duyshidakk. Além disso, uma vez por rodada, quando reduz um oponente a 0 PV ou menos com um ataque corpo a corpo, você pode gastar 2 PM para percorrer até o seu deslocamento e fazer um ataque corpo a corpo contra outro inimigo.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "soma o total de poderes da distinção em rolagens de dano contra bandos, enxames e duyshidakk"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "limite": "uma vez por rodada",
+      "gatilho": "reduz um oponente a 0 PV ou menos com um ataque corpo a corpo",
+      "efeito": "percorre até o deslocamento e faz um ataque corpo a corpo contra outro inimigo"
+    }
+  ],
+  "requirements": [
+    "Arte Élfica"
+  ],
+  "livro": "herois_de_arton"
+}

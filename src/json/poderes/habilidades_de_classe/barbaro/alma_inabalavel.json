@@ -1,0 +1,35 @@
+{
+  "id": "alma_inabalavel",
+  "name": "Alma Inabalável",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Quando faz um teste de resistência, você pode gastar 1 PM para substituir a perícia normal por Intimidação. Se você passar no teste e a fonte do efeito for uma criatura, ela fica abalada por 1d4 rodadas (Vontade CD igual ao resultado do teste de Intimidação evita). Pré-requisito: treinado em Intimidação.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "intimidacao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "trigger": "teste_de_resistencia",
+      "effect": "substitui_pericia_normal_por_intimidacao"
+    },
+    {
+      "type": "condition_inflict",
+      "condition": "abalado",
+      "duration": "1d4_rodadas",
+      "trigger": "passar_no_teste_com_fonte_sendo_criatura",
+      "save": "vontade_cd_resultado_do_teste"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

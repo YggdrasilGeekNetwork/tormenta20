@@ -1,0 +1,27 @@
+{
+  "id": "curandeiro_dos_ermos",
+  "name": "Curandeiro dos Ermos",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Você pode usar Ervas Curativas como uma ação de movimento e os dados de cura dessa habilidade aumentam para d8. Pré-requisito: Ervas Curativas.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "ervas_curativas"
+    }
+  ],
+  "effects": [
+    {
+      "type": "action_type_change",
+      "to_action": "movimento",
+      "applies_to": "ervas_curativas"
+    },
+    {
+      "type": "healing_die_improvement",
+      "value": "d8",
+      "applies_to": "ervas_curativas"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

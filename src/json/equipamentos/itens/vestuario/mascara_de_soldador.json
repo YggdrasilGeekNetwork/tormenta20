@@ -1,0 +1,15 @@
+{
+  "id": "mascara_de_soldador",
+  "name": "Máscara de Soldador",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 50,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "teste_percepcao_ajuda_teste_oficio": true
+  },
+  "description": "Chapa metálica que recobre o rosto, com um visor protegido por uma lente grossa e escurecida. Garante maior segurança para os olhos e o rosto de um artesão, permitindo que ele examine os mínimos detalhes de perto. Quando faz um teste de Ofício, você pode fazer um teste de Percepção para ajudar a si mesmo e aplicar o bônus a esse teste.",
+  "livro": "herois_de_arton"
+}

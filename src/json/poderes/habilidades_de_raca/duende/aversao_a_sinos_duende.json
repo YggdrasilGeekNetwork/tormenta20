@@ -1,0 +1,14 @@
+{
+  "id": "aversao_a_sinos_duende",
+  "name": "Aversão a Sinos",
+  "type": "habilidade_de_raca",
+  "race": "duende",
+  "description": "O badalar de um sino representa ordem e devoção, algo que faz mal a duendes. Se você escutar esse som, fica alquebrado e esmorecido até o fim da cena. No início de qualquer cena em ambiente urbano com uma ou mais igrejas ou templos, role 1d6; em um resultado 1, você escutará um sino badalando em algum lugar.",
+  "effects": {
+    "gatilho": "escutar um sino badalar",
+    "condicoes_aplicadas": ["alquebrado", "esmorecido"],
+    "duracao": "até o fim da cena",
+    "chance_ambiente_urbano": "1 em 1d6 por cena"
+  },
+  "livro": "herois_de_arton"
+}

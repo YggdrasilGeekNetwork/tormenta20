@@ -1,0 +1,16 @@
+{
+  "id": "sopa_de_cogumelos",
+  "name": "Sopa de Cogumelos",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 6,
+  "espacos": 0.5,
+  "livro": "herois_de_arton",
+  "ingredientes": ["cogumelo", "legume", "verdura"],
+  "custo_ingredientes": 7,
+  "cd_teste_oficio_cozinheiro": 20,
+  "efeito": {
+    "bonus_misticismo": 2
+  },
+  "description": "Esta sopa expande sua percepção mística. Você recebe +2 em testes de Misticismo."
+}

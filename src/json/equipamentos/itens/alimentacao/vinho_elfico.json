@@ -1,0 +1,16 @@
+{
+  "id": "vinho_elfico",
+  "name": "Vinho Élfico",
+  "type": "item",
+  "categoria": "alimentacao",
+  "subcategoria": "bebida",
+  "preco": 90,
+  "espacos": 0.5,
+  "alcoolica": true,
+  "cd_embriaguez": 20,
+  "efeito": {
+    "bonus_cd_resistir_habilidades": 1
+  },
+  "description": "De sabor complexo, aguça a mente, fornecendo +1 na CD para resistir a suas habilidades. CD 20.",
+  "livro": "herois_de_arton"
+}

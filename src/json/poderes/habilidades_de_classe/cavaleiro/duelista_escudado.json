@@ -1,0 +1,22 @@
+{
+  "id": "duelista_escudado",
+  "name": "Duelista Escudado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Enquanto sua habilidade Duelo estiver ativa e você estiver empunhando um escudo, você recebe RD igual ao bônus concedido pela habilidade.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "duelo"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_reduction_improvement",
+      "value": "bonus_de_duelo",
+      "condition": "duelo_ativo_e_empunhando_escudo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "bloqueio_desconcertante",
+  "name": "Bloqueio Desconcertante",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Quando uma criatura erra um ataque corpo a corpo contra você, ou quando você bloqueia um ataque com Aparar, você pode gastar 1 PM. Se você fizer isso, a criatura fica desprevenida contra seu próximo ataque feito até o fim do seu próximo turno. Pré-requisito: Esgrimista.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "esgrimista"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "trigger": "inimigo_erra_ataque_corpo_a_corpo_ou_voce_bloqueia_com_aparar",
+      "effect": "criatura_fica_desprevenida_contra_seu_proximo_ataque_ate_fim_do_proximo_turno"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

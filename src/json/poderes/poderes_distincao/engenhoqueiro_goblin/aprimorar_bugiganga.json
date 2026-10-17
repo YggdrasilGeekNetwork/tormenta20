@@ -1,0 +1,16 @@
+{
+  "id": "aprimorar_bugiganga",
+  "name": "Aprimorar Bugiganga",
+  "type": "poder_distincao",
+  "description": "Aceitando uma explosão ocasional, o engenhoqueiro fica livre para tentar criações ainda \"melhores\". Você pode gastar 1 hora de trabalho e T$ 100 para instalar uma das gambiarras a seguir em uma de suas engenhocas. Cada engenhoca pode ter uma gambiarra para cada poder da distinção que você possui. Por sua natureza experimental, cada gambiarra aumenta o valor de falha automática da engenhoca em 1 (uma engenhoca com duas gambiarras falha automaticamente se você rolar 1, 2 ou 3 no teste de ativação). Gambiarras iguais não se acumulam, mas seus efeitos se acumulam com os de aparatos (p. 235). O efeito de cada gambiarra é rolado a cada uso da engenhoca.\n\n• Bateria Potente: a CD para resistir à engenhoca aumenta em +1d4.\n• Bobina Poderosa: aumenta os dados de cura ou de dano da engenhoca em um passo (até um máximo de d12).\n• Cristal Canalizador: aumenta o limite de PM que você pode gastar em aprimoramentos da engenhoca em +1d4.\n• Etiqueta de Instruções: a CD do teste para ativar a engenhoca diminui em –1d10.\n• Luneta Aproximadora: aumenta o alcance da engenhoca em 1d3 –1 passos (de curto para médio, de médio para longo).",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo": "1 hora de trabalho e T$ 100",
+      "efeito": "instala uma gambiarra (Bateria Potente, Bobina Poderosa, Cristal Canalizador, Etiqueta de Instruções ou Luneta Aproximadora) em uma engenhoca; cada gambiarra instalada aumenta a falha automática da engenhoca em 1",
+      "limite": "uma gambiarra por poder da distinção que possui"
+    }
+  ],
+  "requirements": ["Engenhoqueiro", "Vitalidade"],
+  "livro": "herois_de_arton"
+}

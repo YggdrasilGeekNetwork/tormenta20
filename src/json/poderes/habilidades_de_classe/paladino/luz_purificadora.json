@@ -1,0 +1,33 @@
+{
+  "id": "luz_purificadora",
+  "name": "Luz Purificadora",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Quando usa Golpe Divino, você pode gastar +1 PM para converter todo o dano causado para luz e ignorar 10 pontos de redução de dano do alvo.",
+  "requirements": [
+    {
+      "type": "fearute_actived",
+      "sub_type": "soft",
+      "feature": "golpe_divino"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_type_improvement",
+      "damage_type": "luz",
+      "note": "converte_todo_o_dano_de_golpe_divino_para_luz"
+    },
+    {
+      "type": "damage_resist_improvement",
+      "value": 10,
+      "note": "ignora_10_pontos_de_rd_do_alvo"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

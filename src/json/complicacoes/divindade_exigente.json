@@ -1,0 +1,18 @@
+{
+  "id": "divindade_exigente",
+  "name": "Divindade Exigente",
+  "description": "Você serve a sua divindade com afinco, mas às vezes ela quer sua atenção exclusiva. Sempre que lançar uma magia divina, role 1d6. Em um resultado 1, você fica frustrado (essa condição é cumulativa).",
+  "categoria": "clerigo",
+  "effects": [
+    {
+      "type": "condicao_condicional",
+      "gatilho": "lancar_magia_divina",
+      "dado": "1d6",
+      "condicao_valor": 1,
+      "efeito": "fica_frustrado",
+      "cumulativo": true
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

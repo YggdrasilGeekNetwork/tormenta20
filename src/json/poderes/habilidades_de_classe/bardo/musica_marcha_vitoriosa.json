@@ -1,0 +1,27 @@
+{
+  "id": "musica_marcha_vitoriosa",
+  "name": "Música: Marcha Vitoriosa",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Faça um teste de Atuação. Para cada 10 pontos no resultado desse teste, seus aliados dentro do alcance recebem +1 em rolagens de dano por 1 rodada. Pré-requisitos: Inspiração Marcial, 5º nível de bardo.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "ispiracao_marcial"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "test": "atuacao",
+      "effect": "aliados_no_alcance_recebem_1_em_dano_a_cada_10_pontos_do_teste_por_1_rodada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

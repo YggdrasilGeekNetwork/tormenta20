@@ -1,0 +1,26 @@
+{
+  "id": "escudo_do_trovao",
+  "name": "Escudo do Trovão",
+  "subtipo": "escudo",
+  "base_item": "escudo_pesado",
+  "preco": 54000,
+  "description": "Este escudo pesado guardião de mitral é decorado com raios em alto-relevo. Sempre que você sofre dano de um ataque corpo a corpo, pode gastar 2 PM para liberar um estrondo sônico que empurra inimigos adjacentes 3m para trás (Fort CD Car evita).",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "guardião"
+    },
+    {
+      "type": "material_especial",
+      "name": "mitral"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "sofre dano de um ataque corpo a corpo",
+      "efeito": "libera um estrondo sônico que empurra inimigos adjacentes 3m para trás",
+      "resistencia": "Fortitude CD Car evita"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

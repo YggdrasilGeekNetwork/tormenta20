@@ -1,0 +1,18 @@
+{
+  "id": "violino_soprano",
+  "name": "Violino Soprano",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 300,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "maos": 1,
+  "efeito": {
+    "inspiracao_bonus_proximo_teste_pericia": "1d4",
+    "excecao": "testes de ataque"
+  },
+  "description": "Instrumento difícil de ser dominado, usado pelos bardos mais habilidosos. Ver um mestre violinista em ação é um grande incentivo ao virtuosismo em qualquer área. Cada criatura a sua escolha sob efeito de sua Inspiração recebe um bônus adicional de +1d4 em seu próximo teste de perícia (exceto testes de ataque).",
+  "livro": "herois_de_arton"
+}

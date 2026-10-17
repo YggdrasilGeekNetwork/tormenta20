@@ -1,0 +1,15 @@
+{
+  "id": "conjurador_encouracado",
+  "name": "Conjurador Encouraçado",
+  "type": "poder_distincao",
+  "description": "Como uma fortaleza móvel, o Mago de Batalha avança implacável, despejando morte e destruição. Você recebe proficiência com armaduras pesadas e pode lançar magias arcanas de armadura sem fazer testes de Misticismo. Para cada outro poder da distinção que possui, você recebe +1 na Defesa com armaduras pesadas.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "proficiência com armaduras pesadas; lança magias arcanas de armadura sem testes de Misticismo",
+      "escalavel": "+1 na Defesa com armaduras pesadas por outro poder da distinção que possui"
+    }
+  ],
+  "requirements": ["habilidade de classe Magias", "lançar magias arcanas de 2º círculo", "treinado em Misticismo", "Arcano de Batalha"],
+  "livro": "herois_de_arton"
+}

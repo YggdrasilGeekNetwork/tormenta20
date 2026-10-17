@@ -1,0 +1,25 @@
+{
+  "id": "jangada",
+  "name": "Jangada",
+  "type": "item",
+  "categoria": "veiculo",
+  "preco": 60,
+  "espacos": 0,
+  "estatisticas": {
+    "tamanho": "grande",
+    "deslocamento": "natacao 9m",
+    "defesa": "6 + Des do piloto",
+    "pv": 50,
+    "rd": 5,
+    "capacidade_criaturas": 4,
+    "capacidade_tamanho": "medio",
+    "capacidade_espacos": 80
+  },
+  "tripulacao": {
+    "piloto": 1,
+    "tripulantes_adicionais": 1,
+    "funcao_adicionais": "auxiliar na operação da vela"
+  },
+  "description": "Barco típico de pescadores, é essencialmente uma plataforma flutuante, com um mastro simples e um leme. Além do piloto, requer um tripulante para auxiliar na operação da vela.",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "menestrel",
+  "name": "Menestrel",
+  "description": "Nem todo aquele disposto a cantar e dedilhar instrumentos está também disposto a viajar aos confins de Arton, rastejar em masmorras perigosas e receber baforadas de dragões. Muitos ficam mais que satisfeitos ao alegrar trabalhadores cansados em tavernas, animar festividades coloridas ou entreter nobres entediados, sem riscos maiores do que uma ocasional fruta ou caneca arremessada. Isso é, assim você acreditava. Antes de conhecer aquele grupo de aventureiros, empolgar-se com suas histórias, encantar-se com a arcanista élfica de cabelos dourados como — ahem, enfim, você encontrou motivação para acompanhá-los. Como bardo? Talvez, talvez não. Brandir aquele machado não parece tão difícil...",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Um instrumento musical de até T$ 35 à sua escolha"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Atuação"
+    ],
+    "powers": [
+      "Balada Fascinante",
+      "Canção Assustadora",
+      "Melodia Curativa"
+    ]
+  },
+  "livro": "herois_de_arton"
+}

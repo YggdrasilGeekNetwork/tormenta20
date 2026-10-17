@@ -1,0 +1,38 @@
+{
+  "id": "linhagem_distinta",
+  "name": "Linhagem Distinta",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Você descende de uma família ilustre — ou, por suas ações, tornou sua família ilustre. Seja como for, o nome de sua família o inspira a grandes feitos. Quando você usa Orgulho, o custo da habilidade diminui em –1 PM. Além disso, uma vez por cena, quando usa Orgulho, você pode gastar +5 PM. Se fizer isso, o bônus fornecido pela habilidade dobra e, ao fazer o teste de perícia afetado por ela, você rola dois dados e usa o melhor resultado.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "orgulho"
+    }
+  ],
+  "effects": [
+    {
+      "type": "reduce_PM_cost",
+      "value": -1,
+      "feature": "orgulho"
+    },
+    {
+      "type": "bonus",
+      "note": "uma_vez_por_cena_gasta_5_pm_extras_para_dobrar_o_bonus_de_orgulho_e_rolar_dois_dados_no_teste_usando_o_melhor_resultado"
+    }
+  ],
+  "costs": [
+    {
+      "value": 5,
+      "type": "PM",
+      "note": "apenas_para_o_efeito_de_dobrar_o_bonus_uma_vez_por_cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

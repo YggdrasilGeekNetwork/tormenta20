@@ -1,0 +1,19 @@
+{
+  "id": "as_na_manga",
+  "name": "Ás na Manga",
+  "type": "poder_distincao",
+  "description": "O arsenal de trapaças de um carteador é praticamente infinito. Quando você faz um teste de perícia, pode gastar 2 PM para usar Jogatina no lugar dessa perícia. Você só pode fazer isso uma vez para cada perícia a cada cena.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "faz um teste de perícia",
+      "efeito": "usa Jogatina no lugar dessa perícia",
+      "limite": "uma vez para cada perícia a cada cena"
+    }
+  ],
+  "requirements": [
+    "Dado Viciado"
+  ],
+  "livro": "herois_de_arton"
+}

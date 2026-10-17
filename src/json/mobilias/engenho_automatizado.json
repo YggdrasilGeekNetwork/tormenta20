@@ -1,0 +1,14 @@
+{
+  "id": "engenho_automatizado",
+  "name": "Engenho Automatizado",
+  "description": "Um tear mecânico, um sistema de foles autônomos ou mesmo uma prensa de tipos móveis, esta é uma mobília grande e barulhenta, mas capaz de otimizar processos de manufatura. Instalado na oficina de trabalho, diminui o tempo de fabricação de itens não consumíveis não mágicos na base à metade.",
+  "effects": [
+    {
+      "type": "reduz_tempo_fabricacao",
+      "value": 0.5
+    }
+  ],
+  "preco": 3000,
+  "comodo_alvo": "oficina_de_trabalho",
+  "livro": "herois_de_arton"
+}

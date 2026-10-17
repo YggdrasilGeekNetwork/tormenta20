@@ -1,0 +1,20 @@
+{
+  "id": "racas_abertas",
+  "name": "Raças Abertas",
+  "description": "Regra opcional (Heróis de Arton, Cap. 4, p.281). Pela regra padrão, cada raça possui modificadores de atributos que representam as tendências desse povo (por exemplo, os meios-gigantes galokk tendem a ser mais fortes que os pequeninos hynne, por isso a primeira raça tem um bônus de Força e a segunda, uma penalidade). Com esta variante, os modificadores raciais de atributo podem ser aplicados a qualquer atributo à escolha do jogador, em vez dos atributos fixos definidos pela raça.",
+  "regra": "Você pode usar cada modificador de atributo de sua raça em qualquer atributo. Você não pode aplicar mais de um modificador no mesmo atributo.",
+  "exemplos": [
+    {
+      "raca": "anão",
+      "modificadores_padrao": "Constituição +2, Sabedoria +1, Destreza –1",
+      "com_variante": "aplique os modificadores +2, +1 e –1 nos atributos que quiser, um por atributo"
+    },
+    {
+      "raca": "aggelus",
+      "modificadores_padrao": "Sabedoria +2, Carisma +1",
+      "com_variante": "aplique os modificadores +2 e +1 nos atributos que quiser, um por atributo"
+    }
+  ],
+  "nota_uso": "O livro sugere cautela ao adotar esta variante: ter certas 'travas' raciais garante que os personagens sejam diferentes entre si (mecânica e narrativamente) e incentiva soluções criativas. Exemplo citado: devido à penalidade em Força de um hynne, construir um bárbaro dessa raça é um desafio — mas, se conseguir, o jogador terá um personagem único; com esta variante, bastaria colocar o bônus de Força no atributo certo, tornando o resultado eficaz porém menos memorável.",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "combinacao_um_dois",
+  "name": "Combinação: Um-Dois",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Quando faz um ataque, você pode gastar 1 PM para atacar de vários lados. Se fizer isso, você não precisa de um aliado para flanquear o oponente (faz isso sozinho). Além disso, se acertar, recebe um bônus na Defesa igual à sua contagem de combinações até o fim do seu próximo turno.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "jogo_de_pernas"
+    },
+    {
+      "type": "attack_type",
+      "sub_type": "soft",
+      "attack": "desarmado"
+    }
+  ],
+  "effects": [
+    {
+      "type": "manouver_improvement",
+      "note": "flanqueia_o_oponente_sozinho_sem_precisar_de_aliado"
+    },
+    {
+      "type": "defense_improvement",
+      "value": "contagem_de_combinacoes",
+      "duration": "fim_do_proximo_turno",
+      "requirement": "acertar"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

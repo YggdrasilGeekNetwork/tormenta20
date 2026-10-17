@@ -1,0 +1,18 @@
+{
+  "id": "desprotegido",
+  "name": "Desprotegido",
+  "description": "Você nunca aprendeu a se defender. Você sofre –2 na Defesa e em testes de resistência.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_defesa",
+      "value": -2
+    },
+    {
+      "type": "penalidade_testes_resistencia_geral",
+      "value": -2
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

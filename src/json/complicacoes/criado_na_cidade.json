@@ -1,0 +1,20 @@
+{
+  "id": "criado_na_cidade",
+  "name": "Criado na Cidade",
+  "description": "Você não se dá bem no mato. Você sofre –5 em Sobrevivência e, quando descansa nos ermos, sua recuperação é uma categoria pior (se já era ruim, você recupera apenas 1 PV e 1 PM, independentemente do seu nível).",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_pericia",
+      "pericia": "sobrevivencia",
+      "value": -5
+    },
+    {
+      "type": "recuperacao_reduzida",
+      "contexto": "descanso_nos_ermos",
+      "descricao": "recuperação uma categoria pior (mínimo 1 PV e 1 PM)"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

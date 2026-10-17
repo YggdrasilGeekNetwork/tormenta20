@@ -1,0 +1,18 @@
+{
+  "id": "armadilha_recarregavel",
+  "name": "Armadilha Recarregável",
+  "type": "poder_distincao",
+  "description": "As armadilhas do armadilheiro continuam perigosas mesmo após serem disparadas. Quando uma de suas armadilhas em alcance médio é disparada, você pode gastar 1 PM. Se fizer isso, a armadilha é rearmada automaticamente no início do seu próximo turno.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "gatilho": "uma de suas armadilhas em alcance médio é disparada",
+      "efeito": "a armadilha é rearmada automaticamente no início do seu próximo turno"
+    }
+  ],
+  "requirements": [
+    "Armadilha Instantânea"
+  ],
+  "livro": "herois_de_arton"
+}

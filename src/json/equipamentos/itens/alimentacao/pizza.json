@@ -1,0 +1,16 @@
+{
+  "id": "pizza",
+  "name": "Pizza",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 6,
+  "espacos": 0.5,
+  "livro": "herois_de_arton",
+  "ingredientes": ["farinha", "fruta", "queijo"],
+  "custo_ingredientes": 10,
+  "cd_teste_oficio_cozinheiro": 20,
+  "efeito": {
+    "bonus_testes_de_resistencia": 1
+  },
+  "description": "Um disco de massa coberto com molho de tomate e queijo, este prato foi criado por Guido Venusto, um nobre de Ahlen que queria ascender socialmente. Comer uma pizza deixa-o pronto para encarar qualquer perigo: você recebe +1 em todos os testes de resistência."
+}

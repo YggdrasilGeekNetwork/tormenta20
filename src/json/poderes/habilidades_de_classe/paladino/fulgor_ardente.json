@@ -1,0 +1,30 @@
+{
+  "id": "fulgor_ardente",
+  "name": "Fulgor Ardente",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Quando usa Golpe Divino, você pode gastar +1 PM. Se fizer isso e acertar o ataque, todos os inimigos a até 6m do alvo do ataque sofrem dano de luz igual ao dano extra causado por essa habilidade.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "fulgor_divino"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_type_improvement",
+      "damage_type": "luz",
+      "value": "dano_extra_de_golpe_divino",
+      "target": "inimigos_ate_6m_do_alvo",
+      "requirement": "acertar_ataque_com_golpe_divino"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

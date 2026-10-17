@@ -1,0 +1,18 @@
+{
+  "id": "enfermaria",
+  "name": "Enfermaria",
+  "description": "Um espaço para aplicar curativos e tratar de doenças e outras mazelas. Os residentes recebem +1 em Cura e em testes para estancar sangramentos ou em testes de morte.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "cura",
+      "value": 1
+    },
+    {
+      "type": "bonus_teste_estancar_sangramento_ou_morte",
+      "value": 1
+    }
+  ],
+  "prerequisito": "base formidável ou melhor",
+  "livro": "herois_de_arton"
+}

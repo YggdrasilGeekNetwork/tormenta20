@@ -1,0 +1,13 @@
+{
+  "id": "sangue_elfico",
+  "name": "Sangue Élfico",
+  "type": "habilidade_de_raca",
+  "race": "meio_elfo",
+  "description": "Você recebe visão na penumbra e +1 ponto de mana a cada nível ímpar (incluindo o 1º). Além disso, é considerado um elfo para efeitos relacionados a raça.",
+  "effects": {
+    "vision": "baixa_luminosidade",
+    "bonus_pm_por_nivel_impar": 1,
+    "considerado_como_raca": "elfo"
+  },
+  "livro": "herois_de_arton"
+}

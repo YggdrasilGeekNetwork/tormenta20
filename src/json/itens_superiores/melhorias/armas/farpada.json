@@ -1,0 +1,22 @@
+{
+  "id": "farpada",
+  "name": "Farpada",
+  "type": "melhoria",
+  "categoria": "arma",
+  "restricao": {
+    "tipo": "corte_ou_perfuracao"
+  },
+  "prerequisitos": [
+    "cruel"
+  ],
+  "description": "A arma possui farpas ou espinhos que aumentam a gravidade de seus golpes. Uma criatura atingida por um acerto crítico da arma fica sangrando e sofre –5 em testes de Constituição para remover essa condição até o fim da cena. Só pode ser aplicada em armas de corte ou perfuração. Pré-requisito: cruel.",
+  "effects": [
+    {
+      "type": "sangramento_ao_critico",
+      "penalidade_remocao": -5,
+      "atributo": "constituicao",
+      "duracao": "fim_da_cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

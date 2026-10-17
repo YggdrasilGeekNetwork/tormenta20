@@ -1,0 +1,16 @@
+{
+  "id": "glacial",
+  "name": "Glacial",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico é adornado com safiras e frio ao toque. Suas magias que causam dano de frio causam um dado extra de dano do mesmo tipo e deixam os alvos vulneráveis por 1 rodada.",
+  "effects": [
+    {
+      "type": "dano_extra_magia",
+      "condicao": "magias que causam dano de frio",
+      "dado_extra": true,
+      "efeito_adicional": "alvos ficam vulneráveis por 1 rodada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

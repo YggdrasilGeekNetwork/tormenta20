@@ -1,0 +1,15 @@
+{
+  "id": "preparacao_veloz",
+  "name": "Preparação Veloz",
+  "type": "poder_distincao",
+  "description": "De seu treinamento marcial, o guerreiro mágico desenvolveu sua prontidão arcana. Na primeira rodada de um combate, você pode lançar uma magia com alcance pessoal como uma ação livre.",
+  "effects": [
+    {
+      "type": "passivo",
+      "condicao": "primeira rodada de combate",
+      "efeito": "pode lançar uma magia de alcance pessoal como ação livre"
+    }
+  ],
+  "requirements": ["Fogo e Aço"],
+  "livro": "herois_de_arton"
+}

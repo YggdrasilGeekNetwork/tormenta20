@@ -1,0 +1,15 @@
+{
+  "id": "contido",
+  "name": "Contido",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico suaviza efeitos destrutivos. Por exemplo, uma labareda infernal pode virar uma lufada de ar abafado que, em vez de carbonizar seu alvo, irá apenas fazê-lo desmaiar. Quando lança uma magia de dano, você pode gastar +1 PM para que ela cause dano não letal.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "efeito": "a magia de dano lançada causa dano não letal"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

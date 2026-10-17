@@ -1,0 +1,28 @@
+{
+  "id": "lider_energico",
+  "name": "Líder Enérgico",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Você soma seu Carisma em Iniciativa. Além disso, se for o primeiro na iniciativa, em seu primeiro turno você pode usar uma habilidade de nobre com execução de ação de movimento ou padrão como ação livre.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "iniciativa"
+    }
+  ],
+  "effects": [
+    {
+      "type": "add_attr_bonus_to_skill",
+      "attr": "car",
+      "skill": "iniciativa"
+    },
+    {
+      "type": "change_action_type",
+      "action": "livre",
+      "requirement": "primeiro_na_iniciativa_usar_habilidade_de_nobre_de_movimento_ou_padrao_no_primeiro_turno"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

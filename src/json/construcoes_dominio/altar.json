@@ -1,0 +1,16 @@
+{
+  "id": "altar",
+  "name": "Altar",
+  "description": "Esta mesa de pedra esculpida com um símbolo sagrado é o centro do culto em um templo, o lugar por onde a energia divina é focalizada. Quando usa a habilidade Canalizar Energia, o tipo de dado que você rola muda para d8.",
+  "categoria": "religiao",
+  "custo": 3,
+  "effects": [
+    {
+      "type": "altera_dado_habilidade",
+      "habilidade": "Canalizar Energia",
+      "novo_dado": "d8"
+    }
+  ],
+  "prerequisito": "templo",
+  "livro": "herois_de_arton"
+}

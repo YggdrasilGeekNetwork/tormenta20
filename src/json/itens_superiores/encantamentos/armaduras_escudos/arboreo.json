@@ -1,0 +1,22 @@
+{
+  "id": "arboreo",
+  "name": "Arbóreo",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "Você recebe resistência a magia divina +5. Além disso, pode lançar a magia Controlar Plantas (CD Sab). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "resistencia_magia",
+      "value": 5,
+      "tipo": "divina"
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Controlar Plantas",
+      "cd": "Sabedoria",
+      "reducao_custo_pm": 1,
+      "condicao": "se já souber lançar a magia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

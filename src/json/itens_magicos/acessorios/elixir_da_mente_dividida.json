@@ -1,0 +1,40 @@
+{
+  "id": "elixir_da_mente_dividida",
+  "name": "Elixir da Mente Dividida",
+  "categoria": "menor",
+  "preco": 1500,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este elixir de cor verde esmeralda permite ao usuário dividir sua consciência em duas partes. Quando ingerido, permite executar uma ação de movimento e uma ação padrão adicionais por rodada (esse efeito não se acumula com outros efeitos que concedem ações adicionais) até o fim da cena. Contudo, enquanto sua mente está dividida, você perde a capacidade de se focar plenamente em qualquer tarefa: sofre uma penalidade de –5 em testes de perícia (exceto testes feitos como reação) e é considerado em condição ruim para lançar magias (Tormenta20, p. 170). Além disso, quando o efeito acaba, você fica fatigado por 1 dia.",
+  "effects": [
+    {
+      "type": "consumivel",
+      "uso": "ingerir",
+      "duracao": "até o fim da cena",
+      "efeitos": [
+        {
+          "type": "acao_adicional",
+          "quais": [
+            "ação de movimento",
+            "ação padrão"
+          ],
+          "nao_acumula": true
+        },
+        {
+          "type": "penalidade_pericia",
+          "value": -5,
+          "excecao": "testes feitos como reação"
+        },
+        {
+          "type": "condicao_ruim_conjuracao"
+        }
+      ]
+    },
+    {
+      "type": "condicao_pos_efeito",
+      "condicao": "fatigado",
+      "duracao": "1 dia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

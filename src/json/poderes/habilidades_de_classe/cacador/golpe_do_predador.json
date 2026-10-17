@@ -1,0 +1,35 @@
+{
+  "id": "golpe_do_predador",
+  "name": "Golpe do Predador",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Se você causar dano em uma criatura analisada por sua Marca da Presa, ela fica sangrando. Se ela já estiver sangrando, a perda de vida por sangramento aumenta em um passo (cumulativo até um máximo de d12) e ela falha automaticamente em seu próximo teste de Constituição para remover essa condição.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "marca_da_presa"
+    }
+  ],
+  "effects": [
+    {
+      "type": "condition_inflict",
+      "condition": "sangrando",
+      "trigger": "causar_dano_em_criatura_marcada"
+    },
+    {
+      "type": "condition_improvement",
+      "condition": "sangrando",
+      "value": 1,
+      "unit": "passo",
+      "cumulative_max": "d12",
+      "trigger": "alvo_ja_sangrando"
+    },
+    {
+      "type": "auto_fail",
+      "test": "constituicao",
+      "trigger": "proximo_teste_para_remover_sangrando"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

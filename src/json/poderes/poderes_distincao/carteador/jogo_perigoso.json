@@ -1,0 +1,19 @@
+{
+  "id": "jogo_perigoso",
+  "name": "Jogo Perigoso",
+  "type": "poder_distincao",
+  "description": "Só um tolo joga com as cartas que lhe foram dadas. Você pode gastar uma ação completa para fazer uma aposta com uma entidade sobrenatural. Escolha uma magia de 1º círculo, arcana ou divina, e faça um teste de Jogatina (CD 20 + o custo em PM da magia). Se passar, até o fim da cena, ou até usar este poder novamente, você pode lançar essa magia (atributo-chave Carisma) e pode usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um bardo do seu nível. Se falhar, você perde 2 PM para cada círculo da magia. A cada dois outros poderes da distinção, você pode escolher magias de um círculo acima do 1º.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "completa",
+      "efeito": "escolhe uma magia de 1º círculo, arcana ou divina, e faz um teste de Jogatina (CD 20 + custo em PM da magia); se passar, pode lançar essa magia (atributo-chave Carisma), com aprimoramentos como um bardo do seu nível, até o fim da cena ou até usar este poder de novo; se falhar, perde 2 PM por círculo da magia",
+      "escalavel": "a cada dois outros poderes da distinção, pode escolher magias de um círculo acima do 1º"
+    }
+  ],
+  "requirements": [
+    "treinado em Misticismo",
+    "Ás na Manga"
+  ],
+  "livro": "herois_de_arton"
+}

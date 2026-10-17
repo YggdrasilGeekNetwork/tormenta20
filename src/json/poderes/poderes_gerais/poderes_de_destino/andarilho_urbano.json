@@ -1,0 +1,25 @@
+{
+  "id": "andarilho_urbano",
+  "name": "Andarilho Urbano",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Nas tavernas mais sujas e nos becos mais escuros... você está em casa. Se estiver em uma cidade, você recebe +2 na Defesa, em Enganação e em Investigação.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "defense_improvement",
+      "value": 2,
+      "condition": "em_uma_cidade"
+    },
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "skill": [
+        "enganacao",
+        "investigacao"
+      ],
+      "condition": "em_uma_cidade"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

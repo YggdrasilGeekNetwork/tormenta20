@@ -1,0 +1,20 @@
+{
+  "id": "balistico",
+  "name": "Balístico",
+  "type": "melhoria",
+  "categoria": "escudo",
+  "prerequisitos": [
+    "reforcada"
+  ],
+  "description": "O escudo possui um mecanismo que usa a energia de balas de armas de fogo para aumentar o impacto de seus golpes. Quando faz um ataque com o escudo, você pode ativar o mecanismo e gastar uma bala para aumentar o dano do escudo em +2d6. Esta melhoria só pode ser aplicada em escudos. Ela tem espaço para 2 balas e recarregá-la exige uma ação completa e o gasto das balas. Pré-requisito: reforçado.",
+  "effects": [
+    {
+      "type": "dano_extra_ao_gastar_municao",
+      "municao": "bala",
+      "value": "2d6",
+      "capacidade": 2,
+      "recarregar_acao": "completa"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

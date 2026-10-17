@@ -1,0 +1,21 @@
+{
+  "id": "espada_gadanho",
+  "name": "Espada-Gadanho",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 40,
+  "dano": "1d6",
+  "critico": "18",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [
+    "agil",
+    "surpreendente"
+  ],
+  "description": "À primeira vista parece um sabre, talvez com lâmina um pouco mais recurvada. O grande truque está em seu fio: é afiada na parte de dentro, não de fora, pegando muitos inimigos de surpresa. É uma arma ágil e surpreendente. Devido ao seu gume invertido, exige treinamento especial para ser empunhada, por isso é uma arma exótica.",
+  "especial": null,
+  "livro": "herois_de_arton"
+}

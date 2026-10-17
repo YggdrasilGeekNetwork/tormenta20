@@ -1,0 +1,23 @@
+{
+  "id": "diligente",
+  "name": "Diligente",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Você pode gastar uma ação de movimento para se concentrar na tarefa à frente. Se fizer isso, recebe +2 em um teste de perícia (exceto testes de ataque) que exija no máximo uma ação completa para ser realizado e que seja realizado até o fim do seu próximo turno.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "skill": "exceto_testes_de_ataque",
+      "condition": "acao_completa_ou_menos_ate_o_fim_do_proximo_turno"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "acao_de_movimento"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "vortice",
+  "name": "Vórtice",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "Você pode gastar 1 PM para criar um redemoinho que puxa uma criatura em alcance curto até um ponto adjacente a você (Fort CD For evita).",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "efeito": "cria um redemoinho que puxa uma criatura em alcance curto até um ponto adjacente a você",
+      "resistencia": "Fortitude CD For evita"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

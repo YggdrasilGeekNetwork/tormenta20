@@ -1,0 +1,12 @@
+{
+  "id": "cancao_da_melancolia",
+  "name": "Canção da Melancolia",
+  "type": "habilidade_de_raca",
+  "race": "eiradaan",
+  "description": "Quando faz um teste de Vontade contra efeitos mentais, você rola dois dados e usa o pior resultado.",
+  "effects": {
+    "penalidade": "rola 2d20 e usa o pior resultado",
+    "condicao": "testes de Vontade contra efeitos mentais"
+  },
+  "livro": "herois_de_arton"
+}

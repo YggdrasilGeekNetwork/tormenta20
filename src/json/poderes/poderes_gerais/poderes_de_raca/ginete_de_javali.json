@@ -1,0 +1,36 @@
+{
+  "id": "ginete_de_javali",
+  "name": "Ginete de Javali",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você recebe um javali doherita (veja o quadro) iniciante, com o qual possui +2 em Adestramento e Cavalgar. Se perder seu javali, você pode obter outro com uma semana de busca e T$ 100.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "anao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "receive_partner",
+      "partner_type": "javali_doherita",
+      "patamar": "iniciante"
+    },
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "skill": [
+        "adestramento",
+        "cavalgar"
+      ],
+      "condition": "com_o_javali"
+    },
+    {
+      "type": "replace_partner",
+      "cost": "1 semana de busca e T$ 100",
+      "condition": "perder_o_javali"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

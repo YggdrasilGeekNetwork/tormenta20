@@ -1,0 +1,25 @@
+{
+  "id": "martelo_da_terra",
+  "name": "Martelo da Terra",
+  "base_weapon": "martelo_de_guerra",
+  "preco": 33000,
+  "description": "Este martelo de guerra cravejado de gemas formidável de adamante é adornado com cristais brilhantes e gravuras de montanhas. Você pode gastar uma ação de movimento e 3 PM para invocar uma rachadura no solo, que percorre uma linha de 18m. Criaturas nessa área são tragadas pela rachadura de 1,5m de profundidade (Ref CD For ou Des evita). Uma criatura tragada fica caída e vulnerável até sair da rachadura, o que requer uma ação completa.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "material_especial",
+      "name": "adamante"
+    },
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 3,
+      "efeito": "invoca uma rachadura no solo que percorre uma linha de 18m e 1,5m de profundidade; criaturas na área são tragadas, ficando caídas e vulneráveis até saírem da rachadura (requer ação completa)",
+      "resistencia": "Reflexos CD For ou Des (à escolha) evita"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

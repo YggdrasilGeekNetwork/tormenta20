@@ -1,0 +1,27 @@
+{
+  "id": "golpe_de_genio",
+  "name": "Golpe de Gênio",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Uma vez por aventura (ou uma vez por mês, de acordo com o mestre), você pode usar Engenhosidade duas vezes em um mesmo teste, ou pode fabricar um item superior ou mágico com uma semana de trabalho (em vez de um mês).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    },
+    {
+      "type": "fearute_use_time",
+      "sub_type": "soft",
+      "time": "uma_vez_por_aventura_ou_mes"
+    }
+  ],
+  "effects": [
+    {
+      "type": "reduce_PM_cost",
+      "note": "usa_engenhosidade_duas_vezes_no_mesmo_teste_ou_fabrica_item_superior_ou_magico_em_uma_semana_em_vez_de_um_mes"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

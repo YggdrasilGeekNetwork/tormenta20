@@ -1,0 +1,10 @@
+{
+  "id": "mestre_cozinheiro",
+  "name": "Mestre Cozinheiro",
+  "description": "Chef que encontra em masmorras uma fonte infinita de ingredientes monstruosos, transformando-os em pratos que curam e fortalecem o grupo.",
+  "admissao": "O candidato deve, antes de mais nada, saber cozinhar muito bem e ter familiaridade com vários tipos de criaturas, incluindo sua anatomia. Deve então explorar pelo menos três masmorras, abater pelo menos seis monstros diferentes e usar suas partes para cozinhar refeições. Em seguida, deve adquirir uma cópia do Tomo Divino de Deauvorimm por conta própria (comprando em leilão clandestino, achando em uma masmorra, roubando de outro mestre cozinheiro...). Por fim, deve preparar um banquete usando apenas ingredientes fantásticos — nada mundano, nem sal ou farinha — para no mínimo cinco pessoas; se todos os convivas acharem a refeição deliciosa, ficarem satisfeitos e não passarem mal depois, o candidato é reconhecido como um verdadeiro mestre cozinheiro.",
+  "marca_nome": "Panela de Estimação",
+  "marca_descricao": "Nas mãos de um mestre cozinheiro, utensílios de cozinha ganham novas utilidades. Você recebe uma arma ou escudo com o qual seja proficiente, que pode ser usado como instrumentos de cozinheiro e fornece +2 em Ofício (cozinheiro). Se perder esse item, você pode comprar ou produzir outro com 1 dia e o gasto de T$ 100.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

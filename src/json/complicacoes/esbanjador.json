@@ -1,0 +1,14 @@
+{
+  "id": "esbanjador",
+  "name": "Esbanjador",
+  "description": "Você tem certas necessidades, que alguns chamam de \"luxo\" — mas, para você, são o motivo de viver! Para subir de nível, além de acumular XP suficiente, você deve \"torrar\" tibares em festas e frivolidades, em um valor igual a 20% da diferença do dinheiro inicial do nível que vai alcançar para o nível atual (por exemplo, T$ 200 para subir para o 5° nível).",
+  "categoria": "bucaneiro",
+  "effects": [
+    {
+      "type": "restricao_progressao",
+      "descricao": "para subir de nível, além de XP suficiente, deve gastar em festas e frivolidades um valor igual a 20% da diferença do dinheiro inicial do nível alvo para o nível atual"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "poco_de_piche",
+  "name": "Poço de Piche",
+  "description": "Um buraco no chão onde substâncias valiosas emergem da terra. As matérias-primas extraídas do poço fornecem +2 na CD de seus preparados e venenos.",
+  "categoria": "nobreza",
+  "custo": 6,
+  "effects": [
+    {
+      "type": "bonus_cd",
+      "aplica_a": "preparados e venenos",
+      "value": 2
+    }
+  ],
+  "prerequisito": "terreno pântano",
+  "livro": "herois_de_arton"
+}

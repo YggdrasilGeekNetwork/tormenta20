@@ -1,0 +1,30 @@
+{
+  "id": "explosao_ossea",
+  "name": "Explosão Óssea",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Sempre que você sofre dano, pode gastar 2 PM para fazer alguns de seus ossos se soltarem, absorvendo o choque. Isso reduz o dano sofrido à metade, mas o deixa fraco (já que você perde partes de seu esqueleto). Essa condição é cumulativa — se usar este poder duas vezes, você fica debilitado e, se usá-lo três vezes, fica inconsciente. Essas condições duram até você recolher seus ossos (uma ação completa) ou até o fim do dia.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "osteon"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_test_improvment",
+      "value": "reduz_dano_sofrido_a_metade",
+      "trigger": "sofrer_dano",
+      "side_effect": "condicao_fraco_cumulativa_debilitado_na_2a_vez_inconsciente_na_3a",
+      "duration": "ate_recolher_ossos_acao_completa_ou_fim_do_dia"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

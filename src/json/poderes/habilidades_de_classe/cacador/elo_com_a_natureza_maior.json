@@ -1,0 +1,34 @@
+{
+  "id": "elo_com_a_natureza_maior",
+  "name": "Elo Com a Natureza Maior",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Escolha duas magias entre Abençoar Alimentos, Acalmar Animal, Alarme, Aviso, Conjurar Armadilhas, Detectar Ameaças, Orientação ou Suporte Ambiental. Você aprende e pode lançar as magias escolhidas (atributo-chave Sabedoria) e pode usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um druida do seu nível. Você pode escolher este poder mais vezes para magias diferentes. Pré-requisito: Elo com a Natureza.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "elo_com_a_natureza"
+    }
+  ],
+  "effects": [
+    {
+      "type": "learn_magic",
+      "value": 2,
+      "attribute_key": "sab",
+      "options": [
+        "abencoar_alimentos",
+        "acalmar_animal",
+        "alarme",
+        "aviso",
+        "conjurar_armadilhas",
+        "detectar_ameacas",
+        "orientacao",
+        "suporte_ambiental"
+      ],
+      "enhancement_access": "circulos_de_druida_do_mesmo_nivel",
+      "repeatable": true
+    }
+  ],
+  "livro": "herois_de_arton"
+}

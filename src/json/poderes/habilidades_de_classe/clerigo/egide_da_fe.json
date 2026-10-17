@@ -1,0 +1,24 @@
+{
+  "id": "egide_da_fe",
+  "name": "Égide da Fé",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Quando você lança Escudo da Fé, a magia também fornece 5 PV temporários para cada +1 na Defesa. Esses PV temporários duram até o fim da cena. Pré-requisito: Escudo da Fé.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "escudo_da_fe"
+    }
+  ],
+  "effects": [
+    {
+      "type": "resource_gain",
+      "resource": "PV_temporario",
+      "value": 5,
+      "per": "+1_na_defesa_de_escudo_da_fe",
+      "duration": "cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

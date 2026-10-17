@@ -1,0 +1,29 @@
+{
+  "id": "inspiracao_espirituosa",
+  "name": "Inspiração Espirituosa",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Na primeira vez que você usa Inspiração em cada combate, você e seus aliados recebem uma quantidade de PM temporários igual ao bônus fornecido por essa habilidade. Pré-requisito: 11º nível de bardo.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "inspiracao"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "resource_gain",
+      "resource": "PM_temporario",
+      "value": "bonus_de_inspiracao",
+      "trigger": "primeiro_uso_de_inspiracao_no_combate",
+      "applies_to": "bardo_e_aliados"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

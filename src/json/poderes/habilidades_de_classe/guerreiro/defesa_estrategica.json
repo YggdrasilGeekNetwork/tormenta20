@@ -1,0 +1,24 @@
+{
+  "id": "defesa_estrategica",
+  "name": "Defesa Estratégica",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Você soma sua Inteligência na Defesa, limitada pelo seu nível.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "int",
+      "value": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "add_defense_attr",
+      "attr": "int",
+      "limit": "nivel_do_personagem"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

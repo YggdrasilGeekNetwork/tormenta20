@@ -1,0 +1,15 @@
+{
+  "id": "conspurcador",
+  "name": "Conspurcador",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item exala uma aura de profanidade, degradando tudo que é sagrado à sua volta. Qualquer item consumível imbuído de magia divina (como água benta ou uma poção de magia divina) que você toque perde todas as suas propriedades. Esse efeito é permanente.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "qualquer item consumível imbuído de magia divina (água benta, poção de magia divina etc.) que você toque perde permanentemente todas as suas propriedades"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

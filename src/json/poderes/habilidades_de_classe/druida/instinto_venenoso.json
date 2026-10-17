@@ -1,0 +1,28 @@
+{
+  "id": "instinto_venenoso",
+  "name": "Instinto Venenoso",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Você pode usar Sab como atributo-chave de venenos (em vez de Int). Além disso, em Forma Selvagem, pode aplicar venenos de contato em suas armas naturais como ação livre.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "coracao_da_selva"
+    }
+  ],
+  "effects": [
+    {
+      "type": "switch_skill_attr",
+      "skill": "veneno",
+      "attr": "sab"
+    },
+    {
+      "type": "change_action_type",
+      "action": "livre",
+      "requirement": "aplicar_veneno_de_contato_em_arma_natural_em_forma_selvagem"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

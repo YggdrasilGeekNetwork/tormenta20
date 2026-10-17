@@ -1,0 +1,65 @@
+{
+  "id": "espirito_balistico",
+  "name": "Espírito Balístico",
+  "type": "arcana",
+  "circle": "1",
+  "school": "conv",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "curto_6m_9q",
+  "target": {
+    "amount": 1,
+    "up_to": null,
+    "type": "criatura_conjurada"
+  },
+  "effect": "criaturas_conjuradas",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "sustentada",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Esta magia invoca um pequeno espírito feito de energia com aparência a sua escolha em um espaço desocupado. O espírito é fixo, permanecendo no lugar onde foi invocado. No começo dos seus turnos, o espírito dispara um projétil mágico contra o inimigo mais próximo em alcance médio, causando 1d6+1 pontos de dano de perfuração. O espírito não realiza outras ações e dispara projéteis a cada rodada, até que a magia termine, não existam mais inimigos no alcance ou o espírito seja destruído.\nO espírito tem Defesa igual à sua e 20 pontos de vida. Ele é imune a efeitos que pedem um teste de Fortitude ou Vontade e falha automaticamente em testes de Reflexos.",
+  "enhancements": [
+    {
+      "cost": 2,
+      "type": "aumenta",
+      "description": "aumenta o dano em um dado do mesmo tipo (total de dados limitado pelo círculo máximo de magia que você pode lançar).",
+      "extra_details": null
+    },
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "muda o número de espíritos para dois. Requer 2º círculo.",
+      "extra_details": {
+        "requirements": "2º círculo"
+      }
+    },
+    {
+      "cost": 5,
+      "type": "muda",
+      "description": "muda o número de espíritos para três. Requer 3º círculo.",
+      "extra_details": {
+        "requirements": "3º círculo"
+      }
+    },
+    {
+      "cost": 3,
+      "type": "muda",
+      "description": "(Apenas Golem [energia elemental], Qareen ou Kallyanach): muda o dado de dano para d8 e o tipo de dano para o tipo escolhido para sua habilidade racial elemental.",
+      "extra_details": {
+        "requirements": "Golem (energia elemental), Qareen ou Kallyanach"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "dano",
+      "attribute": "perfuracao",
+      "amount": "1d6+1",
+      "resistence_requirement": null,
+      "extra_requirements": "por_rodada_no_inimigo_mais_proximo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

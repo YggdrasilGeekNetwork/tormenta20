@@ -1,0 +1,18 @@
+{
+  "id": "abracar_anticriacao",
+  "name": "Abraçar Anticriação",
+  "type": "poder_distincao",
+  "description": "O algoz trai tudo que Arton é, tornando-se de corpo e alma como os invasores. Seu tipo muda para monstro (lefeu) e você recebe todas as habilidades lefeu — sua Insanidade da Tormenta causa perda de 1d6 PM para cada poder da distinção que você possui (atributo-chave Sabedoria).",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "o tipo do personagem muda para monstro (lefeu) e ele recebe todas as habilidades lefeu; a Insanidade da Tormenta do algoz causa perda de 1d6 PM para cada poder da distinção que possui (atributo-chave Sabedoria)"
+    }
+  ],
+  "requirements": [
+    "General Rubro",
+    "17º nível"
+  ],
+  "livro": "herois_de_arton",
+  "tormenta": true
+}

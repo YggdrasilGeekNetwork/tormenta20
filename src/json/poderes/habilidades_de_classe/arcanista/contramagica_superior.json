@@ -1,0 +1,29 @@
+{
+  "id": "contramagica_superior",
+  "name": "Contramágica Superior",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Quando anula uma magia com uma contramágica, você recebe uma quantidade de PM temporários igual ao círculo da magia anulada (limitada pelos PM que gastou para anular). Pré-requisitos: Contramágica Aprimorada, 9º nível de arcanista.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "contramagica_aprimorada"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 9
+    }
+  ],
+  "effects": [
+    {
+      "type": "resource_gain",
+      "resource": "PM_temporario",
+      "value": "circulo_da_magia_anulada",
+      "limited_by": "pm_gastos_para_anular",
+      "trigger": "anular_magia_com_contramagica"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

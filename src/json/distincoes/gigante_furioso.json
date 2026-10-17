@@ -1,0 +1,10 @@
+{
+  "id": "gigante_furioso",
+  "name": "Gigante Furioso",
+  "description": "Bárbaros que dominam um ritual ancestral para devorar o coração de gigantes derrotados e crescer a tamanhos assustadores, tornando-se avatares da própria fúria.",
+  "admissao": "O candidato deve primeiro ouvir falar do ritual, geralmente por meio de xamãs de Megalokk ou sábios que preservam tradições orais. Em seguida, deve derrotar um gigante em combate corporal — podendo ser auxiliado por companheiros, mas sendo um dos maiores responsáveis pela vitória contra uma criatura que represente perigo real. Depois, deve devorar o coração cru e ainda quente do gigante morto, inteiro e sem vomitá-lo (se falhar, deve matar outro gigante e tentar de novo). Por fim, deve se apresentar a um clérigo ou druida de Megalokk com o restante do corpo da presa, que avaliará se ele merece a bênção e realizará um ritual sangrento e fisicamente exigente para transferir o poder do gigante derrotado — ou, alternativamente, pode ser confrontado diretamente por criaturas enviadas pelo próprio Megalokk ao longo de vários dias. Se sobreviver, torna-se um gigante furioso.",
+  "marca_nome": "Desprezar os Pequenos",
+  "marca_descricao": "Contra atacantes menores que você, você recebe redução de dano 2 por categoria de tamanho de diferença entre os dois (por exemplo, se for Enorme, você recebe RD 6 contra ataques de criaturas Pequenas).",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

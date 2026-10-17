@@ -1,0 +1,45 @@
+{
+  "id": "dupla_inteligencia",
+  "name": "Dupla Inteligência",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Quando faz um teste de Inteligência ou de perícias baseadas nesse atributo, você pode gastar 2 PM para rolar dois dados e usar o melhor resultado.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "gnoll",
+        "kaijin",
+        "lefou",
+        "orc",
+        "trog"
+      ]
+    },
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "int",
+      "value": 2
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "duas_cabecas"
+    }
+  ],
+  "effects": [
+    {
+      "type": "roll_dice_again",
+      "requirements": "teste_de_inteligencia_ou_pericia_baseada_em_inteligencia",
+      "keep": "melhor_resultado"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

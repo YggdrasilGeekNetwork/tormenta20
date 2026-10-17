@@ -1,0 +1,16 @@
+{
+  "id": "banhos_publicos",
+  "name": "Banhos Públicos",
+  "description": "Estas fontes termais trazem conforto e higiene aos habitantes do domínio. Você recebe +5 em testes da ação governar.",
+  "categoria": "nobreza",
+  "custo": 7,
+  "effects": [
+    {
+      "type": "bonus_acao_dominio",
+      "acao": "governar",
+      "value": 5
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

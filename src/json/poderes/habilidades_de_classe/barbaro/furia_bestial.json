@@ -1,0 +1,24 @@
+{
+  "id": "furia_bestial",
+  "name": "Fúria Bestial",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Enquanto você está em fúria, o dano das suas armas naturais aumenta em dois passos e o multiplicador de crítico delas aumenta em +1.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": 2,
+      "unit": "passo",
+      "applies_to": "armas_naturais",
+      "condition": "em_furia"
+    },
+    {
+      "type": "critical_improvement",
+      "value": 1,
+      "applies_to": "armas_naturais",
+      "condition": "em_furia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

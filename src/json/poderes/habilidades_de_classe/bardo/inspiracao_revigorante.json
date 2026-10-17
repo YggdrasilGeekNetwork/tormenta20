@@ -1,0 +1,24 @@
+{
+  "id": "inspiracao_revigorante",
+  "name": "Inspiração Revigorante",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Quando você usa Inspiração, você e seus aliados recebem uma quantidade de PV temporários igual a 5 vezes o bônus fornecido.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "inspiracao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "resource_gain",
+      "resource": "PV_temporario",
+      "value": "5x_bonus_de_inspiracao",
+      "applies_to": "bardo_e_aliados",
+      "trigger": "usar_inspiracao"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

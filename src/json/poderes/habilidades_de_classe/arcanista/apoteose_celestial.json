@@ -1,0 +1,42 @@
+{
+  "id": "apoteose_celestial",
+  "name": "Apoteose Celestial",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Sua conexão com o divino se torna ainda mais profunda, às custas de uma fração de sua mortalidade. Você recebe +1 em Sabedoria e aprende uma magia divina de cada círculo a que tenha acesso. Entretanto, sua Constituição diminui em –1. Pré-requisitos: Herança Superior (linhagem celestial), 17° nível de arcanista.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "heranca_superior"
+    },
+    {
+      "type": "linhagem",
+      "sub_type": "hard",
+      "value": "celestial"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "attribute_improvement",
+      "attr": "sab",
+      "value": 1
+    },
+    {
+      "type": "learn_magic",
+      "school": "divina",
+      "value": "uma_por_circulo_com_acesso"
+    },
+    {
+      "type": "attribute_penalty",
+      "attr": "con",
+      "value": -1
+    }
+  ],
+  "livro": "herois_de_arton"
+}

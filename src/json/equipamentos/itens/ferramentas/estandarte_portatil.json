@@ -1,0 +1,18 @@
+{
+  "id": "estandarte_portatil",
+  "name": "Estandarte Portátil",
+  "type": "item",
+  "categoria": "ferramenta",
+  "preco": 20,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "igual_a": "estandarte",
+    "maos_livres": true,
+    "penalidade_armadura_se_preso_as_costas": -2,
+    "conta_como_item_vestido_da_montaria_se_preso_a_sela": true
+  },
+  "description": "Igual ao estandarte, mas feito para ser usado nas costas ou preso à sela de uma montaria. Deixa as mãos livres. Contudo, se estiver preso às costas, impõe uma penalidade de armadura de –2 e, se estiver preso à montaria, conta como um item vestido dela.",
+  "livro": "herois_de_arton"
+}

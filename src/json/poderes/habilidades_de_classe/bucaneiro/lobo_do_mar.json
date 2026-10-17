@@ -1,0 +1,31 @@
+{
+  "id": "lobo_do_mar",
+  "name": "Lobo do Mar",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Você já viu quase todo o mundo e almeja ver o resto. Quando você chega a um lugar no qual nunca esteve, pelo resto da aventura o custo de Audácia diminui em –1 PM e você pode usá-la em testes de ataque (ambos nesse lugar). Pré-requisito: 17º nível de bucaneiro.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "cost_reduction",
+      "value": 1,
+      "applies_to": "audacia",
+      "condition": "em_lugar_onde_nunca_esteve",
+      "duration": "resto_da_aventura"
+    },
+    {
+      "type": "extend_feature",
+      "value": "audacia",
+      "applies_to": "testes_de_ataque",
+      "condition": "em_lugar_onde_nunca_esteve",
+      "duration": "resto_da_aventura"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

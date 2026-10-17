@@ -1,0 +1,22 @@
+{
+  "id": "um_por_todos",
+  "name": "Um por Todos",
+  "type": "poder_distincao",
+  "description": "O Mosqueteiro sabe trabalhar em equipe como ninguém. Quando você faz um teste para ajudar (exceto para ataques), o bônus que você fornece aumenta em +2. Além disso, uma vez por rodada, quando acerta um ataque de florete ou rapieira em um inimigo, você pode usar o resultado desse ataque como um teste para ajudar um ataque de um aliado feito contra esse inimigo até a próxima rodada.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "bônus fornecido em testes para ajudar (exceto ataques) aumenta em +2"
+    },
+    {
+      "type": "passivo",
+      "limite": "uma vez por rodada",
+      "gatilho": "acerta ataque de florete ou rapieira em um inimigo",
+      "efeito": "pode usar o resultado desse ataque como teste para ajudar um ataque de aliado contra esse inimigo até a próxima rodada"
+    }
+  ],
+  "requirements": [
+    "Mestre Esgrimista"
+  ],
+  "livro": "herois_de_arton"
+}

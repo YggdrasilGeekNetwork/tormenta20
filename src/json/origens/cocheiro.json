@@ -1,0 +1,34 @@
+{
+  "id": "cocheiro",
+  "name": "Cocheiro",
+  "description": "Você costumava conduzir e manter carroças, carruagens, diligências e outros veículos puxados por animais, transportando passageiros e mercadorias através dos ermos. Além de garantir que os cavalos (ou trobos, ou outras bestas) estivessem bem alimentados e cuidados, cabia-lhe saber navegar por trilhas perigosas e enfrentar desafios como bandidos ou predadores, enquanto protegia seus passageiros. Sua habilidade de manejar as rédeas e seu conhecimento das rotas tornavam-no um guia confiável, essencial para o transporte (quase sempre) seguro nos reinos. Então houve aquele dia, quando você levou um bando de esquisitos até a entrada de uma masmorra...",
+  "items": [
+    {
+      "type": "choice",
+      "text": "Montaria",
+      "options": [
+        {
+          "text": "Cavalo"
+        },
+        {
+          "text": "Trobo"
+        }
+      ]
+    },
+    {
+      "type": "fixed",
+      "text": "Carroça"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Adestramento",
+      "Pilotagem"
+    ],
+    "powers": [
+      "Rédeas Firmes"
+    ]
+  },
+  "unique_power": "redeas_firmes",
+  "livro": "herois_de_arton"
+}

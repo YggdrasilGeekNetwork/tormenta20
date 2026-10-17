@@ -1,0 +1,22 @@
+{
+  "id": "mestre_esgrimista",
+  "name": "Mestre Esgrimista",
+  "type": "poder_distincao",
+  "description": "Por suas restrições de equipamento, o Mosqueteiro treina sua esgrima mais que qualquer um. Seu multiplicador de crítico com florete e rapieira aumenta em +1. Além disso, quando faz um ataque com uma dessas armas, você pode gastar 1 PM para rolar dois dados e usar o melhor resultado.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "multiplicador de crítico com florete e rapieira aumenta em +1"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "efeito": "ao atacar com florete ou rapieira, rola dois dados e usa o melhor resultado"
+    }
+  ],
+  "requirements": [
+    "proficiência com armas marciais",
+    "Estilo de Uma Arma"
+  ],
+  "livro": "herois_de_arton"
+}

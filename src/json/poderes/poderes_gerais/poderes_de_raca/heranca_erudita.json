@@ -1,0 +1,26 @@
+{
+  "id": "heranca_erudita",
+  "name": "Herança Erudita",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Seu sangue não carrega apenas a fagulha mágica que lhe dá poder, mas também conhecimento ancestral. Escolha uma perícia originalmente baseada em Inteligência. Você soma seu Carisma nessa perícia.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "eiradaan",
+        "elfo",
+        "kallyanach"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "add_attr_bonus_to_skill",
+      "attr": "car",
+      "target": "pericia_escolhida_baseada_em_inteligencia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

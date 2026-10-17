@@ -1,0 +1,20 @@
+{
+  "id": "paixao_lealdade",
+  "name": "Paixão: Lealdade",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Ao escolher esta Paixão, decida a quem sua lealdade será dedicada. Pode ser um nobre, uma organização, uma região etc. Você pode evocar esta Paixão para buscar forças nesse compromisso de fidelidade. Se passar, você recebe um bônus em testes de ataque e rolagens de dano igual ao bônus máximo que sua habilidade Duelo pode fornecer.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "active",
+      "action": "livre",
+      "test": "carisma",
+      "dc": "10_mais_5_por_uso_na_mesma_aventura",
+      "on_success": "bonus_em_ataque_e_dano_igual_ao_maximo_de_duelo",
+      "duration": "cena",
+      "on_fail": "nao_pode_usar_ate_fim_da_aventura"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

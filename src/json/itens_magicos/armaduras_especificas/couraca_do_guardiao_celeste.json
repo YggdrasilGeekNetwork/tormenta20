@@ -1,0 +1,30 @@
+{
+  "id": "couraca_do_guardiao_celeste",
+  "name": "Couraça do Guardião Celeste",
+  "subtipo": "armadura",
+  "base_item": "couraca",
+  "preco": 54000,
+  "description": "Esta couraça banhada a ouro defensora protetora é adornada com asas douradas no peitoral e nas ombreiras. Você recebe +1 em Carisma (somente após um dia de uso) e seus efeitos de cura de luz curam +1 PV por dado de cura.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensora"
+    },
+    {
+      "type": "enchantment",
+      "name": "protetora"
+    },
+    {
+      "type": "bonus_atributo",
+      "atributo": "carisma",
+      "value": 1,
+      "condicao": "somente após um dia de uso"
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "efeitos de cura de luz",
+      "efeito": "curam +1 PV por dado de cura"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

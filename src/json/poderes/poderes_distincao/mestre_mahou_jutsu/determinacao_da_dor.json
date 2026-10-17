@@ -1,0 +1,22 @@
+{
+  "id": "determinacao_da_dor",
+  "name": "Determinação da Dor",
+  "type": "poder_distincao",
+  "description": "A disciplina do treino permite ao mestre mahou-jutsu tirar forças do próprio sofrimento. Você soma sua Constituição nos testes de Vontade para concentração em magias (Tormenta20, p. 170). Além disso, quando sofre dano, você soma sua Constituição no seu limite de PM para magias arcanas até o fim do seu próximo turno.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "soma Constituição nos testes de Vontade para concentração em magias"
+    },
+    {
+      "type": "passivo",
+      "gatilho": "sofre dano",
+      "efeito": "soma Constituição no limite de PM para magias arcanas até o fim do próximo turno"
+    }
+  ],
+  "requirements": [
+    "Con 1",
+    "Mahou-Jutsu"
+  ],
+  "livro": "herois_de_arton"
+}

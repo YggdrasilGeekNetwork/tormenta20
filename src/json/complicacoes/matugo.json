@@ -1,0 +1,20 @@
+{
+  "id": "matugo",
+  "name": "Matugo",
+  "description": "Você não se dá bem em cidades. Você fica alquebrado em ambientes urbanos e, quando descansa nesses ambientes, sua recuperação é uma categoria pior (se já era ruim, você recupera apenas 1 PV e 1 PM, independentemente do seu nível).",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "condicao_condicional",
+      "gatilho": "ambiente_urbano",
+      "efeito": "fica_alquebrado"
+    },
+    {
+      "type": "recuperacao_reduzida",
+      "contexto": "descanso_em_ambiente_urbano",
+      "descricao": "recuperação uma categoria pior (mínimo 1 PV e 1 PM)"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

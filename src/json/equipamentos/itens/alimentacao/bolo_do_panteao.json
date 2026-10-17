@@ -1,0 +1,18 @@
+{
+  "id": "bolo_do_panteao",
+  "name": "Bolo do Panteão",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 200,
+  "espacos": 0.5,
+  "livro": "herois_de_arton",
+  "ingredientes": ["acucar_das_fadas", "avela_de_norba", "farinha", "gorad"],
+  "custo_ingredientes": 121,
+  "cd_teste_oficio_cozinheiro": 30,
+  "efeito": {
+    "reducao_custo_pm_de_uma_habilidade_escolhida": 1,
+    "minimo": 1,
+    "aplicacao": "escolha uma habilidade ao comer o prato"
+  },
+  "description": "Uma sobremesa divina! Este bolo de gorad é preparado com os melhores ingredientes, por isso é caríssimo, servido apenas em banquetes reais — ou em tavernas que atendem aventureiros famosos. Comer uma fatia de um bolo do Panteão torna mais fácil dar o melhor de si, seja desferindo um golpe especial, seja lançando uma magia. Quando você come este prato, escolha uma habilidade. Seu custo para usar a habilidade escolhida diminui em –1 PM (mínimo 1)."
+}

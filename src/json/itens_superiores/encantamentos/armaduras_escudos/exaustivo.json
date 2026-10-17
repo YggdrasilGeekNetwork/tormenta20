@@ -1,0 +1,16 @@
+{
+  "id": "exaustivo",
+  "name": "Exaustivo",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item faz com que tudo pareça cansativo demais: andar por uma estrada pavimentada é como subir uma colina íngreme, colocar os sapatos é como erguer uma bigorna, dar bom dia a seus companheiros é como fazer um discurso para a corte imperial... O custo em pontos de mana de suas habilidades aumenta em +1.",
+  "effects": [
+    {
+      "type": "custo_extra_pm",
+      "value": 1,
+      "condicao": "custo em PM de suas habilidades"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

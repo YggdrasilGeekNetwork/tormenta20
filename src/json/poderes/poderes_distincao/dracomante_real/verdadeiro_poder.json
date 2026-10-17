@@ -1,0 +1,16 @@
+{
+  "id": "verdadeiro_poder",
+  "name": "Verdadeiro Poder",
+  "type": "poder_distincao",
+  "description": "O ápice do poder dracônico é se tornar um dragão. Você aprende e pode lançar Metamorfose e, enquanto estiver sob efeito dessa magia, pode lançar magias normalmente. Alternativamente, se tiver o suplemento Ameaças de Arton, em vez disso aprende e pode lançar Transformação em Dragão (p. 405) e não precisa de componente material para se transformar em um dragão do tipo da essência dracônica de seu mestre. Se você aprender a magia fornecida por este poder novamente, seu custo diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "concede_magia",
+      "magia": "Metamorfose (ou Transformação em Dragão, com Ameaças de Arton)",
+      "efeito": "pode lançar magias normalmente enquanto transformado; sem componente material para virar dragão do tipo da essência dracônica do mestre (variante Transformação em Dragão)",
+      "escalavel": "aprender a magia novamente reduz seu custo em –1 PM"
+    }
+  ],
+  "requirements": ["lançar magias arcanas de 4º círculo", "quatro poderes da distinção"],
+  "livro": "herois_de_arton"
+}

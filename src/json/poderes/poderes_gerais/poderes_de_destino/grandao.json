@@ -1,0 +1,33 @@
+{
+  "id": "grandao",
+  "name": "Grandão",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Você conta como uma categoria de tamanho maior para propósitos do modificador de Furtividade e manobras, espaço ocupado e alcance natural. Além disso, sua capacidade de carga aumenta em 5 espaços.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "con",
+      "value": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "size_category_improvement",
+      "value": 1,
+      "scope": [
+        "furtividade",
+        "manobras",
+        "espaco_ocupado",
+        "alcance_natural"
+      ]
+    },
+    {
+      "type": "inventory_improvement",
+      "value": 5,
+      "unit": "espacos"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "castelo",
+  "name": "Castelo",
+  "description": "Esta construção imponente é protegida por fossos, muralhas e torres. Normalmente, seu pátio e térreo são abertos ao público, enquanto os andares superiores servem de residência para o regente, sua família e seus conselheiros. Muda o bônus de Fortificação do forte para +5.",
+  "categoria": "nobreza",
+  "custo": 25,
+  "effects": [
+    {
+      "type": "altera_bonus_fortificacao",
+      "construcao": "forte",
+      "novo_valor": 5
+    }
+  ],
+  "prerequisito": "forte",
+  "livro": "herois_de_arton"
+}

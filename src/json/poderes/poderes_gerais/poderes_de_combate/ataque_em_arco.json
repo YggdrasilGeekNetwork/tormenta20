@@ -1,0 +1,39 @@
+{
+  "id": "ataque_em_arco",
+  "name": "Ataque em Arco",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Quando faz um ataque corpo a corpo, você pode gastar 2 PM. Se fizer isso, seu ataque pode acertar até três criaturas adjacentes entre si que estejam em seu alcance (faça um único teste de ataque e compare-o com a Defesa de cada criatura). Se você estiver atacando um bando, em vez disso seu ataque causa 50% a mais de dano.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "luta"
+    },
+    {
+      "type": "character_level",
+      "sub_type": "hard",
+      "value": 4
+    }
+  ],
+  "effects": [
+    {
+      "type": "cleave_attack",
+      "targets": 3,
+      "condition": "criaturas_adjacentes_entre_si_no_alcance",
+      "test": "unico_teste_de_ataque_comparado_a_defesa_de_cada"
+    },
+    {
+      "type": "damage_improvement",
+      "value": "50%",
+      "condition": "alvo_e_um_bando"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

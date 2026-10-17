@@ -1,0 +1,26 @@
+{
+  "id": "pena_da_criacao",
+  "name": "Pena da Criação",
+  "categoria": "menor",
+  "preco": 6000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta pena, que brilha em tom roxo escuro, pertencia a um malafex — tipo de corvo mágico sagrado de Nimb. Conta como instrumentos de Ofício (escriba) aprimorado. Uma vez por cena, você pode gastar uma ação completa para desenhar um monstro em um pergaminho ou outra superfície que aceite tinta. Faça um teste de Ofício (escriba) com CD 10. Se passar, você lança o efeito básico de Conjurar Monstro sem gastar PM. Para cada 5 pontos pelos quais o resultado do teste exceder a CD, você recebe +1 PM para gastar em aprimoramentos. Você pode usar esse efeito mesmo sem ser treinado no Ofício apropriado (mas talvez o monstro invocado seja um pouco… esquisito).",
+  "effects": [
+    {
+      "type": "instrumento_oficio",
+      "oficio": "escriba",
+      "aprimorado": true
+    },
+    {
+      "type": "conjurar_via_teste",
+      "frequencia": "1x por cena",
+      "acao": "ação completa",
+      "teste": "Ofício (escriba) CD 10",
+      "sucesso": "lança o efeito básico de Conjurar Monstro sem gastar PM",
+      "bonus_excedente": "+1 PM em aprimoramentos a cada 5 pontos acima da CD",
+      "permite_sem_treino": true
+    }
+  ],
+  "livro": "herois_de_arton"
+}

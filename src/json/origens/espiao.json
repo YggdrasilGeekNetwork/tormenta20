@@ -1,0 +1,34 @@
+{
+  "id": "espiao",
+  "name": "Espião",
+  "description": "No passado, sua lealdade pertencia secretamente a algum governo, exército, igreja, culto, guilda ou patrono poderoso, talvez até mesmo um vilão. Você fingia ser aliado daqueles que espionava, enviando relatórios regulares sobre suas atividades e segredos. Fazia isso por acreditar ser a coisa certa, ou por dinheiro, ou forçado por seu patrono — através de controle mental, chantagem ou um refém. Um dia foi desmascarado, ou traído por seu patrono, ou apenas desistiu. Não voltaria a confiar em ninguém por muito tempo, até acabar viajando com aventureiros. São seus primeiros amigos leais. Mas eles sabem sobre seu passado?",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Estojo de disfarces"
+    },
+    {
+      "type": "fixed",
+      "text": "Gazua"
+    },
+    {
+      "type": "fixed",
+      "text": "Luneta"
+    },
+    {
+      "type": "fixed",
+      "text": "Três doses de cosmético"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Enganação",
+      "Ladinagem"
+    ],
+    "powers": [
+      "Máscara Social"
+    ]
+  },
+  "unique_power": "mascara_social",
+  "livro": "herois_de_arton"
+}

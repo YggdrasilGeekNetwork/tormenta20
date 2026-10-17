@@ -1,0 +1,36 @@
+{
+  "id": "tradicao_de_ayrelynn",
+  "name": "Tradição de Ayrelynn",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você recebe proficiência com armas de fogo e pode usar Sabedoria em vez de Destreza nos testes de ataque com essas armas (e, caso possua o poder Estilo de Disparo, nas rolagens de dano).",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "anao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "proficiency",
+      "value": "armas_de_fogo"
+    },
+    {
+      "type": "switch_weapon_type",
+      "attr": "sab",
+      "instead_of": "des",
+      "weapon": "armas_de_fogo",
+      "target": "testes_de_ataque"
+    },
+    {
+      "type": "switch_weapon_type",
+      "attr": "sab",
+      "instead_of": "des",
+      "weapon": "armas_de_fogo",
+      "target": "rolagens_de_dano",
+      "condition": "possui_estilo_de_disparo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

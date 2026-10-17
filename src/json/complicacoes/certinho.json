@@ -1,0 +1,14 @@
+{
+  "id": "certinho",
+  "name": "Certinho",
+  "description": "Você faz tudo do jeito correto e fica desconfortável quando um de seus companheiros não age dessa forma. Sempre que um aliado fizer algo que violaria seu Código do Herói, isso conta como uma violação sua — a menos que você não note, o que exige dele um teste de Enganação ou Furtividade contra a sua Percepção ou Intuição (o que for maior).",
+  "categoria": "paladino",
+  "effects": [
+    {
+      "type": "restricao_comportamental",
+      "descricao": "quando um aliado viola o Código do Herói na sua presença, conta como violação sua, a menos que o aliado passe em teste de Enganação ou Furtividade contra a maior entre sua Percepção e Intuição"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

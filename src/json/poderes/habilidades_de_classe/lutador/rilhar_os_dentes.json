@@ -1,0 +1,32 @@
+{
+  "id": "rilhar_os_dentes",
+  "name": "Rilhar os Dentes",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Quando sofre dano de um ataque corpo a corpo, você pode gastar 1 PM para receber RD igual a 5 + sua Constituição contra esse dano.",
+  "requirements": [
+    {
+      "type": "take_damage",
+      "sub_type": "soft"
+    },
+    {
+      "type": "attack_type",
+      "sub_type": "soft",
+      "attack": "corpo_a_corpo"
+    }
+  ],
+  "effects": [
+    {
+      "type": "RD_bonus",
+      "value": "5_mais_constituicao",
+      "requirement": "contra_esse_dano"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

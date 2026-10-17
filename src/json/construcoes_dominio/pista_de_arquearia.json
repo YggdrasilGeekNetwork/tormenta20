@@ -1,0 +1,15 @@
+{
+  "id": "pista_de_arquearia",
+  "name": "Pista de Arquearia",
+  "description": "Um campo para a prática de tiro ao alvo, onde camponeses acostumados a caçar pequenos animais podem treinar para caçar presas maiores. Permite recrutar arqueiros.",
+  "categoria": "guerra",
+  "custo": 2,
+  "effects": [
+    {
+      "type": "recruta_unidade",
+      "unidade": "arqueiros"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

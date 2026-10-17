@@ -1,0 +1,17 @@
+{
+  "id": "espreitadora",
+  "name": "Espreitadora",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma pode assumir uma estrutura translúcida, quase invisível. Quando ataca, você pode gastar 2 PM para deixar o oponente desprevenido (apenas uma vez por cena por criatura; Von CD For ou Des evita).",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "ataca",
+      "efeito": "deixa o oponente desprevenido (apenas uma vez por cena por criatura)",
+      "resistencia": "Vontade CD For ou Des (à escolha) evita"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

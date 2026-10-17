@@ -1,0 +1,15 @@
+{
+  "id": "desengoncado",
+  "name": "Desengonçado",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item, apesar de ter tamanho normal, é muito mais pesado e desajeitado do que deveria ser — não cabe em lugar nenhum, faz as costas doerem etc. Ocupa +2 espaços que o normal.",
+  "effects": [
+    {
+      "type": "aumento_espacos",
+      "value": 2
+    }
+  ],
+  "livro": "herois_de_arton"
+}

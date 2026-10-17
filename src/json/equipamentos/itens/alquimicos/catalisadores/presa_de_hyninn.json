@@ -1,0 +1,19 @@
+{
+  "id": "presa_de_hyninn",
+  "name": "Presa de Hyninn",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 45,
+  "espacos": 0.5,
+  "cd_fabricacao": 15,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "origem": "extraída dos tigres-de-Hyninn",
+  "efeito": {
+    "chance_ignorar_ataques_e_efeitos_de_area": "25%",
+    "duracao": "1 rodada"
+  },
+  "description": "Extraída dos temíveis tigres-de-Hyninn, esta presa concede uma parte da capacidade ilusória dessas criaturas. Você recebe 25% de chance de ignorar ataques e efeitos (incluindo de área) por 1 rodada.",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "chapeu_dos_truques_infinitos",
+  "name": "Chapéu dos Truques Infinitos",
+  "categoria": "menor",
+  "preco": 9000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta cartola ornamentada com estrelas e luas permite conjurar uma variedade de efeitos mágicos menores. Você pode lançar livremente qualquer versão truque de qualquer magia de 1º círculo que ofereça esse aprimoramento, mesmo que não a conheça.",
+  "effects": [
+    {
+      "type": "concede_magia_truque",
+      "descricao": "qualquer versão truque de magia de 1º círculo, mesmo sem conhecê-la",
+      "uso": "livre"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

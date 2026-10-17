@@ -1,0 +1,18 @@
+{
+  "id": "alma_livre",
+  "name": "Alma Livre",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Arton tem muitas maravilhas a serem exploradas, muitos caminhos a serem percorridos — e você não é louco de se prender a um só. Escolha uma classe. Você pode escolher um poder dessa classe como se pertencesse a ela (para efeitos de nível na classe desse poder, considere seu nível de personagem −4). Note que você não recebe o poder, apenas o direito de escolhê-lo mais tarde.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "receive_feature",
+      "feature_type": "class_power_eligibility",
+      "class": "a_sua_escolha",
+      "note": "nao_recebe_o_poder_apenas_o_direito_de_escolhe_lo_depois",
+      "level_offset": -4
+    }
+  ],
+  "livro": "herois_de_arton"
+}

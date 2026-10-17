@@ -1,0 +1,41 @@
+{
+  "id": "tiro_de_abate",
+  "name": "Tiro de Abate",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Quando usa a ação mirar, até o fim do turno você recebe +2 em testes de ataque e na margem de ameaça com ataques à distância, e os dados extras de sua habilidade Marca da Presa também são multiplicados em caso de acerto crítico. Pré-requisitos: Sab 1, Espreitar.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "sab",
+      "value": 1
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "espreitar"
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": 2,
+      "condition": "usou_acao_mirar",
+      "duration": "ate_fim_do_turno",
+      "applies_to": "ataques_a_distancia"
+    },
+    {
+      "type": "critical_range_improvement",
+      "value": 2,
+      "condition": "usou_acao_mirar",
+      "duration": "ate_fim_do_turno",
+      "applies_to": "ataques_a_distancia"
+    },
+    {
+      "type": "critical_multiplier_extend",
+      "applies_to": "dados_extras_de_marca_da_presa"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

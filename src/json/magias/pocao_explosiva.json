@@ -1,0 +1,57 @@
+{
+  "id": "pocao_explosiva",
+  "name": "Poção Explosiva",
+  "type": "arcana",
+  "circle": "2",
+  "school": "trans",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "curto_6m_9q",
+  "target": {
+    "amount": 1,
+    "up_to": null,
+    "type": "pocao"
+  },
+  "effect": "alvo",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Esta magia transforma o conteúdo de uma poção em uma substância volátil e explosiva. Quando é usada, em vez de ter seu efeito normal, a poção causa 2d6 pontos de dano de essência por círculo da magia que ela continha (outras características da magia, como alvos, área e testes de resistência, se mantêm). Se a poção for ingerida, ela causa dano máximo à criatura que a ingeriu, sem direito a teste de resistência.\nSe esta magia for lançada sobre uma poção carregada por uma criatura, a criatura tem direito a um teste de Reflexos para evitar esse efeito. Reconhecer uma poção adulterada dessa forma exige um teste de Misticismo ou Ofício (alquimista) com CD 25.",
+  "enhancements": [
+    {
+      "cost": 5,
+      "type": "muda",
+      "description": "você pode determinar uma palavra-chave que, pronunciada por qualquer pessoa em alcance curto, faz a poção explodir. Requer 3° círculo.",
+      "extra_details": {
+        "requirements": "3° círculo"
+      }
+    },
+    {
+      "cost": 7,
+      "type": "muda",
+      "description": "muda o alcance para pessoal e o alvo para área (esfera com 9m de raio). A magia afeta mesmo poções na área que estejam sendo carregadas. Requer 4° círculo.",
+      "extra_details": {
+        "requirements": "4° círculo",
+        "range": "pessoal",
+        "effect_details": {
+          "shape": "esfera",
+          "dimention": "raio",
+          "size": "9m"
+        }
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "dano_de_essencia",
+      "attribute": "pv",
+      "amount": "2d6_por_circulo",
+      "resistence_requirement": "reflexos",
+      "extra_requirements": "dano_maximo_se_ingerida"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

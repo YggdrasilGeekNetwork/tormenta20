@@ -1,0 +1,28 @@
+{
+  "id": "caminhar_pelas_paredes",
+  "name": "Caminhar pelas Paredes",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Você recebe +10 em testes de Atletismo para saltar e pode se deslocar por paredes e tetos. Contudo, se terminar seu movimento enquanto se desloca em uma parede, você cai (e sofre os efeitos normais de uma queda).",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "atletismo"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "skill": "atletismo",
+      "value": 10,
+      "requirement": "para_saltar"
+    },
+    {
+      "type": "displacement_improvement",
+      "note": "pode_se_deslocar_por_paredes_e_tetos_cai_se_terminar_movimento_em_uma_parede"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

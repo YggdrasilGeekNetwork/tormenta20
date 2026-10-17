@@ -1,0 +1,10 @@
+{
+  "id": "fortificacao",
+  "name": "Fortificação",
+  "description": "A base é uma estrutura fortificada, como uma torre ou um forte, ou está localizada em um ponto de difícil acesso. Ela recebe +5 em segurança e seus residentes recebem +1 na Defesa.",
+  "effects": [
+    { "type": "bonus_seguranca_base", "value": 5 },
+    { "type": "bonus_defesa", "value": 1 }
+  ],
+  "livro": "herois_de_arton"
+}

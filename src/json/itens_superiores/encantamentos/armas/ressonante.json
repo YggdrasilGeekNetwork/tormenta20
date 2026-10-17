@@ -1,0 +1,16 @@
+{
+  "id": "ressonante",
+  "name": "Ressonante",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma vibra com uma frequência harmônica. Quando você acerta um ataque, pode gastar 2 PM para emitir uma onda de choque em outra criatura em alcance curto. Compare o resultado desse ataque com a Defesa da criatura. Se for suficiente para acertar a criatura, ela sofre uma quantidade de dano psíquico igual à metade do dano causado pelo ataque.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "acerta um ataque",
+      "efeito": "emite uma onda de choque em outra criatura em alcance curto; compare o resultado do ataque com a Defesa da criatura — se acertar, ela sofre dano psíquico igual à metade do dano causado pelo ataque"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

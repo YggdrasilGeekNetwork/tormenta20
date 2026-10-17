@@ -1,0 +1,15 @@
+{
+  "id": "cetico",
+  "name": "Cético",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item emana uma aura de descrença, como se duvidasse de sua magia. Sempre que você lançar uma magia, deve fazer um teste de Misticismo (magia arcana) ou Religião (magia divina) com a CD da magia. Em caso de falha, a magia não funciona, mas você gasta os PM mesmo assim.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "sempre que lança uma magia, deve passar em um teste de Misticismo (arcana) ou Religião (divina) com CD igual à CD da magia; se falhar, a magia não funciona mas os PM são gastos normalmente"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

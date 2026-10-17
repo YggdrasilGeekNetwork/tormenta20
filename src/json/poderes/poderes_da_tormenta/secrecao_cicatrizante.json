@@ -1,0 +1,22 @@
+{
+  "id": "secrecao_cicatrizante",
+  "name": "Secreção Cicatrizante",
+  "description": "Você pode gastar uma ação padrão e 2 PM para secretar um fluido rubro e viscoso sobre você mesmo ou uma criatura adjacente. O alvo recupera 2d6+2 PV mas fica enjoado por 1 rodada (Fort CD Con evita). Para cada dois outros poderes da Tormenta que você possui, a cura aumenta em +1d6+1 e a CD aumenta em +1.",
+  "effects": {
+    "type": "active",
+    "cost": "2 PM",
+    "action": "ação padrão",
+    "target": "você mesmo ou criatura adjacente",
+    "healing": {
+      "base": "2d6+2",
+      "scaling": "+1d6+1 por cada 2 outros poderes da Tormenta"
+    },
+    "side_effect": {
+      "condition": "enjoado",
+      "duration": "1 rodada",
+      "save": "Fortitude CD Constituição evita"
+    },
+    "cd_scaling": "+1 por cada 2 outros poderes da Tormenta"
+  },
+  "livro": "herois_de_arton"
+}

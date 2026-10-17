@@ -1,0 +1,28 @@
+{
+  "id": "magia_dividida",
+  "name": "Magia Dividida",
+  "type": "poder_geral",
+  "sub_type": "poder_de_magia",
+  "description": "A área da magia é dividida em duas, cada uma com metade do tamanho da original, que não podem se sobrepor. Por exemplo, uma Bola de Fogo (raio de 6m) pode ser dividida em duas áreas com 3m de raio.",
+  "requirements": [
+    {
+      "type": "magic_circle",
+      "sub_type": "hard",
+      "circle": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "spell_enhancement",
+      "effect": "divide_area_da_magia_em_duas_com_metade_do_tamanho_cada",
+      "restriction": "areas_nao_podem_se_sobrepor"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

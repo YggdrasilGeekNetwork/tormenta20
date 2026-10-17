@@ -1,0 +1,13 @@
+{
+  "id": "essencia_ferica",
+  "name": "Essência Feérica",
+  "type": "habilidade_de_raca",
+  "race": "eiradaan",
+  "description": "Você é uma criatura do tipo espírito, recebe visão na penumbra e pode falar com animais livremente.",
+  "effects": {
+    "creature_type": "espirito",
+    "vision": "baixa_luminosidade",
+    "special": "fala com animais livremente"
+  },
+  "livro": "herois_de_arton"
+}

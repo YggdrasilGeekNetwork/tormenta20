@@ -1,0 +1,32 @@
+{
+  "id": "auspicio_da_meia_noite",
+  "name": "Auspício da Meia-Noite",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Você pode gastar uma ação de movimento e 2 PM para aumentar a CD das suas habilidades de druida em +1 até o fim da cena. Se você usar este poder sob efeito de escuridão, o bônus na CD se torna +2.",
+  "requirements": [
+    {
+      "type": "devotee_of_divinity",
+      "sub_type": "hard",
+      "divinity": "tenebra"
+    }
+  ],
+  "effects": [
+    {
+      "type": "CD_improvement",
+      "value": 1,
+      "duration": "cena",
+      "note": "+2_se_sob_efeito_de_escuridao"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    },
+    {
+      "type": "acao_de_movimento"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

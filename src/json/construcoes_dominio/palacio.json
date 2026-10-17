@@ -1,0 +1,15 @@
+{
+  "id": "palacio",
+  "name": "Palácio",
+  "description": "Esta construção luxuosa é feita para ostentar o poder do regente, influenciando as pessoas a segui-lo. Aumenta seu limite de parceiros em +1.",
+  "categoria": "nobreza",
+  "custo": 100,
+  "effects": [
+    {
+      "type": "aumenta_limite_parceiros",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

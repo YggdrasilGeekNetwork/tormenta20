@@ -1,0 +1,17 @@
+{
+  "id": "clarim_deheoni",
+  "name": "Clarim Deheoni",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 150,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "maos": 2,
+  "efeito": {
+    "inspiracao_bonus_adicional_teste_resistencia": 1
+  },
+  "description": "Feito de um fino metal, este clarim produz um som marcial, associado a um chamado às armas. Criaturas a sua escolha sob efeito de sua Inspiração recebem um bônus adicional de +1 em testes de resistência. Conta como um instrumento musical.",
+  "livro": "herois_de_arton"
+}

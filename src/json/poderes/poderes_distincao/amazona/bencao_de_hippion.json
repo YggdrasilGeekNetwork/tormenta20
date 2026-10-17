@@ -1,0 +1,14 @@
+{
+  "id": "bencao_de_hippion",
+  "name": "Bênção de Hippion",
+  "description": "Você recebe um cavalo de guerra parceiro veterano.",
+  "effects": [
+    {
+      "type": "concede_parceiro",
+      "tipo": "cavalo_de_guerra",
+      "nivel": "veterano"
+    }
+  ],
+  "requirements": [],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "gas_moroso",
+  "name": "Gás Moroso",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 60,
+  "espacos": 0.5,
+  "cd_fabricacao": 20,
+  "inoculacao": "inalacao",
+  "efeito": {
+    "falha": {
+      "condicao": "vulneravel"
+    },
+    "sucesso": {
+      "condicao": "vulneravel",
+      "duracao": "1 rodada"
+    }
+  },
+  "description": "Gás azulado que inibe as reações, reduzindo as capacidades de defesa. Inalação, vítima fica vulnerável (vulnerável por 1 rodada).",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "gaita_de_foles",
+  "name": "Gaita de Foles",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 500,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "maos": 2,
+  "efeito": {
+    "inspiracao_teste_atuacao": {
+      "cd": "20 + total de PM gastos na habilidade",
+      "sucesso": "bônus concedido pela Inspiração aumenta em +1",
+      "falha": "habilidade não tem efeito, mas os PM são gastos da mesma forma"
+    }
+  },
+  "description": "Instrumento polêmico — algumas culturas adoram seu som, mas a maioria das pessoas odeia. Apenas um músico muito habilidoso consegue transformar o lamento da gaita de foles em algo agradável. Ao usar Inspiração, faça um teste de Atuação (CD 20 + total de PM gastos na habilidade). Se passar, o bônus concedido pela Inspiração aumenta em +1. Se falhar, a habilidade não tem efeito, mas os PM são gastos da mesma forma. Conta como um instrumento musical.",
+  "livro": "herois_de_arton"
+}

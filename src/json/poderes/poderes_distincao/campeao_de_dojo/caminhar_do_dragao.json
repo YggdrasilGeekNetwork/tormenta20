@@ -1,0 +1,23 @@
+{
+  "id": "caminhar_do_dragao",
+  "name": "Caminhar do Dragão",
+  "type": "poder_distincao",
+  "description": "O treinamento do campeão de dojo torna seus passos mais leves que o ar. Você recebe +5 em Atletismo e pode gastar 1 PM para “correr no ar” por 1 rodada, como se tivesse deslocamento de voo igual ao seu deslocamento base. Você deve terminar seu movimento sobre o chão ou outra superfície firme, ou cairá ao solo.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "+5 em Atletismo"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "efeito": "\"corre no ar\" por 1 rodada, como se tivesse deslocamento de voo igual ao deslocamento base",
+      "restricao": "deve terminar o movimento sobre o chão ou outra superfície firme, ou cai ao solo"
+    }
+  ],
+  "requirements": [
+    "treinado em Atletismo",
+    "Golpe Concentrado"
+  ],
+  "livro": "herois_de_arton"
+}

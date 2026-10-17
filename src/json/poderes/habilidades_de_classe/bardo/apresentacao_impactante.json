@@ -1,0 +1,23 @@
+{
+  "id": "apresentacao_impactante",
+  "name": "Apresentação Impactante",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Quando usa Inspiração, você impacta também os inimigos dentro do alcance. Na próxima vez que um inimigo fizer um teste de ataque ou de resistência nessa cena, ele rola dois dados e usa o pior resultado (apenas uma vez por cena).",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "inspiracao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "impose_disadvantage",
+      "applies_to": "inimigos_no_alcance_de_inspiracao",
+      "trigger": "proximo_teste_de_ataque_ou_resistencia_na_cena",
+      "frequency": "1_por_cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

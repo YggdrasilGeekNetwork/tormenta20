@@ -1,0 +1,17 @@
+{
+  "id": "sala_de_mapas",
+  "name": "Sala de Mapas",
+  "description": "Um espaço para arquivar e consultar mapas, cartilhas e outros instrumentos de navegação e exploração. Os residentes recebem +2 em testes de buscas e em testes de perigos complexos relacionados a viagens (como Jornada pelos Ermos).",
+  "effects": [
+    {
+      "type": "bonus_teste_buscas",
+      "value": 2
+    },
+    {
+      "type": "bonus_perigo_complexo_viagem",
+      "value": 2
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

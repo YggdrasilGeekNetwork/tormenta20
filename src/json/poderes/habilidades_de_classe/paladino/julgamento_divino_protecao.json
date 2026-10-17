@@ -1,0 +1,33 @@
+{
+  "id": "julgamento_divino_protecao",
+  "name": "Julgamento Divino: Proteção",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Você pode gastar 2 PM para conceder 10 PV temporários e +2 na Defesa para uma criatura em alcance curto.",
+  "requirements": [
+    {
+      "type": "range_target",
+      "sub_type": "soft",
+      "range": "curto"
+    }
+  ],
+  "effects": [
+    {
+      "type": "PV_improvement",
+      "value": 10,
+      "target": "criatura_escolhida"
+    },
+    {
+      "type": "defense_improvement",
+      "value": 2,
+      "target": "criatura_escolhida"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

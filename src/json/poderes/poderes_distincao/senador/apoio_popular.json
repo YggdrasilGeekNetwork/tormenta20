@@ -1,0 +1,23 @@
+{
+  "id": "apoio_popular",
+  "name": "Apoio Popular",
+  "type": "poder_distincao",
+  "description": "A voz do povo é a voz do Senado. Você pode usar o poder Autoridade Feudal (Tormenta20, p. 79). Se já o possui, pode conclamar dois parceiros pagando os custos de cada um. Para cada dois outros poderes da distinção, o nível desses parceiros aumenta em um (de iniciante para veterano, de veterano para mestre).",
+  "effects": [
+    {
+      "type": "concede_habilidade",
+      "habilidade": "Autoridade Feudal",
+      "condicao": "se ainda não a possuir"
+    },
+    {
+      "type": "passivo",
+      "condicao": "já possui Autoridade Feudal",
+      "efeito": "pode conclamar dois parceiros pagando os custos de cada um",
+      "escalavel": "a cada dois outros poderes da distinção, o nível desses parceiros aumenta em um (iniciante->veterano->mestre)"
+    }
+  ],
+  "requirements": [
+    "Um Minotauro de Bem"
+  ],
+  "livro": "herois_de_arton"
+}

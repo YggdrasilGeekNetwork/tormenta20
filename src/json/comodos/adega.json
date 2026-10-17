@@ -1,0 +1,14 @@
+{
+  "id": "adega",
+  "name": "Adega",
+  "description": "Um espaço subterrâneo repleto de barris e garrafas. Uma boa adega educa o paladar dos moradores, para que aproveitem melhor todos os tipos de bebidas. O efeito de qualquer preparado ou poção ingerido pelos residentes aumenta em +1 por dado.",
+  "effects": [
+    {
+      "type": "bonus_efeito_preparado_pocao",
+      "value": 1,
+      "por": "dado"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

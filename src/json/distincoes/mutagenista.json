@@ -1,0 +1,10 @@
+{
+  "id": "mutagenista",
+  "name": "Mutagenista",
+  "description": "Praticante da alquimia corporal zarkhassiana, que consome beberagens mutagênicas únicas para transformar temporariamente seu próprio corpo.",
+  "admissao": "O primeiro passo é ouvir falar deste conjunto de técnicas — os poucos mutagenistas existentes guardam seus segredos com desconfiança. O candidato deve explorar o Deserto da Perdição, invadir uma ruína zarkhassiana e encontrar uma tabuleta com segredos mutagênicos. Deve então decifrar a língua zarkhassiana, comparando o texto com outros escritos já traduzidos (magias normais de tradução não funcionam, e cada beberagem só funciona com quem a fabricou, então não há atalho encontrando uma pronta). Com as tabuletas decifradas, deve fabricar seu primeiro mutagênico em um laboratório alquímico — não exige conhecimento alquímico profundo, mas coloca partes de si mesmo na beberagem (sangue, saliva, pensamentos...). O passo final é beber o mutagênico e sobreviver às consequências.",
+  "marca_nome": "Preparação Corporal",
+  "marca_descricao": "Tendo estudado os textos zarkhassianos, o mutagenista prepara seu corpo para receber seus preparados. Você recebe +2 em Fortitude e Ofício (alquimista).",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "mercenario",
+  "name": "Mercenário",
+  "type": "servico",
+  "categoria": "servico",
+  "periodo": "cena",
+  "opcoes": [
+    {
+      "tipo": "parceiro",
+      "nivel": "iniciante",
+      "preco": 30
+    },
+    {
+      "tipo": "parceiro",
+      "nivel": "veterano",
+      "preco": 150
+    },
+    {
+      "tipo": "capangas",
+      "nivel": "iniciante",
+      "preco": 90
+    },
+    {
+      "tipo": "capangas",
+      "nivel": "veterano",
+      "preco": 300
+    }
+  ],
+  "regras": {
+    "contagem": "conta no limite de parceiros, mas so oferece beneficios quando voce pede sua ajuda; entao fornece o beneficio ate o fim da cena, apos o que o mercenario vai embora",
+    "contratacao_aventura_inteira": "a criterio do mestre, possivel pelo triplo do preco listado"
+  },
+  "description": "Você pode contratar mercenários como parceiros (Tormenta20, p.260). O valor listado representa o preço para contratar o NPC por uma cena. Ele o acompanha, contando no seu limite de parceiros, mas sem oferecer benefícios, até que você peça sua ajuda. Então fornece seu benefício até o fim da cena. Após ajudá-lo, o mercenário vai embora. De acordo com o mestre, pode ser possível contratar um mercenário para uma aventura inteira pelo triplo do preço listado. A descrição de cada mercenário indica seu tipo e nível (veja a lista de mercenários disponíveis em Heróis de Arton, p.238-239).",
+  "livro": "herois_de_arton"
+}

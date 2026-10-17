@@ -1,0 +1,22 @@
+{
+  "id": "besta_de_mao",
+  "name": "Besta de Mão",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "uma_mao",
+  "preco": 30,
+  "dano": "1d6",
+  "critico": "19",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "municao": "virotes",
+  "habilidades": [],
+  "especial": {
+    "recarregar": "acao_movimento"
+  },
+  "description": "Besta pequena e discreta, popular entre assassinos de várias partes do Reinado e além. Recarregá-la é uma ação de movimento.",
+  "livro": "herois_de_arton"
+}

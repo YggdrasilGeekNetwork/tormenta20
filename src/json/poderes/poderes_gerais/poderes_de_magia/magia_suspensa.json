@@ -1,0 +1,38 @@
+{
+  "id": "magia_suspensa",
+  "name": "Magia Suspensa",
+  "type": "poder_geral",
+  "sub_type": "poder_de_magia",
+  "description": "Quando lança uma magia com execução de ação de movimento ou padrão, você pode aumentar sua execução para uma ação completa ou para 2 ou 3 rodadas. Se fizer isso, a CD para resistir à magia aumenta respectivamente em +1, +2 ou +5.",
+  "requirements": [
+    {
+      "type": "magic_circle",
+      "sub_type": "hard",
+      "circle": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "change_execution",
+      "from": [
+        "movimento",
+        "padrao"
+      ],
+      "to_options": [
+        {
+          "execution": "acao_completa",
+          "cd_bonus": 1
+        },
+        {
+          "execution": "2_rodadas",
+          "cd_bonus": 2
+        },
+        {
+          "execution": "3_rodadas",
+          "cd_bonus": 5
+        }
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

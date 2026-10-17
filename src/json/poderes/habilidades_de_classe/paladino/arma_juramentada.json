@@ -1,0 +1,27 @@
+{
+  "id": "arma_juramentada",
+  "name": "Arma Juramentada",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Se você estiver empunhando a arma preferida de sua divindade, ela recebe uma fração do poder divino. Em suas mãos, ela é considerada mágica e recebe os benefícios de uma melhoria (escolhida ao receber este poder, exceto material especial), cujos pré-requisitos ela cumpra. Essa melhoria não conta no limite da arma. Se você descumprir as Obrigações & Restrições da divindade, este efeito deixa de funcionar até você recuperar seus PM.",
+  "requirements": [
+    {
+      "type": "devotee_of_divinity",
+      "sub_type": "hard",
+      "divinity": "qualquer"
+    },
+    {
+      "type": "weapon_type",
+      "sub_type": "soft",
+      "weapon": "preferida_da_divindade"
+    }
+  ],
+  "effects": [
+    {
+      "type": "item_type",
+      "note": "arma_torna_se_magica_e_recebe_os_beneficios_de_uma_melhoria_a_escolha_exceto_material_especial_que_nao_conta_no_limite_da_arma"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

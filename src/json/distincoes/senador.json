@@ -1,0 +1,10 @@
+{
+  "id": "senador",
+  "name": "Senador",
+  "description": "Figura política do Império de Tauron, que governa e representa os minotauros através de palavras, alianças e influência no Senado de Tiberus.",
+  "admissao": "O candidato deve primeiro ser reconhecido como um cidadão do Império de Tauron dotado de plenos direitos políticos (estrangeiros em geral não são aceitos). Deve servir em alguma legião por alguns meses e depois exercer algum cargo burocrático no Império (membros de famílias prestigiosas ou heróis reconhecidos podem pular essa etapa). Depois, torna-se literalmente um candidato: deve passar meses em Tiberus angariando eleitores e fazendo campanha, conseguindo favores de nobres e senadores tradicionais, discursando ao povo e gastando dinheiro com arautos e patrocínios. Se vencer a eleição, é empossado como senador do Império de Tauron.",
+  "marca_nome": "Retórica Impecável",
+  "marca_descricao": "Enquanto as legiões lutam com gládios e escudos, o senador luta com palavras. Você recebe +2 em Nobreza e pode usar Carisma como atributo-chave dessa perícia (em vez de Inteligência).",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

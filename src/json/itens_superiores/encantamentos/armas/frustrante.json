@@ -1,0 +1,15 @@
+{
+  "id": "frustrante",
+  "name": "Frustrante",
+  "type": "encantamento",
+  "categoria": "arma",
+  "maldicao": true,
+  "description": "A arma o torna muito sensível e irritadiço, como uma criança birrenta. Quando você erra um ataque com a arma, fica frustrado. Se já estiver frustrado, fica esmorecido. Essas condições só podem ser anuladas conseguindo um acerto crítico com a arma (um acerto para cada condição). No entanto, quando você errar um ataque com a arma de novo, a condição volta a se aplicar.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "quando erra um ataque com a arma, fica frustrado (ou esmorecido, se já estiver frustrado); a condição só é removida com um acerto crítico com a arma (um acerto por condição), mas volta a se aplicar no próximo erro"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

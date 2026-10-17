@@ -1,0 +1,14 @@
+{
+  "id": "maneta",
+  "name": "Maneta",
+  "description": "Você não tem uma das mãos. Você só pode empunhar um item (e, obviamente, não pode usar armas de duas mãos).",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "restricao_equipamento",
+      "descricao": "só pode empunhar um item; não pode usar armas de duas mãos"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

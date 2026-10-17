@@ -1,0 +1,27 @@
+{
+  "id": "balada_do_atirador",
+  "name": "Balada do Atirador",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Você pode usar Esgrima Mágica, e qualquer poder de bardo que o tenha como pré-requisito, com armas de ataque à distância leves ou de uma mão. Quando faz isso, você pode substituir testes de Pontaria por Atuação. Pré-requisito: Esgrima Mágica.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "esgrima_magica"
+    }
+  ],
+  "effects": [
+    {
+      "type": "extend_feature",
+      "value": "esgrima_magica_e_poderes_que_a_tem_como_pre_requisito",
+      "applies_to": "armas_a_distancia_leves_ou_de_uma_mao"
+    },
+    {
+      "type": "skill_substitution",
+      "from_skill": "pontaria",
+      "to_skill": "atuacao"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

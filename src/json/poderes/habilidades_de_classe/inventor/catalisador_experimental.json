@@ -1,0 +1,27 @@
+{
+  "id": "catalisador_experimental",
+  "name": "Catalisador Experimental",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Quando ativa uma engenhoca, você pode usar um catalisador e aplicar seus efeitos a ela.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "engenhoqueiro"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "item_type",
+      "note": "pode_usar_um_catalisador_e_aplicar_seus_efeitos_a_engenhoca_ativada"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

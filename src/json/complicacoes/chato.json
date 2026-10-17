@@ -1,0 +1,19 @@
+{
+  "id": "chato",
+  "name": "Chato",
+  "description": "Sempre que você sai de uma aldeia, uma festa acontece. Você sofre –5 em Diplomacia e a atitude inicial de NPCs em relação a você é uma categoria pior.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_pericia",
+      "pericia": "diplomacia",
+      "value": -5
+    },
+    {
+      "type": "atitude_inicial_npc",
+      "descricao": "atitude inicial de NPCs em relação a você é uma categoria pior"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

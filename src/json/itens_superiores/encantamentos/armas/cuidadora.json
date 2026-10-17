@@ -1,0 +1,22 @@
+{
+  "id": "cuidadora",
+  "name": "Cuidadora",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "Esta arma acumula a energia de ataques falhos para protegê-lo. Quando você erra um ataque, recebe +2 na Defesa por 1 rodada. Uma vez por rodada, quando sofre dano, você pode gastar 2 PM para receber RD 10 contra esse dano.",
+  "effects": [
+    {
+      "type": "ativado",
+      "gatilho": "erra um ataque",
+      "efeito": "recebe +2 na Defesa por 1 rodada"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "frequencia": "por_rodada",
+      "gatilho": "sofre dano",
+      "efeito": "recebe RD 10 contra esse dano"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

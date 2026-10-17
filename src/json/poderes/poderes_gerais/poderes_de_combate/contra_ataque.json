@@ -1,0 +1,29 @@
+{
+  "id": "contra_ataque",
+  "name": "Contra-Ataque",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Uma vez por rodada, se uma criatura atacá-lo e errar, você pode gastar 2 PM para fazer um ataque corpo a corpo contra essa criatura.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "combate_defensivo"
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "weapon": "corpo_a_corpo",
+      "frequency": "uma_vez_por_rodada",
+      "trigger": "criatura_ataca_e_erra"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "id": "citara_heptatonica",
+  "name": "Cítara Heptatônica",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 250,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "maos": 2,
+  "efeito": {
+    "inspiracao_bonus_cd_primeira_habilidade_magica": 2
+  },
+  "description": "Instrumento peculiar, de som misterioso, que gera uma atmosfera mística. Criaturas a sua escolha sob efeito de sua Inspiração recebem +2 na CD da primeira habilidade mágica que usarem. Conta como um instrumento musical.",
+  "livro": "herois_de_arton"
+}

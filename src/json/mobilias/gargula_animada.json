@@ -1,0 +1,21 @@
+{
+  "id": "gargula_animada",
+  "name": "Gárgula Animada",
+  "description": "Esta estátua de pedra é encantada para ganhar vida e lutar ao lado dos heróis. Por ser instalada no exterior da base, não ocupa nenhum cômodo. Uma base pode ter até uma gárgula por categoria de porte acima de básico; cada uma fornece um bônus cumulativo de +2 em segurança. Uma gárgula também pode acompanhar o grupo como um parceiro fortão e guardião veterano.",
+  "effects": [
+    {
+      "type": "bonus_seguranca_base",
+      "value": 2,
+      "cumulativo": true,
+      "limite": "uma_por_categoria_de_porte_acima_de_basico"
+    },
+    {
+      "type": "parceiro_gratis",
+      "tipo": "fortao_e_guardiao",
+      "nivel": "veterano"
+    }
+  ],
+  "preco": 10000,
+  "comodo_alvo": null,
+  "livro": "herois_de_arton"
+}

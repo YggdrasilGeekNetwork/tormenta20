@@ -1,0 +1,28 @@
+{
+  "id": "alquimista_eximio",
+  "name": "Alquimista Exímio",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Quando você usa um preparado alquímico ou uma poção, a CD para resistir a ele aumenta em +2 e, se ele causar dano ou recuperar PV ou PM, esse efeito aumenta em +1 por dado.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "alquimista_iniciado"
+    }
+  ],
+  "effects": [
+    {
+      "type": "CD_improvement",
+      "value": 2,
+      "item_type": "preparado_alquimico_ou_pocao"
+    },
+    {
+      "type": "damage_improvement",
+      "value": "1_por_dado",
+      "requirement": "item_causa_dano_ou_recupera_pv_ou_pm"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

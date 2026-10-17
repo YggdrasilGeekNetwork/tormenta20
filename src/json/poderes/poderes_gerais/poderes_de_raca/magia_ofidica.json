@@ -1,0 +1,36 @@
+{
+  "id": "magia_ofidica",
+  "name": "Magia Ofídica",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Para cada círculo de magia que você é capaz de lançar, a CD para resistir a seus efeitos de veneno aumenta em +1 e esses venenos causam +1 ponto de perda de vida por dado.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "medusa",
+        "moreau_da_serpente",
+        "nagah"
+      ]
+    },
+    {
+      "type": "class_feature",
+      "sub_type": "hard",
+      "id": "magias"
+    }
+  ],
+  "effects": [
+    {
+      "type": "expertise_improvement",
+      "value": "1_por_circulo_que_pode_lancar",
+      "target": "cd_de_venenos"
+    },
+    {
+      "type": "damage_improvement",
+      "value": "1_por_dado",
+      "target": "perda_de_vida_de_venenos"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

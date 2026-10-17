@@ -1,0 +1,25 @@
+{
+  "id": "grande_marca_de_wynna",
+  "name": "Grande Marca de Wynna",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Sua tatuagem mística é especialmente grande e chamativa, e contém ainda mais poder mágico que o normal. Você pode lançar uma magia de 1º círculo a sua escolha (atributo-chave Carisma), além daquela fornecida pela habilidade Tatuagem Mística e pode usar os aprimoramentos de ambas como se tivesse acesso aos mesmos círculos de magia que um feiticeiro do seu nível.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "qareen"
+    }
+  ],
+  "effects": [
+    {
+      "type": "receive_feature",
+      "feature": "magia_adicional_de_1_circulo_via_carisma_alem_da_tatuagem_mistica"
+    },
+    {
+      "type": "spell_enhancement_access",
+      "value": "circulos_de_um_feiticeiro_do_seu_nivel"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

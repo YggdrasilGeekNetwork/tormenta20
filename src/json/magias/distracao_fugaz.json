@@ -1,0 +1,71 @@
+{
+  "id": "distracao_fugaz",
+  "name": "Distração Fugaz",
+  "type": "arcana",
+  "circle": "1",
+  "school": "ilus",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "curto_6m_9q",
+  "target": {
+    "amount": 1,
+    "up_to": null,
+    "type": "humanoide"
+  },
+  "effect": "alvo",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "instantânea",
+  "duration_details": null,
+  "resistence": {
+    "effect": "anula",
+    "skill": "vontade"
+  },
+  "extra_costs": null,
+  "description": "Esta magia busca algo de grande interesse pessoal (uma pessoa, um item, uma lembrança...) na memória do alvo e produz uma breve ilusão disso, visível a todos os presentes. Não é necessário que você conheça o interesse do alvo, a própria magia faz essa revelação. A magia, entretanto, não é capaz de revelar detalhes minuciosos (como o nome de uma pessoa ou item desejado), produzindo uma versão \"genérica\" do objeto de interesse.\nNão importando a natureza da distração, se falhar em seu teste de Vontade, o alvo fica desprevenido durante 1 rodada.",
+  "enhancements": [
+    {
+      "cost": 1,
+      "type": "muda",
+      "description": "além do normal, se falhar no teste de Vontade o alvo também sofre –5 em testes de Diplomacia e Intimidação até o fim da cena.",
+      "extra_details": null
+    },
+    {
+      "cost": 1,
+      "type": "muda",
+      "description": "muda o alvo para 1 criatura. Requer 2º círculo.",
+      "extra_details": {
+        "requirements": "2º círculo",
+        "target": {
+          "amount": 1,
+          "up_to": null,
+          "type": "criatura"
+        }
+      }
+    },
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "em vez de desprevenido, o alvo fica atordoado (apenas uma vez por cena).",
+      "extra_details": null
+    },
+    {
+      "cost": 2,
+      "type": "afeta",
+      "description": "afeta todos os alvos válidos a sua escolha dentro do alcance. Requer 2º círculo.",
+      "extra_details": {
+        "requirements": "2º círculo"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "condição",
+      "attribute": "desprevenido",
+      "amount": "1_rodada",
+      "resistence_requirement": "vontade",
+      "extra_requirements": null
+    }
+  ],
+  "livro": "herois_de_arton"
+}

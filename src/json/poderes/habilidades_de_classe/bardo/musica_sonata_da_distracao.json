@@ -1,0 +1,19 @@
+{
+  "id": "musica_sonata_da_distracao",
+  "name": "Música: Sonata da Distração",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Faça um teste de Atuação oposto pela Vontade de cada criatura a sua escolha dentro do alcance (você faz um único teste). Alvos que falharem ficam desprevenidos por 1 rodada. Alvos que passarem ficam imunes a este efeito por 1 dia. Mental.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "active",
+      "test": "atuacao_oposto_vontade_teste_unico",
+      "target": "criaturas_a_escolha_no_alcance",
+      "tag": "mental",
+      "on_fail": "desprevenido_1_rodada",
+      "on_success": "imune_por_1_dia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

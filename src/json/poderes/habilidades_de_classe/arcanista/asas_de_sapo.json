@@ -1,0 +1,23 @@
+{
+  "id": "asas_de_sapo",
+  "name": "Asas de Sapo",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Você pode empunhar dois catalisadores diferentes em uma mão ao mesmo tempo e, quando lança uma magia, pode gastar ambos para aplicar seus efeitos. Pré-requisito: treinado em Ofício (alquimista).",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "oficio_alquimista"
+    }
+  ],
+  "effects": [
+    {
+      "type": "dual_wield_item",
+      "item": "catalisador",
+      "value": 2,
+      "effect": "aplica_ambos_os_efeitos_ao_lancar_magia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

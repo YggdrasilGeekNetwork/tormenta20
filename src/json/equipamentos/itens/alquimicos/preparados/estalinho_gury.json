@@ -1,0 +1,28 @@
+{
+  "id": "estalinho_gury",
+  "name": "Estalinho Gury",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 30,
+  "espacos": 0.5,
+  "uso": "empunhado",
+  "acao": "padrao",
+  "alcance": "curto",
+  "efeito": {
+    "area": {
+      "forma": "raio",
+      "tamanho": "3m"
+    },
+    "dano": "4d6",
+    "tipo_dano": "impacto",
+    "condicao": "surda",
+    "resistencia": {
+      "teste": "Fortitude",
+      "cd": "Des",
+      "efeito": "reduz a metade e evita a condicao"
+    }
+  },
+  "description": "Preparado desenvolvido pelo alquimista Jozhen Gury, gera uma onda de choque e um estouro muito alto quando detonado. Para usá-lo, você precisa empunhá-lo e gastar uma ação padrão para arremessá-lo em um ponto em alcance curto. Criaturas a até 3m desse ponto sofrem 4d6 pontos de dano de impacto e ficam surdas (Fortitude CD Des reduz à metade e evita a condição).",
+  "livro": "herois_de_arton"
+}

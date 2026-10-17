@@ -1,0 +1,18 @@
+{
+  "id": "rondel",
+  "name": "Rondel",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 150,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "acessorio",
+  "efeito": {
+    "bonus_defesa_armadura": 1,
+    "cumulativo_com_itens": true,
+    "penalidade_ataque": -2,
+    "anula_penalidade_se_proficiencia_armaduras_pesadas": true
+  },
+  "description": "Dois discos de aço costurados e rebitados na armadura. Aumentam o bônus na Defesa de sua armadura em +1 (cumulativo com outros bônus de itens), mas afetam seus movimentos, impondo –2 em testes de ataque. Se você tiver proficiência com armaduras pesadas, anula essa penalidade.",
+  "livro": "herois_de_arton"
+}

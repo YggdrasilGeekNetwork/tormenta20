@@ -1,0 +1,22 @@
+{
+  "id": "predador_alfa",
+  "name": "Predador Alfa",
+  "type": "poder_distincao",
+  "description": "O caçador de cabeças se move tão silenciosamente que parece se teleportar. Uma vez por rodada, você pode gastar uma ação de movimento e 2 PM para fazer um teste de Furtividade oposto à Percepção de uma criatura em alcance curto. Se vencer o teste, você “surge” adjacente ao alvo e é considerado invisível contra ele até o início do seu próximo turno. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 2,
+      "limite": "uma vez por rodada",
+      "efeito": "faz um teste de Furtividade oposto à Percepção de uma criatura em alcance curto; se vencer, surge adjacente ao alvo e é considerado invisível contra ele até o início do seu próximo turno",
+      "restricao": "exige liberdade de movimentos; não pode ser usada com armadura pesada ou na condição imóvel"
+    }
+  ],
+  "requirements": [
+    "treinado em Furtividade",
+    "Lobo Solitário",
+    "ser duyshidakk"
+  ],
+  "livro": "herois_de_arton"
+}

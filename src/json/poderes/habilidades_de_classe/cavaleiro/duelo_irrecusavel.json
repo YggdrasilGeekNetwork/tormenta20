@@ -1,0 +1,29 @@
+{
+  "id": "duelo_irrecusavel",
+  "name": "Duelo Irrecusável",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Enquanto sua habilidade Duelo estiver ativa, a criatura escolhida sofre uma penalidade em testes de ataque e rolagens de dano contra seus aliados igual ao bônus concedido pela habilidade.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "duelo"
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_penalty",
+      "value": "bonus_de_duelo_negativo",
+      "condition": "duelo_ativo",
+      "applies_to": "alvo_do_duelo_contra_aliados_do_cavaleiro"
+    },
+    {
+      "type": "damage_penalty",
+      "value": "bonus_de_duelo_negativo",
+      "condition": "duelo_ativo",
+      "applies_to": "alvo_do_duelo_contra_aliados_do_cavaleiro"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

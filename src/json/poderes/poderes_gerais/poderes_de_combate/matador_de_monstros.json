@@ -1,0 +1,27 @@
+{
+  "id": "matador_de_monstros",
+  "name": "Matador de Monstros",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Você recebe +1d10 nas rolagens de dano contra criaturas de tamanho Grande ou maior, e essas criaturas não recebem bônus por tamanho em testes de manobras de combate contra você.",
+  "requirements": [
+    {
+      "type": "character_level",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "1d10",
+      "condition": "contra_criaturas_de_tamanho_grande_ou_maior"
+    },
+    {
+      "type": "remove_debuff",
+      "debuff": "bonus_de_tamanho_em_manobras_de_combate",
+      "target": "criaturas_de_tamanho_grande_ou_maior_contra_voce"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

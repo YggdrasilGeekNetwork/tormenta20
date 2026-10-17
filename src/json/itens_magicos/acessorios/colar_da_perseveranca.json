@@ -1,0 +1,21 @@
+{
+  "id": "colar_da_perseveranca",
+  "name": "Colar da Perseverança",
+  "categoria": "medio",
+  "preco": 10500,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este colar de âmbar proporciona ao usuário um aumento considerável em sua determinação. Você recebe +5 em Vontade e +2 em todos os testes estendidos.",
+  "effects": [
+    {
+      "type": "bonus_defesa",
+      "defesa": "Vontade",
+      "value": 5
+    },
+    {
+      "type": "bonus_teste_estendido",
+      "value": 2
+    }
+  ],
+  "livro": "herois_de_arton"
+}

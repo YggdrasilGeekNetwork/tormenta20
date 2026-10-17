@@ -1,0 +1,22 @@
+{
+  "id": "aparato_personalizado",
+  "name": "Aparato Personalizado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "O primeiro aparato de cada uma de suas engenhocas não aumenta a CD para ativá-la.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "engenhoqueiro"
+    }
+  ],
+  "effects": [
+    {
+      "type": "decrease_cost",
+      "note": "primeiro_aparato_de_cada_engenhoca_nao_aumenta_a_cd_para_ativa_la"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

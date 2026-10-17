@@ -1,0 +1,14 @@
+{
+  "id": "bar",
+  "name": "Bar",
+  "description": "Um balcão com bancos altos, onde os heróis podem beber, conversar e relaxar. Pode ser instalado em diversos cômodos, como a sala de estar, o salão de baile ou a sala de jogos, e fornece +1 PM para os residentes.",
+  "effects": [
+    {
+      "type": "bonus_pm",
+      "value": 1
+    }
+  ],
+  "preco": 1000,
+  "comodo_alvo": "sala_de_estar_salao_de_baile_ou_sala_de_jogos",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,52 @@
+{
+  "id": "forma_esqueletica",
+  "name": "Forma Esquelética",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Quando usa Forma Selvagem, você pode gastar +2 PM para assumir uma forma esquelética. Seu tipo muda para morto-vivo e você recebe redução de corte, frio e perfuração 5 e imunidade a efeitos de cansaço, metabólicos e de veneno. Por fim, você sofre dano por efeitos mágicos de cura de luz (Vontade CD do efeito reduz à metade) e recupera PV com dano de trevas.",
+  "requirements": [
+    {
+      "type": "devotee_of_divinity",
+      "sub_type": "hard",
+      "divinity": "tenebra"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "forma_selvagem"
+    }
+  ],
+  "effects": [
+    {
+      "type": "creature_type_change",
+      "value": "morto_vivo"
+    },
+    {
+      "type": "damage_resistance_improvement",
+      "value": 5,
+      "damage_type": ["corte", "frio", "perfuracao"]
+    },
+    {
+      "type": "condition_immunity",
+      "condition": ["cansaco", "metabolico", "veneno"]
+    },
+    {
+      "type": "damage_type_improvement",
+      "damage_type": "cura_de_luz",
+      "note": "sofre_dano_em_vez_de_curar_vontade_cd_do_efeito_reduz_a_metade"
+    },
+    {
+      "type": "cure_improvement",
+      "damage_type": "trevas",
+      "note": "recupera_PV_com_dano_de_trevas"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM",
+      "note": "adicional_ao_custo_de_forma_selvagem"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

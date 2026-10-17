@@ -1,0 +1,15 @@
+{
+  "id": "capa_com_dragonas",
+  "name": "Capa com Dragonas",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 50,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "armadura_conta_como_traje_da_corte": true
+  },
+  "description": "Capa elegante com ombreiras, utilizada como parte de uniformes. Enquanto estiver vestindo esta capa, sua armadura conta como um traje da corte e pode ser usada em bailes, festas e encontros da nobreza sem chamar atenção.",
+  "livro": "herois_de_arton"
+}

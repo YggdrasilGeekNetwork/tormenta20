@@ -1,0 +1,16 @@
+{
+  "id": "conversor_alimentador",
+  "name": "Conversor-Alimentador",
+  "type": "item",
+  "categoria": "aparato",
+  "preco": 300,
+  "espacos": 1,
+  "espacos_acoplado": 0,
+  "cd_fabricacao": 20,
+  "efeito": {
+    "doses": 3,
+    "uso": "ao ativar a engenhoca, gasta um preparado alquímico que forneça PM e usa esses PM para pagar o custo de aprimoramentos e sustentação"
+  },
+  "description": "Aparato usado por inventores para modificar o funcionamento de suas engenhocas. Enquanto acoplado a uma engenhoca, não ocupa espaços; uma engenhoca pode ter até dois aparatos diferentes. Usar um aparato aumenta a CD para ativar a engenhoca em +2 (dois aparatos, +5). Acoplar ou remover um aparato exige 1 hora de trabalho. Aparatos são fabricados com Ofício (engenhoqueiro), CD 20. Frasco de vidro ligado a tubos de metal e mecanismos em forma de antena. Comporta três doses de essência de mana (ou outros preparados alquímicos que forneçam PM). Quando ativa a engenhoca, você pode gastar um preparado alquímico que forneça PM e usar os PM fornecidos para pagar seu custo de aprimoramentos e para sustentá-la (caso se aplique).",
+  "livro": "herois_de_arton"
+}

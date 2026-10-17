@@ -1,0 +1,17 @@
+{
+  "id": "anatema",
+  "name": "Anátema",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma enfraquece a magia do adversário. Quando uma criatura é atingida, a CD para resistir às habilidades mágicas dela diminui em –2 por 1 rodada.",
+  "effects": [
+    {
+      "type": "debuff_cd",
+      "value": -2,
+      "aplica_a": "CD para resistir às habilidades mágicas do alvo",
+      "duracao": "1 rodada",
+      "gatilho": "criatura é atingida pela arma"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

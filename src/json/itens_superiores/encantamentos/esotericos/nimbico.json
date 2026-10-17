@@ -1,0 +1,20 @@
+{
+  "id": "nimbico",
+  "name": "Nímbico",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico está imbuído com o poder delirante do Caos. Quando lança uma magia com efeito variável, você pode rolar novamente qualquer número de dados da rolagem original (limitado pelos seus PM atuais). Contudo, a cada resultado par numa dessas rolagens adicionais, você perde 1 PM. Um esotérico nímbico não pode ser khalmyrita.",
+  "effects": [
+    {
+      "type": "rolagem_efeito",
+      "condicao": "magia com efeito variável",
+      "opcao": "rolar novamente qualquer número de dados da rolagem original (limitado pelos PM atuais)",
+      "custo": "perde 1 PM a cada resultado par nas rolagens adicionais"
+    },
+    {
+      "type": "nota",
+      "descricao": "um esotérico nímbico não pode também ser khalmyrita"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

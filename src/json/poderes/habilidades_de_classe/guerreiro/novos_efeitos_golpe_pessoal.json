@@ -1,0 +1,23 @@
+{
+  "id": "novos_efeitos_golpe_pessoal",
+  "name": "Novos Efeitos de Golpe Pessoal",
+  "type": "extensao_de_poder",
+  "sub_type": "poder_de_guerreiro",
+  "extends": "golpe_pessoal",
+  "description": "Novas opções de efeito que podem ser escolhidas ao construir a habilidade Golpe Pessoal (Tormenta20, p. 56), introduzidas em Heróis de Arton. Não é um poder independente: some estas opções à lista de effects.options de golpe_pessoal.json.",
+  "requirements": null,
+  "effects": {
+    "options": [
+      { "id": "avanco", "name": "Avanço", "cost": 1, "description": "Você pode percorrer até o seu deslocamento em linha reta antes de desferir o golpe." },
+      { "id": "brando", "name": "Brando", "cost": 0, "description": "Seu golpe causa dano não letal." },
+      { "id": "carregado", "name": "Carregado", "cost": 1, "description": "Você pode gastar uma ação padrão para energizar seu ataque. Se você fizer isso e atacar até a próxima rodada, seu ataque causa +2d8 pontos de dano." },
+      { "id": "sequencial", "name": "Sequencial", "cost": 2, "description": "Seu golpe causa +1d6 pontos de dano. A cada vez que você acerta o golpe na mesma cena, esse bônus aumenta em um passo." },
+      { "id": "sifao", "name": "Sifão", "cost": 2, "description": "Você recebe 1 PM temporário para cada 10 pontos da rolagem de dano. Você pode receber um máximo de PM temporários por cena igual ao seu nível e eles desaparecem no fim da cena." },
+      { "id": "golpe_de_abertura", "name": "Golpe de Abertura", "cost": -2, "description": "Seu golpe só pode ser usado em seu primeiro turno do combate." },
+      { "id": "truque_secreto", "name": "Truque Secreto", "cost": -2, "description": "Seu golpe só pode ser usado uma vez contra cada alvo por cena." }
+    ]
+  },
+  "costs": null,
+  "livro": "herois_de_arton",
+  "note": "Estrutura especial: representa novas opcoes para a habilidade ja existente 'Golpe Pessoal' (guerreiro/golpe_pessoal.json), nao um poder selecionavel isolado. Nao editamos o arquivo original conforme instrucao."
+}

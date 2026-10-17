@@ -1,0 +1,39 @@
+{
+  "id": "combinacao_chute_circular",
+  "name": "Combinação: Chute Circular",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Quando faz um ataque, você pode gastar 2 PM para que seu golpe seja giratório. Se acertar, para cada ponto em sua contagem de combinações você causa +1d6 pontos de dano. Além disso, você pode fazer uma manobra empurrar contra o mesmo oponente como uma ação livre (use o resultado do ataque como o teste de manobra).",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "outro_poder_de_combinacao",
+      "note": "requer_qualquer_outro_poder_da_familia_combinacao"
+    },
+    {
+      "type": "attack_type",
+      "sub_type": "soft",
+      "attack": "desarmado"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "1d6_por_ponto_de_contagem_de_combinacoes",
+      "requirement": "acertar"
+    },
+    {
+      "type": "manouver_improvement",
+      "manouver": "empurrar",
+      "action": "livre"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

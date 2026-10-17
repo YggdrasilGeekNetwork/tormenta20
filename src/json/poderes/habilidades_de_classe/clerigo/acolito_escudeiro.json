@@ -1,0 +1,38 @@
+{
+  "id": "acolito_escudeiro",
+  "name": "Acólito Escudeiro",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Você recebe os serviços de um acólito escudeiro, um parceiro especial que não conta em seu limite de parceiros. Você recebe +2 em Religião e o custo de uma de suas magias de 1º círculo, escolhida ao você receber este poder, diminui em –1 PM. Além disso, você pode gastar 1 PM para receber os efeitos de um esotérico ou catalisador em seu inventário, mesmo que não o esteja empunhando. Caso perca seu acólito, você pode treinar outro com uma semana de trabalho. Pré-requisito: Autoridade Eclesiástica.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "autoridade_eclesiastica"
+    }
+  ],
+  "effects": [
+    {
+      "type": "grant_partner",
+      "value": "acolito_escudeiro",
+      "does_not_count_toward": "limite_de_parceiros"
+    },
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "skills": [
+        "religiao"
+      ]
+    },
+    {
+      "type": "cost_reduction",
+      "value": 1,
+      "applies_to": "uma_magia_de_1_circulo_escolhida_na_criacao"
+    },
+    {
+      "type": "active",
+      "effect": "recebe_efeitos_de_esoterico_ou_catalisador_no_inventario_sem_empunhar"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

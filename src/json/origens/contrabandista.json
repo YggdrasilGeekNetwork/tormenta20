@@ -1,0 +1,30 @@
+{
+  "id": "contrabandista",
+  "name": "Contrabandista",
+  "description": "Itens mágicos malditos. Relíquias roubadas. Armas de pólvora. Monstros para a Arena de Valkaria. Matéria vermelha. No passado, você foi alguém que fez \"mercadorias\" como essas chegarem a seus compradores. Atravessava o continente sob disfarce, enganando ou subornando as patrulhas para ignorarem sua carga proibida. Trabalho perigoso, mas lucrativo. Um dia, as coisas não saíram como deveriam. Você, ou alguém importante, pagou um preço terrível. Então você conheceu uma carreira ainda mais perigosa e ainda mais lucrativa, mas desta vez abençoada pelos deuses.",
+  "items": [
+    {
+      "type": "choice",
+      "text": "Contrabando (até T$ 500)",
+      "options": [
+        {
+          "text": "Uma arma de fogo (até T$ 500)"
+        },
+        {
+          "text": "10 doses de venenos (até T$ 500)"
+        }
+      ]
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Enganação",
+      "Ladinagem"
+    ],
+    "powers": [
+      "Compartimento Secreto"
+    ]
+  },
+  "unique_power": "compartimento_secreto",
+  "livro": "herois_de_arton"
+}

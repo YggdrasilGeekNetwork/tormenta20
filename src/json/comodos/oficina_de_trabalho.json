@@ -1,0 +1,14 @@
+{
+  "id": "oficina_de_trabalho",
+  "name": "Oficina de Trabalho",
+  "description": "Uma sala com ferramentas e bancadas que auxiliam nas lides de qualquer artesão. Cada residente recebe +1 em um Ofício a sua escolha (o residente pode trocar o Ofício escolhido no início de cada aventura).",
+  "effects": [
+    {
+      "type": "bonus_oficio_escolhido",
+      "value": 1,
+      "trocavel_por_aventura": true
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "tragica",
+  "name": "Trágica",
+  "type": "encantamento",
+  "categoria": "arma",
+  "maldicao": true,
+  "description": "A arma impõe consequências desastrosas por seus erros. Se o grupo estiver usando a regra de Falhas Críticas (p. 300), role duas vezes na tabela sempre que tiver uma falha crítica. O mestre deve escolher o pior resultado para você (sim, mesmo que isso signifique sua morte instantânea). Se o grupo não estiver usando a regra de Falhas Críticas, você é obrigado a usá-la (mas só precisa rolar uma vez por falha crítica).",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "ao sofrer uma falha crítica usando a arma, role duas vezes na tabela de Falhas Críticas e o mestre escolhe o pior resultado; se o grupo não usa essa regra, você é obrigado a usá-la (rolando uma vez) sempre que tiver uma falha crítica com a arma"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

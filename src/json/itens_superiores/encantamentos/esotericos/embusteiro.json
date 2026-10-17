@@ -1,0 +1,27 @@
+{
+  "id": "embusteiro",
+  "name": "Embusteiro",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico tem a aparência de um item mundano de tamanho equivalente — um cajado arcano pode parecer uma vassoura, enquanto uma varinha pode parecer um cachimbo. Ele permite que você use o poder Magia Discreta (Tormenta20, p. 131). Se você já o possui, em vez disso o custo para usá-lo diminui em –1 PM e você pode somar seu Carisma na CD do teste de Misticismo para perceber que você lançou uma magia.",
+  "effects": [
+    {
+      "type": "concede_habilidade",
+      "habilidade": "Magia Discreta",
+      "condicao": "se ainda não a possuir"
+    },
+    {
+      "type": "reducao_custo_pm_habilidade",
+      "habilidade": "Magia Discreta",
+      "value": 1,
+      "condicao": "se já possuir Magia Discreta"
+    },
+    {
+      "type": "bonus_cd",
+      "aplica_a": "teste de Misticismo para perceber que você lançou uma magia",
+      "atributo": "Carisma",
+      "condicao": "se já possuir Magia Discreta"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

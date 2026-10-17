@@ -1,0 +1,24 @@
+{
+  "id": "falastrao",
+  "name": "Falastrão",
+  "description": "Você está sempre dando suas palestrinhas. Você não consegue ficar quieto e deve ser sempre o primeiro a falar, por mais inconveniente que isso possa ser. Você sofre –5 em testes de Furtividade e Nobreza e pode se envolver em diversos problemas, especialmente se estiver diante de certas autoridades ou tentando passar discretamente por alguém.",
+  "categoria": "bardo",
+  "effects": [
+    {
+      "type": "penalidade_pericia",
+      "pericia": "furtividade",
+      "value": -5
+    },
+    {
+      "type": "penalidade_pericia",
+      "pericia": "nobreza",
+      "value": -5
+    },
+    {
+      "type": "restricao_acao",
+      "descricao": "deve ser sempre o primeiro a falar, por mais inconveniente que isso possa ser"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

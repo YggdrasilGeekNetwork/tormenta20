@@ -1,0 +1,17 @@
+{
+  "id": "armadura_da_floresta",
+  "name": "Armadura da Floresta",
+  "type": "poder_distincao",
+  "description": "O tributo do candidato retorna ao cavaleiro na forma da mais magnífica das armaduras. Você recebe uma armadura completa feita de madeira levíssima, folhas e flores. Essa armadura não reduz seu deslocamento, e com ela você pode somar sua Destreza na Defesa e lançar magias arcanas sem necessidade de testes de Misticismo. A cada dois outros poderes da distinção que você possui, a armadura recebe uma melhoria a sua escolha, cujos pré-requisitos ela cumpra (exceto material especial). Se outra criatura tentar vestir essa armadura, ela murcha e morre em instantes. Se a armadura for destruída, renasce ao seu redor em 1 dia.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "recebe uma armadura completa de madeira levíssima, folhas e flores; não reduz o deslocamento; permite somar Destreza na Defesa e lançar magias arcanas sem testes de Misticismo; se outra criatura tentar vesti-la, ela murcha e morre em instantes; se destruída, renasce ao redor do cavaleiro em 1 dia",
+      "escalavel": "a cada dois outros poderes da distinção, a armadura recebe uma melhoria à escolha cujos pré-requisitos cumpra (exceto material especial)"
+    }
+  ],
+  "requirements": [
+    "Arte Élfica"
+  ],
+  "livro": "herois_de_arton"
+}

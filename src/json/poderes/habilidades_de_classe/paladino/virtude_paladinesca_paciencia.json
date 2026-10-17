@@ -1,0 +1,26 @@
+{
+  "id": "virtude_paladinesca_paciencia",
+  "name": "Virtude Paladinesca: Paciência",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Em combate, você pode ficar uma rodada inteira em meditação, sem fazer ações (exceto reações), para receber +2 em testes de perícia e na Defesa até o fim da cena.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "duration": "cena"
+    },
+    {
+      "type": "defense_improvement",
+      "value": 2,
+      "duration": "cena"
+    }
+  ],
+  "costs": [
+    {
+      "type": "1_rodada_sem_fazer_acoes_exceto_reacoes"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

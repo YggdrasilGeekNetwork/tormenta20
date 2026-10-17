@@ -1,0 +1,21 @@
+{
+  "id": "fabricar_mutagenicos",
+  "name": "Fabricar Mutagênicos",
+  "type": "poder_distincao",
+  "description": "O mutagenista desenvolve suas primeiras fórmulas. Você pode fabricar e usar tonificantes (veja \"Mutagênicos\"). Para cada dois outros poderes da distinção, você pode fabricar e usar respectivamente energizantes e despersonalizantes. Mutagênicos são preparados alquímicos que exigem treinamento próprio para sua fabricação e consumo. Um mutagênico só funciona com seu fabricante, e não funciona se ele for imune a efeitos de metabolismo. Fabricação: seguem as regras de fabricação de preparados (Tormenta20, p. 121); o preço de cada mutagênico é apresentado em sua descrição e para fabricá-los é preciso ter o poder Fabricar Mutagênicos. Ativação: gasta-se uma ação padrão para ingerir; o efeito dura 1 dia e o máximo de mutagênicos ativos é igual ao total de poderes da distinção que possui; ao ingerir outro além do limite, o efeito do mais antigo termina (a menos que use Sobrecarga). Biochoque: ao ingerir um mutagênico, faça um teste de Fortitude (CD 10, +5 por teste adicional no mesmo dia); se falhar, sofre um biochoque de estágio 1, e cada nova falha no mesmo dia impõe estágio adicional — Estágio 1: o mutagênico funciona, mas fica enjoado; Estágio 2: o mutagênico não funciona e perde 1d12 PV; Estágio 3: o mutagênico não funciona, perde 1d12 PV e fica confuso e em fúria (como um bárbaro) enquanto estiver confuso; Estágio 4: o corpo sofre mutações desordenadas por 1d4 rodadas, após o que morre. Exaurir: pode gastar uma ação livre para exaurir um mutagênico em seu corpo, aumentando seu efeito mas terminando-o ao fim da cena. Sobrecarga: ao ingerir um mutagênico acima do limite, pode tentar sobrecarregar o corpo para manter o efeito mais antigo ativo, fazendo novo teste de biochoque — se passar, não perde o efeito anterior; se falhar, além do biochoque, perde todos os efeitos sobrecarregados (limite de efeitos em sobrecarga igual ao limite de mutagênicos). Uso Exclusivo: se ingerido por outra criatura que não o fabricante, não gera efeito e causa a perda de 2d12 PV por veneno. Tipos de Mutagênicos: Tonificante (fornece +1 em um atributo específico, sem PV/PM/perícias adicionais; Exaurir: bônus aumenta em +1; Preço T$ 60); Energizante (permite lançar uma magia arcana de 1º círculo específica, atributo-chave Constituição, como um arcanista de seu nível, não sendo uma habilidade mágica — magia simulada; Exaurir: custo diminui em -1, cumulativo com outras reduções; Preço T$ 90); Despersonalizante (fornece uma habilidade de raça específica, exceto construtos e mortos-vivos; Exaurir: +1 em um atributo em que a raça tenha modificador positivo, sem PV/PM/perícias adicionais; Preço T$ 150).",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "pode fabricar e usar mutagênicos tonificantes"
+    },
+    {
+      "type": "passivo",
+      "escalavel": "a cada dois outros poderes da distinção",
+      "efeito": "pode fabricar e usar, respectivamente, mutagênicos energizantes e despersonalizantes"
+    }
+  ],
+  "requirements": [
+    "treinado em Fortitude e Ofício (alquimista)"
+  ],
+  "livro": "herois_de_arton"
+}

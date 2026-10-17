@@ -1,0 +1,15 @@
+{
+  "id": "prancheta",
+  "name": "Prancheta",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 5,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "empunhado",
+  "efeito": {
+    "teste_nobreza_etiqueta_sem_ser_treinado": true
+  },
+  "description": "Simples tabuleta de madeira com um pergaminho, no qual o usuário pode fingir escrever alguma coisa. Alguém que carrega uma prancheta é imediatamente identificado como uma figura de autoridade — talvez um inspetor de alguma guilda, ou um enviado de um nobre. Você pode fazer testes de Nobreza para etiqueta mesmo sem ser treinado.",
+  "livro": "herois_de_arton"
+}

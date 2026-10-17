@@ -1,0 +1,19 @@
+{
+  "id": "flecha_fantasma",
+  "name": "Flecha Fantasma",
+  "type": "poder_distincao",
+  "description": "Com um sussurro arcano, o arqueiro faz com que sua flecha alterne entre os Planos. Quando faz um ataque com arco, você pode gastar 2 PM para transformar sua flecha em uma munição etérea. Uma flecha etérea fornece +5 no teste de ataque e ignora cobertura leve e 20 pontos da redução de dano do alvo.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "faz um ataque com arco",
+      "efeito": "transforma a flecha em munição etérea: +5 no teste de ataque, ignora cobertura leve e 20 pontos da redução de dano do alvo"
+    }
+  ],
+  "requirements": [
+    "Energizar Arco",
+    "Forma Etérea"
+  ],
+  "livro": "herois_de_arton"
+}

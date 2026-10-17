@@ -1,0 +1,21 @@
+{
+  "id": "chave_dos_planos",
+  "name": "Chave dos Planos",
+  "categoria": "maior",
+  "preco": 60000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta pequena chave de metal parece comum à primeira vista, mas é capaz de abrir portas para lugares distantes. Inserida na fechadura de uma porta comum, permite que você lance Teletransporte ou Viagem Planar, sem necessidade de componente material, desde que também exista uma porta de qualquer tipo no local de chegada.",
+  "effects": [
+    {
+      "type": "concede_magia_escolha",
+      "magias": [
+        "Teletransporte",
+        "Viagem Planar"
+      ],
+      "sem_componente_material": true,
+      "requisito": "porta na origem e no destino"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

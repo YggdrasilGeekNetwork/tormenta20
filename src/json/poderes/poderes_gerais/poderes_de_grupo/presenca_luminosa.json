@@ -1,0 +1,32 @@
+{
+  "id": "presenca_luminosa",
+  "name": "Presença Luminosa",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Todo grupo de aventureiros pode ter um druida que não toma banho, um ladino que não sabe a hora de calar a boca, um paladino rígido demais... Mas os heróis carismáticos compensam por esses chatos. Todos os personagens com este poder podem gastar 2 PM. Se fizerem isso, até o fim da cena, cada personagem pode usar o maior valor de cada perícia baseada em Carisma de cada personagem com este poder em suas rolagens.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "skill_share",
+      "effect": "usa_o_maior_valor_entre_os_personagens_com_este_poder_em_pericias_baseadas_em_carisma",
+      "duration": "fim_da_cena"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "id": "inflamavel",
+  "name": "Inflamável",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico é adornado com rubis e quente ao toque. Suas magias que causam dano de fogo causam um dado extra de dano do mesmo tipo e deixam o alvo em chamas (se já fizerem isso, o dano causado por essa condição aumenta em +1d6).",
+  "effects": [
+    {
+      "type": "dano_extra_magia",
+      "condicao": "magias que causam dano de fogo",
+      "dado_extra": true,
+      "efeito_adicional": "alvo fica em chamas; se a magia já causasse essa condição, o dano dela aumenta em +1d6"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

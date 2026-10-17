@@ -1,0 +1,13 @@
+{
+  "id": "estufa",
+  "name": "Estufa",
+  "description": "Uma construção envidraçada, ideal para o cultivo de plantas e ervas raras. Possuir uma estufa fornece +1 na CD de todos os seus preparados e poções.",
+  "effects": [
+    {
+      "type": "bonus_cd_preparado_pocao",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

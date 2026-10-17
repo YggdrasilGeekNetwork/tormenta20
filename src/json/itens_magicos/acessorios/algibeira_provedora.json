@@ -1,0 +1,30 @@
+{
+  "id": "algibeira_provedora",
+  "name": "Algibeira Provedora",
+  "categoria": "menor",
+  "preco": 6000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta bolsa de couro parece normal à primeira vista, mas tem uma conexão planar com o Reino de Nimb. Você pode gastar uma ação completa para enfiar sua mão na algibeira e procurar por um item mundano não superior que ocupe até 1 espaço. Role 1d20. Se rolar 6 ou mais, você encontra o item. Ele dura até se afastar a mais de 9m de você ou até você procurar outro item. Se rolar 5 ou menos, você sai de mãos vazias e a algibeira perde seus poderes por 1 dia. Se rolar 1 natural, a algibeira cria dentes, lhe dá uma mordida (causando 4d6 pontos de dano de corte) e desaparece em uma nuvem de purpurina!",
+  "effects": [
+    {
+      "type": "conjurar_item",
+      "acao": "ação completa",
+      "teste": "1d20",
+      "sucesso": "6+",
+      "requisito_item": "mundano não superior, até 1 espaço",
+      "duracao": "até se afastar 9m ou procurar outro item"
+    },
+    {
+      "type": "falha",
+      "faixa": "5 ou menos",
+      "resultado": "algibeira perde poderes por 1 dia"
+    },
+    {
+      "type": "falha_critica",
+      "faixa": "1 natural",
+      "resultado": "causa 4d6 dano de corte ao usuário e a algibeira desaparece"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "broquel",
+  "name": "Broquel",
+  "type": "escudo",
+  "categoria": "leve",
+  "preco": 25,
+  "bonus_defesa": null,
+  "penalidade_armadura": -1,
+  "espacos": 0.5,
+  "especial": {
+    "nao_fornece_bonus_defesa_normal": true,
+    "reduzir_dano_por_ataque_aparado": {
+      "frequencia": "uma_vez_por_rodada",
+      "teste": "ataque corpo a corpo quando é atingido por um ataque",
+      "reducao_por_10_pontos": 2
+    },
+    "pv": 10,
+    "rd": 5
+  },
+  "vestir_remover": "acao_movimento",
+  "ataque": {
+    "dano": "1d4",
+    "tipo_dano": "impacto",
+    "critico": "x2",
+    "requer_proficiencia_marcial": true,
+    "perde_bonus_defesa": true
+  },
+  "description": "Este escudo parece pequeno demais para ter qualquer uso, protegendo apenas a mão e o pulso (o que impede o uso dessa mão). Contudo, ao contrário de outros escudos: em vez de atuar como uma barreira fixa entre o usuário e seus inimigos, ajuda a bloquear os ataques contra ele. Você não recebe o bônus na Defesa por um broquel, como normal. Em vez disso, uma vez por rodada, quando é atingido por um ataque, você pode fazer um teste de ataque corpo a corpo. Para cada 10 pontos do resultado desse teste, você reduz o dano sofrido em 2 pontos. Um broquel pode ser usado para atacar como um escudo leve.",
+  "livro": "herois_de_arton"
+}

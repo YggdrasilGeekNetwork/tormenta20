@@ -1,0 +1,26 @@
+{
+  "id": "servo",
+  "name": "Servo",
+  "description": "Você foi um servo em algum castelo ou palácio nas áreas mais tradicionais de Arton, atendendo às necessidades de nobres, magos e cavaleiros. Suas funções variavam desde a limpeza e manutenção dos aposentos até a preparação de refeições e o cuidado com animais. Mas houve vezes em que você foi incumbido de missões mais perigosas, como acompanhar seu senhor em viagens ou buscar ingredientes raros em florestas. Também era frequentemente o primeiro a perceber intrigas, segredos e perigos iminentes, assim protegendo seus mestres. Então esses tais aventureiros pensam que são muito fortes? Hora de mostrar a eles!",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Balde e vassoura (mesmas estatísticas de um bordão)"
+    },
+    {
+      "type": "fixed",
+      "text": "Tabardo de seu patrono"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Diplomacia",
+      "Ofício (serviçal)"
+    ],
+    "powers": [
+      "Discrição de Servo"
+    ]
+  },
+  "unique_power": "discricao_de_servo",
+  "livro": "herois_de_arton"
+}

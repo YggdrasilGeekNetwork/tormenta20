@@ -1,0 +1,16 @@
+{
+  "id": "camara_mistica",
+  "name": "Câmara Mística",
+  "description": "Uma sala onde espirais de puro poder flutuam, esperando para serem invocadas. Uma vez por aventura, você pode usar um poder de magia de aprimoramento, mesmo que não o possua, sem pagar PM por isso.",
+  "categoria": "misticismo",
+  "custo": 15,
+  "effects": [
+    {
+      "type": "usa_poder_sem_custo",
+      "categoria": "magia de aprimoramento",
+      "frequencia": "uma_vez_por_aventura"
+    }
+  ],
+  "prerequisito": "torre_de_estudos",
+  "livro": "herois_de_arton"
+}

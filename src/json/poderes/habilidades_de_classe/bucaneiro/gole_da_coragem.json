@@ -1,0 +1,17 @@
+{
+  "id": "gole_da_coragem",
+  "name": "Gole da Coragem",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Uma vez por cena, quando ingerir uma bebida, preparado ou poção, você recebe uma ação padrão adicional nesse turno.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "extra_action",
+      "action": "padrao",
+      "frequency": "1_por_cena",
+      "trigger": "ingerir_bebida_preparado_ou_pocao"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "lingua_da_natureza_duende",
+  "name": "Língua da Natureza",
+  "type": "habilidade_de_raca",
+  "race": "duende",
+  "description": "Você recebe +2 em Adestramento e Sobrevivência, e pode falar com animais e plantas (como o efeito da magia Voz Divina).",
+  "effects": {
+    "skill_bonus": [
+      { "skill": "adestramento", "value": 2 },
+      { "skill": "sobrevivencia", "value": 2 }
+    ],
+    "special": "fala com animais e plantas, como Voz Divina"
+  },
+  "livro": "herois_de_arton"
+}

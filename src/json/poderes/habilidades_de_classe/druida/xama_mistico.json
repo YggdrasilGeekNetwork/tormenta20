@@ -1,0 +1,31 @@
+{
+  "id": "xama_mistico",
+  "name": "Xamã Místico",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Você recebe +1 PM por nível de druida, pode aprender e lançar magias de uma escola adicional e a CD para resistir a suas magias aumenta em +1.",
+  "requirements": [
+    {
+      "type": "feature_absent",
+      "sub_type": "hard",
+      "id": "forma_selvagem",
+      "note": "nao_possuir_forma_selvagem"
+    }
+  ],
+  "effects": [
+    {
+      "type": "PM_bonus_attr",
+      "value": "1_por_nivel_de_druida"
+    },
+    {
+      "type": "learn_magic",
+      "school": "adicional_a_escolha"
+    },
+    {
+      "type": "CD_magic_improvement",
+      "value": 1
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "carapaca_corrompida",
+  "name": "Carapaça Corrompida",
+  "description": "As placas quitinosas que recobrem seu corpo são especialmente grossas, formadas por matéria vermelha que parece repelir os elementos físicos de Arton. Você recebe redução de dano 1. Essa RD aumenta em +1 para cada dois outros poderes da Tormenta que você possui.",
+  "prerequisites": [
+    "Carapaça"
+  ],
+  "effects": {
+    "type": "passive",
+    "damage_reduction": {
+      "base": 1,
+      "scaling": "+1 por cada 2 outros poderes da Tormenta"
+    }
+  },
+  "livro": "herois_de_arton"
+}

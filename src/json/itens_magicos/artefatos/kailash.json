@@ -1,0 +1,46 @@
+{
+  "id": "kailash",
+  "name": "O Kailash",
+  "description": "A icônica arma do notório (não) ladino Sandro Galtran. \"Kailash\" significa \"grande matador\" num antigo idioma hynne; assim como os hynne, é uma arma pequena e de aspecto quase inofensivo — uma esfera metálica com cravos, com um cordão de suporte para arremesso. Sua verdadeira origem é misteriosa; talvez tenha sido ofertado a algum aventureiro hynne do passado por Hyninn ou outra divindade. Ressurgiu em tempos relativamente recentes, quando o ladino Leon Galtran e seus companheiros foram contratados por um rico fazendeiro de Deheon para resgatar sua filha desaparecida, Karin (que mais tarde se tornaria esposa de Leon e mãe de Sandro); a Leon coube esta estranha e improvável arma mágica.",
+  "effects": [
+    {
+      "type": "weapon_type",
+      "base": "boleadeira"
+    },
+    {
+      "type": "enchantment",
+      "name": "precisa"
+    },
+    {
+      "type": "enchantment",
+      "name": "dilacerante"
+    },
+    {
+      "type": "enchantment",
+      "name": "flamejante"
+    },
+    {
+      "type": "enchantment",
+      "name": "magnífica"
+    },
+    {
+      "type": "ativado",
+      "nome": "Captura",
+      "efeito": "quando o Kailash é arremessado para agarrar à distância, seu cordão cresce e forma um laço ou rede, fornecendo +5 no teste de manobra; se usado para agarrar uma criatura Pequena ou menor, pode agarrar também criaturas desses tamanhos adjacentes ao alvo principal (um único teste comparado com o teste de cada criatura)"
+    },
+    {
+      "type": "ativado",
+      "nome": "Arrastar",
+      "acao": "movimento",
+      "requisito": "ter agarrado uma ou mais criaturas com o Kailash",
+      "efeito": "faz um novo teste de agarrar contra essas criaturas; se vencer, arrasta-as até 9m em qualquer direção"
+    },
+    {
+      "type": "ativado",
+      "nome": "Nova Arma",
+      "gatilho": "comando do usuário",
+      "efeito": "o Kailash distende um ou mais de seus espigões, mudando de forma e poderes: transforma-se em maça-estrela anticriatura (mortos-vivos), picareta anticriatura (gigantes) ou lança anticriatura (dragões); mantém seus demais encantos e poderes em qualquer forma"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

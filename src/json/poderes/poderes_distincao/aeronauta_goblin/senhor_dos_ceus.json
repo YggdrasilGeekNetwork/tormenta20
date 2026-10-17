@@ -1,0 +1,20 @@
+{
+  "id": "senhor_dos_ceus",
+  "name": "Senhor dos Céus",
+  "type": "poder_distincao",
+  "description": "Tendo derrotado inimigos suficientes, o aeronauta se tornou um verdadeiro ás. Uma vez por rodada, enquanto está pilotando uma aeronave, você pode gastar 3 PM para realizar uma ação padrão adicional.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 3,
+      "limite": "uma vez por rodada",
+      "condicao": "enquanto está pilotando uma aeronave",
+      "efeito": "realiza uma ação padrão adicional"
+    }
+  ],
+  "requirements": [
+    "Manobras Defensivas",
+    "derrotar cinco aeronaves e/ou inimigos voadores enquanto pilota uma aeronave"
+  ],
+  "livro": "herois_de_arton"
+}

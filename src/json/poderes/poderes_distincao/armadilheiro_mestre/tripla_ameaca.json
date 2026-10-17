@@ -1,0 +1,17 @@
+{
+  "id": "tripla_ameaca",
+  "name": "Tripla Ameaça",
+  "type": "poder_distincao",
+  "description": "Mas e se pudesse ser mais…? Você pode gastar 10 PM para preparar até 3 armadilhas ao mesmo tempo. Cada uma aparece em um ponto diferente em alcance curto.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 10,
+      "efeito": "prepara até 3 armadilhas ao mesmo tempo, cada uma aparecendo em um ponto diferente em alcance curto"
+    }
+  ],
+  "requirements": [
+    "Aumentar Complexidade"
+  ],
+  "livro": "herois_de_arton"
+}

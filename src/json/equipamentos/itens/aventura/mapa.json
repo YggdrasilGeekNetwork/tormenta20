@@ -1,0 +1,16 @@
+{
+  "id": "mapa",
+  "name": "Mapa",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 30,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "consultado",
+  "region_determinada_pelo_mestre": true,
+  "efeito": {
+    "bonus_sobrevivencia_orientar_regiao": 5
+  },
+  "description": "Mapa de uma região, determinada pelo mestre ao ser adquirido. Fornece +5 em testes de Sobrevivência para orientar-se nessa região.",
+  "livro": "herois_de_arton"
+}

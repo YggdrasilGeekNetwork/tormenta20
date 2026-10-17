@@ -1,0 +1,20 @@
+{
+  "id": "lampada_da_ilusao_impecavel",
+  "name": "Lâmpada da Ilusão Impecável",
+  "categoria": "maior",
+  "preco": 36000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta lâmpada de cristal contém uma chama dourada que nunca apaga. Quando sua cobertura é removida, ela projeta ilusões perfeitamente detalhadas de qualquer coisa que o usuário deseje — você pode lançar a magia Criar Ilusão, mas apenas para efeitos visuais (CD Int; se já puder lançar essa magia, recebe 2 PM para gastar em aprimoramentos dela). Contudo, a perfeição absoluta das imagens aumenta a CD para resistir à magia em +5.",
+  "effects": [
+    {
+      "type": "concede_magia",
+      "magia": "Criar Ilusão",
+      "restricao": "apenas efeitos visuais",
+      "cd_atributo": "Int",
+      "condicao_se_ja_conhece": "recebe 2 PM para aprimoramentos",
+      "bonus_cd": 5
+    }
+  ],
+  "livro": "herois_de_arton"
+}

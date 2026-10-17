@@ -1,0 +1,20 @@
+{
+  "id": "temeroso",
+  "name": "Temeroso",
+  "description": "Você tem medo de se machucar. Como alternativa, treinou apenas com armas de ataque à distância e não sabe o que fazer quando as coisas ficam mais \"pessoais\". Você sofre –5 em Luta e, enquanto estiver adjacente a um inimigo, fica abalado.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_pericia",
+      "pericia": "luta",
+      "value": -5
+    },
+    {
+      "type": "condicao_condicional",
+      "gatilho": "adjacente_a_inimigo",
+      "efeito": "fica_abalado"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

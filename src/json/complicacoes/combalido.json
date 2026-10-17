@@ -1,0 +1,19 @@
+{
+  "id": "combalido",
+  "name": "Combalido",
+  "description": "Por alguma razão, natural ou sobrenatural, sua saúde é frágil. Você sofre –5 em Fortitude e recebe –1 PV por nível de personagem.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_pericia",
+      "pericia": "fortitude",
+      "value": -5
+    },
+    {
+      "type": "penalidade_pv_por_nivel",
+      "value": -1
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

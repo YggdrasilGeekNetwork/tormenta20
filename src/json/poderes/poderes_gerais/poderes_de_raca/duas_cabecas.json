@@ -1,0 +1,40 @@
+{
+  "id": "duas_cabecas",
+  "name": "Duas Cabeças",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você nasceu com duas cabeças, ou então uma segunda cabeça brotou de seu corpo em determinado momento. Elas podem ser iguais ou não (por exemplo, uma pode ser menor ou atrofiada) e podem ter personalidades compatíveis ou não — fique à vontade para interpretar diálogos entre elas. Sempre que fizer um teste de Vontade, você pode gastar 1 PM para rolar dois dados e usar o melhor resultado. Além disso, se você tem uma arma natural de mordida, recebe uma arma natural extra do mesmo tipo e com as mesmas estatísticas (se você pode fazer um ataque extra com sua mordida original gastando 1 PM, agora poderá fazer um ataque com cada mordida gastando 2 PM). Se um efeito modificar uma de suas mordidas, escolha qual é afetada.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "gnoll",
+        "kaijin",
+        "lefou",
+        "orc",
+        "trog"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "roll_dice_again",
+      "requirements": "teste_de_vontade",
+      "keep": "melhor_resultado"
+    },
+    {
+      "type": "natural_weapon_grant",
+      "weapon": "mordida_extra",
+      "condition": "possui_arma_natural_de_mordida",
+      "same_stats": true
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

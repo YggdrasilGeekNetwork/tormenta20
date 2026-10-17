@@ -1,0 +1,23 @@
+{
+  "id": "viajante_das_planicies",
+  "name": "Viajante das Planícies",
+  "type": "poder_distincao",
+  "description": "\"Você não trouxe um cavalo a menos, trouxe dois a mais…\" Você recebe um cavalo de guerra parceiro veterano. Caso já possua uma montaria fornecida por outra habilidade, em vez disso essa montaria se torna também um parceiro vigilante iniciante. Em ambos os casos, nessa montaria você não sofre a penalidade em testes de ataque à distância enquanto montado. Caso perca sua montaria, você pode treinar outra com uma semana de trabalho.",
+  "effects": [
+    {
+      "type": "concede_parceiro",
+      "tipo": "cavalo_de_guerra",
+      "nivel": "veterano",
+      "observacao": "se já possuir montaria de outra habilidade, ela se torna também parceiro vigilante iniciante"
+    },
+    {
+      "type": "passivo",
+      "efeito": "não sofre penalidade em testes de ataque à distância enquanto montado nessa montaria"
+    }
+  ],
+  "requirements": [
+    "treinado em Cavalgar",
+    "Rápido no Gatilho"
+  ],
+  "livro": "herois_de_arton"
+}

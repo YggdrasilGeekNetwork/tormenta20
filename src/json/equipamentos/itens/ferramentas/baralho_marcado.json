@@ -1,0 +1,16 @@
+{
+  "id": "baralho_marcado",
+  "name": "Baralho Marcado",
+  "type": "item",
+  "categoria": "ferramenta",
+  "preco": 15,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "efeito": {
+    "bonus_jogatina_cartas": 2,
+    "risco": "se rolar 1 natural em um teste de Jogatina com este baralho, você é descoberto"
+  },
+  "description": "Baralho com marcações sutis, que só o usuário é capaz de reconhecer. Uma inspeção casual não revela nada além de um baralho comum. Você recebe +2 em testes de Jogatina com cartas. Contudo, se rolar 1 natural em um teste de Jogatina com este baralho, você é descoberto, o que pode levar a uma bela briga de taverna.",
+  "livro": "herois_de_arton"
+}

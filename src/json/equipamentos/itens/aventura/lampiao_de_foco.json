@@ -1,0 +1,15 @@
+{
+  "id": "lampiao_de_foco",
+  "name": "Lampião de Foco",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 15,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "empunhado",
+  "efeito": {
+    "cone_luz": "24m"
+  },
+  "description": "Lanterna sofisticada que funciona como um lampião, mas possui uma cobertura e pequenos espelhos que concentram a luz em um cone de 24m.",
+  "livro": "herois_de_arton"
+}

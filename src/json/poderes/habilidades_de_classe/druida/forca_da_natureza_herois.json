@@ -1,0 +1,35 @@
+{
+  "id": "forca_da_natureza_herois",
+  "name": "Força da Natureza",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Se estiver em forma selvagem, você pode gastar 4 PM para se cobrir de terra e raízes, como um elemental da própria terra, até o fim da cena. Nesse estado, você recebe +4 em um atributo a sua escolha.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "forma_selvagem_superior"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "attr_bonus_improvement",
+      "attr": "escolha",
+      "value": 4,
+      "duration": "cena"
+    }
+  ],
+  "costs": [
+    {
+      "value": 4,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "note": "id sufixado com _herois porque ja existe um poder 'forca_da_natureza' distinto (core) na mesma pasta"
+}

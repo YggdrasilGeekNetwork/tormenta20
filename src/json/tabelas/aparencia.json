@@ -1,0 +1,413 @@
+{
+  "id": "aparencia",
+  "name": "Aparência",
+  "description": "Tabela de sorteio de características de aparência física para personagens (Tabela 1-25).",
+  "headers": [
+    "Faixa",
+    "Aparência"
+  ],
+  "rows": [
+    {
+      "Faixa": "1",
+      "Aparência": "Cabelo muito longo"
+    },
+    {
+      "Faixa": "2",
+      "Aparência": "Cicatriz em forma de X no rosto"
+    },
+    {
+      "Faixa": "3",
+      "Aparência": "Dentes de metal"
+    },
+    {
+      "Faixa": "4",
+      "Aparência": "Parece muito fraco (independente de For ou Con)"
+    },
+    {
+      "Faixa": "5",
+      "Aparência": "Muito alto"
+    },
+    {
+      "Faixa": "6",
+      "Aparência": "Manchas na pele"
+    },
+    {
+      "Faixa": "7",
+      "Aparência": "Careca lustrosa"
+    },
+    {
+      "Faixa": "8",
+      "Aparência": "Barba ou seios grandes"
+    },
+    {
+      "Faixa": "9",
+      "Aparência": "Tatuagem do deus do qual é devoto"
+    },
+    {
+      "Faixa": "10",
+      "Aparência": "Parece muito forte (independente de For ou Con)"
+    },
+    {
+      "Faixa": "11",
+      "Aparência": "Corpo troncudo"
+    },
+    {
+      "Faixa": "12",
+      "Aparência": "Orelhas maiores que o normal"
+    },
+    {
+      "Faixa": "13",
+      "Aparência": "Cabelos grisalhos"
+    },
+    {
+      "Faixa": "14",
+      "Aparência": "Olhos totalmente brancos"
+    },
+    {
+      "Faixa": "15",
+      "Aparência": "Parece mais velho do que é"
+    },
+    {
+      "Faixa": "16",
+      "Aparência": "Parece mais novo do que é"
+    },
+    {
+      "Faixa": "17",
+      "Aparência": "Usa sombra nos olhos"
+    },
+    {
+      "Faixa": "18",
+      "Aparência": "Corcunda, mas musculoso"
+    },
+    {
+      "Faixa": "19",
+      "Aparência": "Um olho branco (mas enxerga normalmente)"
+    },
+    {
+      "Faixa": "20",
+      "Aparência": "Sempre usa chapéu"
+    },
+    {
+      "Faixa": "21",
+      "Aparência": "Bochechas rosadas"
+    },
+    {
+      "Faixa": "22",
+      "Aparência": "Orelhas pontudas (ou arredondadas, se o normal da raça for serem pontudas)"
+    },
+    {
+      "Faixa": "23",
+      "Aparência": "Postura impecável"
+    },
+    {
+      "Faixa": "24",
+      "Aparência": "Voz muito grossa"
+    },
+    {
+      "Faixa": "25",
+      "Aparência": "Sardento"
+    },
+    {
+      "Faixa": "26",
+      "Aparência": "Cicatriz em forma de X no rosto"
+    },
+    {
+      "Faixa": "27",
+      "Aparência": "Unhas muito compridas"
+    },
+    {
+      "Faixa": "28",
+      "Aparência": "Usa muitas joias"
+    },
+    {
+      "Faixa": "29",
+      "Aparência": "Calvo ou laterais raspadas"
+    },
+    {
+      "Faixa": "30",
+      "Aparência": "Tatuagens no rosto"
+    },
+    {
+      "Faixa": "31",
+      "Aparência": "Cabelo trançado"
+    },
+    {
+      "Faixa": "32",
+      "Aparência": "Cicatriz no pescoço"
+    },
+    {
+      "Faixa": "33",
+      "Aparência": "Usa penteados exuberantes"
+    },
+    {
+      "Faixa": "34",
+      "Aparência": "Olhos de cores diferentes"
+    },
+    {
+      "Faixa": "35",
+      "Aparência": "Pata de animal (coelho, gato) no lugar dos pés"
+    },
+    {
+      "Faixa": "36",
+      "Aparência": "Perna protética"
+    },
+    {
+      "Faixa": "37",
+      "Aparência": "Grande cicatriz no peito"
+    },
+    {
+      "Faixa": "38",
+      "Aparência": "Usa roupas da moda"
+    },
+    {
+      "Faixa": "39",
+      "Aparência": "Penduricalhos nos cabelos ou na barba"
+    },
+    {
+      "Faixa": "40",
+      "Aparência": "Nariz longo e pontudo"
+    },
+    {
+      "Faixa": "41",
+      "Aparência": "Cabelo naturalmente de duas cores"
+    },
+    {
+      "Faixa": "42",
+      "Aparência": "Sinal de nascença misterioso"
+    },
+    {
+      "Faixa": "43",
+      "Aparência": "Muito magro, ainda que saudável"
+    },
+    {
+      "Faixa": "44",
+      "Aparência": "Manca por conta de uma flechada no joelho"
+    },
+    {
+      "Faixa": "45",
+      "Aparência": "Usa óculos"
+    },
+    {
+      "Faixa": "46",
+      "Aparência": "Pernas longas"
+    },
+    {
+      "Faixa": "47",
+      "Aparência": "Perdeu um dedo do pé (um cavalo pisou, uma carroça passou por cima)"
+    },
+    {
+      "Faixa": "48",
+      "Aparência": "Rosto de fada"
+    },
+    {
+      "Faixa": "49",
+      "Aparência": "Voz muito fina"
+    },
+    {
+      "Faixa": "50",
+      "Aparência": "Olheiras constantes"
+    },
+    {
+      "Faixa": "51",
+      "Aparência": "Olhos estreitos"
+    },
+    {
+      "Faixa": "52",
+      "Aparência": "Sempre se veste de preto"
+    },
+    {
+      "Faixa": "53",
+      "Aparência": "Mãos grandes"
+    },
+    {
+      "Faixa": "54",
+      "Aparência": "Usa uma aliança (mas aparentemente nunca casou)"
+    },
+    {
+      "Faixa": "55",
+      "Aparência": "Sorriso brilhante"
+    },
+    {
+      "Faixa": "56",
+      "Aparência": "Mãos enrugadas"
+    },
+    {
+      "Faixa": "57",
+      "Aparência": "Piercings pelo corpo"
+    },
+    {
+      "Faixa": "58",
+      "Aparência": "Tatuagens nas mãos"
+    },
+    {
+      "Faixa": "59",
+      "Aparência": "Verruga em alguma parte do corpo"
+    },
+    {
+      "Faixa": "60",
+      "Aparência": "Perdeu um olho (na guerra, numa briga, num acidente)"
+    },
+    {
+      "Faixa": "61",
+      "Aparência": "Unhas pintadas"
+    },
+    {
+      "Faixa": "62",
+      "Aparência": "Tem um terceiro mamilo"
+    },
+    {
+      "Faixa": "63",
+      "Aparência": "Cabelo bem curto"
+    },
+    {
+      "Faixa": "64",
+      "Aparência": "Sempre lacrimejando"
+    },
+    {
+      "Faixa": "65",
+      "Aparência": "Só usa roupas muito coloridas"
+    },
+    {
+      "Faixa": "66",
+      "Aparência": "Não tem sobrancelhas"
+    },
+    {
+      "Faixa": "67",
+      "Aparência": "Cabelos sempre de uma cor diferente"
+    },
+    {
+      "Faixa": "68",
+      "Aparência": "Um dedo a mais em uma das mãos"
+    },
+    {
+      "Faixa": "69",
+      "Aparência": "Olhos completamente pretos"
+    },
+    {
+      "Faixa": "70",
+      "Aparência": "Língua bipartida"
+    },
+    {
+      "Faixa": "71",
+      "Aparência": "Pele lilás"
+    },
+    {
+      "Faixa": "72",
+      "Aparência": "Perdeu um dedo da mão (na guerra, no trabalho, de um jeito idiota)"
+    },
+    {
+      "Faixa": "73",
+      "Aparência": "Orelhas de gato"
+    },
+    {
+      "Faixa": "74",
+      "Aparência": "Queixo com covinha"
+    },
+    {
+      "Faixa": "75",
+      "Aparência": "Caninos pontudos"
+    },
+    {
+      "Faixa": "76",
+      "Aparência": "Queixo pontudo"
+    },
+    {
+      "Faixa": "77",
+      "Aparência": "Mandíbula proeminente"
+    },
+    {
+      "Faixa": "78",
+      "Aparência": "Não pisca"
+    },
+    {
+      "Faixa": "79",
+      "Aparência": "Cabelo (ou pelagem, se possuir) cheio de tranças"
+    },
+    {
+      "Faixa": "80",
+      "Aparência": "Albino"
+    },
+    {
+      "Faixa": "81",
+      "Aparência": "Banguela"
+    },
+    {
+      "Faixa": "82",
+      "Aparência": "Usa capa, sempre"
+    },
+    {
+      "Faixa": "83",
+      "Aparência": "Barriga muito proeminente"
+    },
+    {
+      "Faixa": "84",
+      "Aparência": "Nasceu com um rabo (ou mais um)"
+    },
+    {
+      "Faixa": "85",
+      "Aparência": "Tatuagem que não se lembra de ter feito"
+    },
+    {
+      "Faixa": "86",
+      "Aparência": "Pés grandes"
+    },
+    {
+      "Faixa": "87",
+      "Aparência": "Buço ou bigode grosso"
+    },
+    {
+      "Faixa": "88",
+      "Aparência": "Peludo"
+    },
+    {
+      "Faixa": "89",
+      "Aparência": "Muito corado"
+    },
+    {
+      "Faixa": "90",
+      "Aparência": "Dedos longos e elegantes"
+    },
+    {
+      "Faixa": "91",
+      "Aparência": "Pintura de caveira no rosto"
+    },
+    {
+      "Faixa": "92",
+      "Aparência": "Calvo de cabelo comprido"
+    },
+    {
+      "Faixa": "93",
+      "Aparência": "Nariz pequeno, de batatinha"
+    },
+    {
+      "Faixa": "94",
+      "Aparência": "Cabelo afro, dos grandes"
+    },
+    {
+      "Faixa": "95",
+      "Aparência": "Voz rouca"
+    },
+    {
+      "Faixa": "96",
+      "Aparência": "Queixo quadrado"
+    },
+    {
+      "Faixa": "97",
+      "Aparência": "Nasceu com dois chifres pequenos (se já tem chifres, nasceu com mais dois)"
+    },
+    {
+      "Faixa": "98",
+      "Aparência": "Muito baixo"
+    },
+    {
+      "Faixa": "99",
+      "Aparência": "Usa brincos grandes"
+    },
+    {
+      "Faixa": "100",
+      "Aparência": "Cabelo moicano"
+    }
+  ],
+  "dice": "1d100",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "pressurizada",
+  "name": "Pressurizada",
+  "type": "melhoria",
+  "categoria": "arma",
+  "restricao": {
+    "tipo": "armas_corpo_a_corpo_de_impacto_ou_armas_de_fogo"
+  },
+  "prerequisitos": null,
+  "description": "A arma possui um mecanismo articulado em seu interior, formado por um pistão e uma câmara de ar. Você pode gastar uma ação completa para puxar o pistão e pressurizar a câmara. Quando faz um ataque com a arma, se ela estiver pressurizada, você pode descarregar a pressão para aumentar o impacto do golpe. Se fizer isso, você recebe +2 no teste de ataque e na rolagem de dano. Esta melhoria só pode ser aplicada a armas corpo a corpo de impacto e armas de fogo.",
+  "effects": [
+    {
+      "type": "bonus_ataque_e_dano",
+      "value": 2,
+      "condicao": "gasta uma ação completa para pressurizar; descarrega a pressão em um ataque para receber o bônus"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

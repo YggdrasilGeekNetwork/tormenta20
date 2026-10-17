@@ -1,0 +1,28 @@
+{
+  "id": "lider_impiedoso",
+  "name": "Líder Impiedoso",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Sempre que um aliado sob efeito da sua habilidade Gritar Ordens fizer um acerto crítico ou reduzir um inimigo para 0 PV ou menos, você recupera 1 PM.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "gritar_ordens"
+    }
+  ],
+  "effects": [
+    {
+      "type": "PM_recovery",
+      "value": 1,
+      "requirement": "aliado_sob_gritar_ordens_faz_acerto_critico_ou_reduz_inimigo_a_0_pv"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

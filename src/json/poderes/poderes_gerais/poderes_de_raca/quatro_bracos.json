@@ -1,0 +1,29 @@
+{
+  "id": "quatro_bracos",
+  "name": "Quatro Braços",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você possui um par de braços extras. Isso permite que você empunhe até quatro objetos, mas não fornece ações extras — por exemplo, você continua fazendo apenas um ataque com a ação agredir (mas veja Quadridestria).",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "kaijin",
+        "lefou",
+        "nagah",
+        "orc",
+        "trog"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "receive_feature",
+      "feature": "par_de_bracos_extras",
+      "effect": "pode_empunhar_ate_4_objetos",
+      "restriction": "nao_fornece_acoes_extras"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

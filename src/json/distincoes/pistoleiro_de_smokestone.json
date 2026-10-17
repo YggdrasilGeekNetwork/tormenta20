@@ -1,0 +1,10 @@
+{
+  "id": "pistoleiro_de_smokestone",
+  "name": "Pistoleiro de Smokestone",
+  "description": "Pistoleiro forjado em Smokestone, a Cidade dos Fora da Lei, que vive e mata pela honra e pela pólvora.",
+  "admissao": "O primeiro passo é chegar a Smokestone (nascidos lá já estão liberados desse requisito). O candidato deve então permanecer vivo por um ou dois meses na cidade e ser aceito pelos locais, aprendendo as leis não escritas de Smokestone na prática — quem as descumpre é educado por meio de um duelo até a morte, ou preso em um barril de pólvora na praça central. O candidato não pode usar armaduras pesadas ou armas que não sejam de fogo, não pode usar magia arcana, não pode ter título de nobreza ou posição de autoridade, e não pode cultuar nenhum deus (quem já tinha títulos ou culto deve renegá-los publicamente). Por fim, deve desafiar outro pistoleiro tão ou mais experiente para um duelo com pistolas até a morte, e vencer.",
+  "marca_nome": "Honra do Pistoleiro",
+  "marca_descricao": "\"Em Smokestone, a honra é fundamental. Você é respeitado de acordo com seus atos e todos acreditam naquilo que você os faz acreditar.\" Você recebe +2 em rolagens de dano com armas de fogo leves e de uma mão. Contudo, você passa a seguir o Código do Pistoleiro. O Código do Pistoleiro: um verdadeiro pistoleiro não usa armaduras pesadas e escudos, nem armas que não sejam pistolas ou outras armas de fogo leves ou de uma mão (exceção para versões híbridas dessas armas e adagas). Pode mentir e trapacear à vontade, mas uma vez que tenha dado sua palavra ou feito uma promessa, ela é lei. Nada de cultuar deuses, seguir organizações formais ou ter qualquer tipo de título ou honraria oficial. Nada de lançar magias. Se violar o código, seus PM somem e só voltam no dia seguinte.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

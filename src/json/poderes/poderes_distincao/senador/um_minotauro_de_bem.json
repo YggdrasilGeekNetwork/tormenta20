@@ -1,0 +1,17 @@
+{
+  "id": "um_minotauro_de_bem",
+  "name": "Um Minotauro de Bem",
+  "type": "poder_distincao",
+  "description": "Um senador é reconhecido como um membro honrado e prestigioso da sociedade. Você recebe +1 em testes de perícias baseadas em Carisma e na CD dos testes de Vontade para resistir às suas habilidades. Para cada outro poder da distinção, esses bônus aumentam em +1.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "+1 em testes de perícias baseadas em Carisma e na CD de Vontade para resistir a suas habilidades",
+      "escalavel": "+1 adicional para cada outro poder da distinção que possui"
+    }
+  ],
+  "requirements": [
+    "Cofres Fundos"
+  ],
+  "livro": "herois_de_arton"
+}

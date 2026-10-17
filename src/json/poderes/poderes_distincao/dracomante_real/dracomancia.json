@@ -1,0 +1,15 @@
+{
+  "id": "dracomancia",
+  "name": "Dracomancia",
+  "type": "poder_distincao",
+  "description": "Ao usar seu poder, o dracomante real se aproxima da forma de seu mestre. Quando lança uma magia, você recebe redução de dano 5 e resistência a magia +5 até o início de seu próximo turno.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "lançar uma magia",
+      "efeito": "redução de dano 5 e resistência a magia +5 até o início do próximo turno"
+    }
+  ],
+  "requirements": ["Afinidade Dracônica"],
+  "livro": "herois_de_arton"
+}

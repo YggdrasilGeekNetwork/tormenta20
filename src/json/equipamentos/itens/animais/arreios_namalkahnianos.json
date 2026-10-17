@@ -1,0 +1,15 @@
+{
+  "id": "arreios_namalkahnianos",
+  "name": "Arreios Namalkahnianos",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 50,
+  "espacos": 1,
+  "uso": "acessorio_montaria",
+  "efeito": {
+    "conta_como_item_vestido_do_animal": true,
+    "aumento_deslocamento_veiculo_tracao_animal": "3m"
+  },
+  "description": "Feitos de couro com nós e fivelas que permitem ajustes precisos, estes arreios permitem que um animal de tração puxe um veículo da forma mais confortável e eficiente possível. Contam como um item vestido do animal e aumentam o deslocamento de um veículo de tração animal em +3m.",
+  "livro": "herois_de_arton"
+}

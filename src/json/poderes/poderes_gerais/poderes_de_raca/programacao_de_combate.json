@@ -1,0 +1,31 @@
+{
+  "id": "programacao_de_combate",
+  "name": "Programação de Combate",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você pode gastar uma ação de movimento e 3 PM para ativar um modo de análise de inimigos, com duração sustentada. Enquanto estiver com esse modo ativo, quando faz um ataque você rola dois dados e usa o melhor resultado.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "golem"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active_ability",
+      "action": "movimento",
+      "duration": "sustentada",
+      "effect": "roll_dice_again",
+      "requirements": "testes_de_ataque",
+      "keep": "melhor_resultado"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 3,
+      "type": "PM"
+    }
+  ]
+}

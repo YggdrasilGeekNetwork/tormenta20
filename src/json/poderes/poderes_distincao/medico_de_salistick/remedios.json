@@ -1,0 +1,21 @@
+{
+  "id": "remedios",
+  "name": "Remédios",
+  "type": "poder_distincao",
+  "description": "Um médico de Salistick estuda princípios científicos para a fabricação e o uso dos mais variados fármacos. Quando você usa um preparado alquímico que fornece PV ou PM (temporários ou por cura), esse efeito aumenta em +1 por dado. Além disso, você pode fabricar preparados com esses efeitos em 10 minutos (em vez de 1 dia), mas eles duram apenas até o fim da cena.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "preparados alquímicos que fornecem PV ou PM (temporários ou por cura) aumentam +1 por dado"
+    },
+    {
+      "type": "passivo",
+      "efeito": "pode fabricar preparados com esses efeitos em 10 minutos em vez de 1 dia, mas eles duram apenas até o fim da cena"
+    }
+  ],
+  "requirements": [
+    "treinado em Ofício (alquimista)",
+    "Medicina Avançada"
+  ],
+  "livro": "herois_de_arton"
+}

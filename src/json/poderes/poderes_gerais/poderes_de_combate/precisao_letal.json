@@ -1,0 +1,22 @@
+{
+  "id": "precisao_letal",
+  "name": "Precisão Letal",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "A margem de ameaça de seus ataques aumenta em +1.",
+  "requirements": [
+    {
+      "type": "character_level",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "threat_improvement",
+      "value": 1,
+      "duration": "permanente"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

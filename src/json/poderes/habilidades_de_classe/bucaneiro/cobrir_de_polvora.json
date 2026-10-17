@@ -1,0 +1,31 @@
+{
+  "id": "cobrir_de_polvora",
+  "name": "Cobrir de Pólvora",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Você pode gastar uma ação de movimento, 1 PM e uma bala de arma de fogo para cobrir uma criatura em alcance curto com uma pequena quantidade de pólvora. O alvo fica cego por 1 rodada (Ref CD Car evita) e, até o fim da cena, o próximo ataque contra ele causa +1d6 pontos de dano de fogo e deixa-o em chamas.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "active",
+      "action": "movimento",
+      "target": "criatura_em_alcance_curto",
+      "cost_extra": "1_bala_de_arma_de_fogo",
+      "on_fail_save": "cego_1_rodada",
+      "save": "reflexos_cd_car",
+      "extra_damage": {
+        "value": "1d6",
+        "damage_type": "fogo",
+        "condition": "em_chamas",
+        "trigger": "proximo_ataque_contra_alvo_ate_fim_da_cena"
+      }
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

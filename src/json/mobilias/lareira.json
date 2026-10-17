@@ -1,0 +1,19 @@
+{
+  "id": "lareira",
+  "name": "Lareira",
+  "description": "Uma chaminé e um pequeno espaço para fazer fogo. Aquece o ambiente e faz com que os moradores se acostumem com a presença do calor. Instalada na sala de estar, na cozinha ou em uma suíte, fornece +1 na CD de efeitos de fogo e redução de fogo 2.",
+  "effects": [
+    {
+      "type": "bonus_cd_efeito_fogo",
+      "value": 1
+    },
+    {
+      "type": "reducao_de_dano",
+      "value": 2,
+      "tipo_dano": "fogo"
+    }
+  ],
+  "preco": 2500,
+  "comodo_alvo": "sala_de_estar_cozinha_ou_suite",
+  "livro": "herois_de_arton"
+}

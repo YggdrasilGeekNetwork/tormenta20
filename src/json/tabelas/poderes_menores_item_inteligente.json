@@ -1,0 +1,26 @@
+{
+  "id": "poderes_menores_item_inteligente",
+  "name": "Tabela 3-14: Poderes de Itens Mágicos Inteligentes (Poder Menor)",
+  "description": "Role 1d% para cada poder secundário menor que um item mágico inteligente possui (veja Tabela 3-13). Se um mesmo poder for rolado mais de uma vez, ignore e role novamente.",
+  "headers": ["Faixa", "Poder Menor"],
+  "rows": [
+    { "Faixa": "01-10", "Poder Menor": "Pode lançar Adaga Mental" },
+    { "Faixa": "11-15", "Poder Menor": "Pode lançar Bênção (apenas no usuário)" },
+    { "Faixa": "16-19", "Poder Menor": "Pode lançar Compreensão" },
+    { "Faixa": "20-22", "Poder Menor": "Pode lançar Controlar Plantas" },
+    { "Faixa": "23-26", "Poder Menor": "Pode lançar Criar Ilusão" },
+    { "Faixa": "27-31", "Poder Menor": "Pode lançar Disfarce Ilusório" },
+    { "Faixa": "32-33", "Poder Menor": "Pode lançar Escuridão" },
+    { "Faixa": "34-36", "Poder Menor": "Pode lançar Hipnotismo" },
+    { "Faixa": "37-40", "Poder Menor": "Pode lançar Visão Mística" },
+    { "Faixa": "41-45", "Poder Menor": "Pode lançar Vitalidade Fantasma" },
+    { "Faixa": "46-55", "Poder Menor": "Treinado em Conhecimento e Religião" },
+    { "Faixa": "56-65", "Poder Menor": "Treinado em Diplomacia e Nobreza" },
+    { "Faixa": "66-75", "Poder Menor": "Treinado em Enganação e Jogatina" },
+    { "Faixa": "76-80", "Poder Menor": "Treinado em Intimidação e Sobrevivência" },
+    { "Faixa": "81-90", "Poder Menor": "Treinado em Intuição e Percepção" },
+    { "Faixa": "91-100", "Poder Menor": "Treinado em Misticismo" }
+  ],
+  "dice": "1d100",
+  "livro": "herois_de_arton"
+}

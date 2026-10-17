@@ -1,0 +1,14 @@
+{
+  "id": "banheira",
+  "name": "Banheira",
+  "description": "Você sabe que sua carreira de aventureiros deu certo quando há uma banheira cheia de água quente esperando por você no fim de uma busca. A banheira deve ser instalada em uma suíte e afeta apenas os residentes que dormem nela. Uma vez por aventura, permite rolar dois dados em um teste de Fortitude e usar o melhor resultado.",
+  "effects": [
+    {
+      "type": "rola_dois_usa_melhor",
+      "escopo": "um_teste_de_fortitude_por_aventura"
+    }
+  ],
+  "preco": 300,
+  "comodo_alvo": "suite",
+  "livro": "herois_de_arton"
+}

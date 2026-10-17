@@ -1,0 +1,14 @@
+{
+  "id": "hedonista",
+  "name": "Hedonista",
+  "description": "Você está acostumado a viver no luxo e não aceita nada abaixo disso. Em condições luxuosas, sua recuperação de PV e PM é igual ao seu nível. Em condições confortáveis, sua recuperação é igual à metade do seu nível. Em condições normais ou ruins, você recupera apenas 1 PV e 1 PM, independentemente do seu nível.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "recuperacao_condicional",
+      "descricao": "recuperação de PV e PM igual ao nível em condições luxuosas; metade do nível em condições confortáveis; 1 PV e 1 PM em condições normais ou ruins"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

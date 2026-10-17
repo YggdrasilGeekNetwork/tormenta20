@@ -1,0 +1,17 @@
+{
+  "id": "simetria_radial",
+  "name": "Simetria Radial",
+  "description": "Aos poucos, seu físico se rearranjou, abandonando a anatomia artoniana quase que por completo. Seus olhos ficam em lados opostos da cabeça e sua boca fica no topo. Seu tórax adquiriu forma tubular e seus braços e pernas são distribuídos em seu corpo de forma que você não tem mais dois \"lados\". Você não pode ser flanqueado ou ficar caído e recebe um bônus de +5 para evitar ser agarrado.",
+  "prerequisites": [
+    "quatro outros poderes da Tormenta"
+  ],
+  "effects": {
+    "type": "passive",
+    "immunities": [
+      "flanqueado",
+      "caído"
+    ],
+    "grapple_resistance_bonus": 5
+  },
+  "livro": "herois_de_arton"
+}

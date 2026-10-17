@@ -1,0 +1,31 @@
+{
+  "id": "tempo_mistico",
+  "name": "Tempo Místico",
+  "description": "Você é capaz de acessar uma pequena parte do controle dos lefeu sobre o tempo. Uma vez por rodada, quando você lança uma magia com execução de movimento, padrão ou completa, pode gastar 2 PM e perder 1d6, 1d8 ou 1d12 PV para diminuir o tempo de execução da magia em um, dois ou três passos, respectivamente (até um mínimo de ação livre). Essa perda de vida só pode ser curada com descanso.",
+  "prerequisites": [
+    "dois outros poderes da Tormenta"
+  ],
+  "effects": {
+    "type": "active",
+    "cost": "2 PM",
+    "frequency": "uma vez por rodada",
+    "trigger": "lançar magia com execução de movimento, padrão ou completa",
+    "effect": [
+      {
+        "hp_cost": "1d6",
+        "execution_steps_reduced": 1
+      },
+      {
+        "hp_cost": "1d8",
+        "execution_steps_reduced": 2
+      },
+      {
+        "hp_cost": "1d12",
+        "execution_steps_reduced": 3
+      }
+    ],
+    "minimum_execution": "ação livre",
+    "note": "a perda de PV só pode ser curada com descanso"
+  },
+  "livro": "herois_de_arton"
+}

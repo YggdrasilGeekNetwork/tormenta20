@@ -1,0 +1,33 @@
+{
+  "id": "cascos_poderosos",
+  "name": "Cascos Poderosos",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Quando faz um ataque desarmado, você pode gastar 1 PM para desferir esse ataque usando seus cascos. Se fizer isso, causa +1 dado de dano do mesmo tipo, mas não pode escolher causar dano não letal.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "centauro",
+        "minotauro",
+        "satiro"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "1_dado_do_mesmo_tipo",
+      "weapon": "desarmado_via_cascos",
+      "restriction": "nao_pode_ser_dano_nao_letal"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "id": "na_mosca",
+  "name": "Na Mosca",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Se fizer um ataque à distância, você pode gastar 1 PM. Se acertar o ataque, você causa um dado extra de dano do mesmo tipo (por exemplo, com uma besta pesada, causa +1d12).",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": [
+        "estilo_de_arremeso",
+        "estilo_de_disparo"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "dado_extra_do_mesmo_tipo_da_arma",
+      "weapon": "a_distancia",
+      "condition_on_hit": true
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

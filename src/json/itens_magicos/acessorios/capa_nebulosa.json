@@ -1,0 +1,17 @@
+{
+  "id": "capa_nebulosa",
+  "name": "Capa Nebulosa",
+  "categoria": "medio",
+  "preco": 16500,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Feita com finos fios de névoa mágica, esta capa permite ao usuário desaparecer em nevoeiros ou escuridão, como se fizesse parte da névoa ou das trevas. Sempre que você estiver sob camuflagem leve por escuridão ou neblina, essa camuflagem se torna total.",
+  "effects": [
+    {
+      "type": "camuflagem_upgrade",
+      "de": "leve (escuridão ou neblina)",
+      "para": "total"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

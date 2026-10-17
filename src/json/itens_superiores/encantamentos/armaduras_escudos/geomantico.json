@@ -1,0 +1,26 @@
+{
+  "id": "geomantico",
+  "name": "Geomântico",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "Você recebe redução de dano 10/impacto e fortificação 25%. Além disso, você pode lançar a magia Controlar Terra (CD Car). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "condicao": "impacto"
+    },
+    {
+      "type": "fortificacao",
+      "value": 25
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Controlar Terra",
+      "cd": "Carisma",
+      "reducao_custo_pm": 1,
+      "condicao": "se já souber lançar a magia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "luva_magnetica",
+  "name": "Luva Magnética",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 20,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "penalidade_percepcao_vitima_punga": -5
+  },
+  "description": "Luva com pequenos ímãs nas pontas dos dedos, útil para surrupiar objetos ferrosos sem chamar a atenção. A vítima de um teste de Ladinagem para punga sofre uma penalidade de –5 no teste de Percepção para notar que foi vítima disso.",
+  "livro": "herois_de_arton"
+}

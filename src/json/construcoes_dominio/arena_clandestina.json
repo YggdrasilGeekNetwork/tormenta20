@@ -1,0 +1,17 @@
+{
+  "id": "arena_clandestina",
+  "name": "Arena Clandestina",
+  "description": "Localizada no porão de uma taverna, num celeiro abandonado ou em outro lugar discreto, esta arena abriga lutas ilegais, nas quais a única regra é que não há regras. Frequentá-la ensina muito sobre golpes baixos, fornecendo Ataque Furtivo +1d6 (cumulativo).",
+  "categoria": "enganacao",
+  "custo": 15,
+  "effects": [
+    {
+      "type": "recebe_habilidade",
+      "habilidade": "Ataque Furtivo",
+      "value": "1d6",
+      "cumulativo": true
+    }
+  ],
+  "prerequisito": "taverna",
+  "livro": "herois_de_arton"
+}

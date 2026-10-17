@@ -1,0 +1,44 @@
+{
+  "id": "invencivel",
+  "name": "Invencível",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Você é um campeão de incontáveis embates, famoso e endurecido por isso. Quando faz um teste de perícia baseada em Carisma, você pode gastar 2 PM para somar a sua Força no teste. Além disso, sempre que é reduzido a 0 ou menos pontos de vida, pode gastar 5 PM para recuperar PV igual à metade dos seus PV máximos.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "nome_na_arena"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "add_attr_bonus_to_skill",
+      "attr": "forca",
+      "skill": "pericias_baseadas_em_carisma"
+    },
+    {
+      "type": "PV_recovery",
+      "value": "metade_do_pv_maximo",
+      "requirement": "reduzido_a_0_ou_menos_pv"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM",
+      "note": "para_somar_forca_no_teste_de_pericia"
+    },
+    {
+      "value": 5,
+      "type": "PM",
+      "note": "para_recuperar_pv"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

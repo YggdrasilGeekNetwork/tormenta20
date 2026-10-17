@@ -1,0 +1,17 @@
+{
+  "id": "bafo_de_troll",
+  "name": "Bafo de Troll",
+  "type": "poder_distincao",
+  "description": "O hálito do mestre bêbado é capaz de fazer Megalokk perder o apetite. Você pode gastar uma ação padrão e tomar um gole do seu recipiente para expelir um hálito horrível contra uma criatura adjacente. O alvo fica enjoado por 1d4+1 rodadas (Fort CD Con + número de poderes da distinção que você possui reduz para 1 rodada). Criaturas com Faro sofrem –5 no teste de Fortitude.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "padrão",
+      "efeito": "toma um gole e expele hálito contra criatura adjacente; alvo fica enjoado por 1d4+1 rodadas (Fort CD Con + poderes da distinção reduz para 1 rodada); criaturas com Faro sofrem -5 no teste"
+    }
+  ],
+  "requirements": [
+    "Lógica Alcoólica"
+  ],
+  "livro": "herois_de_arton"
+}

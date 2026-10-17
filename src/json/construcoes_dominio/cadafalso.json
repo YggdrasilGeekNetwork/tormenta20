@@ -1,0 +1,16 @@
+{
+  "id": "cadafalso",
+  "name": "Cadafalso",
+  "description": "Um palanque de madeira para a execução de condenados. Fornece +2 em Intimidação — todos levam a sério um regente acostumado a executar pessoas em praça pública.",
+  "categoria": "nobreza",
+  "custo": 1,
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Intimidação",
+      "value": 2
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

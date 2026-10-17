@@ -1,0 +1,35 @@
+{
+  "id": "extrato_de_oxxdon",
+  "name": "Extrato de Oxxdon",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 180,
+  "espacos": 0.5,
+  "uso": "empunhado",
+  "acao": "padrao",
+  "alcance": "curto",
+  "efeito": {
+    "area": {
+      "forma": "quadrado",
+      "tamanho": "1,5m"
+    },
+    "destroi_objetos_metalicos_nao_magicos": true,
+    "condicao_criaturas_de_metal": "fatigada (mesmo se imune)",
+    "resistencia": {
+      "teste": "Fortitude",
+      "cd": "Des",
+      "efeito": "evita o efeito, um teste por item ou criatura"
+    }
+  },
+  "reparo": {
+    "tempo": "1 hora de trabalho",
+    "custo": 50,
+    "teste": {
+      "pericia": "Oficio (artesao)",
+      "cd": 20
+    }
+  },
+  "description": "Frasco de vidro contendo um extrato da substância secretada pelo oxxdon, capaz de arruinar objetos metálicos. Para usá-lo, você deve gastar uma ação padrão e arremessá-lo em um quadrado de 1,5m em alcance curto. Objetos não mágicos de metal na área são destruídos e criaturas de metal (como golens) ficam fatigadas, mesmo que sejam imunes a essa condição. Em ambos os casos, um teste de Fortitude (CD Des) para cada item ou criatura evita o efeito. Remover a fadiga causada pelo extrato exige 1 hora de trabalho, T$ 50 em materiais e passar em um teste de Ofício (artesão) contra CD 20.",
+  "livro": "herois_de_arton"
+}

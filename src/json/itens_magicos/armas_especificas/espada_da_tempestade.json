@@ -1,0 +1,28 @@
+{
+  "id": "espada_da_tempestade",
+  "name": "Espada da Tempestade",
+  "base_weapon": "espada_longa",
+  "preco": 45000,
+  "description": "Esta espada longa precisa formidável trovejante possui uma lâmina azulada, gravada com runas que brilham raivosas durante tempestades. Quando faz um acerto crítico, você pode gastar 2 PM para estender o efeito de atordoamento do encanto trovejante a todas as criaturas a sua escolha em alcance curto.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "precisa"
+    },
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "enchantment",
+      "name": "trovejante"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "acerto crítico",
+      "efeito": "estende o efeito de atordoamento do encanto trovejante a todas as criaturas a sua escolha em alcance curto"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

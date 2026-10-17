@@ -1,0 +1,17 @@
+{
+  "id": "manjar_dos_titas",
+  "name": "Manjar dos Titãs",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 150,
+  "espacos": 0.5,
+  "livro": "herois_de_arton",
+  "ingredientes": ["avela_de_norba", "farinha", "ovo_de_monstro"],
+  "custo_ingredientes": 91,
+  "cd_teste_oficio_cozinheiro": 30,
+  "efeito": {
+    "bonus_pericias_fisicas": "1d4",
+    "atributos": ["forca", "destreza", "constituicao"]
+  },
+  "description": "Pão de trigo fermentado com leveduras alquimicamente tratadas, recheado com pasta de nozes e queijo de leite de urso-coruja. Este prato robusto deixa qualquer um ousado e disposto. Você recebe +1d4 de bônus em testes de perícias baseadas em Força, Destreza ou Constituição."
+}

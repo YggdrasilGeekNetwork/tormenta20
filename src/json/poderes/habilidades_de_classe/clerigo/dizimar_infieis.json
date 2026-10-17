@@ -1,0 +1,46 @@
+{
+  "id": "dizimar_infieis",
+  "name": "Dizimar Infiéis",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Se estiver usando uma arma afetada por Abençoar Arma, você pode gastar uma ação padrão e 2 PM para canalizar a punição divina! Faça um ataque corpo a corpo e compare o resultado com a Defesa de cada criatura em alcance curto. Então faça uma rolagem de dano e aplique-a em cada criatura atingida. Cada inimigo atingido fica ofuscado (se você canaliza energia positiva) ou vulnerável (se canaliza energia negativa) por 1 rodada. Pré-requisitos: Abençoar Arma, 5º nível de clérigo.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "abencoar_arma"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "action": "padrao",
+      "condition": "empunhando_arma_afetada_por_abencoar_arma",
+      "effect": "ataque_corpo_a_corpo_unico_comparado_contra_defesa_de_cada_criatura_em_alcance_curto_dano_unico_aplicado_a_todos_atingidos"
+    },
+    {
+      "type": "condition_inflict",
+      "condition": "ofuscado",
+      "duration": "1_rodada",
+      "condition_requirement": "canaliza_energia_positiva"
+    },
+    {
+      "type": "condition_inflict",
+      "condition": "vulneravel",
+      "duration": "1_rodada",
+      "condition_requirement": "canaliza_energia_negativa"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

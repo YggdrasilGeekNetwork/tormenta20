@@ -1,0 +1,22 @@
+{
+  "id": "guarda",
+  "name": "Guarda",
+  "type": "melhoria",
+  "categoria": "arma",
+  "restricao": {
+    "tipo": "armas_corpo_a_corpo"
+  },
+  "prerequisitos": null,
+  "description": "A arma possui uma proteção elaborada próxima a sua empunhadura, que fornece +1 na Defesa e em testes contra manobras. Só pode ser aplicada em armas corpo a corpo.",
+  "effects": [
+    {
+      "type": "bonus_defesa",
+      "value": 1
+    },
+    {
+      "type": "bonus_teste_contra_manobras",
+      "value": 1
+    }
+  ],
+  "livro": "herois_de_arton"
+}

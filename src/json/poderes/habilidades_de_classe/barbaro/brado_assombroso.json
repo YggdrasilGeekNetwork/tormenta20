@@ -1,0 +1,24 @@
+{
+  "id": "brado_assombroso",
+  "name": "Brado: Assombroso",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Você pode gastar uma quantidade de PM limitada pela sua Constituição. Para cada PM que gastar, você causa 1d6 pontos de dano psíquico em todos os inimigos no alcance do brado (Von CD Con reduz à metade). Medo. Pré-requisito: Brado Assustador.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "brado_assustador"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "cost": "variavel_ate_constituicao_pm",
+      "effect": "1d6_dano_psiquico_por_pm_gasto_em_inimigos_no_alcance_do_brado",
+      "save": "vontade_cd_con_reduz_a_metade",
+      "tag": "medo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "meio_elfo",
+  "name": "Meio-Elfo",
+  "description": "Descendentes de humanos e elfos, meios-elfos carregam a ambição herdada de ambos os povos, transitando entre os dois mundos sem pertencer inteiramente a nenhum deles.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "baixa_luminosidade",
+  "vision_range": null,
+  "attribute_bonuses": { "inteligencia": 1 },
+  "chosen_attribute_bonus": { "count": 2, "value": 1, "exclude": ["constituicao"] },
+  "skill_bonuses": [],
+  "racial_abilities": ["ambicao_herdada", "entre_dois_mundos", "sangue_elfico"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "x2",
+  "devocao": null,
+  "livro": "herois_de_arton"
+}

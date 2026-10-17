@@ -1,0 +1,18 @@
+{
+  "id": "flauta_sar_allan",
+  "name": "Flauta Sar-Allan",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 150,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "maos": 1,
+  "efeito": {
+    "bonus_atuacao_musica_bardo": 5,
+    "restricao_alvo": "apenas criaturas reptilianas como cobras, nagahs, medusas, trogs e outras a critério do mestre"
+  },
+  "description": "Flauta de Halak-Tûr que produz um som característico, capaz de hipnotizar certos animais. Concede +5 no teste de Atuação para usar uma Música de bardo, mas apenas contra criaturas reptilianas como cobras, nagahs, medusas, trogs e outras a critério do mestre. Conta como um instrumento musical.",
+  "livro": "herois_de_arton"
+}

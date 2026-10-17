@@ -1,0 +1,17 @@
+{
+  "id": "julgamento_divino_redencao",
+  "name": "Julgamento Divino: Redenção",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Você é capaz de criar um vínculo espiritual com um aliado. Você pode lançar Escudo da Fé, mas apenas com o aprimoramento que divide o dano entre o alvo e você (mas não precisa cumprir seu requisito de círculo).",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "learn_magic",
+      "magic": "escudo_da_fe",
+      "note": "apenas_com_o_aprimoramento_que_divide_o_dano_entre_o_alvo_e_voce_sem_precisar_cumprir_requisito_de_circulo"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

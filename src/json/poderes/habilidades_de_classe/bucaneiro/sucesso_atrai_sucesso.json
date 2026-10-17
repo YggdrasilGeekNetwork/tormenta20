@@ -1,0 +1,29 @@
+{
+  "id": "sucesso_atrai_sucesso",
+  "name": "Sucesso Atrai Sucesso",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Você pode gastar 2 PM para invocar uma onda de boa sorte. Sempre que fizer um acerto crítico em um inimigo, você recebe um bônus cumulativo de +2 nas rolagens de dano (limitado pelo seu Carisma) até o fim da cena.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "active",
+      "effect": "ativa_onda_de_boa_sorte_ate_fim_da_cena"
+    },
+    {
+      "type": "damage_improvement",
+      "value": 2,
+      "cumulative": true,
+      "limited_by": "carisma",
+      "trigger": "acerto_critico",
+      "duration": "cena"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

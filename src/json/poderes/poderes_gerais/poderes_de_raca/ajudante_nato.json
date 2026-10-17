@@ -1,0 +1,28 @@
+{
+  "id": "ajudante_nato",
+  "name": "Ajudante Nato",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Quando você passa em um teste para ajudar, o bônus fornecido aumenta em +1. Além disso, se você estiver flanqueando um inimigo, o bônus que seus aliados recebem em testes de ataque contra esse inimigo por flanquear aumenta em +1 (para um total de +3).",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "qareen"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 1,
+      "condition": "teste_para_ajudar_bem_sucedido"
+    },
+    {
+      "type": "attack_improvement",
+      "value": 1,
+      "condition": "flanqueando_um_inimigo",
+      "target": "bonus_de_flanquear_dos_aliados"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

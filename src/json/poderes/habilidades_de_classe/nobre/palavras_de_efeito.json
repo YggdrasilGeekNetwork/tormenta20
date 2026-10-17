@@ -1,0 +1,32 @@
+{
+  "id": "palavras_de_efeito",
+  "name": "Palavras de Efeito",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Você soma seu Carisma no dano de sua habilidade Palavras Afiadas e a ação necessária para usá-la diminui em um passo (de completa para padrão, de padrão para movimento).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "palavras_afiadas"
+    }
+  ],
+  "effects": [
+    {
+      "type": "add_damage_attr",
+      "attr": "car",
+      "feature": "palavras_afiadas"
+    },
+    {
+      "type": "change_action_type",
+      "note": "acao_para_usar_palavras_afiadas_diminui_em_um_passo"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "arremesso_de_investida",
+  "name": "Arremesso de Investida",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Quando faz uma investida, você pode gastar 1 PM para realizar um ataque à distância adicional com uma arma de arremesso contra o alvo da investida.",
+  "requirements": [
+    {
+      "type": "manouver_attack",
+      "sub_type": "soft",
+      "manouver": "investida"
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "weapon_type": "arremesso",
+      "requirement": "mesmo_alvo_da_investida"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

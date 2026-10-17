@@ -1,0 +1,30 @@
+{
+  "id": "familiar_aprimorado",
+  "name": "Familiar Aprimorado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Seu familiar pode falar e passa a fornecer um segundo benefício, escolhido entre os tipos comuns de familiares (Tormenta20, p. 38). Pré-requisitos: Familiar, 5º nível de arcanista.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "familiar"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "special",
+      "value": "familiar_pode_falar"
+    },
+    {
+      "type": "special",
+      "value": "fornece_um_segundo_beneficio_de_familiar_comum"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

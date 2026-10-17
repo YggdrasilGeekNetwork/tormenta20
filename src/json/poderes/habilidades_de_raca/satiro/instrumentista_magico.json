@@ -1,0 +1,14 @@
+{
+  "id": "instrumentista_magico",
+  "name": "Instrumentista Mágico",
+  "type": "habilidade_de_raca",
+  "race": "satiro",
+  "description": "Se estiver empunhando um instrumento musical, você pode lançar as magias Amedrontar, Enfeitiçar, Hipnotismo e Sono (atributo-chave Carisma). Caso aprenda novamente uma dessas magias, seu custo diminui em –1 PM.",
+  "effects": {
+    "condicao": "empunhando um instrumento musical",
+    "concede_magias": ["amedrontar", "enfeiticar", "hipnotismo", "sono"],
+    "atributo_chave": "carisma",
+    "reducao_custo_pm_se_reaprendida": 1
+  },
+  "livro": "herois_de_arton"
+}

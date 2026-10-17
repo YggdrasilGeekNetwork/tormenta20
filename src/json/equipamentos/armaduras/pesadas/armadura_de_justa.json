@@ -1,0 +1,19 @@
+{
+  "id": "armadura_de_justa",
+  "name": "Armadura de Justa",
+  "type": "armadura",
+  "categoria": "pesada",
+  "preco": 1200,
+  "bonus_defesa": 9,
+  "penalidade_armadura": -5,
+  "espacos": 5,
+  "especial": {
+    "bonus_resistir_derrubado_montado": 5,
+    "cumulativo_com_itens": true,
+    "bonus_defesa_vs_perfuracao": 2,
+    "penalidade_armadura_extra_se_nao_montado": -2
+  },
+  "vestir_remover": "acao_completa",
+  "description": "Meia armadura feita especialmente para ser usada por cavaleiros em justas. Toda feita de placas de metal, bastante adornada, de aparência aristocrática e tradicional. Seu diferencial é a proteção extra no lado do peito do usuário, provavelmente atingido pela lança do oponente. Fornece +5 em testes para resistir a ser derrubado enquanto montado (cumulativo com outros efeitos de itens) e, contra armas de perfuração, seu bônus na Defesa aumenta em +2. Contudo, devido a seu peso e estrutura, sua penalidade de armadura aumenta em 2 se você não estiver montado.",
+  "livro": "herois_de_arton"
+}

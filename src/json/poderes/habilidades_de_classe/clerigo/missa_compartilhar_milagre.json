@@ -1,0 +1,24 @@
+{
+  "id": "missa_compartilhar_milagre",
+  "name": "Missa: Compartilhar Milagre",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Escolha um dos seus poderes concedidos. Até o fim do dia, cada participante desta Missa pode usar esse poder durante 1 rodada, como se fosse devoto da sua divindade (os demais pré-requisitos do poder ainda devem ser cumpridos). Pré-requisito: 17° nível de clérigo.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "target": "participantes_da_missa",
+      "duration": "fim_do_dia",
+      "effect": "podem_usar_um_poder_concedido_escolhido_por_1_rodada_como_se_fossem_devotos",
+      "requires": "demais_pre_requisitos_do_poder_cumpridos"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

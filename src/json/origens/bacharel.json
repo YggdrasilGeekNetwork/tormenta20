@@ -1,0 +1,27 @@
+{
+  "id": "bacharel",
+  "name": "Bacharel",
+  "description": "Para que a justiça de Khalmyr seja cumprida, os inocentes devem ser protegidos e os culpados, punidos. Seja atuando em grandes tribunais do Reinado, seja resolvendo tumultos locais repentinos em que alguém pode acabar na forca, você foi treinado para argumentar, questionar, debater, objetar. É capaz de defender vítimas e acusar criminosos, utilizando como arma apenas argumentos, jurisprudências, filosofia e bom senso. Quando dizem que a pena é mais poderosa que a espada, estão falando sobre você.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Tabardo com o símbolo de Khalmyr"
+    },
+    {
+      "type": "fixed",
+      "text": "Coleção de livros (à sua escolha)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Conhecimento",
+      "Diplomacia",
+      "Nobreza"
+    ],
+    "powers": [
+      "Advocacia"
+    ]
+  },
+  "unique_power": "advocacia",
+  "livro": "herois_de_arton"
+}

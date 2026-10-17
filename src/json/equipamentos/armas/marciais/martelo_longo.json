@@ -1,0 +1,23 @@
+{
+  "id": "martelo_longo",
+  "name": "Martelo Longo",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 12,
+  "dano": "2d4",
+  "critico": "x4",
+  "alcance": null,
+  "tipo_dano": [
+    "impacto",
+    "perfuracao"
+  ],
+  "espacos": 2,
+  "habilidades": [
+    "alongada"
+  ],
+  "especial": null,
+  "description": "Uma haste de madeira com 2m de comprimento, com uma ponta de metal afiada ao lado de uma cabeça densa e pesada. Combina o alcance de uma alabarda com a contundência de um martelo; é uma arma alongada.",
+  "livro": "herois_de_arton"
+}

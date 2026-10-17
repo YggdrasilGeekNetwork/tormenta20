@@ -1,0 +1,18 @@
+{
+  "id": "tomo_da_tecnica_definitiva",
+  "name": "Tomo da Técnica Definitiva",
+  "categoria": "maior",
+  "preco": 30000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Destinado a guerreiros que desenvolveram seu próprio Golpe Pessoal, este manual permite aprimorar ainda mais sua técnica. Estudar o tomo exige uma ação entre aventuras. Uma vez que você tenha feito isso, seu Golpe Pessoal recebe novos efeitos num total de até 2 PM, que não contam no limite para construí-lo e que não aumentam seu custo em PM. Quando sobe de nível e reconstrói seu golpe, você pode alterá-los. Se você possuir mais de um Golpe Pessoal, esse efeito se aplica apenas a um deles.",
+  "effects": [
+    {
+      "type": "estudo_entre_aventuras",
+      "acao": "uma ação entre aventuras",
+      "efeito": "Golpe Pessoal recebe novos efeitos totalizando até 2 PM, sem contar no limite de construção nem aumentar o custo em PM",
+      "restricao": "aplica-se a apenas um Golpe Pessoal, se possuir mais de um"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

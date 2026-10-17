@@ -1,0 +1,10 @@
+{
+  "id": "mestre_dos_desejos",
+  "name": "Mestre dos Desejos",
+  "description": "Qareen que aprende a controlar o poder inerente à vontade, aproximando-se de um gênio verdadeiro ao realizar desejos alheios.",
+  "admissao": "Apenas qareen podem ser mestres dos desejos. O candidato precisa encontrar três mortais que desejem muito algo que pareça inatingível e realizar cada um desses desejos por completo, sem pedir ou aceitar nada em troca — não bastam meias-medidas, jogos de palavras ou soluções temporárias, o desejo deve ser realizado em sua totalidade. Em seguida, deve encontrar um gênio verdadeiro de tipo correspondente à sua ascendência elemental e ajudá-lo a servir a seus amos. Por fim, deve descobrir sozinho algo que esse próprio gênio deseja e surpreendê-lo realizando essa vontade.",
+  "marca_nome": "Desejo de Servir",
+  "marca_descricao": "Aproximando-se do seu sangue de gênio, o qareen aprende a empregar a força dos desejos como combustível. A CD para resistir às magias que você lança com sua habilidade Desejos aumenta em +2.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

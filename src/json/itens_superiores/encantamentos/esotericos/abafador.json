@@ -1,0 +1,17 @@
+{
+  "id": "abafador",
+  "name": "Abafador",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico ergue uma barreira permeável ao redor do alvo da magia, diminuindo as capacidades dele. Se uma criatura falhar num teste de resistência contra uma magia sua, a CD das habilidades dela diminui em –2 por uma rodada.",
+  "effects": [
+    {
+      "type": "debuff_cd",
+      "value": -2,
+      "aplica_a": "CD das habilidades do alvo",
+      "duracao": "1 rodada",
+      "gatilho": "criatura falha em um teste de resistência contra uma magia sua"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

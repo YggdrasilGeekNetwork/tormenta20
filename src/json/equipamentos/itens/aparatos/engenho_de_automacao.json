@@ -1,0 +1,18 @@
+{
+  "id": "engenho_de_automacao",
+  "name": "Engenho de Automação",
+  "type": "item",
+  "categoria": "aparato",
+  "preco": 600,
+  "espacos": 1,
+  "espacos_acoplado": 0,
+  "cd_fabricacao": 20,
+  "pre_requisito": "conversor_alimentador",
+  "efeito": {
+    "aplicavel_a": "engenhoca com duração sustentada",
+    "efeito": "não conta no limite de magias sustentadas simultaneamente",
+    "limite": "apenas uma engenhoca sustentada adicional dessa forma por vez"
+  },
+  "description": "Aparato usado por inventores para modificar o funcionamento de suas engenhocas. Enquanto acoplado a uma engenhoca, não ocupa espaços; uma engenhoca pode ter até dois aparatos diferentes. Usar um aparato aumenta a CD para ativar a engenhoca em +2 (dois aparatos, +5). Acoplar ou remover um aparato exige 1 hora de trabalho. Aparatos são fabricados com Ofício (engenhoqueiro), CD 20. Envolve dezenas de engrenagens e pistões que funcionam sob instrução de cartões perfurados, agindo por si só segundo um padrão programado. Acoplado a uma engenhoca que simula uma magia com duração sustentada, permite que ela não conte no limite de magias que você pode sustentar simultaneamente. Você só pode ter uma engenhoca sustentada adicional dessa forma por vez. Pré-requisito: conversor-alimentador.",
+  "livro": "herois_de_arton"
+}

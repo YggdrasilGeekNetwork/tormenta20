@@ -1,0 +1,18 @@
+{
+  "id": "ginasio",
+  "name": "Ginásio",
+  "description": "Uma sala com equipamentos facilmente confundíveis com instrumentos de tortura. Os residentes recebem +1 em Atletismo e nas rolagens de dano com ataques desarmados e armas naturais.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "atletismo",
+      "value": 1
+    },
+    {
+      "type": "bonus_dano_desarmado_ou_natural",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

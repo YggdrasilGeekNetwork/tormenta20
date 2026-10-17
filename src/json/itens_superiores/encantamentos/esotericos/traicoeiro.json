@@ -1,0 +1,16 @@
+{
+  "id": "traicoeiro",
+  "name": "Traiçoeiro",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico emite um sibilar baixo e constante. Se você lançar uma magia hostil e afetar um aliado, todas as criaturas afetadas pela magia (incluindo o aliado!) sofrem –2 em seus testes de resistência. O aliado não pode ter nenhum tipo de resistência ou imunidade contra o efeito da magia, nem se beneficiar dele de nenhuma forma, para este encanto funcionar — por exemplo, uma Bola de Fogo lançada contra um aliado com redução de fogo não ativa este efeito.",
+  "effects": [
+    {
+      "type": "bonus_teste_resistencia",
+      "value": -2,
+      "condicao": "todas as criaturas afetadas por uma magia hostil sua que também afete um aliado (incluindo o aliado)",
+      "restricao": "o aliado não pode ter resistência/imunidade ao efeito nem se beneficiar dele, ou o encanto não funciona"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

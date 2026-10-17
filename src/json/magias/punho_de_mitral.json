@@ -1,0 +1,63 @@
+{
+  "id": "punho_de_mitral",
+  "name": "Punho de Mitral",
+  "type": "arcana",
+  "circle": "1",
+  "school": "trans",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": {
+    "amount": null,
+    "up_to": null,
+    "type": "você"
+  },
+  "effect": "voce",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Esta magia transforma uma de suas mãos em mitral, tornando-a prateada como esse metal. A mão continua capaz de realizar movimentos normais e segurar objetos — mas também pode golpear ou esmagar. Se não estiver segurando nada com essa mão, você recebe +1 em testes de ataque e na margem de ameaça com ataques desarmados, e pode causar dano letal ou não letal com eles. Por fim, você pode manipular venenos com essa mão sem chance de se envenenar acidentalmente.",
+  "enhancements": [
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "muda o bônus em testes de ataque e na margem de ameaça para +2.",
+      "extra_details": null
+    },
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "muda o alcance para toque e o alvo para 1 criatura. Requer 2º círculo.",
+      "extra_details": {
+        "requirements": "2º círculo",
+        "range": "toque",
+        "target": {
+          "amount": 1,
+          "up_to": null,
+          "type": "criatura"
+        }
+      }
+    },
+    {
+      "cost": 5,
+      "type": "muda",
+      "description": "além do normal, se você estiver empunhando uma arma ou um item esotérico com essa mão, ele recebe os benefícios do material especial mitral (mesmo que já possua outro material especial). Requer 2° círculo.",
+      "extra_details": {
+        "requirements": "2° círculo"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "bônus",
+      "attribute": "ataque,margem_ameaca",
+      "amount": "+1",
+      "resistence_requirement": null,
+      "extra_requirements": "ataques_desarmados"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

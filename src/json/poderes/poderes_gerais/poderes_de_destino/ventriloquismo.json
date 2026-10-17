@@ -1,0 +1,35 @@
+{
+  "id": "ventriloquismo",
+  "name": "Ventriloquismo",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Você pode gastar 1 PM para fazer sua voz parecer vir de outro lugar (como de outra criatura, de uma estátua, de trás de uma porta, do fim de um corredor...) por 1 rodada. De acordo com o mestre, se um uso deste poder gerar uma situação muito suspeita, você precisará fazer um teste de Enganação oposto pela Intuição de quem está tentando enganar. Se a criatura vencê-lo, percebe que o som vem de você.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": [
+        "atuacao",
+        "enganacao"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "active_ability",
+      "effect": "voz_parece_vir_de_outro_lugar",
+      "duration": "1_rodada",
+      "opposed_test_if_suspicious": {
+        "skill": "enganacao",
+        "opposed_by": "intuicao"
+      }
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

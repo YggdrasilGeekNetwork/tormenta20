@@ -1,0 +1,16 @@
+{
+  "id": "flauta_convocadora",
+  "name": "Flauta Convocadora",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 300,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "capanga_adicional_ao_conjurar_magia_de_capangas": true
+  },
+  "description": "Réplica de flauta esculpida em um único pedaço de cristal. Quando lança uma magia que conjura capangas, você conjura um capanga adicional do mesmo tipo.",
+  "livro": "herois_de_arton"
+}

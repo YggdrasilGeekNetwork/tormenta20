@@ -1,0 +1,13 @@
+{
+  "id": "armorial",
+  "name": "Armorial",
+  "description": "Uma sala repleta de armas e armaduras de todos os tipos. Ter um armorial permite que você conheça diversos tipos de equipamento e fornece proficiência com um item a sua escolha (você pode trocar esse item no início de cada aventura).",
+  "effects": [
+    {
+      "type": "proficiencia_item_escolhido",
+      "trocavel_por_aventura": true
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

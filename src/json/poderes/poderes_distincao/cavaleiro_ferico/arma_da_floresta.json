@@ -1,0 +1,17 @@
+{
+  "id": "arma_da_floresta",
+  "name": "Arma da Floresta",
+  "type": "poder_distincao",
+  "description": "Os espíritos da natureza tornam a elegante lâmina do cavaleiro feérico ainda mais letal. Você pode gastar 1 PM para invocar elementos naturais, como madeira, folhas ou pólen, para cobrir uma espada longa ou florete. O dano da arma é considerado mágico e aumenta em um passo até o fim da cena. Caso você use este poder em uma floresta, o efeito dura 1 dia — ou até você sair dela.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "efeito": "cobre uma espada longa ou florete com elementos naturais; o dano da arma é considerado mágico e aumenta em um passo até o fim da cena (1 dia, ou até sair dela, se usado dentro de uma floresta)"
+    }
+  ],
+  "requirements": [
+    "Arte Élfica"
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "orador_dos_elementos",
+  "name": "Orador dos Elementos",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Você aprende e pode lançar uma magia de dano de ácido, eletricidade, fogo ou frio, arcana ou divina, de qualquer círculo que possa lançar. Além disso, você pode aprender magias arcanas de ácido, eletricidade, fogo ou frio como se fossem divinas.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "learn_magic",
+      "magic_damage_type": "acido_eletricidade_fogo_ou_frio",
+      "magic_type": "arcana_ou_divina"
+    },
+    {
+      "type": "magic_type",
+      "note": "pode_aprender_magias_arcanas_elementais_como_se_fossem_divinas"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

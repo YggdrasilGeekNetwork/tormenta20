@@ -1,0 +1,28 @@
+{
+  "id": "coragem_aguerrida",
+  "name": "Coragem Aguerrida",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Quando estiver com metade ou menos de seus PV totais, você recebe +2 em testes de perícia e na Defesa.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "vontade"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "skill": "todas",
+      "condition": "com_metade_ou_menos_dos_pv_totais"
+    },
+    {
+      "type": "defense_improvement",
+      "value": 2,
+      "condition": "com_metade_ou_menos_dos_pv_totais"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

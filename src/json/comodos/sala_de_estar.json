@@ -1,0 +1,13 @@
+{
+  "id": "sala_de_estar",
+  "name": "Sala de Estar",
+  "description": "Este aposento provavelmente é o coração da base, o local onde os membros do grupo podem conversar, jogar Cavillan ou simplesmente relembrar suas últimas aventuras. A sala de estar pode possuir e receber os benefícios de até três mobílias diferentes.",
+  "effects": [
+    {
+      "type": "limite_mobilias",
+      "value": 3
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "estetoscopio",
+  "name": "Estetoscópio",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 60,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "empunhado",
+  "efeito": {
+    "acao": "padrao",
+    "teste_ajuda": "Investigação",
+    "aplica_bonus_em": [
+      "Cura (usada em outra criatura)",
+      "Ladinagem (abrir fechadura ou sabotar)"
+    ],
+    "duracao": "até o fim do seu próximo turno"
+  },
+  "description": "Médicos de Salistick usam este aparato sofisticado para auscultar o coração de pacientes. Criminosos costumam usá-lo para ouvir os movimentos de mecanismos internos de fechaduras e armadilhas. Você pode gastar uma ação padrão para fazer um teste de Investigação para ajudar a si mesmo e aplicar o bônus a um teste de Cura, ou de Ladinagem para abrir fechadura ou sabotar, que você realize até o fim do seu próximo turno.",
+  "livro": "herois_de_arton"
+}

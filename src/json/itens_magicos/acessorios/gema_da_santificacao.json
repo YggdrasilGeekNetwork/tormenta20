@@ -1,0 +1,22 @@
+{
+  "id": "gema_da_santificacao",
+  "name": "Gema da Santificação",
+  "categoria": "medio",
+  "preco": 24000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta gema preciosa foi abençoada por uma ou mais divindades benignas do Panteão, tipicamente Azgher, Khalmyr, Lena e outras que canalizam energia positiva. Toda a área em alcance curto da gema é considerada sob efeito da magia Consagrar. Se for devoto de uma dessas divindades, você pode também pagar PM para ativar seus aprimoramentos por uma cena.",
+  "effects": [
+    {
+      "type": "area_efeito_continuo",
+      "magia": "Consagrar",
+      "alcance": "curto"
+    },
+    {
+      "type": "aprimoramentos_condicional",
+      "condicao": "devoto de uma das divindades",
+      "custo": "PM para ativar aprimoramentos por uma cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

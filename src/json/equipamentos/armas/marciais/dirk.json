@@ -1,0 +1,20 @@
+{
+  "id": "dirk",
+  "name": "Dirk",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "leve",
+  "preco": 15,
+  "dano": "1d4",
+  "critico": "19",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "ataque_costas_sem_violar_codigo_honra": true
+  },
+  "description": "Este punhal longo e delgado parece feito para assassinato e ataques traiçoeiros, mas é parte da indumentária de nobres e oficiais em vários reinos artonianos. Se estiver atacando com um dirk, você pode atacar um oponente pelas costas, caído, desprevenido ou incapaz de lutar sem violar seu Código de Honra (Tormenta20, p.53).",
+  "livro": "herois_de_arton"
+}

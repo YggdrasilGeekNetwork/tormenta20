@@ -1,0 +1,21 @@
+{
+  "id": "madeireira",
+  "name": "Madeireira",
+  "description": "Um campo encravado na mata para extração de madeira. Fornece 1d8 LO por turno de domínio, mas pode enfurecer animais e espíritos da natureza — impõe -10% nas rolagens de eventos aleatórios.",
+  "categoria": "nobreza",
+  "custo": 15,
+  "effects": [
+    {
+      "type": "renda_dominio",
+      "dado": "1d8",
+      "frequencia": "por_turno"
+    },
+    {
+      "type": "penalidade_eventos_aleatorios",
+      "value": -10,
+      "unidade": "percentual"
+    }
+  ],
+  "prerequisito": "terreno floresta",
+  "livro": "herois_de_arton"
+}

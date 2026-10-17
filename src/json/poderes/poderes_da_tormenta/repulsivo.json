@@ -1,0 +1,16 @@
+{
+  "id": "repulsivo",
+  "name": "Repulsivo",
+  "description": "A presença da Tempestade Rubra em você é tão forte que é difícil olhar em sua direção. O primeiro ataque de cada inimigo contra você em cada cena sofre uma penalidade igual ao total de poderes da Tormenta que você possui (incluindo este). Após o primeiro ataque, os inimigos já se acostumaram com sua aparência atroz e não sofrem mais essa penalidade.",
+  "prerequisites": [
+    "Car –1 ou menor"
+  ],
+  "effects": {
+    "type": "passive",
+    "first_attack_penalty": {
+      "value": "total de poderes da Tormenta que possui (incluindo este)",
+      "target": "primeiro ataque de cada inimigo contra você por cena"
+    }
+  },
+  "livro": "herois_de_arton"
+}

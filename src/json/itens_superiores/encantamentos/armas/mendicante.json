@@ -1,0 +1,15 @@
+{
+  "id": "mendicante",
+  "name": "Mendicante",
+  "type": "encantamento",
+  "categoria": "arma",
+  "maldicao": true,
+  "description": "A arma exige uma gorjeta para cumprir seu papel. Você precisa gastar 1 tibar sempre que atacar com ela. Esse preço, no entanto, só cobre ataques comuns. Se quiser usar qualquer habilidade com a arma, precisa gastar 1 TO por ataque.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "precisa gastar 1 tibar sempre que ataca com a arma; para usar qualquer habilidade com ela, precisa gastar 1 TO por ataque"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "enjambracao",
+  "name": "Enjambração",
+  "type": "poder_distincao",
+  "description": "Um engenhoqueiro precavido sempre tem a ferramenta certa. Já um engenhoqueiro goblin improvisa. Você pode gastar uma ação completa para fabricar uma engenhoca com uma magia qualquer de até um círculo abaixo do círculo máximo de engenhocas que você pode fabricar. Você não gasta tibares para fabricar essa engenhoca, mas gasta os PM da magia para ativá-la (mesmo se falhar no teste de ativação). A engenhoca não conta em seu limite, dura até o fim da cena e sua chance de falha automática aumenta em +1d6.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "completa",
+      "efeito": "fabrica sem custo em tibares uma engenhoca com uma magia de até um círculo abaixo do máximo que pode fabricar; gasta PM da magia ao ativar (mesmo em falha); não conta no limite, dura até o fim da cena, falha automática aumenta em +1d6"
+    }
+  ],
+  "requirements": ["Aprimorar Bugiganga", "outro poder da distinção"],
+  "livro": "herois_de_arton"
+}

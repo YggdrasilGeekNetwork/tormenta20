@@ -1,0 +1,15 @@
+{
+  "id": "curtume",
+  "name": "Curtume",
+  "description": "Este estabelecimento fornece couro curtido, útil para a produção de armaduras. Seus capangas (incluindo aqueles invocados por poderes) recebem +2 na Defesa.",
+  "categoria": "nobreza",
+  "custo": 4,
+  "effects": [
+    {
+      "type": "bonus_defesa_capangas",
+      "value": 2
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "tolo",
+  "name": "Tolo",
+  "description": "É fácil enganá-lo e manipulá-lo. Você sofre –5 em Intuição e Vontade.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_pericia",
+      "pericia": "intuicao",
+      "value": -5
+    },
+    {
+      "type": "penalidade_pericia",
+      "pericia": "vontade",
+      "value": -5
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

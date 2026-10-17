@@ -1,0 +1,25 @@
+{
+  "id": "goradista",
+  "name": "Goradista",
+  "description": "Você tinha talento para preparar e decorar bolos e doces. Foi treinado por grandes mestres confeiteiros de Tragematum (a província do Império de Tauron antes conhecida como Hershire) ou talvez tenha vindo de lá! Você pode ter tido uma bela confeitaria em Valkaria ou Vectora, ou atuado em alguma cozinha palaciana, preparando as mais belas sobremesas para jantares da nobreza. Tudo com base no mais saboroso e insubstituível ingrediente: gorad. Você era feliz, sempre buscando a excelência em cada gulodice, alegrando-se com a satisfação de seus convidados? Ou vivia frustrado, acreditando ser destinado a algo maior, mais importante? Talvez por isso, quando aqueles heróis foram recompensados com um banquete e ficaram maravilhados com suas guloseimas, você tenha ficado tentado a lhes servir mais vezes…",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Instrumentos de cozinheiro"
+    },
+    {
+      "type": "fixed",
+      "text": "T$ 36 em ingredientes para produzir gorad quente"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Ofício (cozinheiro)"
+    ],
+    "powers": [
+      "Cobertura de Gorad"
+    ]
+  },
+  "unique_power": "cobertura_de_gorad",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "oculos_da_revelacao",
+  "name": "Óculos da Revelação",
+  "categoria": "medio",
+  "preco": 10500,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Quando invoca o poder destas lentes, você pode lançar a magia Lendas e Histórias.",
+  "effects": [
+    {
+      "type": "concede_magia",
+      "magia": "Lendas e Histórias"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

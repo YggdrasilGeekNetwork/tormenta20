@@ -1,0 +1,16 @@
+{
+  "id": "taverna",
+  "name": "Taverna",
+  "description": "Este lugar de confraternização, música e bebida é o ambiente perfeito para que as pessoas soltem a língua. Uma vez por aventura, você pode interrogar (Tormenta20, p. 120) como uma ação livre e sem gastar dinheiro, representando algo que ouviu numa noite na taverna.",
+  "categoria": "enganacao",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "interrogar_gratis",
+      "frequencia": "uma_vez_por_aventura",
+      "acao": "livre"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

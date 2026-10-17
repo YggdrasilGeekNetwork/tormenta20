@@ -1,0 +1,16 @@
+{
+  "id": "amuleto_do_amparo",
+  "name": "Amuleto do Amparo",
+  "categoria": "medio",
+  "preco": 10500,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este medalhão forjado em prata traz a figura de uma mão aberta. Quando você faz um teste para ajudar, o bônus que fornece aumenta em +2.",
+  "effects": [
+    {
+      "type": "bonus_ajudar",
+      "value": 2
+    }
+  ],
+  "livro": "herois_de_arton"
+}

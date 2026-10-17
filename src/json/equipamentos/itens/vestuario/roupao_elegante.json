@@ -1,0 +1,16 @@
+{
+  "id": "roupao_elegante",
+  "name": "Roupão Elegante",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 150,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_diplomacia_em_estrutura_propria": 5,
+    "restricao": "não recebe o benefício se estiver vestindo item que forneça bônus em perícias baseadas em Força, Destreza ou Constituição, ou uma armadura"
+  },
+  "description": "Traje de veludo refinado e casual ao mesmo tempo, dando ao usuário uma aparência de descontração, autoconfiança e requinte. Você recebe +5 em testes de Diplomacia dentro de uma de suas estruturas (como sua base, negócio ou domínio) — é preciso estar em casa para que este item tenha efeito. Contudo, o roupão exige um ar relaxado: você não recebe seu benefício se estiver vestindo um item que forneça bônus em perícias baseadas em Força, Destreza ou Constituição, ou uma armadura.",
+  "livro": "herois_de_arton"
+}

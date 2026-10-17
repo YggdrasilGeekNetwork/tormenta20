@@ -1,0 +1,35 @@
+{
+  "id": "wakizashi_da_morte",
+  "name": "Wakizashi da Morte",
+  "description": "Esta bela espada curta tamuraniana não é apenas uma arma, mas um arauto do inevitável. Forjada nos dias dourados de Tamu-ra, muito antes de sua destruição pela Tormenta, a espada teria sido abençoada pelo próprio Deus da Honra. Sua missão: ser empunhada pelo Executor Imperial, uma casta samurai destinada a eliminar aqueles apontados por seu senhor, proporcionando morte honrada aos escolhidos do Imperador — para o Império de Jade, morte é algo natural e necessário, tão importante quanto a própria vida. O nome da arma tem significado especial no idioma tamuraniano: uma espada curta normal, wakizashi, é escrita 脇差 (\"inserida lateralmente\"), enquanto a arma sagrada de execução, embora pronunciada da mesma forma, é escrita 脇座死 (\"morte ao lado\"). Aquele que encara o portador da arma como inimigo em batalha enfrenta uma provação terrível: brilhante como o luar, a lâmina polida revela, ao refletir o rosto de alguém, o momento exato de sua morte.",
+  "effects": [
+    {
+      "type": "weapon_type",
+      "base": "espada_curta"
+    },
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "hazard",
+      "nome": "Reflexo Profético",
+      "gatilho": "qualquer criatura inteligente (Int –3 ou maior) que veja seu próprio reflexo na lâmina",
+      "efeito": "a criatura passa a enxergar o momento da própria morte",
+      "fase_1": "recebe +2 na Defesa e em testes de resistência",
+      "fase_2": "quando o evento profetizado se aproxima, em vez disso sofre –10 na Defesa e em testes de resistência, e qualquer ataque que a acerte é um crítico automático",
+      "nota": "tudo conspira para que a profecia se cumpra"
+    },
+    {
+      "type": "special",
+      "condicao": "morte prevista não envolve combate (ex.: doença)",
+      "efeito": "os efeitos mudam; por exemplo, um personagem marcado para morrer de doença recebe +5 em Fortitude, mas falha automaticamente ao entrar em contato com a peste que vai matá-lo"
+    },
+    {
+      "type": "special",
+      "nome": "Mudança de Destino",
+      "efeito": "caso o condenado consiga eliminar por completo a causa da morte (matando o assassino, erradicando a doença...), o futuro muda; contudo, muitas vezes essa solução é ilusória (o assassino tinha um irmão gêmeo, a doença 'erradicada' volta mais forte)"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

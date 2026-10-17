@@ -1,0 +1,39 @@
+{
+  "id": "escudo_heroico",
+  "name": "Escudo Heroico",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Você pode empunhar e soltar seu escudo como ação livre e, quando ataca com ele, pode tratá-lo como uma arma de arremesso com alcance curto. Sempre que arremessa o escudo, você pode gastar 1 PM. Se fizer isso e acertar o ataque, você pode fazer com que ele retorne à sua mão (pegá-lo é uma reação) ou ricocheteie contra outro alvo; nesse caso, você faz um novo ataque à distância com uma penalidade cumulativa de –5. Você pode continuar atacando novos alvos até recuperar o escudo ou errar um ataque.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "ataque_com_escudo"
+    }
+  ],
+  "effects": [
+    {
+      "type": "change_acction",
+      "sub_type": "empunhar_e_soltar_escudo",
+      "action": "livre"
+    },
+    {
+      "type": "weapon_type_grant",
+      "item": "escudo",
+      "as_weapon": "arremesso",
+      "range": "curto"
+    },
+    {
+      "type": "active_ability",
+      "trigger": "arremessa_o_escudo_e_acerta",
+      "effect": "escudo_retorna_a_mao_ou_ricocheteia_com_penalidade_cumulativa_-5_em_novos_ataques"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

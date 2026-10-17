@@ -1,0 +1,15 @@
+{
+  "id": "indignada",
+  "name": "Indignada",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "Sempre que você erra um ataque, a arma emite um grunhido irritado que o incomoda e concede um bônus de +2 no próximo teste de ataque que você fizer até o fim da cena (cumulativo com outros bônus de itens).",
+  "effects": [
+    {
+      "type": "ativado",
+      "gatilho": "erra um ataque",
+      "efeito": "concede +2 no próximo teste de ataque até o fim da cena (cumulativo com outros bônus de itens)"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "falatorio_criativo",
+  "name": "Falatório Criativo",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Escolha uma perícia originalmente baseada em Carisma. Você pode usar Inteligência como atributo-chave dessa perícia.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "goblin"
+    }
+  ],
+  "effects": [
+    {
+      "type": "switch_skill_attr",
+      "skill": "a_sua_escolha_baseada_em_carisma",
+      "attr": "int"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

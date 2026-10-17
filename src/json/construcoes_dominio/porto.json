@@ -1,0 +1,16 @@
+{
+  "id": "porto",
+  "name": "Porto",
+  "description": "Um porto marítimo, se o domínio ficar na costa, ou fluvial, se ficar no interior do continente, permite que barcos e navios atraquem, trazendo pesca e comércio — e aumentando a arrecadação de impostos. Fornece 1d6 LO por turno de domínio.",
+  "categoria": "nobreza",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "renda_dominio",
+      "dado": "1d6",
+      "frequencia": "por_turno"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "conforto_do_aco",
+  "name": "Conforto do Aço",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Seu povo veste metal como se fosse algodão. Você não sofre penalidade de armadura por usar armaduras (mas ainda sofre por escudos). Além disso, se estiver usando armadura pesada, recebe +2 na Defesa.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "anao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "remove_debuff",
+      "debuff": "penalidade_de_armadura",
+      "scope": "armaduras_mas_nao_escudos"
+    },
+    {
+      "type": "defense_improvement",
+      "value": 2,
+      "condition": "usando_armadura_pesada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "anel_da_beleza_ilusoria",
+  "name": "Anel da Beleza Ilusória",
+  "categoria": "medio",
+  "preco": 21000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este anel de ouro contém uma gema que reflete a luz de maneira incomum. Enquanto estiver vestindo este anel, você aparenta ser mais belo — não apenas conforme os padrões estéticos de seu povo ou raça, mas também de acordo com as preferências de cada observador. Você recebe +5 em testes de perícias baseadas em Carisma, exceto Intimidação, e pode lançar Enfeitiçar. Se já puder lançar essa magia, seu custo diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericias": "baseadas em Carisma, exceto Intimidação",
+      "value": 5
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Enfeitiçar",
+      "condicao_se_ja_conhece": "custo diminui em -1 PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "estrategista_inspirador",
+  "name": "Estrategista Inspirador",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Em seu primeiro turno de um combate, você pode gastar uma ação padrão e fazer um teste de Guerra. Se fizer isso, para cada 10 pontos no resultado do teste, você e seus aliados em alcance curto recebem 1 PM temporário. Esses PM temporários desaparecem no fim da cena.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "guerra"
+    }
+  ],
+  "effects": [
+    {
+      "type": "PM_improvement",
+      "value": "1_por_10_pontos_no_teste_de_guerra",
+      "duration": "cena",
+      "requirement": "primeiro_turno_de_combate"
+    }
+  ],
+  "costs": [
+    {
+      "type": "acao_padrao"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

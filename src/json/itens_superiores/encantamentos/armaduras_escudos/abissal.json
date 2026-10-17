@@ -1,0 +1,26 @@
+{
+  "id": "abissal",
+  "name": "Abissal",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "O item possui gravuras de demônios e tentáculos. Você recebe redução de ácido e fogo 10 e, uma vez por rodada, pode gastar 1 PM para causar 2d6 pontos de dano de ácido ou fogo a uma criatura adjacente.",
+  "effects": [
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "tipo_dano": "ácido"
+    },
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "tipo_dano": "fogo"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "frequencia": "por_rodada",
+      "efeito": "causa 2d6 de dano de ácido ou fogo a uma criatura adjacente"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

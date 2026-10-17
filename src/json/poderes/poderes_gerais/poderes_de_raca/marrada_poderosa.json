@@ -1,0 +1,41 @@
+{
+  "id": "marrada_poderosa",
+  "name": "Marrada Poderosa",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Quando você faz uma investida com seus chifres e acerta o ataque, o dano deles aumenta em um passo e você pode gastar 1 PM para fazer um ataque corpo a corpo desarmado ou com uma arma que esteja empunhando. Esse ataque também recebe o bônus de +2 por investida.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "minotauro",
+        "satiro"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "1_passo",
+      "weapon": "chifres",
+      "trigger": "investida_bem_sucedida"
+    },
+    {
+      "type": "extra_attack",
+      "weapon": [
+        "desarmado",
+        "arma_empunhada"
+      ],
+      "trigger": "investida_bem_sucedida_com_chifres",
+      "bonus": "+2_por_investida"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

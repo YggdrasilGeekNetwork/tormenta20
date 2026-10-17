@@ -1,0 +1,24 @@
+{
+  "id": "fender_defesas",
+  "name": "Fender Defesas",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Quando você acerta um ataque usando Ataque Especial, a criatura sofre uma penalidade na Defesa igual ao total de PM gastos nessa habilidade por 1 rodada.",
+  "requirements": [
+    {
+      "type": "fearute_actived",
+      "sub_type": "soft",
+      "feature": "ataque_especial"
+    }
+  ],
+  "effects": [
+    {
+      "type": "defense_penalty",
+      "target": "criatura_atingida",
+      "value": "pm_gastos_em_ataque_especial",
+      "duration": "1_rodada"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

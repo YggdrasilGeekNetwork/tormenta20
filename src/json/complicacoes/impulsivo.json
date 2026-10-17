@@ -1,0 +1,24 @@
+{
+  "id": "impulsivo",
+  "name": "Impulsivo",
+  "description": "Você age primeiro e pensa depois (ou nunca). Você sofre –5 em Furtividade e Investigação, e não pode fazer as ações atrasar e preparar.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_pericia",
+      "pericia": "furtividade",
+      "value": -5
+    },
+    {
+      "type": "penalidade_pericia",
+      "pericia": "investigacao",
+      "value": -5
+    },
+    {
+      "type": "restricao_acao",
+      "descricao": "não pode fazer as ações atrasar e preparar"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

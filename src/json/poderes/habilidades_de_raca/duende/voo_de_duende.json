@@ -1,0 +1,14 @@
+{
+  "id": "voo_de_duende",
+  "name": "Voo",
+  "type": "habilidade_de_raca",
+  "race": "duende",
+  "description": "Você possui asas ou alguma fonte de voo mágico. Consegue flutuar 1,5m acima do chão com deslocamento igual ao seu deslocamento base +3m, ignorando terreno difícil e imune a dano por queda (a menos que esteja inconsciente). Também pode voar de fato gastando 1 PM por rodada, com deslocamento igual ao seu deslocamento base +6m.",
+  "effects": {
+    "passivo": { "flutuar": "1,5m acima do chão, deslocamento base +3m, ignora terreno difícil, imune a dano de queda (exceto inconsciente)" },
+    "type": "active",
+    "cost": "1 PM por rodada",
+    "efeito": "voo verdadeiro com deslocamento base +6m"
+  },
+  "livro": "herois_de_arton"
+}

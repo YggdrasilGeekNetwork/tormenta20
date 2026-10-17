@@ -1,0 +1,17 @@
+{
+  "id": "tamborete_marcial",
+  "name": "Tamborete Marcial",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 80,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "maos": 1,
+  "efeito": {
+    "inspiracao_bonus_deslocamento": "3m"
+  },
+  "description": "Menor que um tambor, este instrumento é tocado com um par de baquetas pequenas, produzindo um som rápido e cadenciado. Criaturas a sua escolha sob efeito de sua Inspiração recebem +3m em deslocamento.",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "ingenuo",
+  "name": "Ingênuo",
+  "description": "Não há maldade em seu coração. Você sofre –5 em Enganação, Intuição, Investigação e Ladinagem.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_pericia",
+      "pericia": "enganacao",
+      "value": -5
+    },
+    {
+      "type": "penalidade_pericia",
+      "pericia": "intuicao",
+      "value": -5
+    },
+    {
+      "type": "penalidade_pericia",
+      "pericia": "investigacao",
+      "value": -5
+    },
+    {
+      "type": "penalidade_pericia",
+      "pericia": "ladinagem",
+      "value": -5
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

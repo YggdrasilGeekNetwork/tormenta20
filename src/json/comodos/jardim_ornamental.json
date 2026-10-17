@@ -1,0 +1,14 @@
+{
+  "id": "jardim_ornamental",
+  "name": "Jardim Ornamental",
+  "description": "Arbustos, flores, cercas vivas e bancos de pedra formam um ambiente propício para conversas discretas e sussurradas. O hábito de receber visitas num jardim ornamental fornece +1 em testes de Enganação.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "enganacao",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

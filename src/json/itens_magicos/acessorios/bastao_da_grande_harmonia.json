@@ -1,0 +1,26 @@
+{
+  "id": "bastao_da_grande_harmonia",
+  "name": "Bastão da Grande Harmonia",
+  "categoria": "medio",
+  "preco": 25500,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este bastão de madeira de carvalho é gravado com símbolos antigos e irregulares que irradiam uma energia suave. Você pode gastar uma ação padrão e 3 PM para gerar um pulso de energia tranquilizante em um raio de 9m. Outras criaturas nessa área devem fazer um teste de Vontade (CD Sab); aquelas que falharem largam quaisquer armas que estejam empunhando e ficam pasmas por 1 rodada (apenas uma vez por cena). Além disso, você pode lançar Guardião Divino. Se já puder lançar essa magia, seu custo diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "pulso_area",
+      "acao": "ação padrão",
+      "custo_pm": 3,
+      "raio": "9m",
+      "teste": "Vontade CD Sab",
+      "falha": "larga armas empunhadas e fica pasmo por 1 rodada",
+      "frequencia": "1x por cena"
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Guardião Divino",
+      "condicao_se_ja_conhece": "custo diminui em -1 PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

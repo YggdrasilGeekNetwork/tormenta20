@@ -1,0 +1,14 @@
+{
+  "id": "superprotetor",
+  "name": "Superprotetor",
+  "description": "Você se preocupa com o bem-estar do seu grupo e faz questão de ficar perto de seus companheiros — mesmo que isso não seja a melhor estratégia! Durante qualquer cena envolvendo qualquer tipo de risco ou perigo, você sempre deve terminar seu turno adjacente a um aliado. Se não fizer isso, fica alquebrado e sofre –2 em seus testes por 1 rodada.",
+  "categoria": "cavaleiro",
+  "effects": [
+    {
+      "type": "restricao_acao",
+      "descricao": "em cena de risco ou perigo, deve terminar o turno adjacente a um aliado; se não fizer, fica alquebrado e sofre –2 em testes por 1 rodada"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

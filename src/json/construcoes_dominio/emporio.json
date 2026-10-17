@@ -1,0 +1,18 @@
+{
+  "id": "emporio",
+  "name": "Empório",
+  "description": "Uma grande loja onde tudo pode ser encontrado — com exceção, talvez, de negócios justos. Uma vez por aventura, você pode comprar ou vender um item superior e mudar o preço em 10% a seu favor.",
+  "categoria": "enganacao",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "desconto_comercio",
+      "aplica_a": "um item superior",
+      "value": 10,
+      "unidade": "percentual",
+      "frequencia": "uma_vez_por_aventura"
+    }
+  ],
+  "prerequisito": "bazar",
+  "livro": "herois_de_arton"
+}

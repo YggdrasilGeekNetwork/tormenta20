@@ -1,0 +1,22 @@
+{
+  "id": "insinuante",
+  "name": "Insinuante",
+  "type": "encantamento",
+  "categoria": "acessorio",
+  "aplica_se_a": "vestuário",
+  "description": "O vestuário realça suas curvas e músculos. Fornece +2 em Enganação (cumulativo com outros bônus do item) e aumenta a CD de seus efeitos mentais em +2.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Enganação",
+      "value": 2,
+      "cumulativo": true
+    },
+    {
+      "type": "bonus_cd",
+      "condicao": "efeitos mentais",
+      "value": 2
+    }
+  ],
+  "livro": "herois_de_arton"
+}

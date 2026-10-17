@@ -1,0 +1,28 @@
+{
+  "id": "brado_vitorioso",
+  "name": "Brado Vitorioso",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Quando faz um acerto crítico ou reduz um inimigo a 0 ou menos PV enquanto está em fúria, você pode usar um dos seus poderes de brado como ação livre. Pré-requisitos: Brado Assustador, Sangue dos Inimigos.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "brado_assustador"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "sangue_dos_inimigos"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "action": "livre",
+      "trigger": "acerto_critico_ou_reduzir_inimigo_a_0_pv_em_furia",
+      "effect": "usa_um_poder_de_brado"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

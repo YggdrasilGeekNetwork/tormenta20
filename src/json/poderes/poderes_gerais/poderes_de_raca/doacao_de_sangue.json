@@ -1,0 +1,32 @@
+{
+  "id": "doacao_de_sangue",
+  "name": "Sangue Mágico",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você pode dar seu sangue para conjurar magias — literalmente! Uma vez por dia, você pode receber um número de PM a sua escolha, limitado pela sua Constituição. Por exemplo, se você possui Con 3, pode ganhar 1, 2 ou 3 PM. Se você fizer isso e lançar uma magia no mesmo turno, os PM ganhos por este poder podem ultrapassar seu limite de PM por nível. Se usar este poder, no final do seu turno você perde 1d4 PV por PM recebido. Por exemplo, se escolheu receber 3 PM, perde 3d4 PV.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "eiradaan",
+        "qareen",
+        "silfide"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "active_ability",
+      "frequency": "uma_vez_por_dia",
+      "effect": "pm_improvement",
+      "value": "a_sua_escolha_limitado_pela_constituicao",
+      "note": "pode ultrapassar limite de PM por nivel se lançar magia no mesmo turno",
+      "side_effect": {
+        "hp_cost": "1d4_por_pm_recebido",
+        "timing": "final_do_turno"
+      }
+    }
+  ],
+  "livro": "herois_de_arton"
+}

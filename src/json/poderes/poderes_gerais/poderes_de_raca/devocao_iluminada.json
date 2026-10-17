@@ -1,0 +1,37 @@
+{
+  "id": "devocao_iluminada",
+  "name": "Devoção Iluminada",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você recebe +2 em Vontade, perde a sensibilidade a luz causada por sua raça e não pode mais ser ofuscado.",
+  "requirements": [
+    {
+      "type": "racial_feature",
+      "sub_type": "hard",
+      "id": "sensibilidade_a_luz"
+    },
+    {
+      "type": "class_feature",
+      "sub_type": "hard",
+      "id": "devoto_de_divindade_de_energia_positiva"
+    }
+  ],
+  "effects": [
+    {
+      "type": "resistence_test_improvement",
+      "save": "vontade",
+      "value": 2
+    },
+    {
+      "type": "remove_debuff",
+      "debuff": "sensibilidade_a_luz"
+    },
+    {
+      "type": "immunity",
+      "value": "ofuscado"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "race_scope": "varias",
+  "race_scope_note": "qualquer raça com sensibilidade a luz como habilidade racial"
+}

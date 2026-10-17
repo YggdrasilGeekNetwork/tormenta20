@@ -1,0 +1,19 @@
+{
+  "id": "bafo_de_dragao",
+  "name": "Bafo de Dragão",
+  "type": "poder_distincao",
+  "description": "O hálito do mestre bêbado pode ser inflamável! Uma vez por rodada, você pode gastar uma ação de movimento e beber um número de goles do seu recipiente (limitado pelo número de poderes da distinção que você possui) para desferir um sopro flamejante num cone de 9m. Criaturas na área sofrem 2d6 pontos de dano de fogo por gole e ficam em chamas (Reflexos CD Con + número de poderes da distinção que você possui reduz à metade e evita a condição).",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "limite": "uma vez por rodada",
+      "efeito": "bebe goles do recipiente (limitado pelo total de poderes da distinção) e sopra cone de 9m; 2d6 de dano de fogo por gole e alvo pega fogo (Reflexos CD Con + poderes da distinção reduz à metade e evita a condição)"
+    }
+  ],
+  "requirements": [
+    "Con 3",
+    "Bafo de Troll"
+  ],
+  "livro": "herois_de_arton"
+}

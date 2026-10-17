@@ -1,0 +1,23 @@
+{
+  "id": "machado_de_haste",
+  "name": "Machado de Haste",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 40,
+  "dano": "1d8/1d10",
+  "critico": "x3",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [
+    "adaptavel",
+    "alongada"
+  ],
+  "especial": {
+    "uso_marcial_duas_maos": true
+  },
+  "description": "Desenvolvida pelos anões para auxiliar suas formações fechadas em Doherimm, é essencialmente uma pequena cabeça de machado montada em um cabo longo. É uma arma adaptável e alongada. É muito grande para ser usada com uma só mão sem treinamento especial, por isso é uma arma exótica. Pode ser usada como uma arma marcial de duas mãos.",
+  "livro": "herois_de_arton"
+}

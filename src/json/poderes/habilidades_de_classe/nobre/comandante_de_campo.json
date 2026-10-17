@@ -1,0 +1,32 @@
+{
+  "id": "comandante_de_campo",
+  "name": "Comandante de Campo",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Seus capangas recebem +2 nas rolagens de dano e um bônus na Defesa igual ao seu Carisma. Além disso, quando contrata ou recebe capangas por qualquer motivo, você recebe um capanga adicional do mesmo tipo.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": 2,
+      "target": "capangas"
+    },
+    {
+      "type": "add_defense_bonus_attr",
+      "attr": "car",
+      "target": "capangas"
+    },
+    {
+      "type": "amount_targets",
+      "note": "recebe_um_capanga_adicional_do_mesmo_tipo_ao_contratar_ou_receber_capangas"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

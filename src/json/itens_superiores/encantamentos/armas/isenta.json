@@ -1,0 +1,15 @@
+{
+  "id": "isenta",
+  "name": "Isenta",
+  "type": "encantamento",
+  "categoria": "arma",
+  "maldicao": true,
+  "description": "A arma impõe uma justiça bizarra e arbitrária durante os combates. Sempre que você causa uma condição negativa a um inimigo, sofre essa mesma condição.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "sempre que causa uma condição negativa a um inimigo, você sofre essa mesma condição"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "estilo_classico",
+  "name": "Estilo Clássico",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Enquanto estiver empunhando uma espada e um escudo, você recebe +2 nas rolagens de dano com sua arma e +2 na Defesa.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "humano"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": 2,
+      "condition": "empunhando_espada_e_escudo"
+    },
+    {
+      "type": "defense_improvement",
+      "value": 2,
+      "condition": "empunhando_espada_e_escudo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

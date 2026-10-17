@@ -1,0 +1,20 @@
+{
+  "id": "cinquedea",
+  "name": "Cinquedea",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "leve",
+  "preco": 18,
+  "dano": "1d4",
+  "critico": "19",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "dano_extra_desprevenida_flanqueando": "1 dado do mesmo tipo"
+  },
+  "description": "Também conhecida como \"adaga língua de vaca\", é um meio-termo entre uma espada curta e uma adaga. Sua lâmina triangular é feita apenas para estocar. Contra uma criatura desprevenida ou que você esteja flanqueando, a cinquedea causa um dado de dano extra do mesmo tipo.",
+  "livro": "herois_de_arton"
+}

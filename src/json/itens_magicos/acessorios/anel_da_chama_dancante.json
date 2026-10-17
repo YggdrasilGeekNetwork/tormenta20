@@ -1,0 +1,22 @@
+{
+  "id": "anel_da_chama_dancante",
+  "name": "Anel da Chama Dançante",
+  "categoria": "maior",
+  "preco": 30000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Um anel de ouro com uma pequena chama mágica viva que nunca se apaga. A chama mágica — na verdade um pequeno elemental — atua como um parceiro vigilante veterano e permite que você lance Controlar Fogo (se já puder lançar essa magia, seu custo diminui em –1 PM).",
+  "effects": [
+    {
+      "type": "parceiro",
+      "nivel": "veterano",
+      "descricao": "pequeno elemental de fogo vigilante"
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Controlar Fogo",
+      "condicao_se_ja_conhece": "custo diminui em -1 PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "escultor",
+  "name": "Escultor",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico está sempre vertendo um pouco de argila. Quando você lança uma magia com efeito de cone ou linha, pode gastar 1 PM para mudar a área dessa magia de cone para linha ou vice-versa. O comprimento de um cone que se torna linha dobra e o de uma linha que se torna cone é reduzido a um terço (arredonde para baixo, como o normal; por exemplo, 9m se era 30m).",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "condicao": "magia com efeito de cone ou linha",
+      "efeito": "muda a área da magia de cone para linha ou vice-versa; cone que vira linha dobra de comprimento; linha que vira cone é reduzida a um terço (arredondado para baixo)"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

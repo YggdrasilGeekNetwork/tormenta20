@@ -1,0 +1,39 @@
+{
+  "id": "armadura_avancada",
+  "name": "Armadura Avançada",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Quando ativa uma engenhoca acoplada, você recebe um bônus no teste de ativação igual ao número de melhorias da armadura. Além disso, você pode gastar 4 PM para ativar uma engenhoca acoplada como ação livre (apenas se sua ativação for ação de movimento, padrão ou completa).",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "armadura_mecanizada"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 7
+    }
+  ],
+  "effects": [
+    {
+      "type": "bonus",
+      "value": "numero_de_melhorias_da_armadura",
+      "requirement": "teste_de_ativacao_de_engenhoca_acoplada"
+    },
+    {
+      "type": "change_action_type",
+      "action": "livre",
+      "requirement": "ativacao_normalmente_de_movimento_padrao_ou_completa"
+    }
+  ],
+  "costs": [
+    {
+      "value": 4,
+      "type": "PM",
+      "note": "apenas_para_ativar_engenhoca_acoplada_como_acao_livre"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

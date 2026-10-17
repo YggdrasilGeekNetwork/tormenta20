@@ -1,0 +1,18 @@
+{
+  "id": "escudo_rubro",
+  "name": "Escudo Rubro",
+  "type": "poder_distincao",
+  "description": "O bruxo da Tormenta usa sua loucura como uma armadura. Quando faz um teste de resistência ou sofre dano, você pode receber uma quantidade de pontos de insanidade limitada pelo total de poderes da distinção que possui. Se fizer isso, para cada PI recebido você recebe +2 nesse teste de resistência ou 5 pontos de RD contra esse dano. Esses benefícios são dobrados contra efeitos da Tormenta, de suas criaturas e de devotos de Aharadak.",
+  "effects": [
+    {
+      "type": "ativado",
+      "gatilho": "faz um teste de resistência ou sofre dano",
+      "efeito": "pode receber pontos de insanidade (limitado pelo total de poderes da distinção); para cada PI recebido, +2 nesse teste de resistência ou 5 pontos de RD contra esse dano",
+      "condicao": "benefícios dobrados contra efeitos da Tormenta, suas criaturas e devotos de Aharadak"
+    }
+  ],
+  "requirements": [
+    "Resistência à Tormenta"
+  ],
+  "livro": "herois_de_arton"
+}

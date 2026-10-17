@@ -1,0 +1,16 @@
+{
+  "id": "baba_de_troll",
+  "name": "Baba de Troll",
+  "type": "item",
+  "categoria": "alimentacao",
+  "subcategoria": "bebida",
+  "preco": 30,
+  "espacos": 0.5,
+  "alcoolica": false,
+  "efeito": {
+    "bonus_teste_escolhido": "1d4",
+    "duracao": "ate o fim do dia"
+  },
+  "description": "Bebida sem álcool, à base de leite, castanhas, nozes e mel. Fornece +1d4 em um teste a sua escolha até o fim do dia. Não é alcoólica e não exige teste de Fortitude.",
+  "livro": "herois_de_arton"
+}

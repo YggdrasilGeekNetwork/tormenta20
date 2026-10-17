@@ -1,0 +1,16 @@
+{
+  "id": "mutagenia_adicional",
+  "name": "Mutagenia Adicional",
+  "type": "poder_distincao",
+  "description": "Através de exercícios e fórmulas especiais, o mutagenista aumenta a tolerância de seu corpo a alterações. Seu limite de mutagênicos ativos aumenta em +1.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "limite de mutagênicos ativos aumenta em +1"
+    }
+  ],
+  "requirements": [
+    "Fabricar Mutagênicos"
+  ],
+  "livro": "herois_de_arton"
+}

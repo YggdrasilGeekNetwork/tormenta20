@@ -1,0 +1,30 @@
+{
+  "id": "ajuda_do_amador",
+  "name": "Ajuda do Amador",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Num bom grupo de aventureiros, nem todos precisam ser combatentes letais. Alguns podem apenas auxiliar em combate, então brilhar em outras áreas. Você pode gastar uma ação padrão e fazer um teste para ajudar, mas para atrapalhar um inimigo em alcance curto, usando qualquer perícia que possa justificar e que seja aprovada pelo mestre. Se fizer isso, seus aliados com este poder aplicam o bônus da ajuda em seus testes de ataque contra esse inimigo por 1 rodada.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "active_ability",
+      "action": "padrao",
+      "effect": "teste_para_ajudar_atrapalhando_inimigo_em_alcance_curto",
+      "skill": "qualquer_justificavel_aprovada_pelo_mestre",
+      "target": "aliados_com_este_poder",
+      "benefit": "aplicam_o_bonus_da_ajuda_em_testes_de_ataque_contra_esse_inimigo",
+      "duration": "1_rodada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

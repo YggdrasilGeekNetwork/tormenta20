@@ -1,0 +1,18 @@
+{
+  "id": "sala_de_jogos",
+  "name": "Sala de Jogos",
+  "description": "Um ambiente de lazer equipado com diversos jogos de azar e de habilidade. Os residentes recebem +1 em Jogatina. Além disso, por se acostumarem a lidar com os reveses da fortuna, recuperam 1 PM sempre que rolam um resultado 1 natural em um teste relevante, a critério do mestre.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "jogatina",
+      "value": 1
+    },
+    {
+      "type": "recupera_pm_em_1_natural",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "grao_mestre",
+  "name": "Grão-Mestre",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Você é um cavaleiro lendário. Talvez seja um oficial de alto escalão — ou mesmo o líder — de uma ordem de cavalaria, talvez seja apenas um cavaleiro errante famoso no Reinado e além. Você recebe +5 em testes de Diplomacia e Nobreza e, quando ataca um inimigo contra o qual esteja recebendo os bônus de Duelo, ou quando faz uma investida, você causa dois dados de dano extras do mesmo tipo. Pré-requisito: 17º nível de cavaleiro.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 5,
+      "skills": [
+        "diplomacia",
+        "nobreza"
+      ]
+    },
+    {
+      "type": "extra_damage_die",
+      "value": 2,
+      "condition": "atacando_alvo_de_duelo_ou_fazendo_investida"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

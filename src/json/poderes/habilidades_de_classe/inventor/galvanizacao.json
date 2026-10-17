@@ -1,0 +1,31 @@
+{
+  "id": "galvanizacao",
+  "name": "Galvanização",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Você pode gastar uma ação padrão para adicionar um material especial a um item adequado (isso não conta no limite de melhorias do item e se acumula com outros materiais especiais). O preço do material é reduzido a 5% do normal e você não precisa fazer o teste de Ofício para aplicá-lo, mas ele só dura até o fim da cena.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "oficio_artesao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "decrease_cost",
+      "value": "5_por_cento_do_normal",
+      "item_type": "material_especial"
+    },
+    {
+      "type": "item_type",
+      "note": "nao_conta_no_limite_de_melhorias_e_se_acumula_com_outros_materiais_especiais_mas_dura_ate_o_fim_da_cena"
+    }
+  ],
+  "costs": [
+    {
+      "type": "acao_padrao"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,73 @@
+{
+  "id": "conjurar_armadilha",
+  "name": "Conjurar Armadilha",
+  "type": "arcana",
+  "circle": "2",
+  "school": "trans",
+  "execution": "completa",
+  "execution_details": null,
+  "range": "curto_6m_9q",
+  "target": {
+    "amount": 1,
+    "up_to": null,
+    "type": "armadilha_conjurada"
+  },
+  "effect": "outro",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "permanente",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Esta magia modifica o terreno e/ou a arquitetura de um ponto no alcance, transformando-o em uma armadilha de caçador (Tormenta20, p. 50) a sua escolha. A armadilha criada segue as mesmas regras de armadilhas, mas a CD dos testes para encontrá-la e resistir a ela é a da magia.\nEmbora seja produzida por magia, a armadilha ainda pode ser superada por meios mundanos normais. Depois de ativada, seja bem-sucedida ou não, a armadilha não volta a se reativar: fica inerte e inofensiva, devendo ser conjurada outra vez.",
+  "enhancements": [
+    {
+      "cost": 1,
+      "type": "outro",
+      "description": "seus poderes que afetam armadilhas também afetam a armadilha criada pela magia.",
+      "extra_details": null
+    },
+    {
+      "cost": 3,
+      "type": "outro",
+      "description": "quando lança a magia, você pode escolher qualquer número de criaturas no alcance para não serem afetadas pela armadilha. Requer 2° círculo.",
+      "extra_details": {
+        "requirements": "2° círculo"
+      }
+    },
+    {
+      "cost": 5,
+      "type": "muda",
+      "description": "muda a execução para padrão. A armadilha pode ser conjurada diretamente em uma área ocupada por uma criatura, o que a aciona imediatamente. Requer 3º círculo.",
+      "extra_details": {
+        "requirements": "3º círculo"
+      }
+    },
+    {
+      "cost": 1,
+      "type": "muda",
+      "description": "(Apenas Armadilheiros Mestres e Caçadores): reduz o tempo de execução para movimento.",
+      "extra_details": {
+        "requirements": "Armadilheiro Mestre ou Caçador"
+      }
+    },
+    {
+      "cost": 4,
+      "type": "muda",
+      "description": "(Apenas Armadilheiros Mestres): em vez do normal, você pode conjurar uma das suas armadilhas de armadilheiro mestre.",
+      "extra_details": {
+        "requirements": "Armadilheiro Mestre"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "cria",
+      "attribute": "armadilha",
+      "amount": null,
+      "resistence_requirement": null,
+      "extra_requirements": null
+    }
+  ],
+  "livro": "herois_de_arton"
+}

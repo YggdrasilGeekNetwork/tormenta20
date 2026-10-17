@@ -1,0 +1,35 @@
+{
+  "id": "glamour_maior",
+  "name": "Glamour Maior",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você aprende mais três magias, de 1º ou 2º círculo, arcanas ou divinas, que pode lançar como magias de glamour (veja o poder anterior).",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "duende",
+        "eiradaan",
+        "silfide"
+      ]
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "glamour"
+    },
+    {
+      "type": "character_level",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "receive_feature",
+      "feature": "escolhe_mais_3_magias_de_1_ou_2_circulo_lancaveis_como_glamour"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "bigorna",
+  "name": "Bigorna",
+  "description": "Um utensílio básico para ferreiros. Mas, por seu tamanho e peso, é parte da mobília! Instalada na oficina de trabalho, aumenta o bônus em Ofício para +3. Instalada na forjaria, aumenta o bônus em dano para +2.",
+  "effects": [
+    {
+      "type": "bonus_oficio",
+      "value": 3,
+      "comodo": "oficina_de_trabalho"
+    },
+    {
+      "type": "bonus_dano_arma",
+      "value": 2,
+      "comodo": "forjaria"
+    }
+  ],
+  "preco": 500,
+  "comodo_alvo": "oficina_de_trabalho_ou_forjaria",
+  "livro": "herois_de_arton"
+}

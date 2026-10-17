@@ -1,0 +1,18 @@
+{
+  "id": "caridoso",
+  "name": "Caridoso",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico emana uma sensação de conforto e união. Quando você lança uma magia em um aliado e gasta pelo menos 1 PM, recebe 1 PM temporário para gastar em aprimoramentos na próxima magia que lançar nessa cena. Esse PM não conta no limite de gasto de pontos de mana.",
+  "effects": [
+    {
+      "type": "bonus_pm",
+      "value": 1,
+      "temporario": true,
+      "gatilho": "lança uma magia em um aliado gastando pelo menos 1 PM",
+      "uso": "aprimoramentos da próxima magia lançada na cena",
+      "condicao": "não conta no limite de gasto de PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

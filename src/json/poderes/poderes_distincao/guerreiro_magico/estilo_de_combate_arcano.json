@@ -1,0 +1,15 @@
+{
+  "id": "estilo_de_combate_arcano",
+  "name": "Estilo de Combate Arcano",
+  "type": "poder_distincao",
+  "description": "Leves ou pesadas, armaduras fazem parte do treinamento de um guerreiro mágico. Escolha um estilo de combate entre Encouraçado Místico e Dançarino Marcial. Uma vez feita, essa escolha não pode ser mudada. Se escolher Encouraçado Místico, você pode lançar magias arcanas vestindo armaduras sem precisar de testes de Misticismo e recebe +1 em testes de resistência se estiver de armadura. Se escolher Dançarino Marcial, você recebe +1 na Defesa e em rolagens de dano com armas. Em ambos os casos, os bônus aumentam em +1 para cada outro poder da distinção que você tiver.",
+  "effects": [
+    {
+      "type": "passivo",
+      "escolha": "Encouraçado Místico (lança magias arcanas de armadura sem testes de Misticismo; +1 em testes de resistência de armadura) ou Dançarino Marcial (+1 na Defesa e em rolagens de dano com armas)",
+      "escalavel": "bônus aumenta em +1 para cada outro poder da distinção que possui"
+    }
+  ],
+  "requirements": ["habilidade de classe Magias", "treinado em Luta"],
+  "livro": "herois_de_arton"
+}

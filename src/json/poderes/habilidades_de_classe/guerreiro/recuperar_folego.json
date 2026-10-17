@@ -1,0 +1,31 @@
+{
+  "id": "recuperar_folego",
+  "name": "Recuperar Fôlego",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Uma vez por cena, se estiver com 0 PM, você pode gastar uma ação de movimento para recuperar 1d8 PM.",
+  "requirements": [
+    {
+      "type": "fearute_use_time",
+      "sub_type": "soft",
+      "time": "uma_vez_por_cena"
+    },
+    {
+      "type": "pm_value",
+      "sub_type": "soft",
+      "value": 0
+    }
+  ],
+  "effects": [
+    {
+      "type": "PM_recovery",
+      "value": "1d8"
+    }
+  ],
+  "costs": [
+    {
+      "type": "acao_de_movimento"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

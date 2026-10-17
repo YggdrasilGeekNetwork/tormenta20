@@ -1,0 +1,25 @@
+{
+  "id": "barcaca",
+  "name": "Barcaça",
+  "type": "item",
+  "categoria": "veiculo",
+  "preco": 3000,
+  "espacos": 0,
+  "estatisticas": {
+    "tamanho": "enorme",
+    "deslocamento": "natacao 6m",
+    "defesa": "10 + Des do piloto",
+    "pv": 120,
+    "rd": 5,
+    "capacidade_criaturas": 15,
+    "capacidade_tamanho": "medio",
+    "capacidade_espacos": 300
+  },
+  "tripulacao": {
+    "piloto": 1,
+    "tripulantes_adicionais": 10,
+    "funcao_adicionais": "auxiliar na operação da vela"
+  },
+  "description": "Pequeno navio com um único mastro de vela quadrangular e alguns remos para suplementar a força da vela. Pode navegar em rios e mar aberto. Além do piloto, requer 10 tripulantes para auxiliar na operação da vela.",
+  "livro": "herois_de_arton"
+}

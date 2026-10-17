@@ -1,0 +1,22 @@
+{
+  "id": "ruas_furiosas",
+  "name": "Ruas Furiosas",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Quando destrói um objeto empunhado por um inimigo com a manobra quebrar, você recebe uma quantidade de PV temporários igual a 1d6 x sua Constituição.",
+  "requirements": [
+    {
+      "type": "manouver",
+      "sub_type": "soft",
+      "manouver": "quebrar"
+    }
+  ],
+  "effects": [
+    {
+      "type": "PV_improvement",
+      "value": "1d6_x_constituicao"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

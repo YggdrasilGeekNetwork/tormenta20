@@ -1,0 +1,19 @@
+{
+  "id": "armadilha_distante",
+  "name": "Armadilha Distante",
+  "type": "poder_distincao",
+  "description": "Se o alvo não vem até a armadilha, a armadilha vai até o alvo. Quando prepara uma armadilha, você pode gastar 1 PM para preparar essa armadilha em qualquer espaço desocupado em alcance curto.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "gatilho": "quando prepara uma armadilha",
+      "efeito": "prepara a armadilha em qualquer espaço desocupado em alcance curto"
+    }
+  ],
+  "requirements": [
+    "Des 1",
+    "Armadilha Instantânea"
+  ],
+  "livro": "herois_de_arton"
+}

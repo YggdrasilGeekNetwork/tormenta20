@@ -1,0 +1,29 @@
+{
+  "id": "jogo_de_pernas",
+  "name": "Jogo de Pernas",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Uma vez por rodada, quando faz um ataque corpo a corpo, você pode se mover 1,5m em qualquer direção, antes ou depois do ataque. Esse movimento não ativa reações de seus inimigos (como de Ataque Reflexo).",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "des",
+      "value": 1
+    },
+    {
+      "type": "attack_type",
+      "sub_type": "soft",
+      "attack": "corpo_a_corpo"
+    }
+  ],
+  "effects": [
+    {
+      "type": "displacement_improvement",
+      "value": "1.5m",
+      "requirement": "nao_ativa_reacoes_dos_inimigos"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

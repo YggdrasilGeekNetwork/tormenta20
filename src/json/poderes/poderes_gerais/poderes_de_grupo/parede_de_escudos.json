@@ -1,0 +1,32 @@
+{
+  "id": "parede_de_escudos",
+  "name": "Parede de Escudos",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Você e seu grupo treinaram em uma das táticas mais consagradas e eficientes da história militar artoniana, sendo capazes de proteger uns aos outros e formar uma muralha intransponível contra os inimigos. Se você estiver usando um escudo, pode gastar uma ação de movimento para formar uma parede de escudos com um ou mais aliados adjacentes com este poder que também estejam usando escudos. Enquanto permanecerem adjacentes, os participantes da parede recebem +5 na Defesa e RD 5.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "active_ability",
+      "action": "movimento",
+      "requires": "escudo_equipado",
+      "effect": "forma_parede_de_escudos_com_aliados_adjacentes_com_este_poder_tambem_com_escudo",
+      "benefit": {
+        "defense_improvement": 5,
+        "damage_reduction": 5
+      },
+      "duration": "enquanto_permanecerem_adjacentes"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

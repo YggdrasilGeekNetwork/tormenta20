@@ -1,0 +1,16 @@
+{
+  "id": "pao_de_queijo",
+  "name": "Pão de Queijo",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 10,
+  "espacos": 0.5,
+  "livro": "herois_de_arton",
+  "ingredientes": ["farinha", "queijo"],
+  "custo_ingredientes": 7,
+  "cd_teste_oficio_cozinheiro": 20,
+  "efeito": {
+    "bonus_fortitude": 2
+  },
+  "description": "Um bom pão de queijo deixa qualquer aventureiro bem nutrido e saudável. Você recebe +2 em testes de Fortitude."
+}

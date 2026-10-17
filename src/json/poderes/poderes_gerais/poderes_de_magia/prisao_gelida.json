@@ -1,0 +1,31 @@
+{
+  "id": "prisao_gelida",
+  "name": "Prisão Gélida",
+  "type": "poder_geral",
+  "sub_type": "poder_de_magia",
+  "description": "A magia cobre os alvos com cristais de gelo. Um alvo que falhe no teste de resistência fica enredado por 1 rodada. Este aprimoramento só pode ser aplicado em magias que causam dano de frio e permitem testes de resistência.",
+  "requirements": [
+    {
+      "type": "class_feature",
+      "sub_type": "hard",
+      "id": "magias"
+    }
+  ],
+  "effects": [
+    {
+      "type": "spell_enhancement",
+      "applies_to": "magias_de_dano_de_frio_com_teste_de_resistencia",
+      "on_fail": {
+        "condition": "enredado",
+        "duration": "1_rodada"
+      }
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

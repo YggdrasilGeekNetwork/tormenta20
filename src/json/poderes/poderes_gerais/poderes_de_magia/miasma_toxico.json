@@ -1,0 +1,31 @@
+{
+  "id": "miasma_toxico",
+  "name": "Miasma Tóxico",
+  "type": "poder_geral",
+  "sub_type": "poder_de_magia",
+  "description": "A magia exala vapores nocivos. Um alvo que falhe no teste de resistência fica enjoado por 1 rodada. Este aprimoramento só pode ser aplicado em magias que causam dano de ácido e permitem testes de resistência.",
+  "requirements": [
+    {
+      "type": "class_feature",
+      "sub_type": "hard",
+      "id": "magias"
+    }
+  ],
+  "effects": [
+    {
+      "type": "spell_enhancement",
+      "applies_to": "magias_de_dano_de_acido_com_teste_de_resistencia",
+      "on_fail": {
+        "condition": "enjoado",
+        "duration": "1_rodada"
+      }
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

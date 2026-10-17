@@ -1,0 +1,43 @@
+{
+  "id": "forma_vegetal",
+  "name": "Forma Vegetal",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Quando usa Forma Selvagem, você pode gastar +2 PM para assumir uma forma vegetal. Você recebe RD 5/corte ou fogo e Natureza Vegetal (fica imune a atordoamento e metamorfose, mas é afetado por efeitos que afetem plantas monstruosas — se o efeito não tiver um teste de resistência, você tem direito a um teste de Fortitude).",
+  "requirements": [
+    {
+      "type": "devotee_of_divinity",
+      "sub_type": "hard",
+      "divinity": "allihanna"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "forma_selvagem"
+    }
+  ],
+  "effects": [
+    {
+      "type": "RD_bonus",
+      "value": 5,
+      "requirement": "corte_ou_fogo"
+    },
+    {
+      "type": "condition_immunity",
+      "condition": ["atordoamento", "metamorfose"]
+    },
+    {
+      "type": "damage_type",
+      "damage_type": "efeitos_contra_plantas_monstruosas",
+      "note": "e_afetado_mas_tem_direito_a_fortitude_se_o_efeito_nao_tiver_teste_de_resistencia"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM",
+      "note": "adicional_ao_custo_de_forma_selvagem"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

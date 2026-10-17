@@ -1,0 +1,17 @@
+{
+  "id": "sentidos_de_cacada",
+  "name": "Sentidos de Caçada",
+  "type": "poder_distincao",
+  "description": "O caçador de cabeças aprende a não depender dos sentidos para abater sua presa. Você enxerga perfeitamente no escuro, incluindo escuridão mágica, e ignora camuflagem por fumaça ou névoa.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "enxerga perfeitamente no escuro, incluindo escuridão mágica, e ignora camuflagem por fumaça ou névoa"
+    }
+  ],
+  "requirements": [
+    "Predador Alfa",
+    "Sentidos Aguçados"
+  ],
+  "livro": "herois_de_arton"
+}

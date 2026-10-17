@@ -1,0 +1,25 @@
+{
+  "id": "arma_natural_habil",
+  "name": "Arma Natural Hábil",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Escolha uma arma natural fornecida por raça com a qual você possa gastar 1 PM para fazer um ataque corpo a corpo extra quando faz a ação agredir. Você não precisa gastar pontos de mana para isso. Você continua só podendo fazer isso uma vez por rodada.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "arma_natural_de_habilidade_racial"
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "weapon": "arma_natural_escolhida",
+      "pm_cost_waived": true,
+      "frequency": "uma_vez_por_rodada"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "race_scope": "varias",
+  "race_scope_note": "qualquer raça com arma natural fornecida por habilidade racial"
+}

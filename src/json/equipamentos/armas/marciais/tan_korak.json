@@ -1,0 +1,25 @@
+{
+  "id": "tan_korak",
+  "name": "Tan-Korak",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 40,
+  "dano": "1d8",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "impacto",
+  "espacos": 2,
+  "habilidades": [],
+  "especial": {
+    "bonus_manobra": {
+      "derrubar": 2,
+      "desarmar": 2
+    },
+    "dano_letal_ou_nao_letal_escolha": true,
+    "raridade": "raríssima em Arton, usada pela milícia de Gorendill, em Deheon"
+  },
+  "description": "Curiosa arma de duas mãos, raríssima em Arton, usada apenas pela milícia da cidade de Gorendill, em Deheon. É um bastão metálico de formato peculiar, com ganchos, reentrâncias e um anel na extremidade. É uma arma versátil, fornecendo +2 em testes para derrubar ou desarmar, e pode ser usada para causar dano letal ou não letal, a sua escolha.",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,23 @@
+{
+  "id": "sombria",
+  "name": "Sombria",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma é envolta em trevas que obscurecem sua presença. Você recebe +2 em testes de Furtividade enquanto empunha esta arma (cumulativo com outros bônus de itens) e pode lançar a magia Escuridão (se já puder lançar essa magia, seu custo diminui em –1 PM).",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Furtividade",
+      "value": 2,
+      "condicao": "enquanto empunha a arma",
+      "cumulativo": true
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Escuridão",
+      "reducao_custo_pm": 1,
+      "condicao": "se já souber lançar a magia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

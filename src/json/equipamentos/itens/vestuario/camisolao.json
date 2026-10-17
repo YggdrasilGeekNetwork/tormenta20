@@ -1,0 +1,15 @@
+{
+  "id": "camisolao",
+  "name": "Camisolão",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 12,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "descanso_confortavel_vira_luxuoso": "se for o único item vestido durante o sono"
+  },
+  "description": "Roupa de dormir feita de tecido macio, aberta o bastante para ser fresca no calor e aconchegante o suficiente para aquecer no frio. Inclui gorro com pompom. Dormir com um camisolão e nenhum outro item vestido transforma condições de descanso confortáveis em luxuosas.",
+  "livro": "herois_de_arton"
+}

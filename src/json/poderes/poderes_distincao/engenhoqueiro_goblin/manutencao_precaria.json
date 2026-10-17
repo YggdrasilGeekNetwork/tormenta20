@@ -1,0 +1,15 @@
+{
+  "id": "manutencao_precaria",
+  "name": "Manutenção Precária",
+  "type": "poder_distincao",
+  "description": "Se algo se move e não devia, basta amarrar. Se não se move e devia, é só passar óleo. Você pode usar um tempo entre aventuras (Tormenta20, p. 276) para fabricar um número de engenhocas igual a 1d3 + o número de poderes da distinção que você possui. Você precisa pagar os custos normais e fazer os testes normais para fabricá-las. Essas engenhocas não contam no seu limite de engenhocas e deixam de funcionar no fim da próxima aventura.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo": "um tempo entre aventuras",
+      "efeito": "fabrica 1d3 + número de poderes da distinção engenhocas (pagando custos e testes normais); não contam no limite de engenhocas e deixam de funcionar no fim da próxima aventura"
+    }
+  ],
+  "requirements": ["Aprimorar Bugiganga"],
+  "livro": "herois_de_arton"
+}

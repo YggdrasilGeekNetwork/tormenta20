@@ -1,0 +1,10 @@
+{
+  "id": "vigarista",
+  "name": "Vigarista",
+  "description": "Golpista habilidoso que aplica grandes trapaças e esquemas elaborados, driblando a lei, a moral e até os próprios deuses.",
+  "admissao": "Não existe organização formal de vigaristas nem treinamento estruturado. O candidato precisa antes de tudo aceitar que, por enquanto, é um otário: deve buscar um ou mais golpistas e realmente cair em vários de seus golpes (não basta fingir ou entregar dinheiro voluntariamente), só assim entendendo como funciona a vigarice na prática. Quando julgar que está pronto, deve então aplicar um grande golpe próprio, um esquema elaborado com várias etapas e muitas vítimas. Se tiver sucesso, torna-se um verdadeiro vigarista; se falhar, perde tudo que ganhou (vítima de outro golpe) e deve recomeçar o processo do zero.",
+  "marca_nome": "Tirar Leite de Pedra",
+  "marca_descricao": "Onde os outros veem miséria, o vigarista vê oportunidade. Quando está em qualquer tipo de comunidade, você pode usar Enganação para fazer testes de sustento (Tormenta20, p. 128) com pequenos golpes: vendendo poções falsas, lixo como relíquias sagradas ou qualquer outro produto enganoso. Você leva 1 dia, em vez de uma semana, para fazer esse teste, e recebe um bônus de +2 em cidades, +5 em vilas e +10 em aldeias. Se falhar em um teste, não pode tentar de novo na mesma comunidade durante um mês… e, se rolar 1 natural no teste, é desmascarado pela população!",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

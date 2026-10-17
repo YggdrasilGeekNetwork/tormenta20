@@ -1,0 +1,63 @@
+{
+  "id": "ossos_de_adamante",
+  "name": "Ossos de Adamante",
+  "type": "arcana",
+  "circle": "1",
+  "school": "trans",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": {
+    "amount": null,
+    "up_to": null,
+    "type": "você"
+  },
+  "effect": "voce",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Esta magia confere resistência extraordinária ao esqueleto, evitando ataques que causam fraturas graves. O alvo recebe redução de impacto 5 e fortificação 25%.\nDevido à rigidez do esqueleto, o corpo do alvo se torna incapaz de mudar de forma (como usar ou encerrar a habilidade Forma Selvagem). Se sofrer um efeito de metamorfose, em vez de mudar de forma o alvo perde 1d6 PV por PM gasto no efeito e fica lento. Essa condição não pode ser removida enquanto Ossos de Adamante estiver em efeito. Esta magia não afeta construtos.",
+  "enhancements": [
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "muda a redução de impacto para RD 5 e a fortificação para 50%. Requer 2º círculo.",
+      "extra_details": {
+        "requirements": "2º círculo"
+      }
+    },
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "muda o alcance para toque e o alvo para 1 criatura viva.",
+      "extra_details": {
+        "range": "toque",
+        "target": {
+          "amount": 1,
+          "up_to": null,
+          "type": "criatura_viva"
+        }
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "bônus",
+      "attribute": "reducao_de_impacto",
+      "amount": "5",
+      "resistence_requirement": null,
+      "extra_requirements": null
+    },
+    {
+      "type": "bônus",
+      "attribute": "fortificacao",
+      "amount": "25%",
+      "resistence_requirement": null,
+      "extra_requirements": null
+    }
+  ],
+  "livro": "herois_de_arton"
+}

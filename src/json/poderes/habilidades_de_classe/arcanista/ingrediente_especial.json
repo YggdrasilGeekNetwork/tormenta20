@@ -1,0 +1,27 @@
+{
+  "id": "ingrediente_especial",
+  "name": "Ingrediente Especial",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Quando usa uma poção, você pode usar um catalisador e aplicar seus efeitos a ela. Pré-requisitos: Caldeirão do Bruxo, 5º nível de arcanista.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "caldeirao_do_bruxo"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "apply_item_effect",
+      "item": "catalisador",
+      "applies_to": "pocao_em_uso"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

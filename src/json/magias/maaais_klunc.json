@@ -1,0 +1,74 @@
+{
+  "id": "maaais_klunc",
+  "name": "Maaais Klunc",
+  "type": "arcana",
+  "circle": "1",
+  "school": "trans",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": {
+    "amount": null,
+    "up_to": null,
+    "type": "você"
+  },
+  "effect": "voce",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Esta magia surgiu com o objetivo de invocar a força estupenda e estapafúrdia de certo bárbaro lendário, capaz de alcançar dimensões colossais. Infelizmente (ou talvez felizmente) seus efeitos reais são muito mais brandos, pouco se aproximando do poder descomunal e descabido do bruto em questão. Melhor assim.\nAo lançar a magia, você adquire uma fantástica Força +10. Um relevante efeito colateral, contudo, é que sua Inteligência cai para acachapantes –3. Não, não uma penalidade de –3; um valor –3! Penalidades no atributo são aplicadas após isso.\nPela duração de Maaais Klunc, você não pode lançar magias, nem é capaz de interromper esta magia de forma voluntária — nem mesmo soletrar essa palavra. O mestre pode (vai) exigir testes de Inteligência mesmo para as tarefas mentais mais simplórias, como achar a saída de um aposento vazio, diferenciar aliados de inimigos ou determinar qual extremidade da arma vai na direção do adversário.",
+  "enhancements": [
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "muda o alcance para toque e o alvo para 1 criatura voluntária (por que alguém seria voluntário?). Requer 2º círculo.",
+      "extra_details": {
+        "requirements": "2º círculo",
+        "range": "toque",
+        "target": {
+          "amount": 1,
+          "up_to": null,
+          "type": "criatura_voluntaria"
+        }
+      }
+    },
+    {
+      "cost": 5,
+      "type": "muda",
+      "description": "muda o alcance para curto e o alvo para 1 criatura involuntária (Vontade evita). Requer 3º círculo. Espera, o quê!?",
+      "extra_details": {
+        "requirements": "3º círculo",
+        "range": "curto_6m_9q",
+        "resistence": {
+          "effect": "evita",
+          "skill": "vontade"
+        },
+        "target": {
+          "amount": 1,
+          "up_to": null,
+          "type": "criatura_involuntaria"
+        }
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "aumenta",
+      "attribute": "forca",
+      "amount": "+10",
+      "resistence_requirement": null,
+      "extra_requirements": null
+    },
+    {
+      "type": "diminui",
+      "attribute": "inteligencia",
+      "amount": "-3_valor_fixo",
+      "resistence_requirement": null,
+      "extra_requirements": "penalidades_aplicadas_depois"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

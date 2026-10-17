@@ -1,0 +1,15 @@
+{
+  "id": "estrada",
+  "name": "Estrada",
+  "description": "Este caminho de terra cruza todo o domínio, conta com marcadores de distância e possui valetas para que não vire um lamaçal. O costume de viajar o torna habituado a reagir rapidamente. Fornece +2 em Iniciativa.",
+  "categoria": "nobreza",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "bonus_iniciativa",
+      "value": 2
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

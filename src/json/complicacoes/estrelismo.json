@@ -1,0 +1,25 @@
+{
+  "id": "estrelismo",
+  "name": "Estrelismo",
+  "description": "Você é lindo, talentoso e… extremamente egocêntrico. Você sofre –5 em testes de Diplomacia e Intuição. Além disso, sempre que falha em um teste de Atuação, fica alquebrado até o fim da cena.",
+  "categoria": "bardo",
+  "effects": [
+    {
+      "type": "penalidade_pericia",
+      "pericia": "diplomacia",
+      "value": -5
+    },
+    {
+      "type": "penalidade_pericia",
+      "pericia": "intuicao",
+      "value": -5
+    },
+    {
+      "type": "condicao_condicional",
+      "gatilho": "falha_em_teste_de_atuacao",
+      "efeito": "fica_alquebrado_ate_o_fim_da_cena"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

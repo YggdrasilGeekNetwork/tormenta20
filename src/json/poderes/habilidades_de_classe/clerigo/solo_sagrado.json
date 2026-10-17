@@ -1,0 +1,24 @@
+{
+  "id": "solo_sagrado",
+  "name": "Solo Sagrado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Quando você lança uma magia de luz dentro de uma área de Consagrar, criaturas a sua escolha nessa área recebem RD igual ao dobro do círculo da magia contra o próximo dano que sofrerem até o início do seu próximo turno. Pré-requisito: Consagrar.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "magia_sagrada_profana"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_reduction_improvement",
+      "value": "dobro_do_circulo_da_magia",
+      "trigger": "magia_de_luz_dentro_de_area_de_consagrar",
+      "target": "criaturas_a_escolha_na_area",
+      "duration": "ate_inicio_do_proximo_turno_contra_o_proximo_dano"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "olhos_do_corvo",
+  "name": "Olhos do Corvo",
+  "categoria": "menor",
+  "preco": 9000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta tira de tecido deve ser amarrada sobre os olhos como uma venda, cobrindo-os com desenhos que imitam olhos de ave. Enquanto usa o item, você fica cego em ambientes iluminados, mas em ambientes escuros (escuridão leve ou total, mundana ou mágica) enxerga normalmente e fica imune às condições cego e ofuscado.",
+  "effects": [
+    {
+      "type": "condicao_negativa",
+      "condicao": "cego",
+      "contexto": "ambientes iluminados"
+    },
+    {
+      "type": "visao_especial",
+      "contexto": "ambientes escuros (leve ou total, mundana ou mágica)",
+      "descricao": "enxerga normalmente e fica imune a cego e ofuscado"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

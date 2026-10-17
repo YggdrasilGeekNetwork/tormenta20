@@ -1,0 +1,28 @@
+{
+  "id": "postura_de_combate_quebra_magia",
+  "name": "Postura de Combate: Quebra-Magia",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Você recebe resistência a magia +2. Para cada PM adicional que você gastar quando assumir esta postura, esse bônus aumenta em +1. Além disso, uma vez por rodada, quando uma criatura em seu alcance usa uma habilidade mágica, você pode gastar 1 PM para fazer um ataque corpo a corpo contra ela.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "magic_resistance_improvement",
+      "value": 2,
+      "scalable_with_pm": true
+    },
+    {
+      "type": "active",
+      "frequency": "1_por_rodada",
+      "trigger": "criatura_no_alcance_usa_habilidade_magica",
+      "effect": "ataque_corpo_a_corpo_contra_ela"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

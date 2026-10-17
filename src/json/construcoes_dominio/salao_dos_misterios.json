@@ -1,0 +1,16 @@
+{
+  "id": "salao_dos_misterios",
+  "name": "Salão dos Mistérios",
+  "description": "Um ambiente repleto de objetos do oculto, como livros, pergaminhos, cristais, ervas, runas, ossos... além de ser o lar de corvos, gatos pretos, diabretes e outros bichinhos conectados ao lado arcano do mundo. Fornece +2 em Misticismo.",
+  "categoria": "misticismo",
+  "custo": 15,
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Misticismo",
+      "value": 2
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

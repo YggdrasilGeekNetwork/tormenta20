@@ -1,0 +1,16 @@
+{
+  "id": "linhas_misticas",
+  "name": "Linhas Místicas",
+  "description": "Você acessa linhas de energia que cruzam a terra e as canaliza para seu domínio, mantendo um fluxo constante de poder mágico. Sempre que você descansa, sua recuperação de pontos de mana aumenta em +1 por nível.",
+  "categoria": "misticismo",
+  "custo": 25,
+  "effects": [
+    {
+      "type": "bonus_recuperacao_pm",
+      "value": "+1 por nível",
+      "quando": "ao descansar"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

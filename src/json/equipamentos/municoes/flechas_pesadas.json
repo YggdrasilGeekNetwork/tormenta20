@@ -1,0 +1,20 @@
+{
+  "id": "flechas_pesadas",
+  "name": "Flechas Pesadas",
+  "type": "municao",
+  "preco": 10,
+  "quantidade": 20,
+  "espacos": 1,
+  "armas_compativeis": [
+    "arco_curto",
+    "arco_longo",
+    "arco_montado",
+    "arco_de_guerra"
+  ],
+  "especial": {
+    "penalidade_ataque": -2,
+    "ignora_rd": 5
+  },
+  "description": "Versão de ponta mais pesada e afiada das flechas normais. Você sofre –2 em testes de ataque com estas flechas, mas ignora 5 pontos da RD dos alvos.",
+  "livro": "herois_de_arton"
+}

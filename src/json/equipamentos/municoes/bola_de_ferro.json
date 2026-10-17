@@ -1,0 +1,16 @@
+{
+  "id": "bola_de_ferro",
+  "name": "Bola de Ferro",
+  "type": "municao",
+  "preco": 5,
+  "quantidade": 1,
+  "espacos": 0.5,
+  "armas_compativeis": [
+    "canhao_portatil"
+  ],
+  "especial": {
+    "vendida_individualmente": true
+  },
+  "description": "Esferas metálicas com pólvora, munição de canhões portáteis. Diferente de outras munições, são vendidas individualmente.",
+  "livro": "herois_de_arton"
+}

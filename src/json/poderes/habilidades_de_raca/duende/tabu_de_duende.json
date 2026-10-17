@@ -1,0 +1,12 @@
+{
+  "id": "tabu_de_duende",
+  "name": "Tabu",
+  "type": "habilidade_de_raca",
+  "race": "duende",
+  "description": "Você possui um tabu — algo que nunca pode fazer (ou deixar de fazer) — criado junto com o mestre. Impõe uma penalidade de –5 em Diplomacia, Iniciativa, Luta ou Percepção (à escolha, conforme a natureza do tabu). Se desrespeitar o tabu, fica fatigado por um dia (nenhum efeito pode curar, mesmo com imunidade à condição). Se continuar desrespeitando no dia seguinte, fica exausto. Se persistir no terceiro dia, morre.",
+  "effects": {
+    "penalidade_fixa": { "pericias": ["Diplomacia", "Iniciativa", "Luta", "Percepção"], "escolha": 1, "value": -5 },
+    "consequencia_quebra": ["fatigado (dia 1, incurável)", "exausto (dia 2)", "morte (dia 3)"]
+  },
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "armadilha_instantanea",
+  "name": "Armadilha Instantânea",
+  "type": "poder_distincao",
+  "description": "Combinando o ambiente e seus próprios mecanismos, o armadilheiro produz armadilhas em um piscar de olhos. Escolha duas armadilhas entre as de armadilheiro e as de caçador. Uma vez feita, essa escolha não pode ser mudada. Você pode preparar as armadilhas escolhidas conforme as regras de Armadilhas (Tormenta20, p. 51), mas não precisa estar em um ambiente propício (porque usa seus próprios materiais) e pode usar Inteligência como atributo-chave da CD para encontrar, desarmar e evitar essas armadilhas. A cada novo poder da distinção, você pode escolher uma nova armadilha.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "escolhe duas armadilhas entre as de armadilheiro e as de caçador (escolha fixa); pode prepará-las sem precisar de ambiente propício, usando Inteligência como atributo-chave da CD para encontrar, desarmar e evitar essas armadilhas; a cada novo poder da distinção pode escolher uma nova armadilha"
+    },
+    {
+      "type": "armadilhas_de_armadilheiro",
+      "descricao": "Lista de armadilhas exclusivas do armadilheiro mestre, disponíveis para escolha com este poder",
+      "opcoes": [
+        {
+          "nome": "Atordoante",
+          "efeito": "A criatura sofre 4d8 pontos de dano de impacto e fica atordoada por 1 rodada (Fortitude CD Int evita a condição). Uma criatura só pode ser atordoada por esta armadilha uma vez por cena."
+        },
+        {
+          "nome": "Barril de Óleo",
+          "efeito": "Criaturas na área ficam vulneráveis a fogo até se limparem (o que exige uma ação completa)."
+        },
+        {
+          "nome": "Buraco Portátil",
+          "efeito": "Um fosso se abre na área. Queda de 6m causa 4d6 pontos de dano de impacto (Atletismo CD 20 para escalar de volta, Reflexos CD Int evita e move para fora da área)."
+        },
+        {
+          "nome": "Constrangedora",
+          "efeito": "A criatura sofre um efeito constrangedor, como ser coberta de piche e penas. A vítima fica pasma por 1 rodada e frustrada (Vontade CD Int evita a condição pasmo). Uma criatura só pode ficar pasma por esta armadilha uma vez por cena."
+        },
+        {
+          "nome": "Fumaça",
+          "efeito": "Uma nuvem de fumaça espessa obscurece toda a visão na área e dura até o fim da cena. Criaturas a até 1,5m têm camuflagem leve e criaturas a partir de 3m têm camuflagem total."
+        },
+        {
+          "nome": "Luz",
+          "efeito": "Criaturas na área ficam cegas por 1d4 rodadas e depois ofuscadas (Reflexos CD Int evita a condição cego)."
+        },
+        {
+          "nome": "Mola",
+          "efeito": "A criatura é empurrada 9m na direção oposta ao centro da armadilha e fica caída (Reflexos CD Int evita o empurrão). Se colidir com algum obstáculo no caminho do empurrão, a vítima sofre 2d6 pontos de dano de impacto."
+        },
+        {
+          "nome": "Mina",
+          "efeito": "Criaturas na área sofrem 4d6 pontos de dano de impacto e são empurradas 3m na direção oposta ao centro da armadilha (Reflexos CD Int reduz à metade e evita o empurrão)."
+        },
+        {
+          "nome": "Substância Enervante",
+          "efeito": "Criaturas na área são cobertas por substâncias enervantes que impedem que elas façam quaisquer ações que exijam calma ou concentração (como lançar magias) até se limparem (uma ação padrão)."
+        }
+      ]
+    }
+  ],
+  "requirements": [
+    "treinado em Ladinagem",
+    "treinado em Ofício (artesão)"
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "veste_acolchoada",
+  "name": "Veste Acolchoada",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 60,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "uso": "vestida sob uma armadura",
+    "penalidade_armadura_adicional": -2,
+    "reducao_multiplicador_critico": {
+      "valor": -1,
+      "minimo": "x2"
+    }
+  },
+  "description": "Traje completo (casaco, calças, capuz) feito de tecido resistente estofado com lã ou algodão. Usado sob uma armadura, aumenta sua penalidade de armadura em –2, mas reduz o multiplicador de crítico de qualquer ataque sofrido em –1 (mínimo x2).",
+  "livro": "herois_de_arton"
+}

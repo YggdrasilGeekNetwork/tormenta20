@@ -1,0 +1,16 @@
+{
+  "id": "assado_de_carnes",
+  "name": "Assado de Carnes",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 60,
+  "espacos": 0.5,
+  "livro": "herois_de_arton",
+  "ingredientes": ["carne", "carne_de_caca", "porco"],
+  "custo_ingredientes": 56,
+  "cd_teste_oficio_cozinheiro": 25,
+  "efeito": {
+    "bonus_dano_corpo_a_corpo": 2
+  },
+  "description": "Um prato muito apreciado no Reinado, mas mal visto no Império de Tauron. Pura proteína, deixa qualquer um mais forte. Você recebe +2 em rolagens de dano corpo a corpo."
+}

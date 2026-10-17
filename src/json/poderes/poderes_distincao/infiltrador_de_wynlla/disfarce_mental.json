@@ -1,0 +1,14 @@
+{
+  "id": "disfarce_mental",
+  "name": "Disfarce Mental",
+  "type": "poder_distincao",
+  "description": "\"Se sua identidade for descoberta, o Conselho negará qualquer envolvimento com você.\" Você pode usar Inteligência no lugar de Carisma para Enganação. Quando usa Disfarce Ilusório em si mesmo, você pode usar Inteligência no lugar do atributo-chave de uma perícia a sua escolha, adequada ao disfarce escolhido, e recebe +5 em testes de resistência contra efeitos mágicos de adivinhação.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "usa Inteligência em vez de Carisma para Enganação; com Disfarce Ilusório em si mesmo, usa Inteligência no lugar do atributo-chave de uma perícia escolhida e recebe +5 contra efeitos de adivinhação"
+    }
+  ],
+  "requirements": ["Trapaça Arcana", "Disfarce Ilusório"],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "hedonismo_aristocratico",
+  "name": "Hedonismo Aristocrático",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Uma vez por dia, você pode gastar 1 hora e um valor a sua escolha entre T$ 100, T$ 500 e T$ 2.000 em luxos como comida, bebida e apresentações artísticas. Se tiver gastado T$ 100, você recebe 4 PM temporários por patamar, que duram até o fim do dia. Se tiver gastado T$ 500, o ganho aumenta para 5 PM por patamar e, se tiver gastado T$ 2.000, para 6 PM por patamar.",
+  "requirements": [
+    {
+      "type": "fearute_use_time",
+      "sub_type": "soft",
+      "time": "uma_vez_por_dia"
+    }
+  ],
+  "effects": [
+    {
+      "type": "PM_improvement",
+      "value": "4_5_ou_6_por_patamar_conforme_o_valor_gasto",
+      "duration": "dia"
+    }
+  ],
+  "costs": [
+    {
+      "type": "hora"
+    },
+    {
+      "value": "100_500_ou_2000",
+      "type": "tibares"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

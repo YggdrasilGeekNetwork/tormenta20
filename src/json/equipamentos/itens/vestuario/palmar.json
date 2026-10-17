@@ -1,0 +1,16 @@
+{
+  "id": "palmar",
+  "name": "Palmar",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 12,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "impede_empunhar_itens": true,
+    "natacao_deslocamento_inteiro_em_teste_bem_sucedido": true
+  },
+  "description": "Equipamento usado nas mãos, parecendo leques ou pequenas pranchas que as recobrem. Um personagem usando palmares não pode empunhar nada em nenhuma das mãos. Contudo, quando passa em um teste de Atletismo para natação, avança seu deslocamento inteiro (em vez de metade).",
+  "livro": "herois_de_arton"
+}

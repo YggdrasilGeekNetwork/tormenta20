@@ -1,0 +1,23 @@
+{
+  "id": "dirigivel_goblin",
+  "name": "Dirigível Goblin",
+  "type": "item",
+  "categoria": "veiculo",
+  "preco": 1200,
+  "espacos": 0,
+  "estatisticas": {
+    "tamanho": "enorme",
+    "deslocamento": "voo 12m",
+    "defesa": "5 + Des do piloto",
+    "pv": 180,
+    "capacidade_criaturas": 16,
+    "capacidade_tamanho": "medio",
+    "capacidade_espacos": 320
+  },
+  "especial": {
+    "facilita_equipar_armas": "balestras e um eventual canhão",
+    "segue_regras_de_queda_e_reparo_do_balao_goblin": true
+  },
+  "description": "Versão maior e mais robusta do balão goblin (Tormenta20, p.163), e proporcionalmente mais perigosa. É formado por vários conjuntos de bolsas de ar quente (ou gás mais leve que o ar) amarradas a uma gôndola alongada, semelhante ao casco de um navio. O formato da gôndola e a disposição das cordas dos balões torna mais fácil equipar o veículo com armas como balestras e, por que não, um eventual canhão. Segue as mesmas regras de queda e reparos do balão goblin.",
+  "livro": "herois_de_arton"
+}

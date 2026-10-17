@@ -1,0 +1,16 @@
+{
+  "id": "palco",
+  "name": "Palco",
+  "description": "Um tablado elevado para espetáculos artísticos. Apresentar-se com frequência mantém suas habilidades afiadas, fornecendo +2 em Atuação.",
+  "categoria": "enganacao",
+  "custo": 4,
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Atuação",
+      "value": 2
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

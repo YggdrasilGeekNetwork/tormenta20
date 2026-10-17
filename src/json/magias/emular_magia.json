@@ -1,0 +1,41 @@
+{
+  "id": "emular_magia",
+  "name": "Emular Magia",
+  "type": "universal",
+  "circle": "2",
+  "school": "evoc",
+  "execution": "movimento",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": {
+    "amount": null,
+    "up_to": null,
+    "type": "você"
+  },
+  "effect": "voce",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Pela duração de Emular Magia, você pode lançar uma única magia que tenha visto ser lançada em alcance curto desde sua última rodada. A magia deve ser de um tipo (arcana ou divina) e de um círculo a que você tenha acesso.",
+  "enhancements": [
+    {
+      "cost": 1,
+      "type": "muda",
+      "description": "a magia emulada pode ser de qualquer tipo, arcana ou divina.",
+      "extra_details": null
+    }
+  ],
+  "effects": [
+    {
+      "type": "outro",
+      "attribute": null,
+      "amount": null,
+      "resistence_requirement": null,
+      "extra_requirements": "permite_lancar_magia_vista_recentemente"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "manto_de_batalha",
+  "name": "Manto de Batalha",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Você aprende e pode lançar Vestimenta da Fé, e pode usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um clérigo de seu nível.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "learn_magic",
+      "magic": "vestimenta_da_fe"
+    },
+    {
+      "type": "magic_type",
+      "note": "pode_usar_aprimoramentos_como_se_tivesse_acesso_aos_mesmos_circulos_de_um_clerigo_do_mesmo_nivel"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

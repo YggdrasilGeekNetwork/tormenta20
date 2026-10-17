@@ -1,0 +1,17 @@
+{
+  "id": "avental_de_forja",
+  "name": "Avental de Forja",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 75,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "custo": "1d6 PV",
+    "beneficio": "+1 em um teste de Ofício",
+    "cumulativo_com_itens": true
+  },
+  "description": "Avental grosso, feito de couro tratado alquimicamente. Um artesão protegido dessa forma não precisa se preocupar com faíscas e gotas de metal derretido respingando sobre seu peito, podendo se arriscar mais ao trabalhar. Se estiver usando um avental de forja, você pode perder 1d6 PV para receber +1 em um teste de Ofício (cumulativo com outros itens).",
+  "livro": "herois_de_arton"
+}

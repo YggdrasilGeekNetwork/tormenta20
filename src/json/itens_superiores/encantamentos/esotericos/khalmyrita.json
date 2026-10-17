@@ -1,0 +1,19 @@
+{
+  "id": "khalmyrita",
+  "name": "Khalmyrita",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico está imbuído com a presença estável da Ordem. Quando lança uma magia com efeito variável, em vez de rolar os dados você pode escolher um valor igual à média da rolagem. Um esotérico khalmyrita não pode ser nímbico.",
+  "effects": [
+    {
+      "type": "rolagem_efeito",
+      "condicao": "magia com efeito variável",
+      "opcao": "usar o valor igual à média da rolagem em vez de rolar os dados"
+    },
+    {
+      "type": "nota",
+      "descricao": "um esotérico khalmyrita não pode também ser nímbico"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

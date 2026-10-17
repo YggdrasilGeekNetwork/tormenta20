@@ -1,0 +1,14 @@
+{
+  "id": "prateleiras_reforcadas",
+  "name": "Prateleiras Reforçadas",
+  "description": "Móveis que vão do chão ao teto, repletos de livros. Instaladas na biblioteca, fornecem uma perícia treinada.",
+  "effects": [
+    {
+      "type": "pericia_treinada",
+      "value": 1
+    }
+  ],
+  "preco": 2000,
+  "comodo_alvo": "biblioteca",
+  "livro": "herois_de_arton"
+}

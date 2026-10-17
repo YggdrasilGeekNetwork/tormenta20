@@ -1,0 +1,16 @@
+{
+  "id": "dado_viciado",
+  "name": "Dado Viciado",
+  "type": "poder_distincao",
+  "description": "A realidade é só mais uma mesa de jogo, onde vence quem tem os melhores dados. No início de cada cena, você recebe 1d6 como dado de auxílio, +1d6 para cada outros dois poderes da distinção que possua. Quando faz um teste de perícia, você pode pagar 1 PM para cada dado de auxílio que quiser gastar, e soma o resultado deles como bônus no teste. Além disso, sempre que rolar mais de um dado de auxílio e o resultado de pelo menos dois deles for igual, você ganha 1 PM temporário por dado igual.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "no início de cada cena, recebe 1d6 como dado de auxílio, +1d6 para cada outros dois poderes da distinção; ao fazer um teste de perícia, pode pagar 1 PM por dado de auxílio para somar o resultado deles como bônus; se rolar mais de um dado de auxílio e dois ou mais tiverem resultado igual, ganha 1 PM temporário por dado igual"
+    }
+  ],
+  "requirements": [
+    "treinado em Jogatina"
+  ],
+  "livro": "herois_de_arton"
+}

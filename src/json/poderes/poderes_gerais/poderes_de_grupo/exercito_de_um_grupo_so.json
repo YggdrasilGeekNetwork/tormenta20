@@ -1,0 +1,44 @@
+{
+  "id": "exercito_de_um_grupo_so",
+  "name": "Exército de Um Grupo Só",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Você e seu grupo são mais que um bando de aventureiros — com disciplina inquebrável, estratégias coordenadas e planejamento meticuloso, são soldados e generais de seu próprio exército. Juntos, lutam como uma tropa organizada. Você pode gastar uma ação padrão e 2 PM para formar um bando com seus aliados com este poder, desde que cada um gaste uma ação padrão e 2 PM na mesma rodada. Enquanto estiverem formando um bando com você, os aliados não podem executar ações (exceto reações), mas cada um fornece +2 em seus testes de ataque. Quando você ataca, causa metade do dano mesmo que erre e, se acertar por 10 ou mais, seus aliados podem rolar o dano de um único ataque que poderiam fazer com uma ação padrão e somar ao dano do seu ataque (esse dano não é multiplicado em caso de acerto crítico). O bando se mantém até um personagem desfazer a formação (uma ação livre) ou ficar inconsciente, ou até o fim da cena.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "guerra"
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "active_ability",
+      "action": "padrao",
+      "effect": "forma_bando_com_aliados_com_este_poder_que_tambem_gastem_acao_padrao_e_2_pm",
+      "band_effect": {
+        "attack_improvement": 2,
+        "half_damage_on_miss": true,
+        "extra_damage_on_hit_by_10_or_more": "aliados_somam_dano_de_um_ataque_de_acao_padrao_nao_multiplicado_em_critico"
+      },
+      "restriction": "aliados_no_bando_so_podem_fazer_reacoes",
+      "duration": "ate_desfazer_ficar_inconsciente_ou_fim_da_cena"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

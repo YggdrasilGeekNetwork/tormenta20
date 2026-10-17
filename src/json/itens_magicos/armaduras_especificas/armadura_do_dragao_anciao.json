@@ -1,0 +1,39 @@
+{
+  "id": "armadura_do_dragao_anciao",
+  "name": "Armadura do Dragão Ancião",
+  "subtipo": "armadura",
+  "base_item": "armadura_completa",
+  "preco": 100000,
+  "description": "Esta armadura completa guardiã invulnerável feita de escamas douradas iridescentes é incrivelmente resistente. Você recebe redução de eletricidade, fogo e frio 10. Além disso, enquanto estiver com menos da metade dos seus pontos de vida, você pode emitir um rugido dracônico idêntico ao efeito de um item assustador (Tormenta20, p. 338).",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "guardiã"
+    },
+    {
+      "type": "enchantment",
+      "name": "invulnerável"
+    },
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "tipo_dano": "eletricidade"
+    },
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "tipo_dano": "fogo"
+    },
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "tipo_dano": "frio"
+    },
+    {
+      "type": "ativado",
+      "condicao": "com menos da metade dos PV",
+      "efeito": "emite um rugido dracônico idêntico ao efeito de um item assustador (Tormenta20, p. 338)"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

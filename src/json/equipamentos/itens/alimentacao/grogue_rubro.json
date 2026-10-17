@@ -1,0 +1,16 @@
+{
+  "id": "grogue_rubro",
+  "name": "Grogue Rubro",
+  "type": "item",
+  "categoria": "alimentacao",
+  "subcategoria": "bebida",
+  "preco": 45,
+  "espacos": 0.5,
+  "alcoolica": true,
+  "cd_embriaguez": 20,
+  "efeito": {
+    "permite_audacia_em_testes_de_ataque": true
+  },
+  "description": "Variação do grogue negro, com especiarias picantes que dão à bebida uma coloração avermelhada — e a quem a bebe, certa inclinação para a violência. Você pode usar Audácia para testes de ataque. CD 20.",
+  "livro": "herois_de_arton"
+}

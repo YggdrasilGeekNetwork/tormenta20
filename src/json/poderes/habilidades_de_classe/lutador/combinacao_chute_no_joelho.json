@@ -1,0 +1,39 @@
+{
+  "id": "combinacao_chute_no_joelho",
+  "name": "Combinação: Chute no Joelho",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Quando faz um ataque, você pode gastar 1 PM para que seu golpe seja um chute baixo cruel. Se acertar, até o fim do seu próximo turno o oponente fica lento e sofre uma penalidade em testes de ataque e rolagens de dano igual à sua contagem de combinações.",
+  "requirements": [
+    {
+      "type": "attack_type",
+      "sub_type": "soft",
+      "attack": "desarmado"
+    }
+  ],
+  "effects": [
+    {
+      "type": "condition",
+      "condition": "lento",
+      "duration": "fim_do_proximo_turno",
+      "requirement": "acertar"
+    },
+    {
+      "type": "attack_penalty",
+      "value": "contagem_de_combinacoes_negativo",
+      "duration": "fim_do_proximo_turno"
+    },
+    {
+      "type": "damage_ataque",
+      "value": "contagem_de_combinacoes_negativo",
+      "note": "penalidade_em_rolagens_de_dano"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

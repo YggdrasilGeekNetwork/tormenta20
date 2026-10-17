@@ -1,0 +1,38 @@
+{
+  "id": "familiar_de_elemento",
+  "name": "Familiar de <Elemento>",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Seu familiar se transforma em uma criatura elemental (por exemplo, se você é um qareen do fogo e seu familiar é um corvo, ele passa a ser um corvo feito de chamas). Seu familiar se torna imune a dano do seu elemento e, sempre que você lança uma magia que gere um efeito desse elemento, recebe +1 PM para gastar em aprimoramentos. Ele continua fornecendo seus benefícios originais.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "qareen",
+      "note": "qareen da Água, Ar, Fogo ou Terra"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "familiar"
+    }
+  ],
+  "effects": [
+    {
+      "type": "familiar_transform",
+      "form": "elemental_do_elemento_do_qareen"
+    },
+    {
+      "type": "immunity",
+      "value": "dano_do_elemento",
+      "target": "familiar"
+    },
+    {
+      "type": "pm_improvement",
+      "value": 1,
+      "trigger": "lancar_magia_com_efeito_do_elemento",
+      "use": "aprimoramentos"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

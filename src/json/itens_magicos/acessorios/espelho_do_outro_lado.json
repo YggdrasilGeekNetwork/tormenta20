@@ -1,0 +1,23 @@
+{
+  "id": "espelho_do_outro_lado",
+  "name": "Espelho do Outro Lado",
+  "categoria": "medio",
+  "preco": 18000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este pequeno espelho de bronze polido reflete não apenas a imagem física, mas a alma do indivíduo que o encara. Uma vez por aventura, você pode encarar o espelho para conversar por alguns minutos com sua contraparte espiritual. O resultado da interação é imprevisível, pois o reflexo pode se manifestar como um aliado solícito que oferece conselhos ou como um crítico severo que diminui sua autoconfiança. Em termos de regras, role 1d10–3. Se você rolar um número positivo, recebe esse número em d6 de auxílio — até o fim da aventura, quando faz um teste de perícia, pode gastar até 2d6 e adicionar o resultado como bônus no teste (cumulativo com bônus de outros itens). Se você rolar um número negativo, o mestre recebe esse número em d6. Até o fim da aventura, quando você faz um teste de perícia, o mestre pode gastar qualquer quantidade desses dados e impor o resultado como uma penalidade no teste.",
+  "effects": [
+    {
+      "type": "uso_narrativo",
+      "frequencia": "1x por aventura",
+      "descricao": "conversar com a contraparte espiritual"
+    },
+    {
+      "type": "rolagem_efeito",
+      "dado": "1d10-3",
+      "resultado_positivo": "recebe esse número em d6 de auxílio; até o fim da aventura pode gastar até 2d6 por teste de perícia como bônus, cumulativo",
+      "resultado_negativo": "mestre recebe esse número em d6 para impor como penalidade em testes de perícia do usuário até o fim da aventura"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "indolente",
+  "name": "Indolente",
+  "description": "Você é apático e preguiçoso. Você sofre –5 em Reflexos e –3m em seu deslocamento.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_pericia",
+      "pericia": "reflexos",
+      "value": -5
+    },
+    {
+      "type": "penalidade_deslocamento",
+      "value": -3
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

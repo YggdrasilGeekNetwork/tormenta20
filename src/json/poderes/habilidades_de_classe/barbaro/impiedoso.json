@@ -1,0 +1,26 @@
+{
+  "id": "impiedoso",
+  "name": "Impiedoso",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Você recebe +2 em testes de ataque, rolagens de dano e na CD de suas habilidades contra criaturas vulneráveis.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": 2,
+      "condition": "alvo_vulneravel"
+    },
+    {
+      "type": "damage_improvement",
+      "value": 2,
+      "condition": "alvo_vulneravel"
+    },
+    {
+      "type": "dc_improvement",
+      "value": 2,
+      "condition": "alvo_vulneravel"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

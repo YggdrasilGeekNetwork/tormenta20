@@ -1,0 +1,23 @@
+{
+  "id": "artesao_criativo",
+  "name": "Artesão Criativo",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Você pode usar Ofício (artesão) no lugar de qualquer outro Ofício para qualquer fim (como pré-requisitos, por exemplo).",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "oficio_artesao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "switch_skill_attr",
+      "skill": "qualquer_oficio",
+      "note": "pode_usar_oficio_artesao_no_lugar_de_qualquer_outro_oficio"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

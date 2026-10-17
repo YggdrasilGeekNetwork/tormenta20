@@ -1,0 +1,16 @@
+{
+  "id": "autodestruicao",
+  "name": "Autodestruição",
+  "type": "poder_distincao",
+  "description": "O engenhoqueiro conhece muito bem a dor de uma explosão na cara. E está mais do que disposto a compartilhar esse conhecimento. Você pode gastar uma ação completa e uma quantidade de PM limitada pelo total de poderes da distinção que possui para forçar uma falha crítica em uma engenhoca (veja Engenhocaria Goblinoide) e arremessá-la em um ponto em alcance curto para que exploda. A explosão atinge uma esfera com 1d4 x 1,5m de raio e seu dano aumenta em +2d6 pontos por PM gasto.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "completa",
+      "custo_pm": "limitado pelo total de poderes da distinção que possui",
+      "efeito": "força falha crítica em uma engenhoca e a arremessa em alcance curto; explosão em esfera de 1d4x1,5m de raio, dano +2d6 por PM gasto"
+    }
+  ],
+  "requirements": ["Abandonar Geringonça"],
+  "livro": "herois_de_arton"
+}

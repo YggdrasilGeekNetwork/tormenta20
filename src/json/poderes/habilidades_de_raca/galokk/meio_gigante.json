@@ -1,0 +1,13 @@
+{
+  "id": "meio_gigante",
+  "name": "Meio-Gigante",
+  "type": "habilidade_de_raca",
+  "race": "galokk",
+  "description": "Você é uma criatura do tipo humanoide (gigante). Seu tamanho é Grande e você pode usar Força como atributo-chave de Intimidação.",
+  "effects": {
+    "creature_type": "humanoide (gigante)",
+    "size": "grande",
+    "attribute_override": { "aplica_a": ["Intimidação"], "atributo": "forca" }
+  },
+  "livro": "herois_de_arton"
+}

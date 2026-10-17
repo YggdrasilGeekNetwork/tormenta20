@@ -1,0 +1,11 @@
+{
+  "id": "combate_avancado_rd_combinada",
+  "name": "RD Combinada",
+  "description": "Regra opcional de combate avançado (Heróis de Arton, Cap. 4). Nesta regra, a redução de dano fornecida por armaduras e por escudos se acumula, em vez de usar apenas o maior valor. Por exemplo, se estiver usando uma armadura e um escudo pesados de adamante, você tem RD 7.",
+  "livro": "herois_de_arton",
+  "efeito": {
+    "regra_padrao": "usa apenas a maior RD entre armadura e escudo",
+    "regra_opcional": "soma a RD da armadura com a RD do escudo",
+    "exemplo": { "armadura_pesada_adamante": 5, "escudo_pesado_adamante": 2, "rd_total": 7 }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "id": "constricao_atroz",
+  "name": "Constrição Atroz",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você pode gastar uma ação de movimento e 1 PM para expelir gavinhas de seu corpo. No início de cada um de seus turnos, qualquer inimigo em alcance curto deve fazer um teste de Reflexos (CD Sab). Se falhar, fica enredado. Um inimigo enredado pode escapar gastando uma ação padrão e passando em um teste de Acrobacia ou Atletismo (CD Sab), ou afastando-se 9m de você. Este poder tem duração sustentada.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "dahllan"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active_ability",
+      "action": "movimento",
+      "duration": "sustentada",
+      "effect": "inimigos em alcance curto testam Reflexos (CD Sab) no início de cada turno ou ficam enredados",
+      "escape": {
+        "test": [
+          "acrobacia",
+          "atletismo"
+        ],
+        "cd": "sab",
+        "action": "padrao",
+        "alternative": "afastar-se 9m"
+      }
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

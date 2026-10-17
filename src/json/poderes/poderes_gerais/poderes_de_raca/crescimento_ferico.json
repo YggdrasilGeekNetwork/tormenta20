@@ -1,0 +1,48 @@
+{
+  "id": "crescimento_ferico",
+  "name": "Crescimento Feérico",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você pode gastar uma ação de movimento e 1 PM para aumentar uma categoria de tamanho e receber +1 em Força (máximo Grande). A partir do patamar veterano, você também pode gastar 3 PM para aumentar duas categorias de tamanho; nesse caso, recebe +2 em Força (máximo Enorme). Seu equipamento muda com você. A transformação dura pelo tempo que você quiser, mas você reverte ao tamanho normal se ficar inconsciente ou morrer. Voltar ao seu tamanho original é uma ação livre.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "duende",
+        "silfide"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "size_category_improvement",
+      "value": 1,
+      "cost": "1 PM",
+      "attr_bonus": {
+        "attr": "for",
+        "value": 1
+      },
+      "max_size": "Grande"
+    },
+    {
+      "type": "size_category_improvement",
+      "value": 2,
+      "cost": "3 PM",
+      "attr_bonus": {
+        "attr": "for",
+        "value": 2
+      },
+      "max_size": "Enorme",
+      "min_patamar": "veterano"
+    },
+    {
+      "type": "revert_condition",
+      "trigger": [
+        "inconsciente",
+        "morte"
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,9 @@
+{
+  "id": "centro_de_poder",
+  "name": "Centro de Poder",
+  "description": "A base foi construída sobre um centro de energias mágicas, como um bosque feérico, um pedaço de solo sagrado ou uma intersecção de linhas energéticas. Os residentes recebem +1 PM.",
+  "effects": [
+    { "type": "bonus_pm", "value": 1 }
+  ],
+  "livro": "herois_de_arton"
+}

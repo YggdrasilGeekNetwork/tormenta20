@@ -1,0 +1,36 @@
+{
+  "id": "esgrima_sambur",
+  "name": "Esgrima Sambur",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Se estiver empunhando duas armas corpo a corpo leves ou ágeis e fizer a ação agredir, você pode gastar 1 PM para fazer dois ataques, um com cada arma (se tiver Ambidestria ou Estilo de Duas Armas, em vez disso não sofre penalidade para usá-los). Além disso, se tiver o poder Aparar, pode usá-lo uma segunda vez na rodada. Pré-requisito: Esgrimista.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "esgrimista"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "condition": "empunhando_duas_armas_corpo_a_corpo_leves_ou_ageis",
+      "trigger": "acao_agredir",
+      "effect": "dois_ataques_um_com_cada_arma",
+      "waives_penalty_if": "ambidestria_ou_estilo_de_duas_armas"
+    },
+    {
+      "type": "extra_use",
+      "applies_to": "aparar",
+      "value": 1,
+      "requires_feature": "aparar"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

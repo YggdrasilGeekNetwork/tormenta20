@@ -1,0 +1,28 @@
+{
+  "id": "infusao_distante",
+  "name": "Infusão Distante",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Quando usa um item alquímico ou uma poção que normalmente afetaria apenas um alvo adjacente, você pode gastar 1 PM para afetar um alvo em alcance curto. Se tiver o poder Granadeiro, em vez disso você afeta um alvo em alcance médio.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "alquimista_iniciado"
+    }
+  ],
+  "effects": [
+    {
+      "type": "range_target",
+      "value": "curto",
+      "note": "aumenta_para_medio_se_possuir_granadeiro"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

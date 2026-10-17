@@ -1,0 +1,17 @@
+{
+  "id": "eiradaan",
+  "name": "Eiradaan",
+  "description": "Fadas de aparência élfica com galhadas ramificando-se na cabeça, marcadas por uma tragédia ancestral e um banimento divino. Poderosos magicamente, atuam como arcanistas, nobres e guardiões de elite da Rainha das Fadas, mas vulneráveis a emoções fortes.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "baixa_luminosidade",
+  "vision_range": null,
+  "attribute_bonuses": { "sabedoria": 2, "carisma": 1, "forca": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["essencia_ferica", "magia_instintiva", "sentidos_misticos", "cancao_da_melancolia"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "x5",
+  "devocao": ["allihanna", "lena", "thyatis", "wynna"],
+  "livro": "herois_de_arton"
+}

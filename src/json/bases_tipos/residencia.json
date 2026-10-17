@@ -1,0 +1,10 @@
+{
+  "id": "residencia",
+  "name": "Residência",
+  "description": "A base é um local confortável e aconchegante, onde os aventureiros podem descansar e relaxar. Cada residente recebe +3 PV e, uma vez por aventura, pode receber os benefícios de um prato especial descrito em Tormenta20 (p. 162).",
+  "effects": [
+    { "type": "bonus_pv", "value": 3 },
+    { "type": "prato_especial_gratis", "frequencia": "uma_vez_por_aventura" }
+  ],
+  "livro": "herois_de_arton"
+}

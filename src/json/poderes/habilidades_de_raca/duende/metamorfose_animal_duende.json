@@ -1,0 +1,16 @@
+{
+  "id": "metamorfose_animal_duende",
+  "name": "Metamorfose Animal",
+  "type": "habilidade_de_raca",
+  "race": "duende",
+  "description": "Você pode se transformar em um tipo de animal. Escolha uma forma selvagem do druida, como ágil ou veloz. Você pode gastar uma ação completa e 3 PM para assumir essa forma, recebendo todos seus modificadores. Ao contrário de um druida, você pode falar e lançar magias mesmo em sua forma selvagem. Porém, só pode assumir a forma escolhida, e apenas em sua versão básica.",
+  "effects": {
+    "escolha_na_criacao": "uma forma selvagem básica do druida (ex: ágil, veloz)",
+    "type": "active",
+    "acao": "completa",
+    "cost": "3 PM",
+    "diferenca_do_druida": "pode falar e lançar magias mesmo transformado",
+    "limitacao": "apenas a forma escolhida, apenas versão básica"
+  },
+  "livro": "herois_de_arton"
+}

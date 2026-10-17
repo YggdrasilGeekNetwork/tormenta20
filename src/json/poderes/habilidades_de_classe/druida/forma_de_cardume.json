@@ -1,0 +1,49 @@
+{
+  "id": "forma_de_cardume",
+  "name": "Forma de Cardume",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Quando usa Forma Selvagem, você pode gastar +1 PM para assumir a forma de um cardume de criaturas anfíbias com duração sustentada. Você recebe imunidade a manobras de combate, sofre apenas metade do dano de armas, pode entrar nos espaços ocupados por inimigos e criaturas no mesmo espaço que você ficam em condição ruim para lançar magias.",
+  "requirements": [
+    {
+      "type": "devotee_of_divinity",
+      "sub_type": "hard",
+      "divinity": "oceano"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "forma_selvagem"
+    }
+  ],
+  "effects": [
+    {
+      "type": "maneuver_immunity"
+    },
+    {
+      "type": "damage_resistance_improvement",
+      "value": "metade",
+      "damage_type": "armas"
+    },
+    {
+      "type": "movement_improvement",
+      "note": "pode_entrar_em_espacos_ocupados_por_inimigos"
+    },
+    {
+      "type": "enemy_condition",
+      "condition": "ruim_para_lancar_magias",
+      "requirement": "criatura_no_mesmo_espaco"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM",
+      "note": "adicional_ao_custo_de_forma_selvagem"
+    },
+    {
+      "type": "duracao_sustentada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

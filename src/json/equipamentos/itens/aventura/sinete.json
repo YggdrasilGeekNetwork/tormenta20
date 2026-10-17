@@ -1,0 +1,22 @@
+{
+  "id": "sinete",
+  "name": "Sinete",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 50,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "acessorio",
+  "efeito": {
+    "reducao_custo_pm": {
+      "habilidades": [
+        "Autoridade Feudal",
+        "Favor"
+      ],
+      "valor": -1,
+      "nota": "e de outras habilidades em que, a critério do mestre, seu símbolo pessoal tenha algum peso"
+    }
+  },
+  "description": "Estojo de madeira ou metal contendo cera, papéis e um anel ou carimbo com o símbolo pessoal do usuário. Reduz em –1 PM o custo das habilidades Autoridade Feudal e Favor e de outras habilidades em que, a critério do mestre, seu símbolo pessoal tenha algum peso.",
+  "livro": "herois_de_arton"
+}

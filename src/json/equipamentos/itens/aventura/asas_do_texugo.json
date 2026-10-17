@@ -1,0 +1,28 @@
+{
+  "id": "asas_do_texugo",
+  "name": "Asas do Texugo",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 200,
+  "espacos": 2,
+  "cd_fabricacao": 15,
+  "uso": "vestido",
+  "efeito": {
+    "abrir_asas": "acao_movimento",
+    "ocupa_espaco_categoria_tamanho_maior": true,
+    "decolar": {
+      "teste": "Atletismo (saltar)",
+      "cd": 15
+    },
+    "voo": {
+      "condicao": "se passar no teste de decolagem",
+      "deslocamento": "voo 12m",
+      "duracao": "1 rodada, +1 rodada para cada 5 pontos pelos quais o resultado superar a CD",
+      "bonus_ponto_elevado": 5
+    },
+    "aterrissagem": "efeito básico da magia Queda Suave",
+    "penalidade_durante_voo": "vulnerável e condição ruim para lançar magias (ignorada se treinado em Pilotagem)"
+  },
+  "description": "Criado por uma tribo de kobolds, este implemento consiste em uma mochila vestida às costas da qual se projetam duas asas retráteis, movidas por pedais, manivelas e roldanas, sustentando um voo irregular mas controlável. Para voar, é necessário gastar uma ação de movimento para estender as asas (quando não estão em uso, ficam dobradas dentro da \"mochila\"), o que faz você passar a ocupar o espaço de uma criatura uma categoria de tamanho maior que a sua. Para sair do chão é necessário um teste de Atletismo para saltar (CD 15) para pegar impulso. Se passar, você recebe deslocamento de voo 12m por 1 rodada, +1 rodada para cada 5 pontos pelos quais o resultado superar a CD. Saltar de um ponto elevado fornece +5 nesse teste. Ao fim do tempo de voo, você plana rumo ao chão (como no efeito básico da magia Queda Suave). Enquanto está voando, você fica vulnerável e em condição ruim para lançar magias (você ignora essas penalidades se for treinado em Pilotagem).",
+  "livro": "herois_de_arton"
+}

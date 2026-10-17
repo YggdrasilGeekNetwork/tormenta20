@@ -1,0 +1,76 @@
+{
+  "id": "objetivos_heroicos",
+  "name": "Objetivos Heroicos",
+  "description": "Com esta regra opcional, você pode escolher um objetivo heroico para seu personagem: ascender ao trono de um reino, vingar a morte de seu mestre, tornar-se o líder de uma guilda de ladrões ou outra coisa igualmente grandiosa. Um objetivo heroico deve ser algo grandioso e específico que marca uma virada na vida do personagem e que o modificará para sempre — não basta dizer que deseja \"ascender à nobreza\"; é preciso dizer que deseja ser o rei de Bielefeld. O mestre tem a palavra final sobre o que pode ser um objetivo heroico. Você pode escolher seu objetivo durante a construção do personagem ou com a campanha já em andamento, mas um objetivo heroico nunca pode começar já estando perto de ser cumprido.",
+  "livro": "herois_de_arton",
+  "beneficios_de_objetivo": {
+    "description": "No início de qualquer cena diretamente relacionada a seu objetivo, você recebe um benefício de acordo com seu objetivo. Esse benefício conta como uma habilidade e dura até o fim da cena. Você só pode receber um benefício de objetivo por aventura — pode escolher não recebê-lo em uma cena se achar que a aventura terá outra cena relacionada ao objetivo que seja mais importante. O que conta como uma cena diretamente relacionada ao objetivo fica a critério do mestre; como regra geral, se ao término da cena o personagem estiver mais perto de seu objetivo, a cena ativa o benefício."
+  },
+  "penalidades_de_objetivo": {
+    "description": "Se ao fim de uma cena você estiver mais longe de seu objetivo, sofre uma penalidade ditada por seu objetivo, mesmo que seja imune a seu efeito. A penalidade dura até o fim da aventura. Cenas não relacionadas ao objetivo não impõem penalidades, pois normalmente também não aproximam o personagem de seu objetivo."
+  },
+  "concluindo_um_objetivo": {
+    "description": "Se você completar seu objetivo, recebe um benefício maior e permanente. A partir desse ponto, não recebe mais benefícios ou penalidades em cenas relacionadas ao objetivo, e não pode escolher um novo objetivo — um objetivo heroico é algo que define toda uma vida."
+  },
+  "abandonando_um_objetivo": {
+    "description": "Uma vez que um personagem escolha um objetivo, deve se esforçar para cumpri-lo. Se o mestre julgar que o personagem não está se esforçando para cumprir o objetivo, pode definir que o objetivo foi abandonado. O jogador sofre a penalidade do objetivo por uma aventura, então o perde. Nenhum benefício ou penalidade se aplica mais, mas ele não pode escolher um novo objetivo."
+  },
+  "tipos_de_objetivos": [
+    {
+      "id": "desafio",
+      "name": "Desafio",
+      "description": "Você quer fazer algo muito difícil, apenas porque é difícil. Deseja escalar o Monte do Dragão Adormecido sem equipamento, sem magias e vendado; ou vencer Laan numa corrida a pé; ou derrotar Maquius em combate desarmado após ter bebido mais do que ele.",
+      "beneficio": "Você recebe +2d4 PM temporários.",
+      "penalidade": "Você fica fatigado.",
+      "conclusao": "Você recebe +1 em dois atributos diferentes a sua escolha."
+    },
+    {
+      "id": "descoberta",
+      "name": "Descoberta",
+      "description": "Você deseja aprender um conhecimento específico, formular uma teoria ou desvendar um mistério: quer visitar todos os reinos dos deuses, descobrir como criar uma nova raça de seres vivos ou solucionar o assassinato do Rei de Salistick.",
+      "beneficio": "Você recebe um bônus de +2 em testes de Inteligência e de perícias baseadas nesse atributo.",
+      "penalidade": "Você fica frustrado.",
+      "conclusao": "Você recebe +1 em Inteligência e um poder geral a sua escolha."
+    },
+    {
+      "id": "lideranca",
+      "name": "Liderança",
+      "description": "Você quer ascender socialmente e conquistar uma posição de destaque: Alto Comandante da Ordem da Luz, irmão mais velho da Companhia dos Irmãos ou o próximo Ayrrak de Lamnor. Você é movido pela ambição, ou talvez seja o legítimo herdeiro de algum título.",
+      "beneficio": "Você recebe +2 em testes de Carisma e de perícias baseadas nesse atributo.",
+      "penalidade": "Você fica alquebrado.",
+      "conclusao": "Você recebe +1 em Carisma e uma estrutura ou benefício equivalente, a critério do mestre."
+    },
+    {
+      "id": "obra",
+      "name": "Obra",
+      "description": "Você deseja construir uma obra monumental, algo nunca visto em Arton. Por exemplo, uma estátua maior que a de Sckhar, uma ponte ligando os dois continentes ou uma embarcação capaz de cruzar o éter divino.",
+      "beneficio": "Você recebe +2 em testes de resistência e 1d4 PM temporários.",
+      "penalidade": "Você fica abalado.",
+      "conclusao": "Você recebe +1 em Constituição e os benefícios de sua obra (provavelmente uma base, domínio, negócio ou veículo, a critério do mestre)."
+    },
+    {
+      "id": "riqueza",
+      "name": "Riqueza",
+      "description": "Você quer dinheiro, pura e simplesmente. Não é o mesmo que ascensão social, pois não envolve reconhecimento ou legitimidade. Para cumprir este objetivo, você deve acumular uma quantidade de tibares decidida pelo mestre (provavelmente um milhão!). Equipamento, patrimônio, domínios, propriedades e outros bens não contam para o cumprimento do objetivo, apenas dinheiro vivo!",
+      "beneficio": "O custo em PM de suas habilidades é reduzido em –1.",
+      "penalidade": "Você fica alquebrado.",
+      "conclusao": "Escolha uma habilidade com custo em PM. O custo em PM para usá-la é reduzido em –2 PM (cumulativo com outras reduções). Além disso, agora você pode gastar o dinheiro guardado!"
+    },
+    {
+      "id": "salvacao",
+      "name": "Salvação",
+      "description": "Você deseja ajudar, encontrar ou resgatar uma pessoa necessitada, perdida ou aprisionada. Como alternativa, pode querer ajudar toda uma população. Por exemplo, quer libertar seu irmão da Fortaleza Hardof, devolver a divindade a Tilliann ou reformar toda a Favela dos Goblins.",
+      "beneficio": "Você recebe +2 na Defesa.",
+      "penalidade": "Você fica vulnerável.",
+      "conclusao": "Você recebe +2 na Defesa e em testes de resistência, além de um parceiro mestre de tipo a sua escolha."
+    },
+    {
+      "id": "vinganca",
+      "name": "Vingança",
+      "description": "Você quer matar, prender ou punir uma pessoa ou monstro que lhe fez um grande mal. Seja quem for, não deve ser um vilão poderoso: Hermann Von Krauser, Ferren Asloth ou mesmo Gatzvalith!",
+      "beneficio": "Uma vez por rodada, você recebe +5 em uma rolagem de dano.",
+      "penalidade": "Você fica fraco.",
+      "conclusao": "Você recebe +1 em Força e um poder de combate a sua escolha."
+    }
+  ]
+}

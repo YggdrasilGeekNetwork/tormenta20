@@ -1,0 +1,28 @@
+{
+  "id": "bencao_de_batalha",
+  "name": "Bênção de Batalha",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Bênção passa a afetar também você (em vez de apenas seus aliados). Além disso, na primeira rodada de combate, você pode lançar essa magia como ação de movimento (em vez de padrão). Pré-requisito: Bênção.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "bencao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "extend_target",
+      "applies_to": "bencao",
+      "value": "o_proprio_clerigo"
+    },
+    {
+      "type": "action_type_change",
+      "to_action": "movimento",
+      "applies_to": "bencao",
+      "condition": "primeira_rodada_de_combate"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

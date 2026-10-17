@@ -1,0 +1,29 @@
+{
+  "id": "mouco",
+  "name": "Mouco",
+  "description": "Sua audição é ruim. Você sofre –2 em Iniciativa, Intuição, Percepção e Reflexos.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_iniciativa",
+      "value": -2
+    },
+    {
+      "type": "penalidade_pericia",
+      "pericia": "intuicao",
+      "value": -2
+    },
+    {
+      "type": "penalidade_pericia",
+      "pericia": "percepcao",
+      "value": -2
+    },
+    {
+      "type": "penalidade_pericia",
+      "pericia": "reflexos",
+      "value": -2
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "freira",
+  "name": "Freira",
+  "description": "Mesmo sem os milagres dos clérigos e frades, você se dedicava ao serviço espiritual, à caridade e à proteção dos vulneráveis. Vivendo em um convento isolado ou abadia fortificada, mantinha uma rotina de orações, cultivo de ervas medicinais, preparo de remédios e cuidado de enfermos. Muitas vezes também atuava como conselheira para heróis em busca de redenção ou orientação. E, em tempos de crise, chegava a defender o convento contra ameaças, até recorrendo a relíquias sagradas e antigos rituais para proteger os inocentes. Considerando sua vocação, bastou um pequeno passo para você se reunir a aventureiros e se tornar uma campeã do bem.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Maleta de medicamentos"
+    },
+    {
+      "type": "fixed",
+      "text": "Manto eclesiástico"
+    },
+    {
+      "type": "fixed",
+      "text": "Símbolo sagrado"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Cura"
+    ],
+    "powers": [
+      "Caridade Devota"
+    ]
+  },
+  "unique_power": "caridade_devota",
+  "livro": "herois_de_arton"
+}

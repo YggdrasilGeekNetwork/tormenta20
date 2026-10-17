@@ -1,0 +1,26 @@
+{
+  "id": "serrilheira",
+  "name": "Serrilheira",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 25,
+  "dano": "1d6",
+  "critico": "19",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "acerto_margem_5_ou_mais": {
+      "condicao": "vulneravel",
+      "duracao": "1 rodada",
+      "efeitos_extra": "sangrando"
+    },
+    "penalidade_diplomacia_enganacao": -2,
+    "penalidade_cumulativa_com_itens": true
+  },
+  "description": "Este facão possui gume serrilhado e várias rebarbas. Sempre que acerta um ataque com um resultado que ultrapassa a Defesa do alvo por 5 ou mais, deixa a vítima vulnerável por 1 rodada e sangrando. Sua aparência agressiva impõe –2 em Diplomacia e Enganação, cumulativo com outros efeitos de itens.",
+  "livro": "herois_de_arton"
+}

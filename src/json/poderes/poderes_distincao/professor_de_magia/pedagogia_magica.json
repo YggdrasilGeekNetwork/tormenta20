@@ -1,0 +1,20 @@
+{
+  "id": "pedagogia_magica",
+  "name": "Pedagogia Mágica",
+  "type": "poder_distincao",
+  "description": "Um professor de magia domina meios peculiares de transmissão do conhecimento. Você pode gastar 1 hora e 1 PM para lecionar para uma quantidade de alunos igual à sua Inteligência. Escolha uma de suas magias de 1º círculo. Até o próximo dia, cada aluno pode lançar essa magia uma única vez, pagando seu custo normal (atributo-chave Inteligência). Para cada outros dois poderes da distinção que você possui, cada aluno pode lançar a magia \"aprendida\" uma vez adicional no mesmo dia. Se o aluno já conhecia essa magia, pode lançá-la esse número de vezes com custo diminuído em –1 PM.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "1 hora",
+      "custo_pm": 1,
+      "efeito": "leciona para um número de alunos igual à sua Inteligência; cada aluno pode lançar uma magia de 1º círculo escolhida (atributo-chave Inteligência) uma vez até o próximo dia",
+      "escalavel": "a cada dois outros poderes da distinção, cada aluno pode lançar a magia uma vez adicional no mesmo dia; se já conhecia a magia, custo diminui em -1 PM"
+    }
+  ],
+  "requirements": [
+    "lançar magias de 2° círculo",
+    "Foco em Perícia (Misticismo)"
+  ],
+  "livro": "herois_de_arton"
+}

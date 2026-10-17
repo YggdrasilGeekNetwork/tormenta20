@@ -1,0 +1,20 @@
+{
+  "id": "flechas_assobiadoras",
+  "name": "Flechas Assobiadoras",
+  "type": "municao",
+  "preco": 20,
+  "quantidade": 20,
+  "espacos": 1,
+  "armas_compativeis": [
+    "arco_curto",
+    "arco_longo",
+    "arco_montado",
+    "arco_de_guerra"
+  ],
+  "especial": {
+    "comunicacao_a_distancia": "sons distintos reconhecíveis por um grupo (rudimentar)",
+    "finta_em_qualquer_alcance": "permite fazer uma finta contra qualquer alvo dentro do alcance da flecha (normalmente uma finta só pode ser feita contra alvos em alcance curto)"
+  },
+  "description": "Flechas que simulam o canto de um pássaro quando disparadas. Artesãos élficos criavam flechas com sons específicos, reconhecidos por suas sentinelas. Um grupo pode usá-las para se comunicar à distância de forma rudimentar. O som distrativo desta flecha permite que ela seja usada para fazer uma finta contra qualquer alvo dentro do alcance dela.",
+  "livro": "herois_de_arton"
+}

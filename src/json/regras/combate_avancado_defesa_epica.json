@@ -1,0 +1,10 @@
+{
+  "id": "combate_avancado_defesa_epica",
+  "name": "Defesa Épica",
+  "description": "Regra opcional de combate avançado (Heróis de Arton, Cap. 4). Com esta regra, sua Defesa aumenta em +1 para cada nível par (mesma progressão das perícias). Indicada para campanhas de ação exagerada!",
+  "livro": "herois_de_arton",
+  "efeito": {
+    "bonus_defesa_por_nivel_par": 1,
+    "progressao": "igual_a_pericias"
+  }
+}

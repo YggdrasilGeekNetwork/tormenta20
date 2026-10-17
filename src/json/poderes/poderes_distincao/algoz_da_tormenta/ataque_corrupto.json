@@ -1,0 +1,19 @@
+{
+  "id": "ataque_corrupto",
+  "name": "Ataque Corrupto",
+  "type": "poder_distincao",
+  "description": "Os golpes do algoz carregam a Tormenta consigo. Seus ataques recebem o benefício de matéria vermelha, cumulativo com melhorias de material especial (incluindo a própria matéria vermelha), mas seus efeitos nocivos não o afetam. Para cada dois outros poderes da distinção que você possui, o dano extra causado por este poder aumenta em +1d6.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "ataques recebem o benefício de matéria vermelha, cumulativo com melhorias de material especial (incluindo a própria matéria vermelha), mas os efeitos nocivos da matéria vermelha não afetam o algoz",
+      "escalavel": "o dano extra aumenta em +1d6 para cada dois outros poderes da distinção que possui"
+    }
+  ],
+  "requirements": [
+    "treinado em Luta ou Pontaria",
+    "Lar Infernal"
+  ],
+  "livro": "herois_de_arton",
+  "tormenta": true
+}

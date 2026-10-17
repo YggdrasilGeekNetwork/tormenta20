@@ -1,0 +1,16 @@
+{
+  "id": "atras_das_linhas_inimigas",
+  "name": "Atrás das Linhas Inimigas",
+  "type": "poder_distincao",
+  "description": "O Cavaleiro do Corvo aprende a sobreviver em território dominado pelo inimigo. Você recebe imunidade a atordoamento e cansaço e sua recuperação por descanso nunca é inferior a normal.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "imunidade a atordoamento e cansaço; recuperação por descanso nunca é inferior a normal"
+    }
+  ],
+  "requirements": [
+    "Reconhecimento e Infiltração"
+  ],
+  "livro": "herois_de_arton"
+}

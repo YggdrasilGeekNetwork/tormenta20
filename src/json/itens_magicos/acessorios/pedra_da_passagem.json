@@ -1,0 +1,19 @@
+{
+  "id": "pedra_da_passagem",
+  "name": "Pedra da Passagem",
+  "categoria": "medio",
+  "preco": 15000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Uma pequena pedra dourada que emite uma leve pulsação de luz. Você pode gastar uma ação padrão e 3 PM para segurá-la contra uma superfície sólida e produzir uma abertura de tamanho Médio. Afeta apenas superfícies não mágicas com RD 8 ou menos. Não abre buracos em seres vivos. Não abre buracos em golens ou osteon. Não abre buracos em armadilhas ou evita perigos complexos, mesmo que você ache as palavras \"porta\" ou \"parede\" em algum lugar da descrição. Não abre buracos em nada exceto portas e paredes.",
+  "effects": [
+    {
+      "type": "criar_abertura",
+      "acao": "ação padrão",
+      "custo_pm": 3,
+      "tamanho": "Médio",
+      "restricao": "apenas superfícies não mágicas com RD 8 ou menos; não afeta seres vivos, golens, osteon ou armadilhas"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

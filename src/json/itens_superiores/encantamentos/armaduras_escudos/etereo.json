@@ -1,0 +1,16 @@
+{
+  "id": "etereo",
+  "name": "Etéreo",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "Uma vez por cena você pode gastar 3 PM para se tornar incorpóreo por 1 rodada. Nessa forma, você ignora ataques e efeitos não mágicos e pode atravessar paredes e objetos sólidos, mas não manipulá-los (você tem Força nula). Se terminar sua rodada dentro de um objeto sólido, você é expelido para o espaço vazio mais próximo e perde 1d12 PV para cada 1,5m pelo qual for expelido.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 3,
+      "frequencia": "uma_vez_por_cena",
+      "efeito": "torna-se incorpóreo por 1 rodada: ignora ataques e efeitos não mágicos e pode atravessar paredes e objetos sólidos, mas não manipulá-los (Força nula); se terminar a rodada dentro de um objeto sólido, é expelido para o espaço vazio mais próximo e perde 1d12 PV para cada 1,5m expelido"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

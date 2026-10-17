@@ -1,0 +1,23 @@
+{
+  "id": "densa",
+  "name": "Densa",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "A armadura gera uma aura de peso e lentidão. Isso reduz o deslocamento de inimigos em alcance curto em –3m. Uma vez por rodada, você pode gastar uma ação de movimento e 2 PM para deixar todos os inimigos em alcance curto abalados e lentos por 1d4 rodadas (CD For ou Des evita).",
+  "effects": [
+    {
+      "type": "debuff_deslocamento",
+      "value": -3,
+      "condicao": "inimigos em alcance curto"
+    },
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 2,
+      "frequencia": "por_rodada",
+      "efeito": "deixa todos os inimigos em alcance curto abalados e lentos por 1d4 rodadas",
+      "resistencia": "CD For ou Des (à escolha) evita"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

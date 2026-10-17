@@ -1,0 +1,14 @@
+{
+  "id": "observatorio",
+  "name": "Observatório",
+  "description": "Geralmente posicionado em um ponto elevado, este cômodo permite observar os astros e obter vislumbres de eventos futuros a partir de seus movimentos. Se for treinado em Misticismo, você pode rolar dois dados e escolher o melhor resultado em um teste de perícia por aventura.",
+  "effects": [
+    {
+      "type": "rola_dois_usa_melhor",
+      "escopo": "um_teste_de_pericia_por_aventura",
+      "requisito": "treinado_em_misticismo"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

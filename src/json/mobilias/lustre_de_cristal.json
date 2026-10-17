@@ -1,0 +1,16 @@
+{
+  "id": "lustre_de_cristal",
+  "name": "Lustre de Cristal",
+  "description": "Um conjunto elaborado de lampiões ou gemas mágicas em uma estrutura de cristal pendurada no teto, pode ser instalado na sala de estar ou no salão de baile. Uma vez por aventura, aumenta um efeito de luz em +1 por dado.",
+  "effects": [
+    {
+      "type": "bonus_efeito_luz",
+      "value": 1,
+      "por": "dado",
+      "frequencia": "uma_vez_por_aventura"
+    }
+  ],
+  "preco": 2500,
+  "comodo_alvo": "sala_de_estar_ou_salao_de_baile",
+  "livro": "herois_de_arton"
+}

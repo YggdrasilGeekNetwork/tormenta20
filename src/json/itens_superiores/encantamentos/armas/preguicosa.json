@@ -1,0 +1,15 @@
+{
+  "id": "preguicosa",
+  "name": "Preguiçosa",
+  "type": "encantamento",
+  "categoria": "arma",
+  "maldicao": true,
+  "description": "A arma se recusa a ser utilizada como normal e deseja evitar a fadiga. Você só pode atacar com a arma em rodadas alternadas. Contudo, você não pode fazer nenhum outro tipo de ataque nas rodadas em que não está atacando com a arma.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "só pode atacar com a arma em rodadas alternadas; nas rodadas em que não ataca com ela, não pode fazer nenhum outro tipo de ataque"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

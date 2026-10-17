@@ -1,0 +1,20 @@
+{
+  "id": "oculos_de_aeronauta",
+  "name": "Óculos de Aeronauta",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 15,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_pilotagem": 1,
+    "cumulativo_com_itens": true,
+    "atitude_piorada_se_nao_aeronauta": {
+      "condicao": "a critério do mestre, para quem valoriza a profissão de aeronauta",
+      "valor": "uma categoria"
+    }
+  },
+  "description": "Proteção para os olhos indispensável para baloeiros e aeronautas em geral. Fornece +1 em Pilotagem (cumulativo com outros bônus de itens). Certas pessoas que não são aeronautas gostam de usar estes óculos apenas por estilo, o que pode provocar a fúria de alguns. A critério do mestre, personagens que valorizem muito a profissão de aeronauta ou estejam fartos de vê-los como acessório estético têm sua atitude piorada em uma categoria em relação a usuários que não sejam aeronautas.",
+  "livro": "herois_de_arton"
+}

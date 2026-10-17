@@ -1,0 +1,29 @@
+{
+  "id": "logica_gnomica",
+  "name": "Lógica Gnômica",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Uma vez por cena, quando faz um teste de perícia (exceto testes de ataque), você pode gastar 3 PM para substituir o atributo-chave dessa perícia por Inteligência. Por exemplo, ao fazer um teste de Atletismo você pode gastar 3 PM para somar sua Inteligência em vez de sua Força.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "kliren"
+    }
+  ],
+  "effects": [
+    {
+      "type": "switch_skill_attr",
+      "skill": "qualquer_exceto_ataque",
+      "attr": "int",
+      "frequency": "uma_vez_por_cena"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 3,
+      "type": "PM"
+    }
+  ]
+}

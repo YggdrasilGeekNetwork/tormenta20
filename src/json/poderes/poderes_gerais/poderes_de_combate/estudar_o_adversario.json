@@ -1,0 +1,26 @@
+{
+  "id": "estudar_o_adversario",
+  "name": "Estudar o Adversário",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Na primeira vez na rodada em que erra um ataque, você recebe um bônus cumulativo de +2 em testes de ataque contra o mesmo alvo até o fim da cena.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "int",
+      "value": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": 2,
+      "cumulative": true,
+      "trigger": "primeiro_erro_na_rodada",
+      "duration": "fim_da_cena",
+      "target": "mesmo_alvo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

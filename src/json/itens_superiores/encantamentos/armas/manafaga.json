@@ -1,0 +1,19 @@
+{
+  "id": "manafaga",
+  "name": "Manáfaga",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma suga energia mágica do alvo. Quando você acerta um ataque com a arma em um inimigo, ele deve fazer um teste de Vontade (CD For ou Des). Se ele falhar, você recebe 1 PM temporário e ele perde 1d4 PM. Pré-requisito: formidável.",
+  "prerequisitos": [
+    "formidavel"
+  ],
+  "effects": [
+    {
+      "type": "ativado",
+      "gatilho": "acerta um ataque em um inimigo",
+      "efeito": "o alvo faz um teste de Vontade; se falhar, você recebe 1 PM temporário e ele perde 1d4 PM",
+      "resistencia": "Vontade CD For ou Des (à escolha)"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

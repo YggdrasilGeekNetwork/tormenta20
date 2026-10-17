@@ -1,0 +1,26 @@
+{
+  "id": "extrato_de_gelo_eterno",
+  "name": "Extrato de Gelo Eterno",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 60,
+  "espacos": 0.5,
+  "uso": "empunhado",
+  "acao": "padrao",
+  "alcance": "curto",
+  "ataque": "toque_a_distancia",
+  "efeito": {
+    "dano": "2d12",
+    "tipo_dano": "frio",
+    "condicao": "lenta",
+    "duracao": "1 rodada",
+    "resistencia": {
+      "teste": "Reflexos",
+      "cd": "Des",
+      "efeito": "reduz a metade e evita a condicao"
+    }
+  },
+  "description": "Frasco de vidro contendo um líquido congelante. Para usar o extrato, você gasta uma ação padrão e escolhe uma criatura em alcance curto. Essa criatura sofre 2d12 pontos de dano de frio e fica lenta por 1 rodada (Reflexos CD Des reduz à metade e evita a condição).",
+  "livro": "herois_de_arton"
+}

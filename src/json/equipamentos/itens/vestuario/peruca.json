@@ -1,0 +1,20 @@
+{
+  "id": "peruca",
+  "name": "Peruca",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 20,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "carisma_minimo_considerado_para_pericias": 0,
+    "duracao": "1 cena",
+    "manutencao": {
+      "acao": "1 hora de trabalho",
+      "custo": 10
+    }
+  },
+  "description": "Muitos aristocratas desejam penteados extravagantes sem o trabalho necessário para moldar seus cabelos — ou simplesmente têm piolhos, raspam a cabeça e desejam continuar bonitos. Uma peruca permite que um personagem com Carisma menor que 0 seja considerado como se tivesse Carisma 0 para fins de perícias originalmente baseadas nesse atributo (exceto Adestramento) durante uma cena. Após a cena, a peruca deve ser penteada, limpa e recolocada, um processo que demora 1 hora e gasta T$ 10.",
+  "livro": "herois_de_arton"
+}

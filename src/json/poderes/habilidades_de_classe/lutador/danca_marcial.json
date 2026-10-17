@@ -1,0 +1,47 @@
+{
+  "id": "danca_marcial",
+  "name": "Dança Marcial",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Você pode gastar uma ação de movimento e 2 PM para receber +2 na Defesa, em Acrobacia e em testes de Enganação para fintar. A partir do 6º nível, e a cada cinco níveis seguintes (11º e 16º), você pode gastar +1 PM para aumentar esses bônus em +1. Os bônus duram até o fim da cena ou até você ficar atordoado ou sob alguma condição de movimento.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "acrobacia"
+    },
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "atuacao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "defense_improvement",
+      "value": 2,
+      "duration": "cena_ou_ate_atordoado_ou_condicao_de_movimento"
+    },
+    {
+      "type": "skill_improvement",
+      "skill": ["acrobacia", "enganacao_para_fintar"],
+      "value": 2,
+      "duration": "cena_ou_ate_atordoado_ou_condicao_de_movimento"
+    },
+    {
+      "type": "bonus",
+      "value": 1,
+      "requirement": "por_1_pm_extra_a_partir_do_6_11_e_16_nivel"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    },
+    {
+      "type": "acao_de_movimento"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

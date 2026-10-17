@@ -1,0 +1,28 @@
+{
+  "id": "desmontador",
+  "name": "Desmontador",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 20,
+  "dano": null,
+  "critico": null,
+  "alcance": null,
+  "tipo_dano": null,
+  "espacos": 2,
+  "habilidades": [
+    "alongada"
+  ],
+  "especial": {
+    "nao_causa_dano": true,
+    "usado_para_agarrar": true,
+    "bonus_manobra": {
+      "agarrar": 2,
+      "derrubar": 2,
+      "empurrar": 2
+    }
+  },
+  "description": "À primeira vista pode nem parecer uma arma. É uma haste longa com dois pedaços de metal recurvados na ponta, com mecanismo de mola que se abre e fecha ao pressionar contra algo. Usado para prender pescoços de inimigos, puxá-los de uma montaria, mantê-los presos à distância ou derrubá-los ao chão. Pode ser usado para agarrar. É uma arma alongada e versátil, fornecendo +2 em testes para agarrar, derrubar e empurrar.",
+  "livro": "herois_de_arton"
+}

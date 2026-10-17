@@ -1,0 +1,37 @@
+{
+  "id": "arremesso_violento",
+  "name": "Arremesso Violento",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Enquanto você está em fúria, o dano e o alcance de suas armas de arremesso aumenta em um passo (de curto para médio e de médio para longo) e a penalidade em ataques que você sofre por arremessar armas sem alcance diminui para –2. Pré-requisito: Fúria da Savana.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "furia_da_savana"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": 1,
+      "unit": "passo",
+      "applies_to": "armas_de_arremesso",
+      "condition": "em_furia"
+    },
+    {
+      "type": "range_improvement",
+      "value": 1,
+      "unit": "passo",
+      "applies_to": "armas_de_arremesso",
+      "condition": "em_furia"
+    },
+    {
+      "type": "attack_penalty_reduction",
+      "value": -2,
+      "applies_to": "arremessar_armas_sem_alcance",
+      "condition": "em_furia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

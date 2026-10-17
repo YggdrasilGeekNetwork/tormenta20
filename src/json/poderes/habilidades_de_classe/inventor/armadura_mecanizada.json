@@ -1,0 +1,30 @@
+{
+  "id": "armadura_mecanizada",
+  "name": "Armadura Mecanizada",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Você pode gastar T$ 100 e 1 dia de trabalho para acoplar uma engenhoca em sua armadura. Armaduras leves podem ter uma engenhoca acoplada e armaduras pesadas podem ter até três. Uma engenhoca acoplada não conta em seu limite de itens vestidos e não precisa ser empunhada.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "engenhoqueiro"
+    }
+  ],
+  "effects": [
+    {
+      "type": "item_type",
+      "note": "acopla_engenhoca_na_armadura_leve_1_pesada_ate_3"
+    }
+  ],
+  "costs": [
+    {
+      "value": 100,
+      "type": "tibares"
+    },
+    {
+      "type": "dia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

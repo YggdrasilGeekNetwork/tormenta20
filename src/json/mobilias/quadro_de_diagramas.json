@@ -1,0 +1,18 @@
+{
+  "id": "quadro_de_diagramas",
+  "name": "Quadro de Diagramas",
+  "description": "Um grande quadro negro e uma coleção de esquemas de diversos itens. Permite que os personagens consultem o conhecimento de outros artífices. Instalado na oficina de trabalho, reduz o custo para fabricar itens mundanos na base para um quarto do preço (em vez de um terço) e o custo para consertar para um oitavo do preço (em vez de um sexto).",
+  "effects": [
+    {
+      "type": "reduz_custo_fabricacao",
+      "value": 0.25
+    },
+    {
+      "type": "reduz_custo_conserto",
+      "value": 0.125
+    }
+  ],
+  "preco": 3000,
+  "comodo_alvo": "oficina_de_trabalho",
+  "livro": "herois_de_arton"
+}

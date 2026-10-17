@@ -1,0 +1,37 @@
+{
+  "id": "assobio_perigoso",
+  "name": "Assobio Perigoso",
+  "type": "arcana",
+  "circle": "1",
+  "school": "conv",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": {
+    "amount": null,
+    "up_to": null,
+    "type": "criaturas_conjuradas"
+  },
+  "effect": "criaturas_conjuradas",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "especial",
+  "duration_details": "as criaturas lutam até a morte ou até 1 minuto, quando então desaparecem",
+  "resistence": null,
+  "extra_costs": {
+    "material_component": "miniaturas em metal de criaturas",
+    "material_component_cost": "T$ 25 por nível do conjurador"
+  },
+  "description": "Esta estranha magia conjura um grupo de criaturas agressivas que imediatamente atacam quem está por perto… Inclusive o conjurador e seus aliados! As criaturas são feitas de energia e representam um encontro, preparado pelo mestre, de ND igual ao nível do conjurador. Elas surgem em alcance curto e agem imediatamente após o turno do conjurador, atacando quem estiver por perto (decida aleatoriamente). As criaturas lutam até a morte ou até 1 minuto, quando então desaparecem, e não deixam corpos nem tesouro.\nA função original da magia é incerta. Estudiosos acreditam ser fruto de um experimento falho, ou uma tentativa de conjurar alguma criatura específica. De qualquer forma, hoje é utilizada para treinar aventureiros ou causar distrações em situações específicas.",
+  "enhancements": [],
+  "effects": [
+    {
+      "type": "convoca",
+      "attribute": null,
+      "amount": null,
+      "resistence_requirement": null,
+      "extra_requirements": "encontro_de_ND_igual_ao_nivel_do_conjurador_ataca_todos_por_perto"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

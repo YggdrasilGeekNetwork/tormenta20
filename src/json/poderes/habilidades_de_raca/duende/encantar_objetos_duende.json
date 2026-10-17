@@ -1,0 +1,15 @@
+{
+  "id": "encantar_objetos_duende",
+  "name": "Encantar Objetos",
+  "type": "habilidade_de_raca",
+  "race": "duende",
+  "description": "Você pode gastar uma ação de movimento e 3 PM para tocar um item e colocar nele um encanto pertinente a sua escolha (por exemplo, se tocar uma arma, pode colocar um encanto de arma nela). O encanto não pode ter pré-requisitos e dura até o fim da cena ou até você usar este poder novamente.",
+  "effects": {
+    "type": "active",
+    "acao": "movimento",
+    "cost": "3 PM",
+    "efeito": "aplica um encanto sem pré-requisitos a um item tocado, pertinente ao tipo do item",
+    "duracao": "até o fim da cena ou até usar novamente"
+  },
+  "livro": "herois_de_arton"
+}

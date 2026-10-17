@@ -1,0 +1,26 @@
+{
+  "id": "escudo_de_vime",
+  "name": "Escudo de Vime",
+  "type": "escudo",
+  "categoria": "leve",
+  "preco": 15,
+  "bonus_defesa": 2,
+  "penalidade_armadura": -2,
+  "espacos": 2,
+  "especial": {
+    "empunhadura_duas_maos": true,
+    "impede_empunhar_outro_item": true,
+    "camuflagem_leve": true,
+    "compartilhar_com_aliado_adjacente": {
+      "acao": "escolha no seu turno",
+      "efeito": "fornece seu bônus na Defesa e camuflagem ao aliado escolhido",
+      "risco": "se você ou o aliado sofrerem um acerto crítico, o escudo é destruído"
+    },
+    "pv": 20,
+    "rd": 2
+  },
+  "vestir_remover": "acao_movimento",
+  "ataque": null,
+  "description": "Escudo grande e desajeitado, mas extremamente leve devido a seu material. Parece não proteger muito, pois existem pequenas \"falhas\" entre as fibras de vime, mas justamente por ser leve, volumoso e de trama aberta, pode ser movido com facilidade para confundir os inimigos. Não é preso ao braço, mas precisa ser empunhado com as duas mãos, impedindo que você empunhe uma arma ou qualquer outro item (um parceiro capaz de empunhar escudos pode segurar o escudo para você, mas não poderá fornecer seus benefícios enquanto faz isso), e é muito desajeitado para ser empunhado montado ou usado para atacar. Além de seus bônus na Defesa, fornece camuflagem leve. Além disso, em seu turno, se estiver usando o escudo, você pode escolher um aliado adjacente e fornecer seu bônus na Defesa e camuflagem a ele. Contudo, caso você ou o aliado sofram um acerto crítico, o escudo é destruído.",
+  "livro": "herois_de_arton"
+}

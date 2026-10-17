@@ -1,0 +1,14 @@
+{
+  "id": "estribos",
+  "name": "Estribos",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 60,
+  "espacos": 1,
+  "uso": "vestido_pela_montaria",
+  "efeito": {
+    "dano_extra_investida_montada": "1d8"
+  },
+  "description": "Apoios para os pés que fazem parte do equipamento básico de um ginete. Parecem simples, mas representam uma enorme inovação na tecnologia artoniana, possibilitando várias táticas de cavalaria antes inviáveis. Deve ser vestido pela montaria. Quando você faz uma investida montada, causa +1d8 pontos de dano.",
+  "livro": "herois_de_arton"
+}

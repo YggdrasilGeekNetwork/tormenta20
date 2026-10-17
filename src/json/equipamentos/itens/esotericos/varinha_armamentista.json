@@ -1,0 +1,16 @@
+{
+  "id": "varinha_armamentista",
+  "name": "Varinha Armamentista",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 600,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "bonus_dano_arcano_de_batalha": 2
+  },
+  "description": "Feita de metal ou marfim, esta varinha canaliza seu poder pessoal para a energia da magia. Aumenta o bônus de dano fornecido pelo poder Arcano de Batalha em +2.",
+  "livro": "herois_de_arton"
+}

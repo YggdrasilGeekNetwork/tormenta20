@@ -1,0 +1,24 @@
+{
+  "id": "explorar_fraqueza",
+  "name": "Explorar Fraqueza",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Quando usa Encontrar Fraqueza em um inimigo, você também ignora 5 pontos da redução de dano dele até o fim da cena.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "encontrar_fraqueza"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_resist_improvement",
+      "value": 5,
+      "note": "ignora_5_pontos_de_rd_do_alvo_de_encontrar_fraqueza",
+      "duration": "cena"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

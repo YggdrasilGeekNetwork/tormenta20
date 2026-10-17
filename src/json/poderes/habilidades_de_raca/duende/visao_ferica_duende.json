@@ -1,0 +1,13 @@
+{
+  "id": "visao_ferica_duende",
+  "name": "Visão Feérica",
+  "type": "habilidade_de_raca",
+  "race": "duende",
+  "description": "Você recebe visão na penumbra e está permanentemente sob efeito da magia Visão Mística com o aprimoramento de enxergar criaturas e objetos invisíveis.",
+  "effects": {
+    "vision": "baixa_luminosidade",
+    "concede_magia_permanente": "visao_mistica",
+    "aprimoramento_incluido": "enxerga criaturas e objetos invisíveis"
+  },
+  "livro": "herois_de_arton"
+}

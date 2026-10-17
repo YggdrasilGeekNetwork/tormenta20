@@ -1,0 +1,21 @@
+{
+  "id": "mina",
+  "name": "Mina",
+  "description": "Esta construção pode ser de superfície (um grande buraco no chão) ou subterrânea (com túneis chamados de \"galerias\") e tem como objetivo extrair minérios valiosos da terra. Fornece espantosos 1d12 LO por turno de domínio, mas pode atrair monstros do subterrâneo — impõe -20% nas rolagens de eventos aleatórios.",
+  "categoria": "nobreza",
+  "custo": 20,
+  "effects": [
+    {
+      "type": "renda_dominio",
+      "dado": "1d12",
+      "frequencia": "por_turno"
+    },
+    {
+      "type": "penalidade_eventos_aleatorios",
+      "value": -20,
+      "unidade": "percentual"
+    }
+  ],
+  "prerequisito": "terreno montanha ou subterrâneo",
+  "livro": "herois_de_arton"
+}

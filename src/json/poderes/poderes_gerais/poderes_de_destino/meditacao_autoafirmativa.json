@@ -1,0 +1,81 @@
+{
+  "id": "meditacao_autoafirmativa",
+  "name": "Meditação Autoafirmativa",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Você pode entrar em um transe hipnótico no qual convence a si mesmo de que possui certas habilidades. Para usar este poder, você deve escolher um benefício da tabela abaixo e meditar por 1 dia. No fim do dia, faça um teste de Carisma (CD conforme o benefício escolhido). Se passar, você adquire esse benefício por uma semana ou até usar este poder novamente. Enquanto medita, você fica fascinado. Você pode meditar por mais de um dia; nesse caso, cada dia fornece um bônus de +1 no teste de Carisma, até um máximo de +7 para uma semana. Mestres malvados podem exigir testes de Fortitude para personagens que passem vários dias sem se alimentar (veja \"Fome e Sede\", Tormenta20, p. 319). Tabela de benefícios: \"Eu sei lutar.\" +1 em testes de ataque (CD 15); \"Eu sei lutar muito bem.\" +2 em testes de ataque (CD 20); \"Por Anilatir, como eu luto bem!\" +3 em testes de ataque (CD 25); \"Ninguém toca em mim.\" +2 na Defesa (CD 20); \"Nada me afeta.\" +5 em testes de resistência (CD 20); \"Eu sei fazer isso.\" Torna-se treinado em uma perícia (CD 17); \"Eu sou bom demais!\" Pode usar um poder cujos pré-requisitos você cumpra (CD 22).",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "sab",
+      "value": 1
+    },
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "car",
+      "value": 1
+    },
+    {
+      "type": "character_level",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "active_ability",
+      "action": "1_dia_de_meditacao_com_condicao_fascinado",
+      "test": {
+        "skill": "carisma",
+        "cd": "conforme_beneficio_escolhido"
+      },
+      "on_success_choose_one": [
+        {
+          "benefit": "eu_sei_lutar",
+          "effect": "attack_improvement",
+          "value": 1,
+          "cd": 15
+        },
+        {
+          "benefit": "eu_sei_lutar_muito_bem",
+          "effect": "attack_improvement",
+          "value": 2,
+          "cd": 20
+        },
+        {
+          "benefit": "por_anilatir_como_eu_luto_bem",
+          "effect": "attack_improvement",
+          "value": 3,
+          "cd": 25
+        },
+        {
+          "benefit": "ninguem_toca_em_mim",
+          "effect": "defense_improvement",
+          "value": 2,
+          "cd": 20
+        },
+        {
+          "benefit": "nada_me_afeta",
+          "effect": "resistence_test_improvement",
+          "value": 5,
+          "cd": 20
+        },
+        {
+          "benefit": "eu_sei_fazer_isso",
+          "effect": "skill_training",
+          "cd": 17
+        },
+        {
+          "benefit": "eu_sou_bom_demais",
+          "effect": "use_power_without_meeting_prerequisites_check",
+          "cd": 22
+        }
+      ],
+      "duration": "1_semana_ou_ate_usar_de_novo",
+      "cd_bonus_scaling": "+1 por dia adicional de meditação, máximo +7 para uma semana"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

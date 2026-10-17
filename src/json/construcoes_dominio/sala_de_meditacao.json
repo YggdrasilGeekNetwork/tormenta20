@@ -1,0 +1,16 @@
+{
+  "id": "sala_de_meditacao",
+  "name": "Sala de Meditação",
+  "description": "Uma sala silenciosa, onde você pode se conectar com suas energias místicas. Você recebe +3 pontos de mana, mas apenas se for um conjurador arcano (como um arcanista ou bardo).",
+  "categoria": "misticismo",
+  "custo": 5,
+  "effects": [
+    {
+      "type": "bonus_pm",
+      "value": 3,
+      "condicao": "apenas conjuradores arcanos"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

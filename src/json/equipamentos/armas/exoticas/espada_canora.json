@@ -1,0 +1,22 @@
+{
+  "id": "espada_canora",
+  "name": "Espada Canora",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 50,
+  "dano": "1d6",
+  "critico": "19",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [
+    "agil"
+  ],
+  "especial": {
+    "conta_como_instrumento_musical_bardo": true
+  },
+  "description": "Possui frestas na lâmina que produzem um som gracioso quando é brandida. Conta como um instrumento musical para bardos. Uma espada canora é uma arma ágil.",
+  "livro": "herois_de_arton"
+}

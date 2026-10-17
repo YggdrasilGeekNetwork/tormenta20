@@ -1,0 +1,17 @@
+{
+  "id": "sentenca_de_bolso",
+  "name": "Sentença de Bolso",
+  "type": "poder_distincao",
+  "description": "Os canhões do Sentença são os mais terríveis de toda Arton. A mera menção de seu poder deixa qualquer marujo com as pernas bambas. Você recebe +2 em Intimidação e na margem de ameaça com armas de fogo, e causa +2d6 pontos de dano com armas de fogo em oponentes desprevenidos.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "+2 em Intimidação e na margem de ameaça com armas de fogo; +2d6 pontos de dano com armas de fogo contra oponentes desprevenidos"
+    }
+  ],
+  "requirements": [
+    "proficiência com armas de fogo",
+    "Içar a Bandeira Preta"
+  ],
+  "livro": "herois_de_arton"
+}

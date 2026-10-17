@@ -1,0 +1,75 @@
+{
+  "id": "toque_do_horizonte",
+  "name": "Toque do Horizonte",
+  "type": "arcana",
+  "circle": "1",
+  "school": "trans",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "toque",
+  "target": {
+    "amount": 1,
+    "up_to": null,
+    "type": "arma_de_ataque_a_distancia"
+  },
+  "effect": "alvo",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "A magia melhora a precisão da arma, aumentando seu alcance em um passo (de curto para médio e de médio para longo). Se o alcance da arma já é longo, ele é dobrado. Os efeitos desta magia contam como um bônus de encanto.",
+  "enhancements": [
+    {
+      "cost": 1,
+      "type": "muda",
+      "description": "a arma ignora camuflagem leve e penalidades por cobertura leve.",
+      "extra_details": null
+    },
+    {
+      "cost": 1,
+      "type": "muda",
+      "description": "além do normal, a arma fornece +1 em testes de ataque e rolagens de dano feitos dentro do seu alcance original.",
+      "extra_details": null
+    },
+    {
+      "cost": 2,
+      "type": "aumenta",
+      "description": "aumenta o bônus do aprimoramento acima em +1 (bônus máximo limitado pelo círculo máximo de magia que você pode lançar).",
+      "extra_details": null
+    },
+    {
+      "cost": 2,
+      "type": "aumenta",
+      "description": "a margem de ameaça da arma aumenta em +1. Requer 2° círculo.",
+      "extra_details": {
+        "requirements": "2° círculo"
+      }
+    },
+    {
+      "cost": 5,
+      "type": "muda",
+      "description": "muda o alvo para uma arma de arremesso e a duração para sustentada. Em vez do normal, a arma recebe o benefício do encanto dançarina. Requer 3° círculo.",
+      "extra_details": {
+        "requirements": "3° círculo",
+        "duration": "sustentada",
+        "target": {
+          "amount": 1,
+          "up_to": null,
+          "type": "arma_de_arremesso"
+        }
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "aumenta",
+      "attribute": "alcance",
+      "amount": "1_passo",
+      "resistence_requirement": null,
+      "extra_requirements": "conta_como_bonus_de_encanto"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "colmeia_de_pergaminhos",
+  "name": "Colmeia de Pergaminhos",
+  "description": "Uma espécie de estante com 'favos' onde pergaminhos podem ser guardados. Pode ser instalada na biblioteca ou no gabinete místico e possui textos sobre diversas tradições arcanas. Conjuradores arcanos aprendem uma magia de qualquer círculo que possam lançar.",
+  "effects": [
+    {
+      "type": "aprende_magia_arcana_qualquer_circulo"
+    }
+  ],
+  "preco": 2500,
+  "comodo_alvo": "biblioteca_ou_gabinete_mistico",
+  "livro": "herois_de_arton"
+}

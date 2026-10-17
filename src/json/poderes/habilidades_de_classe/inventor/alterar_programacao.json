@@ -1,0 +1,48 @@
+{
+  "id": "alterar_programacao",
+  "name": "Alterar Programação",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Você pode gastar uma ação completa e 3 PM para alterar a programação de um construto não inteligente (Int –4 ou menor) adjacente. Faça um teste de Ofício (artesão) oposto ao teste de Vontade do construto. Se você vencer, ele fica confuso por 1 rodada e vulnerável. Se for um lacaio, em vez disso fica sob seu controle até o fim da aventura. Você só pode controlar um construto dessa forma por vez e cada construto só pode ser alvo deste poder uma vez por cena.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "oficio_artesao"
+    },
+    {
+      "type": "target_type",
+      "sub_type": "soft",
+      "target": "construto_nao_inteligente"
+    }
+  ],
+  "effects": [
+    {
+      "type": "condition",
+      "condition": "confuso",
+      "duration": "1_rodada",
+      "requirement": "vencer_teste_de_oficio_artesao_oposto_a_vontade_do_construto"
+    },
+    {
+      "type": "condition",
+      "condition": "vulneravel",
+      "duration": "1_rodada"
+    },
+    {
+      "type": "condition",
+      "condition": "sob_controle",
+      "duration": "fim_da_aventura",
+      "requirement": "construto_do_tipo_lacaio"
+    }
+  ],
+  "costs": [
+    {
+      "value": 3,
+      "type": "PM"
+    },
+    {
+      "type": "acao_completa"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "fragrancia_de_rosas",
+  "name": "Fragrância de Rosas",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você cheira bem. Você recebe +2 em Diplomacia e pode gastar uma ação padrão e 2 PM para forçar todas as criaturas em alcance curto a fazerem um teste de Fortitude (CD Car). Uma criatura que falhe fica pasma por 1 rodada (apenas uma vez por cena) como um efeito metabólico.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "dahllan",
+        "duende"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "skill": "diplomacia"
+    },
+    {
+      "type": "active_ability",
+      "action": "padrao",
+      "test": {
+        "save": "fortitude",
+        "cd": "car"
+      },
+      "range": "curto",
+      "on_fail": {
+        "condition": "pasma",
+        "duration": "1_rodada",
+        "frequency": "uma_vez_por_cena"
+      },
+      "effect_type": "metabolico"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

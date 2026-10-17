@@ -1,0 +1,16 @@
+{
+  "id": "arena_arcana",
+  "name": "Arena Arcana",
+  "description": "Com espelhos capazes de conter efeitos destrutivos, esta sala é feita para treinar ataques mágicos. Você recebe +1 no dano de cada dado de seu Raio Arcano.",
+  "categoria": "misticismo",
+  "custo": 6,
+  "effects": [
+    {
+      "type": "bonus_dano_por_dado",
+      "habilidade": "Raio Arcano",
+      "value": 1
+    }
+  ],
+  "prerequisito": "salao_dos_misterios",
+  "livro": "herois_de_arton"
+}

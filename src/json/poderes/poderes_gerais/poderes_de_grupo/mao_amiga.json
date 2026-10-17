@@ -1,0 +1,26 @@
+{
+  "id": "mao_amiga",
+  "name": "Mão Amiga",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Você e seu grupo de aventureiros sabem assumir o papel de ajudantes uns para os outros, facilitando tarefas longas e maçantes. Sempre que você fizer uma ação que demora mais de uma semana, seus aliados com este poder podem ajudá-lo. Cada aliado que gastar uma semana ao mesmo tempo que você adiciona uma semana ao tempo de sua ação. Por exemplo, se você quiser fabricar um item superior (uma tarefa que exige um mês), três aliados com este poder podem gastar cada um uma semana, ao mesmo tempo que você. Assim, a fabricação demora apenas uma semana (pois quatro semanas equivalem a um mês).",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "downtime_task_speedup",
+      "trigger": "acao_que_demora_mais_de_uma_semana",
+      "effect": "cada_aliado_com_este_poder_que_gasta_uma_semana_junto_adiciona_uma_semana_ao_progresso_da_tarefa"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

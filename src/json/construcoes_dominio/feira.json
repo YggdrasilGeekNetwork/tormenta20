@@ -1,0 +1,16 @@
+{
+  "id": "feira",
+  "name": "Feira",
+  "description": "Um espaço no centro da comunidade onde, uma vez por semana, fazendeiros trazem suas verduras, artesãos trazem seus produtos e todos trazem seu dinheiro — uma parte do qual, graças aos impostos, fica com você. Fornece 1d4 LO por turno de domínio.",
+  "categoria": "nobreza",
+  "custo": 5,
+  "effects": [
+    {
+      "type": "renda_dominio",
+      "dado": "1d4",
+      "frequencia": "por_turno"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

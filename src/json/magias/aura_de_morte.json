@@ -1,0 +1,63 @@
+{
+  "id": "aura_de_morte",
+  "name": "Aura de Morte",
+  "type": "arcana",
+  "circle": "2",
+  "school": "necro",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": {
+    "amount": null,
+    "up_to": null,
+    "type": "criaturas_na_area"
+  },
+  "effect": "area_6m",
+  "effect_details": {
+    "shape": "esfera",
+    "dimention": "raio",
+    "size": "6m",
+    "other_details": null
+  },
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Uma aura de frio necrótico emana a partir do seu corpo, alimentando-se de sua própria força vital. Quando você lança a magia, e no início de cada um dos seus turnos, você perde 1d6 pontos de vida e cada outra criatura na área perde 2d8 pontos de vida.",
+  "enhancements": [
+    {
+      "cost": 1,
+      "type": "aumenta",
+      "description": "aumenta a perda de vida para outras criaturas em +1d8 (número de dados de perda de vida máximos limitados pelo círculo máximo de magia que você pode lançar). Requer 3º círculo.",
+      "extra_details": {
+        "requirements": "3º círculo"
+      }
+    },
+    {
+      "cost": 3,
+      "type": "muda",
+      "description": "adiciona resistência (Fortitude parcial). Além do normal, outras criaturas que percam pontos de vida pela magia devem fazer um teste de Fortitude. Se falharem, não podem recuperar PV por 1 rodada. Requer 3º círculo.",
+      "extra_details": {
+        "requirements": "3º círculo"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "dano",
+      "attribute": "pv",
+      "amount": "2d8",
+      "resistence_requirement": null,
+      "extra_requirements": "início_de_cada_turno_do_conjurador"
+    },
+    {
+      "type": "outro",
+      "attribute": "pv",
+      "amount": "1d6",
+      "resistence_requirement": null,
+      "extra_requirements": "perda_de_vida_do_proprio_conjurador"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

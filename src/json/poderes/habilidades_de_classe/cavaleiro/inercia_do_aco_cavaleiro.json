@@ -1,0 +1,28 @@
+{
+  "id": "inercia_do_aco_cavaleiro",
+  "name": "Inércia do Aço",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Quando acerta um ataque com uma arma de duas mãos em uma criatura, você pode gastar 3 PM para causar metade do dano desse ataque a cada inimigo adjacente a essa criatura. Pré-requisito: 5º nível de cavaleiro.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "trigger": "acertar_ataque_com_arma_de_duas_maos",
+      "effect": "metade_do_dano_do_ataque_a_cada_inimigo_adjacente_ao_alvo"
+    }
+  ],
+  "costs": [
+    {
+      "value": 3,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

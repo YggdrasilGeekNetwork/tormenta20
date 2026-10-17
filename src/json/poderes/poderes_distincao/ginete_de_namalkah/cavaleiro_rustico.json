@@ -1,0 +1,15 @@
+{
+  "id": "cavaleiro_rustico",
+  "name": "Cavaleiro Rústico",
+  "type": "poder_distincao",
+  "description": "Um verdadeiro ginete de Namalkah não teme nada e não precisa de um monte de metal para defendê-lo. Você soma sua Sabedoria na Defesa e seu irmão cavalo recebe os benefícios de um parceiro guardião iniciante. Este poder exige liberdade de movimentos; você não pode usá-lo se estiver de armadura pesada ou imóvel.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "soma Sabedoria na Defesa; irmão cavalo recebe benefícios de parceiro guardião iniciante",
+      "restricao": "inutilizável com armadura pesada ou imóvel"
+    }
+  ],
+  "requirements": ["Sab 1", "Irmão Campestre"],
+  "livro": "herois_de_arton"
+}

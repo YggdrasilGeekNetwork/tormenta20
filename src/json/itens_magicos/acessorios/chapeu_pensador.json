@@ -1,0 +1,17 @@
+{
+  "id": "chapeu_pensador",
+  "name": "Chapéu Pensador",
+  "categoria": "maior",
+  "preco": 30000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este estranhíssimo \"chapéu\" na verdade tem o formato triangular de um telhado, com uma chaminé no topo, onde está alojado um ninho de pássaros ruidosos — que dizem ser raros animais planares sagrados de Tanna-Toh. Você recebe a habilidade Engenhosidade (Tormenta20, p. 68); caso já possua essa habilidade, o bônus fornecido por ela aumenta em +2.",
+  "effects": [
+    {
+      "type": "concede_habilidade",
+      "habilidade": "Engenhosidade",
+      "condicao_se_ja_possui": "bônus fornecido por ela aumenta em +2"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

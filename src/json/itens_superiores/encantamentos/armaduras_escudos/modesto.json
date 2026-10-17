@@ -1,0 +1,15 @@
+{
+  "id": "modesto",
+  "name": "Modesto",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item o incentiva a não querer brilhar demais, esconder seus próprios feitos e menosprezar suas maiores especialidades. Sempre que você fizer um teste da perícia na qual tem o maior modificador (exceto Luta e Pontaria), deve rolar dois dados, ficando com o pior resultado. Caso duas ou mais perícias estejam empatadas para o maior modificador, esse efeito se aplica a todas elas.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "em testes da perícia na qual tem o maior modificador (exceto Luta e Pontaria), rola dois dados e fica com o pior resultado; se houver empate no maior modificador entre várias perícias, o efeito se aplica a todas elas"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

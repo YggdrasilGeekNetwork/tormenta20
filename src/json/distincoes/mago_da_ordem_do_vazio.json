@@ -1,0 +1,10 @@
+{
+  "id": "mago_da_ordem_do_vazio",
+  "name": "Mago da Ordem do Vazio",
+  "description": "Arcanistas dissidentes que abandonam os componentes materiais tradicionais em favor de um componente especial único e pessoal, buscando uma expressão individual da magia de Wynna.",
+  "admissao": "Este método de conjuração não pode ser ensinado, apenas redescoberto por conta própria. O candidato deve, antes de mais nada, ser um arcanista experiente, então escolher um componente tão único quanto possível (que não pode ser o mesmo de outro mago do Vazio já existente) e concentrar sua pesquisa nele, redescobrindo essa forma de magia do zero. Deve passar a lançar todas as suas magias usando esse componente como catalisador — que a princípio não traz benefício algum, mas o impede de usar outros catalisadores. Esse processo dura meses e se conclui quando o candidato vence três desafios arcanos avançados; se lançar qualquer magia sem o componente durante o treinamento, deve escolher um novo componente e recomeçar. Vencidos os três desafios, o candidato finalmente domina seu componente especial e é reconhecido como um mago da Ordem do Vazio.",
+  "marca_nome": "Componente Especial",
+  "marca_descricao": "Para lançar magias arcanas, você precisa gastar um componente especial, que funciona como um componente material. Se não tiver seu componente especial, você não consegue lançar suas magias. Contudo, quando lança uma magia usando seu componente especial, a CD para resistir a ela aumenta em +2.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

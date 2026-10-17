@@ -1,0 +1,19 @@
+{
+  "id": "paranoico",
+  "name": "Paranoico",
+  "description": "Você não confia em ninguém, nem em seus aliados. Você precisa passar em um teste de Vontade (CD 20 + seu nível) para aceitar qualquer ajuda — até mesmo cura! Se falhar no teste, recusa a ajuda e, se for ajudado mesmo assim (contra sua vontade), fica alquebrado até o fim da cena. Além disso, você não dorme direito: sua condição de descanso é sempre uma categoria pior do que seria pelas circunstâncias (se já era ruim, você recupera apenas 1 PV e 1 PM, independentemente do seu nível).",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "restricao_acao",
+      "descricao": "precisa passar em teste de Vontade (CD 20 + nível) para aceitar qualquer ajuda, até cura; se falhar, recusa a ajuda; se ajudado mesmo assim, fica alquebrado até o fim da cena"
+    },
+    {
+      "type": "recuperacao_reduzida",
+      "contexto": "descanso",
+      "descricao": "condição de descanso sempre uma categoria pior (mínimo 1 PV e 1 PM)"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

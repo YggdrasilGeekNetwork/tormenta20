@@ -1,0 +1,30 @@
+{
+  "id": "boticario",
+  "name": "Boticário",
+  "description": "Você foi aprendiz de um especialista em ervas, poções e misturas alquímicas, alguém capaz de curar doenças, fabricar elixires e até criar venenos. Na loja de seu mestre, repleta de frascos misteriosos e ingredientes exóticos, você passava os dias triturando raízes, destilando essências e consultando grimórios antigos. Seus clientes variavam de camponeses com males comuns a magos em busca de componentes raros. Seu trabalho não era livre de perigos: ao manusear substâncias exóticas, uma dosagem errada podia ser fatal. Talvez você tenha cometido um erro terrível que levou a seu banimento? Seus atuais colegas aventureiros sabem disso?",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Bálsamo restaurador"
+    },
+    {
+      "type": "fixed",
+      "text": "Instrumentos de Ofício (alquimista)"
+    },
+    {
+      "type": "fixed",
+      "text": "Maleta de medicamentos"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Cura",
+      "Ofício (alquimista)"
+    ],
+    "powers": [
+      "Fórmulas Alquímicas"
+    ]
+  },
+  "unique_power": "formulas_alquimicas",
+  "livro": "herois_de_arton"
+}

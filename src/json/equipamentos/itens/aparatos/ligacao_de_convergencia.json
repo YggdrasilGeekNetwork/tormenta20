@@ -1,0 +1,17 @@
+{
+  "id": "ligacao_de_convergencia",
+  "name": "Ligação de Convergência",
+  "type": "item",
+  "categoria": "aparato",
+  "preco": 300,
+  "espacos": 1,
+  "espacos_acoplado": 0,
+  "cd_fabricacao": 20,
+  "efeito": {
+    "requisito": "deve ser acoplado a exatamente duas engenhocas",
+    "efeito": "as duas engenhocas contam como uma só para o limite de engenhocas que você pode manter",
+    "restricao": "ao ativar uma delas, a outra não pode ser ativada na mesma cena; se o efeito da anterior ainda estiver ativo (como durar 1 dia) na cena seguinte, ele é dissipado ao ativar a outra"
+  },
+  "description": "Aparato usado por inventores para modificar o funcionamento de suas engenhocas. Enquanto acoplado a uma engenhoca, não ocupa espaços; uma engenhoca pode ter até dois aparatos diferentes. Usar um aparato aumenta a CD para ativar a engenhoca em +2 (dois aparatos, +5). Acoplar ou remover um aparato exige 1 hora de trabalho. Aparatos são fabricados com Ofício (engenhoqueiro), CD 20. Deve ser acoplado a duas engenhocas (nem mais, nem menos), transformando ambas em uma. As duas engenhocas contam como uma só para efeitos do limite de engenhocas que você pode manter ao mesmo tempo. Contudo, uma vez que uma delas seja ativada, a outra não pode ser ativada na mesma cena. Nas cenas seguintes, é possível ativar a outra engenhoca, mas se o efeito da anterior ainda estiver ativo (como por durar 1 dia), ele é dissipado.",
+  "livro": "herois_de_arton"
+}

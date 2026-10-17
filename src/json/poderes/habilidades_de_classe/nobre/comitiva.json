@@ -1,0 +1,23 @@
+{
+  "id": "comitiva",
+  "name": "Comitiva",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Seu limite de parceiros aumenta em +1. A partir do 11º nível, esse limite aumenta em +1 adicional.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "amount_targets",
+      "value": 1,
+      "note": "limite_de_parceiros_aumenta_em_1_mais_1_adicional_a_partir_do_11_nivel"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

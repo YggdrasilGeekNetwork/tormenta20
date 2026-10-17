@@ -1,0 +1,16 @@
+{
+  "id": "remontagem_de_portabilidade",
+  "name": "Remontagem de Portabilidade",
+  "type": "item",
+  "categoria": "aparato",
+  "preco": 300,
+  "espacos": 1,
+  "espacos_acoplado": 0,
+  "cd_fabricacao": 20,
+  "efeito": {
+    "efeito": "a engenhoca é unida a um item de vestuário, não ocupa espaços e conta como vestida junto com o item (sem contar no limite de itens vestidos)",
+    "limite": "apenas uma engenhoca vestida dessa forma por vez"
+  },
+  "description": "Aparato usado por inventores para modificar o funcionamento de suas engenhocas. Enquanto acoplado a uma engenhoca, não ocupa espaços; uma engenhoca pode ter até dois aparatos diferentes. Usar um aparato aumenta a CD para ativar a engenhoca em +2 (dois aparatos, +5). Acoplar ou remover um aparato exige 1 hora de trabalho. Aparatos são fabricados com Ofício (engenhoqueiro), CD 20. Na verdade uma modificação total da engenhoca: uma série de molas, hastes e fios que permite que ela seja \"desmontada\" e unida a um item de vestuário. A engenhoca não ocupa nenhum espaço e, enquanto o item estiver vestido, conta como se também estivesse vestida (sem contar no limite de itens vestidos). Contudo, modifica drasticamente o item de vestuário — qualquer um que o veja pode notar que há uma engenhoca mesclada a ele. Você só pode ter uma engenhoca vestida desta forma por vez.",
+  "livro": "herois_de_arton"
+}

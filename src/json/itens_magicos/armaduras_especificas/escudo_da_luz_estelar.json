@@ -1,0 +1,28 @@
+{
+  "id": "escudo_da_luz_estelar",
+  "name": "Escudo da Luz Estelar",
+  "subtipo": "escudo",
+  "base_item": "escudo_leve",
+  "preco": 27000,
+  "description": "Este escudo leve defensor parece feito de cristal e brilha com a luz das estrelas. Você recebe +5 em Percepção. Além disso, pode lançar Luz e usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um arcanista de seu nível (CD Int). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensor"
+    },
+    {
+      "type": "bonus_pericia",
+      "pericia": "Percepção",
+      "value": 5
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Luz",
+      "cd": "Inteligência",
+      "circulo_como": "arcanista",
+      "reducao_custo_pm": 1,
+      "condicao": "se já souber lançar a magia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

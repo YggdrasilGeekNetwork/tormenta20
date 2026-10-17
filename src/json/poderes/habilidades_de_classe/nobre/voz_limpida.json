@@ -1,0 +1,18 @@
+{
+  "id": "voz_limpida",
+  "name": "Voz Límpida",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Quando você usa uma habilidade de nobre que afete um ou mais aliados, o custo dessa habilidade diminui em –1 PM (isso não reduz efeitos baseados no custo em PM pago).",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "reduce_PM_cost",
+      "value": -1,
+      "requirement": "habilidade_de_nobre_que_afete_um_ou_mais_aliados",
+      "note": "nao_reduz_efeitos_baseados_no_custo_em_pm_pago"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

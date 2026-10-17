@@ -1,0 +1,13 @@
+{
+  "id": "guarita",
+  "name": "Guarita",
+  "description": "Uma pequena acomodação de onde um porteiro ou guarda acompanha a entrada e saída de visitantes. A base recebe +4 em segurança.",
+  "effects": [
+    {
+      "type": "bonus_seguranca_base",
+      "value": 4
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

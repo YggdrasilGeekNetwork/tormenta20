@@ -1,0 +1,17 @@
+{
+  "id": "domo_protetor",
+  "name": "Domo Protetor",
+  "description": "Uma cúpula física ou mágica ao redor da base. A base recebe +2 na segurança e, se for móvel, pode entrar em ambientes inóspitos, como debaixo d'água (a critério do mestre) sem colocar seus ocupantes em risco.",
+  "effects": [
+    {
+      "type": "bonus_seguranca_base",
+      "value": 2
+    },
+    {
+      "type": "protecao_ambiental",
+      "aplica_se": "base_movel"
+    }
+  ],
+  "prerequisito": "gabinete místico",
+  "livro": "herois_de_arton"
+}

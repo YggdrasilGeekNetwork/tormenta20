@@ -1,0 +1,24 @@
+{
+  "id": "sifao_de_mana",
+  "name": "Sifão de Mana",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Quando você lança uma magia e pelo menos um inimigo falha no teste de resistência contra ela, você recupera uma quantidade de pontos de mana igual ao círculo da magia (limitada pelo total de PM gastos nela). Pré-requisito: 17° nível de arcanista.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "resource_gain",
+      "resource": "PM",
+      "value": "circulo_da_magia",
+      "limited_by": "pm_gastos_na_magia",
+      "trigger": "inimigo_falha_resistencia_contra_magia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "arma_natural_aprimorada",
+  "name": "Arma Natural Aprimorada",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Escolha uma de suas armas naturais fornecidas por raça. O dano dessa arma aumenta em um passo e sua margem de ameaça aumenta em +1. Você pode escolher este poder outras vezes para armas naturais diferentes.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "arma_natural_de_habilidade_racial"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "1_passo",
+      "weapon": "arma_natural_escolhida"
+    },
+    {
+      "type": "threat_improvement",
+      "value": 1,
+      "weapon": "arma_natural_escolhida"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "race_scope": "varias",
+  "race_scope_note": "qualquer raça com arma natural fornecida por habilidade racial"
+}

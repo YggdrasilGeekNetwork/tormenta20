@@ -1,0 +1,16 @@
+{
+  "id": "incriminador",
+  "name": "Incriminador",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico é imbuído com energias enganadoras. Uma vez por cena, quando você lança uma magia, pode gastar 3 PM para criar uma ilusão que mostra a magia sendo lançada por outra criatura a sua escolha em alcance médio. Criaturas que identificarem a magia (veja Misticismo, em Tormenta20, p. 121) têm direito a um teste de Vontade (CD da magia) para desacreditar.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 3,
+      "limite": "uma vez por cena",
+      "efeito": "cria uma ilusão que mostra a magia sendo lançada por outra criatura à sua escolha em alcance médio; criaturas que identificarem a magia (teste de Misticismo) podem fazer um teste de Vontade CD da magia para desacreditar"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

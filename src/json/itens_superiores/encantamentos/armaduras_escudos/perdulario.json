@@ -1,0 +1,15 @@
+{
+  "id": "perdulario",
+  "name": "Perdulário",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item faz com que você pague a mais na taverna, deixe cair tibares sem perceber, recuse troco... Você perde 10% de todo dinheiro que carrega consigo a cada semana. Caso não carregue nenhum dinheiro consigo, você perde um item que carrega (exceto este), decidido aleatoriamente, por semana. A única maneira de evitar esse efeito é andar completamente nu e não levar nada além deste item.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "perde 10% de todo o dinheiro que carrega a cada semana; se não carregar dinheiro, perde um item que carrega (exceto este), escolhido aleatoriamente, por semana; só é evitável andando completamente nu e sem carregar mais nada além deste item"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

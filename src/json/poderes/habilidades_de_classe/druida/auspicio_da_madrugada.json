@@ -1,0 +1,40 @@
+{
+  "id": "auspicio_da_madrugada",
+  "name": "Auspício da Madrugada",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Você pode gastar 1 PM para impor uma penalidade de –1 em testes de perícia e na CD de habilidades de criaturas a sua escolha em alcance curto por 1 rodada. Se você estiver sob efeito de escuridão, a penalidade se torna –2.",
+  "requirements": [
+    {
+      "type": "devotee_of_divinity",
+      "sub_type": "hard",
+      "divinity": "tenebra"
+    },
+    {
+      "type": "range_target",
+      "sub_type": "soft",
+      "range": "curto"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_penalty",
+      "value": -1,
+      "duration": "1_rodada",
+      "note": "-2_se_sob_efeito_de_escuridao"
+    },
+    {
+      "type": "CD_penalty",
+      "value": -1,
+      "duration": "1_rodada",
+      "note": "-2_se_sob_efeito_de_escuridao"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

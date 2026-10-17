@@ -1,0 +1,35 @@
+{
+  "id": "vitalidade_das_fadas",
+  "name": "Vitalidade das Fadas",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Sua energia vital não provém de simples saúde física, mas de convicção, postura positiva e força de personalidade. Você soma seu Carisma em seus pontos de vida iniciais e em Fortitude, e recebe +1 PV por nível a partir do 2º.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "dahllan",
+        "duende",
+        "satiro",
+        "silfide"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "add_attr_bonus_to_skill",
+      "attr": "car",
+      "target": [
+        "pv_iniciais",
+        "fortitude"
+      ]
+    },
+    {
+      "type": "resource_improvement",
+      "resource": "PV",
+      "value": "1_por_nivel_a_partir_do_2"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

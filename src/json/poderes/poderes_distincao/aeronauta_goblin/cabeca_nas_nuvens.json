@@ -1,0 +1,20 @@
+{
+  "id": "cabeca_nas_nuvens",
+  "name": "Cabeça nas Nuvens",
+  "type": "poder_distincao",
+  "description": "O aeronauta goblin se sente em casa nos céus, sua mente inspirada pela liberdade de voar. Quando está pilotando uma aeronave, você recebe +1 em testes de perícia, rolagens de dano e na CD das suas habilidades e itens. Esse bônus aumenta em +1 para cada dois outros poderes da distinção que você possui.",
+  "effects": [
+    {
+      "type": "passivo",
+      "condicao": "enquanto está pilotando uma aeronave",
+      "efeito": "+1 em testes de perícia, rolagens de dano e na CD das suas habilidades e itens",
+      "escalavel": "aumenta em +1 para cada dois outros poderes da distinção que possui"
+    }
+  ],
+  "requirements": [
+    "Int 2",
+    "treinado em Ofício (artesão)",
+    "treinado em Pilotagem"
+  ],
+  "livro": "herois_de_arton"
+}

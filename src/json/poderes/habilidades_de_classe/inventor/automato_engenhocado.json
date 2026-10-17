@@ -1,0 +1,40 @@
+{
+  "id": "automato_engenhocado",
+  "name": "Autômato Engenhocado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Você pode gastar T$ 100 e 1 dia de trabalho para acoplar em seu autômato uma engenhoca que simule uma magia de 1º círculo com alvo 1 criatura ou objeto, ou que afete uma área. Uma vez por rodada, se o autômato estiver em alcance curto, você pode gastar +2 PM para ativar essa engenhoca como uma ação de movimento, tendo como origem o autômato.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "automato_prototipado"
+    }
+  ],
+  "effects": [
+    {
+      "type": "item_type",
+      "note": "acopla_engenhoca_de_1_circulo_alvo_1_criatura_objeto_ou_area_no_automato"
+    },
+    {
+      "type": "change_action_type",
+      "action": "movimento",
+      "requirement": "ativar_engenhoca_com_automato_em_alcance_curto"
+    }
+  ],
+  "costs": [
+    {
+      "value": 100,
+      "type": "tibares"
+    },
+    {
+      "type": "dia"
+    },
+    {
+      "value": 2,
+      "type": "PM",
+      "note": "adicional_para_ativar_a_engenhoca"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

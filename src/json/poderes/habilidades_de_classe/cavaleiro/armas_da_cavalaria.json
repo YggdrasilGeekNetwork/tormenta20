@@ -1,0 +1,45 @@
+{
+  "id": "armas_da_cavalaria",
+  "name": "Armas da Cavalaria",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Você recebe +2 em testes de ataque e rolagens de dano com espadas longas e bastardas, escudos leves e pesados, lanças montadas e de justa, maças e alabardas. Pré-requisito: 5º nível de cavaleiro.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": 2,
+      "applies_to": [
+        "espada_longa",
+        "espada_bastarda",
+        "escudo_leve",
+        "escudo_pesado",
+        "lanca_montada",
+        "lanca_de_justa",
+        "maca",
+        "alabarda"
+      ]
+    },
+    {
+      "type": "damage_improvement",
+      "value": 2,
+      "applies_to": [
+        "espada_longa",
+        "espada_bastarda",
+        "escudo_leve",
+        "escudo_pesado",
+        "lanca_montada",
+        "lanca_de_justa",
+        "maca",
+        "alabarda"
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

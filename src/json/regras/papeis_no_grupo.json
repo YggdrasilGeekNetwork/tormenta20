@@ -1,0 +1,17 @@
+{
+  "id": "papeis_no_grupo",
+  "name": "Papéis no Grupo",
+  "description": "Regra opcional de organização de mesa: cada jogador assume um papel responsável por uma parte 'burocrática' da campanha (regras, anotações, mapas, etc.), recebendo um pequeno bônus mecânico fixo em troca. O mestre não assume papel. Nenhum jogador pode assumir mais de um papel; se o grupo adotar a regra, todos precisam assumir um.",
+  "papeis": [
+    { "id": "advogado", "name": "Advogado", "descricao": "Ajuda o grupo com regras — conhece bem o sistema, auxilia jogadores novatos e acha regras no livro quando o mestre pede.", "bonus": { "type": "bonus_pm", "value": 1 } },
+    { "id": "arquivista", "name": "Arquivista", "descricao": "Anota nomes de NPCs e lugares, acontecimentos importantes e objetivos declarados por outros jogadores, além das relações entre coadjuvantes.", "bonus": { "type": "bonus_pericia", "pericia": "diplomacia", "value": 1 } },
+    { "id": "bibliotecario", "name": "Bibliotecário", "descricao": "Guardião das informações que o grupo possui sobre o cenário — anota descobertas com o livro e a página onde a informação pode ser encontrada.", "bonus": { "type": "bonus_pericia", "pericia": "conhecimento", "value": 1 } },
+    { "id": "cartografo", "name": "Cartógrafo", "descricao": "Mapeia o terreno onde o grupo está, controla posições relativas em combate e distâncias em viagens longas.", "bonus": { "type": "bonus_pericia", "pericia": "sobrevivencia", "value": 1 } },
+    { "id": "enfermeiro", "name": "Enfermeiro", "descricao": "Mantém o controle de condições e penalidades que afetam os membros do grupo, totais de PV e suprimentos de cura; alerta sobre companheiros prestes a morrer.", "bonus": { "type": "bonus_pericia", "pericia": "cura", "value": 1 } },
+    { "id": "estrategista", "name": "Estrategista", "descricao": "Mantém o controle da iniciativa e das informações dos efeitos que afetam os personagens em combate.", "bonus": { "type": "bonus_pericia", "pericia": "guerra", "value": 1 } },
+    { "id": "teratologo", "name": "Teratólogo", "descricao": "Mantém o controle sobre habilidades e fraquezas de monstros e inimigos que os personagens já conheçam.", "bonus": { "type": "bonus_pericia", "pericia": "misticismo", "value": 1 } },
+    { "id": "tesoureiro", "name": "Tesoureiro", "descricao": "Responsável por anotar os bens do grupo, dividir tesouros encontrados e controlar investimentos em propriedades coletivas.", "bonus": { "type": "bonus_pericia_escolha", "opcoes": ["nobreza", "oficio"], "value": 1 } },
+    { "id": "xerife", "name": "Xerife", "descricao": "Jogador que o mestre pode contactar discretamente para ajudar a empurrar o grupo para a frente, evitando indecisão excessiva e decisões absurdas.", "bonus": { "type": "bonus_pericia", "pericia": "iniciativa", "value": 1 } }
+  ],
+  "livro": "herois_de_arton"
+}

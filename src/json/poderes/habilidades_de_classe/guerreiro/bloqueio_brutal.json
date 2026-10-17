@@ -1,0 +1,33 @@
+{
+  "id": "bloqueio_brutal",
+  "name": "Bloqueio Brutal",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Uma vez por rodada, quando é atingido por um ataque, você pode gastar 2 PM para fazer uma rolagem de dano corpo a corpo e subtrair o resultado dessa rolagem do dano causado pelo ataque.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "forca",
+      "value": 5
+    },
+    {
+      "type": "take_damage",
+      "sub_type": "soft"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_resist_improvement",
+      "value": "rolagem_de_dano_corpo_a_corpo",
+      "requirement": "sofrer_um_ataque"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

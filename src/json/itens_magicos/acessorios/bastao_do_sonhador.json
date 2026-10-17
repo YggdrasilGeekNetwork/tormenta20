@@ -1,0 +1,22 @@
+{
+  "id": "bastao_do_sonhador",
+  "name": "Bastão do Sonhador",
+  "categoria": "medio",
+  "preco": 21000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este bastão longo e esquelético possui uma gema cintilante na ponta e permite que você entre nos sonhos de uma pessoa adormecida. Em termos de jogo, você pode lançar Sonho. Se já puder lançar essa magia, uma vez por mês pode entregar um item para a pessoa ou roubar um item de posse dela. No primeiro caso, quando a pessoa acordar, estará com o item na vida real. No segundo, você precisa fazer um teste de Vontade oposto contra a pessoa. Se você vencer, quando sair do sonho estará com o item dela.",
+  "effects": [
+    {
+      "type": "concede_magia",
+      "magia": "Sonho"
+    },
+    {
+      "type": "habilidade_especial",
+      "frequencia": "1x por mês",
+      "condicao": "se já sabe Sonho",
+      "descricao": "entregar ou roubar um item através do sonho; para roubar exige teste de Vontade oposto"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

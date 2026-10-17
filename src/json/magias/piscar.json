@@ -1,0 +1,56 @@
+{
+  "id": "piscar",
+  "name": "Piscar",
+  "type": "arcana",
+  "circle": "2",
+  "school": "trans",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": {
+    "amount": null,
+    "up_to": null,
+    "type": "você"
+  },
+  "effect": "voce",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Pela duração da magia, você fica \"piscando\" entre o Plano material e o etéreo. Para quem o observa, é como se você ficasse visível e invisível várias vezes por segundo.\nQuaisquer ataques e habilidades (incluindo efeitos benéficos) de outras criaturas têm 50% de chance de não afetá-lo. Você recebe +2 em testes de ataque, pois é difícil ver de onde você está atacando. Contudo, seus próprios ataques e habilidades têm 25% de chance de não afetar outras criaturas, pois você não tem controle total sobre quando está em qual Plano.\nVocê pode interagir com criaturas etéreas, com as mesmas chances de falha.",
+  "enhancements": [
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "muda o alcance para toque e o alvo para 1 criatura voluntária. Requer 3º círculo.",
+      "extra_details": {
+        "requirements": "3º círculo",
+        "range": "toque",
+        "target": {
+          "amount": 1,
+          "up_to": null,
+          "type": "criatura_voluntaria"
+        }
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "proteção",
+      "attribute": "chance_de_falha",
+      "amount": "50%",
+      "resistence_requirement": null,
+      "extra_requirements": "contra_ataques_e_habilidades_de_outras_criaturas"
+    },
+    {
+      "type": "bônus",
+      "attribute": "ataque",
+      "amount": "+2",
+      "resistence_requirement": null,
+      "extra_requirements": null
+    }
+  ],
+  "livro": "herois_de_arton"
+}

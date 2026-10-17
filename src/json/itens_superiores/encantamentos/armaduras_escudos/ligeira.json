@@ -1,0 +1,14 @@
+{
+  "id": "ligeira",
+  "name": "Ligeira",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "A armadura pode ser vestida ou removida com uma ação livre (acompanhada ou não de coreografia e música tema).",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "a armadura pode ser vestida ou removida com uma ação livre"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

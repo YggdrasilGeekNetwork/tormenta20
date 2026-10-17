@@ -1,0 +1,22 @@
+{
+  "id": "totem_gigante",
+  "name": "Totem Gigante",
+  "description": "Você interpreta a orientação de levar o totem de sua tribo consigo muito literalmente. Você carrega uma grande coluna de madeira esculpida que jamais pode abandonar. A coluna ocupa 10 espaços e impõe penalidade de armadura –5. †",
+  "categoria": "barbaro",
+  "effects": [
+    {
+      "type": "restricao_equipamento",
+      "descricao": "carrega uma coluna de madeira esculpida de 10 espaços que jamais pode abandonar"
+    },
+    {
+      "type": "penalidade_armadura",
+      "value": -5
+    },
+    {
+      "type": "comportamental",
+      "descricao": "se violar a complicação, perde todos os PM e só pode recuperá-los a partir do próximo dia"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

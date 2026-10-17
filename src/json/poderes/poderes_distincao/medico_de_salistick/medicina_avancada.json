@@ -1,0 +1,21 @@
+{
+  "id": "medicina_avancada",
+  "name": "Medicina Avançada",
+  "type": "poder_distincao",
+  "description": "Aplicando estudo e ciência a seus procedimentos, os membros do Colégio Real alcançam além das fronteiras da medicina artoniana. Cada dado de cura de seu poder Medicina aumenta para d10. Além disso, para cada dois outros poderes da distinção que você possui, pode usar esse poder mais uma vez por criatura a cada dia.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "cada dado de cura do poder Medicina aumenta para d10"
+    },
+    {
+      "type": "passivo",
+      "efeito": "para cada dois outros poderes da distinção, pode usar Medicina mais uma vez por criatura a cada dia"
+    }
+  ],
+  "requirements": [
+    "Foco em Perícia (Cura)",
+    "Medicina"
+  ],
+  "livro": "herois_de_arton"
+}

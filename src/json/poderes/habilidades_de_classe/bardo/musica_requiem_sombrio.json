@@ -1,0 +1,25 @@
+{
+  "id": "musica_requiem_sombrio",
+  "name": "Música: Réquiem Sombrio",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Um cadáver de uma criatura Média ou menor dentro do alcance se ergue como um morto-vivo sob seu comando. Ele é um parceiro iniciante de um tipo a sua escolha aprovado pelo mestre que não conta em seu limite de parceiros. Você pode animar um máximo de cadáveres simultâneos igual ao seu Carisma. Os cadáveres se decompõem no fim da cena. Pré-requisito: necromancia como uma de suas escolas de magia.",
+  "requirements": [
+    {
+      "type": "magic_school",
+      "sub_type": "hard",
+      "school": "necromancia"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "target": "cadaver_de_criatura_media_ou_menor_no_alcance",
+      "effect": "ergue_como_morto_vivo_parceiro_iniciante_tipo_a_escolha_aprovado_pelo_mestre",
+      "does_not_count_toward": "limite_de_parceiros",
+      "max_simultaneous": "carisma",
+      "duration": "cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

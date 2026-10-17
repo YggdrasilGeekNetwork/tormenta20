@@ -1,0 +1,10 @@
+{
+  "id": "infiltrador_de_wynlla",
+  "name": "Infiltrador de Wynlla",
+  "description": "Espiões arcanos treinados por organizações secretas de Wynlla, que unem magia, furtividade e engano para travar guerras invisíveis em nome da magocracia.",
+  "admissao": "Infiltradores são treinados exclusivamente no Reino da Magia, por organizações secretas apadrinhadas por famílias nobres, guildas ou pelo Conselho, nenhuma delas reconhecida oficialmente. Candidatos não naturais de Wynlla precisam antes conquistar a confiança de um patrono; ser capaz de lançar magia arcana é requisito básico. O candidato deve encontrar uma organização disposta a aceitá-lo e provar seus talentos mágicos, furtivos e de enganação em testes que costumam envolver invadir locais protegidos por armadilhas mágicas. Uma vez aceito, recebe um conjunto de missões a cumprir fora de Wynlla usando magia arcana, cada uma ensinando um aspecto da espionagem (trato social, furtividade, arrombamento, fuga). Ao concluí-las, se apresenta em Wynlla e é reconhecido em particular como um novo infiltrador — o patrono, porém, nunca admitirá publicamente o vínculo.",
+  "marca_nome": "Ladinagem Mágica",
+  "marca_descricao": "Você cria um fluxo de energia capaz de manipular pequenos itens próximos. Você pode gastar uma ação de movimento para mover um objeto em alcance curto até 9m em qualquer direção (você só pode mover objetos que poderia manusear com uma mão). Além disso, pode gastar 1 PM para fazer um teste de Ladinagem para abrir fechaduras, ocultar itens, punga ou sabotar em alcance curto.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

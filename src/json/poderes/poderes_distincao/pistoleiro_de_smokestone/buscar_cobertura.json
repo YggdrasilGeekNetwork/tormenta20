@@ -1,0 +1,18 @@
+{
+  "id": "buscar_cobertura",
+  "name": "Buscar Cobertura",
+  "type": "poder_distincao",
+  "description": "\"Um pistoleiro sabe a hora de atirar e a hora de correr.\" Uma vez por rodada, você pode gastar 1 PM para se mover até uma cobertura que possa alcançar com seu deslocamento (desde que tenha um caminho desimpedido até ela).",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "limite": "uma vez por rodada",
+      "efeito": "move-se até uma cobertura alcançável com seu deslocamento, com caminho desimpedido"
+    }
+  ],
+  "requirements": [
+    "Rápido no Gatilho"
+  ],
+  "livro": "herois_de_arton"
+}

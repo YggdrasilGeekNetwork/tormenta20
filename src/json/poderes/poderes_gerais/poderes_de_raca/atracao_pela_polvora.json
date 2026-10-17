@@ -1,0 +1,42 @@
+{
+  "id": "atracao_pela_polvora",
+  "name": "Atração pela Pólvora",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Entre seu povo, existem aqueles que amam a pólvora. Você é um deles! Você recebe +1 em testes de ataque e +2 em rolagens de dano com armas de fogo. Com bombas e itens similares baseados em pólvora, você causa +1 de dano por dado de dano.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "anao",
+        "goblin",
+        "hobgoblin",
+        "kliren"
+      ]
+    },
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "oficio_alquimista"
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": 1,
+      "weapon": "armas_de_fogo"
+    },
+    {
+      "type": "damage_improvement",
+      "value": 2,
+      "weapon": "armas_de_fogo"
+    },
+    {
+      "type": "damage_improvement",
+      "value": "1_por_dado",
+      "weapon": "bombas_e_itens_baseados_em_polvora"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

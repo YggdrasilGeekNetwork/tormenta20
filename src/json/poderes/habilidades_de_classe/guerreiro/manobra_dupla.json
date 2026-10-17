@@ -1,0 +1,28 @@
+{
+  "id": "manobra_dupla",
+  "name": "Manobra Dupla",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Uma vez por rodada, quando faz uma manobra de combate usando uma arma versátil, você pode pagar 1 PM para executar uma manobra diferente extra.",
+  "requirements": [
+    {
+      "type": "weapon_type",
+      "sub_type": "soft",
+      "weapon": "versatil"
+    }
+  ],
+  "effects": [
+    {
+      "type": "manouver_improvement",
+      "manouver": "extra_diferente_da_primeira",
+      "action": "mesma_acao"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

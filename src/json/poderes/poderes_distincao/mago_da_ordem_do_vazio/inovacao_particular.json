@@ -1,0 +1,15 @@
+{
+  "id": "inovacao_particular",
+  "name": "Inovação Particular",
+  "type": "poder_distincao",
+  "description": "\"Cada mago tem seu método, e a criatividade é um escudo contra a intervenção alheia.\" Quando uma criatura tenta anular ou dissipar suas magias (como uma contramágica ou Dispersar as Trevas), ela precisa fazer um teste de Vontade (CD da sua magia, +2 para cada poder da distinção que você possui). Se falhar, o efeito que ela estava usando para isso falha.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "criatura tenta anular ou dissipar suas magias",
+      "efeito": "a criatura deve passar em um teste de Vontade (CD da magia +2 por poder da distinção que possui) ou seu efeito de anulação/dissipação falha"
+    }
+  ],
+  "requirements": ["Magia Experimental"],
+  "livro": "herois_de_arton"
+}

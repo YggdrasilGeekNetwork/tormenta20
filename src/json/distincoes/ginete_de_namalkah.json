@@ -1,0 +1,10 @@
+{
+  "id": "ginete_de_namalkah",
+  "name": "Ginete de Namalkah",
+  "description": "Cavaleiros nômades de Namalkah unidos por um vínculo fraterno e quase místico a seu \"irmão cavalo\", lutando e se movendo como se fossem um só ser.",
+  "admissao": "Apenas nativos de Namalkah ou pessoas que passaram seus anos formativos lá podem se tornar ginetes, recebendo seu irmão cavalo ainda na infância — a companhia desse cavalo é elemento fundamental da admissão e deve ser adquirida antes que o candidato possa cumpri-la. O candidato deve encontrar um ginete mais experiente como mentor e se juntar a seu tropel, cruzando o território de Namalkah. Deve também sair do reino e viver pelo menos uma longa aventura, passando por ao menos três outros reinos ou territórios além-Reinado. Durante essa jornada, deve vencer três desafios sem ajuda de companheiros (exceto no caso do monstro): vencer uma corrida em cancha reta, domar um animal poderoso e xucro e derrotar um monstro poderoso — sempre acompanhado de seu irmão cavalo, que não pode morrer no processo. Por fim, retorna a Namalkah e relata seus feitos ao mentor junto a uma fogueira, recebendo um objeto mundano (geralmente um lenço) que marca sua ligação com as Veneráveis Hostes de Namalkah.",
+  "marca_nome": "Amalkhan",
+  "marca_descricao": "Você e seu irmão cavalo desenvolvem um profundo laço de irmandade. Ele passa a fornecer +1 na Defesa e em Reflexos, além de seus outros benefícios.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

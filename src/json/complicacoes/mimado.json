@@ -1,0 +1,14 @@
+{
+  "id": "mimado",
+  "name": "Mimado",
+  "description": "Bajulado desde criança, você fica desconcertado sempre que percebe que não é tão bom quanto lhe diziam. Na primeira vez em cada cena que falha em um teste de perícia, você perde 1 PM por patamar. Se já estiver sem PM, você fica frustrado por 1 rodada.",
+  "categoria": "nobre",
+  "effects": [
+    {
+      "type": "penalidade_condicional",
+      "descricao": "na primeira vez em cada cena que falha em um teste de perícia, perde 1 PM por patamar; se já estiver sem PM, fica frustrado por 1 rodada"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

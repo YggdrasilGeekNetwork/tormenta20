@@ -1,0 +1,18 @@
+{
+  "id": "terrenos_de_dominio",
+  "name": "Tabela 4-9: Terrenos",
+  "description": "Tipos de terreno predominante em um domínio (Cap. 4, \"Domínios\"). O terreno limita o Nível Máximo do domínio e seu Potencial Mágico (usado por domínios místicos), além de ser pré-requisito para certas construções. Rio ou mar e Elemento místico (como um cemitério de dragões ou um bosque feérico) são modificadores adicionais que podem se somar a um dos terrenos principais, e não terrenos por si só.",
+  "headers": ["Terreno", "Nível Máximo", "Potencial Mágico"],
+  "rows": [
+    { "Terreno": "Colinas", "Nível Máximo": "5", "Potencial Mágico": "5" },
+    { "Terreno": "Deserto", "Nível Máximo": "4", "Potencial Mágico": "6" },
+    { "Terreno": "Floresta", "Nível Máximo": "4 (6 para raças muito ligadas à natureza, a critério do mestre, como elfos, sílfides, dahllan...)", "Potencial Mágico": "6" },
+    { "Terreno": "Montanha", "Nível Máximo": "3", "Potencial Mágico": "7" },
+    { "Terreno": "Pântano", "Nível Máximo": "3", "Potencial Mágico": "7" },
+    { "Terreno": "Planície", "Nível Máximo": "6", "Potencial Mágico": "4" },
+    { "Terreno": "Subterrâneo", "Nível Máximo": "2 (6 para raças muito ligadas ao subterrâneo, a critério do mestre, como anões, trogs, medusas...)", "Potencial Mágico": "8" },
+    { "Terreno": "Rio ou mar", "Nível Máximo": "+1", "Potencial Mágico": "—" },
+    { "Terreno": "Elemento místico", "Nível Máximo": "—", "Potencial Mágico": "+1" }
+  ],
+  "livro": "herois_de_arton"
+}

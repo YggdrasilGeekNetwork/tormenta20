@@ -1,0 +1,15 @@
+{
+  "id": "sala_de_mapas",
+  "name": "Sala de Mapas",
+  "description": "Além de mapas dos reinos, esta sala armazena reconstituições de batalhas e relatos de estrategistas. Um regente que estude na sala de mapas aprende a se posicionar no campo de batalha. Você recebe uma ação de movimento adicional no primeiro turno de combate.",
+  "categoria": "guerra",
+  "custo": 8,
+  "effects": [
+    {
+      "type": "acao_movimento_extra",
+      "quando": "primeiro turno de cada combate"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

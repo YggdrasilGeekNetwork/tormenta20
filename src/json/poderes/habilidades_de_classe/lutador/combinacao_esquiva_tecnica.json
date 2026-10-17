@@ -1,0 +1,39 @@
+{
+  "id": "combinacao_esquiva_tecnica",
+  "name": "Combinação: Esquiva Técnica",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Uma vez por rodada, quando sofre um ataque corpo a corpo, você pode gastar 2 PM para fazer um teste de Reflexos oposto ao teste de Percepção do atacante. Você recebe um bônus nesse teste igual à sua contagem de combinações. Se vencer o teste oposto, você evita o ataque e recebe +5 em seu próximo teste de ataque desarmado contra o atacante nessa rodada.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "um_poder_de_combinacao",
+      "note": "requer_qualquer_poder_da_familia_combinacao"
+    },
+    {
+      "type": "take_damage",
+      "sub_type": "soft"
+    }
+  ],
+  "effects": [
+    {
+      "type": "bonus",
+      "value": "contagem_de_combinacoes",
+      "requirement": "teste_de_reflexos_oposto_a_percepcao_do_atacante"
+    },
+    {
+      "type": "attack_improvement",
+      "value": 5,
+      "requirement": "vencer_teste_oposto",
+      "duration": "proximo_ataque_desarmado_contra_o_atacante_nessa_rodada"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

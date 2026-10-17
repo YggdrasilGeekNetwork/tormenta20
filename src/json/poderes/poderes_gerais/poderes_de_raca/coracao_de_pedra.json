@@ -1,0 +1,29 @@
+{
+  "id": "coracao_de_pedra",
+  "name": "Coração de Pedra",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você recebe +1 PV por nível e imunidade a petrificação.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "anao",
+        "medusa"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "resource_improvement",
+      "resource": "PV",
+      "value": "1_por_nivel"
+    },
+    {
+      "type": "immunity",
+      "value": "petrificacao"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

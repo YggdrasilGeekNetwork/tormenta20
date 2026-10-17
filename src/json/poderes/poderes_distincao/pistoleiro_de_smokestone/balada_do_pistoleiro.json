@@ -1,0 +1,17 @@
+{
+  "id": "balada_do_pistoleiro",
+  "name": "Balada do Pistoleiro",
+  "type": "poder_distincao",
+  "description": "\"Vou dar a vocês uma última chance de desistir...\" Se estiver empunhando uma ou mais armas de fogo, você pode gastar uma ação completa e uma quantidade de PM a sua escolha (limitada pela quantidade de munição dessas armas) para desferir uma série de disparos com elas. Faça um ataque à distância contra cada inimigo a sua escolha, até um limite de inimigos igual ao total de PM gastos. Então faça uma única rolagem de dano com um dado extra de dano do mesmo tipo e aplique-a em cada inimigo atingido.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "completa",
+      "efeito": "gasta PM (limitado pela munição) para atacar à distância cada inimigo escolhido, até um número de inimigos igual ao PM gasto; uma única rolagem de dano com um dado extra é aplicada a todos os atingidos"
+    }
+  ],
+  "requirements": [
+    "Morrer Não É Muita Vida"
+  ],
+  "livro": "herois_de_arton"
+}

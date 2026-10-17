@@ -1,0 +1,23 @@
+{
+  "id": "florete_do_vendaval",
+  "name": "Florete do Vendaval",
+  "base_weapon": "florete",
+  "preco": 27000,
+  "description": "Um florete leve formidável de mitral, ornamentado com penas e linhas suaves. Você pode gastar 3 PM para ganhar deslocamento de voo 12m por 2 rodadas. Durante esse tempo, você recebe +5 na Defesa contra ataques à distância.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "material_especial",
+      "name": "mitral"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 3,
+      "efeito": "ganha deslocamento de voo 12m por 2 rodadas; durante esse tempo, recebe +5 na Defesa contra ataques à distância"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

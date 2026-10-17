@@ -1,0 +1,59 @@
+{
+  "id": "armadura_elemental",
+  "name": "Armadura Elemental",
+  "type": "arcana",
+  "circle": "1",
+  "school": "evoc",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": {
+    "amount": null,
+    "up_to": null,
+    "type": "você"
+  },
+  "effect": "voce",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Escolha um tipo de energia entre ácido, eletricidade, fogo ou frio. Uma aura faiscante dessa energia emana de seu corpo — sempre que uma criatura adjacente acertar um ataque corpo a corpo em você, ela sofre 2d6 pontos de dano do tipo escolhido.",
+  "enhancements": [
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "muda o alcance para toque e o alvo para 1 criatura. Requer 2º círculo.",
+      "extra_details": {
+        "requirements": "2º círculo"
+      }
+    },
+    {
+      "cost": 2,
+      "type": "aumenta",
+      "description": "aumenta o dano em +1d6 (total de dados limitado pelo círculo máximo de magia que você pode lançar). Requer 3º círculo.",
+      "extra_details": {
+        "requirements": "3º círculo"
+      }
+    },
+    {
+      "cost": 3,
+      "type": "muda",
+      "description": "muda a energia para essência. Requer 2º círculo.",
+      "extra_details": {
+        "requirements": "2º círculo"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "dano",
+      "attribute": "acido|eletricidade|fogo|frio",
+      "amount": "2d6",
+      "resistence_requirement": null,
+      "extra_requirements": "ao_ser_atingido_em_ataque_corpo_a_corpo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

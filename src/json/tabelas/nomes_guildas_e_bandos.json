@@ -1,0 +1,413 @@
+{
+  "id": "nomes_guildas_e_bandos",
+  "name": "Nomes para Guildas e Bandos",
+  "description": "Tabela de sorteio de nomes para guildas, bandos e grupos de aventureiros (Tabela 1-29). Cada resultado é um sufixo a ser combinado com uma palavra como \"Guilda\" ou \"Bando\" (ex.: resultado \"dos Companheiros\" -> \"Guilda dos Companheiros\" ou \"Bando dos Companheiros\").",
+  "headers": [
+    "Faixa",
+    "Nome"
+  ],
+  "rows": [
+    {
+      "Faixa": "1",
+      "Nome": "dos Companheiros"
+    },
+    {
+      "Faixa": "2",
+      "Nome": "da Chapa Quente"
+    },
+    {
+      "Faixa": "3",
+      "Nome": "da Lança Torta"
+    },
+    {
+      "Faixa": "4",
+      "Nome": "do Vulto Invisível"
+    },
+    {
+      "Faixa": "5",
+      "Nome": "das Adagas Voadoras"
+    },
+    {
+      "Faixa": "6",
+      "Nome": "do Gorlogg Insano"
+    },
+    {
+      "Faixa": "7",
+      "Nome": "das Varinhas de Mitral"
+    },
+    {
+      "Faixa": "8",
+      "Nome": "dos Caminhos Cruzados"
+    },
+    {
+      "Faixa": "9",
+      "Nome": "da Balança de Khalmyr"
+    },
+    {
+      "Faixa": "10",
+      "Nome": "Antitormenta"
+    },
+    {
+      "Faixa": "11",
+      "Nome": "dos Justos"
+    },
+    {
+      "Faixa": "12",
+      "Nome": "do Aleatório"
+    },
+    {
+      "Faixa": "13",
+      "Nome": "do Manto Negro"
+    },
+    {
+      "Faixa": "14",
+      "Nome": "das Cascas de Árvore"
+    },
+    {
+      "Faixa": "15",
+      "Nome": "do Panteão"
+    },
+    {
+      "Faixa": "16",
+      "Nome": "do Martelo Amassado"
+    },
+    {
+      "Faixa": "17",
+      "Nome": "dos Olhos Díspares"
+    },
+    {
+      "Faixa": "18",
+      "Nome": "dos Machados Cruéis"
+    },
+    {
+      "Faixa": "19",
+      "Nome": "do Terrier"
+    },
+    {
+      "Faixa": "20",
+      "Nome": "da Vitória Gloriosa"
+    },
+    {
+      "Faixa": "21",
+      "Nome": "da Falha Suprema"
+    },
+    {
+      "Faixa": "22",
+      "Nome": "da Botinada"
+    },
+    {
+      "Faixa": "23",
+      "Nome": "da Cadeia"
+    },
+    {
+      "Faixa": "24",
+      "Nome": "da Ferradura"
+    },
+    {
+      "Faixa": "25",
+      "Nome": "dos Filhos da Arena"
+    },
+    {
+      "Faixa": "26",
+      "Nome": "da Folha Seca"
+    },
+    {
+      "Faixa": "27",
+      "Nome": "do Ódio"
+    },
+    {
+      "Faixa": "28",
+      "Nome": "do Abismo"
+    },
+    {
+      "Faixa": "29",
+      "Nome": "do Cão Raivoso"
+    },
+    {
+      "Faixa": "30",
+      "Nome": "da Masmorra"
+    },
+    {
+      "Faixa": "31",
+      "Nome": "das Correntes"
+    },
+    {
+      "Faixa": "32",
+      "Nome": "do Tufão"
+    },
+    {
+      "Faixa": "33",
+      "Nome": "das Segundas Chances"
+    },
+    {
+      "Faixa": "34",
+      "Nome": "da Flor de Allihanna"
+    },
+    {
+      "Faixa": "35",
+      "Nome": "das Lâminas"
+    },
+    {
+      "Faixa": "36",
+      "Nome": "da Derrota Sublime"
+    },
+    {
+      "Faixa": "37",
+      "Nome": "das Feras"
+    },
+    {
+      "Faixa": "38",
+      "Nome": "do Tibar Infinito"
+    },
+    {
+      "Faixa": "39",
+      "Nome": "do Punho de Thwor"
+    },
+    {
+      "Faixa": "40",
+      "Nome": "da Paciência Perene"
+    },
+    {
+      "Faixa": "41",
+      "Nome": "do Coração Sangrento"
+    },
+    {
+      "Faixa": "42",
+      "Nome": "do Glop"
+    },
+    {
+      "Faixa": "43",
+      "Nome": "das Areias Infindáveis"
+    },
+    {
+      "Faixa": "44",
+      "Nome": "do Alaúde"
+    },
+    {
+      "Faixa": "45",
+      "Nome": "da Traição"
+    },
+    {
+      "Faixa": "46",
+      "Nome": "da Luva Cinzenta"
+    },
+    {
+      "Faixa": "47",
+      "Nome": "do Caolho"
+    },
+    {
+      "Faixa": "48",
+      "Nome": "do Silêncio e Sussurro"
+    },
+    {
+      "Faixa": "49",
+      "Nome": "da Manada"
+    },
+    {
+      "Faixa": "50",
+      "Nome": "do Ogro Erudito"
+    },
+    {
+      "Faixa": "51",
+      "Nome": "dos Pés Descalços"
+    },
+    {
+      "Faixa": "52",
+      "Nome": "do Escudo Reluzente"
+    },
+    {
+      "Faixa": "53",
+      "Nome": "da Orelha"
+    },
+    {
+      "Faixa": "54",
+      "Nome": "da Flecha Dourada"
+    },
+    {
+      "Faixa": "55",
+      "Nome": "dos Saudosistas"
+    },
+    {
+      "Faixa": "56",
+      "Nome": "da Tramoia"
+    },
+    {
+      "Faixa": "57",
+      "Nome": "da Noite Turva"
+    },
+    {
+      "Faixa": "58",
+      "Nome": "dos Grilhões Quebrados"
+    },
+    {
+      "Faixa": "59",
+      "Nome": "do Abismo Sombrio"
+    },
+    {
+      "Faixa": "60",
+      "Nome": "da Bola de Fogo"
+    },
+    {
+      "Faixa": "61",
+      "Nome": "do Soco na Cara"
+    },
+    {
+      "Faixa": "62",
+      "Nome": "da Mordida"
+    },
+    {
+      "Faixa": "63",
+      "Nome": "da Torre"
+    },
+    {
+      "Faixa": "64",
+      "Nome": "do Elmo de Prata"
+    },
+    {
+      "Faixa": "65",
+      "Nome": "dos Vermes"
+    },
+    {
+      "Faixa": "66",
+      "Nome": "dos Viajantes Eternos"
+    },
+    {
+      "Faixa": "67",
+      "Nome": "das Rosas"
+    },
+    {
+      "Faixa": "68",
+      "Nome": "da Vela Incandescente"
+    },
+    {
+      "Faixa": "69",
+      "Nome": "das Areias Pálidas"
+    },
+    {
+      "Faixa": "70",
+      "Nome": "da Morte Solitária"
+    },
+    {
+      "Faixa": "71",
+      "Nome": "do Um"
+    },
+    {
+      "Faixa": "72",
+      "Nome": "da Verdade Sublime"
+    },
+    {
+      "Faixa": "73",
+      "Nome": "da Cova Rasa"
+    },
+    {
+      "Faixa": "74",
+      "Nome": "dos Menores"
+    },
+    {
+      "Faixa": "75",
+      "Nome": "dos Impuros"
+    },
+    {
+      "Faixa": "76",
+      "Nome": "do Tacape"
+    },
+    {
+      "Faixa": "77",
+      "Nome": "da Grande Pedra"
+    },
+    {
+      "Faixa": "78",
+      "Nome": "do Divino"
+    },
+    {
+      "Faixa": "79",
+      "Nome": "da Rodagem"
+    },
+    {
+      "Faixa": "80",
+      "Nome": "do Duplo"
+    },
+    {
+      "Faixa": "81",
+      "Nome": "da Coruja Azul"
+    },
+    {
+      "Faixa": "82",
+      "Nome": "dos Sem Alma"
+    },
+    {
+      "Faixa": "83",
+      "Nome": "da Serenidade de Marah"
+    },
+    {
+      "Faixa": "84",
+      "Nome": "da Serpe Sibilante"
+    },
+    {
+      "Faixa": "85",
+      "Nome": "da Maça"
+    },
+    {
+      "Faixa": "86",
+      "Nome": "das Asas de Dragão"
+    },
+    {
+      "Faixa": "87",
+      "Nome": "da Estátua de Pedra"
+    },
+    {
+      "Faixa": "88",
+      "Nome": "do Horror"
+    },
+    {
+      "Faixa": "89",
+      "Nome": "da Morte em Vida"
+    },
+    {
+      "Faixa": "90",
+      "Nome": "do Condor"
+    },
+    {
+      "Faixa": "91",
+      "Nome": "da Avalanche"
+    },
+    {
+      "Faixa": "92",
+      "Nome": "do Bulette"
+    },
+    {
+      "Faixa": "93",
+      "Nome": "das Filhas Uivantes"
+    },
+    {
+      "Faixa": "94",
+      "Nome": "das Ondas"
+    },
+    {
+      "Faixa": "95",
+      "Nome": "das Serpentes"
+    },
+    {
+      "Faixa": "96",
+      "Nome": "da Funda"
+    },
+    {
+      "Faixa": "97",
+      "Nome": "da Machadinha"
+    },
+    {
+      "Faixa": "98",
+      "Nome": "da Encruzilhada"
+    },
+    {
+      "Faixa": "99",
+      "Nome": "dos Insetos Malditos"
+    },
+    {
+      "Faixa": "100",
+      "Nome": "do Olho de Azgher"
+    }
+  ],
+  "dice": "1d100",
+  "livro": "herois_de_arton"
+}

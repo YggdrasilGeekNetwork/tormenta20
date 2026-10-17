@@ -1,0 +1,21 @@
+{
+  "id": "saude_perfeita",
+  "name": "Saúde Perfeita",
+  "type": "poder_distincao",
+  "description": "Um bom médico sabe cuidar de si mesmo (ou assim esperamos). Você recebe +1 em Constituição e imunidade a veneno. Além disso, recebe +2 PM por poder da distinção que possui.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "+1 em Constituição e imunidade a veneno"
+    },
+    {
+      "type": "passivo",
+      "efeito": "+2 PM por poder da distinção que possui"
+    }
+  ],
+  "requirements": [
+    "treinado em Fortitude",
+    "Acompanhamento Médico"
+  ],
+  "livro": "herois_de_arton"
+}

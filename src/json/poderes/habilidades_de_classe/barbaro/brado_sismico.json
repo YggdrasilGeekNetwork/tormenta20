@@ -1,0 +1,31 @@
+{
+  "id": "brado_sismico",
+  "name": "Brado: Sísmico",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Você emite um brado que faz o chão tremer. Criaturas no alcance do brado ficam vulneráveis por 1d4 rodadas e caídas (Fort CD For reduz para vulneráveis por 1 rodada). Criaturas que já estavam vulneráveis, inclusive por este efeito, ficam desprevenidas pelo mesmo tempo. Pré-requisito: outro poder de brado.",
+  "requirements": [
+    {
+      "type": "feature_group",
+      "sub_type": "hard",
+      "group": "poder_de_brado",
+      "value": "outro"
+    }
+  ],
+  "effects": [
+    {
+      "type": "condition_inflict",
+      "condition": "vulneravel",
+      "duration": "1d4_rodadas",
+      "applies_to": "criaturas_no_alcance_do_brado",
+      "save": "fortitude_cd_for_reduz_para_1_rodada"
+    },
+    {
+      "type": "condition_inflict",
+      "condition": "desprevenido",
+      "duration": "mesmo_tempo_que_vulneravel",
+      "applies_to": "criaturas_ja_vulneraveis"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

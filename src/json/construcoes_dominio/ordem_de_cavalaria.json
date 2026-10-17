@@ -1,0 +1,16 @@
+{
+  "id": "ordem_de_cavalaria",
+  "name": "Ordem de Cavalaria",
+  "description": "A sede de uma irmandade devotada à honra e à justiça. Estar perto de pessoas tão exemplares motiva-o a defender o bem. O custo de Baluarte diminui em -1 PM.",
+  "categoria": "nobreza",
+  "custo": 20,
+  "effects": [
+    {
+      "type": "reduz_custo_pm",
+      "habilidade": "Baluarte",
+      "value": 1
+    }
+  ],
+  "prerequisito": "forte",
+  "livro": "herois_de_arton"
+}

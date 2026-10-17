@@ -1,0 +1,34 @@
+{
+  "id": "forma_aberrante",
+  "name": "Forma Aberrante",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Quando usa Forma Selvagem, você pode gastar +2 PM para assumir uma forma aberrante. Nessa forma, você conta como se tivesse dois poderes da Tormenta adicionais (exceto para perda de Carisma).",
+  "requirements": [
+    {
+      "type": "devotee_of_divinity",
+      "sub_type": "hard",
+      "divinity": "aharadak"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "forma_selvagem"
+    }
+  ],
+  "effects": [
+    {
+      "type": "poderes_da_tormenta_count",
+      "value": 2,
+      "exception": "perda_de_carisma"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM",
+      "note": "adicional_ao_custo_de_forma_selvagem"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

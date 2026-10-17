@@ -1,0 +1,18 @@
+{
+  "id": "molde_pre_fabricado",
+  "name": "Molde Pré-Fabricado",
+  "type": "item",
+  "categoria": "ferramenta",
+  "preco": 500,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "consumivel",
+  "requer_misticismo": true,
+  "efeito": {
+    "reduz_tempo_fabricacao_engenhoca": "3 dias",
+    "escola_especifica": "existe um molde para cada escola de magia",
+    "aplicavel_a": "engenhoca que simule uma magia da respectiva escola"
+  },
+  "description": "A maior parte das engenhocas usa alguns princípios básicos, modificados e personalizados por cada inventor. Um molde pré-fabricado é um conjunto de peças já montadas, presentes em diversos tipos de engenhocas. Existe um molde para cada escola de magias. Usar um molde pré-fabricado diminui o tempo de fabricação de uma engenhoca que simule uma magia da respectiva escola para três dias.",
+  "livro": "herois_de_arton"
+}

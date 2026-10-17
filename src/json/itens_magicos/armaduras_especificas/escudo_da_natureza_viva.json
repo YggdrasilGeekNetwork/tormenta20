@@ -1,0 +1,31 @@
+{
+  "id": "escudo_da_natureza_viva",
+  "name": "Escudo da Natureza Viva",
+  "subtipo": "escudo",
+  "base_item": "escudo_leve",
+  "preco": 27000,
+  "description": "Este escudo leve defensor de madeira Tollon é feito de madeira viva e constantemente floresce com plantas. Você recebe +2 em Fortitude e pode lançar Curar Ferimentos (CD Sab). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensor"
+    },
+    {
+      "type": "material_especial",
+      "name": "madeira_tollon"
+    },
+    {
+      "type": "bonus_teste_resistencia",
+      "value": 2,
+      "condicao": "Fortitude"
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Curar Ferimentos",
+      "cd": "Sabedoria",
+      "reducao_custo_pm": 1,
+      "condicao": "se já souber lançar a magia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "representante_divino",
+  "name": "Representante Divino",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Você fala com a autoridade de seu deus. Escolha uma magia divina que possa lançar com tempo de execução de ação padrão ou completa. Você pode lançar essa magia como uma ação de movimento, sem precisar gesticular ou se concentrar (mas ainda precisa falar). Pré-requisito: 17º nível de clérigo.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "action_type_change",
+      "to_action": "movimento",
+      "applies_to": "magia_divina_escolhida_de_execucao_padrao_ou_completa",
+      "waives": [
+        "gesticular",
+        "concentrar"
+      ],
+      "keeps": "falar"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

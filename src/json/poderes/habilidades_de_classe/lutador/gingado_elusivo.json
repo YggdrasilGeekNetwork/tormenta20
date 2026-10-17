@@ -1,0 +1,47 @@
+{
+  "id": "gingado_elusivo",
+  "name": "Gingado Elusivo",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Se estiver sob efeito de sua Dança Marcial, uma vez por rodada, quando sofre um efeito hostil, você pode gastar 2 PM para receber +5 na Defesa e em testes de Reflexos contra ele. Após a resolução do efeito, você salta para um espaço adjacente desocupado.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "danca_marcial"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 7
+    },
+    {
+      "type": "fearute_actived",
+      "sub_type": "soft",
+      "feature": "danca_marcial"
+    }
+  ],
+  "effects": [
+    {
+      "type": "defense_improvement",
+      "value": 5,
+      "requirement": "sofrer_efeito_hostil_sob_danca_marcial"
+    },
+    {
+      "type": "skill_improvement",
+      "skill": "reflexos",
+      "value": 5
+    },
+    {
+      "type": "displacement_improvement",
+      "note": "salta_para_espaco_adjacente_desocupado_apos_a_resolucao_do_efeito"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

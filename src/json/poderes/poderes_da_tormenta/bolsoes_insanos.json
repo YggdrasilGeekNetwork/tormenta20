@@ -1,0 +1,21 @@
+{
+  "id": "bolsoes_insanos",
+  "name": "Bolsões Insanos",
+  "description": "Seu corpo possui espaços vazios sob sua pele ou carapaça, possibilitando que você carregue mais itens, em lugares nos quais eles dificilmente serão achados. Seu limite de carga aumenta em 2 espaços, mais 1 espaço para cada outro poder da Tormenta que você possui, e você recebe +5 em testes de Ladinagem para ocultar itens nesses espaços.",
+  "effects": {
+    "type": "passive",
+    "carry_capacity_bonus": {
+      "base": 2,
+      "scaling": "+1 por cada outro poder da Tormenta",
+      "unit": "espacos"
+    },
+    "skill_bonuses": [
+      {
+        "skill": "Ladinagem",
+        "value": 5,
+        "condition": "ocultar itens nesses espaços"
+      }
+    ]
+  },
+  "livro": "herois_de_arton"
+}

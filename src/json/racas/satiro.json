@@ -1,0 +1,17 @@
+{
+  "id": "satiro",
+  "name": "Sátiro",
+  "description": "Humanoides feéricos de baixa estatura com chifres recurvados, pelagem castanha e pernas de bode. Bem-humorados, joviais e apreciadores dos prazeres da vida — comida, bebida, dança e romance —, costumam ser arqueiros exímios e músicos sedutores.",
+  "size": "médio",
+  "movement": 12,
+  "vision": "baixa_luminosidade",
+  "vision_range": null,
+  "attribute_bonuses": { "carisma": 2, "destreza": 1, "sabedoria": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["festeiro_ferico", "instrumentista_magico", "marrada", "pernas_caprinas"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devocao": ["allihanna", "hyninn", "marah", "nimb", "wynna"],
+  "livro": "herois_de_arton"
+}

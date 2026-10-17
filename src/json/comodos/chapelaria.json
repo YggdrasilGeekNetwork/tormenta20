@@ -1,0 +1,13 @@
+{
+  "id": "chapelaria",
+  "name": "Chapelaria",
+  "description": "Uma sala próxima à entrada da base, onde chapéus, casacos e outras peças são guardados de forma organizada, facilitando seu uso. Os residentes podem se beneficiar de um item vestido adicional.",
+  "effects": [
+    {
+      "type": "item_vestido_adicional",
+      "value": 1
+    }
+  ],
+  "prerequisito": "base formidável ou melhor",
+  "livro": "herois_de_arton"
+}

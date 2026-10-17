@@ -1,0 +1,20 @@
+{
+  "id": "arco_do_crepusculo",
+  "name": "Arco do Crepúsculo",
+  "base_weapon": "arco_longo",
+  "preco": 22500,
+  "description": "Um arco longo formidável que muda de cor conforme o sol se põe. Quando ataca com esta arma, você pode gastar 1 PM. Se fizer isso e acertar o ataque, o alvo fica ofuscado por 1d4 rodadas.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "gatilho": "ataca com a arma",
+      "efeito": "se acertar o ataque, o alvo fica ofuscado por 1d4 rodadas"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "forca_dos_titas",
+  "name": "Força dos Titãs",
+  "type": "habilidade_de_raca",
+  "race": "galokk",
+  "description": "Quando acerta um ataque corpo a corpo ou de arremesso, você pode gastar 1 PM. Se fizer isso, sempre que rolar o resultado máximo em um dado de dano da arma, role um dado extra, até um limite de dados extras igual à sua Força.",
+  "effects": {
+    "type": "active",
+    "cost": "1 PM",
+    "gatilho": "acerta ataque corpo a corpo ou de arremesso",
+    "efeito": "dano explosivo — resultado máximo em um dado rola um dado extra, até um limite de dados extras igual à Força"
+  },
+  "livro": "herois_de_arton"
+}

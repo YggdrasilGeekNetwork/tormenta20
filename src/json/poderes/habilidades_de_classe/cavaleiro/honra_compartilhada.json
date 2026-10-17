@@ -1,0 +1,23 @@
+{
+  "id": "honra_compartilhada",
+  "name": "Honra Compartilhada",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Quando usa o poder Armadura da Honra, você pode fornecer seu benefício a todos os aliados em alcance curto. Pré-requisito: Armadura da Honra.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "armadura_de_honra"
+    }
+  ],
+  "effects": [
+    {
+      "type": "extend_range",
+      "applies_to": "armadura_de_honra",
+      "value": "alcance_curto",
+      "target": "todos_os_aliados"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "drogadora",
+  "name": "Drogadora",
+  "description": "Curandeiras thera que utilizam o próprio corpo como laboratório, alterando seu organismo para produzir remédios e preparados medicinais voluntariamente.",
+  "admissao": "Criaturas sem metabolismo natural (como construtos e mortos-vivos) não podem seguir este caminho; em geral apenas mulheres humanoides aprendem estas técnicas. A candidata deve primeiro ser aceita em uma comunidade thera que possua drogadoras e se provar digna dessa honraria, geralmente por meio de grandes serviços ou missões, além de ser aceita pela drogadora da comunidade. Depois, passa por um treinamento de vários anos (ou uma única estação, em processo acelerado e mais arriscado), sendo exposta a fórmulas alquímicas, venenos e remédios, e devendo preparar um antídoto único para seu rito de iniciação. O ritual final envolve dias de reclusão sob drogas especiais que completam a transformação de seu corpo; na última noite, a candidata ingere o antídoto que preparou, emergindo como uma drogadora completa, com marcas características na pele.",
+  "marca_nome": "Tradição da CURA",
+  "marca_descricao": "Você pode usar Sabedoria como atributo-chave de Ofício (alquimista) em vez de Inteligência. Se já faz isso por outro efeito, em vez disso recebe +2 nessa perícia.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

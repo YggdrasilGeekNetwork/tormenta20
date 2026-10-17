@@ -1,0 +1,43 @@
+{
+  "id": "oficina_esoterica",
+  "name": "Oficina Esotérica",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Você pode usar Oficina de Campo em itens esotéricos, poções e pergaminhos. Itens esotéricos aumentam o limite de PM para magias em +1, poções rendem duas doses (a segunda dose deve ser consumida até o fim do dia) e pergaminhos permitem gastar +1 PM em aprimoramentos (mesmo que o usuário não conheça a magia).",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "misticismo"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "oficina_de_campo"
+    }
+  ],
+  "effects": [
+    {
+      "type": "item_type",
+      "note": "pode_usar_oficina_de_campo_em_itens_esotericos_pocoes_e_pergaminhos"
+    },
+    {
+      "type": "PM_improvement",
+      "value": 1,
+      "item_type": "item_esoterico",
+      "note": "aumenta_o_limite_de_pm_para_magias"
+    },
+    {
+      "type": "item_type",
+      "note": "pocoes_rendem_duas_doses_a_segunda_deve_ser_consumida_ate_o_fim_do_dia"
+    },
+    {
+      "type": "reduce_PM_cost",
+      "value": 1,
+      "item_type": "pergaminho",
+      "note": "permite_gastar_1_pm_em_aprimoramentos_mesmo_sem_conhecer_a_magia"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

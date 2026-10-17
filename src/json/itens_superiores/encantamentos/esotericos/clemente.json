@@ -1,0 +1,15 @@
+{
+  "id": "clemente",
+  "name": "Clemente",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico vibra com energia positiva, como se estivesse ansioso para salvar vidas. Suas magias de cura curam um dado extra do mesmo tipo.",
+  "effects": [
+    {
+      "type": "cura_extra_magia",
+      "condicao": "magias de cura",
+      "dado_extra": true
+    }
+  ],
+  "livro": "herois_de_arton"
+}

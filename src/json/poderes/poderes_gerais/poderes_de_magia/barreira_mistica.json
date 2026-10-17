@@ -1,0 +1,29 @@
+{
+  "id": "barreira_mistica",
+  "name": "Barreira Mística",
+  "type": "poder_geral",
+  "sub_type": "poder_de_magia",
+  "description": "Você usa a energia residual da conjuração de feitiços para materializar escudos capazes de protegê-lo de ataques físicos. Quando lança uma magia, você pode gastar 1 PM. Se fizer isso, você recebe +4 na Defesa até o início do seu próximo turno.",
+  "requirements": [
+    {
+      "type": "class_feature",
+      "sub_type": "hard",
+      "id": "magias"
+    }
+  ],
+  "effects": [
+    {
+      "type": "defense_improvement",
+      "value": 4,
+      "trigger": "lancar_uma_magia",
+      "duration": "ate_o_inicio_do_proximo_turno"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

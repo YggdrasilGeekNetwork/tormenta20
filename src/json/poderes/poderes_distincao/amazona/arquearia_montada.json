@@ -1,0 +1,13 @@
+{
+  "id": "arquearia_montada",
+  "name": "Arquearia Montada",
+  "description": "Enquanto está montada, você pode aplicar quaisquer bônus em testes de ataque e rolagens de dano fornecidos pela montaria em seus ataques à distância.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "enquanto montada, aplica bônus de ataque e dano da montaria em ataques à distância"
+    }
+  ],
+  "requirements": ["Bênção de Hippion"],
+  "livro": "herois_de_arton"
+}

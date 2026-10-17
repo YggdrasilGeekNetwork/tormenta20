@@ -1,0 +1,16 @@
+{
+  "id": "belico",
+  "name": "Bélico",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico se parece com uma arma. Por exemplo, se for uma varinha, pode ser comprido e pontiagudo como uma espada curta. Quando lança uma magia de dano, você causa +1d10 pontos de dano de essência.",
+  "effects": [
+    {
+      "type": "dano_extra_magia",
+      "dano": "1d10",
+      "tipo_dano": "essência",
+      "gatilho": "lança magia de dano"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

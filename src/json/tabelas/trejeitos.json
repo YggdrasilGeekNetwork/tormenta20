@@ -1,0 +1,413 @@
+{
+  "id": "trejeitos",
+  "name": "Trejeitos",
+  "description": "Tabela de sorteio de trejeitos e maneirismos de personalidade para personagens (Tabela 1-26).",
+  "headers": [
+    "Faixa",
+    "Trejeito"
+  ],
+  "rows": [
+    {
+      "Faixa": "1",
+      "Trejeito": "Sovina"
+    },
+    {
+      "Faixa": "2",
+      "Trejeito": "Fuma cachimbo"
+    },
+    {
+      "Faixa": "3",
+      "Trejeito": "Adora carne"
+    },
+    {
+      "Faixa": "4",
+      "Trejeito": "Mente mal"
+    },
+    {
+      "Faixa": "5",
+      "Trejeito": "Supersticioso"
+    },
+    {
+      "Faixa": "6",
+      "Trejeito": "Odeia chuva"
+    },
+    {
+      "Faixa": "7",
+      "Trejeito": "Fraco para bebida"
+    },
+    {
+      "Faixa": "8",
+      "Trejeito": "Exagera nas histórias"
+    },
+    {
+      "Faixa": "9",
+      "Trejeito": "Desconfia de nobres"
+    },
+    {
+      "Faixa": "10",
+      "Trejeito": "Fala pouco"
+    },
+    {
+      "Faixa": "11",
+      "Trejeito": "Usa bengala, só por estilo"
+    },
+    {
+      "Faixa": "12",
+      "Trejeito": "Toma chá todos os dias"
+    },
+    {
+      "Faixa": "13",
+      "Trejeito": "Inventa citações de gente famosa"
+    },
+    {
+      "Faixa": "14",
+      "Trejeito": "Gosta (muito) de fofocas"
+    },
+    {
+      "Faixa": "15",
+      "Trejeito": "Guarda um tibar da sorte no bolso"
+    },
+    {
+      "Faixa": "16",
+      "Trejeito": "Pisca um olho quando diz algo esperto"
+    },
+    {
+      "Faixa": "17",
+      "Trejeito": "Parente (muito) distante de um herói famoso"
+    },
+    {
+      "Faixa": "18",
+      "Trejeito": "Sempre sorri, mesmo quando está triste"
+    },
+    {
+      "Faixa": "19",
+      "Trejeito": "Diz conhecer o Reinado inteiro"
+    },
+    {
+      "Faixa": "20",
+      "Trejeito": "Gosta de brincar com adagas (mesmo que não as use)"
+    },
+    {
+      "Faixa": "21",
+      "Trejeito": "Está sempre mexendo os dedos"
+    },
+    {
+      "Faixa": "22",
+      "Trejeito": "Amarra um fita no pulso quando completa uma missão"
+    },
+    {
+      "Faixa": "23",
+      "Trejeito": "Adora dormir depois do almoço"
+    },
+    {
+      "Faixa": "24",
+      "Trejeito": "Sabe equilibrar coisas"
+    },
+    {
+      "Faixa": "25",
+      "Trejeito": "Coleciona pedras"
+    },
+    {
+      "Faixa": "26",
+      "Trejeito": "Odeia insetos"
+    },
+    {
+      "Faixa": "27",
+      "Trejeito": "Gasta demais"
+    },
+    {
+      "Faixa": "28",
+      "Trejeito": "Usa muitas gírias"
+    },
+    {
+      "Faixa": "29",
+      "Trejeito": "Odeia o sol"
+    },
+    {
+      "Faixa": "30",
+      "Trejeito": "Gosta de dançar"
+    },
+    {
+      "Faixa": "31",
+      "Trejeito": "Está sempre lendo"
+    },
+    {
+      "Faixa": "32",
+      "Trejeito": "Tem algum sotaque"
+    },
+    {
+      "Faixa": "33",
+      "Trejeito": "Fala rimando"
+    },
+    {
+      "Faixa": "34",
+      "Trejeito": "Dorminhoco"
+    },
+    {
+      "Faixa": "35",
+      "Trejeito": "Adora contar piadas"
+    },
+    {
+      "Faixa": "36",
+      "Trejeito": "Chama todos de tio ou tia"
+    },
+    {
+      "Faixa": "37",
+      "Trejeito": "Gosta de mortos-vivos"
+    },
+    {
+      "Faixa": "38",
+      "Trejeito": "Sonha em tocar um instrumento"
+    },
+    {
+      "Faixa": "39",
+      "Trejeito": "Chama todo mundo de \"meu querido\""
+    },
+    {
+      "Faixa": "40",
+      "Trejeito": "Faz mesuras ao se apresentar"
+    },
+    {
+      "Faixa": "41",
+      "Trejeito": "Usa símbolos de dois deuses diferentes"
+    },
+    {
+      "Faixa": "42",
+      "Trejeito": "Guarda um pouco de terra de cada lugar que visita"
+    },
+    {
+      "Faixa": "43",
+      "Trejeito": "Fascinado rapidamente por outras pessoas"
+    },
+    {
+      "Faixa": "44",
+      "Trejeito": "Mantém tudo sempre limpo e os espalha por aí"
+    },
+    {
+      "Faixa": "45",
+      "Trejeito": "Não gosta das cores preto, vermelho, azul e branco"
+    },
+    {
+      "Faixa": "46",
+      "Trejeito": "Gosta de fingir que é de outra raça"
+    },
+    {
+      "Faixa": "47",
+      "Trejeito": "Cita provérbios inventados por ele mesmo"
+    },
+    {
+      "Faixa": "48",
+      "Trejeito": "Ama doces, odeia frutas"
+    },
+    {
+      "Faixa": "49",
+      "Trejeito": "Sabe canções de piratas"
+    },
+    {
+      "Faixa": "50",
+      "Trejeito": "Odeia se molhar"
+    },
+    {
+      "Faixa": "51",
+      "Trejeito": "Anda descalço"
+    },
+    {
+      "Faixa": "52",
+      "Trejeito": "Muito calmo"
+    },
+    {
+      "Faixa": "53",
+      "Trejeito": "Madrugador"
+    },
+    {
+      "Faixa": "54",
+      "Trejeito": "Sabe desenhar"
+    },
+    {
+      "Faixa": "55",
+      "Trejeito": "Usa monóculo"
+    },
+    {
+      "Faixa": "56",
+      "Trejeito": "Facilmente distraído"
+    },
+    {
+      "Faixa": "57",
+      "Trejeito": "Ama cantar. Sempre!"
+    },
+    {
+      "Faixa": "58",
+      "Trejeito": "Rosna toda hora"
+    },
+    {
+      "Faixa": "59",
+      "Trejeito": "Espirra alto"
+    },
+    {
+      "Faixa": "60",
+      "Trejeito": "Desconfiado"
+    },
+    {
+      "Faixa": "61",
+      "Trejeito": "Fica furioso quando está com fome"
+    },
+    {
+      "Faixa": "62",
+      "Trejeito": "Confere todo tibar que recebe"
+    },
+    {
+      "Faixa": "63",
+      "Trejeito": "Sente dor no joelho quando vai chover"
+    },
+    {
+      "Faixa": "64",
+      "Trejeito": "Estala a lingua em vez de dizer \"sim\""
+    },
+    {
+      "Faixa": "65",
+      "Trejeito": "Está sempre se mexendo"
+    },
+    {
+      "Faixa": "66",
+      "Trejeito": "Fica lembrando de uma história triste do passado"
+    },
+    {
+      "Faixa": "67",
+      "Trejeito": "Declama um poema quando vence um combate"
+    },
+    {
+      "Faixa": "68",
+      "Trejeito": "Está sempre mascando algo"
+    },
+    {
+      "Faixa": "69",
+      "Trejeito": "Escreve poemas"
+    },
+    {
+      "Faixa": "70",
+      "Trejeito": "Sempre mexendo com algo (dado, moeda, pião)"
+    },
+    {
+      "Faixa": "71",
+      "Trejeito": "Fala alto até quando não devia"
+    },
+    {
+      "Faixa": "72",
+      "Trejeito": "É fã de todos os deuses, como se fossem celebridades"
+    },
+    {
+      "Faixa": "73",
+      "Trejeito": "Fica enrolando a ponta dos cabelos"
+    },
+    {
+      "Faixa": "74",
+      "Trejeito": "Trata todo mundo por \"senhor(a)\""
+    },
+    {
+      "Faixa": "75",
+      "Trejeito": "Coça o nariz"
+    },
+    {
+      "Faixa": "76",
+      "Trejeito": "Vegetariano"
+    },
+    {
+      "Faixa": "77",
+      "Trejeito": "Confia em nobres"
+    },
+    {
+      "Faixa": "78",
+      "Trejeito": "Ama café"
+    },
+    {
+      "Faixa": "79",
+      "Trejeito": "Ama queijos"
+    },
+    {
+      "Faixa": "80",
+      "Trejeito": "Adora joias"
+    },
+    {
+      "Faixa": "81",
+      "Trejeito": "Odeia galinhas"
+    },
+    {
+      "Faixa": "82",
+      "Trejeito": "Sempre com fome"
+    },
+    {
+      "Faixa": "83",
+      "Trejeito": "Fala muito rápido"
+    },
+    {
+      "Faixa": "84",
+      "Trejeito": "Não gosta de banho"
+    },
+    {
+      "Faixa": "85",
+      "Trejeito": "Tem medo de animais"
+    },
+    {
+      "Faixa": "86",
+      "Trejeito": "Bate palmas quando algo dá certo"
+    },
+    {
+      "Faixa": "87",
+      "Trejeito": "Carrega uma marionete quebrada"
+    },
+    {
+      "Faixa": "88",
+      "Trejeito": "Reclama muito quando está frio"
+    },
+    {
+      "Faixa": "89",
+      "Trejeito": "Empolga-se com qualquer missão"
+    },
+    {
+      "Faixa": "90",
+      "Trejeito": "Chama todo guerreiro de \"campeão\""
+    },
+    {
+      "Faixa": "91",
+      "Trejeito": "Tem uma verruga… e acha que ela pode falar"
+    },
+    {
+      "Faixa": "92",
+      "Trejeito": "Sempre se oferece para ser o ombro amigo do grupo"
+    },
+    {
+      "Faixa": "93",
+      "Trejeito": "Só aceita pagamentos em joias"
+    },
+    {
+      "Faixa": "94",
+      "Trejeito": "Gosta de estalar os dedos"
+    },
+    {
+      "Faixa": "95",
+      "Trejeito": "Veste roupas pesadas (ou armadura) e nunca as tira"
+    },
+    {
+      "Faixa": "96",
+      "Trejeito": "Ri até de piada sem graça"
+    },
+    {
+      "Faixa": "97",
+      "Trejeito": "Começa todas as frases com \"Pois bem...\""
+    },
+    {
+      "Faixa": "98",
+      "Trejeito": "Troca o nome das pessoas"
+    },
+    {
+      "Faixa": "99",
+      "Trejeito": "Adora uma magia específica"
+    },
+    {
+      "Faixa": "100",
+      "Trejeito": "Fala sozinho"
+    }
+  ],
+  "dice": "1d100",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "potencializador",
+  "name": "Potencializador",
+  "type": "melhoria",
+  "categoria": "esoterico",
+  "prerequisitos": [
+    "canalizador"
+  ],
+  "description": "O esotérico possui duas gemas místicas que, combinadas, permitem que você canalize mais mana do que normalmente seria capaz. O máximo de PM que você pode gastar em magias aumenta em +2. Pré-requisito: canalizador.",
+  "effects": [
+    {
+      "type": "aumento_limite_pm",
+      "value": 2
+    }
+  ],
+  "livro": "herois_de_arton"
+}

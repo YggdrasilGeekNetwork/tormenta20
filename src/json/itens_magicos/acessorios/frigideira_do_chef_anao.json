@@ -1,0 +1,26 @@
+{
+  "id": "frigideira_do_chef_anao",
+  "name": "Frigideira do Chef Anão",
+  "categoria": "medio",
+  "preco": 24000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta enorme frigideira de adamante, gravada com runas dos anões, é amplamente utilizada pelos maiores chefs de Doherimm. É um instrumento de Ofício (cozinheiro) que fornece +5 nessa perícia. Também pode ser usada como uma maça maciça formidável de adamante ou, em situações de emergência, como um escudo pesado defensor de adamante que, por não ter suportes próprios, exige as duas mãos.",
+  "effects": [
+    {
+      "type": "instrumento_oficio",
+      "oficio": "cozinheiro",
+      "bonus_pericia": 5
+    },
+    {
+      "type": "arma_alternativa",
+      "arma": "maça maciça de adamante"
+    },
+    {
+      "type": "escudo_alternativo",
+      "escudo": "escudo pesado defensor de adamante",
+      "restricao": "exige as duas mãos por não ter suportes próprios"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

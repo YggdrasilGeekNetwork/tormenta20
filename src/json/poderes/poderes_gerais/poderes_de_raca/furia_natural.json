@@ -1,0 +1,36 @@
+{
+  "id": "furia_natural",
+  "name": "Fúria Natural",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Quando você é dominado por seus instintos selvagens, prefere usar suas armas naturais àquelas criadas pela civilização. Quando você está em fúria, o dano de suas armas naturais aumenta em um passo e a margem de ameaça delas aumenta em +1.",
+  "requirements": [
+    {
+      "type": "class_feature",
+      "sub_type": "hard",
+      "id": "furia"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "arma_natural_de_habilidade_racial"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "1_passo",
+      "weapon": "armas_naturais",
+      "condition": "em_furia"
+    },
+    {
+      "type": "threat_improvement",
+      "value": 1,
+      "weapon": "armas_naturais",
+      "condition": "em_furia"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "race_scope": "varias",
+  "race_scope_note": "qualquer raça com Fúria e arma natural fornecida por habilidade racial"
+}

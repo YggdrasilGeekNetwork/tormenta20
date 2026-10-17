@@ -1,0 +1,19 @@
+{
+  "id": "bailarina",
+  "name": "Bailarina",
+  "type": "encantamento",
+  "categoria": "arma",
+  "maldicao": true,
+  "description": "Apesar de soar como “dançarina”, não se assemelha em nada com esse poderoso encanto. A arma causa uma compulsão irresistível por dançar. Sempre que você quiser se mover em combate, precisa passar em um teste de Atuação (CD 10 + seu nível). Isso representa os passos de dança que você realiza ao bailar pelo campo de batalha. Se não passar no teste, você não consegue se mover. Além disso, seu deslocamento é diminuído à metade (pois você dá dois passinhos para a frente e um passinho para trás).",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "sempre que quiser se mover em combate, precisa passar em um teste de Atuação (CD 10 + seu nível) ou não consegue se mover"
+    },
+    {
+      "type": "debuff_deslocamento",
+      "modificador": "metade"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "ferreiro_militar",
+  "name": "Ferreiro Militar",
+  "description": "Você participou de uma das guerras na história recente de Arton, mas não como combatente. Você forjava armas e armaduras para soldados e oficiais. Sua rotina começava antes de o sol nascer, acendendo a forja e moldando o metal incandescente com golpes precisos de seu martelo. Às vezes você lidava com materiais raros, como adamante, mitral ou aço-rubi. Entre faíscas e o som do metal sendo trabalhado, você não produzia apenas instrumentos de combate, mas também itens cotidianos como ferraduras e pregos, que também salvam vidas e podem decidir batalhas. Muitas vezes também foi visitado por heróis, que pediam informações sobre armas lendárias ou reparos em seus equipamentos. Até que, um dia, decidiu acompanhá-los.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Instrumentos de armeiro"
+    },
+    {
+      "type": "fixed",
+      "text": "Martelo leve"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Ofício (armeiro)"
+    ],
+    "powers": [
+      "Golpe do Ferreiro"
+    ]
+  },
+  "unique_power": "golpe_do_ferreiro",
+  "livro": "herois_de_arton"
+}

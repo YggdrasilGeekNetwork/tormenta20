@@ -1,0 +1,16 @@
+{
+  "id": "abandonar_geringonca",
+  "name": "Abandonar Geringonça",
+  "type": "poder_distincao",
+  "description": "Acostumado a ver seus inventos explodindo, o engenhoqueiro goblin sabe reconhecer os sinais de mau funcionamento e pular fora na hora certa. Quando falha na ativação de uma engenhoca por 5 ou mais (ou rola uma falha automática), você pode gastar 1 PM para arremessar a engenhoca em um ponto em alcance curto antes que ela exploda.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "gatilho": "falha na ativação de uma engenhoca por 5 ou mais, ou falha automática",
+      "efeito": "arremessa a engenhoca a um ponto em alcance curto antes que ela exploda"
+    }
+  ],
+  "requirements": ["Aprimorar Bugiganga", "deve ter sofrido dano de uma de suas engenhocas que falhou em ativar pelo menos uma vez"],
+  "livro": "herois_de_arton"
+}

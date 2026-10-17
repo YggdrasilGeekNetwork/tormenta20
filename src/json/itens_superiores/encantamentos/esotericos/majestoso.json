@@ -1,0 +1,23 @@
+{
+  "id": "majestoso",
+  "name": "Majestoso",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico possui um ornamento chamativo, como uma grande gema na ponta. A CD para resistir a suas magias arcanas aumenta em +1. Se você tiver a habilidade de classe Magias, em vez disso aumenta em +2. Pré-requisito: outro encanto.",
+  "prerequisitos": [
+    "outro_encanto"
+  ],
+  "effects": [
+    {
+      "type": "aumento_cd_magia",
+      "value": 1,
+      "condicao": "magias arcanas"
+    },
+    {
+      "type": "aumento_cd_magia",
+      "value": 2,
+      "condicao": "substitui o anterior se possuir a habilidade de classe Magias"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

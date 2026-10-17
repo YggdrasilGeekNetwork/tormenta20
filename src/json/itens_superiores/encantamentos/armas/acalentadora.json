@@ -1,0 +1,15 @@
+{
+  "id": "acalentadora",
+  "name": "Acalentadora",
+  "type": "encantamento",
+  "categoria": "arma",
+  "maldicao": true,
+  "description": "A arma tem a estranha tendência de socorrer os aflitos... mas apenas os aflitos errados. Sempre que você acerta um ataque em um inimigo que esteja sofrendo uma condição negativa, você remove essa condição.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "sempre que acerta um ataque em um inimigo que esteja sofrendo uma condição negativa, essa condição é removida do inimigo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

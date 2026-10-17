@@ -1,0 +1,15 @@
+{
+  "id": "foco_exigente",
+  "name": "Foco Exigente",
+  "description": "Seu foco o pune quando você falha. Sempre que uma criatura passa em um teste de resistência contra uma magia sua, você perde 1 PV por PM gasto na magia. Pré-requisito: Bruxo.",
+  "categoria": "arcanista",
+  "effects": [
+    {
+      "type": "penalidade_condicional",
+      "descricao": "sempre que uma criatura passa em um teste de resistência contra uma magia sua, você perde 1 PV por PM gasto na magia",
+      "pre_requisito": "bruxo"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

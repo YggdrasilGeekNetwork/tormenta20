@@ -1,0 +1,14 @@
+{
+  "id": "forjaria",
+  "name": "Forjaria",
+  "description": "Os residentes recebem +1 nas rolagens de dano com uma arma empunhada a sua escolha. Cada residente pode trocar essa arma no início de cada aventura.",
+  "effects": [
+    {
+      "type": "bonus_dano_arma_escolhida",
+      "value": 1,
+      "trocavel_por_aventura": true
+    }
+  ],
+  "prerequisito": "oficina de trabalho",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "automato_alquimico",
+  "name": "Autômato Alquímico",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Seu autômato pode armazenar itens alquímicos e poções, com uma capacidade de carga igual à sua Inteligência. Além disso, uma vez por rodada, você pode gastar 1 PM para usar um desses itens como uma ação livre.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "automato"
+    }
+  ],
+  "effects": [
+    {
+      "type": "item_type",
+      "note": "automato_armazena_itens_alquimicos_e_pocoes_capacidade_igual_a_inteligencia"
+    },
+    {
+      "type": "change_action_type",
+      "action": "livre",
+      "requirement": "usar_um_desses_itens_uma_vez_por_rodada"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

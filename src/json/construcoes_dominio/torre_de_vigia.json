@@ -1,0 +1,16 @@
+{
+  "id": "torre_de_vigia",
+  "name": "Torre de Vigia",
+  "description": "Uma torre na fronteira, perfeita para avistar bandidos, monstros e outros invasores. Trabalhar como sentinela faz você ficar alerta e preparado para a ação. Fornece +2 em Percepção.",
+  "categoria": "nobreza",
+  "custo": 2,
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Percepção",
+      "value": 2
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

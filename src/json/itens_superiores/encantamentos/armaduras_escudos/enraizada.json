@@ -1,0 +1,21 @@
+{
+  "id": "enraizada",
+  "name": "Enraizada",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "A armadura estende filamentos nododos que o mantêm firme no chão. Você recebe +5 em testes para resistir às manobras derrubar e empurrar. Quando faz um teste de resistência contra outro tipo de efeito de movimento, você pode gastar 2 PM para receber +5 no teste.",
+  "effects": [
+    {
+      "type": "bonus_teste_resistencia",
+      "value": 5,
+      "condicao": "resistir às manobras derrubar e empurrar"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "teste de resistência contra outro efeito de movimento",
+      "efeito": "recebe +5 no teste"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

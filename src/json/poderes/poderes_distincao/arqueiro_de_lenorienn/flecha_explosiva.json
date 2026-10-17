@@ -1,0 +1,18 @@
+{
+  "id": "flecha_explosiva",
+  "name": "Flecha Explosiva",
+  "type": "poder_distincao",
+  "description": "Aprofundando seu treinamento, o arqueiro de Lenórienn aprende a lançar magias mais potentes com suas flechas. Suas magias de área recebem um novo aprimoramento. +2 PM: como parte da execução da magia, você faz um ataque à distância com seu arco arcano contra uma criatura ou objeto. Se acertar, causa o dano do ataque e o efeito da magia (o centro desse efeito é o alvo atingido).",
+  "effects": [
+    {
+      "type": "aprimoramento_magia",
+      "custo_pm": 2,
+      "condicao": "magias de área",
+      "efeito": "como parte da execução da magia, faz um ataque à distância com o arco arcano contra uma criatura ou objeto; se acertar, causa o dano do ataque e o efeito da magia, cujo centro passa a ser o alvo atingido"
+    }
+  ],
+  "requirements": [
+    "Flecha de Toque"
+  ],
+  "livro": "herois_de_arton"
+}

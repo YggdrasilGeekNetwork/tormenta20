@@ -1,0 +1,28 @@
+{
+  "id": "encastelado",
+  "name": "Encastelado",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Se estiver usando uma armadura pesada, você recebe redução de dano 2. Essa RD aumenta em +1 para cada outro poder que você possua que tenha Encouraçado como pré-requisito.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "encouracado"
+    },
+    {
+      "type": "character_level",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_reduction",
+      "value": 2,
+      "condition": "usando_armadura_pesada",
+      "scaling": "+1 por outro poder possuído que tenha Encouraçado como pré-requisito"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

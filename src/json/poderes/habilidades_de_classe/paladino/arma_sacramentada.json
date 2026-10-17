@@ -1,0 +1,27 @@
+{
+  "id": "arma_sacramentada",
+  "name": "Arma Sacramentada",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "A conexão de sua arma com sua divindade se torna mais forte. Em suas mãos, a arma também recebe os benefícios de um encanto (escolhido ao receber este poder) cujos pré-requisitos ela cumpra. Esse encanto não conta no limite da arma e também deixa de funcionar se você descumprir suas Obrigações & Restrições.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "arma_juramentada"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "item_type",
+      "note": "arma_recebe_tambem_um_encanto_a_escolha_que_nao_conta_no_limite_da_arma"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

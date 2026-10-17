@@ -1,0 +1,20 @@
+{
+  "id": "inquisidor",
+  "name": "Inquisidor",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico é marcado com o símbolo sagrado de um deus maior. Quando você lança uma magia divina contra uma criatura que não seja devota dessa divindade, a CD da magia aumenta em +1. Se possuir a habilidade de classe Devoto Fiel dessa divindade, em vez disso a CD aumenta em +2.",
+  "effects": [
+    {
+      "type": "aumento_cd_magia",
+      "value": 1,
+      "condicao": "magia divina contra criatura que não é devota da divindade do esotérico"
+    },
+    {
+      "type": "aumento_cd_magia",
+      "value": 2,
+      "condicao": "substitui o anterior se possuir a habilidade de classe Devoto Fiel dessa divindade"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

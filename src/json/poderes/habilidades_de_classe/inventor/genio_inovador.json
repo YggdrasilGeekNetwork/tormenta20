@@ -1,0 +1,31 @@
+{
+  "id": "genio_inovador",
+  "name": "Gênio Inovador",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Você entende o mundo de forma diferente, e sua capacidade de inovar é quase ilimitada. Você pode usar Inteligência como atributo-chave de até duas perícias a sua escolha (em vez do atributo normal). Além disso, quando fabrica um item superior, você pode adicionar uma melhoria extra gratuita, que não conta no limite (por exemplo, por T$ +6.000, adiciona cinco melhorias, em vez de quatro). Por fim, os itens que você fabrica podem ter dois materiais especiais diferentes (em vez de apenas um).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "switch_skill_attr",
+      "attr": "int",
+      "skill": "ate_duas_pericias_a_escolha"
+    },
+    {
+      "type": "item_type",
+      "note": "item_superior_recebe_uma_melhoria_extra_gratuita_que_nao_conta_no_limite"
+    },
+    {
+      "type": "item_type",
+      "note": "itens_fabricados_podem_ter_dois_materiais_especiais_diferentes"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

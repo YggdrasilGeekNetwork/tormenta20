@@ -1,0 +1,25 @@
+{
+  "id": "pristino",
+  "name": "Prístino",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "Você recebe resistência a necromancia e veneno +5. Além disso, pode gastar 2 PM para remover uma condição entre doente, enjoado ou envenenado de uma criatura adjacente.",
+  "effects": [
+    {
+      "type": "resistencia",
+      "tipo": "necromancia",
+      "value": 5
+    },
+    {
+      "type": "resistencia",
+      "tipo": "veneno",
+      "value": 5
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "efeito": "remove uma condição entre doente, enjoado ou envenenado de uma criatura adjacente"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

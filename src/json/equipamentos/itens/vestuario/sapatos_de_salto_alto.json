@@ -1,0 +1,21 @@
+{
+  "id": "sapatos_de_salto_alto",
+  "name": "Sapatos de Salto Alto",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 18,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "penalidade_deslocamento": "-1,5m",
+    "falha_automatica_teste_fortitude_marcha_forcada": true,
+    "poder_atraente": {
+      "frequencia": "uma_vez_por_cena",
+      "acao": "completa, caminhar na frente de uma criatura escolhida",
+      "efeito": "pode usar o poder Atraente pelo restante da cena contra essa criatura (se já tiver, o bônus contra essa criatura aumenta para +5)"
+    }
+  },
+  "description": "Para alguns, a elegância vem antes do conforto, e a prova são estes verdadeiros instrumentos de tortura em nome da moda. Com estes sapatos, seu deslocamento é reduzido em –1,5m e você falha automaticamente em testes de Fortitude para marcha forçada. Em compensação, uma vez por cena você pode escolher uma criatura e caminhar na frente dela (uma ação completa). Se fizer isso, você pode usar o poder Atraente pelo restante da cena contra essa criatura (se já tiver esse poder, o bônus que ele fornece contra essa criatura aumenta para +5).",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "torre_de_guarnicao",
+  "name": "Torre de Guarnição",
+  "description": "Esta torre serve de dormitório, área de convivência e depósito de equipamento para os homens e mulheres que defendem o domínio. Permite recrutar guardas.",
+  "categoria": "guerra",
+  "custo": 5,
+  "effects": [
+    {
+      "type": "recruta_unidade",
+      "unidade": "guardas"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

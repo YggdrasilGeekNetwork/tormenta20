@@ -1,0 +1,23 @@
+{
+  "id": "manobras_defensivas",
+  "name": "Manobras Defensivas",
+  "type": "poder_distincao",
+  "description": "Às vezes, mais importante que preservar a própria vida é proteger a aeronave! Você soma sua Inteligência na Defesa de qualquer aeronave que estiver pilotando. Além disso, quando você ou a aeronave que você está pilotando sofre dano, você pode gastar 2 PM para fazer um teste de Pilotagem e subtrair o resultado do dano sofrido.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "soma a Inteligência na Defesa de qualquer aeronave que estiver pilotando"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "você ou a aeronave que está pilotando sofre dano",
+      "efeito": "faz um teste de Pilotagem e subtrai o resultado do dano sofrido"
+    }
+  ],
+  "requirements": [
+    "treinado em Reflexos",
+    "Estou Bem, Pessoal!"
+  ],
+  "livro": "herois_de_arton"
+}

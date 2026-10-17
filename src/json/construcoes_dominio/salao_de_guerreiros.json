@@ -1,0 +1,16 @@
+{
+  "id": "salao_de_guerreiros",
+  "name": "Salão de Guerreiros",
+  "description": "Um salão de madeira comprido, com mesas longas e braseiros no fundo, onde soldados podem se reunir e trocar histórias de batalha. O custo de Ataque Especial diminui em -1 PM.",
+  "categoria": "guerra",
+  "custo": 4,
+  "effects": [
+    {
+      "type": "reduz_custo_pm",
+      "habilidade": "Ataque Especial",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

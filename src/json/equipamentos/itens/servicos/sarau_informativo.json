@@ -1,0 +1,14 @@
+{
+  "id": "sarau_informativo",
+  "name": "Sarau Informativo",
+  "type": "servico",
+  "categoria": "servico",
+  "preco": 150,
+  "duracao": "ate o fim da aventura",
+  "efeito": {
+    "rolagem_inicial": "1d4 (dado de auxilio)",
+    "uso": "ao fazer um teste de Conhecimento ou Nobreza, gaste o dado de auxílio e adicione o resultado como bônus no teste (cumulativo com bônus de outros itens)"
+  },
+  "description": "Em alguns lugares, é comum viajantes ou eruditos se reunirem para compartilhar as notícias da região. Passar algumas horas em um destes encontros permite se manter informado a respeito dos últimos acontecimentos. Role 1d4; você recebe o resultado dessa rolagem em d4 de auxílio. Até o fim da aventura, quando faz um teste de Conhecimento ou Nobreza, você pode gastar 1d4 e adicionar o resultado como bônus no teste (cumulativo com bônus de outros itens).",
+  "livro": "herois_de_arton"
+}

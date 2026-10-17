@@ -1,0 +1,99 @@
+{
+  "id": "seteiro",
+  "name": "Seteiro",
+  "base_class_id": "cacador",
+  "description": "O seteiro é um caçador apenas em nome, a menos que se fale de caçar seres inteligentes: é o franco-atirador que mata alvos importantes no exército inimigo, o acrobata que dispara de ângulos que outros nem conseguem compreender. Faz do arco seu modo de vida e tem pouca ligação emocional com os ermos, sendo mais provável que trabalhe em grandes exércitos ou companhias mercenárias. Perícias: Pontaria (Des) e Sobrevivência (Sab), mais 6 à escolha entre Adestramento, Atletismo, Cavalgar, Cura, Fortitude, Furtividade, Iniciativa, Investigação, Luta, Ofício, Percepção e Reflexos. Proficiências: armas marciais.",
+  "diffs": [
+    {
+      "nivel": 1,
+      "remove": [
+        "rastreador"
+      ],
+      "adiciona": [
+        {
+          "id": "caminho_do_atirador",
+          "name": "Caminho do Atirador",
+          "description": "Você abriu mão do treinamento convencional de um caçador para abraçar o caminho do atirador. Suas habilidades de seteiro relacionadas a ataques e armas só funcionam com arcos e bestas."
+        },
+        {
+          "id": "tiro_de_supressao",
+          "name": "Tiro de Supressão",
+          "description": "Sempre que você causa dano com um arco ou besta em uma criatura que esteja sob efeito de sua Marca da Presa, essa criatura sofre uma penalidade cumulativa de –1 em rolagens de dano, até um valor igual à quantidade de PM gasta em Marca da Presa, até o fim da cena."
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "remove": [
+        "explorador"
+      ],
+      "adiciona": [
+        {
+          "id": "evasao_seteiro",
+          "name": "Evasão",
+          "description": "A partir do 3° nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste de Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel."
+        }
+      ]
+    },
+    {
+      "nivel": 5,
+      "remove": [
+        "caminho_do_explorador"
+      ],
+      "adiciona": [
+        {
+          "id": "disparo_constritor",
+          "name": "Disparo Constritor",
+          "description": "No 5° nível, quando usa a ação mirar, você pode pagar 2 PM. Se fizer isso, pode executar uma manobra entre desarmar, empurrar ou quebrar com um de seus ataques à distância feitos até o fim desse turno."
+        }
+      ]
+    },
+    {
+      "nivel": 10,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "rajada_de_flechas",
+          "name": "Rajada de Flechas",
+          "description": "A partir do 10° nível, você pode gastar uma ação completa e 2 PM para alvejar uma área com seus disparos. Escolha um ponto no alcance de sua arma, então faça um ataque à distância e compare-o com a Defesa de cada inimigo num raio de 3m dele. Então faça uma rolagem de dano, com um bônus cumulativo de +2 para cada acerto, e aplique-a em cada inimigo atingido. Você gasta apenas uma munição, independente de quantos inimigos atacou."
+        }
+      ]
+    },
+    {
+      "nivel": 13,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "evasao_aprimorada_seteiro",
+          "name": "Evasão Aprimorada",
+          "description": "No 13º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel."
+        }
+      ]
+    },
+    {
+      "nivel": 15,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "sentinela",
+          "name": "Sentinela",
+          "description": "No 15° nível, uma vez por rodada, quando uma criatura sob efeito de sua Marca da Presa acerta um ataque contra um aliado, você pode gastar 1 PM para fazer um ataque contra essa criatura."
+        }
+      ]
+    },
+    {
+      "nivel": 20,
+      "remove": [
+        "mestre_cacador"
+      ],
+      "adiciona": [
+        {
+          "id": "mestre_do_disparo",
+          "name": "Mestre do Disparo",
+          "description": "No 20° nível, você pode usar sua Marca da Presa como uma ação livre. Além disso, uma vez por rodada, quando faz um ataque com um arco ou besta contra um alvo de sua Marca da Presa, você pode fazer um ataque adicional contra ele."
+        }
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

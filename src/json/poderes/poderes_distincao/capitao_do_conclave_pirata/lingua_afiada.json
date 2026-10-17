@@ -1,0 +1,23 @@
+{
+  "id": "lingua_afiada",
+  "name": "Língua Afiada",
+  "type": "poder_distincao",
+  "description": "Certos insultos doem mais do que golpes de espada. Quando vence um teste oposto de Enganação contra uma criatura inteligente (Int –3 ou maior), para cada poder da distinção que possuir você também pode causar 2d6 pontos de dano psíquico não letal a ela (apenas uma vez por cena). Além disso, se você usar Audácia em testes de Enganação, Diplomacia ou Intimidação, seu custo diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "vence um teste oposto de Enganação contra criatura inteligente (Int –3 ou maior)",
+      "efeito": "pode causar 2d6 pontos de dano psíquico não letal por poder da distinção que possui (apenas uma vez por cena)"
+    },
+    {
+      "type": "reducao_custo_pm",
+      "habilidade": "Audácia",
+      "condicao": "em testes de Enganação, Diplomacia ou Intimidação",
+      "value": 1
+    }
+  ],
+  "requirements": [
+    "Içar a Bandeira Preta"
+  ],
+  "livro": "herois_de_arton"
+}

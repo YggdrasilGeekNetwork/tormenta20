@@ -1,0 +1,16 @@
+{
+  "id": "circulo_de_poder",
+  "name": "Círculo de Poder",
+  "description": "Um círculo de runas esculpidas no chão. A CD para resistir às suas magias arcanas aumenta em +1.",
+  "categoria": "misticismo",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "bonus_cd_magias",
+      "tipo": "arcanas",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

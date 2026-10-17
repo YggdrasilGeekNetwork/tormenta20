@@ -1,0 +1,22 @@
+{
+  "id": "brasonado",
+  "name": "Brasonado",
+  "type": "melhoria",
+  "categoria": [
+    "ferramenta",
+    "vestuario"
+  ],
+  "prerequisitos": null,
+  "incompativel_com": [
+    "discreto"
+  ],
+  "description": "Esta melhoria também é conhecida como \"de grife\". O item é estampado com o brasão da guilda, loja ou casa comercial famosa que o fabricou ou vendeu, de forma muito proeminente, quase como um anúncio. Por exemplo, traz o brasão da alfaiataria Legrasse & Legrasse, de Valkaria, ou da Guilda Comercial Joia do Poente, de Halak-Tûr. Quando faz seu primeiro teste de Diplomacia para mudar atitude em uma cena, você pode substituí-lo por um teste de outra perícia na qual o item forneça bônus (mas apenas com pessoas que admiram ostentação, a critério do mestre). Um item não pode ser brasonado e discreto.",
+  "effects": [
+    {
+      "type": "substitui_pericia_primeiro_teste",
+      "pericia_original": "Diplomacia",
+      "condicao": "mudar atitude em uma cena; substitui por perícia na qual o item forneça bônus; apenas com pessoas que admiram ostentação"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

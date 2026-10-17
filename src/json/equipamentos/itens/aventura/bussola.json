@@ -1,0 +1,15 @@
+{
+  "id": "bussola",
+  "name": "Bússola",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 45,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "consultado",
+  "efeito": {
+    "teste_sobrevivencia_orientar_rola_dois_dados_usa_melhor": true
+  },
+  "description": "Avançadíssimo instrumento de navegação que funciona por princípios simples, mas depende de materiais raros. Por meio de um ímã, a bússola sempre aponta para o norte. Quando faz um teste de Sobrevivência para orientar-se, você rola dois dados e usa o melhor resultado.",
+  "livro": "herois_de_arton"
+}

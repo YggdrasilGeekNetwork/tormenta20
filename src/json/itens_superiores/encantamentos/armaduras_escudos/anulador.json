@@ -1,0 +1,20 @@
+{
+  "id": "anulador",
+  "name": "Anulador",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "Uma vez por rodada, quando é alvo de uma magia, você pode gastar 3 PM por círculo da magia para anulá-la. Pré-requisito: abascanto.",
+  "prerequisitos": [
+    "abascanto"
+  ],
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": "3 por círculo da magia",
+      "frequencia": "por_rodada",
+      "gatilho": "alvo de uma magia",
+      "efeito": "anula a magia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

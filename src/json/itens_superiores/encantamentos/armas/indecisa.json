@@ -1,0 +1,15 @@
+{
+  "id": "indecisa",
+  "name": "Indecisa",
+  "type": "encantamento",
+  "categoria": "arma",
+  "maldicao": true,
+  "description": "Ao empunhar a arma, você tem enorme dificuldade de decidir quem vai atacar. Se houver mais de um inimigo em combate, você deve sempre decidir aleatoriamente qual deles vai atacar em sua rodada. Isso vale mesmo que você precise se deslocar para chegar até o inimigo decidido aleatoriamente. Se você não puder chegar ao inimigo e atacar na mesma rodada, deve gastar a rodada inteira se deslocando até ele. Isso pode significar que você fica indo e voltando de um inimigo a outro durante o combate inteiro, nunca chegando a nenhum deles...",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "se houver mais de um inimigo em combate, deve decidir aleatoriamente qual deles ataca em sua rodada (mesmo que precise se deslocar até ele); se não puder chegar e atacar na mesma rodada, gasta a rodada inteira se deslocando até o alvo sorteado"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

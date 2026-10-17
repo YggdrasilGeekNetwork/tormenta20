@@ -1,0 +1,14 @@
+{
+  "id": "patio_de_treinamento",
+  "name": "Pátio de Treinamento",
+  "description": "Um espaço aberto com alvos e bonecos de palha. Os residentes recebem +1 nos testes de ataque com uma arma a sua escolha (o residente pode trocar essa arma no início de cada aventura).",
+  "effects": [
+    {
+      "type": "bonus_ataque_arma_escolhida",
+      "value": 1,
+      "trocavel_por_aventura": true
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "trombeta_tapistana",
+  "name": "Trombeta Tapistana",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 300,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "maos": 1,
+  "efeito": {
+    "inspiracao_acao_movimento_extra": true
+  },
+  "description": "Usado por incontáveis exércitos ao longo dos séculos, este instrumento produz o som da peleja. Quando você usa Inspiração, cada criatura a sua escolha sob efeito dessa habilidade recebe uma ação de movimento extra em seu próximo turno.",
+  "livro": "herois_de_arton"
+}

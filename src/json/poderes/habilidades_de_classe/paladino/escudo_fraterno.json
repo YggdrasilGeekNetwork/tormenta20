@@ -1,0 +1,28 @@
+{
+  "id": "escudo_fraterno",
+  "name": "Escudo Fraterno",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Se você estiver empunhando um escudo, sua Égide Sagrada afeta aliados até 9m (em vez de apenas adjacentes).",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "egide_sagrada",
+      "note": "poder base 'Egide Sagrada' nao encontrado como arquivo ja existente no gem (possivel lacuna do livro base ainda nao cadastrada)"
+    },
+    {
+      "type": "hold_shield",
+      "sub_type": "soft"
+    }
+  ],
+  "effects": [
+    {
+      "type": "range_target",
+      "value": "9m",
+      "note": "egide_sagrada_passa_a_afetar_aliados_ate_9m_em_vez_de_apenas_adjacentes"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

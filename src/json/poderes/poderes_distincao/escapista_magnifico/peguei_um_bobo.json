@@ -1,0 +1,17 @@
+{
+  "id": "peguei_um_bobo",
+  "name": "Peguei um Bobo",
+  "type": "poder_distincao",
+  "description": "Os inimigos do escapista ficam tão confusos e enervados que acabam agindo como ele quer. Você pode gastar uma ação padrão e 2 PM para gerar o efeito da magia Comando (CD Car, +1 para cada dois outros poderes da distinção), ignorando a restrição de tipo de criatura. Este não é um efeito de encantamento ou mental, nem uma habilidade mágica, e provém da sua capacidade de enganar outras pessoas (veja \"Magias Simuladas\", p. 44).",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "padrao",
+      "custo_pm": 2,
+      "efeito": "gera o efeito da magia Comando (CD Carisma), ignorando a restrição de tipo de criatura; não é encantamento, efeito mental nem habilidade mágica",
+      "escalavel": "+1 na CD para cada dois outros poderes da distinção que possui"
+    }
+  ],
+  "requirements": ["Aparência Insignificante"],
+  "livro": "herois_de_arton"
+}

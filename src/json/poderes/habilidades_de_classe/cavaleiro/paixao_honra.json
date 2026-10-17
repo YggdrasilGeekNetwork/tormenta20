@@ -1,0 +1,19 @@
+{
+  "id": "paixao_honra",
+  "name": "Paixão: Honra",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "A principal virtude de um cavaleiro, a honra é o combustível de seus feitos. Você pode evocar esta Paixão para resistir aos mais severos ferimentos. Se passar, recupera 2d12 PV por ponto de bônus máximo que sua habilidade Duelo pode fornecer.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "active",
+      "action": "livre",
+      "test": "carisma",
+      "dc": "10_mais_5_por_uso_na_mesma_aventura",
+      "on_success": "recupera_2d12_pv_por_ponto_de_bonus_maximo_de_duelo",
+      "on_fail": "nao_pode_usar_ate_fim_da_aventura"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

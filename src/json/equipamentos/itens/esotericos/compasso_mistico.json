@@ -1,0 +1,16 @@
+{
+  "id": "compasso_mistico",
+  "name": "Compasso Místico",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 600,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "excluir_alvo_de_area_de_magia": true
+  },
+  "description": "Compasso que ostenta marcações geométricas combinadas com símbolos arcanos. Quando lança uma magia com efeito em área, você pode excluir um alvo da área afetada.",
+  "livro": "herois_de_arton"
+}

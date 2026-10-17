@@ -1,0 +1,10 @@
+{
+  "id": "cobaia_dos_medicos_monstros",
+  "name": "Cobaia dos Médicos Monstros",
+  "description": "Clientes fiéis do sinistro Grêmio dos Médicos Monstros de Vectora, que se submetem a cirurgias experimentais para enxertar partes de criaturas monstruosas em seus corpos.",
+  "admissao": "O candidato precisa ir até Vectora e, antes disso, conhecer um antigo paciente dos Médicos Monstros e convencê-lo a ser seu \"padrinho\" — que em geral cobra algum favor ou serviço em troca. Candidatos muito famosos, em posição de autoridade ou ligados à lei são rejeitados. O candidato deve citar o nome de seu padrinho para ter acesso ao Grêmio e aguardar a confirmação da indicação. Depois conversa com um cirurgião sobre as modificações desejadas (nem sempre disponíveis de imediato) e, após pagar o preço, é sedado e operado.",
+  "marca_nome": "Procedimento Inicial",
+  "marca_descricao": "Você se torna um monstro em adição ao seu tipo. Além disso, a penalidade em perícias que sofre por receber implantes diminui de –2 por implante para –1 e você paga 20% a menos pelos implantes enxertados em seu corpo.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "distraido",
+  "name": "Distraído",
+  "description": "Você é muito desligado e... Hein? Do que estávamos falando? Você sofre –5 em Iniciativa e Percepção.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_iniciativa",
+      "value": -5
+    },
+    {
+      "type": "penalidade_pericia",
+      "pericia": "percepcao",
+      "value": -5
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

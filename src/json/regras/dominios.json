@@ -1,0 +1,163 @@
+{
+  "id": "dominios",
+  "name": "Domínios",
+  "description": "Regra opcional completa de Domínios (Cap. 4 \"Regras Opcionais\"): um herói que defenda uma terra ou receba um título de nobreza pode se tornar regente, com autoridade e responsabilidade sobre um domínio. Por padrão, apenas o regente realiza ações de domínio e se beneficia das construções, mas o mestre pode permitir que outros aventureiros ajudem nas ações do regente, façam suas próprias ações de domínio, ou que cada construção beneficie apenas um personagem, tratando o domínio como pertencente a todo o grupo. Veja também a tabela `terrenos_de_dominio`, a tabela sorteável `eventos_aleatorios_dominio` e as ~80 entradas do catálogo `construcoes_dominio`.",
+  "caracteristicas": {
+    "descricao": "Um domínio é uma divisão política de terras, governada por um regente. Geralmente possui de 30 a 100 km de largura (um viajante a pé leva de um a três dias para atravessá-lo), mas as dimensões exatas não são importantes.",
+    "lista": [
+      { "nome": "Nome", "descricao": "Pode ser um nome próprio ou uma referência a uma característica do lugar." },
+      { "nome": "Regente", "descricao": "O nome do senhor do domínio." },
+      { "nome": "Nível", "descricao": "Uma medida geral da população, do desenvolvimento e da prosperidade do domínio, de 1 a 7. Veja \"Níveis de Domínio\"." },
+      { "nome": "Terreno", "descricao": "O tipo de terreno predominante no domínio. Veja a tabela `terrenos_de_dominio`." },
+      { "nome": "Corte", "descricao": "O tamanho e a qualidade do centro de poder do domínio. Veja \"Corte\"." },
+      { "nome": "Popularidade", "descricao": "A aceitação do regente entre a população do domínio. Veja \"Popularidade\"." },
+      { "nome": "Fortificação", "descricao": "A capacidade defensiva do domínio. Veja \"Fortificação\"." },
+      { "nome": "Tesouro", "descricao": "A riqueza do domínio, medida em lingotes de ouro (LO). Cada LO equivale a T$ 1.000. Embora medido em lingotes, pode existir na forma de moedas, joias, tapeçarias, sacas de grãos etc. Não se pode usar LO para comprar itens comuns, nem tibares para gastos de domínio. Para converter dinheiro em lingotes e vice-versa, veja a ação finanças." },
+      { "nome": "Construções", "descricao": "Prédios e outras estruturas que fornecem benefícios ao regente ou ao domínio. Veja o catálogo `construcoes_dominio`." },
+      { "nome": "Unidades Militares", "descricao": "Tropas usadas na defesa do domínio e do regente em aventuras. Veja \"Unidades Militares\"." }
+    ]
+  },
+  "tornando_se_regente": {
+    "descricao": "Há duas formas de se tornar um regente: criar um domínio ou conquistar um já existente. Ambas envolvem uma aventura — a ascensão de um personagem a regente pode mudar a dinâmica de uma campanha e não deve acontecer sem o envolvimento do mestre.",
+    "criando_um_dominio": "Para criar um domínio, você precisa possuir terras virgens — que pode conquistar como parte de uma aventura. Então deve gastar uma ação de domínio, T$ 5.000 e fazer um teste de Nobreza (CD 20). Se passar, cria um domínio de nível 1, com corte inexistente, popularidade tolerável e sem tesouro ou construções. Se falhar, pode tentar novamente, gastando mais uma ação de domínio e T$ 5.000.",
+    "conquistando_um_dominio": "Você pode conquistar um domínio como parte de uma aventura. Por exemplo, se derrotou um tirano que escravizava seu povo, pode tomar o lugar dele como senhor dessas terras. As estatísticas de um domínio existente são definidas pelo mestre."
+  },
+  "niveis_de_dominio": {
+    "descricao": "O nível de um domínio define quanto você ganha com impostos (veja a tabela de Impostos) e seu máximo de construções (três vezes o nível do domínio: nível 1 = até 3 construções, nível 2 = até 6, e assim por diante), e opera em uma escala de 1 a 7. Você pode subir o nível do domínio com a ação governar.",
+    "escala": [
+      { "nivel": 0, "descricao": "Terras ermas, desertas ou abandonadas, sem população residente. Não constitui um domínio." },
+      { "nivel": "1-2", "descricao": "Terras esparsamente povoadas, com fazendas e aldeias. Os habitantes são camponeses, caçadores e outros tipos rústicos. As notícias chegam através de mercadores ambulantes — quando chegam. A população varia de 1.000 a 2.500 pessoas." },
+      { "nivel": "3-5", "descricao": "Terras povoadas, com mercados e oficinas. As notícias chegam mais rápido, através de arautos, bardos e viajantes. Nobres visitam com frequência e provavelmente haverá pelo menos um grupo de aventureiros residente. A população varia de 5 a 25 mil pessoas." },
+      { "nivel": "6-7", "descricao": "Terras densamente povoadas, com guildas e indústrias prósperas. Todos os tipos de pessoas podem ser encontrados, incluindo alquimistas, escribas e outros indivíduos mais refinados. Nobres e heróis famosos moram aqui. As notícias chegam através de emissários reais ou magos com bolas de cristal, embora mascates e bardos ainda sejam a melhor fonte de fofocas e rumores. A população varia de 50 a 100 mil pessoas." }
+    ]
+  },
+  "terreno": {
+    "descricao": "O tipo de terreno mais comum no domínio. Outros tipos podem estar presentes, mas este será o principal (por exemplo, um domínio de planície pode ter bosques e colinas, mas será principalmente plano e descampado). O terreno limita o nível máximo e o potencial mágico do domínio (veja \"Domínios Místicos\"), além de ser um requisito para certas construções. Veja a tabela `terrenos_de_dominio` (Tabela 4-9) para os limites de cada tipo."
+  },
+  "corte": {
+    "descricao": "O local de onde você governa seu domínio. Classificada em quatro categorias, que determinam sua qualidade e o padrão de vida que proporciona. Categorias baixas impõem penalidades em testes de ações de domínio, enquanto categorias altas concedem acesso a conselheiros e ações extras. Cada categoria possui um custo de manutenção, pago a cada turno de domínio.",
+    "categorias": [
+      { "nome": "Inexistente", "manutencao_lo": 0, "efeito": "-2 em ações de domínio. Você governa o domínio de maneira improvisada, seja nos fundos de uma taverna, seja dentro de uma carroça. Conta com a ajuda de amigos ou, no máximo, servos pagos do seu próprio bolso." },
+      { "nome": "Pobre", "manutencao_lo": 1, "efeito": "Sem modificadores. Base de operações equivalente a um salão, com alguns servos, como criado, cozinheiro e escriba." },
+      { "nome": "Comum", "manutencao_lo": 3, "efeito": "Fornece um conselheiro. A corte possui uma estrutura completa, com salas de audiência, escritórios e diversos servos, incluindo músicos, tutores e caçadores. Pode sediar reuniões, cerimônias e eventualmente bailes." },
+      { "nome": "Rica", "manutencao_lo": 5, "efeito": "Fornece três conselheiros e uma ação de domínio extra por turno. Mais do que uma única sede, a corte é uma rede de prédios espalhados pelo domínio, com um exército de servos e sua própria burocracia." }
+    ],
+    "conselheiros": {
+      "descricao": "Se você possui uma corte comum ou rica, recebe um ou três conselheiros, respectivamente. Cada conselheiro permite que você faça testes de uma perícia como se fosse treinado nela (fornecendo o bônus de treinamento), mas apenas para ações de domínio. Quando sua corte atinge o nível necessário, você recebe automaticamente o(s) conselheiro(s).",
+      "lista": [
+        { "conselheiro": "Bispo", "pericia": "Religião" },
+        { "conselheiro": "Capitão da guarda", "pericia": "Guerra" },
+        { "conselheiro": "Embaixador", "pericia": "Diplomacia" },
+        { "conselheiro": "Espião", "pericia": "Enganação" },
+        { "conselheiro": "Falcoeiro", "pericia": "Sobrevivência" },
+        { "conselheiro": "Magistrado", "pericia": "Investigação" },
+        { "conselheiro": "Mago da corte", "pericia": "Misticismo" },
+        { "conselheiro": "Menestrel", "pericia": "Atuação" },
+        { "conselheiro": "Senescal", "pericia": "Nobreza" }
+      ]
+    }
+  },
+  "popularidade": {
+    "descricao": "Existem cinco categorias de popularidade. De acordo com a categoria, você pode receber um modificador em testes para ações de domínio.",
+    "categorias": [
+      { "nome": "Adorado", "modificador": 2, "efeito": "Você é amado por seus súditos. Quando caminha pelas ruas, as pessoas gritam seu nome e lhe presenteiam com bolos." },
+      { "nome": "Popular", "modificador": 1, "efeito": "O povo tem grande apreço por você. Quando caminha pelas ruas, as pessoas o cumprimentam com afeto e deferência." },
+      { "nome": "Tolerado", "modificador": 0, "efeito": "Os habitantes do domínio o tratam com o respeito devido. Ao caminhar pelas ruas, alguns agradecem pela última obra pública, enquanto outros reclamam dos impostos." },
+      { "nome": "Impopular", "modificador": -2, "efeito": "As pessoas cumprem seus decretos de má vontade e fazem piadas com seu nome. Ao caminhar pelas ruas, você recebe reclamações e olhares descontentes." },
+      { "nome": "Odiado", "modificador": -5, "efeito": "O povo considera-o um tolo, um tirano ou ambos. Caminhar pelas ruas não é boa ideia, pois as pessoas o xingarão e arremessarão ovos podres em você. Se a popularidade baixar para menos do que odiado, uma revolta ocorre (veja \"Revoltas\")." }
+    ]
+  },
+  "fortificacao": {
+    "descricao": "Uma medida das defesas do domínio contra bandidos, exércitos inimigos e monstros. É definida pela soma do valor de Fortificação de todas as construções defensivas do domínio, como torres de vigia, muralhas e castelos, e aplicada como um bônus nos testes de Guerra do regente feitos para defender o domínio de ataques. Veja \"Batalhas Simplificadas\"."
+  },
+  "construcoes": {
+    "descricao": "Para erguer uma construção, veja a ação construir em \"Turnos de Domínio\". Você só pode erguer construções cujos pré-requisitos cumpra (outra construção e/ou tipo de terreno), e pode ter um número máximo de construções igual a três vezes o nível de seu domínio. O catálogo completo (~80 construções, com custo em LO, benefício mecânico e pré-requisitos) está em `construcoes_dominio`, dividido em cinco categorias: nobreza, guerra, enganação, religião e misticismo."
+  },
+  "unidades_militares": {
+    "adquirindo": "Unidades são adquiridas através da ação de domínio recrutar tropas. Cada vez que faz essa ação, o regente pode recrutar um número máximo de tropas igual ao nível do domínio. Nenhum teste é necessário, mas é preciso possuir a construção correspondente e gastar lingotes de ouro. As construções e o custo variam de acordo com a unidade.",
+    "usando": {
+      "defendendo_um_dominio": "Quando um domínio é atacado, seja pelo resultado de um evento aleatório, seja como parte de uma aventura, as unidades entram em ação (veja \"Batalhas Simplificadas\"). O Poder da unidade — uma medida geral da eficácia da tropa no campo de batalha — é sua principal estatística nessas regras. Com o livro Jornada Heroica: Guerra Artoniana, também é possível resolver confrontos envolvendo domínios como batalhas em massa; essa opção é mais demorada e via de regra é melhor deixá-la apenas para batalhas importantes da campanha.",
+      "ajudando_em_aventuras": "Ao partir para uma aventura, um regente pode levar parte de suas unidades consigo. Nesse caso, elas funcionam como capangas, cada uma com 10 membros e as estatísticas da tabela de unidades militares. Unidades militares não contam em seu limite de parceiros; em vez disso, o máximo de unidades que se pode levar é igual ao nível do domínio (um domínio de nível 3 permite levar até três unidades). Cada unidade só pode ser usada em uma cena; depois disso, ela retorna a suas terras e só pode ser usada novamente a partir da próxima aventura."
+    },
+    "lista_de_unidades": {
+      "descricao": "Lista resumida de tropas (Tabela 4-11). O mestre pode criar novas unidades militares para a campanha, desde tropas comuns, como fundeiros e lanceiros, até unidades especiais, como arqueiros élficos e legionários táuricos — lembre-se de inventar também as construções para recrutá-las.",
+      "headers": ["Tropa", "Construção", "Custo", "Manutenção", "Poder", "Deslocamento", "Defesa", "Dano"],
+      "rows": [
+        { "Tropa": "Camponeses", "Construção": "—", "Custo": "1 LO", "Manutenção": "—", "Poder": 1, "Deslocamento": "9m", "Defesa": 10, "Dano": "1d6", "observacao": "Veja a ação convocar camponeses." },
+        { "Tropa": "Milícia", "Construção": "Campo de treinamento", "Custo": "1 LO", "Manutenção": "0,25 LO", "Poder": 1, "Deslocamento": "9m", "Defesa": 16, "Dano": "1d8+1" },
+        { "Tropa": "Bandidos", "Construção": "Esconderijo", "Custo": "2 LO", "Manutenção": "0,5 LO", "Poder": 1, "Deslocamento": "9m", "Defesa": 15, "Dano": "2d6" },
+        { "Tropa": "Guardas", "Construção": "Torre de guarnição", "Custo": "2 LO", "Manutenção": "0,5 LO", "Poder": 2, "Deslocamento": "6m", "Defesa": 19, "Dano": "1d8+2" },
+        { "Tropa": "Arqueiros", "Construção": "Pista de arquearia", "Custo": "2 LO", "Manutenção": "0,5 LO", "Poder": 2, "Deslocamento": "9m", "Defesa": 15, "Dano": "1d8", "observacao": "Podem causar dano a criaturas em alcance médio." },
+        { "Tropa": "Cães de guerra", "Construção": "Canil", "Custo": "2 LO", "Manutenção": "0,25 LO", "Poder": 2, "Deslocamento": "15m", "Defesa": 14, "Dano": "1d6+3" },
+        { "Tropa": "Cavaleiros", "Construção": "Pista de justa", "Custo": "6 LO", "Manutenção": "1 LO", "Poder": 5, "Deslocamento": "12m", "Defesa": 24, "Dano": "1d8+3", "observacao": "Se causarem dano na mesma rodada em que ficarem adjacentes ao alvo, causam +1d8 pontos de dano." }
+      ]
+    }
+  },
+  "turnos_de_dominio": {
+    "descricao": "Domínios não são estáticos. Com o passar do tempo, reinos fazem alianças e entram em guerra, prosperam e decaem. Esses eventos grandiosos ocorrem nos turnos de domínio. Um turno de domínio acontece no fim de cada aventura, desde que haja pelo menos um regente no grupo. De acordo com o mestre, um turno de domínio pode ocorrer no meio de uma aventura, desde que tempo suficiente transcorra na história — geralmente, uma estação (três meses). Quando um turno de domínio acontece, o regente deve resolver as três etapas a seguir, em ordem.",
+    "etapa_1_eventos": {
+      "descricao": "Se o domínio for de nível 3 ou maior, role 1d% e consulte a tabela sorteável `eventos_aleatorios_dominio` (Tabela 4-13; domínios de nível 1 ou 2 são muito pequenos e pacatos para serem afetados por eventos aleatórios). Caso role um evento, ele afetará o domínio neste turno.",
+      "resolvendo_eventos": "Há duas maneiras de resolver eventos aleatórios. A mais simples, aconselhada para campanhas em que domínios são mais pano de fundo do que palco principal, é com um teste de perícia, quando isso for indicado no evento (CD 25 + 2x o nível do domínio). Conselheiros com perícias que o regente não possua são muito úteis nesses casos. Nem todos os eventos podem ser resolvidos com testes; nesses casos, o efeito ocorre automaticamente. A outra maneira, mais detalhada, envolve transformar os eventos em cenas — ou mesmo aventuras completas — jogadas como parte da sessão; nesse caso, os personagens podem tentar resolver qualquer tipo de evento, mesmo os que não podem ser resolvidos pela regra simplificada."
+    },
+    "etapa_2_impostos": {
+      "descricao": "Decida se vai cobrar impostos baixos, médios ou altos. Então role na Tabela 4-12 (Impostos) seus ganhos, de acordo com o nível do domínio e os impostos cobrados. Role também os ganhos de quaisquer construções que forneçam um rendimento. Depois, pague os custos de manutenção da corte e das unidades militares. Se a manutenção da corte não for paga, ela baixa uma categoria e o caos temporário no governo impõe –5 em todas as ações de domínio nesse turno. Se a manutenção de uma unidade militar não for paga, a unidade é perdida. Por fim, se cobrou impostos baixos, aumente a popularidade em uma categoria; se cobrou impostos altos, diminua-a em uma categoria.",
+      "tabela_impostos": {
+        "headers": ["Nível", "Descrição", "Baixos (LO)", "Médios (LO)", "Altos (LO)"],
+        "rows": [
+          { "Nível": 0, "Descrição": "Ermos", "Baixos (LO)": "—", "Médios (LO)": "—", "Altos (LO)": "—" },
+          { "Nível": 1, "Descrição": "Aldeia", "Baixos (LO)": "1", "Médios (LO)": "1d3", "Altos (LO)": "1d3+1" },
+          { "Nível": 2, "Descrição": "Vilarejo", "Baixos (LO)": "1d3", "Médios (LO)": "1d3+1", "Altos (LO)": "2d4" },
+          { "Nível": 3, "Descrição": "Vila pequena ou feudo", "Baixos (LO)": "1d4", "Médios (LO)": "2d4", "Altos (LO)": "2d6" },
+          { "Nível": 4, "Descrição": "Vila grande ou baronato", "Baixos (LO)": "1d6", "Médios (LO)": "2d4+1", "Altos (LO)": "2d6+2" },
+          { "Nível": 5, "Descrição": "Cidade pequena ou condado", "Baixos (LO)": "1d8", "Médios (LO)": "2d6", "Altos (LO)": "2d8+2" },
+          { "Nível": 6, "Descrição": "Cidade grande ou ducado", "Baixos (LO)": "1d10", "Médios (LO)": "2d6+1", "Altos (LO)": "2d10+2" },
+          { "Nível": 7, "Descrição": "Metrópole ou reino pequeno", "Baixos (LO)": "1d12", "Médios (LO)": "2d8+1", "Altos (LO)": "2d12+2" }
+        ]
+      }
+    },
+    "etapa_3_acoes": {
+      "descricao": "Você pode fazer duas ações de domínio por turno (corte rica fornece uma terceira). Isso conta como sua ação de tempo entre aventuras (Tormenta20, p. 276). Algumas ações exigem um teste de perícia e/ou o gasto de uma quantidade de lingotes de ouro. No caso de ações que exigem um teste e um gasto, o valor deve ser pago mesmo que a ação falhe.",
+      "lista_de_acoes": [
+        { "nome": "Aumentar Corte", "teste": "Nobreza (CD 20)", "custo": "1 LO (ou 0 LO)", "descricao": "Você contrata servos e cortesãos, aumentando sua corte em uma categoria. Esta ação também pode ser usada para trocar um conselheiro ou diminuir sua corte em uma categoria (essas opções gastam uma ação e exigem o teste de perícia, mas não gastam LO)." },
+        { "nome": "Construir", "teste": "definido pela construção (CD 20 + nível do domínio)", "custo": "definido pela construção", "descricao": "Você ergue uma construção — de novas fazendas para aumentar sua colheita a uma muralha para proteger suas terras." },
+        { "nome": "Convocar Camponeses", "teste": "nenhum", "custo": "1 LO", "descricao": "Você faz o povo pegar em armas para defender suas terras. Esta ação gera 1d6 unidades de camponeses, mas diminui sua popularidade em uma categoria. As tropas ficam disponíveis até o fim do turno." },
+        { "nome": "Extorquir", "teste": "Intimidação (CD 20 + nível do domínio)", "custo": "0 LO", "descricao": "Você cobra impostos abusivos. Isso fornece 1d6 LO + nível do domínio, mas diminui sua popularidade em uma categoria." },
+        { "nome": "Festival", "teste": "Atuação (CD 20 + nível do domínio)", "custo": "1 LO", "descricao": "Você organiza uma festa ou cerimônia para alegrar o povo. Sua popularidade aumenta em uma categoria." },
+        { "nome": "Finanças", "teste": "Nobreza (CD 20)", "custo": "—", "descricao": "Você converte seu dinheiro pessoal em lingotes de ouro para usar em seu domínio — ou o contrário. A conversão ocorre à taxa de T$ 1.000 para 1 LO." },
+        { "nome": "Governar", "teste": "Nobreza (CD 20 + duas vezes o próximo nível do domínio)", "custo": "5 LO x o próximo nível do domínio", "descricao": "Você atende a demandas de seus súditos, fazendo suas terras prosperarem. Seu domínio sobe um nível. Por exemplo, para subir um domínio de nível 2 para 3, você precisa fazer um teste de Nobreza contra CD 26 e gastar 15 LO. Você só pode fazer esta ação uma vez por turno de domínio." },
+        { "nome": "Recrutar Tropas", "teste": "nenhum", "custo": "definido pela unidade militar", "descricao": "Você recruta uma ou mais unidades militares (até um máximo igual ao nível do domínio por ação), cuja construção correspondente você possua." }
+      ]
+    }
+  },
+  "dominios_misticos": {
+    "descricao": "Um domínio comum representa aldeias, cidades e castelos, mas esse não é o único tipo de domínio existente em Arton. Torres de magos, templos de clérigos e locais similares também podem ser domínios. Chamados de domínios místicos, tais lugares são centros de energias arcanas e divinas, capazes de influenciar as terras ao redor. Ao criar um domínio, se possuir níveis em uma classe com a habilidade Magias, você pode escolher que ele seja um domínio místico em vez de um domínio normal. Domínios místicos não possuem população significativa, mas fornecem poderes a seus regentes. Em termos de regras, funcionam como domínios normais, com as exceções a seguir.",
+    "excecoes": [
+      { "nome": "Menos Dinheiro", "descricao": "Domínios místicos não possuem colheitas, comércio ou indústria — consequentemente, não geram impostos. Ainda rendem dinheiro, proveniente de poções fabricadas pelo regente, gemas preciosas expelidas pela própria terra ou qualquer outra coisa que o jogador invente e o mestre aprove, mas o valor é menor que o de um domínio normal: rendem 1 LO por nível por turno." },
+      { "nome": "Sem Popularidade", "descricao": "Como domínios místicos possuem poucos habitantes (ou mesmo nenhum), não possuem a característica popularidade." },
+      { "nome": "Construções Restritas", "descricao": "Domínios místicos só podem ter construções que exijam testes de Misticismo ou Religião para serem construídas." },
+      { "nome": "Poderes Mágicos", "descricao": "O regente de um domínio místico recebe um número de pontos de mana extras igual ao nível do domínio elevado ao quadrado (nível 1 = 1 PM, nível 2 = 4 PM, nível 3 = 9 PM, e assim por diante). Os pontos de mana são recebidos mesmo que o regente esteja fora do domínio." },
+      { "nome": "Potencial Mágico", "descricao": "O nível máximo de um domínio místico é determinado pelo terreno onde ele se encontra — veja a coluna \"Potencial Mágico\" da tabela `terrenos_de_dominio`. Se um domínio místico coexiste com um domínio normal, o nível máximo do domínio místico é igual ao potencial mágico do terreno menos o nível do domínio normal (por exemplo, uma colina com potencial mágico 5 e um domínio normal de nível 3 comporta um domínio místico de no máximo nível 2). Domínios de raças muito ligadas à magia (a critério do mestre, como elfos, eiradaan, qareen, sílfides...) não diminuem o potencial mágico da terra." },
+      { "nome": "Misturando Domínios", "descricao": "É possível ter um domínio normal e um domínio místico na mesma terra, cada um com seu próprio nível e outras características, conduzidos separadamente. Podem ser governados por regentes diferentes ou pelo mesmo regente — nesse caso, o regente recebe os benefícios de ambos, mas continua tendo apenas duas ações por turno de domínio, que precisa dividir entre eles." }
+    ]
+  },
+  "batalhas_simplificadas": {
+    "descricao": "Batalhas envolvendo domínios são resolvidas com um teste oposto de Guerra entre o regente e o líder inimigo. O teste possui os seguintes modificadores.",
+    "modificadores": [
+      { "nome": "Poder", "descricao": "Some o Poder das unidades de cada exército. Outros personagens (que não sejam o comandante do exército) podem ajudar na batalha, fornecendo Poder de acordo com seu patamar: 1 para iniciante, 2 para veterano, 5 para campeão, 10 para lenda. O comandante do exército com maior Poder recebe um bônus em seu teste de Guerra igual à diferença entre os valores de Poder." },
+      { "nome": "Fortificação", "descricao": "O regente soma a Fortificação do domínio em seu teste de Guerra." }
+    ],
+    "exemplo": "Um domínio com duas unidades de milícia (Poder total 2) e uma paliçada (Fortificação 2) é atacado por saqueadores com Poder 5. Como o Poder dos atacantes é 3 pontos maior que o Poder do defensor, os atacantes recebem +3 no teste de Guerra. Porém, o defensor recebe +2 em seu teste pela Fortificação do domínio. Após calcular os modificadores, faça o teste oposto e veja a consequência para o domínio.",
+    "resultados": [
+      { "resultado": "Regente vence por 10+", "efeito": "Vitória total! Invasores são repelidos e o regente ganha espólios de 1d6 LO." },
+      { "resultado": "Regente vence por 5+", "efeito": "Vitória! Invasores são repelidos." },
+      { "resultado": "Regente vence", "efeito": "Invasores são repelidos, mas ao custo de vidas. O domínio perde 1d3 unidades." },
+      { "resultado": "Regente perde", "efeito": "Invasores saqueiam a terra. O domínio perde 1d3+1 unidades e 2d6 LO." },
+      { "resultado": "Regente perde por 5+", "efeito": "Invasores queimam propriedades. O domínio perde 1d4+1 unidades, 3d6 LO e uma construção aleatória." },
+      { "resultado": "Regente perde por 10+", "efeito": "Invasores massacram o povo. O domínio perde 2d4+1 unidades, 4d6 LO, uma construção aleatória e um nível." }
+    ]
+  },
+  "revoltas": {
+    "descricao": "Se a qualquer momento a popularidade do regente baixar para menos do que odiado, ela permanece nessa categoria e uma revolta se inicia. Enquanto a revolta durar, os impostos do domínio são reduzidos a 0 LO e uma construção aleatória é destruída no fim de cada turno de domínio. A revolta termina se a popularidade aumentar para impopular ou maior."
+  },
+  "livro": "herois_de_arton"
+}

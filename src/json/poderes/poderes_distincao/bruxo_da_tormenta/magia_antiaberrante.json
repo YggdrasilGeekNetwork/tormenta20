@@ -1,0 +1,17 @@
+{
+  "id": "magia_antiaberrante",
+  "name": "Magia Antiaberrante",
+  "type": "poder_distincao",
+  "description": "Um bruxo da Tormenta conjura magias mais efetivas contra seres antinaturais. Quando lança uma magia, você pode receber uma quantidade de pontos de insanidade igual ao círculo dela. Se fizer isso, ela ignora 10 pontos da RD dos alvos e, se algum deles for lefeu, ignora também suas imunidades.",
+  "effects": [
+    {
+      "type": "ativado",
+      "gatilho": "lança uma magia",
+      "efeito": "pode receber pontos de insanidade igual ao círculo da magia; se fizer isso, ela ignora 10 pontos da RD dos alvos e, se algum for lefeu, ignora também suas imunidades"
+    }
+  ],
+  "requirements": [
+    "Conjuração Insana"
+  ],
+  "livro": "herois_de_arton"
+}

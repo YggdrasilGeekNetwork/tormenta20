@@ -1,0 +1,23 @@
+{
+  "id": "agulha_de_ahlen",
+  "name": "Agulha de Ahlen",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "leve",
+  "preco": 10,
+  "dano": "1d4",
+  "critico": "19",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "veneno": {
+      "doses": 1,
+      "nota": "aplicar veneno segue as regras normais (Tormenta20, p.161), mas o veneno permanece na lâmina até acertar um ataque (não acaba ao fim da cena) e a CD para resistir a ele aumenta em +2"
+    }
+  },
+  "description": "Arma covarde inventada no Reino da Intriga. Consiste em uma adaga com ponta fina e lâmina oca, que pode armazenar uma dose de veneno de contato. O veneno permanece na arma até você acertar um ataque (não se perde ao fim da cena) e a CD para resistir a ele aumenta em +2.",
+  "livro": "herois_de_arton"
+}

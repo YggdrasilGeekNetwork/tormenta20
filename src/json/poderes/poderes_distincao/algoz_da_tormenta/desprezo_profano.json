@@ -1,0 +1,24 @@
+{
+  "id": "desprezo_profano",
+  "name": "Desprezo Profano",
+  "type": "poder_distincao",
+  "description": "Qualquer forma de magia é patética contra a Anticriação. Você recebe resistência a magia +1 para cada poder da distinção e pode lançar Dissipar Magia, substituindo o teste de Misticismo por Vontade. Esta não é uma habilidade mágica e provém de seu desprezo pela Criação (veja “Magias Simuladas”).",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "resistência a magia +1 para cada poder da distinção que possui"
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Dissipar Magia",
+      "efeito": "pode lançar Dissipar Magia substituindo o teste de Misticismo por Vontade; não é uma habilidade mágica, provém do desprezo do algoz pela Criação (Magias Simuladas)"
+    }
+  ],
+  "requirements": [
+    "treinado em Vontade",
+    "Ataque Corrupto",
+    "não ser devoto (exceto de Aharadak)"
+  ],
+  "livro": "herois_de_arton",
+  "tormenta": true
+}

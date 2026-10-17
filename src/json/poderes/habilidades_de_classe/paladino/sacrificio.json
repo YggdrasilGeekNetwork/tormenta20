@@ -1,0 +1,28 @@
+{
+  "id": "sacrificio",
+  "name": "Sacrifício",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Uma vez por rodada, quando faz um ataque corpo a corpo, você pode sacrificar 5 PV por patamar para aumentar o dano desse ataque em +1d10 por patamar. Por exemplo, se você for um personagem de 5º nível, pode perder 10 PV para causar +2d10 pontos de dano.",
+  "requirements": [
+    {
+      "type": "attack_type",
+      "sub_type": "soft",
+      "attack": "corpo_a_corpo"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "1d10_por_patamar",
+      "requirement": "sacrificar_5_pv_por_patamar"
+    }
+  ],
+  "costs": [
+    {
+      "value": "5_por_patamar",
+      "type": "PV"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "espelho_cirurgico",
+  "name": "Espelho Cirúrgico",
+  "type": "item",
+  "categoria": "ferramenta",
+  "preco": 12,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "efeito": {
+    "evita_penalidade": {
+      "pericia": "Cura",
+      "uso": "em si mesmo",
+      "penalidade_sem_item": -5
+    }
+  },
+  "description": "Haste de metal ou madeira com um espelho na ponta, dotada de mecanismos que permitem controlar o ângulo do reflexo a partir da outra extremidade. Muito usado por médicos de campo que só podem contar consigo mesmos para suturar seus ferimentos. Se estiver usando um espelho cirúrgico, você não sofre a penalidade de –5 em testes de Cura em si mesmo.",
+  "livro": "herois_de_arton"
+}

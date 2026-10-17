@@ -1,0 +1,16 @@
+{
+  "id": "cabana_de_caca",
+  "name": "Cabana de Caça",
+  "description": "Esta choupana permite que você passe dias nos ermos, treinando suas habilidades de caça. O dano de sua Marca da Presa aumenta em um passo (por exemplo, de 1d12 para 3d6).",
+  "categoria": "nobreza",
+  "custo": 2,
+  "effects": [
+    {
+      "type": "aumenta_dado_habilidade",
+      "habilidade": "Marca da Presa",
+      "incremento": "um_passo"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

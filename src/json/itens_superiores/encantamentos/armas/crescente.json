@@ -1,0 +1,16 @@
+{
+  "id": "crescente",
+  "name": "Crescente",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "Você pode gastar 2 PM para fazer a arma aumentar de tamanho até o fim de seu turno. O dano dela aumenta em um passo e o alcance aumenta em +1,5m. Este encanto só pode ser aplicado a armas de combate corpo a corpo.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "efeito": "a arma aumenta de tamanho até o fim do turno: dano aumenta em um passo e alcance aumenta em +1,5m",
+      "restricao": "apenas armas de combate corpo a corpo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

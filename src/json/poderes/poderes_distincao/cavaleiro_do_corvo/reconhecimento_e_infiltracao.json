@@ -1,0 +1,18 @@
+{
+  "id": "reconhecimento_e_infiltracao",
+  "name": "Reconhecimento e Infiltração",
+  "type": "poder_distincao",
+  "description": "Para cumprir sua missão, o Corvo deve se mover de forma rápida e silenciosa mesmo equipado. Seu deslocamento aumenta em +3m, você não sofre penalidade por armadura e a penalidade que você sofre por fazer uma ação chamativa quando usa Furtividade muda para –10.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "deslocamento aumenta em +3m; não sofre penalidade por armadura; a penalidade por fazer uma ação chamativa usando Furtividade muda para –10"
+    }
+  ],
+  "requirements": [
+    "treinado em Furtividade",
+    "treinado em Guerra",
+    "proficiência com armaduras pesadas"
+  ],
+  "livro": "herois_de_arton"
+}

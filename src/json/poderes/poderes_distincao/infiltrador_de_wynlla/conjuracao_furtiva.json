@@ -1,0 +1,14 @@
+{
+  "id": "conjuracao_furtiva",
+  "name": "Conjuração Furtiva",
+  "type": "poder_distincao",
+  "description": "\"Como você consegue ser espiã se todos conhecem o seu nome?\" Criaturas desprevenidas sofrem uma penalidade de –5 em testes de resistência contra suas habilidades mágicas.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "criaturas desprevenidas sofrem –5 em testes de resistência contra suas habilidades mágicas"
+    }
+  ],
+  "requirements": ["treinado em Furtividade", "Magia Traiçoeira"],
+  "livro": "herois_de_arton"
+}

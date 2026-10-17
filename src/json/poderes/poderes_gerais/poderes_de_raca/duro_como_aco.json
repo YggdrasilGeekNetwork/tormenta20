@@ -1,0 +1,29 @@
+{
+  "id": "duro_como_aco",
+  "name": "Duro Como Aço",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Se estiver usando armadura pesada, você pode somar sua Constituição na Defesa. Se fizer isso, não pode somar sua Destreza, mesmo que outras habilidades ou efeitos permitam isso.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "anao"
+    },
+    {
+      "type": "character_level",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "add_attr_bonus_to_skill",
+      "attr": "con",
+      "target": "defesa",
+      "condition": "armadura_pesada",
+      "restriction": "nao_pode_somar_destreza_se_usar_este_efeito"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

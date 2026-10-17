@@ -1,0 +1,47 @@
+{
+  "id": "apoteose_feerica",
+  "name": "Apoteose Feérica",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Sua natureza feérica se acentua, mas isso o afasta do mundo dos mortais. Sempre que um ou mais inimigos falharem em um teste de Vontade contra uma de suas magias, você recebe 1 PM temporário cumulativo que dura até o fim da cena. Se a magia é de encantamento ou ilusão, em vez disso você recebe 2 PM temporários. Em ambos os casos, o ganho é limitado pelo total de PM gasto na magia. Contudo, você não pode mais lançar magias de convocação e necromancia. Pré-requisitos: Herança Superior (linhagem feérica), 17° nível de arcanista.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "heranca_superior"
+    },
+    {
+      "type": "linhagem",
+      "sub_type": "hard",
+      "value": "ferica"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "resource_gain",
+      "resource": "PM_temporario",
+      "value": 1,
+      "trigger": "inimigo_falha_vontade_contra_magia",
+      "duration": "cena",
+      "limited_by": "pm_gastos_na_magia"
+    },
+    {
+      "type": "resource_gain",
+      "resource": "PM_temporario",
+      "value": 2,
+      "trigger": "inimigo_falha_vontade_contra_magia_de_encantamento_ou_ilusao",
+      "duration": "cena",
+      "limited_by": "pm_gastos_na_magia"
+    },
+    {
+      "type": "restriction",
+      "value": "nao_pode_lancar_magias_de_convocacao_e_necromancia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

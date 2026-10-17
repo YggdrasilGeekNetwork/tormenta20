@@ -1,0 +1,18 @@
+{
+  "id": "arremesso_de_rochas",
+  "name": "Arremesso de Rochas",
+  "type": "poder_distincao",
+  "description": "Qualquer oponente que tente correr de um gigante furioso descobrirá rapidamente que eles são letais a qualquer distância. Enquanto estiver em fúria, você pode gastar uma ação de movimento e 1 PM para arrancar uma rocha do chão e arremessá-la contra seus oponentes. Trate essa rocha como uma arma de arremesso com alcance médio (dano 1d12 impacto, crítico x2) que atinge todas as criaturas em um quadrado com 4,5m de lado. Para atacar com a rocha, faça um ataque à distância e compare-o com a Defesa de cada criatura na área. Então faça uma única rolagem de dano e aplique-a em cada inimigo atingido. Para cada categoria de tamanho que você tiver acima de Médio, o dano da rocha aumenta em +1d12.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 1,
+      "condicao": "em fúria",
+      "efeito": "arremessa uma rocha (alcance médio, 1d12 impacto, crítico x2) atingindo todas as criaturas em quadrado de 4,5m de lado; um único teste de ataque comparado à Defesa de cada alvo, uma única rolagem de dano aplicada a todos os atingidos",
+      "escalavel": "dano +1d12 por categoria de tamanho acima de Médio"
+    }
+  ],
+  "requirements": ["Fúria dos Gigantes"],
+  "livro": "herois_de_arton"
+}

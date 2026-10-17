@@ -1,0 +1,21 @@
+{
+  "id": "assombrado",
+  "name": "Assombrado",
+  "description": "Você é assombrado por um ser desagradável, como o fantasma de um ancestral, uma fada travessa ou um diabrete zombeteiro. Ele conta no seu limite de parceiros, mas não fornece nenhum benefício. Além disso, no início de cada cena envolvendo qualquer tipo de risco ou perigo, role um dado. Em um resultado ímpar, você fica alquebrado até o fim da cena.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "parceiro_sem_beneficio",
+      "descricao": "conta no limite de parceiros, mas não fornece nenhum benefício"
+    },
+    {
+      "type": "condicao_condicional",
+      "gatilho": "inicio_de_cena_de_risco_ou_perigo",
+      "dado": "1d",
+      "condicao": "resultado_impar",
+      "efeito": "fica_alquebrado_ate_o_fim_da_cena"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

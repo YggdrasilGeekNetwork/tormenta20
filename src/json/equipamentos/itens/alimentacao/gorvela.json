@@ -1,0 +1,16 @@
+{
+  "id": "gorvela",
+  "name": "Gorvelã",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 90,
+  "espacos": 0.5,
+  "livro": "herois_de_arton",
+  "ingredientes": ["gorad", "avela_de_norba"],
+  "custo_ingredientes": 70,
+  "cd_teste_oficio_cozinheiro": 30,
+  "efeito": {
+    "pm_temporarios": 5
+  },
+  "description": "Gorad com avelã de Norba. É uma sobremesa cara, mas deliciosa. Fornece +5 PM temporários."
+}

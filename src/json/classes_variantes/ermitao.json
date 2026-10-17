@@ -1,0 +1,69 @@
+{
+  "id": "ermitao",
+  "name": "Ermitão",
+  "base_class_id": "druida",
+  "description": "Um druida que leva a reclusão ao extremo, quase um animal em forma bípede, que toma conta de um local específico (bosque, montanha, vale) e só sai para se aventurar quando esse local ou a natureza em geral são ameaçados. Perícias: Sobrevivência (Sab) e Vontade (Sab), mais 2 a sua escolha entre Adestramento, Atletismo, Cavalgar, Conhecimento, Cura, Fortitude, Iniciativa, Intuição, Luta, Misticismo, Ofício, Percepção e Religião. Proficiências: nenhuma (diferente do druida básico, que é proficiente com escudos). Pontos de Vida: um ermitão começa com 12 pontos de vida + Constituição e ganha 3 PV + Constituição por nível (menor que o druida básico). Pontos de Mana e Magias: como o druida básico. Restrição: ao escolher Poder de Druida, você não pode escolher o poder Forma Selvagem nem poderes que o tenham como pré-requisito.",
+  "diffs": [
+    {
+      "nivel": 1,
+      "remove": ["empatia_selvagem"],
+      "adiciona": [
+        {
+          "id": "empatia_selvagem_ermitao",
+          "name": "Empatia Selvagem (Ermitão)",
+          "description": "Como a Empatia Selvagem do druida básico, mas você também pode se comunicar dessa forma com criaturas vegetais não inteligentes (Int -4 ou -5) e com espíritos."
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "remove": ["caminho_dos_ermos"],
+      "adiciona": []
+    },
+    {
+      "nivel": 3,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "sitio_sagrado",
+          "name": "Sítio Sagrado",
+          "description": "No 3º nível, você assume uma área erma com 5 km de raio como sítio sagrado: refúgio que concede Aliados da Natureza (criaturas não inteligentes têm atitude melhor dentro dele), um Terreno Associado (bônus de Sabedoria em Furtividade, Percepção, Misticismo, Religião e Sobrevivência nesse terreno, expandindo a cada 4 níveis a partir do 7º), Caminhos Sagrados (sem redução de deslocamento por terreno difícil natural e +10 na CD para ser rastreado) e conta como uma Base básica com metade do custo para aumentar de porte."
+        }
+      ]
+    },
+    {
+      "nivel": 5,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "vinculo_com_a_terra",
+          "name": "Vínculo com a Terra",
+          "description": "No 5º nível, quando estiver em um terreno de um dos tipos de seu sítio sagrado, suas magias custam -1 PM (cumulativo com outras reduções; -2 dentro do próprio sítio sagrado)."
+        }
+      ]
+    },
+    {
+      "nivel": 11,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "temperado_pelo_clima",
+          "name": "Temperado pelo Clima",
+          "description": "No 11º nível, você recebe RD 5 contra dano dos tipos correspondentes aos terrenos associados ao seu sítio sagrado (aquático: eletricidade, ártico: frio, colina: impacto, deserto: fogo, floresta: corte, montanha: perfuração, pântano: ácido, planície: luz, subterrâneo: trevas)."
+        }
+      ]
+    },
+    {
+      "nivel": 20,
+      "remove": ["forca_da_natureza"],
+      "adiciona": [
+        {
+          "id": "eixo_de_pedras",
+          "name": "Eixo de Pedras",
+          "description": "No 20º nível, você cria um eixo de pedras ritualísticas em seu sítio sagrado, podendo lançar nele magias com custo total em PM igual ao seu nível + Sabedoria, para descarregá-las depois como ação livre e sem custo enquanto estiver em um terreno associado, até o fim da aventura."
+        }
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

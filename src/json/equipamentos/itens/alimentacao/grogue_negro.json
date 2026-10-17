@@ -1,0 +1,16 @@
+{
+  "id": "grogue_negro",
+  "name": "Grogue Negro",
+  "type": "item",
+  "categoria": "alimentacao",
+  "subcategoria": "bebida",
+  "preco": 15,
+  "espacos": 0.5,
+  "alcoolica": true,
+  "cd_embriaguez": 15,
+  "efeito": {
+    "bonus_poder_audacia": 1
+  },
+  "description": "Rum misturado com especiarias. Seu nome não vem de sua coloração (tom dourado claro), mas de sua origem — a receita foi criada por piratas do Conclave, que atuam no Mar Negro. Quando você usa Audácia, o bônus fornecido pelo poder aumenta em +1. CD 15.",
+  "livro": "herois_de_arton"
+}

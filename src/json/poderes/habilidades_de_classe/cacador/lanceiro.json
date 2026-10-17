@@ -1,0 +1,33 @@
+{
+  "id": "lanceiro",
+  "name": "Lanceiro",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Você recebe +2 em testes de ataque e rolagens de dano com lanças (exceto lanças montadas e de justa). Além disso, se estiver empunhando uma dessas armas com as duas mãos, seu dano com ela aumenta em um passo e ela é considerada uma arma alongada.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": 2,
+      "applies_to": "lancas_exceto_montadas_e_de_justa"
+    },
+    {
+      "type": "damage_improvement",
+      "value": 2,
+      "applies_to": "lancas_exceto_montadas_e_de_justa"
+    },
+    {
+      "type": "damage_improvement",
+      "value": 1,
+      "unit": "passo",
+      "condition": "empunhando_com_duas_maos",
+      "applies_to": "lancas_exceto_montadas_e_de_justa"
+    },
+    {
+      "type": "special",
+      "value": "considerada_arma_alongada",
+      "condition": "empunhando_com_duas_maos"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

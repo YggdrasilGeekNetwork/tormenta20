@@ -1,0 +1,21 @@
+{
+  "id": "cantante",
+  "name": "Cantante",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma canta, ou entoa música. Você recebe +2 em Atuação enquanto a empunha. Você pode gastar 1 PM para que você e seus aliados em alcance curto recebam +1 em testes de ataque por 1 rodada (cumulativo com outros bônus de itens).",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Atuação",
+      "value": 2,
+      "condicao": "enquanto empunha a arma"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "efeito": "você e aliados em alcance curto recebem +1 em testes de ataque por 1 rodada (cumulativo com outros bônus de itens)"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,149 @@
+{
+  "id": "nomes_minotauro",
+  "name": "Nomes de Minotauro",
+  "description": "Tabela de sorteio de nomes de personagens da raça Minotauro (Tabela 1-24).",
+  "headers": [
+    "Faixa",
+    "Nome"
+  ],
+  "rows": [
+    {
+      "Faixa": "1-3",
+      "Nome": "Caius"
+    },
+    {
+      "Faixa": "4-6",
+      "Nome": "Lorcus"
+    },
+    {
+      "Faixa": "7-9",
+      "Nome": "Crassis"
+    },
+    {
+      "Faixa": "10-12",
+      "Nome": "Tissius"
+    },
+    {
+      "Faixa": "13-15",
+      "Nome": "Mantorio"
+    },
+    {
+      "Faixa": "16-18",
+      "Nome": "Astilus"
+    },
+    {
+      "Faixa": "19-21",
+      "Nome": "Khoskar"
+    },
+    {
+      "Faixa": "22-24",
+      "Nome": "Blarandus"
+    },
+    {
+      "Faixa": "25-27",
+      "Nome": "Taelio"
+    },
+    {
+      "Faixa": "28-30",
+      "Nome": "Cradus"
+    },
+    {
+      "Faixa": "31-33",
+      "Nome": "Zhabur"
+    },
+    {
+      "Faixa": "34-36",
+      "Nome": "Halssinos"
+    },
+    {
+      "Faixa": "37-39",
+      "Nome": "Ianaris"
+    },
+    {
+      "Faixa": "40-42",
+      "Nome": "Iosalis"
+    },
+    {
+      "Faixa": "43-45",
+      "Nome": "Tarkan"
+    },
+    {
+      "Faixa": "46-48",
+      "Nome": "Erius"
+    },
+    {
+      "Faixa": "49-51",
+      "Nome": "Eradorio"
+    },
+    {
+      "Faixa": "52-54",
+      "Nome": "Ocretio"
+    },
+    {
+      "Faixa": "55-57",
+      "Nome": "Maxandus"
+    },
+    {
+      "Faixa": "58-60",
+      "Nome": "Issius"
+    },
+    {
+      "Faixa": "61-63",
+      "Nome": "Lekariu"
+    },
+    {
+      "Faixa": "64-66",
+      "Nome": "Pallis"
+    },
+    {
+      "Faixa": "67-69",
+      "Nome": "Ghandor"
+    },
+    {
+      "Faixa": "70-72",
+      "Nome": "Quindalio"
+    },
+    {
+      "Faixa": "73-75",
+      "Nome": "Spurtius"
+    },
+    {
+      "Faixa": "76-78",
+      "Nome": "Pondus"
+    },
+    {
+      "Faixa": "79-81",
+      "Nome": "Sarius"
+    },
+    {
+      "Faixa": "82-84",
+      "Nome": "Tenalidis"
+    },
+    {
+      "Faixa": "85-87",
+      "Nome": "Lortamus"
+    },
+    {
+      "Faixa": "88-90",
+      "Nome": "Gaellio"
+    },
+    {
+      "Faixa": "91-93",
+      "Nome": "Daxidus"
+    },
+    {
+      "Faixa": "94-96",
+      "Nome": "Flanattus"
+    },
+    {
+      "Faixa": "97-99",
+      "Nome": "Maxxius"
+    },
+    {
+      "Faixa": "100",
+      "Nome": "Avenius"
+    }
+  ],
+  "dice": "1d100",
+  "livro": "herois_de_arton"
+}

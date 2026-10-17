@@ -1,0 +1,26 @@
+{
+  "id": "valentia_nata",
+  "name": "Valentia Nata",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Seu povo não tem medo. Nem juízo. Você recebe imunidade a medo e +5 em Iniciativa.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "hynne"
+    }
+  ],
+  "effects": [
+    {
+      "type": "immunity",
+      "value": "medo"
+    },
+    {
+      "type": "skill_improvement",
+      "value": 5,
+      "skill": "iniciativa"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

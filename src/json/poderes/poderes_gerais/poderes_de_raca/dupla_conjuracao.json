@@ -1,0 +1,53 @@
+{
+  "id": "dupla_conjuracao",
+  "name": "Dupla Conjuração",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Uma vez por rodada, quando lança uma magia usando uma ação padrão, você pode gastar 5 PM para lançar uma magia adicional (mas somente magias cuja execução seja ação de movimento ou padrão). Você precisa gesticular com duas mãos livres, em vez de uma, para isso.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "gnoll",
+        "kaijin",
+        "lefou",
+        "orc",
+        "trog"
+      ]
+    },
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "des",
+      "value": 2
+    },
+    {
+      "type": "class_feature",
+      "sub_type": "hard",
+      "id": "magias"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "dupla_inteligencia"
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_action",
+      "action": "lancar_magia_adicional",
+      "frequency": "uma_vez_por_rodada",
+      "trigger": "lancar_magia_com_acao_padrao",
+      "restriction": "magia_adicional_com_execucao_de_movimento_ou_padrao",
+      "note": "requer_gesticular_com_duas_maos_livres"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 5,
+      "type": "PM"
+    }
+  ]
+}

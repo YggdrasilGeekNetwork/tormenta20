@@ -1,0 +1,18 @@
+{
+  "id": "honra_de_ladrao",
+  "name": "Honra de Ladrão",
+  "description": "Você pode ser um bandido e salafrário, mas tem seus princípios. Você sempre cumpre suas promessas e nunca rouba ou tira vantagem de pessoas com menos recursos que você e seu grupo. O mestre tem a palavra final sobre o que é \"tirar vantagem\" de alguém. †",
+  "categoria": "ladino",
+  "effects": [
+    {
+      "type": "restricao_comportamental",
+      "descricao": "sempre cumpre suas promessas e nunca rouba ou tira vantagem de pessoas com menos recursos que você e seu grupo (o mestre decide o que conta como \"tirar vantagem\")"
+    },
+    {
+      "type": "comportamental",
+      "descricao": "se violar a complicação, perde todos os PM e só pode recuperá-los a partir do próximo dia"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,39 @@
+{
+  "id": "estilo_esoterico",
+  "name": "Estilo Esotérico",
+  "type": "poder_geral",
+  "sub_type": "poder_de_magia",
+  "description": "Uma vez por rodada, quando faz a ação agredir em corpo a corpo enquanto empunha um item esotérico, você pode gastar 2 PM para lançar uma magia como uma ação livre. A magia precisa ter execução original de movimento, padrão ou completa.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": [
+        "luta",
+        "misticismo"
+      ]
+    },
+    {
+      "type": "character_level",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "change_action_type",
+      "action": "lancar_magia",
+      "to": "livre",
+      "trigger": "acao_agredir_corpo_a_corpo_empunhando_item_esoterico",
+      "frequency": "uma_vez_por_rodada",
+      "restriction": "magia_com_execucao_original_de_movimento_padrao_ou_completa"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

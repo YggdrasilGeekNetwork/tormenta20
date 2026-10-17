@@ -1,0 +1,15 @@
+{
+  "id": "congelar_o_inferno",
+  "name": "Congelar o Inferno",
+  "type": "poder_distincao",
+  "description": "Quando surge um bandido realmente assustador, o tempo esfria, o sol empalidece, os animais fogem e até as pedras tremem de medo. Quando usa um efeito de medo, você pode gastar 2 PM para ignorar quaisquer imunidades a medo e efeitos mentais dos alvos.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "efeito": "ao usar um efeito de medo, ignora imunidades a medo e a efeitos mentais dos alvos"
+    }
+  ],
+  "requirements": ["Coração Duro", "dois outros poderes da distinção"],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "galokk",
+  "name": "Galokk",
+  "description": "Também chamados de meios-gigantes, os galokk são humanoides monstruosos criados por Megalokk, o Deus dos Monstros, opostos aos filhos de Valkaria por serem estagnados: não buscam, não evoluem, não ambicionam.",
+  "size": "grande",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "forca": 1, "constituicao": 1, "carisma": -1 },
+  "chosen_attribute_bonus": { "count": 1, "value": 1, "exclude": [] },
+  "skill_bonuses": [],
+  "racial_abilities": ["forca_dos_titas", "meio_gigante", "infancia_entre_os_pequenos"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devocao": ["allihanna", "arsenal", "megalokk"],
+  "livro": "herois_de_arton"
+}

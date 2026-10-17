@@ -1,0 +1,15 @@
+{
+  "id": "surrupiado",
+  "name": "Surrupiado",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item assume a aparência de algo que obviamente pertence a alguém muito importante. Se você estiver em Valkaria, ele brilha com o brasão pessoal da Rainha-Imperatriz, deixando “claro” que você o roubou do tesouro pessoal dela. Se está na casa de uma família de camponeses, parece o brinquedo de um de seus filhos, tirado cruelmente da pobre criança pelo aventureiro malvado. A aparência do item se altera a cada novo lugar e a única forma de evitar isso é não ter nenhum contato com nenhuma criatura viva (se estiver nos ermos, o item pode parecer o filhote de algum animal perigoso). Esconder o item exige um teste de Ladinagem para ocultar por cena.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "o item parece obviamente pertencer a alguém importante do local onde você está, mudando de aparência a cada novo lugar (evitável apenas sem contato com criaturas vivas); esconder o item exige um teste de Ladinagem para ocultar por cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

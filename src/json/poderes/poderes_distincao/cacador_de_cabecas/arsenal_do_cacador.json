@@ -1,0 +1,17 @@
+{
+  "id": "arsenal_do_cacador",
+  "name": "Arsenal do Caçador",
+  "type": "poder_distincao",
+  "description": "Além de furtividade, o caçador de cabeças emprega uma variedade de itens alquímicos. Você soma sua Sabedoria na CD e nas rolagens de dano (ou de perda de vida) dos preparados alquímicos e venenos que usa, e o alcance em que pode arremessá-los aumenta em uma categoria (de curto para médio e de médio para longo). Além disso, se o item exigir uma ação de movimento para ser preparado (como acender o pavio de uma bomba ou aplicar um veneno em sua arma), você pode fazer isso como uma ação livre.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "soma a Sabedoria na CD e nas rolagens de dano (ou de perda de vida) dos preparados alquímicos e venenos que usa; o alcance de arremesso aumenta em uma categoria (curto para médio, médio para longo); preparar um item que normalmente exige ação de movimento passa a exigir apenas uma ação livre"
+    }
+  ],
+  "requirements": [
+    "Predador Alfa",
+    "Saque Rápido"
+  ],
+  "livro": "herois_de_arton"
+}

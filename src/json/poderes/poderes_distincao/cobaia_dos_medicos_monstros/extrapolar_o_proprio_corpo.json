@@ -1,0 +1,14 @@
+{
+  "id": "extrapolar_o_proprio_corpo",
+  "name": "Extrapolar o Próprio Corpo",
+  "type": "poder_distincao",
+  "description": "Implantes convencionais extraídos de monstros não satisfazem mais a sede de alterações da cobaia. Escolha um poder racial (p. 84) cujos pré-requisitos você cumpra (ignorando requisitos de raça) e que seja aprovado pelo mestre. Você recebe um implante que fornece o benefício do poder escolhido.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "recebe um implante que concede o benefício de um poder racial escolhido (pré-requisitos de raça ignorados, demais pré-requisitos cumpridos e sujeito a aprovação do mestre)"
+    }
+  ],
+  "requirements": ["Implante Exclusivo"],
+  "livro": "herois_de_arton"
+}

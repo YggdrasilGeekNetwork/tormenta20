@@ -1,0 +1,32 @@
+{
+  "id": "canto_da_sereia",
+  "name": "Canto da Sereia",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Sua voz é melodiosa e encantadora, capaz de fascinar até as pessoas mais cruéis. Você recebe +2 em Atuação. Além disso, o alcance das magias adquiridas por sua Canção dos Mares aumenta em um passo (de curto para médio e de médio para longo) e a CD para resistir a elas aumenta em +2.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "sereia_tritao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "skill": "atuacao"
+    },
+    {
+      "type": "range_improvement",
+      "value": "1_passo",
+      "target": "magias_da_cancao_dos_mares"
+    },
+    {
+      "type": "expertise_improvement",
+      "value": 2,
+      "target": "cd_das_magias_da_cancao_dos_mares"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

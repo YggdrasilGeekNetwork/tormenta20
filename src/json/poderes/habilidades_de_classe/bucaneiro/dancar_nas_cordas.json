@@ -1,0 +1,24 @@
+{
+  "id": "dancar_nas_cordas",
+  "name": "Dançar nas Cordas",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Se você usar Ataque Acrobático tendo vencido um teste oposto para passar pelo espaço de um inimigo, os bônus fornecidos por esse poder aumentam para +5 e se aplicam a todos os seus ataques contra esse inimigo nessa rodada. Pré-requisito: Ataque Acrobático.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "ataque_acrobatico"
+    }
+  ],
+  "effects": [
+    {
+      "type": "bonus_upgrade",
+      "value": 5,
+      "applies_to": "ataque_acrobatico",
+      "condition": "vencer_teste_oposto_para_passar_por_inimigo",
+      "scope": "todos_os_ataques_contra_esse_inimigo_na_rodada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

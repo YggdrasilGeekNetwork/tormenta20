@@ -1,0 +1,14 @@
+{
+  "id": "gabinete_mistico",
+  "name": "Gabinete Místico",
+  "description": "Um escritório isolado dos demais cômodos, equipado com escrivaninhas e apetrechos para estudos arcanos. Os residentes recebem +1 em Misticismo.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "misticismo",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

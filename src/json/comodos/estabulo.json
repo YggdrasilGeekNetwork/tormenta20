@@ -1,0 +1,18 @@
+{
+  "id": "estabulo",
+  "name": "Estábulo",
+  "description": "Um local para abrigar animais com conforto e segurança. Cada parceiro animal ou monstro aumenta um bônus fornecido por ele em +1, a escolha do personagem. Se for uma montaria, em vez disso pode fornecer +3m em seu deslocamento.",
+  "effects": [
+    {
+      "type": "bonus_parceiro_animal",
+      "value": 1,
+      "alternativa_montaria": {
+        "type": "bonus_deslocamento",
+        "value": 3,
+        "unidade": "m"
+      }
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

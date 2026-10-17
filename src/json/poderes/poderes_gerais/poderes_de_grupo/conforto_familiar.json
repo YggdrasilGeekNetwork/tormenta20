@@ -1,0 +1,37 @@
+{
+  "id": "conforto_familiar",
+  "name": "Conforto Familiar",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Sabendo que podem contar uns com os outros, você e seu grupo conseguem relaxar e descansar melhor quando estão juntos. Independente das condições de descanso, sempre que você dorme perto de aliados com este poder (na mesma estalagem, no mesmo acampamento, na mesma ala do castelo...), para cada um desses aliados com este poder, você começa o dia seguinte com 3 PV e 1 PM temporários por patamar. Por exemplo, se você e outros dois personagens com este poder em patamar veterano dormirem juntos, os três começarão o dia seguinte com 18 PV e 6 PM temporários.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "resource_improvement",
+      "resource": "PV",
+      "value": "3_por_patamar_por_aliado_com_este_poder_presente",
+      "temporary": true,
+      "trigger": "dormir_perto_de_aliados_com_este_poder",
+      "ignores_rest_conditions": true
+    },
+    {
+      "type": "resource_improvement",
+      "resource": "PM",
+      "value": "1_por_patamar_por_aliado_com_este_poder_presente",
+      "temporary": true,
+      "trigger": "dormir_perto_de_aliados_com_este_poder",
+      "ignores_rest_conditions": true
+    }
+  ],
+  "livro": "herois_de_arton"
+}

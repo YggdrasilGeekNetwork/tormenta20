@@ -1,0 +1,15 @@
+{
+  "id": "pista_de_justa",
+  "name": "Pista de Justa",
+  "description": "Uma faixa de terra onde torneios de cavalaria são disputados. Permite recrutar cavaleiros.",
+  "categoria": "guerra",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "recruta_unidade",
+      "unidade": "cavaleiros"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

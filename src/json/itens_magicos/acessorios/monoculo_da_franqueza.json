@@ -1,0 +1,19 @@
+{
+  "id": "monoculo_da_franqueza",
+  "name": "Monóculo da Franqueza",
+  "categoria": "menor",
+  "preco": 4500,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta lente emoldurada em prata revela intenções e pensamentos ocultos. Observando alguém em alcance curto através do monóculo, o usuário recebe uma leitura superficial de sua mente, discernindo mentiras ou intenções escusas. Você recebe +10 em testes de Intuição para perceber mentiras.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Intuição",
+      "condicao": "para perceber mentiras",
+      "value": 10,
+      "requisito": "observar o alvo em alcance curto"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

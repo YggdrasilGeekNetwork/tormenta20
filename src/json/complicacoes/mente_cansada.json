@@ -1,0 +1,15 @@
+{
+  "id": "mente_cansada",
+  "name": "Mente Cansada",
+  "description": "Quanto mais magias você aprende, mais difícil fica lembrar de todas! Para cada círculo de magia que você pode lançar, o total de magias que pode memorizar diminui em 1. Pré-requisito: Mago.",
+  "categoria": "arcanista",
+  "effects": [
+    {
+      "type": "penalidade_magias_memorizadas",
+      "descricao": "para cada círculo de magia que pode lançar, o total de magias que pode memorizar diminui em 1",
+      "pre_requisito": "mago"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

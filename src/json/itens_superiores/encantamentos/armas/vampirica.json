@@ -1,0 +1,16 @@
+{
+  "id": "vampirica",
+  "name": "Vampírica",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "Quando ataca com esta arma, você pode gastar 1 PM. Se fizer isso, ela causa +2d6 pontos de dano de trevas e você recupera vida igual ao dano de trevas que esse efeito causar.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "gatilho": "ataca",
+      "efeito": "causa +2d6 de dano de trevas e você recupera vida igual ao dano de trevas causado"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

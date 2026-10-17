@@ -1,0 +1,15 @@
+{
+  "id": "ajudante",
+  "name": "Ajudante",
+  "type": "encantamento",
+  "categoria": "acessorio",
+  "aplica_se_a": "ferramenta",
+  "description": "A ferramenta realiza movimentos por vontade própria, auxiliando-o. O bônus em uma perícia fornecido pela ferramenta aumenta em +2.",
+  "effects": [
+    {
+      "type": "bonus_pericia_ferramenta",
+      "value": 2
+    }
+  ],
+  "livro": "herois_de_arton"
+}

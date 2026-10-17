@@ -1,0 +1,21 @@
+{
+  "id": "luta_ridicula",
+  "name": "Luta Ridícula",
+  "type": "poder_distincao",
+  "description": "É difícil levar a sério um inimigo que está caindo de bêbado. Quando passa em um teste para fintar contra uma criatura inteligente (Int –3 ou maior), além do normal, você faz essa criatura subestimá-lo por 1 rodada. Enquanto o está subestimando, a criatura não pode fazer ações hostis contra você, exceto a ação agredir — mas não pode fazer nenhum ataque adicional ao usá-la! Você pode beber um gole ao fintar para somar o número de poderes da distinção que possui no teste da finta.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "ao passar em teste de finta contra criatura com Int -3 ou maior, ela fica subestimando-o por 1 rodada: só pode usar a ação agredir contra você (sem ataques adicionais)"
+    },
+    {
+      "type": "ativado",
+      "efeito": "pode beber um gole ao fintar para somar o total de poderes da distinção no teste de finta"
+    }
+  ],
+  "requirements": [
+    "treinado em Enganação",
+    "Lógica Alcoólica"
+  ],
+  "livro": "herois_de_arton"
+}

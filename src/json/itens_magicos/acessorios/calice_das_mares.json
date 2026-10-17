@@ -1,0 +1,17 @@
+{
+  "id": "calice_das_mares",
+  "name": "Cálice das Marés",
+  "categoria": "medio",
+  "preco": 15000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este cálice de prata oferece ao portador o poder de comandar as águas. Você pode lançar Controlar Água (se já puder lançar essa magia, seu custo diminui em –1 PM).",
+  "effects": [
+    {
+      "type": "concede_magia",
+      "magia": "Controlar Água",
+      "condicao_se_ja_conhece": "custo diminui em -1 PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

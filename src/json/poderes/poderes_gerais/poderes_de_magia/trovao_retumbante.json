@@ -1,0 +1,36 @@
+{
+  "id": "trovao_retumbante",
+  "name": "Trovão Retumbante",
+  "type": "poder_geral",
+  "sub_type": "poder_de_magia",
+  "description": "A magia emite um estrondo poderoso. Um alvo que falhe no teste de resistência fica caído (apenas uma vez por cena) e surdo. Este aprimoramento só pode ser aplicado em magias que causam dano de eletricidade e permitem testes de resistência.",
+  "requirements": [
+    {
+      "type": "class_feature",
+      "sub_type": "hard",
+      "id": "magias"
+    }
+  ],
+  "effects": [
+    {
+      "type": "spell_enhancement",
+      "applies_to": "magias_de_dano_de_eletricidade_com_teste_de_resistencia",
+      "on_fail": [
+        {
+          "condition": "caido",
+          "frequency": "uma_vez_por_cena"
+        },
+        {
+          "condition": "surdo"
+        }
+      ]
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

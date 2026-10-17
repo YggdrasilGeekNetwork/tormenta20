@@ -1,0 +1,17 @@
+{
+  "id": "sentidos_do_tigre",
+  "name": "Sentidos do Tigre",
+  "type": "poder_distincao",
+  "description": "Aprimorados por anos de treinamento, os sentidos do campeão protegem-no de qualquer ameaça. Você soma sua Sabedoria na Defesa e em Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "soma a Sabedoria na Defesa e em Reflexos",
+      "restricao": "exige liberdade de movimentos; não pode ser usada com armadura pesada ou na condição imóvel"
+    }
+  ],
+  "requirements": [
+    "Golpe Concentrado"
+  ],
+  "livro": "herois_de_arton"
+}

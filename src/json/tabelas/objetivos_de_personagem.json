@@ -1,0 +1,309 @@
+{
+  "id": "objetivos_de_personagem",
+  "name": "Objetivos",
+  "description": "Tabela de sorteio de objetivos pessoais para personagens (Tabela 1-27). Não deve ser confundida com a regra opcional de Objetivos Heroicos (categorias amplas com benefício/penalidade/conclusão) — esta é uma lista de flavor para inspirar metas específicas de personagem.",
+  "headers": [
+    "Faixa",
+    "Objetivo"
+  ],
+  "rows": [
+    {
+      "Faixa": "1-2",
+      "Objetivo": "Encontrar seu irmão gêmeo, raptado quando criança."
+    },
+    {
+      "Faixa": "3-4",
+      "Objetivo": "Juntar ouro suficiente para reerguer um orfanato."
+    },
+    {
+      "Faixa": "5-6",
+      "Objetivo": "Ser um aventureiro famoso em três reinos diferentes."
+    },
+    {
+      "Faixa": "7-8",
+      "Objetivo": "Visitar todos os reinos de Arton."
+    },
+    {
+      "Faixa": "9-10",
+      "Objetivo": "Retomar a vila onde cresceu, agora dominada por malfeitores."
+    },
+    {
+      "Faixa": "11-12",
+      "Objetivo": "Descobrir de quem é a coroa que foi confiada à sua família há séculos."
+    },
+    {
+      "Faixa": "13-14",
+      "Objetivo": "Tornar-se guarda pessoal da Rainha-Imperatriz."
+    },
+    {
+      "Faixa": "15-16",
+      "Objetivo": "Ter o próprio navio e encontrar o Coração do Oceano."
+    },
+    {
+      "Faixa": "17-18",
+      "Objetivo": "Tomar a identidade de alguém sem ser descoberto."
+    },
+    {
+      "Faixa": "19-20",
+      "Objetivo": "Tornar-se nobre em dois reinos diferentes."
+    },
+    {
+      "Faixa": "21-22",
+      "Objetivo": "Levar o General Supremo à justiça."
+    },
+    {
+      "Faixa": "23-24",
+      "Objetivo": "Vencer Arsenal e se tornar o novo Deus da Guerra."
+    },
+    {
+      "Faixa": "25-26",
+      "Objetivo": "Escrever o livro de receitas mais completo de Arton."
+    },
+    {
+      "Faixa": "27-28",
+      "Objetivo": "Ter um filho, plantar uma árvore e matar um dragão."
+    },
+    {
+      "Faixa": "29-30",
+      "Objetivo": "Descobrir quem são seus pais verdadeiros."
+    },
+    {
+      "Faixa": "31-32",
+      "Objetivo": "Vingar a morte de seu bicho de estimação."
+    },
+    {
+      "Faixa": "33-34",
+      "Objetivo": "Conhecer três cidades de Doherimm."
+    },
+    {
+      "Faixa": "35-36",
+      "Objetivo": "Ter um(a) filho(a) e aventurar-se com ele."
+    },
+    {
+      "Faixa": "37-38",
+      "Objetivo": "Encontrar uma pessoa de coração puro e realizar um desejo dela."
+    },
+    {
+      "Faixa": "39-40",
+      "Objetivo": "Entrar em uma área de Tormenta e sair vivo."
+    },
+    {
+      "Faixa": "41-42",
+      "Objetivo": "Escrever um livro com os feitos do seu grupo."
+    },
+    {
+      "Faixa": "43-44",
+      "Objetivo": "Tornar famosa uma magia, invenção ou comida que carregue seu nome."
+    },
+    {
+      "Faixa": "45-46",
+      "Objetivo": "Roubar o tesouro de um Dragão-Real."
+    },
+    {
+      "Faixa": "47-48",
+      "Objetivo": "Montar uma lojinha em Vectora."
+    },
+    {
+      "Faixa": "49-50",
+      "Objetivo": "Mapear todo o continente de Arton."
+    },
+    {
+      "Faixa": "51-52",
+      "Objetivo": "Dançar com a Rainha das Fadas."
+    },
+    {
+      "Faixa": "53",
+      "Objetivo": "Encontrar dois artefatos."
+    },
+    {
+      "Faixa": "54",
+      "Objetivo": "Devolver a divindade de Tilliann."
+    },
+    {
+      "Faixa": "55",
+      "Objetivo": "Ganhar um beijo de Tenebra."
+    },
+    {
+      "Faixa": "56",
+      "Objetivo": "Tornar-se general e vencer uma grande batalha."
+    },
+    {
+      "Faixa": "57",
+      "Objetivo": "Debater teoria da magia com Talude."
+    },
+    {
+      "Faixa": "58",
+      "Objetivo": "Desmascarar o impostor que roubou o nome e o brasão de sua família."
+    },
+    {
+      "Faixa": "59",
+      "Objetivo": "Participar de uma cerimônia do chá com o Imperador Tekametsu."
+    },
+    {
+      "Faixa": "60",
+      "Objetivo": "Casar com seu amor de infância… Que se tornou um grande vilão!"
+    },
+    {
+      "Faixa": "61",
+      "Objetivo": "Reunir pelo menos três Rubis da Virtude."
+    },
+    {
+      "Faixa": "62",
+      "Objetivo": "Tornar-se duyshidakk."
+    },
+    {
+      "Faixa": "63",
+      "Objetivo": "Construir uma grande biblioteca."
+    },
+    {
+      "Faixa": "64",
+      "Objetivo": "Visitar o reino do deus do qual você é devoto. Em vida."
+    },
+    {
+      "Faixa": "65",
+      "Objetivo": "Tornar-se um deus menor."
+    },
+    {
+      "Faixa": "66",
+      "Objetivo": "Escapar de seu tio, que o jurou de morte."
+    },
+    {
+      "Faixa": "67",
+      "Objetivo": "Descobrir onde os tibares são cunhados."
+    },
+    {
+      "Faixa": "68",
+      "Objetivo": "Adotar a cultura de uma raça diferente da sua até ser aceito como um deles."
+    },
+    {
+      "Faixa": "69",
+      "Objetivo": "Enriquecer o suficiente para que Vectorius lhe peça um empréstimo."
+    },
+    {
+      "Faixa": "70",
+      "Objetivo": "Se morrer, voltar à vida como osteon."
+    },
+    {
+      "Faixa": "71",
+      "Objetivo": "Ter sua própria companhia mercenária."
+    },
+    {
+      "Faixa": "72",
+      "Objetivo": "Converter seu grupo em devotos do seu deus."
+    },
+    {
+      "Faixa": "73",
+      "Objetivo": "Viver entre as fadas por um tempo e voltar ileso."
+    },
+    {
+      "Faixa": "74",
+      "Objetivo": "Conseguir um item inteligente e virar amigo dele."
+    },
+    {
+      "Faixa": "75",
+      "Objetivo": "Criar uma nova raça de seres inteligentes."
+    },
+    {
+      "Faixa": "76",
+      "Objetivo": "Tornar-se membro da realeza (de qualquer reino)."
+    },
+    {
+      "Faixa": "77",
+      "Objetivo": "Criar cabras numa fazenda tranquila."
+    },
+    {
+      "Faixa": "78",
+      "Objetivo": "Vencer um grande torneio na Arena de Valkaria."
+    },
+    {
+      "Faixa": "79",
+      "Objetivo": "Conhecer todos os Campeões de Svalas."
+    },
+    {
+      "Faixa": "80",
+      "Objetivo": "Descobrir quem assassinou o Rei de Salistick."
+    },
+    {
+      "Faixa": "81",
+      "Objetivo": "Correr nu entre os animais em Arbória."
+    },
+    {
+      "Faixa": "82",
+      "Objetivo": "Tornar-se um Príncipe/Princesa Mercante das Repúblicas Livres de Sambúrdia."
+    },
+    {
+      "Faixa": "83",
+      "Objetivo": "Tornar-se o melhor caçador das Sanguinárias."
+    },
+    {
+      "Faixa": "84",
+      "Objetivo": "Ter seu próprio feudo em Trebuck."
+    },
+    {
+      "Faixa": "85",
+      "Objetivo": "Livrar-se de um item amaldiçoado, mas sem causar mal a ninguém."
+    },
+    {
+      "Faixa": "86",
+      "Objetivo": "Virar professor da Academia Arcana."
+    },
+    {
+      "Faixa": "87",
+      "Objetivo": "Descobrir o paradeiro do vilão Camaleão."
+    },
+    {
+      "Faixa": "88",
+      "Objetivo": "Participar de uma festa com Marah."
+    },
+    {
+      "Faixa": "89",
+      "Objetivo": "Nadar até as profundezas do oceano."
+    },
+    {
+      "Faixa": "90",
+      "Objetivo": "Cavalgar o deus Hippion."
+    },
+    {
+      "Faixa": "91",
+      "Objetivo": "Construir uma academia de aventureiros."
+    },
+    {
+      "Faixa": "92",
+      "Objetivo": "Vencer o Torneio Deus do Duelo."
+    },
+    {
+      "Faixa": "93",
+      "Objetivo": "Tornar-se um triúnviro do Império de Tauron."
+    },
+    {
+      "Faixa": "94",
+      "Objetivo": "Tornar-se Alto Comandante da Ordem da Luz."
+    },
+    {
+      "Faixa": "95",
+      "Objetivo": "Comprar uma mansão no bairro mais nobre de Valkaria."
+    },
+    {
+      "Faixa": "96",
+      "Objetivo": "Casar mesmo sendo devoto de Valkaria (desafiando-a se for necessário)."
+    },
+    {
+      "Faixa": "97",
+      "Objetivo": "Voltar ao passado longínquo e visitar a Cidade Dourada de Nhardmaran."
+    },
+    {
+      "Faixa": "98",
+      "Objetivo": "Tornar-se um divinauta."
+    },
+    {
+      "Faixa": "99",
+      "Objetivo": "Vencer uma aposta contra Nimb."
+    },
+    {
+      "Faixa": "100",
+      "Objetivo": "Tornar-se um deus maior."
+    }
+  ],
+  "dice": "1d100",
+  "livro": "herois_de_arton"
+}

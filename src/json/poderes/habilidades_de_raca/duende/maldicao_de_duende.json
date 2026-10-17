@@ -1,0 +1,24 @@
+{
+  "id": "maldicao_de_duende",
+  "name": "Maldição",
+  "type": "habilidade_de_raca",
+  "race": "duende",
+  "description": "Você pode gastar uma ação padrão e 3 PM para amaldiçoar uma criatura em alcance curto. A criatura faz um teste de resistência (Fortitude ou Vontade, escolhido ao adquirir este presente); se falhar, sofre o efeito da maldição (escolhido entre a lista abaixo, fixo desde a criação); se passar, fica imune por um dia. A maldição é permanente até você cancelá-la (ação livre) ou ser curada por Purificação com aprimoramento de +7 PM. Só pode manter uma maldição ativa por vez.",
+  "effects": {
+    "type": "active",
+    "acao": "padrão",
+    "cost": "3 PM",
+    "resistencia_escolhida_na_criacao": ["Fortitude", "Vontade"],
+    "efeito_escolhido_na_criacao": [
+      { "nome": "Apatia Profunda", "efeito": "alquebrada e frustrada" },
+      { "nome": "Coração de Geleia", "efeito": "abalada; repete o teste na primeira ação hostil de cada cena, falha = perde a ação" },
+      { "nome": "Envelhecimento Súbito", "efeito": "fraca e lenta" },
+      { "nome": "Loucura do Verão", "efeito": "repete o teste no início de cada cena; falha = confusa" },
+      { "nome": "Mil Verrugas", "efeito": "-2 em Carisma; criaturas que iniciem o turno em alcance curto pela primeira vez na cena testam Vontade ou pioram a atitude em uma categoria" },
+      { "nome": "Ruína do Corpo", "efeito": "fatigada e vulnerável" }
+    ],
+    "duracao": "permanente até cancelada (ação livre) ou curada (Purificação +7 PM)",
+    "limite": "apenas uma maldição ativa por vez"
+  },
+  "livro": "herois_de_arton"
+}

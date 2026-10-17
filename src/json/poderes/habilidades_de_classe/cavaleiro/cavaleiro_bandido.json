@@ -1,0 +1,35 @@
+{
+  "id": "cavaleiro_bandido",
+  "name": "Cavaleiro Bandido",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Você abandonou sua honra em favor de vitórias fáceis. Você perde as habilidades Código de Honra e Duelo, mas recebe Ataque Furtivo como se fosse um ladino do seu nível de cavaleiro. Pré-requisitos: Código de Honra, Duelo.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "codigo_de_honra"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "duelo"
+    }
+  ],
+  "effects": [
+    {
+      "type": "remove_feature",
+      "value": [
+        "codigo_de_honra",
+        "duelo"
+      ]
+    },
+    {
+      "type": "grant_feature",
+      "value": "ataque_furtivo",
+      "as_class": "ladino",
+      "using_level": "nivel_de_cavaleiro"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

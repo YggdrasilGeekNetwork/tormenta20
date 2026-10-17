@@ -1,0 +1,20 @@
+{
+  "id": "rapieira",
+  "name": "Rapieira",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 50,
+  "dano": "1d8",
+  "critico": "18",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [
+    "agil"
+  ],
+  "especial": null,
+  "description": "A lâmina fina e alongada desta espada de um gume a torna mais precisa, mas exige treinamento especial para ser manuseada de forma equilibrada. A rapieira é uma arma ágil.",
+  "livro": "herois_de_arton"
+}

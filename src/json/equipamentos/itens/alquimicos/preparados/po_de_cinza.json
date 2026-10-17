@@ -1,0 +1,16 @@
+{
+  "id": "po_de_cinza",
+  "name": "Pó de Cinza",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 5,
+  "espacos": 0.5,
+  "uso": "consumivel",
+  "efeito": {
+    "bonus_ladinagem_abrir_fechadura_sabotar": 5,
+    "cumulativo_com_itens": true
+  },
+  "description": "Pó mineral que serve como lubrificante para mecanismos. Gastar uma dose de pó de cinza fornece +5 em um teste de Ladinagem para abrir fechaduras ou sabotar (cumulativo com o bônus fornecido por outros itens).",
+  "livro": "herois_de_arton"
+}

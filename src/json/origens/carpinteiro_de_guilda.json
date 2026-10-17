@@ -1,0 +1,25 @@
+{
+  "id": "carpinteiro_de_guilda",
+  "name": "Carpinteiro de Guilda",
+  "description": "Você foi treinado em uma guilda especializada. Mais do que um mero faz-tudo em uma aldeia, você era um artesão versátil, responsável por construir e reparar desde simples mobílias até estruturas de madeira complexas, como pontes, navios e fortalezas. Seu dia começava com a escolha da melhor madeira, coletada nas redondezas ou proveniente das florestas mágicas de Tollon. Com serras, formões e martelos, você transformava troncos em criações duráveis e esteticamente belas. Entre fabricar um arco e flechas para um caçador e uma balestra para o navio de um bucaneiro, vez por outra você acabava envolvido com aventureiros. Até decidir se envolver ainda mais.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Instrumentos de Ofício (carpinteiro)"
+    },
+    {
+      "type": "fixed",
+      "text": "Uma arma de corte à sua escolha"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Ofício (artesão)"
+    ],
+    "powers": [
+      "Mãos de Carpinteiro"
+    ]
+  },
+  "unique_power": "maos_de_carpinteiro",
+  "livro": "herois_de_arton"
+}

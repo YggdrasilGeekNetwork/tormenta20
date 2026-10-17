@@ -1,0 +1,24 @@
+{
+  "id": "explorador_viajado",
+  "name": "Explorador Viajado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Você pode escolher dois tipos de terrenos extras para sua habilidade Explorador. Você pode escolher este poder mais vezes para tipos de terrenos adicionais. Pré-requisito: 5º nível de caçador.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_choice",
+      "value": 2,
+      "applies_to": "explorador",
+      "choice_type": "terreno",
+      "repeatable": true
+    }
+  ],
+  "livro": "herois_de_arton"
+}

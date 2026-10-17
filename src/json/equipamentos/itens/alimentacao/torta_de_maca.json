@@ -1,0 +1,16 @@
+{
+  "id": "torta_de_maca",
+  "name": "Torta de Maçã",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 2,
+  "espacos": 0.5,
+  "livro": "herois_de_arton",
+  "ingredientes": ["farinha", "fruta"],
+  "custo_ingredientes": 4,
+  "cd_teste_oficio_cozinheiro": 20,
+  "efeito": {
+    "resistencia_a_veneno": 5
+  },
+  "description": "Dizem que, após uma bruxa usar uma maçã envenenada para matar uma princesa, Thantalla-Dhaedelin, a Rainha das Fadas, decretou que maçãs nunca mais fariam mal a ninguém. Se a lenda é verdade ou se maçãs são simplesmente saudáveis, ninguém sabe dizer, mas comer este prato fornece resistência a veneno +5."
+}

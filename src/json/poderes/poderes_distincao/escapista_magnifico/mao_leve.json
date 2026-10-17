@@ -1,0 +1,15 @@
+{
+  "id": "mao_leve",
+  "name": "Mão Leve",
+  "type": "poder_distincao",
+  "description": "Um escapista afana até mesmo itens nas mãos de seus oponentes! Quando faz a manobra desarmar, você pode gastar 2 PM para substituir o teste de Luta por Ladinagem. Se vencer o teste de manobra e estiver com ao menos uma mão livre, pode ficar com o item na mão.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "efeito": "na manobra desarmar, substitui o teste de Luta por Ladinagem; se vencer com uma mão livre, fica com o item"
+    }
+  ],
+  "requirements": ["Não Há Ninguém Aqui"],
+  "livro": "herois_de_arton"
+}

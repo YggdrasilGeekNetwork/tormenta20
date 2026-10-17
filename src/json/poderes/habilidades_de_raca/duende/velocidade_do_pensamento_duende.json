@@ -1,0 +1,15 @@
+{
+  "id": "velocidade_do_pensamento_duende",
+  "name": "Velocidade do Pensamento",
+  "type": "habilidade_de_raca",
+  "race": "duende",
+  "description": "Em seu primeiro turno em cada cena, você pode gastar 2 PM para realizar uma ação padrão adicional. Se fizer isso, você pula seu turno na segunda rodada.",
+  "effects": {
+    "type": "active",
+    "cost": "2 PM",
+    "gatilho": "primeiro turno de cada cena",
+    "efeito": "uma ação padrão adicional",
+    "custo_adicional": "pula o turno na segunda rodada"
+  },
+  "livro": "herois_de_arton"
+}

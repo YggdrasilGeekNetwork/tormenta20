@@ -1,0 +1,20 @@
+{
+  "id": "estigio",
+  "name": "Estígio",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "Uma vez por cena, se for reduzido a 0 PV ou menos, você pode gastar 5 PM para, em vez disso, ser reduzido a 1 PV. Pré-requisito: abençoado.",
+  "prerequisitos": [
+    "abencado"
+  ],
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 5,
+      "frequencia": "uma_vez_por_cena",
+      "gatilho": "reduzido a 0 PV ou menos",
+      "efeito": "é reduzido a 1 PV em vez disso"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

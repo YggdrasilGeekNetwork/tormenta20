@@ -1,0 +1,15 @@
+{
+  "id": "criar_armadilha_magica",
+  "name": "Criar Armadilha Mágica",
+  "type": "poder_distincao",
+  "description": "\"Não, sra. Elohim. Eu espero que você morra.\" Você aprende a magia Conjurar Armadilha (p. 252) como uma de suas magias arcanas. Se aprender essa magia novamente, seu custo diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "concede_magia",
+      "magia": "Conjurar Armadilha",
+      "escalavel": "aprender novamente reduz o custo em –1 PM"
+    }
+  ],
+  "requirements": ["Trapaça Arcana"],
+  "livro": "herois_de_arton"
+}

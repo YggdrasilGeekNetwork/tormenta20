@@ -1,0 +1,18 @@
+{
+  "id": "calabouco",
+  "name": "Calabouço",
+  "description": "Às vezes o grupo precisa trancafiar criminosos, inimigos ou pessoas inconvenientes longe dos olhos das autoridades — ou cumprindo o papel delas. Os residentes recebem +1 em Intimidação e na CD de seus efeitos de medo.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "intimidacao",
+      "value": 1
+    },
+    {
+      "type": "bonus_cd_efeito_medo",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

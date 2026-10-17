@@ -1,0 +1,27 @@
+{
+  "id": "naufrago",
+  "name": "Náufrago",
+  "description": "Você foi passageiro, tripulante ou capitão a bordo de uma embarcação — até que, durante uma longa viagem, ela naufragou. Teria sido uma tempestade, abordagem de piratas, ataque de elfos-do-mar, ou mesmo um kaiju? Você sobreviveu, mas acabou isolado em alguma terra remota. Praticamente sem recursos exceto por alguns detritos do naufrágio, precisou achar maneiras de obter sustento e abrigo, além de evitar predadores e bandos selvagens. Não foram tempos fáceis, mas você viveu o bastante para ser encontrado e resgatado. Graças aos deuses, aqueles aventureiros apareceram! Quem sabe, usando as habilidades que aprendeu, você também poderia ser um...?",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Arco curto"
+    },
+    {
+      "type": "fixed",
+      "text": "20 flechas"
+    },
+    {
+      "type": "fixed",
+      "text": "Uma bola (ou outro objeto simples) com uma cara pintada e nome de gente"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Sobrevivente do Naufrágio"
+    ]
+  },
+  "unique_power": "sobrevivente_do_naufragio",
+  "livro": "herois_de_arton"
+}

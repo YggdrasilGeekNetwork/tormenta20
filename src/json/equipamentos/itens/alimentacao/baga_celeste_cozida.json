@@ -1,0 +1,13 @@
+{
+  "id": "baga_celeste_cozida",
+  "name": "Baga Celeste Cozida",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 15,
+  "espacos": 0,
+  "efeito": {
+    "reducao_dano_de_queda": "-1d6"
+  },
+  "description": "Encontradas originalmente nas encostas invertidas de Vectora, estas bagas se espalharam por toda Arton. Preparadas adequadamente, fornecem qualidades místicas de flutuação. Todo dano de queda que você sofre é reduzido em –1d6.",
+  "livro": "herois_de_arton"
+}

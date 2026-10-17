@@ -1,0 +1,27 @@
+{
+  "id": "cavaleiro_sagrado",
+  "name": "Cavaleiro Sagrado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Você recebe um poder de paladino cujos pré-requisitos cumpra, usando seu nível de cavaleiro como nível de paladino. Pré-requisitos: treinado em Religião, devoto de uma divindade que aceite paladinos.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "religiao"
+    },
+    {
+      "type": "devoto",
+      "sub_type": "hard",
+      "value": "divindade_que_aceite_paladinos"
+    }
+  ],
+  "effects": [
+    {
+      "type": "grant_feature",
+      "value": "poder_de_paladino_a_escolha_cujos_pre_requisitos_cumpra",
+      "using_level": "nivel_de_cavaleiro_como_nivel_de_paladino"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

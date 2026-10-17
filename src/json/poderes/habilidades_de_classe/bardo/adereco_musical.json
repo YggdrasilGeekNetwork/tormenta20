@@ -1,0 +1,18 @@
+{
+  "id": "adereco_musical",
+  "name": "Adereço Musical",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Você pode gastar 10 minutos para acoplar (ou desacoplar) um item esotérico a um instrumento musical. Isso permite empunhar o esotérico com a mesma mão que empunha o instrumento e usar seu efeito em Acorde Místico, como se esse poder fosse uma magia. Cada instrumento musical só pode ter um esotérico acoplado.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "special",
+      "time": "10_minutos",
+      "effect": "acopla_item_esoterico_a_instrumento_musical",
+      "benefit": "usa_efeito_do_esoterico_em_acorde_mistico_como_se_fosse_magia",
+      "limit": "1_esoterico_por_instrumento"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

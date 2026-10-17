@@ -1,0 +1,36 @@
+{
+  "id": "golpe_no_joelho",
+  "name": "Golpe no Joelho",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Se você fizer um ataque corpo a corpo contra uma criatura maior que você enquanto ocupa o mesmo espaço que ela, o dano desse ataque aumenta em um passo e você recebe +2 na margem de ameaça.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "goblin",
+        "hynne",
+        "kobold"
+      ]
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "entre_as_pernas"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "1_passo",
+      "condition": "ataque_corpo_a_corpo_ocupando_espaco_de_criatura_maior"
+    },
+    {
+      "type": "threat_improvement",
+      "value": 2,
+      "condition": "ataque_corpo_a_corpo_ocupando_espaco_de_criatura_maior"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "sagna",
+  "name": "Sagna",
+  "type": "escudo",
+  "categoria": "pesado",
+  "preco": 20,
+  "bonus_defesa": 2,
+  "penalidade_armadura": -3,
+  "espacos": 2,
+  "especial": {
+    "uso_aquatico": {
+      "sem_penalidade_armadura_natacao": true,
+      "avanca_deslocamento_normal_ao_passar_teste": true,
+      "bonus_deslocamento_natacao_se_ja_possui": "+3m"
+    },
+    "pv": 10,
+    "rd": 5
+  },
+  "vestir_remover": "acao_movimento",
+  "ataque": {
+    "dano": "1d6",
+    "tipo_dano": "impacto",
+    "critico": "x2",
+    "requer_proficiencia_marcial": true,
+    "perde_bonus_defesa": true
+  },
+  "description": "Desenvolvido por devotos de Oceano e muito comum em regiões praianas, este grande escudo de madeira também pode ser usado para deslizar pelas ondas. Enquanto você o usa dessa forma, a penalidade de armadura deste escudo e de sua armadura para natação não são aplicadas. Além disso, quando passa em um teste para natação, você avança seu deslocamento normal (em vez de metade); se você já tiver deslocamento de natação, em vez disso ele aumenta em +3m. Um sagna pode ser usado para atacar como um escudo pesado.",
+  "livro": "herois_de_arton"
+}

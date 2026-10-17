@@ -1,0 +1,18 @@
+{
+  "id": "sala_de_guerra",
+  "name": "Sala de Guerra",
+  "description": "Uma sala com uma grande mesa e armários contendo mapas, miniaturas e instrumentos de medição, que podem ser usados para recriar e estudar batalhas históricas. Os residentes recebem +1 em Guerra e Iniciativa.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "guerra",
+      "value": 1
+    },
+    {
+      "type": "bonus_iniciativa",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

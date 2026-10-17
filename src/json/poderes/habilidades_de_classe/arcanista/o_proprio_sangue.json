@@ -1,0 +1,22 @@
+{
+  "id": "o_proprio_sangue",
+  "name": "O Próprio Sangue",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Se você aprender novamente como feiticeiro uma magia que já possa lançar por uma habilidade qualquer (como uma habilidade de raça ou um poder concedido), a CD para resistir a ela aumenta em +2. Pré-requisito: Feiticeiro.",
+  "requirements": [
+    {
+      "type": "caminho_do_arcanista",
+      "sub_type": "hard",
+      "id": "feiticeiro"
+    }
+  ],
+  "effects": [
+    {
+      "type": "dc_improvement",
+      "value": 2,
+      "condition": "reaprender_como_feiticeiro_magia_ja_conhecida_por_outra_habilidade"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

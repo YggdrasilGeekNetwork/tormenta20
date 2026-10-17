@@ -1,0 +1,10 @@
+{
+  "id": "movel",
+  "name": "Móvel",
+  "description": "A base é um veículo terrestre (deslocamento 12m) ou aquático (deslocamento de natação 12m), como uma carroça ou navio. Se for um veículo aquático, ela não pode submergir (a menos que tenha o cômodo cúpula protetora). Em ambos os casos, por estarem acostumados à estrada, os residentes recebem +1,5m em seu deslocamento — além da praticidade de poder mover a base para qualquer lugar.",
+  "effects": [
+    { "type": "bonus_deslocamento", "value": 1.5, "unidade": "m" },
+    { "type": "base_movel", "deslocamento_terrestre": 12, "deslocamento_natacao": 12 }
+  ],
+  "livro": "herois_de_arton"
+}

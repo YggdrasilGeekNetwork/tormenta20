@@ -1,0 +1,15 @@
+{
+  "id": "ignorante",
+  "name": "Ignorante",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item faz com que você esqueça, ao menos momentaneamente, como realizar qualquer tarefa, exceto as mais básicas. Sempre que você for fazer um teste (qualquer teste, incluindo ataques e testes de resistência), deve primeiro passar em um teste de Inteligência contra CD 10 + seu nível. Em caso de falha, não pode nem tentar o teste que ia fazer, sofrendo uma falha automática.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "antes de qualquer teste (incluindo ataques e testes de resistência), deve passar em um teste de Inteligência (CD 10 + nível); em caso de falha, sofre falha automática no teste original sem poder tentá-lo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

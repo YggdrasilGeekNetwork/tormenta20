@@ -1,0 +1,27 @@
+{
+  "id": "arquearia_elfica",
+  "name": "Arquearia Élfica",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Para você, todos os arcos são armas simples. Além disso, você recebe +2 nas rolagens de dano com arcos.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "elfo"
+    }
+  ],
+  "effects": [
+    {
+      "type": "weapon_type",
+      "value": "simples",
+      "weapon": "arcos"
+    },
+    {
+      "type": "damage_improvement",
+      "value": 2,
+      "weapon": "arcos"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

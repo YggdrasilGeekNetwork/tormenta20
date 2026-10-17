@@ -1,0 +1,14 @@
+{
+  "id": "povoado_afastado",
+  "name": "Povoado Afastado",
+  "description": "Esta pequena comunidade fica afastada do centro do domínio — longe o bastante para estar perto de outro tipo de terreno. Permite que você erga uma construção com pré-requisito de terreno diferente do seu.",
+  "categoria": "nobreza",
+  "custo": 4,
+  "effects": [
+    {
+      "type": "ignora_prerequisito_terreno"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

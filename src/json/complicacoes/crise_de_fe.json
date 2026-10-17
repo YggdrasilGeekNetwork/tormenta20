@@ -1,0 +1,23 @@
+{
+  "id": "crise_de_fe",
+  "name": "Crise de Fé",
+  "description": "Você segue um dos deuses do Panteão, mas no fundo se pergunta se isso é o certo a fazer. Você sofre –2 em Vontade e segue as Obrigações & Restrições de um deus, mas não recebe nenhum poder concedido por isso nem conta como devoto dessa divindade para cumprir pré-requisitos. Você não pode ser devoto de outro deus. †",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_pericia",
+      "pericia": "vontade",
+      "value": -2
+    },
+    {
+      "type": "restricao_devoto",
+      "descricao": "segue as Obrigações & Restrições de um deus, mas não recebe poder concedido nem conta como devoto para pré-requisitos; não pode ser devoto de outro deus"
+    },
+    {
+      "type": "comportamental",
+      "descricao": "se violar a complicação, perde todos os PM e só pode recuperá-los a partir do próximo dia"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "insistente",
+  "name": "Insistente",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico emite um pulsar constante e ritmado. Quando você lança uma magia que causa dano por mais de uma rodada (como Flecha Ácida), os efeitos que normalmente só se aplicariam quando a magia é lançada (como Arcano de Batalha) se aplicam também à segunda rodada.",
+  "effects": [
+    {
+      "type": "efeito_continuo",
+      "condicao": "magias de dano contínuo (ex.: Flecha Ácida)",
+      "efeito": "efeitos que só se aplicariam no lançamento da magia (ex.: Arcano de Batalha) também se aplicam na segunda rodada de dano"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,34 @@
+{
+  "id": "apontar_fraqueza",
+  "name": "Apontar Fraqueza",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Alguns membros do grupo são curandeiros, outros são diplomatas, outros são furtivos… E outros sabem bater onde dói. Vocês estão acostumados a seguir o exemplo deles — ainda bem que esses desgraçados estão do seu lado! Quando você faz um acerto crítico, cada aliado com este poder pode gastar 2 PM em seu primeiro ataque contra o mesmo alvo nessa rodada. Se acertar, o ataque é um crítico. Cada personagem só pode fazer um acerto crítico dessa forma por cena.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "critical_improvement",
+      "trigger": "voce_faz_acerto_critico",
+      "target": "aliados_com_este_poder",
+      "effect": "primeiro_ataque_contra_o_mesmo_alvo_na_rodada_se_acertar_e_critico",
+      "frequency": "uma_vez_por_cena_por_personagem"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

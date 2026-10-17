@@ -1,0 +1,40 @@
+{
+  "id": "erupcao_elemental",
+  "name": "Erupção Elemental",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Se você estiver em forma elemental, pode gastar uma ação de movimento e 2 PM. Se fizer isso, seu próximo ataque com uma arma natural realizado nessa cena afeta todas as criaturas em um cone de 6m (faça um único ataque corpo a corpo e compare o resultado com a Defesa de cada criatura na área) e causa dois dados de dano extras.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "forma_elemental"
+    },
+    {
+      "type": "fearute_actived",
+      "sub_type": "soft",
+      "feature": "forma_elemental"
+    }
+  ],
+  "effects": [
+    {
+      "type": "amount_targets",
+      "shape": "cone_6m",
+      "requirement": "proximo_ataque_com_arma_natural_nessa_cena"
+    },
+    {
+      "type": "damage_improvement",
+      "value": "2_dados_extras"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    },
+    {
+      "type": "acao_de_movimento"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

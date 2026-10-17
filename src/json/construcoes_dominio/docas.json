@@ -1,0 +1,17 @@
+{
+  "id": "docas",
+  "name": "Docas",
+  "description": "Aqui marujos se reúnem, contando histórias de aventuras. Sejam verdadeiras, exageradas ou mentirosas, alimentam a sede de façanhas de quem as escuta. Seu bônus de Audácia aumenta em +1 e pode ser usado em testes de ataque.",
+  "categoria": "nobreza",
+  "custo": 4,
+  "effects": [
+    {
+      "type": "altera_bonus",
+      "habilidade": "Audácia",
+      "value": 1,
+      "observacao": "pode ser usado em testes de ataque"
+    }
+  ],
+  "prerequisito": "porto",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "recuperacao_gutural",
+  "name": "Recuperação Gutural",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Quando usa um brado enquanto está em fúria, você recebe uma quantidade de PV temporários igual à metade do seu nível + sua Força. Pré-requisitos: Alma de Bronze, um poder de brado.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "alma_de_bronze"
+    },
+    {
+      "type": "feature_group",
+      "sub_type": "hard",
+      "group": "poder_de_brado",
+      "value": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "resource_gain",
+      "resource": "PV_temporario",
+      "value": "metade_do_nivel_mais_forca",
+      "trigger": "usar_brado_em_furia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

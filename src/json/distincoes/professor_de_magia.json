@@ -1,0 +1,10 @@
+{
+  "id": "professor_de_magia",
+  "name": "Professor de Magia",
+  "description": "Arcanista que dedica sua carreira ao ensino na Academia Arcana, multiplicando o poder de seus alunos e aliados.",
+  "admissao": "O candidato deve ter feito um curso completo na Academia Arcana ou, caso contrário, passar por provas que demonstrem saber arcano equivalente, incluindo teoria e conhecimento sobre como manipular e alterar magias já existentes. Deve então permanecer na Academia por seis meses sem se ausentar, assistindo a aulas avançadas sobre magia, história da instituição, ética do ensino arcano, devoção a Wynna, pedagogia mágica e todas as demais disciplinas ministradas (mesmo as não relacionadas à magia). Deve ser aprovado em provas de todas as disciplinas e então cumprir um estágio probatório, ministrando um semestre de aulas sobre uma disciplina de sua escolha para uma turma, sob supervisão de um professor sênior (alguns candidatos levam a turma consigo em aventuras, supervisionados à distância). Se todos os alunos forem aprovados — e sobreviverem — o candidato é formalmente admitido no corpo docente.",
+  "marca_nome": "Pena e Pergaminho",
+  "marca_descricao": "Wynna e Tanna-Toh sorriem para aqueles que se dedicam ao ensino. Você aprende e pode lançar uma magia de adivinhação, arcana ou divina, a sua escolha, de qualquer círculo a que tenha acesso.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

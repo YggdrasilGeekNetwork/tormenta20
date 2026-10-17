@@ -1,0 +1,22 @@
+{
+  "id": "laminas_fericas",
+  "name": "Lâminas Feéricas",
+  "type": "poder_distincao",
+  "description": "As tradicionais armas élficas são a base do treinamento de um cavaleiro feérico. Para você, espadas longas são armas ágeis. Além disso, quando usa uma espada longa ou um florete, você soma o círculo máximo de magias que pode lançar ao dano e aumenta sua margem de ameaça em +1 para cada dois poderes da distinção.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "espadas longas contam como armas ágeis para o cavaleiro feérico"
+    },
+    {
+      "type": "passivo",
+      "condicao": "usa uma espada longa ou um florete",
+      "efeito": "soma o círculo máximo de magias que pode lançar ao dano",
+      "escalavel": "margem de ameaça aumenta em +1 para cada dois poderes da distinção"
+    }
+  ],
+  "requirements": [
+    "Arte Élfica"
+  ],
+  "livro": "herois_de_arton"
+}

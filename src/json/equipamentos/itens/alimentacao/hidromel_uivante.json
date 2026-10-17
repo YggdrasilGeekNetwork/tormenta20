@@ -1,0 +1,16 @@
+{
+  "id": "hidromel_uivante",
+  "name": "Hidromel Uivante",
+  "type": "item",
+  "categoria": "alimentacao",
+  "subcategoria": "bebida",
+  "preco": 21,
+  "espacos": 0.5,
+  "alcoolica": true,
+  "cd_embriaguez": 20,
+  "efeito": {
+    "bonus_dano_corpo_a_corpo": 2
+  },
+  "description": "Fabricada nas montanhas geladas, esta bebida aquece e incita. Fornece +2 em rolagens de dano corpo a corpo. CD 20.",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "barragem_de_golpes",
+  "name": "Barragem de Golpes",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Quando um de vocês acerta, o golpe é duro. Quando dois acertam, é ainda mais. E quanto mais membros do grupo acertam, mais cada um castiga o oponente. Quando você causa dano em um inimigo, seus aliados com este poder recebem um bônus de +1 em rolagens de dano contra o mesmo alvo pela cena (limitado, para cada personagem, pelo nível dele). O bônus acaba se nenhum personagem com este poder causar dano ao inimigo em uma rodada.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "damage_improvement",
+      "value": 1,
+      "cumulative": true,
+      "trigger": "voce_causa_dano_em_um_inimigo",
+      "target": "aliados_com_este_poder_contra_o_mesmo_alvo",
+      "duration": "pela_cena",
+      "limit": "limitado_pelo_nivel_de_cada_personagem",
+      "reset_condition": "nenhum_personagem_com_este_poder_causa_dano_ao_inimigo_em_uma_rodada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

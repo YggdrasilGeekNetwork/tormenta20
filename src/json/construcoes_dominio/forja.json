@@ -1,0 +1,15 @@
+{
+  "id": "forja",
+  "name": "Forja",
+  "description": "Possuir uma forja garante que as armas de suas tropas estejam sempre afiadas. Seus capangas recebem +1 nas rolagens de dano.",
+  "categoria": "nobreza",
+  "custo": 6,
+  "effects": [
+    {
+      "type": "bonus_dano_capangas",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

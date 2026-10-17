@@ -1,0 +1,23 @@
+{
+  "id": "especializacao_em_magia",
+  "name": "Especialização em Magia",
+  "type": "poder_geral",
+  "sub_type": "poder_de_magia",
+  "description": "Escolha uma magia que possa lançar. A CD para resistir a essa magia aumenta em +2.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "foco_em_magia",
+      "note": "com_a_magia_escolhida"
+    }
+  ],
+  "effects": [
+    {
+      "type": "expertise_improvement",
+      "value": 2,
+      "target": "cd_da_magia_escolhida"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

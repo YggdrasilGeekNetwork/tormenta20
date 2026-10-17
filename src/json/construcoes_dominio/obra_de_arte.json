@@ -1,0 +1,16 @@
+{
+  "id": "obra_de_arte",
+  "name": "Obra de Arte",
+  "description": "Um quadro, escultura ou outra criação inspiradora. Fornece +1 em Vontade.",
+  "categoria": "nobreza",
+  "custo": 3,
+  "effects": [
+    {
+      "type": "bonus_resistencia",
+      "resistencia": "Vontade",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

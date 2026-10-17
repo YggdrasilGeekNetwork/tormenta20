@@ -1,0 +1,42 @@
+{
+  "id": "seducao_lasciva",
+  "name": "Sedução Lasciva",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Você pode seduzir pessoas com olhares, palavras, dança… Faça um teste de Enganação oposto pelo teste de Vontade de seu alvo. Se você vencer, o alvo fica enfeitiçado por 1 dia (se você falhar, não pode mais tentar com esse alvo nessa cena). Usar este poder gasta alguns minutos de interação e 3 PM.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "car",
+      "value": 1
+    },
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "enganacao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active_ability",
+      "test": {
+        "skill": "enganacao",
+        "opposed_by": "vontade"
+      },
+      "on_success": {
+        "condition": "enfeiticado",
+        "duration": "1_dia"
+      },
+      "on_fail": "nao_pode_tentar_de_novo_com_esse_alvo_nessa_cena",
+      "action": "alguns_minutos_de_interacao"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 3,
+      "type": "PM"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "egide",
+  "name": "Égide",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "O bônus na Defesa do item contra ataques à distância aumenta em +5. Além disso, uma vez por cena, quando sofre dano de um ataque à distância, você pode gastar 3 PM para ignorar esse dano.",
+  "effects": [
+    {
+      "type": "bonus_defesa",
+      "value": 5,
+      "condicao": "contra ataques à distância"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 3,
+      "frequencia": "uma_vez_por_cena",
+      "gatilho": "sofre dano de um ataque à distância",
+      "efeito": "ignora esse dano"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

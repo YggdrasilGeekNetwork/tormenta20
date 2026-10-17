@@ -1,0 +1,37 @@
+{
+  "id": "entre_as_pernas",
+  "name": "Entre as Pernas",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você pode ocupar o mesmo espaço de criaturas duas categorias de tamanho maiores que você (em vez de três). Enquanto estiver ocupando o mesmo espaço que uma criatura maior que você, ataques contra você têm 25% de chance de acertar a criatura maior (inclusive ataques feitos pela própria criatura!).",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "goblin",
+        "hynne",
+        "kobold"
+      ]
+    },
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "acrobacia"
+    }
+  ],
+  "effects": [
+    {
+      "type": "feature_improvement",
+      "feature": "ocupar_espaco_de_criatura_maior",
+      "value": "2_categorias_em_vez_de_3"
+    },
+    {
+      "type": "miss_chance",
+      "value": "25%",
+      "condition": "ocupando_espaco_de_criatura_maior",
+      "target": "criatura_maior_inclusive_ataques_dela"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

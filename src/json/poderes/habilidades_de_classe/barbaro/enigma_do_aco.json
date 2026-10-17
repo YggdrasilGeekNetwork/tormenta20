@@ -1,0 +1,27 @@
+{
+  "id": "enigma_do_aco",
+  "name": "Enigma do Aço",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Após tantas lutas e matanças, você descobriu que a verdadeira força não reside na arma, mas na mão de quem a empunha. Se estiver empunhando uma arma mundana, você recebe +5 em testes de ataque e causa dois dados extras de dano do mesmo tipo. Pré-requisito: 17º nível de bárbaro.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": 5,
+      "condition": "empunhando_arma_mundana"
+    },
+    {
+      "type": "extra_damage_die",
+      "value": 2,
+      "condition": "empunhando_arma_mundana"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

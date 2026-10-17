@@ -1,0 +1,31 @@
+{
+  "id": "escriba",
+  "name": "Escriba",
+  "description": "Seu antigo trabalho era copiar documentos para preservar textos religiosos, literários, científicos e legais — em Arton, escribas são essenciais para a disseminação de conhecimento e cultura, incentivados pela Igreja de Tanna-Toh. Trabalhando em um mosteiro, uma biblioteca ou na corte de um nobre, você transcrevia manuscritos com precisão e habilidade, além de embelezá-los com iluminuras e decorações. Você também tratava pergaminhos e papiros, corrigia erros e traduzia obras para diferentes línguas, mostrando atenção aos detalhes, paciência e profundo conhecimento de língua e caligrafia. Um dia, após ler muitas histórias de aventura, decidiu ser protagonista em vez de apenas um figurante.",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Instrumentos de escriba"
+    },
+    {
+      "type": "fixed",
+      "text": "Organizador de pergaminhos"
+    },
+    {
+      "type": "fixed",
+      "text": "Coleção de livros (à sua escolha)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Conhecimento",
+      "Ofício (escriba)"
+    ],
+    "powers": [
+      "Lendas e Histórias",
+      "Erudição do Escriba"
+    ]
+  },
+  "unique_power": "erudicao_do_escriba",
+  "livro": "herois_de_arton"
+}

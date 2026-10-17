@@ -1,0 +1,25 @@
+{
+  "id": "corda_da_resignacao",
+  "name": "Corda da Resignação",
+  "categoria": "menor",
+  "preco": 7500,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta corda feita de fibras mágicas possui um feitiço de aprisionamento. Quando é usada para amarrar alguém, a CD do teste de Acrobacia para escapar aumenta em +20. Além disso, uma vítima amarrada tem sua força de vontade drenada, e fica alquebrada e esmorecida.",
+  "effects": [
+    {
+      "type": "bonus_cd_escape",
+      "teste": "Acrobacia",
+      "value": 20
+    },
+    {
+      "type": "condicoes_aplicadas",
+      "condicoes": [
+        "alquebrado",
+        "esmorecido"
+      ],
+      "alvo": "vítima amarrada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "salao_de_baile",
+  "name": "Salão de Baile",
+  "description": "Um aposento amplo com um belo piso de madeira ou mármore, onde os personagens podem organizar festas elegantes. O costume de receber pessoas e se portar formalmente fornece aos residentes +1 em Nobreza.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "nobreza",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

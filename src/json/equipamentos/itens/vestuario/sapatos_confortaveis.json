@@ -1,0 +1,15 @@
+{
+  "id": "sapatos_confortaveis",
+  "name": "Sapatos Confortáveis",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 6,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "ignora_primeiro_teste_fortitude_marcha_forcada": true
+  },
+  "description": "Calçados apropriados para uso em jornadas longas, preservando os pés do usuário. Se estiver vestindo sapatos confortáveis, você ignora o primeiro teste de Fortitude para marcha forçada (Tormenta20, p.270). A critério do mestre, esse benefício pode se aplicar em outros testes de Fortitude para situações semelhantes.",
+  "livro": "herois_de_arton"
+}

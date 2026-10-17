@@ -1,0 +1,15 @@
+{
+  "id": "fogo_e_aco",
+  "name": "Fogo e Aço",
+  "type": "poder_distincao",
+  "description": "Armas servem à magia, magia serve às armas. Quando lança uma magia, você recebe um bônus em testes de ataque e rolagens de dano com armas igual ao círculo da magia lançada até o fim do seu próximo turno.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "lançar uma magia",
+      "efeito": "bônus em testes de ataque e rolagens de dano com armas igual ao círculo da magia, até o fim do próximo turno"
+    }
+  ],
+  "requirements": ["Estilo de Combate Arcano"],
+  "livro": "herois_de_arton"
+}

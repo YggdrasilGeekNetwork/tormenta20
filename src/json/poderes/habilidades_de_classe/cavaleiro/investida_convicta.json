@@ -1,0 +1,22 @@
+{
+  "id": "investida_convicta",
+  "name": "Investida Convicta",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Quando faz uma investida, você pode gastar 1 PM para somar seu Carisma nos testes de ataque e rolagens de dano dela.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "active",
+      "trigger": "fazer_investida",
+      "effect": "soma_carisma_no_teste_de_ataque_e_na_rolagem_de_dano_da_investida"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

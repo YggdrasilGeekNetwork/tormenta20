@@ -1,0 +1,28 @@
+{
+  "id": "canhao_portatil",
+  "name": "Canhão Portátil",
+  "type": "arma",
+  "proficiencia": "fogo",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "duas_maos",
+  "preco": 3000,
+  "dano": "4d10",
+  "critico": "19/x3",
+  "alcance": "curto",
+  "tipo_dano": "impacto",
+  "espacos": 2,
+  "municao": "bola_de_ferro",
+  "habilidades": [
+    "desbalanceada"
+  ],
+  "especial": {
+    "recarregar": "acao_completa",
+    "forca_minima": {
+      "valor": 4,
+      "efeito_se_menor": "é arrastado 3m para trás sempre que faz um ataque com esta arma"
+    }
+  },
+  "description": "Versão menor dos canhões utilizados em embarcações, possui uma grossa alça de couro que permite carregá-la ao lado do corpo. É uma arma desbalanceada. Além disso, se sua Força for menor que 4, sempre que faz um ataque com esta arma você é arrastado 3m para trás. Usa bolas de ferro como munição; recarregá-lo é uma ação completa.",
+  "livro": "herois_de_arton"
+}

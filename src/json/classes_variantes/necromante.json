@@ -1,0 +1,84 @@
+{
+  "id": "necromante",
+  "name": "Necromante",
+  "base_class_id": "arcanista",
+  "description": "N",
+  "diffs": [
+    {
+      "nivel": 1,
+      "remove": [
+        "caminho_do_arcanista"
+      ],
+      "adiciona": [
+        {
+          "id": "caminho_do_necromante",
+          "name": "Caminho do Necromante",
+          "description": "Você lança magias por meio de uma conexão com a morte. Você pode aprender magias de necromancia divinas como se fossem arcanas, mas não pode aprender magias de encantamento e pelo menos metade das magias que aprender devem ser de necromancia. Além disso, para lançar suas magias você precisa primeiro acessar sua conexão com a morte. Para isso, você deve gastar uma quantidade de PV igual ao círculo máximo de magias que deseja usar (limitado pelo círculo máximo a que tem acesso). Uma vez ativada, a conexão se mantém até o fim da cena. Seu atributo-chave para magias é Inteligência."
+        },
+        {
+          "id": "falar_com_mortos",
+          "name": "Falar com Mortos",
+          "description": "Você pode se comunicar com mortos-vivos por meio de seus poderes arcanos. Você pode usar Misticismo com mortos-vivos para mudar atitude e persuasão. A partir do 3º nível, você pode gastar uma ação padrão e 1 PM para conversar com um cadáver em alcance curto. Esta habilidade funciona como a magia Voz Divina, com o aprimoramento de conceder um pouco de vida a um cadáver."
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "animar_cadaver",
+          "name": "Animar Cadáver",
+          "description": "Você pode gastar uma ação completa e 3 PM para animar o cadáver de uma criatura Pequena, Média ou Grande em alcance curto. O cadáver se torna um parceiro iniciante de um tipo a sua escolha, adequado ao seu tamanho e anatomia, que não conta em seu limite de parceiros (mas você só pode ter um parceiro cadáver por vez). Quando sofre dano, você pode sacrificar o parceiro cadáver para reduzir esse dano à metade. Cadáveres sacrificados não podem ser reanimados. A partir do 7º nível, você pode gastar 6 PM para criar um parceiro veterano e, a partir do 11º nível, pode gastar 9 PM para criar um parceiro mestre."
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "necrologia",
+          "name": "Necrologia",
+          "description": "Você recebe +2 em Cura, Fortitude e na CD para resistir às suas magias de necromancia. A cada cinco níveis, esse bônus aumenta em +1 (+3 no 8º nível, +4 no 13º nível, +5 no 18º nível)."
+        }
+      ]
+    },
+    {
+      "nivel": 4,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "distorcao_necrotica",
+          "name": "Distorção Necrótica",
+          "description": "No 4º nível, escolha uma de suas magias conhecidas de 1º círculo que não seja de necromancia. A escola dessa magia muda para necromancia. Essa mudança não tem efeitos mecânicos (além da troca de escola), mas altera a aparência e natureza de seu efeito."
+        }
+      ]
+    },
+    {
+      "nivel": 5,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "necropotencia",
+          "name": "Necropotência",
+          "description": "No 5º nível, quando estabelece sua conexão com a morte, você pode gastar o dobro de PV. Se fizer isso, sempre que reduzir um ou mais inimigos vivos a 0 PV ou menos com uma magia de necromancia, você recebe 2 PM temporários. Você pode ganhar um máximo de PM temporários por cena igual ao seu nível. Esses pontos temporários desaparecem no fim da cena."
+        }
+      ]
+    },
+    {
+      "nivel": 20,
+      "remove": [
+        "alta_arcana"
+      ],
+      "adiciona": [
+        {
+          "id": "dominio_sobre_a_morte",
+          "name": "Domínio sobre a Morte",
+          "description": "No 20º nível, você domina as fronteiras da vida e da morte. O custo em PM de suas magias de necromancia é reduzido à metade (após aplicar aprimoramentos e quaisquer outros efeitos que reduzam custo). Além disso, quando você mata uma criatura viva com uma magia de necromancia, pode gastar 2 PM para erguer seu cadáver como um morto-vivo sob seu controle. Isso funciona como a magia Servo Morto-Vivo, mas você escolhe o tipo de parceiro entre quaisquer aprimoramentos da magia e não precisa pagar seu componente material. Mortos-vivos erguidos dessa forma não contam em seu limite de parceiros durante a cena em que são criados (ao fim da cena, mortos-vivos excedentes, a sua escolha, voltam a ser apenas cadáveres)."
+        }
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

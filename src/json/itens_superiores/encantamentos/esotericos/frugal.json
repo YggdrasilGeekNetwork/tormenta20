@@ -1,0 +1,15 @@
+{
+  "id": "frugal",
+  "name": "Frugal",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico pode inibir seu poder, enfraquecendo suas magias, mas poupando suas energias no processo. Quando você lança uma magia que exige um teste de resistência e afeta um ou mais inimigos, pode diminuir a CD da magia em –2. Se fizer isso, o custo da magia também é diminuído em –2 PM.",
+  "effects": [
+    {
+      "type": "ativado",
+      "condicao": "magia com teste de resistência que afeta um ou mais inimigos",
+      "efeito": "diminui a CD da magia em –2 e o custo da magia em –2 PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

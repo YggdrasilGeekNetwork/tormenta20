@@ -1,0 +1,16 @@
+{
+  "id": "o_primeiro_desejo",
+  "name": "O Primeiro Desejo",
+  "type": "poder_distincao",
+  "description": "O poder dos gênios aflora diante de um desejo sincero. A redução de custo de suas magias lançadas com a habilidade Desejos muda para –2 PM.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "a redução de custo das magias lançadas com a habilidade Desejos muda para -2 PM"
+    }
+  ],
+  "requirements": [
+    "treinado em Intuição e Misticismo"
+  ],
+  "livro": "herois_de_arton"
+}

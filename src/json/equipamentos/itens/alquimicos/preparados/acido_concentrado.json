@@ -1,0 +1,26 @@
+{
+  "id": "acido_concentrado",
+  "name": "Ácido Concentrado",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 60,
+  "espacos": 0.5,
+  "uso": "empunhado",
+  "acao": "padrao",
+  "alcance": "curto",
+  "ataque": "toque_a_distancia",
+  "efeito": {
+    "dano": "4d8",
+    "tipo_dano": "acido",
+    "condicao": "vulneravel",
+    "duracao": "ate o fim da cena",
+    "resistencia": {
+      "teste": "Reflexos",
+      "cd": "Des",
+      "efeito": "reduz a metade e evita a condicao"
+    }
+  },
+  "description": "Como ácido, mas o alvo sofre 4d8 pontos de dano de ácido e fica vulnerável até o fim da cena (Reflexos CD Des reduz à metade e evita a condição).",
+  "livro": "herois_de_arton"
+}

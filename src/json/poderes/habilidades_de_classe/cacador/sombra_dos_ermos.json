@@ -1,0 +1,29 @@
+{
+  "id": "sombra_dos_ermos",
+  "name": "Sombra dos Ermos",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Você pode gastar uma ação de movimento e 1 PM para receber camuflagem leve com duração sustentada. Pré-requisito: Camuflagem.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "camuflagem"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "action": "movimento",
+      "effect": "recebe_camuflagem_leve",
+      "duration": "sustentada"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

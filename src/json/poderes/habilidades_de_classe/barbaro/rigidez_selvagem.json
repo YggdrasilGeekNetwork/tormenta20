@@ -1,0 +1,27 @@
+{
+  "id": "rigidez_selvagem",
+  "name": "Rigidez Selvagem",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Enquanto está em fúria, você soma o bônus da fúria na Defesa, em Fortitude e em RD.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "defense_improvement",
+      "value": "bonus_da_furia",
+      "condition": "em_furia"
+    },
+    {
+      "type": "saving_throw_improvement",
+      "value": "bonus_da_furia",
+      "save": "fortitude",
+      "condition": "em_furia"
+    },
+    {
+      "type": "damage_reduction_improvement",
+      "value": "bonus_da_furia",
+      "condition": "em_furia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

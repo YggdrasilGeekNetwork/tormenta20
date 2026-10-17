@@ -1,0 +1,38 @@
+{
+  "id": "arma_tradicional",
+  "name": "Arma Tradicional",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Quando faz um ataque com uma foice, você pode gastar 2 PM para lançar uma magia de ácido, eletricidade, fogo ou frio com execução de movimento, padrão ou completa como ação livre. Considere que a mão da arma está livre para lançar essa magia.",
+  "requirements": [
+    {
+      "type": "devotee_of_divinity",
+      "sub_type": "hard",
+      "divinity": "arton"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    },
+    {
+      "type": "weapon_type",
+      "sub_type": "soft",
+      "weapon": "foice"
+    }
+  ],
+  "effects": [
+    {
+      "type": "change_action_type",
+      "spell_type": "acido_eletricidade_fogo_ou_frio",
+      "action": "livre"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

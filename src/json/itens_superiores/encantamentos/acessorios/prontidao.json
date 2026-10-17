@@ -1,0 +1,20 @@
+{
+  "id": "prontidao",
+  "name": "Prontidão",
+  "type": "encantamento",
+  "categoria": "acessorio",
+  "aplica_se_a": "qualquer acessório",
+  "description": "O item surge em suas mãos no instante em que precisa ser utilizado. Desde que ele esteja em alcance curto, você pode empunhá-lo ou guardá-lo como uma ação livre. Além disso, se executar uma reação em que poderia usar o item, você pode empunhá-lo como parte dessa ação.",
+  "effects": [
+    {
+      "type": "empunhar_guardar",
+      "acao": "ação livre",
+      "condicao": "item em alcance curto"
+    },
+    {
+      "type": "empunhar_em_reacao",
+      "descricao": "pode empunhar o item como parte de uma reação em que poderia usá-lo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

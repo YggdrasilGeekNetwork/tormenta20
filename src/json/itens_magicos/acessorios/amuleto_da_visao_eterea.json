@@ -1,0 +1,22 @@
+{
+  "id": "amuleto_da_visao_eterea",
+  "name": "Amuleto da Visão Etérea",
+  "categoria": "menor",
+  "preco": 3000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este amuleto de cristal translúcido é preso a uma corrente de prata e brilha quando exposto à luz. Você recebe resistência a ilusões +5 e pode lançar Visão Mística. Caso já conheça essa magia, pode lançá-la como uma ação livre.",
+  "effects": [
+    {
+      "type": "resistencia",
+      "alvo": "ilusões",
+      "value": 5
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Visão Mística",
+      "condicao_se_ja_conhece": "pode lançá-la como ação livre"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

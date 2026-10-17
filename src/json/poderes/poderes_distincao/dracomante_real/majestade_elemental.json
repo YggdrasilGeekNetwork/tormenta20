@@ -1,0 +1,14 @@
+{
+  "id": "majestade_elemental",
+  "name": "Majestade Elemental",
+  "type": "poder_distincao",
+  "description": "Assim como a fúria de um Dragão-Real, o poder do dracomante não pode ser detido. Suas magias que causam dano do mesmo tipo da essência dracônica do seu mestre ignoram até 20 pontos de RD e, contra criaturas imunes, ainda causam metade do dano.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "magias do tipo da essência dracônica do mestre ignoram até 20 pontos de RD e causam metade do dano contra criaturas imunes"
+    }
+  ],
+  "requirements": ["lançar magias arcanas de 3º círculo", "Dracomancia"],
+  "livro": "herois_de_arton"
+}

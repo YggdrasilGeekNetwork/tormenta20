@@ -1,0 +1,36 @@
+{
+  "id": "citadino_abastado",
+  "name": "Citadino Abastado",
+  "description": "Você nasceu em uma família rica de comerciantes ou artesãos de uma grande cidade como Valkaria, Thartann ou Tiberus. Com acesso a boa educação, cresceu com preocupações diferentes de um aldeão ou trabalhador comum. Talvez tenha sido incentivado (ou forçado) por seus pais a honrar esses privilégios, treinando duro para ser alguém melhor — ou fez isso por iniciativa própria. Seja como for, esteve sempre apenas um degrau abaixo da nobreza, mas sendo lembrado o tempo todo de que não era um nobre verdadeiro. Agora você procura provar seu valor para sua família, para aqueles que o menosprezaram, para uma pessoa importante ou para si mesmo.",
+  "items": [
+    {
+      "type": "choice",
+      "text": "Item (até T$ 500)",
+      "options": [
+        {
+          "text": "Arma (até T$ 500)"
+        },
+        {
+          "text": "Armadura (até T$ 500)"
+        },
+        {
+          "text": "Ferramenta (até T$ 500)"
+        },
+        {
+          "text": "Vestuário (até T$ 500)"
+        }
+      ]
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Nobreza",
+      "Ofício"
+    ],
+    "powers": [
+      "Conexões da Cidade Grande"
+    ]
+  },
+  "unique_power": "conexoes_urbanas",
+  "livro": "herois_de_arton"
+}

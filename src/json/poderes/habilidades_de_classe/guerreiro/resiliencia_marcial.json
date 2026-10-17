@@ -1,0 +1,25 @@
+{
+  "id": "resiliencia_marcial",
+  "name": "Resiliência Marcial",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Sempre que sofrer dano letal, você recebe redução de dano 1 cumulativa (limitada pelo seu nível). Esse efeito dura até o fim da cena ou até você recuperar pontos de vida de qualquer forma.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 4
+    }
+  ],
+  "effects": [
+    {
+      "type": "RD_bonus",
+      "value": 1,
+      "cumulative": true,
+      "limit": "nivel_do_personagem",
+      "duration": "cena_ou_ate_recuperar_pv"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

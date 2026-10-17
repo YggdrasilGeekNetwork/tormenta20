@@ -1,0 +1,16 @@
+{
+  "id": "implante_exclusivo",
+  "name": "Implante Exclusivo",
+  "type": "poder_distincao",
+  "description": "Uma cobaia tem acesso a serviços exclusivos, reservados apenas aos melhores clientes do Grêmio. Escolha um encanto de armas sem nenhum pré-requisito. Você pode gastar uma ação de movimento e 1 PM para colocar esse encanto em uma arma que esteja empunhando. Ele não conta no limite de encantos da arma, e termina se você soltar o item ou no fim da cena.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 1,
+      "efeito": "aplica um encanto de armas escolhido (sem pré-requisitos) a uma arma empunhada, sem contar no limite de encantos; termina ao soltar a arma ou no fim da cena"
+    }
+  ],
+  "requirements": ["Enxerto Experimental"],
+  "livro": "herois_de_arton"
+}

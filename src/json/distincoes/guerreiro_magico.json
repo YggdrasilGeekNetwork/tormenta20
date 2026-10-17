@@ -1,0 +1,10 @@
+{
+  "id": "guerreiro_magico",
+  "name": "Guerreiro Mágico",
+  "description": "Arcanistas disciplinados que unem magia e treinamento marcial, canalizando feitiços diretamente através de suas armas e armaduras.",
+  "admissao": "O candidato deve primeiro ser, separadamente, um arcanista experiente e um guerreiro capaz — não basta ter adquirido capacidades híbridas como as de um bardo. Deve encontrar uma instituição de ensino que forme guerreiros mágicos (a Academia Arcana, Wynlla ou Ubani) e cumprir seus processos seletivos. O curso básico dura em geral um mês, extremamente intenso, com provas tão difíceis que menos de um quarto dos alunos passa na primeira tentativa; quem falha deve repetir o mês quantas vezes forem necessárias até ser aprovado.",
+  "marca_nome": "Arma Arcana",
+  "marca_descricao": "Quando lança uma magia empunhando uma arma corpo a corpo, você recebe +2 na rolagem de dano da magia e pode usar a mão que empunha a arma para executar os gestos dela.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "impostor",
+  "name": "Impostor",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Graças a seu extremo charme e autoconfiança, você consegue convencer outras pessoas — e você mesmo! — de que tem certas habilidades que, na verdade, não possui. Uma vez por cena, quando faz um teste de perícia que exija no máximo uma ação completa para ser realizado, você pode gastar 2 PM para usar Enganação no lugar dessa perícia.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "car",
+      "value": 3
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "foco_em_pericia",
+      "skill": "enganacao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "switch_skill_attr",
+      "use_skill": "enganacao",
+      "instead_of": "qualquer_pericia_ate_acao_completa",
+      "frequency": "uma_vez_por_cena"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

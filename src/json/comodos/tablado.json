@@ -1,0 +1,14 @@
+{
+  "id": "tablado",
+  "name": "Tablado",
+  "description": "Um palco para ensaiar peças, músicas e outras manifestações artísticas. Os residentes recebem +1 em Atuação.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "atuacao",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

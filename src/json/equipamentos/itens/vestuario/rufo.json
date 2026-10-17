@@ -1,0 +1,16 @@
+{
+  "id": "rufo",
+  "name": "Rufo",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 25,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_diplomacia_com_traje_da_corte": 1,
+    "cumulativo_com_bonus_do_traje": true
+  },
+  "description": "Gola adornada e apertada ajustada ao redor do pescoço, dando a aparência de que o usuário está sufocando, mas aumentando muito sua elegância em certos círculos. Se você usar um traje da corte em conjunto com um rufo, o traje passa a fornecer +1 em Diplomacia (cumulativo com quaisquer bônus do próprio traje).",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "desastrado",
+  "name": "Desastrado",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item faz com que você se torne extremamente desajeitado, tropeçando nos próprios pés o tempo todo. Em combate, sempre que você se mover deve fazer um teste de Acrobacia (CD 10 + seu nível). Em caso de falha, você fica caído. Você pode se erguer como uma ação de movimento, mas se for se deslocar de novo na rodada seguinte, deve repetir o teste.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "em combate, sempre que se move deve passar em um teste de Acrobacia (CD 10 + nível) ou fica caído; erguer-se custa uma ação de movimento, mas repete o teste se for se deslocar de novo na rodada seguinte"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

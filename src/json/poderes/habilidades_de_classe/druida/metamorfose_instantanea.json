@@ -1,0 +1,34 @@
+{
+  "id": "metamorfose_instantanea",
+  "name": "Metamorfose Instantânea",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Uma vez por rodada, quando usa Forma Selvagem, você pode gastar +2 PM para usar essa habilidade como ação livre.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "forma_selvagem"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "change_action_type",
+      "action": "livre",
+      "requirement": "usar_forma_selvagem"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM",
+      "note": "adicional_ao_custo_de_forma_selvagem"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

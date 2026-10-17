@@ -1,0 +1,17 @@
+{
+  "id": "mascara_bucal",
+  "name": "Máscara Bucal",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 3,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "teste_percepcao_para_descrever_usuario": {
+      "cd": 25
+    }
+  },
+  "description": "Máscara que cobre nariz e boca do usuário, permitindo respirar mas escondendo boa parte das feições, deixando à mostra apenas olhos, testa e orelhas. Preferida de bandoleiros de estradas. Qualquer pessoa que veja um personagem usando uma máscara bucal deve passar em um teste de Percepção (CD 25) para ser capaz de descrevê-lo mais tarde.",
+  "livro": "herois_de_arton"
+}

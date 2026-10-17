@@ -1,0 +1,17 @@
+{
+  "id": "banquete_de_aventureiros",
+  "name": "Banquete de Aventureiros",
+  "type": "poder_distincao",
+  "description": "\"Comida faz mais do que sustentar — ela conecta. Memórias. Sentimentos. Pessoas. E, conectados, somos mais fortes.\" Uma vez por tempo entre aventuras, você pode gastar uma quantidade de ingredientes monstruosos igual ao número de poderes da distinção que possui para preparar um banquete para seu grupo. Os participantes desse banquete recebem, durante a próxima aventura, uma quantidade de dados de auxílio (d6) igual à quantidade de ingredientes gastos no banquete. Sempre que fizer um teste de perícia, você pode gastar 1 dado de auxílio e adicionar o resultado como bônus no teste. Se 3 ou mais ingredientes diferentes forem usados no banquete, os dados de auxílio tornam-se d8.",
+  "effects": [
+    {
+      "type": "ativado",
+      "limite": "uma vez por tempo entre aventuras",
+      "efeito": "gasta ingredientes monstruosos (igual ao total de poderes da distinção) para dar ao grupo dados de auxílio d6 (um por ingrediente gasto) usáveis na próxima aventura como bônus em testes de perícia; com 3+ ingredientes diferentes os dados viram d8"
+    }
+  ],
+  "requirements": [
+    "três poderes da distinção"
+  ],
+  "livro": "herois_de_arton"
+}

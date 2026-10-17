@@ -1,0 +1,50 @@
+{
+  "id": "glamour",
+  "name": "Glamour",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "O mais icônico dos poderes feéricos, glamour é uma ilusão tão poderosa que gera efeitos reais. Escolha três magias de 1º círculo, arcanas ou divinas. Você pode lançar essas magias (atributo-chave Carisma), com as seguintes mudanças: elas contam como magias de ilusão além de seus tipos normais; sempre que você lança uma magia de glamour que não pede testes de resistência, precisa rolar 1d6 — se rolar 1, a magia não funciona (mas você gasta os PM mesmo assim) e você não pode mais lançar magias de glamour até o fim da cena; sempre que você lança uma magia de glamour que permite testes de resistência de Fortitude ou Reflexos, os alvos podem substituir os testes originais por Vontade, e se um alvo passar no teste de resistência, você não pode mais lançar magias de glamour até o fim da cena. Se você aprender uma magia de glamour novamente, pode lançá-la como uma magia normal ou de glamour — nesse caso, ela sofre as mudanças acima, mas seu custo diminui em –1 PM.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "duende",
+        "eiradaan",
+        "silfide"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "receive_feature",
+      "feature": "escolhe_3_magias_de_1_circulo_arcanas_ou_divinas_lancaveis_com_carisma"
+    },
+    {
+      "type": "spell_type_addition",
+      "add_type": "ilusao"
+    },
+    {
+      "type": "fail_chance",
+      "value": "1_em_1d6",
+      "condition": "magia_de_glamour_sem_teste_de_resistencia",
+      "on_fail": "magia_nao_funciona_mas_gasta_pm_e_nao_pode_lancar_glamour_ate_fim_da_cena"
+    },
+    {
+      "type": "switch_save_type",
+      "from": [
+        "fortitude",
+        "reflexos"
+      ],
+      "to": "vontade",
+      "condition": "magia_de_glamour_com_teste_de_resistencia",
+      "on_target_success": "nao_pode_lancar_glamour_ate_fim_da_cena"
+    },
+    {
+      "type": "PM_cost_reduction",
+      "reduction": -1,
+      "condition": "reaprender_magia_de_glamour"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "apetitoso",
+  "name": "Apetitoso",
+  "description": "Por algum motivo, feras salivam ao farejá-lo. Animais e monstros recebem +5 em testes de ataque e rolagens de dano contra você.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "bonus_inimigo",
+      "alvo": "animais_e_monstros",
+      "aplica_em": [
+        "teste_de_ataque",
+        "rolagem_de_dano"
+      ],
+      "value": 5
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

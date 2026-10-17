@@ -1,0 +1,14 @@
+{
+  "id": "camara_de_meditacao",
+  "name": "Câmara de Meditação",
+  "description": "Isolado do resto da base (talvez no sótão ou no porão), este aposento possui pouca mobília, provavelmente só um tapete e alguns incensários. Mas isso não é um problema, pois quem vem aqui está atrás apenas de si mesmo. Fornece aos residentes +1 em Vontade.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "vontade",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

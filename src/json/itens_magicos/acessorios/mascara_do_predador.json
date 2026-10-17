@@ -1,0 +1,29 @@
+{
+  "id": "mascara_do_predador",
+  "name": "Máscara do Predador",
+  "categoria": "medio",
+  "preco": 22500,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta máscara metálica rústica amplifica os sentidos do caçador, facilitando o rastreio de sua presa. Você recebe +5 em testes de Investigação para procurar e em testes de Sobrevivência para rastrear. Você também recebe a habilidade Marca da Presa do caçador. Se já a possui, o custo para usá-la diminui em –1 PM (essa redução não conta para suas habilidades baseadas no total de PM gastos em Marca da Presa).",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Investigação",
+      "condicao": "para procurar",
+      "value": 5
+    },
+    {
+      "type": "bonus_pericia",
+      "pericia": "Sobrevivência",
+      "condicao": "para rastrear",
+      "value": 5
+    },
+    {
+      "type": "concede_habilidade",
+      "habilidade": "Marca da Presa (caçador)",
+      "condicao_se_ja_possui": "custo diminui em -1 PM (não conta para habilidades baseadas no total de PM gastos em Marca da Presa)"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

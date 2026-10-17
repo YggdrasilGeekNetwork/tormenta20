@@ -1,0 +1,17 @@
+{
+  "id": "gema_da_profanacao",
+  "name": "Gema da Profanação",
+  "categoria": "maior",
+  "preco": 30000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta gema preciosa foi abençoada por uma ou mais divindades malignas do Panteão, tipicamente Aharadak, Arsenal, Kallyadranoch e outras que canalizam energia negativa. O custo de suas habilidades mágicas que causam dano de trevas diminui em –2 PM.",
+  "effects": [
+    {
+      "type": "reducao_custo_pm",
+      "condicao": "habilidades mágicas que causam dano de trevas",
+      "value": -2
+    }
+  ],
+  "livro": "herois_de_arton"
+}

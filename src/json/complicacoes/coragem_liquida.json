@@ -1,0 +1,18 @@
+{
+  "id": "coragem_liquida",
+  "name": "Coragem Líquida",
+  "description": "No início do seu turno, em cenas envolvendo qualquer risco ou perigo, role 1d4. Em um resultado 1, você precisa gastar uma ação de movimento para tomar um gole de bebida. Se não puder, fica pasmo pela rodada (mesmo se for imune a isso). Hic!",
+  "categoria": "bucaneiro",
+  "effects": [
+    {
+      "type": "restricao_condicional",
+      "gatilho": "inicio_de_turno_em_cena_de_risco_ou_perigo",
+      "dado": "1d4",
+      "condicao_valor": 1,
+      "efeito": "precisa_gastar_acao_de_movimento_bebendo_ou_fica_pasmo_pela_rodada",
+      "ignora_imunidade": true
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

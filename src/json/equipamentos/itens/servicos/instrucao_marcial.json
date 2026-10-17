@@ -1,0 +1,14 @@
+{
+  "id": "instrucao_marcial",
+  "name": "Instrução Marcial",
+  "type": "servico",
+  "categoria": "servico",
+  "preco": 300,
+  "duracao": "ate o fim da aventura",
+  "efeito": {
+    "rolagem_inicial": "1d4 (dado de auxilio)",
+    "uso": "ao fazer um teste de ataque, gaste o dado de auxílio e adicione o resultado como bônus no teste (cumulativo com bônus de outros itens)"
+  },
+  "description": "Algumas horas de treino com um mestre de armas custam caro, mas afiam as habilidades de qualquer um. Role 1d4; você recebe o resultado dessa rolagem em d4 de auxílio. Até o fim da aventura, quando faz um teste de ataque, você pode gastar 1d4 e adicionar o resultado como bônus no teste (cumulativo com bônus de outros itens).",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "arco_das_sombras",
+  "name": "Arco das Sombras",
+  "base_weapon": "arco_curto",
+  "preco": 27000,
+  "description": "Feito de madeira negra e fosca, que dizem provir do Reino de Tenebra, este arco curto sombrio parece absorver a luz ao redor. Quando ataca com esta arma, você pode gastar 2 PM. Se fizer isso e acertar o ataque, o alvo fica cego por 1 rodada (Fort CD Des evita).",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "ataca com a arma",
+      "efeito": "se acertar o ataque, o alvo fica cego por 1 rodada",
+      "resistencia": "Fortitude CD Des evita"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

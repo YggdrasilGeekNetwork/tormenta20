@@ -1,0 +1,18 @@
+{
+  "id": "caixa_dos_ecos_perdidos",
+  "name": "Caixa dos Ecos Perdidos",
+  "categoria": "medio",
+  "preco": 10500,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Esta caixa de madeira pequena e simples não aparenta nada especial, sem adereços ou ornamentos. No entanto, quando é aberta, liberta ecos do passado: seus muitos compartimentos contêm partes de memórias antigas, diálogos e fatos históricos. Você pode gastar 3 PM para receber um bônus de +10 em um teste de perícia baseada em Inteligência que, a critério do mestre, se relacione a um evento passado.",
+  "effects": [
+    {
+      "type": "bonus_pericia_condicional",
+      "pericia": "baseada em Inteligência relacionada a evento passado",
+      "value": 10,
+      "custo_pm": 3
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "foco_em_habilidade",
+  "name": "Foco em Habilidade",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Escolha uma habilidade. A CD para resistir a essa habilidade aumenta em +2. Você pode escolher este poder outras vezes para habilidades diferentes. Este poder não pode ser aplicado a magias (mas veja Foco em Magia e Especialização em Magia).",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "expertise_improvement",
+      "value": 2,
+      "target": "cd_para_resistir_a_habilidade_escolhida",
+      "repeatable": true,
+      "excludes": "magias"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

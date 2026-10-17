@@ -1,0 +1,17 @@
+{
+  "id": "irmao_campestre",
+  "name": "Irmão Campestre",
+  "type": "poder_distincao",
+  "description": "Nascido no lombo do cavalo, o ginete sabe contornar todos os problemas quando está junto de seu irmão. Quando faz um teste de perícia enquanto está montado em seu irmão cavalo, você pode gastar 1 PM para receber um bônus de +2 nesse teste. Para cada nível de parceiro da montaria acima de iniciante, você pode gastar +1 PM para aumentar esse bônus em +2.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "condicao": "montado no irmão cavalo",
+      "efeito": "+2 em um teste de perícia",
+      "escalavel": "+1 PM adicional por nível de parceiro da montaria acima de iniciante aumenta o bônus em +2"
+    }
+  ],
+  "requirements": ["Ginete", "ter um irmão cavalo"],
+  "livro": "herois_de_arton"
+}

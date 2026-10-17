@@ -1,0 +1,14 @@
+{
+  "id": "despensa",
+  "name": "Despensa",
+  "description": "Um cômodo para armazenar, de forma organizada, as provisões do grupo. O limite de carga dos residentes aumenta em 2 espaços.",
+  "effects": [
+    {
+      "type": "bonus_limite_carga",
+      "value": 2,
+      "unidade": "espacos"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

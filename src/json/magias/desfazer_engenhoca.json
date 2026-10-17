@@ -1,0 +1,65 @@
+{
+  "id": "desfazer_engenhoca",
+  "name": "Desfazer Engenhoca",
+  "type": "universal",
+  "circle": "2",
+  "school": "abjur",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "medio_30m_20q",
+  "target": {
+    "amount": 1,
+    "up_to": null,
+    "type": "criatura_ou_engenhoca"
+  },
+  "effect": "area_3m_ou_alvo",
+  "effect_details": {
+    "shape": "esfera",
+    "dimention": "raio",
+    "size": "3m",
+    "other_details": "área ou alvo: esfera com 3m de raio ou 1 criatura ou engenhoca"
+  },
+  "counterspell": null,
+  "duration": "instantânea",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Você desfaz os efeitos ativos de engenhocas, como se sua duração tivesse acabado (efeitos instantâneos não podem ser dissipados). Se lançar esta magia em uma criatura ou área, faça um teste de Misticismo; você dissipa os efeitos ativos de engenhocas com CD igual ou menor que o resultado do teste. Lançada diretamente contra uma engenhoca, aumenta a CD para ativá-la em +10 até o fim da cena. Lançada contra um construto, o teste é oposto à Vontade do alvo. Se você vencer, além do normal, o construto fica fraco e vulnerável (mesmo que seja imune a essas condições). A critério do mestre, esta magia pode afetar outras habilidades e itens similares a engenhocas.\nDizem que Desfazer Engenhoca foi ofertada aos mortais pela própria Wynna, ressentida em relação a inventos mundanos que imitam seus milagres mágicos. Por outro lado, alguns isentam a deusa, atribuindo sua criação a algum arcanista extremamente incomodado com esses inventores do diacho!",
+  "enhancements": [
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "além do normal, você recebe +5 no seu teste de Misticismo para dissipar uma engenhoca para cada vez que a viu ser usada na cena.",
+      "extra_details": null
+    },
+    {
+      "cost": 5,
+      "type": "muda",
+      "description": "além do normal, a magia ignora qualquer efeito ativo gerado por engenhocas (por exemplo, um Campo Antimagia).",
+      "extra_details": null
+    },
+    {
+      "cost": 12,
+      "type": "muda",
+      "description": "muda a área para esfera com 9m de raio. Em vez do normal, cria um efeito de disjunção. Todos os efeitos de engenhocas na área são automaticamente dissipados e todas as engenhocas na área, exceto aquelas que você estiver carregando, enguiçam por uma cena (o usuário de engenhocas carregadas tem direito a um teste de Vontade para evitar isso; engenhocas soltas são itens mundanos e por isso não têm direito a testes, como normal). Requer 5º círculo.",
+      "extra_details": {
+        "requirements": "5º círculo",
+        "effect_details": {
+          "shape": "esfera",
+          "dimention": "raio",
+          "size": "9m"
+        }
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "dissipar_magia",
+      "attribute": "engenhoca",
+      "amount": null,
+      "resistence_requirement": null,
+      "extra_requirements": "teste_de_misticismo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

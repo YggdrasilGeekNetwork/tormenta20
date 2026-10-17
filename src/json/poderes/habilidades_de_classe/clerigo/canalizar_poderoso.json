@@ -1,0 +1,27 @@
+{
+  "id": "canalizar_poderoso",
+  "name": "Canalizar Poderoso",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Os dados de seu Canalizar Energia mudam para d10. Pré-requisitos: Canalizar Amplo, 9° nível de clérigo.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "canalizar_amplo"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 9
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_die_improvement",
+      "value": "d10",
+      "applies_to": "canalizar_energia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

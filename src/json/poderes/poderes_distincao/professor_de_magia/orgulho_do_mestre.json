@@ -1,0 +1,17 @@
+{
+  "id": "orgulho_do_mestre",
+  "name": "Orgulho do Mestre",
+  "type": "poder_distincao",
+  "description": "Um verdadeiro professor vibra profundamente com as vitórias de seus alunos. Sempre que um inimigo falha em um teste de resistência contra uma magia de um aliado em alcance curto, se essa magia custou pelo menos 1 PM, você recebe 1 PM temporário cumulativo. Você pode ganhar um máximo de PM temporários por cena igual ao dobro do número de poderes da distinção que possui, e eles desaparecem no fim da cena.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "inimigo falha em teste de resistência contra magia de aliado em alcance curto que custou 1+ PM",
+      "efeito": "recebe 1 PM temporário cumulativo; máximo por cena igual ao dobro do total de poderes da distinção; desaparecem no fim da cena"
+    }
+  ],
+  "requirements": [
+    "Demonstrações Práticas"
+  ],
+  "livro": "herois_de_arton"
+}

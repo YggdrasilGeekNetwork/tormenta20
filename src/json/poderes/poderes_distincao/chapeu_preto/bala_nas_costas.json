@@ -1,0 +1,16 @@
+{
+  "id": "bala_nas_costas",
+  "name": "Bala nas Costas",
+  "type": "poder_distincao",
+  "description": "Se um chapéu-preto realmente hábil quiser matá-lo, você não ficará sabendo — já estará morto. Sempre que atacar um oponente pela primeira vez na cena, você pode gastar 1 PM para receber +10 na margem de ameaça desse ataque.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "condicao": "primeiro ataque contra um oponente na cena",
+      "efeito": "+10 na margem de ameaça desse ataque"
+    }
+  ],
+  "requirements": ["Coração Duro", "dois outros poderes da distinção"],
+  "livro": "herois_de_arton"
+}

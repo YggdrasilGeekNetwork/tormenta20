@@ -1,0 +1,44 @@
+{
+  "id": "itens_inteligentes",
+  "name": "Itens Inteligentes",
+  "description": "Itens mágicos inteligentes são itens mágicos que, através de um evento específico, adquiriram consciência e capacidade de raciocínio. Tornar-se inteligente não muda a categoria de poder do item (menor, médio, maior ou artefato). É um sistema gerador aplicado sobre um item mágico já existente, não um catálogo de itens nomeados — por isso não é modelado como uma nova tabela de conteúdo, e sim como esta regra + as tabelas de sorteio referenciadas.",
+  "criacao": {
+    "nivel_por_categoria": {
+      "menor": 9,
+      "medio": 13,
+      "maior": 17,
+      "artefato": 20
+    },
+    "atributos": "O item possui apenas atributos mentais (Inteligência, Sabedoria, Carisma) — Força, Destreza e Constituição são nulas. Role 3d6 três vezes (um para cada atributo mental) e converta pela Tabela 1-1 (Tormenta20, p.17). Depois, role 1d% na tabela 'capacidades_item_inteligente' e aplique os modificadores da coluna Atributos.",
+    "sentidos": "Itens inteligentes veem e ouvem como humanos. O resultado do d% na tabela 'capacidades_item_inteligente' pode adicionar visão no escuro ou percepção às cegas (curto/médio alcance).",
+    "comunicacao": "Rudimentar por padrão (empatia: transmite impulsos que incentivam ou não certas ações). O resultado do d% na tabela 'capacidades_item_inteligente' pode conceder fala (com o usuário) ou telepatia.",
+    "poderes_secundarios": "Role 1d% na tabela 'capacidades_item_inteligente' para saber quantos poderes menores e maiores o item possui, depois role 1d% em 'poderes_menores_item_inteligente' e/ou 'poderes_maiores_item_inteligente' para cada um. Se o mesmo poder for rolado mais de uma vez, ignore e role novamente.",
+    "poderes_secundarios_tipos": [
+      { "tipo": "treinamento_pericia", "descricao": "O item é treinado nas perícias indicadas. Faz testes usando seu próprio nível e atributo; a menos que esteja sendo empunhado para outra ação, pode fazer testes usando suas próprias ações." },
+      { "tipo": "magia", "descricao": "O item pode lançar as magias indicadas, usando seu próprio nível e atributo e gastando seus próprios PM. Gasta sua própria ação, a menos que esteja sendo empunhado para outra ação. O mestre define o atributo-chave (em geral Carisma)." }
+    ],
+    "pontos_de_mana": "Igual à soma do nível do item mais seus atributos mentais. Podem ser usados pelo item para ativar seus poderes, ou gastos pelo usuário para habilidades do próprio usuário (nesse caso, cada PM gasto pelo usuário custa 2 PM do item). Itens inteligentes precisam ficar inertes por 8 horas por dia para recuperar 1 PM por nível (não são afetados por condições de descanso)."
+  },
+  "ego": {
+    "descricao": "Mede a força de vontade do item e a probabilidade de ele influenciar (ou até dominar) seu usuário. Igual à soma dos pontos-base por categoria de item, mais os modificadores por atributo/poder/comunicação.",
+    "tabela_pontos_base": [
+      { "caracteristica": "Item menor", "pontos_de_ego": 5 },
+      { "caracteristica": "Item médio", "pontos_de_ego": 10 },
+      { "caracteristica": "Item maior", "pontos_de_ego": 15 },
+      { "caracteristica": "Artefato", "pontos_de_ego": 20 },
+      { "caracteristica": "Cada ponto de atributo", "pontos_de_ego": 1 },
+      { "caracteristica": "Cada poder menor", "pontos_de_ego": 1 },
+      { "caracteristica": "Cada poder maior", "pontos_de_ego": 2 },
+      { "caracteristica": "Comunicação por fala", "pontos_de_ego": 1 },
+      { "caracteristica": "Comunicação por telepatia", "pontos_de_ego": 2 }
+    ],
+    "exemplo": "Um item mágico maior (ego 15) com três poderes menores (+3), um poder maior (+2), Int 3, Sab 4, Car 0 (+7) e comunicação por fala (+1) tem ego 28.",
+    "teste_de_dominacao": "Sempre que o usuário tentar fazer algo contrário aos interesses do item, deve fazer um teste de Vontade (CD igual ao ego do item). Se falhar, não consegue fazer a ação e não pode tentar novamente por 1 dia. Se falhar por 10 ou mais, o item controla suas ações por 1 dia."
+  },
+  "tabelas_referenciadas": [
+    "capacidades_item_inteligente",
+    "poderes_menores_item_inteligente",
+    "poderes_maiores_item_inteligente"
+  ],
+  "livro": "herois_de_arton"
+}

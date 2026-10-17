@@ -1,0 +1,15 @@
+{
+  "id": "astrolabio",
+  "name": "Astrolábio",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 90,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "consultado",
+  "efeito": {
+    "substitui_sobrevivencia_por_conhecimento_para_orientar": true
+  },
+  "description": "Instrumento avançado de navegação que usa a posição relativa das estrelas para guiar seu usuário. Sua complexidade limita seu uso a pessoas com educação avançada. Você pode usar Conhecimento no lugar de Sobrevivência para orientar-se.",
+  "livro": "herois_de_arton"
+}

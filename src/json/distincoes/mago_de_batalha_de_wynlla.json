@@ -1,0 +1,10 @@
+{
+  "id": "mago_de_batalha_de_wynlla",
+  "name": "Mago de Batalha de Wynlla",
+  "description": "Combatentes de elite do exército de Wynlla, treinados no Centro de Treinamento Arcano Militar de Sophand para transformar magia em uma técnica marcial de destruição implacável.",
+  "admissao": "Apenas conjuradores de magia arcana podem tentar se tornar Magos de Batalha; a maioria dos candidatos é natural de Wynlla, e estrangeiros precisam de autorização especial e passam por um teste mais rigoroso. O candidato deve se apresentar no Centro de Treinamento Arcano Militar, em Sophand, apenas nas janelas em que o Centro aceita novos recrutas, e passar por uma peneira inicial — um dia inteiro de exercícios físicos, provas arcanas, lutas com armas, exames de conhecimento e testes de coragem e disciplina, que aprova cerca de um décimo dos candidatos. Os aprovados passam então seis meses reclusos no Centro em treinamento básico intensivo, do qual cerca de metade é eliminada (sem direito a nova tentativa); o restante se torna Mago de Batalha pleno, mas deve servir por dois anos no exército de Wynlla. Candidatos que desejem maior autonomia podem passar por um teste adicional com dilemas morais e duelos arcanos contra cinco instrutores, obtendo dispensa especial para se aventurar livremente durante esses dois anos.",
+  "marca_nome": "Armamento Esotérico",
+  "marca_descricao": "Nas mãos de um Mago de Batalha, qualquer item esotérico é uma arma. Quando você usa um item esotérico para lançar uma magia, a CD para resistir a ela aumenta em +1.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "trama_celere",
+  "name": "Trama Célere",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Uma vez por rodada, quando usa uma ação padrão para lançar uma magia, você pode gastar 2 PM para fazer uma conjuração dupla. Isso permite que você lance uma segunda magia de 1º círculo como ação livre, pagando seu custo em PM como normal. Pré-requisito: 9º nível de arcanista.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 9
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "frequency": "1_por_rodada",
+      "trigger": "lancar_magia_com_acao_padrao",
+      "effect": "lanca_segunda_magia_de_1_circulo_como_acao_livre_pagando_pm_normal"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

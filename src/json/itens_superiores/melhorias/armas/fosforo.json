@@ -1,0 +1,23 @@
+{
+  "id": "fosforo",
+  "name": "Fósforo",
+  "type": "melhoria",
+  "categoria": "arma",
+  "restricao": {
+    "tipo": "municao"
+  },
+  "prerequisitos": null,
+  "description": "Esta melhoria só pode ser aplicada em munições. A munição possui uma pequena carga de pó incandescente que a deixa mais leve (seu dano diminui em um passo). Entretanto, quando atinge o alvo, ela irrompe em um lampejo luminoso momentâneo que o deixa ofuscado por 1 rodada.",
+  "effects": [
+    {
+      "type": "reducao_dano",
+      "value": "1_passo"
+    },
+    {
+      "type": "condicao_ao_acertar",
+      "condicao": "ofuscado",
+      "duracao": "1_rodada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

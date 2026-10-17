@@ -1,0 +1,16 @@
+{
+  "id": "catedral",
+  "name": "Catedral",
+  "description": "Esta igreja grandiosa sedia grandes ritos. Uma vez por dia, os efeitos de uma de suas Missas são dobrados.",
+  "categoria": "religiao",
+  "custo": 20,
+  "effects": [
+    {
+      "type": "dobra_efeito_habilidade",
+      "habilidade": "Missa",
+      "frequencia": "uma_vez_por_dia"
+    }
+  ],
+  "prerequisito": "templo",
+  "livro": "herois_de_arton"
+}

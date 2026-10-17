@@ -1,0 +1,19 @@
+{
+  "id": "golpe_concentrado",
+  "name": "Golpe Concentrado",
+  "type": "poder_distincao",
+  "description": "A primeira técnica dominada pelo campeão é canalizar sua energia em seus golpes. Você pode gastar uma ação de movimento e 2 PM para se concentrar em seus golpes. Quando faz isso, até o fim da cena você recebe +1d8 em suas rolagens de dano desarmado.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 2,
+      "efeito": "até o fim da cena, recebe +1d8 em suas rolagens de dano desarmado"
+    }
+  ],
+  "requirements": [
+    "Sab 2",
+    "treinado em Briga"
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "chakram",
+  "name": "Chakram",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "distancia",
+  "subtipo_distancia": "arremesso",
+  "empunhadura": "uma_mao",
+  "preco": 15,
+  "dano": "1d6",
+  "critico": "x3",
+  "alcance": "curto",
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "retorno_ou_ricochete": {
+      "retornar": "pegá-lo é uma reação",
+      "ricochetear": "novo ataque à distância contra outro alvo, com penalidade cumulativa de -5",
+      "continua_ate": "recuperar o chakram ou errar um ataque"
+    }
+  },
+  "description": "Disco de metal com bordas afiadas, usado para arremesso. Sempre que acerta um ataque com o chakram, você pode fazer com que ele retorne à sua mão (pegá-lo é uma reação) ou ricocheteie contra outro alvo, fazendo um novo ataque à distância com penalidade cumulativa de –5. Você pode continuar atacando novos alvos até recuperar o chakram ou errar um ataque. Por seu desenho, exige treinamento especial, sendo uma arma exótica.",
+  "livro": "herois_de_arton"
+}

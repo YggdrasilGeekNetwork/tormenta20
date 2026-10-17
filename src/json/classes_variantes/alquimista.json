@@ -1,0 +1,119 @@
+{
+  "id": "alquimista",
+  "name": "Alquimista",
+  "base_class_id": "inventor",
+  "description": "Um inventor que busca mais do que criar objetos mundanos: cada preparado tem um componente místico, capaz de afetar a alma de quem o usa. Para o alquimista, o verdadeiro ofício é compreender como Arton está conectada a outras dimensões e imbuir seus preparados com essa compreensão transcendental. Perícias: como o inventor básico, mas seu Ofício inicial é alquimista. Proficiências: nenhuma.",
+  "diffs": [
+    {
+      "nivel": 1,
+      "remove": ["propotipo"],
+      "adiciona": [
+        {
+          "id": "laboratorio_pessoal",
+          "name": "Laboratório Pessoal",
+          "description": "Você começa o jogo com instrumentos de alquimista aprimorados e 10 itens alquímicos com preço total de até T$ 300."
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "remove": ["fabricar_item_superior"],
+      "adiciona": [
+        {
+          "id": "alquimista_iniciado",
+          "name": "Alquimista Iniciado",
+          "description": "No 2º nível, você recebe o poder Alquimista Iniciado: um livro de fórmulas que permite fabricar poções com fórmulas conhecidas de 1º e 2º círculos."
+        }
+      ]
+    },
+    {
+      "nivel": 3,
+      "remove": ["comerciante"],
+      "adiciona": [
+        {
+          "id": "mistura_basica",
+          "name": "Mistura Básica",
+          "description": "A partir do 3º nível, você pode usar catalisadores em itens alquímicos como se fossem magias."
+        }
+      ]
+    },
+    {
+      "nivel": 5,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "aplicacao_rapida",
+          "name": "Aplicação Rápida",
+          "description": "No 5º nível, você pode gastar uma ação completa e 2 PM para usar dois preparados alquímicos ao mesmo tempo. Você precisa ter ambos em suas mãos ou ser capaz de sacá-los como ação livre."
+        }
+      ]
+    },
+    {
+      "nivel": 7,
+      "remove": ["encontrar_fraqueza"],
+      "adiciona": [
+        {
+          "id": "magia_engarrafada",
+          "name": "Magia Engarrafada",
+          "description": "No 7º nível, você pode usar Mistura Básica e Aplicação Rápida em poções."
+        }
+      ]
+    },
+    {
+      "nivel": 8,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "odores_alquimicos",
+          "name": "Odores Alquímicos",
+          "description": "A partir do 8º nível, você pode gastar uma ação completa para detectar a presença de itens alquímicos e poções em alcance médio. No caso de itens alquímicos, você descobre seu tipo e uso geral. Para poções, você identifica qual magia ela emula e com quantos pontos de mana foi fabricada."
+        }
+      ]
+    },
+    {
+      "nivel": 9,
+      "remove": ["fabricar_item_magico"],
+      "adiciona": [
+        {
+          "id": "fabricar_emulsao",
+          "name": "Fabricar Emulsão",
+          "description": "No 9º nível, você aprende a fabricar emulsões com um encanto (óleos que concedem encantos temporários a um item). Nos níveis 13 e 17, você aprende a fabricar emulsões com respectivamente dois e três encantos."
+        }
+      ]
+    },
+    {
+      "nivel": 10,
+      "remove": ["olho_do_dragao"],
+      "adiciona": [
+        {
+          "id": "mestre_alquimista",
+          "name": "Mestre Alquimista",
+          "description": "No 10º nível, você recebe o poder Mestre Alquimista: pode fabricar poções com fórmulas que conheça de qualquer círculo."
+        }
+      ]
+    },
+    {
+      "nivel": 11,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "bombardeio_eficiente",
+          "name": "Bombardeio Eficiente",
+          "description": "A partir do 11º nível, quando usa um preparado alquímico ou uma poção que causa dano, você pode gastar 1 PM para que esse item ignore 10 pontos da redução de dano das criaturas atingidas."
+        }
+      ]
+    },
+    {
+      "nivel": 20,
+      "remove": ["obra_prima"],
+      "adiciona": [
+        {
+          "id": "pedra_filosofal",
+          "name": "Pedra Filosofal",
+          "description": "No 20º nível, você recebe uma pedra filosofal. Enquanto estiver de posse dela, você tem Cura Acelerada 10 e rola dois dados em testes de Fortitude (usa o melhor). Se você ou um aliado em alcance curto for reduzido a 0 PV ou morrer, pode sacrificar a pedra para conceder o efeito básico de Segunda Chance (reconstruindo o corpo do alvo, se necessário)."
+        }
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

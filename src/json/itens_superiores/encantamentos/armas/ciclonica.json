@@ -1,0 +1,22 @@
+{
+  "id": "ciclonica",
+  "name": "Ciclônica",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma cria fortes correntes de ar ao redor do portador. Você recebe +2 em testes contra manobras. Além disso, uma vez por rodada, pode gastar 1 PM para criar uma rajada de vento em um cone de 9m que empurra todas as criaturas 3m na direção oposta (Fort CD For ou Des evita).",
+  "effects": [
+    {
+      "type": "bonus_manobra",
+      "value": 2,
+      "aplica_a": "testes contra manobras"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "frequencia": "por_rodada",
+      "efeito": "cria uma rajada de vento em um cone de 9m que empurra todas as criaturas 3m na direção oposta",
+      "resistencia": "Fortitude CD For ou Des (à escolha) evita"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

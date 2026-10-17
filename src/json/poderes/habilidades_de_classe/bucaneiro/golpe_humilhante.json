@@ -1,0 +1,24 @@
+{
+  "id": "golpe_humilhante",
+  "name": "Golpe Humilhante",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Você pode gastar 2 PM para humilhar uma criatura em alcance curto. Até o fim da cena, sempre que você acertar um ataque nessa criatura, ela sofre uma penalidade de –1 na Defesa. A penalidade é cumulativa, limitada pelo seu Carisma e dura até o fim da cena.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "active",
+      "target": "criatura_em_alcance_curto",
+      "duration": "cena",
+      "effect": "penalidade_cumulativa_de_1_na_defesa_do_alvo_por_ataque_acertado",
+      "limited_by": "carisma"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

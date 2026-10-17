@@ -1,0 +1,19 @@
+{
+  "id": "analgesico",
+  "name": "Analgésico",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 60,
+  "espacos": 0.5,
+  "uso": "ingerido",
+  "acao": "padrao",
+  "efeito": {
+    "limite_pm_reducao_dano": "2d4",
+    "custo_por_uso": "1 PM",
+    "reducao_dano_por_uso": 5,
+    "duracao": "ate o fim da cena ou ate atingir o maximo de PM rolado"
+  },
+  "description": "Mais barato e menos eficiente que cura verdadeira, um analgésico apenas mascara os sintomas dos ferimentos, permitindo que um personagem continue lutando por pura força de vontade. Usar um analgésico é uma ação padrão. Ao usá-lo, role 2d4; esse é o máximo de pontos de mana que você poderá gastar com essa dose. Até o fim da cena, ou até atingir esse máximo de PM, sempre que sofrer dano você pode gastar 1 PM para reduzir esse dano em 5.",
+  "livro": "herois_de_arton"
+}

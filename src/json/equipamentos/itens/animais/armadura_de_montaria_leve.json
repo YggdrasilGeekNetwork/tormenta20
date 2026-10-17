@@ -1,0 +1,14 @@
+{
+  "id": "armadura_de_montaria_leve",
+  "name": "Armadura de Montaria Leve",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 600,
+  "espacos": 2,
+  "uso": "vestido_pela_montaria",
+  "efeito": {
+    "aumenta_bonus_numerico_fornecido_pela_montaria": "+1 se fixo, ou um passo se for um bônus rolado"
+  },
+  "description": "Esta armadura permite que a montaria se exponha mais e, consequentemente, auxilie seu cavaleiro com mais eficiência. Deve ser vestida pela montaria e aumenta um bônus numérico fornecido por ela em +1 (se for fixo) ou em um passo (se for um bônus rolado).",
+  "livro": "herois_de_arton"
+}

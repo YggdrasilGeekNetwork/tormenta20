@@ -1,0 +1,20 @@
+{
+  "id": "desleixado",
+  "name": "Desleixado",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item faz com que você sempre pareça sujo, descabelado, com roupas mal colocadas que não servem direito... Você sofre –5 em todas as perícias baseadas em Carisma. Além disso, sua entrada pode ser barrada em ambientes refinados ou que exijam um mínimo de asseio.",
+  "effects": [
+    {
+      "type": "penalidade_pericia",
+      "pericias": "todas as baseadas em Carisma",
+      "value": -5
+    },
+    {
+      "type": "desvantagem",
+      "efeito": "sua entrada pode ser barrada em ambientes refinados ou que exijam um mínimo de asseio"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

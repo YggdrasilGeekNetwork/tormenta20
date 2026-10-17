@@ -1,0 +1,17 @@
+{
+  "id": "aparelho_de_cha",
+  "name": "Aparelho de Chá",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 30,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "consultado",
+  "efeito": {
+    "bonus_diplomacia_enganacao": "1d4",
+    "frequencia": "uma_vez_por_cena",
+    "condicao": "com alguém que esteja tomando chá com você"
+  },
+  "description": "Conjunto de xícaras delicadas, pires e um bule. Qualquer um que se depare com um aparelho de chá fica automaticamente mais predisposto a conversar. Uma vez por cena, você recebe +1d4 em um teste de Diplomacia ou Enganação feito com alguém que esteja tomando chá com você.",
+  "livro": "herois_de_arton"
+}

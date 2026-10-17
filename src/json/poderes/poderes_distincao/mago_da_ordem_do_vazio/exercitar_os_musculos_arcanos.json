@@ -1,0 +1,15 @@
+{
+  "id": "exercitar_os_musculos_arcanos",
+  "name": "Exercitar os Músculos Arcanos",
+  "type": "poder_distincao",
+  "description": "\"A magia é uma arte que deve ser domada como uma fera.\" Você pode executar uma rápida série de exercícios mágicos, evocando o treinamento de seus fundamentos arcanos. O custo da sua próxima magia lançada nessa cena diminui em –1 PM (cumulativo com outras reduções de custo). A cada vez que usar este poder novamente na mesma cena, você fica fatigado (essa condição é cumulativa e o afeta mesmo que você seja imune a ela).",
+  "effects": [
+    {
+      "type": "ativado",
+      "efeito": "reduz em –1 PM o custo da próxima magia lançada na cena",
+      "custo_adicional": "usar novamente na mesma cena causa fatigado cumulativo, mesmo se imune"
+    }
+  ],
+  "requirements": ["Magia Experimental"],
+  "livro": "herois_de_arton"
+}

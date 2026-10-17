@@ -1,0 +1,17 @@
+{
+  "id": "tudo_que_ha_de_bom",
+  "name": "Tudo que Há de Bom",
+  "type": "poder_distincao",
+  "description": "\"Açúcar, tempero... O que mais está faltando?\" Você pode coletar e usar ingredientes monstruosos em seus pratos. Quando você fabrica um prato especial, pode adicionar 1 ingrediente monstruoso à receita, +1 ingrediente diferente para cada dois outros poderes da distinção que possui. Ingredientes Monstruosos: cauda de escorpião, musgo tóxico, larvas misteriosas do fundo de cavernas… Para um mestre cozinheiro, esses são insumos sofisticados — ingredientes monstruosos, que nenhum outro cozinheiro imaginaria usar. Quando usados em um prato especial, ingredientes monstruosos adicionam efeitos especiais aos benefícios fornecidos pelo prato. Os efeitos de ingredientes monstruosos diferentes são cumulativos. Ingredientes monstruosos podem ser adquiridos em ambientes habitados por monstros. Encontrar um ingrediente monstruoso exige 1 dia de trabalho e um teste de Ofício (cozinheiro) contra CD 20. Se passar, você encontra um ingrediente, +1 para cada 10 pontos que o teste exceder a CD. O mestre tem a palavra final sobre quais ingredientes podem ser encontrados em terrenos variados. Um ingrediente monstruoso ocupa 0,5 espaço. Tipos: Carne Monstruosa (carne de qualquer monstro; o prato fornece +5 PV temporários para cada poder da distinção que você possui); Ervas Aromáticas (o prato fornece +1d4 em um teste de Misticismo, Ofício, Percepção ou Vontade realizado até o fim do dia; a cada outro poder da distinção, esse dado de bônus aumenta em um passo); Especiarias Picantes (o prato fornece +1d4 em um teste de Acrobacia, Atletismo, Iniciativa ou Reflexos realizado até o fim do dia; a cada outro poder da distinção, esse dado de bônus aumenta em um passo); Núcleo de Temperatura (os bônus numéricos e em dados do prato aumentam em +1); Raízes Curativas (o prato fornece +1d4 em um teste de resistência; a cada outro poder da distinção, esse dado de bônus aumenta em um passo); Sal Azul (o prato fornece +1 PM temporário, aumentando em +1 PM para cada outro poder da distinção que você possui).",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "pode coletar e usar ingredientes monstruosos; ao fabricar um prato especial pode adicionar 1 ingrediente monstruoso à receita",
+      "escalavel": "+1 ingrediente diferente para cada dois outros poderes da distinção que possui"
+    }
+  ],
+  "requirements": [
+    "Foco em Perícia (Ofício [cozinheiro])"
+  ],
+  "livro": "herois_de_arton"
+}

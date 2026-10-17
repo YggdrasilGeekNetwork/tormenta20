@@ -1,0 +1,34 @@
+{
+  "id": "sede_sanguinaria",
+  "name": "Sede Sanguinária",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Enquanto está em fúria, quando faz um acerto crítico ou reduz um inimigo a 0 PV ou menos, você recupera 10 PV e 2 PM. Pré-requisitos: Sangue dos Inimigos, 5º nível de bárbaro.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "sangue_dos_inimigos"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "resource_gain",
+      "resource": "PV",
+      "value": 10,
+      "trigger": "acerto_critico_ou_reduzir_inimigo_a_0_pv_em_furia"
+    },
+    {
+      "type": "resource_gain",
+      "resource": "PM",
+      "value": 2,
+      "trigger": "acerto_critico_ou_reduzir_inimigo_a_0_pv_em_furia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

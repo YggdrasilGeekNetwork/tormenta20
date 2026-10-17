@@ -1,0 +1,18 @@
+{
+  "id": "armadura_sensual",
+  "name": "Armadura Sensual",
+  "type": "armadura",
+  "categoria": "leve",
+  "preco": 55,
+  "bonus_defesa": 1,
+  "penalidade_armadura": 0,
+  "espacos": 2,
+  "especial": {
+    "permite_poder_atraente": true,
+    "se_ja_possui_atraente": "o bônus fornecido por ele aumenta para +5",
+    "restricao_social": "a critério do mestre, pode ser considerada traje inapropriado em muitos lugares de Arton (bailes, reuniões diplomáticas, ruas), podendo o usuário ser barrado ou o bônus virar penalidade, exceto em combate"
+  },
+  "vestir_remover": "acao_completa",
+  "description": "Feita de pedaços minúsculos de cota de malha, pouquíssimas escamas ou tiras extremamente finas de metal. Não oferece muita proteção, mas permite usar o poder Atraente. Se você já tiver esse poder, em vez disso o bônus fornecido por ele aumenta para +5. Em muitos lugares de Arton, uma armadura sensual não é um traje apropriado para bailes, reuniões diplomáticas ou mesmo para andar na rua; o usuário pode ser barrado desses lugares ou o bônus da armadura pode ser transformado em penalidade, a critério do mestre. As únicas ocasiões em que esses bônus nunca são anulados são combates.",
+  "livro": "herois_de_arton"
+}

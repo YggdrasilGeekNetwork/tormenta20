@@ -1,0 +1,40 @@
+{
+  "id": "furia_aterrorizante",
+  "name": "Fúria Aterrorizante",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Quando você entra em fúria, inimigos em alcance curto ficam abalados até o fim da cena (Von CD Con reduz para 1 rodada).",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "galokk",
+        "ogro"
+      ]
+    },
+    {
+      "type": "class_feature",
+      "sub_type": "hard",
+      "id": [
+        "furia",
+        "furia_divina"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "condition_on_trigger",
+      "trigger": "entrar_em_furia",
+      "condition": "abalado",
+      "range": "curto",
+      "duration": "fim_da_cena",
+      "save": {
+        "skill": "vontade",
+        "cd": "con",
+        "reduces_to": "1_rodada"
+      }
+    }
+  ],
+  "livro": "herois_de_arton"
+}

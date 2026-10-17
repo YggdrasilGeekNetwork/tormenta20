@@ -1,0 +1,52 @@
+{
+  "id": "gavinhas",
+  "name": "Gavinhas",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Quando você usa Armadura de Allihanna, duas gavinhas crescem de suas costas. Cada gavinha é uma arma natural (dano 1d4 cada, crítico x2, impacto) com 3m de alcance e versátil, fornecendo +2 em testes para desarmar e derrubar. Uma vez por rodada, quando usa a ação agredir para atacar com uma arma, você pode gastar 1 PM por gavinha para fazer um ataque corpo a corpo extra com ela (desde que ela já não tenha sido usada na rodada).",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "dahllan"
+    },
+    {
+      "type": "character_level",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "natural_weapon_grant",
+      "weapon": "gavinhas",
+      "quantity": 2,
+      "damage": "1d4",
+      "critical": "x2",
+      "damage_type": "impacto",
+      "range": "3m",
+      "versatile": true,
+      "condition": "usando_armadura_de_allihanna"
+    },
+    {
+      "type": "manouver_test_improvement",
+      "value": 2,
+      "maneuver": [
+        "desarmar",
+        "derrubar"
+      ]
+    },
+    {
+      "type": "extra_attack",
+      "weapon": "gavinha",
+      "frequency": "uma_vez_por_rodada_por_gavinha_nao_usada"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM_por_gavinha"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "retratos",
+  "name": "Retratos",
+  "description": "Pinturas dos próprios membros do grupo, penduradas nas paredes em um cômodo qualquer de uso comum. Os residentes recebem +5 em testes de perícia para ajudar outros residentes.",
+  "effects": [
+    {
+      "type": "bonus_teste_ajudar",
+      "value": 5
+    }
+  ],
+  "preco": 1750,
+  "comodo_alvo": null,
+  "livro": "herois_de_arton"
+}

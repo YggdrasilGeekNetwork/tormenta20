@@ -1,0 +1,16 @@
+{
+  "id": "mascara_completa",
+  "name": "Máscara Completa",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 15,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "escolha_pericia_baseada_carisma": true,
+    "bonus_pericia_escolhida": 1
+  },
+  "description": "Máscara que cobre totalmente o rosto, geralmente em forma de criatura ou entidade — ursos, demônios, golens, javalis. Pode ser feita de argila, madeira, porcelana ou metal. Escolha uma perícia baseada em Carisma; a máscara concede +1 em testes dessa perícia, de acordo com sua forma (uma máscara de demônio pode ajudar em Intimidação, por exemplo).",
+  "livro": "herois_de_arton"
+}

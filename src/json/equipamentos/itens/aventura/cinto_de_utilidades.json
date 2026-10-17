@@ -1,0 +1,15 @@
+{
+  "id": "cinto_de_utilidades",
+  "name": "Cinto de Utilidades",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 50,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "vestido",
+  "efeito": {
+    "sacar_guardar_engenhocas_acao_livre": true
+  },
+  "description": "Cinturão de couro cheio de bolsos e fivelas, com espaço para os equipamentos de um inventor. Se você estiver vestindo um cinto de utilidades, pode sacar e guardar engenhocas como uma ação livre.",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,27 @@
+{
+  "id": "colar_do_tirano",
+  "name": "Colar do Tirano",
+  "categoria": "medio",
+  "preco": 10500,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este item cruel é fabricado por abissais e usado por escravagistas. Cada colar tem conexão planar com uma ou mais coleiras (tipicamente 1d8) destinadas a prisioneiros escravizados. Uma vez por rodada, o usuário do colar do tirano pode causar 2d8+2 pontos de dano de eletricidade a um escravo encoleirado. Tentativas mundanas de remover a coleira causam o mesmo dano — apenas efeitos como Dissipar Magia permitem destrancá-las. Além disso, qualquer dano ou efeito nocivo causado ao usuário do colar também afeta todos os escravos encoleirados.",
+  "effects": [
+    {
+      "type": "dano_a_distancia",
+      "alvo": "escravo encoleirado",
+      "dano": "2d8+2",
+      "tipo_dano": "eletricidade",
+      "frequencia": "1x por rodada"
+    },
+    {
+      "type": "protecao_coleira",
+      "descricao": "remoção mundana causa o mesmo dano; apenas efeitos como Dissipar Magia destrancam"
+    },
+    {
+      "type": "reflexo_dano",
+      "descricao": "dano ou efeito nocivo causado ao usuário do colar também afeta todos os escravos encoleirados"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

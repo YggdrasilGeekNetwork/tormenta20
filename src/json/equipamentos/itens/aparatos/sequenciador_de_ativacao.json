@@ -1,0 +1,18 @@
+{
+  "id": "sequenciador_de_ativacao",
+  "name": "Sequenciador de Ativação",
+  "type": "item",
+  "categoria": "aparato",
+  "preco": 600,
+  "espacos": 1,
+  "espacos_acoplado": 0,
+  "cd_fabricacao": 20,
+  "efeito": {
+    "requisito": "acoplado simultaneamente a três engenhocas",
+    "acao_ativar": "completa",
+    "efeito": "no início de cada um dos próximos turnos, uma engenhoca acoplada é ativada como ação livre, em ordem definida ao acoplá-las",
+    "risco": "se algum teste de Ofício (engenhoqueiro) falhar, essa engenhoca não é ativada e a sequência termina"
+  },
+  "description": "Aparato usado por inventores para modificar o funcionamento de suas engenhocas. Enquanto acoplado a uma engenhoca, não ocupa espaços; uma engenhoca pode ter até dois aparatos diferentes. Usar um aparato aumenta a CD para ativar a engenhoca em +2 (dois aparatos, +5). Acoplar ou remover um aparato exige 1 hora de trabalho. Aparatos são fabricados com Ofício (engenhoqueiro), CD 20. Mecanismo complexo, cheio de partes móveis, alavancas e engrenagens, acoplado simultaneamente a três engenhocas. Uma vez por cena, você pode gastar uma ação completa para ativar o sequenciador. No início de cada um dos seus próximos turnos, uma das engenhocas acopladas ao sequenciador é ativada como uma ação livre, em uma ordem definida ao acoplá-las ao aparato. Não é possível diminuir a ação necessária para ativar o sequenciador. Você faz os testes de Ofício (engenhoqueiro) normalmente para cada engenhoca; se algum falhar, além de essa engenhoca não ser ativada, a sequência de ativação termina.",
+  "livro": "herois_de_arton"
+}

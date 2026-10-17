@@ -1,0 +1,18 @@
+{
+  "id": "espada_larga",
+  "name": "Espada Larga",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 8,
+  "dano": "2d4",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": null,
+  "description": "Usada por bárbaros e mercenários, esta arma tem a lâmina menos afiada, mas mais larga e pesada, que a da espada longa.",
+  "livro": "herois_de_arton"
+}

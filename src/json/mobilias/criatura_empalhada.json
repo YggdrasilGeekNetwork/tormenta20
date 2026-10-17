@@ -1,0 +1,14 @@
+{
+  "id": "criatura_empalhada",
+  "name": "Criatura Empalhada",
+  "description": "Uma criatura abatida pelo grupo e empalhada. Fornece um bônus em rolagens de dano contra criaturas do mesmo tipo igual ao patamar da criatura empalhada (uma serpe empalhada, por exemplo, fornece +2 em rolagens de dano contra monstros).",
+  "effects": [
+    {
+      "type": "bonus_dano_contra_tipo",
+      "value": "patamar_da_criatura_empalhada"
+    }
+  ],
+  "preco": 1000,
+  "comodo_alvo": null,
+  "livro": "herois_de_arton"
+}

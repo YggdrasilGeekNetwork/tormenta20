@@ -1,0 +1,18 @@
+{
+  "id": "entortar_escamas",
+  "name": "Entortar Escamas",
+  "type": "poder_distincao",
+  "description": "O caçador sabe enfraquecer aos poucos sua presa dracônica. Quando faz um acerto crítico, você enfraquece as defesas do alvo. Até o fim da cena, a criatura sofre –2 na Defesa e sua redução de dano diminui em –5. Se você tiver cinco poderes da distinção, em vez disso a criatura sofre –5 na Defesa e sua redução de dano diminui em –10.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "faz um acerto crítico",
+      "efeito": "até o fim da cena, o alvo sofre –2 na Defesa e sua RD diminui em –5 (–5 na Defesa e –10 na RD em vez disso, se possuir cinco poderes da distinção)"
+    }
+  ],
+  "requirements": [
+    "Destemor Inflamado",
+    "outro poder da distinção"
+  ],
+  "livro": "herois_de_arton"
+}

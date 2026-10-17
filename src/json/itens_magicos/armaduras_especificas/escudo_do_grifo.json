@@ -1,0 +1,27 @@
+{
+  "id": "escudo_do_grifo",
+  "name": "Escudo do Grifo",
+  "subtipo": "escudo",
+  "base_item": "escudo_pesado",
+  "preco": 27000,
+  "description": "Este escudo pesado defensor é forjado no formato de uma asa gigante. Você recebe redução de dano 10 contra ataques à distância e pode lançar Sopro das Uivantes (CD Sab). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensor"
+    },
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "condicao": "contra ataques à distância"
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Sopro das Uivantes",
+      "cd": "Sabedoria",
+      "reducao_custo_pm": 1,
+      "condicao": "se já souber lançar a magia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

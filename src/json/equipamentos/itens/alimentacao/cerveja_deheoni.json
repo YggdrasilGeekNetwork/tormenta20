@@ -1,0 +1,16 @@
+{
+  "id": "cerveja_deheoni",
+  "name": "Cerveja Deheoni",
+  "type": "item",
+  "categoria": "alimentacao",
+  "subcategoria": "bebida",
+  "preco": 15,
+  "espacos": 0.5,
+  "alcoolica": true,
+  "cd_embriaguez": 15,
+  "efeito": {
+    "bonus_teste_resistencia": 1
+  },
+  "description": "A bebida mais comum nas tavernas do Reinado. Fornece +1 em testes de resistência. CD 15.",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "julgamento_divino_desafio",
+  "name": "Julgamento Divino: Desafio",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Você pode gastar 2 PM para marcar um inimigo em alcance curto. Sempre que esse inimigo ataca um de seus aliados, ele recebe uma penalidade cumulativa de –1 em testes de ataque (limitado pelo seu Carisma). Essa penalidade acaba se ele atacar você ou se você terminar seu turno além do alcance corpo a corpo dele.",
+  "requirements": [
+    {
+      "type": "range_target",
+      "sub_type": "soft",
+      "range": "curto"
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_penalty",
+      "value": -1,
+      "cumulative": true,
+      "limit": "carisma",
+      "target": "inimigo_marcado",
+      "requirement": "atacar_um_de_seus_aliados"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

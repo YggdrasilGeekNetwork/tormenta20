@@ -1,0 +1,15 @@
+{
+  "id": "portes_de_base",
+  "name": "Tabela 3-6: Características de Bases",
+  "description": "Custo de construção/aumento de porte, manutenção paga a cada aventura, e número máximo de cômodos por porte de base.",
+  "headers": ["Porte", "Custo", "Manutenção", "Cômodos", "Exemplos"],
+  "rows": [
+    { "Porte": "Mínima", "Custo": "T$ 1.000", "Manutenção": "T$ 100", "Cômodos": "0", "Exemplos": "Quarto em uma estalagem, tenda reforçada, carroça coberta" },
+    { "Porte": "Modesta", "Custo": "T$ 3.000", "Manutenção": "T$ 300", "Cômodos": "3", "Exemplos": "Casebre, gruta, barcaça" },
+    { "Porte": "Básica", "Custo": "T$ 6.000", "Manutenção": "T$ 600", "Cômodos": "6", "Exemplos": "Casa, torre pequena, caverna, veleiro" },
+    { "Porte": "Formidável", "Custo": "T$ 10.000", "Manutenção": "T$ 1.000", "Cômodos": "9", "Exemplos": "Casarão, torre média, complexo de cavernas, nau" },
+    { "Porte": "Grandiosa", "Custo": "T$ 15.000", "Manutenção": "T$ 1.500", "Cômodos": "12", "Exemplos": "Forte, torre grande, galeão" },
+    { "Porte": "Suprema", "Custo": "T$ 21.000", "Manutenção": "T$ 2.100", "Cômodos": "15", "Exemplos": "Castelo, cidadela" }
+  ],
+  "livro": "herois_de_arton"
+}

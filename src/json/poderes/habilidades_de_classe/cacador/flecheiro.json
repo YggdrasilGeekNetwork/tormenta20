@@ -1,0 +1,27 @@
+{
+  "id": "flecheiro",
+  "name": "Flecheiro",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Você pode usar Sobrevivência no lugar de Ofício para fabricar munições e pode fabricar munições com uma melhoria. Pré-requisito: 3° nível de caçador.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 3
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_substitution",
+      "from_skill": "oficio",
+      "to_skill": "sobrevivencia",
+      "applies_to": "fabricar_municoes"
+    },
+    {
+      "type": "special",
+      "value": "pode_fabricar_municoes_com_uma_melhoria"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,32 @@
+{
+  "id": "bloqueio_divino",
+  "name": "Bloqueio Divino",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Quando sofre um ataque, se estiver empunhando um escudo, você pode gastar 2 PM para receber +5 na Defesa contra esse ataque.",
+  "requirements": [
+    {
+      "type": "weapon_proficiency",
+      "sub_type": "hard",
+      "weapon": "escudos"
+    },
+    {
+      "type": "take_damage",
+      "sub_type": "soft"
+    }
+  ],
+  "effects": [
+    {
+      "type": "defense_improvement",
+      "value": 5,
+      "requirement": "sofrer_ataque_empunhando_escudo"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

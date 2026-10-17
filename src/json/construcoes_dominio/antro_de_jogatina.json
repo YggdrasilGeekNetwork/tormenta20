@@ -1,0 +1,16 @@
+{
+  "id": "antro_de_jogatina",
+  "name": "Antro de Jogatina",
+  "description": "Uma sala discreta, onde muito ouro pode ser ganho e muito mais que ouro pode ser perdido. Frequentá-la melhora seus blefes, fornecendo +2 em Enganação.",
+  "categoria": "enganacao",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Enganação",
+      "value": 2
+    }
+  ],
+  "prerequisito": "taverna",
+  "livro": "herois_de_arton"
+}

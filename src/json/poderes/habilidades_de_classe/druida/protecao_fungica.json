@@ -1,0 +1,33 @@
+{
+  "id": "protecao_fungica",
+  "name": "Proteção Fúngica",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Você pode gastar 1 PM para cobrir seu corpo de esporos com duração sustentada. Nesse estado, sempre que você sofrer um ataque corpo a corpo de uma criatura adjacente, ela perde 1d8 PV. A cada quatro níveis acima do 1º, você pode gastar +1 PM quando usa este poder para aumentar a perda de vida em +1d8. Veneno.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "coracao_da_selva"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_type",
+      "damage_type": "veneno",
+      "value": "1d8_mais_1d8_a_cada_4_niveis_acima_do_1_por_pm_extra_gasto",
+      "requirement": "atacante_corpo_a_corpo_adjacente",
+      "target": "atacante"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    },
+    {
+      "type": "duracao_sustentada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

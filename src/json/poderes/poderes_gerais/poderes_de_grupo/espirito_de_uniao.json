@@ -1,0 +1,40 @@
+{
+  "id": "espirito_de_uniao",
+  "name": "Espírito de União",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Seu grupo luta junto até o fim! Este poder é diferente de outros poderes de grupo — ele só funciona se todos os membros do grupo o tiverem escolhido, independente de quantos sejam. No início da rodada, cada personagem com este poder pode gastar 2 PM. Se fizerem isso, até o fim da cena, em vez de pontos de vida individuais, esses personagens compartilham de um total de PV igual à soma dos PV de cada um. Dano, recuperação e perda de vida são todos aplicados a esse total (após aplicar quaisquer habilidades, como RD do alvo original do efeito). Entretanto, se o total de PV acabar, todos os personagens sofrem os efeitos de serem reduzidos a 0 PV ou menos (cada um ainda morre no seu limite individual de pontos de vida). No fim da cena, divida os PV restantes igualmente entre os personagens.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "exercito_de_um_grupo_so"
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "shared_hp_pool",
+      "trigger": "inicio_da_rodada_cada_personagem_paga_2_pm",
+      "effect": "pv_individuais_substituidos_por_pool_compartilhado_igual_a_soma_dos_pv",
+      "duration": "fim_da_cena",
+      "on_pool_depleted": "todos_sofrem_efeitos_de_0_pv_ou_menos_mas_morrem_no_limite_individual",
+      "end_of_scene": "divide_pv_restantes_igualmente"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

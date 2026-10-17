@@ -1,0 +1,15 @@
+{
+  "id": "rapido_ou_morto",
+  "name": "Rápido ou Morto",
+  "type": "poder_distincao",
+  "description": "Quanto mais notório o bandido, mais ele precisa estar preparado para matar. Você recebe +2 em Iniciativa e +3m em seu deslocamento. Esses bônus aumentam respectivamente em +1 e +1,5m para cada dois outros poderes da distinção que você possuir.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "+2 em Iniciativa e +3m de deslocamento",
+      "escalavel": "+1 em Iniciativa e +1,5m de deslocamento para cada dois outros poderes da distinção que possui"
+    }
+  ],
+  "requirements": ["treinado em Iniciativa", "Coração Duro"],
+  "livro": "herois_de_arton"
+}

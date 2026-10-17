@@ -1,0 +1,22 @@
+{
+  "id": "injetora",
+  "name": "Injetora",
+  "type": "melhoria",
+  "categoria": "armadura",
+  "prerequisitos": null,
+  "description": "Um minúsculo frasco de cerâmica ou vidro é inserido dentro da armadura, junto a um mecanismo injetor ativado com um gesto específico. Você pode gastar uma ação de movimento para acionar o mecanismo e ingerir uma dose de um preparado ou poção. A melhoria tem espaço para 1 dose. Carregá-la exige uma ação completa e o gasto da dose.",
+  "effects": [
+    {
+      "type": "injecao_alquimica",
+      "capacidade_doses": 1,
+      "itens_compativeis": [
+        "preparados_alquimicos",
+        "pocoes"
+      ],
+      "ativar_acao": "movimento",
+      "carregar_acao": "completa",
+      "efeito_ao_ativar": "ingere dose automaticamente"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

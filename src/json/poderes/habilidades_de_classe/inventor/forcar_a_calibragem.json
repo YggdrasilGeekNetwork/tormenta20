@@ -1,0 +1,28 @@
+{
+  "id": "forcar_a_calibragem",
+  "name": "Forçar a Calibragem",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Quando faz um teste para ativar uma engenhoca, você pode sofrer uma penalidade de –5 nesse teste para aumentar a CD para resistir à engenhoca em +2.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "engenhoqueiro"
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_penalty",
+      "value": -5,
+      "requirement": "teste_para_ativar_engenhoca"
+    },
+    {
+      "type": "CD_improvement",
+      "value": 2,
+      "note": "aumenta_a_cd_para_resistir_a_engenhoca"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

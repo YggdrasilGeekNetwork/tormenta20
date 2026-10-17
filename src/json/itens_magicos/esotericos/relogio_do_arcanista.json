@@ -1,0 +1,23 @@
+{
+  "id": "relogio_do_arcanista",
+  "name": "Relógio do Arcanista",
+  "categoria": "maior",
+  "preco": 60000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este relógio de bolso com corpo de prata possui símbolos arcanos no lugar de números em seu mostrador, e permite manipular o tempo necessário para lançar magias arcanas. Quando lança uma magia arcana com execução de movimento, padrão ou completa, você pode gastar +4 PM para lançá-la como uma ação livre. Se você possuir o poder Magia Acelerada, em vez disso o custo para usá-lo diminui em –2 PM.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 4,
+      "condicao": "magia arcana com execução de ação de movimento, padrão ou completa",
+      "efeito": "lança a magia como uma ação livre"
+    },
+    {
+      "type": "reducao_custo_pm",
+      "value": 2,
+      "condicao": "substitui o custo de +4 PM se possuir o poder Magia Acelerada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

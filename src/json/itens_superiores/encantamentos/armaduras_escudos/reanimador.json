@@ -1,0 +1,17 @@
+{
+  "id": "reanimador",
+  "name": "Reanimador",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "O item possui um brilho pulsante que emana calor reconfortante. Você pode lançar Curar Ferimentos (CD Sab). Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "concede_magia",
+      "magia": "Curar Ferimentos",
+      "cd": "Sabedoria",
+      "reducao_custo_pm": 1,
+      "condicao": "se já souber lançar a magia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

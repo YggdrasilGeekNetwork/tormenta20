@@ -1,0 +1,15 @@
+{
+  "id": "empreendimento",
+  "name": "Empreendimento",
+  "description": "A base é parte de um negócio. Uma vez a cada intervalo entre aventuras, um residente pode fazer um teste de Inteligência, com um bônus igual ao número de cômodos que a base pode ter. A base rende um número de tibares de ouro igual ao resultado do teste. O residente pode gastar sua ação nesse intervalo entre aventuras administrando o negócio; se fizer isso, recebe o dobro de dinheiro. Como alternativa, se estiver usando as regras de negócios de Fim dos Tempos Arco 2: Valkaria, em vez disso a base conta como um negócio de nível 1 (e pode receber níveis de negócio separadamente).",
+  "effects": [
+    {
+      "type": "renda_entre_aventuras",
+      "teste": "inteligencia",
+      "bonus_teste": "numero_de_comodos_maximo_da_base",
+      "rendimento_t$": "resultado_do_teste",
+      "dobro_se_gastar_acao_administrando": true
+    }
+  ],
+  "livro": "herois_de_arton"
+}

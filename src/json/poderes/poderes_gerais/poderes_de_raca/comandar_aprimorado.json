@@ -1,0 +1,39 @@
+{
+  "id": "comandar_aprimorado",
+  "name": "Comandar Aprimorado",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Quando usa Comandar, você pode gastar +2 PM para aumentar o bônus fornecido pelo poder em +1.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "humano"
+    },
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "car",
+      "value": 2
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "comandar"
+    }
+  ],
+  "effects": [
+    {
+      "type": "feature_improvement",
+      "feature": "comandar",
+      "value": 1
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

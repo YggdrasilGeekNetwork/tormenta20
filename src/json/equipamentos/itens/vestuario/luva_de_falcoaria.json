@@ -1,0 +1,15 @@
+{
+  "id": "luva_de_falcoaria",
+  "name": "Luva de Falcoaria",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 15,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_adestramento_aves_rapina": 2
+  },
+  "description": "Esta luva recobre o antebraço do usuário, permitindo que uma ave de rapina pouse sobre ele sem machucá-lo com suas garras. Concede +2 em testes de Adestramento com pássaros e criaturas semelhantes (a critério do mestre).",
+  "livro": "herois_de_arton"
+}

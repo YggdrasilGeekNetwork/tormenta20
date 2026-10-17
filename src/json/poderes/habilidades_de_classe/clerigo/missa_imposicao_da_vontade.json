@@ -1,0 +1,16 @@
+{
+  "id": "missa_imposicao_da_vontade",
+  "name": "Missa: Imposição da Vontade",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "A CD para resistir às habilidades dos participantes desta Missa aumenta em +1.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "dc_improvement",
+      "value": 1,
+      "applies_to": "habilidades_dos_participantes_da_missa"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

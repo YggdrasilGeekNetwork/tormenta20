@@ -1,0 +1,14 @@
+{
+  "id": "vagaroso",
+  "name": "Vagaroso",
+  "description": "\"Devagar e sempre vence a corrida\" é o que você diz. E, se não vencer, pelo menos você não se cansou. Você está permanentemente sob efeito da condição lento (todas as suas formas de deslocamento são reduzidas à metade e você não pode correr ou fazer investidas).",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "condicao_permanente",
+      "condicao": "lento"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

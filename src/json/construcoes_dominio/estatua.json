@@ -1,0 +1,15 @@
+{
+  "id": "estatua",
+  "name": "Estátua",
+  "description": "Este monumento de um herói do passado — ou do próprio regente, se ele não for modesto — o impulsiona a atos impressionantes. O máximo de pontos de mana que você pode gastar em uma habilidade passa a ser seu nível +1.",
+  "categoria": "nobreza",
+  "custo": 2,
+  "effects": [
+    {
+      "type": "aumenta_limite_gasto_pm",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

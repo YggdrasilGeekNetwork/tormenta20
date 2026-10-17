@@ -1,0 +1,29 @@
+{
+  "id": "estampido_ensurdecedor",
+  "name": "Estampido Ensurdecedor",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Quando faz um ataque à distância com uma arma de fogo, você pode pagar 1 PM para deixar todas as criaturas adjacentes a você abaladas e surdas (Fort CD Car reduz a duração das condições para 1 rodada). Pré-requisito: Grudar o Cano.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "grudar_o_cano"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "trigger": "ataque_a_distancia_com_arma_de_fogo",
+      "effect": "criaturas_adjacentes_ficam_abaladas_e_surdas",
+      "save": "fortitude_cd_car_reduz_duracao_para_1_rodada"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,29 @@
+{
+  "id": "tempestade_de_laminas",
+  "name": "Tempestade de Lâminas",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Quando usa Chuva de Lâminas, você pode fazer um ataque adicional com sua arma secundária (para um total de quatro ataques na ação). Pré-requisitos: Chuva de Lâminas, 17º nível de caçador.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "chuva_de_laminas"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "value": 1,
+      "applies_to": "chuva_de_laminas",
+      "with_weapon": "secundaria",
+      "total_attacks": 4
+    }
+  ],
+  "livro": "herois_de_arton"
+}

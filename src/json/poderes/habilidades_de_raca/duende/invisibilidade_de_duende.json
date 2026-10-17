@@ -1,0 +1,12 @@
+{
+  "id": "invisibilidade_de_duende",
+  "name": "Invisibilidade",
+  "type": "habilidade_de_raca",
+  "race": "duende",
+  "description": "Um poder comum entre duendes e responsável por boa parte do folclore confuso sobre eles. Você pode lançar Invisibilidade e usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um arcanista de seu nível.",
+  "effects": {
+    "concede_magia": "invisibilidade",
+    "aprimoramentos_como": "arcanista do mesmo nível"
+  },
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "coice",
+  "name": "Coice",
+  "type": "poder_distincao",
+  "description": "Quando lutam juntos, cavalo e ginete agem como se fossem um só — a fúria dos ventos encarnada. Enquanto estiver montado em seu irmão cavalo, você pode usar uma arma natural de cascos (1d8, crítico x2, impacto). Uma vez por rodada, quando usa as ações agredir ou investida montada para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com os cascos. O dano dos cascos aumenta em um passo para cada nível do irmão cavalo acima de iniciante.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "condicao": "montado no irmão cavalo, ao usar agredir ou investida montada com outra arma",
+      "efeito": "arma natural de cascos (1d8, crítico x2, impacto); um ataque corpo a corpo extra com os cascos, uma vez por rodada",
+      "escalavel": "dano dos cascos aumenta um passo por nível do irmão cavalo acima de iniciante"
+    }
+  ],
+  "requirements": ["treinado em Luta ou Pontaria", "Irmão Campestre"],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,25 @@
+{
+  "id": "padeiro",
+  "name": "Padeiro",
+  "description": "Você começava sua jornada ainda antes do amanhecer, acendendo o forno de pedra com madeira encantada para assar pães, bolos e tortas que alimentavam a comunidade. Amassava farinhas com trigo dourado de campos abençoados por Azgher ou frutas colhidas sob as estrelas de Tenebra. Em sua padaria, moradores e aventureiros se reuniam para comprar suas delícias e compartilhar notícias. Você também preparava iguarias especiais para festivais, ou até encomendas secretas, como pães encantados para fortalecer guerreiros, ou aquela torta destinada a envenenar um inimigo... Ah sim, foi por isso que acabou fugindo e virando aventureiro!",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Instrumentos de Ofício (cozinheiro)"
+    },
+    {
+      "type": "fixed",
+      "text": "Rolo de massa (mesmas estatísticas de uma clava)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Ofício (cozinheiro)"
+    ],
+    "powers": [
+      "Braços de Padeiro"
+    ]
+  },
+  "unique_power": "bracos_de_padeiro",
+  "livro": "herois_de_arton"
+}

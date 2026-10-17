@@ -1,0 +1,30 @@
+{
+  "id": "lideranca_inspiradora",
+  "name": "Liderança Inspiradora",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Seu magnetismo pessoal deixa seus seguidores ávidos para ajudá-lo. Você gasta uma ação padrão (em vez de completa) para posicionar seus capangas em combate. Além disso, uma vez por rodada, pode gastar uma ação livre para fazê-los movimentar-se ou causar dano (mas continua só podendo fazê-los causar dano uma vez por rodada; veja p. 240).",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "car",
+      "value": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "change_action_type",
+      "action": "posicionar_capangas_em_combate",
+      "from": "completa",
+      "to": "padrao"
+    },
+    {
+      "type": "extra_action",
+      "action": "livre",
+      "effect": "capangas_se_movimentam_ou_causam_dano",
+      "frequency": "uma_vez_por_rodada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

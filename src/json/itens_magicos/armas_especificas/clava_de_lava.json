@@ -1,0 +1,24 @@
+{
+  "id": "clava_de_lava",
+  "name": "Clava de Lava",
+  "base_weapon": "clava",
+  "preco": 45000,
+  "description": "Esta clava de madeira escura apresenta fendas que emitem calor e luz alaranjada. É uma clava maciça flamejante formidável; quando acerta um ataque com ela, você pode gastar 1 PM para aumentar o dano de fogo para +3d6.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "flamejante"
+    },
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "gatilho": "acerta um ataque",
+      "efeito": "aumenta o dano de fogo da arma para +3d6"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

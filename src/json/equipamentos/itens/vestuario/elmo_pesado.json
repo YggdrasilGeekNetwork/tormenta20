@@ -1,0 +1,18 @@
+{
+  "id": "elmo_pesado",
+  "name": "Elmo Pesado",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 200,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "fortificacao": "50%",
+    "penalidade_iniciativa": -5,
+    "penalidade_percepcao": -5,
+    "penalidade_reduzida_se_proficiencia_armaduras_pesadas": -2
+  },
+  "description": "Coifa (capuz de cota de malha) ou capacete fechado. Fornece fortificação 50%, mas impõe –5 em Iniciativa e Percepção. Se você tiver proficiência com armaduras pesadas, reduz essa penalidade para –2.",
+  "livro": "herois_de_arton"
+}

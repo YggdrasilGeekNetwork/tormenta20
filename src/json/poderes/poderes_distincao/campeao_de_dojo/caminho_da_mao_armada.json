@@ -1,0 +1,16 @@
+{
+  "id": "caminho_da_mao_armada",
+  "name": "Caminho da Mão Armada",
+  "type": "poder_distincao",
+  "description": "O treinamento de um campeão por vezes envolve dominar as armas tradicionais de seu dojo. Escolha três armas corpo a corpo com as quais tenha proficiência. Para você, essas armas contam como ataques desarmados para efeitos que interagem com eles de qualquer forma e, quando ataca com uma delas, você pode usar o dano básico da arma ou seu dano desarmado, o que for melhor.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "escolhe três armas corpo a corpo com proficiência; elas contam como ataques desarmados para quaisquer efeitos que interajam com eles; ao atacar com uma delas, pode usar o dano básico da arma ou o dano desarmado, o que for melhor"
+    }
+  ],
+  "requirements": [
+    "Golpe Concentrado"
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "jaqueta_de_couro",
+  "name": "Jaqueta de Couro",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 15,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_investigacao_interrogar": 1
+  },
+  "description": "Jaqueta feita de couro que protege costas e braços, mas é aberta na frente. Comum entre exploradores, ladinos e qualquer humanoide com aparência bonita e \"perigosa\". Você recebe +1 em testes de Investigação para interrogar e gasta apenas metade do dinheiro (arredondado para cima) nesses testes.",
+  "livro": "herois_de_arton"
+}

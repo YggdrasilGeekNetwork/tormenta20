@@ -1,0 +1,25 @@
+{
+  "id": "arco_de_guerra",
+  "name": "Arco de Guerra",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "duas_maos",
+  "preco": 200,
+  "dano": "1d12",
+  "critico": "x3",
+  "alcance": "medio",
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "municao": "flechas",
+  "habilidades": [
+    "desbalanceada"
+  ],
+  "especial": {
+    "usa_forca_dano": true,
+    "nao_pode_usar_montado": true
+  },
+  "description": "Arco robusto de braços grossos e resistentes, capaz de disparos poderosos. Como um arco longo, permite que você aplique sua Força às rolagens de dano, e não pode ser usado se estiver montado. A força exigida para puxá-lo o torna uma arma desbalanceada.",
+  "livro": "herois_de_arton"
+}

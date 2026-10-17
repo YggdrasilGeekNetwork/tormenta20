@@ -1,0 +1,17 @@
+{
+  "id": "lira_de_casco_de_tartaruga",
+  "name": "Lira de Casco de Tartaruga",
+  "type": "item",
+  "categoria": "ferramenta",
+  "subcategoria": "instrumento_musical",
+  "preco": 300,
+  "espacos": 1,
+  "cd_fabricacao": 20,
+  "uso": "empunhado",
+  "maos": 1,
+  "efeito": {
+    "bonus_cura_musicas_e_magias_bardo": "+1 PV por dado de cura"
+  },
+  "description": "Instrumento suave, que produz um som pacífico e acalentador. Bardos que usam liras costumam ser belos jovens em togas esvoaçantes. Suas Músicas e magias de bardo de cura recuperam +1 PV por dado de cura. Conta como um instrumento musical.",
+  "livro": "herois_de_arton"
+}

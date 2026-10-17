@@ -1,0 +1,36 @@
+{
+  "id": "presente_dos_deuses",
+  "name": "Presente dos Deuses",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Você recebe uma arma superior e mágica, com duas melhorias e um encanto a sua escolha. Normalmente, será a arma preferida de seu deus, mas pode ser outra, de acordo com o mestre. A cada quatro níveis, a arma ganha mais uma melhoria e um encanto a sua escolha. Nas mãos de uma pessoa que não seja devota de sua divindade, a arma se comporta como um item mundano. Se a arma for perdida ou destruída, você pode receber outra fazendo uma penitência (como se tivesse descumprido as Obrigações & Restrições de sua divindade). Pré-requisito: 9º nível de clérigo.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 9
+    }
+  ],
+  "effects": [
+    {
+      "type": "grant_item",
+      "value": "arma_superior_magica",
+      "melhorias": 2,
+      "encantos": 1,
+      "scaling": {
+        "per_levels": 4,
+        "melhorias": 1,
+        "encantos": 1
+      }
+    },
+    {
+      "type": "special",
+      "value": "comporta_se_como_item_mundano_nas_maos_de_nao_devoto"
+    },
+    {
+      "type": "special",
+      "value": "pode_ser_substituida_via_penitencia_se_perdida_ou_destruida"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

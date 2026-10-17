@@ -1,0 +1,16 @@
+{
+  "id": "bau_reforcado",
+  "name": "Baú Reforçado",
+  "description": "Uma caixa de madeira com reforços em metal. Colocado na despensa, aumenta o bônus no limite de carga para 3 espaços.",
+  "effects": [
+    {
+      "type": "bonus_limite_carga",
+      "value": 3,
+      "unidade": "espacos",
+      "substitui_bonus_do_comodo": true
+    }
+  ],
+  "preco": 300,
+  "comodo_alvo": "despensa",
+  "livro": "herois_de_arton"
+}

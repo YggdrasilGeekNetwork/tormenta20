@@ -1,0 +1,14 @@
+{
+  "id": "mapa_mundi",
+  "name": "Mapa-Múndi",
+  "description": "Um mapa enorme, representando todas as regiões conhecidas de Arton. Alguns sábios inovadores usam um globo, representando Arton como vista do éter divino. Instalado na sala de guerra ou na sala de mapas, aumenta os bônus do cômodo em questão em +1.",
+  "effects": [
+    {
+      "type": "bonus_do_comodo",
+      "value": 1
+    }
+  ],
+  "preco": 1500,
+  "comodo_alvo": "sala_de_guerra_ou_sala_de_mapas",
+  "livro": "herois_de_arton"
+}

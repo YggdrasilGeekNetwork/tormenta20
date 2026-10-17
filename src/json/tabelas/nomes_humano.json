@@ -1,0 +1,149 @@
+{
+  "id": "nomes_humano",
+  "name": "Nomes de Humano",
+  "description": "Tabela de sorteio de nomes de personagens da raça Humano (Tabela 1-24).",
+  "headers": [
+    "Faixa",
+    "Nome"
+  ],
+  "rows": [
+    {
+      "Faixa": "1-3",
+      "Nome": "Hekker"
+    },
+    {
+      "Faixa": "4-6",
+      "Nome": "Dinlana"
+    },
+    {
+      "Faixa": "7-9",
+      "Nome": "Mouvo"
+    },
+    {
+      "Faixa": "10-12",
+      "Nome": "Khalmyrian"
+    },
+    {
+      "Faixa": "13-15",
+      "Nome": "Pidder"
+    },
+    {
+      "Faixa": "16-18",
+      "Nome": "Baziare"
+    },
+    {
+      "Faixa": "19-21",
+      "Nome": "Vikkander"
+    },
+    {
+      "Faixa": "22-24",
+      "Nome": "Andara"
+    },
+    {
+      "Faixa": "25-27",
+      "Nome": "Darezio"
+    },
+    {
+      "Faixa": "28-30",
+      "Nome": "Natuwa"
+    },
+    {
+      "Faixa": "31-33",
+      "Nome": "Orsen"
+    },
+    {
+      "Faixa": "34-36",
+      "Nome": "Kevan"
+    },
+    {
+      "Faixa": "37-39",
+      "Nome": "Tariana"
+    },
+    {
+      "Faixa": "40-42",
+      "Nome": "Valk"
+    },
+    {
+      "Faixa": "43-45",
+      "Nome": "Ergol"
+    },
+    {
+      "Faixa": "46-48",
+      "Nome": "Rilena"
+    },
+    {
+      "Faixa": "49-51",
+      "Nome": "Neria"
+    },
+    {
+      "Faixa": "52-54",
+      "Nome": "Vosser"
+    },
+    {
+      "Faixa": "55-57",
+      "Nome": "Zilth"
+    },
+    {
+      "Faixa": "58-60",
+      "Nome": "Xandara"
+    },
+    {
+      "Faixa": "61-63",
+      "Nome": "Belazio"
+    },
+    {
+      "Faixa": "64-66",
+      "Nome": "Egriana"
+    },
+    {
+      "Faixa": "67-69",
+      "Nome": "Molden"
+    },
+    {
+      "Faixa": "70-72",
+      "Nome": "Nilga"
+    },
+    {
+      "Faixa": "73-75",
+      "Nome": "Phadra"
+    },
+    {
+      "Faixa": "76-78",
+      "Nome": "Riales"
+    },
+    {
+      "Faixa": "79-81",
+      "Nome": "Portina"
+    },
+    {
+      "Faixa": "82-84",
+      "Nome": "Holdavir"
+    },
+    {
+      "Faixa": "85-87",
+      "Nome": "Yohll"
+    },
+    {
+      "Faixa": "88-90",
+      "Nome": "Astri"
+    },
+    {
+      "Faixa": "91-93",
+      "Nome": "Merthik"
+    },
+    {
+      "Faixa": "94-96",
+      "Nome": "Zasdre"
+    },
+    {
+      "Faixa": "97-99",
+      "Nome": "Agnigg"
+    },
+    {
+      "Faixa": "100",
+      "Nome": "Shivar"
+    }
+  ],
+  "dice": "1d100",
+  "livro": "herois_de_arton"
+}

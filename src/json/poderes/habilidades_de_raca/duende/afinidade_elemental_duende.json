@@ -1,0 +1,18 @@
+{
+  "id": "afinidade_elemental_duende",
+  "name": "Afinidade Elemental",
+  "type": "habilidade_de_raca",
+  "race": "duende",
+  "description": "Você possui ligação com um elemento (água, fogo ou vegetação, escolhido ao adquirir este presente). Atributo-chave Carisma; se reaprender uma das magias, custo diminui em –1 PM. Água: desloc. de natação = terrestre; lança Criar Elementos (só água) e Névoa. Fogo: redução de fogo 5; lança Criar Elementos (só fogo) e Explosão de Chamas. Vegetação: atravessa terreno difícil natural sem penalidade; lança Armamento da Natureza e Controlar Plantas.",
+  "effects": {
+    "escolha": ["agua", "fogo", "vegetacao"],
+    "atributo_chave": "carisma",
+    "reducao_custo_pm_se_reaprendida": 1,
+    "opcoes": {
+      "agua": { "deslocamento_natacao": "igual ao terrestre", "magias": ["criar_elementos (água)", "nevoa"] },
+      "fogo": { "reducao_dano": { "value": 5, "tipo_dano": "fogo" }, "magias": ["criar_elementos (fogo)", "explosao_de_chamas"] },
+      "vegetacao": { "passivo": "atravessa terreno difícil natural sem redução de deslocamento", "magias": ["armamento_da_natureza", "controlar_plantas"] }
+    }
+  },
+  "livro": "herois_de_arton"
+}

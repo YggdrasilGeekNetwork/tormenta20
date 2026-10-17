@@ -1,0 +1,18 @@
+{
+  "id": "o_ultimo_desejo",
+  "name": "O Último Desejo",
+  "type": "poder_distincao",
+  "description": "Não há nada mais forte que um desejo. Uma vez por aventura, você pode lançar a magia Desejo sem pagar seu custo em PM (mas você ainda precisa pagar outros custos da magia, como sacrifício de PM). Você só pode usar esta habilidade em resposta a um pedido feito por um aliado desde seu último turno.",
+  "effects": [
+    {
+      "type": "ativado",
+      "limite": "uma vez por aventura",
+      "efeito": "lança a magia Desejo sem pagar seu custo em PM (mas ainda paga outros custos, como sacrifício de PM); só em resposta a um pedido de aliado desde seu último turno"
+    }
+  ],
+  "requirements": [
+    "O Segundo Desejo",
+    "realizar três desejos grandiosos"
+  ],
+  "livro": "herois_de_arton"
+}

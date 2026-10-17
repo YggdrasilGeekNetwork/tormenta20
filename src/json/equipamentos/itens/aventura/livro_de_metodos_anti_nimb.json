@@ -1,0 +1,21 @@
+{
+  "id": "livro_de_metodos_anti_nimb",
+  "name": "Livro de Métodos Anti-Nimb",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 100,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "consultado",
+  "efeito": {
+    "acao": "1 minuto consultando + 1 PM",
+    "substitui_pericia": {
+      "de": "Jogatina",
+      "para": "Conhecimento"
+    },
+    "duracao": "até o fim da cena",
+    "risco": "certos cassinos, tavernas e grupos de jogadores que notem alguém consultando o livro podem baní-lo do jogo (ou pior)"
+  },
+  "description": "Jogos de azar recebem esse nome porque dependem do acaso; os melhores jogadores usam magnetismo natural, frieza e blefe para vencer. Este livro contém métodos que substituem toda essa aleatoriedade por racionalidade: cálculos de estatística e probabilidade, truques para contar cartas, gráficos de projeção de ganhos e perdas. Você pode gastar 1 minuto consultando o livro e 1 PM para substituir testes de Jogatina por testes de Conhecimento até o fim da cena. Certos cassinos, tavernas e grupos de jogadores que notem alguém consultando um destes livros podem baní-lo do jogo (ou fazer coisa bem pior).",
+  "livro": "herois_de_arton"
+}

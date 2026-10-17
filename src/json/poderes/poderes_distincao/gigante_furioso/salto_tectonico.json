@@ -1,0 +1,15 @@
+{
+  "id": "salto_tectonico",
+  "name": "Salto Tectônico",
+  "type": "poder_distincao",
+  "description": "Os saltos poderosos do gigante desencadeiam terremotos onde ele cai. Quando usa Terremoto da Fúria, como parte da ação para usar esse poder você pode saltar, aterrissando em um ponto qualquer em alcance médio e desencadeando uma onda de choque que fortalece o terremoto. Faça um teste de Atletismo (CD 10). Se passar, você aumenta o raio do terremoto em +3m e seu dano em +2d12. Além disso, para cada 10 pontos em que o resultado superar a CD, o raio do terremoto aumenta em +3m.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "usar Terremoto da Fúria",
+      "efeito": "pode saltar até alcance médio antes do terremoto; teste de Atletismo CD 10: sucesso aumenta raio em +3m e dano em +2d12, +3m adicionais de raio a cada 10 pontos acima da CD"
+    }
+  ],
+  "requirements": ["treinamento em Atletismo", "Terremoto da Fúria"],
+  "livro": "herois_de_arton"
+}

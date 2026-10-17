@@ -1,0 +1,12 @@
+{
+  "id": "combate_avancado_lancinante_revisado",
+  "name": "Lancinante Revisado",
+  "description": "Regra opcional de combate avançado (Heróis de Arton, Cap. 4) que muda o efeito do encanto lancinante.",
+  "livro": "herois_de_arton",
+  "efeito": {
+    "id": "lancinante",
+    "name": "Lancinante",
+    "description": "A arma inflige ferimentos mortais. Quando você faz um acerto crítico, o bônus em dano fornecido pelo encanto dilacerante também é multiplicado. Por exemplo, um machado de batalha lancinante causa +30 pontos de dano em um acerto crítico.",
+    "pre_requisito": "dilacerante"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "id": "interrogador",
+  "name": "Interrogador",
+  "description": "Na verdade, você foi algo bem pior — e fez coisas bem piores — que um simples \"interrogador\". Coisas cruéis que tiram seu sono à noite, coisas que você gostaria de deixar no passado, mas que sempre voltam para assombrá-lo. Você serviu a um dos poderes malignos de Arton, como os finntroll, os sszzaazitas ou mesmo a Tormenta. Ser um aventureiro heroico, proteger os reinos, salvar o mundo... talvez isso ajude a compensar todos aqueles atos terríveis perante os deuses. Você ora a esses mesmos deuses para nunca reencontrar alguém que tenha \"interrogado\", ainda que muitos não estejam mais neste mundo. Mas, pensando bem, existem os osteon...",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Um ou mais itens somando T$ 100 que pertenciam a antigas vítimas... ahem, interrogados"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Intimidação",
+      "Investigação"
+    ],
+    "powers": [
+      "Onde Mais Dói"
+    ]
+  },
+  "unique_power": "onde_mais_doi",
+  "livro": "herois_de_arton"
+}

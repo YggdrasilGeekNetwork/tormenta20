@@ -1,0 +1,25 @@
+{
+  "id": "machado_do_vulcao",
+  "name": "Machado do Vulcão",
+  "base_weapon": "machado_de_guerra",
+  "preco": 54000,
+  "description": "Este machado de guerra maciço flamejante formidável tem textura vítrea, com magma rodopiando em seu interior. Você pode gastar uma ação de movimento e 3 PM para causar uma detonação vulcânica em um quadrado de 3m em alcance médio. Criaturas nessa área sofrem 3d10 pontos de dano de fogo e ficam em chamas (Ref CD For ou Des reduz à metade e evita a condição).",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "flamejante"
+    },
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 3,
+      "efeito": "causa uma detonação vulcânica em um quadrado de 3m em alcance médio: criaturas na área sofrem 3d10 de dano de fogo e ficam em chamas",
+      "resistencia": "Reflexos CD For ou Des (à escolha) reduz à metade e evita a condição"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

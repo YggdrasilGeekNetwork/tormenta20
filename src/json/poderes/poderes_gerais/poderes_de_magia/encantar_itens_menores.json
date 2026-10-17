@@ -1,0 +1,35 @@
+{
+  "id": "encantar_itens_menores",
+  "name": "Encantar Itens Menores",
+  "type": "poder_geral",
+  "sub_type": "poder_de_magia",
+  "description": "Você pode encantar itens mágicos menores permanentes. Fazer isso segue as mesmas regras para fabricar esses itens, mas você usa Misticismo (se lança magias arcanas) ou Religião (se lança magias divinas) no lugar de Ofício e precisa já possuir o item base (você não fabrica o item, apenas adiciona os efeitos mágicos a ele).",
+  "requirements": [
+    {
+      "type": "magic_circle",
+      "sub_type": "hard",
+      "circle": 3
+    },
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": [
+        "misticismo",
+        "religiao"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "create_item",
+      "item_tier": "menor",
+      "permanent": true,
+      "uses_skill_instead_of_oficio": [
+        "misticismo",
+        "religiao"
+      ],
+      "requires_base_item": true
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,19 @@
+{
+  "id": "cofres_fundos",
+  "name": "Cofres Fundos",
+  "type": "poder_distincao",
+  "description": "Um senador que trabalha para o povo é a garantia de impostos bem gastos. Uma vez por aventura, você pode receber fundos do Senado. Faça um teste de Carisma com um bônus de +4 por poder da distinção. Você recebe um número de tibares de ouro igual ao resultado do teste. Se tiver pelo menos três poderes da distinção, também pode requisitar um item mágico menor, que deve ser devolvido (ou reembolsado) ao Senado no fim da aventura. Se tiver cinco poderes da distinção, o item requisitado pode ser médio. O uso deste poder é condicionado ao local onde você se encontra e a sua possibilidade de contactar o Senado ou seus representantes.",
+  "effects": [
+    {
+      "type": "ativado",
+      "limite": "uma vez por aventura",
+      "efeito": "teste de Carisma com +4 por poder da distinção; recebe tibares de ouro iguais ao resultado",
+      "escalavel": "com 3+ poderes da distinção pode requisitar item mágico menor (devolvido ao fim da aventura); com 5 poderes, item pode ser médio",
+      "restricao": "condicionado à possibilidade de contactar o Senado"
+    }
+  ],
+  "requirements": [
+    "treinado em Diplomacia e Nobreza"
+  ],
+  "livro": "herois_de_arton"
+}

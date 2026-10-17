@@ -1,0 +1,24 @@
+{
+  "id": "acorde_mistico",
+  "name": "Acorde Místico",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Se estiver empunhando um instrumento musical, você pode gastar uma ação padrão para fazer um teste de Atuação oposto ao teste de Vontade de uma criatura em alcance curto. Se você vencer, a criatura sofre 1d6 pontos de dano de essência e fica vulnerável por 1 rodada. Esse dano aumenta em +1d6 para cada círculo de magia acima do 1º que você puder lançar. Quando faz um ataque como parte da execução de uma magia (como pelo aprimoramento de Toque Chocante), você pode usar este poder no lugar do ataque.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "active",
+      "condition": "empunhando_instrumento_musical",
+      "action": "padrao",
+      "test": "atuacao_oposto_vontade",
+      "range": "curto",
+      "effect": "1d6_dano_de_essencia_mais_1d6_por_circulo_acima_do_1_e_vulneravel_1_rodada",
+      "on_win": true
+    },
+    {
+      "type": "special",
+      "value": "pode_substituir_ataque_que_seja_parte_de_execucao_de_magia_ex_toque_chocante"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

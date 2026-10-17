@@ -1,0 +1,16 @@
+{
+  "id": "enxerto_experimental",
+  "name": "Enxerto Experimental",
+  "type": "poder_distincao",
+  "description": "Em busca de aperfeiçoamento, a cobaia se submete a procedimentos altamente experimentais. Você recebe um implante de até T$ 18.000. Ele não conta em seu limite de implantes, mas foi enxertado de forma experimental. No início de cada cena, role 1d4. Em um resultado 1, o implante não funciona nessa cena. Para cada outro poder da distinção, esse dado aumenta em um passo.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "concede um implante de até T$ 18.000 que não conta no limite de implantes",
+      "risco": "no início de cada cena, rola 1d4; em 1 o implante não funciona nessa cena",
+      "escalavel": "o dado de risco aumenta um passo para cada outro poder da distinção que possui"
+    }
+  ],
+  "requirements": ["Foco em Perícia (Fortitude)"],
+  "livro": "herois_de_arton"
+}

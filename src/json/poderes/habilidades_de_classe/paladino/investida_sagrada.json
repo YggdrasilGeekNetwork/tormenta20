@@ -1,0 +1,43 @@
+{
+  "id": "investida_sagrada",
+  "name": "Investida Sagrada",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Quando faz uma investida montada, você pode pagar 1 PM para receber deslocamento de voo igual ao seu deslocamento base até o fim do seu turno e causar +1d8 pontos de dano.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "montaria_sagrada",
+      "note": "poder base 'Montaria Sagrada' nao encontrado como arquivo ja existente no gem (possivel lacuna do livro base ainda nao cadastrada)"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 10
+    },
+    {
+      "type": "manouver_attack",
+      "sub_type": "soft",
+      "manouver": "investida_montada"
+    }
+  ],
+  "effects": [
+    {
+      "type": "displacement_improvement",
+      "value": "deslocamento_de_voo_igual_ao_deslocamento_base",
+      "duration": "fim_do_turno"
+    },
+    {
+      "type": "damage_improvement",
+      "value": "1d8"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

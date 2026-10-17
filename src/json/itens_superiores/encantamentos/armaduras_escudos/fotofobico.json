@@ -1,0 +1,20 @@
+{
+  "id": "fotofobico",
+  "name": "Fotofóbico",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "maldicao": true,
+  "description": "O item pode ter sido criado por devotos de Tenebra ou por criaturas subterrâneas, para ensinar aos habitantes das “terras iluminadas” a temer o sol. Sempre que está em um ambiente com iluminação normal, você fica ofuscado. Você não recebe nenhum bônus para enxergar no escuro.",
+  "effects": [
+    {
+      "type": "condicao_negativa",
+      "condicao": "ofuscado",
+      "contexto": "ambientes com iluminação normal"
+    },
+    {
+      "type": "desvantagem",
+      "efeito": "não recebe nenhum bônus para enxergar no escuro"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

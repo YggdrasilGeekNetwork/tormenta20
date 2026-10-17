@@ -1,0 +1,29 @@
+{
+  "id": "ordens_encorajadoras",
+  "name": "Ordens Encorajadoras",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Quando você usa Gritar Ordens, a habilidade também fornece 10 PV temporários cumulativos. Esses pontos desaparecem no fim da cena.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "gritar_ordens"
+    }
+  ],
+  "effects": [
+    {
+      "type": "PV_improvement",
+      "value": 10,
+      "cumulative": true,
+      "duration": "cena"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

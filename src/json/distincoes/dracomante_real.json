@@ -1,0 +1,10 @@
+{
+  "id": "dracomante_real",
+  "name": "Dracomante Real",
+  "description": "Arcanistas obcecados que dedicam-se a aprender os segredos arcanos de um Dragão-Real específico, aproximando-se cada vez mais da forma e do poder de seu mestre.",
+  "admissao": "O candidato deve antes de mais nada ser um mago com algum poder arcano. Como nenhum dracomante real ensina outro (e a mera existência de um candidato é vista como ameaça ou insulto por dracomantes já estabelecidos), o aprendizado deve ser autodidata e mantido em segredo. Primeiro, o candidato precisa ter contato direto com um efeito de uma magia do Dragão-Real que deseja estudar, analisando dano causado, coletando resíduos e pesquisando tudo que ficou para trás da conjuração. Depois, precisa ter contato direto com o próprio Dragão-Real — estar a poucos passos dele enquanto está em sua forma dracônica, sem necessariamente ser notado. Cumpridos os dois requisitos, o candidato se torna um dracomante real.",
+  "marca_nome": "Mestre Dracônico",
+  "marca_descricao": "Escolha um Dragão-Real para ser seu mestre, entre Behluga (frio ou luz), Benthos (ácido), Hydora (eletricidade), Mzzileyn (trevas), Sckhar (fogo), Tarso (trevas) e Zadbblein (ácido). Uma vez feita, essa escolha não pode ser mudada. Quando você lança uma magia de dano ou perda de PV do mesmo tipo da essência de seu mestre, ela causa +2 pontos de dano ou perda de PV.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

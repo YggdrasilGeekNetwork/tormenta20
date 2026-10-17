@@ -1,0 +1,35 @@
+{
+  "id": "introducao_calorosa",
+  "name": "Introdução Calorosa",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Na primeira rodada de um combate, você pode gastar uma ação a sua escolha para se apresentar. Você recebe um benefício de acordo com a ação gasta (livre: 1 PM temporário; movimento: apresentar o próprio nome, +2 em perícias baseadas em Carisma; padrão: declarar uma ligação pessoal, +2 em rolagens de dano; completa: revelar seu objetivo na cena, pode rolar novamente um único teste de perícia recém-feito). Você recebe todos os benefícios das ações anteriores e eles duram até o fim da cena.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "active",
+      "trigger": "primeira_rodada_de_combate",
+      "options": [
+        {
+          "action": "livre",
+          "beneficio": "1_PM_temporario"
+        },
+        {
+          "action": "movimento",
+          "beneficio": "+2_em_pericias_baseadas_em_carisma"
+        },
+        {
+          "action": "padrao",
+          "beneficio": "+2_em_rolagens_de_dano"
+        },
+        {
+          "action": "completa",
+          "beneficio": "pode_rolar_novamente_um_unico_teste_de_pericia_recem_feito"
+        }
+      ],
+      "cumulative": "recebe_beneficios_das_acoes_anteriores",
+      "duration": "cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

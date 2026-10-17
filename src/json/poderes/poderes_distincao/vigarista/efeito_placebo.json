@@ -1,0 +1,19 @@
+{
+  "id": "efeito_placebo",
+  "name": "Efeito Placebo",
+  "type": "poder_distincao",
+  "description": "\"Mas é claro que funciona! Eu mentiria para você?\" Para cada poder da distinção, escolha uma magia de 1º círculo, arcana ou divina, que possa ser transformada em poção. Você pode gastar uma ação completa e 3 PM para transformar um de seus misteriosos elixires de água com açúcar em uma poção de uma dessas magias instantaneamente (atributo-chave Carisma). O custo do item é reduzido à metade e você não precisa fazer o teste de Ofício (alquimista), mas a poção só dura até o fim da cena.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "completa",
+      "custo_pm": 3,
+      "efeito": "transforma um elixir de água com açúcar em uma poção instantânea de uma magia de 1º círculo escolhida (atributo-chave Carisma); custo do item reduzido à metade, sem teste de Ofício (alquimista); poção dura até o fim da cena",
+      "escalavel": "escolhe uma magia elegível para cada poder da distinção que possui"
+    }
+  ],
+  "requirements": [
+    "Aquele Papinho"
+  ],
+  "livro": "herois_de_arton"
+}

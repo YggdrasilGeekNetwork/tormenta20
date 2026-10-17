@@ -1,0 +1,25 @@
+{
+  "id": "vigilancia_elfica",
+  "name": "Vigilância Élfica",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Em seu primeiro turno de cada combate, você recebe uma ação de movimento adicional.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "elfo",
+        "meio_elfo",
+        "naidora"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_move_action",
+      "trigger": "primeiro_turno_de_cada_combate"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

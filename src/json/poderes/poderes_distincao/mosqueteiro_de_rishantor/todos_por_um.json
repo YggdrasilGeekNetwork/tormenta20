@@ -1,0 +1,18 @@
+{
+  "id": "todos_por_um",
+  "name": "Todos Por Um",
+  "type": "poder_distincao",
+  "description": "Quando podem confiar em seus aliados, os Mosqueteiros se tornam imbatíveis. Quando você usa Duelo, pode gastar +1 PM para cada aliado a sua escolha em alcance curto (limitado pelo seu Carisma). Aliados escolhidos também recebem os benefícios de Duelo contra o alvo (mas perdem-no se atacarem outro oponente).",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "usa o poder Duelo",
+      "efeito": "pode gastar +1 PM por aliado escolhido em alcance curto (limitado pelo Carisma) para que também recebam os benefícios de Duelo contra o alvo (perdido se atacarem outro oponente)"
+    }
+  ],
+  "requirements": [
+    "Duelo",
+    "Um por Todos"
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "posto_de_pedagio",
+  "name": "Posto de Pedágio",
+  "description": "Se o regente mantém as estradas em boas condições e espanta monstros, nada mais justo que cobre um pouco de cada viajante. Os impostos que ele já cobra do povo? Ah, esses são para outros gastos! Quando você cobra impostos altos, recebe +1 LO por nível do domínio — postos de pedágio não são nem um pouco populares e não são usados em impostos baixos ou médios.",
+  "categoria": "guerra",
+  "custo": 2,
+  "effects": [
+    {
+      "type": "bonus_impostos_altos",
+      "formula": "+1 LO por nível do domínio"
+    }
+  ],
+  "prerequisito": "estrada",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "miope",
+  "name": "Míope",
+  "description": "Você tem dificuldade de enxergar objetos distantes. Como alternativa, acha covardia atacar de longe e nunca treinou com armas de ataque à distância. Você sofre –5 em Percepção e Pontaria, e fica desprevenido contra efeitos que se originem além de alcance curto.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_pericia",
+      "pericia": "percepcao",
+      "value": -5
+    },
+    {
+      "type": "penalidade_pericia",
+      "pericia": "pontaria",
+      "value": -5
+    },
+    {
+      "type": "desprevenido_condicional",
+      "descricao": "fica desprevenido contra efeitos que se originem além de alcance curto"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

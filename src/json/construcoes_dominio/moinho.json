@@ -1,0 +1,17 @@
+{
+  "id": "moinho",
+  "name": "Moinho",
+  "description": "Um engenho movido por vento ou água para moer grãos. Permite a produção de farinha e, consequentemente, melhor aproveitamento da colheita. O ganho da fazenda aumenta para 1d8-2 LO (ou 1d8 LO, se você também tiver um celeiro).",
+  "categoria": "nobreza",
+  "custo": 5,
+  "effects": [
+    {
+      "type": "altera_dado_renda",
+      "construcao": "fazenda",
+      "novo_dado": "1d8",
+      "modificador": -2
+    }
+  ],
+  "prerequisito": "fazenda",
+  "livro": "herois_de_arton"
+}

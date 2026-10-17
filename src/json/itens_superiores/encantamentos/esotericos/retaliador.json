@@ -1,0 +1,16 @@
+{
+  "id": "retaliador",
+  "name": "Retaliador",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "Quando você evitar dano de um inimigo (na forma de RD) com o efeito de uma de suas magias, a CD da sua próxima magia de dano lançada até o fim do seu próximo turno aumenta em +1 para cada 10 pontos de dano evitado.",
+  "effects": [
+    {
+      "type": "aumento_cd_magia",
+      "condicao": "próxima magia de dano lançada até o fim do seu próximo turno",
+      "escala": "+1 para cada 10 pontos de dano evitado",
+      "gatilho": "evita dano de um inimigo via redução de dano concedida por uma de suas magias"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "heroi_do_povo",
+  "name": "Herói do Povo",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Você recebe +2 na Defesa e em testes de resistência. Além disso, sempre que acertar um ataque em um vilão que esteja ameaçando pessoas comuns (um bandido assolando camponeses, um nobre tirano, um monstro devorando viajantes...), você recebe 2 PM temporários. Você pode receber um número máximo de PM temporários por cena igual ao seu nível e eles desaparecem no fim da cena. Pré-requisito: 5º nível de caçador.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "defense_improvement",
+      "value": 2
+    },
+    {
+      "type": "saving_throw_improvement",
+      "value": 2
+    },
+    {
+      "type": "resource_gain",
+      "resource": "PM_temporario",
+      "value": 2,
+      "trigger": "acertar_ataque_em_vilao_ameacando_pessoas_comuns",
+      "max_per_scene": "nivel",
+      "duration": "cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "aquele_papinho",
+  "name": "Aquele Papinho",
+  "type": "poder_distincao",
+  "description": "Uma boa conversa, uma cara inocente… e o vigarista tem seu alvo na palma da sua mão. Você recebe +1 em Diplomacia, Enganação e Intuição e na CD de suas habilidades (exceto magias) baseadas em Carisma. Esses bônus aumentam em +1 para cada outro poder da distinção que você possuir.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "+1 em Diplomacia, Enganação e Intuição, e na CD de habilidades baseadas em Carisma (exceto magias)",
+      "escalavel": "+1 adicional para cada outro poder da distinção que possuir"
+    }
+  ],
+  "requirements": [
+    "treinado em Enganação",
+    "Aparência Inofensiva"
+  ],
+  "livro": "herois_de_arton"
+}

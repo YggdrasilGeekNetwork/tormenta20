@@ -1,0 +1,17 @@
+{
+  "id": "lar_infernal",
+  "name": "Lar Infernal",
+  "type": "poder_distincao",
+  "description": "Acostumado às áreas de Tormenta, o algoz só se sente em casa nesses infernos. Você se torna imune aos efeitos de áreas de Tormenta. Além disso, nessas áreas você recebe +5 em testes de perícia e seu descanso conta como luxuoso.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "imune aos efeitos de áreas de Tormenta; nessas áreas recebe +5 em testes de perícia e seu descanso conta como luxuoso"
+    }
+  ],
+  "requirements": [
+    "dois poderes da Tormenta"
+  ],
+  "livro": "herois_de_arton",
+  "tormenta": true
+}

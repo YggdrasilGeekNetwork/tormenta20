@@ -1,0 +1,51 @@
+{
+  "id": "invocar_os_ancestrais",
+  "name": "Invocar os Ancestrais",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Você pode gastar uma ação completa e 2 PM para invocar 1d4+1 ancestrais capangas em espaços desocupados em alcance curto. Eles têm Defesa igual à sua, 1 PV, são incorpóreos e falham automaticamente em qualquer teste de resistência ou oposto. Você pode gastar uma ação de movimento para fazê-los se mover (deslocamento 9m). Cada ancestral fornece um bônus cumulativo de +2 em rolagens de dano a um personagem adjacente e, uma vez por rodada, quando faz a ação agredir, você pode gastar um ancestral pra fazer um ataque adicional. Pré-requisitos: Totem Espiritual, 11º nível de bárbaro.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "totem_espiritual"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "action": "completa",
+      "effect": "invoca_1d4_mais_1_capangas_ancestrais_em_alcance_curto",
+      "stats": {
+        "defesa": "igual_a_do_barbaro",
+        "pv": 1,
+        "incorporeo": true,
+        "falha_automatica_em_resistencia_e_oposto": true
+      }
+    },
+    {
+      "type": "extra_damage",
+      "value": 2,
+      "stacking": "por_ancestral",
+      "applies_to": "aliado_adjacente_ao_ancestral"
+    },
+    {
+      "type": "extra_attack",
+      "frequency": "1_por_rodada",
+      "cost": "1_ancestral",
+      "trigger": "acao_agredir"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

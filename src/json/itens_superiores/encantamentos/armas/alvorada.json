@@ -1,0 +1,24 @@
+{
+  "id": "alvorada",
+  "name": "Alvorada",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma brilha como o sol matinal. Ela causa +1d8 de dano de luz contra mortos-vivos e criaturas com sensibilidade a luz. Uma vez por rodada, quando ataca, você pode gastar 2 PM para cegar uma criatura em alcance curto por 1 rodada (apenas uma vez por cena por criatura, Fort CD For ou Des evita).",
+  "effects": [
+    {
+      "type": "dano_extra",
+      "dados": "1d8",
+      "tipo_dano": "luz",
+      "condicao": "contra mortos-vivos e criaturas com sensibilidade a luz"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "frequencia": "por_rodada",
+      "gatilho": "ataca",
+      "efeito": "cega uma criatura em alcance curto por 1 rodada (apenas uma vez por cena por criatura)",
+      "resistencia": "Fortitude CD For ou Des (à escolha) evita"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

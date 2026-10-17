@@ -1,0 +1,14 @@
+{
+  "id": "coracao_duro",
+  "name": "Coração Duro",
+  "type": "poder_distincao",
+  "description": "Não é fácil abalar o chapéu-preto, pois ele próprio já cometeu todo tipo de atrocidades. Você recebe +2 em rolagens de dano com armas e imunidade a medo (ou +2 em Vontade, se já for imune a medo). Este poder não elimina fobias raciais, como o medo de altura dos minotauros.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "+2 em rolagens de dano com armas; imunidade a medo (ou +2 em Vontade se já imune a medo, exceto fobias raciais)"
+    }
+  ],
+  "requirements": ["treinado em Luta ou Pontaria", "Presença Aterradora"],
+  "livro": "herois_de_arton"
+}

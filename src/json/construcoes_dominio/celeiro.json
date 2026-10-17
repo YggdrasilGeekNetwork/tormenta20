@@ -1,0 +1,15 @@
+{
+  "id": "celeiro",
+  "name": "Celeiro",
+  "description": "Este depósito garante que sua produção agrícola não se perca. Elimina a penalidade no ganho da fazenda (torna-se 1d6 LO, ou 1d8 LO, se você possuir um moinho).",
+  "categoria": "nobreza",
+  "custo": 3,
+  "effects": [
+    {
+      "type": "remove_penalidade_renda",
+      "construcao": "fazenda"
+    }
+  ],
+  "prerequisito": "fazenda",
+  "livro": "herois_de_arton"
+}

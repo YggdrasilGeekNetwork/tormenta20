@@ -1,0 +1,15 @@
+{
+  "id": "armario_de_remedios",
+  "name": "Armário de Remédios",
+  "description": "Um móvel especialmente preparado para armazenar e conservar medicamentos, ataduras e outros suprimentos médicos do grupo. Instalado em uma enfermaria ou estufa, faz com que seus preparados e poções de cura recuperem +1 PV por dado.",
+  "effects": [
+    {
+      "type": "bonus_cura_preparado_pocao",
+      "value": 1,
+      "por": "dado"
+    }
+  ],
+  "preco": 2000,
+  "comodo_alvo": "enfermaria_ou_estufa",
+  "livro": "herois_de_arton"
+}

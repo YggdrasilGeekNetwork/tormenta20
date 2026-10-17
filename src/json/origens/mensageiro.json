@@ -1,0 +1,27 @@
+{
+  "id": "mensageiro",
+  "name": "Mensageiro",
+  "description": "Sempre que meios mágicos não estavam disponíveis, você assumia a tarefa de transportar informações vitais entre reinos, cidades e vilarejos, muitas vezes arriscando a vida em territórios perigosos. Levando cartas, pergaminhos, mensagens verbais, você percorria longas distâncias em embarcações, a cavalo ou a pé. Precisava ser rápido, discreto e corajoso, enfrentando criaturas hostis, bandidos e terrenos traiçoeiros — garantindo que ordens de guerra, tratados de paz e pedidos de socorro chegassem ao destino, preservando alianças e evitando desastres. Pensando bem, isso não é muito diferente de ser um aventureiro...",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Cavalo com sela"
+    },
+    {
+      "type": "fixed",
+      "text": "Mochila de aventureiro"
+    },
+    {
+      "type": "fixed",
+      "text": "Traje de viajante"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Mensageiro Incansável"
+    ]
+  },
+  "unique_power": "mensageiro_incansavel",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "paladino_do_reino",
+  "name": "Paladino do Reino",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Você recebe um poder de cavaleiro cujos pré-requisitos cumpra, usando seu nível como nível de cavaleiro.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "nobreza"
+    }
+  ],
+  "effects": [
+    {
+      "type": "feature",
+      "note": "recebe_um_poder_de_cavaleiro_cujos_pre_requisitos_cumpra_usando_seu_nivel_de_paladino_como_nivel_de_cavaleiro"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

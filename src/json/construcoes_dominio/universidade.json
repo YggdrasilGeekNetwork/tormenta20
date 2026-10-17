@@ -1,0 +1,15 @@
+{
+  "id": "universidade",
+  "name": "Universidade",
+  "description": "Uma instituição de ensino e pesquisa, onde conhecimento é gerado e distribuído. Quando constrói uma universidade, você recebe um poder geral.",
+  "categoria": "nobreza",
+  "custo": 25,
+  "effects": [
+    {
+      "type": "recebe_poder",
+      "categoria": "geral"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

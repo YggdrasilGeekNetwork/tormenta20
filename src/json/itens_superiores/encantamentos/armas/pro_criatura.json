@@ -1,0 +1,15 @@
+{
+  "id": "pro_criatura",
+  "name": "Pró-Criatura",
+  "type": "encantamento",
+  "categoria": "arma",
+  "maldicao": true,
+  "description": "O oposto de anticriatura — mas com ressalvas. Sempre que causa dano a um inimigo de um determinado tipo de criatura, a arma em vez disso cura a mesma quantidade de PV.",
+  "effects": [
+    {
+      "type": "desvantagem",
+      "efeito": "contra um tipo de criatura determinado pelo mestre na criação do item, a arma cura o inimigo em vez de causar dano (cura a mesma quantidade de PV que causaria de dano)"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

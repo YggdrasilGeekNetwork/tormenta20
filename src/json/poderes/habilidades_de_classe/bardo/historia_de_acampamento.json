@@ -1,0 +1,17 @@
+{
+  "id": "historia_de_acampamento",
+  "name": "História de Acampamento",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Você pode gastar 1 hora para entreter um número de pessoas igual ao seu nível com histórias e canções. A recuperação de PM por descanso dessas pessoas aumenta em +1 por nível nesse dia.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "active",
+      "time": "1_hora",
+      "target": "numero_de_pessoas_igual_ao_nivel",
+      "effect": "aumenta_recuperacao_de_pm_por_descanso_em_1_por_nivel_nesse_dia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

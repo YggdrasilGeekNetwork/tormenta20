@@ -1,0 +1,22 @@
+{
+  "id": "bolor_hemorragico",
+  "name": "Bolor Hemorrágico",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 60,
+  "espacos": 0.5,
+  "cd_fabricacao": 20,
+  "inoculacao": "contato",
+  "efeito": {
+    "falha": {
+      "condicao": "sangrando",
+      "cd_remover_bonus": 5
+    },
+    "sucesso": {
+      "condicao": "sangrando"
+    }
+  },
+  "description": "Pasta marrom que reduz a capacidade de cicatrização. Contato, vítima fica sangrando e a CD para remover essa condição aumenta em +5 (fica sangrando).",
+  "livro": "herois_de_arton"
+}

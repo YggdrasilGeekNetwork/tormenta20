@@ -1,0 +1,29 @@
+{
+  "id": "passo_das_ondas",
+  "name": "Passo Das Ondas",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Uma vez por rodada, quando acerta um ataque em um inimigo, você pode gastar 2 PM para se mover até a metade do seu deslocamento. Esse deslocamento ignora terreno difícil e não ativa reações dos inimigos (como pelo poder Ataque Reflexo). Pré-requisito: Pernas do Mar.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "pernas_do_mar"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "frequency": "1_por_rodada",
+      "trigger": "acertar_ataque_em_inimigo",
+      "effect": "move_ate_metade_do_deslocamento_ignora_terreno_dificil_nao_ativa_reacoes"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

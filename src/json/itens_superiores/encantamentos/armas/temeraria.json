@@ -1,0 +1,15 @@
+{
+  "id": "temeraria",
+  "name": "Temerária",
+  "type": "encantamento",
+  "categoria": "arma",
+  "maldicao": true,
+  "description": "Esta arma balança em suas mãos, puxando para o lado errado no exato instante em que você precisa dela para bloquear golpes e deixando sua guarda aberta no pior momento possível. Você sofre –2 na Defesa.",
+  "effects": [
+    {
+      "type": "bonus_defesa",
+      "value": -2
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,15 @@
+{
+  "id": "gargula",
+  "name": "Gárgula",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma é ornamentada com figuras de gárgulas que ganham vida temporariamente. Você pode gastar 2 PM para convocar uma pequena gárgula que atua como um parceiro combatente iniciante até o fim da cena.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "efeito": "convoca uma pequena gárgula que atua como um parceiro combatente iniciante até o fim da cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

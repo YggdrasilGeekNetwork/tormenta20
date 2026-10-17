@@ -1,0 +1,19 @@
+{
+  "id": "impio",
+  "name": "Ímpio",
+  "description": "Você odeia os deuses — e eles sabem disso. Você sofre –5 em testes de resistência contra magias divinas e não pode se beneficiar de efeitos dessas magias.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_teste_resistencia",
+      "categoria": "magias_divinas",
+      "value": -5
+    },
+    {
+      "type": "perda_beneficio",
+      "descricao": "não pode se beneficiar de efeitos de magias divinas"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

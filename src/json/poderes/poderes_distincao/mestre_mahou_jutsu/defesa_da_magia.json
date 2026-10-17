@@ -1,0 +1,17 @@
+{
+  "id": "defesa_da_magia",
+  "name": "Defesa da Magia",
+  "type": "poder_distincao",
+  "description": "O poder arcano fortalece as defesas do mestre mahou-jutsu. Quando lança uma magia arcana, você recebe PV temporários iguais a 5x o círculo da magia lançada. Esses PV duram até o início do seu próximo turno.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "lança uma magia arcana",
+      "efeito": "recebe PV temporários iguais a 5x o círculo da magia, até o início do próximo turno"
+    }
+  ],
+  "requirements": [
+    "Mahou-Jutsu"
+  ],
+  "livro": "herois_de_arton"
+}

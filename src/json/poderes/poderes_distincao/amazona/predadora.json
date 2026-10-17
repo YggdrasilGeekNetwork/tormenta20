@@ -1,0 +1,16 @@
+{
+  "id": "predadora",
+  "name": "Predadora",
+  "description": "Você pode gastar uma ação de movimento e 2 PM para analisar um inimigo em alcance médio. Até o fim da cena, você recebe +1 em testes de perícia e rolagens de dano contra esse inimigo e outras criaturas do mesmo tipo. Para cada outro poder da distinção, você pode gastar +1 PM para aumentar esses bônus em +1.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 2,
+      "efeito": "analisa um inimigo em alcance médio; até o fim da cena, +1 em testes de perícia e rolagens de dano contra esse inimigo e outras criaturas do mesmo tipo",
+      "escalavel": "por outro poder da distinção que possui, pode gastar +1 PM extra para aumentar os bônus em +1"
+    }
+  ],
+  "requirements": ["treinada em Sobrevivência"],
+  "livro": "herois_de_arton"
+}

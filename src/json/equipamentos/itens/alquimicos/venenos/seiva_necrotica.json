@@ -1,0 +1,24 @@
+{
+  "id": "seiva_necrotica",
+  "name": "Seiva Necrótica",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 120,
+  "espacos": 0.5,
+  "cd_fabricacao": 20,
+  "inoculacao": "contato",
+  "efeito": {
+    "falha": {
+      "dano": "2d6",
+      "por_rodada": true,
+      "duracao_rodadas": 3
+    },
+    "sucesso": {
+      "dano": "2d6"
+    }
+  },
+  "nota": "Pontos de vida perdidos por seiva necrótica só podem ser recuperados com efeitos mágicos de luz.",
+  "description": "Preparada a partir da seiva de plantas impregnadas de energia negativa, esta substância causa ferimentos que não cicatrizam naturalmente. Contato, perde 2d6 PV por rodada durante 3 rodadas (perde 2d6 PV). Pontos de vida perdidos por seiva necrótica só podem ser recuperados com efeitos mágicos de luz.",
+  "livro": "herois_de_arton"
+}

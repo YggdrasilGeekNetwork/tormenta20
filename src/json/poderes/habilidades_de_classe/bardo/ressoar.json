@@ -1,0 +1,30 @@
+{
+  "id": "ressoar",
+  "name": "Ressoar",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Quando lança uma magia que tenha apenas você como alvo, você pode gastar 2 PM e fazer um teste de Atuação (CD 15 + custo em PM da magia). Se você passar, um aliado em alcance curto que esteja sob efeito de sua Inspiração é afetado pelo efeito básico da magia como se você a tivesse lançado nele. Pré-requisito: 17º nível de bardo.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "trigger": "lancar_magia_de_alvo_unico_voce",
+      "test": "atuacao",
+      "dc": "15_mais_custo_em_pm_da_magia",
+      "success": "aliado_em_alcance_curto_sob_inspiracao_recebe_efeito_basico_da_magia"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

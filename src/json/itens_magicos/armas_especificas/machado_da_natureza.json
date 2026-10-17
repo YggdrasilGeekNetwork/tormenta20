@@ -1,0 +1,23 @@
+{
+  "id": "machado_da_natureza",
+  "name": "Machado da Natureza",
+  "base_weapon": "machado_de_batalha",
+  "preco": 22500,
+  "description": "Este machado de batalha preciso formidável tem aparência rústica, coberto por musgos e vinhas. Sempre que você faz um acerto crítico com ele, recupera 1d12+1 PV.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "preciso"
+    },
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "passivo",
+      "gatilho": "acerto crítico",
+      "efeito": "recupera 1d12+1 PV"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

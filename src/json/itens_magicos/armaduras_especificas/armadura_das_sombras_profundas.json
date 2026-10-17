@@ -1,0 +1,30 @@
+{
+  "id": "armadura_das_sombras_profundas",
+  "name": "Armadura das Sombras Profundas",
+  "subtipo": "armadura",
+  "base_item": "cota_de_malha",
+  "preco": 40500,
+  "description": "Esta cota de malha sob medida defensora sombria negra e translúcida parece feita de pura escuridão. Você recebe redução de luz 10 e pode lançar Invisibilidade. Caso já conheça essa magia, o custo para lançá-la diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "sob medida"
+    },
+    {
+      "type": "enchantment",
+      "name": "defensora"
+    },
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "tipo_dano": "luz"
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Invisibilidade",
+      "reducao_custo_pm": 1,
+      "condicao": "se já souber lançar a magia"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

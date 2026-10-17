@@ -1,0 +1,23 @@
+{
+  "id": "forca_da_devocao",
+  "name": "Força da Devoção",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Quando você lança uma magia de clérigo, sua CD aumenta em +1 para cada dois poderes concedidos de sua divindade que você possui. Pré-requisito: 6º nível de clérigo.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 6
+    }
+  ],
+  "effects": [
+    {
+      "type": "dc_improvement",
+      "value": 1,
+      "per": "2_poderes_concedidos_possuidos",
+      "applies_to": "magias_de_clerigo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

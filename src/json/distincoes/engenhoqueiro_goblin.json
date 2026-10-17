@@ -1,0 +1,10 @@
+{
+  "id": "engenhoqueiro_goblin",
+  "name": "Engenhoqueiro Goblin",
+  "description": "Goblins inventores caóticos que abraçam o risco e o improviso, construindo engenhocas cada vez mais ousadas mesmo às custas de explosões e desastres frequentes.",
+  "admissao": "É preciso ser um goblin disposto a colocar seus inventos à prova, embarcando em uma jornada que abrace os riscos e resultados imprevisíveis das engenhocas goblins. Durante pelo menos duas estações, o candidato deve construir engenhocas sem nenhuma medida de segurança, sempre optando pela versão mais espetacular e arriscada de cada invento. Nesse período, uma de suas engenhocas deve falhar de maneira absolutamente desastrosa (não proposital, nem fruto de acaso ou de poder maior), e o candidato deve fabricar pelo menos uma engenhoca improvisada, sem os materiais normalmente necessários. Por fim, deve construir uma engenhoca impressionante que funcione, apresentando-a e testando-a na frente de um ou mais engenhoqueiros goblins; se funcionar, é reconhecido como um novo engenhoqueiro goblin.",
+  "marca_nome": "Engenhocaria Goblinoide",
+  "marca_descricao": "Você gasta 1 dia e metade do custo em tibares para fabricar uma engenhoca. Entretanto, você nunca pode escolher 0, 10 ou 20 para ativar uma engenhoca e, se falhar no teste de ativação por 5 ou mais (ou se rolar 1 no dado), a engenhoca explode e causa 2d6 pontos de dano de impacto por círculo da magia em você e todas as criaturas a até 3m (Reflexos CD da engenhoca reduz à metade).",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

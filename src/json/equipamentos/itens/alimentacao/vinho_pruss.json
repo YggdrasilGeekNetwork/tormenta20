@@ -1,0 +1,16 @@
+{
+  "id": "vinho_pruss",
+  "name": "Vinho Pruss",
+  "type": "item",
+  "categoria": "alimentacao",
+  "subcategoria": "bebida",
+  "preco": 60,
+  "espacos": 0.5,
+  "alcoolica": true,
+  "cd_embriaguez": 15,
+  "efeito": {
+    "pm_temporarios": 3
+  },
+  "description": "Batizado em homenagem ao antigo Rei-Imperador Thormy — dizem que era o favorito do monarca. Fornece 3 PM temporários. CD 15.",
+  "livro": "herois_de_arton"
+}

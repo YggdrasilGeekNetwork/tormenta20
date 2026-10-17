@@ -1,0 +1,20 @@
+{
+  "id": "perola_da_nulificacao",
+  "name": "Pérola da Nulificação Mágica",
+  "categoria": "menor",
+  "preco": 3000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Quando é ativada (uma ação de movimento), esta pequena pérola multicolorida produz o efeito básico da magia Campo Antimagia ao redor de seu portador, com duração de cena (em vez de sustentada). Contudo, o item tem apenas uma utilização; quando o efeito termina, a pérola adquire tom acinzentado, perdendo seu poder.",
+  "effects": [
+    {
+      "type": "ativar_efeito",
+      "acao": "ação de movimento",
+      "magia": "Campo Antimagia",
+      "versao": "efeito básico",
+      "duracao": "cena (em vez de sustentada)",
+      "usos": 1
+    }
+  ],
+  "livro": "herois_de_arton"
+}

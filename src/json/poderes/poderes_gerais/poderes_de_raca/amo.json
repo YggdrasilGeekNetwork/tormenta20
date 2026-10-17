@@ -1,0 +1,27 @@
+{
+  "id": "amo",
+  "name": "Amo",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Escolha um personagem (jogador ou NPC). Você adotou esse personagem como seu amo. Quando usa a habilidade Desejos a pedido do seu amo, o custo da magia diminui em –2 PM (em vez de apenas –1). Contudo, sempre que seu amo estiver presente em uma situação de perigo (como um combate) ou sob efeito de uma condição, você sofre –2 em testes de perícias. Se o amo morrer, essa penalidade permanece até o fim da aventura (quando então você pode escolher um novo amo).",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "qareen"
+    }
+  ],
+  "effects": [
+    {
+      "type": "PM_cost_reduction",
+      "reduction": -2,
+      "condition": "usar Desejos a pedido do amo, em vez de -1"
+    },
+    {
+      "type": "skill_test_improvment",
+      "value": -2,
+      "condition": "amo em perigo ou sob condição"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "afinidade_draconica",
+  "name": "Afinidade Dracônica",
+  "type": "poder_distincao",
+  "description": "O primeiro passo de um dracomante real é dominar o elemento regido por seu mestre. Você recebe +2 na CD de suas magias que causam dano do tipo da essência dracônica do seu mestre e, para cada poder da distinção, recebe redução 3 contra esse tipo de dano.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "+2 na CD de magias que causam dano do tipo da essência dracônica do mestre; redução 3 contra esse tipo de dano por poder da distinção que possui"
+    }
+  ],
+  "requirements": ["5º nível de Mago"],
+  "livro": "herois_de_arton"
+}

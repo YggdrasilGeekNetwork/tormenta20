@@ -1,0 +1,17 @@
+{
+  "id": "fornecedor_de_smokestone",
+  "name": "Fornecedor de Smokestone",
+  "type": "poder_distincao",
+  "description": "\"Eu conheço um cara…\" Quando chega em uma comunidade equivalente a uma vila ou maior, você pode gastar 2 PM para fazer um teste de Carisma (CD 10). Se passar, enquanto estiver nessa comunidade, pode comprar armas de fogo de qualquer tipo e suas munições com 20% de desconto (não cumulativo com barganha e outros descontos) e pode conseguir qualquer cuidado ou manutenção necessários para essas armas.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "efeito": "teste de Carisma CD 10 ao chegar em vila ou comunidade maior; se passar, compra armas de fogo e munições com 20% de desconto (não cumulativo) e consegue manutenção para elas enquanto estiver lá"
+    }
+  ],
+  "requirements": [
+    "Rápido no Gatilho"
+  ],
+  "livro": "herois_de_arton"
+}

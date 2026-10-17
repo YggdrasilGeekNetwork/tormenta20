@@ -1,0 +1,17 @@
+{
+  "id": "entrada_triunfal",
+  "name": "Entrada Triunfal",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Se um combate começar e você for o primeiro na iniciativa, recebe uma quantidade de PV temporários igual à metade de seus PV máximos.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "resource_gain",
+      "resource": "PV_temporario",
+      "value": "metade_do_pv_maximo",
+      "condition": "primeiro_na_iniciativa_no_inicio_do_combate"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "encantar_flechas",
+  "name": "Encantar Flechas",
+  "type": "poder_distincao",
+  "description": "O arqueiro de Lenórienn aprende a usar sua magia para criar flechas encantadas. Você recebe 20 flechas mágicas menores a sua escolha e passa a poder fabricar flechas mágicas menores. Se tiver acesso a magias arcanas de 3º círculo, você pode fabricar flechas mágicas médias e, se tiver acesso a magias arcanas de 4º círculo, pode fabricar flechas maiores. Se você disparar todo o pacote de flechas, a energia mística imbuída nelas volta para você e você recupera os PM sacrificados para fabricá-las.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "recebe 20 flechas mágicas menores a sua escolha e passa a poder fabricar flechas mágicas menores (médias com acesso a magias arcanas de 3º círculo, maiores com acesso a 4º círculo); se disparar todo o pacote de flechas, recupera os PM sacrificados para fabricá-las"
+    }
+  ],
+  "requirements": [
+    "treinado em Ofício (armeiro)",
+    "Energizar Arco",
+    "lançar magias arcanas de 2º círculo"
+  ],
+  "livro": "herois_de_arton"
+}

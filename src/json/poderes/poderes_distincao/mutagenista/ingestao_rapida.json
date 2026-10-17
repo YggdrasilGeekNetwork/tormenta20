@@ -1,0 +1,17 @@
+{
+  "id": "ingestao_rapida",
+  "name": "Ingestão Rápida",
+  "type": "poder_distincao",
+  "description": "Preparados são a chave do poder do mutagenista. Uma vez por rodada, você pode ingerir uma poção ou preparado como ação livre.",
+  "effects": [
+    {
+      "type": "passivo",
+      "limite": "uma vez por rodada",
+      "efeito": "pode ingerir uma poção ou preparado como ação livre"
+    }
+  ],
+  "requirements": [
+    "Fabricar Mutagênicos"
+  ],
+  "livro": "herois_de_arton"
+}

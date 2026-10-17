@@ -1,0 +1,16 @@
+{
+  "id": "licas",
+  "name": "Liças",
+  "description": "Um campo de areia onde combates brutais são travados. Seja por diversão, seja por treinamento, participar das liças torna qualquer um mais feroz. O bônus que você recebe nos testes de ataque e rolagens de dano quando usa Fúria ou Fúria Divina aumenta em +1.",
+  "categoria": "guerra",
+  "custo": 2,
+  "effects": [
+    {
+      "type": "aumenta_bonus_habilidade",
+      "habilidade": "Fúria/Fúria Divina",
+      "value": 1
+    }
+  ],
+  "prerequisito": "patio_de_treinamento",
+  "livro": "herois_de_arton"
+}

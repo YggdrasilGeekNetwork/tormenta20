@@ -1,0 +1,38 @@
+{
+  "id": "programacao_holistica",
+  "name": "Programação Holística",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você pode gastar uma ação completa e 2 PM para se tornar treinado em uma perícia a sua escolha até o fim do dia. Sempre que usa este poder, role 1d4. Em um resultado 1, você sobrecarrega seu cérebro artificial — até o fim do dia, você fica frustrado e não pode mais usar este poder.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "golem"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active_ability",
+      "action": "completa",
+      "effect": "skill_training",
+      "skill": "a_sua_escolha",
+      "duration": "fim_do_dia",
+      "side_effect": {
+        "roll": "1d4",
+        "on_1": {
+          "condition": "frustrado",
+          "duration": "fim_do_dia",
+          "lock": "nao_pode_mais_usar_este_poder_no_dia"
+        }
+      }
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

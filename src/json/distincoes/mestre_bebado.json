@@ -1,0 +1,10 @@
+{
+  "id": "mestre_bebado",
+  "name": "Mestre Bêbado",
+  "description": "Artista marcial que transforma os gestos descoordenados da embriaguez em uma arma mortal e imprevisível, treinado nas tradições de Tamu-ra.",
+  "admissao": "Apenas pessoas hábeis em combate desarmado e acrobacias podem tentar aprender estas técnicas; candidatos que não possam ficar bêbados (como osteon) não podem embarcar nesta jornada. Quem não foi treinado em uma escola tamuraniana precisa primeiro passar um mês numa delas. O candidato deve então descobrir, entre incontáveis bêbados de tavernas e estradas, quem é de fato um mestre bêbado escondendo técnicas marciais, e convencê-lo a treiná-lo — o mestre fará de tudo para desencorajá-lo antes de aceitar. O treinamento dura meses, com tarefas estranhas de propósito obscuro. Ao final, o candidato deve tomar três porres (cerveja anã, saquê de Tamu-ra e dilínio de Lamnor) e então vencer um combate desafiador estando realmente bêbado.",
+  "marca_nome": "Felicidade Engarrafada",
+  "marca_descricao": "O mestre bêbado nunca dispensa um traguinho. Você possui um recipiente (uma garrafa, odre ou equivalente) que ocupa 0,5 espaço e comporta 5 goles de bebida, +2 goles para cada poder da distinção que você possuir. Se estiver empunhando o recipiente, você pode gastar uma ação de movimento para tomar um gole da bebida e ganhar 1 PM temporário. Seu recipiente recupera todos os goles de bebida ao amanhecer, apesar de você nunca se lembrar de como conseguiu mais bebida… Essa bebida não provoca penalidades, mas também não conta como água para saciar fome e sede (Tormenta20, p. 319). A critério do mestre, essa bebida pode ser compartilhada com outros personagens em situações de interpretação, mas não fornece nenhum bônus para eles e não pode ser alterada de nenhuma forma.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

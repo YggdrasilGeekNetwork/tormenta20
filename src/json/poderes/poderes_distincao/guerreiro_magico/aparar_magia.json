@@ -1,0 +1,17 @@
+{
+  "id": "aparar_magia",
+  "name": "Aparar Magia",
+  "type": "poder_distincao",
+  "description": "Com um golpe, o guerreiro mágico corta o fluxo da magia. Uma vez por rodada, quando falha em um teste de resistência contra uma habilidade mágica, você pode gastar 2 PM para fazer um teste de ataque e usar seu resultado como o valor do teste de resistência. Se o resultado do ataque superar a CD do efeito por 10 ou mais, você evita totalmente o efeito e o reflete contra a fonte, que passa a ser afetada em seu lugar (outras partes do efeito, como outros alvos ou o resto de sua área, não são afetadas).",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "frequencia": "uma vez por rodada",
+      "gatilho": "falhar em teste de resistência contra habilidade mágica",
+      "efeito": "usa o resultado de um teste de ataque como teste de resistência; se superar a CD em 10+, evita o efeito e o reflete contra a fonte"
+    }
+  ],
+  "requirements": ["Fogo e Aço"],
+  "livro": "herois_de_arton"
+}

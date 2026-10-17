@@ -1,0 +1,15 @@
+{
+  "id": "roleta_ahleniense",
+  "name": "Roleta Ahleniense",
+  "description": "Montada sobre um móvel fino de madeira, esta roleta é uma peça impressionante, que lembra a todos da influência do caos em Arton. Instalada na sala de jogos, permite que você role novamente um teste de perícia por aventura.",
+  "effects": [
+    {
+      "type": "rerrolar_teste_pericia",
+      "value": 1,
+      "por": "aventura"
+    }
+  ],
+  "preco": 2000,
+  "comodo_alvo": "sala_de_jogos",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,28 @@
+{
+  "id": "heroismo_galante",
+  "name": "Heroísmo Galante",
+  "type": "poder_distincao",
+  "description": "Um Mosqueteiro não hesita em defender um inocente, mesmo que isso custe sua vida. Quando um aliado adjacente é alvo de um ataque, você pode gastar 1 PM para se tornar o alvo do ataque, que então é resolvido normalmente. Se você tiver todos os poderes da distinção, quando um aliado em alcance curto é alvo de um ataque, você pode gastar 3 PM para se deslocar até um espaço adjacente a ele e ao atacante (desde que tenha um caminho desimpedido) e se tornar o alvo do ataque. Você só pode usar este poder uma vez por rodada e ele requer liberdade de movimentos; você não pode usá-lo se estiver de armadura pesada ou na condição imóvel.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "limite": "uma vez por rodada",
+      "gatilho": "aliado adjacente é alvo de um ataque",
+      "efeito": "torna-se o alvo do ataque"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 3,
+      "condicao": "possui todos os poderes da distinção",
+      "gatilho": "aliado em alcance curto é alvo de um ataque",
+      "efeito": "desloca-se até espaço adjacente ao aliado e ao atacante (com caminho desimpedido) e torna-se o alvo do ataque",
+      "restricao": "requer liberdade de movimentos; não pode com armadura pesada ou condição imóvel"
+    }
+  ],
+  "requirements": [
+    "treinado em Reflexos",
+    "Mestre Esgrimista"
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "icar_a_bandeira_preta",
+  "name": "Içar a Bandeira Preta",
+  "type": "poder_distincao",
+  "description": "A bandeira do Conclave Pirata inspira medo nos inimigos e esperança nos aliados. Uma vez por cena, você pode gastar uma ação de movimento e 5 PM para motivar seus aliados e assustar seus inimigos. Aliados em alcance curto recebem 5 PV e 1 PM temporários para cada poder da distinção que você possui, que duram até o fim da cena. Inimigos em alcance curto ficam abalados por 1d4 rodadas (Vontade CD Car evita). Caso sua bandeira já esteja visível no começo da cena, você pode usar este poder gastando apenas uma ação livre e 3 PM.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 5,
+      "limite": "uma vez por cena",
+      "efeito": "aliados em alcance curto recebem 5 PV e 1 PM temporários por poder da distinção (até o fim da cena); inimigos em alcance curto ficam abalados por 1d4 rodadas (Vontade CD Car evita)",
+      "condicao_alternativa": "se sua bandeira já estiver visível no começo da cena, custa apenas uma ação livre e 3 PM"
+    }
+  ],
+  "requirements": [
+    "treinado em Intimidação",
+    "treinado em Pilotagem",
+    "Audácia"
+  ],
+  "livro": "herois_de_arton"
+}

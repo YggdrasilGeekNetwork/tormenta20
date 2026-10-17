@@ -1,0 +1,22 @@
+{
+  "id": "batedor_marcial",
+  "name": "Batedor Marcial",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Você pode usar testes de Sobrevivência no lugar de testes de Guerra. Além disso, se passar em um teste para analisar terreno, além de quaisquer benefícios encontrados, na próxima vez que usar Marca da Presa nessa cena você recupera 1 PM.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "skill_substitution",
+      "from_skill": "guerra",
+      "to_skill": "sobrevivencia"
+    },
+    {
+      "type": "resource_gain",
+      "resource": "PM",
+      "value": 1,
+      "trigger": "passar_em_teste_de_analisar_terreno_condicionado_a_usar_marca_da_presa_na_cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

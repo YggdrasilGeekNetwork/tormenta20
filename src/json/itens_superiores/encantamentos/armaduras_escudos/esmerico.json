@@ -1,0 +1,25 @@
+{
+  "id": "esmerico",
+  "name": "Esmérico",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "O item é decorado com esmeraldas encantadas. Você recebe redução de ácido 10 e resistência a veneno +5. Além disso, você pode gastar 1 PM para criar um campo de energia esverdeada com duração sustentada que estende essa proteção para todos os aliados em alcance curto.",
+  "effects": [
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "tipo_dano": "ácido"
+    },
+    {
+      "type": "resistencia",
+      "tipo": "veneno",
+      "value": 5
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "efeito": "cria um campo de energia esverdeada com duração sustentada que estende a proteção (redução de ácido 10 e resistência a veneno +5) a todos os aliados em alcance curto"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

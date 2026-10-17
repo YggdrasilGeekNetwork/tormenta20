@@ -1,0 +1,19 @@
+{
+  "id": "esplendor_vitorioso_inigualavel",
+  "name": "Esplendor Vitorioso Inigualável",
+  "type": "poder_distincao",
+  "description": "Para obter a vitória, o mestre mahou-jutsu pode sacrificar o próprio corpo. Quando lança uma magia de dano, você pode gastar 10 PV para infundi-la com sua própria força vital. Se fizer isso, você soma sua Constituição à CD da magia e o dano básico de seu ataque desarmado ao dano dela.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pv": 10,
+      "gatilho": "lança uma magia de dano",
+      "efeito": "soma Constituição à CD da magia e o dano básico de seu ataque desarmado ao dano dela"
+    }
+  ],
+  "requirements": [
+    "lançar magias arcanas de 2º círculo",
+    "Punho Arcano"
+  ],
+  "livro": "herois_de_arton"
+}

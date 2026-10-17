@@ -1,0 +1,44 @@
+{
+  "id": "xadrez_de_batalha",
+  "name": "Xadrez de Batalha",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Você pode gastar uma ação de movimento e 1 PM para analisar um oponente em alcance curto. Se fizer isso, você recebe +2 na Defesa e em testes de Reflexos contra essa criatura até o fim da cena. Esse bônus aumenta em +1 para cada outro poder que você possua que tenha Xadrez de Batalha como pré-requisito.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "guerra"
+    }
+  ],
+  "effects": [
+    {
+      "type": "defense_improvement",
+      "value": 2,
+      "duration": "cena",
+      "target": "oponente_analisado"
+    },
+    {
+      "type": "skill_improvement",
+      "skill": "reflexos",
+      "value": 2,
+      "duration": "cena",
+      "target": "oponente_analisado"
+    },
+    {
+      "type": "bonus",
+      "value": 1,
+      "requirement": "por_cada_outro_poder_possuido_que_tenha_xadrez_de_batalha_como_pre_requisito"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    },
+    {
+      "type": "acao_de_movimento"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

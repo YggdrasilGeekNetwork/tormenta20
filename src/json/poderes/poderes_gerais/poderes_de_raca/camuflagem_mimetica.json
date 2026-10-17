@@ -1,0 +1,47 @@
+{
+  "id": "camuflagem_mimetica",
+  "name": "Camuflagem Mimética",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você pode mudar sua cor e textura a ponto de ficar quase invisível. Você pode gastar uma ação de movimento e 2 PM para receber um bônus em Furtividade até o fim da cena. O bônus varia conforme o que você estiver vestindo: +10 se estiver sem armadura e com no máximo um item vestido, +5 se estiver de armadura leve e/ou com até dois itens vestidos, +2 se estiver de armadura pesada e/ou com mais de dois itens vestidos.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "sereia_tritao",
+        "trog"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "active_ability",
+      "action": "movimento",
+      "effect": "skill_improvement",
+      "skill": "furtividade",
+      "value_options": [
+        {
+          "value": 10,
+          "condition": "sem_armadura_e_no_maximo_1_item_vestido"
+        },
+        {
+          "value": 5,
+          "condition": "armadura_leve_e_ou_ate_2_itens_vestidos"
+        },
+        {
+          "value": 2,
+          "condition": "armadura_pesada_e_ou_mais_de_2_itens_vestidos"
+        }
+      ],
+      "duration": "fim_da_cena"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

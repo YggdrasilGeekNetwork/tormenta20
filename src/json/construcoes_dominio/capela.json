@@ -1,0 +1,16 @@
+{
+  "id": "capela",
+  "name": "Capela",
+  "description": "Uma pequena construção voltada para preces. Fornece +2 em Religião.",
+  "categoria": "religiao",
+  "custo": 5,
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Religião",
+      "value": 2
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

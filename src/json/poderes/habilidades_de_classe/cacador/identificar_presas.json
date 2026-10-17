@@ -1,0 +1,23 @@
+{
+  "id": "identificar_presas",
+  "name": "Identificar Presas",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Você pode identificar criaturas como uma ação de movimento. Além disso, se passar nesse teste, para cada informação obtida você recebe +1 em rolagens de dano contra criaturas dessa espécie até o fim da cena.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "action_type_change",
+      "to_action": "movimento",
+      "applies_to": "identificar_criaturas"
+    },
+    {
+      "type": "damage_improvement",
+      "value": 1,
+      "per": "informacao_obtida",
+      "applies_to": "criaturas_da_especie_identificada",
+      "duration": "cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

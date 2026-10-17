@@ -1,0 +1,18 @@
+{
+  "id": "firula",
+  "name": "Firula",
+  "description": "Na primeira rodada de cada combate, você deve gastar uma ação padrão apresentando-se, fazendo uma coreografia ou informando seu peso, altura e cartel. †",
+  "categoria": "lutador",
+  "effects": [
+    {
+      "type": "restricao_acao",
+      "descricao": "na primeira rodada de cada combate, deve gastar uma ação padrão apresentando-se, fazendo uma coreografia ou informando seu peso, altura e cartel"
+    },
+    {
+      "type": "comportamental",
+      "descricao": "se violar a complicação, perde todos os PM e só pode recuperá-los a partir do próximo dia"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "chocante",
+  "name": "Chocante",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico é adornado com topázios e emite o som de estalos elétricos. Suas magias que causam dano de eletricidade causam um dado extra de dano do mesmo tipo e deixam o alvo ofuscado por 1 rodada.",
+  "effects": [
+    {
+      "type": "dano_extra_magia",
+      "condicao": "magias que causam dano de eletricidade",
+      "dado_extra": true,
+      "efeito_adicional": "alvo fica ofuscado por 1 rodada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

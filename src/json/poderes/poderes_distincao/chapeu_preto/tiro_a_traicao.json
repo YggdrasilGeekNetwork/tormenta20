@@ -1,0 +1,14 @@
+{
+  "id": "tiro_a_traicao",
+  "name": "Tiro à Traição",
+  "type": "poder_distincao",
+  "description": "Nunca dê as costas a um chapéu-preto. O dano de seus ataques com armas contra alvos desprevenidos ou sob alguma condição de medo aumenta em um passo.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "dano de ataques com armas contra alvos desprevenidos ou sob condição de medo aumenta em um passo"
+    }
+  ],
+  "requirements": ["Coração Duro", "ter feito pelo menos três acertos críticos em alvos desprevenidos"],
+  "livro": "herois_de_arton"
+}

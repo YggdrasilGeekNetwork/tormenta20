@@ -1,0 +1,24 @@
+{
+  "id": "papiro_das_estrelas",
+  "name": "Papiro das Estrelas",
+  "categoria": "menor",
+  "preco": 1500,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Um pergaminho preto que parece conter constelações em sua superfície. Desenrolado, projeta um mapa celeste mágico que revela localizações ocultas, caminhos seguros ou perigos iminentes. Fornece +5 em testes de Sobrevivência para orientar-se e rastrear, e em testes de Percepção para evitar ser surpreendido por inimigos nos ermos.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Sobrevivência",
+      "condicao": "para orientar-se e rastrear",
+      "value": 5
+    },
+    {
+      "type": "bonus_pericia",
+      "pericia": "Percepção",
+      "condicao": "para evitar ser surpreendido por inimigos nos ermos",
+      "value": 5
+    }
+  ],
+  "livro": "herois_de_arton"
+}

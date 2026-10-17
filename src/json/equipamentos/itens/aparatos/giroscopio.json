@@ -1,0 +1,15 @@
+{
+  "id": "giroscopio",
+  "name": "Giroscópio",
+  "type": "item",
+  "categoria": "aparato",
+  "preco": 450,
+  "espacos": 1,
+  "espacos_acoplado": 0,
+  "cd_fabricacao": 20,
+  "efeito": {
+    "ignora_penalidade_de_armadura_na_ativacao": true
+  },
+  "description": "Aparato usado por inventores para modificar o funcionamento de suas engenhocas. Enquanto acoplado a uma engenhoca, não ocupa espaços; uma engenhoca pode ter até dois aparatos diferentes. Usar um aparato aumenta a CD para ativar a engenhoca em +2 (dois aparatos, +5). Acoplar ou remover um aparato exige 1 hora de trabalho. Aparatos são fabricados com Ofício (engenhoqueiro), CD 20. Sistema de contrapesos, amortecedores e roldanas instalado ao redor da engenhoca, deixando-a sempre estável. Você não aplica sua penalidade de armadura nos testes de ativação da engenhoca (mas aplica penalidades de armadura de outras fontes).",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "sepulcral",
+  "name": "Sepulcral",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma emana energia negativa. Quando gasta PM para ativar o efeito de tumular, se você acertar o ataque, a criatura não pode recuperar pontos de vida por 1d4 rodadas. Pré-requisito: tumular.",
+  "prerequisitos": [
+    "tumular"
+  ],
+  "effects": [
+    {
+      "type": "ativado",
+      "gatilho": "gasta PM para ativar o efeito de tumular e acerta o ataque",
+      "efeito": "a criatura não pode recuperar pontos de vida por 1d4 rodadas"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

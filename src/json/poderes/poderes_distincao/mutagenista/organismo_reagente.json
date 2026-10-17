@@ -1,0 +1,18 @@
+{
+  "id": "organismo_reagente",
+  "name": "Organismo Reagente",
+  "type": "poder_distincao",
+  "description": "O corpo do mutagenista se torna um laboratório. Quando você ingere um preparado alquímico, se ele fornece um bônus em perícias, esse bônus aumenta em +1 e, se ele fornece PV ou PM (temporários ou por cura), esse efeito aumenta em +1 por dado. Para cada dois outros poderes da distinção, esses efeitos aumentam em +1.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "ingere um preparado alquímico",
+      "efeito": "bônus em perícias aumenta em +1; efeitos de PV/PM (temporários ou por cura) aumentam em +1 por dado",
+      "escalavel": "a cada dois outros poderes da distinção, esses efeitos aumentam em +1"
+    }
+  ],
+  "requirements": [
+    "Mutagenia Adicional"
+  ],
+  "livro": "herois_de_arton"
+}

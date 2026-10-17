@@ -1,0 +1,29 @@
+{
+  "id": "punicao_divina",
+  "name": "Punição Divina",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Uma vez por rodada, quando lança uma magia divina com tempo de execução de ação de movimento em si mesmo, você pode gastar +2 PM para fazer um ataque como ação livre. Pré-requisito: Prece de Combate.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "prece_de_combate"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "frequency": "1_por_rodada",
+      "trigger": "lancar_magia_divina_acao_de_movimento_em_si_mesmo",
+      "effect": "ataque_como_acao_livre"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

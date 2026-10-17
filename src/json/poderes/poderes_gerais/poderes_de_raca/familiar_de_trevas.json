@@ -1,0 +1,41 @@
+{
+  "id": "familiar_de_trevas",
+  "name": "Familiar de Trevas",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Seu familiar se transforma em uma criatura abissal. Além dos benefícios normais, seu familiar se torna imune a dano de trevas e, sempre que lança uma magia que gere um efeito de trevas, você recebe +1 PM para gastar em aprimoramentos.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "sulfure",
+        "qareen"
+      ],
+      "note": "sulfure, ou qareen das Trevas"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "familiar"
+    }
+  ],
+  "effects": [
+    {
+      "type": "familiar_transform",
+      "form": "abissal"
+    },
+    {
+      "type": "immunity",
+      "value": "dano_de_trevas",
+      "target": "familiar"
+    },
+    {
+      "type": "pm_improvement",
+      "value": 1,
+      "trigger": "lancar_magia_com_efeito_de_trevas",
+      "use": "aprimoramentos"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

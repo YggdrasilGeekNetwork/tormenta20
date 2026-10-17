@@ -1,0 +1,38 @@
+{
+  "id": "combinacao_quebra_guarda",
+  "name": "Combinação: Quebra-guarda",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Quando faz um ataque, você pode gastar 1 PM para que seu golpe supere defesas. Se fizer isso, recebe um bônus no teste de ataque igual à sua contagem de combinações. Se acertar, o oponente não pode usar habilidades para reduzir o dano do ataque ou receber RD adicional contra ele. Além disso, o oponente fica vulnerável até o fim do seu próximo turno.",
+  "requirements": [
+    {
+      "type": "attack_type",
+      "sub_type": "soft",
+      "attack": "desarmado"
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": "contagem_de_combinacoes"
+    },
+    {
+      "type": "damage_resist_improvement",
+      "note": "oponente_nao_pode_usar_habilidades_para_reduzir_dano_ou_ganhar_rd_adicional",
+      "requirement": "acertar"
+    },
+    {
+      "type": "condition",
+      "condition": "vulneravel",
+      "duration": "fim_do_proximo_turno",
+      "requirement": "acertar"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

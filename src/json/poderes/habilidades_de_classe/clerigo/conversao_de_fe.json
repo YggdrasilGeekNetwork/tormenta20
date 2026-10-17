@@ -1,0 +1,35 @@
+{
+  "id": "conversao_de_fe",
+  "name": "Conversão de Fé",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Uma vez por cena, você pode gastar uma ação completa e 3 PM para pregar sua fé a uma criatura inteligente (Int –3 ou maior) do tipo lacaio em alcance curto. Faça um teste de Religião oposto ao teste de Vontade da criatura (você recebe +5 no teste com devotos de seu deus, mas sofre –5 com devotos de outros deuses). Se você vencer, até o fim da cena a atitude da criatura se torna prestativa com relação a você e ela passa a atuar como um parceiro iniciante de um tipo à escolha do mestre, que não conta no seu limite de parceiros. Pré-requisito: Autoridade Eclesiástica.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "autoridade_eclesiastica"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active",
+      "frequency": "1_por_cena",
+      "action": "completa",
+      "target": "criatura_inteligente_lacaio_em_alcance_curto",
+      "test": "religiao_oposto_vontade",
+      "modifiers": {
+        "devoto_do_mesmo_deus": 5,
+        "devoto_de_outro_deus": -5
+      },
+      "on_win": "atitude_vira_prestativa_e_age_como_parceiro_iniciante_ate_fim_da_cena_nao_conta_no_limite"
+    }
+  ],
+  "costs": [
+    {
+      "value": 3,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

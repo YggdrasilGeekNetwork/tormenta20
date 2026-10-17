@@ -1,0 +1,7 @@
+{
+  "id": "devocoes_abertas",
+  "name": "Devoções Abertas",
+  "description": "Regra opcional (Heróis de Arton, Cap. 4, p.281). Esta variante é simples: um personagem pode ser devoto de qualquer divindade, independente de sua raça ou classe. O Panteão está sempre imerso em conflitos, e faz sentido que um deus aceite qualquer devoto para ganhar poder sobre seus irmãos.",
+  "regra": "Um personagem pode ser devoto de qualquer divindade, independente de sua raça ou classe.",
+  "livro": "herois_de_arton"
+}

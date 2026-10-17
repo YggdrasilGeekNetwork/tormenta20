@@ -1,0 +1,17 @@
+{
+  "id": "suite",
+  "name": "Suíte",
+  "description": "Um quarto amplo e aconchegante, equipado com diversos confortos que tornam a estadia mais agradável e o sono, mais reparador. Até dois residentes (que durmam juntos!) recebem +3 pontos de vida e as condições de descanso na base se tornam confortáveis. Este cômodo pode ser construído várias vezes, para que mais residentes possam se beneficiar dele.",
+  "effects": [
+    {
+      "type": "bonus_pv",
+      "value": 3,
+      "limite_residentes": 2
+    },
+    {
+      "type": "descanso_confortavel"
+    }
+  ],
+  "prerequisito": "base básica ou melhor",
+  "livro": "herois_de_arton"
+}

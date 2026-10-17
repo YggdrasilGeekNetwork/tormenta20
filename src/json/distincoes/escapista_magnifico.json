@@ -1,0 +1,10 @@
+{
+  "id": "escapista_magnifico",
+  "name": "Escapista Magnífico",
+  "description": "Espiões e infiltradores treinados pela sombria Guilda sem Nome de Valkaria, mestres em passar despercebidos e escapar de qualquer perigo sem nunca parecer especiais.",
+  "admissao": "A Guilda sem Nome, sociedade secreta de infiltradores e ladrões de Valkaria, seleciona seus candidatos com base em parâmetros próprios: o candidato deve possuir algum tipo de \"defeito\" muito evidente que o torne comum, ordinário e discreto (um ferimento permanente, uma categoria de idade, ou algo muito incômodo). Se escolhido, é acolhido por um grupo de instrutores excêntricos e passa por um treinamento que pode exigir grande pagamento em dinheiro ou serviços — o treinamento completo pode levar mais de dez anos, mas o básico exige apenas seis meses na sede da Guilda em Valkaria (que podem ser divididos). O candidato nunca pode revelar seu treinamento a ninguém, nem mesmo companheiros de grupo, e nunca pode \"corrigir\" seu aparente defeito — fazer isso faz com que perca automaticamente todas as capacidades já adquiridas.",
+  "marca_nome": "Vantagem Secreta",
+  "marca_descricao": "Escolha uma de suas fontes de penalidades (como uma habilidade racial, um poder da Tormenta ou uma complicação). Você não sofre as penalidades da fonte escolhida.",
+  "nivel_minimo": 5,
+  "livro": "herois_de_arton"
+}

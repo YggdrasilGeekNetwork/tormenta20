@@ -1,0 +1,17 @@
+{
+  "id": "amaldicoado",
+  "name": "Amaldiçoado",
+  "description": "Você foi amaldiçoado por uma entidade poderosa, como um lich, um nobre feérico, um Lorde da Tormenta ou mesmo um deus. No início de cada cena envolvendo qualquer tipo de risco ou perigo, role 1d6. Em um resultado 1, você não consegue usar seus pontos de mana nessa cena.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "restricao_condicional",
+      "gatilho": "inicio_de_cena_de_risco_ou_perigo",
+      "dado": "1d6",
+      "condicao_valor": 1,
+      "efeito": "nao_pode_usar_pontos_de_mana_na_cena"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

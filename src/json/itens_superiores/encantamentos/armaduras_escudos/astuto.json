@@ -1,0 +1,26 @@
+{
+  "id": "astuto",
+  "name": "Astuto",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "Você recebe +5 em Intuição e Percepção. Uma vez por rodada, pode gastar 3 PM para detectar automaticamente a presença e a localização de todas as criaturas escondidas ou invisíveis em alcance curto.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Intuição",
+      "value": 5
+    },
+    {
+      "type": "bonus_pericia",
+      "pericia": "Percepção",
+      "value": 5
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 3,
+      "frequencia": "por_rodada",
+      "efeito": "detecta automaticamente a presença e a localização de todas as criaturas escondidas ou invisíveis em alcance curto"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

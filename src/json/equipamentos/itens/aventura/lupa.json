@@ -1,0 +1,15 @@
+{
+  "id": "lupa",
+  "name": "Lupa",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 30,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "empunhado",
+  "efeito": {
+    "teste_investigacao_procurar_rola_dois_dados_usa_melhor": true
+  },
+  "description": "Lente de aumento em uma armação metálica com cabo de madeira, equipamento indispensável para detetives. Quando faz um teste de Investigação para procurar usando uma lupa, você pode rolar dois dados e usar o melhor resultado.",
+  "livro": "herois_de_arton"
+}

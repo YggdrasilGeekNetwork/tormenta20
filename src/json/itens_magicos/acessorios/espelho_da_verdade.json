@@ -1,0 +1,23 @@
+{
+  "id": "espelho_da_verdade",
+  "name": "Espelho da Verdade",
+  "categoria": "medio",
+  "preco": 21000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este grande espelho é emoldurado em ferro e adornado com figuras de celestiais combatendo abissais. A imagem de qualquer criatura ou objeto refletida no espelho revela sua forma verdadeira, como a magia Visão da Verdade — sendo assim um item muitas vezes encontrado em locais de alta segurança. O espelho também pode ser utilizado por um conjurador como a superfície reflexiva para lançar Vidência, aumentando a CD dessa magia em +5 e estendendo seu efeito de Visão da Verdade ao alvo observado.",
+  "effects": [
+    {
+      "type": "efeito_continuo_reflexo",
+      "magia": "Visão da Verdade",
+      "descricao": "revela a forma verdadeira de quem se reflete no espelho"
+    },
+    {
+      "type": "superficie_conjuracao",
+      "magia": "Vidência",
+      "bonus_cd": 5,
+      "efeito_adicional": "estende Visão da Verdade ao alvo observado"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

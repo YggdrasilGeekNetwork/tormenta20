@@ -1,0 +1,27 @@
+{
+  "id": "escudo_da_ira_vulcanica",
+  "name": "Escudo da Ira Vulcânica",
+  "subtipo": "escudo",
+  "base_item": "escudo_pesado",
+  "preco": 54000,
+  "description": "Feito de rocha vulcânica e gravado com runas de magma, este escudo pesado guardião fornece redução de fogo 10 e permite que você lance Explosão de Chamas como uma ação de movimento (Ref CD Car; se já puder lançar essa magia, sua área é dobrada).",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "guardião"
+    },
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "tipo_dano": "fogo"
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Explosão de Chamas",
+      "acao": "movimento",
+      "cd": "Carisma",
+      "condicao": "se já souber lançar a magia, sua área é dobrada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

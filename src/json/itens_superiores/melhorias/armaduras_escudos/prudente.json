@@ -1,0 +1,16 @@
+{
+  "id": "prudente",
+  "name": "Prudente",
+  "type": "melhoria",
+  "categoria": "armadura",
+  "prerequisitos": null,
+  "description": "Alguns aventureiros temem mais seus próprios erros do que os golpes dos adversários. Para eles existe esta melhoria, que pode ser aplicada a qualquer armadura. Representa dezenas de pequenos e grandes ajustes feitos para minimizar a chance de que um descuido do usuário cause sua ruína: grevas são equipadas com suportes para dificultar escorregões, elmos são abertos em pontos estratégicos para melhorar a audição e a visão, manoplas recebem cobertura aderente para impedir que armas sejam derrubadas... Se estiver usando a regra opcional Falhas Críticas, uma vez por dia você pode rolar duas vezes na Tabela 4-6 e escolher o resultado que preferir.",
+  "effects": [
+    {
+      "type": "rerolagem_falha_critica",
+      "vezes_por_dia": 1,
+      "condicao": "requer a regra opcional Falhas Críticas; rola duas vezes na Tabela 4-6 e escolhe o resultado"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

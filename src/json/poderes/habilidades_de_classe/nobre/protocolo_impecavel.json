@@ -1,0 +1,32 @@
+{
+  "id": "protocolo_impecavel",
+  "name": "Protocolo Impecável",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Quando chega em um ambiente social (veja Fofocas da Corte), você pode gastar 2 PM e fazer um teste de Nobreza (CD 20). Se passar, porta-se da maneira ideal para a situação, o que melhora a atitude de todas as criaturas em relação a você em uma categoria. Se passar por 10 ou mais, a critério do mestre você pode receber possibilidades de interação que normalmente não teria — por exemplo, ao chegar em um acampamento militar ou castelo, pode ser convidado para falar com o general ou o nobre comandante.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "nobreza"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "jogo_da_corte"
+    }
+  ],
+  "effects": [
+    {
+      "type": "bonus",
+      "note": "melhora_a_atitude_de_todas_as_criaturas_em_relacao_a_voce_em_uma_categoria_se_passar_teste_de_nobreza_cd_20"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

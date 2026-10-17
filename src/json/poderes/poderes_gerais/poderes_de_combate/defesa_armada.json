@@ -1,0 +1,28 @@
+{
+  "id": "defesa_armada",
+  "name": "Defesa Armada",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Sua arma é tão grande que funciona como um escudo, protegendo-o dos ataques de seus inimigos! Se estiver usando uma arma corpo a corpo de duas mãos, você recebe +2 na Defesa e em Fortitude.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "estilo_de_duas_maos"
+    }
+  ],
+  "effects": [
+    {
+      "type": "defense_improvement",
+      "value": 2,
+      "condition": "empunhando_arma_corpo_a_corpo_de_duas_maos"
+    },
+    {
+      "type": "resistence_test_improvement",
+      "save": "fortitude",
+      "value": 2,
+      "condition": "empunhando_arma_corpo_a_corpo_de_duas_maos"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

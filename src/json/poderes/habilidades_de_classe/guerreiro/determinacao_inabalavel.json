@@ -1,0 +1,34 @@
+{
+  "id": "determinacao_inabalavel",
+  "name": "Determinação Inabalável",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Enquanto estiver com metade dos seus pontos de vida ou menos, você recebe +2 em testes de resistência e o custo de sua habilidade Durão diminui em –1 PM.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "durao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "skill": "testes_de_resistencia",
+      "value": 2,
+      "requirement": "pv_igual_ou_menor_a_metade"
+    },
+    {
+      "type": "reduce_PM_cost",
+      "value": -1,
+      "feature": "durao"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

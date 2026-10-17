@@ -1,0 +1,17 @@
+{
+  "id": "condecoracao_militar",
+  "name": "Condecoração Militar",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": null,
+  "espacos": 1,
+  "cd_fabricacao": null,
+  "obtencao": "concedida por um reino ou igreja após uma missão bem-sucedida (não pode ser comprada)",
+  "efeito": {
+    "pv_temporarios_inicio_combate": "3x o patamar em que foi conquistada",
+    "cumulativo_com_outras_condecoracoes_e_itens": true,
+    "exemplo": "6 PV temporários para uma condecoração obtida em patamar veterano"
+  },
+  "description": "Condecorações não são compradas, são conquistadas. Uma condecoração militar é concedida por um reino ou igreja após uma missão bem-sucedida. Se estiver ostentando sua condecoração, no início de cada combate você recebe uma quantidade de PV temporários, cumulativa com outros bônus de itens e com outras condecorações, igual a 3x o patamar em que a condecoração foi conquistada (por exemplo, 6 PV para uma condecoração obtida em patamar veterano).",
+  "livro": "herois_de_arton"
+}

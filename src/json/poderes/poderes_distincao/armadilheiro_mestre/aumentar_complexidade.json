@@ -1,0 +1,16 @@
+{
+  "id": "aumentar_complexidade",
+  "name": "Aumentar Complexidade",
+  "type": "poder_distincao",
+  "description": "Mais complexas, mais engenhosas, mais perigosas, mais mortais. Você soma sua Inteligência no dano e na CD de suas armadilhas (cumulativo) e elas passam a ocupar uma área de 4,5m de lado. Além disso, se você estiver em alcance médio de uma de suas armadilhas, pode dispará-la como uma ação livre.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "soma a Inteligência no dano e na CD das armadilhas (cumulativo); as armadilhas passam a ocupar uma área de 4,5m de lado; se estiver em alcance médio de uma delas, pode dispará-la como uma ação livre"
+    }
+  ],
+  "requirements": [
+    "Armadilha Instantânea"
+  ],
+  "livro": "herois_de_arton"
+}

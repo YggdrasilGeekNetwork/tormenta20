@@ -1,0 +1,23 @@
+{
+  "id": "lanca_de_justa",
+  "name": "Lança de Justa",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 3,
+  "dano": "1d8",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "habilidades": [],
+  "especial": {
+    "funciona_como": "lanca_montada",
+    "dano_nao_letal": true,
+    "investida_montada_derrubar_acao_livre": true,
+    "chance_quebrar_ao_acertar": "50%"
+  },
+  "description": "Esta lança montada é feita para esporte, não combate real. Funciona como uma lança montada (Tormenta20, p.148), mas causa dano não letal. Se fizer uma investida montada com esta arma e acertar o ataque, pode fazer a manobra derrubar como uma ação livre. É feita para se estilhaçar com grande impacto; se você acertar o alvo, há 50% de chance de que ela se quebre.",
+  "livro": "herois_de_arton"
+}

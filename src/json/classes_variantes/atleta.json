@@ -1,0 +1,69 @@
+{
+  "id": "atleta",
+  "name": "Atleta",
+  "base_class_id": "lutador",
+  "description": "Um aventureiro que cultiva seu corpo ao limite, sendo capaz de correr mais rápido, saltar mais alto e nadar por mais tempo que qualquer outro. Não treina técnicas de luta, mas é capaz de erguer pesos impressionantes e realizar acrobacias incríveis. Perícias: Atletismo (For) e Luta (For), mais 4 a sua escolha entre Acrobacia, Adestramento, Cavalgar, Cura, Fortitude, Iniciativa, Intimidação, Ofício, Percepção, Pilotagem, Pontaria e Reflexos. Proficiências: nenhuma.",
+  "diffs": [
+    {
+      "nivel": 1,
+      "remove": ["golpe_relampago"],
+      "adiciona": [
+        {
+          "id": "facanha_atletica",
+          "name": "Façanha Atlética",
+          "description": "Quando faz um teste de perícia, você pode gastar uma quantidade de PM a sua escolha (limitada pela sua Força). Para cada PM que gastar, recebe +2 no teste."
+        }
+      ]
+    },
+    {
+      "nivel": 2,
+      "remove": [],
+      "adiciona": [
+        {
+          "id": "arremesso_atletico",
+          "name": "Arremesso Atlético",
+          "description": "No 2º nível, o alcance de seus ataques com armas de arremesso aumenta em um passo. Além disso, quando ataca com uma dessas armas, você pode usar o dano da habilidade Briga no lugar do dano básico da arma. A partir do 10º nível, seus ataques com armas de arremesso contam como ataques desarmados para efeito de suas habilidades de lutador."
+        },
+        {
+          "id": "poderio_muscular",
+          "name": "Poderio Muscular",
+          "description": "No 2º nível, você aprende e pode lançar Primor Atlético, mas apenas em si mesmo. Esta não é uma habilidade mágica e provém de seu extenso treinamento físico."
+        }
+      ]
+    },
+    {
+      "nivel": 5,
+      "remove": ["golpe_cruel"],
+      "adiciona": [
+        {
+          "id": "mais_alto_e_mais_rapido",
+          "name": "Mais Alto e Mais Rápido",
+          "description": "No 5º nível, seu deslocamento aumenta em +3m. Você recebe deslocamento de escalada e natação igual à metade de seu deslocamento normal (ou +3m se já os possui) e soma seu nível de atleta ao total de rodadas para prender a respiração."
+        }
+      ]
+    },
+    {
+      "nivel": 9,
+      "remove": ["golpe_violento"],
+      "adiciona": [
+        {
+          "id": "disciplina_atletica",
+          "name": "Disciplina Atlética",
+          "description": "A partir do 9º nível, quando falha em um teste de resistência, você pode gastar 2 PM para rolar esse teste novamente, usando Atletismo no lugar da perícia original."
+        }
+      ]
+    },
+    {
+      "nivel": 20,
+      "remove": ["dono_da_rua"],
+      "adiciona": [
+        {
+          "id": "corpo_ideal",
+          "name": "Corpo Ideal",
+          "description": "No 20º nível, você recebe imunidade a cansaço, condições de metabolismo e veneno, redução de dano 10, e seu dano desarmado e com armas de arremesso aumenta para 2d10 (criaturas Médias)."
+        }
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

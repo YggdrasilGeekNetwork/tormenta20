@@ -1,0 +1,29 @@
+{
+  "id": "tiro_trespassante",
+  "name": "Tiro Trespassante",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Quando você faz um ataque à distância com uma arma de disparo e reduz os pontos de vida do alvo a 0 ou menos, pode gastar 1 PM para fazer um ataque adicional contra outra criatura que esteja adiante na mesma linha, usando a mesma arma e munição do ataque original. Pré-requisito: Arqueiro.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "arqueiro_cacador"
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "trigger": "reduzir_alvo_a_0_pv_com_arma_de_disparo",
+      "target": "outra_criatura_na_mesma_linha",
+      "reuses": "mesma_arma_e_municao"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

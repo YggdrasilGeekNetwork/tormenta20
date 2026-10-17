@@ -1,0 +1,17 @@
+{
+  "id": "cinto_da_desmaterializacao",
+  "name": "Cinto da Desmaterialização",
+  "categoria": "maior",
+  "preco": 60000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este cinto feito de couro e metal possui um fecho especial que permite ao usuário desmaterializar seu corpo por um curto período. Você pode lançar Forma Etérea, mas apenas em você mesmo.",
+  "effects": [
+    {
+      "type": "concede_magia",
+      "magia": "Forma Etérea",
+      "restricao": "apenas no próprio usuário"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "reliquias_sagradas",
+  "name": "Relíquias Sagradas",
+  "type": "poder_distincao",
+  "description": "Certos vigaristas conseguem enredar até os deuses em sua teia de mentiras. Você pode enfeitar um item mundano com motivos religiosos para que ele se pareça com um acessório mágico menor a sua escolha. Fazer isso gasta 1 hora de trabalho e 1/100 do preço do acessório. Para usar a \"relíquia\" primeiro você precisa empunhá-la (ou vesti-la) e gastar uma ação de movimento e 2 PM para professar seus poderes em voz alta. Se fizer isso, ela funciona como se fosse verdadeira até o fim da cena, ou até você ativar outra de suas relíquias. Você pode ter até uma relíquia sagrada por poder da distinção que possuir.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "pode enfeitar item mundano (1 hora, 1/100 do preço) para parecer um acessório mágico menor à escolha",
+      "limite": "até uma relíquia por poder da distinção que possuir"
+    },
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 2,
+      "efeito": "empunha/veste a relíquia e professa seus poderes em voz alta; funciona como verdadeira até o fim da cena ou até ativar outra relíquia"
+    }
+  ],
+  "requirements": [
+    "Calma Lá",
+    "Efeito Placebo"
+  ],
+  "livro": "herois_de_arton"
+}

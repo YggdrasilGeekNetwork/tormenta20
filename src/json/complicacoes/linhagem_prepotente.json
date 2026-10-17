@@ -1,0 +1,15 @@
+{
+  "id": "linhagem_prepotente",
+  "name": "Linhagem Prepotente",
+  "description": "Sua magia inata rejeita auxílio de cacarecos. Você não pode usar catalisadores e itens esotéricos mundanos. Você ainda pode usar itens esotéricos mágicos, já que esses são verdadeiramente imbuídos de magia — como você! Pré-requisito: Feiticeiro.",
+  "categoria": "arcanista",
+  "effects": [
+    {
+      "type": "restricao_equipamento",
+      "descricao": "não pode usar catalisadores e itens esotéricos mundanos; ainda pode usar itens esotéricos mágicos",
+      "pre_requisito": "feiticeiro"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

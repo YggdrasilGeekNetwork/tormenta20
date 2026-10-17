@@ -1,0 +1,44 @@
+{
+  "id": "espada_encantada",
+  "name": "Espada Encantada",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Quando você causa dano com seu Golpe Elemental, o alvo sofre uma condição conforme o tipo de dano escolhido. Ácido: vulnerável por 1 rodada. Eletricidade: ofuscado por 1 rodada. Fogo: em chamas. Frio: lento por 1 rodada. Pré-requisito: Golpe Elemental.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "golpe_elemental"
+    }
+  ],
+  "effects": [
+    {
+      "type": "condition_inflict",
+      "condition": "vulneravel",
+      "duration": "1_rodada",
+      "condition_trigger": "dano_acido",
+      "applies_to": "golpe_elemental"
+    },
+    {
+      "type": "condition_inflict",
+      "condition": "ofuscado",
+      "duration": "1_rodada",
+      "condition_trigger": "dano_eletricidade",
+      "applies_to": "golpe_elemental"
+    },
+    {
+      "type": "condition_inflict",
+      "condition": "em_chamas",
+      "condition_trigger": "dano_fogo",
+      "applies_to": "golpe_elemental"
+    },
+    {
+      "type": "condition_inflict",
+      "condition": "lento",
+      "duration": "1_rodada",
+      "condition_trigger": "dano_frio",
+      "applies_to": "golpe_elemental"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

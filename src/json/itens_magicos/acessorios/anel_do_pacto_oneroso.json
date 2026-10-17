@@ -1,0 +1,19 @@
+{
+  "id": "anel_do_pacto_oneroso",
+  "name": "Anel do Pacto Oneroso",
+  "categoria": "medio",
+  "preco": 15000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este anel de platina contém inscrições sobre um acordo com uma entidade poderosa — talvez um espírito ancestral, um Dragão-Real ou mesmo um deus do Panteão. O anel permite lançar uma magia divina de até 4º círculo a sua escolha, sem custo em PM. Contudo, para cada utilização, você deve realizar uma penitência ou busca determinada pelo mestre. Você não pode lançar uma nova magia até que a penitência pela magia anterior tenha sido cumprida.",
+  "effects": [
+    {
+      "type": "concede_magia_escolha",
+      "tipo": "divina",
+      "circulo_max": 4,
+      "custo_pm": 0,
+      "condicao": "exige penitência ou busca determinada pelo mestre; não pode lançar nova magia até cumprir a penitência anterior"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

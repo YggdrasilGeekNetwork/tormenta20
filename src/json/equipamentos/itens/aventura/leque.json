@@ -1,0 +1,19 @@
+{
+  "id": "leque",
+  "name": "Leque",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 3,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "empunhado",
+  "efeito": {
+    "substitui_atributo_teste_vontade": {
+      "de": "Sabedoria",
+      "para": "Carisma"
+    },
+    "frequencia": "uma_vez_por_cena"
+  },
+  "description": "Permite que damas e cavalheiros se abanem ou escondam a boca, para fofocar em paz. Uma vez por cena, quando faz um teste de Vontade, você pode se abanar para usar seu Carisma em vez de Sabedoria nesse teste.",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "resultado_destinado",
+  "name": "Resultado Destinado",
+  "type": "poder_distincao",
+  "description": "Um carteador é capaz de trapacear com seus inimigos, com os deuses e com o próprio destino. Uma vez por cena, você pode pagar 5 PM. Escolha uma habilidade de classe de até 5º nível de uma classe que não seja a sua. Você recebe essa habilidade e pode usá-la como se tivesse 5 níveis nessa classe (se escolher a habilidade Magias, você aprende uma única magia, mas não soma o atributo-chave da habilidade em seu total de PM) até o fim da cena. Seu atributo-chave para a habilidade é Carisma. Você não pode escolher a mesma habilidade de classe duas vezes na mesma aventura.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 5,
+      "limite": "uma vez por cena",
+      "efeito": "escolhe uma habilidade de classe de até 5º nível de uma classe que não seja a sua; recebe essa habilidade como se tivesse 5 níveis nela até o fim da cena (atributo-chave Carisma; se for Magias, aprende uma única magia sem somar o atributo-chave no total de PM)",
+      "restricao": "não pode escolher a mesma habilidade de classe duas vezes na mesma aventura"
+    }
+  ],
+  "requirements": [
+    "Jogo Perigoso",
+    "17º nível de personagem"
+  ],
+  "livro": "herois_de_arton"
+}

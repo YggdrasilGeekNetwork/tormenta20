@@ -1,0 +1,54 @@
+{
+  "id": "banquete_selvagem",
+  "name": "Banquete Selvagem",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Se você estiver em forma selvagem e gastar uma ação padrão para devorar um pedaço de uma criatura inconsciente que esteja com 0 PV ou menos (exceto construtos e seres incorpóreos), recebe +2 em Força, +5 em Intimidação e 2 PV temporários por nível até o fim da cena. Se a criatura é do tipo lacaio, ela morre.",
+  "requirements": [
+    {
+      "type": "devotee_of_divinity",
+      "sub_type": "hard",
+      "divinity": "megalokk"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "forma_selvagem"
+    },
+    {
+      "type": "fearute_actived",
+      "sub_type": "soft",
+      "feature": "forma_selvagem"
+    }
+  ],
+  "effects": [
+    {
+      "type": "attr_bonus_improvement",
+      "attr": "forca",
+      "value": 2,
+      "duration": "cena"
+    },
+    {
+      "type": "skill_improvement",
+      "skill": "intimidacao",
+      "value": 5,
+      "duration": "cena"
+    },
+    {
+      "type": "PV_improvement",
+      "value": "2_por_nivel",
+      "duration": "cena"
+    },
+    {
+      "type": "condition",
+      "condition": "morte",
+      "requirement": "criatura_devorada_do_tipo_lacaio"
+    }
+  ],
+  "costs": [
+    {
+      "type": "acao_padrao"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

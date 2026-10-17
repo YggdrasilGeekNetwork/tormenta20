@@ -1,0 +1,23 @@
+{
+  "id": "arco_montado",
+  "name": "Arco Montado",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "duas_maos",
+  "preco": 45,
+  "dano": "1d6",
+  "critico": "x3",
+  "alcance": "medio",
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "municao": "flechas",
+  "habilidades": [],
+  "especial": {
+    "sem_penalidade_montado": true,
+    "bonus_dano_montado_se_ja_ignora_penalidade": 2
+  },
+  "description": "Combina materiais resistentes em uma estrutura mais curta, próprio para ser disparado por um arqueiro montado. Você não sofre a penalidade em ataques à distância devido ao balanço de sua montaria (Tormenta20, p.262). Se você já possui uma habilidade que elimina essa penalidade, em vez disso ela fornece +2 nas rolagens de dano com este arco enquanto está montado.",
+  "livro": "herois_de_arton"
+}

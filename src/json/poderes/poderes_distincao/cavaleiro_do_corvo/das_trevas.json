@@ -1,0 +1,18 @@
+{
+  "id": "das_trevas",
+  "name": "Das Trevas",
+  "type": "poder_distincao",
+  "description": "Para o Cavaleiro do Corvo, a melhor tática é matar o inimigo antes que ele perceba a morte chegando. Quando ataca um oponente desprevenido ou que você esteja flanqueando, e que você tenha escolhido como alvo da habilidade Duelo, os bônus dessa habilidade contra esse oponente aumentam em +2.",
+  "effects": [
+    {
+      "type": "passivo",
+      "condicao": "ataca um oponente desprevenido ou flanqueado, escolhido como alvo da habilidade Duelo",
+      "efeito": "os bônus de Duelo contra esse oponente aumentam em +2"
+    }
+  ],
+  "requirements": [
+    "Duelo",
+    "Atrás das Linhas Inimigas"
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "mercado",
+  "name": "Mercado",
+  "description": "Como uma feira, mas com mais produtos e dinheiro circulando. Além disso, está sempre aberto, exceto em dias sagrados. Muda o ganho da feira para 1d8 LO.",
+  "categoria": "nobreza",
+  "custo": 10,
+  "effects": [
+    {
+      "type": "altera_dado_renda",
+      "construcao": "feira",
+      "novo_dado": "1d8"
+    }
+  ],
+  "prerequisito": "feira",
+  "livro": "herois_de_arton"
+}

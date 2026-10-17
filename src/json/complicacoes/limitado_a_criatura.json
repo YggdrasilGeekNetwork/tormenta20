@@ -1,0 +1,14 @@
+{
+  "id": "limitado_a_criatura",
+  "name": "Limitado a (Criatura)",
+  "description": "Você se especializou em lutar contra um inimigo específico — e só. Escolha um tipo de criatura do poder Inimigo de (Criatura). O custo base para usar Marca da Presa contra criaturas de outros tipos muda para 3 PM.",
+  "categoria": "cacador",
+  "effects": [
+    {
+      "type": "restricao_escolha_poder",
+      "descricao": "escolhe um tipo de criatura do poder Inimigo de (Criatura); o custo base para usar Marca da Presa contra criaturas de outros tipos muda para 3 PM"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

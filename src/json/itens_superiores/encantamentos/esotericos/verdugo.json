@@ -1,0 +1,17 @@
+{
+  "id": "verdugo",
+  "name": "Verdugo",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "O esotérico retira poder da morte de seus inimigos. Na primeira vez em cada cena que você reduz um inimigo a 0 PV ou menos com uma magia lançada com este esotérico, o dano causado por suas magias aumenta em +1 por dado até o fim da cena.",
+  "effects": [
+    {
+      "type": "dano_extra_magia",
+      "value": 1,
+      "por_dado": true,
+      "limite": "primeira vez em cada cena que reduz um inimigo a 0 PV ou menos com uma magia lançada com este esotérico",
+      "duracao": "até o fim da cena"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

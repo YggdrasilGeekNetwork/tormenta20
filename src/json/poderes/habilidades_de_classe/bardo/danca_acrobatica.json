@@ -1,0 +1,24 @@
+{
+  "id": "danca_acrobatica",
+  "name": "Dança Acrobática",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Você pode substituir testes de Acrobacia por Atuação. Quando você faz isso para passar por um inimigo, ele só pode usar Acrobacia ou Iniciativa no teste oposto.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "skill_substitution",
+      "from_skill": "acrobacia",
+      "to_skill": "atuacao"
+    },
+    {
+      "type": "restrict_opposed_test",
+      "applies_to": "inimigo_passado",
+      "allowed_skills": [
+        "acrobacia",
+        "iniciativa"
+      ]
+    }
+  ],
+  "livro": "herois_de_arton"
+}

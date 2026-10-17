@@ -1,0 +1,17 @@
+{
+  "id": "sistema_de_refrigeracao",
+  "name": "Sistema de Refrigeração",
+  "type": "item",
+  "categoria": "aparato",
+  "preco": 900,
+  "espacos": 1,
+  "espacos_acoplado": 0,
+  "cd_fabricacao": 20,
+  "efeito": {
+    "frequencia": "uma_vez_por_dia",
+    "acao": "completa + 1 PM",
+    "efeito": "reduz a CD de ativação da engenhoca em -5"
+  },
+  "description": "Aparato usado por inventores para modificar o funcionamento de suas engenhocas. Enquanto acoplado a uma engenhoca, não ocupa espaços; uma engenhoca pode ter até dois aparatos diferentes. Usar um aparato aumenta a CD para ativar a engenhoca em +2 (dois aparatos, +5). Acoplar ou remover um aparato exige 1 hora de trabalho. Aparatos são fabricados com Ofício (engenhoqueiro), CD 20. Conjunto de ventoinhas que fazem ar fresco circular entre os componentes da engenhoca e tubos cheios d'água, que dissipam calor por sua corrente interna. Uma vez por dia, você pode gastar uma ação completa e 1 PM para acionar as ventoinhas e resfriar a engenhoca. Fazer isso reduz a CD de ativação da engenhoca em –5.",
+  "livro": "herois_de_arton"
+}

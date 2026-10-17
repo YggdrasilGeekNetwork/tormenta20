@@ -1,0 +1,26 @@
+{
+  "id": "especialista_em_invocacoes",
+  "name": "Especialista em Invocações",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Você soma seu atributo-chave na Defesa de suas criaturas conjuradas por habilidades mágicas (incluindo capangas) e a ação necessária para comandá-las diminui em um passo (de padrão para movimento e de movimento para livre). Contudo, cada comando só pode ser executado uma vez por rodada.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "defense_improvement",
+      "value": "atributo_chave",
+      "applies_to": "criaturas_conjuradas_por_habilidades_magicas_incluindo_capangas"
+    },
+    {
+      "type": "action_cost_reduction",
+      "value": 1,
+      "unit": "passo",
+      "applies_to": "comandar_criaturas_conjuradas"
+    },
+    {
+      "type": "restriction",
+      "value": "cada_comando_uma_vez_por_rodada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

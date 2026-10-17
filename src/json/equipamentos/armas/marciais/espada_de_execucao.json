@@ -1,0 +1,25 @@
+{
+  "id": "espada_de_execucao",
+  "name": "Espada de Execução",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 75,
+  "dano": "2d6",
+  "critico": "18/x4",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 2,
+  "habilidades": [],
+  "especial": {
+    "penalidade_ataque_padrao": -2,
+    "penalidade_ataque_sem_preparar": -5,
+    "preparar": {
+      "acao": "movimento",
+      "efeito": "elimina a penalidade de –5 no próximo ataque feito nesse turno"
+    }
+  },
+  "description": "Espada pesada, não projetada para combate, mas para decapitar condenados à morte. Sua lâmina é muito afiada, mas difícil de usar em batalha: você sofre –5 em testes de ataque com esta arma, a menos que gaste uma ação de movimento para prepará-la (o que elimina essa penalidade em seu próximo ataque feito nesse turno).",
+  "livro": "herois_de_arton"
+}

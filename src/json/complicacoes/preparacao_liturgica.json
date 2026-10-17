@@ -1,0 +1,14 @@
+{
+  "id": "preparacao_liturgica",
+  "name": "Preparação Litúrgica",
+  "description": "Você só pode lançar magias preparadas; suas outras magias não podem ser lançadas, mesmo que você tenha pontos de mana para isso. Para preparar magias, você precisa gastar uma hora de seu dia orando, meditando, entoando mantras ou fazendo qualquer outro tipo de ritual litúrgico. Ao fazer isso, você escolhe metade das magias que conhece (por exemplo, se conhece 5 magias, escolhe 2) e só pode lançar as magias escolhidas. Caso não possa se preparar, não pode trocar as magias escolhidas no dia anterior.",
+  "categoria": "clerigo",
+  "effects": [
+    {
+      "type": "restricao_conjuracao",
+      "descricao": "só pode lançar magias preparadas; gasta 1 hora orando/meditando para escolher metade das magias conhecidas; se não puder se preparar, não pode trocar as magias escolhidas no dia anterior"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,21 @@
+{
+  "id": "ancorada",
+  "name": "Ancorada",
+  "type": "encantamento",
+  "categoria": "armadura",
+  "description": "Esta armadura permite que você se fixe em superfícies. Você recebe +5 em testes de Atletismo para escalar e pode gastar 1 PM para receber deslocamento de escalada 12m com duração sustentada.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Atletismo",
+      "value": 5,
+      "condicao": "para escalar"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "efeito": "recebe deslocamento de escalada 12m com duração sustentada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

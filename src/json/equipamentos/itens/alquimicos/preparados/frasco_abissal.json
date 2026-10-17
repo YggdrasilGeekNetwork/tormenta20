@@ -1,0 +1,41 @@
+{
+  "id": "frasco_abissal",
+  "name": "Frasco Abissal",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 300,
+  "espacos": 0.5,
+  "uso": "empunhado",
+  "acao": "padrao",
+  "alcance": "curto",
+  "proibido_no_reinado": true,
+  "efeito": {
+    "area": {
+      "forma": "raio",
+      "tamanho": "3m"
+    },
+    "dano": "6d6",
+    "tipo_dano": "fogo",
+    "condicao": "em chamas",
+    "resistencia": {
+      "teste": "Reflexos",
+      "cd": "Des",
+      "efeito": "reduz a metade e evita a condicao"
+    },
+    "chamas_reforcadas": {
+      "dano_por_rodada": "2d6",
+      "tipo_dano": "fogo",
+      "apagar": {
+        "acao": "completa",
+        "teste": {
+          "pericia": "Reflexos",
+          "cd": 20
+        },
+        "alternativa": "mergulhar em agua"
+      }
+    }
+  },
+  "description": "Preparado alquímico temido, proibido no Reinado, pois faz o próprio ar pegar fogo. Para usar o frasco abissal, você gasta uma ação padrão e arremessa-o em um ponto em alcance curto. Todas as criaturas a até 3m desse ponto sofrem 6d6 pontos de dano de fogo e ficam em chamas (Reflexos CD Des reduz à metade e evita a condição). As chamas causadas por este preparado são mais fortes: causam 2d6 pontos de dano de fogo por rodada e exigem que a vítima gaste uma ação completa e passe em um teste de Reflexos (CD 20) ou mergulhe em água para apagá-las.",
+  "livro": "herois_de_arton"
+}

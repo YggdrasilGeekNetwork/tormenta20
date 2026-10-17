@@ -1,0 +1,33 @@
+{
+  "id": "inercia_do_aco_guerreiro",
+  "name": "Inércia do Aço",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Quando acerta um ataque com uma arma de duas mãos em uma criatura, você pode gastar 3 PM para causar metade do dano desse ataque a cada inimigo adjacente a essa criatura.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    },
+    {
+      "type": "weapon_type",
+      "sub_type": "soft",
+      "weapon": "corpo_a_corpo_de_duas_maos"
+    }
+  ],
+  "effects": [
+    {
+      "type": "amount_targets",
+      "target": "inimigos_adjacentes_ao_alvo",
+      "value": "metade_do_dano"
+    }
+  ],
+  "costs": [
+    {
+      "value": 3,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

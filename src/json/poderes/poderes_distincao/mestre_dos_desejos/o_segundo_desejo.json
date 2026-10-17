@@ -1,0 +1,17 @@
+{
+  "id": "o_segundo_desejo",
+  "name": "O Segundo Desejo",
+  "type": "poder_distincao",
+  "description": "O poder dos desejos desbloqueia conhecimentos que um mestre dos desejos jamais imaginava possuir. Uma vez por rodada, um aliado pode gastar uma ação livre para pedir que você lance uma magia arcana de 1° círculo que você não conheça. Até o fim do seu próximo turno, você pode lançar essa magia.",
+  "effects": [
+    {
+      "type": "passivo",
+      "limite": "uma vez por rodada",
+      "efeito": "um aliado gasta ação livre pedindo que você lance uma magia arcana de 1º círculo que não conhece; até o fim do seu próximo turno você pode lançá-la"
+    }
+  ],
+  "requirements": [
+    "O Primeiro Desejo"
+  ],
+  "livro": "herois_de_arton"
+}

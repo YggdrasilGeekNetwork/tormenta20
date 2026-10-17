@@ -1,0 +1,28 @@
+{
+  "id": "operacoes_combinadas",
+  "name": "Operações Combinadas",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Quando usa Ordens de Engajamento, você pode gastar +3 PM. Se fizer isso, pode atacar junto do aliado e, se um de vocês usar habilidades com custo em PM que forneçam bônus a esse ataque ou a seu dano, o outro também é afetado (apenas se isso for aplicável ao ataque).",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "ordens_de_engajamento"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 14
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": [
+    {
+      "value": 3,
+      "type": "PM",
+      "note": "adicional_ao_custo_de_ordens_de_engajamento"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

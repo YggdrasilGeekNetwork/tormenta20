@@ -1,0 +1,20 @@
+{
+  "id": "horrenda",
+  "name": "Horrenda",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma exala uma aura de medo. Você recebe +2 em Intimidação e o custo de suas habilidades de medo diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Intimidação",
+      "value": 2
+    },
+    {
+      "type": "reducao_custo_pm_habilidade",
+      "value": 1,
+      "condicao": "habilidades de medo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

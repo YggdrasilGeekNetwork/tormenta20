@@ -1,0 +1,28 @@
+{
+  "id": "veneno_aprimorado",
+  "name": "Veneno Aprimorado",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "O veneno que você aplica com sua habilidade Natureza Venenosa passa a causar a perda de 2d12 PV.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": "medusa"
+    },
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "con",
+      "value": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "feature_improvement",
+      "feature": "natureza_venenosa",
+      "value": "perda_de_2d12_pv"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

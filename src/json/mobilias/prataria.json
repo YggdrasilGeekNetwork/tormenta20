@@ -1,0 +1,14 @@
+{
+  "id": "prataria",
+  "name": "Prataria",
+  "description": "Talheres de prata e pratos de porcelana, que adicionam sofisticação e elegância a qualquer refeição. Instalada na cozinha, permite preparar uma refeição para viagem adicional.",
+  "effects": [
+    {
+      "type": "prato_especial_adicional",
+      "value": 1
+    }
+  ],
+  "preco": 2000,
+  "comodo_alvo": "cozinha",
+  "livro": "herois_de_arton"
+}

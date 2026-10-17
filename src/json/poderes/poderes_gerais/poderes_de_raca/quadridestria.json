@@ -1,0 +1,52 @@
+{
+  "id": "quadridestria",
+  "name": "Quadridestria",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você consegue agir com todos os seus braços ao mesmo tempo. Uma vez por rodada, quando usa o poder Estilo de Duas Armas, você pode gastar 2 PM para fazer um ataque com cada arma que estiver empunhando, desde que todas, com exceção de uma, sejam leves. Assim, se estiver empunhando três armas (e pelo menos duas forem leves), pode fazer três ataques; se estiver empunhando quatro armas (e pelo menos três forem leves), pode fazer quatro ataques. Poderes que modificam Estilo de Duas Armas também se aplicam aos seus braços extras. Por exemplo, Arma Secundária Grande permite que você use armas de uma mão em todos os seus braços e Ambidestria elimina a penalidade de todos os ataques.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "kaijin",
+        "lefou",
+        "nagah",
+        "orc",
+        "trog"
+      ]
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "estilo_de_duas_armas"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "quatro_bracos"
+    },
+    {
+      "type": "character_level",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "weapon": "cada_arma_empunhada",
+      "condition": "todas_exceto_uma_leves",
+      "frequency": "uma_vez_por_rodada",
+      "trigger": "uso_de_estilo_de_duas_armas",
+      "note": "poderes que modificam Estilo de Duas Armas se aplicam aos bracos extras"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

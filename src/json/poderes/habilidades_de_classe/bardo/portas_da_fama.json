@@ -1,0 +1,27 @@
+{
+  "id": "portas_da_fama",
+  "name": "Portas da Fama",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Você recebe +10 em testes de Diplomacia, Enganação e Furtividade para entrar em lugares proibidos — as pessoas simplesmente presumem que você tem acesso a tudo! Pré-requisito: Estrelato.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "estrelato"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 10,
+      "skills": [
+        "diplomacia",
+        "enganacao",
+        "furtividade"
+      ],
+      "condition": "tentando_entrar_em_lugares_proibidos"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

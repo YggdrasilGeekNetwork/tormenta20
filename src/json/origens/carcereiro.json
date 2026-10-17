@@ -1,0 +1,27 @@
+{
+  "id": "carcereiro",
+  "name": "Carcereiro",
+  "description": "Em Arton, cuidar de calabouços e prisões não é tarefa simples. Claro que havia ladrões e capangas comuns, mas muitas vezes você precisou vigiar prisioneiros mais estranhos e perigosos: assassinos, cultistas, bruxos, monstros, seres sobrenaturais. Como quando o ogro ficou faminto e simplesmente arrebentou as grades. Ou quando você encontrou a própria Rainha-Imperatriz Shivara na cela, descobrindo tarde demais ser um duplo. Ou quando aquele sszzaazita conjurou algum encanto que o forçou a entregar as chaves. Com os diabos, se você precisa mesmo viver em masmorras escuras e lidar com bandidos e monstros, que seja com um grupo de aventureiros!",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Algemas"
+    },
+    {
+      "type": "fixed",
+      "text": "Lampião"
+    },
+    {
+      "type": "fixed",
+      "text": "Uma arma de até T$ 500 à sua escolha, que você pode ou não ter obtido de um detento"
+    }
+  ],
+  "benefits": {
+    "skills": [],
+    "powers": [
+      "Disciplina Carcerária"
+    ]
+  },
+  "unique_power": "disciplina_carceraria",
+  "livro": "herois_de_arton"
+}

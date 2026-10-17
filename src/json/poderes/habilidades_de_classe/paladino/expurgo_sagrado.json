@@ -1,0 +1,34 @@
+{
+  "id": "expurgo_sagrado",
+  "name": "Expurgo Sagrado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Quando você usa Golpe Divino contra um abissal ou um morto-vivo, seu custo diminui em –1 PM (cumulativo com outras reduções) e o bônus de dano da habilidade aumenta em mais um dado.",
+  "requirements": [
+    {
+      "type": "fearute_actived",
+      "sub_type": "soft",
+      "feature": "golpe_divino"
+    },
+    {
+      "type": "target_type",
+      "sub_type": "soft",
+      "target": ["abissal", "morto_vivo"]
+    }
+  ],
+  "effects": [
+    {
+      "type": "reduce_PM_cost",
+      "value": -1,
+      "feature": "golpe_divino",
+      "cumulative": true
+    },
+    {
+      "type": "damage_improvement",
+      "value": "mais_um_dado",
+      "feature": "golpe_divino"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

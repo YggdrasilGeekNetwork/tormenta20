@@ -1,0 +1,15 @@
+{
+  "id": "mais_la_do_que_aqui",
+  "name": "Mais Lá do que Aqui",
+  "type": "habilidade_de_raca",
+  "race": "duende",
+  "description": "Você pode gastar uma ação padrão e 2 PM para fazer seu corpo, exceto por uma parte (como a cabeça ou uma cauda), desaparecer pela cena. Nesse estado, recebe camuflagem leve e +5 em Furtividade.",
+  "effects": {
+    "type": "active",
+    "acao": "padrão",
+    "cost": "2 PM",
+    "duracao": "a cena",
+    "efeito": "camuflagem leve e +5 em Furtividade"
+  },
+  "livro": "herois_de_arton"
+}

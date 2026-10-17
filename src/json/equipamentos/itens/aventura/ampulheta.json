@@ -1,0 +1,15 @@
+{
+  "id": "ampulheta",
+  "name": "Ampulheta",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 45,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "consultado",
+  "efeito": {
+    "oficio_alquimista_escolher_10_considera_d20_12": true
+  },
+  "description": "Objeto delicado usado para medir o tempo; um ciclo da ampulheta normalmente equivale a uma hora. Usada por nobres para controlar compromissos e por alquimistas para medir o tempo de certas reações. Quando escolhe 10 em um teste de Ofício (alquimista), você considera o resultado do d20 como um 12 automático.",
+  "livro": "herois_de_arton"
+}

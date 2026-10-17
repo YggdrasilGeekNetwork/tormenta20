@@ -1,0 +1,20 @@
+{
+  "id": "paladar_infantil",
+  "name": "Paladar Infantil",
+  "description": "Você é chato para comer. Não se beneficia de itens da categoria alimentação, nem de poções. Além disso, sofre –2 em testes de perícias baseadas em Carisma durante situações sociais baseadas em refeições, como um banquete no palácio ou uma noite na taverna.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "perda_beneficio",
+      "descricao": "não se beneficia de itens da categoria alimentação, nem de poções"
+    },
+    {
+      "type": "penalidade_pericia_por_atributo",
+      "atributo": "carisma",
+      "value": -2,
+      "contexto": "situações sociais baseadas em refeições"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

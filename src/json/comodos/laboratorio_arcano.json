@@ -1,0 +1,14 @@
+{
+  "id": "laboratorio_arcano",
+  "name": "Laboratório Arcano",
+  "description": "Uma ampliação do gabinete místico, inclui um quadro para rascunhar fórmulas arcanas e instrumentos para experimentação com magias. No início de cada aventura, cada residente pode escolher uma de suas magias arcanas. Até o fim da aventura, o custo dessa magia diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "reduz_custo_magia_arcana_escolhida",
+      "value": 1,
+      "unidade": "pm"
+    }
+  ],
+  "prerequisito": "gabinete místico",
+  "livro": "herois_de_arton"
+}

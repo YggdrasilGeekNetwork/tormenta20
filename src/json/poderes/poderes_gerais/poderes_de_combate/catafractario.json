@@ -1,0 +1,25 @@
+{
+  "id": "catafractario",
+  "name": "Catafractário",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Antigos guerreiros montados de Lamnor, os catafractários eram famosos por suas táticas defensivas. Embora suas unidades não existam mais, suas técnicas perduraram. Se estiver montado e vestindo armadura pesada, você recebe +1 na Defesa por nível de parceiro de sua montaria.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": [
+        "encouracado",
+        "ginete"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "defense_improvement",
+      "value": "1_por_nivel_de_parceiro_da_montaria",
+      "condition": "montado_e_com_armadura_pesada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

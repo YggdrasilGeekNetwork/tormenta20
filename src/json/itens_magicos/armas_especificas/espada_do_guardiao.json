@@ -1,0 +1,24 @@
+{
+  "id": "espada_do_guardiao",
+  "name": "Espada do Guardião",
+  "base_weapon": "espada_longa",
+  "preco": 54000,
+  "description": "Uma espada longa defensora formidável com um cabo robusto e inscrições rúnicas protetoras. Uma vez por rodada, você pode gastar 3 PM para criar uma barreira que fornece RD 10 a você e todos os aliados em um raio de 6m por 1 rodada.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensora"
+    },
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 3,
+      "frequencia": "por_rodada",
+      "efeito": "cria uma barreira que fornece RD 10 a você e todos os aliados em um raio de 6m por 1 rodada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

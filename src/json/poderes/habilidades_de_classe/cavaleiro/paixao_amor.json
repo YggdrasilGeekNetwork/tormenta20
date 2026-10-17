@@ -1,0 +1,19 @@
+{
+  "id": "paixao_amor",
+  "name": "Paixão: Amor",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Ao escolher esta Paixão, decida a quem ela vai se aplicar. Pode ser um personagem específico (como um amigo, parente ou interesse romântico) ou um grupo de pessoas (como sua família). Você pode evocar esta Paixão para extrair forças desse amor. Se passar, recupera 2d4 PM por ponto de bônus máximo que sua habilidade Duelo pode fornecer. Regras de Paixão: evocar uma Paixão é uma ação livre; faça um teste de Carisma (CD 10 + 5 por teste dessa Paixão na mesma aventura) — se passar recebe o benefício, se falhar não pode mais usá-la até o fim da aventura; efeitos sem duração instantânea duram até o fim da cena; 20 natural ou vitória significativa concede +1 permanente e cumulativo no teste de ativação; 1 natural ou falha significativa concede –1 permanente e cumulativo no teste de ativação.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "active",
+      "action": "livre",
+      "test": "carisma",
+      "dc": "10_mais_5_por_uso_na_mesma_aventura",
+      "on_success": "recupera_2d4_pm_por_ponto_de_bonus_maximo_de_duelo",
+      "on_fail": "nao_pode_usar_ate_fim_da_aventura"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

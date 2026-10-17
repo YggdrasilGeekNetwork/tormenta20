@@ -1,0 +1,27 @@
+{
+  "id": "companheiro_aberrante",
+  "name": "Companheiro Aberrante",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Escolha um de seus companheiros animais. Ele recebe o tipo aberrante, ganhando os bônus de seu nível. Um parceiro aberrante fornece os benefícios a seguir. Iniciante: uma vez por rodada, você pode gastar 1 PM para disparar um pulso mental contra uma criatura em alcance curto; ela sofre 2d6 pontos de dano psíquico ou perde 1d4 PM, a sua escolha. Veterano: você também pode gastar 2 PM para causar 4d6 pontos de dano ou fazer a criatura perder 2d4 PM. Mestre: você também pode gastar 4 PM para causar 6d6 pontos de dano ou fazer a criatura perder 3d4 PM.",
+  "requirements": [
+    {
+      "type": "devotee_of_divinity",
+      "sub_type": "hard",
+      "divinity": "aharadak"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "companheiro_animal_druida"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 6
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null,
+  "livro": "herois_de_arton"
+}

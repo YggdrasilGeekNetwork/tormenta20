@@ -1,0 +1,28 @@
+{
+  "id": "ordens_agressivas",
+  "name": "Ordens Agressivas",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "Quando você usa Gritar Ordens, a habilidade também soma seu bônus na primeira rolagem de dano dos aliados até o início do seu próximo turno.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "gritar_ordens"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "note": "soma_o_bonus_de_gritar_ordens_na_primeira_rolagem_de_dano_dos_aliados",
+      "duration": "inicio_do_proximo_turno"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

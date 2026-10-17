@@ -1,0 +1,30 @@
+{
+  "id": "aura_vingadora",
+  "name": "Aura Vingadora",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Enquanto sua aura estiver ativa, você e cada aliado dentro dela recebem +1d6 de luz em uma rolagem de dano corpo a corpo uma vez por rodada.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 8
+    },
+    {
+      "type": "fearute_actived",
+      "sub_type": "soft",
+      "feature": "aura_sagrada"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_type_improvement",
+      "damage_type": "luz",
+      "value": "1d6",
+      "requirement": "rolagem_de_dano_corpo_a_corpo_uma_vez_por_rodada",
+      "target": "voce_e_aliados_dentro_da_aura"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "tempero_especial",
+  "name": "Tempero Especial",
+  "description": "Um personagem treinado em Ofício (cozinheiro) pode dar um toque pessoal aos pratos que prepara. Isso exige gastar uma porção de especiarias (além dos ingredientes do prato) e aumenta a CD do teste em +5. Se você passar no teste e o prato especial fornecer um bônus numérico (incluindo rolagens de dados), esse bônus aumenta em +1. Se o prato fornecer PV ou PM temporários, esse valor aumenta em 50%. Outros efeitos de pratos especiais não são aprimorados por especiarias.",
+  "livro": "herois_de_arton",
+  "requisitos": {
+    "treinamento": "Ofício (cozinheiro)",
+    "ingrediente_adicional": "especiarias",
+    "aumento_cd_teste": 5
+  },
+  "efeito": {
+    "bonus_numerico_ou_rolagem_de_dado": "+1",
+    "pv_ou_pm_temporarios": "+50%",
+    "outros_efeitos": "não são aprimorados"
+  }
+}

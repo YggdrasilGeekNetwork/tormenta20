@@ -1,0 +1,18 @@
+{
+  "id": "implacavel",
+  "name": "Implacável",
+  "type": "encantamento",
+  "categoria": "esoterico",
+  "description": "Quando você lança uma magia, pode gastar +2 PM para afetar um alvo contra o qual você não tenha linha de efeito. Você deve estar vendo o alvo ou tê-lo visto em seu último turno, e ele ainda precisa estar no alcance. Pré-requisito: outro encanto.",
+  "prerequisitos": [
+    "outro_encanto"
+  ],
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "efeito": "afeta um alvo contra o qual não tem linha de efeito, desde que o tenha visto neste turno ou no último e ele esteja no alcance"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

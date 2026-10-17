@@ -1,0 +1,25 @@
+{
+  "id": "escudo_torre",
+  "name": "Escudo Torre",
+  "type": "escudo",
+  "categoria": "pesado",
+  "preco": 45,
+  "bonus_defesa": 2,
+  "penalidade_armadura": -4,
+  "espacos": 2,
+  "especial": {
+    "nao_pode_ser_usado_para_atacar": true,
+    "nao_pode_ser_usado_montado": true,
+    "fixar_como_barreira": {
+      "acao": "movimento",
+      "efeito": "fornece cobertura leve (Tormenta20, p.239)"
+    },
+    "recolocar_escudo": "acao_movimento",
+    "pv": 30,
+    "rd": 10
+  },
+  "vestir_remover": "acao_movimento",
+  "ataque": null,
+  "description": "Escudo grande e retangular, feito de madeira e reforçado com aço e couro. É preso ao antebraço como um escudo pesado, mas devido a seu tamanho, não pode ser usado para atacar ou por um personagem montado. Você pode gastar uma ação de movimento para tirar o escudo e fixá-lo no chão, transformando-o em uma barreira que fornece cobertura leve (conforme o normal para cobertura; veja Tormenta20, p.239). Recolocar o escudo, desafixando-o do chão, também é uma ação de movimento.",
+  "livro": "herois_de_arton"
+}

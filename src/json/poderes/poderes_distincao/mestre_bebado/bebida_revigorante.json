@@ -1,0 +1,18 @@
+{
+  "id": "bebida_revigorante",
+  "name": "Bebida Revigorante",
+  "type": "poder_distincao",
+  "description": "\"Eu bebo pra ficar mal, se fosse pra ficar bem eu tomava remédio!\" Você pode gastar uma ação de movimento e tomar um gole do seu recipiente para recuperar 4d6 PV ou remover uma condição entre abalado, alquebrado, apavorado, atordoado, cego, confuso, enfeitiçado, esmorecido, exausto, fatigado, frustrado, pasmo ou surdo. Quando usa este poder, você pode beber goles adicionais (limitados pelo número de poderes da distinção que você possui) para remover uma condição adicional ou aumentar a cura em +2d6 PV.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "efeito": "toma um gole e recupera 4d6 PV ou remove uma condição entre abalado, alquebrado, apavorado, atordoado, cego, confuso, enfeitiçado, esmorecido, exausto, fatigado, frustrado, pasmo ou surdo",
+      "escalavel": "goles adicionais (limitados pelo total de poderes da distinção) removem condição adicional ou aumentam a cura em +2d6 PV"
+    }
+  ],
+  "requirements": [
+    "Lógica Alcoólica"
+  ],
+  "livro": "herois_de_arton"
+}

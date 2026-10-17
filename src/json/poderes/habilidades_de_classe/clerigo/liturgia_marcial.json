@@ -1,0 +1,16 @@
+{
+  "id": "liturgia_marcial",
+  "name": "Liturgia Marcial",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Você pode gastar uma ação de movimento para executar uma breve liturgia de sua fé. Se fizer isso, você recebe +2 no teste de ataque e na rolagem de dano de seu próximo ataque corpo a corpo nesse turno.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "active",
+      "action": "movimento",
+      "effect": "mais_2_no_proximo_teste_de_ataque_e_na_rolagem_de_dano_corpo_a_corpo_nesse_turno"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

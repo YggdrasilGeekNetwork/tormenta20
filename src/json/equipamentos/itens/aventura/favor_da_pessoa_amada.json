@@ -1,0 +1,17 @@
+{
+  "id": "favor_da_pessoa_amada",
+  "name": "Favor da Pessoa Amada",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": null,
+  "espacos": 1,
+  "cd_fabricacao": null,
+  "obtencao": "não pode ser comprado nem fabricado, apenas conquistado por meio de interpretação — deve ser dado espontaneamente para ter efeito em regras",
+  "efeito": {
+    "bonus_pm": 2,
+    "cumulativo_com_itens": true,
+    "condicao_perda": "para de funcionar se você e sua pessoa amada tiverem uma desavença ou se decepcionarem"
+  },
+  "description": "Este item não pode ser comprado nem fabricado, apenas conquistado por meio de interpretação — deve ser dado espontaneamente para que tenha efeito em regras. É uma mecha de cabelo, lenço perfumado, bilhete de amor, flor seca ou outro item pessoal (sem valor monetário) que alguém muito querido dá a um herói, em geral mantido preso sob a armadura ou roupa, em contato com o corpo. Fornece +2 PM, cumulativo com bônus de outros itens. Se você e sua pessoa amada tiverem uma desavença ou se decepcionarem de alguma forma, este item para de funcionar.",
+  "livro": "herois_de_arton"
+}

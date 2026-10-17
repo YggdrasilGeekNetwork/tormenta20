@@ -1,0 +1,43 @@
+{
+  "id": "meditacao_mistica",
+  "name": "Meditação Mística",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Uma vez por dia, você pode entrar em um transe místico por 1d4 minutos. Enquanto medita, você fica fascinado. Você pode interromper sua meditação a qualquer momento, mas, se concluí-la, recupera um número de pontos de mana igual ao seu nível.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "eiradaan",
+        "elfo"
+      ]
+    },
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "sab",
+      "value": 1
+    },
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "vontade"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active_ability",
+      "frequency": "uma_vez_por_dia",
+      "duration": "1d4_minutos",
+      "condition_while": "fascinado",
+      "on_complete": {
+        "resource_recovery": {
+          "resource": "PM",
+          "value": "nivel_de_personagem"
+        }
+      }
+    }
+  ],
+  "livro": "herois_de_arton"
+}

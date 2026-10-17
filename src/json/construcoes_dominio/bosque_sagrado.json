@@ -1,0 +1,15 @@
+{
+  "id": "bosque_sagrado",
+  "name": "Bosque Sagrado",
+  "description": "Esta mata isolada possui árvores entalhadas com runas. Se você possuir um ou mais companheiros animais, um deles não conta em seu limite de parceiros.",
+  "categoria": "religiao",
+  "custo": 5,
+  "effects": [
+    {
+      "type": "ignora_limite_parceiros",
+      "aplica_a": "um companheiro animal"
+    }
+  ],
+  "prerequisito": "santuario",
+  "livro": "herois_de_arton"
+}

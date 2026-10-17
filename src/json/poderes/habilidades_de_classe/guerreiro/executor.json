@@ -1,0 +1,17 @@
+{
+  "id": "executor",
+  "name": "Executor",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Você recebe +1d6 nas rolagens de dano contra criaturas que estejam com menos da metade dos pontos de vida. A cada quatro níveis além do 1º, esse dano extra aumenta em um passo.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "1d6_aumenta_um_passo_a_cada_4_niveis_alem_do_1",
+      "requirement": "alvo_com_menos_da_metade_do_pv"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

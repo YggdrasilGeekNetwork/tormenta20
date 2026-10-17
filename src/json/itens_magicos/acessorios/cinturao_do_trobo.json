@@ -1,0 +1,23 @@
+{
+  "id": "cinturao_do_trobo",
+  "name": "Cinturão do Trobo",
+  "categoria": "menor",
+  "preco": 3000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este cinto de couro resistente aumenta a força do usuário para erguer peso. Você recebe +5 em testes de Atletismo para erguer peso e sua capacidade de carga aumenta em 5 espaços.",
+  "effects": [
+    {
+      "type": "bonus_pericia_condicional",
+      "pericia": "Atletismo",
+      "condicao": "para erguer peso",
+      "value": 5
+    },
+    {
+      "type": "aumento_capacidade_carga",
+      "value": 5,
+      "unidade": "espaços"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

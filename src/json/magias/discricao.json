@@ -1,0 +1,67 @@
+{
+  "id": "discricao",
+  "name": "Discrição",
+  "type": "universal",
+  "circle": "1",
+  "school": "encan",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": {
+    "amount": 1,
+    "up_to": null,
+    "type": "você_ou_objeto"
+  },
+  "effect": "alvo",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "cena",
+  "duration_details": "a magia se dissipa se você causar dano a qualquer criatura",
+  "resistence": {
+    "effect": "anula",
+    "skill": "vontade"
+  },
+  "extra_costs": null,
+  "description": "Esta magia torna a aparência do alvo desinteressante, como se ele fosse parte da paisagem, algo perdido na bagunça ou mais um na multidão. O alvo não se torna invisível, ainda é percebido como uma criatura ou objeto; o encantamento apenas desvia a atenção dos observadores para outras pessoas ou elementos ao redor. Testes de Investigação e Percepção contra o alvo sofrem uma penalidade de –10.\nEm combate, enquanto Discrição estiver ativa, todos os inimigos que iniciarem seus turnos a até 9m do alvo devem fazer um teste de Vontade. Se falharem, qualquer ação hostil que realizarem ignora a criatura. Esta magia se dissipa se você causar dano a qualquer criatura.",
+  "enhancements": [
+    {
+      "cost": 1,
+      "type": "muda",
+      "description": "muda o alvo para 1 criatura. Requer 2º círculo.",
+      "extra_details": {
+        "requirements": "2º círculo",
+        "target": {
+          "amount": 1,
+          "up_to": null,
+          "type": "criatura"
+        }
+      }
+    },
+    {
+      "cost": 2,
+      "type": "aumenta",
+      "description": "aumenta a penalidade em testes para –15. Requer 2º círculo.",
+      "extra_details": {
+        "requirements": "2º círculo"
+      }
+    },
+    {
+      "cost": 3,
+      "type": "muda",
+      "description": "além do normal, o alvo não pode ser detectado por magias de adivinhação. Requer 4° círculo.",
+      "extra_details": {
+        "requirements": "4° círculo"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "penalidade",
+      "attribute": "investigacao,percepcao",
+      "amount": "-10",
+      "resistence_requirement": "vontade",
+      "extra_requirements": "testes_feitos_contra_o_alvo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

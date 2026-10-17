@@ -1,0 +1,22 @@
+{
+  "id": "virotes_pesados",
+  "name": "Virotes Pesados",
+  "type": "municao",
+  "preco": 20,
+  "quantidade": 20,
+  "espacos": 1,
+  "armas_compativeis": [
+    "besta_leve",
+    "besta_pesada",
+    "besta_de_mao",
+    "besta_dupla",
+    "balestra",
+    "besta_de_repeticao"
+  ],
+  "especial": {
+    "penalidade_ataque": -2,
+    "ignora_rd": 5
+  },
+  "description": "Versão de ponta mais pesada e afiada dos virotes normais. Você sofre –2 em testes de ataque com estes virotes, mas ignora 5 pontos da RD dos alvos.",
+  "livro": "herois_de_arton"
+}

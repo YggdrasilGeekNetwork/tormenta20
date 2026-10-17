@@ -1,0 +1,27 @@
+{
+  "id": "cria_de_nimb",
+  "name": "Cria de Nimb",
+  "description": "Você tem um parafuso a menos (talvez literalmente, se for um golem). Você sofre –5 em testes de perícias baseadas em Carisma. Além disso, no início de cada cena de ação, role 1d6. Com um resultado 1, você fica confuso (mesmo que seja imune a essa condição). Você não pode escolher esta complicação se for devoto de Nimb ou se, por algum outro motivo, seguir suas Obrigações & Restrições.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_pericia_por_atributo",
+      "atributo": "carisma",
+      "value": -5
+    },
+    {
+      "type": "condicao_condicional",
+      "gatilho": "inicio_de_cena_de_acao",
+      "dado": "1d6",
+      "condicao_valor": 1,
+      "efeito": "fica_confuso",
+      "ignora_imunidade": true
+    },
+    {
+      "type": "restricao_escolha",
+      "descricao": "não pode ser escolhida se for devoto de Nimb ou seguir suas Obrigações & Restrições"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

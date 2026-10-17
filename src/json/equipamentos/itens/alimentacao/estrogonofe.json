@@ -1,0 +1,16 @@
+{
+  "id": "estrogonofe",
+  "name": "Estrogonofe",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 18,
+  "espacos": 0.5,
+  "livro": "herois_de_arton",
+  "ingredientes": ["carne", "cogumelo", "leite"],
+  "custo_ingredientes": 22,
+  "cd_teste_oficio_cozinheiro": 20,
+  "efeito": {
+    "bonus_vontade": 2
+  },
+  "description": "Essa iguaria deliciosa foi inventada nas cortes do antigo Reino de Yudennach — dizem que é uma das poucas coisas boas a sair daquele lugar. Comer estrogonofe deixa você firme em suas convicções. Você recebe +2 em testes de Vontade."
+}

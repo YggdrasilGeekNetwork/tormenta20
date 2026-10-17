@@ -1,0 +1,14 @@
+{
+  "id": "curandeira_eximia",
+  "name": "Curandeira Exímia",
+  "type": "poder_distincao",
+  "description": "A drogadora aprende técnicas curativas que usam seu próprio corpo para fortalecer remédios. Seu corpo conta como uma maleta de medicamentos e instrumentos de Ofício (alquimista) e fornece um bônus nessas perícias igual ao total de poderes da distinção que você possui. Além disso, quando usa um preparado de cura que você mesma tenha fabricado, você soma sua Constituição no total de pontos de vida recuperados pelo item.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "corpo conta como maleta de medicamentos e instrumentos de Ofício (alquimista); bônus em Cura e Ofício (alquimista) igual ao total de poderes da distinção; soma Constituição na cura de preparados próprios"
+    }
+  ],
+  "requirements": ["treinada em Cura e Ofício (alquimista)", "Vitalidade"],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "arcanista_de_rotina",
+  "name": "Arcanista de Rotina",
+  "description": "Você não está acostumado a lançar magias sob pressão. Se estiver em alcance curto de qualquer ameaça, é considerado sob condição ruim para lançar magias. Se já estiver sob efeito de uma condição ruim ou terrível para conjurar, a CD do teste aumenta em +2.",
+  "categoria": "arcanista",
+  "effects": [
+    {
+      "type": "restricao_condicional",
+      "descricao": "em alcance curto de qualquer ameaça, é considerado sob condição ruim para lançar magias; se já estiver sob condição ruim ou terrível, a CD do teste aumenta em +2"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "oratorio",
+  "name": "Oratório",
+  "description": "Um cômodo preparado para orações e meditação. Os residentes recebem +1 em Religião.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "religiao",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

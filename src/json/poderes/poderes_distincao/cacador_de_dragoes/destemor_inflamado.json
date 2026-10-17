@@ -1,0 +1,22 @@
+{
+  "id": "destemor_inflamado",
+  "name": "Destemor Inflamado",
+  "type": "poder_distincao",
+  "description": "A presença de um dragão é suficiente para destruir a coragem de muitos, mas não de um caçador de dragões. Você é imune a medo (exceto fobias raciais). Além disso, quando um inimigo usa um efeito de medo contra você, você recebe +2 em testes de perícia e rolagens de dano até o fim da cena. Para cada dois outros poderes da distinção que você possuir, esse bônus aumenta em +1.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "imune a medo (exceto fobias raciais)"
+    },
+    {
+      "type": "passivo",
+      "gatilho": "um inimigo usa um efeito de medo contra você",
+      "efeito": "+2 em testes de perícia e rolagens de dano até o fim da cena",
+      "escalavel": "aumenta em +1 para cada dois outros poderes da distinção"
+    }
+  ],
+  "requirements": [
+    "treinado em Vontade"
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "colchao_de_penas_exoticas",
+  "name": "Colchão de Penas Exóticas",
+  "description": "Feito de seda ou outro tecido igualmente suave e preenchido com penas raras de extrema maciez, este colchão é a garantia de noites de sono celestiais. Instalado em uma suíte, aumenta os PV extras em +3.",
+  "effects": [
+    {
+      "type": "bonus_pv_suite",
+      "value": 3
+    }
+  ],
+  "preco": 500,
+  "comodo_alvo": "suite",
+  "livro": "herois_de_arton"
+}

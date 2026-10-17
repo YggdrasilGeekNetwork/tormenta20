@@ -1,0 +1,33 @@
+{
+  "id": "caolho",
+  "name": "Caolho",
+  "description": "Você não tem um dos olhos. Você sofre –2 em Iniciativa, Percepção, Pontaria e Reflexos e fica automaticamente flanqueado por dois ou mais oponentes em corpo a corpo.",
+  "categoria": "geral",
+  "effects": [
+    {
+      "type": "penalidade_iniciativa",
+      "value": -2
+    },
+    {
+      "type": "penalidade_pericia",
+      "pericia": "percepcao",
+      "value": -2
+    },
+    {
+      "type": "penalidade_pericia",
+      "pericia": "pontaria",
+      "value": -2
+    },
+    {
+      "type": "penalidade_pericia",
+      "pericia": "reflexos",
+      "value": -2
+    },
+    {
+      "type": "flanqueado_automatico",
+      "condicao": "dois_ou_mais_oponentes_em_corpo_a_corpo"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

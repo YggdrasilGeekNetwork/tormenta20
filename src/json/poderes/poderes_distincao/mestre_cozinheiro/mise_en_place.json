@@ -1,0 +1,20 @@
+{
+  "id": "mise_en_place",
+  "name": "Mise en Place",
+  "type": "poder_distincao",
+  "description": "\"Eu já disse que julienne é corte na vertical! NA VERTICAL!\" Você pode usar Ofício (cozinheiro) para identificar criaturas, exceto construtos e mortos-vivos, e para extrair itens de criaturas mortas. Além disso, quando você passa num teste para extrair itens consumíveis de uma criatura morta, extrai 1 item adicional para cada 10 pontos pelos quais o resultado do teste supera a CD.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "pode usar Ofício (cozinheiro) para identificar criaturas (exceto construtos e mortos-vivos) e para extrair itens de criaturas mortas"
+    },
+    {
+      "type": "passivo",
+      "efeito": "ao passar em teste de extração de itens consumíveis de criatura morta, extrai 1 item adicional a cada 10 pontos que o resultado exceder a CD"
+    }
+  ],
+  "requirements": [
+    "Tudo que Há de Bom"
+  ],
+  "livro": "herois_de_arton"
+}

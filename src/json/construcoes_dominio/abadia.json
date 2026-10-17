@@ -1,0 +1,15 @@
+{
+  "id": "abadia",
+  "name": "Abadia",
+  "description": "Um centro de estudos repleto de livros sagrados que podem lhe ensinar os mistérios da fé. Você aprende uma magia divina de sua lista.",
+  "categoria": "religiao",
+  "custo": 12,
+  "effects": [
+    {
+      "type": "aprende_magia",
+      "tipo": "divina"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

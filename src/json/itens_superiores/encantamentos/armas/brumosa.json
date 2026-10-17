@@ -1,0 +1,15 @@
+{
+  "id": "brumosa",
+  "name": "Brumosa",
+  "type": "encantamento",
+  "categoria": "arma",
+  "description": "A arma é envolta em névoa mágica que desorienta os oponentes. Toda vez que você acerta um ataque com a arma, recebe camuflagem leve por 1 rodada.",
+  "effects": [
+    {
+      "type": "bonus_condicional",
+      "gatilho": "acerta um ataque com a arma",
+      "efeito": "camuflagem leve por 1 rodada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

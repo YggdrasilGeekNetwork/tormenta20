@@ -1,0 +1,22 @@
+{
+  "id": "ultimo_sangue",
+  "name": "Último Sangue",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Seus ataques contra criaturas sangrando causam um dado extra de dano do mesmo tipo. Pré-requisito: 5º nível de caçador.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_damage_die",
+      "value": 1,
+      "condition": "alvo_sangrando"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

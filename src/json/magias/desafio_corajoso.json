@@ -1,0 +1,46 @@
+{
+  "id": "desafio_corajoso",
+  "name": "Desafio Corajoso",
+  "type": "arcana",
+  "circle": "2",
+  "school": "encan",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "curto_6m_9q",
+  "target": {
+    "amount": 1,
+    "up_to": null,
+    "type": "criatura_voluntaria"
+  },
+  "effect": "alvo",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "sustentada",
+  "duration_details": null,
+  "resistence": {
+    "effect": "anula",
+    "skill": "vontade"
+  },
+  "extra_costs": null,
+  "description": "Esta magia cria uma aura de influência de 9m ao redor do alvo. Outras criaturas que iniciarem seus turnos dentro da aura devem fazer um teste de Vontade. Se falharem, quaisquer ações hostis nesse turno devem ser feitas contra o alvo.",
+  "enhancements": [
+    {
+      "cost": 3,
+      "type": "muda",
+      "description": "muda o alvo para 1 criatura ou objeto. Requer 4° círculo.",
+      "extra_details": {
+        "requirements": "4° círculo"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "condição",
+      "attribute": null,
+      "amount": null,
+      "resistence_requirement": "vontade",
+      "extra_requirements": "forca_acoes_hostis_contra_o_alvo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

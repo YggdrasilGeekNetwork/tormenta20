@@ -1,0 +1,16 @@
+{
+  "id": "brigantina",
+  "name": "Brigantina",
+  "type": "armadura",
+  "categoria": "pesada",
+  "preco": 75,
+  "bonus_defesa": 6,
+  "penalidade_armadura": 0,
+  "espacos": 5,
+  "especial": {
+    "penalidade_defesa_vs_perfuracao": -2
+  },
+  "vestir_remover": "acao_completa",
+  "description": "Também chamada de \"brigandina\", é uma opção para combatentes que não podem comprar armaduras de placas. É feita de uma vestimenta de couro com pequenas placas metálicas rebitadas, mais flexível que armaduras metálicas comuns, ainda fornecendo a proteção do aço. Contudo, tem um defeito: embora as múltiplas pequenas placas protejam bem contra armas de corte e impacto, é fácil para uma arma de perfuração penetrar entre elas. Contra armas de perfuração, o bônus na Defesa de uma brigantina diminui em –2.",
+  "livro": "herois_de_arton"
+}

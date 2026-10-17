@@ -1,0 +1,30 @@
+{
+  "id": "coureiro",
+  "name": "Coureiro",
+  "description": "Você era um artesão especializado no tratamento e modelagem de peles e couros, criando armaduras, roupas, botas e acessórios essenciais para viajantes, caçadores e nobres. Após uma atenta seleção de peles, provenientes de animais comuns ou monstros, vinha o cuidadoso processo de curtição. Você trabalhava o material com precisão, usando facas, agulhas e moldes. Além de vestimentas, também fabricava itens de uso diário como algibeiras, bolsas, selas e cintos, que combinavam durabilidade e estilo. Aquele dia, quando aventureiros trouxeram couro de lagarto-trovão para confeccionar uma armadura, foi desafiador. E também interessante...",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Faca de corte (como uma adaga, mas com dano de corte)"
+    },
+    {
+      "type": "fixed",
+      "text": "Instrumentos de coureiro"
+    },
+    {
+      "type": "fixed",
+      "text": "T$ 100 em itens alquímicos"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Fortitude",
+      "Ofício (coureiro)"
+    ],
+    "powers": [
+      "Reforço de Couro"
+    ]
+  },
+  "unique_power": "reforco_de_couro",
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,31 @@
+{
+  "id": "cacador_de_ratos",
+  "name": "Caçador de Ratos",
+  "description": "Quando o porão da taverna está infestado de ratos, morcegos ou glops, isso pode ser trabalho para heróis iniciantes — ou para um bom caçador de ratos, como você costumava ser! Recorrendo a armadilhas, venenos ou mesmo bons golpes de clava, você sempre soube como livrar seus clientes dessas pestes. Até aquele dia, quando os ratos pareciam um pouco grandes demais, com dentes demais e olhos vermelhos demais. Você escapou sem muitos pedaços faltando. Então vieram aventureiros e deram um jeito. Eram bem durões! Você resolveu que seria durão também. Nunca mais nenhum rato crescido levaria a melhor, nem pensar!",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Clava"
+    },
+    {
+      "type": "fixed",
+      "text": "Um gato (um parceiro perseguidor iniciante)"
+    },
+    {
+      "type": "fixed",
+      "text": "T$ 50 (recompensa por sua última caçada)"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Furtividade",
+      "Investigação",
+      "Sobrevivência"
+    ],
+    "powers": [
+      "Caça-Pragas"
+    ]
+  },
+  "unique_power": "caca_pragas",
+  "livro": "herois_de_arton"
+}

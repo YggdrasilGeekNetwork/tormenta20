@@ -1,0 +1,20 @@
+{
+  "id": "adaga_da_bruma",
+  "name": "Adaga da Bruma",
+  "base_weapon": "adaga",
+  "preco": 27000,
+  "description": "Esta lâmina fina, que parece estar sempre envolta em névoa suave, é uma adaga formidável. Se acertar um ataque com esta arma, você pode gastar 2 PM para se tornar invisível por 1 rodada.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "gatilho": "acerta um ataque com a arma",
+      "efeito": "torna-se invisível por 1 rodada"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "flecha_de_toque",
+  "name": "Flecha de Toque",
+  "type": "poder_distincao",
+  "description": "Com um sussurro mágico, o arqueiro faz sua flecha transportar uma de suas magias. Quando lança uma magia que permite fazer um ataque corpo a corpo como parte de sua execução (como Infligir Ferimentos ou Toque Chocante aprimoradas), você pode substituir esse ataque por um ataque à distância com seu arco arcano.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "lança uma magia que permite fazer um ataque corpo a corpo como parte de sua execução (ex.: Infligir Ferimentos ou Toque Chocante aprimoradas)",
+      "efeito": "pode substituir esse ataque por um ataque à distância com o arco arcano"
+    }
+  ],
+  "requirements": [
+    "Energizar Arco"
+  ],
+  "livro": "herois_de_arton"
+}

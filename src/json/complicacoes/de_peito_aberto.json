@@ -1,0 +1,18 @@
+{
+  "id": "de_peito_aberto",
+  "name": "De Peito Aberto",
+  "description": "Você tem tatuagens tribais que quer exibir, confia na sua resistência natural ou só acha seu corpo lindo. Seja qual for o motivo, você não pode vestir armaduras e seu limite de itens vestidos diminui em dois. †",
+  "categoria": "barbaro",
+  "effects": [
+    {
+      "type": "restricao_equipamento",
+      "descricao": "não pode vestir armaduras e seu limite de itens vestidos diminui em dois"
+    },
+    {
+      "type": "comportamental",
+      "descricao": "se violar a complicação, perde todos os PM e só pode recuperá-los a partir do próximo dia"
+    }
+  ],
+  "poder_concedido": null,
+  "livro": "herois_de_arton"
+}

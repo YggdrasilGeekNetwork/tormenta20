@@ -1,0 +1,31 @@
+{
+  "id": "braceletes_da_amizade_intensa",
+  "name": "Braceletes da Amizade Intensa",
+  "categoria": "menor",
+  "preco": 6000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Estes dois braceletes de prata são gravados com símbolos antigos de união e lealdade. Quando colocados (cada um numa pessoa diferente), estabelecem uma ligação poderosa entre seus usuários. Em alcance médio, ambos podem se comunicar por telepatia — podendo ver, ouvir e sentir tudo que o outro vê, ouve e sente. Também podem sempre sentir em que direção e distância o outro está. Por fim, quando um usuário recebe cura mágica ou outro efeito mágico benéfico, o outro também é afetado se estiver em alcance curto. O preço do item é pelo par!",
+  "effects": [
+    {
+      "type": "telepatia",
+      "alcance": "médio",
+      "descricao": "comunicação telepática; compartilha visão, audição e sensações com o outro usuário"
+    },
+    {
+      "type": "sentir_direcao",
+      "alcance": "ilimitado",
+      "descricao": "sempre sabe a direção e distância do outro usuário"
+    },
+    {
+      "type": "compartilhar_efeito_beneficio",
+      "alcance": "curto",
+      "condicao": "cura mágica ou outro efeito mágico benéfico"
+    },
+    {
+      "type": "nota",
+      "descricao": "preço listado é pelo par"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

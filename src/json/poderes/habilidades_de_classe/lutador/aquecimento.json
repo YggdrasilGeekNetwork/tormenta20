@@ -1,0 +1,28 @@
+{
+  "id": "aquecimento",
+  "name": "Aquecimento",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Em seu primeiro turno de um combate, você pode gastar uma ação completa para aquecer seus músculos. Você soma sua Constituição em seus testes de ataque desarmado (limitada pelo seu nível) e recebe uma quantidade de PV temporários igual a sua Constituição + seu nível. Ambos os bônus duram até o fim da cena.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "add_attack_attr",
+      "attr": "con",
+      "limit": "nivel_do_personagem",
+      "weapon": "desarmado"
+    },
+    {
+      "type": "PV_improvement",
+      "value": "constituicao_mais_nivel",
+      "duration": "cena"
+    }
+  ],
+  "costs": [
+    {
+      "type": "acao_completa",
+      "requirement": "primeiro_turno_de_combate"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

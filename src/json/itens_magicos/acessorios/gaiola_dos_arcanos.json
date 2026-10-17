@@ -1,0 +1,19 @@
+{
+  "id": "gaiola_dos_arcanos",
+  "name": "Gaiola dos Arcanos",
+  "categoria": "menor",
+  "preco": 6000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este item é uma gaiola de prata pequena e robusta, com um pequeno cristal pulsante em seu interior. Quando uma criatura usa uma habilidade mágica em um raio de 9m da gaiola, o cristal suga 1 PM por círculo da magia lançada, ou 2 PM no caso de outras habilidades mágicas, dessa criatura. Os efeitos de várias gaiolas no mesmo aposento são cumulativos.",
+  "effects": [
+    {
+      "type": "drenar_pm",
+      "raio": "9m",
+      "quantidade": "1 PM por círculo da magia (ou 2 PM para outras habilidades mágicas)",
+      "alvo": "qualquer criatura que use habilidade mágica na área",
+      "cumulativo_entre_gaiolas": true
+    }
+  ],
+  "livro": "herois_de_arton"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "irmaos_inseparaveis",
+  "name": "Irmãos Inseparáveis",
+  "type": "poder_distincao",
+  "description": "Um ginete de Namalkah não recebe uma montaria — recebe um irmão para toda a vida. O nível de parceiro de seu irmão cavalo aumenta em um (de veterano para mestre). Se ele já for um parceiro mestre, esse aumento se aplica a outro de seus tipos. Além disso, a conexão entre vocês permite que se comuniquem telepaticamente enquanto estiverem em alcance longo um do outro.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "aumenta o nível de parceiro do irmão cavalo em um (veterano para mestre, ou outro tipo se já mestre); comunicação telepática em alcance longo"
+    }
+  ],
+  "requirements": ["Caminho das Coxilhas"],
+  "livro": "herois_de_arton"
+}

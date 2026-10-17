@@ -1,0 +1,60 @@
+{
+  "id": "descobrir_fraqueza",
+  "name": "Descobrir Fraqueza",
+  "type": "arcana",
+  "circle": "1",
+  "school": "adiv",
+  "execution": "movimento",
+  "execution_details": null,
+  "range": "curto_6m_9q",
+  "target": {
+    "amount": 1,
+    "up_to": null,
+    "type": "criatura"
+  },
+  "effect": "alvo",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "instantânea",
+  "duration_details": null,
+  "resistence": {
+    "effect": "evita",
+    "skill": "vontade"
+  },
+  "extra_costs": null,
+  "description": "Você analisa uma criatura em busca de pontos fracos e outras características. Para isso, como parte do efeito da magia, você faz um teste de Misticismo para identificar criatura contra o alvo (independente do tipo dele) com um bônus de +10.",
+  "enhancements": [
+    {
+      "cost": 1,
+      "type": "aumenta",
+      "description": "aumenta o bônus no teste em +5.",
+      "extra_details": null
+    },
+    {
+      "cost": 1,
+      "type": "muda",
+      "description": "além do normal, sua próxima rolagem de dano contra a criatura nessa cena ignora 10 pontos da redução de dano dela. Requer 2° círculo.",
+      "extra_details": {
+        "requirements": "2° círculo"
+      }
+    },
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "além do normal, você recebe +2 em testes contra a criatura até o fim da cena. Requer 2° círculo.",
+      "extra_details": {
+        "requirements": "2° círculo"
+      }
+    }
+  ],
+  "effects": [
+    {
+      "type": "bônus",
+      "attribute": "misticismo",
+      "amount": "+10",
+      "resistence_requirement": "vontade",
+      "extra_requirements": "teste_para_identificar_criatura"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

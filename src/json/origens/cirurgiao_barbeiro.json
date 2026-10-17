@@ -1,0 +1,30 @@
+{
+  "id": "cirurgiao_barbeiro",
+  "name": "Cirurgião-Barbeiro",
+  "description": "Atuando em algum vilarejo, porto ou navio, além de cortar cabelos e barbas, você realizava procedimentos médicos rudimentares, como extração de dentes, tratamento de feridas e amputações. Munido de facas afiadas, ervas curativas, bebida forte (a título de anestesia) e conhecimento prático transmitido por gerações, você tratava de camponeses adoentados, feridos em acidentes ou atacados por feras. Suas habilidades misturavam medicina, alquimia e intuição, sendo a última esperança dos aflitos quando não havia curas milagrosas por perto. Grandes coisas, esses tais clérigos! Tudo se resolve cortando fora a parte que dói!",
+  "items": [
+    {
+      "type": "fixed",
+      "text": "Dente falso"
+    },
+    {
+      "type": "fixed",
+      "text": "Instrumentos de barbeiro"
+    },
+    {
+      "type": "fixed",
+      "text": "Maleta de medicamentos"
+    }
+  ],
+  "benefits": {
+    "skills": [
+      "Cura",
+      "Ofício (barbeiro)"
+    ],
+    "powers": [
+      "Cirurgia de Campo"
+    ]
+  },
+  "unique_power": "cirurgia_de_campo",
+  "livro": "herois_de_arton"
+}

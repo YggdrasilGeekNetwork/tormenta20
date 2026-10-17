@@ -1,0 +1,14 @@
+{
+  "id": "ala_dos_criados",
+  "name": "Ala dos Criados",
+  "description": "A base possui serviçais, como pajens e aias, que ajudam os heróis a partir para cada busca nas melhores condições. No início de cada aventura, cada residente recebe 1d4 PM temporários por patamar. Esses pontos temporários duram até serem gastos.",
+  "effects": [
+    {
+      "type": "pm_temporarios_por_aventura",
+      "dados": "1d4",
+      "por": "patamar"
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

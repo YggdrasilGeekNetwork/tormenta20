@@ -1,0 +1,24 @@
+{
+  "id": "bracelete_do_coracao_vivaz",
+  "name": "Bracelete do Coração Vivaz",
+  "categoria": "medio",
+  "preco": 27000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este bracelete de ouro adornado com um coração fornece +10 PV (somente após um dia de uso). Além disso, quando você é reduzido a 0 PV ou menos, pode gastar 2 PM para curar 2d8+2 PV por luz.",
+  "effects": [
+    {
+      "type": "bonus_pv",
+      "value": 10,
+      "condicao": "somente após um dia de uso"
+    },
+    {
+      "type": "cura_condicional",
+      "gatilho": "reduzido a 0 PV ou menos",
+      "custo_pm": 2,
+      "cura": "2d8+2",
+      "frequencia": "por luz"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

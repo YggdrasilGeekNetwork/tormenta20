@@ -1,0 +1,35 @@
+{
+  "id": "caricias_revigorantes",
+  "name": "Carícias Revigorantes",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Você sabe como aliviar as dores e tristezas de uma pessoa. Você pode gastar 1 minuto e 2 PM para recuperar 2d4 PM de uma criatura adjacente. Uma mesma criatura só pode receber os benefícios deste poder uma vez por dia.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "car",
+      "value": 2
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "seducao_lasciva"
+    }
+  ],
+  "effects": [
+    {
+      "type": "active_ability",
+      "action": "1_minuto",
+      "effect": "recupera_2d4_PM_de_criatura_adjacente",
+      "frequency": "uma_vez_por_dia_por_criatura"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

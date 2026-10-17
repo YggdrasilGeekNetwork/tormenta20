@@ -1,0 +1,20 @@
+{
+  "id": "azagaia_fantasma",
+  "name": "Azagaia Fantasma",
+  "base_weapon": "azagaia",
+  "preco": 30000,
+  "description": "Esta azagaia caçadora é feita de um material transparente como cristal. Quando a arremessa, você pode gastar 1 PM para que ela ignore a RD do alvo. Ela volta para você no fim do turno.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "caçadora"
+    },
+    {
+      "type": "ativado",
+      "custo_pm": 1,
+      "gatilho": "arremessa a arma",
+      "efeito": "a arma ignora a RD do alvo; volta para você no fim do turno"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

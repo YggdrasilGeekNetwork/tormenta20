@@ -1,0 +1,22 @@
+{
+  "id": "khopesh",
+  "name": "Khopesh",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 20,
+  "dano": "1d8",
+  "critico": "19/x3",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "bonus_manobra": {
+      "derrubar": 2
+    }
+  },
+  "description": "Usada em eras antigas, especialmente nos impérios de Zarkhass e Nardmyr, esta espada curva sobreviveu ao teste do tempo e é usada sobretudo por mercenários do Deserto da Perdição. Sua curvatura forma um gancho que pode desestabilizar oponentes. É uma arma versátil, fornecendo +2 em testes para derrubar.",
+  "livro": "herois_de_arton"
+}

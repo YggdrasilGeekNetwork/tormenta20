@@ -1,0 +1,39 @@
+{
+  "id": "pose_assustadora",
+  "name": "Pose Assustadora",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Você recebe +2 em Intimidação e pode gastar 1 PM para assustar como uma ação de movimento.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "car",
+      "value": 1
+    },
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "intimidacao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "skill": "intimidacao"
+    },
+    {
+      "type": "change_action_type",
+      "action": "assustar",
+      "to": "movimento"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

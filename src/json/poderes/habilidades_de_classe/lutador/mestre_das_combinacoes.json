@@ -1,0 +1,24 @@
+{
+  "id": "mestre_das_combinacoes",
+  "name": "Mestre das Combinações",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Sua contagem de combinações aumenta em +2 (em vez de +1) para cada ataque de Combinação diferente com o qual você acertar o oponente.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "dois_poderes_de_combinacao",
+      "note": "requer_dois_poderes_quaisquer_da_familia_combinacao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "bonus",
+      "value": 2,
+      "note": "contagem_de_combinacoes_aumenta_em_2_em_vez_de_1_por_ataque_de_combinacao_diferente_que_acertar"
+    }
+  ],
+  "costs": null,
+  "livro": "herois_de_arton"
+}

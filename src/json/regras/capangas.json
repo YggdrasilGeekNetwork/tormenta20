@@ -1,0 +1,292 @@
+{
+  "id": "capangas",
+  "name": "Capangas",
+  "livro": "herois_de_arton",
+  "description": "Capangas são criaturas simplificadas que agem em grupo. Individualmente são fracas, mas graças aos números tornam-se perigosas. Um grupo de capangas conta como um parceiro para o limite de parceiros que você pode ter, exceto capangas convocados por magias e habilidades, que não contam nesse limite.",
+  "regras": [
+    {
+      "id": "posicionar",
+      "name": "Posicionar",
+      "description": "Para usar um grupo de capangas em combate, primeiro você deve posicioná-los. Para isso, você gasta uma ação completa e posiciona cada capanga do grupo em um espaço desocupado em alcance curto."
+    },
+    {
+      "id": "comandar",
+      "name": "Comandar",
+      "description": "Você pode usar uma ação de movimento para fazer quaisquer capangas já posicionados se mover ao deslocamento deles, ou uma ação padrão para fazê-los causar dano automático a criaturas adjacentes (apenas uma vez por rodada). Capangas não agem sem receber ordens."
+    },
+    {
+      "id": "pontos_de_vida",
+      "name": "Pontos de Vida",
+      "description": "Exceto quando dito o contrário, capangas têm 1 PV e falham automaticamente em qualquer teste oposto. Um capanga reduzido a 0 PV não pode ser usado pelo restante da cena."
+    },
+    {
+      "id": "tamanho",
+      "name": "Tamanho",
+      "description": "Se o tamanho de um capanga não for indicado em sua descrição, ele é Médio."
+    },
+    {
+      "id": "limite_de_parceiros",
+      "name": "Limite de Parceiros",
+      "description": "Cada grupo de capangas conta como um parceiro para o limite de parceiros que você pode ter."
+    },
+    {
+      "id": "usos_fora_de_combate",
+      "name": "Usos Fora de Combate",
+      "description": "Usos criativos para capangas fora de combate ficam a critério do mestre."
+    },
+    {
+      "id": "limitacoes",
+      "name": "Limitações",
+      "description": "Capangas são criaturas simplificadas e não se beneficiam de alguns efeitos (por exemplo, não recebem bônus em testes de ataque, pois causam dano automático)."
+    }
+  ],
+  "mercenarios": {
+    "description": "Você pode contratar mercenários como parceiros (Tormenta20, p.260). O valor pago (veja o item de equipamento 'Mercenário') representa o preço para contratar o NPC por uma cena. Ele o acompanha, contando no seu limite de parceiros, mas sem oferecer benefícios, até que você peça sua ajuda; então fornece seu benefício até o fim da cena, após o que vai embora. A critério do mestre, pode ser possível contratar um mercenário para uma aventura inteira pelo triplo do preço listado. Vários mercenários fazem referência aos grupos de capangas definidos abaixo (arqueiros, bando de aldeões, irregulares).",
+    "tipos": [
+      {
+        "id": "alquimista_de_batalha",
+        "name": "Alquimista de Batalha",
+        "descricao": "Artesão especializado em preparados alquímicos e no seu uso em combate.",
+        "aliado": "Destruidor veterano"
+      },
+      {
+        "id": "aprendiz_de_guilda",
+        "name": "Aprendiz de Guilda",
+        "descricao": "Auxiliar treinado, capaz de ajudá-lo em seu ofício.",
+        "aliado": "Ajudante (Conhecimento e Ofício) iniciante"
+      },
+      {
+        "id": "aprendiz_de_mago",
+        "name": "Aprendiz de Mago",
+        "descricao": "Estudioso das artes arcanas, pode ajudá-lo com suas magias (embora ainda não consiga lançar feitiços por si só).",
+        "aliado": "Magivocador iniciante"
+      },
+      {
+        "id": "arauto",
+        "name": "Arauto",
+        "descricao": "Servo treinado para anunciá-lo de forma solene.",
+        "aliado": "Ajudante (Diplomacia, Intuição e Nobreza) veterano"
+      },
+      {
+        "id": "arqueiros",
+        "name": "Arqueiros",
+        "descricao": "Grupamento de arqueiros, soldados irregulares ou caçadores em busca de soldo. Você precisa ser treinado em Guerra para contratar e comandar os arqueiros.",
+        "aliado": "Unidade de Arqueiros veterana (veja Capangas)"
+      },
+      {
+        "id": "besteiro",
+        "name": "Besteiro",
+        "descricao": "Combatente especializado em armas de disparo.",
+        "aliado": "Atirador iniciante"
+      },
+      {
+        "id": "bando_de_aldeoes",
+        "name": "Bando de Aldeões",
+        "descricao": "Grupo de esfarrapados descalços portando ancinhos, porretes e outras armas improvisadas. Você precisa ser treinado em Guerra para contratar e comandar um bando de aldeões.",
+        "aliado": "Turba de Camponeses iniciante (veja Capangas)"
+      },
+      {
+        "id": "batedor",
+        "name": "Batedor",
+        "descricao": "Guia atento e acostumado com os ermos.",
+        "aliado": "Vigilante veterano"
+      },
+      {
+        "id": "bibliotecario_mistico",
+        "name": "Bibliotecário Místico",
+        "descricao": "Entusiasta de magia, repleto de tomos e pergaminhos.",
+        "aliado": "Adepto veterano"
+      },
+      {
+        "id": "conselheiro",
+        "name": "Conselheiro",
+        "descricao": "Estudioso de diversos assuntos.",
+        "aliado": "Ajudante (Conhecimento, Misticismo e Nobreza) veterano"
+      },
+      {
+        "id": "guarda_costas",
+        "name": "Guarda-Costas",
+        "descricao": "Mercenário especializado em proteger seu contratante e enfrentar seus inimigos.",
+        "aliado": "Guardião iniciante"
+      },
+      {
+        "id": "herbalista",
+        "name": "Herbalista",
+        "descricao": "Conhecedor de ervas e unguentos medicinais.",
+        "aliado": "Médico iniciante"
+      },
+      {
+        "id": "homem_de_armas",
+        "name": "Homem de Armas",
+        "descricao": "Soldado treinado em armas corpo a corpo, como espadas e machados.",
+        "aliado": "Fortão iniciante"
+      },
+      {
+        "id": "irregulares",
+        "name": "Irregulares",
+        "descricao": "Soldados que não fazem parte de nenhum exército ou companhia mercenária regular, com pouco treinamento e equipamento díspar. Você precisa ser treinado em Guerra para contratar e comandar os irregulares.",
+        "aliado": "Pelotão de Infantaria veterano (veja Capangas)"
+      },
+      {
+        "id": "matador",
+        "name": "Matador",
+        "descricao": "Assassino de aluguel, discreto e letal.",
+        "aliado": "Assassino veterano"
+      },
+      {
+        "id": "sombra",
+        "name": "Sombra",
+        "descricao": "Mercenário acostumado a agir discretamente e desvendar segredos bem guardados.",
+        "aliado": "Ajudante (Enganação, Furtividade e Investigação) veterano"
+      }
+    ]
+  },
+  "grupos_de_capangas": [
+    {
+      "id": "bando_duyshidakk",
+      "name": "Bando Duyshidakk",
+      "description": "Um grupo de combatentes duyshidakk.",
+      "niveis": {
+        "iniciante": {
+          "quantidade": 5,
+          "deslocamento": "9m",
+          "defesa": 15,
+          "dano": "1d6+1 de corte cada"
+        },
+        "veterano": {
+          "quantidade": 6,
+          "nota": "o grupo aumenta para seis duyshidakk infantes"
+        },
+        "mestre": {
+          "quantidade": 7,
+          "dano": "2d4+2 de corte cada",
+          "nota": "o grupo aumenta para sete duyshidakk e o dano deles se torna 2d4+2"
+        }
+      }
+    },
+    {
+      "id": "esqueletos_animados",
+      "name": "Esqueletos Animados",
+      "description": "Um punhado de esqueletos de várias criaturas, reanimados como mortos-vivos sem mente.",
+      "niveis": {
+        "iniciante": {
+          "quantidade": 4,
+          "deslocamento": "9m",
+          "defesa": 18,
+          "dano": "1d6+1 de corte cada"
+        },
+        "veterano": {
+          "quantidade": 5,
+          "reducao": "redução de corte, frio e perfuração 5",
+          "nota": "o grupo aumenta para cinco esqueletos e eles recebem redução de corte, frio e perfuração 5"
+        },
+        "mestre": {
+          "quantidade": 6,
+          "dano": "1d8+2 de corte cada",
+          "nota": "o grupo aumenta para seis esqueletos e o dano deles se torna 1d8+2"
+        }
+      }
+    },
+    {
+      "id": "pelotao_de_infantaria",
+      "name": "Pelotão de Infantaria",
+      "description": "Um grupo de soldados com treinamento e equipamento básicos.",
+      "niveis": {
+        "iniciante": {
+          "quantidade": 4,
+          "deslocamento": "9m",
+          "defesa": 16,
+          "dano": "2d4+1 de corte cada"
+        },
+        "veterano": {
+          "quantidade": 5,
+          "nota": "o grupo aumenta para cinco infantes"
+        },
+        "mestre": {
+          "quantidade": 6,
+          "defesa": 18,
+          "nota": "o grupo aumenta para seis infantes e a Defesa deles aumenta para 18"
+        }
+      }
+    },
+    {
+      "id": "tripulacao",
+      "name": "Tripulação",
+      "description": "Uma equipe de tripulantes acostumados a operar as mais diversas embarcações, e a lutar em sua defesa.",
+      "niveis": {
+        "iniciante": {
+          "quantidade": 4,
+          "deslocamento": "9m",
+          "defesa": 14,
+          "dano": "1d6 de corte cada",
+          "beneficio_extra": "fornecem +1 em Pilotagem"
+        },
+        "veterano": {
+          "quantidade": 5,
+          "beneficio_extra": "bônus em Pilotagem aumenta para +2",
+          "nota": "a equipe aumenta para cinco tripulantes e o bônus em Pilotagem aumenta para +2"
+        },
+        "mestre": {
+          "quantidade": 6,
+          "dano": "1d8 de corte cada",
+          "beneficio_extra": "bônus em Pilotagem aumenta para +5",
+          "nota": "a equipe aumenta para seis tripulantes, o dano deles se torna 1d8 e o bônus em Pilotagem aumenta para +5"
+        }
+      }
+    },
+    {
+      "id": "turba_de_camponeses",
+      "name": "Turba de Camponeses",
+      "description": "Um grupo de camponeses. Numerosos, mas sem treinamento ou equipamento.",
+      "niveis": {
+        "iniciante": {
+          "quantidade": 6,
+          "deslocamento": "9m",
+          "defesa": 10,
+          "dano": "1d6 de perfuração cada"
+        },
+        "veterano": {
+          "quantidade": 8,
+          "nota": "o grupo aumenta para oito camponeses"
+        },
+        "mestre": {
+          "quantidade": 10,
+          "dano": "1d6+1 de perfuração cada",
+          "nota": "o grupo aumenta para dez camponeses e o dano deles se torna 1d6+1"
+        }
+      }
+    },
+    {
+      "id": "unidade_de_arqueiros",
+      "name": "Unidade de Arqueiros",
+      "description": "Um grupamento de arqueiros com treinamento e equipamento básicos. Ao contrário de outros capangas, eles podem causar dano a inimigos em alcance curto que não tenham cobertura.",
+      "niveis": {
+        "iniciante": {
+          "quantidade": 4,
+          "deslocamento": "9m",
+          "defesa": 14,
+          "dano": "1d6 de perfuração cada"
+        },
+        "veterano": {
+          "quantidade": 5,
+          "nota": "o grupo aumenta para cinco arqueiros"
+        },
+        "mestre": {
+          "quantidade": 6,
+          "dano": "1d8 de perfuração cada",
+          "nota": "o grupo aumenta para seis arqueiros e o dano deles se torna 1d8"
+        }
+      }
+    }
+  ],
+  "capangas_convocados": {
+    "description": "As criaturas convocadas pelas seguintes habilidades são capangas, e são afetadas por quaisquer efeitos que afetem especificamente capangas: Conjurar Mortos-Vivos, Servos do Dragão, Tropas Duyshidakk (Tormenta20), o aprimoramento que conjura kobolds de Conjurar Monstro (Ameaças de Arton) e Legião Tapistana (Jornada Heroica: Guerra Artoniana e Jornada Heroica: A Libertação de Valkaria). Em especial, um efeito que aumente a quantidade de capangas que você recebe, como Comandante de Campo (Heróis de Arton, p.75), aumenta a quantidade de capangas convocados. Da mesma forma, um efeito que reduza a ação necessária para posicionar seus capangas também reduz a ação necessária para usar essas habilidades (exceto para magias). Capangas convocados não contam em seu limite de parceiros.",
+    "fontes": [
+      "Conjurar Mortos-Vivos",
+      "Servos do Dragão",
+      "Tropas Duyshidakk",
+      "Conjurar Monstro (aprimoramento de kobolds, Ameaças de Arton)",
+      "Legião Tapistana (Jornada Heroica)"
+    ]
+  }
+}

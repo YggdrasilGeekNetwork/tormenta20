@@ -1,0 +1,31 @@
+{
+  "id": "sandalias_de_valkaria",
+  "name": "Sandálias de Valkaria",
+  "categoria": "medio",
+  "preco": 12000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Estas sandálias leves permitem andar sobre qualquer superfície, incluindo água e neve. Você ignora terrenos difíceis, pode caminhar sobre líquidos (como o aprimoramento da magia Libertação) e recebe +5 em testes de Acrobacia para atravessar terreno escorregadio e em testes de Atletismo para escalar.",
+  "effects": [
+    {
+      "type": "ignora_terreno_dificil"
+    },
+    {
+      "type": "andar_sobre_liquidos",
+      "referencia": "aprimoramento da magia Libertação"
+    },
+    {
+      "type": "bonus_pericia",
+      "pericia": "Acrobacia",
+      "condicao": "para atravessar terreno escorregadio",
+      "value": 5
+    },
+    {
+      "type": "bonus_pericia",
+      "pericia": "Atletismo",
+      "condicao": "para escalar",
+      "value": 5
+    }
+  ],
+  "livro": "herois_de_arton"
+}

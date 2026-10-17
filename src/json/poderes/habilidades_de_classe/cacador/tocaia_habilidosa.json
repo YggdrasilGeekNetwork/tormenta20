@@ -1,0 +1,24 @@
+{
+  "id": "tocaia_habilidosa",
+  "name": "Tocaia Habilidosa",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Sua Marca da Presa também fornece +1 na CD de suas habilidades contra a criatura marcada para cada PM gasto. Esse bônus dobra com a habilidade Inimigo.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "marca_da_presa"
+    }
+  ],
+  "effects": [
+    {
+      "type": "dc_improvement",
+      "value": 1,
+      "per": "pm_gasto",
+      "applies_to": "habilidades_contra_criatura_marcada",
+      "doubles_with": "inimigo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

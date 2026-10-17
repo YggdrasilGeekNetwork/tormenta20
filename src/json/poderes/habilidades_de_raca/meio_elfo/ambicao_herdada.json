@@ -1,0 +1,11 @@
+{
+  "id": "ambicao_herdada",
+  "name": "Ambição Herdada",
+  "type": "habilidade_de_raca",
+  "race": "meio_elfo",
+  "description": "Você recebe um poder geral ou poder único de origem a sua escolha.",
+  "effects": {
+    "concede_poder_a_escolha": { "categorias": ["poder_geral", "habilidade_unica_origem"], "quantidade": 1 }
+  },
+  "livro": "herois_de_arton"
+}

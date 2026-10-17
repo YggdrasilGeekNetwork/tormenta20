@@ -1,0 +1,34 @@
+{
+  "id": "remise",
+  "name": "Remise",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Enquanto está sob efeito de En Garde, uma vez por rodada, quando usa a ação agredir, você pode gastar 2 PM para realizar um ataque adicional. Pré-requisitos: En Garde, 7º nível de bucaneiro.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "en_garde"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 7
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "frequency": "1_por_rodada",
+      "condition": "sob_efeito_de_en_garde",
+      "trigger": "acao_agredir"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

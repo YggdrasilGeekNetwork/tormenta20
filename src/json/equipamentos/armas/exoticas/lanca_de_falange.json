@@ -1,0 +1,23 @@
+{
+  "id": "lanca_de_falange",
+  "name": "Lança de Falange",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 15,
+  "dano": "1d8",
+  "critico": "x3",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [
+    "alongada"
+  ],
+  "especial": {
+    "arremessavel": true,
+    "uso_marcial_duas_maos": true
+  },
+  "description": "Lança de infantaria muito empregada por tropas treinadas para lutar em formação fechada. É uma arma alongada que pode ser arremessada. É muito grande para ser usada com uma mão sem treinamento especial, por isso é uma arma exótica. Pode ser usada como uma arma marcial de duas mãos.",
+  "livro": "herois_de_arton"
+}

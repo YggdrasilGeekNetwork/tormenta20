@@ -1,0 +1,32 @@
+{
+  "id": "ataque_com_o_cabo",
+  "name": "Ataque com o Cabo",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Uma vez por rodada, quando usa a ação agredir enquanto empunha uma arma alongada, você pode gastar 1 PM. Se fizer isso, pode fazer um ataque extra com o cabo da arma. Você usa as mesmas estatísticas de um ataque normal da arma, mas seu dano básico se torna 1d6 (impacto) e seu crítico se torna x2.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "estilo_de_arma_longa"
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "weapon": "cabo_da_arma",
+      "damage": "1d6",
+      "damage_type": "impacto",
+      "critical": "x2",
+      "frequency": "uma_vez_por_rodada",
+      "trigger": "acao_agredir_com_arma_alongada"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

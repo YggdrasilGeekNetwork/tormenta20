@@ -1,0 +1,18 @@
+{
+  "id": "na_cara_nao",
+  "name": "Na Cara Não!",
+  "type": "poder_distincao",
+  "description": "A melhor forma de vencer uma briga é nunca entrar nela… Mas, se o trobo já foi para o brejo, o vigarista sabe pelo menos evitar o pior. Quando usa Rolamento Defensivo, você recebe um uso adicional de Aparência Inofensiva nessa cena.",
+  "effects": [
+    {
+      "type": "passivo",
+      "gatilho": "usa Rolamento Defensivo",
+      "efeito": "recebe um uso adicional de Aparência Inofensiva nessa cena"
+    }
+  ],
+  "requirements": [
+    "Aquele Papinho",
+    "Rolamento Defensivo"
+  ],
+  "livro": "herois_de_arton"
+}

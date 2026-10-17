@@ -1,0 +1,15 @@
+{
+  "id": "bainha_adornada",
+  "name": "Bainha Adornada",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 100,
+  "espacos": 1,
+  "cd_fabricacao": 15,
+  "uso": "acessorio",
+  "efeito": {
+    "permite_arma_como_traje_da_corte": true
+  },
+  "description": "Coberta de fios de ouro, gemas e outros ornamentos, esta bainha permite que você use armas como parte de um traje da corte (Tormenta20, p.159). Com isso você pode participar de bailes, festas e encontros da nobreza devidamente armado, sem chamar atenção.",
+  "livro": "herois_de_arton"
+}

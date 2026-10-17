@@ -1,0 +1,19 @@
+{
+  "id": "trazemos_a_luz",
+  "name": "Trazemos a Luz",
+  "type": "poder_distincao",
+  "description": "O Cavaleiro do Corvo une corpo, mente e conhecimento em um conjunto letal. Uma vez por combate, você pode gastar uma ação de movimento e 3 PM para fazer um teste de Guerra. Você recebe uma quantidade de PV temporários igual ao resultado desse teste e, para cada 10 pontos no resultado, recebe +1 em testes de ataque e rolagens de dano. Além disso, se o resultado for 30 ou mais, você ignora a imunidade a acertos críticos e ataques furtivos de seus inimigos. Esses efeitos duram até o fim da cena.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 3,
+      "limite": "uma vez por combate",
+      "efeito": "faz um teste de Guerra; recebe PV temporários iguais ao resultado e +1 em testes de ataque e rolagens de dano para cada 10 pontos do resultado; se o resultado for 30 ou mais, ignora a imunidade a acertos críticos e ataques furtivos dos inimigos; efeitos duram até o fim da cena"
+    }
+  ],
+  "requirements": [
+    "Das Trevas"
+  ],
+  "livro": "herois_de_arton"
+}

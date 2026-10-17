@@ -1,0 +1,33 @@
+{
+  "id": "ardil_afiado",
+  "name": "Ardil Afiado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Você pode usar Audácia em testes de manobra. Se fizer isso contra um oponente desprevenido, soma o dobro do Carisma no teste. Pré-requisitos: Car 1, treinado em Enganação.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "car",
+      "value": 1
+    },
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "enganacao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "extend_feature",
+      "value": "audacia",
+      "applies_to": "testes_de_manobra"
+    },
+    {
+      "type": "attribute_bonus_double",
+      "attr": "car",
+      "condition": "alvo_desprevenido"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

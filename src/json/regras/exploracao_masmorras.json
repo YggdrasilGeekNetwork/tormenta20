@@ -1,0 +1,29 @@
+{
+  "id": "exploracao_masmorras",
+  "name": "Exploração de Masmorras",
+  "description": "Regras opcionais para um estilo de jogo mais baseado em gerenciamento de recursos: encontros aleatórios, categorias de barulho, duração de cenas em segmentos de tempo, e regras de sobrevivência dentro de masmorras. Complementa as regras básicas de masmorras de Tormenta20 (p.263).",
+  "encontros_aleatorios": {
+    "regra_base": "Sempre que os personagens entram numa sala ou corredor, fazem uma rolagem de encontro. Por padrão, 1d6, sendo que um resultado 1 indica um encontro. O dado muda conforme a categoria de barulho do grupo.",
+    "criando_tabela_de_encontros": "Invente de 4 a 10 encontros diferentes (majoritariamente criaturas/perigos, com poucos benéficos/de interpretação), do mais fraco ao mais forte. Encontros hostis devem ter ND de 1 a 3 pontos abaixo do nível do grupo."
+  },
+  "categorias_de_barulho": [
+    { "id": "silencioso", "name": "Silencioso", "efeito_no_dado": "aumenta um passo (d6 -> d8)", "requisito": "avançar à metade do deslocamento e passar em Furtividade CD 20" },
+    { "id": "padrao", "name": "Padrão", "efeito_no_dado": "nenhum modificador" },
+    { "id": "barulhento", "name": "Barulhento", "efeito_no_dado": "diminui um passo (d6 -> d4)" },
+    { "id": "estrondoso", "name": "Estrondoso", "efeito_no_dado": "diminui dois passos (d6 -> d3)" }
+  ],
+  "luz_e_escuridao": "A maioria das masmorras é imersa em trevas sobrenaturais (afetam até personagens com visão na penumbra/no escuro, exceto nativos da masmorra). Sem fonte de luz, os personagens sofrem os efeitos da condição cego. Fontes de luz mundanas ou mágicas duram, por padrão, uma cena.",
+  "duracao_de_cenas_segmentos": [
+    { "tipo": "acao_curta", "segmentos": 1, "exemplos": ["passar por um corredor", "explorar um corredor"] },
+    { "tipo": "acao_longa", "segmentos": 2, "exemplos": ["passar por uma sala", "explorar uma sala", "Cura para cuidados prolongados", "Misticismo para identificar item mágico", "Sobrevivência para montar acampamento"] },
+    { "tipo": "acao_muito_longa", "segmentos": 6, "exemplos": ["uma cena inteira (manhã, tarde ou noite)"] }
+  ],
+  "gerenciamento_de_recursos": "Em masmorras, todos os equipamentos que os personagens desejam levar devem estar anotados e seus espaços contados rigidamente (comida, óleo, gazuas, cordas etc.). Falhar por 5 ou mais em Ladinagem para abrir uma fechadura quebra a gazua (ou a fechadura, se não houver gazua). Cordas deixadas presas não podem ser reutilizadas. O controle é responsabilidade dos jogadores, não do mestre.",
+  "sobrevivencia_em_masmorras": {
+    "alimento": "Por padrão, não é possível usar Sobrevivência para conseguir alimento em masmorras.",
+    "acampamento": "CD de 25 (masmorras menos hostis) a 35 (lugares especialmente terríveis) para montar acampamento; consome tempo como uma ação longa.",
+    "descanso": "Ao dormir, os personagens gastam uma ração de viagem cada e devem fazer duas rolagens de encontro (dado padrão 1d6, diminuído em um passo para cada abertura além da primeira no local do acampamento).",
+    "defesas": "Um teste de Guerra ou Sobrevivência (mesma CD do acampamento) para montar barricadas aumenta o dado de encontro em um passo (não cumulativo entre personagens, conta como ação longa). Cada aventureiro que fizer turno de guarda aumenta o dado em um passo (cumulativo), mas deve fazer um teste de Fortitude (CD 20 +1 por dia anterior de turnos de guarda); se falhar, diminui a condição de descanso em uma categoria e fica fatigado no dia seguinte."
+  },
+  "livro": "herois_de_arton"
+}

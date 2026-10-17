@@ -1,0 +1,33 @@
+{
+  "id": "escudo_vivo",
+  "name": "Escudo Vivo",
+  "type": "poder_geral",
+  "sub_type": "poder_de_grupo",
+  "description": "Você e seu grupo são mais do que companheiros de aventuras — são amigos leais, que dariam a vida um pelo outro. Quando mais de um personagem com este poder for afetado por dano em área, você pode gastar 2 PM para sofrer o dano no lugar desses aliados que estejam em alcance curto. Cada um faz um teste de resistência normalmente. Você sofre todo o dano que seus aliados sofreriam de acordo com seus testes de resistência. Suas próprias imunidades e RD se aplicam normalmente.",
+  "requirements": [
+    {
+      "type": "group_power",
+      "sub_type": "hard",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    }
+  ],
+  "effects": [
+    {
+      "type": "group_requirement",
+      "note": "Poder de grupo: só tem efeito se houver outro personagem jogador com este mesmo poder na cena (NPCs, parceiros e outros coadjuvantes não contam)."
+    },
+    {
+      "type": "damage_redirect",
+      "trigger": "mais_de_um_personagem_com_este_poder_afetado_por_dano_em_area",
+      "effect": "voce_sofre_o_dano_de_todos_os_aliados_em_alcance_curto_apos_os_testes_de_resistencia_deles",
+      "note": "suas_proprias_imunidades_e_rd_se_aplicam"
+    }
+  ],
+  "livro": "herois_de_arton",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

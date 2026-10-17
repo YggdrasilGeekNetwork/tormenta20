@@ -1,0 +1,14 @@
+{
+  "id": "biblioteca",
+  "name": "Biblioteca",
+  "description": "Estantes recheadas de livros e pergaminhos. Os residentes recebem +1 em Conhecimento.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "conhecimento",
+      "value": 1
+    }
+  ],
+  "prerequisito": null,
+  "livro": "herois_de_arton"
+}

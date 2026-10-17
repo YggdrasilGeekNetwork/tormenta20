@@ -1,0 +1,14 @@
+{
+  "id": "arsenal_arcano",
+  "name": "Arsenal Arcano",
+  "type": "poder_distincao",
+  "description": "Embora magias sejam sua arma principal, Magos de Batalha também sabem usar certas armas. Você recebe proficiência com armas marciais e pode usar armas como se fossem itens esotéricos. Quando usa uma arma dessa forma, você pode somar o bônus de dano de melhorias e encantos da arma ao de seu poder Arcano de Batalha. Além disso, o material especial da arma afeta suas magias com seu efeito de esotérico. Por fim, você pode trocar o atributo de dano da arma por seu atributo-chave de magias.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "proficiência com armas marciais; usa armas como itens esotéricos, somando dano de melhorias/encantos ao Arcano de Batalha, aplicando material especial da arma às magias, e trocando o atributo de dano pelo atributo-chave de magias"
+    }
+  ],
+  "requirements": ["treinado em Luta ou Pontaria", "Conjurador Encouraçado"],
+  "livro": "herois_de_arton"
+}

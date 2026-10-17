@@ -1,0 +1,19 @@
+{
+  "id": "alcar_aos_ceus",
+  "name": "Alçar aos Céus",
+  "type": "poder_distincao",
+  "description": "O caçador pega impulso, dando um salto impressionante para reduzir a distância até seu alvo, acertando-o com um ataque fulminante. Você pode gastar 2 PM e uma ação completa para fazer uma investida saltando sobre uma criatura em alcance médio. Esse ataque causa um dado extra de dano, mais um dado extra para cada dois outros poderes da distinção. Se o alvo for um dragão, esses dados extras são dobrados. Após o ataque, você aterrissa em um espaço desocupado adjacente à criatura. Se a criatura for maior que você, você pode aterrissar sobre ela (nas costas, no dorso etc.) enquanto faz o ataque.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "completa",
+      "custo_pm": 2,
+      "efeito": "faz uma investida saltando sobre uma criatura em alcance médio; o ataque causa um dado extra de dano (mais um dado extra para cada dois outros poderes da distinção; dobrado contra dragões); aterrissa em um espaço desocupado adjacente à criatura ou sobre ela, se ela for maior"
+    }
+  ],
+  "requirements": [
+    "treinado em Atletismo",
+    "Destemor Inflamado"
+  ],
+  "livro": "herois_de_arton"
+}

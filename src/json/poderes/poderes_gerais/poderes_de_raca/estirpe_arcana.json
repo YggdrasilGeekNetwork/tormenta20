@@ -1,0 +1,31 @@
+{
+  "id": "estirpe_arcana",
+  "name": "Estirpe Arcana",
+  "type": "poder_geral",
+  "sub_type": "poder_de_raca",
+  "description": "Você recebe +2 pontos de mana por patamar e +2 em Misticismo.",
+  "requirements": [
+    {
+      "type": "race",
+      "sub_type": "hard",
+      "race": [
+        "elfo",
+        "eiradaan",
+        "nagah"
+      ],
+      "note": "para Nagah, apenas fêmeas"
+    }
+  ],
+  "effects": [
+    {
+      "type": "pm_improvement",
+      "value": "2_por_patamar"
+    },
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "skill": "misticismo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

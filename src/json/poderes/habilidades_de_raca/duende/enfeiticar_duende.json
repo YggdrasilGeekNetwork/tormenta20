@@ -1,0 +1,12 @@
+{
+  "id": "enfeiticar_duende",
+  "name": "Enfeitiçar",
+  "type": "habilidade_de_raca",
+  "race": "duende",
+  "description": "Suas feições feéricas podem deslumbrar outros seres. Você pode lançar Enfeitiçar e usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um arcanista de seu nível.",
+  "effects": {
+    "concede_magia": "enfeiticar",
+    "aprimoramentos_como": "arcanista do mesmo nível"
+  },
+  "livro": "herois_de_arton"
+}

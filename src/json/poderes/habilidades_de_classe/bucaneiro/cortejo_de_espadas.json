@@ -1,0 +1,43 @@
+{
+  "id": "cortejo_de_espadas",
+  "name": "Cortejo de Espadas",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "Quando você faz um teste de Acrobacia para passar por um inimigo, o espaço ocupado por esse inimigo não conta como terreno difícil e ele só pode usar Iniciativa para o teste oposto. Se você vencer esse teste, recebe +2 na Defesa e em Reflexos contra esse inimigo por 1 rodada. Pré-requisito: treinado em Acrobacia.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "acrobacia"
+    }
+  ],
+  "effects": [
+    {
+      "type": "terrain_effect",
+      "value": "nao_conta_como_terreno_dificil",
+      "trigger": "teste_de_acrobacia_para_passar_por_inimigo"
+    },
+    {
+      "type": "restrict_opposed_test",
+      "allowed_skills": [
+        "iniciativa"
+      ]
+    },
+    {
+      "type": "defense_improvement",
+      "value": 2,
+      "duration": "1_rodada",
+      "condition": "vencer_o_teste",
+      "applies_to": "contra_esse_inimigo"
+    },
+    {
+      "type": "saving_throw_improvement",
+      "value": 2,
+      "save": "reflexos",
+      "duration": "1_rodada",
+      "condition": "vencer_o_teste",
+      "applies_to": "contra_esse_inimigo"
+    }
+  ],
+  "livro": "herois_de_arton"
+}

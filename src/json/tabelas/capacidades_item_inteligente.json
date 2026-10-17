@@ -1,0 +1,15 @@
+{
+  "id": "capacidades_item_inteligente",
+  "name": "Tabela 3-13: Capacidades de Itens Mágicos Inteligentes",
+  "description": "Ao criar um item mágico inteligente, role 1d% nesta tabela para definir os modificadores de atributos mentais, os sentidos, a forma de comunicação e a quantidade de poderes secundários (menores/maiores) do item.",
+  "headers": ["Faixa", "Atributos", "Sentidos", "Comunicação", "Poderes Secundários"],
+  "rows": [
+    { "Faixa": "01-25", "Atributos": "Int –1, Sab +0, Car –2", "Sentidos": "Visão e audição normais", "Comunicação": "Empatia", "Poderes Secundários": "Um menor" },
+    { "Faixa": "26-50", "Atributos": "Int +0, Sab +1, Car –1", "Sentidos": "Visão e audição normais", "Comunicação": "Empatia", "Poderes Secundários": "Dois menores" },
+    { "Faixa": "51-75", "Atributos": "Int +1, Sab +2, Car +0", "Sentidos": "Visão no escuro", "Comunicação": "Fala", "Poderes Secundários": "Dois menores e um maior" },
+    { "Faixa": "76-90", "Atributos": "Int +2, Sab +3, Car +1", "Sentidos": "Percepção às cegas (curto)", "Comunicação": "Fala", "Poderes Secundários": "Três menores e um maior" },
+    { "Faixa": "91-100", "Atributos": "Int +3, Sab +4, Car +2", "Sentidos": "Percepção às cegas (médio)", "Comunicação": "Telepatia", "Poderes Secundários": "Três menores e dois maiores" }
+  ],
+  "dice": "1d100",
+  "livro": "herois_de_arton"
+}

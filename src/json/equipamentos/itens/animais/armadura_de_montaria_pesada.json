@@ -1,0 +1,16 @@
+{
+  "id": "armadura_de_montaria_pesada",
+  "name": "Armadura de Montaria Pesada",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 3000,
+  "espacos": 5,
+  "uso": "vestido_pela_montaria",
+  "efeito": {
+    "aumenta_bonus_numerico_fornecido_pela_montaria": "+2 se fixo, ou dois passos se for um bônus rolado",
+    "reducao_deslocamento": "-3m",
+    "restricao": "montarias voadoras não podem usar armaduras pesadas"
+  },
+  "description": "Como a armadura de montaria leve, mas aumenta o bônus em +2 ou em dois passos. Contudo, diminui o deslocamento da montaria em –3m. Montarias voadoras não podem usar armaduras pesadas.",
+  "livro": "herois_de_arton"
+}

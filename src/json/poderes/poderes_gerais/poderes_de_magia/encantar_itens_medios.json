@@ -1,0 +1,27 @@
+{
+  "id": "encantar_itens_medios",
+  "name": "Encantar Itens Médios",
+  "type": "poder_geral",
+  "sub_type": "poder_de_magia",
+  "description": "Como Encantar Itens Menores, mas você pode encantar itens médios.",
+  "requirements": [
+    {
+      "type": "magic_circle",
+      "sub_type": "hard",
+      "circle": 4
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "encantar_itens_menores"
+    }
+  ],
+  "effects": [
+    {
+      "type": "create_item",
+      "item_tier": "medio",
+      "permanent": true
+    }
+  ],
+  "livro": "herois_de_arton"
+}

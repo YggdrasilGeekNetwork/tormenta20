@@ -1,0 +1,14 @@
+{
+  "id": "caminho_das_coxilhas",
+  "name": "Caminho das Coxilhas",
+  "type": "poder_distincao",
+  "description": "O corredor é estreito demais, mal é possível um humano adulto passar andando normalmente. Espere... ele está passando por aqui com um cavalo!? O nível de parceiro de seu irmão cavalo aumenta em um (de iniciante para veterano ou de veterano para mestre). Se ele já for um parceiro mestre, esse aumento se aplica a outro de seus tipos. Além disso, enquanto estiver montando seu irmão cavalo, você pode substituir testes de perícias originalmente baseadas em Destreza por testes de Cavalgar.",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "aumenta o nível de parceiro do irmão cavalo em um (iniciante para veterano, ou veterano para mestre, ou outro tipo se já mestre); montado, pode substituir testes baseados em Destreza por Cavalgar"
+    }
+  ],
+  "requirements": ["Cavaleiro Rústico"],
+  "livro": "herois_de_arton"
+}

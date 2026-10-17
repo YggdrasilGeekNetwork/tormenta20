@@ -1,0 +1,23 @@
+{
+  "id": "arte_elfica",
+  "name": "Arte Élfica",
+  "type": "poder_distincao",
+  "description": "Cada tinir da espada é um acorde. Cada rugido de batalha é um verso. O esplendor de cada vitória é uma canção. Uma vez por rodada, quando acerta um ataque com espada longa ou florete, você pode gastar 2 PM para ativar uma Música de bardo ou lançar uma magia arcana com execução de ação de movimento ou padrão como uma ação livre. O círculo máximo de magias que você pode lançar com este poder é limitado pela quantidade de poderes da distinção que possui.",
+  "effects": [
+    {
+      "type": "ativado",
+      "custo_pm": 2,
+      "limite": "uma vez por rodada",
+      "gatilho": "acerta um ataque com espada longa ou florete",
+      "efeito": "ativa uma Música de bardo ou lança uma magia arcana com execução de ação de movimento ou padrão como uma ação livre",
+      "restricao": "o círculo máximo de magias lançáveis com este poder é limitado pela quantidade de poderes da distinção que possui"
+    }
+  ],
+  "requirements": [
+    "habilidade de classe Magias",
+    "treinado em Atuação",
+    "treinado em Luta",
+    "Foco em Arma (espada longa ou florete)"
+  ],
+  "livro": "herois_de_arton"
+}

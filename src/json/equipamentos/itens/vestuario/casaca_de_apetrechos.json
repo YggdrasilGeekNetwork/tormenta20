@@ -1,0 +1,17 @@
+{
+  "id": "casaca_de_apetrechos",
+  "name": "Casaca de Apetrechos",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 75,
+  "espacos": 0,
+  "cd_fabricacao": 20,
+  "uso": "vestido",
+  "efeito": {
+    "aumento_capacidade_carga": 4,
+    "penalidade_armadura": -2,
+    "restricao": "não pode ser usada com armadura"
+  },
+  "description": "Casacão pesado que recobre todo o corpo do usuário, estendendo-se até abaixo de seus joelhos. É forrado de bolsos por dentro e por fora, ideal para carregar muitos pequenos itens de utilidade variada. Aumenta sua capacidade de carga em 4 espaços (ela própria não gasta um espaço). Por ser volumosa e desajeitada, impõe uma penalidade de armadura de –2 e não pode ser usada com armadura.",
+  "livro": "herois_de_arton"
+}
