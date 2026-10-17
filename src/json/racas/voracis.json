@@ -1,0 +1,17 @@
+{
+  "id": "voracis",
+  "name": "Voracis",
+  "description": "Thera (povo-trovão) também conhecido como \"caçadoras\", entre os humanoides mais agressivos de Arton, temidas até pelos outros thera. Lembram uma mulher baixa e esguia com postura de pantera, pele marrom-avermelhada, olhos amarelos de leoa, cauda escamada e crista colorida. Sociedade rígida e matriarcal, onde as mulheres caçam, lutam e lideram; machos são raros e suas vidas consideradas valiosas. Habitam vilas nas copas das árvores conectadas ao solo por elevadores de corda, escolhendo sua líder através de desafios de combate.",
+  "size": "medio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "destreza": 2, "constituicao": 1, "inteligencia": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["garras_de_voracis", "rainha_da_selva", "sentidos_selvagens"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devocao": ["allihanna", "arsenal", "megalokk"],
+  "livro": "ameacas_de_arton"
+}

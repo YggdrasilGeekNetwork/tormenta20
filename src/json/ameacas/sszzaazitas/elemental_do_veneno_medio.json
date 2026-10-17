@@ -1,0 +1,46 @@
+{
+  "id": "elemental_do_veneno_medio",
+  "name": "Elemental do Veneno Médio",
+  "nd": 8,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "medio",
+  "grupo": "sszzaazitas",
+  "pv": 280,
+  "defesa": 31,
+  "salvaguardas": { "fort": 21, "ref": 8, "von": 15 },
+  "reducao_de_dano": null,
+  "imunidades": ["acertos críticos", "atordoado", "caído", "efeitos de metabolismo", "paralisia", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 9,
+  "visao": ["percepção às cegas"],
+  "deslocamento": { "voo": 9 },
+  "atributos": { "for": -3, "des": 1, "con": 0, "int": -2, "sab": 1, "car": -4 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pústula Virulenta",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 25, "tipo": "impacto" }
+      ],
+      "efeito": "veneno",
+      "alcance": "médio"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Corpo Nocivo", "descricao": "Quando o elemental do veneno médio sofre dano por um ataque corpo a corpo adjacente, o atacante perde 3d6 pontos de vida por veneno." },
+    { "nome": "Existência Insalubre", "descricao": "O elemental ignora imunidade a veneno." },
+    { "nome": "Veneno", "salvaguarda": "Fortitude", "cd": 28, "efeito_sucesso": "reduz para 1 rodada", "descricao": "Perde 4d12 pontos de vida durante 3 rodadas (Fort CD 28 reduz para 1 rodada)." }
+  ],
+  "equipamento": [],
+  "familiar": null,
+  "parceiro": {
+    "tipo": "parceiro com as mesmas estatísticas de um elemental do veneno pequeno"
+  },
+  "tesouro": "1d6 doses de peçonha concentrada (CD 23 para extrair).",
+  "description": "Versão maior do elemental do veneno, exalando vapores tóxicos ainda mais letais. Formado em Venomia, o Reino de Sszzaas, em vastos pântanos de toxina pura.",
+  "livro": "ameacas_de_arton"
+}

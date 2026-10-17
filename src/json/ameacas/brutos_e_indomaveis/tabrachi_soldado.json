@@ -1,0 +1,57 @@
+{
+  "id": "tabrachi_soldado",
+  "name": "Tabrachi Soldado",
+  "nd": 1,
+  "tipo": "Humanoide",
+  "subtipo": "tabrachi",
+  "tamanho": "medio",
+  "grupo": "brutos_e_indomaveis",
+  "pv": 12,
+  "pm": null,
+  "defesa": 16,
+  "salvaguardas": { "fort": 5, "ref": 10, "von": 1 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 2,
+  "visao": ["baixa_luminosidade"],
+  "deslocamento": { "terrestre": 9, "natacao": 9 },
+  "atributos": { "for": 2, "des": 2, "con": 3, "int": -1, "sab": -1, "car": -2 },
+  "pericias": { "atletismo": "+8 (+18 para saltar)", "furtividade": 4 },
+  "ataques": [
+    {
+      "nome": "Lança",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 5, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Língua",
+      "bonus": 11,
+      "alcance": "3m",
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 5, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Azagaia (à distância)",
+      "bonus": 7,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 5, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Linguarudo", "descricao": "O tabrachi soldado recebe +2 em testes para desarmar ou derrubar com a língua." }
+  ],
+  "equipamento": ["Azagaia x2", "Couro batido", "Escudo leve", "Lança"],
+  "tesouro": "Nenhum.",
+  "description": "Os tabrachi, conhecidos como 'homens-sapos', são encontrados em pequenos bandos, sempre à procura de vítimas para roubar seus pertences e oferecê-las como sacrifício a Inghlblhphollstgt, o Grande Deus Sapo. Mais numerosos no Pântano dos Juncos, entre Deheon e Wynlla, usam a furtividade para atacar transeuntes de surpresa, à espreita sob as águas do pântano ou nas copas das árvores.",
+  "livro": "ameacas_de_arton"
+}

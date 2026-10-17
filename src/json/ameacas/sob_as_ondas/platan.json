@@ -1,0 +1,37 @@
+{
+  "id": "platan",
+  "name": "Platan",
+  "nd": 2,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "sob_as_ondas",
+  "pv": 30,
+  "defesa": 18,
+  "salvaguardas": { "fort": 7, "ref": 12, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 5,
+  "visao": ["percepção às cegas", "visão na penumbra"],
+  "deslocamento": { "natacao": 12 },
+  "atributos": { "for": 1, "des": 3, "con": 2, "int": -4, "sab": 2, "car": 3 },
+  "pericias": { "acrobacia": 11 },
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Ataque Sônico", "acao": "padrao", "salvaguarda": "Fortitude", "cd": 16, "efeito_sucesso": "reduz à metade", "descricao": "O platan causa 6d6 pontos de dano de impacto em uma criatura em alcance curto (Fort CD 16 reduz à metade)." }
+  ],
+  "equipamento": [],
+  "familiar": null,
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "iniciante": "Seu deslocamento muda para natação 9m e você recebe uma ação de movimento extra (apenas para se deslocar).",
+    "veterano": "Uma vez por rodada, você pode gastar 1 PM para causar 2d6 pontos de dano de impacto em uma criatura em alcance curto.",
+    "mestre": "Seu deslocamento de natação muda para 15m e você pode também gastar 4 PM para causar 6d6 pontos de dano de impacto em uma criatura em alcance curto."
+  },
+  "tesouro": "Nenhum.",
+  "description": "Golfinho de couro liso cinza-azulado encontrado em mares, rios e lagos de Arton, manso, inteligente e afetuoso. Marinheiros e piratas acreditam que molestá-lo enfurece o Oceano, por isso nunca é caçado. Poucos sabem de sua habilidade extraordinária de emitir ataques sônicos capazes de arrancar carne dos ossos, usada em dose moderada contra pequenos peixes, mas em força plena quando acuado. Inimigo natural do selako.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,57 @@
+{
+  "id": "avatar_de_aharadak_culto",
+  "name": "Avatar de Aharadak (Culto)",
+  "nd": 21,
+  "tipo": "Monstro",
+  "subtipo": "lefeu",
+  "tamanho": "colossal",
+  "grupo": "culto_de_aharadak",
+  "pv": 2804,
+  "pm": null,
+  "defesa": 70,
+  "salvaguardas": { "fort": 36, "ref": 31, "von": 31 },
+  "reducao_de_dano": 20,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 18,
+  "percepcao": 30,
+  "visao": ["percepção às cegas (longo)"],
+  "deslocamento": { "voo": 18 },
+  "atributos": { "for": 20, "des": -2, "con": 12, "int": 4, "sab": 10, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Tentáculo",
+      "quantidade": 4,
+      "bonus": 58,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 12 }], "bonus": 47, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 58,
+      "dano": [
+        { "dados": [{ "quantidade": 6, "faces": 12 }], "bonus": 47, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Tentáculo (teste +68). O avatar pode manter até 4 criaturas Enormes ou menores agarradas ao mesmo tempo." },
+    { "nome": "Centelha Divina (mágica)", "descricao": "O avatar pode lançar qualquer magia divina como um clérigo de 20º nível sem gastar PM (CD 52, limite de PM 20)." },
+    { "nome": "Devorar a Existência", "descricao": "Uma criatura atingida por um ataque corpo a corpo do avatar perde 1d4 PM. Se não tiver PM suficientes, fica fascinada." },
+    { "nome": "Engolir", "acao": "padrão", "descricao": "No início de cada um dos turnos do avatar, em vez de sofrer dano, a criatura engolida faz um teste de Vontade (CD 52). Se passar, aparece em um local aleatório em alcance médio, debilitada e confusa por 1d4 rodadas. Se falhar, perde todos os seus PM ou, se não tiver mais, é transportada para o Reino de Aharadak. Pode escapar causando um total de 250 pontos de dano a ele (Defesa 30, redução de dano 5)." },
+    { "nome": "Insanidade da Tormenta", "descricao": "2d20 PM (Vontade CD 52 evita). Pode afetar mesmo criaturas já afetadas pela Insanidade da Tormenta de outras criaturas neste dia." },
+    {
+      "nome": "Presença da Tormenta (mágica)",
+      "descricao": "O avatar emana uma aura de 30m de raio. Cada criatura que comece seu turno na área fica esmorecida (CD 25 +2 por turno consecutivo evita). Nessa área o custo em PM de habilidades aumenta em +2 e cada item encantado perde um encanto à escolha do portador. No início de cada turno do avatar, role 1d6: 1) Definhamento (10d8 de perda de PV e debilitado, Fortitude CD 52 evita); 2) Tempestade Elétrica (1d20 ímpar = 5d8 de eletricidade e 5d8 de trevas); 3) Chuva Ácida (4d8 de ácido); 4) Labaredas Infernais (1d20 ímpar = 5d8 de fogo e 5d8 de trevas, Reflexos CD 52 reduz à metade); 5) Pesadelos Reais (Vontade CD 52 ou apavorado; repete o teste a cada turno, falha = 6d8 psíquico e perda de 1d8 PM; termina com 2 sucessos seguidos); 6) Magia Caótica (anula magias na área; conjurar exige Vontade CD 52 ou a magia falha gastando PM; falha por 5+ causa explosão de 4d8 de essência no conjurador)."
+    }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "ND do livro: S (status especial acima de ND 20 — ver Criaturas S e S+ em `regras/regras_adicionais_de_ameacas.json`); armazenado aqui como 21 por convenção editorial da gem (S=21, S+=22). Como deus maior, Aharadak é capaz de manifestar um avatar — versão encarnada da divindade, construída com grande parte de sua essência: grande como um castelo, formado por incontáveis camadas de gordura e crostas vermelhas, rasgado por fístulas que vazam muco oleoso, com asas inúteis e bocarras mutáveis coroadas de dentes, tudo dominado por um único e imenso olho vermelho. Sua manifestação é um recurso raro, reservado a situações extremas — criá-lo custa parte significativa da força vital do deus, e sua perda enfraquece a própria divindade; suspeita-se que um deus só possa manifestar um avatar por vez, a intervalos de dias, semanas ou meses. Surge quando devotos importantes (como o sumo-sacerdote) implorarem por auxílio, ou quando o próprio Aharadak tiver interesse pessoal em confrontar heróis épicos. **Nota de id**: este registro é distinto de `avatar_de_aharadak` (Deuses de Arton, grupo `avatares`) — mesma divindade, mas dois stat blocks publicados diferentes entre os dois livros (estatísticas, ND e habilidades não coincidem); ambos preservados sem sobrescrever um ao outro.",
+  "livro": "ameacas_de_arton"
+}

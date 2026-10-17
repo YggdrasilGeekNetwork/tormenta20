@@ -1,0 +1,46 @@
+{
+  "id": "carruagem_de_comando",
+  "name": "Carruagem de Comando",
+  "nd": 5,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "puristas",
+  "pv": 190,
+  "pm": null,
+  "defesa": 22,
+  "salvaguardas": { "fort": 15, "ref": 11, "von": 7 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "corte": 5, "impacto": 5, "perfuração": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 4,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 6, "des": 2, "con": 6, "int": null, "sab": 0, "car": -5 },
+  "pericias": { "atletismo": 14 },
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 15,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 10, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Pernas Longas", "descricao": "A carruagem de comando não sofre redução em seu deslocamento por terreno difícil." },
+    { "nome": "Cúpula de Proteção", "descricao": "O piloto da carruagem de comando está protegido por uma cúpula protetora (como o efeito básico da magia Campo de Força). Se o campo for destruído, a carruagem usa sua próxima ação de movimento para refazê-lo." },
+    { "nome": "Encantos de Comando", "descricao": "Encantos fazem com que a voz do piloto possa ser ouvida a até 300m e, caso ele possua alguma habilidade baseada em voz ou som, o alcance dessa habilidade se torna longo." },
+    { "nome": "Evacuação de Emergência", "acao": "completa", "descricao": "Se a carruagem inicia seu turno com 20 PV ou menos, o piloto é alvo da magia Teletransporte com o aprimoramento de santuário, sem custo em PM. Em seguida, a carruagem começa a emitir um alarme agudo e fica imóvel por 2 turnos — no fim do segundo turno, ela explode, causando 6d6 pontos de dano de fogo e 6d6 pontos de dano de perfuração em todas as criaturas em alcance curto (Reflexos CD 24 reduz à metade). Uma palavra de comando pode impedir a explosão." },
+    { "nome": "Pernas Mecânicas", "descricao": "A carruagem recebe +5 em testes para resistir às manobras derrubar e empurrar." },
+    { "nome": "Piloto", "descricao": "Uma carruagem é mais eficiente quando controlada por um piloto, como um arcano de guerra. Pilotar exige uma ação de movimento do piloto a cada rodada e permite que a carruagem use os valores de Iniciativa, Reflexos e ataque do piloto ou os seus, os que forem maiores. O piloto é considerado uma ameaça adicional para efeitos de ND." }
+  ],
+  "equipamento": [],
+  "tesouro": "Caixa de voz, gema de força (CD 20 para extrair).",
+  "description": "Imenso golem quadrúpede com aspecto de elefante negro com adornos dourados, atuando como posto de comando móvel e montaria para líderes puristas. O trono é protegido por uma barreira mágica, e encantos potencializam a voz do usuário para alcançar todo o campo de batalha. Em emergência, teletransporta o ocupante para um local secreto antes de explodir.",
+  "livro": "ameacas_de_arton"
+}

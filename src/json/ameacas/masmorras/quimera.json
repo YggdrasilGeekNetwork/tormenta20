@@ -1,0 +1,51 @@
+{
+  "id": "quimera",
+  "name": "Quimera",
+  "nd": 8,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "masmorras",
+  "pv": 333,
+  "pm": null,
+  "defesa": 33,
+  "salvaguardas": { "fort": 21, "ref": 15, "von": 8 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 10,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 12 },
+  "atributos": { "for": 6, "des": 3, "con": 4, "int": 0, "sab": 1, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "quantidade": 3,
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 8 }], "bonus": 7, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 10, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Mente Tripla", "descricao": "Quando faz um teste de Percepção ou Vontade, a quimera joga três dados e usa o melhor resultado." },
+    { "nome": "Três Cabeças", "descricao": "Uma quimera tem três cabeças distintas que concedem habilidades especiais, escolhidas entre as descritas a seguir (a \"quimera clássica\" tem cabeças de Bode, Leão e Dragão). Águia: quando faz uma investida, pode atacar com esta cabeça e suas duas garras, os três ataques recebendo o bônus de +2 da investida contra o mesmo alvo. Bode: uma das mordidas muda para marrada (dano de impacto); ao acertar uma investida com esta cabeça, arremessa a vítima 1d6 x 1,5m (Fortitude CD 26 evita), causando-lhe queda e, se atingir obstáculo, 1d6 de dano de impacto por 1,5m arremessado. Dragão: pode gastar uma ação padrão para cuspir fogo em cone de 6m, 10d6+20 de dano de fogo (Reflexos CD 26 reduz à metade; recarga movimento). Gorlogg: ao acertar mordida com esta cabeça, pode usar a manobra derrubar como ação livre (teste +28). Hidra: cura acelerada 20/ácido ou fogo. Javali: se sofrer dano, recebe +5 em testes de ataque e rolagens de dano até o fim de seu próximo turno. Leão: ao acertar mordida com esta cabeça, pode usar a manobra agarrar como ação livre (teste +28). Serpente: uma criatura atingida por mordida desta cabeça perde 2d12 PV durante 3 rodadas (Fortitude CD 26 reduz para 1 rodada; veneno). Tigre: se acertar os dois ataques de garra na mesma criatura na mesma rodada, causa mais 4d6+20 de dano. Tubarão: ganha deslocamento de natação 9m; uma criatura atingida por mordida desta cabeça fica sangrando (Fortitude CD 26 evita)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Coração de quimera (CD 23 para extrair, vale T$ 300 para fabricar três doses de elixir quimérico).",
+  "description": "Monstro mágico feito com partes de várias criaturas diferentes, sem ocorrência natural: criado por conjuradores poderosos e loucos, sobretudo devotos de Nimb ou Megalokk. Corpo poderoso de leão com asas coriáceas dracônicas e cauda escamada de crocodilo, sempre com três cabeças de animais ou monstros diferentes. Não pode ser controlada nem mesmo por quem a criou, sempre furiosa e enlouquecida, mantida presa com correntes ou exposta em jaulas.",
+  "livro": "ameacas_de_arton"
+}

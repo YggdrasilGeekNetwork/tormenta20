@@ -1,0 +1,28 @@
+{
+  "id": "pena_de_kraken",
+  "name": "Pena de Kraken",
+  "type": "material_especial",
+  "aparencia": "Material vítreo extremamente afiado extraído da concha interna de um kraken.",
+  "origem": "Em seu estado bruto, é quebradiço e difícil de transportar sem equipamento adequado, sendo assim raramente encontrado à venda.",
+  "bonus_geral": null,
+  "precos_adicionais": null,
+  "description": "Esse material vítreo extraído da concha interna de um kraken é extremamente afiado. Em seu estado bruto, é quebradiço e difícil de transportar sem equipamento adequado, sendo assim raramente encontrado à venda.",
+  "effects": {
+    "arma": [
+      { "type": "critico_aumenta_dois_passos", "pre_requisito": "exige uma peça", "descricao": "Quando faz um acerto crítico, o dano aumenta dois passos (antes de ser multiplicado)." }
+    ],
+    "armadura_leve": [
+      { "type": "sangramento_ao_ser_errado", "value": 5, "pre_requisito": "exigem uma peça", "descricao": "Quando uma criatura erra um ataque corpo a corpo contra você, perde 5 pontos de vida." }
+    ],
+    "armadura_pesada": [
+      { "type": "sangramento_ao_ser_errado", "value": 10, "pre_requisito": "exige três peças", "descricao": "Quando uma criatura erra um ataque corpo a corpo contra você, perde 10 pontos de vida." }
+    ],
+    "escudo": [
+      { "type": "sangramento_ao_ser_errado", "value": 5, "pre_requisito": "exigem uma peça", "descricao": "Quando uma criatura erra um ataque corpo a corpo contra você, perde 5 pontos de vida." }
+    ],
+    "esoterico": [
+      { "type": "aumenta_bonus_numerico", "value": 1, "pre_requisito": "exige uma peça", "descricao": "Se o item fornece algum bônus numérico, ele aumenta em +1." }
+    ]
+  },
+  "livro": "ameacas_de_arton"
+}

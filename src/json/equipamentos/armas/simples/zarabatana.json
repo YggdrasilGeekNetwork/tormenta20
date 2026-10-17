@@ -1,0 +1,23 @@
+{
+  "id": "zarabatana",
+  "name": "Zarabatana",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "uma_mao",
+  "preco": 5,
+  "dano": "1d3",
+  "critico": "x2",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "municao": "dardos",
+  "habilidades": [],
+  "especial": {
+    "bonus_cd_veneno_inoculado": 2,
+    "pacote_municao": { "quantidade": 20, "preco": 2, "espacos": 0.5 }
+  },
+  "description": "Pequeno tubo oco usado para disparar dardos. Causa dano mínimo, mas é excelente para inocular venenos; a CD para resistir ao veneno dos dardos aumenta em +2. Um pacote de munição contém 20 dardos, custa T$ 2 e ocupa 0,5 espaço.",
+  "livro": "ameacas_de_arton"
+}

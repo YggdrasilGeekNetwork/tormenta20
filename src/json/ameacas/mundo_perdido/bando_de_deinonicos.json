@@ -1,0 +1,49 @@
+{
+  "id": "bando_de_deinonicos",
+  "name": "Bando de Deinonicos",
+  "nd": 8,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "mundo_perdido",
+  "pv": 700,
+  "pm": null,
+  "defesa": 23,
+  "salvaguardas": { "fort": 18, "ref": 12, "von": 7 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 8,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 4, "des": 3, "con": 4, "int": -4, "sab": 2, "car": 0 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida [Bando]",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 4 }], "bonus": 8, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garra [Bando]",
+      "quantidade": 2,
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 8, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Caçada Primal", "acao": "completa", "descricao": "Os deinonicos avançam correndo e saltando, e atacam todas as criaturas em seu caminho. O bando percorre até o dobro de seu deslocamento; ele pode passar por espaços ocupados por criaturas Médias ou menores, mas não pode passar duas vezes pelo mesmo espaço. Ao final do movimento ele faz dois ataques com garras e compara o resultado de cada ataque com a Defesa de todas as criaturas nos espaços por onde passou, causando dano normal de garras em cada acerto. Os deinonicos não podem utilizar esta habilidade se estiverem flanqueados. Recarga (movimento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Garras terríveis x2d4 (CD 23 para extrair, cada garra vale T$ 100 para fabricar uma arma de corte superior leve ou de uma mão).",
+  "description": "Representa um bando de deinonicos agindo em conjunto (regra de Bando, veja 'Manual de Criação de Ameaças').",
+  "livro": "ameacas_de_arton"
+}

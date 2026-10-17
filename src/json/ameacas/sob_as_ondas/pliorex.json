@@ -1,0 +1,40 @@
+{
+  "id": "pliorex",
+  "name": "Pliorex",
+  "nd": 5,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "sob_as_ondas",
+  "pv": 200,
+  "defesa": 24,
+  "salvaguardas": { "fort": 17, "ref": 11, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 5,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 6, "natacao": 15 },
+  "atributos": { "for": 7, "des": 1, "con": 6, "int": -5, "sab": 0, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 15, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "tipo": "acido" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com a mordida (teste +22)." },
+    { "nome": "Giro da Morte", "descricao": "Se o pliorex estiver agarrando uma criatura dentro d'água e usar a manobra agarrar novamente para causar dano, causa +2d8 pontos de dano." },
+    { "nome": "Predador das Profundezas", "descricao": "Se estiver agarrando uma criatura Grande ou menor dentro d'água, o pliorex pode se mover a seu deslocamento normal arrastando o alvo (em vez de metade)." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Também chamado \"kronossauro\", gigantesco lagarto-terror de Galrasia mais abundante no Mar Negro, medindo entre dez e quinze metros. Alimenta-se de peixes, lulas, conchas e qualquer outra criatura de tamanho humano. Pode se arrastar em terra apenas em casos especiais, para escapar de um predador mais perigoso ou alcançar uma presa encurralada.",
+  "livro": "ameacas_de_arton"
+}

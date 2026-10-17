@@ -1,0 +1,48 @@
+{
+  "id": "protetor_refem",
+  "name": "Protetor-Refém",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "anao",
+  "tamanho": "medio",
+  "grupo": "trolls_nobres",
+  "pv": 40,
+  "defesa": 23,
+  "salvaguardas": { "fort": 16, "ref": 11, "von": 6 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": { "efeitos_mentais": 2 },
+  "vulnerabilidades": [],
+  "iniciativa": 2,
+  "percepcao": 5,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 2, "des": 0, "con": 4, "int": -1, "sab": 1, "car": -1 },
+  "pericias": { "sobrevivencia": 5 },
+  "ataques": [
+    {
+      "nome": "Martelo de Guerra",
+      "quantidade": 2,
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 18, "tipo": "impacto" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Machadinha (à distância)",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 16, "tipo": "corte" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Libertação Mental", "descricao": "Embora difícil, é possível libertar a mente de um protetor-refém. Primeiro, é necessário deixá-lo esmorecido, exausto ou enfeitiçado. Após isso, um personagem deve fazer um teste estendido de Diplomacia (CD 20, 3 sucessos exigidos), em que cada teste é uma ação completa. Se passar, o controle mental sobre o protetor-refém termina, mas ele fica inconsciente por 1 hora." }
+  ],
+  "equipamento": ["Escudo pesado", "Loriga segmentada", "Machadinha x3", "Martelo de guerra"],
+  "tesouro": "Nenhum.",
+  "description": "Anão guerreiro capturado pelos finntroll e submetido a profunda dominação mental, transformado em guerreiro escravo obediente e sacrificável. Os pragmáticos finntroll usam escoltas de protetores-reféns ao esperar enfrentar aventureiros, explorando a relutância destes em atacar vítimas de escravidão. A vontade férrea dos anões não é destruída com facilidade — existem maneiras de salvá-los.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "hienodonte",
+  "name": "Hienodonte",
+  "nd": 2,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "ermos",
+  "pv": 38,
+  "pm": null,
+  "defesa": 20,
+  "salvaguardas": { "fort": 14, "ref": 9, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 6,
+  "visao": ["faro", "penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 6, "des": 2, "con": 4, "int": -4, "sab": 1, "car": -2 },
+  "pericias": { "furtividade": 3, "sobrevivencia": 6 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 15, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Derrubar", "acao": "livre", "descricao": "Ao acertar um ataque de mordida, pode fazer um teste de Luta (+18) para derrubar o alvo." },
+    { "nome": "Oportunista", "descricao": "Recebe +2 em rolagens de dano contra inimigos que já tenham sido feridos nesta rodada." },
+    { "nome": "Furtividade em Colinas/Planícies", "descricao": "Recebe +5 em testes de Furtividade quando em colinas ou planícies (já incluído no total acima)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "iniciante": "Seu deslocamento é 12m e você recebe uma ação de movimento adicional por rodada enquanto montado.",
+    "veterano": "Você pode usar a habilidade Oportunismo (ou recebe –1 PM no custo se já a possuir).",
+    "mestre": "Sempre que acertar um ataque corpo a corpo, você pode usar a manobra derrubar como ação livre."
+  },
+  "description": "Parente maior e mais robusto da hiena comum, frequentemente usado como montaria por gnolls e outros humanoides selvagens.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "asa_assassina",
+  "name": "Asa-Assassina",
+  "nd": 1,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "minusculo",
+  "grupo": "masmorras",
+  "pv": 10,
+  "pm": null,
+  "defesa": 15,
+  "salvaguardas": { "fort": 3, "ref": 10, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 4,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 3, "voo": 12 },
+  "atributos": { "for": -3, "des": 4, "con": 1, "int": -4, "sab": 2, "car": -4 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Asa afiada",
+      "bonus": 10,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 6, "tipo": "corte" }
+      ],
+      "critico": "17/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Asas Mortais", "descricao": "Quando faz um acerto crítico em uma criatura, a asa-assassina tenta decepar a cabeça dela. A vítima fica inconsciente e sangrando (Fortitude CD 16 evita ambos). Este sangramento é cumulativo com aquele causado por ser reduzido a 0 PV ou menos; trate cada um separadamente. A critério do mestre, algumas criaturas, como certos construtos, mortos-vivos ou monstros com nenhuma ou várias cabeças, podem ser imunes a esta habilidade." },
+    { "nome": "Mergulho", "descricao": "Quando faz uma investida alada, a asa-assassina pode continuar se movendo depois do ataque. Ela deve se mover em linha reta e seu movimento máximo ainda é o dobro do seu deslocamento." }
+  ],
+  "equipamento": [],
+  "tesouro": "Asas afiadas (CD 16 para extrair, vale T$ 100 para fabricar uma arma de corte superior).",
+  "familiar": "Uma asa-assassina permite que você gaste 1 PM quando causa dano de corte ou perfuração a uma criatura para deixá-la sangrando.",
+  "parceiro": {
+    "tipo": "especial (assassino)",
+    "iniciante": "Uma vez por rodada, quando causa dano com um ataque, você pode deixar a vítima sangrando.",
+    "veterano": "A perda de PV pelo sangramento aumenta para 1d8.",
+    "mestre": "A perda de PV aumenta para 2d8."
+  },
+  "description": "Inseto com aspecto de mariposa grande como um pássaro, com asas finas e cortantes, mais afiadas que as melhores lâminas élficas. Alimenta-se de frutas e insetos, refugiando-se em masmorras, atacando em bandos qualquer criatura que entre em seu território.",
+  "livro": "ameacas_de_arton"
+}

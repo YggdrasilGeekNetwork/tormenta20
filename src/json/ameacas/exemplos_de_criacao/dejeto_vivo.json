@@ -1,0 +1,44 @@
+{
+  "id": "dejeto_vivo",
+  "name": "Dejeto Vivo",
+  "nd": 6,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "exemplos_de_criacao",
+  "pv": 280,
+  "pm": null,
+  "defesa": 24,
+  "salvaguardas": { "fort": 18, "ref": 6, "von": 12 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "alquimia_e_magia": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 2,
+  "percepcao": 6,
+  "visao": ["percepção às cegas (alcance médio)"],
+  "deslocamento": { "terrestre": 6, "escalada": 6, "natacao": 6 },
+  "atributos": { "for": 4, "des": -1, "con": 5, "int": -5, "sab": 1, "car": 0 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pseudópode",
+      "quantidade": 3,
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 10, "tipo": "impacto" },
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 0, "tipo": "ácido" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Pseudópode (teste de agarrar +22)." },
+    { "nome": "Engolir", "acao": "padrão", "descricao": "No início de cada um dos turnos do dejeto vivo, a criatura engolida sofre 2d6+10 pontos de dano de ácido. Ela pode escapar causando um total de 20 pontos de dano ao interior do dejeto (Defesa 10)." },
+    { "nome": "Odor Nauseabundo", "descricao": "Uma criatura que comece seu turno em alcance curto do dejeto vivo fica enjoada pela cena (Fortitude CD 22 evita; a criatura não pode mais ficar enjoada por esta habilidade até o fim da cena)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão (exceto itens alquímicos); 1d6 doses de ácido (CD 21 para extrair).",
+  "description": "Criatura amorfa constituída por dejetos mesclados a substâncias alquímicas e resíduos mágicos, formada nos esgotos de grandes cidades como Valkaria. Desprovida de mente ou vontade, existe apenas para se alimentar, devorando tudo que é orgânico em seu caminho. Vive em esgotos ou ruínas escuras e úmidas, de onde sai à noite em busca de alimento, caçando com pseudópodes que agarram e engolfam suas presas. Usado no livro como exemplo completo de criação de ameaça do zero (Manual de Criação de Ameaças, Passos 0-7).",
+  "livro": "ameacas_de_arton"
+}

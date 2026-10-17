@@ -1,0 +1,11 @@
+{
+  "id": "oportunista_gnoll",
+  "name": "Oportunista",
+  "type": "habilidade_de_raca",
+  "race": "gnoll",
+  "description": "Você recebe +2 nas rolagens de dano contra criaturas que tenham sofrido dano de outras criaturas desde seu último turno.",
+  "effects": {
+    "conditional_damage_bonus": { "value": 2, "condicao": "alvo sofreu dano de outra criatura desde o último turno do gnoll" }
+  },
+  "livro": "ameacas_de_arton"
+}

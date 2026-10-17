@@ -1,0 +1,14 @@
+{
+  "id": "roedor",
+  "name": "Roedor",
+  "type": "habilidade_de_raca",
+  "race": "nezumi",
+  "description": "Você possui uma arma natural de mordida (dano 1d6, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Além disso, quando faz um acerto crítico com sua mordida, você deixa a armadura da vítima avariada ou, se ela estiver sem armadura, aumenta em +1 o multiplicador desse crítico.",
+  "effects": {
+    "natural_weapon": { "name": "mordida", "damage": "1d6", "critical": "x2", "damage_type": "corte" },
+    "extra_attack_cost": { "pm": 1 },
+    "extra_attack_frequency": "1_per_round",
+    "on_critical": { "damages_armor_or_increases_multiplier": 1 }
+  },
+  "livro": "ameacas_de_arton"
+}

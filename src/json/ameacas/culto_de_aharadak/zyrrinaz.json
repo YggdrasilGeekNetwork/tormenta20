@@ -1,0 +1,50 @@
+{
+  "id": "zyrrinaz",
+  "name": "Zyrrinaz",
+  "nd": 5,
+  "tipo": "Monstro",
+  "subtipo": "lefeu",
+  "tamanho": "medio",
+  "grupo": "culto_de_aharadak",
+  "pv": 41,
+  "pm": null,
+  "defesa": 24,
+  "salvaguardas": { "fort": 11, "ref": 19, "von": 7 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 13,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12, "escalada": 12 },
+  "atributos": { "for": 2, "des": 6, "con": 2, "int": -1, "sab": 4, "car": -3 },
+  "pericias": { "acrobacia": 10, "furtividade": 10 },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "bonus": 19,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 13, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Arco longo (à distância)",
+      "bonus": 23,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 19, "tipo": "perfuração" },
+        { "dados": [], "bonus": 0, "tipo": "matéria vermelha" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Flechas da Anticriação", "descricao": "O zyrrinaz dispara por ângulos impossíveis, inutilizando as defesas de seus alvos. Seus ataques de arco ignoram cobertura, camuflagem, redução de dano e habilidades que evitam ou reduzem dano (como Durão ou Rolamento Defensivo). Além disso, quando ataca com o arco, rola dois dados e usa o melhor resultado." },
+    { "nome": "Insanidade da Tormenta", "descricao": "2d4 PM (Vontade CD 20 evita)." }
+  ],
+  "equipamento": ["Arco longo", "Flechas de matéria vermelha x20"],
+  "tesouro": "Nenhum.",
+  "description": "Entre os menores lefeu: estatura quase humana, mas a forma esguia e postura curvada os fazem parecer pequenos. Seus arcos são funcionais, com corda de tendão, disparando 'flechas' finas e pontiagudas que brotam de suas corcundas. Considerados fracos entre os lefeu, atuam como batedores ligeiros, perseguidores de fugitivos ou apoio para legiões principais; é comum que cultos sejam agraciados com um ou mais zyrrinaz para proteger seus templos, onde permanecem imóveis como gárgulas, prontos para disparar flechas mortais a um comando do cultista líder.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,59 @@
+{
+  "id": "bogum",
+  "name": "Bogum",
+  "nd": 0.5,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "minusculo",
+  "grupo": "mascotes_e_familiares",
+  "pv": 5,
+  "pm": null,
+  "defesa": 11,
+  "salvaguardas": { "fort": -1, "ref": 5, "von": 2 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 2,
+  "percepcao": 5,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": -3, "des": 2, "con": 0, "int": -4, "sab": 1, "car": -3 },
+  "pericias": { "furtividade": 9, "sobrevivencia": 7 },
+  "ataques": [
+    {
+      "nome": "Galho",
+      "bonus": 7,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 3 }], "bonus": 2, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Cuspe venenoso (à distância)",
+      "bonus": 9,
+      "alcance": "curto",
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 7, "tipo": "ácido" }
+      ],
+      "critico": "20/x2",
+      "observacao": "mais veneno"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Natureza Vegetal", "descricao": "O bogum é um construto de matéria vegetal, não metal ou pedra." },
+    { "nome": "Veneno", "descricao": "Veneno urticante: cego e vulnerável por 1 rodada (Fortitude CD 13 evita)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "especial (companheiro animal)",
+    "restricao": "exclusivo de druidas",
+    "iniciante": "Você forma um elo mental com o bogum (semelhante ao de um arcanista com seu familiar) e recebe +2 em Percepção e Sobrevivência.",
+    "veterano": "Uma vez por rodada, você recebe +1d6 de ácido em uma rolagem de dano.",
+    "mestre": "O bogum fornece também o benefício de um dedo de ente (Tormenta20, p. 160)."
+  },
+  "description": "Pequeno construto feito de materiais naturais como gravetos, cascas, conchas e ossos, fabricado por um druida e animado por preces a Allihanna. Não fala, mas entende seu criador; é fraco em combate, sendo mais usado para entregar mensagens, espionar, vigiar uma área ou seguir furtivamente um alvo. Por ser pequeno e feito de matéria natural, é muito difícil percebê-lo em meio à vegetação. Se forçado a lutar, expele um veneno urticante que causa ardência, ou mesmo cegueira caso atinja os olhos.",
+  "livro": "ameacas_de_arton"
+}

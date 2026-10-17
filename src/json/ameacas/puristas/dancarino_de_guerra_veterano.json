@@ -1,0 +1,45 @@
+{
+  "id": "dancarino_de_guerra_veterano",
+  "name": "Dançarino de Guerra Veterano",
+  "nd": 6,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "puristas",
+  "pv": 175,
+  "pm": null,
+  "defesa": 28,
+  "salvaguardas": { "fort": 12, "ref": 16, "von": 8 },
+  "reducao_de_dano": null,
+  "imunidades": ["medo"],
+  "resistencias": { "efeitos de movimento": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 13,
+  "percepcao": 4,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 4, "des": 5, "con": 4, "int": 1, "sab": -1, "car": 2 },
+  "pericias": { "acrobacia": 16, "atletismo": 9 },
+  "ataques": [
+    {
+      "nome": "Machado de batalha",
+      "quantidade": 2,
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 8 }], "bonus": 15, "tipo": "corte" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "Quando passa em um teste de Reflexos para reduzir o dano de um efeito à metade, em vez disso não sofre nenhum dano." },
+    { "nome": "A Morte Não É Suficiente para Meus Inimigos", "acao": "reacao", "descricao": "Uma vez por rodada, quando um dançarino de guerra veterano reduz os PV de um inimigo a 0 ou menos com um ataque corpo a corpo, pode executar um ataque adicional contra outra criatura dentro do seu alcance. O dançarino recebe +5 nesse teste de ataque e na rolagem de dano." },
+    { "nome": "A Vida Não É Suficiente para Mim", "descricao": "Quando um dançarino morre em combate, cada um de seus aliados em alcance médio é tomado por um frenesi equivalente ao efeito básico da magia Velocidade, até o fim da cena." },
+    { "nome": "Matar É Viver", "acao": "padrão", "descricao": "O dançarino entra em um estado de frenesi de combate, durante o qual pode fazer um ataque adicional sempre que executa a ação agredir. O transe termina se, ao fim da rodada, ele não tiver sido atacado nem sido alvo de um efeito hostil. Recarga (realizar uma investida)." },
+    { "nome": "Viver É Lutar", "acao": "reacao", "descricao": "Uma vez por rodada, quando é alvo de um ataque corpo a corpo, o dançarino pode fazer um teste de Acrobacia. Ele reduz desse ataque em um valor igual ao resultado de seu teste e, se reduzir o dano a 0, pode fazer um ataque corpo a corpo contra o atacante." }
+  ],
+  "equipamento": ["Machado de batalha x2", "Sapatos de camurça aprimorados"],
+  "tesouro": "Padrão.",
+  "description": "Dançarino de guerra experiente, sobrevivente de muitas batalhas, sua morte capaz de inspirar um frenesi ainda mais poderoso em seus companheiros de armas.",
+  "livro": "ameacas_de_arton"
+}

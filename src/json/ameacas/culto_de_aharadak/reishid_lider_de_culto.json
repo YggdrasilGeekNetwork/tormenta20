@@ -1,0 +1,63 @@
+{
+  "id": "reishid_lider_de_culto",
+  "name": "Reishid Líder de Culto",
+  "nd": 12,
+  "tipo": "Monstro",
+  "subtipo": "lefeu",
+  "tamanho": "medio",
+  "grupo": "culto_de_aharadak",
+  "pv": 483,
+  "pm": 66,
+  "defesa": 47,
+  "salvaguardas": { "fort": 20, "ref": 27, "von": 13 },
+  "reducao_de_dano": 10,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 19,
+  "percepcao": 23,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "escalada": 9, "voo": 15 },
+  "atributos": { "for": 4, "des": 7, "con": 5, "int": 4, "sab": 6, "car": 1 },
+  "pericias": { "furtividade": 27, "intimidacao": 11, "religiao": 21 },
+  "ataques": [
+    {
+      "nome": "Adaga da Tormenta",
+      "bonus": 40,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 21, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 0, "tipo": "trevas" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Garra",
+      "bonus": 40,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 21, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 40,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 21, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2",
+      "observacao": "mais veneno"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque em Movimento", "descricao": "O reishid líder de culto pode se mover antes e depois de executar a ação agredir, desde que a distância total percorrida não seja maior que seu deslocamento." },
+    { "nome": "Insanidade da Tormenta", "descricao": "3d6 PM (Vontade CD 35 evita)." },
+    { "nome": "Magia Acelerada (mágica)", "acao": "livre", "custos": { "value": 4, "type": "PM" }, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o reishid muda a execução dela para livre." },
+    { "nome": "Sombra Rubra", "descricao": "Quando faz um teste de Iniciativa ou Furtividade, rola dois dados e usa o melhor resultado." },
+    { "nome": "Veneno", "descricao": "Paralisado por 1d6 horas (Fortitude CD 35 reduz para lento por 1d6 rodadas)." },
+    { "nome": "Magias (clérigo de Aharadak, 12º nível, CD 35)", "descricao": "Anular a Luz (6 PM; escuridão de 6m, dissipa magias de 3º círculo ou menos, +4 Defesa a aliados, enjoa inimigos 1d4 rodadas), Comando (4 PM; até 2 criaturas largam itens empunhados), Marca da Obediência (6 PM; ordena a um adjacente que não ataque até o fim da cena, repetível; falha causa 3d6 de dano psíquico)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão mais uma adaga da Tormenta.",
+  "description": "O mais poderoso entre os reishid, líder de cultos a Aharadak que coordena rituais de mutilação e sacrifício, conjurando magias divinas aberrantes para proteger sua congregação e amplificar o terror de suas operações.",
+  "livro": "ameacas_de_arton"
+}

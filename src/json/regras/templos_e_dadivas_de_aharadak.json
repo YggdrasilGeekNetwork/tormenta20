@@ -1,0 +1,31 @@
+{
+  "id": "templos_e_dadivas_de_aharadak",
+  "name": "Templos de Aharadak, Simbiontes e Regras Relacionadas",
+  "description": "Regras sobre templos devotados a Aharadak, simbiontes concedidos por ele ('Dádivas'), o processo de separar um piloto do Senhor do Gigante Rubro, e a natureza sem alma dos lefeu (Ameaças de Arton, Cap. 1, seção Culto de Aharadak).",
+  "templos_de_aharadak": {
+    "descricao": "Entrar em um templo de Aharadak causa os efeitos a seguir a criaturas que não sejam seus devotos, lefeu ou lefou.",
+    "efeitos": [
+      "Cada personagem é exposto à Insanidade da Tormenta (2d8 PM, Vontade CD 30 evita), como se o templo fosse um lefeu de ND 10.",
+      "Custo em mana de habilidades aumenta em +1 PM.",
+      "Itens mágicos encantados perdem um de seus encantos (à escolha do portador); pode-se gastar 1 PM no início de cada cena para evitar este efeito durante a cena.",
+      "Pela arquitetura perturbadora, testes relacionados ao ambiente (Atletismo para escalar, Força para empurrar uma porta, Ladinagem para arrombar uma fechadura) têm 25% de chance de falha e causam a perda de 1 PM (mesmo em caso de sucesso).",
+      "Um personagem com PM esgotados fica frustrado pelo dia. Cada nova perda de PM deteriora sua condição para esmorecido, depois confuso e por fim insano — neste ponto, torna-se um NPC maligno sob controle do mestre."
+    ]
+  },
+  "dadivas_de_aharadak": {
+    "descricao": "Os devotos favoritos do Devorador são recompensados com simbiontes, um tipo especial de criatura lefeu: pequenos, na forma de ovos, casulos, larvas ou vermes. Quando encontram um hospedeiro (voluntário, indefeso ou inconsciente), lançam raízes em sua carne a ponto de tornar impossível a remoção, causando mudanças extremas que permitem manifestar poderes aberrantes.",
+    "regras": "Cada simbionte ocupa o espaço de um item vestido e conta como dois poderes da Tormenta. Sempre que um simbionte é implantado, o hospedeiro faz um teste de Constituição (CD 10, +1 para cada outro poder da Tormenta que possuir). Se passar, o simbionte funciona normalmente. Se falhar, a ligação não surte os efeitos desejados: o simbionte ocupa o espaço de um item vestido e causa a perda de 1 ponto de Carisma. Não existem meios conhecidos de remover um simbionte. Simbiontes em suas formas larvais (ainda não unidos a hospedeiros) são considerados itens valiosos que não podem ser roubados nem removidos; são raros mesmo à venda em lugares como Vectora.",
+    "simbiontes": ["armadura_do_devorador", "asas_do_devorador", "flagelo_do_devorador", "mente_do_devorador", "olhos_do_devorador"]
+  },
+  "dolorosa_separacao": {
+    "descricao": "Processo para remover um piloto de um Senhor do Gigante Rubro em sua forma inicial (impossível na forma final).",
+    "passo_1_fisico": "É possível remover um piloto inconsciente com um teste de Cura (CD 20) que exige uma hora de trabalho árduo. Para prevenir as condições do afastamento, é necessário um teste de Cura (CD 20) a cada hora, ou usar a magia Purificação.",
+    "passo_2_mental": "Separar a conexão mental do piloto com a armadura é um teste estendido de Misticismo (CD 20) que exige 5 sucessos, cada teste representando um dia de cuidados. Em caso de falha no teste estendido, pode-se recomeçar, mas com penalidade cumulativa de –5.",
+    "resultado": "Se ambas as etapas forem bem-sucedidas, o piloto fica livre da dependência do gigante rubro. Se voltar a embarcar na armadura, é necessário recomeçar o processo do zero."
+  },
+  "lefeu_e_almas": {
+    "descricao": "Seres mortais são compostos de corpo e alma; quando morrem, a alma se separa e vira um espírito, viajando para os reinos dos deuses. Em sua Anticriação, os lefeu derrotaram todas as coisas — vida e morte, tempo e espaço, a própria individualidade — tornando-se um multiverso consciente onde não existe diferença entre vivo e não vivo.",
+    "regra": "Lefeu não têm alma. Por isso, são imunes à magia Roubar a Alma e efeitos semelhantes."
+  },
+  "livro": "ameacas_de_arton"
+}

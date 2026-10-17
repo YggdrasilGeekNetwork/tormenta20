@@ -1,0 +1,51 @@
+{
+  "id": "dragao_jovem_do_ocaso",
+  "name": "Dragão Jovem do Ocaso",
+  "nd": 7,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "grande",
+  "grupo": "dragoes",
+  "pv": 320,
+  "pm": null,
+  "defesa": 31,
+  "salvaguardas": { "fort": 20, "ref": 9, "von": 15 },
+  "reducao_de_dano": 5,
+  "imunidades": ["frio"],
+  "resistencias": { "magia": 2 },
+  "vulnerabilidades": ["fogo"],
+  "iniciativa": 11,
+  "percepcao": 12,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 18 },
+  "atributos": { "for": 5, "des": 3, "con": 5, "int": 3, "sab": 3, "car": 2 },
+  "pericias": { "intimidacao": 11 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 14, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 14, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Mordida Definhante", "descricao": "Uma criatura atingida pela mordida do dragão jovem do ocaso fica alquebrada (Vontade CD 25 evita; a criatura não pode mais ser afetada por esta habilidade até o fim da cena)." },
+    { "nome": "Sopro", "acao": "padrão", "descricao": "Todas as criaturas em um cone de 9m sofrem 6d12 pontos de dano de frio e ficam lentas por 1d4 rodadas (Reflexos CD 25 reduz à metade e evita a condição). Recarga (ação de movimento)." },
+    { "nome": "Ver o Fim", "descricao": "O dragão percebe automaticamente a presença, posição e status de criaturas em alcance médio, como o efeito básico da magia Condição." }
+  ],
+  "equipamento": [],
+  "tesouro": "Dobro e 2 peças de couro de dragão (CD 22 para extrair).",
+  "description": "Dragão jovem de energia dracônica de frio, capaz de perceber o estado de seus inimigos com precisão sobrenatural antes mesmo de atacar.",
+  "livro": "ameacas_de_arton"
+}

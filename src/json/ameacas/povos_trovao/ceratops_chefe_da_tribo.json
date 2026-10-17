@@ -1,0 +1,50 @@
+{
+  "id": "ceratops_chefe_da_tribo",
+  "name": "Ceratops Chefe da Tribo",
+  "nd": 7,
+  "tipo": "Humanoide",
+  "subtipo": "ceratops",
+  "tamanho": "grande",
+  "grupo": "povos_trovao",
+  "pv": 280,
+  "pm": null,
+  "defesa": 32,
+  "salvaguardas": { "fort": 21, "ref": 7, "von": 14 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 9,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 6, "des": 0, "con": 6, "int": -1, "sab": 2, "car": 0 },
+  "pericias": { "atletismo": 13, "diplomacia": 7, "intimidacao": 13, "sobrevivencia": 9 },
+  "ataques": [
+    {
+      "nome": "Tacape",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 8 }], "bonus": 22, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Chifres",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 22, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Atropelamento", "acao": "completa", "descricao": "O ceratops chefe da tribo percorre até o dobro de seu deslocamento. Ele pode passar pelo espaço ocupado de quaisquer inimigos menores que ele, mas não pode passar duas vezes pelo mesmo espaço. Criaturas atropeladas desta forma sofrem 12d8+12 pontos de dano de impacto e ficam caídas (Reflexos CD 24 reduz à metade e evita a condição). Recarga (movimento)." },
+    { "nome": "Determinação Primal", "acao": "reacao", "descricao": "Quando o ceratops é reduzido a 80 PV ou menos, seus instintos de proteção da família despertam. Todas as condições e efeitos negativos afetando o ceratops se encerram e ele recebe resistência a magia +5 até o fim da cena." },
+    { "nome": "Medo de Altura", "descricao": "Se estiver adjacente a uma queda de 3m ou mais de altura (como um buraco ou penhasco), o ceratops fica abalado." }
+  ],
+  "equipamento": ["Tacape aumentado", "Gibão de peles"],
+  "tesouro": "Padrão.",
+  "description": "Líder de uma tribo ceratops, o mais forte e orgulhoso entre os chefes, protegendo sua família com determinação primal mesmo diante de ferimentos graves.",
+  "livro": "ameacas_de_arton"
+}

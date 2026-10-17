@@ -1,0 +1,45 @@
+{
+  "id": "namasqall",
+  "name": "Namasqall",
+  "nd": 14,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "colossal",
+  "grupo": "elementais",
+  "pv": 700,
+  "pm": null,
+  "defesa": 42,
+  "salvaguardas": { "fort": 28, "ref": 22, "von": 13 },
+  "reducao_de_dano": null,
+  "imunidades": ["acertos críticos", "atordoado", "cansaço", "efeitos de metabolismo", "frio", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": ["fogo"],
+  "iniciativa": 18,
+  "percepcao": 13,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12, "natacao": 18 },
+  "atributos": { "for": 10, "des": 4, "con": 10, "int": -3, "sab": -1, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Tentáculo d'água",
+      "quantidade": 4,
+      "bonus": 39,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 30, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Tentáculo d'água (teste +49), apenas contra criaturas Grandes ou menores." },
+    { "nome": "Constrição", "acao": "livre", "descricao": "No início de cada um de seus turnos, causa 4d10+30 pontos de dano de impacto em cada criatura que esteja agarrando." },
+    { "nome": "Corpo Torrencial", "descricao": "O clima em uma esfera de 90m ao redor do namasqall é de tempestade constante (sem chance de queda de raios) e, em uma esfera de 500m, é de chuva. Esses climas não podem ser alterados." },
+    { "nome": "Maremoto", "acao": "padrão", "descricao": "O namasqall cria uma onda que varre um cone de 12m. Criaturas na área sofrem 12d6+40 de dano (metade frio, metade impacto) e são empurradas 6m (Reflexos CD 36 reduz à metade e evita o empurrão)." },
+    { "nome": "Olho da Tempestade", "descricao": "Se estiver na área de um efeito mágico que altera o clima, fica atordoado por 1 rodada (Fortitude CD do efeito, se houver, evita). Só pode ser atordoado dessa forma uma vez por cena." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d4+2 doses de éter elemental (frio) (CD 29 para extrair).",
+  "description": "O maior e mais poderoso elemental da água conhecido em Arton — imagina-se existir outros ainda maiores em seu Plano de origem, mas nunca se manifestaram aqui. Um imenso emaranhado de tentáculos aquosos pairando e retorcendo-se acima das águas, também sorvendo-as como um tornado, encimado por uma imitação rústica de um torso humanoide sem face, com braços gesticulando acusadoramente. Encontrado apenas em estado de fúria constante, atacando e destruindo tudo em volta como uma força da natureza, sem mente a ser alcançada ou qualquer forma conhecida de aplacar sua violência. Sempre que se manifesta, chove intensamente na área em volta; sua aparição pode explodir em qualquer lugar, a qualquer momento, arrasando vilas inteiras e demandando aventureiros poderosos.",
+  "livro": "ameacas_de_arton"
+}

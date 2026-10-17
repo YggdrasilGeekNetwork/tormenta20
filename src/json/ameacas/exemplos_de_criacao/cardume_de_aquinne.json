@@ -1,0 +1,45 @@
+{
+  "id": "cardume_de_aquinne",
+  "name": "Cardume de Aquin'ne",
+  "nd": 5,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "medio",
+  "grupo": "exemplos_de_criacao",
+  "pv": 40,
+  "pm": null,
+  "defesa": 23,
+  "salvaguardas": { "fort": 14, "ref": 11, "von": 6 },
+  "reducao_de_dano": null,
+  "imunidades": ["acertos críticos", "atordoamento", "cansaço", "frio", "metabolismo", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": ["fogo"],
+  "iniciativa": 5,
+  "percepcao": 5,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "natacao": 15 },
+  "atributos": { "for": 4, "des": 2, "con": 2, "int": -2, "sab": 2, "car": -2 },
+  "pericias": { "atletismo": "+7 (+15 para nadar)", "furtividade": "+3 (+13 na água)" },
+  "ataques": [
+    {
+      "nome": "Tentáculo hídrico",
+      "quantidade": 2,
+      "bonus": 19,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 4 }], "bonus": 12, "tipo": "corte" }
+      ],
+      "critico": "20/x2",
+      "observacao": "[Bando]"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Afogar", "descricao": "Uma criatura agarrada pelo cardume de aquin'ne é considerada submersa até se soltar." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Tentáculo hídrico (teste de agarrar +21)." },
+    { "nome": "Redemoinho de Maresia", "acao": "padrão", "descricao": "O cardume toca um objeto adjacente, que perde 10 PV (Reflexos CD 20 evita)." },
+    { "nome": "Varrer", "acao": "livre", "descricao": "Uma vez por rodada, quando o cardume de aquin'ne faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro de seu alcance." }
+  ],
+  "equipamento": [],
+  "tesouro": "2d4 doses de éter elemental (frio) (CD 20 para extrair).",
+  "description": "Bando de oito a doze aquin'ne nadando juntos, formando um cardume capaz de agarrar e afogar presas em alcance curto. Usado no livro como exemplo completo de transformação de uma criatura (aquin'ne, lacaio de ND 2) em um bando (Manual de Criação de Ameaças, regra 'Como Criar Bandos').",
+  "livro": "ameacas_de_arton"
+}

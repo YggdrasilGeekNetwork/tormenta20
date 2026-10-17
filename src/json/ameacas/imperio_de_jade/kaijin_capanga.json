@@ -1,0 +1,44 @@
+{
+  "id": "kaijin_capanga",
+  "name": "Kaijin Capanga",
+  "nd": 6,
+  "tipo": "Monstro",
+  "subtipo": "kaijin",
+  "tamanho": "medio",
+  "grupo": "imperio_de_jade",
+  "pv": 60,
+  "pm": null,
+  "defesa": 26,
+  "salvaguardas": { "fort": 17, "ref": 12, "von": 7 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "resistencia_a_magia": null,
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 8,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": 2, "con": 4, "int": -1, "sab": 1, "car": -3 },
+  "pericias": { "intimidacao": 10 },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 22,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 15, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Fortificação", "descricao": "50% de chance de ignorar qualquer efeito adicional de acerto crítico ou ataque furtivo." },
+    { "nome": "Resistência a Lefeu e Tormenta", "descricao": "Recebe +5 em testes de resistência contra efeitos causados por lefeu e pela Tormenta." },
+    { "nome": "Mutação Rubra", "descricao": "O kaijin capanga possui duas mutações, escolhidas entre as seguintes. Asas de Inseto: deslocamento de voo 9m. Carapaça Superior (reação): uma vez por rodada, quando sofre dano, pode reduzir esse dano à metade. Deslocado: camuflagem leve contra todos os ataques e ignora terreno difícil. Insanidade da Tormenta: criaturas que vejam o kaijin perdem 2d4 PM (Vontade CD 22 evita, uma vez por dia por criatura). Mãos Aderentes: deslocamento de escalada 9m. Mente Alienígena: rola dois dados em testes de Vontade e usa o melhor; quando passa em um teste de Vontade para resistir a um efeito, causa 5d6 de dano psíquico na criatura que gerou o efeito. Sangue Corrosivo (reação): uma vez por rodada, quando sofre dano, todas as criaturas adjacentes sofrem 3d6 de dano de ácido." }
+  ],
+  "equipamento": [],
+  "tesouro": "Metade.",
+  "description": "Kaijin que serve a outros mais fortes e espertos, cumprindo ordens em bandos contra o mundo que tanto odeiam.",
+  "livro": "ameacas_de_arton"
+}

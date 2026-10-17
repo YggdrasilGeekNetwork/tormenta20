@@ -1,0 +1,30 @@
+{
+  "id": "rival_espelho",
+  "name": "Rival Espelho",
+  "nd": 0,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "sszzaazitas",
+  "pv": null,
+  "defesa": null,
+  "salvaguardas": { "fort": null, "ref": null, "von": null },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": null,
+  "percepcao": null,
+  "visao": [],
+  "deslocamento": {},
+  "atributos": {},
+  "pericias": {},
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "ND Variável", "descricao": "Um rival espelho possui as características e o ND do personagem que está copiando. Todos os campos numéricos desta entrada (ND, PV, Defesa, atributos, etc.) são apenas placeholders; na prática, use integralmente a ficha do personagem copiado." },
+    { "nome": "Transferir Dor", "descricao": "Todo dano que o rival espelho sofre, bem como efeitos adicionais desse dano, é aplicado ao personagem que ele está copiando e não ao rival. Se o personagem copiado for reduzido a 0 PV ou menos, o rival desaparece após 1 rodada." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Ser mágico que, visto à distância, lembra apenas um humanoide oculto em mantos. Quando se aproxima, revela ser uma cópia idêntica do observador — ou, quando há mais de um, aquele que parece mais poderoso. O rival espelho tem as mesmas estatísticas do personagem copiado; itens mágicos e magias benéficas conjuradas sobre o alvo também são copiados, e a cópia está em forma plena, com pontos de vida e magia máximos, sem quaisquer efeitos nocivos que por ventura estejam afetando o alvo. Quando o rival é atacado, qualquer dano ou efeito afetará apenas o personagem original: ferimentos surgem no mesmo ponto onde o rival é atingido; o contrário não acontece. Assim, a única forma de derrotar a criatura é abatendo o próprio companheiro. Dizem que Sszzaas criou o rival espelho para, assim como fez com os Libertadores, forçar heróis a trair um dos seus.",
+  "livro": "ameacas_de_arton"
+}

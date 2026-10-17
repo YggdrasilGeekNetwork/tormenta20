@@ -1,0 +1,42 @@
+{
+  "id": "golem_de_pedra",
+  "name": "Golem de Pedra",
+  "nd": 12,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "golens",
+  "pv": 575,
+  "pm": null,
+  "defesa": 43,
+  "salvaguardas": { "fort": 26, "ref": 12, "von": 20 },
+  "reducao_de_dano": 20,
+  "imunidades": ["atordoado", "magia (com exceções)"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 10,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 4.5 },
+  "atributos": { "for": 9, "des": -2, "con": 6, "int": null, "sab": 0, "car": -5 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 51, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Imobilidade", "descricao": "Pode permanecer completamente imóvel. Um personagem deve passar em um teste de Percepção (CD 40) para perceber que ele é uma criatura e não uma estátua." },
+    { "nome": "Imunidade a Magia", "descricao": "O golem de pedra é imune a efeitos mágicos, com exceção da magia Despedaçar." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Construído como guardião de lugares sagrados, grandes tesouros, refúgios de arquimagos ou portais para mundos distantes, ou como máquina de guerra em cercos de castelos. Mede tipicamente três metros de altura. Apenas grandes artífices podem construí-los.",
+  "livro": "ameacas_de_arton"
+}

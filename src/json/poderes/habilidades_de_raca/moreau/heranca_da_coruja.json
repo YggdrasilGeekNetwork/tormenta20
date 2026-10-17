@@ -1,0 +1,14 @@
+{
+  "id": "heranca_da_coruja",
+  "name": "Herança da Coruja",
+  "type": "habilidade_de_raca",
+  "race": "moreau",
+  "description": "Sabedoria +1, +1 em dois atributos a sua escolha. Espreitador: você recebe visão no escuro e +2 em Percepção e Vontade. Garras: você tem duas armas naturais de garra (dano 1d6, crítico x2, corte), uma em cada mão; uma vez por rodada, quando usa a ação agredir para atacar com uma arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com uma das garras, desde que ela esteja livre e não tenha sido usada para atacar neste turno (ou use-as como arma secundária em habilidades como Estilo de Duas Armas). Sapiência: você pode lançar uma magia de 1º círculo de adivinhação a sua escolha (atributo-chave Sabedoria); caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+  "effects": {
+    "attribute_bonus": { "sabedoria": 1, "chosen": { "count": 2, "value": 1 } },
+    "espreitador": { "vision": "visao_no_escuro", "skill_improvement": [{ "skill": "percepcao", "value": 2 }, { "skill": "vontade", "value": 2 }] },
+    "garras": { "natural_weapon": { "name": "garra", "quantity": 2, "damage": "1d6", "critical": "x2", "damage_type": "corte" }, "extra_attack_cost": { "pm": 1 } },
+    "sapiencia": { "grants_spell": { "circle": 1, "school": "adivinhacao", "key_attribute": "sabedoria" }, "relearn_discount_pm": 1 }
+  },
+  "livro": "ameacas_de_arton"
+}

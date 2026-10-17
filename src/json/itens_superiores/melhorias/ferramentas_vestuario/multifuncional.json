@@ -1,0 +1,12 @@
+{
+  "id": "multifuncional",
+  "name": "Multifuncional",
+  "type": "melhoria",
+  "categoria": ["ferramenta", "vestuario"],
+  "prerequisitos": "só pode ser aplicada em um item que modifica uma perícia (fornecendo bônus ou reduzindo penalidade)",
+  "description": "Escolha outra perícia que usa o mesmo atributo-chave; o item passa a funcionar também para a segunda perícia escolhida (mas não se aplica a testes de ataque).",
+  "effects": [
+    { "type": "estende_bonus_pericia", "condicao": "segunda perícia escolhida deve usar o mesmo atributo-chave da perícia original", "excecao": "não se aplica a testes de ataque" }
+  ],
+  "livro": "ameacas_de_arton"
+}

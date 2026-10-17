@@ -1,0 +1,49 @@
+{
+  "id": "tentacute",
+  "name": "Tentacute",
+  "nd": 0.5,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "minusculo",
+  "grupo": "mascotes_e_familiares",
+  "pv": 8,
+  "pm": null,
+  "defesa": 14,
+  "salvaguardas": { "fort": 3, "ref": 7, "von": 0 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 11,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9, "escalada": 9 },
+  "atributos": { "for": -1, "des": 5, "con": 1, "int": -3, "sab": 4, "car": -2 },
+  "pericias": { "furtividade": 14 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 8,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 4, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Curiosidade Larápia", "descricao": "O tentacute pode fazer testes de Furtividade no lugar de Ladinagem para ocultar e punga." },
+    { "nome": "Serelepe", "descricao": "O tentacute pode fazer uma ação de movimento adicional por rodada, mas somente para se deslocar." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": "Um tentacute familiar pode ser usado, uma vez por rodada, para sacar ou guardar um item, ou para pegar um item solto Pequeno ou menor (1 espaço ou menos) em alcance curto e que ele consiga alcançar.",
+  "parceiro": {
+    "tipo": "especial (vigilante)",
+    "restricao": null,
+    "iniciante": "Você recebe +2 em Percepção e, quando faz um teste de Ladinagem para punga, pode rolar dois dados e usar o melhor resultado.",
+    "veterano": "Uma vez por rodada, você pode gastar uma ação de movimento e 1 PM para fazer um teste de Ladinagem para punga contra um alvo em alcance curto que possa ser alcançado pelo tentacute.",
+    "mestre": "O bônus em Percepção se torna +4 e o alcance da punga muda para médio."
+  },
+  "description": "Pequeno animal com corpo felino de gato comum, olhos telescópicos como os de um caracol, uma concha em forma de capacete sobre a cabeça e cauda longa em forma de tentáculo de polvo, com ventosas. Nas florestas que habita ocupa o mesmo nicho dos esquilos, colhendo nozes, avelãs e outros frutos secos para guardar em sua toca; não teme seres inteligentes, pelo contrário, gosta de observá-los de perto, mas pode ser atraído por objetos pequenos e brilhantes como moedas ou gemas, que rouba e esconde na toca. Graças a sua agilidade e velocidade nas árvores é muito difícil perseguir um tentacute; druidas e caçadores o apreciam como animal de guarda por sua visão aguçada. Suas estatísticas também podem representar micos, saguis e outros pequenos primatas.",
+  "livro": "ameacas_de_arton"
+}

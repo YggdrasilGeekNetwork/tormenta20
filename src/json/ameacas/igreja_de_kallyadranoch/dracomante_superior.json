@@ -1,0 +1,46 @@
+{
+  "id": "dracomante_superior",
+  "name": "Dracomante Superior",
+  "nd": 14,
+  "tipo": "Humanoide",
+  "subtipo": "elfo",
+  "tamanho": "medio",
+  "grupo": "igreja_de_kallyadranoch",
+  "pv": 500,
+  "pm": 112,
+  "defesa": 33,
+  "salvaguardas": { "fort": 12, "ref": 20, "von": 28 },
+  "reducao_de_dano": "15/fogo",
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 18,
+  "percepcao": 16,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": -1, "des": 4, "con": 4, "int": 8, "sab": 2, "car": 5 },
+  "pericias": { "conhecimento": 22, "intimidacao": 19, "misticismo": 24 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 30,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 15, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arcano de Batalha", "descricao": "O dracomante superior soma sua Inteligência nas rolagens de dano quando lança magias ou usa seu Raio Arcano (já contabilizado)." },
+    { "nome": "Dracomancia", "descricao": "Quando lança uma magia ou usa Raio Arcano, o dracomante superior recebe redução de dano 5 e resistência a magia +5 até o início de seu próximo turno." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando usa seu Raio Arcano ou lança uma magia com execução de ação completa ou menor, o dracomante superior muda a execução dela para livre." },
+    { "nome": "Presença Aterradora", "acao": "padrao", "custo_pm": 1, "descricao": "O dracomante faz um teste de Intimidação oposto à Vontade de criaturas em alcance curto. Aquelas que falharem no teste ficam abaladas até o fim da cena; se falharem por 10 ou mais também ficam apavoradas por 1 rodada." },
+    { "nome": "\"PRESENCIEM O VERDADEIRO PODER!\"", "acao": "reacao", "custo_pm": 23, "descricao": "Quando é reduzido a 300 PV ou menos, o dracomante lança a magia Transformação em Dragão." },
+    { "nome": "Raio Arcano", "acao": "padrao", "custo_pm": 1, "descricao": "Uma criatura em alcance médio sofre 4d12+8 pontos de dano de fogo e fica em chamas (Reflexos CD 38 reduz à metade e evita a condição)." },
+    { "nome": "Magias", "descricao": "Lança magias como mago de 14º nível (CD 38, limite de PM 23): Armadura Arcana (padrão, 15 PM, +11 na Defesa por um dia), Bola de Fogo (padrão, 11 PM, 15d6+8 fogo em esfera de 6m), Campo de Força (reação, 7 PM, RD 50 contra o dano sofrido), Talho Invisível de Edauros (padrão, 10 PM, 10d8+8 de corte em cone de 9m, sangrando), Transformação em Dragão (completa, 23 PM, +2 Força/Constituição/Inteligência/Carisma, +5 Defesa, redução de fogo 30, deslocamento de voo 18m e um ataque de mordida +30/1d6+15 19/x3 usável com a adaga; uma vez por rodada pode soprar fogo em cone de 9m causando 10d6+10 fogo, Reflexos reduz à metade), Velocidade (padrão, 10 PM, sustentada, ação padrão adicional por turno)." }
+  ],
+  "equipamento": ["Adaga", "Cetro elemental de couro de dragão (fogo)", "Pergaminho de Transformação em Dragão"],
+  "tesouro": "Nenhum.",
+  "description": "Dracomante elfo que avançou ao extremo em seu desejo de se tornar um dragão, a ponto de poder se transformar verdadeiramente através de magia poderosa quando levado ao limite em combate.",
+  "livro": "ameacas_de_arton"
+}

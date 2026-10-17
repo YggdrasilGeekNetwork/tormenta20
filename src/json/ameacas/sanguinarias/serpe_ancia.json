@@ -1,0 +1,47 @@
+{
+  "id": "serpe_ancia",
+  "name": "Serpe Anciã",
+  "nd": 8,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "sanguinarias",
+  "pv": 320,
+  "defesa": 33,
+  "salvaguardas": { "fort": 15, "ref": 21, "von": 8 },
+  "reducao_de_dano": null,
+  "imunidades": ["paralisia", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 7,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 18 },
+  "atributos": { "for": 7, "des": 1, "con": 6, "int": -2, "sab": 1, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 15, "tipo": "perfuração" }
+      ]
+    },
+    {
+      "nome": "Ferrão",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 15, "tipo": "perfuração" }
+      ],
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com a mordida (teste +31)." },
+    { "nome": "Jato de Podridão", "acao": "padrao", "salvaguarda": "Fortitude", "cd": 26, "efeito_sucesso": "reduz à metade", "descricao": "A serpe dispara um jato de veneno que ignora imunidade e afeta uma linha de 18m. Criaturas na área perdem 6d12 pontos de vida (Fort CD 26 reduz à metade). Recarga (movimento)." },
+    { "nome": "Veneno", "salvaguarda": "Fortitude", "cd": 26, "efeito_sucesso": "reduz a duração para 1 rodada", "descricao": "Peçonha anciã: perde 3d12 pontos de vida por rodada durante 3 rodadas, ignorando imunidade a veneno (Fort CD 26 reduz a duração para 1 rodada)." }
+  ],
+  "tesouro": "1d4 doses de peçonha anciã (CD 23 para extrair).",
+  "description": "Versão maior e mais perigosa da serpe comum, com veneno ainda mais letal. Costuma liderar bandos de serpes comuns nas Sanguinárias, sendo raro, mas não impossível, encontrá-la em outros territórios.",
+  "livro": "ameacas_de_arton"
+}

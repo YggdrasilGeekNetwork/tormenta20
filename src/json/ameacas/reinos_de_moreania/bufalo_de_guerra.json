@@ -1,0 +1,47 @@
+{
+  "id": "bufalo_de_guerra",
+  "name": "Búfalo-de-Guerra",
+  "nd": 2,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "reinos_de_moreania",
+  "pv": 80,
+  "pm": null,
+  "defesa": 18,
+  "salvaguardas": { "fort": 13, "ref": 7, "von": 2 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 4,
+  "visao": ["faro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 7, "des": 0, "con": 4, "int": -5, "sab": 1, "car": -2 },
+  "pericias": { "atletismo": 10 },
+  "ataques": [
+    {
+      "nome": "Marrada",
+      "bonus": 10,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 10, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Atropelamento", "acao": "completa", "descricao": "O búfalo-de-guerra percorre até o dobro de seu deslocamento. Ele pode passar pelo espaço ocupado de quaisquer inimigos menores que ele, mas não pode passar duas vezes pelo mesmo espaço. Criaturas atropeladas desta forma sofrem 4d8+10 pontos de dano de impacto e ficam caídas (Reflexos CD 16 reduz à metade e evita a condição). Recarga (movimento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "iniciante": "Seu deslocamento muda para 9m e seu limite de carga aumenta em 5 espaços. Uma vez por rodada, quando faz uma investida montada, você recebe +1d8 em uma rolagem de dano corpo a corpo.",
+    "veterano": "Seu deslocamento muda para 12m e ignora terreno difícil.",
+    "mestre": "O bônus em rolagens de dano corpo a corpo muda para +2d8 e você recebe uma ação de movimento extra por turno (apenas para se deslocar)."
+  },
+  "description": "Também conhecido como búfalo-cafre, nobre e poderoso bovídeo que vive em imensas manadas junto a grandes rios dos Reinos de Moreania. Quase impossível de domesticar, aceita servir apenas aos Paladinos de Bullton, como uma dádiva oferecida pela Dama Altiva a esses guerreiros sagrados.",
+  "livro": "ameacas_de_arton"
+}

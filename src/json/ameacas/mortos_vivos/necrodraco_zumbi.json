@@ -1,0 +1,52 @@
+{
+  "id": "necrodraco_zumbi",
+  "name": "Necrodraco Zumbi",
+  "nd": 14,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "mortos_vivos",
+  "pv": 720,
+  "pm": null,
+  "defesa": 47,
+  "salvaguardas": { "fort": 28, "ref": 13, "von": 22 },
+  "reducao_de_dano": "15/luz",
+  "imunidades": ["atordoado", "metamorfose", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 19,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 24 },
+  "atributos": { "for": 12, "des": 1, "con": 9, "int": 6, "sab": 6, "car": 0 },
+  "pericias": { "atletismo": 23 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 12 }], "bonus": 35, "tipo": "perfuração" }
+      ],
+      "critico": "17/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 12 }], "bonus": 35, "tipo": "corte" }
+      ],
+      "critico": "17/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura de Podridão", "descricao": "Uma criatura que comece seu turno em um raio de 30m do necrodraco zumbi é exposta à doença calafrio diabólico. Devido à virulência do necrodraco, a CD para resistir a essa doença é 38." },
+    { "nome": "Sopro", "acao": "padrão", "descricao": "Cada criatura em um cone de 15m sofre 15d12 pontos de dano de trevas e fica debilitada e esmorecida (Reflexos CD 38 reduz à metade e diminui para fraca e frustrada). Recarga (movimento)." },
+    { "nome": "Varrer", "acao": "livre", "descricao": "Uma vez por rodada, quando o necrodraco faz um ataque corpo a corpo e reduz os pontos de vida do alvo a 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance." },
+    { "nome": "Fraqueza Zumbi", "descricao": "O necrodraco sofre o dobro de dano de acertos críticos ou de ataques feitos contra seu cérebro (Defesa 57)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão e 2d4 doses de terra de cemitério (CD 29 para extrair).",
+  "description": "Dragão morto-vivo em estado de decomposição avançada, espalhando uma aura de podridão doentia por onde passa.",
+  "livro": "ameacas_de_arton"
+}

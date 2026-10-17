@@ -1,0 +1,47 @@
+{
+  "id": "elfo_do_mar_chefe",
+  "name": "Elfo-do-Mar Chefe",
+  "nd": 6,
+  "tipo": "Humanoide",
+  "subtipo": "elfo_do_mar",
+  "tamanho": "medio",
+  "grupo": "sob_as_ondas",
+  "pv": 230,
+  "defesa": 29,
+  "salvaguardas": { "fort": 12, "ref": 18, "von": 6 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 10,
+  "visao": ["percepção às cegas (embaixo d'água)", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9, "natacao": 9 },
+  "atributos": { "for": 4, "des": 5, "con": 3, "int": -1, "sab": 3, "car": 2 },
+  "pericias": { "atletismo": 9, "cavalgar": 10, "diplomacia": 7, "furtividade": 10, "guerra": 6, "sobrevivencia": 10 },
+  "ataques": [
+    {
+      "nome": "Tridente",
+      "quantidade": 2,
+      "bonus": 22,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 15, "tipo": "perfuração" }
+      ]
+    },
+    {
+      "nome": "Rede",
+      "bonus": 20,
+      "dano": null,
+      "efeito": "agarrar"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Caçador Submarino", "descricao": "Quando faz um teste de perícia (exceto testes de ataque) em um terreno aquático, o elfo-do-mar chefe rola dois dados e usa o melhor resultado." },
+    { "nome": "Ginete de Selako", "descricao": "O elfo-do-mar possui um selako como parceiro montaria Grande. Se estiver montado, seu deslocamento muda para 15m, ele recebe +2d6 em uma rolagem de dano corpo a corpo uma vez por rodada e, quando acerta um ataque corpo a corpo, o alvo fica sangrando." },
+    { "nome": "Investida Aquática", "acao": "completa", "descricao": "O elfo-do-mar realiza uma investida e faz seus dois ataques com tridente. Os dois ataques recebem o bônus de +2 da investida e causam +1d8 pontos de dano, mas devem ser feitos contra o mesmo alvo." }
+  ],
+  "equipamento": ["Couraça", "Escudo leve", "Rede", "Tridente equilibrado"],
+  "tesouro": "Padrão.",
+  "description": "Líder de uma comunidade ou expedição de elfos-do-mar, ginete experiente de selako e combatente formidável com o tridente.",
+  "livro": "ameacas_de_arton"
+}

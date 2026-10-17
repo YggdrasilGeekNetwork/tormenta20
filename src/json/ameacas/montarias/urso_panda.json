@@ -1,0 +1,55 @@
+{
+  "id": "urso_panda",
+  "name": "Urso Panda",
+  "nd": 1,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "montarias",
+  "pv": 28,
+  "pm": null,
+  "defesa": 15,
+  "salvaguardas": { "fort": 9, "ref": 5, "von": 2 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 3,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 4, "des": 3, "con": 3, "int": -4, "sab": 1, "car": 1 },
+  "pericias": { "atletismo": 6 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 4, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garras",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 4, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Rolamento Defensivo", "acao": "reação", "descricao": "Uma vez por rodada, quando sofre dano, o urso panda reduz esse dano à metade e fica caído." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "montaria (Médio)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 9m e você recebe +2 em Diplomacia e uma ação de movimento extra por turno (apenas para se deslocar).",
+    "veterano": "Você pode usar Rolamento Defensivo. Caso possua esse poder, em vez disso o custo para usá-lo diminui em –1 PM.",
+    "mestre": "Você pode usar Aparência Inofensiva. Se possuir esse poder, a CD para resistir a ele aumenta em +2."
+  },
+  "description": "Menor e relativamente inofensivo entre os ursos, alimenta-se de brotos de bambu e luta apenas em defesa própria. Era nativo de Tamu-ra; hoje está quase extinto, sendo um dos animais mais raros e valiosos de Arton. Alguns dos poucos exemplares vivos conhecidos vivem no palácio do Imperador Tekametsu, na nova capital de Tamu-ra.",
+  "livro": "ameacas_de_arton"
+}

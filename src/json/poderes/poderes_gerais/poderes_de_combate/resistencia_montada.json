@@ -1,0 +1,26 @@
+{
+  "id": "resistencia_montada",
+  "name": "Resistência Montada",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Enquanto estiver montado, sempre que precisar fazer um teste de resistência, você pode gastar 2 PM para usar Cavalgar no lugar da perícia exigida. Se o teste for contra um efeito que permite um teste para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "combate_montado"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_substitution",
+      "substitute_skill": "cavalgar",
+      "condition": "montado, em testes de resistência",
+      "costs": { "value": 2, "type": "PM" },
+      "bonus_effect": "nenhum dano se passar no teste quando o efeito reduziria o dano à metade",
+      "duration": "instantanea"
+    }
+  ],
+  "costs": null,
+  "livro": "ameacas_de_arton"
+}

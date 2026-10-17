@@ -1,0 +1,14 @@
+{
+  "id": "sombreiro",
+  "name": "Sombreiro",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 10,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "resistencia_a_efeitos_de_sentidos": 2
+  },
+  "description": "Tipo de chapéu com abas muito largas, comum nas proximidades de Smokestone. Fornece resistência a efeitos de sentidos +2.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "gorgona_matriarca",
+  "name": "Górgona Matriarca",
+  "nd": 14,
+  "tipo": "Monstro",
+  "subtipo": "medusa",
+  "tamanho": "medio",
+  "grupo": "sszzaazitas",
+  "pv": 498,
+  "pm": 89,
+  "defesa": 43,
+  "salvaguardas": { "fort": 14, "ref": 25, "von": 25 },
+  "reducao_de_dano": null,
+  "resistencia_a_magia": 2,
+  "imunidades": ["atordoada", "enfeitiçada"],
+  "resistencias": { "veneno": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 22,
+  "percepcao": 19,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 0, "des": 4, "con": 3, "int": 2, "sab": 6, "car": 4 },
+  "pericias": { "enganacao": 20, "furtividade": 20, "intuicao": 19, "misticismo": 15, "religiao": 19 },
+  "ataques": [
+    {
+      "nome": "Espada Curta",
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 20, "tipo": "corte" }
+      ],
+      "critico": "19/x2",
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, a górgona matriarca muda a execução dela para livre." },
+    { "nome": "Olhar Petrificante", "salvaguarda": "Reflexos", "cd": 38, "descricao": "Como a górgona, mas com CD 38." },
+    {
+      "nome": "Magias",
+      "descricao": "Lança magias como uma clériga de Sszzaas de 14º nível (CD 38): Miasma Mefítico (padrão, 9 PM; criaturas em um raio de 6m em alcance médio sofrem 8d6 pontos de dano de ácido e ficam enjoadas por 1 rodada, Fort reduz o dano à metade e evita a condição); Rogar Maldição (padrão, 10 PM; a matriarca amaldiçoa uma criatura em alcance curto; o alvo fica esmorecido e não pode se comunicar ou lançar magias permanentemente, Fort reduz para 1 rodada); Toque Vampírico (padrão, 13 PM; a matriarca faz um ataque corpo a corpo; se acertar, além do dano normal, causa 14d6 pontos de dano de trevas e recupera pontos de vida iguais à metade desse dano de trevas); Visão da Verdade (padrão, 9 PM; até o fim da cena, a matriarca pode ver através de camuflagem e escuridão, normais e mágicas, e de efeitos de ilusão e transmutação, enxergando a verdade como formas translúcidas ou sobrepostas, e recebe +10 em testes de Intuição e Percepção)."
+    },
+    { "nome": "Veneno", "salvaguarda": "Fortitude", "cd": 43, "efeito_sucesso": "reduz para lento por 3 rodadas", "descricao": "Beladona: paralisado por 3 rodadas (Fort CD 43 reduz para lento por 3 rodadas)." }
+  ],
+  "equipamento": ["Espada curta certeira"],
+  "tesouro": "Padrão mais 1d4 doses de beladona.",
+  "description": "Uma das lendárias matriarcas originais das górgonas, sumo-sacerdotisas enganadas por Sszzaas e transformadas em monstros, que supostamente ainda vivem e caçam sszzaazitas por vingança.",
+  "livro": "ameacas_de_arton"
+}

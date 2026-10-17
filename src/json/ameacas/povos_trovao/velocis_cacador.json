@@ -1,0 +1,53 @@
+{
+  "id": "velocis_cacador",
+  "name": "Velocis Caçador",
+  "nd": 4,
+  "tipo": "Humanoide",
+  "subtipo": "velocis",
+  "tamanho": "medio",
+  "grupo": "povos_trovao",
+  "pv": 25,
+  "pm": null,
+  "defesa": 21,
+  "salvaguardas": { "fort": 6, "ref": 15, "von": 9 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "corte": 2, "perfuração": 2 },
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 8,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 1, "des": 3, "con": 1, "int": -1, "sab": 2, "car": 0 },
+  "pericias": { "atletismo": 7, "furtividade": 6, "sobrevivencia": 8 },
+  "ataques": [
+    {
+      "nome": "Lança",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 9, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Azagaia (à distância)",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 11, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque em Movimento", "descricao": "O velocis caçador pode se mover antes e depois de executar a ação agredir, desde que a distância total percorrida não seja maior que seu deslocamento." },
+    { "nome": "Esquiva de Projéteis", "descricao": "O velocis caçador recebe +2 na Defesa contra ataques à distância (Defesa 23 contra esses ataques)." },
+    { "nome": "Covardia Defensiva", "acao": "reacao", "descricao": "Uma vez por rodada, quando sofre dano de um ataque corpo a corpo, o velocis se move até metade de seu deslocamento em direção contrária ao atacante e recebe +2 na Defesa por 1 rodada." },
+    { "nome": "Estilo de Arremesso", "descricao": "O velocis saca armas de arremesso como uma ação livre." },
+    { "nome": "Velocista da Planície", "descricao": "Quando faz testes de Atletismo para correr ou saltar, o velocis rola dois dados e usa o melhor resultado." },
+    { "nome": "Veneno", "descricao": "Peçonha concentrada (perde 1d12 pontos de vida durante 3 rodadas, Fortitude CD 18 reduz a duração para 1 rodada)." }
+  ],
+  "equipamento": ["Azagaia x3", "Escudo de couro", "Lança", "Peçonha concentrada x4"],
+  "tesouro": "Metade.",
+  "description": "Thera parecido com um antílope, verdadeira máquina de correr e saltar, orgulhosamente covarde mas mestre em sobrevivência, usando armas de arremesso envenenadas e fuga rápida para derrotar presas sem assumir riscos desnecessários.",
+  "livro": "ameacas_de_arton"
+}

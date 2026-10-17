@@ -1,0 +1,17 @@
+{
+  "id": "ceratops",
+  "name": "Ceratops",
+  "description": "Thera (povo-trovão) alto e forte como um ogro, descendente de enormes quadrúpedes com cabeças blindadas repletas de chifres. Guerreiros truculentos, orgulhosos e agressivos, caçadores-coletores cuja sociedade se divide entre chefes (que lideram, lutam e caçam) e família (que coletam, fabricam e consertam). Nascem quadrúpedes e atarracados, começando a caminhar nas pernas traseiras aos 10 anos e atingindo a maturidade perto dos 14 anos.",
+  "size": "grande",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "constituicao": 2, "forca": 1, "destreza": -1, "inteligencia": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["chifres_de_ceratops", "papel_tribal", "paquidermico", "medo_de_altura_ceratops"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devocao": ["allihanna", "arsenal", "azgher", "lena", "megalokk"],
+  "livro": "ameacas_de_arton"
+}

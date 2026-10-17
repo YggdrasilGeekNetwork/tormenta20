@@ -1,0 +1,17 @@
+{
+  "id": "meio_orc",
+  "name": "Meio-Orc",
+  "description": "Meios-orcs não unem necessariamente o melhor das duas raças: são mais inteligentes e determinados que orcs, mas não tanto quanto humanos; mais fortes que humanos, mas não tanto quanto orcs. Sua aparência causa repulsa entre humanos e orcs, e sua própria existência é muitas vezes rejeitada — a maioria das duas raças não acredita que seus membros possam conviver em paz. No Reinado, isolam-se nos ermos ou vivem em comunidades populosas como 'mais um na multidão'. Muitos se tornam aventureiros: ser dono do próprio destino, viver sem se importar com o que outros pensam, desafiar expectativas — essa pode ser a vida mais sonhada para quem não encontra lugar em nenhum dos dois povos.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": { "forca": 2 },
+  "chosen_attribute_bonus": { "count": 1, "value": 1, "exclude": ["carisma"] },
+  "skill_bonuses": [],
+  "racial_abilities": ["adaptavel", "criatura_das_profundezas", "sangue_orc"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "devocao": null,
+  "livro": "ameacas_de_arton"
+}

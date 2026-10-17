@@ -1,0 +1,44 @@
+{
+  "id": "canceronte_de_guerra",
+  "name": "Canceronte de Guerra",
+  "nd": 16,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "colossal",
+  "grupo": "sob_as_ondas",
+  "pv": 825,
+  "defesa": 53,
+  "salvaguardas": { "fort": 30, "ref": 24, "von": 16 },
+  "reducao_de_dano": 15,
+  "imunidades": ["encantamento"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 11,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 12, "natacao": 18 },
+  "atributos": { "for": 10, "des": 0, "con": 8, "int": -4, "sab": 0, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 4,
+      "bonus": 45,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 25, "tipo": "corte" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Fortificação 25%", "descricao": "Golpes críticos e ataques furtivos contra o canceronte de guerra têm 25% de chance de não causar efeito adicional." },
+    { "nome": "Abordagem", "descricao": "Um personagem pode gastar uma ação de movimento e fazer um teste de Atletismo (CD 30) para escalar o canceronte de guerra. Se falhar por 5 ou mais, cai na frente do monstro e sofre 4d6 pontos de dano da queda. Se passar em três desses testes, chega na escotilha em sua barriga. Abrir a escotilha exige um teste de Ladinagem ou Força (CD 30). Cada canceronte possui uma equipe de cinco sahuagin (ataque +35, 3d6+25 pontos de dano de perfuração, Defesa 28, 60 PV e usa os testes de resistência do canceronte) em seu interior, para impedir que intrusos cheguem à concha de comando. Na concha de comando está o capitão (ataque +36, 3d8+25 pontos de dano de perfuração, Defesa 30, 100 PV e usa os testes de resistência do canceronte). Uma vez que o capitão seja morto, o canceronte para de lutar." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com uma garra (teste +55)." },
+    { "nome": "Atropelamento", "acao": "completa", "salvaguarda": "Reflexos", "cd": 42, "efeito_sucesso": "reduz à metade e evita a condição", "descricao": "O canceronte percorre até o dobro de seu deslocamento. Ele pode passar pelo espaço ocupado de quaisquer inimigos menores que ele, mas não pode passar duas vezes pelo mesmo espaço. Criaturas atropeladas desta forma sofrem 10d10+50 pontos de dano de impacto e ficam caídas (Reflexos CD 42 reduz à metade e evita a condição). Recarga (movimento)." },
+    { "nome": "Autotomia", "acao": "livre", "descricao": "O canceronte pode sacrificar uma de suas garras para se livrar de um perigo maior. Quando faz isso, ele automaticamente passa em um teste para evitar uma condição de movimento (como um teste de ataque para se libertar de um agarramento), mas perde um de seus ataques de garra. Uma garra sacrificada desta forma se regenera em um mês." },
+    { "nome": "Guilhotinar", "acao": "padrao", "descricao": "Se o canceronte começar seu turno agarrando uma criatura menor que ele, poderá fazer um teste de agarrar contra ela. Se vencer, a criatura sofre 8d10+50 pontos de dano de impacto e fica debilitada (ou inconsciente, se já estiver debilitada)." },
+    { "nome": "Máquina de Cerco", "descricao": "O canceronte recebe +2 em testes de ataque para quebrar (teste total +57) e seus ataques ignoram redução de dano de objetos." }
+  ],
+  "tesouro": "Metade mais 2d4 postas de canceronte (CD 31 para extrair; cada posta vale T$ 12 para preparar um banquete de canceronte).",
+  "description": "Canceronte cultivado ao longo de anos por druidas de povos marinhos, crescendo até dimensões gigantescas e recebendo variados implementos de combate. Ao final do processo, a criatura não é mais um animal natural, mas uma máquina de batalha, incluindo câmaras seladas para uma tripulação de tritões ou elfos-do-mar. Usado para atacar fortificações em terra firme, mas alguns protegem cidadelas de povos submarinos.",
+  "livro": "ameacas_de_arton"
+}

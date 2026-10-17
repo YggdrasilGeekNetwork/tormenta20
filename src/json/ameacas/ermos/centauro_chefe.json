@@ -1,0 +1,51 @@
+{
+  "id": "centauro_chefe",
+  "name": "Centauro Chefe",
+  "nd": 8,
+  "tipo": "Humanoide",
+  "subtipo": "centauro",
+  "tamanho": "grande",
+  "grupo": "ermos",
+  "pv": 320,
+  "pm": null,
+  "defesa": 33,
+  "salvaguardas": { "fort": 21, "ref": 15, "von": 8 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "efeitos_mentais": 5, "medo": 5, "veneno": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 10,
+  "visao": [],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 5, "des": 2, "con": 4, "int": -1, "sab": 2, "car": 1 },
+  "pericias": { "atletismo": 13, "intimidacao": 9 },
+  "ataques": [
+    {
+      "nome": "Machado de guerra",
+      "quantidade": 2,
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 18, "tipo": "corte" }
+      ],
+      "critico": "20/x4"
+    },
+    {
+      "nome": "Cascos",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 18, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Coice Oportuno", "acao": "reação", "descricao": "Uma vez por rodada, quando uma criatura erra um ataque corpo a corpo contra o centauro chefe por 5 ou mais, ele faz um ataque de cascos contra essa criatura." },
+    { "nome": "Investida Galopante", "acao": "completa", "descricao": "O centauro faz uma investida, podendo passar pelo espaço ocupado por criaturas menores e continuar se movendo depois do ataque; se acertar, causa +4d8 de dano. Criaturas no caminho percorrido sofrem 1d8+9 de dano de impacto e ficam caídas (Reflexos CD 26 evita)." },
+    { "nome": "Medo de Altura", "descricao": "Se estiver adjacente a uma queda de 3m ou mais de altura, o centauro fica abalado." }
+  ],
+  "equipamento": ["Machado de guerra aumentado maciço", "Gibão de peles"],
+  "tesouro": "Padrão.",
+  "description": "Líder de uma comunidade de centauros, escolhido entre os mais fortes e ágeis em um torneio tradicional. Muito maior e mais massivo que os demais, de crina farta e revolta como uma juba, carrega um machado imenso que nenhum humano seria capaz de empunhar. Costuma liderar expedições de caça e está sempre presente em negociações com estrangeiros — embora o xamã dialogue, o chefe garante que problemas que terminem em combate sejam resolvidos. Em combate, investe contra os inimigos e luta corpo a corpo, servindo de alvo enquanto caçadores flanqueiam com lanças ou flechas.",
+  "livro": "ameacas_de_arton"
+}

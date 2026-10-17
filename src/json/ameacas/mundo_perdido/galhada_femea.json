@@ -1,0 +1,48 @@
+{
+  "id": "galhada_femea",
+  "name": "Galhada Fêmea",
+  "nd": 2,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "mundo_perdido",
+  "pv": 17,
+  "pm": null,
+  "defesa": 19,
+  "salvaguardas": { "fort": 4, "ref": 11, "von": 7 },
+  "reducao_de_dano": 2,
+  "imunidades": [],
+  "resistencias": {},
+  "resistencia_a_magia": 2,
+  "vulnerabilidades": ["fogo"],
+  "iniciativa": 4,
+  "percepcao": 7,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 2, "des": 3, "con": 1, "int": -4, "sab": 1, "car": 0 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Cascos",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 10, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Natureza Vegetal", "descricao": "O galhada é uma criatura de natureza vegetal." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d4 doses de seiva-galhada (CD 17 para extrair, cada dose conta como um bálsamo restaurador). Como alternativa, se a galhada tiver uma atitude indiferente ou melhor, um personagem pode usar uma ação completa para fazer um teste de Adestramento (CD 16) com ela; se passar, consegue extrair a seiva de forma amistosa. A galhada produz seiva apenas uma vez por dia.",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "iniciante": "Seu deslocamento muda para 12m e você pode gastar uma ação padrão e 1 PM para curar 1d8+1 PV.",
+    "veterano": "Você também pode gastar uma ação padrão e 3 PM para curar 3d8+3 PV ou remover uma condição de doença, fadiga, paralisia ou veneno que o esteja afetando.",
+    "mestre": "Você recebe uma ação de movimento extra por turno (apenas para se deslocar) e pode também gastar uma ação padrão e 5 PM para curar 6d8+6 PV."
+  },
+  "description": "Galhada sem chifres, que produz, em vez de leite, uma seiva adocicada com gosto de mel, propriedades curativas e altíssimo preço em Vectora e outras metrópoles — tornando-a alvo favorito de caçadores.",
+  "livro": "ameacas_de_arton"
+}

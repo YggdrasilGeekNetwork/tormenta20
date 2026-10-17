@@ -1,0 +1,57 @@
+{
+  "id": "kishinauros",
+  "name": "Kishinauros",
+  "nd": 21,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "colossal",
+  "grupo": "igreja_de_arsenal",
+  "pv": 2450,
+  "pm": null,
+  "defesa": 61,
+  "salvaguardas": { "fort": 36, "ref": 22, "von": 30 },
+  "reducao_de_dano": 30,
+  "imunidades": ["efeitos de movimento", "medo"],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": [],
+  "iniciativa": 25,
+  "percepcao": 15,
+  "visao": ["percepção às cegas (longo)"],
+  "deslocamento": { "terrestre": 15, "voo": 12 },
+  "atributos": { "for": 16, "des": 8, "con": 12, "int": null, "sab": 5, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Armamento adaptativo",
+      "quantidade": 3,
+      "bonus": 59,
+      "dano": [
+        { "dados": [], "bonus": 0, "tipo": "variável (veja Armamento Adaptativo)" }
+      ],
+      "critico": "variável"
+    },
+    {
+      "nome": "Balística Avançada (à distância)",
+      "bonus": 59,
+      "dano": [
+        { "dados": [], "bonus": 0, "tipo": "variável (veja Balística Avançada)" }
+      ],
+      "critico": "variável"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Armamento Adaptativo", "descricao": "A cada rodada, o Kishinauros escolhe uma das seguintes armas mágicas para seus ataques corpo a corpo. Quando usa a ação agredir, pode aumentar sua sobrecarga em 1 para energizar a arma por um turno. Malho Relampejante (martelo de guerra, 6d6+44, x3 — se energizado, criaturas atingidas ficam atordoadas por 1 rodada, Fortitude CD 51 evita; só pode ser atordoada uma vez por cena). Perfuratriz Sibilante (alabarda, 4d10+42, x4 — se energizado, seus ataques ignoram redução de dano e imunidade a acertos críticos). Vingadora e Impérvio (espada bastarda e escudo pesado, 6d8+38, 19 — o Kishinauros recebe +2 na Defesa; se energizado, uma vez na rodada, quando é alvo de uma magia, pode refleti-la de volta ao conjurador, mantendo as características da magia mas tornando o conjurador seu novo alvo)." },
+    { "nome": "Balística Avançada", "descricao": "A cada rodada, o Kishinauros escolhe uma das seguintes armas para seus ataques à distância. Balista Explosiva (besta pesada, 4d12+17, 19 — criaturas na área atingida pelo virote sofrem 12d6 pontos de dano de fogo, Reflexos CD 51 reduz à metade; recarga movimento). Canhão Final (mosquete, 4d12+38 de essência, 19/x4 — em um resultado 1 no teste de ataque, a sobrecarga aumenta em 1 e o Canhão Final explode: criaturas em alcance curto, incluindo o Kishinauros, sofrem 16d12+60 pontos de dano, metade fogo e metade essência, e ficam em chamas, Reflexos CD 51 reduz à metade; recarga padrão). Morteiro Elemental x4 (6d6, x2, alcance longo — cada ataque causa dano de um tipo diferente entre ácido, eletricidade, fogo e frio; recarga movimento, apenas com sobrecarga 0)." },
+    { "nome": "Células de Resfriamento", "acao": "movimento", "descricao": "O Kishinauros expele calor acumulado na forma de gás venenoso. Sua sobrecarga é reduzida a 0, e criaturas em alcance curto ficam enjoadas e perdem 10 PV por ponto de sobrecarga expelido (Fortitude CD 51 reduz a perda à metade e evita a condição). Veneno." },
+    { "nome": "Disparo Automático", "acao": "livre", "descricao": "Uma vez por rodada, o Kishinauros faz um ataque à distância." },
+    { "nome": "Protocolos de Emergência", "acao": "reacao", "descricao": "O Kishinauros aumenta sua sobrecarga em 1 e lança uma das magias a seguir, em reação a uma condição específica, como um clérigo de Arsenal de 20º nível (CD 51, limite de PM 20) sem pagar PM. Deflagração de Mana: quando reduzido a 200 PV ou menos, todas as outras criaturas numa esfera de 15m ao redor dele sofrem 200 pontos de dano de essência e todos os itens mágicos (exceto artefatos) tornam-se mundanos permanentemente (Fortitude reduz à metade; itens recuperam sua magia após 1 dia). Fúria do Panteão: quando reduzido a 700 PV ou menos, cria uma nuvem de tempestade num cubo de 90m em alcance longo até o fim da cena — os ventos tornam ataques à distância impossíveis e a área conta como condição terrível para lançar magia, inimigos na área têm visibilidade reduzida (como a magia Névoa); uma vez por turno, até 6 inimigos sofrem 10d8 pontos de dano de eletricidade (Reflexos reduz à metade). Soco de Arsenal: quando desarmado, causa 12d6+16 pontos de dano de impacto em uma criatura em alcance médio e a empurra até 3m na direção oposta (Fortitude reduz à metade e evita o empurrão). Terremoto: uma vez por rodada, quando erra um ataque corpo a corpo, tremores rasgam o solo em alcance médio — cada criatura na área fica atordoada (apenas uma vez por cena) e precisa rolar um dado; com resultado ímpar, uma fenda se abre, a criatura cai dentro (Reflexos evita) e é considerada agarrada, podendo se soltar gastando uma ação completa e passando em um teste de Atletismo (CD 51); no início de cada turno da criatura agarrada, ela sofre 8d8 pontos de dano de impacto." },
+    { "nome": "Titânico", "descricao": "O Kishinauros é imune a manobras de combate, não pode ser flanqueado e sofre metade do dano de ataques que não sejam de outra criatura Titânica. Quando se move, pisoteia qualquer criatura ou objeto Enorme ou menor em seu caminho (atravessando seu espaço), causando 20d6 pontos de dano de impacto (uma vez por rodada por criatura, Reflexos CD 51 reduz à metade). Além disso, seus ataques ignoram redução de dano e atingem todas as criaturas em um quadrado de 6m (para cada ataque, ele faz um único teste de ataque e compara o resultado com a Defesa de cada inimigo na área)." },
+    { "nome": "Sobrecarga", "descricao": "A sobrecarga do Kishinauros fortalece seus mecanismos. Para cada ponto de sobrecarga, recebe +5 em testes de perícia e rolagens de dano, mas sofre 5 pontos de dano de fogo (sua RD se aplica) no início de cada um de seus turnos." },
+    { "nome": "Zona de Perigo", "acao": "movimento", "descricao": "O Kishinauros aumenta sua sobrecarga em 1." }
+  ],
+  "equipamento": [],
+  "tesouro": "Núcleo místico. Alimentado por incontáveis itens mágicos, o núcleo do Kishinauros pode ser usado para encantar outras armas. O núcleo tem três cargas, cada uma pode conceder um encanto a uma arma, que não conta no limite de encantos. Cada item só pode receber um encanto desta forma, e deve cumprir seus requisitos.",
+  "description": "ND originalmente \"S\" no livro (sem valor numérico de ND, armazenado aqui como 21 por convenção de implementação). O maior engenho de guerra já visto, trazido por Arsenal de seu mundo natal quando este chegou a Arton ainda como um cavaleiro de máquina mortal. Esteve sob reparos por décadas até ser restaurado e marchar sobre o Reinado, sendo detido pelas forças combinadas de heróis e regentes. Hoje, como deus, Arsenal faz o colosso erguer-se outra vez, restaurado, para cumprir grandes tarefas e acudir devotos de prestígio em vez de desperdiçar as próprias forças divinas. Fica em seu lugar de descanso nas Sanguinárias e surge por magia em outros pontos de Arton quando convocado.",
+  "livro": "ameacas_de_arton"
+}

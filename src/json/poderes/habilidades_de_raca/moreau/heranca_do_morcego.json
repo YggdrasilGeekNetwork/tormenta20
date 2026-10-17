@@ -1,0 +1,14 @@
+{
+  "id": "heranca_do_morcego",
+  "name": "Herança do Morcego",
+  "type": "habilidade_de_raca",
+  "race": "moreau",
+  "description": "Destreza +1, +1 em dois atributos a sua escolha. Asas: você pode pairar a 1,5m do chão com deslocamento 9m; isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Se não estiver usando armadura pesada, você pode gastar 1 PM por rodada para voar com deslocamento de 12m. Você precisa de espaço para abrir suas asas; quando paira ou voa, ocupa o espaço de uma criatura de uma categoria de tamanho maior que a sua. Criatura da Noite: você recebe visão no escuro e +2 em Furtividade e Percepção. Ecolocalização: você pode gastar 1 PM para receber percepção às cegas em alcance médio por 1 rodada.",
+  "effects": {
+    "attribute_bonus": { "destreza": 1, "chosen": { "count": 2, "value": 1 } },
+    "asas": { "hover": { "height": "1,5m", "movement": 9, "ignores_difficult_terrain": true, "fall_damage_immunity": true }, "flight": { "movement": 12, "cost_pm_per_round": 1, "requires": "sem armadura pesada" } },
+    "criatura_da_noite": { "vision": "visao_no_escuro", "skill_improvement": [{ "skill": "furtividade", "value": 2 }, { "skill": "percepcao", "value": 2 }] },
+    "ecolocalizacao": { "cost_pm": 1, "blindsight_range": "medio", "duration": "1 rodada" }
+  },
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "baleote",
+  "name": "Baleote",
+  "nd": 1,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 110,
+  "pm": null,
+  "defesa": 21,
+  "salvaguardas": { "fort": 13, "ref": 9, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": ["eletricidade"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 7,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 9, "voo": 15 },
+  "atributos": { "for": 3, "des": 0, "con": 3, "int": -4, "sab": 1, "car": 1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Cauda",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 12, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Descarga Elétrica", "acao": "padrão", "descricao": "O baleote projeta um raio elétrico que atinge uma linha de 9m. Criaturas nessa área sofrem 3d6 pontos de dano de eletricidade (Reflexos CD 17 reduz à metade). Recarga (ação de movimento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "restricao": null,
+    "iniciante": "Você pode gastar 1 PM para causar 2d6 pontos de dano de eletricidade em uma linha de 9m (um baleote iniciante é muito jovem para ser usado como montaria).",
+    "veterano": "Pode ser usado como montaria, mudando seu deslocamento para 9m (voo 12m).",
+    "mestre": "Seu deslocamento de voo muda para 15m e você também pode gastar 4 PM para causar 6d6 pontos de dano de eletricidade em uma linha de 9m."
+  },
+  "description": "Grande animal com aspecto de golfinho ou baleia, mas que 'nada' nas alturas como que por mágica, com couro branco-azulado e grandes barbatanas peitorais que lembram asas. Originário de outro Plano com o qual Vectora fez contato, foi adotado como montaria voadora pela Guarda de Vectora (a Patrulha Celeste) e domesticado para fins comerciais; alguns escaparam e procriam livremente pelo continente, mas o lugar mais fácil de adquirir um ainda é o Mercado nas Nuvens. Vivem em manadas lideradas por uma fêmea dominante; 'pastam' nas nuvens, absorvendo água e nutrição delas por meios ainda misteriosos. Contra predadores, usam uma descarga elétrica emitida pelo focinho.",
+  "livro": "ameacas_de_arton"
+}

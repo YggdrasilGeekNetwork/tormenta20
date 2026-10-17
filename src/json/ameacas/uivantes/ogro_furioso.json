@@ -1,0 +1,41 @@
+{
+  "id": "ogro_furioso",
+  "name": "Ogro Furioso",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "gigante",
+  "tamanho": "grande",
+  "grupo": "uivantes",
+  "pv": 222,
+  "defesa": 24,
+  "salvaguardas": { "fort": 17, "ref": 11, "von": 0 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "frio": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 2,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": 1, "con": 3, "int": -1, "sab": 0, "car": -2 },
+  "pericias": { "atletismo": 11, "intimidacao": 11, "intuicao": -3 },
+  "ataques": [
+    {
+      "nome": "Tacape",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 12 }], "bonus": 14, "tipo": "impacto" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Burro Demais...", "descricao": "O ogro furioso sofre -5 em testes de Intuição e Vontade (já contabilizado)." },
+    { "nome": "...Para Morrer!", "descricao": "Todo o dano de corte, impacto e perfuração que o ogro sofre é reduzido à metade." },
+    { "nome": "Fúria Imparável", "descricao": "O ogro não fica inconsciente quando é reduzido a 0 PV ou menos e só morre quando é reduzido a -111 PV." },
+    { "nome": "Raiva Inflamável", "descricao": "Cada vez que acerta um ataque ou é atingido por um ataque, o ogro recebe um bônus cumulativo de +1 em testes de ataque e rolagens de dano até o fim da cena." }
+  ],
+  "equipamento": ["Gibão de peles", "Tacape aumentado"],
+  "tesouro": "Metade.",
+  "description": "Ogro da maior tribo de ogros nas Uivantes, os Furiosos, que esmagam suas vítimas com cruéis golpes de tacape e usam seus crânios como ornamentos em colares. Além da tolerância ao frio, sua maior diferença em relação aos ogros comuns é a fúria selvagem e incontrolável que lhes dá o nome.",
+  "livro": "ameacas_de_arton"
+}

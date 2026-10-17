@@ -1,0 +1,42 @@
+{
+  "id": "acolito_de_kally",
+  "name": "Acólito de Kally",
+  "nd": 3,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "igreja_de_kallyadranoch",
+  "pv": 60,
+  "pm": 29,
+  "defesa": 19,
+  "salvaguardas": { "fort": 10, "ref": 3, "von": 14 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 7,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 1, "con": 2, "int": 1, "sab": 4, "car": 4 },
+  "pericias": { "intimidacao": 9, "misticismo": 4, "religiao": 9 },
+  "ataques": [
+    {
+      "nome": "Maça",
+      "bonus": 13,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 13, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura de Medo", "acao": "livre", "custo_pm": 2, "descricao": "O acólito de Kally gera uma aura de medo de 9m de raio que dura até o fim da cena. Todos os inimigos que entrem na aura ficam abalados até o fim da cena (Vontade CD 19 evita e a criatura fica imune a esta habilidade por um dia)." },
+    { "nome": "Servos do Dragão", "acao": "completa", "custo_pm": 2, "descricao": "O acólito invoca 2d4+1 kobolds em espaços desocupados em alcance curto. Eles agem a partir da próxima rodada do acólito, têm deslocamento 9m e podem gastar uma ação padrão para causar 1d6-1 pontos de dano de corte em uma criatura adjacente. Os kobolds têm Força –1, Destreza 4, Defesa 12 e 1 PV, falham automaticamente em qualquer teste oposto ou de resistência e desaparecem quando mortos ou ao fim da cena." },
+    { "nome": "Magias", "descricao": "Lança magias como clérigo de Kallyadranoch de 5º nível (CD 19): Comando (padrão, 2 PM), Controlar Fogo (padrão, 3 PM), Escudo da Fé (reação, 1 PM), Perdição (padrão, 3 PM)." }
+  ],
+  "equipamento": ["Gibão de peles", "Maça", "Símbolo sagrado de Kallyadranoch"],
+  "tesouro": "Padrão.",
+  "description": "Devoto iniciante de Kallyadranoch que serve clérigos e cavaleiros mais experientes, invocando kobolds como servos e espalhando medo em nome do Deus dos Dragões.",
+  "livro": "ameacas_de_arton"
+}

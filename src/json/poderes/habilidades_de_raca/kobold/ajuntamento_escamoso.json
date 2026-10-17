@@ -1,0 +1,13 @@
+{
+  "id": "ajuntamento_escamoso",
+  "name": "Ajuntamento Escamoso",
+  "type": "habilidade_de_raca",
+  "race": "kobold",
+  "description": "Embora sejam um grupo de kobolds, para todos os efeitos vocês são uma única criatura Média com dois braços. Entretanto, contam como Pequenos para efeitos dos espaços por onde podem passar e, quando fazem um teste de resistência contra um efeito que afeta apenas uma criatura e não causa dano, rolam dois dados e usam o melhor resultado. Por fim, têm vulnerabilidade a dano de área.",
+  "effects": {
+    "size_for_space": "pequeno",
+    "advantage_on_save": { "condition": "efeito single-target sem dano" },
+    "vulnerability": "dano_de_area"
+  },
+  "livro": "ameacas_de_arton"
+}

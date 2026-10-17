@@ -1,0 +1,14 @@
+{
+  "id": "heranca_do_lobo",
+  "name": "Herança do Lobo",
+  "type": "habilidade_de_raca",
+  "race": "moreau",
+  "description": "Carisma +1, +1 em dois atributos a sua escolha. Faro: você tem olfato apurado — contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha. Mordida: você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração); uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Táticas de Matilha: você recebe +2 nas rolagens de dano e na margem de ameaça em ataques contra oponentes que esteja flanqueando.",
+  "effects": {
+    "attribute_bonus": { "carisma": 1, "chosen": { "count": 2, "value": 1 } },
+    "faro": { "keen_smell": true, "vs_unseen_short_range": { "no_flat_footed": true, "total_concealment_miss_chance": 20 } },
+    "mordida": { "natural_weapon": { "name": "mordida", "damage": "1d6", "critical": "x2", "damage_type": "perfuracao" }, "extra_attack_cost": { "pm": 1 } },
+    "taticas_de_matilha": { "damage_bonus_vs_flanked": 2, "threat_range_bonus_vs_flanked": 2 }
+  },
+  "livro": "ameacas_de_arton"
+}

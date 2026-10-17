@@ -1,0 +1,40 @@
+{
+  "id": "bugbear_sentinela",
+  "name": "Bugbear Sentinela",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "bugbear",
+  "tamanho": "medio",
+  "grupo": "duyshidakk",
+  "pv": 18,
+  "pm": null,
+  "defesa": 17,
+  "salvaguardas": { "fort": 8, "ref": 10, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "medo": 2 },
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 5,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": 3, "con": 2, "int": -1, "sab": 0, "car": -2 },
+  "pericias": { "atletismo": 8, "furtividade": 6, "intimidacao": 8 },
+  "ataques": [
+    {
+      "nome": "Machado de guerra",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 10, "tipo": "corte" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Êxtase no Medo", "descricao": "O bugbear sentinela sofre metade do dano de criaturas sob algum efeito de medo." }
+  ],
+  "equipamento": ["Apito", "Gibão de peles", "Machado de guerra aumentado"],
+  "tesouro": "Metade.",
+  "description": "Entre as forças duyshidakk, bugbears são carrascos e guarda-costas eficazes. Seus corpos imensos parecem desajeitados, mal sustentados por pernas desproporcionalmente curtas — imagem enganosa, pois são mais rápidos e ágeis que um humano médio, com argúcia superior à humana escondida sob a expressão bestial.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "oleo_de_baleia",
+  "name": "Óleo de Baleia",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 30,
+  "espacos": 0.5,
+  "uso": "aplicado",
+  "acoes": { "aplicar": "padrao" },
+  "efeito": {
+    "aplica_a": "arma ou pacote de munições",
+    "beneficio": "ignora penalidades de combate submerso com esse item",
+    "duracao": "fim da cena"
+  },
+  "description": "Este antigo preparado é um destilado de gordura de baleia. Você pode usar uma ação padrão para aplicar o óleo em uma arma ou pacote de munições para ignorar penalidades de combate submerso com esse item até o fim da cena.",
+  "livro": "ameacas_de_arton"
+}

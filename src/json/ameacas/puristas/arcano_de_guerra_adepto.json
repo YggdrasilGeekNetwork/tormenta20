@@ -1,0 +1,42 @@
+{
+  "id": "arcano_de_guerra_adepto",
+  "name": "Arcano de Guerra Adepto",
+  "nd": 4,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "puristas",
+  "pv": 82,
+  "pm": 36,
+  "defesa": 22,
+  "salvaguardas": { "fort": 6, "ref": 11, "von": 16 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "resistencia_a_magia": 2,
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 5,
+  "visao": [],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 2, "des": 3, "con": 2, "int": 6, "sab": 1, "car": 0 },
+  "pericias": { "conhecimento": 12, "guerra": 14, "misticismo": 12 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 13,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 2, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Conjurador Magibélico", "descricao": "O arcano de guerra adepto pode lançar magias vestindo armaduras pesadas sem precisar de testes de Misticismo. Além disso, sempre que faz um teste de Misticismo, ele pode rolar dois dados e escolher o melhor resultado." },
+    { "nome": "Magias", "descricao": "Lança magias como mago de 5º nível (CD 20, limite de PM 11): Explosão de Chamas (padrão, 3 PM, 4d6 de fogo em cone de 6m), Névoa (padrão, 11 PM, nuvem em cubo de 6m com dano de ácido), Salto Dimensional (reação, 5 PM, +5 na Defesa e Reflexos contra um ataque, depois salta para espaço adjacente), Sopro das Uivantes (padrão, 6 PM, 8d6 de frio em cone de 9m, empurra e derruba), Toque Chocante (padrão, 3 PM, 4d8+4 de eletricidade)." }
+  ],
+  "equipamento": ["Adaga", "Armadura completa", "Tomo de guerra"],
+  "tesouro": "Padrão.",
+  "description": "Mago de guerra da Ordem Magibélica, elite dos conjuradores da Supremacia Purista, treinado para lançar magias ofensivas usando armadura pesada enquanto o aço o protege.",
+  "livro": "ameacas_de_arton"
+}

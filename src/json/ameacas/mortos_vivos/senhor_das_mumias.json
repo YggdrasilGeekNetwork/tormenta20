@@ -1,0 +1,51 @@
+{
+  "id": "senhor_das_mumias",
+  "name": "Senhor das Múmias",
+  "nd": 15,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "mortos_vivos",
+  "pv": 532,
+  "pm": 95,
+  "defesa": 48,
+  "salvaguardas": { "fort": 22, "ref": 15, "von": 28 },
+  "reducao_de_dano": 10,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": ["fogo"],
+  "iniciativa": 14,
+  "percepcao": 20,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 4, "des": 2, "con": 3, "int": 2, "sab": 5, "car": 7 },
+  "pericias": { "diplomacia": 22, "enganacao": 20, "furtividade": 15, "intuicao": 18 },
+  "ataques": [
+    {
+      "nome": "Ankh solar",
+      "bonus": 41,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 25, "tipo": "impacto" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Pancada",
+      "bonus": 41,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 10 }], "bonus": 25, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Desespero Superior", "descricao": "Uma criatura que comece seu turno vendo uma múmia fica apavorada (Vontade CD 42 evita e a criatura não pode mais ser apavorada por esta habilidade até o fim da cena)." },
+    { "nome": "Doença", "descricao": "Uma criatura atingida por uma pancada do senhor das múmias é exposta à doença podridão da múmia. A força da maldição do senhor das múmias faz com que a CD para resistir a essa doença seja 42." },
+    { "nome": "Maldição da Múmia", "descricao": "Uma criatura que falhe em um teste de resistência contra uma magia do senhor das múmias não pode recuperar pontos de vida por 1 rodada." },
+    { "nome": "Magias", "descricao": "Lança magias como clérigo de 15º nível (CD 42): Disfarce Ilusório (padrão, 3 PM, muda a própria aparência até o fim da cena, +20 em Enganação para disfarce), Enxame de Pestes (completa, 15 PM, sustentada, dois enxames de gafanhotos de fogo, 5d12 de fogo por turno cada), Infligir Ferimentos (padrão, 10 PM, ataque corpo a corpo que causa +5d8+5 de trevas e deixa fraco), Perdição (padrão, 7 PM, –4 em testes de ataque e rolagens de dano), Poeira da Podridão (padrão, 14 PM, nuvem de 6m de raio, 6d8+24 de trevas por rodada e impede cura)." }
+  ],
+  "equipamento": ["Ankh solar harmonizado", "Símbolo sagrado", "Traje de seda banhado a ouro"],
+  "tesouro": "Padrão.",
+  "description": "Indivíduo poderoso — arcanista ou clérigo de renome — embalsamado e erguido como algo ainda mais perigoso que uma múmia comum, preservando inteligência e capacidades de conjuração. Encontrado em grandes templos, complexos funerários, necrópoles ocultas e entre a nobreza de Aslothia, protegendo sarcófagos, tronos e tesouros, ou cumprindo punições divinas por crimes cometidos em vida.",
+  "livro": "ameacas_de_arton"
+}

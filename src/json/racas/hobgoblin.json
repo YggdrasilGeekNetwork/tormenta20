@@ -1,0 +1,16 @@
+{
+  "id": "hobgoblin",
+  "name": "Hobgoblin",
+  "description": "Entre os duyshidakk, hobgoblins são os mais disciplinados: enquanto goblins são caóticos e engenhosos, e bugbears são assassinos brutais, hobgoblins se organizam em tropas eficientes, obedecendo hierarquias e ordens de seus comandantes. Com sua alta inteligência e perícia em forjar armas de alta qualidade, produzem variedade de mosquetes, rifles e armas de cano longo, e são os mais militaristas entre os povos goblinoides devotados a Thwor.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": { "constituicao": 2, "destreza": 1, "carisma": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["arte_da_guerra", "metalurgia_hobgoblin", "taticas_de_guerrilha"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "devocao": ["arsenal", "megalokk", "tenebra"],
+  "livro": "ameacas_de_arton"
+}

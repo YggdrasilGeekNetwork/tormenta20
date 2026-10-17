@@ -1,0 +1,41 @@
+{
+  "id": "slark",
+  "name": "Slark",
+  "nd": 1,
+  "tipo": "Humanoide",
+  "subtipo": "slark",
+  "tamanho": "medio",
+  "grupo": "masmorras",
+  "pv": 15,
+  "pm": null,
+  "defesa": 12,
+  "salvaguardas": { "fort": 8, "ref": 1, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "ácido": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 4,
+  "visao": ["sensibilidade a luz", "visão no escuro"],
+  "deslocamento": { "terrestre": 6, "escalada": 6 },
+  "atributos": { "for": -1, "des": 3, "con": 2, "int": -1, "sab": 1, "car": -2 },
+  "pericias": { "furtividade": 8 },
+  "ataques": [
+    {
+      "nome": "Garras",
+      "bonus": 10,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 9, "tipo": "corte" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Queda Livre", "acao": "completa", "descricao": "Se estiver em terreno elevado, o slark cai sobre uma criatura e faz um ataque de garras. Ele recebe o bônus por terreno elevado (+2 no teste de ataque) e, se a criatura estiver surpreendida, causa +2d6 pontos de dano." },
+    { "nome": "Saliva", "acao": "padrão", "descricao": "O slark cospe em uma criatura em alcance curto. A criatura fica cega por 1 rodada e qualquer fonte de iluminação mundana que esteja empunhando se apaga (Reflexos CD 14 evita ambos os efeitos)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Humanoide truculento de faces horrendas de lagarto e três dedos em cada mão, terror das masmorras que teme o sol e nunca é visto à luz do dia. Ronda em bandos de dez a trinta indivíduos, confiando na escuridão, vantagem numérica e emboscadas pela habilidade de escalada para subjugar presas, escondendo-se no teto de túneis para despejar saliva cegante antes de se deixar cair para lutar.",
+  "livro": "ameacas_de_arton"
+}

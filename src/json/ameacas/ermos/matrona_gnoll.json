@@ -1,0 +1,52 @@
+{
+  "id": "matrona_gnoll",
+  "name": "Matrona Gnoll",
+  "nd": 11,
+  "tipo": "Humanoide",
+  "subtipo": "gnoll",
+  "tamanho": "medio",
+  "grupo": "ermos",
+  "pv": 390,
+  "pm": null,
+  "defesa": 39,
+  "salvaguardas": { "fort": 25, "ref": 11, "von": 18 },
+  "reducao_de_dano": 5,
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 11,
+  "percepcao": 15,
+  "visao": ["faro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 4, "des": 1, "con": 5, "int": 0, "sab": 2, "car": 3 },
+  "pericias": { "intimidacao": 19, "sobrevivencia": 13 },
+  "ataques": [
+    {
+      "nome": "Machado de guerra",
+      "quantidade": 2,
+      "bonus": 32,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 26, "tipo": "corte" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 32,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 26, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Latido Enervante", "acao": "movimento", "descricao": "Inimigos em alcance curto perdem a ação de movimento em seu próximo turno (Vontade CD 33 evita). Recarrega ao acertar um ataque de mordida." },
+    { "nome": "Matrona da Alcateia", "descricao": "Gnolls aliados em alcance médio têm imunidade a medo e recebem +2 em testes de perícia e rolagens de dano." },
+    { "nome": "Pega!", "acao": "completa", "descricao": "Gnolls aliados em alcance curto podem fazer um ataque como reação imediata. Recarrega com uma ação de movimento." },
+    { "nome": "Quebra-Pescoço", "acao": "reacao", "descricao": "Se um ataque de mordida exceder a Defesa do alvo por 5 ou mais, a vítima perde 6d6 PV e fica atordoada por 1 rodada (Fortitude CD 33 reduz a perda de PV à metade e evita a condição)." }
+  ],
+  "equipamento": ["Couraça macabra", "Machado de guerra cruel"],
+  "tesouro": "Padrão.",
+  "description": "Matriarca de uma grande alcateia gnoll, respeitada e temida tanto por sua força bruta quanto por sua autoridade sobre os demais membros do bando.",
+  "livro": "ameacas_de_arton"
+}

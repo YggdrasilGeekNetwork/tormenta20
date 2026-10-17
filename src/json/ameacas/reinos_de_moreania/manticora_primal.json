@@ -1,0 +1,51 @@
+{
+  "id": "manticora_primal",
+  "name": "Mantícora Primal",
+  "nd": 14,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "reinos_de_moreania",
+  "pv": 655,
+  "pm": null,
+  "defesa": 44,
+  "salvaguardas": { "fort": 28, "ref": 14, "von": 22 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 16,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 18 },
+  "atributos": { "for": 8, "des": 3, "con": 5, "int": -3, "sab": 3, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 40,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 10 }], "bonus": 25, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 40,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 25, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Crueldade", "descricao": "Se acertar seus dois ataques de garra no mesmo turno, a mantícora primal pode continuar atacando com as garras, com uma penalidade cumulativa de –5 em cada ataque adicional no mesmo turno, até errar um ataque." },
+    { "nome": "Espinhos", "acao": "movimento", "descricao": "A mantícora dispara 2d4 espinhos de sua cauda. Cada espinho atinge uma criatura em alcance médio, causando 2d8+8 pontos de dano de perfuração (Reflexos CD 38 reduz à metade). Recarga (movimento)." },
+    { "nome": "Ressentimento", "acao": "movimento", "descricao": "A mantícora emite um rugido atormentador. Criaturas em alcance curto ficam imóveis por 1 rodada e sofrem 8d8 pontos de dano psíquico (Vontade CD 38 reduz à metade e evita a condição). Uma criatura só pode ser afetada pelo Ressentimento da mesma mantícora uma vez por cena." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão mais espinhos (CD 29 para extrair, valem T$ 300 para fabricar flechas superiores).",
+  "description": "A primeira ninhada de mantícoras, muito maiores e mais poderosas que o restante da espécie — embora nenhuma jamais tenha sido confirmadamente encontrada por aventureiros. Representa o auge da corrupção que Megalokk impôs à criação conjunta com Allihanna.",
+  "livro": "ameacas_de_arton"
+}

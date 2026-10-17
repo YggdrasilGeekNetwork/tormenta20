@@ -1,0 +1,50 @@
+{
+  "id": "soldado_mecanico",
+  "name": "Soldado Mecânico",
+  "nd": 3,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "golens",
+  "pv": 23,
+  "pm": null,
+  "defesa": 20,
+  "salvaguardas": { "fort": 14, "ref": 9, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": ["fogo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 2,
+  "percepcao": 5,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 4, "des": -1, "con": 3, "int": null, "sab": 0, "car": -5 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Lança",
+      "quantidade": 2,
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 8, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Besta pesada (à distância)",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 10, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Sopro", "acao": "padrão", "descricao": "O soldado sopra uma nuvem de vapor escaldante em um cone de 6m. Criaturas na área sofrem 4d6 pontos de dano de fogo (Reflexos CD 17 reduz à metade). Recarga (movimento)." },
+    { "nome": "Movido a Vapor", "descricao": "Se o soldado fosse sofrer dano de fogo, em vez disso seu deslocamento aumenta em 3m por 1 rodada. Se ele sofrer dano de frio, fica lento por 1 rodada." }
+  ],
+  "equipamento": ["Besta pesada", "Lança", "Virotes x20"],
+  "tesouro": "Pilha de sucata (vale T$ 100 para fabricar engenhocas).",
+  "description": "Autômato movido a vapor inventado pelos goblins de Arton. Não contém fagulha elemental e não chega a ser um golem verdadeiro; não tem inteligência, mas consegue seguir ordens simples. Usado como guarda leal e incorruptível, substituindo humanos em propriedades de ricos burgueses em metrópoles como Valkaria.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "gorlogg_ensopado",
+  "name": "Gorlogg Ensopado",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 6,
+  "espacos": 0.5,
+  "efeito": {
+    "condicao": "próxima noite de sono",
+    "beneficio": "aumenta a recuperação de PV e PM em +1 por nível"
+  },
+  "description": "Criado nas cozinhas de Yuvalin por Rizzelena, chef élfica de grande talento, este é um ensopado altamente nutritivo. Em sua próxima noite de sono, você aumenta a sua recuperação de PV e PM em +1 por nível.",
+  "livro": "ameacas_de_arton"
+}

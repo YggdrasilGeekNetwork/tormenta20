@@ -1,0 +1,44 @@
+{
+  "id": "arvore_matilha",
+  "name": "Árvore-Matilha",
+  "nd": 13,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "mundo_perdido",
+  "pv": 700,
+  "pm": null,
+  "defesa": 44,
+  "salvaguardas": { "fort": 26, "ref": 20, "von": 13 },
+  "reducao_de_dano": 10,
+  "imunidades": ["efeitos de sentidos"],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": ["fogo"],
+  "iniciativa": 7,
+  "percepcao": 15,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 9, "des": 1, "con": 3, "int": null, "sab": 0, "car": -2 },
+  "pericias": { "furtividade": 6 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "quantidade": 6,
+      "bonus": 37,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 20, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Natureza Vegetal", "descricao": "A árvore-matilha é uma criatura de natureza vegetal." },
+    { "nome": "Descarregar Raiva", "acao": "reacao", "descricao": "Uma vez por rodada, se os PV da árvore-matilha forem reduzidos abaixo de um valor múltiplo de 100 (600, 500 etc.), ela libera sua raiva atacando tudo ao seu redor. Ela faz um ataque de mordida e compara o resultado com a Defesa de cada criatura ao seu alcance. Mesmo que erre uma criatura, ainda assim ela causa metade do dano a ela." },
+    { "nome": "Uivo Aterrador", "acao": "padrão", "descricao": "Criaturas em alcance médio ficam apavoradas (Vontade CD 35 reduz para abalado e a criatura não pode ser apavorada por esta habilidade nesta cena)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão.",
+  "description": "Imenso e monstruoso tronco retorcido que rasteja sobre patas disformes, exibindo numerosas cabeças sem olhos e com mandíbulas de lobo em vez de galhos. Histórias antigas atribuem este e outros seres-planta (como o galhada e o espada-da-floresta) a um experimento do lendário Galron, druida louco supostamente responsável pelo surgimento de Galrasia. Encontrada protegendo ruínas antigas do povo mítico eiradaan nas partes mais profundas da selva.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,30 @@
+{
+  "id": "armadilhas_vivas",
+  "name": "Armadilhas Vivas",
+  "description": "Variante orgânica e grotesca das armadilhas normais (Tormenta20, p. 317), encontrada em áreas de Tormenta: seres com pouca ou nenhuma mobilidade, lembrando plantas carnívoras ou invertebrados marinhos, que atacam apenas vítimas que se aproximam e, após falhar, só podem tentar novamente após alguns minutos (Ameaças de Arton, Cap. 1, seção Áreas de Tormenta).",
+  "regra_geral": "Praticamente todos os tipos de armadilhas normais existentes podem ser encontrados em versões orgânicas (ex.: guilhotinas acionadas por músculos, agulhas envenenadas como presas de serpente, fossos com estacas como gargantas com espinhos). Uma armadilha viva funciona como uma armadilha normal, exceto que: tem +2 na CD dos testes de resistência contra ela (se houver); +2 pontos de dano/perda de vida por dado; +5 na CD dos testes de Investigação/Ladinagem; reativação automática após 1d6 minutos; e Nível de Desafio +1 em relação à armadilha normal equivalente.",
+  "exemplos": [
+    {
+      "nome": "Estátua Executora Viva",
+      "efeito": "1d12+12 mais 1d12+12 pontos de dano de corte; dois testes de Reflexos CD 27 (cada teste evita um dos danos).",
+      "investigacao": 25,
+      "ladinagem": 25,
+      "nd": 4
+    },
+    {
+      "nome": "Gás Venenoso Vivo",
+      "efeito": "Perde 1d12+2 PV por veneno por rodada durante 2d4 rodadas; Fortitude CD 22 reduz à metade.",
+      "investigacao": 30,
+      "ladinagem": 30,
+      "nd": 4
+    },
+    {
+      "nome": "Parede Instável Viva",
+      "efeito": "8d6+16 pontos de dano de impacto num quadrado de 3m; Reflexos CD 27 reduz à metade.",
+      "investigacao": 25,
+      "ladinagem": 25,
+      "nd": 5
+    }
+  ],
+  "livro": "ameacas_de_arton"
+}

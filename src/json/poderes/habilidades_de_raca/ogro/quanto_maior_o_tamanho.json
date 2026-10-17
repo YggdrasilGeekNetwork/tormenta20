@@ -1,0 +1,13 @@
+{
+  "id": "quanto_maior_o_tamanho",
+  "name": "Quanto Maior o Tamanho…",
+  "type": "habilidade_de_raca",
+  "race": "ogro",
+  "description": "Você é um humanoide do subtipo gigante; seu tamanho é Grande e você recebe visão na penumbra.",
+  "effects": {
+    "creature_subtype": "gigante",
+    "size": "grande",
+    "vision": "baixa_luminosidade"
+  },
+  "livro": "ameacas_de_arton"
+}

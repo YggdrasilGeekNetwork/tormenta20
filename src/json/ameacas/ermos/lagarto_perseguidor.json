@@ -1,0 +1,41 @@
+{
+  "id": "lagarto_perseguidor",
+  "name": "Lagarto Perseguidor",
+  "nd": 2,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "ermos",
+  "pv": 16,
+  "pm": null,
+  "defesa": 18,
+  "salvaguardas": { "fort": 7, "ref": 12, "von": 3 },
+  "reducao_de_dano": "5/fogo",
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": ["frio"],
+  "iniciativa": 7,
+  "percepcao": 5,
+  "visao": ["faro", "baixa_luminosidade"],
+  "deslocamento": { "terrestre": 9, "natacao": 9 },
+  "atributos": { "for": 3, "des": 2, "con": 3, "int": -5, "sab": 0, "car": -4 },
+  "pericias": { "atletismo": 11, "furtividade": 7 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 14, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Mordida Infecciosa", "descricao": "Uma criatura mordida deve fazer um teste de Fortitude (CD 16) no início de cada um de seus turnos; se falhar, perde 1d6 PV; se passar, encerra o efeito (metabolismo)." },
+    { "nome": "Mordida Surpresa", "descricao": "A primeira criatura atacada pelo lagarto perseguidor em cada combate fica desprevenida contra este ataque." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Grande como um crocodilo, lagarto de escamas listradas sobre pernas poderosas com garras longas, língua bifurcada e saliva pegajosa. Encontrado principalmente em Khubar, nas Sanguinárias e na Grande Savana; gosta de se aquecer ao sol durante o dia para depois caçar. Ataca com uma mordida que deixa saliva venenosa e infecciosa, foge em seguida e passa a farejar e rastrear a presa à distância por horas ou dias, esperando pacientemente que morra por doença — tática usada ao caçar sozinho ou contra presas perigosas; em pares ou bandos, prefere cercar e matar logo a dentadas.",
+  "livro": "ameacas_de_arton"
+}

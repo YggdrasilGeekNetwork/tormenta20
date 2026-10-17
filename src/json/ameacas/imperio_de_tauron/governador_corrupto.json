@@ -1,0 +1,53 @@
+{
+  "id": "governador_corrupto",
+  "name": "Governador Corrupto",
+  "nd": 6,
+  "tipo": "Humanoide",
+  "subtipo": "minotauro",
+  "tamanho": "medio",
+  "grupo": "imperio_de_tauron",
+  "pv": 122,
+  "pm": null,
+  "defesa": 18,
+  "salvaguardas": { "fort": 12, "ref": 6, "von": 18 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 7,
+  "visao": ["faro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 0, "con": 3, "int": 3, "sab": 2, "car": 5 },
+  "pericias": { "conhecimento": 8, "diplomacia": 14, "guerra": 8, "intimidacao": 17, "intuicao": 9, "nobreza": 18 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 19,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Chifres",
+      "bonus": 18,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Como Ousa?", "acao": "reacao", "descricao": "Uma vez por rodada, quando um inimigo tenta usar uma ação hostil contra o governador corrupto, o governador faz um teste de Intimidação oposto à Vontade do agressor. Se o governador vencer o teste oposto, o inimigo perde a ação." },
+    { "nome": "Deliberação Desnorteante", "acao": "completa", "descricao": "Uma vez por cena, o governador faz um discurso elaborado que deixa todos os inimigos em alcance curto pasmos por 1 rodada e desprevenidos pela cena (Vontade CD 24 anula)." },
+    { "nome": "Guarda Pessoal", "descricao": "O governador está sempre acompanhado de quatro legionários, que não contam para o cálculo de XP e tesouro do encontro." },
+    { "nome": "Incitar", "acao": "padrão", "descricao": "O governador ordena (ou xinga, ou chicoteia) seus subordinados para que sejam mais cruéis e eficazes. Todos os aliados do governador em alcance médio recebem +5 em testes de perícia e +1d10 em rolagens de dano por 1 rodada." },
+    { "nome": "Proteja-me!", "acao": "reacao", "descricao": "Uma vez por rodada, quando sofre um ataque, o governador corrupto escolhe um aliado adjacente para se tornar o alvo desse ataque." },
+    { "nome": "Medo de Altura", "descricao": "Se estiver adjacente a uma queda de 3m ou mais de altura (como um buraco ou penhasco), o governador fica abalado." }
+  ],
+  "equipamento": ["Adaga certeira", "Tabardo aprimorado", "Traje da corte"],
+  "tesouro": "Dobro.",
+  "description": "Senador ambicioso que, com o governo central fragilizado, estabeleceu sua própria província em áreas rurais afastadas, governando sem lealdade ao Triunvirato. Mantém escravos e haréns com uma guarda pessoal de ex-legionários, mestre da negociação e intimidação após anos de debates no senado.",
+  "livro": "ameacas_de_arton"
+}

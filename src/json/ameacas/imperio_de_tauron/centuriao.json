@@ -1,0 +1,59 @@
+{
+  "id": "centuriao",
+  "name": "Centurião",
+  "nd": 3,
+  "tipo": "Humanoide",
+  "subtipo": "minotauro",
+  "tamanho": "medio",
+  "grupo": "imperio_de_tauron",
+  "pv": 100,
+  "pm": null,
+  "defesa": 23,
+  "salvaguardas": { "fort": 15, "ref": 4, "von": 8 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 2,
+  "visao": ["faro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 5, "des": 0, "con": 4, "int": 2, "sab": 0, "car": 0 },
+  "pericias": { "atletismo": 10, "guerra": 7 },
+  "ataques": [
+    {
+      "nome": "Gládio",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 5, "tipo": "corte" }
+      ],
+      "critico": "19/x3"
+    },
+    {
+      "nome": "Chifres",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 5, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Azagaia (à distância)",
+      "bonus": 10,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 5, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Medo de Altura", "descricao": "Se estiver adjacente a uma queda de 3m ou mais de altura (como um buraco ou penhasco), fica abalado." },
+    { "nome": "Coordenar Ataque", "acao": "movimento", "descricao": "O centurião coordena os ataques de uma falange da qual esteja participando. Até o próximo turno do centurião, sempre que um participante da falange fizer um ataque, pode rolar dois dados e usar o melhor resultado." },
+    { "nome": "Falange", "acao": "movimento", "descricao": "Se o centurião estiver usando um escudo e adjacente a um aliado com esta habilidade, pode formar uma falange com esse aliado. Enquanto estiverem adjacentes um ao outro, os participantes da falange recebem +2 na Defesa e em testes de resistência." },
+    { "nome": "Ordens", "acao": "movimento", "descricao": "O centurião grita ordens para seus aliados em alcance médio. Eles recebem +2 em testes de perícia até o fim da cena." }
+  ],
+  "equipamento": ["Azagaia x3", "Escudo pesado", "Gládio certeiro", "Loriga segmentada"],
+  "tesouro": "Padrão.",
+  "description": "Comandante de legionários e valoroso guerreiro de elite que luta nas linhas de frente, beneficiando-se das táticas tapistanas de combate em equipe. Raramente abandona sua pátria, atuando como capitão ou guarda-costas em posições de privilégio.",
+  "livro": "ameacas_de_arton"
+}

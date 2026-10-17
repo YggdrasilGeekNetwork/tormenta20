@@ -1,0 +1,17 @@
+{
+  "id": "kallyanach",
+  "name": "Kallyanach",
+  "description": "Meio-dragões, humanoides cobertos de escamas robustas, com cabeça adornada de chifres e presas, mãos com garras e grandes asas, nos quais os traços dracônicos predominam quase por completo sobre a ascendência original (humana, elfa, minotauro ou outra). Podem surgir de acasalamento entre dragões e humanoides, de nascimento na área de influência elemental de um dragão, de transformação ritual intencional buscada por devotos de Kallyadranoch, ou simplesmente da vontade do próprio Deus dos Dragões.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": {},
+  "skill_bonuses": [],
+  "racial_abilities": ["ajuste_de_atributo_kallyanach", "heranca_draconica", "bencao_de_kallyadranoch"],
+  "chosen_abilities_amount": 2,
+  "available_chosen_abilities": ["armamento_kallyanach", "asas_draconicas", "escamas_elementais", "pratica_arcana", "sentidos_draconicos", "sopro_de_dragao"],
+  "longevidade": "x2",
+  "devocao": ["arsenal", "kallyadranoch", "megalokk", "wynna"],
+  "livro": "ameacas_de_arton"
+}

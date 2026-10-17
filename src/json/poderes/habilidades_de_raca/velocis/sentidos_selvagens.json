@@ -1,0 +1,14 @@
+{
+  "id": "sentidos_selvagens",
+  "name": "Sentidos Selvagens",
+  "type": "habilidade_de_raca",
+  "race": "velocis",
+  "description": "Você recebe +2 em Sobrevivência, visão na penumbra e faro (contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha).",
+  "effects": {
+    "skill_improvement": { "skill": "sobrevivencia", "value": 2 },
+    "vision": "visao_na_penumbra",
+    "keen_smell": true,
+    "vs_unseen_short_range": { "no_flat_footed": true, "total_concealment_miss_chance": 20 }
+  },
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "invocar_fagulha_elemental",
+  "name": "Invocar Fagulha Elemental",
+  "type": "arcana",
+  "circle": "2",
+  "school": "conv",
+  "execution": "completa",
+  "execution_details": null,
+  "range": "curto",
+  "target": {
+    "amount": null,
+    "up_to": null,
+    "type": "porção de um elemento inerte"
+  },
+  "effect": "familiar elemental",
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "sustentada",
+  "duration_details": null,
+  "resistence": null,
+  "extra_costs": null,
+  "description": "Você transforma uma porção de um elemento inerte em uma criatura elemental Pequena do tipo do elemento alvo. Por exemplo, lançar esta magia em um copo de água cria um elemental da água. Você pode criar elementais do ar, da água, do fogo e da terra com esta magia. O elemental obedece a todos os seus comandos e funciona como um familiar comum (veja Familiares, Tormenta20, p. 38) ou elemental. O elemental auxilia apenas você e não conta em seu limite de parceiros.",
+  "enhancements": [
+    {
+      "cost": 1,
+      "type": "outro",
+      "description": "além do normal, o elemental fornece redução 10 contra o dano correspondente a seu tipo.",
+      "extra_details": null
+    },
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "em vez do normal, o elemental recebe a habilidade de dois familiares, um comum e um elemental.",
+      "extra_details": null
+    }
+  ],
+  "effects": [
+    {
+      "type": "convoca",
+      "attribute": null,
+      "amount": null,
+      "resistence_requirement": null,
+      "extra_requirements": null
+    }
+  ],
+  "livro": "ameacas_de_arton"
+}

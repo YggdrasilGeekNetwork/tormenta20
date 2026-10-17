@@ -1,0 +1,45 @@
+{
+  "id": "serpentaar",
+  "name": "Serpentaar",
+  "nd": 14,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "enorme",
+  "grupo": "elementais",
+  "pv": 700,
+  "pm": null,
+  "defesa": 47,
+  "salvaguardas": { "fort": 30, "ref": 22, "von": 14 },
+  "reducao_de_dano": null,
+  "imunidades": ["acertos críticos", "atordoado", "cansaço", "efeitos de metabolismo", "fogo", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": ["frio"],
+  "iniciativa": 9,
+  "percepcao": 14,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6, "escavacao": 9 },
+  "atributos": { "for": 4, "des": 2, "con": 4, "int": -2, "sab": 3, "car": 2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "quantidade": 2,
+      "bonus": 39,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 7, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 6, "faces": 6 }], "bonus": 31, "tipo": "fogo" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura de Calor", "descricao": "No início de cada turno do serpentaar, todas as criaturas em um raio de 9m sofrem 10d6+30 pontos de dano de fogo." },
+    { "nome": "Corpo Ígneo", "descricao": "Criaturas e objetos que iniciem seus turnos adjacentes ao serpentaar, ou que façam um ataque corpo a corpo contra ele, sofrem 4d12 pontos de dano de fogo (Reflexos CD 38 evita)." },
+    { "nome": "Irromper", "acao": "completa", "descricao": "O serpentaar cria quatro esferas flamejantes em alcance médio. Cada uma dura 2 rodadas, tem 1,5m de raio e causa 12d8 pontos de dano de fogo a criaturas que iniciem o turno em sua área (Reflexos CD 28 reduz à metade). Recarga (ação de movimento)." },
+    { "nome": "Resfriamento Forçado", "descricao": "Quando sofre 70 pontos de dano de frio ou mais de um único efeito, o corpo do serpentaar resfria, desativando Corpo Ígneo por 2 rodadas." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d4+2 doses de éter elemental (fogo) (CD 29 para extrair).",
+  "description": "À primeira vista, uma imensa e gorda serpente feita de piche com chamas furiosas explodindo de bolhas ao longo do corpo; uma análise mais atenta revela vários pares de patas muito pequenas e atrofiadas, sugerindo tratar-se de alguma salamandra gigante e bizarra. Está entre os maiores elementais do fogo existentes em Arton, embora menor que os grandes elementais de outros tipos. Diz a lenda que filhotes nascem nas lareiras dos castelos, escapando para se refugiar nos ermos, mas estudiosos negam que elementais tenham estágios de crescimento. Rasteja como uma cobra, embora também deslize sobre o ar fervente produzido pelo contato com seu corpo; seu calor é tão intenso que criaturas desprotegidas podem ser calcinadas apenas por se aproximar, e armas convencionais podem ser destruídas em combate corpo a corpo.",
+  "livro": "ameacas_de_arton"
+}

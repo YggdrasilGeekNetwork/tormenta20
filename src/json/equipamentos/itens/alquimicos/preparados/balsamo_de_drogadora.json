@@ -1,0 +1,14 @@
+{
+  "id": "balsamo_de_drogadora",
+  "name": "Bálsamo de Drogadora",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 60,
+  "espacos": 0.5,
+  "uso": "aplicado",
+  "acoes": { "aplicar": "completa" },
+  "efeito": { "cura": "4d6+4" },
+  "description": "Produzido por curandeiras dos povos-trovão, este pote de cerâmica contém uma pasta gosmenta. Aplicá-la é uma ação completa e cura 4d6+4 PV.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "caminhante_do_ceu",
+  "name": "Caminhante do Céu",
+  "type": "habilidade_de_raca",
+  "race": "tengu",
+  "description": "Você pode pairar a 1,5m do chão com deslocamento 9m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Você pode gastar 1 PM por rodada para voar com deslocamento 12m. Você precisa de espaço para abrir suas asas; quando paira ou voa, ocupa o espaço de uma criatura de uma categoria de tamanho maior que a sua.",
+  "effects": {
+    "hover": { "height": "1,5m", "movement": 9, "ignores_difficult_terrain": true, "fall_damage_immunity": true },
+    "flight": { "movement": 12, "cost_pm_per_round": 1 },
+    "space_requirement": "uma categoria de tamanho maior"
+  },
+  "livro": "ameacas_de_arton"
+}

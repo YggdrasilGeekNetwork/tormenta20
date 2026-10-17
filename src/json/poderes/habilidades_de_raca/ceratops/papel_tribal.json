@@ -1,0 +1,11 @@
+{
+  "id": "papel_tribal",
+  "name": "Papel Tribal",
+  "type": "habilidade_de_raca",
+  "race": "ceratops",
+  "description": "Você é treinado em uma perícia a sua escolha entre Cura, Intimidação, Ofício ou Sobrevivência.",
+  "effects": {
+    "skill_training": { "amount": 1, "choices": ["cura", "intimidacao", "oficio", "sobrevivencia"] }
+  },
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,38 @@
+{
+  "id": "gali_gali",
+  "name": "Gali-Gali",
+  "nd": 0.25,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "minusculo",
+  "grupo": "mundo_perdido",
+  "pv": 4,
+  "pm": null,
+  "defesa": 11,
+  "salvaguardas": { "fort": 0, "ref": 2, "von": -1 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 3,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9, "escalada": 6 },
+  "atributos": { "for": 0, "des": 1, "con": 0, "int": -4, "sab": 1, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 7,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 4, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Também chamado \"composognato\", ou apenas comp, pequeno animal do tamanho de um ganso que come pequenos lagartos, insetos e carniça. Não ataca criaturas de tamanho humano, exceto acuado ou muito faminto. Nativo de Galrasia, vem se espalhando pelo continente como clandestino em navios, hoje popular como mascote em navios piratas.",
+  "livro": "ameacas_de_arton"
+}

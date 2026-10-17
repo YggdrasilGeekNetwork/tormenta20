@@ -1,0 +1,16 @@
+{
+  "id": "sashimi_de_kraken",
+  "name": "Sashimi de Kraken",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 60,
+  "espacos": 0.5,
+  "ingredientes": ["posta de kraken"],
+  "efeito": {
+    "bonus_diplomacia": 2,
+    "cumulativo_com_outros_itens": true,
+    "pm_temporarios": 5
+  },
+  "description": "Esta iguaria exótica foi criada pelos maiores chefs de Tamu-ra. Você recebe +2 em Diplomacia, cumulativo com outros itens, e 5 PM temporários. Dificilmente encontrada em cidades longe do mar.",
+  "livro": "ameacas_de_arton"
+}

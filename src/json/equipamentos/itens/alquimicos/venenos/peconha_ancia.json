@@ -1,0 +1,18 @@
+{
+  "id": "peconha_ancia",
+  "name": "Peçonha Anciã",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 1800,
+  "espacos": 0.5,
+  "inoculacao": "contato",
+  "efeito": {
+    "dano": "3d12",
+    "por_rodada": true,
+    "duracao_rodadas": 3,
+    "ignora_imunidade_a_venenos": true
+  },
+  "description": "Veneno poderoso, extraído de serpes anciãs, capaz de afetar até criaturas imunes. Contato, perde 3d12 PV por rodada durante 3 rodadas e ignora imunidade a venenos.",
+  "livro": "ameacas_de_arton"
+}

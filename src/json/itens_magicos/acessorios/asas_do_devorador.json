@@ -1,0 +1,14 @@
+{
+  "id": "asas_do_devorador",
+  "name": "Asas do Devorador",
+  "categoria": "medio",
+  "preco": 27000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Também conhecido como 'pterodraco', este simbionte lembra uma grande concha com olhos telescópicos e centenas de pequenas patas. Une-se ao hospedeiro instalando-se em suas costas; suas inúmeras patas se cravam na carne até atingir a coluna, onde se prendem permanentemente. Quando a simbiose é bem-sucedida, desenvolve um par de grandes asas membranosas. O hospedeiro pode gastar 2 PM para ativar as Asas do Devorador e ganhar deslocamento de voo igual ao seu deslocamento em terra, com duração sustentada.",
+  "effects": [
+    { "type": "simbionte", "slot": "item_vestido", "poderes_tormenta_equivalentes": 2 },
+    { "type": "ativado", "custo_pm": 2, "efeito": "deslocamento de voo igual ao deslocamento terrestre, sustentada" }
+  ],
+  "livro": "ameacas_de_arton"
+}

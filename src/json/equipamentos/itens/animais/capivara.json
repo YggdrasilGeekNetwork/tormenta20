@@ -1,0 +1,10 @@
+{
+  "id": "capivara",
+  "name": "Capivara",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 60,
+  "espacos": 0,
+  "description": "Preço de referência para adquirir uma capivara. Veja a ficha completa da ameaça (grupo montarias) para estatísticas de combate e benefícios de parceiro.",
+  "livro": "ameacas_de_arton"
+}

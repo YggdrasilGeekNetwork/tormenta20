@@ -1,0 +1,43 @@
+{
+  "id": "concilio_forjador",
+  "name": "Concílio Forjador",
+  "nd": 13,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "grande",
+  "grupo": "igreja_de_arsenal",
+  "pv": 430,
+  "pm": null,
+  "defesa": 41,
+  "salvaguardas": { "fort": 20, "ref": 13, "von": 26 },
+  "reducao_de_dano": 5,
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 11,
+  "percepcao": 14,
+  "visao": [],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 2, "des": 1, "con": 3, "int": 3, "sab": 4, "car": 1 },
+  "pericias": { "guerra": 15, "misticismo": 15, "oficio_armeiro": 16, "religiao": 16 },
+  "ataques": [
+    {
+      "nome": "Armamento sagrado [Bando]",
+      "quantidade": 2,
+      "alcance": "corpo a corpo ou à distância, conforme a arma",
+      "bonus": 35,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 12 }], "bonus": 40, "tipo": "variável" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Armamento Sagrado", "descricao": "O líder de cada concílio porta uma arma mágica a ser oferecida ao seu oponente. Escolha um tipo de arma e dois encantos adequados, ou determine-os aleatoriamente usando as tabelas de tesouros (Tormenta20, Capítulo 8). O concílio empunha essa arma em corpo a corpo ou à distância, conforme apropriado. Independente do tipo de arma, nas mãos do concílio ela possui as estatísticas indicadas em seu ataque, modificadas por seus encantos. Se o encanto escolhido tiver um custo em PM, ele pode usá-lo sem gastar PM." },
+    { "nome": "Desprezo pelo Ordinário", "descricao": "O concílio sofre apenas metade do dano de armas mundanas sem melhorias." }
+  ],
+  "equipamento": ["Arma superior com 1 melhoria a sua escolha", "Instrumentos de Ofício (armeiro) aprimorados", "Meia armadura (1d4 de cada)", "Armamento sagrado"],
+  "tesouro": "Nenhum.",
+  "description": "Representa um bando de Forjadores Litúrgicos agindo em conjunto (regra de Bando, veja 'Manual de Criação de Ameaças'), liderado por quem porta o Armamento Sagrado. Enfrenta candidatos à sua arma em grupo, testando-os com maior rigor do que um forjador solitário.",
+  "livro": "ameacas_de_arton"
+}

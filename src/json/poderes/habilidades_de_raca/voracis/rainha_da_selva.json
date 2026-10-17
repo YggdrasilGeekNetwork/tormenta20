@@ -1,0 +1,13 @@
+{
+  "id": "rainha_da_selva",
+  "name": "Rainha da Selva",
+  "type": "habilidade_de_raca",
+  "race": "voracis",
+  "description": "Você recebe deslocamento de escalada 9m, +2 em Atletismo e recupera +1 PV por nível quando descansa.",
+  "effects": {
+    "climb_speed": 9,
+    "skill_improvement": { "skill": "atletismo", "value": 2 },
+    "rest_recovery_bonus": "+1 PV por nível"
+  },
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "amontoados",
+  "name": "Amontoados",
+  "type": "habilidade_de_raca",
+  "race": "kobold",
+  "description": "Vocês são considerados uma criatura Grande para efeitos de espaço ocupado e modificadores de manobras de combate. Além disso, podem se organizar em qualquer forma equivalente a quatro cubos de 1,5m, desde que cada um tenha pelo menos um lado adjacente a outro. Efeitos que aumentem seu tamanho se acumulam com este poder, e permitem que vocês se organizem em mais cubos (9 cubos de 1,5m para Enorme e 9 cubos de 3m para Colossal). Vocês podem mudar de configuração sempre que fizerem uma ação de movimento para se deslocar.",
+  "effects": {
+    "size_for_space_and_maneuvers": "grande",
+    "formation_cubes": { "size_1_5m": 4 }
+  },
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "chefe_de_quadrilha",
+  "name": "Chefe de Quadrilha",
+  "nd": 4,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "capangas_e_bandoleiros",
+  "pv": 120,
+  "pm": null,
+  "defesa": 22,
+  "salvaguardas": { "fort": 14, "ref": 11, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "medo": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 5,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 3, "des": 3, "con": 2, "int": 1, "sab": 0, "car": 1 },
+  "pericias": { "furtividade": 8, "intimidacao": 8 },
+  "ataques": [
+    {
+      "nome": "Espada longa",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 6, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Espada curta certeira",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 6, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Furtivo", "descricao": "+3d6 de dano extra quando flanqueia ou surpreende o alvo." },
+    { "nome": "Ordens", "acao": "movimento", "descricao": "O chefe grita ordens para seus aliados em alcance médio. Eles recebem +2 em testes de perícia até o fim da cena." },
+    { "nome": "Tropas Dispensáveis", "acao": "reação", "descricao": "Uma vez por rodada, quando é afetado por um ataque ou efeito, o chefe faz com que um aliado adjacente sofra todos os efeitos em seu lugar." }
+  ],
+  "equipamento": ["Bandana", "Couro batido", "Espada curta certeira", "Espada longa"],
+  "tesouro": "Padrão.",
+  "description": "Enquanto o chefe de quadrilha está ativo, o grupo pode seguir lutando mesmo que um ou dois membros caiam. Contudo, quando ele é derrotado, os demais geralmente fogem ou se rendem — exceto seus tenentes mais leais, prontos a se sacrificar por ele.",
+  "livro": "ameacas_de_arton"
+}

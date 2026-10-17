@@ -1,0 +1,47 @@
+{
+  "id": "finntroll_senhor_de_estabulo",
+  "name": "Finntroll Senhor de Estábulo",
+  "nd": 12,
+  "tipo": "Monstro",
+  "subtipo": "finntroll",
+  "tamanho": "medio",
+  "grupo": "trolls_nobres",
+  "pv": 380,
+  "pm": 68,
+  "defesa": 39,
+  "salvaguardas": { "fort": 20, "ref": 14, "von": 24 },
+  "reducao_de_dano": null,
+  "resistencia_a_magia": 2,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 10,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 0, "des": 3, "con": 3, "int": 4, "sab": 0, "car": 2 },
+  "pericias": { "intimidacao": 18, "intuicao": 12, "misticismo": 17 },
+  "ataques": [
+    {
+      "nome": "Açoite Finntroll",
+      "bonus": 33,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 12, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Natureza Vegetal", "descricao": "Afetado por habilidades e magias que afetam plantas." },
+    { "nome": "Regeneração Vegetal", "acao": "movimento", "descricao": "Recupera 5 PV. Não cura dano de ácido ou fogo. Não funciona exposto à luz do sol." },
+    { "nome": "Sensibilidade a Luz", "descricao": "Exposto à luz do sol, fica ofuscado e sua regeneração vegetal não funciona." },
+    { "nome": "Abrir os Viveiros", "acao": "completa", "descricao": "O finntroll senhor de estábulo convoca 1d3+1 trolls, que surgem em espaços desocupados em alcance curto. Os trolls estão sob controle do finntroll, agem no turno dele a partir da rodada seguinte e não rendem recompensas se forem derrotados." },
+    { "nome": "Aura de Superioridade", "acao": "reacao", "salvaguarda": "Vontade", "cd": 35, "descricao": "Sempre que uma criatura inteligente tentar uma ação hostil contra o finntroll, deve fazer um teste de Vontade (CD 35). Caso falhe, a criatura perde a ação. O finntroll só pode usar esta habilidade uma vez por cena contra cada criatura." },
+    { "nome": "Palavras de Humilhação", "acao": "movimento", "descricao": "O finntroll faz um teste de Intimidação oposto ao teste de Vontade de uma criatura que ele tenha atingido com seu açoite neste turno. Se vencer, causa 8d6 pontos de dano psíquico não letal à criatura." },
+    { "nome": "Magias", "descricao": "Lança magias como um mago de 9º nível (CD 35): Concentração de Combate (padrão, 3 PM; até o fim da cena, sempre que faz um ataque, o finntroll rola dois dados e usa o melhor resultado); Dissipar Magia (padrão, 3 PM); Enfeitiçar (padrão, 6 PM; cada humanoide em alcance curto fica enfeitiçado pelo finntroll até o fim da cena, ou até o finntroll ou um de seus aliados tomar uma ação hostil contra a criatura); Pele de Pedra (padrão, 6 PM; o finntroll recebe redução de dano 5 até o fim da cena); Toque Chocante (padrão, 9 PM; o finntroll faz um ataque corpo a corpo; se acertar, além do dano normal, causa 8d8+8 pontos de dano de eletricidade); Velocidade (padrão, 3 PM, sustentada; o finntroll pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias)." }
+  ],
+  "equipamento": ["Açoite finntroll macabro", "Manto pesado"],
+  "tesouro": "Dobro.",
+  "description": "Versão superior e ainda mais perigosa do feitor, mestre do terror e da intimidação. Além de conjurar trolls onde estiver, seus comandos ferozes podem desmoralizar ou incapacitar oponentes, para deixá-los mais vulneráveis aos monstros.",
+  "livro": "ameacas_de_arton"
+}

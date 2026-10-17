@@ -1,0 +1,56 @@
+{
+  "id": "hippossauro",
+  "name": "Hippossauro",
+  "nd": 3,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "reinos_de_moreania",
+  "pv": 100,
+  "pm": null,
+  "defesa": 20,
+  "salvaguardas": { "fort": 14, "ref": 10, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "perfuração": 10 },
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 7,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 4, "des": 3, "con": 3, "int": -4, "sab": 1, "car": 1 },
+  "pericias": { "atletismo": 7, "sobrevivencia": 4 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 13,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 4, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 13,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 4, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Salto Mortal", "acao": "completa", "descricao": "O hippossauro salta com suas duas garras em um inimigo em alcance curto. A vítima sofre 4d6+8 pontos de dano de corte e fica sangrando (Reflexos CD 17 reduz o dano à metade e evita a condição)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "iniciante": "Seu deslocamento muda para 12m e você recebe +2 em Diplomacia (hippossauro macho) ou em Furtividade (hippossauro fêmea).",
+    "veterano": "Seu deslocamento muda para 15m e, uma vez por rodada, você recebe +1d8 em uma rolagem de dano corpo a corpo.",
+    "mestre": "O bônus na perícia muda para +4 e você recebe uma ação de movimento extra (apenas para se deslocar)."
+  },
+  "description": "Também chamado \"hippo\" ou \"hip\", combina o tamanho e porte de um cavalo de guerra com traços de ave e lagarto-terror, com garras de ave e couro resistente a flechas e lanças. Extremamente obediente uma vez domesticado, pode ser cavalgado como cavalos comuns. Machos têm cores vivas e brilhantes; fêmeas são mais sóbrias e camufladas na vegetação.",
+  "livro": "ameacas_de_arton"
+}

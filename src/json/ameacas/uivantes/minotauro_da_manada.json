@@ -1,0 +1,47 @@
+{
+  "id": "minotauro_da_manada",
+  "name": "Minotauro da Manada",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "minotauro",
+  "tamanho": "medio",
+  "grupo": "uivantes",
+  "pv": 16,
+  "defesa": 18,
+  "salvaguardas": { "fort": 11, "ref": 6, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "frio": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 4,
+  "visao": ["faro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 4, "des": 0, "con": 3, "int": 0, "sab": 1, "car": -2 },
+  "pericias": { "atletismo": 9, "intimidacao": 7 },
+  "ataques": [
+    {
+      "nome": "Machado de Batalha",
+      "bonus": 13,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 5, "tipo": "corte" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Chifres",
+      "bonus": 13,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 5, "tipo": "perfuração" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Capturar", "descricao": "O minotauro da Manada recebe +2 em testes de agarrar e pode se deslocar normalmente enquanto arrasta uma criatura. Uma criatura arrastada desta forma sofre 1d4 pontos de dano de impacto para cada 3m que for arrastada." },
+    { "nome": "Ver Vermelho", "descricao": "Se tiver sido alvo de um efeito hostil (ataque, habilidade, magia...) desde o fim de seu último turno, o minotauro recebe +2 em testes de perícia." }
+  ],
+  "equipamento": ["Gibão de peles", "Machado de batalha"],
+  "tesouro": "Padrão.",
+  "description": "Minotauro da vasta tribo conhecida como a Manada, formada por cerca de 4.000 minotauros adaptados ao frio das Uivantes, mais peludos e gordos que o típico cidadão de Tapista, descendentes do antigo Império de Tauron e, como ele, escravistas — ainda mais brutais. Qualquer humanoide em seu caminho corre o risco de ser escravizado, a menos que demonstre força suficiente para garantir sua liberdade.",
+  "livro": "ameacas_de_arton"
+}

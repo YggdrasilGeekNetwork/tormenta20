@@ -1,0 +1,15 @@
+{
+  "id": "grito_aterrorizante",
+  "name": "Grito Aterrorizante",
+  "type": "habilidade_de_raca",
+  "race": "harpia",
+  "description": "Você pode gastar uma ação padrão e 1 PM para emitir um grito estridente. Criaturas em alcance curto ficam abaladas (Vontade CD Carisma evita).",
+  "effects": {
+    "cost_pm": 1,
+    "action": "padrao",
+    "save": "vontade",
+    "save_dc_attribute": "carisma",
+    "condition": "abalado"
+  },
+  "livro": "ameacas_de_arton"
+}

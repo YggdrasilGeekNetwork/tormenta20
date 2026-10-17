@@ -1,0 +1,23 @@
+{
+  "id": "pistola_punhal",
+  "name": "Pistola-Punhal",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 300,
+  "dano": "1d6",
+  "critico": "18",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": ["agil", "hibrida"],
+  "especial": {
+    "modo_corpo_a_corpo": { "dano": "1d6", "critico": "18", "tipo_dano": "corte" },
+    "modo_distancia": { "dano": "2d6", "critico": "19/x3", "alcance": "curto", "tipo_dano": "perfuracao", "municao": "balas", "recarregar": "acao_padrao" },
+    "disparo_em_modo_corpo_a_corpo": "Quando faz um ataque com a pistola-punhal em modo corpo a corpo, você pode acionar seu mecanismo para disparar a bala; se acertar, causa +2d6 pontos de dano.",
+    "requer_proficiencia_fogo_para_modo_distancia": true
+  },
+  "description": "Esta arma é formada por uma lâmina pontiaguda com um mecanismo acoplado que armazena uma bala. A pistola-punhal é uma arma híbrida que pode ser usada em dois modos: como uma arma corpo a corpo ágil (dano 1d6, crítico 18) ou como uma arma de fogo (dano 2d6, crítico 19/x3, alcance curto). Para atacar com ela em modo arma de fogo, você deve também ter proficiência em armas de fogo, ou é considerado não proficiente com ela. Recarregar a pistola-punhal é uma ação padrão.",
+  "livro": "ameacas_de_arton"
+}

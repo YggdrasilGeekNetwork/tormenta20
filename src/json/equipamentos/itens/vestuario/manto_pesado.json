@@ -1,0 +1,15 @@
+{
+  "id": "manto_pesado",
+  "name": "Manto Pesado",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 10,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "imunidade": "ofuscado",
+    "beneficio_adicional": "mesmo durante o dia, não é considerado sob luz solar ou semelhante"
+  },
+  "description": "Estas vestes pesadas com um grande capuz oferecem proteção contra o sol e contra claridade em excesso. Você recebe imunidade à condição ofuscado e, mesmo durante o dia, não é considerado sob luz solar ou semelhante.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "gamba",
+  "name": "Gambá",
+  "nd": 0.5,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "minusculo",
+  "grupo": "mascotes_e_familiares",
+  "pv": 8,
+  "pm": null,
+  "defesa": 10,
+  "salvaguardas": { "fort": 3, "ref": 5, "von": 0 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 2,
+  "percepcao": 7,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9, "escalada": 9 },
+  "atributos": { "for": 0, "des": 2, "con": 2, "int": -4, "sab": 3, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 8,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 6, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Almíscar Fedorento", "acao": "padrão", "descricao": "O gambá expele um jato de almíscar contra uma criatura em alcance curto, que fica enjoada por 1d4 rodadas (Fortitude CD 13 evita; criaturas com Faro ou Sentidos Aguçados sofrem –5 nesse teste)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "especial (vigilante)",
+    "restricao": null,
+    "iniciante": "Você recebe +2 em Iniciativa e Percepção.",
+    "veterano": "Você pode gastar uma ação de movimento e 1 PM para deixar uma criatura em alcance curto enjoada por 1d4 rodadas (Fortitude CD Sabedoria evita).",
+    "mestre": "Os bônus em perícias aumentam para +5."
+  },
+  "description": "Pequeno mamífero marsupial pouco maior que um gato, com pelagem manchada de preto e branco e uma cauda longa e preênsil, que ajuda na escalada de árvores e permite se pendurar de cabeça para baixo enquanto vigia os arredores. Alimenta-se de frutinhas e insetos, e nunca ataca criaturas maiores exceto se ameaçado — nesse caso, volta a traseira para o alvo e levanta a cauda em aviso antes de expelir um jato fétido, ainda mais insuportável para criaturas de olfato aguçado. Alguns aventureiros o adotam como parceiro, especialmente os mais reclusos — ou trogs.",
+  "livro": "ameacas_de_arton"
+}

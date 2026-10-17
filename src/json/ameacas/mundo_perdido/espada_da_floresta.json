@@ -1,0 +1,43 @@
+{
+  "id": "espada_da_floresta",
+  "name": "Espada-da-Floresta",
+  "nd": 3,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "mundo_perdido",
+  "pv": 108,
+  "pm": null,
+  "defesa": 22,
+  "salvaguardas": { "fort": 8, "ref": 11, "von": 8 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": ["fogo"],
+  "iniciativa": 8,
+  "percepcao": 7,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 6, "des": 3, "con": 4, "int": -2, "sab": 2, "car": 0 },
+  "pericias": { "furtividade": 4 },
+  "ataques": [
+    {
+      "nome": "Espada espinhenta",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 15, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Natureza Vegetal", "descricao": "O espada-da-floresta é uma criatura de natureza vegetal." },
+    { "nome": "Adaptado ao Ambiente", "descricao": "Quando em florestas, o espada-da-floresta recebe camuflagem leve contra ataques à distância e ignora terreno difícil natural (sua Furtividade sobe para +9 em florestas)." },
+    { "nome": "Dínamo Vegetal", "descricao": "Quando sofre dano de eletricidade, em vez disso o espada-da-floresta cura PV em quantidade igual a metade do dano que seria causado." },
+    { "nome": "Riposte Natural", "acao": "reacao", "descricao": "Uma vez por rodada, quando é alvo de um ataque corpo a corpo, o espada-da-floresta pode fazer um teste de ataque e subtrair seu resultado do dano causado pelo ataque." }
+  ],
+  "equipamento": [],
+  "tesouro": "Espada espinhenta (CD 18 para extrair) e 50% de chance de 1d4 frutos da espada-mãe (CD 18 para extrair).",
+  "description": "Humanoide feito de vinhas e musgo, com uma grade de madeira no lugar do rosto, empunhando uma espada feita de madeira dura cheia de espinhos ao longo da lâmina. Guerreiro exímio e muito hábil, encontrado sozinho ou em pequenos grupos familiares que se reproduzem através de frutos que brotam do corpo e são enterrados em canteiros. Os frutos de uma espada-mãe têm propriedades mágicas cobiçadas.",
+  "livro": "ameacas_de_arton"
+}

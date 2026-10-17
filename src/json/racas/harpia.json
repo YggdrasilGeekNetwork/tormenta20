@@ -1,0 +1,17 @@
+{
+  "id": "harpia",
+  "name": "Harpia",
+  "description": "Monstro que lembra uma mulher humana, velha e sinistra como uma bruxa, com cabelo emaranhado e sujo de sangue, mas com a parte inferior do corpo, pernas e asas de um pássaro enorme. Harpias são criaturas sádicas e malignas, que caçam não apenas para se alimentar, mas pelo regozijo de causar sofrimento e morte — mas harpias heroicas, raríssimas, acabam se reunindo a grupos de aventureiros.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "destreza": 2, "carisma": 1, "inteligencia": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["asas_de_abutre", "cria_de_masmorra", "grito_aterrorizante", "pes_rapinantes"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devocao": ["hyninn", "megalokk", "tenebra"],
+  "livro": "ameacas_de_arton"
+}

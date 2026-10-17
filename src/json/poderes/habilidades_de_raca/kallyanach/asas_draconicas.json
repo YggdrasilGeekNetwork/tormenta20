@@ -1,0 +1,11 @@
+{
+  "id": "asas_draconicas",
+  "name": "Asas Dracônicas",
+  "type": "habilidade_de_raca",
+  "race": "kallyanach",
+  "description": "Você pode gastar 1 PM por rodada para voar com deslocamento de 9m. Enquanto estiver voando desta forma, você fica vulnerável.",
+  "effects": {
+    "flight": { "movement": 9, "cost_pm_per_round": 1, "condition_while_active": "vulneravel" }
+  },
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "heranca_da_hiena",
+  "name": "Herança da Hiena",
+  "type": "habilidade_de_raca",
+  "race": "moreau",
+  "description": "Sabedoria +1, +1 em dois atributos a sua escolha. Destemor: você recebe +2 em rolagens de dano e em testes de resistência contra criaturas maiores que você. Faro: você tem olfato apurado — contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha. Mordida: você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração); uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida.",
+  "effects": {
+    "attribute_bonus": { "sabedoria": 1, "chosen": { "count": 2, "value": 1 } },
+    "destemor": { "damage_bonus_vs_larger": 2, "resistance_bonus_vs_larger": 2 },
+    "faro": { "keen_smell": true, "vs_unseen_short_range": { "no_flat_footed": true, "total_concealment_miss_chance": 20 } },
+    "mordida": { "natural_weapon": { "name": "mordida", "damage": "1d6", "critical": "x2", "damage_type": "perfuracao" }, "extra_attack_cost": { "pm": 1 } }
+  },
+  "livro": "ameacas_de_arton"
+}

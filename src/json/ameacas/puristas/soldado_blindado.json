@@ -1,0 +1,42 @@
+{
+  "id": "soldado_blindado",
+  "name": "Soldado Blindado",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "puristas",
+  "pv": 135,
+  "pm": null,
+  "defesa": 32,
+  "salvaguardas": { "fort": 15, "ref": 6, "von": 14 },
+  "reducao_de_dano": "5/mágico",
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 7,
+  "visao": [],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 3, "des": 1, "con": 4, "int": 1, "sab": 1, "car": 0 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Martelo de guerra",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 12, "tipo": "impacto" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ódio Puro", "descricao": "Como um purista, o soldado blindado recebe +5 em testes de Vontade quando está seguindo ordens de um superior (qualquer purista com ND maior) e +2 em rolagens de dano contra humanoides não humanos." },
+    { "nome": "Empurrão", "acao": "movimento", "descricao": "O soldado blindado faz uma manobra empurrar (teste +16) contra um alvo adjacente, mas não pode se mover junto com o alvo e sofre –5 na Defesa até o início de seu próximo turno." },
+    { "nome": "Prontidão", "acao": "reacao", "descricao": "Sempre que um inimigo entra ou sai por conta própria do alcance pessoal do soldado, o soldado pode fazer um ataque adicional contra essa criatura. Se acertar, além de causar dano, deixa o alvo imóvel até o início de seu próximo turno." }
+  ],
+  "equipamento": ["Armadura completa", "Escudo pesado reforçado", "Martelo de guerra pungente", "Poção de Curar Ferimentos (2d8+2) x2"],
+  "tesouro": "Padrão.",
+  "description": "Soldado da vanguarda purista em armadura completa e escudo imenso, atuando como muralha viva para proteger unidades à distância, sobretudo arcanos de guerra. As couraças são ajustadas individualmente e inúteis — ou perigosas, pela \"mordida da armadura\" — para qualquer outro usuário.",
+  "livro": "ameacas_de_arton"
+}

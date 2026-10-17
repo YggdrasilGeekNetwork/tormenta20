@@ -1,0 +1,51 @@
+{
+  "id": "nagah_encantadora",
+  "name": "Nagah Encantadora",
+  "nd": 7,
+  "tipo": "Humanoide",
+  "subtipo": "nagah",
+  "tamanho": "medio",
+  "grupo": "sszzaazitas",
+  "pv": 197,
+  "pm": 59,
+  "defesa": 29,
+  "salvaguardas": { "fort": 9, "ref": 15, "von": 20 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "veneno": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 10,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 0, "des": 3, "con": 2, "int": 3, "sab": 1, "car": 5 },
+  "pericias": { "conhecimento": 11, "enganacao": 16, "furtividade": 10, "intuicao": 10, "misticismo": 12 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 22,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 4, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Cauda",
+      "bonus": 22,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 4, "tipo": "impacto" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Falso Amigo", "descricao": "Adepta veterana." },
+    { "nome": "Linhagem Feérica", "descricao": "A CD para resistir às magias de encantamento e ilusão da nagah encantadora aumenta em +2 e essas magias custam -1 PM (já contabilizado)." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, a nagah muda a execução dela para livre." },
+    { "nome": "Magias", "descricao": "Lança magias como uma feiticeira de 9º nível (CD 26, 28 para encantamento e ilusão, limite de PM 9): Adaga Mental (padrão, 8 PM; uma criatura em alcance curto sofre 6d6 pontos de dano psíquico e fica atordoada por 1 rodada, Vontade reduz o dano à metade e evita a condição; uma vez por cena); Desespero Esmagador (padrão, 8 PM; a nagah projeta uma onda de desespero em um cone de 6m; criaturas na área ficam fracas e frustradas até o fim da cena e pasmas por 1 rodada, Vontade evita a condição pasmo e reduz a duração das outras condições para 1 rodada; uma vez por cena); Enfeitiçar (padrão, 5 PM; cada humanoide em alcance curto fica enfeitiçado pela nagah até o fim da cena, ou até a nagah ou um de seus aliados tomar uma ação hostil contra a criatura); Ilusão Lacerante (padrão, 8 PM, sustentada; a nagah cria uma ilusão que ocupa um cubo de 9m; cada criatura na área deve fazer um teste de Vontade, se falhar, acredita que a ilusão é real e sofre 5d6 pontos de dano psíquico não letal; repete o teste a cada turno que começar na área); Imagem Espelhada (padrão, 8 PM; seis cópias ilusórias da nagah surgem ao seu redor, concedendo +12 na Defesa; cada vez que um ataque erra a nagah, uma das cópias desaparece e o bônus na Defesa diminui em 2, mas a criatura atacante fica ofuscada por 1 rodada); Invisibilidade (padrão, 4 PM; a nagah fica invisível até o fim da cena ou até realizar uma ação hostil, recebendo camuflagem total e +10 em testes de Furtividade contra ouvir, e criaturas que não possam vê-la ficam desprevenidas contra seus ataques)." },
+    { "nome": "Fraquezas Ofídicas", "descricao": "A nagah sofre 1 ponto de dano adicional para cada dado de dano de frio e -5 em testes de resistência contra Músicas de bardo." }
+  ],
+  "equipamento": ["Adaga", "Essência de mana"],
+  "tesouro": "Padrão.",
+  "description": "Feiticeira nagah especializada em magias de encantamento e ilusão, favorecida por uma linhagem feérica que amplifica esse domínio arcano. Considera sua magia uma dádiva de Sszzaas.",
+  "livro": "ameacas_de_arton"
+}

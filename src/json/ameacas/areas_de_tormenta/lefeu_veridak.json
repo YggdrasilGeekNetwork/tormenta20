@@ -1,0 +1,52 @@
+{
+  "id": "lefeu_veridak",
+  "name": "Lefeu, Veridak",
+  "nd": 8,
+  "tipo": "Monstro",
+  "subtipo": "lefeu",
+  "tamanho": "grande",
+  "grupo": "areas_de_tormenta",
+  "pv": 64,
+  "pm": null,
+  "defesa": 34,
+  "salvaguardas": { "fort": 9, "ref": 22, "von": 15 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 15,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 36 },
+  "atributos": { "for": 6, "des": 4, "con": 3, "int": -1, "sab": 2, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Lâmina",
+      "quantidade": 2,
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 13, "tipo": "corte" }
+      ],
+      "critico": "18/x3"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 13, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Garra (teste +31)." },
+    { "nome": "Insanidade da Tormenta", "descricao": "2d6 PM (Vontade CD 26 evita)." },
+    { "nome": "Relâmpago Rubro", "acao": "completa", "descricao": "O veridak faz uma investida e ataca com suas duas lâminas e suas duas garras. Os quatro ataques recebem o bônus de +2 da investida, mas devem ser feitos contra o mesmo alvo. Pode continuar se movendo após os ataques, até o limite de seu deslocamento." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Lefeu que lembra grandes louva-a-deus bípedes, com corpos delgados, dois pares de braços (os inferiores com garras poderosas, os superiores com lâminas extremamente afiadas), dois pares de asas que batem em velocidade incrível e cabeça diminuta dominada por enormes olhos multifacetados. Antes chamados kaatar-niray ('lâminas demoníacas'), são predadores das montanhas da Tormenta, batedores que identificam inimigos ao longe e caçadores implacáveis que mergulham do céu — voam melhor que a maioria das criaturas aéreas de Arton e têm carapaça leve, o que os torna mais ágeis. Agem em bandos pequenos ou dão apoio a batalhões uktril e geraktril, podendo receber ordens dos geraktril embora geralmente tenham comandante próprio; também são empregados em missões de captura. Por sua relativa fragilidade física, preferem táticas de guerrilha — atacam e fogem em voos rasantes, e quando isolam um adversário, mergulham para agarrá-lo, erguendo-o a grande altura para então soltá-lo.",
+  "livro": "ameacas_de_arton"
+}

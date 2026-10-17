@@ -1,0 +1,53 @@
+{
+  "id": "lefeu_hurobakk",
+  "name": "Lefeu, Hurobakk",
+  "nd": 9,
+  "tipo": "Monstro",
+  "subtipo": "lefeu",
+  "tamanho": "grande",
+  "grupo": "areas_de_tormenta",
+  "pv": 380,
+  "pm": null,
+  "defesa": 35,
+  "salvaguardas": { "fort": 21, "ref": 16, "von": 9 },
+  "reducao_de_dano": 10,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 16,
+  "percepcao": 14,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 8, "des": 3, "con": 5, "int": 1, "sab": 2, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pinça",
+      "quantidade": 2,
+      "bonus": 28,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 13, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 28,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 13, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Insanidade da Tormenta", "descricao": "2d8 PM (Vontade CD 28 evita)." },
+    { "nome": "Investida Rubra", "acao": "completa", "descricao": "O hurobakk faz uma investida e ataca com suas duas pinças, recebendo +4d8 nas rolagens de dano com cada pinça; pode continuar se movendo após os ataques, até o limite de seu deslocamento." },
+    { "nome": "Passar por Cima", "acao": "completa", "descricao": "O hurobakk percorre até o dobro do seu deslocamento, passando por qualquer criatura Média ou menor. Uma criatura atropelada sofre 6d8+30 pontos de dano de impacto e fica caída (Reflexos CD 28 reduz à metade e evita a condição)." },
+    { "nome": "Pinças Destruidoras", "descricao": "Uma criatura atingida pela pinça do hurobakk tem sua armadura ou escudo (à escolha do hurobakk) avariado. Se não estiver usando armadura nem empunhando escudo, sofre +2d8 pontos de dano (em ambos os casos, Reflexos CD 28 evita)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Lefeu que lembra um inseto quadrúpede com um segundo tronco ereto emergindo do primeiro, à semelhança de um centauro, mas com quatro braços adicionais e cabeçorra insetoide; os braços anteriores têm forma de imensas garras de lagosta capazes de dilacerar aço. Guerreiros de elite com poder de combate impressionante, fornecem suporte e força de ataque devastadora aos batalhões lefeu, equivalendo em linhas gerais à cavalaria pesada de um exército artoniano, entrando em cena quando o inimigo é forte demais para as fileiras normais uktril e geraktril; sua armadura é uma das mais resistentes entre os lefeu. Mais comuns em planícies, também patrulham vias de acesso a cidades da Tormenta; recorrem a táticas de cavalaria, galopando em investidas devastadoras para romper linhas inimigas, e curiosamente costumam obedecer aos geraktril em combate, sem atuar como comandantes.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "hiena",
+  "name": "Hiena",
+  "nd": 1,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "ermos",
+  "pv": 17,
+  "pm": null,
+  "defesa": 14,
+  "salvaguardas": { "fort": 9, "ref": 6, "von": 1 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 6,
+  "visao": ["faro", "penumbra"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 3, "des": 3, "con": 3, "int": -4, "sab": 2, "car": -2 },
+  "pericias": { "furtividade": 5, "sobrevivencia": 6 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 7, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Derrubar", "acao": "livre", "descricao": "Ao acertar um ataque de mordida, pode fazer um teste de Luta (+9) para derrubar o alvo." },
+    { "nome": "Oportunista", "descricao": "Recebe +2 em rolagens de dano contra inimigos que já tenham sido feridos nesta rodada." },
+    { "nome": "Furtividade em Colinas/Planícies", "descricao": "Recebe +5 em testes de Furtividade quando em colinas ou planícies (já incluído no total acima)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "perseguidor",
+    "iniciante": "Você recebe +2 em Furtividade e Sobrevivência.",
+    "veterano": "Você pode usar a habilidade Oportunismo (ou recebe –1 PM no custo se já a possuir).",
+    "mestre": "Você pode usar a habilidade Sentidos Aguçados."
+  },
+  "description": "Predadora oportunista que caça em bando pelas planícies e ermos. Alternativamente, uma hiena pode ser usada como montaria Média com as estatísticas de um hienodonte.",
+  "livro": "ameacas_de_arton"
+}

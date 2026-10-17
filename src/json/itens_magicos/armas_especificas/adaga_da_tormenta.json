@@ -1,0 +1,15 @@
+{
+  "id": "adaga_da_tormenta",
+  "name": "Adaga da Tormenta",
+  "base_weapon": "adaga",
+  "preco": null,
+  "description": "Arma orgânica empunhada por reishid e outros lefeu de elite, com lâmina longa e ondulada e cabo que lembra uma carapaça. Conta como uma adaga formidável tumular, que causa 1d8 de dano de trevas adicional. A adaga secreta muco adesivo pelo cabo, mantendo-se firme na mão do portador e fornecendo +5 em testes contra desarmar; soltá-la gasta uma ação de movimento. Não é comumente encontrada à venda — obtida apenas como tesouro de certos lefeu.",
+  "effects": [
+    { "type": "enchantment", "name": "formidável" },
+    { "type": "enchantment", "name": "tumular" },
+    { "type": "dano_extra", "dados": "1d8", "tipo_dano": "trevas" },
+    { "type": "bonus_passivo", "bonus": 5, "contexto": "testes contra desarmar" },
+    { "type": "restricao", "descricao": "soltar a adaga gasta uma ação de movimento" }
+  ],
+  "livro": "ameacas_de_arton"
+}

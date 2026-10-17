@@ -1,0 +1,30 @@
+{
+  "id": "combate_montado",
+  "name": "Combate Montado",
+  "type": "poder_geral",
+  "sub_type": "poder_de_combate",
+  "description": "Enquanto estiver montado, você recebe +2 em testes de ataque e rolagens de dano com armas.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "ginete"
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_test_improvment",
+      "value": 2,
+      "condition": "montado",
+      "duration": "instantanea"
+    },
+    {
+      "type": "damage_improvement",
+      "value": 2,
+      "condition": "montado",
+      "duration": "instantanea"
+    }
+  ],
+  "costs": null,
+  "livro": "ameacas_de_arton"
+}

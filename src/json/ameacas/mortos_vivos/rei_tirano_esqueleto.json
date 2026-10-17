@@ -1,0 +1,52 @@
+{
+  "id": "rei_tirano_esqueleto",
+  "name": "Rei-Tirano Esqueleto",
+  "nd": 12,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "mortos_vivos",
+  "pv": 625,
+  "pm": null,
+  "defesa": 43,
+  "salvaguardas": { "fort": 26, "ref": 20, "von": 12 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "corte": 10, "frio": 10, "perfuração": 10 },
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 9,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 10, "des": 0, "con": 4, "int": null, "sab": -1, "car": -4 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 37,
+      "dano": [
+        { "dados": [{ "quantidade": 6, "faces": 10 }], "bonus": 31, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Cauda",
+      "bonus": 37,
+      "dano": [
+        { "dados": [{ "quantidade": 6, "faces": 6 }], "bonus": 26, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com a mordida (teste +42)." },
+    { "nome": "Cauda Avassaladora", "acao": "livre", "descricao": "Quando acerta um ataque de cauda, o rei-tirano esqueleto arremessa a vítima 1d8 x 1,5m em uma direção à escolha dele (Fortitude CD 35 evita). A vítima fica caída e, se atingir algum obstáculo, sofre 1d8 pontos de dano de impacto para cada 1,5m que foi arremessada." },
+    { "nome": "Engolir", "acao": "padrão", "descricao": "No início de cada um dos turnos do rei-tirano, a criatura engolida sofre 6d6+16 pontos de dano de corte mais 6d6+16 pontos de dano de trevas. Ela pode escapar causando um total de 50 pontos de dano a ele (Defesa 15) ou, se for Minúscula, gastando uma ação de movimento. A criatura engolida não fica cega nem tem cobertura contra efeitos do lado de fora (e vice-versa)." },
+    { "nome": "Monte de Ossos", "descricao": "Quando sofre um acerto crítico, o rei-tirano se desfaz em uma pilha de ossos. Ele fica caído e vulnerável, falha automaticamente em testes de Reflexos e precisa gastar uma ação de movimento para se remontar e encerrar estes efeitos." },
+    { "nome": "Visão Baseada em Movimento", "descricao": "O rei-tirano sofre –10 em testes de Percepção para encontrar criaturas que não estejam se movendo (em termos de jogo, criaturas que tenham feito apenas ações mentais em seu turno anterior)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Dentes do rei-tirano (CD 27 para extrair, valem T$ 1.500 para fabricar armas superiores).",
+  "description": "Esqueleto colossal de um rei-tirano, ainda capaz de engolir vítimas inteiras e golpeá-las com sua cauda devastadora.",
+  "livro": "ameacas_de_arton"
+}

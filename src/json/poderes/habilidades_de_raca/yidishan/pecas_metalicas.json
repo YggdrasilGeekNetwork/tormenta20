@@ -1,0 +1,12 @@
+{
+  "id": "pecas_metalicas",
+  "name": "Peças Metálicas",
+  "type": "habilidade_de_raca",
+  "race": "yidishan",
+  "description": "As partes mecânicas que complementam seu corpo fornecem +2 na Defesa, mas impõem uma penalidade de armadura de –2.",
+  "effects": {
+    "defense_bonus": 2,
+    "armor_penalty": -2
+  },
+  "livro": "ameacas_de_arton"
+}

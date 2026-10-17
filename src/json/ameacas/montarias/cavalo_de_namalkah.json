@@ -1,0 +1,45 @@
+{
+  "id": "cavalo_de_namalkah",
+  "name": "Cavalo de Namalkah",
+  "nd": 2,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 60,
+  "pm": null,
+  "defesa": 18,
+  "salvaguardas": { "fort": 11, "ref": 7, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "medo": 2 },
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 6,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 6, "des": 2, "con": 3, "int": -4, "sab": 1, "car": 0 },
+  "pericias": { "atletismo": 11 },
+  "ataques": [
+    {
+      "nome": "Cascos",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 6, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 15m e você recebe uma ação de movimento extra por turno (apenas para se deslocar).",
+    "veterano": "Seu deslocamento muda para 18m e você recebe +2 em ataques corpo a corpo.",
+    "mestre": "Você recebe uma segunda ação de movimento extra por turno (apenas para se deslocar) e, uma vez por rodada, +2d6 em uma rolagem de dano corpo a corpo."
+  },
+  "description": "O reino de Namalkah é conhecido por criar os mais extraordinários cavalos de Arton: seus cavalos de montaria são mais rápidos, os de carga mais fortes e os de guerra mais poderosos. Esses cavalos raramente são encontrados à venda fora de Namalkah; mesmo no reino, conquistar um requer mais que dinheiro — requer merecimento, geralmente exigindo algum tipo de missão ou aventura para se provar digno.",
+  "livro": "ameacas_de_arton"
+}

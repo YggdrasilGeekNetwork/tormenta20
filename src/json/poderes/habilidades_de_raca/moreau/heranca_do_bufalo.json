@@ -1,0 +1,14 @@
+{
+  "id": "heranca_do_bufalo",
+  "name": "Herança do Búfalo",
+  "type": "habilidade_de_raca",
+  "race": "moreau",
+  "description": "Força +1, +1 em dois atributos a sua escolha. Chifres: você possui uma arma natural de chifres (dano 1d6, crítico x2, perfuração); uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com os chifres. Faro: você tem olfato apurado — contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha. Marrada Impressionante: você recebe +2 em ataques em investida e em testes para empurrar, e pode usar Força como atributo-chave de Intimidação (em vez de Carisma).",
+  "effects": {
+    "attribute_bonus": { "forca": 1, "chosen": { "count": 2, "value": 1 } },
+    "chifres": { "natural_weapon": { "name": "chifres", "damage": "1d6", "critical": "x2", "damage_type": "perfuracao" }, "extra_attack_cost": { "pm": 1 } },
+    "faro": { "keen_smell": true, "vs_unseen_short_range": { "no_flat_footed": true, "total_concealment_miss_chance": 20 } },
+    "marrada_impressionante": { "charge_attack_bonus": 2, "push_maneuver_bonus": 2, "skill_key_attribute_override": { "skill": "intimidacao", "attribute": "forca" } }
+  },
+  "livro": "ameacas_de_arton"
+}

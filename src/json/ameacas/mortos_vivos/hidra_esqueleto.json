@@ -1,0 +1,42 @@
+{
+  "id": "hidra_esqueleto",
+  "name": "Hidra Esqueleto",
+  "nd": 11,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "mortos_vivos",
+  "pv": 550,
+  "pm": null,
+  "cura_acelerada": 100,
+  "defesa": 39,
+  "salvaguardas": { "fort": 24, "ref": 18, "von": 9 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "corte": 10, "frio": 10, "perfuração": 10 },
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 9,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "natacao": 9 },
+  "atributos": { "for": 10, "des": 0, "con": 10, "int": null, "sab": -1, "car": -5 },
+  "pericias": { "furtividade": 4 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "quantidade": 5,
+      "bonus": 34,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 16, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Quebra-Ossos", "descricao": "As cabeças da hidra são seu ponto fraco e é possível atacá-las diretamente (Defesa 41). Se o ataque acertar e causar pelo menos 25 pontos de dano de impacto, a cabeça é decepada e a hidra perde um ataque de mordida. Entretanto, 1d4 rodadas após a cabeça ser decepada, duas novas nascem em seu lugar (a hidra pode ter até dez cabeças). Para impedir o nascimento de novas cabeças é necessário purificar o pescoço, o que exige causar 25 pontos de dano de luz. Se todas as cabeças da hidra forem decepadas e todos seus pescoços forem purificados, ela morre." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão.",
+  "description": "Esqueleto animado de uma hidra, mantendo a capacidade regenerativa de brotar novas cabeças quando decepadas — exigindo purificação dos pescoços para impedir o renascimento.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "kappa",
+  "name": "Kappa",
+  "description": "Demônio aquático tamuraniano com aspecto de tartaruga bípede, face reptiliana, olhos redondos e vermelhos, escamas verde-amareladas e grande carapaça às costas. Carrega uma depressão no alto da cabeça contendo um pouco d'água; se essa água se derrama, o kappa fica enfraquecido. Artistas marciais exímios, orgulhosos e arrogantes, mas pouco honrados e inquietos — podem ser negociados com diplomacia e paciência.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "destreza": 2, "constituicao": 1, "carisma": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["alma_da_agua", "carapaca_kappa", "cura_das_aguas", "tigela_dagua"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "x2",
+  "devocao": ["hyninn", "lena", "lin_wu", "oceano"],
+  "livro": "ameacas_de_arton"
+}

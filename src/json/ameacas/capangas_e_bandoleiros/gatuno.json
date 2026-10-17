@@ -1,0 +1,43 @@
+{
+  "id": "gatuno",
+  "name": "Gatuno",
+  "nd": 1,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "capangas_e_bandoleiros",
+  "pv": 25,
+  "pm": null,
+  "defesa": 14,
+  "salvaguardas": { "fort": 0, "ref": 11, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 2,
+  "visao": [],
+  "deslocamento": { "terrestre": 9, "escalada": 6 },
+  "atributos": { "for": 0, "des": 3, "con": 1, "int": 1, "sab": 0, "car": 0 },
+  "pericias": { "acrobacia": 7, "furtividade": 10, "ladinagem": 7 },
+  "ataques": [
+    {
+      "nome": "Porrete",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 5, "tipo": "impacto" }
+      ],
+      "critico": "20/x2",
+      "observacao": "não letal"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Furtivo", "descricao": "+2d6 de dano extra quando flanqueia ou surpreende o alvo." },
+    { "nome": "Pancada na Cabeça", "descricao": "Uma criatura atingida por um ataque furtivo do gatuno fica inconsciente e caída ou, se estiver em combate ou outra situação perigosa, fica exausta por 1 rodada e depois fatigada (em ambos os casos, Fortitude CD 16 reduz para fatigada por 1d4 rodadas)." },
+    { "nome": "Sombra", "descricao": "O gatuno não sofre penalidade em testes de Furtividade por se mover ao seu deslocamento normal e reduz a penalidade por atacar e fazer outras ações chamativas para –10." }
+  ],
+  "equipamento": ["Armadura de couro", "Gazua", "Porrete"],
+  "tesouro": "Padrão.",
+  "description": "Ladrão furtivo e acrobático clássico, que corre sobre telhados, entra pelas janelas, engana sentinelas e espreita na escuridão — mais ágil, esperto e audacioso que o bandido comum. Quase nunca luta de fato, apenas ataca furtivamente das sombras; se o alvo não cai, foge e desiste, ou aguarda outra oportunidade. Poucas vezes está interessado em matar — é um ladrão, não um assassino. Age sozinho na maior parte do tempo, formando grupos apenas para grandes golpes; estas estatísticas também podem representar espiões ou ninjas.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "encontros_aleatorios",
+  "name": "Encontros Aleatórios",
+  "description": "Regras para gerar encontros aleatórios por terreno ou região, facilitando a vida do mestre ao não precisar planejar todos os habitantes de uma área (Ameaças de Arton, Apêndice D).",
+  "como_usar": "Escolha uma ou mais condições da lista abaixo. Sempre que essa condição ocorrer, role 1d20 e adicione +1 para cada rolagem anterior sem um encontro. Se o resultado for 20 ou mais, um encontro acontece. Para determinar o que os aventureiros encontram (ou pelo que eles são encontrados), role 1d% na tabela correspondente ao tipo de terreno ou região em que eles estão.",
+  "ajuste_de_patamar": "Para ajustar os resultados ao patamar da aventura, some +30 à rolagem se o grupo estiver em patamar veterano, +70 se estiver em patamar campeão e +110 se estiver em patamar lenda.",
+  "condicoes": [
+    { "nome": "Tempo", "descricao": "A condição mais básica. Role o dado a cada hora ou dia, de acordo com a situação do jogo. Por exemplo, se os aventureiros estiverem explorando uma ruína, role um dado por hora; numa viagem de uma semana entre cidades, role a cada dia. Se não quiser controlar o tempo do jogo, role a cada cena, ou sempre que os heróis fizerem algo que leva muito tempo, como escolher 20 num teste de perícia ou ficar um dia acampados para recuperar pontos de vida e magia." },
+    { "nome": "Barulho", "descricao": "Role o dado sempre que os personagens fizerem algo barulhento ou que, de alguma outra forma, chame atenção. Por exemplo, se o ladino do grupo não conseguir arrombar uma porta trancada e o bárbaro resolver derrubá-la com seu machado, há uma chance de encontro." },
+    { "nome": "Área Específica", "descricao": "Role um dado sempre que os aventureiros passarem por uma área específica, determinada com antecedência pelo mestre. Normalmente será um lugar importante ou muito movimentado, como um corredor que leva ao quarto do rei em um castelo, ou uma clareira no centro de um bosque — provavelmente uma área pela qual os aventureiros deverão passar para cumprir sua missão." },
+    { "nome": "Perigo Complexo", "descricao": "Certos perigos complexos, como Jornada pelos Ermos, podem ser combinados com encontros aleatórios. Neste caso, role um dado sempre que o grupo (ou o personagem que está representando o grupo) falhar em um teste do perigo." }
+  ],
+  "o_rhandomm": "Uma força do caos capaz de se manifestar em qualquer lugar de Arton. Sempre que rolar um 100 natural (um resultado de 100 no dado de %) em uma tabela de encontros, qualquer que seja o patamar, role 1d4. Em um resultado '1', substitua o encontro pelo Rhandomm.",
+  "tabelas_relacionadas": {
+    "terrenos": ["encontros_aquatico", "encontros_artico", "encontros_area_de_tormenta", "encontros_colina", "encontros_deserto", "encontros_floresta", "encontros_montanha", "encontros_pantano", "encontros_planicie", "encontros_subterraneo", "encontros_urbano"],
+    "regioes": ["encontros_aslothia", "encontros_estradas_do_reinado", "encontros_galrasia", "encontros_imperio_de_tauron", "encontros_sanguinarias", "encontros_supremacia_purista", "encontros_ruinas_de_tyrondir_lamnor"]
+  },
+  "encontros_por_regiao": {
+    "descricao": "Sugestões de qual(is) terreno(s) e/ou tabela(s) regional(is) usar para cada região de Arton. Quando uma região lista mais de um terreno, escolha o apropriado para a localização exata dos personagens dentro da região.",
+    "regioes": [
+      { "nome": "Academia Arcana", "terrenos": ["floresta"], "observacao": "raramente gera encontros aleatórios; qualquer terreno pode ser gerado magicamente para atividades acadêmicas" },
+      { "nome": "Ahlen", "terrenos": ["planicie", "colina (noroeste)", "floresta (Ilha de Collen, oeste e partes do norte)"] },
+      { "nome": "Aslothia", "terrenos": ["aslothia", "aquatico (litoral)", "floresta (norte e leste)"] },
+      { "nome": "Bielefeld", "terrenos": ["planicie", "estradas_do_reinado", "floresta (leste)", "supremacia_purista (fronteira noroeste)"] },
+      { "nome": "Catacumbas de Leverick", "terrenos": ["subterraneo"] },
+      { "nome": "Conflagração do Aço", "terrenos": ["floresta", "colina (próximo às fronteiras)"] },
+      { "nome": "Deheon", "terrenos": ["floresta", "planicie", "estradas_do_reinado", "aquatico (Rios Nerull e da Fortitude)", "colina (leste)", "montanha (Teldiskan)", "pantano (Pântano dos Juncos)"] },
+      { "nome": "Doherimm", "terrenos": ["subterraneo", "aquatico (sul)"] },
+      { "nome": "Ermos Púrpuras", "terrenos": ["floresta", "aslothia (fronteira leste)", "montanha (várias)", "supremacia_purista (fronteira oeste)"] },
+      { "nome": "Feudos de Trebuck", "terrenos": ["planicie", "area_de_tormenta (oeste)", "floresta (várias)", "sanguinarias (leste)"] },
+      { "nome": "Floresta de Tollon", "terrenos": ["floresta", "aquatico (sul e grandes rios)", "colina (norte)"] },
+      { "nome": "Galrasia", "terrenos": ["galrasia", "aquatico (litoral)", "montanha (região central)"] },
+      { "nome": "Halak-Tûr", "terrenos": ["deserto", "area_de_tormenta", "montanha (leste)", "planicie (sul)"] },
+      { "nome": "Império de Tauron", "terrenos": ["imperio_de_tauron", "aquatico (litoral sul)", "floresta (Megalokk, Narinilla, Petrynia)", "montanha (fronteira leste)"] },
+      { "nome": "Lamnor", "terrenos": ["ruinas_de_tyrondir_lamnor", "aquatico (litoral e centro)", "area_de_tormenta (oeste e sul)", "deserto (Deserto sem Retorno)", "floresta (Myrvallar e norte)", "montanha (sul)", "pantano (norte)"] },
+      { "nome": "Khalifor", "terrenos": ["urbano", "subterraneo"] },
+      { "nome": "Khubar", "terrenos": ["floresta", "planicie", "aquatico (litoral e entre ilhas)", "montanha (região central das ilhas)"] },
+      { "nome": "Montanhas Sanguinárias", "terrenos": ["sanguinarias", "aquatico (litoral sudeste)", "area_de_tormenta (leste)"] },
+      { "nome": "Montanhas Uivantes", "terrenos": ["artico", "montanha", "aquatico (Grande Lago)", "floresta (sul)", "imperio_de_tauron (oeste)"] },
+      { "nome": "Moreania", "terrenos": ["aquatico (litoral e entre ilhas)", "floresta (leste)", "montanha (Montanhas de Marfim)", "planicie (oeste)"] },
+      { "nome": "Namalkah", "terrenos": ["planicie", "estradas_do_reinado", "aquatico (Rio dos Deuses)", "floresta (norte e leste)", "montanha (extremo oeste e Desfiladeiro de Dópsia)", "supremacia_purista (fronteira sul)"] },
+      { "nome": "Nova Malpetrim", "terrenos": ["aquatico", "urbano"] },
+      { "nome": "Pondsmânia", "terrenos": ["floresta", "colina (oeste)", "planicie (leste e oeste)", "qualquer outro à vontade da Rainha"] },
+      { "nome": "Repúblicas Livres de Samburdia", "terrenos": ["floresta", "aquatico (Rio dos Deuses, Rio Soupar e litoral sudeste)", "aslothia (fronteira sul)", "planicie (oeste e partes do leste e da fronteira sul)", "montanha", "sanguinarias (fronteira nordeste)"] },
+      { "nome": "Ruínas de Tyrondir", "terrenos": ["ruinas_de_tyrondir_lamnor", "aquatico (litoral)", "colina (noroeste)", "montanha (noroeste)"] },
+      { "nome": "Salistick", "terrenos": ["planicie", "aquatico (Rio Vermelho)", "floresta (sul)", "pantano (Pântano dos Vermes)", "supremacia_purista (fronteira oeste)"] },
+      { "nome": "Sckharshantallas", "terrenos": ["planicie", "aquatico (Lago Allinthonarid e Rio dos Deuses)", "area_de_tormenta (extremo sudoeste)", "floresta (diversas)", "montanha (fronteiras norte, leste e sul)"] },
+      { "nome": "Smokestone", "terrenos": ["urbano", "colina", "deserto"] },
+      { "nome": "Supremacia Purista", "terrenos": ["supremacia_purista", "colina", "floresta (Vale do Baixo)", "montanha (Monte Kovith)"] },
+      { "nome": "Svalas", "terrenos": ["planicie", "floresta (Floresta Svalas)", "supremacia_purista (fronteira oeste)"] },
+      { "nome": "Tamu-ra", "terrenos": ["planicie", "aquatico (litoral e rios internos)", "floresta (norte e sul)", "montanha (extremo norte)"] },
+      { "nome": "Triunphus", "terrenos": ["urbano", "montanha (cercanias da cidade)"] },
+      { "nome": "Ubani", "terrenos": ["planicie", "area_de_tormenta (leste e oeste)", "deserto (norte)", "floresta (Kivulisi)", "imperio_de_tauron (fronteira sudoeste)", "sanguinarias (fronteira leste)"] },
+      { "nome": "Valkaria", "terrenos": ["urbano", "subterraneo (esgotos e catacumbas)"] },
+      { "nome": "Vectora", "terrenos": ["urbano", "subterraneo (pequenas áreas)"] },
+      { "nome": "Wynlla", "terrenos": ["aquatico (litoral)", "floresta (Floresta Suplicante)", "montanha (norte)", "urbano (Coridrian, Sophand)", "planicie", "estradas_do_reinado"] },
+      { "nome": "Zakharov", "terrenos": ["aquatico (Rio Panteão)", "colina (Colinas Centrais)", "floresta (leste)", "supremacia_purista (fronteira leste)", "estradas_do_reinado", "planicie"] }
+    ]
+  },
+  "livro": "ameacas_de_arton"
+}

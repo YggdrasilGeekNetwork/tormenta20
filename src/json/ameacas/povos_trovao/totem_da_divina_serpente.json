@@ -1,0 +1,65 @@
+{
+  "id": "totem_da_divina_serpente",
+  "name": "Totem da Divina Serpente (Aspecto de Allihanna)",
+  "nd": 14,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "povos_trovao",
+  "pv": 700,
+  "pm": 83,
+  "defesa": 42,
+  "salvaguardas": { "fort": 27, "ref": 20, "von": 15 },
+  "reducao_de_dano": 15,
+  "imunidades": ["fogo", "veneno"],
+  "resistencias": {},
+  "resistencia_a_magia": 2,
+  "vulnerabilidades": [],
+  "iniciativa": 20,
+  "percepcao": 24,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "escalada": 9, "natacao": 9 },
+  "atributos": { "for": 16, "des": 4, "con": 10, "int": 2, "sab": 8, "car": 8 },
+  "pericias": { "misticismo": 15, "religiao": 24, "sobrevivencia": 24 },
+  "ataques": [
+    {
+      "nome": "Presa de serpente",
+      "bonus": 38,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 23, "tipo": "corte" },
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 0, "tipo": "fogo" }
+      ],
+      "critico": "16/x3"
+    },
+    {
+      "nome": "Garra",
+      "bonus": 38,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 23, "tipo": "corte" },
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 0, "tipo": "fogo" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Cauda",
+      "bonus": 38,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 23, "tipo": "impacto" },
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 0, "tipo": "fogo" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com a cauda (teste +43)." },
+    { "nome": "Aura de Calor", "descricao": "O totem da Divina Serpente emana um calor intenso. No início de cada turno do totem, todas as criaturas em um raio de 9m sofrem 4d6+15 pontos de dano de fogo." },
+    { "nome": "Chama Divina", "descricao": "Cada dado de dano de fogo causado pelo totem aumenta em um passo (já contabilizado)." },
+    { "nome": "Constrição", "acao": "livre", "descricao": "No início de cada um de seus turnos, o totem causa 4d6+19 pontos de dano de impacto em qualquer criatura que esteja agarrando." },
+    { "nome": "Tempestade de Chamas", "descricao": "Uma vez por rodada, quando faz um acerto crítico com sua presa de serpente, o totem pode lançar uma magia como uma ação livre." },
+    { "nome": "Magias", "descricao": "Lança magias como clérigo de Allihanna de 14º nível (CD 40): Bola de Fogo (padrão, 9 PM, 12d8 de fogo em esfera de 6m), Controlar Fogo (padrão, 3 PM), Coluna de Chamas (padrão, 6 PM, pilar de fogo sagrado, 6d8 de fogo + 6d6 de luz), Lança Ígnea de Aleph (padrão, 6 PM, 4d8 de fogo + 4d6 de perfuração, chamas), Muralha Elemental (padrão, 6 PM, apenas fogo, muro ou cúpula de chamas)." }
+  ],
+  "equipamento": ["Presa de serpente aumentada"],
+  "tesouro": "Nenhum.",
+  "description": "Aspecto divino de Allihanna invocado pelas voracis, que veneram a Deusa da Natureza sob a forma da Divina Serpente — um ser flamejante e demoníaco com torso de mulher e cabeça de serpente.",
+  "livro": "ameacas_de_arton"
+}

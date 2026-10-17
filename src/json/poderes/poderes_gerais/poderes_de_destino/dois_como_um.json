@@ -1,0 +1,25 @@
+{
+  "id": "dois_como_um",
+  "name": "Dois Como Um",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Quando faz um teste de Atletismo, Cavalgar, Iniciativa, Luta, Percepção, Pontaria ou Reflexos enquanto montado, você pode gastar 2 PM para rolar dois dados e usar o melhor resultado.",
+  "requirements": [
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "ginete"
+    }
+  ],
+  "effects": [
+    {
+      "type": "reroll_best_of_two",
+      "skills": ["atletismo", "cavalgar", "iniciativa", "luta", "percepcao", "pontaria", "reflexos"],
+      "condition": "montado",
+      "costs": { "value": 2, "type": "PM" },
+      "duration": "instantanea"
+    }
+  ],
+  "costs": null,
+  "livro": "ameacas_de_arton"
+}

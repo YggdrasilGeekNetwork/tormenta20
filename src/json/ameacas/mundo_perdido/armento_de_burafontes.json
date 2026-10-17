@@ -1,0 +1,41 @@
+{
+  "id": "armento_de_burafontes",
+  "name": "Armento de Burafontes",
+  "nd": 8,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "colossal",
+  "grupo": "mundo_perdido",
+  "pv": 310,
+  "pm": null,
+  "defesa": 35,
+  "salvaguardas": { "fort": 21, "ref": 15, "von": 8 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 6,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 8, "des": 1, "con": 4, "int": -4, "sab": -2, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Cauda [Bando]",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 24, "tipo": "impacto" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Cauda Espinhosa", "descricao": "Quando faz um acerto crítico em uma criatura com sua cauda, o armento de burafontes deixa a vítima sangrando." },
+    { "nome": "Postura Protetora", "acao": "movimento", "descricao": "O armento forma um círculo para proteger seus filhotes, mantendo suas caudas voltadas para fora. Enquanto essa postura estiver ativa, o armento não pode se deslocar, mas pode golpear todas as criaturas ao seu redor. Ele faz um único ataque de cauda e compara o resultado com a Defesa de cada criatura ao seu alcance." }
+  ],
+  "equipamento": [],
+  "tesouro": "2d4 protuberâncias ósseas (CD 23 para extrair, cada protuberância vale T$ 100 para fabricar armas corpo a corpo superiores).",
+  "description": "Representa um bando de burafontes agindo em conjunto (regra de Bando, veja 'Manual de Criação de Ameaças').",
+  "livro": "ameacas_de_arton"
+}

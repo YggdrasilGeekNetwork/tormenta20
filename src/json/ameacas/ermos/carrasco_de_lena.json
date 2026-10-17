@@ -1,0 +1,50 @@
+{
+  "id": "carrasco_de_lena",
+  "name": "Carrasco de Lena",
+  "nd": 6,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "ermos",
+  "pv": 180,
+  "pm": null,
+  "defesa": 27,
+  "salvaguardas": { "fort": 16, "ref": 12, "von": 8 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 6,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": 1, "con": 4, "int": -4, "sab": 1, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Tentáculo",
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 10, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 20, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Açoite Circular", "acao": "padrão", "descricao": "O carrasco de Lena agita seu tentáculo, causando 2d6+10 pontos de dano de corte em todas as criaturas a até 3m (Reflexos CD 22 reduz à metade)." },
+    { "nome": "Inversão de Dano", "descricao": "O carrasco converte qualquer dano recebido em cura. Caso já esteja com PV máximos, recebe PV temporários com limite igual aos seus PV máximos (pode acumular até 180 PV temporários)." },
+    { "nome": "Vulnerabilidade a Cura", "descricao": "Efeitos de cura causam dano ao carrasco em vez de curar PV. Itens alquímicos e poções de cura podem ser usados como granadas contra ele (reduz à metade se passar em um teste de Reflexos contra a CD do item)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Abominação assassina em forma de salamandra imensa, com couro rugoso, pernas atarracadas, cauda grossa e um tentáculo longo no alto da cabeça terminado em um órgão espinhoso semelhante a uma maça com cravos. Habita florestas e pântanos; seu nome herético contrasta com a bondosa Deusa da Vida, mas a origem é sagaz — é quase indestrutível, sendo ferido por armas e magias comuns de forma a torná-lo mais forte, enquanto sua única vulnerabilidade conhecida são magias de cura, que o ferem em vez de curá-lo. Quando caça, tenta agarrar ou derrubar a vítima com o tentáculo antes da mordida cruel; contra vários oponentes, prefere açoites circulares para atingir tudo em volta. Devotos de Lena rejeitam qualquer ligação entre sua deusa e a origem destes monstros.",
+  "livro": "ameacas_de_arton"
+}

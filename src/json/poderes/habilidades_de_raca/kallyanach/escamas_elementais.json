@@ -1,0 +1,12 @@
+{
+  "id": "escamas_elementais",
+  "name": "Escamas Elementais",
+  "type": "habilidade_de_raca",
+  "race": "kallyanach",
+  "description": "Sua pele é recoberta de escamas resistentes e brilhantes, que fornecem +2 na Defesa e aumentam a redução de dano de sua Herança Dracônica para 10.",
+  "effects": {
+    "defense_bonus": 2,
+    "upgrades": { "heranca_draconica_damage_reduction": 10 }
+  },
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "fruto_da_espada_mae",
+  "name": "Fruto da Espada-Mãe",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": null,
+  "espacos": 0.1,
+  "uso": "consumido",
+  "acoes": { "consumir": "padrao" },
+  "efeito": {
+    "cura": "4d8+4",
+    "remove_condicoes": "todas as condições negativas, doenças e venenos"
+  },
+  "description": "Fruto cultivado pela espada-da-floresta, desesperadamente procurado por aqueles que são alvos de maldições e pragas. Ingerir um fruto da espada-mãe é uma ação padrão e cura 4d8+4 pontos de vida e remove todas as condições negativas, doenças e venenos que estejam afetando o personagem. Um fruto não consumido apodrece ao fim da aventura. Raramente colocado à venda.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,22 @@
+{
+  "id": "neko_te",
+  "name": "Neko-te",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "leve",
+  "preco": 10,
+  "dano": "1d4",
+  "critico": "19",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "bonus_atletismo_escalar": 2,
+    "conta_como_mao_livre_para_escalar": true,
+    "bonus_deslocamento_escalada_com_duas": "1,5m"
+  },
+  "description": "Uma luva com garras metálicas na palma e no dorso. Fornece +2 em testes de Atletismo para escalar e conta como uma mão livre para isso. Além disso, se você estiver usando duas neko-te, seu deslocamento ao escalar aumenta em +1,5m.",
+  "livro": "ameacas_de_arton"
+}

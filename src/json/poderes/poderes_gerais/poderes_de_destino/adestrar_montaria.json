@@ -1,0 +1,34 @@
+{
+  "id": "adestrar_montaria",
+  "name": "Adestrar Montaria",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Você recebe +2 em Adestramento. Além disso, escolha um dos efeitos a seguir: sua montaria se torna veterana, ou recebe a habilidade de um outro tipo de parceiro iniciante, entre ajudante, assassino, besta de carga, combatente, fortão, guardião ou vigilante (no caso do ajudante, o mestre deve aprovar as perícias escolhidas). Você só pode ter uma montaria treinada desta forma por vez e, se perdê-la, pode aplicar um treinamento a outra com uma semana de trabalho.",
+  "requirements": [
+    {
+      "type": "expertise",
+      "sub_type": "hard",
+      "id": "adestramento"
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 7
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "skill": "adestramento",
+      "value": 2,
+      "duration": "permanente"
+    },
+    {
+      "type": "mount_upgrade",
+      "options": ["veterano", "ajudante", "assassino", "besta_de_carga", "combatente", "fortao", "guardiao", "vigilante"],
+      "duration": "permanente"
+    }
+  ],
+  "costs": null,
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "heranca_da_serpente",
+  "name": "Herança da Serpente",
+  "type": "habilidade_de_raca",
+  "race": "moreau",
+  "description": "Inteligência +1, +1 em dois atributos a sua escolha. Arborícola: você recebe deslocamento de escalada 6m e +2 em Furtividade. Constritor: você recebe +2 em testes para agarrar e em rolagens de dano contra criaturas que estiver agarrando. Instintos Traiçoeiros: você recebe visão no escuro e +2 em Diplomacia e na CD de seus efeitos mentais.",
+  "effects": {
+    "attribute_bonus": { "inteligencia": 1, "chosen": { "count": 2, "value": 1 } },
+    "arboricola": { "climb_speed": 6, "skill_improvement": { "skill": "furtividade", "value": 2 } },
+    "constritor": { "grapple_bonus": 2, "damage_bonus_vs_grappled": 2 },
+    "instintos_traicoeiros": { "vision": "visao_no_escuro", "skill_improvement": { "skill": "diplomacia", "value": 2 }, "mental_effect_dc_bonus": 2 }
+  },
+  "livro": "ameacas_de_arton"
+}

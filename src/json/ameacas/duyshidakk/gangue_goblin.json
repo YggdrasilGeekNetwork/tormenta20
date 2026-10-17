@@ -1,0 +1,33 @@
+{
+  "id": "gangue_goblin",
+  "name": "Gangue Goblin",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "goblin",
+  "tamanho": "grande",
+  "grupo": "duyshidakk",
+  "pv": 171,
+  "pm": null,
+  "defesa": 20,
+  "salvaguardas": { "fort": 14, "ref": 10, "von": 6 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 10,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "escalada": 9 },
+  "atributos": { "for": 1, "des": 3, "con": 1, "int": -1, "sab": -1, "car": -2 },
+  "pericias": {},
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Enxame", "descricao": "Toda criatura no espaço da gangue goblin sofre 5d6 pontos de dano de perfuração." },
+    { "nome": "Frenesi Incontrolável", "descricao": "Para cada 20 pontos de dano que a gangue goblin sofre, seu dano aumenta em +1d6 até o fim da cena." },
+    { "nome": "Cada Um por Si!", "descricao": "Quando é reduzida a 0 PV ou menos, a gangue se dispersa, deixando apenas os mais fracos para trás: transforma-se em 1d4+2 goblins salteadores." }
+  ],
+  "equipamento": [],
+  "tesouro": "Metade.",
+  "description": "Um grande bando goblin que, incitado ao combate, se une em uma massa compacta — as próprias mentes individuais quase suprimidas — e ataca como um cardume de piranhas, como uma única criatura imensa e multifacetada. Cerca guerreiros bem treinados, encontra frestas mesmo na mais forte armadura e deixa apenas corpos descarnados para trás; o estado de imersão mental é tão poderoso que muitas magias destinadas a seres individuais não surtem efeito. A única forma de vencer a gangue é causar dano suficiente para que se disperse.",
+  "livro": "ameacas_de_arton"
+}

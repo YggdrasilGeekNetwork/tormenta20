@@ -1,0 +1,33 @@
+{
+  "id": "horda_goblin",
+  "name": "Horda Goblin",
+  "nd": 14,
+  "tipo": "Humanoide",
+  "subtipo": "goblin",
+  "tamanho": "colossal",
+  "grupo": "duyshidakk",
+  "pv": 666,
+  "pm": null,
+  "defesa": 42,
+  "salvaguardas": { "fort": 28, "ref": 23, "von": 16 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 23,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "escalada": 9 },
+  "atributos": { "for": 3, "des": 3, "con": 1, "int": 0, "sab": -1, "car": -2 },
+  "pericias": {},
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Enxame", "descricao": "Toda criatura no espaço da horda goblin sofre 14d6 pontos de dano de perfuração." },
+    { "nome": "Pilhar e Devorar", "descricao": "A horda saqueia e consome tudo à sua volta em velocidade assustadora. Quando causa dano, recupera PV igual à metade do resultado de sua rolagem de dano (independente de quantas criaturas sofreram dano). Cada vez que uma criatura sofre dano da horda, um de seus itens (à escolha da horda, entre armadura, escudo e arma empunhada) é avariado (Reflexos CD 35 evita)." },
+    { "nome": "Sobrepujar", "acao": "livre", "descricao": "No início do seu turno, a horda faz a manobra agarrar (teste +49) contra todas as criaturas de tamanho Grande ou menor em seu espaço." }
+  ],
+  "equipamento": [],
+  "tesouro": "Metade.",
+  "description": "Uma gangue goblin levada ao extremo: uma massa colossal que saqueia e consome tudo à sua volta com velocidade assustadora, deixando ruínas por onde passa.",
+  "livro": "ameacas_de_arton"
+}

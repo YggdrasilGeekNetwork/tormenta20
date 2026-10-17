@@ -1,0 +1,49 @@
+{
+  "id": "trog_anao_bruto",
+  "name": "Trog Anão Bruto",
+  "nd": 1,
+  "tipo": "Monstro",
+  "subtipo": "trog",
+  "tamanho": "medio",
+  "grupo": "brutos_e_indomaveis",
+  "pv": 35,
+  "pm": null,
+  "defesa": 19,
+  "salvaguardas": { "fort": 11, "ref": 0, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 1,
+  "percepcao": 5,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 3, "des": 0, "con": 4, "int": -2, "sab": 0, "car": -1 },
+  "pericias": { "sobrevivencia": 7 },
+  "ataques": [
+    {
+      "nome": "Machado de guerra",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 3, "tipo": "corte" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 3, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Mau Cheiro", "acao": "padrão", "descricao": "Fortitude CD 14 evita (veneno)." },
+    { "nome": "Sobrevivente", "descricao": "Quando faz um teste de resistência, o trog anão bruto rola dois dados e usa o melhor resultado." }
+  ],
+  "equipamento": ["Loriga segmentada", "Machado de guerra"],
+  "tesouro": "Metade.",
+  "description": "O ocasional nascimento de um trog anão é visto com grande ressentimento por sua tribo — um sinal agourento da ligação ancestral dos trogs com os anões, que a deusa Tenebra lhes impôs como maldição. Sem uma tribo e com escassas chances de aceitação nas cidades humanas, pode acabar isolado como um monstro qualquer nas profundezas de alguma masmorra.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "orc_xama",
+  "name": "Orc Xamã",
+  "nd": 7,
+  "tipo": "Humanoide",
+  "subtipo": "orc",
+  "tamanho": "medio",
+  "grupo": "brutos_e_indomaveis",
+  "pv": 196,
+  "pm": 41,
+  "defesa": 29,
+  "salvaguardas": { "fort": 14, "ref": 7, "von": 20 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "veneno": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 13,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 3, "des": 1, "con": 2, "int": -1, "sab": 6, "car": -1 },
+  "pericias": { "intimidacao": 9, "religiao": 13 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "quantidade": 2,
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 20, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Sensibilidade a Luz", "descricao": "Quando exposto à luz do sol ou similar, o orc fica ofuscado." },
+    { "nome": "Urro Divino (mágica)", "acao": "livre", "custos": { "value": 1, "type": "PM" }, "descricao": "Quando faz um ataque ou lança uma magia, o orc xamã soma sua Constituição à rolagem de dano desse ataque ou magia." },
+    { "nome": "Magias (clérigo de Megalokk, 7º nível, CD 26)", "descricao": "Arma Espiritual (5 PM, sustentada; 1/rodada causa 3d6 de dano de impacto a adjacente, ou reage ao ser atingido para causar o dano ao atacante), Despedaçar (7 PM; 4d8+8 de impacto, dobrado contra construtos/objetos, atordoa), Físico Divino (3 PM; +2 em For/Des/Con a um adjacente até o fim da cena), Soco de Arsenal (7 PM; 6d6+3 de impacto e empurra 3m)." }
+  ],
+  "equipamento": ["Adaga", "Ossos de monstro x1d4", "Símbolo sagrado de Megalokk"],
+  "tesouro": "Padrão.",
+  "description": "Orcs têm mais medo e ódio do que respeito pelos deuses; um orc devoto que demonstre poder divino em geral tenta manter isso em segredo, ou acaba morto muito cedo. Às vezes, contudo, um raro xamã escolhido para brandir poderes divinos consegue prosperar e conquistar o respeito (ou temor) de seus iguais, atuando como conselheiro dos chefes ou tornando-se chefe ele próprio, usando a aversão dos orcs pelos deuses para se manter no comando. Não raro ordena que os orcs capturem vítimas para sacrifícios, visando agradar aos deuses — ou apenas satisfazer seu próprio prazer cruel. Em batalha, é mais violento que outros clérigos, preferindo conjurar magias agressivas contra inimigos em vez de curar aliados.",
+  "livro": "ameacas_de_arton"
+}

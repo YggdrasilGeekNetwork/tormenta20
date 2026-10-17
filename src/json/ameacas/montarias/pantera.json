@@ -1,0 +1,57 @@
+{
+  "id": "pantera",
+  "name": "Pantera",
+  "nd": 2,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "montarias",
+  "pv": 55,
+  "pm": null,
+  "defesa": 16,
+  "salvaguardas": { "fort": 5, "ref": 11, "von": 0 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 4,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 18, "escalada": 9 },
+  "atributos": { "for": 2, "des": 6, "con": 3, "int": -3, "sab": 1, "car": -2 },
+  "pericias": { "atletismo": 7, "furtividade": 11 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 4, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 4, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Mordida (teste +14)." },
+    { "nome": "Sufocar", "acao": "livre", "descricao": "No início de cada um de seus turnos, a pantera causa 1d8+4 pontos de dano de perfuração na criatura que estiver agarrando. Enquanto estiver agarrada desta forma, a criatura não poderá falar nem respirar (veja 'Sufocamento', Tormenta20, p. 319)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "especial (assassino)",
+    "restricao": null,
+    "iniciante": "Uma vez por rodada, quando causa dano com um ataque corpo a corpo, você pode deixar o alvo sangrando.",
+    "veterano": "A CD dos testes para remover um sangramento que você provoca aumenta em +2.",
+    "mestre": "Os sangramentos que você provoca exigem dois sucessos em testes para serem removidos."
+  },
+  "description": "Caçador solitário que prefere atacar em selvas e florestas escuras, preferencialmente à noite, matando a presa e levando-a para ser devorada no alto de uma árvore. O leopardo, de pelo amarelo e manchas escuras, existe em Lamnor, onde disputa caça com os leões; o leopardo-das-neves, outra espécie, habita as Uivantes.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "totem_do_pai_de_tudo",
+  "name": "Totem do Pai-de-Tudo (Aspecto de Azgher)",
+  "nd": 12,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "povos_trovao",
+  "pv": 700,
+  "pm": null,
+  "defesa": 41,
+  "salvaguardas": { "fort": 26, "ref": 10, "von": 22 },
+  "reducao_de_dano": 10,
+  "imunidades": ["cansaço", "dano de luz", "fogo", "trevas"],
+  "resistencias": {},
+  "resistencia_a_magia": 2,
+  "vulnerabilidades": [],
+  "iniciativa": 16,
+  "percepcao": 21,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 10, "des": 4, "con": 6, "int": 1, "sab": 6, "car": 6 },
+  "pericias": { "atletismo": 20, "diplomacia": 21, "intuicao": 21, "religiao": 21 },
+  "ataques": [
+    {
+      "nome": "Chifre solar",
+      "quantidade": 3,
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 18, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 0, "tipo": "luz" },
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 0, "tipo": "fogo" }
+      ],
+      "critico": "18/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Força Solar", "acao": "reacao", "descricao": "Uma vez por rodada, quando o totem do Pai-de-Tudo é alvo de um ataque corpo a corpo, uma de suas estrelas detona e causa 8d6 pontos de dano de luz em um raio de 6m ao seu redor (Reflexos CD 33 reduz à metade). O totem recupera uma quantidade de PV igual à metade do dano total causado pela explosão." },
+    { "nome": "Manto de Estrelas", "descricao": "Para cada 100 PV que o totem perde, uma estrela surge ao seu redor, até um máximo de três estrelas. Para cada estrela, o totem recebe +2 em testes de ataque e seus ataques com chifre solar causam +1d8 pontos de dano de luz." },
+    { "nome": "Tudo que o Sol Toca", "descricao": "O totem emana uma aura de luz e clima ensolarado em um raio de 90m. Dentro desta área, efeitos que alterem o clima são automaticamente anulados ou, se já estiverem ativos, são dissipados. Uma criatura que comece seu turno nessa área fica fatigada ou, se já estiver fatigada, fica exausta (a condição máxima causada por esta habilidade; Fortitude CD 33 evita)." },
+    { "nome": "Vigilância do Pai", "descricao": "Enquanto estiver sob a luz do sol, o totem está sob o efeito básico da magia Visão da Verdade." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Aspecto divino de Azgher invocado pelos povos-trovão como um guardião solar flamejante, cercado de estrelas que detonam para proteger sua forma.",
+  "livro": "ameacas_de_arton"
+}

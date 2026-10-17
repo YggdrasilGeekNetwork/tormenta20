@@ -1,0 +1,50 @@
+{
+  "id": "nagah_mistica_de_arton",
+  "name": "Nagah Mística",
+  "nd": 6,
+  "tipo": "Humanoide",
+  "subtipo": "nagah",
+  "tamanho": "medio",
+  "grupo": "sszzaazitas",
+  "pv": 160,
+  "pm": 35,
+  "defesa": 20,
+  "salvaguardas": { "fort": 6, "ref": 12, "von": 18 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "veneno": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 6,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 3, "con": 2, "int": 4, "sab": 2, "car": 2 },
+  "pericias": { "conhecimento": 10, "enganacao": 9, "furtividade": 10, "intuicao": 9, "misticismo": 10 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 18,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 6, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Cauda",
+      "bonus": 18,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 6, "tipo": "impacto" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Falso Amigo", "descricao": "Adepta veterana." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, a nagah mística muda a execução dela para livre." },
+    { "nome": "Magias", "descricao": "Lança magias como uma maga de 8º nível (CD 24): Imagem Espelhada (padrão, 5 PM; cinco cópias ilusórias da nagah surgem ao seu redor, concedendo +10 na Defesa; cada vez que um ataque erra a nagah, uma das cópias desaparece e o bônus na Defesa diminui em 2); Relâmpago (padrão, 5 PM; a nagah causa 8d6 pontos de dano de eletricidade em todas as criaturas em uma linha de 30m, Reflexos reduz à metade); Velocidade (padrão, 3 PM, sustentada; a nagah pode executar uma ação padrão adicional por turno, que não pode ser usada para lançar magias)." },
+    { "nome": "Fraquezas Ofídicas", "descricao": "A nagah sofre 1 ponto de dano adicional para cada dado de dano de frio e -5 em testes de resistência contra Músicas de bardo." }
+  ],
+  "equipamento": ["Adaga", "Essência de mana"],
+  "tesouro": "Padrão.",
+  "description": "Maga do povo nagah, ciumenta protetora de sua posição que acredita que seus poderes arcanos provêm do próprio Sszzaas, considerando a magia arcana uma dádiva do Grande Corruptor. Versão expandida da Nagah Mística do livro Ameaças de Arton; para a entrada simplificada do Tormenta20 (EJA), veja o id \"nagah_mistica\".",
+  "livro": "ameacas_de_arton"
+}

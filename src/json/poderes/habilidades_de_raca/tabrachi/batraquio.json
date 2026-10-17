@@ -1,0 +1,12 @@
+{
+  "id": "batraquio",
+  "name": "Batráquio",
+  "type": "habilidade_de_raca",
+  "race": "tabrachi",
+  "description": "Você recebe visão na penumbra e deslocamento de natação igual ao seu deslocamento terrestre.",
+  "effects": {
+    "vision": "baixa_luminosidade",
+    "swim_speed_equals_land_speed": true
+  },
+  "livro": "ameacas_de_arton"
+}

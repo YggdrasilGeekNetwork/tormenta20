@@ -1,0 +1,56 @@
+{
+  "id": "hallustir",
+  "name": "Hallus'tir",
+  "nd": 15,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "colossal",
+  "grupo": "elementais",
+  "pv": 718,
+  "pm": null,
+  "defesa": 49,
+  "salvaguardas": { "fort": 20, "ref": 28, "von": 15 },
+  "reducao_de_dano": null,
+  "imunidades": ["acertos críticos", "atordoado", "caído", "cansaço", "efeitos de metabolismo", "eletricidade", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": ["ácido"],
+  "iniciativa": 29,
+  "percepcao": 15,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 6, "des": 14, "con": 8, "int": -3, "sab": 0, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Punho",
+      "quantidade": 3,
+      "bonus": 44,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 23, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Escombros (à distância)",
+      "quantidade": 2,
+      "alcance": "médio",
+      "bonus": 37,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 6 }], "bonus": 31, "tipo": "impacto" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Corpo Eólico", "descricao": "O hallus'tir pode atravessar qualquer fresta por onde o ar passaria, e só pode ser afetado por armas e efeitos mágicos." },
+    { "nome": "Relâmpago Selvagem", "acao": "livre", "descricao": "Uma vez por rodada, causa 6d10 pontos de dano de eletricidade em uma criatura em alcance médio (Reflexos CD 40 reduz à metade)." },
+    { "nome": "Tornado Vivo", "descricao": "No início de cada turno do hallus'tir, todas as criaturas Enormes ou menores em alcance longo ficam caídas e são puxadas 1d12 x 1,5m na direção dele (Fortitude CD 40 evita; voadoras sofrem –5). Quem for arrastado sofre 1d6 de impacto por 1,5m percorrido e, se chegar ao espaço do hallus'tir, é sugado para dentro dele e fica agarrado; pode se soltar com ação padrão e teste de Atletismo CD 40." },
+    { "nome": "Turbilhão de Escombros", "descricao": "No início de cada turno do hallus'tir, todas as criaturas dentro dele sofrem 7d6 pontos de dano de impacto (Reflexos CD 40 reduz à metade)." },
+    { "nome": "Ventos da Matança", "descricao": "O clima em uma esfera de 90m ao redor é de tempestade constante (sem chance de queda de raios) e, em uma esfera de 500m, é de vento forte. Esses climas não podem ser alterados." },
+    { "nome": "Olho da Tempestade", "descricao": "Se estiver na área de um efeito mágico que altera o clima, fica atordoado por 1 rodada (Fortitude CD do efeito, se houver, evita). Só pode ser atordoado dessa forma uma vez por cena." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d4+2 doses de éter elemental (eletricidade) (CD 30 para extrair) e 1d4+2 doses de raio cristalizado (CD 30 para extrair).",
+  "description": "Um dos maiores e mais destrutivos elementais do ar em Arton — quando surge, muitos acreditam que algum deus está muito zangado. Um tornado compacto em forma de coluna que desaparece nos céus tempestuosos que sua aparição provoca, com escuridão interna interrompida por raios poderosos que disparam e explodem à distância. Como outros grandes elementais, não demonstra inteligência ou propósito: apenas avança destruindo tudo que encontra, até ser detido ou desaparecer sem razão aparente — nenhuma tentativa de comunicação ou de acalmar sua cólera jamais teve êxito.",
+  "livro": "ameacas_de_arton"
+}

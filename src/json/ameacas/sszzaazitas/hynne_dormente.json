@@ -1,0 +1,53 @@
+{
+  "id": "hynne_dormente",
+  "name": "Hynne Dormente",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "hynne",
+  "tamanho": "pequeno",
+  "grupo": "sszzaazitas",
+  "pv": 99,
+  "defesa": 22,
+  "salvaguardas": { "fort": 6, "ref": 16, "von": 11 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 6,
+  "visao": [],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": -1, "des": 3, "con": 1, "int": 3, "sab": 0, "car": 2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 15,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 11, "tipo": "corte" }
+      ],
+      "critico": "19/x2",
+      "efeito": "veneno"
+    },
+    {
+      "nome": "Adaga (à distância)",
+      "bonus": 15,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 11, "tipo": "corte" }
+      ],
+      "critico": "19/x2",
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Furtivo", "descricao": "Uma vez por rodada, causa +4d6 em ataques contra alvos desprevenidos ou flanqueados." },
+    { "nome": "Falso Amigo", "descricao": "Assassino veterano." },
+    { "nome": "Pirueta Escapatória", "acao": "reacao", "descricao": "Uma vez por rodada, quando é atingido por um ataque, o hynne pode fazer um teste de Acrobacia e reduzir o resultado deste teste do dano sofrido." },
+    { "nome": "Reviravolta", "descricao": "O alvo do primeiro ataque do hynne na cena é considerado desprevenido." },
+    { "nome": "Sorte Salvadora", "acao": "reacao", "descricao": "Uma vez por rodada, o hynne pode rolar novamente um teste de resistência." },
+    { "nome": "Veneno", "salvaguarda": "Fortitude", "cd": 20, "efeito_sucesso": "reduz a duração para 1 rodada", "descricao": "Peçonha concentrada: perde 1d12 pontos de vida por rodada durante 3 rodadas (Fort CD 20 reduz a duração para 1 rodada)." }
+  ],
+  "tesouro": "Metade.",
+  "description": "Exemplo de uma nagah dormente disfarçada entre aventureiros sob a forma de um hynne, acreditando genuinamente ser essa pessoa até ser \"despertada\" por um comando secreto sszzaazita. A própria existência de dormentes como este levanta suspeita sobre qualquer aventureiro — mesmo com longas carreiras de combate ao mal — pois nenhum meio mágico conhecido pode revelá-los com certeza.",
+  "livro": "ameacas_de_arton"
+}

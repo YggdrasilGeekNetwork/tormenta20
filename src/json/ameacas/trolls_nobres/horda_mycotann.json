@@ -1,0 +1,33 @@
+{
+  "id": "horda_mycotann",
+  "name": "Horda Mycotann",
+  "nd": 12,
+  "tipo": "Monstro",
+  "subtipo": "mycotann",
+  "tamanho": "enorme",
+  "grupo": "trolls_nobres",
+  "pv": 612,
+  "defesa": 33,
+  "salvaguardas": { "fort": 23, "ref": 14, "von": 13 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 17,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 2, "des": -1, "con": 3, "int": 1, "sab": 0, "car": -1 },
+  "pericias": { "atletismo": 15 },
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Natureza Vegetal", "descricao": "Afetado por habilidades e magias que afetam plantas." },
+    { "nome": "Enxame", "descricao": "A horda causa automaticamente 8d12 pontos de dano de impacto a qualquer criatura em seu espaço, sem necessidade de teste de ataque." },
+    { "nome": "Esporos", "acao": "padrao", "salvaguarda": "Fortitude", "cd": 32, "efeito_sucesso": "reduz à metade e evita a condição", "descricao": "A horda dispara esporos em uma nuvem de 3m de raio em alcance médio. Criaturas na área ficam paralisadas por 1d4 rodadas (apenas uma vez por cena) e perdem 6d6 PV (Fort CD 32 reduz à metade e evita a condição)." },
+    { "nome": "Telepatia", "descricao": "A horda pode se comunicar telepaticamente com qualquer criatura viva em alcance médio." },
+    { "nome": "Véu de Esporos", "salvaguarda": "Fortitude", "cd": 32, "efeito_sucesso": "evita", "descricao": "Uma criatura que comece seu turno dentro do espaço ocupado pela horda fica enjoada e enredada (Fort CD 32 evita). Veneno." }
+  ],
+  "tesouro": "2d4 doses de esporos de cogumelo (CD 27 para extrair).",
+  "description": "Representa um bando de mycotann agindo em conjunto (regra de Bando, veja 'Manual de Criação de Ameaças'), muitas vezes enviado como horda suicida pelos finntroll contra seus inimigos.",
+  "livro": "ameacas_de_arton"
+}

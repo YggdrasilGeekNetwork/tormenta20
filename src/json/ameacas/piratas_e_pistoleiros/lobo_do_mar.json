@@ -1,0 +1,62 @@
+{
+  "id": "lobo_do_mar",
+  "name": "Lobo do Mar",
+  "nd": 16,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 690,
+  "pm": null,
+  "defesa": 54,
+  "salvaguardas": { "fort": 24, "ref": 30, "von": 16 },
+  "reducao_de_dano": null,
+  "imunidades": ["medo"],
+  "resistencias": { "efeitos mentais": 5, "efeitos de movimento": 5, "magia": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 23,
+  "percepcao": 16,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 7, "con": 3, "int": 2, "sab": 2, "car": 4 },
+  "pericias": { "acrobacia": 23, "atletismo": 17, "intimidacao": 21, "jogatina": 20, "pilotagem": 23 },
+  "ataques": [
+    {
+      "nome": "Florete",
+      "quantidade": 2,
+      "bonus": 46,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 40, "tipo": "perfuração" }
+      ],
+      "critico": "15/x2"
+    },
+    {
+      "nome": "Adaga",
+      "quantidade": 2,
+      "bonus": 46,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 40, "tipo": "perfuração" }
+      ],
+      "critico": "15/x2"
+    },
+    {
+      "nome": "Adaga (à distância)",
+      "bonus": 46,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 40, "tipo": "perfuração" }
+      ],
+      "critico": "15/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Furtivo", "descricao": "Causa +8d6 de dano adicional quando ataca um alvo desprevenido ou surpreso." },
+    { "nome": "Bloqueio Resistente", "acao": "reacao", "descricao": "Uma vez por rodada, quando é atingido por um ataque, o lobo do mar pode fazer um teste de ataque com seu florete. O dano desse ataque é reduzido em um valor igual ao resultado do teste de ataque do lobo do mar." },
+    { "nome": "Pirata", "descricao": "O lobo do mar recebe todas as habilidades de piratas: Correr pelo Cordame (completa, percorre até seu deslocamento ignorando terreno difícil e faz um ataque corpo a corpo com +2 no teste de ataque e +1d6 na rolagem de dano) e Pernas do Mar (não fica desprevenido ao se equilibrar ou escalar, e seu deslocamento não é reduzido à metade)." },
+    { "nome": "Todos a Postos", "acao": "movimento", "descricao": "Uma vez por cena, o lobo do mar invoca 2d4+1 marujos piratas em espaços desocupados em alcance curto. Eles agem a partir da próxima rodada do lobo do mar, têm deslocamento 9m e podem gastar uma ação padrão para causar 2d4+4 pontos de dano de corte em uma criatura adjacente. Os marujos piratas têm Força 1, Destreza 3, Defesa 25 e 1 PV e falham automaticamente em qualquer teste oposto ou de resistência." },
+    { "nome": "Truque do Convés", "acao": "movimento", "descricao": "Uma criatura adjacente ao lobo do mar fica desprevenida contra seu próximo ataque nesta rodada (Vontade CD 42 evita). Esta habilidade só pode ser usada uma vez contra cada criatura na mesma cena." }
+  ],
+  "equipamento": ["Adaga precisa x3", "Bandana", "Florete formidável preciso"],
+  "tesouro": "Dobro.",
+  "description": "Entre os maiores piratas vivos, verdadeira lenda dos mares, soberano das ondas e conveses, capitão de um dos navios mais temidos de Arton. Líder carismático capaz de inspirar sua tripulação a lutar como uma horda de demônios, e também duelista excepcional, especialmente a bordo do próprio navio. Embora rivais mortais entre si, todos os lobos do mar compartilham uma afinidade que pessoas da terra firme não compreendem.",
+  "livro": "ameacas_de_arton"
+}

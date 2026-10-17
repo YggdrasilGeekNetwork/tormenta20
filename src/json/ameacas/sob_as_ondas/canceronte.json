@@ -1,0 +1,40 @@
+{
+  "id": "canceronte",
+  "name": "Canceronte",
+  "nd": 3,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "sob_as_ondas",
+  "pv": 110,
+  "defesa": 21,
+  "salvaguardas": { "fort": 15, "ref": 9, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 4,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 6, "natacao": 12 },
+  "atributos": { "for": 4, "des": 2, "con": 5, "int": -4, "sab": 0, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 6, "tipo": "corte" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Fortificação 25%", "descricao": "Golpes críticos e ataques furtivos contra o canceronte têm 25% de chance de não causar efeito adicional." },
+    { "nome": "Autotomia", "acao": "livre", "descricao": "O canceronte pode sacrificar uma de suas garras para se livrar de um perigo maior. Quando faz isso, ele automaticamente passa em um teste para evitar uma condição de movimento (como um teste de ataque para se libertar de um agarramento), mas perde um de seus ataques de garra. Uma garra sacrificada desta forma se regenera em um mês." },
+    { "nome": "Quebrar Tudo!", "descricao": "O canceronte recebe +2 em testes de ataque para quebrar (teste total +18) e causa +1d8 pontos de dano contra objetos." }
+  ],
+  "tesouro": "1d6 postas de canceronte (CD 18 para extrair; cada posta vale T$ 12 para preparar um banquete de canceronte).",
+  "description": "Caranguejo descomunal, grande como um navio invertido, com armadura azulada que brilha com runas faiscantes e quatro grandes garras capazes de partir humanos ao meio. Apesar do tamanho e das garras ameaçadoras, não é perigoso: necrófago, alimenta-se apenas de bichos mortos. Sua carne é iguaria apreciada, mas exige que a criatura seja morta minutos antes de servir.",
+  "livro": "ameacas_de_arton"
+}

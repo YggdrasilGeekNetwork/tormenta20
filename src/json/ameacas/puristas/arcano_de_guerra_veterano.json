@@ -1,0 +1,44 @@
+{
+  "id": "arcano_de_guerra_veterano",
+  "name": "Arcano de Guerra Veterano",
+  "nd": 11,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "puristas",
+  "pv": 360,
+  "pm": 85,
+  "defesa": 41,
+  "salvaguardas": { "fort": 11, "ref": 24, "von": 18 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 9,
+  "visao": [],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 2, "des": 3, "con": 3, "int": 7, "sab": 2, "car": 0 },
+  "pericias": { "conhecimento": 16, "guerra": 16, "misticismo": 18 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 31,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 2, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Conjurador Magibélico", "descricao": "O arcano de guerra veterano pode lançar magias vestindo armaduras pesadas sem precisar de testes de Misticismo. Além disso, sempre que faz um teste de Misticismo, ele pode rolar dois dados e escolher o melhor resultado." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o arcano muda a execução dela para livre." },
+    { "nome": "Magias Devastadoras", "descricao": "As magias do arcano que causam dano têm cada um de seus dados de dano aumentados em um passo (já contabilizado) e ignoram até 10 pontos de redução de dano." },
+    { "nome": "Magias", "descricao": "Lança magias como mago de 9º nível (CD 33): Açoite Flamejante (movimento, 7 PM, sustentada, 6d8 de fogo, chamas e enredado), Campo de Força (reação, 4 PM, RD 30 contra o dano sofrido), Muralha Elemental (padrão, 9 PM, muralha de fogo de até 30m, 2d8 por proximidade e 12d8 ao atravessar), Relâmpago (padrão, 7 PM, 8d8 de eletricidade em cada criatura escolhida em alcance médio), Sopro das Uivantes (padrão, 6 PM, 8d8 de frio em cone de 9m, empurra e derruba), Velocidade (padrão, 3 PM, sustentada, ação padrão adicional por turno, não pode ser usada para lançar magias)." }
+  ],
+  "equipamento": ["Adaga", "Armadura completa reforçada", "Tomo de guerra"],
+  "tesouro": "Padrão.",
+  "description": "Arcano de guerra experiente, suas magias devastadoras amplificadas por anos de treinamento na Ordem Magibélica, geralmente atuando na retaguarda das tropas puristas protegido por soldados blindados.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "arpao",
+  "name": "Arpão",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "distancia",
+  "subtipo_distancia": "arremesso",
+  "empunhadura": "uma_mao",
+  "preco": 30,
+  "dano": "1d10",
+  "critico": "x3",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "uso_corpo_a_corpo_com_penalidade": -5,
+    "fica_preso_no_alvo": true,
+    "controle_corda": { "teste_forca_oposto": true, "alcance_maximo": "9m" },
+    "escapar": { "acao": "movimento", "dano_ao_soltar": "1d10" }
+  },
+  "description": "Instrumento de pesca convertido em arma, esta haste tem rebarbas em uma extremidade e uma corda na outra. Se causar dano com um ataque, o arpão fica preso no alvo. Enquanto você segura a corda, sempre que o alvo se move, você pode fazer um teste de Força oposto; se vencer, o alvo só pode se mover até o limite da corda (9m). Ele pode se soltar gastando uma ação de movimento, mas perde 1d10 PV. O arpão é uma arma de arremesso; pode ser usado como arma corpo a corpo, mas com penalidade de -5 no teste de ataque. Esta arma é permitida para devotos do Oceano e se beneficia de poderes concedidos que afetam essas armas.",
+  "livro": "ameacas_de_arton"
+}

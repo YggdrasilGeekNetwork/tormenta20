@@ -1,0 +1,62 @@
+{
+  "id": "kaiju",
+  "name": "Kaiju",
+  "nd": 20,
+  "tipo": "Monstro",
+  "subtipo": "kaiju",
+  "tamanho": "colossal",
+  "grupo": "sanguinarias",
+  "pv": 1500,
+  "defesa": 62,
+  "salvaguardas": { "fort": 34, "ref": 28, "von": 20 },
+  "reducao_de_dano": 30,
+  "cura_acelerada": "50/kaiju",
+  "imunidades": ["efeitos de metabolismo", "mental", "medo", "metamorfose", "paralisia", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 22,
+  "percepcao": 16,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 15, "escalada": 9, "natacao": 36, "voo": 36 },
+  "atributos": { "for": 20, "des": 0, "con": 15, "int": -3, "sab": 2, "car": -3 },
+  "pericias": { "atletismo": 35, "intimidacao": 35 },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 55,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 20 }], "bonus": 50, "tipo": "corte" }
+      ]
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 55,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 20 }], "bonus": 50, "tipo": "perfuração" }
+      ]
+    },
+    {
+      "nome": "Cauda",
+      "bonus": 55,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 20 }], "bonus": 50, "tipo": "impacto" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Fortificação 75%", "descricao": "Golpes críticos e ataques furtivos contra o kaiju têm 75% de chance de não causar efeito adicional." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com a mordida (teste +60)." },
+    {
+      "nome": "Arsenal Titânico",
+      "descricao": "Cada kaiju possui dois poderes titânicos, escolhidos entre os seguintes: Arremessar Montanha (padrão; arremessa um pedregulho em alcance longo, causando 10d12 pontos de dano de impacto ao alvo e a todas as criaturas em alcance curto dele, soterrando todos — Reflexos CD 50 reduz o dano à metade e evita o soterramento; criaturas soterradas ficam imóveis e sofrem 2d12 pontos de dano de impacto no início de cada um de seus turnos; soltar-se exige uma ação completa e um teste de Força CD 28; recarga por movimento); Fúria Retalhadora (uma vez por rodada, quando sofre dano, o kaiju recebe +5 em testes de ataque e +1d20 nas rolagens de dano até o fim do seu próximo turno); Ferrão Peçonhento (o ataque de cauda do kaiju é substituído por um ataque de ferrão com as mesmas estatísticas, mas causando dano de perfuração mais veneno); Poeira dos Sonhos (ação de movimento; criaturas em alcance médio ficam inconscientes e caídas, criaturas em combate ficam exaustas — Vontade CD 50 muda para fatigada e a criatura fica imune a esta habilidade até o fim da cena; recarga por movimento); Rugido Aterrador (padrão; todas as criaturas em alcance longo sofrem 16d12 pontos de dano de impacto e ficam apavoradas e surdas — Fortitude CD 50 reduz o dano à metade, evita a condição surdo e muda de apavoradas para abaladas; recarga por movimento); Sopro Corrosivo (padrão; todas as criaturas em um cone de 12m sofrem 12d20 pontos de dano de ácido e ficam vulneráveis — Reflexos CD 50 reduz o dano à metade e evita a condição; recarga por movimento); Tempestade de Ferrões (completa; criaturas em alcance médio sofrem 6d12 pontos de dano de perfuração e são expostas ao veneno peçonha kaiju — Reflexos CD 50 reduz o dano à metade e evita o veneno; recarga por padrão); Terremoto da Ira (completa; todas as criaturas em alcance médio em contato com o solo sofrem 14d12 pontos de dano e ficam caídas — Reflexos CD 50 reduz o dano à metade e evita a condição; recarga ao ser reduzido a 800 PV); Ventos Bravios (quando o kaiju voa, os ventos produzidos por ele arremessam todas as criaturas em alcance médio 15m na direção oposta do kaiju — Fortitude CD 50 evita; uma criatura arremessada fica caída e, se atingir algum obstáculo, sofre 1d6 pontos de dano de impacto para cada 1,5m que foi arremessada; pré-requisito: deslocamento de voo)."
+    },
+    { "nome": "Engolir", "acao": "livre", "descricao": "No início de cada um dos turnos do kaiju, cada criatura engolida sofre 2d20+50 pontos de dano de impacto mais 2d20+50 pontos de dano de ácido. Elas podem escapar causando um total de 200 pontos de dano a ele (Defesa 25, fortificação 25%, redução de dano 0). O kaiju pode manter uma criatura Enorme, ou até dez criaturas Grandes ou menores, engolidas por vez." },
+    { "nome": "Maior que a Vida", "descricao": "Quando falha em um teste de resistência contra um efeito com duração maior que instantânea, um kaiju pode, no início do seu turno, fazer um novo teste de resistência oposto à CD original, até o fim da duração do efeito. Além disso, se reduzido a 0 PV ou menos, assim que restaurado a 1 PV por sua cura acelerada, o kaiju desiste de lutar e retorna à sua terra de origem." },
+    { "nome": "Titânico", "descricao": "O kaiju é imune a manobras de combate, não pode ser flanqueado e sofre metade do dano de ataques que não sejam de outra criatura Titânica. Quando se move, pisoteia qualquer criatura ou objeto Enorme ou menor em seu caminho (atravessando seu espaço), causando 20d6 pontos de dano de impacto (uma vez por rodada por criatura, Reflexos CD 50 reduz à metade). Além disso, seus ataques ignoram redução de dano e atingem todas as criaturas em um quadrado de 6m (para cada ataque, ele faz um único teste de ataque e compara o resultado com a Defesa de cada inimigo na área)." },
+    { "nome": "Veneno", "salvaguarda": "Fortitude", "cd": 50, "efeito_sucesso": "reduz para 1 rodada", "descricao": "Peçonha kaiju: perde 5d12 PV por rodada durante 10 rodadas (Fort CD 50 reduz para 1 rodada)." }
+  ],
+  "tesouro": "Padrão, mais 6 peças de couraça de kaiju (CD 35 para extrair).",
+  "description": "Os maiores seres vivos conhecidos na existência, verdadeiras forças da natureza — tal como terremotos, vulcões e tufões — muitas vezes venerados como deuses. Não se reproduzem, não acasalam, e não existem duas espécies iguais. Suspeita-se que surgiram quando Arton era tomada pelos monstros, no passado remoto. Não morrem por meios naturais: mesmo despedaçados, acabam regenerando e retornando tempos depois. Existem em abundância nas Sanguinárias, onde travam batalhas titânicas, mas vez ou outra um kaiju atravessa o mar e alcança o Império de Jade para devastar suas cidades.",
+  "livro": "ameacas_de_arton"
+}

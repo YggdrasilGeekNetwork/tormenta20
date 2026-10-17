@@ -1,0 +1,45 @@
+{
+  "id": "aquinne",
+  "name": "Aquin'ne",
+  "nd": 2,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "pequeno",
+  "grupo": "elementais",
+  "pv": 21,
+  "pm": null,
+  "defesa": 18,
+  "salvaguardas": { "fort": 10, "ref": 7, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": ["acertos críticos", "atordoado", "cansaço", "efeitos de metabolismo", "frio", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": ["fogo"],
+  "iniciativa": 4,
+  "percepcao": 4,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "natacao": 15 },
+  "atributos": { "for": 4, "des": 2, "con": 2, "int": -2, "sab": 2, "car": -2 },
+  "pericias": { "atletismo": "+6 (+14 para nadar)", "furtividade": "+4 (+14 na água)" },
+  "ataques": [
+    {
+      "nome": "Tentáculo hídrico",
+      "quantidade": 2,
+      "bonus": 13,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 6, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Afogar", "descricao": "Uma criatura agarrada pelo aquin'ne é considerada submersa até se soltar." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Tentáculo hídrico (teste +13)." },
+    { "nome": "Redemoinho de Maresia", "acao": "padrão", "descricao": "O aquin'ne toca um objeto adjacente, que perde 5 PV (Reflexos CD 16 evita)." }
+  ],
+  "equipamento": [],
+  "tesouro": "1 dose de éter elemental (frio) (CD 17 para extrair).",
+  "familiar": "Um aquin'ne familiar concede deslocamento de natação 9m e permite lançar magias e respirar debaixo d'água.",
+  "parceiro": null,
+  "description": "Pequeno elemental da água cuja manifestação não combina com nenhuma criatura conhecida: paira pouco acima do chão, flutua e rotaciona como um redemoinho, com glóbulos aquosos menores orbitando em volta, como bolhas de água no ar. Por muito tempo não foi identificado como elemental verdadeiro — ainda há quem duvide se é mesmo um ser vivo —, mas pode ser invocado e reage com violência a isso. Sua tática padrão é abraçar a cabeça do alvo como uma bolsa d'água, de difícil remoção, que por vezes termina afogando a vítima. Em estado selvagem é imprevisível: pode acompanhar outros seres à distância, atacá-los ou ajudá-los. É altamente cobiçado como mascote por sereias e tritões, proporcionando um ambiente aquático portátil.",
+  "livro": "ameacas_de_arton"
+}

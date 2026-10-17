@@ -1,0 +1,40 @@
+{
+  "id": "chibi_kabuto",
+  "name": "Chibi-Kabuto",
+  "nd": 0.25,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "minusculo",
+  "grupo": "imperio_de_jade",
+  "pv": 8,
+  "pm": null,
+  "defesa": 13,
+  "salvaguardas": { "fort": 2, "ref": 3, "von": -2 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 6,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 6, "voo": 3 },
+  "atributos": { "for": -2, "des": 2, "con": 0, "int": -4, "sab": 1, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Galhada",
+      "bonus": 4,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 2, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": "Um chibi-kabuto familiar aumenta em +1 o bônus na Defesa que você recebe por suas magias.",
+  "parceiro": null,
+  "description": "Besouro negro de chifres enormes, do tamanho de um rato, nativo de Tamu-ra. Herbívoro pacífico, só luta em autodefesa. Popular como bicho de estimação ou familiar, embora também possa ser treinado para entrar em lugares protegidos e roubar itens.",
+  "livro": "ameacas_de_arton"
+}

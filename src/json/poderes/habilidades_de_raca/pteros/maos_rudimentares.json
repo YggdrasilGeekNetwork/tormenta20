@@ -1,0 +1,11 @@
+{
+  "id": "maos_rudimentares",
+  "name": "Mãos Rudimentares",
+  "type": "habilidade_de_raca",
+  "race": "pteros",
+  "description": "Suas mãos não permitem que você empunhe itens, a menos que sejam mágicos ou especialmente adaptados para você (o que demora um dia e custa 50% do preço do item, sem contar melhorias). Seus itens iniciais, e aqueles recebidos por sua origem ou habilidades, são adaptados para você.",
+  "effects": {
+    "item_restriction": { "requires": "magico ou adaptado", "adaptation_time": "1 dia", "adaptation_cost_pct": 50 }
+  },
+  "livro": "ameacas_de_arton"
+}

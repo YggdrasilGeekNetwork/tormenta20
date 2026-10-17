@@ -1,0 +1,55 @@
+{
+  "id": "capitao_pirata",
+  "name": "Capitão Pirata",
+  "nd": 7,
+  "tipo": "Morto-vivo",
+  "subtipo": "osteon",
+  "tamanho": "medio",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 265,
+  "pm": null,
+  "defesa": 31,
+  "salvaguardas": { "fort": 8, "ref": 19, "von": 14 },
+  "reducao_de_dano": null,
+  "imunidades": ["medo"],
+  "resistencias": { "corte": 5, "frio": 5, "perfuração": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 16,
+  "percepcao": 8,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 5, "con": 2, "int": 1, "sab": 1, "car": 3 },
+  "pericias": { "acrobacia": 14, "atletismo": 10, "intimidacao": 13, "pilotagem": 14 },
+  "ataques": [
+    {
+      "nome": "Cimitarra",
+      "quantidade": 2,
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 12, "tipo": "corte" },
+        { "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 0, "tipo": "ácido" }
+      ],
+      "critico": "17/x2"
+    },
+    {
+      "nome": "Pistola (à distância)",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "Quando passa em um teste de Reflexos para reduzir o dano de um efeito à metade, em vez disso não sofre nenhum dano." },
+    { "nome": "Correr pelo Cordame", "acao": "completa", "descricao": "O capitão percorre até seu deslocamento, ignorando terreno difícil, e faz um ataque corpo a corpo com +2 no teste de ataque e +1d6 na rolagem de dano." },
+    { "nome": "Pernas do Mar", "descricao": "Quando está se equilibrando ou escalando, o capitão não fica desprevenido e seu deslocamento não é reduzido à metade." },
+    { "nome": "Salmoura", "descricao": "Uma criatura que sofra dano de ácido de um ataque do capitão pirata sofre –2 em testes de perícia por 1 rodada." },
+    { "nome": "Saque Rápido", "descricao": "O capitão pirata pode sacar ou guardar itens como uma ação livre e recarregar sua pistola como uma ação de movimento." },
+    { "nome": "Terror dos Mares", "acao": "movimento", "descricao": "Criaturas em alcance médio ficam abaladas (Vontade CD 24 reduz a duração para 1 rodada e a criatura não pode mais ser abalada por esta habilidade até o fim da cena). Recarga (movimento)." }
+  ],
+  "equipamento": ["Balas x20", "Bandana", "Cimitarra", "Pistola"],
+  "tesouro": "Dobro mais bandeira pirata. Uma bandeira pirata pode ser instalada em um veículo sem custos, e oferece os benefícios da melhoria macabra.",
+  "description": "Osteon que comanda um navio pirata, esqueleto consciente mantendo sua tripulação sob disciplina de terror.",
+  "livro": "ameacas_de_arton"
+}

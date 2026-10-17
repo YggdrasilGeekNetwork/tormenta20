@@ -1,0 +1,46 @@
+{
+  "id": "kappa_yokozuna",
+  "name": "Kappa Yokozuna",
+  "nd": 3,
+  "tipo": "Espírito",
+  "subtipo": "kappa",
+  "tamanho": "medio",
+  "grupo": "imperio_de_jade",
+  "pv": 105,
+  "pm": null,
+  "defesa": 23,
+  "salvaguardas": { "fort": 9, "ref": 15, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 2,
+  "visao": [],
+  "deslocamento": { "terrestre": 9, "natacao": 9 },
+  "atributos": { "for": 2, "des": 3, "con": 3, "int": 0, "sab": 1, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Ataque desarmado",
+      "quantidade": 2,
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 7, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Não Pode Ser Flanqueado", "descricao": "O kappa yokozuna não pode ser flanqueado." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com seu ataque desarmado (teste +16). Quando agarra uma criatura, o kappa yokozuna a derruba automaticamente." },
+    { "nome": "Carapaça Kappa", "descricao": "O kappa recebe cobertura leve quando está caído ou submerso." },
+    { "nome": "Cura das Águas", "acao": "padrão", "descricao": "Uma vez por cena, o kappa pode lançar Curar Ferimentos para curar 4d8+4 PV de uma criatura. Ele não pode usar esta habilidade se a água de sua cabeça estiver derramada." },
+    { "nome": "Golpe Impactante", "acao": "livre", "descricao": "Uma criatura atingida por um ataque desarmado do kappa é empurrada 1,5m para cada 5 pontos de dano que sofrer (Fortitude CD 17 evita)." },
+    { "nome": "Tigela D'água", "descricao": "Quando falha por 5 ou mais em um teste para evitar ser agarrado, derrubado ou empurrado, o kappa derrama a água de sua cabeça. Ele fica enjoado até encher a tigela novamente (o que exige uma fonte de água e uma ação padrão)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Campeão de luta marcial entre os kappa, imponente e habilidoso, capaz de derrubar e afogar adversários com golpes impactantes.",
+  "livro": "ameacas_de_arton"
+}

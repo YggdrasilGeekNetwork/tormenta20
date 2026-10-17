@@ -1,0 +1,43 @@
+{
+  "id": "devoto_de_hyninn_velhaco",
+  "name": "Devoto de Hyninn Velhaco",
+  "nd": 4,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "capangas_e_bandoleiros",
+  "pv": 88,
+  "pm": null,
+  "defesa": 22,
+  "salvaguardas": { "fort": 4, "ref": 16, "von": 10 },
+  "reducao_de_dano": null,
+  "imunidades": ["efeitos de movimento", "surpreendido"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 5,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 0, "des": 4, "con": 0, "int": 1, "sab": 0, "car": 3 },
+  "pericias": { "enganacao": 10, "furtividade": 10, "ladinagem": 10 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "quantidade": 2,
+      "bonus": 15,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 8, "tipo": "perfuração" }
+      ],
+      "critico": "18/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Malandríssimo (mágica)", "descricao": "Quando o devoto passa em um teste de resistência contra um efeito de um inimigo, esse inimigo perde 3 PM." },
+    { "nome": "No Bolso Dói Mais (mágica)", "descricao": "Quando acerta um ataque em corpo a corpo, para cada 1 ponto de dano causado, o devoto rouba T$ 1 da vítima. Mesmo que seja derrotado, há 90% de chance de que esses tibares tenham desaparecido para sempre, pois é grande a mão de Hyninn." },
+    { "nome": "Truque de Espelhos", "acao": "reação", "descricao": "Uma vez por rodada, quando é atacado, o devoto pode enganar o atacante com uma distração, fazendo com que o ataque erre automaticamente (Vontade CD 20 evita). Só pode usar esta habilidade uma vez por cena contra cada criatura." }
+  ],
+  "equipamento": ["Adaga precisa", "Capa esvoaçante", "Gazua"],
+  "tesouro": "Metade.",
+  "description": "O mais hábil e temido dos devotos de Hyninn, um verdadeiro mestre do roubo e da fuga, cuja sorte parece desafiar qualquer lógica — para azar de seus perseguidores.",
+  "livro": "ameacas_de_arton"
+}

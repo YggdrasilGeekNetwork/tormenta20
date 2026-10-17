@@ -1,0 +1,47 @@
+{
+  "id": "elemental_do_veneno_pequeno",
+  "name": "Elemental do Veneno Pequeno",
+  "nd": 2,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "pequeno",
+  "grupo": "sszzaazitas",
+  "pv": 49,
+  "defesa": 17,
+  "salvaguardas": { "fort": 13, "ref": 2, "von": 7 },
+  "reducao_de_dano": null,
+  "imunidades": ["acertos críticos", "atordoado", "caído", "efeitos de metabolismo", "paralisia", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 5,
+  "visao": ["percepção às cegas"],
+  "deslocamento": { "voo": 6 },
+  "atributos": { "for": -3, "des": 0, "con": 2, "int": -3, "sab": 2, "car": -4 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pústula Asquerosa",
+      "bonus": 12,
+      "dano": null,
+      "efeito": "enjoado por 1d4 rodadas",
+      "alcance": "médio"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Corpo Nocivo", "descricao": "Quando o elemental do veneno pequeno sofre dano por um ataque corpo a corpo, o atacante perde 1d6 pontos de vida por veneno, a menos que esteja usando uma arma alongada." },
+    { "nome": "Existência Insalubre", "descricao": "O elemental ignora imunidade a veneno." },
+    { "nome": "Fumos Tóxicos", "acao": "livre", "salvaguarda": "Fortitude", "cd": 18, "efeito_sucesso": "reduz a perda de vida à metade e evita a condição", "descricao": "Uma vez por rodada, o elemental emite uma nuvem de veneno corrosivo. Criaturas em um raio de 9m ao redor dele perdem 1d12 pontos de vida por veneno e ficam vulneráveis (Fort CD 18 reduz a perda de vida à metade e evita a condição)." }
+  ],
+  "equipamento": [],
+  "familiar": null,
+  "parceiro": {
+    "tipo": "parceiro especial (assassino)",
+    "iniciante": "A CD para resistir aos seus efeitos de veneno aumenta em +2 e, uma vez por rodada, você pode gastar 1 PM para envenenar uma arma que esteja usando. No próximo ataque que acertar com ela nesta cena, a arma causa perda de 1d12 PV.",
+    "veterano": "Você também pode gastar 3 PM para aplicar um veneno que causa perda de 2d12 PV.",
+    "mestre": "Seus efeitos de veneno ignoram imunidade a veneno e você também pode gastar 5 PM para aplicar um veneno que causa perda de 3d12 PV."
+  },
+  "tesouro": "1d4 doses de peçonha irritante (CD 17 para extrair).",
+  "description": "Criatura amorfa que levita pouco acima do solo, lembrando um aglomerado de gemas ou cristais escuros mantidos em coesão por um muco esverdeado luminoso. Extraplanar formado em Venomia, o Reino de Sszzaas, em vastos pântanos de toxina pura. Pode ser conjurado por sszzaazitas ou surgir espontaneamente em lugares sagrados de Sszzaas.",
+  "livro": "ameacas_de_arton"
+}

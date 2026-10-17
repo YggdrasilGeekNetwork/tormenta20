@@ -1,0 +1,43 @@
+{
+  "id": "pteros_ceifador",
+  "name": "Pteros Ceifador",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "pteros",
+  "tamanho": "medio",
+  "grupo": "povos_trovao",
+  "pv": 21,
+  "pm": null,
+  "defesa": 16,
+  "salvaguardas": { "fort": 4, "ref": 9, "von": 14 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 9,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 9, "voo": 12 },
+  "atributos": { "for": 1, "des": 3, "con": 0, "int": -1, "sab": 4, "car": 0 },
+  "pericias": { "atletismo": 6, "sobrevivencia": 7 },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 5, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "Quando passa em um teste de Reflexos para reduzir o dano de um efeito à metade, em vez disso não sofre nenhum dano." },
+    { "nome": "Companheiros de Voo", "descricao": "Pteros ceifadores caçam em pares com seus companheiros. Se estiver flanqueando um inimigo com seu companheiro, o pteros recebe +2 em testes de ataque, em rolagens de dano e na Defesa contra esse inimigo. Quando um dos pteros morre, o choque deixa seu companheiro atordoado por 1 rodada e então esmorecido." },
+    { "nome": "Rasante", "acao": "completa", "descricao": "O pteros faz uma investida e ataca com suas duas garras. Os dois ataques recebem o bônus de +2 da investida, mas devem ser feitos contra o mesmo alvo. Após o ataque, o pteros ceifador pode continuar seu movimento, até o limite de seu deslocamento." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Thera voador que caça aos pares com um companheiro ligado por toda a vida, mergulhando em investidas rasantes contra suas presas.",
+  "livro": "ameacas_de_arton"
+}

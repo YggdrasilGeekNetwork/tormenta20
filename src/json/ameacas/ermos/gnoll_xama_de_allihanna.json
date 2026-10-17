@@ -1,0 +1,50 @@
+{
+  "id": "gnoll_xama_de_allihanna",
+  "name": "Gnoll Xamã de Allihanna",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "gnoll",
+  "tamanho": "medio",
+  "grupo": "ermos",
+  "pv": 50,
+  "pm": 12,
+  "defesa": 17,
+  "salvaguardas": { "fort": 7, "ref": 2, "von": 13 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 2,
+  "percepcao": 6,
+  "visao": ["faro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 1, "con": 2, "int": 0, "sab": 3, "car": 0 },
+  "pericias": { "cura": 6, "intuicao": 6, "religiao": 6, "sobrevivencia": 8 },
+  "ataques": [
+    {
+      "nome": "Clava",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 6, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 6, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Caminhos Selvagens", "descricao": "Pode atravessar terrenos naturais difíceis sem sofrer redução em seu deslocamento." },
+    { "nome": "Medicina Primal", "acao": "completa", "descricao": "Teste de Cura (CD 15); se bem-sucedido, uma criatura com 0 PV adjacente recupera 2d6+3 PV." },
+    { "nome": "Magias", "descricao": "Lança magias como clérigo de Allihanna de 2º nível (CD 18): Armamento da Natureza (2 PM), Controlar Plantas (2 PM), Curar Ferimentos (2 PM)." }
+  ],
+  "equipamento": ["Armadura de couro", "Clava", "Símbolo sagrado de Allihanna"],
+  "tesouro": "Padrão.",
+  "description": "Gnoll que rejeitou a rendição e o Totem, encontrando propósito na devoção de Allihanna e nos ciclos da natureza selvagem.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ankh_solar",
+  "name": "Ankh Solar",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 450,
+  "espacos": 1,
+  "requer_misticismo": true,
+  "uso": "empunhado, arma",
+  "funciona_como_arma": { "tipo": "leve_simples_corpo_a_corpo", "dano": "1d6", "critico": "19", "tipo_dano": "corte" },
+  "efeito": {
+    "aprimoramento": "+2 PM",
+    "restricao": "apenas magias com testes de resistência",
+    "efeito_adicional": "criaturas que falham na resistência não podem recuperar PV por 1 rodada"
+  },
+  "description": "Este item raro é encontrado em corpos embalsamados no Deserto da Perdição. Pode ser usado como arma leve simples corpo a corpo (dano 1d6, crítico 19, corte). Suas magias que tenham testes de resistência recebem o seguinte aprimoramento: +2 PM. Além do normal, criaturas que falham na resistência não podem recuperar PV por 1 rodada.",
+  "livro": "ameacas_de_arton"
+}

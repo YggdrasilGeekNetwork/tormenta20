@@ -1,0 +1,30 @@
+{
+  "id": "uyzrrak_daukthra",
+  "name": "Uyzrrak Da'Ukthra",
+  "base_weapon": "machado_de_guerra",
+  "preco": 78050,
+  "description": "Este machado de guerra magnífico, aumentado, atroz, de adamante, é marcado com escrita goblinoide em sua lâmina e aparenta já ter visto inúmeras batalhas. Quando empunhado por um duyshidakk, causa +2d8 pontos de dano contra qualquer criatura não duyshidakk e recebe um encanto adicional, conforme o elemento do círculo intermediário do Akzath mais próximo do portador: Luz → Sagrado; Nós → Piedoso; Dentro → Defensor; Estagnação → Excruciante; Trevas → Profano; Fora → Arremesso; Eles → Dilacerante; Movimento → Energético. A critério do mestre, se o portador do machado se tornar mais próximo de outro elemento, o encanto muda de acordo.",
+  "effects": [
+    { "type": "enchantment", "name": "magnífico" },
+    { "type": "enchantment", "name": "aumentado" },
+    { "type": "enchantment", "name": "atroz" },
+    { "type": "material_especial", "name": "adamante" },
+    { "type": "bonus_dano_condicional", "value": "2d8", "condicao": "empunhado por um duyshidakk, contra criatura não duyshidakk" },
+    {
+      "type": "encanto_adicional_condicional",
+      "condicao": "empunhado por um duyshidakk; encanto depende do elemento do círculo intermediário do Akzath mais próximo do portador",
+      "mapeamento": {
+        "luz": "sagrado",
+        "nos": "piedoso",
+        "dentro": "defensor",
+        "estagnacao": "excruciante",
+        "trevas": "profano",
+        "fora": "arremesso",
+        "eles": "dilacerante",
+        "movimento": "energetico"
+      },
+      "observacao": "a critério do mestre, se o portador se tornar mais próximo de outro elemento, o encanto muda de acordo"
+    }
+  ],
+  "livro": "ameacas_de_arton"
+}

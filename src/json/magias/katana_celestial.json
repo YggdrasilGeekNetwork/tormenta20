@@ -1,0 +1,55 @@
+{
+  "id": "katana_celestial",
+  "name": "Katana Celestial",
+  "type": "divina",
+  "circle": "5",
+  "school": "evoc",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": {
+    "amount": null,
+    "up_to": null,
+    "type": "area"
+  },
+  "effect": "area",
+  "effect_details": {
+    "shape": "linha",
+    "dimention": "comprimento",
+    "size": "60m (ou duas linhas de 30m)",
+    "other_details": "se escolher duas linhas, cada uma deve seguir em uma direção diferente, criando um corte em \"V\""
+  },
+  "counterspell": null,
+  "duration": "instantânea",
+  "duration_details": null,
+  "resistence": {
+    "effect": "reduz_parcial",
+    "skill": "reflexos"
+  },
+  "extra_costs": null,
+  "description": "Um golpe vindo dos céus risca o campo de batalha. Se escolher duas linhas, cada uma deve seguir em uma direção diferente, criando um corte em \"V\". Criaturas na área sofrem 12d8 pontos de dano de luz (ou 12d12, se forem mortos-vivos) e ficam cegas e surdas até o fim da cena (Reflexos reduz à metade e evita as condições).",
+  "enhancements": [
+    {
+      "cost": 3,
+      "type": "aumenta",
+      "description": "aumenta o dano em +2d8 (ou +2d12 contra mortos-vivos).",
+      "extra_details": null
+    },
+    {
+      "cost": 6,
+      "type": "muda",
+      "description": "muda a área para uma linha de 120m ou quatro linhas de 30m em direções opostas, formando um \"X\".",
+      "extra_details": null
+    }
+  ],
+  "effects": [
+    {
+      "type": "dano",
+      "attribute": "pv",
+      "amount": "12d8",
+      "resistence_requirement": "reflexos",
+      "extra_requirements": "12d12 contra mortos-vivos; cega e surda até o fim da cena"
+    }
+  ],
+  "livro": "ameacas_de_arton"
+}

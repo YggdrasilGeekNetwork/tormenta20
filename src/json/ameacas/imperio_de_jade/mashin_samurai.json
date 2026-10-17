@@ -1,0 +1,44 @@
+{
+  "id": "mashin_samurai",
+  "name": "Mashin Samurai",
+  "nd": 5,
+  "tipo": "Construto",
+  "subtipo": "golem",
+  "tamanho": "medio",
+  "grupo": "imperio_de_jade",
+  "pv": 221,
+  "pm": null,
+  "defesa": 25,
+  "salvaguardas": { "fort": 17, "ref": 7, "von": 13 },
+  "reducao_de_dano": null,
+  "imunidades": ["fogo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 3,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 4, "des": 2, "con": 3, "int": 1, "sab": 1, "car": 0 },
+  "pericias": { "atletismo": 8, "nobreza": 5, "religiao": 5 },
+  "ataques": [
+    {
+      "nome": "Katana",
+      "quantidade": 2,
+      "bonus": 18,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 10, "tipo": "corte" },
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 0, "tipo": "fogo" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arma Acoplada", "descricao": "A katana do mashin samurai é acoplada ao seu braço. Ela não pode ser desarmada e ele pode sacá-la como uma ação livre." },
+    { "nome": "Kiai Divino", "acao": "padrão", "descricao": "Quando faz um ataque, o mashin causa dano máximo, sem a necessidade de rolar dados. Recarga (padrão)." },
+    { "nome": "Lâmina da Alma em Chamas", "acao": "reacao", "descricao": "Uma vez por rodada, quando faz um ataque com sua katana, o mashin pode disparar uma esfera flamejante contra uma criatura em alcance médio. O alvo sofre 6d6 pontos de dano de fogo (Reflexos CD 20 reduz à metade)." }
+  ],
+  "equipamento": ["Katana certeira", "Meia armadura"],
+  "tesouro": "Metade.",
+  "description": "Golem samurai de origem tamuraniana, honrado e disciplinado como qualquer guerreiro humano, canalizando energia elemental de fogo através de sua katana acoplada.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,64 @@
+{
+  "id": "tarso",
+  "name": "Tarso, Dragão-Rei dos Mortos",
+  "nd": 22,
+  "tipo": "Morto-vivo",
+  "subtipo": "dragão",
+  "tamanho": "colossal",
+  "grupo": "mortos_vivos",
+  "pv": 3800,
+  "pm": null,
+  "defesa": 70,
+  "salvaguardas": { "fort": 38, "ref": 25, "von": 33 },
+  "reducao_de_dano": "30/luz",
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "resistencia_a_magia": 10,
+  "vulnerabilidades": ["luz"],
+  "iniciativa": 23,
+  "percepcao": 25,
+  "visao": ["percepção às cegas (longo)", "visão no escuro"],
+  "deslocamento": { "terrestre": 24, "voo": 45 },
+  "atributos": { "for": 15, "des": 5, "con": 10, "int": 18, "sab": 7, "car": 8 },
+  "pericias": { "conhecimento": 36, "cura": 25, "diplomacia": 26, "enganacao": 26, "intimidacao": 26, "intuicao": 25, "misticismo": 36, "nobreza": 36, "oficio_alquimista": 36, "religiao": 25 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 65,
+      "dano": [
+        { "dados": [{ "quantidade": 5, "faces": 20 }], "bonus": 50, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 1, "faces": 20 }], "bonus": 0, "tipo": "trevas" }
+      ],
+      "critico": "16/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 65,
+      "dano": [
+        { "dados": [{ "quantidade": 5, "faces": 20 }], "bonus": 50, "tipo": "corte" },
+        { "dados": [{ "quantidade": 1, "faces": 20 }], "bonus": 0, "tipo": "trevas" }
+      ],
+      "critico": "16/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arcano de Batalha", "descricao": "Tarso soma sua Inteligência nas rolagens de dano quando lança magias (já contabilizado)." },
+    { "nome": "Aura Aterradora", "salvaguarda": "Vontade", "cd": 55, "efeito_sucesso": "evita (se falhar por 10 ou mais, a criatura morre automaticamente)", "descricao": "Aura Aterradora. Vontade CD 55 evita (se falhar por 10 ou mais, a criatura morre automaticamente). A aura afeta apenas criaturas escolhidas. Medo." },
+    { "nome": "Conjuração Cadavérica", "descricao": "Uma criatura que falhe na resistência contra uma das magias de Tarso sofre 2d20 pontos de dano de trevas e fica enjoada." },
+    { "nome": "Couro Necromântico", "descricao": "O dano de fontes mundanas que Tarso sofre é reduzido à metade. Se ele passar num teste de resistência contra uma magia que o tem como alvo, ela é revertida contra o conjurador." },
+    { "nome": "Dilacerar", "descricao": "Se Tarso acertar dois ataques de garra em uma mesma criatura no mesmo turno, causa mais 5d20+50 pontos de dano." },
+    { "nome": "Filactério", "descricao": "Caso Tarso seja morto, ele retorna completamente recuperado em 1d10 dias. A única forma de derrotá-lo permanentemente é destruir seu filactério." },
+    { "nome": "Fluxo de Mana", "descricao": "Tarso pode manter dois efeitos sustentados simultaneamente com apenas uma ação livre (mas pagando o custo de cada um)." },
+    { "nome": "Metamorfose Dracônica", "acao": "completa", "descricao": "Tarso costuma assumir a forma de um pequeno esqueleto de aparência amigável." },
+    { "nome": "Necromante Ancestral", "descricao": "Tarso lança qualquer magia, arcana ou divina, como um conjurador arcano de 20º nível sem gastar PM (CD 55, 57 para necromancia, limite 38 PM). Uma vez por rodada, ele pode lançar uma dessas magias como ação livre." },
+    { "nome": "Protegido Indefeso", "descricao": "Tarso pode escolher até uma criatura como seu protegido por vez. Ele sempre sabe a localização e condição exatas do protegido, e pode usar a magia Teletransporte para a localização dele como uma ação livre, sem necessidade de teste de Misticismo." },
+    { "nome": "Sopro Tenebroso", "acao": "padrão", "descricao": "Criaturas em um cone de 30m sofrem 30d12 pontos de dano de ácido, frio ou trevas, à escolha de Tarso, e, por 1 rodada, não podem recuperar PV de nenhuma forma (Fortitude CD 55 reduz o dano à metade e evita a restrição de cura). Tarso recupera PV igual à metade do dano total do sopro. Recarga (movimento)." },
+    { "nome": "Trevas Profundas", "descricao": "Todo dano de trevas causado por Tarso ignora redução de dano e, contra criaturas imunes a trevas, ainda causa metade do dano." },
+    { "nome": "Varrer", "acao": "livre", "descricao": "Uma vez por rodada, quando Tarso faz um ataque corpo a corpo e reduz os PV do alvo a 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão, fragmento de filactério e um sorvete.",
+  "description": "ND originalmente \"S+\" no livro (armazenado aqui como 22 por convenção de implementação). O Dragão-Rei dos Mortos, não apenas o mais poderoso dos Dragões-Reais, mas possivelmente o ser mais poderoso de Arton, exceto pelos próprios deuses. Já existia durante a Era de Megalokk como dragão das trevas, provavelmente o primeiro dragão-lich do mundo, atribuído até a invenção do próprio ritual de lichificação. Hoje circula entre os mortais como um pequeno esqueleto amigável, curioso por coisas, pessoas, sorvetes e brinquedos, reagindo apenas quando incomodado — poderia dominar ou destruir Arton quando quisesse, mas simplesmente não quer.",
+  "livro": "ameacas_de_arton"
+}

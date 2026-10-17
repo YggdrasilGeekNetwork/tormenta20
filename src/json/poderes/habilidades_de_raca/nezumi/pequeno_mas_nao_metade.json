@@ -1,0 +1,13 @@
+{
+  "id": "pequeno_mas_nao_metade",
+  "name": "Pequeno, Mas Não Metade",
+  "type": "habilidade_de_raca",
+  "race": "nezumi",
+  "description": "Seu tamanho é Pequeno, mas seu deslocamento se mantém 9m e você recebe resistência a medo +5 contra criaturas maiores que você e +2 em Intimidação.",
+  "effects": {
+    "movement_override": 9,
+    "fear_resistance_vs_larger": 5,
+    "skill_improvement": { "skill": "intimidacao", "value": 2 }
+  },
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,33 @@
+{
+  "id": "enxame_larval",
+  "name": "Enxame Larval",
+  "nd": 1,
+  "tipo": "Monstro",
+  "subtipo": "kobold",
+  "tamanho": "medio",
+  "grupo": "kobolds",
+  "pv": 30,
+  "pm": null,
+  "defesa": 16,
+  "salvaguardas": { "fort": 5, "ref": 11, "von": 0 },
+  "reducao_de_dano": null,
+  "imunidades": ["corte", "perfuração"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 3,
+  "visao": ["sensibilidade a luz", "visão no escuro"],
+  "deslocamento": { "terrestre": 6, "escavacao": 6 },
+  "atributos": { "for": -1, "des": 2, "con": 0, "int": -4, "sab": -1, "car": -3 },
+  "pericias": {},
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Enxame", "descricao": "Qualquer criatura que comece seu turno no espaço do enxame larval, ou entre nele, sofre 3d4 pontos de dano de perfuração (sem necessidade de teste de ataque)." },
+    { "nome": "Distração", "descricao": "Uma criatura que comece seu turno dentro do espaço do enxame não pode fazer ações que exijam concentração (como lançar magias) e sofre –2 em perícias (Fortitude CD 15 evita ambos). Estes efeitos duram até ela sair da área do enxame e se livrar dos kobolds." },
+    { "nome": "Entrar nas Roupas", "descricao": "Quando uma criatura sai do espaço do enxame, algumas larvas ficam dentro de suas roupas. Se falhou no teste de resistência, a criatura continua sofrendo os efeitos de Distração até gastar uma ação padrão para se livrar das larvas." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Dúvida-se que kobolds sejam de fato seres vivos no sentido comum: eles se formam, subproduto do poder elemental dos dragões, nascendo de ovos viscosos que brotam em lugares onde grandes répteis permanecem por muito tempo. Em grande concentração, a aproximação de criaturas não dracônicas faz os ovos eclodir rapidamente em enxames de larvas que avançam contra o invasor.",
+  "livro": "ameacas_de_arton"
+}

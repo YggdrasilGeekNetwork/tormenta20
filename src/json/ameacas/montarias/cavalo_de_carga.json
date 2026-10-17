@@ -1,0 +1,43 @@
+{
+  "id": "cavalo_de_carga",
+  "name": "Cavalo de Carga",
+  "nd": 0.5,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 27,
+  "pm": null,
+  "defesa": 12,
+  "salvaguardas": { "fort": 6, "ref": 0, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 2,
+  "percepcao": 5,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": 0, "con": 3, "int": -4, "sab": 1, "car": -2 },
+  "pericias": { "atletismo": 9 },
+  "ataques": [
+    {
+      "nome": "Cascos",
+      "bonus": 7,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 5, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "besta de carga",
+    "restricao": null,
+    "observacao": "Arquétipo definido no Apêndice A (p. 416); não redetalhado aqui."
+  },
+  "description": "Animal robusto, mais lento mas mais forte que um cavalo de montaria, próprio para puxar arados, transportar alforjes cheios no lombo ou mover carroças pesadas. Seja a galope ou em viagens longas, tem a mesma velocidade média de um humano.",
+  "livro": "ameacas_de_arton"
+}

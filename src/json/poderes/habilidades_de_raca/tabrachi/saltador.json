@@ -1,0 +1,14 @@
+{
+  "id": "saltador",
+  "name": "Saltador",
+  "type": "habilidade_de_raca",
+  "race": "tabrachi",
+  "description": "Você recebe +10 em testes de Atletismo para saltar.",
+  "effects": {
+    "conditional_skill_bonus": {
+      "atletismo": 10,
+      "condition": "saltar"
+    }
+  },
+  "livro": "ameacas_de_arton"
+}

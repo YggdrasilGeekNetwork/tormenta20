@@ -1,0 +1,17 @@
+{
+  "id": "velocis",
+  "name": "Velocis",
+  "description": "Thera (povo-trovão) parecido com um antílope, verdadeira máquina de correr e saltar, entre as criaturas terrestres mais rápidas de Arton. Nômades que vivem em campo aberto, especialmente na Grande Savana, nunca ficando muito tempo no mesmo lugar. Orgulhosamente covardes — nenhuma honra ou amor próprio os impede de violar promessas, abandonar companheiros ou recorrer a golpes baixos — mas mestres em sobrevivência, valiosos como batedores, rastreadores ou curandeiros. Os únicos thera que escolhem devotos divinos como líderes, tradicionalmente uma clériga de Marah chamada Sarana.",
+  "size": "medio",
+  "movement": 12,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "destreza": 2, "sabedoria": 1, "inteligencia": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["atraves_de_espinheiros", "sentidos_selvagens", "velocista_da_planicie"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devocao": ["allihanna", "lena", "marah"],
+  "livro": "ameacas_de_arton"
+}

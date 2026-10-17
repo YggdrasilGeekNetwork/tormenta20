@@ -1,0 +1,17 @@
+{
+  "id": "rompedor_da_realidade",
+  "name": "Rompedor da Realidade",
+  "description": "Este artefato lefeu é um machado de guerra gigante, atroz, pungente, anticriatura (não lefeu), magnífico, de matéria vermelha. Ataques com ele ignoram redução de dano, fortificação e imunidade a acertos críticos. Além disso, seus golpes distorcem a vítima: uma criatura atingida pela arma perde 1 ponto cumulativo de um atributo aleatório permanentemente (Fortitude CD Força evita). Um não lefeu que empunhe o Rompedor fica debilitado até o fim da cena.",
+  "effects": [
+    { "type": "enchantment", "name": "gigante" },
+    { "type": "enchantment", "name": "atroz" },
+    { "type": "enchantment", "name": "pungente" },
+    { "type": "enchantment", "name": "anticriatura", "restricao": "não lefeu" },
+    { "type": "enchantment", "name": "magnífico" },
+    { "type": "material_especial", "name": "materia_vermelha" },
+    { "type": "ignora_defesas", "efeitos": ["reducao_de_dano", "fortificacao", "imunidade_a_acertos_criticos"] },
+    { "type": "dreno_de_atributo", "valor": 1, "atributo": "aleatório", "permanente": true, "cumulativo": true, "resistencia": { "tipo": "Fortitude", "cd": "Força", "efeito": "evita" } },
+    { "type": "penalidade_portador", "condicao": "não lefeu empunhando a arma", "efeito": "fica debilitado até o fim da cena" }
+  ],
+  "livro": "ameacas_de_arton"
+}

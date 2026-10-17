@@ -1,0 +1,45 @@
+{
+  "id": "lefeu_morgadrel",
+  "name": "Lefeu, Morgadrel",
+  "nd": 13,
+  "tipo": "Monstro",
+  "subtipo": "lefeu",
+  "tamanho": "enorme",
+  "grupo": "areas_de_tormenta",
+  "pv": 670,
+  "pm": null,
+  "defesa": 47,
+  "salvaguardas": { "fort": 18, "ref": 13, "von": 26 },
+  "reducao_de_dano": 10,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 18,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 15, "natacao": 15 },
+  "atributos": { "for": 10, "des": 0, "con": 7, "int": 1, "sab": 3, "car": -1 },
+  "pericias": { "furtividade": "+10 (+20 submerso)" },
+  "ataques": [
+    {
+      "nome": "Pinça",
+      "quantidade": 2,
+      "bonus": 40,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 19, "tipo": "corte" }
+      ],
+      "critico": "19/x2",
+      "observacao": "x2 (cada par de pinças ataca duas vezes)"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Disparar Espinhos", "acao": "padrão", "descricao": "Criaturas em uma esfera de 9m ao redor do morgadrel sofrem 12d8+24 pontos de dano de perfuração e ficam fatigadas por veneno (cumulativo; Reflexos CD 35 reduz à metade e evita a condição). Recarga (ação de movimento)." },
+    { "nome": "Insanidade da Tormenta", "descricao": "2d10 PM (Vontade CD 35 evita)." },
+    { "nome": "Investida Surpresa", "descricao": "Quando faz uma investida contra um inimigo surpreendido, o morgadrel pode desferir todos seus ataques de pinça contra essa criatura." },
+    { "nome": "Jato de Ácido", "acao": "padrão", "descricao": "Criaturas em uma linha de 15m sofrem 8d12 pontos de dano de ácido e ficam cobertas por muco, sofrendo 3d12 pontos de dano de ácido no início de seus próximos 2 turnos (Reflexos CD 35 reduz à metade e evita o muco). Recarga (ação de movimento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Lefeu que lembra imensos caranguejos, com carapaças extremamente grossas, corpos largos como estradas, dez patas, dois pares de enormes pinças afiadas, longas antenas e nenhum olho aparente, totalmente recobertos de espinhos pontiagudos. Antes chamados tahab-krar ('caranguejo-demônio-espinhento'), foram entre os primeiros lefeu de aparência não humanoide descobertos, levando estudiosos a especular sobre uma ligação dos invasores com os crustáceos de Arton. Encontrados nos lagos, rios e mares da Tormenta, onde se ocultam com facilidade e permanecem imóveis à espera de vítimas; raramente agem com outros lefeu, mas às vezes participam de emboscadas quando outros demônios afugentam vítimas até onde um morgadrel está escondido. Inicia o combate concentrando as garras em um adversário surpreso; se não conseguir, permanece imerso usando jato de ácido ou rajadas de espinhos contra alvos distantes. Apesar da aparência animalesca, são inteligentes e sábios, passando longos períodos de solidão em divagações filosóficas sobre as maravilhas do povo lefeu.",
+  "livro": "ameacas_de_arton"
+}

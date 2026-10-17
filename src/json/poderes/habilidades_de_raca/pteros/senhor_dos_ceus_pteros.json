@@ -1,0 +1,13 @@
+{
+  "id": "senhor_dos_ceus_pteros",
+  "name": "Senhor dos Céus",
+  "type": "habilidade_de_raca",
+  "race": "pteros",
+  "description": "Você pode pairar a 1,5m do chão com deslocamento 9m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Se não estiver usando armadura pesada, você pode gastar 1 PM por rodada para voar com deslocamento de 12m. Quando abre suas asas para pairar ou voar, você ocupa o espaço de uma criatura de uma categoria de tamanho maior que a sua.",
+  "effects": {
+    "hover": { "height": "1,5m", "movement": 9, "ignores_difficult_terrain": true, "fall_damage_immunity": true },
+    "flight": { "movement": 12, "cost_pm_per_round": 1, "requires": "sem armadura pesada" },
+    "space_requirement": "uma categoria de tamanho maior"
+  },
+  "livro": "ameacas_de_arton"
+}

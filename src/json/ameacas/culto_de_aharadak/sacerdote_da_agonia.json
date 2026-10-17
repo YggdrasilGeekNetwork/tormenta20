@@ -1,0 +1,46 @@
+{
+  "id": "sacerdote_da_agonia",
+  "name": "Sacerdote da Agonia",
+  "nd": 9,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "culto_de_aharadak",
+  "pv": 192,
+  "pm": 61,
+  "defesa": 32,
+  "salvaguardas": { "fort": 9, "ref": 15, "von": 21 },
+  "reducao_de_dano": null,
+  "imunidades": ["efeitos mentais", "medo"],
+  "resistencias": { "magia_divina": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 15,
+  "percepcao": 19,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 3, "con": 3, "int": -1, "sab": 6, "car": 0 },
+  "pericias": { "intimidacao": 11, "religiao": 15 },
+  "ataques": [
+    {
+      "nome": "Adaga da Tormenta",
+      "quantidade": 2,
+      "bonus": 22,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 16, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 0, "tipo": "trevas" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Não pode ser flanqueado", "descricao": "O sacerdote da agonia não pode ser flanqueado." },
+    { "nome": "Fortificação", "descricao": "25% de chance de ignorar completamente qualquer efeito que exija uma localização anatômica vital para funcionar." },
+    { "nome": "Apetite por Destruição (mágica)", "acao": "completa", "custos": { "value": 10, "type": "PM" }, "descricao": "O sacerdote suga a energia vital de todos os seres em uma esfera de 6m ao seu redor. Criaturas vivas na área sofrem 6d10 pontos de dano de trevas e ele recebe PV temporários iguais ao dano total causado." },
+    { "nome": "Júbilo na Dor", "descricao": "Quando causa ou sofre dano, recebe redução de dano 2 e recupera 2d4 pontos de mana. A redução de dano é cumulativa, até um máximo de RD 20, mas volta a zero se passar 1 rodada sem causar ou sofrer dano." },
+    { "nome": "Magias (clérigo de Aharadak, 9º nível, CD 32, limite de 10 PM)", "descricao": "Arma Espiritual (10 PM; até o fim da cena, 2x/rodada reage a ataque corpo a corpo causando 4d6 de corte), Enxame Rubro de Ichabod (8 PM, sustentada; enxame de 3m causa 5d12 de ácido por turno, movível 12m), Infligir Ferimentos (7 PM; 5d8+5 de trevas), Miasma Mefítico (7 PM; nuvem de 6m de raio, 7d6 de ácido e enjoo), Perdição (5 PM; –3 em ataque e dano a inimigos escolhidos)." }
+  ],
+  "equipamento": ["Gibão de peles espinhoso de matéria vermelha", "Símbolo sagrado de Aharadak"],
+  "tesouro": "Metade mais uma adaga da Tormenta.",
+  "description": "Líder do culto a Aharadak, capaz de sugar a vitalidade de todos à sua volta e recompor-se com a dor que causa e sofre. Suas cerimônias são regadas a danças profanas, mutilações e sacrifícios sangrentos, buscando não apenas aprazer o Devorador, mas trazer a própria Tormenta para Arton.",
+  "livro": "ameacas_de_arton"
+}

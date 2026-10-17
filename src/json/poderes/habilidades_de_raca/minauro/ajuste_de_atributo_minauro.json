@@ -1,0 +1,11 @@
+{
+  "id": "ajuste_de_atributo_minauro",
+  "name": "Ajuste de Atributo",
+  "type": "habilidade_de_raca",
+  "race": "minauro",
+  "description": "Você recebe +1 em dois atributos a sua escolha (cumulativo com o +1 em Força racial).",
+  "effects": {
+    "chosen_attribute_bonus": { "count": 2, "value": 1, "exclude": [] }
+  },
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,18 @@
+{
+  "id": "gladio",
+  "name": "Gládio",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 12,
+  "dano": "1d6",
+  "critico": "19/x3",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": null,
+  "description": "Espada de lâmina curta, mas pesada, sem guarda. A ponta é muito afiada, capaz de infligir ferimentos precisos e letais. É uma das armas padrão dos legionários do Império de Tauron.",
+  "livro": "ameacas_de_arton"
+}

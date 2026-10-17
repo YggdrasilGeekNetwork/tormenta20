@@ -1,0 +1,49 @@
+{
+  "id": "brontoterio",
+  "name": "Brontotério",
+  "nd": 8,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "montarias",
+  "pv": 310,
+  "pm": null,
+  "defesa": 34,
+  "salvaguardas": { "fort": 20, "ref": 7, "von": 15 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 10,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 8, "des": 0, "con": 5, "int": -4, "sab": 1, "car": -3 },
+  "pericias": { "atletismo": 18 },
+  "ataques": [
+    {
+      "nome": "Chifre",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 25, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Besta Trovão", "acao": "movimento", "descricao": "O brontotério bate suas patas dianteiras no chão, fazendo o barulho de um trovão. Todas as criaturas em alcance curto ficam surdas por 1d4 rodadas (Fortitude CD 26 evita). Recarga (ação de movimento)." },
+    { "nome": "Bloqueio com Chifre", "acao": "reação", "descricao": "Uma vez por rodada, quando é atingido por um ataque corpo a corpo, o brontotério pode fazer um teste de ataque de chifre e subtrair o resultado desta rolagem do dano causado pelo ataque." },
+    { "nome": "Investida Avassaladora", "acao": "completa", "descricao": "O brontotério faz uma investida com seu chifre. Se acertar o ataque, causa +4d8 pontos de dano e a vítima é arremessada 1d6 x 1,5m na direção oposta." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "montaria (Enorme)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 12m e você recebe +1 na Defesa.",
+    "veterano": "O bônus na Defesa muda para +2 e você recebe uma ação de movimento extra por turno (apenas para se deslocar).",
+    "mestre": "Você recebe redução de dano 5."
+  },
+  "description": "Variedade gigante do rinoceronte, com chifre em forma de 'Y', encontrada em Galrasia.",
+  "livro": "ameacas_de_arton"
+}

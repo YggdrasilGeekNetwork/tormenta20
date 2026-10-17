@@ -1,0 +1,60 @@
+{
+  "id": "orc_mutante_superior",
+  "name": "Orc Mutante Superior",
+  "nd": 10,
+  "tipo": "Humanoide",
+  "subtipo": "orc",
+  "tamanho": "medio",
+  "grupo": "brutos_e_indomaveis",
+  "pv": 372,
+  "pm": null,
+  "defesa": 34,
+  "salvaguardas": { "fort": 22, "ref": 15, "von": 9 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 8,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 9, "des": 2, "con": 4, "int": -2, "sab": 0, "car": -3 },
+  "pericias": { "atletismo": 20, "intimidacao": 8 },
+  "ataques": [
+    {
+      "nome": "Tacape",
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 18, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Pancada",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 18, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 18, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Sensibilidade a Luz", "descricao": "Quando exposto à luz do sol ou similar, o orc fica ofuscado." },
+    {
+      "nome": "Mutações",
+      "descricao": "Cada orc mutante superior possui três mutações, escolhidas entre as seguintes (o exemplar aqui descrito possui Braço Direito Extra, Braço Esquerdo Extra e Cabeça Adicional, já refletidos em suas estatísticas): Cabeça Adicional (ao fazer um teste de Percepção ou Vontade, rola dois dados e usa o melhor resultado); Braço Direito Extra, livre (se acerta um ataque de pancada, pode usar a manobra agarrar, teste +29); Braço Esquerdo Extra, livre (se acerta o ataque de tacape e o de mordida na mesma criatura na mesma rodada, rasga a vítima com o terceiro braço degenerado, causando 1d8+12 de dano de corte); Braços Longos (o alcance natural aumenta em 3m); Mutação Constante (recebe cura acelerada 10); Pernas Fortes (deslocamento +6m, ignora terreno difícil); Uivo de Melancolia, ação completa (emite um uivo de sofrimento que deixa criaturas em alcance curto alquebradas, Vontade CD 26 evita)."
+    }
+  ],
+  "equipamento": ["Tacape macabro"],
+  "tesouro": "Padrão.",
+  "description": "É como se alguma entidade estivesse, até hoje, fazendo experimentos insanos em busca de uma raça orc 'perfeita' — ou experimentos sem objetivo algum, levando muitos a crer que os orcs foram criados por Nimb. Orcs podem apresentar mutações físicas extremas, como duas cabeças ou braços adicionais; os mais perigosos conquistam a chefia de suas tribos pela força, e alguns se tornam monstros poderosos capazes de aterrorizar regiões inteiras.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "nagah_sacerdotisa",
+  "name": "Nagah Sacerdotisa",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "nagah",
+  "tamanho": "medio",
+  "grupo": "sszzaazitas",
+  "pv": 140,
+  "pm": 38,
+  "defesa": 23,
+  "salvaguardas": { "fort": 5, "ref": 11, "von": 17 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "veneno": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 7,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": -1, "des": 2, "con": 0, "int": 3, "sab": 3, "car": 5 },
+  "pericias": { "enganacao": 15, "furtividade": 1, "intuicao": 9, "religiao": 9 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 15,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 5, "tipo": "corte" }
+      ],
+      "critico": "19/x2",
+      "efeito": "veneno"
+    },
+    {
+      "nome": "Cauda",
+      "bonus": 15,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 5, "tipo": "impacto" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Devoção Dissimulada", "descricao": "A nagah sacerdotisa se apresenta como devota de outra divindade. Quando faz um teste de Enganação ou Religião para ocultar sua devoção verdadeira, ela rola dois dados e usa o melhor resultado." },
+    { "nome": "Falso Amigo", "descricao": "Médica veterana." },
+    { "nome": "Magias", "descricao": "Lança magias como uma clériga de Sszzaas de 7º nível (CD 22, limite de PM 7): Curar Ferimentos (padrão, 7 PM; uma criatura em alcance curto cura 8d8+8 PV); Comando (padrão, 6 PM; no início do seu próximo turno, três criaturas em alcance curto ficam pasmas por 1 rodada, Von evita); Marca da Obediência (padrão, 3 PM; a sacerdotisa ordena que uma criatura adjacente não ataque a ela ou a seus aliados até o fim da cena, Von evita; a criatura pode repetir o teste de Vontade em cada um de seus turnos subsequentes); Miasma Mefítico (padrão, 7 PM; criaturas em um raio de 6m em alcance médio sofrem 7d6 pontos de dano de ácido e ficam enjoadas por 1 rodada, Fort reduz à metade e evita a condição); Santuário (padrão, 1 PM; a sacerdotisa toca uma criatura; até o fim da cena, ou até que essa criatura faça uma ação hostil, qualquer criatura que tente fazer uma ação hostil contra ela perde a ação, Von evita)." },
+    { "nome": "Veneno", "salvaguarda": "Fortitude", "cd": 22, "efeito_sucesso": "reduz para 1 rodada", "descricao": "Peçonha concentrada: perde 1d12 pontos de vida por rodada durante 3 rodadas (Fort CD 22 reduz para 1 rodada)." }
+  ],
+  "equipamento": ["Adaga", "Couraça", "Escudo leve", "Símbolo sagrado (qualquer, exceto Sszzaas)"],
+  "tesouro": "Padrão.",
+  "description": "Clériga do povo nagah, quase sempre uma sszzaazita disfarçada que lidera cabalas (formadas por nagahs ou outras raças) e provê curas mágicas enquanto nagahs guardiões lutam ao seu lado. Esconde sua verdadeira natureza, revelando-a apenas a poucos escolhidos.",
+  "livro": "ameacas_de_arton"
+}

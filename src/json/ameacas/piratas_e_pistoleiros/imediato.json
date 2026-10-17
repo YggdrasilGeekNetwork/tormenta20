@@ -1,0 +1,43 @@
+{
+  "id": "imediato",
+  "name": "Imediato",
+  "nd": 4,
+  "tipo": "Morto-vivo",
+  "subtipo": "osteon",
+  "tamanho": "medio",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 120,
+  "pm": null,
+  "defesa": 23,
+  "salvaguardas": { "fort": 8, "ref": 16, "von": 6 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "corte": 5, "frio": 5, "perfuração": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 5,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 4, "con": 0, "int": 0, "sab": 1, "car": -1 },
+  "pericias": { "acrobacia": 10, "atletismo": 7, "intimidacao": 5, "pilotagem": 8 },
+  "ataques": [
+    {
+      "nome": "Cimitarra",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 8, "tipo": "corte" },
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 0, "tipo": "ácido" }
+      ],
+      "critico": "18/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Correr pelo Cordame", "acao": "completa", "descricao": "O pirata percorre até seu deslocamento, ignorando terreno difícil, e faz um ataque corpo a corpo com +2 no teste de ataque e +1d6 na rolagem de dano." },
+    { "nome": "Pernas do Mar", "descricao": "Quando está se equilibrando ou escalando, o pirata não fica desprevenido e seu deslocamento não é reduzido à metade." },
+    { "nome": "Salmoura", "descricao": "Uma criatura que sofra dano de ácido de um ataque do imediato sofre –2 em testes de perícia por 1 rodada." }
+  ],
+  "equipamento": ["Cimitarra"],
+  "tesouro": "Padrão.",
+  "description": "Osteon imediato (segundo no comando) de um navio pirata, esqueleto consciente que serve lealmente a bordo.",
+  "livro": "ameacas_de_arton"
+}

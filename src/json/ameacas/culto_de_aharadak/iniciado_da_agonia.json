@@ -1,0 +1,41 @@
+{
+  "id": "iniciado_da_agonia",
+  "name": "Iniciado da Agonia",
+  "nd": 3,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "culto_de_aharadak",
+  "pv": 28,
+  "pm": 28,
+  "defesa": 20,
+  "salvaguardas": { "fort": 5, "ref": 8, "von": 13 },
+  "reducao_de_dano": null,
+  "imunidades": ["efeitos mentais", "medo"],
+  "resistencias": { "magia_divina": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 8,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 3, "con": 2, "int": -1, "sab": 3, "car": -1 },
+  "pericias": { "intimidacao": 7, "religiao": 6 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 7, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Júbilo na Dor", "descricao": "Quando causa ou sofre dano, o acólito da agonia recebe redução de dano 2 e recupera 1d4 pontos de mana. A redução de dano é cumulativa, até um máximo de RD 10, mas volta a zero se passar 1 rodada sem causar ou sofrer dano." },
+    { "nome": "Magias (clérigo de Aharadak, 5º nível, CD 17, limite de 5 PM)", "descricao": "Arma Espiritual (4 PM; +2 na Defesa e reação de 2d6 corte ao sofrer ataque corpo a corpo), Infligir Ferimentos (5 PM; 4d8+4 de trevas), Perdição (3 PM; –2 em ataque e dano a inimigos escolhidos)." }
+  ],
+  "equipamento": ["Adaga", "Gibão de peles", "Símbolo sagrado de Aharadak"],
+  "tesouro": "Metade.",
+  "description": "Devoto de Aharadak que acredita aprazer sua divindade com dor e sofrimento — de suas vítimas ou, na falta destas, de si mesmo. Quando não captura inocentes para rituais de mutilação e sadismo, laceram a própria carne como oferenda profana; grupos de acólitos podem atacar aventureiros simplesmente para causar dor e derramar sangue, aplacando o apetite infinito do Devorador.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "velocista_da_planicie",
+  "name": "Velocista da Planície",
+  "type": "habilidade_de_raca",
+  "race": "velocis",
+  "description": "Seu deslocamento é 12m. Você pode usar Destreza como atributo-chave de Atletismo (em vez de Força) e, quando faz testes de Atletismo para correr ou saltar, pode rolar dois dados e usar o melhor resultado.",
+  "effects": {
+    "movement_override": 12,
+    "skill_key_attribute_override": { "skill": "atletismo", "attribute": "destreza" },
+    "advantage_on_skill": { "skill": "atletismo", "condition": "correr ou saltar" }
+  },
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "kobold_bruto",
+  "name": "Kobold Bruto",
+  "nd": 4,
+  "tipo": "Monstro",
+  "subtipo": "kobold",
+  "tamanho": "grande",
+  "grupo": "kobolds",
+  "pv": 120,
+  "pm": null,
+  "defesa": 23,
+  "salvaguardas": { "fort": 16, "ref": 10, "von": 2 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 2,
+  "visao": ["sensibilidade a luz", "visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 6, "des": 1, "con": 4, "int": -3, "sab": -2, "car": -2 },
+  "pericias": { "atletismo": 10 },
+  "ataques": [
+    {
+      "nome": "Tacape",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 18, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Escamas de Kally", "descricao": "Todo dano que o kobold bruto sofre é reduzido à metade." },
+    { "nome": "Peste Oportunista", "descricao": "Os ataques do kobold causam +1d4 pontos de dano contra inimigos que já sofreram dano na rodada." },
+    { "nome": "Cabecinha", "descricao": "A habilidade Escamas de Kally não se aplica a acertos críticos e ataques contra a cabeça diminuta do kobold (Defesa 33)." }
+  ],
+  "equipamento": ["Tacape aumentado"],
+  "tesouro": "Metade.",
+  "description": "Ser do tamanho de um ogro, grande e forte, mas com cabeça diminuta de kobold. Pode surgir de ovos normais formados em covis dracônicos, ou nascer de uma kobold-mãe, atuando como sua \"guarda real\". Muitos devotos de Kallyadranoch são recompensados com estes gigantes monstruosos como guardas e soldados.",
+  "livro": "ameacas_de_arton"
+}

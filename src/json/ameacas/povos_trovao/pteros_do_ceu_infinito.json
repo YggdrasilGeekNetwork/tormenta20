@@ -1,0 +1,42 @@
+{
+  "id": "pteros_do_ceu_infinito",
+  "name": "Pteros do Céu Infinito",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "pteros",
+  "tamanho": "medio",
+  "grupo": "povos_trovao",
+  "pv": 140,
+  "pm": 33,
+  "defesa": 20,
+  "salvaguardas": { "fort": 5, "ref": 11, "von": 17 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 11,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 9, "voo": 12 },
+  "atributos": { "for": 0, "des": 3, "con": 0, "int": -1, "sab": 5, "car": 0 },
+  "pericias": { "atletismo": 5, "cura": 9, "religiao": 9, "sobrevivencia": 9 },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 15,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 3, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Bênção de Anikka", "descricao": "Por ser um devoto de Anikka do Céu Infinito (um aspecto de Wynna), o pteros do céu infinito lança magias arcanas como se fossem divinas. Além disso, quando lança uma magia, ele recebe +2 na Defesa por 1 rodada." },
+    { "nome": "Magias", "descricao": "Lança magias como clérigo de Wynna de 5º nível (CD 22): Curar Ferimentos (padrão, 5 PM, cura 6d8+6 PV), Controlar Plantas (padrão, 2 PM, quadrado de 9m de vegetação vira terreno difícil e enreda), Toque Chocante (padrão, 5 PM, raios em esfera de 6m, 4d8+4 de eletricidade), Tempestade Divina (padrão, 4 PM, sustentada, apenas em ambientes abertos, vendaval em cilindro de 15m de raio e altura, 3d8 de eletricidade por ação padrão gasta)." }
+  ],
+  "equipamento": ["Pó azul x2", "Ramo verdejante x1d3", "Símbolo sagrado de Anikka (Wynna)"],
+  "tesouro": "Padrão.",
+  "description": "Pteros devoto de Anikka do Céu Infinito, aspecto de Wynna, capaz de lançar magias arcanas como se fossem divinas e invocar tempestades sobre ambientes abertos.",
+  "livro": "ameacas_de_arton"
+}

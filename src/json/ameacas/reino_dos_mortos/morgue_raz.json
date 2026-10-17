@@ -1,0 +1,52 @@
+{
+  "id": "morgue_raz",
+  "name": "Morgue'raz",
+  "nd": 9,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "reino_dos_mortos",
+  "pv": 378,
+  "pm": null,
+  "defesa": 34,
+  "salvaguardas": { "fort": 21, "ref": 15, "von": 9 },
+  "reducao_de_dano": null,
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 11,
+  "percepcao": 8,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 8, "des": 3, "con": 4, "int": -1, "sab": 0, "car": 0 },
+  "pericias": { "furtividade": 11 },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 18, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Tripas-tentáculos",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 18, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com as tripas-tentáculos (teste +29)." },
+    { "nome": "Aura de Fedor", "descricao": "Qualquer criatura que entre em um raio de 9m do morgue'raz, ou inicie seu turno nesta área, fica enjoada por 1d4 rodadas (Fortitude CD 26 evita)." },
+    { "nome": "Criar Lacaios", "descricao": "Criaturas mortas por um morgue'raz se erguem uma semana depois da morte como carniçais. Os carniçais obedecem instintivamente ao morgue'raz, a menos que ele já tenha sido destruído ou esteja a mais de 10 quilômetros." },
+    { "nome": "Devorar por Dentro", "acao": "padrão", "descricao": "Se o morgue'raz iniciar seu turno agarrando uma criatura, tripas-vermes se alojam na vítima, causando o dano da tripa-tentáculo. Além disso, a vítima fica fraca até o fim do dia (Fortitude CD 26 evita). Sempre que deixar um alvo fraco dessa forma, o morgue'raz recupera uma quantidade de PV igual à metade do dano causado por esta habilidade." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Esqueleto grande e maléfico que nunca pertenceu a um gigante — tornou-se assim devido aos crimes bárbaros que praticou em vida. Surge quando um assassino morre por causas naturais em Aslothia, jamais respondendo por seus crimes, erguido como morto-vivo pela energia negativa ambiente ou talvez pela revolta de suas antigas vítimas. Usa tentáculos viscerais para imobilizar e devorar presas por dentro.",
+  "livro": "ameacas_de_arton"
+}

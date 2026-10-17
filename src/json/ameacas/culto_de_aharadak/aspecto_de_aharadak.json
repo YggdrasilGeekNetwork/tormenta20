@@ -1,0 +1,53 @@
+{
+  "id": "aspecto_de_aharadak",
+  "name": "Aspecto de Aharadak",
+  "nd": 10,
+  "tipo": "Monstro",
+  "subtipo": "lefeu",
+  "tamanho": "grande",
+  "grupo": "culto_de_aharadak",
+  "pv": 472,
+  "pm": null,
+  "defesa": 38,
+  "salvaguardas": { "fort": 22, "ref": 10, "von": 20 },
+  "reducao_de_dano": 10,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 25,
+  "visao": ["percepção às cegas"],
+  "deslocamento": { "terrestre": 9, "voo": 9 },
+  "atributos": { "for": 10, "des": 1, "con": 7, "int": 2, "sab": 5, "car": -4 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 30,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 22, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 30,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 8 }], "bonus": 22, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Mordida (teste +32)." },
+    { "nome": "Cuspir Enxame (mágica)", "acao": "completa", "descricao": "Um enxame de insetos rubros Grande surge em um ponto em alcance curto (sustentada, sem gasto de PM). No fim de cada um dos turnos do aspecto, causa 4d12 pontos de dano de ácido a qualquer criatura em seu espaço. Pode gastar uma ação de movimento para mover o enxame com deslocamento de voo 12m." },
+    { "nome": "Engolir", "acao": "padrão", "descricao": "No início de cada um dos turnos do aspecto, a criatura engolida sofre 4d6+11 pontos de dano de impacto mais 4d6+11 pontos de dano de ácido. Pode escapar causando um total de 25 pontos de dano a ele (Defesa 15, redução de dano 0)." },
+    { "nome": "Insanidade da Tormenta", "descricao": "2d12 PM (Vontade CD 30 evita)." },
+    { "nome": "Sangue Ácido", "descricao": "Quando o aspecto sofre dano por um ataque corpo a corpo adjacente, o atacante sofre 10 pontos de dano de ácido." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Aspectos dos deuses são criaturas mortais de existência temporária, enviadas por suas divindades para cumprir missões simples, com a mesma aparência do deus mas em proporções humanas. No caso de Aharadak, a manifestação é grande como uma carruagem — um monstro repulsivo, parecendo um estômago de porco imenso e inchado, com inúmeras patas curtas e uma bocarra circular coroada de dentes e tentáculos. Pode surgir em resposta à súplica de um alto sacerdote, ou por simples vontade do Devorador, para punir aqueles que julgar 'profanadores'; existe o risco de ser imprevisível, atacando tudo e todos à volta, incluindo o próprio invocador e outros devotos.",
+  "livro": "ameacas_de_arton"
+}

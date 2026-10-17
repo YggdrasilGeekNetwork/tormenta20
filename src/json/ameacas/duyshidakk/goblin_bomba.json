@@ -1,0 +1,36 @@
+{
+  "id": "goblin_bomba",
+  "name": "Goblin-Bomba",
+  "nd": 3,
+  "tipo": "Humanoide",
+  "subtipo": "goblin",
+  "tamanho": "pequeno",
+  "grupo": "duyshidakk",
+  "pv": 74,
+  "pm": null,
+  "defesa": 19,
+  "salvaguardas": { "fort": 9, "ref": 15, "von": 3 },
+  "reducao_de_dano": "5/ácido_fogo",
+  "imunidades": [],
+  "resistencias": { "veneno": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 2,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "escalada": 9 },
+  "atributos": { "for": 0, "des": 4, "con": 2, "int": 3, "sab": -1, "car": 0 },
+  "pericias": { "furtividade": 7, "oficio_alquimista": 9 },
+  "ataques": [],
+  "poderes_especiais": [
+    {
+      "nome": "Granadas a Granel",
+      "acao": "padrão",
+      "descricao": "O goblin-bomba arremessa uma granada em alcance médio. Quando acerta, role 1d4: 1) alvo e adjacentes sofrem 3d6+8 de fogo e ficam em chamas (Reflexos CD 18 reduz à metade e evita); 2) alvo e adjacentes sofrem 2d4+10 de ácido mais 2d4 na rodada seguinte (Reflexos CD 18 reduz à metade e evita o dano secundário); 3) alvo perde 1d12 PV por veneno e fica fraco (Fortitude CD 18 reduz a perda à metade e evita a condição); 4) efeito semelhante à magia Névoa centrada no alvo, com cheiro horrível (Fortitude CD 18 evita)."
+    },
+    { "nome": "Grand Finale", "acao": "reação", "descricao": "Quando chega a 0 PV, role 1d6: em 1 ou 2, todas as granadas explodem — o goblin e seu equipamento são destruídos e criaturas a 3m sofrem 2d6 de fogo, ácido e veneno (total 6d6) e ficam atordoadas por 1 rodada (Reflexos CD 18 reduz à metade e evita a condição)." }
+  ],
+  "equipamento": ["Bandoleira de poções", "Couro batido"],
+  "tesouro": "Padrão mais insumos (valem T$ 50 para fabricar itens alquímicos).",
+  "description": "Goblin que usa todo tipo de ingrediente improvável (alguns bem nojentos) para fabricar bombas caseiras impossíveis de replicar — os próprios criadores não sabem recriar suas próprias fórmulas. Nas mãos de qualquer outra pessoa, uma granada goblin falha, detona por acidente, cura em vez de ferir, ou provoca diarreia. Às vezes encontrado em meio a bandos de goblins salteadores, que procuram manter distância devido ao mau hábito do goblin-bomba de explodir quando atacado.",
+  "livro": "ameacas_de_arton"
+}

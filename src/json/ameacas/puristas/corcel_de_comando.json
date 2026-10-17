@@ -1,0 +1,53 @@
+{
+  "id": "corcel_de_comando",
+  "name": "Corcel de Comando",
+  "nd": 3,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "puristas",
+  "pv": 82,
+  "pm": null,
+  "defesa": 19,
+  "salvaguardas": { "fort": 13, "ref": 9, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "corte": 5, "impacto": 5, "perfuração": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 3,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 5, "des": 2, "con": 5, "int": null, "sab": 0, "car": -5 },
+  "pericias": { "atletismo": 13 },
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 5, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Pernas Longas", "descricao": "O corcel de comando não sofre redução em seu deslocamento por terreno difícil." },
+    { "nome": "Cúpula de Proteção", "descricao": "O piloto do corcel de comando está protegido por uma cúpula protetora (como o efeito básico da magia Campo de Força). Se o campo for destruído, o corcel usa sua próxima ação de movimento para refazê-lo." },
+    { "nome": "Encantos de Comando", "descricao": "Encantos fazem com que a voz do piloto possa ser ouvida a até 300m e, caso ele possua alguma habilidade baseada em voz ou som, o alcance dessa habilidade se torna longo." },
+    { "nome": "Evacuação de Emergência", "acao": "completa", "descricao": "Se o corcel inicia seu turno com 20 PV ou menos, o piloto é alvo da magia Teletransporte com o aprimoramento de santuário, sem custo em PM. Em seguida, o corcel começa a emitir um alarme agudo e fica imóvel por 2 turnos — no fim do segundo turno, ele explode, causando 4d6 pontos de dano de fogo e 4d6 pontos de dano de perfuração em todas as criaturas em alcance curto (Reflexos CD 19 reduz à metade). Uma palavra de comando pode impedir a explosão." },
+    { "nome": "Piloto", "descricao": "O corcel é mais eficiente quando controlado por um piloto, como um arcano de guerra. Pilotar exige uma ação de movimento do piloto a cada rodada e permite que o corcel use os valores de Iniciativa, Reflexos e ataque do piloto ou os seus, os que forem maiores. O piloto é considerado uma ameaça adicional para efeitos de ND." }
+  ],
+  "equipamento": [],
+  "tesouro": "Caixa de voz (CD 18 para extrair) e gema de força (CD 18 para extrair).",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "nota": "Usa Pilotagem no lugar de Cavalgar.",
+    "iniciante": "Seu deslocamento muda para 12m e você ignora a penalidade por terreno difícil.",
+    "veterano": "Você pode lançar a magia Campo de Força (apenas o efeito básico). Se aprender essa magia, seu custo diminui em –1 PM.",
+    "mestre": "O alcance de suas habilidades baseadas em som (como Músicas de bardo) aumenta em um passo (de curto para médio e de médio para longo)."
+  },
+  "description": "Versão menor e mais limitada da carruagem de comando purista, do tamanho de um cavalo, usada como posto de comando móvel e montaria para líderes puristas. Alguns foram tomados e domados por aventureiros.",
+  "livro": "ameacas_de_arton"
+}

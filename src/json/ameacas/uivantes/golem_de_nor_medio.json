@@ -1,0 +1,39 @@
+{
+  "id": "golem_de_nor_medio",
+  "name": "Golem de Nor Médio",
+  "nd": 1,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "uivantes",
+  "pv": 35,
+  "defesa": 17,
+  "salvaguardas": { "fort": 11, "ref": -1, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": ["frio"],
+  "resistencias": { "fogo": 10 },
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 6,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 3, "des": 0, "con": 3, "int": null, "sab": 0, "car": -5 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Espada Longa",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 9, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura Congelante", "acao": "padrao", "salvaguarda": "Fortitude", "cd": 14, "efeito_sucesso": "evita", "descricao": "Uma vez por cena, o golem de Nor recebe 25 PV temporários. Se uma criatura acertar um ataque corpo a corpo contra o golem enquanto ele tem estes PV temporários, fica enredada (Fort CD 14 evita)." }
+  ],
+  "equipamento": ["Escudo pesado", "Espada longa"],
+  "tesouro": "Nenhum.",
+  "description": "Construto feito de gelo eterno com formas elementais fluindo sob o revestimento vítreo, empunhando espada e escudo translúcidos cobertos de runas faiscantes. Alguns propõem que seriam invento do arcanista desaparecido Eadmund Siberus Nor; outros, criação dos anões da Montanha Invencível. Para as habilidades de raça do golem de Nor desperto, veja a regra de Golens Despertos (chassi de Gelo Eterno).",
+  "livro": "ameacas_de_arton"
+}

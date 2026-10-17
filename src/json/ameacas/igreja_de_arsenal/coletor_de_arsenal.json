@@ -1,0 +1,53 @@
+{
+  "id": "coletor_de_arsenal",
+  "name": "Coletor de Arsenal",
+  "nd": 10,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "igreja_de_arsenal",
+  "pv": 280,
+  "pm": 54,
+  "defesa": 32,
+  "salvaguardas": { "fort": 22, "ref": 10, "von": 18 },
+  "reducao_de_dano": null,
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": [],
+  "iniciativa": 15,
+  "percepcao": 13,
+  "visao": [],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 5, "des": 1, "con": 3, "int": 2, "sab": 4, "car": 0 },
+  "pericias": { "guerra": 15, "misticismo": 16, "religiao": 18 },
+  "ataques": [
+    {
+      "nome": "Martelo de guerra",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 30, "tipo": "impacto" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Chicote",
+      "alcance": "4,5m",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 25, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Chicote de Aço", "descricao": "Especialmente fixado a sua armadura, o chicote do coletor deixa a mão livre e não pode ser desarmado." },
+    { "nome": "Desarmar Superior", "acao": "reacao", "descricao": "Quando desarma um oponente usando seu chicote, o coletor puxa a arma para sua mão livre." },
+    { "nome": "Marca da Oferenda", "descricao": "Quando o coletor é derrotado, todo seu equipamento, incluindo armas que ele esteja empunhando, é teletransportado para um templo de Arsenal." },
+    { "nome": "Magias", "descricao": "Lança magias como clérigo de Arsenal de 10º nível (CD 32): Arma Espiritual (padrão, 5 PM, até o fim da cena uma vez por rodada quando sofre um ataque corpo a corpo pode usar uma reação para causar 4d6 pontos de dano de impacto no atacante), Físico Divino (padrão, 3 PM, +2 em Força, Destreza ou Constituição à escolha, sem PV/PM adicionais), Lendas e Histórias (padrão, 6 PM, sustentada, descobre informações sobre uma criatura/objeto/local tocando), Soco de Arsenal (padrão, 9 PM, 7d6+5 de dano de impacto em alcance médio, empurra 3m, Fortitude reduz à metade e evita o empurrão), Visão Mística (padrão, 3 PM, detecta auras mágicas em alcance médio por 1 dia)." }
+  ],
+  "equipamento": ["Armadura completa abascanta", "Chicote", "Martelo de guerra formidável", "Símbolo sagrado de Arsenal"],
+  "tesouro": "Padrão.",
+  "description": "Clérigo com a autoimposta missão de localizar e confiscar armas poderosas que não tenham portadores dignos — sendo considerado \"indigno\" qualquer um que não seja devoto de Arsenal, ou incapaz de se defender. Muitos não passam de uma gangue imitando os antigos crimes de Keenn, pilhando itens mágicos sob o pretexto de \"testar\" suas vítimas.",
+  "livro": "ameacas_de_arton"
+}

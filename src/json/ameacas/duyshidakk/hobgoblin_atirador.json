@@ -1,0 +1,50 @@
+{
+  "id": "hobgoblin_atirador",
+  "name": "Hobgoblin Atirador",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "hobgoblin",
+  "tamanho": "medio",
+  "grupo": "duyshidakk",
+  "pv": 38,
+  "pm": null,
+  "defesa": 22,
+  "salvaguardas": { "fort": 11, "ref": 16, "von": 6 },
+  "reducao_de_dano": null,
+  "imunidades": ["ofuscado"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 13,
+  "percepcao": 6,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 5, "con": 2, "int": 1, "sab": 2, "car": -2 },
+  "pericias": { "acrobacia": 5, "furtividade": 7, "oficio_armeiro": 7 },
+  "ataques": [
+    {
+      "nome": "Lança de fogo",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 6, "tipo": "perfuração" }
+      ],
+      "critico": "19/x3"
+    },
+    {
+      "nome": "Lança de fogo (à distância)",
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 8 }], "bonus": 20, "tipo": "perfuração" }
+      ],
+      "critico": "18/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Fuzileiro", "descricao": "O hobgoblin atirador não sofre a penalidade padrão de –5 em ataques por disparar contra oponentes envolvidos em combate corpo a corpo, e pode recarregar suas armas de fogo como uma ação livre." },
+    { "nome": "Lança de Fogo", "descricao": "Quando acerta um ataque à distância em um alvo adjacente, causa +1d8 de dano. Quando acerta um ataque corpo a corpo, pode disparar sua arma para causar +2d8 de dano." },
+    { "nome": "Mira Apurada", "acao": "movimento", "descricao": "O atirador recebe +2 em testes de ataque e na margem de ameaça com ataques à distância até o fim do turno." }
+  ],
+  "equipamento": ["Balas x20", "Couraça", "Lança de fogo", "Instrumentos de Ofício (armeiro)"],
+  "tesouro": "Metade.",
+  "description": "Hobgoblins produzem mosquetes, rifles e outras armas de cano longo equipadas com baionetas, usáveis tanto como armas de fogo quanto como lanças ou alabardas corpo a corpo. O atirador prefere se manter recuado, provendo fogo de cobertura aos soldados, mas pode empunhar sua arma em combate próximo quando necessário.",
+  "livro": "ameacas_de_arton"
+}

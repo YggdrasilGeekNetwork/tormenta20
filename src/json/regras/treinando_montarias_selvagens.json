@@ -1,0 +1,11 @@
+{
+  "id": "treinando_montarias_selvagens",
+  "name": "Treinando Montarias Selvagens",
+  "description": "Regra para treinar uma criatura selvagem como montaria (ou outro tipo de parceiro irracional), em vez de obtê-la por uma habilidade ou comprá-la em um mercado (Ameaças de Arton, Cap. 1, seção Montarias).",
+  "domar": "O primeiro passo é domar a criatura: capturá-la (por armadilha, magia etc.) ou derrotá-la em combate e então fazer um teste de Adestramento (CD 15 + ND da criatura). Se passar, a criatura é domada e pode começar a ser treinada; se falhar, é muito selvagem para ser treinada.",
+  "treinar": "Uma vez domada, o treinamento é um teste estendido de Adestramento (CD 15 + ND da criatura), exigindo um total de sucessos igual a 3 + ND da criatura antes de 3 falhas. Cada teste representa um dia de trabalho, com um bônus cumulativo de +1 para cada sucesso consecutivo. Se passar no teste estendido, a criatura se torna um parceiro montaria iniciante; se falhar, o treinamento deve começar do início.",
+  "custos": "Treinar uma criatura selvagem exige tempo e dedicação. O treinador se torna responsável pela criatura e deve cuidar de sua alimentação, saúde e segurança, e precisa passar tempo suficiente a seu lado para que ela se acostume com sua presença. Durante o período de treinamento, o personagem sofre –2 em testes de perícia e sua recuperação de PM por descanso diminui em um nível.",
+  "outros_parceiros": "A critério do mestre, estas regras também podem ser usadas para treinar outros tipos de parceiros irracionais (como um animal perseguidor ou vigilante), não apenas montarias.",
+  "montarias_para_cavaleiros_e_paladinos": "A critério do mestre, quando um personagem recebe uma montaria específica por uma habilidade (como o cavalo de guerra concedido por Caminho do Cavaleiro), pode escolher outro tipo de montaria. Se permitir essa opção, o mestre pode limitar os tipos de montarias disponíveis para cada habilidade ou exigir que o personagem cumpra um requisito adicional (como viajar até uma região específica ou encontrar um filhote e treiná-lo desde jovem).",
+  "livro": "ameacas_de_arton"
+}

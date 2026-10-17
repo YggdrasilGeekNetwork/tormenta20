@@ -1,0 +1,27 @@
+{
+  "id": "coracao_de_dragao",
+  "name": "Coração de Dragão",
+  "type": "poder_geral",
+  "sub_type": "poder_de_destino",
+  "description": "Você recebe +2 PV e +2 PM. Além disso, para você, um dragão jovem conta como um único parceiro para seu limite de parceiros (em vez de dois).",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "car",
+      "value": 2
+    },
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 3
+    }
+  ],
+  "effects": [
+    { "type": "extra_hp", "value": 2, "duration": "permanente" },
+    { "type": "extra_pm", "value": 2, "duration": "permanente" },
+    { "type": "partner_slot_cost_reduction", "partner": "dragao_jovem", "custo_normal": 2, "custo_com_poder": 1 }
+  ],
+  "costs": null,
+  "livro": "ameacas_de_arton"
+}

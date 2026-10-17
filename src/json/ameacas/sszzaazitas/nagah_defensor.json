@@ -1,0 +1,48 @@
+{
+  "id": "nagah_defensor",
+  "name": "Nagah Defensor",
+  "nd": 7,
+  "tipo": "Humanoide",
+  "subtipo": "nagah",
+  "tamanho": "medio",
+  "grupo": "sszzaazitas",
+  "pv": 82,
+  "defesa": 31,
+  "salvaguardas": { "fort": 10, "ref": 17, "von": 14 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": { "veneno": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 10,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": 3, "con": 3, "int": 0, "sab": 1, "car": 0 },
+  "pericias": { "atletismo": 12, "enganacao": 5 },
+  "ataques": [
+    {
+      "nome": "Alfange",
+      "quantidade": 2,
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 4 }], "bonus": 15, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    },
+    {
+      "nome": "Cauda",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 10, "tipo": "impacto" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Escudo Vivo", "acao": "reacao", "descricao": "Uma vez por rodada, quando um aliado adjacente ao nagah defensor sofre dano, ele pode proteger esse aliado. Se fizer isso, o dano é reduzido à metade e é causado ao nagah, em vez de ao aliado." },
+    { "nome": "Falso Amigo", "descricao": "Fortão veterano." }
+  ],
+  "equipamento": ["Alfange", "Couraça"],
+  "tesouro": "Padrão.",
+  "description": "Nagah que atua como soldado e guarda-costas para sszzaazitas, empunhando cimitarras reluzentes. Muitos estão plenamente cientes de sua situação, procurando se manter úteis para evitar serem descartados; outros, tolos e ingênuos, de fato acreditam ser recompensados por sua lealdade.",
+  "livro": "ameacas_de_arton"
+}

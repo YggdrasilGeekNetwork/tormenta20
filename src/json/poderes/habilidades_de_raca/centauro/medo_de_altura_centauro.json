@@ -1,0 +1,11 @@
+{
+  "id": "medo_de_altura_centauro",
+  "name": "Medo de Altura",
+  "type": "habilidade_de_raca",
+  "race": "centauro",
+  "description": "Se estiver adjacente a uma queda de 3m ou mais (como um buraco ou penhasco), você fica abalado.",
+  "effects": {
+    "conditional_condition": { "condicao": "abalado", "gatilho": "adjacente a uma queda de 3m ou mais" }
+  },
+  "livro": "ameacas_de_arton"
+}

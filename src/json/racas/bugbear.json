@@ -1,0 +1,16 @@
+{
+  "id": "bugbear",
+  "name": "Bugbear",
+  "description": "Goblins gigantes, de corpos imensos e pernas desproporcionalmente curtas que fazem parecer desajeitados e lentos — uma imagem enganosa, pois são mais rápidos e ágeis do que um humano médio, e sua expressão bestial esconde uma argúcia superior à humana. Entre as forças duyshidakk, são carrascos e guarda-costas eficazes; quando amedrontam suas vítimas, sorvem esse medo, deleitando-se e nutrindo-se com ele, o que leva muitos a serem deliberadamente cruéis.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": { "forca": 2, "destreza": 1, "carisma": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["empunhadura_poderosa_de_bugbear", "saborear_pavor", "sentidos_de_predador"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "devocao": ["arsenal", "megalokk", "tenebra"],
+  "livro": "ameacas_de_arton"
+}

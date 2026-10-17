@@ -1,0 +1,49 @@
+{
+  "id": "razza_kham",
+  "name": "Razza'Kham",
+  "nd": 17,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "sanguinarias",
+  "pv": 1010,
+  "defesa": 54,
+  "salvaguardas": { "fort": 30, "ref": 24, "von": 17 },
+  "reducao_de_dano": 15,
+  "imunidades": [],
+  "resistencias": { "acido": 20, "eletricidade": 20, "fogo": 20, "frio": 20 },
+  "vulnerabilidades": [],
+  "iniciativa": 16,
+  "percepcao": 21,
+  "visao": ["faro", "percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 14, "des": 2, "con": 7, "int": -5, "sab": 2, "car": 0 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 47,
+      "dano": [
+        { "dados": [{ "quantidade": 6, "faces": 10 }], "bonus": 36, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 47,
+      "dano": [
+        { "dados": [{ "quantidade": 10, "faces": 10 }], "bonus": 36, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Brutalidade Incontida", "descricao": "Sempre que o razza'kham rola um resultado máximo em um dado de dano, rola um dado extra de dano do mesmo tipo." },
+    { "nome": "Dilacerar", "descricao": "Se o razza'kham acerta os dois ataques de garra em uma mesma criatura no mesmo turno, causa mais 8d6 pontos de dano." },
+    { "nome": "Varrer", "acao": "livre", "descricao": "Uma vez por rodada, quando o razza'kham faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance." }
+  ],
+  "tesouro": "Três peças de quitina razza (CD 32 para extrair).",
+  "description": "Bizarria bípede alta como um celeiro, combinando pernas e cauda de lagarto com garras de louva-a-deus e mandíbulas de besouro. Cultistas de Megalokk consideram-no uma das crias favoritas do Deus dos Monstros.",
+  "livro": "ameacas_de_arton"
+}

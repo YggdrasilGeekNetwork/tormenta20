@@ -1,0 +1,44 @@
+{
+  "id": "brawar",
+  "name": "Brawar",
+  "nd": 14,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "masmorras",
+  "pv": 700,
+  "pm": null,
+  "defesa": 46,
+  "salvaguardas": { "fort": 28, "ref": 22, "von": 14 },
+  "reducao_de_dano": 25,
+  "imunidades": ["magia (com exceções)"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 14,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 14, "des": -1, "con": 12, "int": null, "sab": 1, "car": -5 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Picareta",
+      "quantidade": 2,
+      "bonus": 40,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 30, "tipo": "perfuração" }
+      ],
+      "critico": "19/x4"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Fale Amigo e Passe", "descricao": "Um anão pode gastar uma ação padrão para fazer um teste de Diplomacia (CD 38) contra o brawar. Se passar, deixa-o pasmo por 1 rodada; se falhar, o brawar não pode mais ser pasmo desta forma nesta cena. Se o brawar estiver pasmo desta forma, um anão pode gastar uma ação padrão para fazer um teste de Conhecimento ou Nobreza (CD 38). Se passar nesse segundo teste, o brawar para de lutar." },
+    { "nome": "Imunidade a Magia", "descricao": "O brawar é imune a efeitos mágicos, com a seguinte exceção: efeitos mágicos de fogo concedem a ele uma ação padrão adicional em seu próximo turno e curam PV em quantidade igual à metade do dano que causariam." },
+    { "nome": "Picareta Destruidora", "descricao": "Os ataques de picareta do brawar ignoram 10 pontos da RD de objetos." },
+    { "nome": "Pisotear", "acao": "movimento", "descricao": "O brawar pisoteia o chão, gerando uma onda de choque em uma área de 9m ao seu redor. Criaturas nessa área sofrem 15d10 pontos de dano de impacto e ficam caídas (Reflexos CD 38 reduz o dano à metade e evita a condição)." }
+  ],
+  "equipamento": ["Picareta aumentada maciça de adamante"],
+  "tesouro": "Padrão.",
+  "description": "Gigantesco golem de ferro construído pelo povo anão para proteger grandes cidades e locais sagrados, feito com liga de adamante e quase invulnerável a armas comuns. Quando os anões abandonaram a superfície atendendo ao chamado do profeta Wordarion Thondarim, muitos destes construtos foram deixados como sentinelas em antigas edificações, ou protegendo pontos do caminho para Doherimm. Falar em idioma anão, acompanhado de honrarias a figuras e eventos ilustres do passado, pode fazê-lo hesitar ou recuar.",
+  "livro": "ameacas_de_arton"
+}

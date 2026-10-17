@@ -1,0 +1,16 @@
+{
+  "id": "esporos_de_cogumelo",
+  "name": "Esporos de Cogumelo",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 75,
+  "espacos": 0.5,
+  "inoculacao": "inalacao",
+  "efeito": {
+    "falha": { "condicao": "paralisada (lenta)", "duracao": "1 rodada" },
+    "apos": "imune a paralisia por este veneno pelo resto da cena"
+  },
+  "description": "Extraído de certos cogumelos e criaturas aparentadas, causa breve mas perigosa paralisia. Inalação, vítima fica paralisada (lenta) por 1 rodada, depois imune a paralisia por este veneno pela cena.",
+  "livro": "ameacas_de_arton"
+}

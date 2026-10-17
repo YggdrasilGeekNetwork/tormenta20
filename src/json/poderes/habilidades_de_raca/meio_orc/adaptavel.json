@@ -1,0 +1,14 @@
+{
+  "id": "adaptavel",
+  "name": "Adaptável",
+  "type": "habilidade_de_raca",
+  "race": "meio_orc",
+  "description": "Você recebe +2 em Intimidação e se torna treinado em uma perícia a sua escolha.",
+  "effects": {
+    "skill_bonus": {
+      "intimidacao": 2
+    },
+    "chosen_trained_skill": 1
+  },
+  "livro": "ameacas_de_arton"
+}

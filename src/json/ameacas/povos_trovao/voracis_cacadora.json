@@ -1,0 +1,58 @@
+{
+  "id": "voracis_cacadora",
+  "name": "Voracis Caçadora",
+  "nd": 8,
+  "tipo": "Humanoide",
+  "subtipo": "voracis",
+  "tamanho": "medio",
+  "grupo": "povos_trovao",
+  "pv": 64,
+  "pm": null,
+  "defesa": 30,
+  "salvaguardas": { "fort": 16, "ref": 20, "von": 8 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 15,
+  "percepcao": 8,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9, "escalada": 9 },
+  "atributos": { "for": 3, "des": 5, "con": 3, "int": -1, "sab": 0, "car": 0 },
+  "pericias": { "acrobacia": 13, "atletismo": 13, "intimidacao": 8, "sobrevivencia": 10 },
+  "ataques": [
+    {
+      "nome": "Espada vespa",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 22, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    },
+    {
+      "nome": "Garra",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 22, "tipo": "corte" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Azagaia (à distância)",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 22, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Corta-Passos", "acao": "livre", "descricao": "Uma vez por rodada, quando faz um ataque corpo a corpo, a voracis caçadora pode sofrer uma penalidade de –2 nesse teste de ataque. Se fizer isso e acertar o ataque, o alvo fica lento (Fortitude CD 26 evita)." },
+    { "nome": "Marca da Presa", "acao": "movimento", "descricao": "A caçadora analisa uma criatura em alcance médio. Até o fim da cena, ela recebe +2d12 em rolagens de dano contra essa criatura." },
+    { "nome": "Rede (à distância)", "descricao": "Pode atacar com a rede para enredar em vez da azagaia." }
+  ],
+  "equipamento": ["Armadura de couro", "Azagaia x3", "Espada vespa atroz", "Garra feroz maciça", "Rede"],
+  "tesouro": "Metade.",
+  "description": "Rainha de seu território, no topo da cadeia alimentar entre os humanoides de Arton, arrogante e confiante demais para acreditar na própria derrota. Caça demonstrando sua supremacia, capturando membros de outras raças como \"mascotes\".",
+  "livro": "ameacas_de_arton"
+}

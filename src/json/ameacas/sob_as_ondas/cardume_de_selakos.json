@@ -1,0 +1,41 @@
+{
+  "id": "cardume_de_selakos",
+  "name": "Cardume de Selakos",
+  "nd": 9,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "sob_as_ondas",
+  "pv": 390,
+  "defesa": 18,
+  "salvaguardas": { "fort": 20, "ref": 15, "von": 9 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 9,
+  "visao": ["faro", "percepção às cegas"],
+  "deslocamento": { "natacao": 18 },
+  "atributos": { "for": 5, "des": 3, "con": 3, "int": -4, "sab": 2, "car": -2 },
+  "pericias": { "furtividade": 9 },
+  "ataques": [
+    {
+      "nome": "Mordida [Bando]",
+      "quantidade": 2,
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 14, "tipo": "perfuração" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Frenesi Mortal", "acao": "padrao", "descricao": "O cardume de selakos faz um ataque de mordida contra cada criatura adjacente ou em quadrados ocupados por ele. Ele faz um único teste de ataque e compara o resultado com a Defesa de cada alvo. Criaturas que sofram dano dessa forma ficam sangrando." },
+    { "nome": "Faro do Caçador", "descricao": "O cardume não fica desprevenido contra inimigos que estejam sangrando." },
+    { "nome": "Turbilhão Aquático", "descricao": "O cardume pode ocupar o espaço de outras criaturas." }
+  ],
+  "tesouro": "Equivalente a 1d4+1 selakos.",
+  "description": "Representa um bando de selakos agindo em conjunto (regra de Bando, veja 'Manual de Criação de Ameaças'), devorando tudo em seu caminho em frenesi coletivo.",
+  "livro": "ameacas_de_arton"
+}

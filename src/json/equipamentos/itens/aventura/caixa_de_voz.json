@@ -1,0 +1,21 @@
+{
+  "id": "caixa_de_voz",
+  "name": "Caixa de Voz",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 50,
+  "espacos": 1,
+  "uso": "cargas",
+  "cargas": 4,
+  "efeito": {
+    "custo_carga": 1,
+    "condicao": "usar habilidade de bardo ou nobre com alcance curto ou médio",
+    "beneficio": "aumenta o alcance em um passo"
+  },
+  "especial": {
+    "nao_pode_ser_fabricado": true,
+    "origem": "encontrado apenas nos destroços de corcéis e carruagens de comando"
+  },
+  "description": "Este complexo mecanismo tem 1d4 cargas: quando usa uma habilidade de bardo ou nobre com alcance curto ou médio, você pode gastar uma carga para aumentar seu alcance em um passo. Segredo de engenharia da Supremacia Purista, este item não pode ser fabricado, sendo encontrado apenas nos destroços de corcéis e carruagens de comando.",
+  "livro": "ameacas_de_arton"
+}

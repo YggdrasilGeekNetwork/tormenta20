@@ -1,0 +1,52 @@
+{
+  "id": "gorgona",
+  "name": "Górgona",
+  "nd": 6,
+  "tipo": "Monstro",
+  "subtipo": "medusa",
+  "tamanho": "medio",
+  "grupo": "sszzaazitas",
+  "pv": 231,
+  "defesa": 26,
+  "salvaguardas": { "fort": 13, "ref": 19, "von": 8 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "veneno": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 16,
+  "percepcao": 9,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 0, "des": 4, "con": 1, "int": 1, "sab": 2, "car": 3 },
+  "pericias": { "enganacao": 13, "furtividade": 14 },
+  "ataques": [
+    {
+      "nome": "Espada Curta",
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 15, "tipo": "corte" }
+      ],
+      "critico": "19/x2",
+      "efeito": "veneno"
+    },
+    {
+      "nome": "Arco Longo",
+      "quantidade": 2,
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 15, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3",
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Disparo Preciso", "descricao": "A górgona pode fazer ataques à distância contra oponentes envolvidos em combate corpo a corpo sem sofrer a penalidade de -5 no teste de ataque." },
+    { "nome": "Olhar Petrificante", "salvaguarda": "Reflexos", "cd": 22, "descricao": "No início de seu turno, cada personagem em alcance curto da górgona deve fazer um teste de Reflexos (CD 22). Se passar, desvia o olhar. Se falhar, fica lento. Se já estiver lento, fica petrificado permanentemente. Um personagem pode fechar os olhos como uma reação para ficar imune a esta habilidade, mas sofrerá os efeitos de estar cego por 1 rodada. Efeitos que removem paralisia revertem a petrificação. Metamorfose." },
+    { "nome": "Veneno", "salvaguarda": "Fortitude", "cd": 22, "efeito_sucesso": "reduz para 1 rodada", "descricao": "Peçonha concentrada: perde 1d12 pontos de vida por rodada durante 3 rodadas (Fort CD 22 reduz para 1 rodada)." }
+  ],
+  "equipamento": ["Arco longo certeiro", "Espada curta", "Flechas x20"],
+  "tesouro": "Padrão mais 1d4 doses de peçonha concentrada.",
+  "description": "Medusa que não parece humana, mas uma bruxa escamada com bocarra de presas de cobra, conhecida como \"medusa verdadeira\". Descende, segundo a lenda, de sumo-sacerdotisas de Sszzaas traídas pelo próprio deus e transformadas em monstros, amaldiçoadas com cabelos de serpente e olhar petrificante. Cheias de ódio e ressentimento contra Sszzaas e o mundo, vivem em pontos remotos cujos covis são repletos de vítimas petrificadas.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "patrulha_kobold",
+  "name": "Patrulha Kobold",
+  "nd": 4,
+  "tipo": "Monstro",
+  "subtipo": "kobold",
+  "tamanho": "medio",
+  "grupo": "kobolds",
+  "pv": 30,
+  "pm": null,
+  "defesa": 23,
+  "salvaguardas": { "fort": 10, "ref": 15, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 2,
+  "visao": ["sensibilidade a luz", "visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 2, "con": 0, "int": -1, "sab": 0, "car": -1 },
+  "pericias": { "furtividade": 8 },
+  "ataques": [
+    {
+      "nome": "Lança [Bando]",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 1, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Funda (à distância) [Bando]",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 6, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Peste Oportunista", "descricao": "Os ataques da patrulha kobold causam +1d4 pontos de dano contra inimigos que já sofreram dano na rodada." }
+  ],
+  "equipamento": ["Funda", "Lança", "Pedras x20 (1d8 de cada)"],
+  "tesouro": "Metade.",
+  "description": "Representa um bando de kobolds patrulheiros agindo em conjunto (regra de Bando, veja 'Manual de Criação de Ameaças').",
+  "livro": "ameacas_de_arton"
+}

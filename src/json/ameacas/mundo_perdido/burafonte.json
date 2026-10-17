@@ -1,0 +1,40 @@
+{
+  "id": "burafonte",
+  "name": "Burafonte",
+  "nd": 4,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "mundo_perdido",
+  "pv": 120,
+  "pm": null,
+  "defesa": 25,
+  "salvaguardas": { "fort": 18, "ref": 8, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 4,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 8, "des": 1, "con": 4, "int": -4, "sab": -2, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Cauda",
+      "bonus": 13,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 12, "tipo": "impacto" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Cauda Espinhosa", "descricao": "Quando faz um acerto crítico em uma criatura com sua cauda, o burafonte deixa a vítima sangrando." }
+  ],
+  "equipamento": [],
+  "tesouro": "Protuberâncias ósseas (CD 19 para extrair, valem T$ 100 para fabricar armas corpo a corpo superiores).",
+  "description": "Também chamados \"cerossauros\", enormes lagartos-trovão herbívoros com chifres defensivos nas costas, usados apenas para desencorajar o rei-tirano e outros grandes predadores. Andam em bandos, formando um círculo defensivo com os filhotes no centro quando ameaçados. Entre os lagartos-trovão mais dóceis de Galrasia, facilmente domesticados pelos povos-trovão como bestas de carga.",
+  "livro": "ameacas_de_arton"
+}

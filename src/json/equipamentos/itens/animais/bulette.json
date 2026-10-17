@@ -1,0 +1,10 @@
+{
+  "id": "bulette",
+  "name": "Bulette",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 500,
+  "espacos": 0,
+  "description": "Preço de referência para adquirir um bulette. Veja a ficha completa da ameaça para estatísticas de combate.",
+  "livro": "ameacas_de_arton"
+}

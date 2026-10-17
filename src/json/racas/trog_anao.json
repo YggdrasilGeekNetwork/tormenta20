@@ -1,0 +1,15 @@
+{
+  "id": "trog_anao",
+  "name": "Trog Anão",
+  "description": "Uma estranha combinação entre um anão e um homem-lagarto: estatura atarracada, face reptiliana escamada e a rabugice somada de ambos. Trogs temem os deuses mais do que os veneram, e veem sua criadora Tenebra como uma terrível Rainha das Trevas pronta a puni-los por qualquer deslize; consideram sua ligação ancestral com os anões uma maldição, de modo que o ocasional nascimento de um trog anão é visto com grande ressentimento — um sinal agourento de que a deusa está mostrando aos trogs como eles foram um dia, ou como 'deveriam ser'. Esses anões são logo mortos ou expulsos de suas cavernas por temor de desagradar ainda mais Tenebra. Sem uma tribo e com escassas chances de aceitação nas cidades humanas, um trog anão pode acabar isolado como um monstro qualquer nas profundezas de alguma masmorra — ou, com sorte, tornar-se um aventureiro.",
+  "size": "médio",
+  "movement": 6,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": { "constituicao": 2, "forca": 1, "inteligencia": -1, "destreza": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["mau_cheiro", "mordida", "sangue_frio", "quase_anao"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "livro": "ameacas_de_arton"
+}

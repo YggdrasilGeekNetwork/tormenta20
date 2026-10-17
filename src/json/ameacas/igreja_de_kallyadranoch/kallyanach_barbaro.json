@@ -1,0 +1,48 @@
+{
+  "id": "kallyanach_barbaro",
+  "name": "Kallyanach Bárbaro",
+  "nd": 6,
+  "tipo": "Monstro",
+  "subtipo": "kallyanach",
+  "tamanho": "medio",
+  "grupo": "igreja_de_kallyadranoch",
+  "pv": 224,
+  "pm": null,
+  "defesa": 24,
+  "salvaguardas": { "fort": 18, "ref": 11, "von": 6 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": { "fogo": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 8,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 9 },
+  "atributos": { "for": 4, "des": 2, "con": 4, "int": 0, "sab": 2, "car": 0 },
+  "pericias": { "atletismo": 9, "sobrevivencia": 7 },
+  "ataques": [
+    {
+      "nome": "Gadanho",
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 15, "tipo": "corte" }
+      ],
+      "critico": "20/x4"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 14, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Fúria Elemental", "acao": "livre", "descricao": "Uma vez por cena, o kallyanach bárbaro entra em fúria. Recebe +4 em testes de ataque e seus ataques corpo a corpo causam +2d6 pontos de dano de fogo. Nesse estado não pode fazer nenhuma ação que exija calma e concentração (como usar Furtividade). A fúria termina se, ao fim da rodada, ele não tiver atacado nem sido alvo de um efeito hostil." }
+  ],
+  "equipamento": ["Couraça", "Gadanho"],
+  "tesouro": "Metade.",
+  "description": "Meio-dragão que abraça sua herança dracônica através da fúria bárbara, canalizando o fogo de seu sangue em combate selvagem.",
+  "livro": "ameacas_de_arton"
+}

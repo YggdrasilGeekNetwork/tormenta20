@@ -1,0 +1,44 @@
+{
+  "id": "mortalha",
+  "name": "Mortalha",
+  "nd": 11,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "mortos_vivos",
+  "pv": 475,
+  "pm": null,
+  "defesa": 38,
+  "salvaguardas": { "fort": 11, "ref": 24, "von": 18 },
+  "reducao_de_dano": null,
+  "imunidades": ["incorpóreo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 19,
+  "percepcao": 13,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "voo": 18 },
+  "atributos": { "for": null, "des": 8, "con": 0, "int": 3, "sab": 2, "car": 3 },
+  "pericias": { "furtividade": 22 },
+  "ataques": [
+    {
+      "nome": "Toque drenante",
+      "quantidade": 2,
+      "bonus": 34,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 10 }], "bonus": 24, "tipo": "trevas" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Cria Tumular", "descricao": "Uma criatura viva reduzida a 0 PV ou menos pelo toque drenante da mortalha ressurge no início da próxima rodada como uma aparição (Tormenta20, p.298) e não pode mais ser revivida. Quando a mortalha é destruída, as aparições que ela criou se desfazem e suas almas retornam aos corpos originais (caso ainda estejam vivos), que despertam com 1 PV." },
+    { "nome": "Drenar Vitalidade", "descricao": "Uma criatura viva atingida pelo toque drenante da mortalha deve fazer um teste de Fortitude (CD 31). Se falhar, fica fraca e a mortalha recebe 30 PV temporários cumulativos." },
+    { "nome": "Maldição Mortuária", "acao": "padrão", "descricao": "A mortalha profere uma maldição mortuária contra uma criatura em alcance médio (Fortitude CD 31 evita)." },
+    { "nome": "Fraqueza Solar", "descricao": "Enquanto estiver exposta à luz solar natural, a mortalha fica debilitada." }
+  ],
+  "equipamento": [],
+  "tesouro": "Manto da mortalha (CD 26 para extrair, vale T$ 6.000 e 1 PM para fabricar um item com os encantos fantasmagórico ou tumular).",
+  "description": "Aparição mais poderosa e intensa, feita de puro ódio e treva concentrados, assassina cruel de tudo que respira. Pode liderar bandos de aparições, perseguindo especialmente devotos de Azgher, Lena e outros que protegem a vida e a luz. Qualquer humanoide morto por uma mortalha retorna como uma aparição sob seu controle; destruir a mortalha original é a única forma de libertar as almas prisioneiras.",
+  "livro": "ameacas_de_arton"
+}

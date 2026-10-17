@@ -1,0 +1,42 @@
+{
+  "id": "chacal_zumbi",
+  "name": "Chacal-Zumbi",
+  "nd": 2,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "reino_dos_mortos",
+  "pv": 35,
+  "pm": null,
+  "defesa": 19,
+  "salvaguardas": { "fort": 7, "ref": 13, "von": 2 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 5,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 2, "des": 3, "con": 3, "int": null, "sab": 0, "car": -1 },
+  "pericias": { "furtividade": 6, "sobrevivencia": 8 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 8, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Doença", "descricao": "Uma criatura mordida por um chacal é exposta à doença febre necrótica (Fortitude CD 16 evita)." },
+    { "nome": "Matilha Zumbi", "descricao": "O chacal-zumbi recebe +1 em testes de perícia para cada outro morto-vivo aliado em alcance curto." },
+    { "nome": "Fraqueza Zumbi", "descricao": "O chacal-zumbi sofre o dobro de dano de acertos críticos ou de ataques feitos contra seu cérebro (Defesa 29)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Animal transmutado pelo poder necromântico de Aslothia, movido pela fome insaciável dos não vivos. Rastreia, caça e mata em bandos usando táticas de lobo, perseguindo vítimas por dias e noites seguidos sem precisar de sono ou descanso, até deixá-las exaustas demais para se defender. Sua mordida infecciosa pode transformar a vítima em zumbi.",
+  "livro": "ameacas_de_arton"
+}

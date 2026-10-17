@@ -1,0 +1,22 @@
+{
+  "id": "arcabuz",
+  "name": "Arcabuz",
+  "type": "arma",
+  "proficiencia": "fogo",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "duas_maos",
+  "preco": 800,
+  "dano": "2d10",
+  "critico": "19/x3",
+  "alcance": "medio",
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "municao": "balas",
+  "habilidades": ["desbalanceada"],
+  "especial": {
+    "recarregar": "acao_padrao"
+  },
+  "description": "Versão mais pesada e mais potente do mosquete. Por seu peso e recuo, é uma arma desbalanceada. Recarregar um arcabuz é uma ação padrão.",
+  "livro": "ameacas_de_arton"
+}

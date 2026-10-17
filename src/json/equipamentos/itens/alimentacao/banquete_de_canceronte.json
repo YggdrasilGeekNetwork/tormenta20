@@ -1,0 +1,16 @@
+{
+  "id": "banquete_de_canceronte",
+  "name": "Banquete de Canceronte",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 36,
+  "espacos": 0.5,
+  "ingredientes": ["carne fresca de canceronte"],
+  "efeito": {
+    "dados_de_auxilio": "1d4+1",
+    "uso": "gastar um dado e adicionar o resultado como bônus em um teste de perícia",
+    "com_mestre_cuca": "dados se tornam d6"
+  },
+  "description": "Um canceronte adulto é suficiente para produzir um pequeno banquete. Você recebe 1d4+1 dados de auxílio. Sempre que realizar um teste de perícia, você pode gastar 1d4 e adicionar o resultado como bônus no teste. Se o banquete for preparado por um personagem com o poder Mestre Cuca, os dados de auxílio se tornam d6. Este prato requer carne fresca de canceronte, sendo assim raramente encontrado longe de grandes cidades costeiras.",
+  "livro": "ameacas_de_arton"
+}

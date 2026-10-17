@@ -1,0 +1,19 @@
+{
+  "id": "chifre_de_unicornio",
+  "name": "Chifre de Unicórnio",
+  "categoria": "maior",
+  "preco": 120000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Um poderoso item mágico de cura. Se estiver empunhando o chifre, você pode lançar Curar Ferimentos e Purificação; caso já conheça essas magias, seu custo diminui em -1 PM, cumulativo com outras reduções. Ele também pode ser usado para lançar a magia Segunda Chance, mas perde todos os poderes após isso. Por fim, ele pode ser empunhado como uma espada curta formidável. Mesmo sem seus poderes, o chifre pode ser transformado em 12 doses de pó de chifre, um poderoso ingrediente para preparados e poções — misturar uma dose desse pó aos ingredientes de um preparado ou poção aumenta cada dado de cura do efeito do item em dois passos (até um máximo de d12). Ainda que o simples ato de portar um chifre de unicórnio não seja necessariamente maligno, muitos devotos, sobretudo de Allihanna e Marah, poderão questionar a origem do chifre. Chifres de unicórnio não podem ser fabricados, e são obtidos apenas de um unicórnio morto.",
+  "effects": [
+    { "type": "concede_magia", "magia": "curar_ferimentos", "condicao": "empunhando o chifre" },
+    { "type": "concede_magia", "magia": "purificacao", "condicao": "empunhando o chifre" },
+    { "type": "reducao_custo_pm", "value": 1, "condicao": "se já conhece a magia concedida, cumulativo com outras reduções" },
+    { "type": "concede_magia_uso_unico", "magia": "segunda_chance", "efeito_apos_uso": "o chifre perde todos os poderes" },
+    { "type": "funciona_como_arma", "arma": "espada_curta", "qualidade": "formidável" },
+    { "type": "ingrediente_alquimico", "produto": "12 doses de pó de chifre", "efeito": "aumenta cada dado de cura do efeito do item em dois passos, até d12" },
+    { "type": "nao_pode_ser_fabricado", "origem": "obtido apenas de um unicórnio morto" }
+  ],
+  "livro": "ameacas_de_arton"
+}

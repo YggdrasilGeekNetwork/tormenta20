@@ -1,0 +1,51 @@
+{
+  "id": "arcanista_finntroll",
+  "name": "Arcanista Finntroll",
+  "nd": 14,
+  "tipo": "Monstro",
+  "subtipo": "finntroll",
+  "tamanho": "medio",
+  "grupo": "trolls_nobres",
+  "pv": 423,
+  "pm": 90,
+  "defesa": 43,
+  "salvaguardas": { "fort": 24, "ref": 16, "von": 30 },
+  "reducao_de_dano": null,
+  "resistencia_a_magia": 2,
+  "imunidades": ["ofuscado"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 17,
+  "percepcao": 13,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": -2, "des": 4, "con": 3, "int": 8, "sab": 2, "car": 3 },
+  "pericias": { "conhecimento": 19, "intimidacao": 14, "misticismo": 21 },
+  "ataques": [
+    {
+      "nome": "Açoite Finntroll",
+      "bonus": 35,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 2, "tipo": "corte" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Natureza Vegetal", "descricao": "Afetado por habilidades e magias que afetam plantas." },
+    { "nome": "Regeneração Vegetal", "acao": "movimento", "descricao": "Recupera 5 PV. Não cura dano de ácido ou fogo. Não funciona exposto à luz do sol." },
+    { "nome": "Sensibilidade a Luz", "descricao": "Exposto à luz do sol, fica ofuscado e sua regeneração vegetal não funciona." },
+    {
+      "nome": "Conjurar Trolloides",
+      "acao": "padrao",
+      "custo_pm": 5,
+      "descricao": "O arcanista finntroll invoca 2d4+1 trolloides em espaços desocupados em alcance curto. Os trolloides agem a partir da próxima rodada do arcanista e têm deslocamento 9m, For 5, Des 2, Defesa 25, 1 PV, são imunes a dano exceto de ácido ou fogo, e falham automaticamente em qualquer teste de resistência ou oposto. O arcanista pode gastar uma ação de movimento para dar um dos seguintes comandos a qualquer número de trolloides: Andar (cada trolloide se move até 9m); Canalizar (a próxima magia que o arcanista lança tem como ponto de origem um trolloide a sua escolha, que é destruído após a magia ser lançada); Esmagar (cada trolloide causa 6d12 pontos de dano de impacto a uma criatura adjacente, Ref CD 40 reduz à metade); Proteger (cada trolloide adjacente ao arcanista fornece +2 nos testes de resistência e de manobras de combate dele neste turno). Eles desaparecem quando morrem ou no fim da cena e não agem sem receber uma ordem. Recarga (todos os trolloides foram destruídos)."
+    },
+    { "nome": "Contramágica Nobre", "acao": "reacao", "descricao": "Uma vez por rodada, quando vê uma magia ser conjurada, o arcanista faz uma contramágica. Se usar Dissipar Magia para isso, ele rola dois dados e usa o melhor resultado." },
+    { "nome": "Servidão Arcana", "salvaguarda": "Fortitude", "cd": 40, "efeito_sucesso": "reduz à metade", "descricao": "Quando o arcanista lança uma magia, todas as criaturas em alcance médio sofrem dano de essência igual ao dobro dos pontos de mana gastos na magia (Fort CD 40 reduz à metade). Para cada criatura que falhar neste teste, o arcanista recupera 3 PM (limitado ao custo da magia)." },
+    { "nome": "Magias", "descricao": "Lança magias como um mago de 17º nível (CD 40, limite de PM 25): Campo de Força (reação, 7 PM; quando sofre dano, o arcanista recebe RD 50 contra esse dano); Controlar a Gravidade (padrão, 10 PM, sustentada); Dissipar Magia (padrão, 3 PM); Marionete (padrão, 10 PM, sustentada; o arcanista controla as ações físicas de uma criatura em alcance médio; ao sofrer a magia, e no início de cada um de seus turnos, a vítima faz um teste de Fortitude, se passar a magia é anulada); Raio do Enfraquecimento (padrão, 8 PM; criaturas escolhidas em alcance curto ficam exaustas, Fort muda para fatigado); Pele de Pedra (padrão, 10 PM; uma criatura adjacente é transformada em uma estátua de pedra sem consciência por 1d4 rodadas, Fort evita); Toque da Morte (padrão, 17 PM; uma criatura em alcance curto sofre 10d8+10 pontos de dano de trevas; se estiver com menos da metade de seus PV, em vez disso deve fazer um teste de Fortitude, se passar sofre o dano normal, caso contrário seus PV são reduzidos a -10)." }
+  ],
+  "equipamento": ["Açoite finntroll", "Bolsa de pó poderosa canalizadora", "Essência de mana x4", "Manto pesado", "Robe do arquimago"],
+  "tesouro": "Dobro.",
+  "description": "Trolls nobres sofisticados e astutos, conjuradores arcanos entre os mais perigosos de Arton, que dispensam magias de dano direto por acreditar serem \"primitivas e deselegantes\", preferindo efeitos incapacitantes, paralisia, controle mental e morte instantânea. Raramente deixam o conforto de sua torre luxuosa e seus escravos mentalmente dominados, mas quando viajam, estão sempre acompanhados por um séquito de servos e soldados — ou simplesmente conjuram trolloides.",
+  "livro": "ameacas_de_arton"
+}

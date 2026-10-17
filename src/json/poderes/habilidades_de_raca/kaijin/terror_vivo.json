@@ -1,0 +1,13 @@
+{
+  "id": "terror_vivo",
+  "name": "Terror Vivo",
+  "type": "habilidade_de_raca",
+  "race": "kaijin",
+  "description": "Você pode usar Força como atributo-chave de Intimidação (em vez de Carisma) e recebe um poder da Tormenta a sua escolha, que não conta para perda de Carisma.",
+  "effects": {
+    "skill_key_attribute_override": { "skill": "intimidacao", "attribute": "forca" },
+    "grants_power": { "type": "poder_da_tormenta", "choice": true },
+    "no_charisma_loss": true
+  },
+  "livro": "ameacas_de_arton"
+}

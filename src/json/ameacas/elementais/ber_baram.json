@@ -1,0 +1,43 @@
+{
+  "id": "ber_baram",
+  "name": "Ber-baram",
+  "nd": 8,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "grande",
+  "grupo": "elementais",
+  "pv": 320,
+  "pm": null,
+  "defesa": 30,
+  "salvaguardas": { "fort": 20, "ref": 17, "von": 7 },
+  "reducao_de_dano": null,
+  "imunidades": ["acertos críticos", "atordoado", "cansaço", "efeitos de metabolismo", "fogo", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": ["frio"],
+  "iniciativa": 9,
+  "percepcao": 10,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 8, "des": 5, "con": 5, "int": -2, "sab": 2, "car": 2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Marrada",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 12, "tipo": "impacto" },
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 0, "tipo": "fogo" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Baforada Flamejante", "acao": "movimento", "descricao": "O ber-baram sopra fogo num cone de 9m. Criaturas na área sofrem 7d6 pontos de dano de fogo (Reflexos CD 26 reduz à metade). Recarga (ação de movimento)." },
+    { "nome": "Marrada Explosiva", "acao": "livre", "descricao": "Quando acerta um ataque de marrada em investida, causa uma explosão de chamas em um raio de 6m do alvo. Todas as criaturas na área sofrem 6d6 pontos de dano de fogo (Reflexos CD 26 reduz à metade). Recarga (ação de movimento)." },
+    { "nome": "Sangue de Lava", "descricao": "Quando o ber-baram sofre dano de corte ou perfuração, criaturas adjacentes sofrem 4d6 pontos de dano de fogo e ficam em chamas (Reflexos CD 26 reduz à metade e evita as chamas)." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d4 doses de éter elemental (fogo) (CD 23 para extrair).",
+  "description": "Robusto elemental do fogo quadrúpede, do tamanho de um touro, com cascos bipartidos que reverberam pelo solo, corpo que emite calor, pelos avermelhados e chifres dourados retorcidos. Tem aspecto e comportamento de bovinos selvagens, mas mais agressivos: orgulhosos, impulsivos, adoram uma boa briga, medindo forças entre si chocando chifres flamejantes e desafiando outros seres em duelos possivelmente amistosos, mas que não raro levam à morte do adversário. Por sua semelhança com gado comum e valor como fonte de energia ou ingrediente mágico, houve tentativas de domesticá-lo — algumas com êxito limitado em currais de Wynlla —, mas o perigo de descontrole costuma superar os lucros.",
+  "livro": "ameacas_de_arton"
+}

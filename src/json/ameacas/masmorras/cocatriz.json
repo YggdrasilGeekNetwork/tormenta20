@@ -1,0 +1,49 @@
+{
+  "id": "cocatriz",
+  "name": "Cocatriz",
+  "nd": 3,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "pequeno",
+  "grupo": "masmorras",
+  "pv": 98,
+  "pm": null,
+  "defesa": 22,
+  "salvaguardas": { "fort": 9, "ref": 13, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 4,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6, "voo": 12 },
+  "atributos": { "for": 0, "des": 5, "con": 1, "int": -5, "sab": 1, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Bicada",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 8, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "Quando passa em um teste de Reflexos para reduzir o dano de um efeito à metade, em vez disso não sofre nenhum dano." },
+    { "nome": "Bicada Petrificante", "descricao": "Uma criatura que sofra dano da bicada da cocatriz fica lenta (Fortitude CD 19 evita). Se já estiver lenta, fica petrificada permanentemente. Efeitos que removem paralisia revertem a petrificação." },
+    { "nome": "Voo de Galinha", "descricao": "A cocatriz só consegue percorrer curtas distâncias voando; ela sempre termina seu movimento sobre o chão ou outra superfície firme." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d4-1 ovos de cocatriz (cada ovo permite preparar uma refeição coc-au-triz).",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "especial (adepto)",
+    "iniciante": "Suas habilidades mágicas que causam condições de movimento têm o custo reduzido em –1 PM.",
+    "veterano": "A CD para resistir a essas habilidades aumenta em +2.",
+    "mestre": "A redução de custo se torna cumulativa com outras reduções."
+  },
+  "description": "Bicho com aspecto de galo grande e feio, mas com duas ou três caudas escamadas de serpente, capaz de transformar vítimas em pedra com uma simples bicada. Herbívoro pacífico que não se alimenta de vítimas petrificadas (usa apenas as garras para matar insetos); a bicada mortal é reservada a inimigos maiores, atacados com fúria de galo de briga.",
+  "livro": "ameacas_de_arton"
+}

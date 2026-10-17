@@ -1,0 +1,59 @@
+{
+  "id": "centauro_xama_de_megalokk",
+  "name": "Centauro Xamã de Megalokk",
+  "nd": 10,
+  "tipo": "Humanoide",
+  "subtipo": "centauro",
+  "tamanho": "grande",
+  "grupo": "ermos",
+  "pv": 260,
+  "pm": 70,
+  "defesa": 31,
+  "salvaguardas": { "fort": 16, "ref": 10, "von": 22 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 16,
+  "visao": [],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 3, "des": 2, "con": 4, "int": -1, "sab": 6, "car": 1 },
+  "pericias": { "adestramento": 10, "intimidacao": 10, "religiao": 15 },
+  "ataques": [
+    {
+      "nome": "Clava",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 15, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 15, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Cascos",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 15, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ira Coletiva (mágica)", "acao": "padrão", "custos": { "value": 10, "type": "PM" }, "descricao": "Sustentada. Causa um frenesi em aliados em alcance curto, que recebem +5 em testes de ataque e rolagens de dano corpo a corpo e redução de dano 10, mas ficam esmorecidos e não podem fazer ações que exijam calma e concentração (como usar Furtividade ou lançar magias)." },
+    { "nome": "Voz dos Monstros (mágica)", "descricao": "O centauro está sempre sob efeito da magia Voz Divina, apenas para falar com monstros." },
+    { "nome": "Medo de Altura", "descricao": "Se estiver adjacente a uma queda de 3m ou mais de altura, o centauro fica abalado." },
+    { "nome": "Magias (clérigo de Megalokk, 10º nível, CD 32)", "descricao": "Magias concedidas por Megalokk, à escolha do mestre, incluindo capacidades ofensivas contra inimigos da tribo." }
+  ],
+  "equipamento": ["Clava macabra aumentada", "Farrapos de ermitão", "Símbolo sagrado de Megalokk"],
+  "tesouro": "Metade.",
+  "description": "Centauro quadrúpede corrompido por carapaça e chifres, com um braço transformado em garra espinhosa e rosto substituído por escuridão onde brilham presas brancas e olhos vermelhos. Enquanto um xamã de Allihanna se preocupa com a sobrevivência e segurança da tribo, o xamã de Megalokk busca a destruição de qualquer criatura que não pertença à tribo, acompanhando caçadores em ataques e pilhagens sem deixar sobreviventes — e às vezes capturando vítimas vivas para peregrinações como oferendas (refeições) a monstros mais poderosos, em busca de agradar ao Monstro-Pai.",
+  "livro": "ameacas_de_arton"
+}

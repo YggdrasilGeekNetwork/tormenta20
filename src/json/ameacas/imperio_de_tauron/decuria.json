@@ -1,0 +1,58 @@
+{
+  "id": "decuria",
+  "name": "Decúria",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "minotauro",
+  "tamanho": "grande",
+  "grupo": "imperio_de_tauron",
+  "pv": 60,
+  "pm": null,
+  "defesa": 22,
+  "salvaguardas": { "fort": 12, "ref": 4, "von": 6 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 3,
+  "visao": ["faro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 4, "des": 0, "con": 3, "int": 1, "sab": -1, "car": 0 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Gládio [Bando]",
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 10, "tipo": "corte" }
+      ],
+      "critico": "19/x3"
+    },
+    {
+      "nome": "Chifres [Bando]",
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 10, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Azagaia (à distância) [Bando]",
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 10, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Disciplina Militar", "descricao": "Quando usa a ação agredir sob efeito da habilidade Ordens (veja Centurião), a decúria pode fazer um ataque adicional de gládio." },
+    { "nome": "Falange", "acao": "movimento", "descricao": "A decúria assume uma formação defensiva. Enquanto tiver pelo menos metade de seus PV, ela recebe +2 na Defesa e em testes de resistência." },
+    { "nome": "Medo de Altura", "descricao": "Se estiver adjacente a uma queda de 3m ou mais de altura (como um buraco ou penhasco), a decúria fica abalada." }
+  ],
+  "equipamento": ["Azagaia x3", "Escudo pesado", "Gládio", "Loriga segmentada (1d10 de cada)"],
+  "tesouro": "Metade.",
+  "description": "Representa um bando de legionários agindo em conjunto (regra de Bando, veja 'Manual de Criação de Ameaças').",
+  "livro": "ameacas_de_arton"
+}

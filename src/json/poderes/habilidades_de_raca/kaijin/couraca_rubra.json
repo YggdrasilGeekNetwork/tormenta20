@@ -1,0 +1,13 @@
+{
+  "id": "couraca_rubra",
+  "name": "Couraça Rubra",
+  "type": "habilidade_de_raca",
+  "race": "kaijin",
+  "description": "Você recebe redução de dano 2. Sua couraça conta como um poder da Tormenta, exceto para perda de Carisma.",
+  "effects": {
+    "damage_reduction": 2,
+    "counts_as": "poder_da_tormenta",
+    "no_charisma_loss": true
+  },
+  "livro": "ameacas_de_arton"
+}

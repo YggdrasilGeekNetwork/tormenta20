@@ -1,0 +1,57 @@
+{
+  "id": "cocatriz_real",
+  "name": "Cocatriz-Real",
+  "nd": 7,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "masmorras",
+  "pv": 250,
+  "pm": null,
+  "defesa": 32,
+  "salvaguardas": { "fort": 20, "ref": 12, "von": 7 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 17,
+  "percepcao": 8,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6, "voo": 12 },
+  "atributos": { "for": 2, "des": 7, "con": 3, "int": -5, "sab": 1, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Bicada",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Cauda de serpente",
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 10, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "Quando passa em um teste de Reflexos para reduzir o dano de um efeito à metade, em vez disso não sofre nenhum dano." },
+    { "nome": "Bicada Petrificante", "descricao": "Uma criatura que sofra dano da bicada da cocatriz-real fica lenta (Fortitude CD 26 evita). Se já estiver lenta, fica petrificada permanentemente. Efeitos que removem paralisia revertem a petrificação." },
+    { "nome": "Voo de Galinha", "descricao": "A cocatriz só consegue percorrer curtas distâncias voando; ela sempre termina seu movimento sobre o chão ou outra superfície firme." }
+  ],
+  "equipamento": [],
+  "tesouro": "1 dose de lágrima pétrea (CD 22 para extrair) e 1d4 ovos de cocatriz (cada ovo permite preparar uma refeição coc-au-triz).",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "iniciante": "Seu deslocamento muda para 12m e você ignora terreno difícil.",
+    "veterano": "Uma vez por rodada, quando acerta um ataque corpo a corpo, você pode fazer com que a vítima fique lenta (Fortitude CD Força evita).",
+    "mestre": "Seu deslocamento muda para 12m (normal e de voo). Entretanto, quando voa, você deve terminar seu movimento sobre o chão ou outra superfície firme."
+  },
+  "description": "Versão gigante da cocatriz, do tamanho de um avestruz, lendária, que comanda e protege várias famílias de cocatrizes normais. Não há relatos de bandos de cocatrizes-reais, embora isso não seja impossível.",
+  "livro": "ameacas_de_arton"
+}

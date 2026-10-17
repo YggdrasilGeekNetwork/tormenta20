@@ -1,0 +1,61 @@
+{
+  "id": "kaijin_bruto",
+  "name": "Kaijin Bruto",
+  "nd": 11,
+  "tipo": "Monstro",
+  "subtipo": "kaijin",
+  "tamanho": "grande",
+  "grupo": "imperio_de_jade",
+  "pv": 600,
+  "pm": null,
+  "defesa": 42,
+  "salvaguardas": { "fort": 24, "ref": 12, "von": 17 },
+  "reducao_de_dano": 10,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 12,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 8, "des": 1, "con": 6, "int": -2, "sab": 1, "car": -4 },
+  "pericias": { "atletismo": 21, "intimidacao": 21 },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 32,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 20, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Pinça",
+      "bonus": 32,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 20, "tipo": "corte" }
+      ],
+      "critico": "18/x3"
+    },
+    {
+      "nome": "Tentáculo",
+      "bonus": 32,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 18, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Fortificação", "descricao": "50% de chance de ignorar qualquer efeito adicional de acerto crítico ou ataque furtivo." },
+    { "nome": "Resistência a Lefeu e Tormenta", "descricao": "Recebe +5 em testes de resistência contra efeitos causados por lefeu e pela Tormenta." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com seu tentáculo (teste +34)." },
+    { "nome": "Dilacerar", "descricao": "Se o kaijin bruto acerta os dois ataques de garra em uma mesma criatura no mesmo turno, causa mais 2d10+20 pontos de dano." },
+    { "nome": "Mutação Rubra", "descricao": "O kaijin possui três mutações, escolhidas entre as seguintes. Asas de Inseto: deslocamento de voo 9m. Carapaça Superior (reação): uma vez por rodada, quando sofre dano, pode reduzir esse dano à metade. Deslocado: camuflagem leve contra todos os ataques e ignora terreno difícil. Insanidade da Tormenta: criaturas que vejam o kaijin perdem 1d10 PM (Vontade CD 32 evita, uma vez por dia por criatura). Mãos Aderentes: deslocamento de escalada 9m. Mente Alienígena: rola dois dados em testes de Vontade e usa o melhor; quando passa em um teste de Vontade para resistir a um efeito, causa 6d6 de dano psíquico na criatura que gerou o efeito. Sangue Corrosivo (reação): uma vez por rodada, quando sofre dano, todas as criaturas adjacentes sofrem 4d6 de dano de ácido." }
+  ],
+  "equipamento": [],
+  "tesouro": "Metade.",
+  "description": "Kaijin de grande porte e força descomunal, usando múltiplos membros mutados — garras, pinças e tentáculos — para esmagar e dilacerar suas vítimas.",
+  "livro": "ameacas_de_arton"
+}

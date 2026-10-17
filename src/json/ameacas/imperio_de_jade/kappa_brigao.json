@@ -1,0 +1,45 @@
+{
+  "id": "kappa_brigao",
+  "name": "Kappa Brigão",
+  "nd": 1,
+  "tipo": "Espírito",
+  "subtipo": "kappa",
+  "tamanho": "medio",
+  "grupo": "imperio_de_jade",
+  "pv": 30,
+  "pm": null,
+  "defesa": 18,
+  "salvaguardas": { "fort": 5, "ref": 11, "von": 0 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 0,
+  "visao": [],
+  "deslocamento": { "terrestre": 9, "natacao": 9 },
+  "atributos": { "for": 1, "des": 3, "con": 2, "int": 0, "sab": 0, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Ataque desarmado",
+      "quantidade": 2,
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 4, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Não Pode Ser Flanqueado", "descricao": "O kappa brigão não pode ser flanqueado." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com seu ataque desarmado (teste +9)." },
+    { "nome": "Carapaça Kappa", "descricao": "O kappa brigão recebe cobertura leve quando está caído ou submerso." },
+    { "nome": "Cura das Águas", "acao": "padrão", "descricao": "Uma vez por cena, o kappa pode lançar Curar Ferimentos para curar 2d8+2 PV de uma criatura. Ele não pode usar esta habilidade se a água de sua cabeça estiver derramada." },
+    { "nome": "Tigela D'água", "descricao": "Quando falha por 5 ou mais em um teste para evitar ser agarrado, derrubado ou empurrado, o kappa derrama a água de sua cabeça. Ele fica enjoado até encher a tigela novamente (o que exige uma fonte de água e uma ação padrão)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Kappa comum, pronto para desafiar viajantes para duelos de luta marcial ou simplesmente afogar incautos em seu território aquático.",
+  "livro": "ameacas_de_arton"
+}

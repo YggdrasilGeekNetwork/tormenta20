@@ -1,0 +1,33 @@
+{
+  "id": "bruxa_goblin",
+  "name": "Bruxa Goblin",
+  "nd": 11,
+  "tipo": "Humanoide",
+  "subtipo": "goblin",
+  "tamanho": "pequeno",
+  "grupo": "duyshidakk",
+  "pv": 370,
+  "pm": 98,
+  "defesa": 37,
+  "salvaguardas": { "fort": 12, "ref": 17, "von": 24 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "magia": 2 },
+  "vulnerabilidades": [],
+  "iniciativa": 11,
+  "percepcao": 11,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "escalada": 9, "voo": 18 },
+  "atributos": { "for": -1, "des": 2, "con": 3, "int": 7, "sab": 2, "car": 1 },
+  "pericias": { "conhecimento": 16, "cura": 11, "misticismo": 21, "religiao": 16 },
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Autofagia (mágica)", "acao": "completa", "descricao": "A bruxa lança uma magia divina qualquer de encantamento ou necromancia de até 3º círculo pagando um custo em PV igual ao custo em PM da magia." },
+    { "nome": "Raio Conspurcado (mágica)", "acao": "padrão", "custos": { "value": 1, "type": "PM" }, "descricao": "A bruxa dispara um raio em uma criatura em alcance médio, causando 4d12 pontos de dano de trevas; o alvo fica abalado (Vontade CD 33 reduz à metade e evita a condição)." },
+    { "nome": "Magias (bruxa, 13º nível, CD 33, foco pilão conspurcado: –1 PM e +2 CD em encantamento/necromancia)", "descricao": "Amedrontar (9 PM; apavorado 1d4+1 rodadas, depois abalado), Crânio Voador de Vladislav (10 PM; 8d8+8 de trevas e abalado em alcance médio), Ferver Sangue (11 PM, sustentada; 7d8 de fogo/rodada e enjoado, explode causando 6d6 de fogo em área se reduzido a 0 PV), Marionete (9 PM, sustentada; controla ações físicas, Fortitude anula a cada rodada), Raio do Enfraquecimento (7 PM; exausta), Sussurros Insanos (3 PM; confunde um humanoide), Tentáculos de Trevas (6 PM; agarra e esmaga criaturas numa esfera de 6m, 4d6 de trevas por esmagão)." }
+  ],
+  "equipamento": ["Pilão conspurcado", "Vassoura voadora"],
+  "tesouro": "Padrão.",
+  "description": "Horrenda arcanista goblin, temida até por outros goblins — nenhum goblin em Arton é mais assustador que uma bruxa. Voam em vassouras, pilões e caldeirões, sozinhas ou em pequenas cabalas, para rogar maldições sobre povoados ou tropas humanas. A lógica caótica dos goblins se estende ao modo como conjuram magia, com fórmulas e rituais totalmente diferentes de outros arcanistas; diz-se que fazem pactos profanos com espíritos e entidades extraplanares. Sua magia parece fortificada quando adicionam ingredientes exóticos à conjuração — de pequenos animais vivos a partes de corpos.",
+  "livro": "ameacas_de_arton"
+}

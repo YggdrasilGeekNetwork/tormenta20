@@ -1,0 +1,124 @@
+{
+  "id": "doencas_ameacas_de_arton",
+  "name": "Novas Doenças (Ameaças de Arton)",
+  "description": "Doenças adicionais que aventureiros podem contrair (Ameaças de Arton, Cap. 1, seção Novos Perigos → Doenças). As regras completas de doenças estão em Tormenta20, p. 318. Formato: Transmissão, CD, estágios da doença separados por '/'. * indica perda permanente de atributo (máximo 1 ponto por doença).",
+  "doencas": [
+    {
+      "nome": "Alergia Elemental",
+      "descricao": "Aventureiros expostos a quantidades concentradas de energia elemental podem desenvolver uma peculiar e perigosa alergia. Existe uma versão desta doença para cada tipo de energia (ácido, eletricidade, fogo, frio, luz e trevas).",
+      "transmissao": "Contato e Ingestão",
+      "cd": 25,
+      "estagios": [
+        "a vítima fica vulnerável ao tipo de energia",
+        "além de vulnerável, quando sofre dano do tipo de energia a vítima perde 1 PM",
+        "além dos anteriores, quando sofre dano do tipo de energia a vítima sofre uma condição conforme o elemento: ácido (vulnerável), eletricidade (ofuscado), fogo (fica em chamas), frio (lento), luz (cego), trevas (recuperação de PV reduzida à metade)"
+      ]
+    },
+    {
+      "nome": "Doença de Descompressão Etérea",
+      "descricao": "Doença comum entre exploradores que passam muito tempo viajando pelo éter divino; o contato súbito com a materialidade de Arton ao atravessar a iliosfera pode afetar a saúde do viajante.",
+      "transmissao": "Contato",
+      "cd": 20,
+      "estagios": [
+        "a vítima fica esmorecida",
+        "perde 2d10 PM que não podem ser recuperados até a doença ser curada"
+      ]
+    },
+    {
+      "nome": "Febre do Carniçal",
+      "descricao": "Causa fraqueza e, em casos graves, pode transformar a vítima em um morto-vivo.",
+      "transmissao": "Contato",
+      "cd": 15,
+      "estagios": ["vítima fica fraca", "enjoada", "morre"],
+      "observacao": "Uma criatura morta por esta doença retorna como um carniçal na próxima meia-noite."
+    },
+    {
+      "nome": "Febre Necrótica",
+      "descricao": "Faz o corpo da vítima necrosar.",
+      "transmissao": "Contato",
+      "cd": 20,
+      "estagios": ["vítima fica fraca", "debilitada", "morre"],
+      "observacao": "Uma criatura morta pela febre necrótica se torna um zumbi três dias depois."
+    },
+    {
+      "nome": "Gripe do Fluxo",
+      "descricao": "Constantes manipulações temporais podem causar esta rara doença mágica; o corpo e a mente da vítima ficam em momentos diferentes no fluxo de tempo, e a dessincronia temporal pode deixar sequelas irreversíveis.",
+      "transmissao": "Inalação",
+      "cd": 25,
+      "estagios": ["vítima fica esmorecida", "não pode sustentar magias até o fim da doença", "perde 1 de Sabedoria*"]
+    },
+    {
+      "nome": "Infecção Escarlate",
+      "descricao": "Faz a vítima definhar lentamente, podendo causar sequelas permanentes ou até matar.",
+      "transmissao": "Contato",
+      "cd": 20,
+      "estagios": ["perde 1d12 PV", "perde 2d12 PV", "perde 1 de Carisma*", "morre"],
+      "observacao": "Uma criatura morta por infecção escarlate retorna como um infecto no dia seguinte."
+    },
+    {
+      "nome": "Náusea Antinatural",
+      "descricao": "Pequenos parasitas de matéria vermelha se alojam na barriga da vítima e se alimentam de seus órgãos internos, causando enjoos terríveis e corrupção gradual.",
+      "transmissao": "Contato",
+      "cd": 25,
+      "estagios": [
+        "a vítima perde 1d4 PM e 1d12 PV",
+        "perde 2d4 PM e 2d12 PV",
+        "expele 1 enxame infernal e o ciclo da doença se reinicia"
+      ],
+      "observacao": "Os PM e PV perdidos não podem ser recuperados até a doença ser curada."
+    },
+    {
+      "nome": "Podridão da Múmia",
+      "descricao": "A vítima começa a enfraquecer, conforme seu corpo se deteriora magicamente. Só pode ser curada por meios mágicos; passar no teste de Fortitude apenas impede a progressão da doença.",
+      "transmissao": "Contato",
+      "cd": 20,
+      "estagios": ["vítima fica lenta", "fatigada", "exausta", "perde 1 de Constituição*", "morre"]
+    },
+    {
+      "nome": "Praga Coral",
+      "descricao": "Doença terrivelmente contagiosa criada como arma mágica contra orcs, sofreu uma mutação e passou a afetar também outros humanoides e animais. Após a incubação, manchas vermelhas aparecem no corpo da vítima, que é afetada por febre e dores, por fim sendo tomada por placas afiadas como coral até se transformar em um monstro. Nenhuma cura é conhecida; passar no teste de Fortitude, bem como efeitos que curam doenças, apenas impede a progressão naquele dia.",
+      "transmissao": "Contato e Inalação",
+      "cd": 35,
+      "estagios": [
+        "vítima fica fraca",
+        "debilitada",
+        "debilitada e perde 1 de Força, Constituição e Carisma (perda cumulativa, mas reversível por Desejo ou Intervenção Divina)"
+      ],
+      "observacao": "Se qualquer atributo da vítima chegar a -5, ela se torna um monstro sob controle do mestre."
+    },
+    {
+      "nome": "Pulmão em Brasa",
+      "descricao": "Causada pelo acúmulo de poeira de pedra-de-fumaça nos pulmões, causa problemas respiratórios e por fim morte por combustão espontânea.",
+      "transmissao": "Inalação",
+      "cd": 20,
+      "estagios": [
+        "a vítima fica fatigada",
+        "exausta",
+        "morre em uma explosão que causa 6d6 pontos de dano de fogo em todas as criaturas em um raio de 3m"
+      ]
+    },
+    {
+      "nome": "Rinite Feérica",
+      "descricao": "Provocada por partículas de poeira impregnadas com magia, esta versão mística da rinite é imbuída com o arcano, e os espirros que causa são infundidos de natureza sobrenatural.",
+      "transmissao": "Inalação",
+      "cd": 20,
+      "estagios": [
+        "a vítima fica vulnerável a magia",
+        "vulnerável e alquebrada",
+        "além dos anteriores, quando é afetada por um efeito mágico, a vítima fica enjoada por 1 rodada"
+      ]
+    },
+    {
+      "nome": "Tremedeira Desastrada",
+      "descricao": "Tremores fortes tomam conta dos membros da vítima, dificultando locomoção, esquiva e combate.",
+      "transmissao": "Inalação",
+      "cd": 20,
+      "estagios": [
+        "a vítima fica fatigada",
+        "exausta",
+        "exausta e, a cada ataque que faz, tem 25% de chance (1 em 1d4) de deixar sua arma cair"
+      ]
+    }
+  ],
+  "livro": "ameacas_de_arton"
+}

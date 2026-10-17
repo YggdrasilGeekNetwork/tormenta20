@@ -1,0 +1,42 @@
+{
+  "id": "guerreiro_perpetuo",
+  "name": "Guerreiro Perpétuo",
+  "nd": 7,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "igreja_de_arsenal",
+  "pv": 265,
+  "pm": null,
+  "defesa": 33,
+  "salvaguardas": { "fort": 20, "ref": 14, "von": 7 },
+  "reducao_de_dano": 5,
+  "imunidades": ["incorpóreo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 13,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "voo": 9 },
+  "atributos": { "for": null, "des": 6, "con": 0, "int": 0, "sab": 4, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Martelo de guerra",
+      "quantidade": 2,
+      "bonus": 25,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 6 }], "bonus": 19, "tipo": "impacto" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Sempre Armado", "descricao": "Se o guerreiro perpétuo for desarmado por um inimigo, sua arma retornará a ele no fim da rodada. Quando isso ocorre, ela causa 3d12+13 pontos de dano de impacto às criaturas adjacentes ao guerreiro." },
+    { "nome": "Casca Vazia", "descricao": "O guerreiro pode manipular seu próprio equipamento, mas não pode atravessar objetos sólidos." }
+  ],
+  "equipamento": ["Escudo pesado", "Grilhão de descrença", "Martelo de guerra"],
+  "tesouro": "Nenhum.",
+  "description": "Fantasma imaterial e invisível, mas usando armadura e armas mundanas — significando que mesmo um ataque capaz de afetar seres incorpóreos deve antes vencer a proteção metálica. São devotos de Keenn que rejeitaram o novo Deus da Guerra; como punição, quando morreram, Arsenal proibiu sua passagem para a além-vida, condenando-os a servir seus devotos pela eternidade como mortos-vivos. Encontrados sozinhos ou em grupos, assombrando antigos locais sagrados de Keenn ou protegendo esconderijos de Mestre Arsenal, também podem ser conjurados por altos clérigos do Deus da Guerra.",
+  "livro": "ameacas_de_arton"
+}

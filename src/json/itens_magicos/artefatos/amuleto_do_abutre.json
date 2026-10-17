@@ -1,0 +1,19 @@
+{
+  "id": "amuleto_do_abutre",
+  "name": "Amuleto do Abutre",
+  "description": "Este pingente de ouro em formato de abutre é um poderoso amuleto arcano, cuja origem sombria é cercada de mistério. Sabe-se que ele surgiu na mesma época em que Ferren Asloth realizou seu famigerado ritual e que é um dos mais poderosos itens do Arquilich Ferren Asloth. Capaz de conceder habilidades arcanas incríveis, fornece ao usuário +50 PM (somente após um dia de uso), aumenta em +5 a CD para resistir a suas magias arcanas e permite utilizar a habilidade Conhecimento Sequestrado (CD Inteligência). Tamanho poder, entretanto, não passa de uma armadilha: em sua obsessão pela vida eterna, Ferren aprisionou uma pequena parte de sua essência neste amuleto, fazendo com que ele funcione como um segundo filactério. No início de cada dia em que estiver usando o amuleto, o portador deve fazer um teste de Vontade (CD 20 + 1 por dia adicional). Se falhar, começa a ter pensamentos cruéis que o incentivam a buscar mais poder a qualquer custo. Se falhar uma segunda vez, torna-se dependente do amuleto e não consegue mais removê-lo por vontade própria (ficando agressivo caso outra pessoa tente fazê-lo). Se falhar uma terceira vez, sua alma é destruída — e, se Ferren estiver destruído, o fragmento de sua alma armazenado no amuleto se apossa do corpo do portador, trazendo o Arquilich de volta à existência. O portador passa automaticamente no teste de Vontade sempre que tiver matado um conjurador arcano no dia anterior.",
+  "effects": [
+    { "type": "bonus_pm", "value": 50, "condicao": "somente após um dia de uso" },
+    { "type": "bonus_cd_magia", "value": 5, "escolas": ["arcana"] },
+    { "type": "concede_habilidade", "habilidade": "conhecimento_sequestrado", "cd": "Inteligência" },
+    {
+      "type": "maldicao_progressiva",
+      "teste": { "pericia": "Vontade", "cd": "20 + 1 por dia adicional", "frequencia": "início de cada dia de uso" },
+      "falha_1": "começa a ter pensamentos cruéis que o incentivam a buscar mais poder a qualquer custo",
+      "falha_2": "torna-se dependente do amuleto, não pode removê-lo por vontade própria, fica agressivo se outra pessoa tentar",
+      "falha_3": "sua alma é destruída; se Ferren Asloth estiver destruído, o fragmento de sua alma no amuleto se apossa do corpo do portador e o traz de volta à existência",
+      "excecao": "o portador passa automaticamente no teste se tiver matado um conjurador arcano no dia anterior"
+    }
+  ],
+  "livro": "ameacas_de_arton"
+}

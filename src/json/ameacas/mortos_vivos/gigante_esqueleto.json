@@ -1,0 +1,42 @@
+{
+  "id": "gigante_esqueleto",
+  "name": "Gigante Esqueleto",
+  "nd": 5,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "mortos_vivos",
+  "pv": 210,
+  "pm": null,
+  "defesa": 24,
+  "salvaguardas": { "fort": 17, "ref": 5, "von": 11 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "corte": 5, "frio": 5, "perfuração": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 4,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 6, "des": -1, "con": 4, "int": null, "sab": 0, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Tacape",
+      "quantidade": 2,
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 14, "tipo": "impacto" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arremessar Rochas", "acao": "completa", "descricao": "O gigante esqueleto arremessa rochas em um quadrado de 3m em alcance curto. Criaturas nessa área sofrem 2d6+14 pontos de dano (Reflexos CD 20 reduz à metade)." },
+    { "nome": "Monte de Ossos", "descricao": "Quando sofre um acerto crítico, o gigante se desfaz em uma pilha de ossos. Ele fica caído e vulnerável, falha automaticamente em testes de Reflexos e precisa gastar uma ação de movimento para se remontar e encerrar estes efeitos." }
+  ],
+  "equipamento": ["Tacape aumentado"],
+  "tesouro": "Nenhum.",
+  "description": "Esqueleto animado de um gigante, capaz de arremessar rochas e se desfazer temporariamente em uma pilha de ossos quando sofre um golpe crítico.",
+  "livro": "ameacas_de_arton"
+}

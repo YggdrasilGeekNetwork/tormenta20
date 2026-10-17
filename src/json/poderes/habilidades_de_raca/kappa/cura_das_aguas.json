@@ -1,0 +1,13 @@
+{
+  "id": "cura_das_aguas",
+  "name": "Cura das Águas",
+  "type": "habilidade_de_raca",
+  "race": "kappa",
+  "description": "Você pode lançar a magia Curar Ferimentos (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Você não pode usar esta habilidade se a água de sua cabeça estiver derramada.",
+  "effects": {
+    "grants_spell": { "name": "curar_ferimentos", "key_attribute": "sabedoria" },
+    "relearn_discount_pm": 1,
+    "requires": "tigela_dagua_cheia"
+  },
+  "livro": "ameacas_de_arton"
+}

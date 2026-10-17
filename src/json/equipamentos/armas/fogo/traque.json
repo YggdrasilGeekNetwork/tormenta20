@@ -1,0 +1,23 @@
+{
+  "id": "traque",
+  "name": "Traque",
+  "type": "arma",
+  "proficiencia": "fogo",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "leve",
+  "preco": 75,
+  "dano": "2d6",
+  "critico": "19/x3",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "municao": "balas",
+  "habilidades": [],
+  "especial": {
+    "avaria_em_falha_impar": true,
+    "recarregar": "acao_padrao"
+  },
+  "description": "Esta arma, feita com sucata e materiais de segunda mão, é suscetível a falhar nos piores momentos. Se errar um ataque com um resultado ímpar no d20, ela é avariada. Recarregá-la é uma ação padrão.",
+  "livro": "ameacas_de_arton"
+}

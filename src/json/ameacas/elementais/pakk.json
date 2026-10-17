@@ -1,0 +1,43 @@
+{
+  "id": "pakk",
+  "name": "Pakk",
+  "nd": 1,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "minusculo",
+  "grupo": "elementais",
+  "pv": 9,
+  "pm": null,
+  "defesa": 15,
+  "salvaguardas": { "fort": 5, "ref": 10, "von": 1 },
+  "reducao_de_dano": null,
+  "imunidades": ["acertos críticos", "atordoado", "cansaço", "efeitos de metabolismo", "fogo", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": ["frio"],
+  "iniciativa": 7,
+  "percepcao": 2,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "voo": 12 },
+  "atributos": { "for": 0, "des": 5, "con": 1, "int": -1, "sab": 2, "car": 3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Queimadura",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 6 }], "bonus": 0, "tipo": "fogo" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arco de Chamas", "acao": "padrão", "descricao": "O pakk projeta chamas em um cone de 6m. Criaturas na área sofrem 3d6 pontos de dano de fogo (Reflexos CD 14 reduz à metade). Recarga (ação de movimento)." },
+    { "nome": "Labareda Viva", "descricao": "No início de cada turno do pakk, todas as criaturas em alcance curto sofrem 1d4 pontos de dano de fogo." }
+  ],
+  "equipamento": [],
+  "tesouro": "1 dose de éter elemental (fogo) (CD 16 para extrair).",
+  "familiar": "Um pakk familiar permite que você lance Explosão de Chamas. Caso aprenda novamente essa magia, seu custo diminui em –1 PM.",
+  "parceiro": null,
+  "description": "O que poderia ser tomado como uma mariposa em chamas na verdade é um minúsculo e gracioso ser elemental. Pequeno e aparentemente não agressivo, em seu voo brincalhão vem perfurando cortinas e deixando brasas nem um pouco inofensivas. Um único pode destruir os suprimentos de um grupo aventureiro ou atear fogo a um infeliz adormecido; em bandos, são capazes de incendiar aldeias inteiras. Vários arcanistas os adotam como familiares, apesar do risco de chamuscar cabelo, barba ou roupa; servos de deuses relacionados ao fogo às vezes os recebem como recompensa por devoção.",
+  "livro": "ameacas_de_arton"
+}

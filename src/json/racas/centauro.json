@@ -1,0 +1,16 @@
+{
+  "id": "centauro",
+  "name": "Centauro",
+  "description": "Vivem em pequenas comunidades silvestres, ocultas em florestas, planícies e savanas — gregários entre si, mas reservados com estranhos. Em suas comunidades, caçadores rastreiam e lutam enquanto os demais se ocupam da colheita e dos afazeres domésticos; evitam abusos contra a natureza, não caçando ou pescando em demasia, e as maiores tribos praticam agricultura, chegando a comercializar com outras raças. Têm afinidade com elfos, dahllan, hynne e sílfides, por seus espíritos livres e ligação com a natureza; seus maiores inimigos são os kobolds, que atacam e roubam suas aldeias. Não são raros os casos de centauros que abandonam os modos de sua gente para viver em povoados humanos ou se tornar aventureiros. Um centauro só aceita ser cavalgado em situações de vida ou morte, ou por alguém muito íntimo.",
+  "size": "grande",
+  "movement": 12,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "sabedoria": 2, "forca": 1, "inteligencia": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["avantajado", "cascos", "ginete_natural", "medo_de_altura_centauro"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "devocao": ["allihanna", "hippion", "megalokk"],
+  "livro": "ameacas_de_arton"
+}

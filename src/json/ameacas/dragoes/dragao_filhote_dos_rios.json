@@ -1,0 +1,49 @@
+{
+  "id": "dragao_filhote_dos_rios",
+  "name": "Dragão Filhote dos Rios",
+  "nd": 3,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "grande",
+  "grupo": "dragoes",
+  "pv": 120,
+  "pm": null,
+  "defesa": 22,
+  "salvaguardas": { "fort": 12, "ref": 6, "von": 10 },
+  "reducao_de_dano": null,
+  "imunidades": ["eletricidade"],
+  "resistencias": { "magia": 1 },
+  "vulnerabilidades": ["ácido"],
+  "iniciativa": 9,
+  "percepcao": 6,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "natacao": 18 },
+  "atributos": { "for": 3, "des": 4, "con": 3, "int": 0, "sab": 0, "car": 0 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 13,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 4, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 13,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 4, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Sopro", "acao": "completa", "descricao": "Todas as criaturas em um cone de 6m sofrem 2d12 pontos de dano de eletricidade e ficam ofuscadas por 1d4 rodadas (Reflexos CD 18 reduz à metade e evita a condição). Recarga (ação de movimento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão.",
+  "description": "Dragão filhote com energia dracônica de eletricidade, adaptado à vida aquática em rios e lagos.",
+  "livro": "ameacas_de_arton"
+}

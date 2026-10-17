@@ -1,0 +1,51 @@
+{
+  "id": "kraken",
+  "name": "Kraken",
+  "nd": 19,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "colossal",
+  "grupo": "sob_as_ondas",
+  "pv": 1145,
+  "defesa": 59,
+  "salvaguardas": { "fort": 32, "ref": 19, "von": 26 },
+  "reducao_de_dano": 20,
+  "resistencia_a_magia": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 22,
+  "percepcao": 20,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "natacao": 24 },
+  "atributos": { "for": 15, "des": 5, "con": 12, "int": 10, "sab": 4, "car": 7 },
+  "pericias": { "atletismo": 35, "diplomacia": 27, "enganacao": 27, "intimidacao": 27 },
+  "ataques": [
+    {
+      "nome": "Tentáculo",
+      "quantidade": 8,
+      "bonus": 50,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 30, "tipo": "impacto" }
+      ]
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 50,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 23, "tipo": "perfuração" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com um tentáculo (teste +60)." },
+    { "nome": "Chamado do Mar", "acao": "padrao", "salvaguarda": "Vontade", "cd": 47, "descricao": "O kraken pode dominar até 10 criaturas em alcance longo, como o efeito básico da magia Legião (Von CD 47 evita). Esta habilidade não tem efeito sobre criaturas em terra firme (mas afeta alvos que estejam em embarcações ou outras superfícies sobre o mar). Uma criatura que passe no teste de Vontade se torna imune a esta habilidade até o fim da cena." },
+    { "nome": "Constrição", "acao": "livre", "descricao": "No início de cada um de seus turnos, o kraken causa 4d10+30 pontos de dano de impacto em cada criatura que estiver agarrando." },
+    { "nome": "Dominar as Marés", "acao": "completa", "descricao": "O kraken pode alterar o clima em uma esfera de 2km ao seu redor (como o efeito básico da magia Controlar o Clima). Esta habilidade não afeta o clima sobre terra firme." },
+    { "nome": "Nuvem de Tinta", "acao": "movimento", "descricao": "O kraken expele uma nuvem de tinta num cone de 30m. Criaturas a até 1,5m têm camuflagem leve e criaturas a partir de 3m têm camuflagem total. Dentro da nuvem, criaturas têm seu deslocamento reduzido para 3m (independente de seu deslocamento normal) e sofrem -5 em testes de ataque e rolagens de dano. O kraken é imune aos efeitos da nuvem." },
+    { "nome": "Terror do Mar Profundo", "descricao": "O kraken começa o combate submerso, usando apenas quatro tentáculos para atacar. Cada tentáculo conta como uma criatura separada, com 115 PV, Defesa 54, imunidade a efeitos mentais e medo e demais características iguais às do kraken. Enquanto está submerso, o kraken não pode ser afetado por nenhum efeito, habilidade ou ataque. Quando os quatro tentáculos são destruídos, o kraken perde esta habilidade e emerge. Ele continua atacando usando seus outros quatro tentáculos e sua mordida." }
+  ],
+  "tesouro": "Dobro, 1d6 peças de pena de kraken (CD 34 para extrair) e 2d4 postas de kraken (CD 34 para extrair, cada posta vale T$ 20 para preparar um sashimi de kraken).",
+  "description": "Monstro imenso semelhante a uma lula gigantesca, de corpo colossal como um navio e tentáculos massivos. Avistado raramente, mesmo em alto-mar, mas não são poucas as histórias de navios arrastados para as profundezas por esta fera extremamente inteligente, que usa vastos complexos de túneis submarinos como covil, mantendo vítimas em cativeiro. Comunidades de povos aquáticos o veneram, fazendo oferendas para aplacar sua fúria, de forma similar aos dragões em terra.",
+  "livro": "ameacas_de_arton"
+}

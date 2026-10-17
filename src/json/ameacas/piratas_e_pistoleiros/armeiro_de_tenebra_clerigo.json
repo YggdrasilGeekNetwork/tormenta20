@@ -1,0 +1,53 @@
+{
+  "id": "armeiro_de_tenebra_clerigo",
+  "name": "Armeiro de Tenebra Clérigo",
+  "nd": 8,
+  "tipo": "Humanoide",
+  "subtipo": "anão",
+  "tamanho": "medio",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 210,
+  "pm": 45,
+  "defesa": 31,
+  "salvaguardas": { "fort": 15, "ref": 8, "von": 21 },
+  "reducao_de_dano": null,
+  "imunidades": ["trevas"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 13,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 1, "des": 0, "con": 5, "int": 1, "sab": 5, "car": -2 },
+  "pericias": { "misticismo": 9, "oficio_armeiro": 11, "religiao": 13 },
+  "ataques": [
+    {
+      "nome": "Machado de batalha",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 1, "tipo": "corte" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Mosquete (à distância)",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 16, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 8, "faces": 6 }], "bonus": 0, "tipo": "trevas" }
+      ],
+      "critico": "18/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Disparo Preciso", "descricao": "O armeiro de Tenebra clérigo pode fazer ataques à distância contra oponentes envolvidos em combate corpo a corpo sem a penalidade padrão de –5 no teste de ataque." },
+    { "nome": "Pacto da Pólvora", "descricao": "Quando causa dano de trevas com seu mosquete, o armeiro recupera uma quantidade de PV igual à metade do dano de trevas causado." },
+    { "nome": "Saque Rápido", "descricao": "O armeiro pode sacar ou guardar itens como uma ação livre e recarregar seu mosquete como uma ação de movimento." },
+    { "nome": "Visão nas Trevas", "descricao": "O armeiro enxerga no escuro mesmo em magias de escuridão." },
+    { "nome": "Magias", "descricao": "Lança magias como clérigo de Tenebra de 8º nível (CD 28): Arma Mágica (padrão, 8 PM, +2 ataque/dano e +2d6 de frio), Curar Ferimentos (padrão, 8 PM, cura 9d8+9 PV), Escudo da Fé (reação, 8 PM, camuflagem contra ataques à distância e +5 na Defesa), Miasma Mefítico (padrão, 7 PM, nuvem de 6m de raio, 7d6 de ácido e enjoado)." }
+  ],
+  "equipamento": ["Balas x20", "Capa pesada", "Cota de malha", "Machado de batalha", "Mosquete certeiro", "Símbolo sagrado de Tenebra"],
+  "tesouro": "Padrão.",
+  "description": "Clérigo verdadeiro entre os Armeiros de Tenebra, oferecendo suporte mágico em combates para seu culto de anões fanáticos que creem ser os únicos destinados a forjar e empunhar armas de pólvora.",
+  "livro": "ameacas_de_arton"
+}

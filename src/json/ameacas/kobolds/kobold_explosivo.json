@@ -1,0 +1,49 @@
+{
+  "id": "kobold_explosivo",
+  "name": "Kobold Explosivo",
+  "nd": 1,
+  "tipo": "Monstro",
+  "subtipo": "kobold",
+  "tamanho": "pequeno",
+  "grupo": "kobolds",
+  "pv": 9,
+  "pm": null,
+  "defesa": 15,
+  "salvaguardas": { "fort": 5, "ref": 10, "von": 1 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 0,
+  "visao": ["sensibilidade a luz", "visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 2, "con": 0, "int": -1, "sab": 0, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Lança",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 9, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Funda (à distância)",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 9, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Detonação Final", "descricao": "Quando o kobold é reduzido a 0 PV, role 1d6: com um resultado 1 ou 2, ocorre uma explosão. Todas as criaturas a até 3m sofrem 4d6 pontos de dano de impacto (Reflexos CD 14 reduz à metade)." },
+    { "nome": "Peste Oportunista", "descricao": "Os ataques do kobold explosivo causam +1d4 pontos de dano contra inimigos que já sofreram dano na rodada." }
+  ],
+  "equipamento": ["Funda", "Lança", "Pedras x20"],
+  "tesouro": "Metade.",
+  "description": "Kobold que, por habitar o covil de algum dragão muito antigo e poderoso, absorveu energia arcana que não aprimora suas habilidades, mas é liberada quando a criatura morre, fazendo-a explodir — podendo causar uma reação em cadeia em outros kobolds próximos.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,47 @@
+{
+  "id": "cavalo_esqueleto",
+  "name": "Cavalo Esqueleto",
+  "nd": 1,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "mortos_vivos",
+  "pv": 30,
+  "pm": null,
+  "defesa": 16,
+  "salvaguardas": { "fort": 11, "ref": 5, "von": 0 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "corte": 5, "frio": 5, "perfuração": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 5,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 5, "des": 1, "con": 0, "int": null, "sab": 1, "car": -5 },
+  "pericias": { "atletismo": 9 },
+  "ataques": [
+    {
+      "nome": "Cascos",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 5, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Pavor Equestre", "descricao": "Uma criatura que comece seu turno vendo um cavalo esqueleto fica abalada por 1d4 rodadas (Vontade CD 14 evita e a criatura não pode mais ser abalada por esta habilidade até o fim da cena)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "iniciante": "Seu deslocamento muda para 12m e você recebe uma ação de movimento extra por turno (apenas para se deslocar).",
+    "veterano": "Você recebe +2 em Intimidação e na CD de efeitos de medo.",
+    "mestre": "Você recebe uma segunda ação de movimento extra por turno (novamente, apenas para se deslocar) e o alcance de seus efeitos de medo aumenta em um passo (de curto para médio, de médio para longo)."
+  },
+  "description": "Qualquer humanoide, animal ou monstro vertebrado tem esqueleto, e estes podem ser animados por necromantes resultando em criaturas de todos os tamanhos. Um cavalo esqueleto é frequentemente usado como montaria sinistra.",
+  "livro": "ameacas_de_arton"
+}

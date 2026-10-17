@@ -1,0 +1,48 @@
+{
+  "id": "fenomenos_rubros",
+  "name": "Fenômenos Rubros",
+  "description": "Riscos imprevisíveis de áreas de Tormenta, além do perigo Tormenta padrão (Tormenta20, p. 319) — nestes lugares o clima e o terreno são imprevisíveis, e a lógica das leis naturais não se aplica (Ameaças de Arton, Cap. 1, seção Novos Perigos).",
+  "uso": "A cada hora de viagem em uma área de Tormenta, role 1d8 e consulte a tabela de fenômenos. Quando um fenômeno se manifesta, cada personagem pode fazer um teste de Conhecimento ou Sobrevivência (CD 35); se passar, identifica o fenômeno e tem 1 rodada para se preparar. A área de cada fenômeno é propositalmente vaga — em uma região de Tormenta, distâncias e dimensões não seguem a realidade, sendo impossível escapar destes efeitos simplesmente se afastando do lugar. Os efeitos dos fenômenos rubros ignoram imunidades, a menos que sejam específicas contra efeitos da Tormenta.",
+  "tabela_1d8": [
+    { "resultado": 1, "fenomeno": "Caos de Sangue" },
+    { "resultado": 2, "fenomeno": "Neblina Venenosa" },
+    { "resultado": 3, "fenomeno": "Labaredas Infernais" },
+    { "resultado": 4, "fenomeno": "Chuva Ácida" },
+    { "resultado": 5, "fenomeno": "Temperaturas Implacáveis" },
+    { "resultado": 6, "fenomeno": "Tempestade Elétrica" },
+    { "resultado": 7, "fenomeno": "Pesadelos Reais" },
+    { "resultado": 8, "fenomeno": "Nenhum fenômeno" }
+  ],
+  "fenomenos": [
+    {
+      "nome": "Caos de Sangue",
+      "descricao": "As forças da Tormenta se combinam em um fenômeno duplo: role duas vezes usando 1d6+1 em vez de 1d8. Resultados iguais são cumulativos."
+    },
+    {
+      "nome": "Chuva Ácida",
+      "descricao": "Nuvens rubras despejam torrentes de ácido sangrento e corrosivo. A chuva dura 2d4 rodadas; no início de cada rodada, cada personagem sofre 4d8 pontos de dano de ácido. Esse dano persiste por mais 1 rodada após o personagem se abrigar da chuva ou ela terminar."
+    },
+    {
+      "nome": "Labaredas Infernais",
+      "descricao": "Sem causa aparente, o ar se transforma em chamas horrendas e sobrenaturais. Quando este fenômeno se manifesta, e no início de cada rodada por mais 1d4 rodadas, cada personagem tem 50% de chance (resultado ímpar em um dado) de ser atingido por uma coluna de chamas e sofrer 10d6 pontos de dano, metade de fogo e metade de trevas (Reflexos CD 35 reduz à metade)."
+    },
+    {
+      "nome": "Neblina Venenosa",
+      "descricao": "Nuvens descem do firmamento rubro, cobrindo tudo com gotículas de chuva ácida. Dura 2d4 rodadas, podendo ser dispersada por um vento forte em 1d4 rodadas ou um vendaval em 1 rodada. Fornece camuflagem leve a criaturas a 1,5m e camuflagem total a criaturas a mais de 1,5m. Criaturas que iniciem seu turno dentro da neblina perdem 8d4 pontos de vida e têm seus itens expostos (como armaduras e escudos) avariados. Essa perda de vida persiste por mais 1 rodada após a criatura se abrigar da neblina ou ela terminar."
+    },
+    {
+      "nome": "Pesadelos Reais",
+      "descricao": "A Tempestade Rubra se infiltra na mente dos aventureiros, fazendo com que enxerguem seus maiores medos materializados. As criaturas ficam apavoradas, sofrem 6d8 pontos de dano psíquico e perdem 1d6 PM (Vontade CD 35 evita o dano e a perda de PM). Cada criatura sob efeito do pesadelo deve repetir o teste de Vontade no início de cada um de seus turnos; se falhar, sofre o dano e a perda de PM novamente. O pesadelo termina se o personagem passar em dois testes de Vontade seguidos.",
+      "tag": "Medo"
+    },
+    {
+      "nome": "Temperaturas Implacáveis",
+      "descricao": "A temperatura da região é corrompida, deixando o ar ao mesmo tempo impossivelmente quente e irresistivelmente frio (calor e frio extremos simultâneos, Tormenta20, p. 267) por 2d4 minutos. A cada minuto, cada personagem deve fazer um teste de Fortitude (CD 25 + 1 por teste anterior). Se falhar, sofre 4d6 pontos de dano (metade fogo, metade frio) que só podem ser curados ao fim do fenômeno."
+    },
+    {
+      "nome": "Tempestade Elétrica",
+      "descricao": "Nuvens sangrentas despejam relâmpagos avermelhados, espalhando morte, destruição e loucura indiscriminadamente. Dura 2d4 rodadas; no início de cada rodada, um personagem escolhido aleatoriamente é atingido por um relâmpago e sofre 20d8 pontos de dano, metade ácido, metade eletricidade. Para cada resultado 8 nesses dados de dano, a vítima também perde 2 PM (Reflexos CD 35 reduz o dano e a perda de PM à metade)."
+    }
+  ],
+  "livro": "ameacas_de_arton"
+}

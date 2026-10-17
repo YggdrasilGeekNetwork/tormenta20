@@ -1,0 +1,44 @@
+{
+  "id": "maldicoes_ameacas_de_arton",
+  "name": "Maldições (Ameaças de Arton)",
+  "description": "Regras gerais para maldições e 5 maldições específicas novas, usadas para proteger lugares/tesouros ou proferidas por criaturas movidas por sentimentos sombrios (Ameaças de Arton, Cap. 1, seção Novos Perigos → Maldições).",
+  "regras_gerais": {
+    "ativacao": "Cada manifestação de uma maldição possui uma forma de ativação, relacionada àquilo que quer impedir ou punir (ex.: proteger um objeto é ativada ao movê-lo/manuseá-lo; guardar um lugar é ativada ao entrar nele ou executar uma ação proibida em seu interior). Maldições também podem ser proferidas por criaturas, como uma habilidade ou manifestação extrema de raiva, ódio ou outro sentimento. O mestre define as condições de ativação em cada caso.",
+    "deteccao": "É possível perceber que um lugar ou objeto guarda uma maldição prestes a ser ativada, estudando-o por alguns minutos e passando em um teste de Investigação ou Misticismo (CD igual à da maldição).",
+    "testes_de_resistencia": "Quando uma maldição é ativada, cada vítima pode fazer um teste de Vontade para evitá-la. A CD depende da fonte: para criaturas, use a CD de suas habilidades; para lugares e objetos, determine a CD conforme adequado ao encontro (como referência, use as CD para especiais na Tabela 2-3: Parâmetros de Criaturas, Cap. 2).",
+    "remocao": "Cada maldição possui uma forma específica de remoção. Além disso, uma maldição geralmente pode ser removida com as magias Desejo e Intervenção Divina (ambas com sacrifício de 2 PM)."
+  },
+  "maldicoes": [
+    {
+      "nome": "Conhecimento Proibido",
+      "descricao": "Criada para corromper quem se apropria de conhecimentos profanos; encontrada protegendo livros e tratados acadêmicos, ou proferida por alguém resguardando uma fonte de informações perigosas.",
+      "efeito": "A vítima fica confusa até o fim da cena em que sofreu a maldição e perde 1 ponto permanente de Sabedoria ou Carisma por dia (determinado aleatoriamente a cada dia). Caso um desses atributos seja reduzido a –5, a vítima se transforma em um monstro à escolha do mestre.",
+      "remocao": "Requer um ritual especial, celebrado por um clérigo de Tannah-Toh, que deve lançar Dispersar as Trevas sobre a criatura amaldiçoada. O ritual exige o gasto de T$ 1.000 em incensos e outros ingredientes sagrados."
+    },
+    {
+      "nome": "Fúria de Allihanna",
+      "descricao": "Punição contra quem comete crimes hediondos contra o mundo natural, como matar um unicórnio. Encontrada em templos e recantos sagrados de Allihanna, mas também pode se manifestar espontaneamente.",
+      "efeito": "O personagem amaldiçoado passa a atrair o ódio do mundo selvagem: animais, devotos de Allihanna e outras criaturas ligadas à natureza recebem +5 em testes e rolagens de dano contra ele e são considerados hostis. A natureza conspira contra ele: considera ambientes naturais como terreno difícil e sofre –5 em testes de Acrobacia e Atletismo nesses lugares. Suas condições de descanso em ambientes naturais sempre são duas categorias abaixo do normal.",
+      "remocao": "Exige o perdão de um clérigo ou druida de Allihanna capaz de lançar magias de 4º círculo, geralmente dependente de um serviço ou favor que repare o crime que desencadeou a maldição."
+    },
+    {
+      "nome": "Maldição do Bardo",
+      "descricao": "'Matar bardo dá azar' — em ocasiões especiais, a morte de um bardo particularmente talentoso ou inspirado pode desencadear esta maldição.",
+      "efeito": "Uma criatura afetada perde todo seu talento: para efeitos de modificadores de perícias e CD de habilidades, todos os seus atributos são tratados como 0.",
+      "remocao": "Requer localizar a alma do bardo morto e desafiá-lo para um duelo artístico: três testes opostos de Atuação, em que o personagem amaldiçoado deve vencer pelo menos dois. O duelo só pode ser realizado uma vez por aventura."
+    },
+    {
+      "nome": "Mortuária",
+      "descricao": "Causada pelos mortos-vivos conhecidos como mortalhas, também encontrada em tumbas de conjuradores ligados a forças necromânticas ou energia negativa.",
+      "efeito": "A vítima se torna cansada e decrépita, como se sua energia vital estivesse a ponto de se extinguir, e recebe vulnerabilidade a trevas (substitui qualquer imunidade ou redução de trevas, bem como a capacidade de recuperar PV com dano de trevas).",
+      "remocao": "Depende da fonte: se causada por uma mortalha, é necessário destruir a criatura; se causada pela violação de uma tumba, é necessário lançar Dispersar as Trevas sobre os restos mortais do ocupante original, em um ritual de 1 hora que custa T$ 1.000."
+    },
+    {
+      "nome": "Toque de Tibar",
+      "descricao": "Pode recair sobre quem comete crimes contra os dogmas de Tibar, como tentar descobrir o segredo da Cunhagem Sagrada ou falsificar moedas.",
+      "efeito": "Todos os objetos que a criatura amaldiçoada veste ou empunha se transformam em pirita enquanto estiverem em sua posse: armas impõem –2 em testes de ataque e rolagens de dano, armaduras e escudos têm o bônus de Defesa reduzido em –2, e itens gerais impõem –2 em quaisquer testes em que sejam empregados.",
+      "remocao": "Exige que a vítima repare o crime cometido — pode significar esquecer qualquer informação secreta obtida (por meio de um efeito como Alterar Memória) ou devolver quaisquer lucros obtidos."
+    }
+  ],
+  "livro": "ameacas_de_arton"
+}

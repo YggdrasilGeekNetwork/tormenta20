@@ -1,0 +1,15 @@
+{
+  "id": "totens_risonhos",
+  "name": "Totens Risonhos",
+  "description": "Totens de guerra erguidos por alcateias de gnoll, entalhados com caveiras e penduricalhos macabros (Ameaças de Arton, bestiário de Gnolls, sidebar do Gnoll Líder de Alcateia). Cada totem afeta uma esfera de 30m de raio centrada nele.",
+  "efeito": "Gnolls dentro da área recebem +2 em testes de perícia e em rolagens de dano. Criaturas hostis aos gnolls dentro da área sofrem –2 nos mesmos testes e rolagens, e ficam abaladas (medo) a menos que passem em um teste de Vontade (CD 22). Se um conjurador gnoll estiver na área, suas magias recebem +2 na CD e +1 de dano por dado de dano.",
+  "salvaguarda": "Vontade CD 22 evita a condição abalado (não evita as penalidades de perícia/dano)",
+  "estrutura": {
+    "tamanho": "Médio",
+    "defesa": 10,
+    "reducao_de_dano": 5,
+    "pv": 50,
+    "destruicao": "Teste de Atletismo (CD 25) como ação completa"
+  },
+  "livro": "ameacas_de_arton"
+}

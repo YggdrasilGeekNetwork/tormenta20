@@ -1,0 +1,45 @@
+{
+  "id": "bando_de_pamgras",
+  "name": "Bando de Pamgras",
+  "nd": 11,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "grande",
+  "grupo": "elementais",
+  "pv": 550,
+  "pm": null,
+  "defesa": 41,
+  "salvaguardas": { "fort": 24, "ref": 18, "von": 11 },
+  "reducao_de_dano": "10/impacto",
+  "imunidades": ["acertos críticos", "ácido", "atordoado", "cansaço", "efeitos de metabolismo", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": ["eletricidade"],
+  "iniciativa": 9,
+  "percepcao": 8,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "escalada": 6 },
+  "atributos": { "for": 8, "des": 0, "con": 4, "int": -3, "sab": -1, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 34,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 30, "tipo": "impacto" }
+      ],
+      "critico": "19/x2",
+      "observacao": "[Bando]"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Bando", "descricao": "Representa um bando de pamgras agindo em conjunto." },
+    { "nome": "Abalo Sísmico", "acao": "completa", "descricao": "Golpeia o solo repetidamente, abrindo fendas em pontos aleatórios num círculo de 30m de raio. Cada criatura na área rola um dado; em resultado ímpar, uma fenda se abre sob seus pés e ela cai dentro (Reflexos CD 31 evita a queda). Dentro da fenda fica agarrada; pode se soltar e saltar fora com ação completa e teste de Atletismo CD 31. No início de cada turno agarrada, sofre 4d8 de dano de impacto pelo esmagamento das rochas. Recarga (ação de movimento)." },
+    { "nome": "Cristalário", "descricao": "Os cristais afiados do corpo do bando ferem profundamente suas vítimas. Criaturas atingidas ficam sangrando (Fortitude CD 31 evita)." },
+    { "nome": "Golpe Avassalador", "acao": "livre", "descricao": "Quando acerta um ataque de pancada, arremessa a vítima 2d6 x 1,5m em uma direção à escolha dele (Fortitude CD 31 evita). A vítima fica caída e, se atingir um obstáculo, sofre 2d6 de dano de impacto por 1,5m arremessado." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d6 doses de éter elemental (ácido) (CD 26 para extrair).",
+  "description": "Um grupo de pamgras investindo com violência em sincronia, capaz de causar catástrofes sísmicas inteiras quando se concentram em esmurrar o solo.",
+  "livro": "ameacas_de_arton"
+}

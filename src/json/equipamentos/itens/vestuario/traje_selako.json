@@ -1,0 +1,15 @@
+{
+  "id": "traje_selako",
+  "name": "Traje Selako",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 90,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "bonus_atletismo_nadar": 2,
+    "bonus_deslocamento_natacao": "3m"
+  },
+  "description": "Feito com couro de selako, este traje fornece parte das capacidades desses predadores. Você recebe +2 em testes de Atletismo para nadar e +3m em seu deslocamento de natação.",
+  "livro": "ameacas_de_arton"
+}

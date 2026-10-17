@@ -1,0 +1,52 @@
+{
+  "id": "trog_rei_dos_tuneis",
+  "name": "Trog Rei dos Túneis",
+  "nd": 5,
+  "tipo": "Monstro",
+  "subtipo": "trog",
+  "tamanho": "grande",
+  "grupo": "brutos_e_indomaveis",
+  "pv": 226,
+  "pm": null,
+  "defesa": 25,
+  "salvaguardas": { "fort": 17, "ref": 11, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 4,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "escavacao": 6 },
+  "atributos": { "for": 5, "des": 1, "con": 5, "int": -2, "sab": 0, "car": -1 },
+  "pericias": { "furtividade": 7, "intimidacao": 7 },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 6, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 6, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Dilacerar", "descricao": "Se o trog rei dos túneis acerta os dois ataques de garra em uma mesma criatura no mesmo turno, causa mais 2d8+6 pontos de dano." },
+    { "nome": "Gosto por Tripas", "descricao": "O rei recebe +2 em rolagens de dano contra criaturas em que já tenha causado dano nesta cena." },
+    { "nome": "Mau Cheiro", "acao": "padrão", "descricao": "Fortitude CD 20 evita (veneno)." },
+    { "nome": "Terror dos Túneis", "descricao": "Uma criatura que comece seu turno em alcance curto do rei dos túneis fica apavorada por 1 rodada e então abalada (Vontade CD 20 muda para abalada por 1 rodada; a criatura não pode mais ser afetada por esta habilidade até o fim da cena)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Metade.",
+  "description": "A liderança da comunidade trog é exercida pelo mais forte; trogs costumam duelar pelo comando dos clãs. O rei dos túneis é aquele que conquistou e manteve esse posto por mais tempo, tornando-se maior, mais feroz e mais temido que seus súditos.",
+  "livro": "ameacas_de_arton"
+}

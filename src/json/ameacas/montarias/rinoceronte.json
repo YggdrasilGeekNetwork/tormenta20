@@ -1,0 +1,47 @@
+{
+  "id": "rinoceronte",
+  "name": "Rinoceronte",
+  "nd": 4,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 130,
+  "pm": null,
+  "defesa": 23,
+  "salvaguardas": { "fort": 16, "ref": 4, "von": 10 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 5,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 6, "des": 0, "con": 4, "int": -4, "sab": 1, "car": -3 },
+  "pericias": { "atletismo": 10 },
+  "ataques": [
+    {
+      "nome": "Chifre",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 10, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Investida Avassaladora", "acao": "completa", "descricao": "O rinoceronte faz uma investida e ataca com seu chifre. Se acertar o ataque, causa +2d8 pontos de dano e a vítima é arremessada 1d6 x 1,5m na direção oposta." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 12m e você recebe +2 em testes de ataque quando faz investidas.",
+    "veterano": "Você pode usar Carga de Cavalaria. Caso possua esse poder, o bônus no dano em investida aumenta em +1d8.",
+    "mestre": "Quando faz uma investida você ignora 10 pontos de redução de dano do alvo."
+  },
+  "description": "Imenso animal de couro grosso, com cabeçorra volumosa e um enorme chifre no focinho; pernas curtas mas muito fortes e mais rápidas do que parecem. Grande herbívoro mal-humorado e agressivo, ataca qualquer criatura que se aproxime demais; vive nas mesmas regiões habitadas por elefantes, muitas vezes formando bandos mistos. No passado, quando os anões ainda habitavam a superfície, era criado como gado e usado como besta de carga e guerra; um rinoceronte jamais ataca um anão, e alguns anões aventureiros ainda os adotam como montarias. Além do rinoceronte comum dos campos e savanas, existem o rinoceronte lanoso das Uivantes e o brontotério, variedade gigante encontrada em Galrasia.",
+  "livro": "ameacas_de_arton"
+}

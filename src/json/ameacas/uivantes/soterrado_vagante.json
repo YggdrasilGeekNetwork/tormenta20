@@ -1,0 +1,41 @@
+{
+  "id": "soterrado_vagante",
+  "name": "Soterrado Vagante",
+  "nd": 2,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "uivantes",
+  "pv": 21,
+  "defesa": 20,
+  "reducao_de_dano": 5,
+  "resistencias": { "frio": 10 },
+  "imunidades": [],
+  "vulnerabilidades": ["fogo"],
+  "salvaguardas": { "fort": 1, "ref": 5, "von": 10 },
+  "iniciativa": 2,
+  "percepcao": 3,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 5, "des": -1, "con": 0, "int": null, "sab": 2, "car": -1 },
+  "pericias": { "furtividade": 2 },
+  "ataques": [
+    {
+      "nome": "Punho",
+      "quantidade": 2,
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 6, "tipo": "impacto" },
+        { "dados": [], "bonus": 2, "tipo": "frio" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com o punho (teste +16)." },
+    { "nome": "Constrição Congelante", "acao": "padrao", "descricao": "No início de cada um de seus turnos, o soterrado vagante causa 4d6 pontos de dano de frio em cada criatura que estiver agarrando. Esse dano aumenta em +1d6 para cada rodada consecutiva que o soterrado estiver agarrando essa criatura." },
+    { "nome": "Esquife de Gelo", "descricao": "O soterrado sofre 1 ponto de dano adicional por dado de dano de fogo." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Esqueleto revestido de grossas camadas de gelo que o tornam mais resistente, com luzes azuis pálidas brilhando em órbitas vazias. Permanece imóvel no gelo e na neve até que uma criatura viva se aproxime, buscando agarrar vítimas para sugar sua energia vital — talvez movido pela lembrança de sua morte horrível ou por uma necessidade desesperada do calor dos vivos. Representa a versão selvagem da raça soterrado; poucos manifestam inteligência própria e acabam integrando a raça osteon.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "dragao_celestial_veneravel",
+  "name": "Dragão Celestial Venerável",
+  "nd": 20,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "imperio_de_jade",
+  "pv": 1300,
+  "pm": 143,
+  "defesa": 60,
+  "salvaguardas": { "fort": 28, "ref": 21, "von": 34 },
+  "reducao_de_dano": 20,
+  "imunidades": ["eletricidade"],
+  "resistencias": {},
+  "resistencia_a_magia": 4,
+  "vulnerabilidades": ["ácido"],
+  "iniciativa": 20,
+  "percepcao": 28,
+  "visao": ["percepção às cegas (longo)", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 48 },
+  "atributos": { "for": 15, "des": 2, "con": 10, "int": 8, "sab": 9, "car": 8 },
+  "pericias": { "conhecimento": 25, "diplomacia": 25, "intuicao": 26, "misticismo": 25, "religiao": 26 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 52,
+      "dano": [
+        { "dados": [{ "quantidade": 8, "faces": 12 }], "bonus": 45, "tipo": "perfuração" }
+      ],
+      "critico": "18/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 52,
+      "dano": [
+        { "dados": [{ "quantidade": 8, "faces": 12 }], "bonus": 45, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Bombardeio Celestial", "acao": "completa", "descricao": "O dragão celestial cria 6 esferas de essência que ficam flutuando ao seu redor até o fim da cena. Uma vez por rodada, ele pode gastar uma ação de movimento para disparar uma dessas esferas em uma criatura em alcance longo; o alvo sofre 12d6 pontos de dano de essência e é empurrado 6m na direção oposta (Fortitude CD 49 evita o empurrão). Uma vez por rodada, quando é alvo de um ataque ou habilidade, o dragão pode disparar uma dessas esferas contra o atacante." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o dragão celestial muda a execução dela para livre." },
+    { "nome": "Presença Celestial", "salvaguarda": "Vontade", "cd": 49, "efeito_sucesso": "evita", "descricao": "Aura de presença celestial (Vontade CD 49 evita)." },
+    { "nome": "Sopro", "acao": "padrão", "descricao": "Todas as criaturas em um cone de 18m sofrem 20d12 pontos de dano de eletricidade e ficam ofuscadas por 1d4 rodadas (Reflexos CD 49 reduz à metade e evita a condição). Recarga (movimento)." },
+    { "nome": "Magias", "descricao": "Lança magias como clérigo de Lin-Wu de 20º nível (CD 49, limite de PM 30): Aura Divina (padrão, 19 PM, aura de 9m de raio até o fim da cena, dragão e aliados devotos de Lin-Wu imunes a encantamento e +12 na Defesa e testes de resistência, +7 para aliados não devotos; inimigos que entrem na área fazem Vontade ou recebem uma condição entre esmorecido, debilitado ou lento até o fim da cena), Curar Ferimentos (padrão, 15 PM, criatura adjacente cura 16d8+16 PV ou criaturas em alcance curto curam 11d8+11), Dissipar Magia (padrão, 3 PM), Escudo da Fé (padrão, 25 PM, camuflagem leve contra ataques à distância e +12 na Defesa por 1 dia), Intervenção Divina (padrão, 15 PM, cura todos os PV e condições de até 10 criaturas em alcance longo, incluindo mortos-vivos, ou dissipa os efeitos de uma magia de 4º círculo ou menor; algo mais poderoso exige o sacrifício de 2 PM), Katana Celestial (padrão, 24 PM, quatro linhas de 30m formando um \"X\", 14d8 de dano de luz — ou 14d12 se mortos-vivos —, cegas e surdas até o fim da cena, Reflexos reduz à metade e evita as condições)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Dobro.",
+  "description": "A mais antiga e poderosa manifestação dos dragões celestiais, moldados à imagem de Lin-Wu. Acredita-se que o próprio Imperador Tekametsu, regente supremo de Tamu-ra, seria na verdade um dragão celestial venerável.",
+  "livro": "ameacas_de_arton"
+}

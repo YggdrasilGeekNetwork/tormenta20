@@ -1,0 +1,49 @@
+{
+  "id": "chefe_de_gangue",
+  "name": "Chefe de Gangue",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "capangas_e_bandoleiros",
+  "pv": 63,
+  "pm": null,
+  "defesa": 19,
+  "salvaguardas": { "fort": 11, "ref": 7, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "medo": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 6,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 3, "des": 2, "con": 2, "int": 1, "sab": 0, "car": 1 },
+  "pericias": { "furtividade": 7, "intimidacao": 7 },
+  "ataques": [
+    {
+      "nome": "Espada longa",
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 5, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Espada curta",
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 5, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Furtivo", "descricao": "+2d6 de dano extra quando flanqueia ou surpreende o alvo." },
+    { "nome": "Ordens", "acao": "movimento", "descricao": "O chefe grita ordens para seus aliados em alcance médio. Eles recebem +2 em testes de perícia até o fim da cena." }
+  ],
+  "equipamento": ["Couro batido", "Espada curta", "Espada longa"],
+  "tesouro": "Padrão.",
+  "description": "Em grupos de dez ou mais bandidos, algum bandoleiro mais forte ou esperto acaba assumindo a liderança. Um chefe de gangue não se limita a dar ordens: luta e se arrisca com seus companheiros, inspirando-os a se tornarem audaciosos e imprudentes.",
+  "livro": "ameacas_de_arton"
+}

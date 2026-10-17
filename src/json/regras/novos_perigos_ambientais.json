@@ -1,0 +1,36 @@
+{
+  "id": "novos_perigos_ambientais",
+  "name": "Novos Perigos Ambientais",
+  "description": "Perigos ambientais simples introduzidos em Ameaças de Arton (Cap. 1, seção Novos Perigos): condições climáticas/mágicas de área, terrenos traiçoeiros e substâncias perigosas.",
+  "ar_saturado": {
+    "descricao": "Um personagem em uma área onde a umidade do ar é excessiva deve fazer um teste de Fortitude (CD 15) por dia de exposição.",
+    "efeito": "Se falhar, fica alquebrado e fatigado devido ao esforço para respirar (efeito de metabolismo). Além disso, nessas áreas, efeitos climáticos de calor e frio causam +1d6 pontos de dano, e as condições de descanso são sempre uma categoria piores."
+  },
+  "area_desencantada": {
+    "descricao": "Em alguns lugares a magia existe em quantidades muito pequenas, por desastre mágico, maldição ou característica natural inexplicável.",
+    "efeito": "O custo em pontos de mana de habilidades e efeitos aumenta em +1 e a recuperação de PM por descanso é sempre ruim, independente de outros efeitos e condições (como um acampamento)."
+  },
+  "areia_movediça": {
+    "descricao": "Presente em pântanos e desertos, ocupa em geral um quadrado de 6m. Um personagem deve passar em um teste de Sobrevivência (CD 25) para notar areia movediça à frente.",
+    "efeito": "Se entrar na área, fica agarrado. Se passar 1 rodada inteira agarrado, submerge no início de seu turno e precisa prender a respiração (veja 'Sufocamento', Tormenta20, p. 319). Uma criatura na areia pode gastar uma ação completa e fazer um teste de Atletismo (CD 25) para escapar: se estava submersa, fica agarrada; se estava agarrada, fica livre na margem. Se falhar por 5 ou mais, fica fatigada (cumulativo até exausta, depois inconsciente). Personagens fora da área podem ajudar no teste de Atletismo."
+  },
+  "dejetos_alquimicos": {
+    "descricao": "Acidentes com poções e preparados alquímicos formam poças desses materiais; a área geralmente ocupa um quadrado de 3m (ajustável a critério do mestre).",
+    "efeito": "Um personagem na área, ou em contato com os dejetos, sofre 4d4 pontos de dano de ácido e uma condição adicional por um dia, determinada aleatoriamente (Fortitude CD 20 reduz o dano à metade e evita a condição). Role 1d6: 1) abalado; 2) alquebrado; 3) cego; 4) enjoado; 5) fatigado; 6) lento."
+  },
+  "eletricidade": {
+    "descricao": "Pouco comum em Arton, mas pode ser encontrada em lugares com tecnologias experimentais, como laboratórios de inventores.",
+    "efeito": "A cada rodada de contato com uma fonte de eletricidade, uma criatura sofre 2d6 pontos de dano e fica atordoada por 1 rodada (Fortitude CD 20 reduz o dano à metade e evita a condição; uma criatura molhada e/ou usando armadura de metal sofre –5 no teste). Sempre que o resultado de um dado de dano for o valor máximo, role um dado adicional de dano."
+  },
+  "lodo_negro": {
+    "descricao": "Essência de Ragnar, o antigo Deus da Morte: líquido viscoso que pode brotar em qualquer lugar, mais abundante nas Ruínas de Tyrondir. Visto por antigos devotos como a última dádiva de seu deus morto.",
+    "efeito": "Uma criatura viva em contato com o lodo deve fazer um teste de Fortitude (CD 35) a cada rodada. Se passar, perde 10d12 PV. Se falhar, sofre a perda de PV ou seus PV são reduzidos a –10 (o que for pior). Imersão total mata a criatura instantaneamente, sem direito a testes.",
+    "observacao": "O lodo negro é imprevisível e pode atravessar barreiras sólidas sem aviso, sendo impossível armazená-lo em qualquer recipiente."
+  },
+  "rio_congelado": {
+    "descricao": "Um rio congelado normalmente mede de 9m a 18m de uma margem a outra. É possível andar sobre o gelo à metade do deslocamento sem testes.",
+    "efeito": "Andar ao deslocamento normal, correr, fazer uma investida ou sofrer dano sobre o gelo exige um teste de Acrobacia (CD 15 no caso de movimento, ou igual ao dano sofrido). Em caso de falha, role 1d4: em 2, 3 ou 4, a criatura cai e desliza esse resultado x 1,5m; em 1, o gelo cede e ela afunda na água.",
+    "afundamento": "Ao afundar, a criatura sofre 2d4 pontos de dano de frio por rodada e deve fazer um teste de Atletismo para nadar (CD 15). Se passar, pode gastar uma ação de movimento para se erguer pelo buraco. Se falhar, é arrastada conforme a correnteza ('Aquático', Tormenta20, p. 269), ficando debaixo do gelo — precisa nadar (CD baseada na correnteza) até estar embaixo de um buraco e gastar uma ação de movimento para se erguer. Abrir um buraco no gelo exige causar 20 pontos de dano de impacto, perfuração ou fogo. Uma vez fora d'água, sofre os efeitos de frio extremo ('Clima', Tormenta20, p. 267) até se aquecer."
+  },
+  "livro": "ameacas_de_arton"
+}

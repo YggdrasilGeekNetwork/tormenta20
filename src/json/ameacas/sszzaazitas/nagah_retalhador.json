@@ -1,0 +1,52 @@
+{
+  "id": "nagah_retalhador",
+  "name": "Nagah Retalhador",
+  "nd": 12,
+  "tipo": "Humanoide",
+  "subtipo": "nagah",
+  "tamanho": "medio",
+  "grupo": "sszzaazitas",
+  "pv": 600,
+  "defesa": 43,
+  "salvaguardas": { "fort": 20, "ref": 26, "von": 12 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "veneno": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 20,
+  "percepcao": 14,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 6, "des": 5, "con": 4, "int": 0, "sab": 2, "car": 1 },
+  "pericias": { "enganacao": 15, "furtividade": 17, "intimidacao": 13 },
+  "ataques": [
+    {
+      "nome": "Cimitarra",
+      "quantidade": 4,
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 12, "tipo": "corte" }
+      ],
+      "critico": "15/x3",
+      "efeito": "veneno"
+    },
+    {
+      "nome": "Cauda",
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 12, "tipo": "impacto" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com a cauda (teste +38)." },
+    { "nome": "Barreira de Lâminas", "acao": "reacao", "descricao": "Duas vezes por rodada, quando é alvo de um ataque corpo a corpo, o nagah retalhador pode fazer um teste de ataque oposto ao resultado desse ataque. Se vencer, evita o dano e pode fazer um ataque corpo a corpo contra o atacante." },
+    { "nome": "Constrição", "acao": "livre", "descricao": "No início de cada um de seus turnos, o retalhador causa 2d6+12 pontos de dano de impacto na criatura que estiver agarrando com sua cauda." },
+    { "nome": "Retalhar", "descricao": "Para cada dois ataques de cimitarra que o retalhador acertar em uma mesma criatura na mesma rodada, ele causa mais 2d8+12 pontos de dano." },
+    { "nome": "Veneno", "salvaguarda": "Fortitude", "cd": 33, "efeito_sucesso": "reduz a duração para 1 rodada", "descricao": "Peçonha potente: perde 2d12 pontos de vida por rodada durante 3 rodadas (Fort CD 33 reduz a duração para 1 rodada)." }
+  ],
+  "equipamento": ["Cimitarra de mitral x4"],
+  "tesouro": "Metade.",
+  "description": "Mutação rara entre os nagahs masculinos, resultando em dois pares de mãos destras capazes de brandir quatro armas simultaneamente, tornando-se verdadeiras barreiras de lâminas em batalha. Costumam atuar como guarda-costas de elite para nagahs sacerdotisas ou sszzaazitas celebrantes.",
+  "livro": "ameacas_de_arton"
+}

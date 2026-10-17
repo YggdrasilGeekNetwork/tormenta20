@@ -1,0 +1,42 @@
+{
+  "id": "golem_de_nor_grande",
+  "name": "Golem de Nor Grande",
+  "nd": 8,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "uivantes",
+  "pv": 290,
+  "defesa": 32,
+  "salvaguardas": { "fort": 21, "ref": 7, "von": 15 },
+  "reducao_de_dano": null,
+  "imunidades": ["frio"],
+  "resistencias": { "fogo": 15 },
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 13,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": 0, "con": 5, "int": null, "sab": 0, "car": -5 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Espada Longa",
+      "quantidade": 2,
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 25, "tipo": "corte" },
+        { "dados": [], "bonus": 2, "tipo": "frio" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura Congelante", "acao": "padrao", "salvaguarda": "Fortitude", "cd": 24, "efeito_sucesso": "evita", "descricao": "Uma vez por cena, o golem de Nor grande recebe 50 PV temporários. Se uma criatura acertar um ataque corpo a corpo contra o golem enquanto ele tem estes PV temporários, fica enredada (Fort CD 24 evita)." },
+    { "nome": "Imunidade a Magia", "descricao": "O golem é imune a efeitos mágicos, com a seguinte exceção: efeitos mágicos de frio curam PV em quantidade igual à metade do dano que causariam." }
+  ],
+  "equipamento": ["Escudo pesado de gelo eterno", "Espada longa aumentada de gelo eterno"],
+  "tesouro": "Lascas gélidas (CD 23 para extrair, valem T$ 200 para fabricar itens de gelo eterno).",
+  "description": "Versão maior do golem de Nor, encontrado protegendo estruturas ou passagens nas Uivantes conforme ordens deixadas por senhores desconhecidos. Quase todos são pouco propensos a abandonar os lugares que vigiam, mas alguns parecem ter recebido comandos para perseguir e matar criaturas de certo tipo, ou mesmo pessoas específicas.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,24 @@
+{
+  "id": "couro_de_bulette",
+  "name": "Couro de Bulette",
+  "type": "material_especial",
+  "aparencia": "Couro resistente extraído de um bulette.",
+  "origem": "Raramente encontrado à venda; perde suas qualidades especiais se não for curtido e tratado logo após a extração.",
+  "bonus_geral": null,
+  "precos_adicionais": null,
+  "description": "Este couro raramente é encontrado à venda; quando não é curtido e tratado logo após a extração, perde suas qualidades especiais.",
+  "effects": {
+    "armadura_leve": [
+      { "type": "deslocamento_escavacao", "value": "metade do deslocamento normal", "pre_requisito": "exige uma peça" },
+      { "type": "reducao_de_acido", "value": 5, "pre_requisito": "exige uma peça" }
+    ],
+    "armadura_pesada": [
+      { "type": "deslocamento_escavacao", "value": "metade do deslocamento normal", "pre_requisito": "exige três peças" },
+      { "type": "reducao_de_acido", "value": 10, "pre_requisito": "exige três peças" }
+    ],
+    "esoterico": [
+      { "type": "rerolar_dano_minimo", "condicao": "magia de ácido que causa dano", "descricao": "Pode rolar novamente qualquer resultado 1 nas rolagens de dano (mesmo em rodadas subsequentes).", "pre_requisito": "exige uma peça" }
+    ]
+  },
+  "livro": "ameacas_de_arton"
+}

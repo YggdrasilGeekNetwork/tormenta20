@@ -1,0 +1,56 @@
+{
+  "id": "cao_de_kally",
+  "name": "Cão de Kally",
+  "nd": 2,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "kobolds",
+  "pv": 21,
+  "pm": null,
+  "defesa": 18,
+  "salvaguardas": { "fort": 13, "ref": 7, "von": 2 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 6,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 4, "des": 2, "con": 5, "int": -3, "sab": 1, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 8, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garras",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 8, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Derrubar", "acao": "livre", "descricao": "Usa a manobra derrubar com a mordida (teste +14)." },
+    { "nome": "Sopro", "acao": "padrão", "descricao": "O cão de Kally cospe fogo em um cone de 9m. Criaturas na área sofrem 2d8+4 pontos de dano de fogo e ficam em chamas (Reflexos CD 15 reduz à metade e evita a condição). Recarga (movimento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "especial (fortão)",
+    "iniciante": "Uma vez por rodada, uma de suas rolagens de dano corpo a corpo causa +1d6 pontos de dano de fogo.",
+    "veterano": "O bônus muda para +2d6.",
+    "mestre": "Além do normal, uma vez por rodada, você pode gastar 2 PM para causar 4d6 pontos de dano de fogo em um cone de 6m."
+  },
+  "description": "Fera quadrúpede lembrando um lobo escamado com chifres de kobold, fruto da transmutação pela emanação dracônica ambiental. Frequentemente acompanha patrulhas kobolds como animal de caça e guarda, numa relação funcional mas pouco harmoniosa — quando sente fome, o cão simplesmente abocanha o kobold mais próximo.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "paquidermico",
+  "name": "Paquidérmico",
+  "type": "habilidade_de_raca",
+  "race": "ceratops",
+  "description": "Seu tamanho é Grande. Você recebe +1 na Defesa e pode usar Força como atributo-chave de Intimidação (em vez de Carisma).",
+  "effects": {
+    "size": "grande",
+    "defense_bonus": 1,
+    "skill_key_attribute_override": { "skill": "intimidacao", "attribute": "forca" }
+  },
+  "livro": "ameacas_de_arton"
+}

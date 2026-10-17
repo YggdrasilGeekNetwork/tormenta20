@@ -1,0 +1,18 @@
+{
+  "id": "yidishan",
+  "name": "Yidishan",
+  "description": "Meio-golem criado pelos darash para sobreviver à própria pestilência e prolongar sua longevidade, substituindo órgãos naturais por partes mecânicas. O resultado foi um sucesso parcial: imunes a doenças, envelhecimento, fome ou sede, mas insanos e malignos, enlouquecidos pela dor constante da transformação. Peças de metal presas à carne com grampos, cravos e arames de forma dolorosa oferecem grande força e resistência. A maior parte vaga pelo Reino das Torres em bandos, muitos a serviço do vilão Bunkman Berenwocket, criador de boa parte destes monstros.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "carisma": -2 },
+  "chosen_attribute_bonus": { "count": 3, "value": 1, "exclude": ["carisma"] },
+  "skill_bonuses": [],
+  "racial_abilities": ["hibrido_mecanico", "natureza_organica", "pecas_metalicas"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "x5",
+  "devocao": ["arsenal", "megalokk", "nimb"],
+  "livro": "ameacas_de_arton"
+}

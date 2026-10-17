@@ -1,0 +1,15 @@
+{
+  "id": "sangue_orc",
+  "name": "Sangue Orc",
+  "type": "habilidade_de_raca",
+  "race": "meio_orc",
+  "description": "Você recebe +1 em rolagens de dano com armas corpo a corpo e de arremesso e é considerado um orc para efeitos relacionados a raça.",
+  "effects": {
+    "damage_bonus": {
+      "value": 1,
+      "weapon_type": "corpo_a_corpo_e_arremesso"
+    },
+    "counts_as_race": "orc"
+  },
+  "livro": "ameacas_de_arton"
+}

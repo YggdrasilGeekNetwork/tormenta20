@@ -1,0 +1,61 @@
+{
+  "id": "senhor_do_gigante_rubro_forma_final",
+  "name": "Senhor do Gigante Rubro (Forma Final)",
+  "nd": 16,
+  "tipo": "Monstro",
+  "subtipo": "lefeu",
+  "tamanho": "grande",
+  "grupo": "culto_de_aharadak",
+  "pv": 850,
+  "pm": null,
+  "defesa": 55,
+  "salvaguardas": { "fort": 30, "ref": 26, "von": 16 },
+  "reducao_de_dano": 15,
+  "imunidades": ["acertos críticos", "cansaço", "efeitos de metabolismo", "paralisia", "veneno"],
+  "resistencias": { "magia": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 20,
+  "percepcao": 21,
+  "visao": ["não pode ser flanqueado", "percepção às cegas"],
+  "deslocamento": { "terrestre": 12, "escalada": 9 },
+  "atributos": { "for": 14, "des": 4, "con": 11, "int": -2, "sab": 2, "car": -4 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 4,
+      "bonus": 43,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 18, "tipo": "corte" },
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 0, "tipo": "matéria vermelha" }
+      ],
+      "critico": "19/x3",
+      "observacao": "causa sangramento (ver Armamento Rubro)"
+    },
+    {
+      "nome": "Tentáculo",
+      "quantidade": 2,
+      "bonus": 43,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 18, "tipo": "impacto" },
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 0, "tipo": "matéria vermelha" }
+      ],
+      "critico": "20/x2",
+      "observacao": "causa fraco/debilitado (ver Armamento Rubro)"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Tentáculo (teste +45)." },
+    { "nome": "Armamento Rubro", "descricao": "As armas do gigante rubro são mágicas e de matéria vermelha. Criaturas atingidas pelas garras ficam sangrando; criaturas atingidas pelos tentáculos ficam fracas (ou debilitadas, se já estiverem fracas)." },
+    { "nome": "Carapaça Espinhosa", "descricao": "Quando agarra uma criatura ou é agarrado, e no início de cada turno em que estiver agarrando ou agarrado, causa 14 pontos de dano de perfuração nesta criatura." },
+    { "nome": "Dilacerar", "descricao": "Para cada dois ataques de garra que acertar em uma mesma criatura no mesmo turno, causa mais 6d8+18 pontos de dano." },
+    { "nome": "Insanidade da Tormenta", "descricao": "2d12 PM (Vontade CD 42 evita)." },
+    { "nome": "Morte dos Céus", "acao": "movimento", "descricao": "Salta para um espaço desocupado em alcance médio. Se aterrissar adjacente a uma criatura, seu primeiro ataque contra ela neste turno recebe +2 no teste e +2d8 de dano." },
+    { "nome": "Teia Corrosiva", "acao": "movimento", "descricao": "Dispara muco adesivo em um alvo em alcance curto: 8d6 de dano de ácido e fica imóvel (Reflexos CD 42 reduz à metade e evita); enquanto imóvel sofre 3d6 de ácido por turno. Pode se libertar com ação padrão e Acrobacia ou Atletismo CD 42." },
+    { "nome": "Varrer", "acao": "livre", "descricao": "Uma vez por rodada, quando faz um ataque corpo a corpo e reduz os PV do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d4 sementes rubras (CD 31 para extrair).",
+  "description": "Após alguns meses de comunhão total com o simbionte, nada resta do corpo e da mente mortais que ali existiam: hospedeiro e gigante rubro se tornam um único lefeu, rivalizando em poder com os mais poderosos monstros lefeu e podendo até liderar seus próprios batalhões. Nesta forma, separar o piloto é impossível.",
+  "livro": "ameacas_de_arton"
+}

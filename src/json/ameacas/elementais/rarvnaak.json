@@ -1,0 +1,44 @@
+{
+  "id": "rarvnaak",
+  "name": "Rarvnaak",
+  "nd": 7,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "medio",
+  "grupo": "elementais",
+  "pv": 280,
+  "pm": null,
+  "defesa": 29,
+  "salvaguardas": { "fort": 12, "ref": 21, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": ["acertos críticos", "atordoado", "caído", "cansaço", "efeitos de metabolismo", "eletricidade", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": ["ácido"],
+  "iniciativa": 14,
+  "percepcao": 10,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "voo": 12 },
+  "atributos": { "for": 1, "des": 7, "con": 4, "int": 0, "sab": -1, "car": -2 },
+  "pericias": { "furtividade": 29 },
+  "ataques": [
+    {
+      "nome": "Soco pneumático",
+      "quantidade": 2,
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 16, "tipo": "impacto" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Furtivo", "descricao": "+4d6 de dano extra quando flanqueia ou surpreende o alvo." },
+    { "nome": "Caçada Implacável", "acao": "padrão", "descricao": "O rarvnaak marca um alvo conhecido (uma descrição de alguém é suficiente). Recebe +5 em testes de ataque e rolagens de dano contra ele e, enquanto ambos estiverem no mesmo Plano, sabe sua distância e direção. Só pode ter um alvo marcado por vez." },
+    { "nome": "Corpo Eólico", "descricao": "O rarvnaak pode atravessar qualquer fresta por onde o ar passaria, e só pode ser afetado por armas e efeitos mágicos." },
+    { "nome": "Invisibilidade Natural", "descricao": "O rarvnaak está sempre invisível, com camuflagem total e +10 em Furtividade (já contabilizado); criaturas que não possam percebê-lo ficam desprevenidas." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d4 doses de éter elemental (eletricidade) (CD 22 para extrair).",
+  "description": "Conhecido como 'caçador invisível' — camuflagem ainda mais poderosa que a de outros elementais do ar, impossível de enxergar por qualquer forma de visão natural. Invocado por conjuradores para missões de perseguição e assassinato; diferente de outros elementais invocados contra a vontade, sempre executa o que é ordenado, seguindo o comando até cumprir a tarefa, quase com prazer obsessivo. Fala-se de caçadores confrontados com missões difíceis demais que acabaram traindo seus mestres, distorcendo os objetivos para matar também o invocador. Não tem forma definida — Visão Mística mostra apenas o contorno de uma nuvem, Visão da Verdade um vulto humanoide fumacento — mas pode-se perceber sua presença sentindo ou ouvindo o vento que produz.",
+  "livro": "ameacas_de_arton"
+}

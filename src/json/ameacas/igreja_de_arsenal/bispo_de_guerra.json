@@ -1,0 +1,44 @@
+{
+  "id": "bispo_de_guerra",
+  "name": "Bispo de Guerra",
+  "nd": 8,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "igreja_de_arsenal",
+  "pv": 230,
+  "pm": 66,
+  "defesa": 28,
+  "salvaguardas": { "fort": 15, "ref": 8, "von": 26 },
+  "reducao_de_dano": 5,
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 14,
+  "visao": [],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 3, "des": 0, "con": 4, "int": 2, "sab": 6, "car": 1 },
+  "pericias": { "guerra": 16, "misticismo": 12, "religiao": 16 },
+  "ataques": [
+    {
+      "nome": "Martelo de guerra",
+      "quantidade": 2,
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 10, "tipo": "impacto" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ódio Puro", "descricao": "Como um purista, o bispo de guerra recebe +5 em testes de Vontade quando está seguindo ordens de um superior (qualquer purista com ND maior) e +2 em rolagens de dano contra humanoides não humanos." },
+    { "nome": "Prece de Combate", "acao": "livre", "custo_pm": 2, "descricao": "Quando lança uma magia divina com tempo de conjuração de uma ação padrão em si mesmo, o bispo pode lançá-la como uma ação de movimento." },
+    { "nome": "Símbolo Sagrado Energizado", "acao": "movimento", "custo_pm": 1, "descricao": "O bispo energiza seu símbolo sagrado. Até o fim da cena, ele emite uma luz avermelhada que ilumina como uma tocha e, enquanto estiver sendo empunhado pelo bispo, reduz o custo de magias divinas em –1 PM." },
+    { "nome": "Magias", "descricao": "Lança magias como clérigo de Arsenal de 9º nível (CD 28, limite de PM 9): Curar Ferimentos (padrão, 8 PM, criatura adjacente cura 9d8+9 PV), Dissipar Magia (padrão, 3 PM, teste de Misticismo em criatura/objeto/esfera de 3m em alcance médio), Escudo da Fé (reação, 3 PM, +3 na Defesa por 1 turno para uma criatura em alcance curto que sofra um ataque), Oração (padrão, 7 PM, sustentada, bispo e aliados em alcance curto +4 em perícia e dano, inimigos em alcance curto –4), Soco de Arsenal (padrão, 7 PM, 6d6+3 de dano de impacto em alcance médio, empurra 3m, Fortitude reduz à metade e evita o empurrão), Sopro da Salvação (padrão, 8 PM, cone de 9m cura 3d8+3 PV e remove uma condição de uma lista extensa de condições negativas)." }
+  ],
+  "equipamento": ["Armadura completa ajustada reforçada", "Escudo leve reforçado", "Martelo de guerra", "Símbolo sagrado de Arsenal", "Poção de velocidade"],
+  "tesouro": "Padrão.",
+  "description": "Clérigo guerreiro purista que acompanha tropas da Supremacia, coletores de Arsenal, Forjadores Litúrgicos e outros, lutando e provendo curas mágicas. Integrante do Templo da Pureza Divina, culto que mistura a fé em Valkaria e Arsenal com a crença supremacista de que caberia aos humanos governar Arton.",
+  "livro": "ameacas_de_arton"
+}

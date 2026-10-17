@@ -1,0 +1,50 @@
+{
+  "id": "kobold_veterano",
+  "name": "Kobold Veterano",
+  "nd": 2,
+  "tipo": "Monstro",
+  "subtipo": "kobold",
+  "tamanho": "pequeno",
+  "grupo": "kobolds",
+  "pv": 13,
+  "pm": null,
+  "defesa": 19,
+  "salvaguardas": { "fort": 7, "ref": 12, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 1,
+  "visao": ["sensibilidade a luz", "visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 2, "con": 0, "int": -1, "sab": 0, "car": -1 },
+  "pericias": { "furtividade": 9 },
+  "ataques": [
+    {
+      "nome": "Lança",
+      "quantidade": 2,
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 6, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Funda (à distância)",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 12, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Muito Já Apanhei", "descricao": "O kobold veterano ignora todo o dano do primeiro ataque que sofre em cada cena." },
+    { "nome": "Peste Oportunista", "descricao": "Os ataques do kobold causam +1d4 pontos de dano contra inimigos que já sofreram dano na rodada." }
+  ],
+  "equipamento": ["Armadura de couro", "Funda", "Lança", "Pedras x20"],
+  "tesouro": "Metade.",
+  "description": "Kobold experiente, sobrevivente de inúmeras emboscadas, mais resistente e perigoso que seus companheiros comuns.",
+  "livro": "ameacas_de_arton"
+}

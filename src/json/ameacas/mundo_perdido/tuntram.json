@@ -1,0 +1,48 @@
+{
+  "id": "tuntram",
+  "name": "Tuntram",
+  "nd": 10,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "mundo_perdido",
+  "pv": 450,
+  "pm": null,
+  "defesa": 36,
+  "salvaguardas": { "fort": 24, "ref": 9, "von": 15 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 12,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 9, "des": 0, "con": 8, "int": -4, "sab": 2, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Chifres",
+      "bonus": 30,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 12 }], "bonus": 33, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Amontoar", "acao": "completa", "descricao": "O tuntram se move em linha reta até o dobro do seu deslocamento, passando por qualquer criatura Grande ou menor. Criaturas em seu caminho sofrem 9d6+12 pontos de dano de perfuração, são empurradas até o fim do deslocamento do tuntram e ficam caídas na frente dele (Reflexos CD 30 reduz à metade e evita o empurrão, mas não a condição caído). Recarga (movimento)." },
+    { "nome": "Investida Pesada", "descricao": "Quando faz uma investida, o tuntram recebe +4 no teste de ataque (para um total de +6) e causa +6d6 pontos de dano." }
+  ],
+  "equipamento": [],
+  "tesouro": "Folho de tuntram (CD 25 para extrair, vale T$ 1.000 para fabricar armaduras e escudos superiores).",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "montaria (Enorme)",
+    "iniciante": "Seu deslocamento muda para 9m e você recebe +2 em testes de ataque para derrubar e empurrar.",
+    "veterano": "Você recebe cobertura leve contra ataques à distância e uma ação de movimento extra (apenas para se deslocar).",
+    "mestre": "Você recebe +2 em testes de ataque para atropelar e, quando faz essa manobra, seu oponente não tem a opção de sair do caminho (mas ainda pode resistir com um teste oposto). Quando atropela uma criatura com essa manobra, você pode gastar 1 PM para fazer um ataque extra contra ela."
+  },
+  "description": "Grande e pesado como um elefante, com a cabeça guarnecida por um escudo de osso colorido e chifres longos como lanças de justa. Entre os lagartos-trovão de chifres mais irritadiços e violentos, entregando-se a duelos de cabeçadas entre membros do próprio bando quando não há inimigos. Montaria muito cobiçada por cavaleiros devido à proteção de seu escudo ósseo.",
+  "livro": "ameacas_de_arton"
+}

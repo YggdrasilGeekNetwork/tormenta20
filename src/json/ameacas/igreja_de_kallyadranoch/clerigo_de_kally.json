@@ -1,0 +1,52 @@
+{
+  "id": "clerigo_de_kally",
+  "name": "Clérigo de Kally",
+  "nd": 8,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "igreja_de_kallyadranoch",
+  "pv": 224,
+  "pm": 51,
+  "defesa": 29,
+  "salvaguardas": { "fort": 15, "ref": 8, "von": 21 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 14,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 1, "con": 3, "int": 1, "sab": 6, "car": 4 },
+  "pericias": { "intimidacao": 12, "misticismo": 9, "religiao": 16 },
+  "ataques": [
+    {
+      "nome": "Maça",
+      "quantidade": 2,
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 17, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Azagaia (à distância)",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 17, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura de Medo", "acao": "livre", "custo_pm": 2, "descricao": "O clérigo de Kally gera uma aura de medo de 9m de raio que dura até o fim da cena. Todos os inimigos que entrem na aura ficam abalados até o fim da cena (Vontade CD 28 evita e a criatura fica imune a esta habilidade por um dia)." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o clérigo muda a execução dela para livre." },
+    { "nome": "Servos do Dragão", "acao": "completa", "custo_pm": 2, "descricao": "O clérigo invoca 2d4+1 kobolds, veja Acólito de Kally." },
+    { "nome": "Magias", "descricao": "Lança magias como clérigo de Kallyadranoch de 9º nível (CD 28, limite de PM 9): Coluna de Chamas (padrão, 9 PM, cilindro de fogo sagrado 3m de raio e 30m de altura em alcance longo, 9d6 fogo + 6d6 luz), Comando (padrão, 4 PM, duas criaturas), Controlar Fogo (padrão, 3 PM), Escudo da Fé (reação, 1 PM), Oração (padrão, 7 PM, sustentada), Proteção Divina (reação, 3 PM)." }
+  ],
+  "equipamento": ["Azagaia x2", "Couraça", "Maça", "Símbolo sagrado de Kallyadranoch"],
+  "tesouro": "Padrão.",
+  "description": "Agente entre os povos humanoides e os dragões, imitando os próprios dragões em orgulho, competitividade e territorialidade. Em regiões onde existe um dragão, estabelece-se como seu representante, dominando o lugar através de intimidação ou força, celebrando cerimônias em homenagem a Kally que podem atrair o dragão local para coletar riquezas ou sacrifícios.",
+  "livro": "ameacas_de_arton"
+}

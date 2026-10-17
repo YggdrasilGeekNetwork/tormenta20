@@ -1,0 +1,83 @@
+{
+  "id": "golens_despertos",
+  "name": "Golens Despertos",
+  "description": "Expansão das regras de criação de personagens golem (Tormenta20, raça Golem) apresentando outros tipos de chassi e fontes de energia, além do combo padrão (chassi de Ferro + fonte Elemental + tamanho Médio) já representado pela raça `golem` do core. Esta regra documenta as opções adicionais para referência; aplicá-las mecanicamente substitui as habilidades de raça `chassi` e `fonte_elemental` do personagem pelas opções escolhidas abaixo.",
+  "modificador_base": "Força +1, Carisma –1 (cumulativo com Chassi e Tamanho).",
+  "chassis": [
+    {
+      "nome": "Barro",
+      "efeito": "Constituição +2. Seu deslocamento não é afetado por terreno difícil e você passa automaticamente em testes de Acrobacia para passar por espaços apertados. Se permanecer mais de um dia sem contato com água, você não recupera PM com descanso até voltar para a água."
+    },
+    {
+      "nome": "Bronze",
+      "efeito": "+1 em dois atributos. Seu deslocamento não é reduzido por armaduras pesadas ou excesso de carga. Sua armadura não é acoplada ao seu corpo; você pode removê-la e colocá-la no tempo normal, mas ela conta em seu limite de itens vestidos."
+    },
+    {
+      "nome": "Carne",
+      "efeito": "Constituição +2, Força +1, Carisma –1. Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe imunidade a metamorfose e trevas, mas não pode escolher elemental (água ou fogo) ou vapor como sua fonte de energia, e dano mágico de fogo e frio o deixa lento por 1d4 rodadas."
+    },
+    {
+      "nome": "Espelhos",
+      "efeito": "Carisma +2, Sabedoria +1, Constituição –1. Quando uma criatura em alcance curto usa uma habilidade de classe que você possa ver, você pode gastar 1 PM para copiar essa habilidade. Até o fim do seu próximo turno, você pode usá-la como uma habilidade de raça (se ela usar um atributo para algo, use seu Carisma). Se copiar outra habilidade, perde a anterior. Também é possível copiar habilidades de ameaças: qualquer magia fornecida pela habilidade Magias, bem como qualquer habilidade com o mesmo nome de uma habilidade de classe, é considerada uma habilidade de classe para este fim."
+    },
+    {
+      "nome": "Ferro",
+      "efeito": "Força +1 e Constituição +1. Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe +2 na Defesa, mas possui penalidade de armadura –2.",
+      "nota": "Combo padrão já representado pela raça `golem` do core (com fonte Elemental e tamanho Médio)."
+    },
+    {
+      "nome": "Gelo Eterno",
+      "efeito": "Constituição +2. Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe imunidade a frio e redução de fogo 10, mas não pode escolher elemental (fogo) ou vapor como sua fonte de energia (veja Golem de Nor, Ameaças de Arton p.349)."
+    },
+    {
+      "nome": "Pedra",
+      "efeito": "Constituição +2. Você não pode correr e seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Você recebe redução de corte, fogo e perfuração 5."
+    },
+    {
+      "nome": "Sucata",
+      "efeito": "Força +1 e Constituição +1. Seu deslocamento é 6m, mas não é reduzido por uso de armadura ou excesso de carga. Quando recebe cuidados prolongados com a perícia Ofício (artesão), sua recuperação de PV aumenta em +2 por nível nesse dia (em vez de +1)."
+    },
+    {
+      "nome": "Mashin",
+      "efeito": "+1 em dois atributos a sua escolha. Você se torna treinado em duas perícias a sua escolha e pode substituir uma dessas perícias por uma maravilha mecânica. Entretanto, você é sempre Médio.",
+      "nota": "Golem de origem tamuraniana (Ameaças de Arton, capítulo Império de Jade). Se escolher uma maravilha mecânica, recebe um dos poderes a seguir; uma vez por patamar, pode escolher uma maravilha mecânica no lugar de um poder de classe.",
+      "maravilhas_mecanicas": [
+        { "nome": "Adaptação Elemental", "efeito": "Quando sofre dano de ácido, eletricidade, fogo, frio, luz ou trevas, pode gastar 2 PM para receber redução 10 contra esse tipo de dano até o fim da cena." },
+        { "nome": "Arma Acoplada", "efeito": "Possui uma arma acoplada ao corpo, recolhida em um compartimento; não pode ser desarmada e conta como se tivesse Saque Rápido para usá-la. Um personagem treinado em Ofício (artesão) pode substituir essa arma com uma hora de trabalho e o gasto de T$ 100." },
+        { "nome": "Arma Elemental", "efeito": "Pode gastar uma ação de movimento e 2 PM para fazer uma arma que esteja empunhando causar +1d6 pontos de dano do tipo de sua fonte elemental até o fim da cena. Pré-requisito: fonte de energia Elemental." },
+        { "nome": "Auxílio de Mira", "efeito": "Quando faz um ataque à distância, pode pagar 1 PM para aumentar em +2 a margem de ameaça desse ataque." },
+        { "nome": "Caminho da Perfeição", "efeito": "Escolha uma de suas perícias treinadas; recebe +2 nessa perícia." },
+        { "nome": "Canalizar Reparos", "efeito": "Como uma ação completa, pode gastar pontos de mana para recuperar pontos de vida, à taxa de 5 PV por PM." },
+        { "nome": "Canhão Energético", "efeito": "Se sua arma acoplada for uma arma de fogo, pode gastar uma ação de movimento e 1 PM para energizá-la; até o fim da cena, o próximo ataque com ela causa +1 dado de dano do mesmo tipo. Múltiplos usos são cumulativos (limitado pela Constituição). Pré-requisito: Arma Acoplada." },
+        { "nome": "Dínamo de Mana", "efeito": "Escolha uma de suas habilidades com um custo em PM. Pode gastar uma ação de movimento para canalizar seu mana; até o fim do turno, o custo do próximo uso da habilidade escolhida é reduzido em –1 PM. Um personagem treinado em Ofício (artesão) pode substituir essa habilidade com uma hora de trabalho e o gasto de T$ 100." },
+        { "nome": "Pernas Aprimoradas", "efeito": "Pode gastar 2 PM para receber +6m em seu deslocamento e +5 em Atletismo até o fim da cena." },
+        { "nome": "Reservatório Alquímico", "efeito": "Possui um reservatório no corpo que pode armazenar até duas doses de preparados alquímicos." }
+      ]
+    }
+  ],
+  "fontes_de_energia": [
+    {
+      "nome": "Alquímica",
+      "efeito": "Uma mistura alquímica gera a energia necessária à sua vida. Você pode gastar uma ação padrão para ingerir um item alquímico qualquer; se fizer isso, recupera 1 PM."
+    },
+    {
+      "nome": "Elemental",
+      "efeito": "Você possui um espírito elemental preso em seu corpo. Escolha entre água (frio), ar (eletricidade), fogo (fogo) e terra (ácido). Você é imune a dano desse tipo. Se fosse sofrer dano mágico deste tipo, em vez disso cura PV em quantidade igual à metade do dano.",
+      "nota": "Combo padrão já representado pela habilidade de raça `fonte_elemental` do core."
+    },
+    {
+      "nome": "Sagrada",
+      "efeito": "Você foi animado por um texto ou símbolo sagrado depositado em seu corpo. Você pode lançar uma magia divina de 1º círculo a sua escolha (atributo-chave Sabedoria). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Alguém treinado em Religião pode trocar essa magia com um ritual que demora um dia e exige o gasto de um pergaminho mágico com outra magia de 1º círculo."
+    },
+    {
+      "nome": "Vapor",
+      "efeito": "Seu corpo é movido por vapor e engrenagens. Você é imune a dano de fogo; se fosse sofrer dano desse tipo, em vez disso seu deslocamento aumenta em 4,5m por 1 rodada. Entretanto, dano de frio deixa-o lento por 1 rodada. Você pode gastar uma ação padrão e PM para soprar um jato de vapor escaldante em um cone de 4,5m. Criaturas na área sofrem 1d6 pontos de dano de fogo por PM gasto e ficam em chamas (Reflexos CD Constituição reduz à metade e evita a condição)."
+    }
+  ],
+  "tamanho": [
+    { "nome": "Pequeno", "efeito": "Destreza +1." },
+    { "nome": "Médio", "efeito": "Sem ajustes." },
+    { "nome": "Grande", "efeito": "Destreza –1." }
+  ],
+  "livro": "ameacas_de_arton"
+}

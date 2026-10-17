@@ -1,0 +1,17 @@
+{
+  "id": "elfo_do_mar",
+  "name": "Elfo-do-Mar",
+  "description": "Ser que lembra um elfo terrestre, embora mais baixo e corpulento, de ombros largos, com pele lustrosa perolada azul-acinzentada, grandes orelhas com raios como barbatanas de peixe, cabelo branco e olhos azuis amendoados. Em contraste com sereias e tritões, mais inclinados à conjuração de magias, elfos-do-mar são bárbaros orgulhosos e perigosos. A maioria é pacífica, cuidando da própria vida em comunidades submarinas, mas os membros mais rebeldes e malignos se tornam saqueadores que atacam embarcações e comunidades costeiras para roubar objetos de metal.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "penumbra",
+  "vision_range": null,
+  "attribute_bonuses": { "destreza": 2, "constituicao": 1, "inteligencia": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["arsenal_do_oceano", "cria_das_aguas", "dependencia_de_agua"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "x2",
+  "devocao": ["allihanna", "arsenal", "hyninn", "megalokk", "oceano"],
+  "livro": "ameacas_de_arton"
+}

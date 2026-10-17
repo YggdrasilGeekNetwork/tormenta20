@@ -1,0 +1,52 @@
+{
+  "id": "dragao_adulto_da_tirania",
+  "name": "Dragão Adulto da Tirania",
+  "nd": 11,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "enorme",
+  "grupo": "dragoes",
+  "pv": 614,
+  "pm": 77,
+  "defesa": 42,
+  "salvaguardas": { "fort": 24, "ref": 11, "von": 20 },
+  "reducao_de_dano": 10,
+  "imunidades": ["luz"],
+  "resistencias": { "magia": 3 },
+  "vulnerabilidades": ["trevas"],
+  "iniciativa": 12,
+  "percepcao": 15,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 24 },
+  "atributos": { "for": 11, "des": 1, "con": 8, "int": 4, "sab": 4, "car": 4 },
+  "pericias": { "atletismo": 32, "intimidacao": 15, "misticismo": 15 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 34,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 25, "tipo": "perfuração" }
+      ],
+      "critico": "18/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 34,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 10 }], "bonus": 25, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura Aterradora", "descricao": "Vontade CD 32 evita.", "tag": "Medo" },
+    { "nome": "Imposição Avassaladora", "acao": "livre", "descricao": "Uma vez por rodada, quando o dragão reduz os PV de um inimigo para 0 ou menos, outros inimigos em alcance médio sofrem 4d12 pontos de dano psíquico (Vontade CD 32 reduz à metade).", "tag": "Medo" },
+    { "nome": "Sopro", "acao": "padrão", "descricao": "Criaturas em uma linha de 18m sofrem 12d12 pontos de dano de luz e ficam cegas por 1d4 rodadas (Reflexos CD 32 reduz à metade e evita a condição; só uma vez por cena por criatura). Recarga (ação de movimento)." },
+    { "nome": "Magias (conjurador arcano, 11º nível, CD 32)", "descricao": "Campo de Força (4 PM, reação; RD 30 contra o dano sofrido), Desespero Esmagador (11 PM; cone de 6m, debilitado/esmorecido até o fim da cena, pasmo 1 rodada), Dissipar Magia (3 PM), Enfeitiçar (1 PM), Luz (1 PM), Tempestade Divina (9 PM, completa, sustentada; vendaval com chuva em cilindro de 90m, revela invisíveis, torna lentos Médios ou menores, força teste de Atletismo para voadores não caírem)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Dobro e 4 peças de couro de dragão (CD 26 para extrair).",
+  "description": "Dragão adulto de energia dracônica de luz, já desperto para sua aura aterradora e capacidade de conjurar magias inerentes — moderadas, equivalentes a um conjurador humano veterano. Como todo adulto, adquiriu a capacidade de metamorfose (mudando para formas humanoides ou de tamanho menor) e abandonou seus semelhantes para estabelecer um território próprio, declarando domínio sobre tudo e todos que ali estejam.",
+  "livro": "ameacas_de_arton"
+}

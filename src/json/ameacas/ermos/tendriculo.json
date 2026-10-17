@@ -1,0 +1,53 @@
+{
+  "id": "tendriculo",
+  "name": "Tendrículo",
+  "nd": 6,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "ermos",
+  "pv": 210,
+  "pm": null,
+  "defesa": 25,
+  "salvaguardas": { "fort": 16, "ref": 8, "von": 12 },
+  "reducao_de_dano": null,
+  "imunidades": ["sangramento", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 6,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 3, "des": 2, "con": 2, "int": -2, "sab": 3, "car": -4 },
+  "pericias": { "furtividade": "+10 (+12 em florestas)" },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 10, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2",
+      "observacao": "mais veneno"
+    },
+    {
+      "nome": "Tentáculo",
+      "quantidade": 2,
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 4 }], "bonus": 5, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Natureza Vegetal", "descricao": "O tendrículo é uma criatura de natureza vegetal." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Tentáculo (teste +24)." },
+    { "nome": "Engolir", "acao": "padrão", "descricao": "No início de cada um dos turnos do tendrículo, a criatura engolida sofre 2d10+5 pontos de dano de impacto mais 2d10+5 pontos de dano de ácido. Pode escapar causando um total de 20 pontos de dano a ele (Defesa 10). Enquanto tiver uma criatura engolida, o tendrículo ganha cura acelerada 20." },
+    { "nome": "Veneno", "descricao": "Essência de sombra: debilitado (Fortitude CD 22 reduz para fraco)." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d4 doses de essência de sombra (CD 21 para extrair).",
+  "description": "Imensa criatura vegetal, uma planta ambulante carnívora e sempre faminta, grande como uma cabana, feita de vegetação úmida emaranhada com vinhas e cipós, com dois longos tentáculos de galhos e uma abertura cavernosa no centro do corpo com 'dentes' de espinhos. Não se sabe se foram criados por magia ou vieram de algum reino divino, mas atualmente infestam as profundezas das grandes florestas de Arton, por vezes aparecendo em pequenos bosques próximos de áreas povoadas. Assim como os trolls, têm grande capacidade de regeneração, fechando feridas e restaurando partes cortadas rapidamente — mas isso exige o consumo de muita carne.",
+  "livro": "ameacas_de_arton"
+}

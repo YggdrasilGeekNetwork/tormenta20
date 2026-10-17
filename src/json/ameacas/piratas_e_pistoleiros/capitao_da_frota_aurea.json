@@ -1,0 +1,53 @@
+{
+  "id": "capitao_da_frota_aurea",
+  "name": "Capitão da Frota Áurea",
+  "nd": 10,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 360,
+  "pm": null,
+  "defesa": 36,
+  "salvaguardas": { "fort": 12, "ref": 20, "von": 16 },
+  "reducao_de_dano": 5,
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 18,
+  "percepcao": 10,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 2, "des": 7, "con": 2, "int": 1, "sab": 1, "car": 4 },
+  "pericias": { "acrobacia": 18, "atletismo": 13, "diplomacia": 13, "pilotagem": 18 },
+  "ataques": [
+    {
+      "nome": "Florete",
+      "quantidade": 2,
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 22, "tipo": "perfuração" }
+      ],
+      "critico": "14/x3"
+    },
+    {
+      "nome": "Pistola (à distância)",
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "18/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão Aprimorada", "descricao": "Mesmo em um teste de Reflexos falho, o capitão sofre apenas metade do dano, e nenhum dano se passar no teste." },
+    { "nome": "Bloqueio Resistente", "acao": "reacao", "descricao": "Uma vez por rodada, quando é atingido por um ataque, o capitão da Frota Áurea pode fazer um teste de ataque com seu florete. O dano desse ataque é reduzido em um valor igual ao resultado do teste de ataque do capitão." },
+    { "nome": "Nadador Blindado", "descricao": "O capitão não sofre penalidade por armadura em testes de Atletismo para nadar." },
+    { "nome": "Saque Rápido", "descricao": "O capitão pode sacar ou guardar itens como uma ação livre e recarregar sua pistola como uma ação de movimento." },
+    { "nome": "Vendaval do Mar", "acao": "movimento", "descricao": "Quando se move 6m ou mais, o capitão recebe +5 nas rolagens de dano e na margem de ameaça com seu florete até o início de seu próximo turno." }
+  ],
+  "equipamento": ["Balas x20", "Couraça reforçada", "Florete maciço", "Pistola"],
+  "tesouro": "Dobro.",
+  "description": "Líder da Frota Áurea que navega o Mar do Dragão-Rei, duelista habilidoso e nadador incansável que usa a mobilidade a seu favor em combate.",
+  "livro": "ameacas_de_arton"
+}

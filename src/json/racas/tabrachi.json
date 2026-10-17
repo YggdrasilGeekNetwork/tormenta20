@@ -1,0 +1,16 @@
+{
+  "id": "tabrachi",
+  "name": "Tabrachi",
+  "description": "Humanoide com aspecto de um grande sapo, mais conhecido como 'homem-sapo'. Encontrados em pequenos bandos, sempre à procura de vítimas para roubar seus pertences e oferecê-las como sacrifício a Inghlblhphollstgt, o Grande Deus Sapo. Mais numerosos no infame Pântano dos Juncos, entre Deheon e Wynlla, mas encontrados por todo o Reinado. Sua tática favorita é manter-se à espreita sob as águas do pântano ou nas copas das árvores, usando furtividade para atacar transeuntes de surpresa.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "baixa_luminosidade",
+  "vision_range": null,
+  "attribute_bonuses": { "constituicao": 2, "forca": 1, "carisma": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["batraquio", "linguarudo", "saltador"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "devocao": ["allihanna", "megalokk", "nimb", "sszzaas", "tenebra"],
+  "livro": "ameacas_de_arton"
+}

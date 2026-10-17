@@ -1,0 +1,43 @@
+{
+  "id": "arqueiro_escravo",
+  "name": "Arqueiro Escravo",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "elfo",
+  "tamanho": "medio",
+  "grupo": "imperio_de_tauron",
+  "pv": 36,
+  "pm": null,
+  "defesa": 24,
+  "salvaguardas": { "fort": 6, "ref": 16, "von": 11 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 7,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": -1, "des": 5, "con": 1, "int": 2, "sab": 0, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Arco longo (à distância)",
+      "quantidade": 2,
+      "bonus": 21,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 15, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Disparo Preciso", "descricao": "O arqueiro escravo faz ataques à distância contra oponentes envolvidos em combate corpo a corpo sem sofrer a penalidade de –5 no teste de ataque." },
+    { "nome": "Flecha Amiga", "acao": "reacao", "descricao": "Uma vez por rodada, quando um aliado em alcance médio ataca um inimigo, o arqueiro escravo faz um ataque de arco longo contra esse mesmo inimigo." },
+    { "nome": "Minha Vida Pela Legião", "acao": "reacao", "descricao": "Uma vez por rodada, quando um aliado adjacente ao arqueiro escravo é atingido por um efeito que causa dano, o arqueiro sofre esse dano no lugar do aliado." }
+  ],
+  "equipamento": ["Arco longo", "Couraça", "Flechas x20"],
+  "tesouro": "Nenhum.",
+  "description": "Elfa ou elfo escravizado que serve às legiões de Tapista com fanatismo, assumindo o fardo \"indigno\" das armas de ataque à distância que os minotauros se negam a usar. Descendente dos elfos que se entregaram à escravidão de Tauron quando Glórienn, a Deusa dos Elfos, o fez como oferenda. Considerados traidores pelos demais elfos.",
+  "livro": "ameacas_de_arton"
+}

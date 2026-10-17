@@ -1,0 +1,24 @@
+{
+  "id": "lanca_de_fogo",
+  "name": "Lança de Fogo",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 1000,
+  "dano": "1d10",
+  "critico": "x3",
+  "alcance": null,
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "habilidades": ["alongada", "hibrida"],
+  "especial": {
+    "modo_corpo_a_corpo": { "dano": "1d10", "critico": "x3", "tipo_dano": "perfuracao" },
+    "modo_distancia": { "dano": "2d8", "critico": "19/x3", "alcance": "medio", "tipo_dano": "perfuracao", "municao": "balas", "recarregar": "acao_padrao" },
+    "disparo_em_modo_corpo_a_corpo": "Quando faz um ataque com a lança de fogo em modo corpo a corpo, você pode acionar seu mecanismo para disparar a bala; se acertar, causa +2d8 pontos de dano.",
+    "disparo_em_modo_distancia_contra_adjacente": "Quando faz um ataque com ela em modo arma de fogo contra um oponente adjacente, você causa +1d8 pontos de dano.",
+    "requer_proficiencia_fogo_para_modo_distancia": true
+  },
+  "description": "Esta arma é formada por um longo cano com uma coronha de madeira e uma lâmina pontiaguda em sua extremidade. A lança de fogo é uma arma híbrida que pode ser usada em dois modos: como uma arma corpo a corpo alongada (dano 1d10, crítico x3) ou como uma arma de fogo (dano 2d8, crítico 19/x3, alcance médio). Para atacar com ela em modo arma de fogo, você deve também ter proficiência em armas de fogo, ou é considerado não proficiente na arma. Recarregar a lança de fogo é uma ação padrão.",
+  "livro": "ameacas_de_arton"
+}

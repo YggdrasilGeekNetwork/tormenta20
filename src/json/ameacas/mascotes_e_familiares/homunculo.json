@@ -1,0 +1,59 @@
+{
+  "id": "homunculo",
+  "name": "Homúnculo",
+  "nd": 1,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "minusculo",
+  "grupo": "mascotes_e_familiares",
+  "pv": 11,
+  "pm": null,
+  "defesa": 14,
+  "salvaguardas": { "fort": 8, "ref": 5, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 4,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 9 },
+  "atributos": { "for": -1, "des": 2, "con": 2, "int": null, "sab": 0, "car": -1 },
+  "pericias": { "furtividade": 9, "ladinagem": 6 },
+  "ataques": [
+    {
+      "nome": "Ferrão venenoso",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 6, "tipo": "corte" }
+      ],
+      "critico": "20/x2",
+      "observacao": "mais veneno"
+    },
+    {
+      "nome": "Dardo venenoso (à distância)",
+      "bonus": 11,
+      "alcance": "curto",
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 3 }], "bonus": 4, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2",
+      "observacao": "mais veneno"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Veneno", "descricao": "Peçonha comum: perde 1d12 pontos de vida (Fortitude CD 16 evita)." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d4 doses de peçonha comum (CD 16 para extrair).",
+  "familiar": "O homúnculo fornece +1 PM para gastar em aprimoramentos sempre que o conjurador lança uma magia de transmutação ou veneno.",
+  "parceiro": {
+    "tipo": "especial (ajudante)",
+    "restricao": null,
+    "iniciante": "Seus venenos causam a perda de +1 PV por dado.",
+    "veterano": "Uma vez por rodada, quando faz um ataque, você pode gastar 1 PM. Se acertar o ataque, causa a perda de 1d12 PV por veneno.",
+    "mestre": "A perda de PV aumenta para +2 por dado."
+  },
+  "description": "Pequeno golem de natureza abissal, utilizado por conjuradores como espião, mensageiro ou mesmo assassino — possui um ferrão venenoso, tipicamente usado em vítimas adormecidas. Embora o aspecto de gárgula ou demônio seja mais comum, pode ter qualquer aparência (humanos, anões, hynne, fadas, animais, monstros ou até objetos comuns como taças, candelabros ou caixinhas, com braços e pernas que se manifestam apenas quando utilizados); qualquer que seja a forma, todos podem voar. Não sabe falar nem pensar, seguindo apenas ordens de seu controlador; os materiais para construí-lo são ainda mais raros que os de um golem normal, incluindo alguns existentes apenas nos reinos dos deuses. Um inventor com o poder Homúnculo pode, a critério do mestre, usar a habilidade de parceiro iniciante descrita aqui em vez do tipo ajudante padrão do poder.",
+  "livro": "ameacas_de_arton"
+}

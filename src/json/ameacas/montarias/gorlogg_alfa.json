@@ -1,0 +1,46 @@
+{
+  "id": "gorlogg_alfa",
+  "name": "Gorlogg Alfa",
+  "nd": 5,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 206,
+  "pm": null,
+  "defesa": 24,
+  "salvaguardas": { "fort": 13, "ref": 9, "von": 6 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 4,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 6, "des": 5, "con": 6, "int": -4, "sab": 1, "car": -2 },
+  "pericias": { "atletismo": 12 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 18,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 16, "tipo": "perfuração" }
+      ],
+      "critico": "20/x4"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Mordida (teste +22)." },
+    { "nome": "Mordida Dilaceradora", "descricao": "Se um ataque do gorlogg alfa exceder a Defesa do inimigo por 5 ou mais, a vítima fica sangrando." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "restricao": null,
+    "observacao": "O gorlogg alfa é um parceiro montaria com as mesmas estatísticas de um gorlogg comum (veja `gorlogg`)."
+  },
+  "description": "Líder de uma alcateia de gorloggs — maior, mais forte e mais perigoso que os demais membros do bando, capaz de dilacerar presas com uma única mordida devastadora.",
+  "livro": "ameacas_de_arton"
+}

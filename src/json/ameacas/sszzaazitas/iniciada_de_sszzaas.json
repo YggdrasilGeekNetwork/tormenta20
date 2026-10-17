@@ -1,0 +1,45 @@
+{
+  "id": "iniciada_de_sszzaas",
+  "name": "Iniciada de Sszzaas",
+  "nd": 3,
+  "tipo": "Monstro",
+  "subtipo": "medusa",
+  "tamanho": "medio",
+  "grupo": "sszzaazitas",
+  "pv": 69,
+  "pm": 19,
+  "defesa": 19,
+  "salvaguardas": { "fort": 3, "ref": 9, "von": 15 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "veneno": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 7,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 0, "des": 2, "con": 0, "int": 4, "sab": 3, "car": 4 },
+  "pericias": { "enganacao": 20, "intuicao": 20, "religiao": 17 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 3, "tipo": "corte" }
+      ],
+      "critico": "19/x2",
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Furtivo", "descricao": "Uma vez por rodada, causa +2d6 em ataques contra alvos desprevenidos ou flanqueados." },
+    { "nome": "Falso Amigo", "descricao": "Médico iniciante." },
+    { "nome": "Magias", "descricao": "Lança magias como uma clériga de Sszzaas de 3º nível (CD 19): Arma Mágica (padrão, 3 PM; até o fim da cena, uma arma adjacente se torna mágica, fornecendo +1 nos testes de ataque e rolagens de dano e +1d6 pontos de dano de fogo; a iniciada usa Sabedoria em vez de Força nos testes de ataque com ela, ataque total +16); Comando (padrão, 2 PM; no início do seu próximo turno, uma criatura em alcance curto fica pasma por 1 rodada, Von evita; uma vez por cena contra a mesma criatura); Curar Ferimentos (padrão, 3 PM; uma criatura adjacente cura 4d8+4 PV); Escuridão (padrão, 3 PM; até o fim da cena, um objeto em alcance curto emana escuridão total em um raio de 6m, bloqueando a visão na área e através dela)." },
+    { "nome": "Olhar Atordoante", "acao": "movimento", "salvaguarda": "Fortitude", "cd": 19, "efeito_sucesso": "evita", "descricao": "Uma criatura em alcance curto fica atordoada por 1 rodada (apenas uma vez por cena; Fort CD 19 evita)." },
+    { "nome": "Veneno", "descricao": "Perde 1d12 pontos de vida." }
+  ],
+  "equipamento": ["Adaga", "Couro batido", "Símbolo sagrado de Sszzaas"],
+  "tesouro": "Padrão.",
+  "description": "Medusa devota de Sszzaas em início de carreira na seita, acompanhando cultistas fanáticos em combate e usando disfarce de confiança para traí-los no momento oportuno.",
+  "livro": "ameacas_de_arton"
+}

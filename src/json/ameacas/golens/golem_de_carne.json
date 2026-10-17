@@ -1,0 +1,42 @@
+{
+  "id": "golem_de_carne",
+  "name": "Golem de Carne",
+  "nd": 7,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "golens",
+  "pv": 300,
+  "pm": null,
+  "defesa": 31,
+  "salvaguardas": { "fort": 18, "ref": 6, "von": 14 },
+  "reducao_de_dano": 5,
+  "imunidades": ["metamorfose", "trevas", "magia (com exceções)"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 7,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": -1, "con": 4, "int": null, "sab": 0, "car": -5 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 25,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 18, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Fúria Homicida", "descricao": "Se estiver com metade de seus PV ou menos, o golem de carne entra em fúria homicida: recebe +4 em testes de ataque e rolagens de dano e, quando causa dano, deixa a vítima sangrando. Entretanto, sempre deve atacar a criatura mais próxima." },
+    { "nome": "Imunidade a Magia", "descricao": "O golem é imune a efeitos mágicos, com as seguintes exceções: magias de fogo e frio o deixam lento por 1d6 rodadas; efeitos mágicos de eletricidade removem a condição lento e curam PV em quantidade igual à metade do dano que causariam." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Produto da obsessão de algum arcanista, clérigo ou inventor louco em busca da forma de vida perfeita — ou de ressuscitar um ente querido. Costuma matar seu criador assim que desperta, vagando a passos trôpegos em busca da próxima vítima.",
+  "livro": "ameacas_de_arton"
+}

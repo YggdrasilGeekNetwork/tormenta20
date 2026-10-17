@@ -1,0 +1,42 @@
+{
+  "id": "nereida",
+  "name": "Nereida",
+  "nd": 12,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "sob_as_ondas",
+  "pv": 412,
+  "defesa": 41,
+  "salvaguardas": { "fort": 20, "ref": 12, "von": 26 },
+  "reducao_de_dano": null,
+  "imunidades": ["frio"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 13,
+  "percepcao": 9,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "natacao": 18 },
+  "atributos": { "for": 4, "des": 3, "con": 2, "int": 1, "sab": -1, "car": 7 },
+  "pericias": { "atuacao": 19, "diplomacia": 19, "intimidacao": 19 },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 32,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 12, "tipo": "corte" },
+        { "dados": [{ "quantidade": 4, "faces": 6 }], "tipo": "frio" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Convocação Marinha", "acao": "movimento", "descricao": "A nereida convoca 2d6 redemoinhos em alcance curto. Os redemoinhos agem a partir da próxima rodada dela. Eles têm deslocamento 9m (normal e de natação) e podem gastar uma ação padrão para causar 2d6 pontos de dano de frio em uma criatura adjacente. Os redemoinhos têm For -1, Des 2, Defesa 26, 1 PV e falham automaticamente em qualquer teste de resistência ou oposto. Eles desaparecem quando morrem ou no fim da cena. Recarga (movimento)." },
+    { "nome": "Elencar", "acao": "movimento", "salvaguarda": "Vontade", "cd": 35, "efeito_sucesso": "reduz para 1 rodada", "descricao": "Uma criatura em alcance curto \"recebe um papel\" entre os listados abaixo. A nereida só pode conceder um papel por criatura e seus efeitos duram 1d4+1 rodadas (Von CD 35 reduz para 1 rodada): Coadjuvante (todo dano causado pela criatura é reduzido à metade); Par Romântico (a criatura fica enfeitiçada e, sempre que estiver adjacente à nereida, a nereida recebe +5 em testes de perícia e rolagens de dano contra outras criaturas); Vilão (a criatura sofre +2d6 pontos de dano de frio dos ataques da nereida)." },
+    { "nome": "Presença Majestosa", "salvaguarda": "Vontade", "cd": 35, "descricao": "Qualquer criatura que tente atacar a nereida deve fazer um teste de Vontade (CD 35). Se falhar, não consegue atacá-la e perde a ação. Uma criatura que passe no teste de Vontade não é mais afetada por esta habilidade até o fim da cena." },
+    { "nome": "Terror Blindado", "acao": "completa", "descricao": "A nereida assume sua forma guerreira até o fim da cena. Ela recebe imunidade a acertos críticos e às condições atordoado, cego, debilitado, enjoado, envenenado, exausto, fatigado, fraco, lento, ofuscado e paralisado. Além disso, no início de cada um de seus turnos, ela causa 4d8 pontos de dano de frio em todas as criaturas adjacentes e cura uma quantidade de PV igual à metade de todo esse dano." }
+  ],
+  "tesouro": "2d6 doses de éter elemental (frio) (CD 27 para extrair).",
+  "description": "Criatura de natureza controversa — algumas dizem serem fadas das águas, outras espíritos elementais, outras ainda criaturas sagradas do Grande Oceano. Costumam encenar romances e combates épicos em que se apresentam como heroínas ou vilãs, tratando outros seres como coadjuvantes descartáveis em suas tramas, para então revelar sua forma guerreira blindada e se voltar contra seus \"salvadores\".",
+  "livro": "ameacas_de_arton"
+}

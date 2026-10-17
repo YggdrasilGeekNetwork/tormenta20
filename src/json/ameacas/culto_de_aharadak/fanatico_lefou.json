@@ -1,0 +1,51 @@
+{
+  "id": "fanatico_lefou",
+  "name": "Fanático Lefou",
+  "nd": 5,
+  "tipo": "Monstro",
+  "subtipo": "lefou",
+  "tamanho": "medio",
+  "grupo": "culto_de_aharadak",
+  "pv": 55,
+  "pm": null,
+  "defesa": 23,
+  "salvaguardas": { "fort": 16, "ref": 11, "von": 6 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "efeitos_mentais": 3, "efeitos_lefeu_e_da_tormenta": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 4,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": 1, "con": 2, "int": -1, "sab": 0, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 22,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 10, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 22,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 10, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Frenesi Insano", "descricao": "Quando causa ou sofre dano, o fanático lefou recebe um bônus cumulativo de +2 em testes de ataque e rolagens de dano até o fim da cena." },
+    { "nome": "Mente Aberrante (mágica)", "descricao": "Quando faz um teste de Vontade para resistir a um efeito, o fanático causa 3d6 pontos de dano psíquico na criatura que gerou o efeito." },
+    { "nome": "Sangue Ácido", "descricao": "Quando o fanático sofre dano por um ataque corpo a corpo adjacente, o atacante sofre 5 pontos de dano de ácido." }
+  ],
+  "equipamento": [],
+  "tesouro": "Metade.",
+  "description": "O culto de Aharadak vem se espalhando como uma doença — o que realmente é. Certos relatos terríveis sugerem que, ao cultuar o Devorador, humanos e outros povos acabam transformados em lefou: rancorosos contra a civilização que sempre os odiou e temeu, os fanáticos lefou encontram agora um propósito para suas vidas malditas, abraçando por completo as crenças e objetivos do culto. Clamam pela chegada da Tormenta, vandalizam templos de outras igrejas e profanam tudo que é sagrado; os mais brutos apenas atacam tudo e todos, muitas vezes atuando como soldados obedientes a um alto sacerdote da agonia.",
+  "livro": "ameacas_de_arton"
+}

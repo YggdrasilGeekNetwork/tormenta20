@@ -1,0 +1,45 @@
+{
+  "id": "fantasma_ancestral",
+  "name": "Fantasma Ancestral",
+  "nd": 14,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "mortos_vivos",
+  "pv": 410,
+  "pm": null,
+  "defesa": 40,
+  "salvaguardas": { "fort": 12, "ref": 18, "von": 23 },
+  "reducao_de_dano": null,
+  "imunidades": ["incorpóreo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 18,
+  "percepcao": 15,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "voo": 15 },
+  "atributos": { "for": null, "des": 5, "con": 0, "int": 1, "sab": 2, "car": 6 },
+  "pericias": { "furtividade": 22, "intimidacao": 19 },
+  "ataques": [
+    {
+      "nome": "Toque drenante",
+      "quantidade": 2,
+      "bonus": 33,
+      "dano": [
+        { "dados": [{ "quantidade": 6, "faces": 8 }], "bonus": 41, "tipo": "trevas" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Assustar", "acao": "livre", "descricao": "O fantasma ancestral se revela subitamente, saindo de um esconderijo ou de dentro de um objeto, como um armário ou parede. Ele só pode usar esta habilidade se estiver escondido, e apenas uma vez por cena. Cada criatura em alcance curto capaz de ver o fantasma fica abalada (Vontade CD 33 evita). Se falhar no teste de Vontade por 5 ou mais, a criatura fica apavorada e, se falhar por 10 ou mais, também envelhece 2d4 anos. Medo." },
+    { "nome": "Drenar Vida", "descricao": "Uma criatura atingida pelo toque drenante do fantasma ancestral tem seus PV máximos reduzidos em 20 por 1 dia, cumulativamente (Fortitude CD 33 evita). Caso os PV máximos da criatura sejam reduzidos a 0 desta forma, ela fica inconsciente até que eles sejam restabelecidos." },
+    { "nome": "Face Sombria da Morte", "descricao": "Criaturas imunes a dano de trevas sofrem metade do dano de trevas do fantasma, e mortos-vivos não recuperam pontos de vida com esse dano." },
+    { "nome": "Lamento dos Mortos", "acao": "reacao", "descricao": "Quando os pontos de vida do fantasma são reduzidos a 205 ou menos, ele passa a emitir uma violenta aura de energia negativa com 9m de raio. Cada criatura que comece seu turno nesta área sofre 20d6 pontos de dano de trevas e fica debilitada e esmorecida (Vontade CD 38 reduz para fraca e frustrada)." },
+    { "nome": "Memento", "descricao": "Um fantasma reduzido a 0 PV desaparece e ressurge 1d4 dias depois. Para derrotá-lo permanentemente é necessário confrontá-lo com aquilo que ainda o prende a este mundo. Quando isso acontece, o fantasma perde sua habilidade Face Sombria da Morte e pode ser destruído normalmente." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Fantasma de poder e antiguidade excepcionais, que ganhou força ao longo de séculos de rancor acumulado, capaz de desatar uma onda devastadora de energia negativa quando ameaçado.",
+  "livro": "ameacas_de_arton"
+}

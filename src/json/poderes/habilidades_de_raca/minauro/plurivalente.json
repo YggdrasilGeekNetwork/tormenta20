@@ -1,0 +1,11 @@
+{
+  "id": "plurivalente",
+  "name": "Plurivalente",
+  "type": "habilidade_de_raca",
+  "race": "minauro",
+  "description": "Você recebe um poder geral a sua escolha.",
+  "effects": {
+    "general_power_choices": 1
+  },
+  "livro": "ameacas_de_arton"
+}

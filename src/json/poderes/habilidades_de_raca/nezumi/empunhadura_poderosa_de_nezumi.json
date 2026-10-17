@@ -1,0 +1,11 @@
+{
+  "id": "empunhadura_poderosa_de_nezumi",
+  "name": "Empunhadura Poderosa",
+  "type": "habilidade_de_raca",
+  "race": "nezumi",
+  "description": "Ao usar uma arma feita para uma categoria de tamanho maior que a sua (por exemplo, uma arma aumentada para uma criatura Pequena ou Média), a penalidade que você sofre nos testes de ataque diminui para –2. Caso receba esta habilidade novamente, a penalidade diminui para 0.",
+  "effects": {
+    "oversized_weapon_penalty": { "first": -2, "repeated": 0 }
+  },
+  "livro": "ameacas_de_arton"
+}

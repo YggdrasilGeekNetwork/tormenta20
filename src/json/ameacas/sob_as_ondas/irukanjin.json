@@ -1,0 +1,41 @@
+{
+  "id": "irukanjin",
+  "name": "Irukanjin",
+  "nd": 4,
+  "tipo": "Humanoide",
+  "subtipo": "irukanjin",
+  "tamanho": "medio",
+  "grupo": "sob_as_ondas",
+  "pv": 126,
+  "defesa": 20,
+  "salvaguardas": { "fort": 10, "ref": 5, "von": 0 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "acido": 5, "impacto": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 3,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "natacao": 12 },
+  "atributos": { "for": 0, "des": 3, "con": 2, "int": 4, "sab": 1, "car": -2 },
+  "pericias": { "furtividade": 12 },
+  "ataques": [
+    {
+      "nome": "Tentáculo",
+      "quantidade": 2,
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 4 }], "bonus": 6, "tipo": "impacto" }
+      ],
+      "efeito": "Inocular Ácido"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Impacto Mental", "acao": "padrao", "salvaguarda": "Vontade", "cd": 18, "efeito_sucesso": "reduz à metade e evita a condição", "descricao": "Uma criatura em alcance médio sofre 4d6 pontos de dano psíquico e fica atordoada por 1d4 rodadas (Von CD 18 reduz à metade e evita a condição). Uma criatura só pode ser atordoada por esta habilidade uma vez por cena. Recarga (movimento)." },
+    { "nome": "Inocular Ácido", "salvaguarda": "Fortitude", "cd": 18, "efeito_sucesso": "reduz à metade e evita a condição", "descricao": "Uma criatura atingida por um tentáculo do irukanjin sofre 2d4 pontos de dano de ácido e fica lenta. Se já estiver lenta, fica paralisada por 1 rodada (Fort CD 18 reduz à metade e evita a condição)." },
+    { "nome": "Mesclar-se", "descricao": "Enquanto está submerso em água, o irukanjin tem camuflagem leve." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Também conhecidos como \"medusoides\", seres alienígenas que lembram um cruzamento entre humanoide e água-viva, com cabeça semiesférica segmentada e quatro tentáculos no lugar das pernas. Inteligentes, dissimulados e diabólicos, usam a transparência das águas para emboscar vítimas e capturá-las vivas em esconderijos submarinos, frequentemente acompanhados por águas-vivas que parecem controlar.",
+  "livro": "ameacas_de_arton"
+}

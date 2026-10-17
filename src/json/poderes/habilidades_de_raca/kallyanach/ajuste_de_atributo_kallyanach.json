@@ -1,0 +1,14 @@
+{
+  "id": "ajuste_de_atributo_kallyanach",
+  "name": "Ajuste de Atributo",
+  "type": "habilidade_de_raca",
+  "race": "kallyanach",
+  "description": "Você recebe +2 em um atributo a sua escolha ou +1 em dois atributos a sua escolha.",
+  "effects": {
+    "attribute_bonus_choice": [
+      { "count": 1, "value": 2 },
+      { "count": 2, "value": 1 }
+    ]
+  },
+  "livro": "ameacas_de_arton"
+}

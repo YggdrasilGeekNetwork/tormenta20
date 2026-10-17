@@ -1,0 +1,53 @@
+{
+  "id": "raposa_bucaneira",
+  "name": "Raposa Bucaneira",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "moreau",
+  "tamanho": "medio",
+  "grupo": "reinos_de_moreania",
+  "pv": 46,
+  "pm": null,
+  "defesa": 18,
+  "salvaguardas": { "fort": 7, "ref": 14, "von": 1 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 3,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 0, "des": 4, "con": 2, "int": 2, "sab": -1, "car": 3 },
+  "pericias": { "acrobacia": 7, "atletismo": 3, "enganacao": 9, "intimidacao": 6, "nobreza": 7 },
+  "ataques": [
+    {
+      "nome": "Pistola-punhal",
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 4, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Pistola-punhal (à distância)",
+      "bonus": 10,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 6, "tipo": "perfuração" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "Quando passa em um teste de Reflexos para reduzir o dano de um efeito à metade, em vez disso não sofre nenhum dano." },
+    { "nome": "Audácia", "descricao": "Uma vez por rodada, a bucaneira soma seu Carisma em um teste de perícia (exceto em ataque)." },
+    { "nome": "Cobrir de Pólvora", "acao": "movimento", "descricao": "A bucaneira joga um punhado de pólvora em um alvo em alcance curto. Até o fim da cena, o próximo ataque contra esse alvo causa +1d6 pontos de dano de fogo e o deixa em chamas." },
+    { "nome": "Estampido Ensurdecedor", "descricao": "Quando a bucaneira dispara com sua pistola-punhal (à distância ou em corpo a corpo), todas as criaturas adjacentes a ela ficam abaladas e surdas (Fortitude CD 18 reduz a duração para 1 rodada)." },
+    { "nome": "Pistola-Punhal", "descricao": "Quando ataca em corpo a corpo com sua pistola-punhal, a raposa bucaneira pode disparar sua bala para causar +2d6 pontos de dano de perfuração." },
+    { "nome": "Pistoleira Veloz", "descricao": "A bucaneira não sofre a penalidade padrão de –5 em ataques por disparar contra oponentes envolvidos em combate corpo a corpo, e pode recarregar sua pistola-punhal como uma ação de movimento." }
+  ],
+  "equipamento": ["Balas x20", "Capa esvoaçante", "Pistola-punhal"],
+  "tesouro": "Padrão.",
+  "description": "Moreau de herança da raposa que leva a vida de bucaneira, combinando audácia e esperteza com armas de pólvora improvisadas.",
+  "livro": "ameacas_de_arton"
+}

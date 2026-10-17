@@ -1,0 +1,42 @@
+{
+  "id": "keylor",
+  "name": "Keylor",
+  "nd": 9,
+  "tipo": "Humanoide",
+  "subtipo": "gigante",
+  "tamanho": "grande",
+  "grupo": "uivantes",
+  "pv": 360,
+  "defesa": 34,
+  "salvaguardas": { "fort": 21, "ref": 8, "von": 16 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "frio": 10 },
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 9,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 6, "des": 0, "con": 4, "int": 1, "sab": 1, "car": -1 },
+  "pericias": { "sobrevivencia": 11 },
+  "ataques": [
+    {
+      "nome": "Machado de Guerra",
+      "quantidade": 2,
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 28, "tipo": "corte" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arremessar Rochas", "acao": "completa", "salvaguarda": "Reflexos", "cd": 28, "efeito_sucesso": "reduz à metade", "descricao": "Criaturas em um quadrado de 3m em alcance curto sofrem 4d6+20 pontos de dano (Ref CD 28 reduz à metade)." },
+    { "nome": "Aura de Frio", "descricao": "No início de cada turno do Keylor, todas as criaturas em um raio de 3m sofrem 2d6+8 pontos de dano de frio." },
+    { "nome": "Varrer", "descricao": "Uma vez por rodada, quando o Keylor faz um ataque corpo a corpo e reduz os pontos de vida do alvo a 0 ou menos, pode fazer um ataque adicional contra outra criatura dentro do seu alcance." }
+  ],
+  "equipamento": ["Gibão de peles", "Machado de guerra aumentado"],
+  "tesouro": "Padrão.",
+  "description": "Gigante líder original da tribo de ogros Furiosos, empunhando uma clava feita com um crânio de mamute. Alguns relatos sugerem que \"Keylor\" é na verdade um título guerreiro usado por todos os gigantes que já lideraram os Furiosos, não um único indivíduo imortal.",
+  "livro": "ameacas_de_arton"
+}

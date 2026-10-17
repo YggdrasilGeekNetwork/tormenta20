@@ -1,0 +1,52 @@
+{
+  "id": "tpeel",
+  "name": "T'Peel",
+  "nd": 1,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "minusculo",
+  "grupo": "elementais",
+  "pv": 12,
+  "pm": null,
+  "defesa": 10,
+  "salvaguardas": { "fort": 5, "ref": 10, "von": 1 },
+  "reducao_de_dano": null,
+  "imunidades": ["acertos críticos", "atordoado", "caído", "cansaço", "efeitos de metabolismo", "eletricidade", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": ["ácido"],
+  "iniciativa": 5,
+  "percepcao": 1,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "voo": 9 },
+  "atributos": { "for": 0, "des": 4, "con": 2, "int": -2, "sab": 0, "car": -1 },
+  "pericias": { "ladinagem": 7 },
+  "ataques": [
+    {
+      "nome": "Brisa agressiva",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 9, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Lufada cortante (à distância)",
+      "alcance": "curto",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 9, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Corpo Eólico", "descricao": "O t'peel pode atravessar qualquer fresta por onde o ar passaria, e só pode ser afetado por armas e efeitos mágicos." },
+    { "nome": "…E o Vento Levou", "acao": "livre", "descricao": "Quando acerta um ataque de brisa agressiva, usa a manobra desarmar (teste +11). Se desarmar a vítima, prende a arma em seu redemoinho; recuperá-la exige vencer um teste de desarmar contra o t'peel." }
+  ],
+  "equipamento": [],
+  "tesouro": "Metade (role novamente qualquer item que ocupe mais de 2 espaços) e 1 dose de éter elemental (eletricidade) (CD 16 para extrair).",
+  "familiar": "Um t'peel familiar pode carregar 2 espaços de itens e permite que você lance Queda Suave.",
+  "parceiro": null,
+  "description": "Pequeno torvelinho invisível que carrega em seu interior um punhado de objetos — a única parte visível da criatura, sempre única para cada t'peel, como se a coleção fosse uma marca de individualidade (penas de canário, rolhas de garrafa, folhas secas de cedro...). O colecionismo seria prova de inteligência, segundo alguns; para outros, apenas um efeito escolhido pelo conjurador, ou puro capricho dos deuses. Em estado selvagem não costuma ser agressivo, mas é imprevisível como qualquer elemental, especialmente se carrega consigo algum item de sua coleção. Domesticado, pode servir de familiar útil para carregar catalisadores e outros itens de conjuração.",
+  "livro": "ameacas_de_arton"
+}

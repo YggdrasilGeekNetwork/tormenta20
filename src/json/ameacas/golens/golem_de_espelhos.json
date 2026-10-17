@@ -1,0 +1,43 @@
+{
+  "id": "golem_de_espelhos",
+  "name": "Golem de Espelhos",
+  "nd": 9,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "golens",
+  "pv": 350,
+  "pm": null,
+  "defesa": 32,
+  "salvaguardas": { "fort": 21, "ref": 9, "von": 15 },
+  "reducao_de_dano": null,
+  "imunidades": ["magia (com exceções)"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 9,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 6, "des": 0, "con": 5, "int": null, "sab": 0, "car": -5 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Espada bastarda",
+      "quantidade": 2,
+      "bonus": 28,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 24, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Copiar", "acao": "movimento", "descricao": "O golem copia uma habilidade (exceto a habilidade Magias) ou uma magia de uma criatura em alcance curto que possa ver, até o fim da cena. Pode ter até 5 habilidades e/ou magias copiadas ao mesmo tempo, e pode usá-las com suas próprias características (quando aplicável, a CD dessas habilidades é 28)." },
+    { "nome": "Imunidade a Magia", "descricao": "O golem é imune a efeitos mágicos, com as seguintes exceções: a magia Despedaçar causa 50% a mais de dano no golem; efeitos mágicos de escuridão o deixam lento enquanto ele estiver na área afetada." },
+    { "nome": "Refletir", "acao": "reacao", "descricao": "Uma vez por rodada, quando é alvo de um efeito que permite um teste de resistência e passa nesse teste, o golem pode refletir todo o efeito para uma criatura a sua escolha em alcance curto (o golem não sofre nenhuma parte do efeito). A criatura escolhida se torna o novo alvo do efeito, que é resolvido normalmente, mas o golem faz qualquer escolha necessária." }
+  ],
+  "equipamento": ["Espada bastarda aumentada precisa"],
+  "tesouro": "Fragmento refletor (CD 24 para extrair, reduz em 1 PM o custo para fabricar um item com o encanto refletor).",
+  "description": "Construto exótico e poderoso, formado por uma estrutura de mitral revestida de espelhos encantados. Sua origem remonta às Catacumbas de Leverick, criadas por Rodleck Leverick, sumo-sacerdote de Hyninn. Especialmente efetivo contra aventureiros cheios de poderes especiais, pois pode usar esses mesmos poderes contra eles. Nota: a aventura \"Briga em Família\" (Só Aventuras) apresenta uma ficha diferente de golem de espelhos, de um indivíduo único com propósito específico.",
+  "livro": "ameacas_de_arton"
+}

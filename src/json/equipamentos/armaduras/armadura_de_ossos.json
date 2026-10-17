@@ -1,0 +1,18 @@
+{
+  "id": "armadura_de_ossos",
+  "name": "Armadura de Ossos",
+  "type": "armadura",
+  "categoria": "leve",
+  "preco": 120,
+  "bonus_defesa": 3,
+  "penalidade_armadura": -2,
+  "espacos": 2,
+  "especial": {
+    "bonus_intimidacao": 1,
+    "bonus_cd_efeitos_de_medo": 1,
+    "cumulativo_com_melhoria_macabra": true
+  },
+  "vestir_remover": "acao_completa",
+  "description": "Os nezumi e outros povos são conhecidos por produzir estas armaduras sinistras. Combinando um aspecto assustador e energias negativas de ossadas, esta armadura fornece +1 em Intimidação e na CD de seus efeitos de medo (cumulativo com a melhoria macabra).",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "oni",
+  "name": "Oni",
+  "nd": 5,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "imperio_de_jade",
+  "pv": 200,
+  "pm": null,
+  "defesa": 24,
+  "salvaguardas": { "fort": 17, "ref": 11, "von": 5 },
+  "reducao_de_dano": 5,
+  "imunidades": ["doenças", "fogo", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 3,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": 1, "con": 3, "int": 0, "sab": -1, "car": -2 },
+  "pericias": { "atletismo": 9, "intimidacao": 7 },
+  "ataques": [
+    {
+      "nome": "Machado de guerra",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 16, "tipo": "corte" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Chifres",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 10, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Pesado", "acao": "livre", "descricao": "Quando acerta um ataque de machado de guerra, o oni faz a manobra derrubar ou empurrar contra o alvo (teste +19)." },
+    { "nome": "Avesso à Honra", "descricao": "Os ataques do oni causam +1d10 pontos de dano de trevas contra devotos de Lin-Wu e personagens que sigam algum código de conduta (como Código de Honra ou Código do Herói)." },
+    { "nome": "Doença", "descricao": "Uma criatura atingida pelos chifres do oni é exposta à doença calafrio diabólico (Tormenta20, p.318)." }
+  ],
+  "equipamento": ["Machado de guerra"],
+  "tesouro": "Padrão.",
+  "description": "Demônio imenso e abrutalhado parecido com um ogro, mas de pele azulada ou avermelhada, cabelos negros compridos e um par de chifres longos. Origina-se de outros mundos ou nasce das maldades cometidas em Arton — quanto pior o crime, mais poderoso o demônio. Opostos à honra, lutam sujo, fazendo emboscadas e atacando pelas costas.",
+  "livro": "ameacas_de_arton"
+}

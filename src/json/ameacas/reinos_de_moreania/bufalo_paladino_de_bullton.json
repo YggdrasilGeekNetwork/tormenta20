@@ -1,0 +1,53 @@
+{
+  "id": "bufalo_paladino_de_bullton",
+  "name": "Búfalo Paladino de Bullton",
+  "nd": 6,
+  "tipo": "Humanoide",
+  "subtipo": "moreau",
+  "tamanho": "medio",
+  "grupo": "reinos_de_moreania",
+  "pv": 250,
+  "pm": null,
+  "defesa": 28,
+  "salvaguardas": { "fort": 16, "ref": 6, "von": 14 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 4,
+  "visao": ["faro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 5, "des": 0, "con": 3, "int": 0, "sab": 1, "car": 3 },
+  "pericias": { "atletismo": 10, "cavalgar": 7, "intimidacao": 10, "nobreza": 5, "religiao": 6 },
+  "ataques": [
+    {
+      "nome": "Montante",
+      "bonus": 18,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 15, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Chifres",
+      "bonus": 18,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 10, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Búfalo de Batalha", "descricao": "O búfalo paladino cavalga um búfalo-de-guerra parceiro veterano." },
+    { "nome": "Fúria Sagrada", "acao": "livre", "descricao": "Uma vez por cena, o búfalo paladino entra em fúria sagrada, recebendo +4 em testes de ataque e dano corpo a corpo até o fim do combate." },
+    { "nome": "Grandes Chifres", "descricao": "O búfalo paladino pode usar seus chifres como ataque secundário junto de sua arma principal, sem a penalidade padrão de ataques múltiplos." },
+    { "nome": "Marrada Impressionante", "descricao": "Quando acerta um ataque de chifres, o búfalo paladino pode usar a manobra derrubar como ataque adicional livre, sem provocar ataque de oportunidade." }
+  ],
+  "equipamento": ["Alforje", "Armadura completa", "Montante aumentada"],
+  "familiar": null,
+  "parceiro": null,
+  "tesouro": "Padrão.",
+  "description": "Moreau de herança do búfalo, devoto guerreiro de Bullton que combina a fé paladina com a força bruta de seu montante e seus próprios chifres, frequentemente cavalgando um búfalo-de-guerra como parceiro de batalha.",
+  "livro": "ameacas_de_arton"
+}

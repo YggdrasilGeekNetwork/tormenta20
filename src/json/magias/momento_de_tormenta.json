@@ -1,0 +1,58 @@
+{
+  "id": "momento_de_tormenta",
+  "name": "Momento de Tormenta",
+  "type": "universal",
+  "circle": "2",
+  "school": "conv",
+  "execution": "completa",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": {
+    "amount": null,
+    "up_to": null,
+    "type": "area"
+  },
+  "effect": "area",
+  "effect_details": {
+    "shape": "cubo",
+    "dimention": "lado",
+    "size": "30m",
+    "other_details": null
+  },
+  "counterspell": null,
+  "duration": "sustentada",
+  "duration_details": null,
+  "resistence": {
+    "effect": "veja_texto",
+    "skill": null
+  },
+  "extra_costs": null,
+  "description": "Uma nuvem rubra surge acima do conjurador. Uma vez por turno, você pode gastar uma ação de movimento para fazer a nuvem manifestar um dos fenômenos a seguir: Chuva ácida (gotas corrosivas causam 6d4 pontos de dano de ácido em todas as criaturas na área); Neblina venenosa (uma neblina faz com que todas as criaturas na área percam 2d12 PV por veneno, Fortitude evita); Raios escarlates (até 6 inimigos aleatórios na área sofrem 6d8 pontos de dano de eletricidade, Reflexos reduz à metade); Pesadelos reais (cada criatura na área sofre 4d6 pontos de dano psíquico e perde 1d4 PM, Vontade reduz o dano à metade e evita a perda de PM). Esta magia só pode ser aprendida e lançada por conjuradores que tenham observado uma área de Tormenta pelo menos uma vez. Sua divulgação é proibida e seu uso é permitido apenas em áreas controladas na Academia Arcana e outros lugares restritos, para estudar o fenômeno da Tormenta. Usar esta magia em qualquer outro ponto do Reinado é um crime enquadrado na décima-primeira infração do Vigintílogo.",
+  "enhancements": [
+    {
+      "cost": 3,
+      "type": "aumenta",
+      "description": "aumenta o dano em +1 dado do mesmo tipo.",
+      "extra_details": null
+    },
+    {
+      "cost": 5,
+      "type": "outro",
+      "description": "além do normal, criaturas na área ficam alquebradas enquanto permanecerem na área.",
+      "extra_details": null
+    },
+    {
+      "cost": 5,
+      "type": "muda",
+      "description": "muda a área para círculo de 1km de raio. Apenas devotos de Aharadak.",
+      "extra_details": { "restriction": "apenas_devotos_de_aharadak" }
+    }
+  ],
+  "effects": [
+    { "type": "dano", "attribute": "pv", "amount": "6d4", "resistence_requirement": null, "extra_requirements": "fenômeno: chuva ácida" },
+    { "type": "dano", "attribute": "pv", "amount": "2d12_por_veneno", "resistence_requirement": "fortitude", "extra_requirements": "fenômeno: neblina venenosa" },
+    { "type": "dano", "attribute": "pv", "amount": "6d8", "resistence_requirement": "reflexos", "extra_requirements": "fenômeno: raios escarlates, até 6 inimigos aleatórios" },
+    { "type": "dano", "attribute": "pv", "amount": "4d6", "resistence_requirement": "vontade", "extra_requirements": "fenômeno: pesadelos reais, também perde 1d4 PM" }
+  ],
+  "livro": "ameacas_de_arton"
+}

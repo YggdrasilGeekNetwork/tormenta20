@@ -1,0 +1,54 @@
+{
+  "id": "mamute",
+  "name": "Mamute",
+  "nd": 8,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "uivantes",
+  "pv": 310,
+  "defesa": 33,
+  "salvaguardas": { "fort": 24, "ref": 8, "von": 12 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 11,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 6, "des": 0, "con": 4, "int": -4, "sab": 1, "car": 0 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Presas",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 29, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Tromba",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 25, "tipo": "impacto" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arremessar", "acao": "movimento", "salvaguarda": "Reflexos", "cd": 26, "efeito_sucesso": "reduz à metade e evita a condição", "descricao": "Se começar seu turno agarrando uma criatura Média ou menor, o mamute arremessa a vítima 1d6 x1,5m em uma direção à escolha dele. A vítima sofre 2d6 pontos de dano de impacto, fica caída e, se atingir algum obstáculo, sofre +2d6 pontos de dano (Ref CD 26 reduz à metade e evita a condição). Recarga (movimento)." },
+    { "nome": "Atropelamento", "acao": "completa", "salvaguarda": "Reflexos", "cd": 26, "efeito_sucesso": "reduz à metade e evita a condição", "descricao": "O mamute percorre até o dobro de seu deslocamento. Ele pode passar pelo espaço ocupado de quaisquer inimigos menores que ele, mas não pode passar duas vezes pelo mesmo espaço. Criaturas atropeladas desta forma sofrem 2d8+9 pontos de dano de impacto e ficam caídas (Ref CD 26 reduz à metade e evita a condição). Recarga (movimento)." },
+    { "nome": "Pisotear", "acao": "padrao", "salvaguarda": "Fortitude", "cd": 26, "efeito_sucesso": "reduz o dano à metade e evita a condição", "descricao": "Uma criatura que o mamute esteja agarrando, ou que esteja caída adjacente a ele, sofre 4d8+58 pontos de dano de impacto e fica fraca por 1 rodada (Fort CD 26 reduz o dano à metade e evita a condição)." },
+    { "nome": "Tromba", "acao": "livre", "descricao": "Se o mamute acerta um ataque de tromba, pode fazer a manobra agarrar ou derrubar (teste +32)." }
+  ],
+  "equipamento": [],
+  "familiar": null,
+  "parceiro": {
+    "tipo": "montaria (Enorme)",
+    "descricao": "O mamute fornece os mesmos benefícios que um elefante."
+  },
+  "tesouro": "Marfim (CD 23 para extrair, vale T$ 1.000 para fabricar armas superiores) e pele de mamute (CD 23 para extrair, vale T$ 1.000 para fabricar armaduras leves superiores).",
+  "description": "Versão maior e mais primitiva do elefante comum da savana, com pelagem escura e farta e presas maiores e recurvadas. Andam em manadas, migrando entre regiões com vegetação. Base da alimentação de muitas tribos das Uivantes, que caçam e também domesticam o animal como gado, montaria e besta de carga.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,13 @@
+{
+  "id": "disforme",
+  "name": "Disforme",
+  "type": "habilidade_de_raca",
+  "race": "kaijin",
+  "description": "Por sua anatomia anômala, você não pode empunhar nem vestir itens, a menos que sejam mágicos ou especialmente adaptados para você (o que demora um dia e custa 50% do preço do item, sem contar melhorias). Seus itens iniciais, e aqueles recebidos por sua origem ou habilidades, são adaptados para você. Esta habilidade conta como um poder da Tormenta, exceto para perda de Carisma.",
+  "effects": {
+    "item_restriction": { "requires": "magico ou adaptado", "adaptation_time": "1 dia", "adaptation_cost_pct": 50 },
+    "counts_as": "poder_da_tormenta",
+    "no_charisma_loss": true
+  },
+  "livro": "ameacas_de_arton"
+}

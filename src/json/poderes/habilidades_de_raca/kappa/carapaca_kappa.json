@@ -1,0 +1,14 @@
+{
+  "id": "carapaca_kappa",
+  "name": "Carapaça Kappa",
+  "type": "habilidade_de_raca",
+  "race": "kappa",
+  "description": "Você não pode ser flanqueado e recebe cobertura leve se estiver submerso ou caído. Você soma sua Constituição na Defesa, limitado pelo seu nível, mas apenas se não estiver usando armaduras pesadas (se já faz isso, como pela habilidade Casca Grossa, em vez disso você recebe +2 na Defesa).",
+  "effects": {
+    "cannot_be_flanked": true,
+    "cover_when_submerged_or_fallen": "leve",
+    "defense_bonus_from_constitution": { "capped_by": "nivel" },
+    "fallback_defense_bonus": 2
+  },
+  "livro": "ameacas_de_arton"
+}

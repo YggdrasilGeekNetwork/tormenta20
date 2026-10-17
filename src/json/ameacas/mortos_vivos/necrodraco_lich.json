@@ -1,0 +1,59 @@
+{
+  "id": "necrodraco_lich",
+  "name": "Necrodraco Lich",
+  "nd": 20,
+  "tipo": "Morto-vivo",
+  "subtipo": "dragão",
+  "tamanho": "colossal",
+  "grupo": "mortos_vivos",
+  "pv": 1400,
+  "pm": 133,
+  "defesa": 63,
+  "salvaguardas": { "fort": 34, "ref": 24, "von": 30 },
+  "reducao_de_dano": "20/luz",
+  "imunidades": ["atordoado", "metamorfose", "paralisia"],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": ["luz"],
+  "iniciativa": 16,
+  "percepcao": 20,
+  "visao": ["percepção às cegas (médio)", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 36 },
+  "atributos": { "for": 12, "des": 0, "con": 8, "int": 12, "sab": 4, "car": 5 },
+  "pericias": { "conhecimento": 28, "cura": 20, "enganacao": 21, "intimidacao": 21, "intuicao": 20, "misticismo": 28, "oficio_alquimista": 28, "religiao": 20 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 55,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 20 }], "bonus": 50, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 1, "faces": 20 }], "bonus": 0, "tipo": "trevas" }
+      ],
+      "critico": "16/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 50,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 20 }], "bonus": 50, "tipo": "corte" },
+        { "dados": [{ "quantidade": 1, "faces": 20 }], "bonus": 0, "tipo": "trevas" }
+      ],
+      "critico": "16/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura Aterradora", "salvaguarda": "Vontade", "cd": 53, "efeito_sucesso": "evita", "descricao": "Aura Aterradora (Vontade CD 53 evita)." },
+    { "nome": "Couro Necromântico", "descricao": "O couro do necrodraco reduz todo dano de corte, impacto e perfuração que ele sofre à metade. Se ele passar num teste de resistência contra uma magia que o tenha como alvo, ela é revertida contra o conjurador." },
+    { "nome": "Filactério", "descricao": "Caso o necrodraco seja morto, ele retorna completamente recuperado em 1d10 dias. A única forma de derrotá-lo permanentemente é destruir seu filactério." },
+    { "nome": "Fluxo de Mana", "descricao": "O necrodraco pode manter dois efeitos sustentados simultaneamente com apenas uma ação livre (mas pagando o custo de cada um)." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o necrodraco muda a execução dela para livre." },
+    { "nome": "Sopro Tenebroso", "acao": "padrão", "descricao": "Todas as criaturas em um cone de 18m sofrem 20d12 pontos de dano de trevas e, por 1 rodada, não podem recuperar pontos de vida de nenhuma forma (Fortitude CD 53 reduz à metade e evita a restrição de cura). O necrodraco recupera PV igual à metade do dano do sopro. Recarga (movimento)." },
+    { "nome": "Varrer", "acao": "livre", "descricao": "Uma vez por rodada, quando o necrodraco faz um ataque corpo a corpo e reduz os pontos de vida do alvo a 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance." },
+    { "nome": "Magias", "descricao": "Lança magias como conjurador arcano de 20º nível (CD 53, limite de PM 25): Campo de Força (reação, 11 PM, RD 70 contra o dano sofrido), Controlar o Tempo (padrão, 15 PM), Dissipar Magia (padrão, 3 PM), Enfeitiçar (padrão, 1 PM), Tentáculos de Trevas (padrão, 18 PM, esfera de 12m, agarra e esmaga, 12d6 de trevas), Toque da Morte (padrão, 25 PM, 10d8+18 de trevas; alvo com menos da metade dos PV faz Fortitude ou tem os PV reduzidos a –10), Toque Vampírico (padrão, 19 PM, ataque corpo a corpo com +20d6 de trevas, cura metade do dano), Velocidade (padrão, 10 PM, sustentada, ação padrão adicional por turno)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Dobro e fragmento de filactério.",
+  "description": "Dracolich: um necrodraco lich, forma mais poderosa entre os dragões mortos-vivos. Quase todos os necrodracos surgiram enquanto Kallyadranoch estava ausente do Panteão, quando não havia reino divino para recebê-los. Alguns perseguem os aventureiros responsáveis por suas mortes buscando vingança; exceto pelo próprio Tarso, talvez seja o ser mais poderoso entre os necrodracos.",
+  "livro": "ameacas_de_arton"
+}

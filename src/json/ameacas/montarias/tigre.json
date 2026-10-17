@@ -1,0 +1,58 @@
+{
+  "id": "tigre",
+  "name": "Tigre",
+  "nd": 3,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 95,
+  "pm": null,
+  "defesa": 18,
+  "salvaguardas": { "fort": 10, "ref": 16, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 9,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 5, "des": 4, "con": 3, "int": -4, "sab": 1, "car": -2 },
+  "pericias": { "atletismo": 10, "furtividade": 9 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 6, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 6, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Bote", "acao": "completa", "descricao": "O tigre faz uma investida e ataca com sua mordida e suas garras. Os três ataques recebem o bônus de +2 da investida, mas devem ser feitos contra a mesma criatura." },
+    { "nome": "Ímpeto Destrutivo", "descricao": "O tigre recebe +2 em testes de ataque e rolagens de dano em seu primeiro turno de combate." },
+    { "nome": "Rugido Paralisante", "acao": "movimento", "descricao": "Criaturas em alcance curto ficam imóveis por 1 rodada (Fortitude CD 17 evita). Uma criatura só pode ser alvo desta habilidade uma vez por cena." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 12m e você recebe +5 em Iniciativa.",
+    "veterano": "Na primeira rodada de combate, você recebe +5 em testes de ataque e rolagens de dano com armas.",
+    "mestre": "Seu deslocamento muda para 15m e você recebe uma ação de movimento extra por turno (apenas para se deslocar)."
+  },
+  "description": "Quase extinto em estado selvagem; seu habitat natural, a ilha de Tamu-ra, foi devastado pela Tormenta, levando o animal à beira da extinção. Hoje extremamente raro, visto apenas em espetáculos como o Circo dos Irmãos Thiannate, demonstrações de arenas e alguns palácios de Nitamu-ra. Considerado sagrado pelos tamuranianos, hoje a Igreja de Lin-Wu exerce esforços para repovoar a ilha com exemplares adquiridos ou capturados no continente.",
+  "livro": "ameacas_de_arton"
+}

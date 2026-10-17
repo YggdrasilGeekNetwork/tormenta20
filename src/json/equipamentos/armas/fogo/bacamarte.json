@@ -1,0 +1,24 @@
+{
+  "id": "bacamarte",
+  "name": "Bacamarte",
+  "type": "arma",
+  "proficiencia": "fogo",
+  "proposito": "distancia",
+  "subtipo_distancia": "disparo",
+  "empunhadura": "duas_maos",
+  "preco": 450,
+  "dano": "4d6",
+  "critico": "19/x3",
+  "alcance": "especial",
+  "tipo_dano": "perfuracao",
+  "espacos": 2,
+  "municao": "balas",
+  "habilidades": [],
+  "especial": {
+    "area_cone": "6m",
+    "ataque_unico_contra_todos_na_area": true,
+    "recarregar": { "acao": "completa", "balas": 2 }
+  },
+  "description": "Esta arma de fogo tem boca larga, capaz de espalhar a munição como um cone de 6m (seu alcance máximo). Para atacar, faça um ataque à distância e compare com a Defesa de cada criatura na área. Recarregar exige uma ação completa e 2 balas.",
+  "livro": "ameacas_de_arton"
+}

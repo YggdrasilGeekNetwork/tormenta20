@@ -1,0 +1,38 @@
+{
+  "id": "peixe_recife",
+  "name": "Peixe-Recife",
+  "nd": 6,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "sob_as_ondas",
+  "pv": 250,
+  "defesa": 29,
+  "salvaguardas": { "fort": 18, "ref": 6, "von": 12 },
+  "reducao_de_dano": 10,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 5,
+  "visao": ["percepção às cegas"],
+  "deslocamento": { "natacao": 12 },
+  "atributos": { "for": 5, "des": 0, "con": 5, "int": -4, "sab": 0, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Cabeçada",
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 20, "tipo": "impacto" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Emergir", "acao": "completa", "salvaguarda": "Fortitude", "cd": 22, "efeito_sucesso": "reduz à metade e evita o arremesso", "descricao": "O peixe-recife emerge à superfície, atingindo todas as criaturas em um quadrado de 6m imediatamente acima dele. Criaturas nessa área sofrem 4d10 pontos de dano de impacto e são arremessadas 1d4 x1,5m em direção oposta ao peixe (Fort CD 22 reduz à metade e evita o arremesso). Cada vítima fica caída e, se atingir algum obstáculo, sofre 1d6 pontos de dano de impacto para cada 1,5m que foi arremessada." },
+    { "nome": "Soçobrar", "acao": "padrao", "salvaguarda": "Reflexos", "cd": 22, "efeito_sucesso": "reduz o dano à metade e evita as condições", "descricao": "O peixe atira seu corpanzil contra uma embarcação (ou outro objeto semelhante), fazendo com que ele balance violentamente. Todas as criaturas na embarcação sofrem 2d8+10 pontos de dano de impacto e ficam atordoadas por 1 rodada e caídas (Ref CD 22 reduz o dano à metade e evita as condições)." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Peixe imenso e raro, facilmente confundido com uma ilhota, com corais crescendo sobre seu dorso. Animal filtrador extremamente plácido e manso, sem inimigos naturais, mas um risco involuntário para a navegação — mais de um navio já naufragou após colidir com um peixe-recife que surgiu repentinamente em seu caminho.",
+  "livro": "ameacas_de_arton"
+}

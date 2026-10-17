@@ -1,0 +1,52 @@
+{
+  "id": "gnoll_vuulrak",
+  "name": "Gnoll Vuul'rak",
+  "nd": 16,
+  "tipo": "Humanoide",
+  "subtipo": "gnoll",
+  "tamanho": "grande",
+  "grupo": "ermos",
+  "pv": 900,
+  "pm": null,
+  "defesa": 51,
+  "salvaguardas": { "fort": 29, "ref": 25, "von": 17 },
+  "reducao_de_dano": 10,
+  "imunidades": ["efeitos mentais"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 15,
+  "visao": ["faro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 8, "des": 0, "con": 10, "int": -4, "sab": 1, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "quantidade": 3,
+      "bonus": 44,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 30, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Tacape",
+      "quantidade": 2,
+      "bonus": 44,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 30, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Descarregar Raiva", "acao": "reacao", "descricao": "Sempre que seus PV cruzarem um múltiplo de 100, faz um ataque de tacape contra a Defesa de todas as criaturas em seu alcance; mesmo que erre, causa metade do dano." },
+    { "nome": "Golpe Avassalador", "acao": "livre", "descricao": "Ao acertar um ataque de tacape, arremessa a vítima 1d6 x 1,5m na direção que escolher (Fortitude CD 42 evita). Se colidir com um obstáculo, sofre 1d6 pontos de dano para cada 1,5m percorrido depois da colisão." },
+    { "nome": "Ódio Inexplicável", "descricao": "Recebe +5 em testes de ataque e rolagens de dano contra elfos, e ataca-os sempre que possível." }
+  ],
+  "equipamento": ["Tacape aumentado x2"],
+  "tesouro": "Padrão.",
+  "description": "Gigante deformado, com múltiplas cabeças e braços, fruto de uma mutação monstruosa entre os gnolls. Lendas sugerem ligação com a queda da deusa elfa Glórienn do Panteão em 1405.",
+  "livro": "ameacas_de_arton"
+}

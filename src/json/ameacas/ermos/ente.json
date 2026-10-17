@@ -1,0 +1,48 @@
+{
+  "id": "ente",
+  "name": "Ente",
+  "nd": 8,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "ermos",
+  "pv": 310,
+  "pm": null,
+  "defesa": 34,
+  "salvaguardas": { "fort": 21, "ref": 8, "von": 15 },
+  "reducao_de_dano": "10/corte",
+  "imunidades": ["sangramento"],
+  "resistencias": {},
+  "vulnerabilidades": ["fogo"],
+  "iniciativa": 7,
+  "percepcao": 11,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 9, "des": -1, "con": 5, "int": 1, "sab": 3, "car": 1 },
+  "pericias": { "furtividade": "+2 (+12 em florestas)", "intuicao": 11, "sobrevivencia": 16 },
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 16, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Fortificação", "descricao": "25% de chance de ignorar completamente qualquer efeito que exija uma localização anatômica vital." },
+    { "nome": "Natureza Vegetal", "descricao": "O ente é uma criatura de natureza vegetal." },
+    {
+      "nome": "Árvore Ancestral",
+      "descricao": "Cada ente possui uma habilidade entre as seguintes, que representa sua origem: Carvalho (ataques causam 50% mais dano contra construtos e objetos); Jasmim (nuvem de perfume em esfera de 9m: criaturas que tentem ação hostil contra o ente fazem Vontade CD 26 ou perdem a ação, sucesso dá imunidade pela cena; metabolismo); Nogueira (ação de movimento, arremessa uma noz em alcance curto, 2d6+8 de impacto, Reflexos CD 26 evita; recarga de movimento); Salgueiro (ao acertar pancada, pode agarrar como ação livre, teste +31; vítima agarrada é erguida 4,5m e cai se soltar); Sequoia (dano de Atropelamento aumenta para 4d8+8 e a CD sobe para 29)."
+    },
+    { "nome": "Atropelamento", "acao": "completa", "descricao": "O ente percorre até o dobro do deslocamento, podendo passar por inimigos menores (não duas vezes pelo mesmo espaço). Criaturas atropeladas sofrem 2d8+8 de impacto e ficam caídas (Reflexos CD 26 reduz à metade e evita a condição). Recarga (movimento)." },
+    { "nome": "Pastor de Árvores", "acao": "completa", "descricao": "Uma vez por dia, anima até duas árvores em alcance curto, que se desenraízam e lutam com as mesmas estatísticas do ente, mas deslocamento 3m, Inteligência –4 e sem esta habilidade. Após um dia voltam ao normal, enraizando-se onde estiverem." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão mais lasca de ente (CD 23 para extrair, vale T$ 70 para fabricar um dedo de ente).",
+  "description": "Árvore antiga que, ao longo de séculos, testemunhou tantos eventos que transcendeu os limites entre vegetal e humanoide, desprendendo-se do solo para percorrer suas florestas, agradecida a Allihanna por sua vida e desejando proteger sua obra. Alto como uma árvore, com pele grossa marrom, braços como galhos retorcidos, pernas como tronco bipartido com pés-raízes e copa frondosa no topo da cabeça. Pacífico por natureza, mas letal quando irritado — nada o irrita mais que a destruição da natureza. Quando imóvel é indistinguível de uma árvore normal, o que usa como vantagem para avaliar inimigos antes de atacar; se precisar de reforços, convoca outras árvores ao redor temporariamente. Devotos de Allihanna reconhecem entes como guardiões sagrados.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,14 @@
+{
+  "id": "mente_aberta",
+  "name": "Mente Aberta",
+  "type": "habilidade_de_raca",
+  "race": "minauro",
+  "description": "Você recebe +2 em Diplomacia e Investigação.",
+  "effects": {
+    "skill_improvement": [
+      { "skill": "diplomacia", "value": 2 },
+      { "skill": "investigacao", "value": 2 }
+    ]
+  },
+  "livro": "ameacas_de_arton"
+}

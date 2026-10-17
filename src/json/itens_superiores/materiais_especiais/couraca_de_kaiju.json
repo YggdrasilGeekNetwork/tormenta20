@@ -1,0 +1,29 @@
+{
+  "id": "couraca_de_kaiju",
+  "name": "Couraça de Kaiju",
+  "type": "material_especial",
+  "aparencia": "Material extremamente resistente extraído do corpo de um kaiju.",
+  "origem": "Jamais encontrado à venda, obtido apenas a partir de um kaiju abatido.",
+  "bonus_geral": null,
+  "precos_adicionais": null,
+  "description": "Ainda mais raro que couro dracônico, este material pode ser empregado para fabricar itens superiores de grande poder. Jamais encontrado à venda, sendo obtido apenas a partir de um kaiju abatido.",
+  "effects": {
+    "arma": [
+      { "type": "aumenta_dado_dano_um_passo", "pre_requisito": "exige uma peça" },
+      { "type": "ignora_reducao_efeitos_defensivos", "custo_pm": 2, "descricao": "Quando faz um ataque, se o alvo usar um efeito que reduz o dano desse ataque (como Durão ou Escamas Supremas), você pode gastar 2 PM para ignorar o efeito. Isso não se aplica a RD." }
+    ],
+    "armadura_leve": [
+      { "type": "reducao_de_dano", "value": 10, "excecao": "mágico", "pre_requisito": "exige uma peça" }
+    ],
+    "armadura_pesada": [
+      { "type": "reducao_de_dano", "value": 20, "excecao": "mágico", "pre_requisito": "exige três peças" }
+    ],
+    "escudo": [
+      { "type": "reducao_de_dano", "value": 10, "excecao": "mágico", "pre_requisito": "exige uma peça" }
+    ],
+    "esoterico": [
+      { "type": "ignora_reducao_dano_magia", "custo_pm": 2, "pre_requisito": "exige uma peça", "descricao": "Quando lança uma magia que causa dano, você pode gastar 2 PM para ignorar efeitos dos alvos que reduzem o dano dessa magia, como Durão ou Evasão (exceto redução de dano e o efeito de passar no teste de resistência contra a magia)." }
+    ]
+  },
+  "livro": "ameacas_de_arton"
+}

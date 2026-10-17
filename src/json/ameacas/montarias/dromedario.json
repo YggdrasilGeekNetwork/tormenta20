@@ -1,0 +1,48 @@
+{
+  "id": "dromedario",
+  "name": "Dromedário",
+  "nd": 1,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 36,
+  "pm": null,
+  "defesa": 15,
+  "salvaguardas": { "fort": 11, "ref": 5, "von": 1 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "efeitos_metabolicos_e_de_clima": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 2,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 3, "des": 1, "con": 4, "int": -2, "sab": 2, "car": 0 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 7, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Cusparada", "acao": "padrão", "descricao": "Uma criatura em alcance curto sofre 1d4+3 pontos de dano de impacto e fica enjoada pela rodada (Reflexos CD 14 evita o dano e a condição)." },
+    { "nome": "Patas do Deserto", "descricao": "O deslocamento do dromedário não é reduzido por terreno difícil natural em desertos e superfícies similares." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 12m e ignora terreno difícil natural em desertos e terrenos similares.",
+    "veterano": "Você recebe +2 em Percepção e Sobrevivência (este bônus é dobrado em desertos) e, uma vez por rodada, pode gastar 1 PM para causar 1d4+3 pontos de dano de impacto em uma criatura em alcance curto.",
+    "mestre": "Você recebe uma ação de movimento extra por turno (apenas para se deslocar) e +5 em testes para resistir a efeitos de clima."
+  },
+  "description": "Animal que lembra um cavalo, mas bem maior e mais robusto, com pelagem densa em tons de marrom, pernas longas terminando em patas achatadas de dois dedos (próprias para solo instável), pescoço longo e flexível e uma grande corcova nas costas que atua como depósito de gordura para períodos de escassez. Empregado em caravanas que cruzam terrenos difíceis como desertos e montanhas; quando tem acesso a água, bebe enormes quantidades para suportar longas jornadas. Mesmo domesticado costuma ser genioso, podendo atingir quem não gosta com uma cusparada malcheirosa; em estado selvagem forma bandos chamados cáfilas, liderados por um macho dominante. Embora conhecido por habitar regiões quentes, também é encontrado em climas muito frios, como as estepes nas Uivantes.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,51 @@
+{
+  "id": "dragao_jovem_da_protecao",
+  "name": "Dragão Jovem da Proteção",
+  "nd": 7,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "grande",
+  "grupo": "dragoes",
+  "pv": 320,
+  "pm": null,
+  "defesa": 32,
+  "salvaguardas": { "fort": 20, "ref": 9, "von": 12 },
+  "reducao_de_dano": 5,
+  "imunidades": ["eletricidade"],
+  "resistencias": { "magia": 2 },
+  "vulnerabilidades": ["ácido"],
+  "iniciativa": 11,
+  "percepcao": 11,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 18 },
+  "atributos": { "for": 7, "des": 2, "con": 6, "int": 2, "sab": 2, "car": 2 },
+  "pericias": { "diplomacia": 11 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 25,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 14, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 25,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 14, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Fortificação", "descricao": "25% de chance de ignorar completamente qualquer efeito que exija uma localização anatômica vital." },
+    { "nome": "Asas Guardiãs", "acao": "movimento", "descricao": "Todos os aliados adjacentes ao dragão recebem redução de dano 5 até o fim da cena." },
+    { "nome": "Sopro", "acao": "padrão", "descricao": "Todas as criaturas em uma linha de 12m sofrem 6d12 pontos de dano de eletricidade e ficam ofuscadas por 1d4 rodadas (Reflexos CD 25 reduz à metade e evita a condição). Cada vez que rolar o valor máximo em um dado do sopro, role um dado extra e some ao dano total. Recarga (ação de movimento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Dobro e 2 peças de couro de dragão (CD 22 para extrair).",
+  "description": "Dragão jovem de energia dracônica de eletricidade, com inclinação protetora sobre aliados em combate.",
+  "livro": "ameacas_de_arton"
+}

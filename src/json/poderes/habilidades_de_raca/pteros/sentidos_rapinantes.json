@@ -1,0 +1,15 @@
+{
+  "id": "sentidos_rapinantes",
+  "name": "Sentidos Rapinantes",
+  "type": "habilidade_de_raca",
+  "race": "pteros",
+  "description": "Você recebe visão na penumbra e +2 em Percepção e Sobrevivência.",
+  "effects": {
+    "vision": "visao_na_penumbra",
+    "skill_improvement": [
+      { "skill": "percepcao", "value": 2 },
+      { "skill": "sobrevivencia", "value": 2 }
+    ]
+  },
+  "livro": "ameacas_de_arton"
+}

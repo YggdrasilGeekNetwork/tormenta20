@@ -1,0 +1,43 @@
+{
+  "id": "golem_de_nor_enorme",
+  "name": "Golem de Nor Enorme",
+  "nd": 10,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "uivantes",
+  "pv": 370,
+  "defesa": 35,
+  "salvaguardas": { "fort": 11, "ref": 8, "von": 16 },
+  "reducao_de_dano": null,
+  "imunidades": ["frio"],
+  "resistencias": { "fogo": 15 },
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 15,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 7, "des": 0, "con": 9, "int": null, "sab": 0, "car": -5 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Espada Longa",
+      "quantidade": 2,
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 29, "tipo": "corte" },
+        { "dados": [], "bonus": 2, "tipo": "frio" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura Congelante", "acao": "padrao", "salvaguarda": "Fortitude", "cd": 28, "efeito_sucesso": "evita", "descricao": "Uma vez por cena, o golem de Nor enorme recebe 100 PV temporários. Se uma criatura acertar um ataque corpo a corpo contra o golem enquanto ele tem estes PV temporários, fica enredada (Fort CD 28 evita)." },
+    { "nome": "Imunidade a Magia", "descricao": "O golem é imune a efeitos mágicos, com a seguinte exceção: efeitos mágicos de frio curam PV em quantidade igual à metade do dano que causariam." },
+    { "nome": "Sentinela Eterno", "acao": "reacao", "descricao": "O golem ataca uma criatura que entre em seu alcance corpo a corpo voluntariamente. Se acertar esse ataque, o golem deixa a criatura lenta e, se ela estava fazendo uma investida, ele causa +3d8 pontos de dano de frio. O golem pode usar esta habilidade uma vez por rodada contra cada criatura." }
+  ],
+  "equipamento": ["Escudo pesado de gelo eterno", "Espada longa aumentada de gelo eterno"],
+  "tesouro": "Lascas gélidas (CD 25 para extrair, valem T$ 600 para fabricar itens de gelo eterno).",
+  "description": "A maior e mais poderosa versão do golem de Nor, um sentinela implacável que raramente abandona seu posto, atacando qualquer intruso que se aproxime demais.",
+  "livro": "ameacas_de_arton"
+}

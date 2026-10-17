@@ -1,0 +1,42 @@
+{
+  "id": "pliorex_abissal",
+  "name": "Pliorex Abissal",
+  "nd": 10,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "colossal",
+  "grupo": "sob_as_ondas",
+  "pv": 400,
+  "defesa": 36,
+  "salvaguardas": { "fort": 22, "ref": 16, "von": 10 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 11,
+  "percepcao": 10,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 6, "natacao": 15 },
+  "atributos": { "for": 9, "des": 1, "con": 7, "int": -5, "sab": 0, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 35, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 2, "faces": 12 }], "tipo": "acido" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Abalroar", "acao": "completa", "salvaguarda": "Reflexos", "cd": 30, "efeito_sucesso": "reduz à metade e evita o afogamento", "descricao": "O pliorex abissal percorre até o dobro do seu deslocamento nadando em linha reta e abalroando qualquer criatura ou embarcação em seu caminho. Uma criatura ou embarcação abalroada desta forma sofre 4d10+20 pontos de dano de impacto e, se for uma criatura, começa a se afogar (Ref CD 30 reduz à metade e evita o afogamento)." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com a mordida (teste +39)." },
+    { "nome": "Giro da Morte", "descricao": "Se o pliorex abissal estiver agarrando uma criatura dentro d'água e usar a manobra agarrar novamente para causar dano, causa +6d8 pontos de dano." },
+    { "nome": "Predador das Profundezas", "descricao": "Se estiver agarrando uma criatura Grande ou menor dentro d'água, o pliorex abissal pode se mover a seu deslocamento normal arrastando o alvo (em vez de metade)." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Variedade de pliorex de coloração totalmente branca, encontrada nas profundezas abissais, chegando ao tamanho de uma caravela.",
+  "livro": "ameacas_de_arton"
+}

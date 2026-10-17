@@ -1,0 +1,15 @@
+{
+  "id": "pilao_conspurcado",
+  "name": "Pilão Conspurcado",
+  "categoria": "medio",
+  "preco": 21000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Este pequeno pilão de madeira de aparência sinistra é decorado com símbolos místicos entalhados e fragmentos de ossos encravados. Conta como uma costela de lich. Além dos benefícios desse esotérico, o custo de suas magias de encantamento e necromancia lançadas pelo pilão diminui em -1 PM e a CD para resistir a elas aumenta em +2.",
+  "effects": [
+    { "type": "conta_como", "item": "costela_de_lich" },
+    { "type": "reducao_custo_pm", "value": 1, "escolas": ["encantamento", "necromancia"] },
+    { "type": "bonus_cd_magia", "value": 2, "escolas": ["encantamento", "necromancia"] }
+  ],
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "minauro",
+  "name": "Minauro",
+  "description": "Meio-minotauro, fruto da união entre um minotauro e uma fêmea humana, élfica ou qareen (filhas dessa união nascem com a forma da mãe; apenas raramente nasce um minauro verdadeiro). Lembra um humano robusto com cabeça bovina, olhos grandes e expressivos, focinho curto e chifres menores que os de um minotauro, e pés humanos. Não demonstra a grande força da raça de Tauron, mas também está livre de suas fraquezas, podendo ter qualquer sexo. Quando criado no Império, age com disciplina e orgulho tauricos, mas sua parte humana traz curiosidade por assuntos \"proibidos\" como magia arcana, armas de longo alcance ou talentos ladinos.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "forca": 1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["ajuste_de_atributo_minauro", "faro", "mente_aberta", "plurivalente"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devocao": null,
+  "livro": "ameacas_de_arton"
+}

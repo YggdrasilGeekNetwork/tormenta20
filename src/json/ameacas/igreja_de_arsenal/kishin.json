@@ -1,0 +1,44 @@
+{
+  "id": "kishin",
+  "name": "Kishin",
+  "nd": 13,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "igreja_de_arsenal",
+  "pv": 617,
+  "pm": null,
+  "defesa": 46,
+  "salvaguardas": { "fort": 26, "ref": 13, "von": 20 },
+  "reducao_de_dano": 15,
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "resistencia_a_magia": 2,
+  "vulnerabilidades": [],
+  "iniciativa": 16,
+  "percepcao": 9,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 12, "des": 6, "con": 10, "int": null, "sab": 3, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Armamento adaptativo",
+      "quantidade": 2,
+      "bonus": 39,
+      "dano": [
+        { "dados": [], "bonus": 0, "tipo": "variável (veja Armamento Adaptativo)" }
+      ],
+      "critico": "variável"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Armamento Adaptativo", "descricao": "Máquina de combate com armas mágicas acopladas a seu corpo. A cada rodada, escolhe uma das seguintes armas para seus ataques: Uivante (montante, 2d6+66, 19, mais 2d6 de frio — quando usa a ação agredir pode aumentar sua sobrecarga em 1 nível; se fizer isso, as criaturas atingidas pelo Uivante neste turno ficam enredadas por 1 rodada, Reflexos CD 35 evita); Finitude (lança montada, 3d8+51, 18/x3 — quando faz uma investida, pode aumentar sua sobrecarga em 1 nível; se acertar o ataque, causa +4d8 pontos de dano e recupera uma quantidade de PV igual a esse dano adicional); Método (martelo de guerra, 4d12+55, 19/x3 — quando derruba um inimigo, pode aumentar sua sobrecarga em 1 nível para fazer um ataque adicional contra essa criatura)." },
+    { "nome": "Sobrecarga", "descricao": "A sobrecarga do kishin inflama e fortalece seus mecanismos. Para cada nível de sobrecarga, recebe +2 em testes de perícia e rolagens de dano, mas sofre 5 pontos de dano de fogo (sua RD se aplica normalmente) no início de cada um de seus turnos. A sobrecarga volta a zero ao fim da cena." },
+    { "nome": "Zona de Perigo", "acao": "movimento", "descricao": "O kishin aumenta sua sobrecarga em 1 nível." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d4 lascas adaptativas (CD 28 para extrair, cada lasca vale T$ 1.000 para fabricar armas superiores).",
+  "description": "Golem com a mesma aparência do Kishinauros, colosso que hoje atua como avatar de Arsenal. Assim como outros deuses enviam aspectos para auxiliar seus devotos em tarefas significativas, os servos de Arsenal também podem conjurar estes construtos sagrados. Quando conjurado, comporta-se como um golem de mente muito limitada, incapaz de falar, apenas executando comandos simples.",
+  "livro": "ameacas_de_arton"
+}

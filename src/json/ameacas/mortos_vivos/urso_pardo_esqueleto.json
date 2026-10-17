@@ -1,0 +1,51 @@
+{
+  "id": "urso_pardo_esqueleto",
+  "name": "Urso Pardo Esqueleto",
+  "nd": 4,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "mortos_vivos",
+  "pv": 180,
+  "pm": null,
+  "defesa": 20,
+  "salvaguardas": { "fort": 4, "ref": 16, "von": 10 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "corte": 5, "frio": 5, "perfuração": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 3,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": -1, "con": 4, "int": null, "sab": -1, "car": -3 },
+  "pericias": { "atletismo": 9 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 15,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 4, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 15,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 4, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com a mordida (teste +17)." },
+    { "nome": "Garras Destruidoras", "descricao": "Quando causa dano com suas garras, o urso pardo esqueleto pode rolar novamente qualquer resultado 1 ou 2 na rolagem de dano." },
+    { "nome": "Ossos Pontiagudos", "descricao": "No início de cada um de seus turnos, o urso causa 2d6+7 pontos de dano de perfuração em uma criatura Média ou menor que esteja agarrando. Se a criatura sofrer dano desta forma, ela fica sangrando (Fortitude CD 18 evita o sangramento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Esqueleto animado de um urso pardo, usando suas garras ósseas afiadas e ossos pontiagudos para dilacerar vítimas agarradas.",
+  "livro": "ameacas_de_arton"
+}

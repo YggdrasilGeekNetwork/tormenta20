@@ -1,0 +1,50 @@
+{
+  "id": "minotauro_chefe_da_manada",
+  "name": "Minotauro Chefe da Manada",
+  "nd": 6,
+  "tipo": "Humanoide",
+  "subtipo": "minotauro",
+  "tamanho": "medio",
+  "grupo": "uivantes",
+  "pv": 232,
+  "defesa": 26,
+  "salvaguardas": { "fort": 17, "ref": 11, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "frio": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 11,
+  "percepcao": 10,
+  "visao": ["faro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 2, "des": 4, "con": 3, "int": -1, "sab": 3, "car": -2 },
+  "pericias": { "atletismo": 9, "furtividade": 11, "sobrevivencia": 10 },
+  "ataques": [
+    {
+      "nome": "Machado de Batalha",
+      "quantidade": 2,
+      "bonus": 19,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 12, "tipo": "corte" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Chifres",
+      "bonus": 19,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 12, "tipo": "perfuração" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Liderança Brutal", "descricao": "Aliados do minotauro chefe da Manada em alcance curto recebem os bônus em ataque e dano de sua habilidade Marca da Presa." },
+    { "nome": "Marca da Presa", "acao": "movimento", "descricao": "O chefe analisa uma criatura em alcance curto. Até o fim da cena, ele recebe +2 em testes de perícia e +1d8 em rolagens de dano contra essa criatura (esses bônus são dobrados contra anões, elfos e humanos)." },
+    { "nome": "Ver Vermelho", "descricao": "Se tiver sido alvo de um efeito hostil (ataque, habilidade, magia...) desde o fim de seu último turno, o minotauro recebe +2 em testes de perícia." },
+    { "nome": "Instinto Nevado", "descricao": "Em ambientes nevados, a perícia Sobrevivência do minotauro aumenta para +12 (em vez de +10)." }
+  ],
+  "equipamento": ["Gibão de peles", "Machado de batalha preciso x2"],
+  "tesouro": "Padrão.",
+  "description": "Líder de um bando da Manada, comandando seus guerreiros com bônus compartilhados de sua experiência de caça. Suas perícias de sobrevivência aumentam ainda mais em ambientes nevados.",
+  "livro": "ameacas_de_arton"
+}

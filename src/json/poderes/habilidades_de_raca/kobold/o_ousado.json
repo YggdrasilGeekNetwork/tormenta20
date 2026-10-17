@@ -1,0 +1,13 @@
+{
+  "id": "o_ousado",
+  "name": "O Ousado",
+  "type": "habilidade_de_raca",
+  "race": "kobold",
+  "description": "Uma vez por cena, vocês podem gastar 1 PM e uma ação de movimento para que um membro do bando se afaste e aja sozinho. Ele age a partir da sua próxima rodada, tem deslocamento 9m e pode gastar uma ação padrão para causar 2d4 pontos de dano de corte em uma criatura adjacente (a cada patamar além de iniciante, cada dado desse dano aumenta em um passo). Ele é Pequeno, tem as mesmas características do restante do bando, 1 PV, e retorna ao bando quando \"morto\" ou ao fim da cena.",
+  "effects": {
+    "cost_pm": 1,
+    "frequency": "1_per_scene",
+    "splits_off_member": { "size": "pequeno", "pv": 1, "movement": 9, "base_damage": "2d4", "damage_type": "corte" }
+  },
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,53 @@
+{
+  "id": "verilemur",
+  "name": "Verilêmur",
+  "nd": 0.5,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "minusculo",
+  "grupo": "mascotes_e_familiares",
+  "pv": 12,
+  "pm": null,
+  "defesa": 13,
+  "salvaguardas": { "fort": 0, "ref": 3, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 7,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 0, "des": 2, "con": 1, "int": -4, "sab": 3, "car": -1 },
+  "pericias": { "intuicao": 10 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 7,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 6, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Aura de Ordem (mágica)",
+      "salvaguarda": "Vontade",
+      "cd": 15,
+      "descricao": "O verilêmur emana uma aura de ordem com 9m de raio. Criaturas que comecem seu turno dentro da aura sofrem –10 em Acrobacia, Enganação, Furtividade e Ladinagem, não podem mentir deliberadamente e seus efeitos de encantamento, ilusão e transmutação são dissipados (Vontade CD 15 reduz a penalidade para –5, permite mentir e não dissipa os efeitos)."
+    }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "especial (vigilante)",
+    "restricao": "apenas devotos de Khalmyr",
+    "iniciante": "Você pode lançar a magia Círculo da Justiça (atributo-chave Sabedoria); se já souber essa magia, seu custo diminui em –1 PM.",
+    "veterano": "Quando falha em um teste de resistência contra uma magia, você pode gastar 2 PM para rolar novamente esse teste (apenas uma vez por teste).",
+    "mestre": "A CD para resistir à sua magia Círculo da Justiça aumenta em +5."
+  },
+  "description": "Pequeno mamífero noturno que se alimenta de frutas e insetos, conhecido como 'protetor da Ordem' e animal sagrado de Khalmyr. Emana uma aura de ordem que diminui a instabilidade, a desordem e a mentira ao seu redor, tornando mais difícil mentir ou usar poderes/magias de ilusão, invisibilidade, influência ou controle da mente; dentro da aura, uma criatura transformada magicamente reverte à forma verdadeira, e magias/poderes de teletransporte, transporte planar e alteração da realidade também podem falhar (quanto mais verilêmures presentes, menores as chances desses efeitos funcionarem). São mantidos em áreas de acesso restrito, tribunais, salas de interrogatório ou prisões; matar um atrai a ira de Khalmyr — pelo resto da vida o criminoso não poderá mentir nem usar os poderes anulados pelo animal.",
+  "livro": "ameacas_de_arton"
+}

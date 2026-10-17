@@ -1,0 +1,54 @@
+{
+  "id": "lider_goblin_de_sombreiro",
+  "name": "Líder Goblin de Sombreiro",
+  "nd": 6,
+  "tipo": "Humanoide",
+  "subtipo": "goblin",
+  "tamanho": "pequeno",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 190,
+  "pm": null,
+  "defesa": 28,
+  "salvaguardas": { "fort": 13, "ref": 18, "von": 7 },
+  "reducao_de_dano": null,
+  "imunidades": ["fascinado", "ofuscado"],
+  "resistencias": { "condições de sentidos": 2 },
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 5,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "escalada": 9 },
+  "atributos": { "for": -1, "des": 5, "con": 2, "int": 0, "sab": 0, "car": 0 },
+  "pericias": { "enganacao": 7, "furtividade": 13 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "quantidade": 2,
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 8, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Bacamarte (à distância)",
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 6 }], "bonus": 8, "tipo": "impacto" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "Quando passa em um teste de Reflexos para reduzir o dano de um efeito à metade, em vez disso não sofre nenhum dano." },
+    { "nome": "Ataque Furtivo", "descricao": "Causa +3d6 de dano adicional quando ataca um alvo desprevenido ou surpreso." },
+    { "nome": "Bacamarte", "descricao": "Quando ataca, o líder goblin de sombreiro faz um teste de ataque e compara o resultado com a Defesa de cada criatura em um cone de 6m. Quando ataca, ele é empurrado 3m na direção oposta ao disparo." },
+    { "nome": "Poncho", "acao": "reacao", "descricao": "O poncho esvoaçante do líder faz mais do que protegê-lo do clima. Uma vez por cena, o líder pode usá-lo para evitar um ataque recém-sofrido." },
+    { "nome": "Sombreiro", "descricao": "Quando o líder ataca pela primeira vez em um combate, sua vítima é considerada desprevenida contra este ataque." },
+    { "nome": "Valentão", "descricao": "O líder recebe +2 em testes de ataque e rolagens de dano contra oponentes caídos, desprevenidos, enredados, flanqueados ou indefesos." }
+  ],
+  "equipamento": ["Adaga x2", "Balas x20", "Bacamarte"],
+  "tesouro": "Metade mais sombreiro.",
+  "description": "Goblin de sombreiro mais habilidoso, liderando o bando com bacamarte e astúcia.",
+  "livro": "ameacas_de_arton"
+}

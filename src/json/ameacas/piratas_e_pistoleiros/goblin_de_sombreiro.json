@@ -1,0 +1,51 @@
+{
+  "id": "goblin_de_sombreiro",
+  "name": "Goblin de Sombreiro",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "goblin",
+  "tamanho": "pequeno",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 16,
+  "pm": null,
+  "defesa": 18,
+  "salvaguardas": { "fort": 9, "ref": 11, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": ["fascinado", "ofuscado"],
+  "resistencias": { "condições de sentidos": 2 },
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 3,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "escalada": 9 },
+  "atributos": { "for": -1, "des": 4, "con": 2, "int": 0, "sab": 0, "car": 0 },
+  "pericias": { "enganacao": 5, "furtividade": 10 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "quantidade": 2,
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 4, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Traque (à distância)",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 4, "tipo": "impacto" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Furtivo", "descricao": "Causa +1d6 de dano adicional quando ataca um alvo desprevenido ou surpreso." },
+    { "nome": "Sombreiro", "descricao": "Quando o goblin de sombreiro ataca pela primeira vez em um combate, sua vítima é considerada desprevenida contra esse ataque." },
+    { "nome": "Valentão", "descricao": "O goblin recebe +2 em testes de ataque e rolagens de dano contra oponentes caídos, desprevenidos, enredados, flanqueados ou indefesos." }
+  ],
+  "equipamento": ["Adaga x2", "Balas x20", "Traque"],
+  "tesouro": "Metade mais sombreiro.",
+  "description": "Goblin bandoleiro que ronda as planícies do continente com chapéus largos, ponchos coloridos e forte sotaque influenciado pela cultura de Smokestone. Aborda viajantes com propostas atraentes ou falsos pedidos de ajuda, buscando separá-los do grupo para atacar com vantagem numérica, armas ocultas sob os ponchos.",
+  "livro": "ameacas_de_arton"
+}

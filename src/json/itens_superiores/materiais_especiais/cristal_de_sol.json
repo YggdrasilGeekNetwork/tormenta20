@@ -1,0 +1,28 @@
+{
+  "id": "cristal_de_sol",
+  "name": "Cristal de Sol",
+  "type": "material_especial",
+  "aparencia": "Cristais usados pelos ursos das neves para armazenar calor.",
+  "origem": "Perdem suas propriedades em algumas semanas quando não utilizados, tornando difícil encontrá-los à venda.",
+  "bonus_geral": null,
+  "precos_adicionais": null,
+  "description": "Utilizados pelos ursos das neves para armazenar calor, estes cristais perdem suas propriedades em algumas semanas quando não utilizados, tornando difícil encontrá-los à venda.",
+  "effects": {
+    "arma": [
+      { "type": "bonus_dano", "value": 2, "tipo_dano": "fogo", "pre_requisito": "exige uma peça; só pode ser aplicado a armas de corte ou perfuração" }
+    ],
+    "armadura_leve": [
+      { "type": "rerolar_resistencia_frio", "pre_requisito": "exige uma peça", "descricao": "Quando faz um teste de resistência contra um efeito de frio, você pode rolar dois dados e usar o melhor resultado." }
+    ],
+    "armadura_pesada": [
+      { "type": "rerolar_resistencia_frio", "pre_requisito": "exige uma peça", "descricao": "Quando faz um teste de resistência contra um efeito de frio, você pode rolar dois dados e usar o melhor resultado." }
+    ],
+    "escudo": [
+      { "type": "rerolar_resistencia_frio", "pre_requisito": "exige uma peça", "descricao": "Quando faz um teste de resistência contra um efeito de frio, você pode rolar dois dados e usar o melhor resultado." }
+    ],
+    "esoterico": [
+      { "type": "inflama_vitima", "custo_pm": 1, "pre_requisito": "exige uma peça", "descricao": "Quando lança uma magia de fogo, você pode gastar 1 PM. Se fizer isso, criaturas que falhem em seu teste de resistência contra a magia ficam em chamas (se a magia já deixa a vítima em chamas, em vez disso o dano das chamas aumenta em +1d6 cumulativo)." }
+    ]
+  },
+  "livro": "ameacas_de_arton"
+}

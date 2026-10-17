@@ -1,0 +1,43 @@
+{
+  "id": "tengu_bandoleiro",
+  "name": "Tengu Bandoleiro",
+  "nd": 6,
+  "tipo": "Espírito",
+  "subtipo": "tengu",
+  "tamanho": "medio",
+  "grupo": "imperio_de_jade",
+  "pv": 51,
+  "pm": null,
+  "defesa": 25,
+  "salvaguardas": { "fort": 12, "ref": 19, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 7,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 12 },
+  "atributos": { "for": 2, "des": 4, "con": 1, "int": 2, "sab": 0, "car": -1 },
+  "pericias": { "acrobacia": 9, "enganacao": 6, "sobrevivencia": 5 },
+  "ataques": [
+    {
+      "nome": "Katana",
+      "quantidade": 2,
+      "bonus": 25,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 21, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Asas Desorientadoras", "descricao": "Se não estiver usando suas asas para voar, o tengu bandoleiro pode fintar como ação de movimento." },
+    { "nome": "Ataque Reflexo", "acao": "reacao", "descricao": "Uma vez por rodada, o tengu pode fazer um ataque corpo a corpo contra um alvo em seu alcance natural que esteja desprevenido ou que se mova voluntariamente para fora desse alcance." },
+    { "nome": "Imprevisível como o Vento", "descricao": "Uma vez por rodada, quando não está voando e faz um ataque ou uma finta, o tengu pode rolar dois dados e usar o melhor resultado." }
+  ],
+  "equipamento": ["Katana"],
+  "tesouro": "Padrão.",
+  "description": "Tengu que abandonou a honra de outrora, atuando como bandoleiro contra viajantes e vilarejos. Prefere alvos bem equipados — guerreiros e cavaleiros que enfrenta sem temor, em busca de boas armas e novos desafios.",
+  "livro": "ameacas_de_arton"
+}

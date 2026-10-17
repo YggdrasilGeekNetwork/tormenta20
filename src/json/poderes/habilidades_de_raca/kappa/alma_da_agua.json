@@ -1,0 +1,12 @@
+{
+  "id": "alma_da_agua",
+  "name": "Alma da Água",
+  "type": "habilidade_de_raca",
+  "race": "kappa",
+  "description": "Você é uma criatura do tipo espírito e tem deslocamento de natação igual ao seu deslocamento terrestre.",
+  "effects": {
+    "creature_type": "espirito",
+    "swim_speed_equals_land_speed": true
+  },
+  "livro": "ameacas_de_arton"
+}

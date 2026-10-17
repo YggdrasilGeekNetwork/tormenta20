@@ -1,0 +1,11 @@
+{
+  "id": "sensibilidade_a_luz",
+  "name": "Sensibilidade a Luz",
+  "type": "habilidade_de_raca",
+  "race": "kobold",
+  "description": "Quando expostos à luz do sol ou similar, vocês ficam ofuscados.",
+  "effects": {
+    "condition_when_in_sunlight": "ofuscado"
+  },
+  "livro": "ameacas_de_arton"
+}

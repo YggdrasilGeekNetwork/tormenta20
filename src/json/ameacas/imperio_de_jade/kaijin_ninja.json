@@ -1,0 +1,55 @@
+{
+  "id": "kaijin_ninja",
+  "name": "Kaijin Ninja",
+  "nd": 13,
+  "tipo": "Monstro",
+  "subtipo": "kaijin",
+  "tamanho": "medio",
+  "grupo": "imperio_de_jade",
+  "pv": 450,
+  "pm": 48,
+  "defesa": 36,
+  "salvaguardas": { "fort": 20, "ref": 26, "von": 12 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 17,
+  "percepcao": 12,
+  "visao": [],
+  "deslocamento": { "terrestre": 12, "escalada": 9 },
+  "atributos": { "for": 2, "des": 7, "con": 4, "int": 3, "sab": 2, "car": -2 },
+  "pericias": { "acrobacia": 17, "furtividade": 27, "ladinagem": 17 },
+  "ataques": [
+    {
+      "nome": "Espada curta",
+      "quantidade": 3,
+      "bonus": 32,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 20, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Zarabatana (à distância)",
+      "bonus": 34,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 15, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "Quando passa em um teste de Reflexos para reduzir o dano de um efeito à metade, em vez disso não sofre nenhum dano." },
+    { "nome": "Resistência a Lefeu e Tormenta", "descricao": "Recebe +5 em testes de resistência contra efeitos causados por lefeu e pela Tormenta." },
+    { "nome": "Ataque Furtivo", "descricao": "Causa +6d6 de dano adicional quando ataca um alvo desprevenido ou surpreso." },
+    { "nome": "Sangue Corrosivo", "acao": "reacao", "descricao": "Uma vez por rodada, quando o kaijin ninja sofre dano, todas as criaturas adjacentes a ele sofrem 4d6 pontos de dano de ácido." },
+    { "nome": "Sombra", "descricao": "O kaijin não sofre penalidade em testes de Furtividade por se mover ao seu deslocamento normal e reduz a penalidade em Furtividade por atacar e fazer outras ações chamativas para –10." },
+    { "nome": "Veneno", "descricao": "O ataque de zarabatana expõe o alvo a essência de sombra (debilitado, Fortitude CD 37 reduz para fraco)." },
+    { "nome": "Truques Ninjas", "descricao": "Lança as seguintes magias simuladas como um conjurador arcano de 12º nível (CD 37): Imagem Espelhada (padrão, 5 PM, 4 cópias ilusórias, +8 na Defesa), Invisibilidade (padrão, 6 PM, até o fim da cena), Névoa (padrão, 8 PM, cubo de 6m em alcance curto), Primor Atlético (padrão, 4 PM, deslocamento +9m e +10 em Atletismo), Teia (padrão, 4 PM, cubo de terreno difícil de 6m, enredado)." }
+  ],
+  "equipamento": ["Dardos x20", "Espada curta certeira", "Essência de sombra x1d4", "Gazua", "Manto camuflado aprimorado", "Zarabatana certeira (todos adaptados)"],
+  "tesouro": "Padrão.",
+  "description": "Kaijin que manteve astúcia e disciplina suficientes para dominar as artes ninja, comandando capangas e outros kaijin em planos de vingança meticulosos contra o mundo que o rejeitou.",
+  "livro": "ameacas_de_arton"
+}

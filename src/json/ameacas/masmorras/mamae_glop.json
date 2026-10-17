@@ -1,0 +1,42 @@
+{
+  "id": "mamae_glop",
+  "name": "Mamãe Glop",
+  "nd": 2,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "masmorras",
+  "pv": 70,
+  "pm": null,
+  "defesa": 17,
+  "salvaguardas": { "fort": 13, "ref": 7, "von": 2 },
+  "reducao_de_dano": null,
+  "imunidades": ["ácido"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 2,
+  "percepcao": -1,
+  "visao": ["percepção às cegas"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 2, "des": -1, "con": 2, "int": null, "sab": -3, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 2, "tipo": "impacto" },
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 0, "tipo": "ácido" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Glops Filhinhos", "descricao": "A mamãe glop está sempre acompanhada por 1d4 glops, que a protegem instintivamente. Esses glops, assim como aqueles gerados pela Meiose Glópica, não rendem pontos de experiência." },
+    { "nome": "Meiose Glópica", "acao": "livre", "descricao": "Quando ameaçada, a mamãe pode gerar outros glops filhinhos para protegê-la. No início de cada turno da mamãe, role um dado; em um resultado par, um glop surge num espaço adjacente a ela. Ele age normalmente, no turno da mamãe, a partir da próxima rodada." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão.",
+  "description": "Gosma esverdeada em formato de gota do tamanho de uma carroça, origem incerta — talvez forma avançada de glooop, fusão de centenas de glops, ou produto acidental de laboratórios alquímicos. Estabelece um ninho de onde bandos de glops exploram a região ao redor, retornando para serem reabsorvidos e provendo seu sustento.",
+  "livro": "ameacas_de_arton"
+}

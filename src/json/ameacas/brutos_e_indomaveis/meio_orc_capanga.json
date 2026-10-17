@@ -1,0 +1,40 @@
+{
+  "id": "meio_orc_capanga",
+  "name": "Meio-Orc Capanga",
+  "nd": 1,
+  "tipo": "Humanoide",
+  "subtipo": "meio-orc",
+  "tamanho": "medio",
+  "grupo": "brutos_e_indomaveis",
+  "pv": 12,
+  "pm": null,
+  "defesa": 16,
+  "salvaguardas": { "fort": 11, "ref": 4, "von": 2 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 3,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 3, "des": 1, "con": 2, "int": 0, "sab": -1, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Maça",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 12, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ímpeto Agressor", "descricao": "O meio-orc capanga recebe +1d10 na rolagem de dano de seu primeiro ataque na cena." }
+  ],
+  "equipamento": ["Couro batido", "Maça"],
+  "tesouro": "Metade.",
+  "description": "Meio-orc musculoso que abre o combate com fúria total, atacando com toda a força antes que os inimigos possam se reorganizar.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "pamgra",
+  "name": "Pamgra",
+  "nd": 7,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "medio",
+  "grupo": "elementais",
+  "pv": 280,
+  "pm": null,
+  "defesa": 31,
+  "salvaguardas": { "fort": 20, "ref": 14, "von": 7 },
+  "reducao_de_dano": "10/impacto",
+  "imunidades": ["acertos críticos", "ácido", "atordoado", "cansaço", "efeitos de metabolismo", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": ["eletricidade"],
+  "iniciativa": 7,
+  "percepcao": 6,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "escalada": 6 },
+  "atributos": { "for": 8, "des": 0, "con": 4, "int": -3, "sab": -1, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 15, "tipo": "impacto" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Cristalário", "descricao": "Os cristais afiados do corpo do pamgra ferem profundamente suas vítimas. Criaturas atingidas por seus ataques ficam sangrando (Fortitude CD 26 evita)." },
+    { "nome": "Golpe Avassalador", "acao": "livre", "descricao": "Quando acerta um ataque de pancada, arremessa a vítima 1d6 x 1,5m em uma direção à escolha dele (Fortitude CD 24 evita). A vítima fica caída e, se atingir um obstáculo, sofre 1d6 de dano de impacto por 1,5m arremessado." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d4 doses de éter elemental (ácido) (CD 22 para extrair).",
+  "description": "Elemental da terra com tamanho e proporções de um grande gorila, feito de pedras amalgamadas com lama ou rocha liquefeita, com um pedaço de cristal sem feições no lugar da cabeça e formações cristalinas afiadas nos punhos. Mais agressivo que outros elementais da terra; embora encontrados sozinhos, costumam formar grandes grupos para investir com violência sobre tudo que encontram, sem táticas elaboradas, apenas avançando e esmagando pela força dos números. Especialmente perigosos em áreas montanhosas; em grande número, podem entrar em frenesi e esmurrar o chão em sincronia, causando terremotos e avalanches.",
+  "livro": "ameacas_de_arton"
+}

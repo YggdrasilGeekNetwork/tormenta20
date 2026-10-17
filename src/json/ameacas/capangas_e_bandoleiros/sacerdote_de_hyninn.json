@@ -1,0 +1,44 @@
+{
+  "id": "sacerdote_de_hyninn",
+  "name": "Sacerdote de Hyninn",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "goblin",
+  "tamanho": "pequeno",
+  "grupo": "capangas_e_bandoleiros",
+  "pv": 49,
+  "pm": 28,
+  "defesa": 17,
+  "salvaguardas": { "fort": 5, "ref": 7, "von": 12 },
+  "reducao_de_dano": null,
+  "imunidades": ["efeitos mentais"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 6,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "escalada": 9 },
+  "atributos": { "for": -1, "des": 3, "con": 1, "int": 0, "sab": 3, "car": 2 },
+  "pericias": { "enganacao": 7, "ladinagem": 10, "religiao": 6 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "quantidade": 2,
+      "bonus": 10,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 5, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Bênção do Gatuno", "acao": "livre", "descricao": "Uma vez por cena, o sacerdote de Hyninn lança uma magia como uma ação livre, pagando seu custo normal." },
+    { "nome": "Forma de Macaco (mágica)", "acao": "completa", "custos": { "value": 2, "type": "PM" }, "descricao": "O sacerdote se transforma em um macaco, adquirindo tamanho Minúsculo (+5 Furtividade, –5 em manobras). O equipamento desaparece (perde seus benefícios) até voltar ao normal. A transformação dura indefinidamente, terminando se ele atacar, lançar magia ou sofrer dano." },
+    { "nome": "Malandragem Divina", "acao": "livre", "custos": { "value": 1, "type": "PM" }, "descricao": "Quando faz um teste de perícia, o sacerdote usa Enganação no lugar da perícia original." },
+    { "nome": "Magias (clérigo de Hyninn, 2º nível, CD 18)", "descricao": "Arma Espiritual (2 PM; +1 na Defesa e reação de 2d6 corte ao sofrer ataque corpo a corpo), Curar Ferimentos (2 PM; 3d8+3 PV), Despedaçar (1 PM; 1d8+2 de impacto, dobrado contra construtos/objetos, atordoa)." }
+  ],
+  "equipamento": ["Adaga", "Gazua", "Símbolo sagrado de Hyninn"],
+  "tesouro": "Padrão.",
+  "description": "Embora dificilmente vistos como 'sacerdotes' no sentido mais estrito, muitos clérigos de Hyninn dedicam-se a zelar pelos bandidos e delinquentes preferidos por sua divindade. Em grandes cidades, seus templos ocultos acolhem criminosos fugitivos, curando-os e acobertando-os da lei — mas no momento em que um 'protegido' demonstra ingenuidade ou estupidez, é escorraçado sem cerimônia. Com seus poderes, não é raro que clérigos de Hyninn se tornem chefões do crime, usando os milagres do Deus dos Ladrões para assegurar o sucesso de sua organização.",
+  "livro": "ameacas_de_arton"
+}

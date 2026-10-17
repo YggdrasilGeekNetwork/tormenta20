@@ -1,0 +1,43 @@
+{
+  "id": "orc_rei",
+  "name": "Orc Rei",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "orc",
+  "tamanho": "medio",
+  "grupo": "brutos_e_indomaveis",
+  "pv": 210,
+  "pm": null,
+  "defesa": 25,
+  "salvaguardas": { "fort": 15, "ref": 11, "von": 7 },
+  "reducao_de_dano": null,
+  "imunidades": ["atordoado", "cansaço"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 4,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": 1, "con": 4, "int": 0, "sab": 0, "car": 1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Lança",
+      "quantidade": 2,
+      "bonus": 18,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura de Fúria", "descricao": "Outros orcs sob comando do orc rei em um raio de 30m recebem +2 na Defesa, em testes de perícia e em rolagens de dano." },
+    { "nome": "Estocada Atroz", "descricao": "Uma criatura atingida por um ataque de lança do rei fica sangrando (Fortitude CD 20 evita)." },
+    { "nome": "Sensibilidade a Luz", "descricao": "Quando exposto à luz do sol ou similar, o orc fica ofuscado." }
+  ],
+  "equipamento": ["Couro batido", "Escudo pesado", "Lança"],
+  "tesouro": "Dobro.",
+  "description": "É raro um líder orc se manter no comando por muito tempo — logo é desafiado e vencido por alguém mais forte, jovem ou oportunista. Um orc rei é aquele que conseguiu, pela força e selvageria, se manter no topo por tempo suficiente para reunir uma aura de fúria que contagia toda a tribo ao seu redor.",
+  "livro": "ameacas_de_arton"
+}

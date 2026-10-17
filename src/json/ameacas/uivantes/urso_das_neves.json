@@ -1,0 +1,52 @@
+{
+  "id": "urso_das_neves",
+  "name": "Urso das Neves",
+  "nd": 5,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "uivantes",
+  "pv": 220,
+  "defesa": 22,
+  "reducao_de_dano": 5,
+  "resistencias": { "frio": 5 },
+  "imunidades": [],
+  "vulnerabilidades": [],
+  "salvaguardas": { "fort": 17, "ref": 11, "von": 5 },
+  "iniciativa": 6,
+  "percepcao": 9,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12, "natacao": 12 },
+  "atributos": { "for": 7, "des": 1, "con": 6, "int": -4, "sab": 2, "car": -2 },
+  "pericias": { "atletismo": 12 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 7, "tipo": "perfuração" }
+      ]
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 7, "tipo": "corte" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com a mordida (teste +19)." }
+  ],
+  "familiar": null,
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "iniciante": "Seu deslocamento muda para 12m e você recebe redução de frio 5.",
+    "veterano": "Seu deslocamento muda para 12m (normal e de natação) e a redução de frio aumenta para 10.",
+    "mestre": "A redução de frio aumenta para 20."
+  },
+  "tesouro": "1d3 peças de cristais de sol (CD 20 para extrair).",
+  "description": "Versão glacial do urso das cavernas, com pelagem completamente branca, olhos, focinho e garras vermelhos, e protuberâncias dorsais afiadas cobertas de gelo que supostamente absorvem e concentram o calor do sol. Predador perigoso e mais ágil do que parece, excelente nadador que mergulha atrás de presas em rios e lagos gelados. Existem lendas de aventureiros que domaram ursos das neves, já que a área próxima da cabeça é desguarnecida de cristas.",
+  "livro": "ameacas_de_arton"
+}

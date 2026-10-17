@@ -1,0 +1,40 @@
+{
+  "id": "orc_veterano",
+  "name": "Orc Veterano",
+  "nd": 1,
+  "tipo": "Humanoide",
+  "subtipo": "orc",
+  "tamanho": "medio",
+  "grupo": "brutos_e_indomaveis",
+  "pv": 14,
+  "pm": null,
+  "defesa": 16,
+  "salvaguardas": { "fort": 10, "ref": 5, "von": 1 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 1,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 4, "des": 1, "con": 3, "int": -1, "sab": -1, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Marreta",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 4 }], "bonus": 9, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Sensibilidade a Luz", "descricao": "Quando exposto à luz do sol ou similar, o orc fica ofuscado." }
+  ],
+  "equipamento": ["Couro batido", "Marreta"],
+  "tesouro": "Metade.",
+  "description": "Orc experiente, mais forte e resistente que os combatentes comuns de sua tribo.",
+  "livro": "ameacas_de_arton"
+}

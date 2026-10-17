@@ -1,0 +1,17 @@
+{
+  "id": "kaijin",
+  "name": "Kaijin",
+  "description": "Como os meios-demônios da Tormenta são chamados em Tamu-ra. Por sua terra ter sido corrompida pela tempestade por tantos anos, estes seres são ainda mais fortes e monstruosos que os lefeu do continente. Seus corpos são revestidos de verrugas, couro, pelagem ou carapaça, rostos amontoados de crostas, olhos, presas, quelíceras e antenas, mantendo apenas a estrutura humanoide básica. Quase todos são criaturas selvagens, insanas e amaldiçoadas, cheias de ódio pelo que se tornaram.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "forca": 2, "constituicao": 1, "carisma": -2 },
+  "skill_bonuses": [],
+  "racial_abilities": ["couraca_rubra", "cria_da_tormenta", "disforme", "terror_vivo"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devocao": ["arsenal", "lin_wu"],
+  "livro": "ameacas_de_arton"
+}

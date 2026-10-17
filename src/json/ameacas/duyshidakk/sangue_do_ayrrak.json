@@ -1,0 +1,46 @@
+{
+  "id": "sangue_do_ayrrak",
+  "name": "Sangue do Ayrrak",
+  "nd": 19,
+  "tipo": "Humanoide",
+  "subtipo": "bugbear",
+  "tamanho": "medio",
+  "grupo": "duyshidakk",
+  "pv": 1364,
+  "pm": 57,
+  "defesa": 59,
+  "salvaguardas": { "fort": 32, "ref": 19, "von": 26 },
+  "reducao_de_dano": null,
+  "imunidades": ["efeitos mentais", "medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 21,
+  "percepcao": 17,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 9, "des": 7, "con": 7, "int": 3, "sab": 3, "car": 4 },
+  "pericias": { "atletismo": 24, "diplomacia": 19, "guerra": 18, "intimidacao": 24, "religiao": 18 },
+  "ataques": [
+    {
+      "nome": "Uyzrrak Da'ukthra",
+      "quantidade": 4,
+      "bonus": 52,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 12 }], "bonus": 31, "tipo": "corte" },
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 0, "tipo": "trevas" }
+      ],
+      "critico": "20/x3",
+      "observacao": "o dano de trevas só se aplica a criaturas não duyshidakk"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "O Mundo Como Deve Ser",
+      "descricao": "Cada Sangue do Ayrrak recebe três das habilidades a seguir, escolhidas entre habilidades adjacentes entre si na 'Roda do Akzath' (diagrama do livro): Vida (cura acelerada 15, imunidade a efeitos de metabolismo e veneno, pode lançar Curar Ferimentos e Sopro da Salvação a CD 47); Ignorância, ação livre (entra em fúria: até o fim da cena, +10 em ataque e dano corpo a corpo, +1 no multiplicador de crítico e RD 10, mas não pode fazer ações que exijam calma e concentração); Mudança (pode lançar Metamorfose a CD 47); Fim, ação livre, 5 PM (encerra um efeito sobre um adjacente, incluindo ele mesmo); Morte (pode lançar Assassino Fantasmagórico, Poeira da Podridão e Toque da Morte a CD 47); Conhecimento (resistência a magia +8); Continuidade (uma vez por cena, ao ser reduzido a 0 PV ou menos, fica com 500 PV em vez disso); Início, ação padrão, 10 PM (ele e todas as criaturas em alcance longo voltam ao início do turno anterior do Sangue, desfazendo todas as ações e consequências a partir daquele ponto, exceto o próprio gasto de PM; as demais criaturas repetem as mesmas ações, rolando os dados novamente)."
+    }
+  ],
+  "equipamento": ["Couraça guardiã", "Uyzrrak Da'ukthra"],
+  "tesouro": "Dobro.",
+  "description": "Descendente direto de Thwor Khoshkothruk — filho ou neto que recorre ao direito de sangue para governar, mesmo que essa tradição não seja comum entre os duyshidakk. Cada Sangue do Ayrrak é único: alguns herdaram a argúcia do patriarca, tornando-se estrategistas brilhantes; outros seu magnetismo selvagem, capazes de inspirar grandes tropas; outros sua estupenda força física, atuando como demônios no campo de batalha. Todo Sangue do Ayrrak é líder de muitos guerreiros e está entre os mais temíveis duyshidakk; raramente se ausentam de Lamnor, mas alguns seguem o exemplo de Thwor, percorrendo Arton Norte secretamente para conhecer melhor seus inimigos.",
+  "livro": "ameacas_de_arton"
+}

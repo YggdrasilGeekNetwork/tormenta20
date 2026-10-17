@@ -1,0 +1,14 @@
+{
+  "id": "heranca_do_crocodilo",
+  "name": "Herança do Crocodilo",
+  "type": "habilidade_de_raca",
+  "race": "moreau",
+  "description": "Constituição +1, +1 em dois atributos a sua escolha. Mordida Poderosa: você possui uma arma natural de mordida (dano 1d6, crítico x2, perfuração), com a qual recebe +2 em testes de agarrar; uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a mordida. Predador Aquático: você tem deslocamento de natação 6m e recebe +1 na Defesa e +2 em Furtividade. Surto Reptiliano: uma vez por cena, você pode gastar 1 PM para realizar uma ação de movimento adicional em seu turno.",
+  "effects": {
+    "attribute_bonus": { "constituicao": 1, "chosen": { "count": 2, "value": 1 } },
+    "mordida_poderosa": { "natural_weapon": { "name": "mordida", "damage": "1d6", "critical": "x2", "damage_type": "perfuracao" }, "grapple_bonus": 2, "extra_attack_cost": { "pm": 1 } },
+    "predador_aquatico": { "swim_speed": 6, "defense_bonus": 1, "skill_improvement": { "skill": "furtividade", "value": 2 } },
+    "surto_reptiliano": { "frequency": "1_per_scene", "cost_pm": 1, "extra_movement_action": true }
+  },
+  "livro": "ameacas_de_arton"
+}

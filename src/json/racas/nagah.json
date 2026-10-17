@@ -1,0 +1,17 @@
+{
+  "id": "nagah",
+  "name": "Nagah",
+  "description": "Ser de torso humanoide e corpo de serpente, outrora considerado uma raça de devotos de Allihanna — na verdade um elaborado e duradouro disfarce mantido por Sszzaas enquanto o Deus Serpente tramava seu retorno. Hoje, quase todos os grupos sszzaazitas incluem nagahs. Em sua sociedade, os homens quase sempre são guerreiros, enquanto as mulheres são clérigas ou arcanistas, exercendo a liderança — forte dimorfismo sexual reflete esses papéis.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "penumbra",
+  "vision_range": null,
+  "attribute_bonuses": {},
+  "skill_bonuses": [],
+  "racial_abilities": ["ajuste_de_atributo_nagah", "cauda_nagah", "inocencia_dissimulada", "presentes_de_sszzaas", "fraquezas_ofidicas"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devocao": ["allihanna", "hyninn", "kally", "megalokk", "sszzaas", "tenebra", "wynna"],
+  "livro": "ameacas_de_arton"
+}

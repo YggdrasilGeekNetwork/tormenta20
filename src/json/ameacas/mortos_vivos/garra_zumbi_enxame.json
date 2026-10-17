@@ -1,0 +1,32 @@
+{
+  "id": "garra_zumbi_enxame",
+  "name": "Garra-Zumbi Enxame",
+  "nd": 3,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "mortos_vivos",
+  "pv": 40,
+  "pm": null,
+  "defesa": 19,
+  "salvaguardas": { "fort": 9, "ref": 14, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": ["efeitos de sentidos"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 1,
+  "visao": ["percepção às cegas"],
+  "deslocamento": { "terrestre": 6, "voo": 9 },
+  "atributos": { "for": 3, "des": 4, "con": 3, "int": null, "sab": -3, "car": null },
+  "pericias": {},
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Enxame", "descricao": "Qualquer criatura que comece seu turno no espaço do enxame, ou entre nele, sofre 6d6 pontos de dano de impacto (ou 8d6 contra criaturas agarradas)." },
+    { "nome": "Maré Estranguladora", "acao": "livre", "descricao": "No fim do seu turno, o enxame faz uma manobra agarrar contra todas as criaturas em seu espaço (teste +16). Enquanto estiver agarrada dessa forma, uma criatura fica caída e não pode falar." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Dezenas de garras-zumbi menores agindo em conjunto como um enxame, estrangulando e esmagando qualquer criatura que entre em seu espaço.",
+  "livro": "ameacas_de_arton"
+}

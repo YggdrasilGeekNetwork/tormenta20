@@ -1,0 +1,41 @@
+{
+  "id": "devoto_de_hyninn_simao",
+  "name": "Devoto de Hyninn Simão",
+  "nd": 1,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "capangas_e_bandoleiros",
+  "pv": 26,
+  "pm": null,
+  "defesa": 15,
+  "salvaguardas": { "fort": 0, "ref": 11, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": ["efeitos de movimento"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 3,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": -1, "des": 3, "con": 0, "int": 1, "sab": 0, "car": 2 },
+  "pericias": { "enganacao": 6, "furtividade": 7, "ladinagem": 7 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 8,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 10, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "No Bolso Dói Mais (mágica)", "descricao": "Quando acerta um ataque em corpo a corpo, para cada 1 ponto de dano causado, o devoto rouba T$ 1 da vítima. Mesmo que o devoto seja derrotado, há 75% de chance de que esses tibares tenham desaparecido para sempre, louvado seja Hyninn." },
+    { "nome": "Truque de Espelhos", "acao": "reação", "descricao": "Uma vez por rodada, quando é atacado, o devoto pode enganar o atacante com uma distração, fazendo com que o ataque erre automaticamente (Vontade CD 16 evita). Só pode usar esta habilidade uma vez por cena contra cada criatura." }
+  ],
+  "equipamento": ["Adaga", "Gazua"],
+  "tesouro": "Metade.",
+  "description": "Devoto mais experiente de Hyninn, com um faro ainda mais afiado para a oportunidade — e as graças do deus para cobrir seus rastros.",
+  "livro": "ameacas_de_arton"
+}

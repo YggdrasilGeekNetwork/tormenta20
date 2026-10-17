@@ -1,0 +1,12 @@
+{
+  "id": "asas_desorientadoras",
+  "name": "Asas Desorientadoras",
+  "type": "habilidade_de_raca",
+  "race": "tengu",
+  "description": "Quando estão livres, suas asas podem ser usadas para distrair seus oponentes. Se não estiver usando-as para voar, você recebe os benefícios de Finta Aprimorada. Se já tiver esse poder, em vez disso o bônus em Enganação para fintar aumenta para +5.",
+  "effects": {
+    "grants_power_if_not_flying": "finta_aprimorada",
+    "if_already_has_it": { "feint_bonus": 5 }
+  },
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "elefante",
+  "name": "Elefante",
+  "nd": 7,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "montarias",
+  "pv": 260,
+  "pm": null,
+  "defesa": 32,
+  "salvaguardas": { "fort": 23, "ref": 7, "von": 11 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 10,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 4, "des": -1, "con": 4, "int": -4, "sab": 1, "car": 0 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Presas",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 26, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Tromba",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 22, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arremessar", "acao": "movimento", "descricao": "Se começar seu turno agarrando uma criatura Média ou menor, o elefante arremessa a vítima 1d6 x 1,5m em uma direção à escolha dele. A vítima sofre 2d6 pontos de dano de impacto, fica caída e, se atingir algum obstáculo, sofre +2d6 pontos de dano (Reflexos CD 24 reduz à metade e evita a condição caído)." },
+    { "nome": "Atropelamento", "acao": "completa", "descricao": "O elefante percorre até o dobro de seu deslocamento. Pode passar pelo espaço ocupado de quaisquer inimigos menores que ele, mas não pode passar duas vezes pelo mesmo espaço. Criaturas atropeladas sofrem 2d8+26 pontos de dano de impacto e ficam caídas (Reflexos CD 24 reduz à metade e evita a condição). Recarga (ação de movimento)." },
+    { "nome": "Pisotear", "acao": "padrão", "descricao": "Uma criatura que o elefante esteja agarrando, ou que esteja caída adjacente a ele, sofre 4d8+52 pontos de dano de impacto e fica fraca por 1 rodada (Fortitude CD 24 reduz à metade e evita a condição)." },
+    { "nome": "Prender", "acao": "livre", "descricao": "Se o elefante acerta um ataque de tromba, pode fazer a manobra agarrar ou derrubar (teste +29)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "montaria (Enorme)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 12m e ignora terreno difícil.",
+    "veterano": "Uma vez por rodada, você pode sacar um item ou pegar um objeto solto em alcance de 4,5m como ação livre.",
+    "mestre": "Você recebe +5 em testes de manobra para atropelar e, uma vez por rodada, se vencer o teste para atropelar uma criatura, pode pagar 1 PM para fazer um ataque contra ela."
+  },
+  "description": "Imenso e estranho animal de pele grossa e rugosa, pernas grossas como colunas de templos, grandes orelhas, um nariz longo e musculoso como um tentáculo e duas longas presas. Pouco conhecido em Arton, é às vezes capturado e transportado por grandes distâncias para ser vendido em mercados como animal de circo ou mascote para nobres excêntricos; alguns povos também o utilizam como animal de carga e montaria, e já foi usado como besta de guerra em vários períodos da história de Arton. Inteligente e dócil, mas muito perigoso quando enfurecido — cada parte de seu corpo é uma arma mortal. Tem excelente memória, reconhecendo anos depois um caçador que tentou matá-lo, e teme ratos (diz-se que ratos-de-Tenebra entram por seus ouvidos e matam o animal devorando seu cérebro). Encontrado mais frequentemente na Grande Savana e outras planícies quentes.",
+  "livro": "ameacas_de_arton"
+}

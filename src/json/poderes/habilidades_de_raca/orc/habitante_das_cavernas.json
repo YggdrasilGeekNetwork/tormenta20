@@ -1,0 +1,17 @@
+{
+  "id": "habitante_das_cavernas",
+  "name": "Habitante das Cavernas",
+  "type": "habilidade_de_raca",
+  "race": "orc",
+  "description": "Você recebe visão no escuro e +2 em testes de Percepção e Sobrevivência realizados no subterrâneo. Entretanto, recebe sensibilidade a luz.",
+  "effects": {
+    "vision": "visao_no_escuro",
+    "conditional_skill_bonus": {
+      "percepcao": 2,
+      "sobrevivencia": 2,
+      "condition": "subterraneo"
+    },
+    "drawback": "sensibilidade_a_luz"
+  },
+  "livro": "ameacas_de_arton"
+}

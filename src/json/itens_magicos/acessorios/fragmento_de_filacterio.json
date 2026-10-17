@@ -1,0 +1,15 @@
+{
+  "id": "fragmento_de_filacterio",
+  "name": "Fragmento de Filactério",
+  "categoria": "maior",
+  "preco": 90000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Mesmo após a destruição do filactério de um lich, uma parte do poder mágico da criatura pode permanecer, geralmente em seu maior fragmento. Um fragmento de filactério conta como uma costela de lich poderosa que fornece +20 PM (somente após um dia de uso). Um fragmento só pode ser obtido de um filactério estilhaçado e não pode ser fabricado.",
+  "effects": [
+    { "type": "conta_como", "item": "costela_de_lich", "variante": "poderosa" },
+    { "type": "bonus_pm", "value": 20, "condicao": "somente após um dia de uso" },
+    { "type": "nao_pode_ser_fabricado", "origem": "obtido apenas de um filactério estilhaçado" }
+  ],
+  "livro": "ameacas_de_arton"
+}

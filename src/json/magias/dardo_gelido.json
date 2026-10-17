@@ -1,0 +1,50 @@
+{
+  "id": "dardo_gelido",
+  "name": "Dardo Gélido",
+  "type": "arcana",
+  "circle": "1",
+  "school": "evoc",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "curto",
+  "target": {
+    "amount": 1,
+    "up_to": false,
+    "type": "criatura"
+  },
+  "effect": null,
+  "effect_details": null,
+  "counterspell": null,
+  "duration": "instantânea",
+  "duration_details": null,
+  "resistence": {
+    "effect": "reduz_parcial",
+    "skill": "fortitude"
+  },
+  "extra_costs": null,
+  "description": "Você dispara um dardo de gelo contra o alvo, que sofre 2d6 pontos de dano de frio e fica lento por 1 rodada. Passar no teste de resistência reduz o dano à metade e evita a condição.",
+  "enhancements": [
+    {
+      "cost": 1,
+      "type": "aumenta",
+      "description": "aumenta o dano em +1d6.",
+      "extra_details": null
+    },
+    {
+      "cost": 1,
+      "type": "aumenta",
+      "description": "aumenta o número de alvos em +1 (total de alvos limitado pelo círculo máximo de magia que você pode lançar).",
+      "extra_details": null
+    }
+  ],
+  "effects": [
+    {
+      "type": "dano",
+      "attribute": "pv",
+      "amount": "2d6",
+      "resistence_requirement": "fortitude",
+      "extra_requirements": "fica lento por 1 rodada"
+    }
+  ],
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,60 @@
+{
+  "id": "voracis_rainha",
+  "name": "Voracis Rainha",
+  "nd": 11,
+  "tipo": "Humanoide",
+  "subtipo": "voracis",
+  "tamanho": "medio",
+  "grupo": "povos_trovao",
+  "pv": 530,
+  "pm": null,
+  "defesa": 41,
+  "salvaguardas": { "fort": 18, "ref": 24, "von": 11 },
+  "reducao_de_dano": 5,
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 16,
+  "percepcao": 11,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9, "escalada": 9 },
+  "atributos": { "for": 3, "des": 7, "con": 3, "int": -1, "sab": 2, "car": 1 },
+  "pericias": { "atletismo": 12, "furtividade": 16, "intimidacao": 10, "sobrevivencia": 13 },
+  "ataques": [
+    {
+      "nome": "Presa de serpente",
+      "quantidade": 2,
+      "bonus": 30,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 27, "tipo": "perfuração" }
+      ],
+      "critico": "17/x2"
+    },
+    {
+      "nome": "Garra",
+      "bonus": 30,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 27, "tipo": "corte" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Azagaia (à distância)",
+      "bonus": 28,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 25, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Caça em Bando", "acao": "movimento", "descricao": "Uma vez por cena, a voracis rainha invoca 1d6+2 voracis em espaços desocupados em alcance curto. Eles agem a partir da próxima rodada da rainha, têm deslocamento 9m (normal e escalada) e podem gastar uma ação padrão para causar 2d4+4 pontos de dano de corte em uma criatura adjacente. As voracis têm Força 1, Destreza 4, Defesa 26 e 1 PV e falham automaticamente em qualquer teste oposto ou de resistência." },
+    { "nome": "Eviscerar", "descricao": "Quando acerta um ataque de garra, a rainha rasga a carne da vítima, que fica desprevenida e sangrando (Fortitude CD 31 evita). Essas condições persistem até que a vítima receba cura mágica ou primeiros socorros (perícia Cura). Criaturas imunes a acertos críticos e/ou sangramentos ou usando armaduras pesadas são imunes a esta habilidade. Metabolismo." },
+    { "nome": "Fúria Primeva", "acao": "livre", "descricao": "A rainha entra em um estado de frenesi. Ela ganha 50 PV temporários e todas as criaturas em alcance médio ficam abaladas (Vontade CD 31 evita). Além disso, enquanto esta habilidade estiver ativa, a rainha recebe +4 em testes de ataque e rolagens de dano, mas não pode realizar ações que exigem calma e concentração. A fúria termina se, ao fim da rodada, a rainha não tiver atacado nem for alvo de um efeito hostil. Recarga (matar uma criatura)." },
+    { "nome": "Rede (à distância)", "descricao": "Pode atacar com a rede para enredar em vez da azagaia." }
+  ],
+  "equipamento": ["Azagaia x3", "Bálsamo da drogadora x2", "Garra feroz maciça", "Presa de serpente", "Rede"],
+  "tesouro": "Dobro.",
+  "description": "Líder de uma tribo voracis, conquistada em combate contra outras pretendentes, raramente mantendo o posto por mais de algumas semanas. Rege com força e intimidação, humilhando as mais fracas para demarcar seu status.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,12 @@
+{
+  "id": "armadilha_terrivel",
+  "name": "Armadilha Terrível",
+  "type": "habilidade_de_raca",
+  "race": "kobold",
+  "description": "Escolham uma magia de 1º círculo que tenha como alvo uma criatura ou que tenha um efeito em área e que cause dano ou um efeito negativo (como uma condição ou penalidade). Vocês possuem uma armadilha portátil que contém essa magia. Sua armadilha usa as mesmas regras de engenhocas (Tormenta20, p.70), mas é acionada com Sobrevivência e tem Sabedoria como atributo-chave. Vocês podem escolher esta habilidade mais de uma vez para magias diferentes.",
+  "effects": {
+    "grants_trap_gadget": { "circle": 1, "trigger_skill": "sobrevivencia", "key_attribute": "sabedoria" },
+    "repeatable": true
+  },
+  "livro": "ameacas_de_arton"
+}

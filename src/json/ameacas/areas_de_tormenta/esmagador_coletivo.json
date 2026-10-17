@@ -1,0 +1,47 @@
+{
+  "id": "esmagador_coletivo",
+  "name": "Esmagador Coletivo",
+  "nd": 15,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "areas_de_tormenta",
+  "pv": 800,
+  "pm": null,
+  "defesa": 46,
+  "salvaguardas": { "fort": 28, "ref": 22, "von": 14 },
+  "reducao_de_dano": 15,
+  "imunidades": ["acertos críticos", "efeitos de metabolismo", "metamorfose", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 13,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 14, "des": -1, "con": 15, "int": null, "sab": 0, "car": null },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 3,
+      "bonus": 39,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 28, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Não pode ser flanqueado", "descricao": "O esmagador coletivo não pode ser flanqueado." },
+    { "nome": "Absorver", "acao": "completa", "descricao": "O esmagador absorve uma criatura Média ou menor que esteja agarrando há 3 rodadas consecutivas. A criatura morre instantaneamente e, para cada nível que tinha, o esmagador recebe 20 PV temporários." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Pancada (teste +44)." },
+    { "nome": "Arranhar", "acao": "livre", "descricao": "No início de seus turnos, o esmagador causa 4d10+28 pontos de dano de corte em qualquer criatura que esteja agarrando." },
+    { "nome": "Arremessar Corpos", "acao": "padrão", "descricao": "O esmagador arremessa 1d4+2 corpos humanoides, distribuídos entre criaturas em alcance longo. Cada corpo causa 4d8+15 pontos de dano de impacto (Reflexos CD 40 evita)." },
+    { "nome": "Forma Horrenda", "descricao": "Uma criatura que inicie seu turno em alcance médio do esmagador fica apavorada por 1d4 rodadas e depois abalada (Vontade CD 40 muda para abalada por 1d4 rodadas; a criatura não pode ser afetada por esta habilidade até o fim da cena)." },
+    { "nome": "Pancada Estonteante", "descricao": "Uma criatura atingida pela pancada do esmagador fica atordoada por 1 rodada (Fortitude CD 40 evita). Uma criatura só pode ser atordoada por essa habilidade uma vez por cena." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Gigante brutal feito de matéria vermelha, de onde emergem incontáveis cabeças, braços e pernas — sua própria cabeça não tem feições próprias. Um coro constante de gemidos acompanha o esmagador, e seus passos retumbantes deixam horrendas marcas de sangue. Produzido pelos 'artistas' lefeu, é fabricado com humanoides vivos fundidos em uma única e agonizante forma. Em combate golpeia com as enormes mãos sem dedos, mas sua tática mais comum é agarrar a vítima enquanto cabeças e mãos em sua superfície mordem e arranham; caso mantenha a vítima segura por tempo suficiente, consegue absorvê-la, reunindo mais um corpo à sua forma pavorosa. Pode ser visto dentro ou fora de áreas de Tormenta, empregado nas legiões dos lefeu ou enviado para espalhar destruição pelo mundo exterior; raros servos da Tormenta recebem um esmagador como 'ajudante', como recompensa por bons serviços.",
+  "livro": "ameacas_de_arton"
+}

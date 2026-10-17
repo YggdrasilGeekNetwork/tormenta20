@@ -1,0 +1,12 @@
+{
+  "id": "heranca_draconica",
+  "name": "Herança Dracônica",
+  "type": "habilidade_de_raca",
+  "race": "kallyanach",
+  "description": "Você é uma criatura do tipo monstro e recebe redução 5 contra um tipo de dano a sua escolha entre ácido, eletricidade, fogo, frio, luz ou trevas.",
+  "effects": {
+    "creature_type": "monstro",
+    "damage_reduction": { "value": 5, "damage_type": "chosen", "choices": ["acido", "eletricidade", "fogo", "frio", "luz", "trevas"] }
+  },
+  "livro": "ameacas_de_arton"
+}

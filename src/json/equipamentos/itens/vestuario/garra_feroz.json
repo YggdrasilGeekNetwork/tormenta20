@@ -1,0 +1,15 @@
+{
+  "id": "garra_feroz",
+  "name": "Garra Feroz",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 60,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "funciona_como": "manopla",
+    "aplica_a": "garra ou arma natural sob efeito de habilidades como Forma Selvagem"
+  },
+  "description": "Estas pinças de insetos gigantes, presas com tiras de couro, funcionam como uma manopla, mas seus benefícios também se aplicam a uma garra ou a uma arma natural de um personagem sob efeito de habilidades como Forma Selvagem.",
+  "livro": "ameacas_de_arton"
+}

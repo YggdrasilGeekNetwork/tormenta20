@@ -1,0 +1,14 @@
+{
+  "id": "heranca_da_raposa",
+  "name": "Herança da Raposa",
+  "type": "habilidade_de_raca",
+  "race": "moreau",
+  "description": "Inteligência +1, +1 em dois atributos a sua escolha. Agarra-me Se Puderes: seu deslocamento é 12m (em vez de 9m) e você tem visão na penumbra. Esperteza Vulpina: você recebe +2 em duas perícias originalmente baseadas em Inteligência ou Carisma, a sua escolha. Faro: você tem olfato apurado — contra inimigos em alcance curto que não possa ver, você não fica desprevenido e camuflagem total lhe causa apenas 20% de chance de falha.",
+  "effects": {
+    "attribute_bonus": { "inteligencia": 1, "chosen": { "count": 2, "value": 1 } },
+    "agarra_me_se_puderes": { "movement_override": 12, "vision": "visao_na_penumbra" },
+    "esperteza_vulpina": { "skill_improvement_choice": { "count": 2, "value": 2, "from_attribute": ["inteligencia", "carisma"] } },
+    "faro": { "keen_smell": true, "vs_unseen_short_range": { "no_flat_footed": true, "total_concealment_miss_chance": 20 } }
+  },
+  "livro": "ameacas_de_arton"
+}

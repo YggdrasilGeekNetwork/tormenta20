@@ -1,0 +1,51 @@
+{
+  "id": "lider_pistoleiro",
+  "name": "Líder Pistoleiro",
+  "nd": 4,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 120,
+  "pm": null,
+  "defesa": 22,
+  "salvaguardas": { "fort": 9, "ref": 15, "von": 6 },
+  "reducao_de_dano": null,
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 5,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 0, "des": 4, "con": 2, "int": 0, "sab": 1, "car": 1 },
+  "pericias": { "cavalgar": 10, "jogatina": 7 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 7, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Pistola (à distância)",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 15, "tipo": "perfuração" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Dedo no Gatilho", "descricao": "Quando faz um ataque de pistola contra um oponente desprevenido, o líder pistoleiro recebe +5 na rolagem de dano e na margem de ameaça." },
+    { "nome": "Disparo Preciso", "descricao": "O líder pode fazer ataques à distância contra oponentes envolvidos em combate corpo a corpo sem a penalidade padrão de –5 no teste de ataque." },
+    { "nome": "Saque Rápido", "descricao": "O líder pode sacar ou guardar itens como uma ação livre e recarregar sua pistola como uma ação de movimento." },
+    { "nome": "Tibar Furado", "descricao": "O líder carrega um amuleto da sorte, como um tibar ou uma garrafinha de metal, que já salvou sua vida mais de uma vez. Uma vez por cena, quando sofre dano que o levaria a 0 PV ou menos, o líder ignora esse dano." }
+  ],
+  "equipamento": ["Adaga", "Balas x20", "Pistola"],
+  "tesouro": "Metade.",
+  "description": "Líder de um bando de pistoleiros de Smokestone, confiante o bastante para propor duelos de tiro ao alvo, jogo de azar ou duelo direto contra grupos de heróis.",
+  "livro": "ameacas_de_arton"
+}

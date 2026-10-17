@@ -1,0 +1,42 @@
+{
+  "id": "bugbear_guarda_costas",
+  "name": "Bugbear Guarda-Costas",
+  "nd": 6,
+  "tipo": "Humanoide",
+  "subtipo": "bugbear",
+  "tamanho": "medio",
+  "grupo": "duyshidakk",
+  "pv": 48,
+  "pm": null,
+  "defesa": 26,
+  "salvaguardas": { "fort": 14, "ref": 15, "von": 7 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "medo": 2 },
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 5,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 6, "des": 3, "con": 3, "int": 1, "sab": 0, "car": -2 },
+  "pericias": { "atletismo": 11, "furtividade": 8, "intimidacao": 11 },
+  "ataques": [
+    {
+      "nome": "Machado de guerra",
+      "quantidade": 2,
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 20, "tipo": "corte" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Êxtase no Medo", "descricao": "O bugbear guarda-costas sofre metade do dano de criaturas sob algum efeito de medo." },
+    { "nome": "Quebrar Armas", "acao": "livre", "descricao": "Uma vez por rodada, quando acerta um ataque corpo a corpo, o guarda-costas pode usar a manobra quebrar (teste +26)." }
+  ],
+  "equipamento": ["Gibão de peles", "Machado de guerra aumentado cruel"],
+  "tesouro": "Metade.",
+  "description": "Bugbear veterano designado para proteger figuras importantes da hierarquia duyshidakk, especializado em desarmar inimigos antes que representem ameaça real.",
+  "livro": "ameacas_de_arton"
+}

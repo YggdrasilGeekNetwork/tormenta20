@@ -1,0 +1,44 @@
+{
+  "id": "estirge",
+  "name": "Estirge",
+  "nd": 1,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "minusculo",
+  "grupo": "ermos",
+  "pv": 9,
+  "pm": null,
+  "defesa": 16,
+  "salvaguardas": { "fort": 1, "ref": 10, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 2,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "voo": 12 },
+  "atributos": { "for": -4, "des": 5, "con": -1, "int": -5, "sab": 0, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Probóscide",
+      "bonus": 11,
+      "dano": [
+        { "dados": [], "bonus": 1, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Probóscide (teste +21)." },
+    { "nome": "Chupar Sangue", "acao": "livre", "descricao": "Quando agarra uma criatura, e no início de cada um de seus turnos enquanto permanecer agarrando, drena sangue como um efeito metabólico: a vítima perde 3d6 PV e o estirge ganha a mesma quantidade em PV temporários. Após drenar 10 PV ou mais, solta-se e tenta fugir." },
+    { "nome": "Sangrar", "descricao": "Quando o estirge solta uma criatura de quem estava drenando sangue (por vontade própria ou não), a vítima fica sangrando." }
+  ],
+  "equipamento": [],
+  "tesouro": "Ova de estirge.",
+  "familiar": "Um estirge pode ser invocado como familiar, mas isso requer uma ova de estirge. Um estirge familiar permite que você receba 1 PV temporário cumulativo (até o limite de seu nível) sempre que causa dano a uma criatura viva com uma magia.",
+  "parceiro": null,
+  "description": "Ser voador demoníaco que lembra um grande mosquito, com corpo vermelho e peludo, asas negras de morcego e cabeça insetoide alongada com tromba comprida e fina. Um único estirge é tão perigoso quanto um kobold, raramente oferecendo perigo real, mas são encontrados sempre em enxames — que por sua vez podem formar vastas nuvens capazes de cobrir cidades inteiras, deixando rastros de cadáveres ressequidos. Seus números incalculáveis desafiam a lógica; estudiosos suspeitam que enxames e nuvens de estirges sejam fenômenos planares ou manifestações de deuses enfurecidos. Conjuradores com preferências macabras às vezes tomam um ou mais como familiares.",
+  "livro": "ameacas_de_arton"
+}

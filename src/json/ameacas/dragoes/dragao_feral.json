@@ -1,0 +1,54 @@
+{
+  "id": "dragao_feral",
+  "name": "Dragão Feral",
+  "nd": 10,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "enorme",
+  "grupo": "dragoes",
+  "pv": 495,
+  "pm": null,
+  "defesa": 38,
+  "salvaguardas": { "fort": 22, "ref": 10, "von": 14 },
+  "reducao_de_dano": 10,
+  "imunidades": ["frio"],
+  "resistencias": { "magia": 3 },
+  "vulnerabilidades": ["fogo"],
+  "iniciativa": 13,
+  "percepcao": 12,
+  "visao": ["faro", "percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 24 },
+  "atributos": { "for": 13, "des": 3, "con": 10, "int": -3, "sab": 2, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 30,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 12 }], "bonus": 14, "tipo": "perfuração" }
+      ],
+      "critico": "18/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 30,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 14, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Amadurecimento Primitivo", "descricao": "O dragão feral conta como um dragão adulto, mas não possui as habilidades Magia Dracônica e Metamorfose Dracônica." },
+    { "nome": "Aura Aterradora", "descricao": "Vontade CD 30 evita.", "tag": "Medo" },
+    { "nome": "Dilacerar", "descricao": "Se o dragão acerta os dois ataques de garra em uma mesma criatura no mesmo turno, causa mais 3d10+14 pontos de dano." },
+    { "nome": "Investida Imparável", "acao": "completa", "descricao": "O dragão se move até o dobro do seu deslocamento, passando por qualquer criatura Grande ou menor. Criaturas em seu caminho sofrem 7d8+14 pontos de dano de corte, são empurradas até o fim do deslocamento do dragão e ficam caídas na frente dele (Reflexos CD 30 reduz à metade e evita o empurrão, mas não a condição caído). Recarga (ação de movimento)." },
+    { "nome": "Sopro", "acao": "padrão", "descricao": "Todas as criaturas em um cone de 12m sofrem 12d12 pontos de dano de frio e ficam lentas (Reflexos CD 30 reduz à metade e evita a condição). Recarga (ação de movimento)." },
+    { "nome": "Varrer", "acao": "livre", "descricao": "Uma vez por rodada, quando o dragão faz um ataque corpo a corpo e reduz os PV do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão e 2 peças de couro de dragão (CD 25 para extrair).",
+  "description": "Dragão adulto que, por algum motivo, não alcançou seu potencial pleno: enorme e poderoso, mas sem conjurar magia nem mudar de forma, pouco inteligente, alguns incapazes até de falar. Estudiosos debatem sua origem — falta de requisitos de amadurecimento (acúmulo de tesouros, abate de heróis, rituais secretos), os séculos de ausência de Kallyadranoch, ou uma maldição de Megalokk contra crias que se tornaram seus devotos. Comporta-se como um animal carnívoro, muito mais agressivo e rancoroso que qualquer predador natural, capaz de atravessar reinos inteiros para matar quem o tenha perturbado; não acumula tesouros exceto por acidente. É o alvo favorito dos caçadores de dragões, por ser presa mais fácil que um dragão verdadeiro.",
+  "livro": "ameacas_de_arton"
+}

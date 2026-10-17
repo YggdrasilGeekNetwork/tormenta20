@@ -1,0 +1,10 @@
+{
+  "id": "elefante",
+  "name": "Elefante",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 1500,
+  "espacos": 0,
+  "description": "Preço de referência para adquirir um elefante. Veja a ficha completa da ameaça (grupo montarias) para estatísticas de combate e benefícios de parceiro.",
+  "livro": "ameacas_de_arton"
+}

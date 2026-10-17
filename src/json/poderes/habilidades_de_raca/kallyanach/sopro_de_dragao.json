@@ -1,0 +1,12 @@
+{
+  "id": "sopro_de_dragao",
+  "name": "Sopro de Dragão",
+  "type": "habilidade_de_raca",
+  "race": "kallyanach",
+  "description": "Você pode gastar uma ação padrão e 1 PM para soprar um cone de 6m que causa 1d12 pontos de dano do tipo de sua Herança Dracônica (Reflexos CD Constituição reduz à metade). A cada quatro níveis após o 1º, você pode gastar +1 PM para aumentar o dano do sopro em +1d12.",
+  "effects": {
+    "breath_weapon": { "shape": "cone", "size": "6m", "damage": "1d12", "damage_type": "heranca_draconica", "cost_pm": 1, "save": "reflexos", "save_dc_attribute": "constituicao", "save_effect": "reduz à metade" },
+    "scaling": { "every_levels": 4, "extra_pm": 1, "extra_damage": "1d12" }
+  },
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "golem_de_bronze",
+  "name": "Golem de Bronze",
+  "nd": 9,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "golens",
+  "pv": 350,
+  "pm": null,
+  "defesa": 34,
+  "salvaguardas": { "fort": 21, "ref": 10, "von": 15 },
+  "reducao_de_dano": 10,
+  "imunidades": ["magia (com exceções)"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 10,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 7, "des": 0, "con": 5, "int": null, "sab": 0, "car": -5 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 23, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Imunidade a Magia", "descricao": "O golem de bronze é imune a efeitos mágicos, com as seguintes exceções: efeitos mágicos de eletricidade o deixam lento por 1d6 rodadas; efeitos mágicos de fogo removem a condição lento e curam PV em quantidade igual à metade do dano que causariam." },
+    { "nome": "Soar os Sinos", "acao": "padrão", "descricao": "O golem bate em seu peito e emite um som alto e retumbante. Todas as criaturas em alcance curto perdem 6d6+10 PV, ficam surdas por 1d4 rodadas e atordoadas por 1 rodada (Fortitude CD 28 reduz a perda à metade e evita as condições; uma criatura só pode ficar atordoada por esta habilidade uma vez por cena). Recarga (movimento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Os golens mais comuns de Arton, usados como guardas em castelos e templos ou como soldados em forças militares. Mais customizáveis que outros construtos, com atributos variáveis, e os que mais frequentemente despertam consciência própria.",
+  "livro": "ameacas_de_arton"
+}

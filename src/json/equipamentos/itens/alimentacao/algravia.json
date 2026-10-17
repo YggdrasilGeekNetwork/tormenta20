@@ -1,0 +1,17 @@
+{
+  "id": "algravia",
+  "name": "Algravia",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 3,
+  "espacos": 0.5,
+  "efeito": {
+    "bonus_pericias_carisma": 1,
+    "cumulativo_com_outros_itens": true,
+    "doses_cumulativas_mas_intoxicantes": true,
+    "teste_intoxicacao": { "pericia": "Fortitude", "cd_base": 15, "incremento_por_dose_anterior": 5 },
+    "falha": "fica enjoado e perde todos os bônus de alimentação até o fim do dia"
+  },
+  "description": "Bebida alcoólica adocicada feita da seiva de feras-cactos. Você recebe +1 em perícias baseadas em Carisma, cumulativo com outros itens. Múltiplas doses são cumulativas entre si, mas intoxicantes; para cada dose além da primeira no mesmo dia, você deve fazer um teste de Fortitude (CD 15 + 5 para cada dose anterior). Em caso de falha, você fica enjoado e perde todos os bônus de alimentação até o fim do dia.",
+  "livro": "ameacas_de_arton"
+}

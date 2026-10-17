@@ -1,0 +1,61 @@
+{
+  "id": "tabrachi_campeao",
+  "name": "Tabrachi Campeão",
+  "nd": 3,
+  "tipo": "Humanoide",
+  "subtipo": "tabrachi",
+  "tamanho": "medio",
+  "grupo": "brutos_e_indomaveis",
+  "pv": 105,
+  "pm": null,
+  "defesa": 21,
+  "salvaguardas": { "fort": 9, "ref": 15, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 4,
+  "visao": ["baixa_luminosidade"],
+  "deslocamento": { "terrestre": 9, "natacao": 9 },
+  "atributos": { "for": 3, "des": 2, "con": 4, "int": -1, "sab": -1, "car": -2 },
+  "pericias": { "atletismo": "+13 (+23 para saltar)", "cavalgar": 5, "furtividade": 6 },
+  "ataques": [
+    {
+      "nome": "Lança",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 3, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3",
+      "observacao": "mais veneno"
+    },
+    {
+      "nome": "Língua",
+      "bonus": 14,
+      "alcance": "3m",
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 3, "tipo": "impacto" }
+      ],
+      "critico": "20/x2",
+      "observacao": "mais veneno"
+    },
+    {
+      "nome": "Azagaia (à distância)",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 3, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2",
+      "observacao": "mais veneno"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Linguarudo", "descricao": "O tabrachi campeão recebe +2 em testes para desarmar ou derrubar com a língua." },
+    { "nome": "Veneno", "descricao": "Peçonha comum: perde 1d12 PV (Fortitude CD 16 evita)." }
+  ],
+  "equipamento": ["Azagaia x2", "Escudo pesado", "Gibão de peles", "Lança", "1d4 doses de peçonha comum"],
+  "tesouro": "Padrão.",
+  "description": "Guerreiro de elite tabrachi que acompanha os bandos; alguns cavalgam sapos atrozes, que também protegem seus locais sagrados.",
+  "livro": "ameacas_de_arton"
+}

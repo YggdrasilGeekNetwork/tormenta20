@@ -1,0 +1,44 @@
+{
+  "id": "dancarino_de_guerra",
+  "name": "Dançarino de Guerra",
+  "nd": 4,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "puristas",
+  "pv": 110,
+  "pm": null,
+  "defesa": 24,
+  "salvaguardas": { "fort": 10, "ref": 14, "von": 6 },
+  "reducao_de_dano": null,
+  "imunidades": ["medo"],
+  "resistencias": { "efeitos de movimento": 2 },
+  "vulnerabilidades": [],
+  "iniciativa": 11,
+  "percepcao": 3,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 4, "des": 5, "con": 4, "int": 1, "sab": -1, "car": 2 },
+  "pericias": { "acrobacia": 12, "atletismo": 8 },
+  "ataques": [
+    {
+      "nome": "Machado de batalha",
+      "quantidade": 2,
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 5, "tipo": "corte" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "Quando passa em um teste de Reflexos para reduzir o dano de um efeito à metade, em vez disso não sofre nenhum dano." },
+    { "nome": "A Vida Não É Suficiente para Mim", "descricao": "Quando um dançarino de guerra morre em combate, cada um de seus aliados em alcance médio é tomado por um frenesi equivalente ao efeito básico da magia Velocidade, até o fim da cena." },
+    { "nome": "Matar É Viver", "acao": "movimento", "descricao": "O dançarino entra em um estado de frenesi de combate, durante o qual pode fazer um ataque adicional sempre que executa a ação agredir. O transe termina se, ao fim da rodada, ele não tiver sido atacado nem sido alvo de um efeito hostil. Recarga (realizar uma investida)." },
+    { "nome": "Viver É Lutar", "acao": "reacao", "descricao": "Uma vez por rodada, quando é alvo de um ataque corpo a corpo, o dançarino pode fazer um teste de Acrobacia. Ele reduz desse ataque em um valor igual ao resultado de seu teste e, se reduzir o dano a 0, pode fazer um ataque corpo a corpo contra o atacante." }
+  ],
+  "equipamento": ["Machado de batalha x2", "Sapatos de camurça"],
+  "tesouro": "Padrão.",
+  "description": "Lutador ritualístico de uma antiga tradição tribal das terras que originaram a Supremacia, treinado em luta acrobática elaborada, antes dedicada a Keenn e hoje preservada como busca por morte gloriosa em batalha. Respeitado entre os puristas como mártir cujo sacrifício nas linhas de frente inspira os demais soldados a lutar com o dobro de fervor.",
+  "livro": "ameacas_de_arton"
+}

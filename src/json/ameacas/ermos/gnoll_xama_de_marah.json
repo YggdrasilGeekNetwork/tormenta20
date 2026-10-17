@@ -1,0 +1,33 @@
+{
+  "id": "gnoll_xama_de_marah",
+  "name": "Gnoll Xamã de Marah",
+  "nd": 6,
+  "tipo": "Humanoide",
+  "subtipo": "gnoll",
+  "tamanho": "medio",
+  "grupo": "ermos",
+  "pv": 180,
+  "pm": 34,
+  "defesa": 25,
+  "salvaguardas": { "fort": 9, "ref": 5, "von": 19 },
+  "reducao_de_dano": null,
+  "imunidades": ["alquebrado", "esmorecido", "frustrado"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 9,
+  "visao": ["faro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 0, "des": 1, "con": 2, "int": 2, "sab": 4, "car": 1 },
+  "pericias": { "cura": 11, "diplomacia": 8, "intuicao": 9, "misticismo": 7, "religiao": 9 },
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Aura de Paz", "acao": "livre", "custo_pm": 2, "descricao": "Habilidade mágica; cria uma aura de 9m de raio. Um inimigo que aja de forma hostil dentro da aura deve fazer um teste de Vontade (CD 24) ou perde sua ação; se passar, fica imune a esse efeito por 1 dia." },
+    { "nome": "Símbolo Sagrado Energizado", "acao": "movimento", "custo_pm": 1, "descricao": "Habilidade mágica; seu símbolo sagrado emite uma luz prateada. Enquanto durar, suas magias divinas custam 1 PM a menos (mínimo 1)." },
+    { "nome": "Magias", "descricao": "Lança magias como clérigo de Marah de 6º nível (CD 24): Curar Ferimentos (6 PM, cura 7d8+7), Dissipar Magia (3 PM), Enfeitiçar (1 PM), Santuário (1 PM)." }
+  ],
+  "equipamento": ["Bálsamo restaurador x4", "Couro batido", "Símbolo sagrado de Marah"],
+  "tesouro": "Padrão.",
+  "description": "Xamã pacifista que trocou a lógica de rendição dos gnolls pela compaixão de Marah, buscando trégua e cura mesmo em meio à guerra.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "alma_acorrentada",
+  "name": "Alma Acorrentada",
+  "nd": 7,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "areas_de_tormenta",
+  "pv": 56,
+  "pm": null,
+  "defesa": 26,
+  "salvaguardas": { "fort": 14, "ref": 19, "von": 8 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 9,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "voo": 9 },
+  "atributos": { "for": null, "des": 7, "con": 2, "int": 1, "sab": 0, "car": -2 },
+  "pericias": { "furtividade": "+15 (+25 em áreas de Tormenta)" },
+  "ataques": [
+    {
+      "nome": "Toque cáustico",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 10, "tipo": "ácido" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Incorpóreo", "descricao": "A alma acorrentada é incorpórea." },
+    { "nome": "Agarrar Oportunista", "acao": "livre", "descricao": "Quando a alma acorrentada acerta um ataque, pode usar a manobra agarrar (teste +28). Contra uma criatura agarrada, a alma é considerada corpórea. Se a alma matar uma criatura que esteja agarrando, ambas desaparecerão." },
+    { "nome": "Aura Cáustica", "descricao": "No início de cada turno da alma, todas as criaturas adjacentes a ela sofrem 6d6 pontos de dano de ácido. Uma criatura que morra dentro da aura cáustica não pode ser trazida de volta à vida." },
+    { "nome": "Invisibilidade Rubra", "descricao": "A alma tem camuflagem total em áreas de Tormenta. Quando ataca, essa camuflagem muda para leve até o início de seu próximo turno." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Morto-vivo imaterial lembrando um fantasma translúcido e avermelhado, envolto em névoa sangrenta, ainda carregando os ferimentos terríveis que recebeu ao morrer, preso por uma corrente sobrenatural rígida e muito forte, infinitamente longa, que desaparece no horizonte ligando o fantasma ao castelo, fortaleza ou templo do Lorde da Tormenta responsável por sua morte. Surge inesperadamente (podendo ficar invisível dentro de uma área de Tormenta) e tenta agarrar vítimas, trazendo-as para sua névoa corrosiva; quando o abraço mortal mata a vítima, o espírito é arrancado do corpo e ambas as almas são arrastadas pela corrente até os domínios do Lorde — o corpo físico é deixado para trás, mas sua ressurreição é impossível. Espíritos capturados desta forma são em geral usados para criar novas almas acorrentadas. A corrente impede a alma de abandonar a área de Tormenta; quando destruída, a corrente se desvanece em uma fina névoa vermelha.",
+  "livro": "ameacas_de_arton"
+}

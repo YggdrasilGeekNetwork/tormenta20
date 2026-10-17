@@ -1,0 +1,10 @@
+{
+  "id": "corcel_do_deserto",
+  "name": "Corcel do Deserto",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 150,
+  "espacos": 0,
+  "description": "Preço de referência para adquirir um corcel do deserto. Veja a ficha completa da ameaça (grupo montarias) para estatísticas de combate e benefícios de parceiro.",
+  "livro": "ameacas_de_arton"
+}

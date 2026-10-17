@@ -1,0 +1,47 @@
+{
+  "id": "corcel_do_deserto",
+  "name": "Corcel do Deserto",
+  "nd": 2,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 55,
+  "pm": null,
+  "defesa": 21,
+  "salvaguardas": { "fort": 13, "ref": 7, "von": 2 },
+  "reducao_de_dano": "5/fogo",
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 7,
+  "visao": ["percepção às cegas"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 2, "des": 2, "con": 4, "int": -3, "sab": 1, "car": -1 },
+  "pericias": { "atletismo": 8 },
+  "ataques": [
+    {
+      "nome": "Cascos",
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 9, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Substância Urticante", "descricao": "A carapaça do corcel é coberta por uma substância que causa uma coceira debilitante. Uma criatura que acerte um ataque corpo a corpo no corcel é acometida por uma urticária terrível que a impede de fazer ações, exceto reações, por 1d4 rodadas (Fortitude CD 16 evita). Uma criatura só pode ser afetada por esta habilidade uma vez por cena." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d6 doses de ácido (CD 17 para extrair).",
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 12m e você ignora terreno difícil natural.",
+    "veterano": "Uma vez por rodada, você pode gastar 1 PM para causar 2d6 pontos de dano de impacto em uma criatura adjacente.",
+    "mestre": "Seu deslocamento muda para 15m e você recebe +5 em testes para resistir a efeitos de clima, calor e frio."
+  },
+  "description": "Criatura insetoide que, por evolução paralela ou generosidade dos deuses, acabou tão parecida com um cavalo que até se comporta como um equino comum, embora tenha quatro patas, tronco e cabeça alongada cobertos de carapaça quitinosa. Muito apreciado por viajantes do deserto por nunca precisar beber água na vida adulta — estudiosos suspeitam que absorva umidade do próprio ar através de numerosas aberturas no corpo, e sua mandíbula poderosa pode morder e mastigar os cactos mais duros para extrair a umidade necessária. Em estado selvagem forma manadas como cavalos selvagens, encontradas em desertos e planícies quentes como a Grande Savana; caçar e domar um é considerado um rito de maturidade em várias comunidades do deserto.",
+  "livro": "ameacas_de_arton"
+}

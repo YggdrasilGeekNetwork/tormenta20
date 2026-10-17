@@ -1,0 +1,17 @@
+{
+  "id": "kobold",
+  "name": "Kobold",
+  "description": "Um personagem kobold é, na verdade, um pequeno grupo dessas criaturinhas tratado como um único indivíduo em termos de regras — um amontoado de kobolds que encontra nos números e no trabalho coletivo a força para enfrentar grandes perigos. Pequenas pestes acostumadas a saquear e pilhar, raramente possuem a inclinação necessária para se tornarem aventureiros, mas inspirados pelas lendas de algum herói, um pequeno grupo pode reunir coragem para explorar o mundo.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "destreza": 2, "forca": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["ajuntamento_escamoso", "praga_monstruosa", "sensibilidade_a_luz"],
+  "chosen_abilities_amount": 2,
+  "available_chosen_abilities": ["amontoados", "armadilha_terrivel", "diferentao", "ex_familiar", "o_ousado", "os_do_fundo", "organizadinhos", "pestes_oportunistas", "somos_explosivos", "tatica_de_enxame"],
+  "longevidade": "Normal",
+  "devocao": ["kallyadranoch", "khalmyr", "lena", "megalokk", "tenebra"],
+  "livro": "ameacas_de_arton"
+}

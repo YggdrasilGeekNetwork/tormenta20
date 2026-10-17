@@ -1,0 +1,20 @@
+{
+  "id": "dente_de_wisphago",
+  "name": "Dente de Wisphago",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 100,
+  "espacos": 1,
+  "uso": "vestido",
+  "consumivel": true,
+  "efeito": {
+    "condicao": "teste de resistência contra magia arcana",
+    "beneficio": "rola novamente o teste com +2",
+    "consumo": "amuleto se desfaz após uso"
+  },
+  "especial": {
+    "nao_pode_ser_fabricado": true
+  },
+  "description": "Um dente de wisphago pode ser vestido como um amuleto. Quando faz um teste de resistência contra uma magia arcana, você pode gastar o amuleto para rolar novamente esse teste com um bônus de +2. Uma vez ativado, o amuleto se desfaz. Um dente de wisphago não pode ser fabricado.",
+  "livro": "ameacas_de_arton"
+}

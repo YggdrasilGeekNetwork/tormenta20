@@ -1,0 +1,50 @@
+{
+  "id": "harpia_saqueadora",
+  "name": "Harpia Saqueadora",
+  "nd": 4,
+  "tipo": "Monstro",
+  "subtipo": "harpia",
+  "tamanho": "medio",
+  "grupo": "masmorras",
+  "pv": 32,
+  "pm": null,
+  "defesa": 18,
+  "salvaguardas": { "fort": 10, "ref": 15, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 13,
+  "percepcao": 7,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 12 },
+  "atributos": { "for": 1, "des": 4, "con": 2, "int": -1, "sab": 3, "car": 2 },
+  "pericias": { "intimidacao": 8, "sobrevivencia": 9 },
+  "ataques": [
+    {
+      "nome": "Maça",
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 11, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 11, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Grito Aterrorizante", "acao": "padrão", "descricao": "A harpia saqueadora emite um grito estridente e apavorante. Criaturas em alcance curto ficam abaladas (Vontade CD 18 evita e a criatura não pode mais ser abalada por esta habilidade até o fim da cena)." },
+    { "nome": "Rasante", "acao": "completa", "descricao": "A harpia faz uma investida e ataca com sua maça e uma garra (ou com as duas garras, se estiver desarmada). Os dois ataques recebem o bônus de +2 da investida, mas devem ser feitos contra o mesmo alvo. Após o ataque, a harpia pode continuar seu movimento, até o limite de seu deslocamento." }
+  ],
+  "equipamento": ["Maça"],
+  "tesouro": "Nenhum.",
+  "description": "Criatura sádica e maligna que caça não apenas para se alimentar, mas pelo regozijo de causar sofrimento e morte. Encontrada em masmorras ou espreitando comunidades humanas em busca de vítimas, especialmente crianças. Às vezes atua como guarda ou capanga para vilões, sobretudo devotos de Megalokk.",
+  "livro": "ameacas_de_arton"
+}

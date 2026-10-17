@@ -1,0 +1,42 @@
+{
+  "id": "companhia_blindada_de_elite",
+  "name": "Companhia Blindada de Elite",
+  "nd": 9,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "grande",
+  "grupo": "puristas",
+  "pv": 275,
+  "pm": null,
+  "defesa": 41,
+  "salvaguardas": { "fort": 17, "ref": 8, "von": 16 },
+  "reducao_de_dano": "5/mágico",
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 9,
+  "visao": [],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 3, "des": 1, "con": 4, "int": 1, "sab": 1, "car": 0 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Martelo de guerra [Bando]",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 12, "tipo": "impacto" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ódio Puro", "descricao": "Como um purista, a companhia recebe +5 em testes de Vontade quando está seguindo ordens de um superior (qualquer purista com ND maior) e +2 em rolagens de dano contra humanoides não humanos." },
+    { "nome": "Empurrão", "acao": "movimento", "descricao": "A companhia blindada de elite usa a manobra empurrar (teste +32) contra um alvo adjacente, mas não pode se mover junto com ele e sofre –5 na Defesa até o início de seu próximo turno." },
+    { "nome": "Prontidão", "acao": "reacao", "descricao": "Sempre que um inimigo entra ou sai por conta própria do alcance pessoal da companhia, ela pode fazer um ataque adicional contra essa criatura. Se acertar, além de causar dano, deixa o alvo imóvel até o início de seu próximo turno." }
+  ],
+  "equipamento": ["Armadura completa", "Escudo pesado reforçado", "Martelo de guerra pungente (1d6 de cada)", "Poção de Curar Ferimentos (2d8+2) x2d6"],
+  "tesouro": "Padrão.",
+  "description": "Representa um bando de soldados blindados agindo em conjunto (regra de Bando, veja 'Manual de Criação de Ameaças').",
+  "livro": "ameacas_de_arton"
+}

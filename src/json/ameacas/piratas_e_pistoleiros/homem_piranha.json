@@ -1,0 +1,41 @@
+{
+  "id": "homem_piranha",
+  "name": "Homem-Piranha",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 68,
+  "pm": null,
+  "defesa": 17,
+  "salvaguardas": { "fort": 4, "ref": 11, "von": 7 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 3,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 2, "des": 2, "con": 2, "int": -1, "sab": 0, "car": -1 },
+  "pericias": { "acrobacia": 5, "atletismo": 7 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "quantidade": 2,
+      "bonus": 13,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 7, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Dentes Afiados", "acao": "reacao", "descricao": "Uma vez por rodada, quando uma criatura adjacente erra um ataque contra o homem-piranha por 5 ou mais, sofre 1d4+4 pontos de dano de corte." }
+  ],
+  "equipamento": ["Adaga x2"],
+  "tesouro": "Metade.",
+  "description": "Membro do maior e mais infame grupo de piratas dos rios, atuando principalmente em Callistia mas encontrado saqueando barcos e povoados em vários pontos de Arton. Temido pela reputação de nunca deixar sobreviventes, cercado de mitos sobre devorar vítimas até os ossos.",
+  "livro": "ameacas_de_arton"
+}

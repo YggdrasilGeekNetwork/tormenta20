@@ -1,0 +1,39 @@
+{
+  "id": "cavalo_de_montaria",
+  "name": "Cavalo de Montaria",
+  "nd": 0.5,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 25,
+  "pm": null,
+  "defesa": 13,
+  "salvaguardas": { "fort": 6, "ref": 3, "von": 0 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 5,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 5, "des": 1, "con": 2, "int": -4, "sab": 1, "car": -2 },
+  "pericias": { "atletismo": 9 },
+  "ataques": [
+    {
+      "nome": "Cascos",
+      "bonus": 7,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 5, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": null,
+  "description": "Animal próprio para transportar um cavaleiro por grandes distâncias — o 'veículo pessoal' mais comum em Arton. Tem velocidade normal de 10 km/h (o dobro de um humano), ou cerca de 50km por dia, incluindo pausas para descansar e se alimentar. As estatísticas de parceiro para cavalos (Tormenta20, p. 262) se aplicam tanto a cavalos de montaria quanto a de guerra; por não ser treinado para batalha, o cavalo de montaria se assusta facilmente — para permanecer montado durante um combate, o personagem precisa passar em um teste de Cavalgar (CD 20) no início de cada turno.",
+  "livro": "ameacas_de_arton"
+}

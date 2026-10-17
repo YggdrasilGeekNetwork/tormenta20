@@ -1,0 +1,17 @@
+{
+  "id": "pistola_demoniaca",
+  "name": "Pistola Demoníaca",
+  "base_weapon": "pistola",
+  "preco": 72250,
+  "description": "Esta pistola ameaçadora, formidável e profana não pode ser fabricada por nenhum meio conhecido por mortais e só pode ser obtida através de um pacto com um demônio da pólvora. Uma pistola demoníaca está sempre carregada e não precisa de munição. Uma vez por dia, em um momento escolhido pelo mestre (ou na primeira ocasião em que houver outras pessoas próximas), o portador da arma é atingido pelo impulso homicida de disparar contra uma criatura inteligente aleatória à vista (incluindo aliados). O portador pode resistir a esse impulso por este dia passando em um teste de Vontade (CD 25). Qualquer medida para evitar acidentes (manter a pistola guardada, descarregada ou mesmo trancada e fora de alcance) fracassa automaticamente; quando o portador cede ao impulso assassino, a arma surge magicamente em suas mãos. Caso o portador da pistola seja morto, a arma desaparece.",
+  "effects": [
+    { "type": "enchantment", "name": "formidável" },
+    { "type": "enchantment", "name": "profana" },
+    { "type": "especial", "efeito": "está sempre carregada e não precisa de munição" },
+    { "type": "maldicao", "frequencia": "1x_por_dia", "efeito": "o portador é compelido a disparar contra uma criatura inteligente aleatória à vista, incluindo aliados", "resistencia": { "tipo": "Vontade", "cd": 25 } },
+    { "type": "especial", "efeito": "a arma surge magicamente nas mãos do portador quando ele cede ao impulso; medidas para evitar o acidente fracassam automaticamente" },
+    { "type": "especial", "efeito": "a arma desaparece se o portador for morto" },
+    { "type": "nao_pode_ser_fabricado", "origem": "só pode ser obtida através de um pacto com um demônio da pólvora" }
+  ],
+  "livro": "ameacas_de_arton"
+}

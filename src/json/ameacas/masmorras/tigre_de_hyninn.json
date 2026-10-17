@@ -1,0 +1,60 @@
+{
+  "id": "tigre_de_hyninn",
+  "name": "Tigre-de-Hyninn",
+  "nd": 5,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "masmorras",
+  "pv": 165,
+  "pm": null,
+  "defesa": 25,
+  "salvaguardas": { "fort": 8, "ref": 20, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": ["confuso", "metamorfose"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 7,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 3, "des": 4, "con": 2, "int": -1, "sab": 1, "car": -1 },
+  "pericias": { "furtividade": 16 },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 3, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Mordida (1d3)",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 3, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Tentáculo (1d4+1)",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 3, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Borrão", "descricao": "O tigre-de-Hyninn tem 25% de chance de ignorar ataques e efeitos (incluindo de área) contra ele. Esta habilidade permanece ativa mesmo que ele morra." },
+    { "nome": "Entre Planos", "acao": "movimento", "descricao": "Até o próximo turno do tigre, a chance de falha de seu Borrão aumenta para 50%." },
+    { "nome": "Profusão de Partes", "descricao": "Cada tigre tem 1d3 cabeças e 1d4+1 tentáculos. Isso determina quantos ataques de mordida (um por cabeça) e de tentáculos ele tem." },
+    { "nome": "Resistência a Devotos de Khalmyr", "descricao": "Recebe +5 em testes de resistência contra efeitos causados por devotos de Khalmyr." }
+  ],
+  "equipamento": [],
+  "tesouro": "Resíduos (CD 20 para extrair, valem T$ 150 para fabricar poções e pergaminhos contendo magias de ilusão).",
+  "description": "Fenômeno bizarro, uma deformação anormal da realidade sem forma ou cor definida, mas com movimento, que ruge como um grande felino. Não deixa cadáver ao morrer, apenas resíduos valiosos como ingredientes alquímicos. Teorizado como originado em Lamnor, séculos antes da Grande Batalha, conjurado em rituais ao Deus da Trapaça, temido até pelos duyshidakk.",
+  "livro": "ameacas_de_arton"
+}

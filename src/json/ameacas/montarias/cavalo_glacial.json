@@ -1,0 +1,47 @@
+{
+  "id": "cavalo_glacial",
+  "name": "Cavalo Glacial",
+  "nd": 2,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 60,
+  "pm": null,
+  "defesa": 19,
+  "salvaguardas": { "fort": 14, "ref": 7, "von": 2 },
+  "reducao_de_dano": "5/frio",
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 6,
+  "visao": ["percepção às cegas", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9, "natacao": 12 },
+  "atributos": { "for": 2, "des": 1, "con": 3, "int": -4, "sab": 1, "car": -2 },
+  "pericias": { "atletismo": 7 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 9, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Esguicho", "acao": "padrão", "descricao": "O cavalo glacial dispara um jato de água gelada pelo respiro em sua cabeça. Criaturas num cone de 6m sofrem 4d6 pontos de dano de frio e ficam lentas por 1d4 rodadas (Fortitude CD 16 reduz à metade e evita a condição). Recarga (passar 1 rodada submerso em água)." }
+  ],
+  "equipamento": [],
+  "tesouro": "1 dose de éter elemental (frio) (CD 17 para extrair).",
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 9m (natação 12m) e você recebe redução de frio 5.",
+    "veterano": "Uma vez por rodada, quando faz um ataque corpo a corpo, você pode gastar 1 PM. Se fizer isso e acertar o ataque, você causa +2d6 pontos de dano de frio.",
+    "mestre": "Muda a redução de frio para 10 e você recebe uma ação de movimento extra (apenas para se deslocar)."
+  },
+  "description": "Conhecido pelos estudiosos como 'hipo-orca', este estranho animal quadrúpede lembra um cavalo, mas tem couro liso e manchado de preto e branco em vez de pelagem, uma grande barbatana atrás da cabeça em vez de crina, e cauda longa e achatada como uma nadadeira. Vive em lagos nas Montanhas Uivantes e outros pontos gelados de Arton; pode galopar em terra firme como um cavalo ou nadar impulsionando o corpo com a cauda. É carnívoro, alimenta-se de peixe, e precisa mergulhar com frequência para se refrescar quando em regiões quentes. Feroz e agressivo, mas também muito inteligente, tornando-se dócil em cativeiro — é montaria favorita entre nativos das Uivantes e ao longo do Rio dos Deuses.",
+  "livro": "ameacas_de_arton"
+}

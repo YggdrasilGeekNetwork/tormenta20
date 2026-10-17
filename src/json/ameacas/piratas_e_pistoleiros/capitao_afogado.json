@@ -1,0 +1,43 @@
+{
+  "id": "capitao_afogado",
+  "name": "Capitão Afogado",
+  "nd": 10,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 380,
+  "pm": null,
+  "defesa": 35,
+  "salvaguardas": { "fort": 21, "ref": 10, "von": 15 },
+  "reducao_de_dano": 5,
+  "imunidades": ["atordoado", "medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 11,
+  "percepcao": 8,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6, "natacao": 9 },
+  "atributos": { "for": 4, "des": 2, "con": 3, "int": -1, "sab": -1, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 24, "tipo": "impacto" },
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 0, "tipo": "ácido" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura de Afogamento", "descricao": "No início de cada turno do afogado, cada criatura em um raio de 9m que não seja capaz de respirar na água deve fazer um teste de Fortitude (CD 25, +1 por teste anterior). Se falhar, a criatura se afoga. Uma criatura afogada desta forma fica inconsciente e perde 1d6 pontos de vida por rodada até sair da área." },
+    { "nome": "Recrutas Sufocados", "acao": "movimento", "descricao": "Uma vez por cena, o capitão afogado invoca 1d4+1 grumetes afogados em espaços desocupados em alcance curto. Eles agem a partir da próxima rodada do capitão, têm deslocamento 6m (normal e de natação) e podem gastar uma ação padrão para causar 1d8+4 pontos de dano de impacto em uma criatura adjacente. Os grumetes afogados têm Força 2, Destreza 1, Defesa 18 e 1 PV, falham automaticamente em qualquer teste oposto ou de resistência e desaparecem quando mortos ou ao fim da cena. Uma criatura adjacente a um ou mais grumetes afogados sofre –2 em Fortitude." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão mais papagaio zumbi (um personagem com a habilidade Familiar pode transformar o papagaio zumbi em um familiar que aumenta em +1 a CD dos testes para resistir a suas magias de necromancia e concede +2 em Pilotagem).",
+  "description": "Afogado mais habilidoso e astuto, capaz de falar e usar armas, liderando pequenos bandos ou grupos maiores. Pode servir como soldado de algum dragão marinho, clérigo do Oceano ou outro vilão sediado em mares e costas.",
+  "livro": "ameacas_de_arton"
+}

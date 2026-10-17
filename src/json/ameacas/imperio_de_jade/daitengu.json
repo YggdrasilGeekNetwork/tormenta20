@@ -1,0 +1,44 @@
+{
+  "id": "daitengu",
+  "name": "Daitengu",
+  "nd": 8,
+  "tipo": "Espírito",
+  "subtipo": "tengu",
+  "tamanho": "medio",
+  "grupo": "imperio_de_jade",
+  "pv": 222,
+  "pm": 64,
+  "defesa": 32,
+  "salvaguardas": { "fort": 8, "ref": 21, "von": 15 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 11,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 12 },
+  "atributos": { "for": 2, "des": 6, "con": 2, "int": 4, "sab": 1, "car": 0 },
+  "pericias": { "acrobacia": 14, "enganacao": 10, "misticismo": 14, "sobrevivencia": 9 },
+  "ataques": [
+    {
+      "nome": "Katana",
+      "quantidade": 2,
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 24, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Asas Desorientadoras", "descricao": "Se não estiver usando suas asas para voar, o daitengu pode fintar como ação de movimento." },
+    { "nome": "Ataque Reflexo", "acao": "reacao", "descricao": "Uma vez por rodada, o daitengu pode fazer um ataque corpo a corpo contra um alvo em seu alcance natural que esteja desprevenido ou que se mova voluntariamente para fora desse alcance." },
+    { "nome": "Imprevisível como o Vento", "descricao": "Uma vez por rodada, quando não está voando e faz um ataque ou uma finta, o daitengu pode rolar dois dados e usar o melhor resultado." },
+    { "nome": "Magias", "descricao": "Lança magias como bruxo de 8º nível (CD 28; foco arcano: sua katana): Primor Atlético (movimento, 2 PM, salta e pousa em alcance corpo a corpo de uma criatura em alcance curto, benefícios de investida e dado extra de dano se atacar neste turno), Resistência a Energia (padrão, 6 PM, redução de dano 10 contra energia escolhida para criaturas em alcance curto até o fim da cena), Soco de Arsenal (padrão, 4 PM, alcance natural aumenta para 4,5m até o fim da cena), Velocidade (padrão, 3 PM, sustentada, ação padrão adicional por turno, não pode ser usada para lançar magias)." }
+  ],
+  "equipamento": ["Katana x2"],
+  "tesouro": "Padrão.",
+  "description": "Tengu mais poderoso que lidera bandos de bandoleiros, capaz de conjurar magias através de sua katana, combinando técnica marcial com feitiçaria arcana.",
+  "livro": "ameacas_de_arton"
+}

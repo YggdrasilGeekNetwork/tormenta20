@@ -1,0 +1,47 @@
+{
+  "id": "elfo_do_mar_pescador",
+  "name": "Elfo-do-Mar Pescador",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "elfo_do_mar",
+  "tamanho": "medio",
+  "grupo": "sob_as_ondas",
+  "pv": 14,
+  "defesa": 18,
+  "salvaguardas": { "fort": 8, "ref": 11, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 7,
+  "visao": ["percepção às cegas (embaixo d'água)", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9, "natacao": 9 },
+  "atributos": { "for": 2, "des": 4, "con": 3, "int": -1, "sab": 2, "car": 0 },
+  "pericias": { "furtividade": 7, "sobrevivencia": 7 },
+  "ataques": [
+    {
+      "nome": "Arpão",
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 6, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Arpão (à distância)",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 10, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Caçador Submarino", "descricao": "Quando faz um teste de perícia (exceto testes de ataque) em um terreno aquático, o elfo-do-mar pescador rola dois dados e usa o melhor resultado." }
+  ],
+  "equipamento": ["Arpão", "Gibão de peles"],
+  "tesouro": "Metade.",
+  "description": "Elfo-do-mar dedicado à pesca em suas comunidades submarinas, usando um arpão tanto para o trabalho quanto para a defesa.",
+  "livro": "ameacas_de_arton"
+}

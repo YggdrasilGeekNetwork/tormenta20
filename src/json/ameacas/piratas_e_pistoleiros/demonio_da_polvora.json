@@ -1,0 +1,52 @@
+{
+  "id": "demonio_da_polvora",
+  "name": "Demônio da Pólvora",
+  "nd": 12,
+  "tipo": "Espírito",
+  "subtipo": "demônio",
+  "tamanho": "medio",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 580,
+  "pm": null,
+  "defesa": 42,
+  "salvaguardas": { "fort": 12, "ref": 26, "von": 20 },
+  "reducao_de_dano": 10,
+  "imunidades": ["ácido", "armas de fogo", "frio", "fogo", "ofuscado", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 23,
+  "percepcao": 12,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 3, "des": 9, "con": 6, "int": 4, "sab": 2, "car": 2 },
+  "pericias": { "enganacao": 17, "misticismo": 14, "oficio_alquimista": 19, "oficio_armeiro": 19, "religiao": 12 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 33,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 4 }], "bonus": 8, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Pistola demoníaca (à distância)",
+      "quantidade": 2,
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 6 }], "bonus": 30, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 0, "tipo": "essência" }
+      ],
+      "critico": "15/x3",
+      "descricao": "O dano adicional de 2d8 se aplica contra devotos de deuses que canalizam apenas energia positiva e criaturas que, a critério do mestre, sejam bondosas."
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Mestre da Pólvora", "descricao": "Quando ataca com uma arma de fogo, o demônio da pólvora ignora cobertura e camuflagem, não sofre a penalidade padrão de –5 em testes de ataque contra oponentes envolvidos em combate corpo a corpo e, quando dispara contra um alvo envolvido na manobra agarrar, sempre ataca o alvo escolhido." },
+    { "nome": "Munição Explosiva", "descricao": "Na rodada seguinte após atingir um alvo, a munição da pistola demoníaca explode. A vítima perde 6d6 pontos de vida e fica sangrando (Fortitude CD 33 reduz à metade e evita a condição)." }
+  ],
+  "equipamento": ["Pistola demoníaca"],
+  "tesouro": "Nenhum.",
+  "description": "Demônio ligado à origem sobrenatural da pedra-de-fumaça (mineral que forma a pólvora), criação atribuída a Hyninn, Tenebra e o antigo deus Keenn. Prefere agir como planejador ardiloso, liderando demônios menores e manipulando mortais cobiçosos para propagar o uso da pólvora e causar a maior quantidade possível de morte e destruição. Muitas histórias contam de pistoleiros que fizeram pactos com estes demônios sádicos, obtendo armas incríveis em troca de perpetrar matança — acordo que sempre termina em tragédia.",
+  "livro": "ameacas_de_arton"
+}

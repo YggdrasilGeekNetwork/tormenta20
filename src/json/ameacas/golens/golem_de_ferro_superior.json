@@ -1,0 +1,43 @@
+{
+  "id": "golem_de_ferro_superior",
+  "name": "Golem de Ferro Superior",
+  "nd": 15,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "golens",
+  "pv": 760,
+  "pm": null,
+  "defesa": 55,
+  "salvaguardas": { "fort": 28, "ref": 22, "von": 15 },
+  "reducao_de_dano": 15,
+  "imunidades": ["magia (com exceções)"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 11,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 15, "des": -1, "con": 10, "int": null, "sab": 0, "car": -5 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 43,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 40, "tipo": "impacto" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Imunidade a Magia", "descricao": "O golem de ferro superior é imune a efeitos mágicos, com as seguintes exceções: efeitos mágicos de eletricidade o deixam lento por 1d6 rodadas; efeitos mágicos de fogo removem a condição lento e curam 1 PV para cada 3 pontos de dano que causariam." },
+    { "nome": "Sopro", "acao": "movimento", "descricao": "O golem expele uma nuvem de gás venenoso que preenche um cubo de 3m. Criaturas dentro da área perdem 10d12 pontos de vida e ficam enjoadas (Fortitude CD 40 reduz à metade e evita a condição). Recarga (movimento), veneno." },
+    { "nome": "Marcha de Ferro", "acao": "completa", "descricao": "O golem percorre até o dobro do seu deslocamento em linha reta, passando por qualquer criatura Média ou menor. Uma criatura atropelada sofre 10d12+35 pontos de dano e fica caída (Reflexos CD 40 reduz à metade e evita a condição)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Versão muito aprimorada do golem de ferro, entre os construtos mais poderosos de Arton. Poucos artífices no mundo têm capacidade e recursos para construí-los, sendo raros até mesmo entre as forças da Supremacia Purista.",
+  "livro": "ameacas_de_arton"
+}

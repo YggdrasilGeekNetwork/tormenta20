@@ -1,0 +1,20 @@
+{
+  "id": "gema_de_forca",
+  "name": "Gema de Força",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": null,
+  "espacos": 1,
+  "uso": "empunhado, cargas",
+  "cargas": 4,
+  "efeito": {
+    "opcao_1": { "acao": "padrao", "custo_carga": 1, "resultado": "produz um domo semelhante ao efeito básico da magia Campo de Força" },
+    "opcao_2": { "condicao": "ao lançar a magia Campo de Força", "custo_carga": 1, "beneficio": "reduz o custo em -2 PM" }
+  },
+  "especial": {
+    "nao_pode_ser_fabricado": true,
+    "origem": "encontrada nos destroços de corcéis e carruagens de comando"
+  },
+  "description": "Parte de certos engenhos da Supremacia, esta gema tem 1d4 cargas. Empunhando a gema, você pode gastar uma ação padrão e uma carga para produzir um domo semelhante ao efeito básico da magia Campo de Força. Alternativamente, quando lança essa magia, você pode empunhá-la e usar uma carga para reduzir seu custo em -2 PM. Encontrada nos destroços de corcéis e carruagens de comando, esta gema não pode ser fabricada.",
+  "livro": "ameacas_de_arton"
+}

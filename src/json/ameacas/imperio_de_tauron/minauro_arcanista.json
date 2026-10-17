@@ -1,0 +1,41 @@
+{
+  "id": "minauro_arcanista",
+  "name": "Minauro Arcanista",
+  "nd": 3,
+  "tipo": "Humanoide",
+  "subtipo": "minauro",
+  "tamanho": "medio",
+  "grupo": "imperio_de_tauron",
+  "pv": 64,
+  "pm": 34,
+  "defesa": 17,
+  "salvaguardas": { "fort": 9, "ref": 4, "von": 15 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 6,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 2, "des": 0, "con": 2, "int": 4, "sab": 1, "car": 0 },
+  "pericias": { "atletismo": 5, "conhecimento": 9, "diplomacia": 5, "investigacao": 11, "misticismo": 9 },
+  "ataques": [
+    {
+      "nome": "Espada curta",
+      "bonus": 7,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 2, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Faro", "descricao": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, não fica desprevenido e camuflagem total causa apenas 20% de chance de falha." },
+    { "nome": "Magias", "descricao": "Lança magias como mago de 5º nível (CD 20, limite de PM 5): Armadura Arcana (reação, 2 PM, +5 na Defesa contra o próximo ataque que sofrer), Bola de Fogo (padrão, 5 PM, 8d6 fogo em raio de 6m), Explosão de Chamas (padrão, 3 PM, 3d6 fogo em cone de 6m), Primor Atlético (padrão, 4 PM, deslocamento 18m e +10 em Atletismo até o fim da cena)." }
+  ],
+  "equipamento": ["Essência de mana", "Espada curta", "Varinha arcana"],
+  "tesouro": "Padrão.",
+  "description": "Minauro que, por curiosidade imprudente por assuntos \"proibidos\" para o povo táurico, seguiu a carreira de arcanista — algo raro entre minotauros puros, que desconfiam da magia arcana.",
+  "livro": "ameacas_de_arton"
+}

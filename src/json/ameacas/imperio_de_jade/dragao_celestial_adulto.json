@@ -1,0 +1,52 @@
+{
+  "id": "dragao_celestial_adulto",
+  "name": "Dragão Celestial Adulto",
+  "nd": 15,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "imperio_de_jade",
+  "pv": 825,
+  "pm": 108,
+  "defesa": 50,
+  "salvaguardas": { "fort": 24, "ref": 15, "von": 28 },
+  "reducao_de_dano": 10,
+  "imunidades": ["eletricidade"],
+  "resistencias": {},
+  "resistencia_a_magia": 3,
+  "vulnerabilidades": ["ácido"],
+  "iniciativa": 16,
+  "percepcao": 24,
+  "visao": ["percepção às cegas (médio)", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 36 },
+  "atributos": { "for": 12, "des": 2, "con": 8, "int": 6, "sab": 7, "car": 6 },
+  "pericias": { "conhecimento": 22, "diplomacia": 22, "intuicao": 23, "misticismo": 22, "religiao": 23 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 42,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 30, "tipo": "perfuração" }
+      ],
+      "critico": "18/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 42,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 10 }], "bonus": 30, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o dragão celestial muda a execução dela para livre." },
+    { "nome": "Presença Celestial", "salvaguarda": "Vontade", "cd": 42, "efeito_sucesso": "evita", "descricao": "Aura de presença celestial (Vontade CD 42 evita)." },
+    { "nome": "Magias", "descricao": "Lança magias como clérigo de Lin-Wu de 15º nível (CD 42, limite de PM 23): Coluna de Chamas (padrão, 18 PM, cilindro 3m de raio em alcance longo, 12d6 fogo + 12d6 luz, Reflexos reduz à metade), Curar Ferimentos (padrão, 15 PM, criatura adjacente cura 16d8+16 PV ou criaturas em alcance curto curam 11d8+11), Dissipar Magia (padrão, 3 PM), Escudo da Fé (padrão, 17 PM, camuflagem leve contra ataques à distância e +8 na Defesa por 1 dia), Santuário (padrão, 10 PM), Viagem Planar (padrão, 12 PM, dragão e até 5 criaturas voluntárias tocadas viajam para outro Plano)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Dobro.",
+  "description": "Dragão celestial maduro, uma das mais antigas e poderosas manifestações espirituais ligadas a Lin-Wu. Rarissimamente usa sopro de chamas ou outras energias elementais, preferindo sua vasta capacidade mágica para julgar e guiar mortais honrados.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,48 @@
+{
+  "id": "dai_kabuto",
+  "name": "Dai-Kabuto",
+  "nd": 4,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "imperio_de_jade",
+  "pv": 155,
+  "pm": null,
+  "defesa": 25,
+  "salvaguardas": { "fort": 16, "ref": 10, "von": 4 },
+  "reducao_de_dano": 2,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 8,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9, "voo": 6 },
+  "atributos": { "for": 3, "des": 1, "con": 2, "int": -4, "sab": 1, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Galhada",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarralhada", "descricao": "O dai-kabuto recebe +2 em testes para agarrar e derrubar." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com sua galhada (teste +20)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "iniciante": "Seu deslocamento muda para 9m e você recebe +2 em testes de agarrar e derrubar e uma ação de movimento extra por turno (apenas para se deslocar).",
+    "veterano": "Você recebe deslocamento de voo 6m.",
+    "mestre": "O bônus em agarrar se aplica a todas as manobras e você recebe +2 na Defesa."
+  },
+  "description": "O maior dos kabuto, grande e massivo como um rinoceronte, muito apreciado como besta de carga e montaria. Derruba ou imobiliza oponentes com suas poderosas mandíbulas, deixando-os vulneráveis aos ataques do cavaleiro.",
+  "livro": "ameacas_de_arton"
+}

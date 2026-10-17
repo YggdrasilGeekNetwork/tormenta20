@@ -1,0 +1,12 @@
+{
+  "id": "avantajado",
+  "name": "Avantajado",
+  "type": "habilidade_de_raca",
+  "race": "centauro",
+  "description": "Seu tamanho é Grande e seu deslocamento é 12m.",
+  "effects": {
+    "size": "grande",
+    "movement": 12
+  },
+  "livro": "ameacas_de_arton"
+}

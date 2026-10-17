@@ -1,0 +1,12 @@
+{
+  "id": "rendicao",
+  "name": "Rendição",
+  "type": "habilidade_de_raca",
+  "race": "gnoll",
+  "description": "Quando um inimigo se rende, você recebe 1d4 PM temporários cumulativos. Da mesma forma, quando é reduzido a um quarto de seus PV ou menos, seu instinto é se render. Caso continue lutando, fica alquebrado.",
+  "effects": {
+    "triggered_temp_pm": { "dados": "1d4", "gatilho": "inimigo se rende", "cumulativo": true },
+    "instinct_to_surrender": { "limiar_pv": "1/4", "se_continuar_lutando": "alquebrado" }
+  },
+  "livro": "ameacas_de_arton"
+}

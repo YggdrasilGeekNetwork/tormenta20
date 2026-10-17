@@ -1,0 +1,37 @@
+{
+  "id": "prata",
+  "name": "Prata",
+  "type": "material_especial",
+  "aparencia": "Metal maleável usado para revestir objetos e conceder propriedades quase mágicas.",
+  "origem": "Metal precioso comum.",
+  "bonus_geral": {
+    "combinavel": "por ser usada como revestimento, a prata pode ser combinada com um segundo material especial (cada um contando como uma melhoria separada)"
+  },
+  "precos_adicionais": {
+    "arma": 600,
+    "armadura_leve": 1500,
+    "armadura_pesada": 3000,
+    "escudo": 1500,
+    "esoterico": 400
+  },
+  "description": "Embora seja muito maleável, a prata pode ser usada para revestir objetos e conceder propriedades quase mágicas. Por ser usada como revestimento, prata pode ser combinada com um segundo material especial (cada um contando como uma melhoria separada).",
+  "effects": {
+    "arma": [
+      { "type": "bonus_dano_contra", "value": 2, "alvo": ["espiritos", "mortos_vivos"] },
+      { "type": "considerada_magica_contra", "alvo": ["espiritos", "mortos_vivos"] }
+    ],
+    "armadura_leve": [
+      { "type": "reducao_de_dano_contra", "value": 5, "alvo": ["espiritos", "mortos_vivos"] }
+    ],
+    "armadura_pesada": [
+      { "type": "reducao_de_dano_contra", "value": 10, "alvo": ["espiritos", "mortos_vivos"] }
+    ],
+    "escudo": [
+      { "type": "reducao_de_dano_contra", "value": 5, "alvo": ["espiritos", "mortos_vivos"] }
+    ],
+    "esoterico": [
+      { "type": "bonus_dano_magia_contra", "value": 2, "alvo": ["espiritos", "mortos_vivos"] }
+    ]
+  },
+  "livro": "ameacas_de_arton"
+}

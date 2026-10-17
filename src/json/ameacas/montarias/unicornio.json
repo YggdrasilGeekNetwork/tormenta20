@@ -1,0 +1,70 @@
+{
+  "id": "unicornio",
+  "name": "Unicórnio",
+  "nd": 4,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 99,
+  "pm": null,
+  "defesa": 21,
+  "salvaguardas": { "fort": 4, "ref": 10, "von": 16 },
+  "reducao_de_dano": null,
+  "imunidades": ["encantamento"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 15,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 2, "des": 3, "con": 4, "int": -2, "sab": 6, "car": 3 },
+  "pericias": { "intuicao": 15 },
+  "ataques": [
+    {
+      "nome": "Chifre",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 6, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Cascos",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 6, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Chifre Mágico (mágica)",
+      "acao": "padrão",
+      "descricao": "O unicórnio toca uma criatura adjacente com seu chifre e usa um dos efeitos a seguir: Curar (a criatura recupera 8d8+8 pontos de vida); Purificar (uma condição negativa ou maldição da criatura é removida); Reviver (a criatura é revivida, desde que tenha morrido há no máximo uma semana)."
+    },
+    { "nome": "Paz Encarnada", "descricao": "Um espírito de bondade e pureza, o unicórnio nunca ataca outros seres. Pode, entretanto, fazer testes de ataque para se defender de manobras de combate. Se atacar, perde sua essência e se torna um espírito amaldiçoado." },
+    {
+      "nome": "Presciência (mágica)",
+      "acao": "reação",
+      "descricao": "O unicórnio pressente automaticamente perigos nas proximidades. Quando está em alcance médio de uma criatura hostil ou de uma armadilha, faz um teste de Intuição (CD 20). Se passar, conhece a direção e a distância do perigo, além de saber se é uma criatura ou uma armadilha. Se falhar, sabe apenas que existe um perigo na área."
+    },
+    {
+      "nome": "Sumir (mágica)",
+      "acao": "padrão",
+      "descricao": "O unicórnio se teletransporta para um ponto qualquer em alcance médio. Não precisa ver o destino para usar essa habilidade."
+    }
+  ],
+  "equipamento": [],
+  "tesouro": "Chifre de unicórnio (CD 19 para extrair).",
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "restricao": "só aceita ser cavalgado por quem considere digno; o mestre tem a palavra final",
+    "iniciante": "Seu deslocamento muda para 12m e você recebe uma ação de movimento extra por turno (apenas para se deslocar).",
+    "veterano": "Seu deslocamento muda para 15m e você pode lançar Purificação. Se aprender essa magia, seu custo é reduzido em –1 PM.",
+    "mestre": "Cada dado de seus efeitos mágicos de cura aumenta em um passo (até o máximo de d12)."
+  },
+  "description": "Uma das criaturas mais nobres e puras de Arton: grande e magnífico cavalo branco com um único chifre dourado e espiralado na fronte, muito raro, encontrado apenas em bosques e florestas remotas. Diz a lenda que ver um bando destes animais pode purificar totalmente a alma, talvez até remover uma maldição. Muito arisco, é praticamente impossível capturar ou se aproximar de um — seus sentidos aguçados percebem a aproximação de qualquer caçador — mas é também um ser de bom coração, podendo socorrer pessoas necessitadas com seu poder de cura ou teletransporte; nunca se envolve em combate, fugindo ao menor sinal de agressão. Seu precioso chifre é a fonte de seus poderes, extremamente cobiçado como ingrediente para poções e itens mágicos; removê-lo, mesmo sem matar o animal, causa seu enfraquecimento gradual até a morte. Matar um unicórnio é um dos piores crimes contra a natureza, atraindo a fúria de Allihanna: o criminoso recebe uma maldição e passa a ser atacado todos os dias por bandos de animais selvagens que surgem sem explicação.",
+  "livro": "ameacas_de_arton"
+}

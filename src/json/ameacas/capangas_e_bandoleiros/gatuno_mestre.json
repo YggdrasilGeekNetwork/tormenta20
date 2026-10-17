@@ -1,0 +1,45 @@
+{
+  "id": "gatuno_mestre",
+  "name": "Gatuno Mestre",
+  "nd": 3,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "capangas_e_bandoleiros",
+  "pv": 68,
+  "pm": null,
+  "defesa": 19,
+  "salvaguardas": { "fort": 3, "ref": 15, "von": 9 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "efeitos_de_movimento": 3 },
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 3,
+  "visao": [],
+  "deslocamento": { "terrestre": 9, "escalada": 6 },
+  "atributos": { "for": 0, "des": 4, "con": 1, "int": 1, "sab": 0, "car": 0 },
+  "pericias": { "acrobacia": 9, "furtividade": 12, "ladinagem": 10 },
+  "ataques": [
+    {
+      "nome": "Porrete",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 7, "tipo": "impacto" }
+      ],
+      "critico": "20/x2",
+      "observacao": "não letal"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "O gatuno mestre possui a habilidade Evasão." },
+    { "nome": "Ataque Furtivo", "descricao": "+3d6 de dano extra quando flanqueia ou surpreende o alvo." },
+    { "nome": "Bomba de Fumaça", "acao": "padrão", "descricao": "O gatuno mestre prepara e arremessa uma bomba de fumaça em um ponto em alcance curto. A bomba libera fumaça espessa num raio de 6m a partir do impacto, obscurecendo a visão (camuflagem leve até 1,5m, camuflagem total a partir de 3m), durando até o fim da cena." },
+    { "nome": "Pancada na Cabeça", "descricao": "Uma criatura atingida por um ataque furtivo do gatuno mestre fica inconsciente e caída ou, se em combate ou situação perigosa, fica exausta por 1 rodada e depois fatigada (Fortitude CD 19 reduz para fatigada por 1d4 rodadas)." },
+    { "nome": "Sombra", "descricao": "O gatuno mestre não sofre penalidade em testes de Furtividade por se mover ao seu deslocamento normal e reduz a penalidade por atacar e fazer outras ações chamativas para –10." }
+  ],
+  "equipamento": ["Armadura de couro", "Bomba de fumaça x3", "Gazua aprimorada", "Porrete"],
+  "tesouro": "Padrão.",
+  "description": "Mestre do ofício, usa bombas de fumaça e evasão sobre-humana para escapar de qualquer emboscada e atacar sem jamais ser pego de surpresa.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "nezumi",
+  "name": "Nezumi",
+  "description": "Pessoas-ratos de pelagem cinzenta, grandes orelhas, focinhos alongados, olhos vermelhos e garras ameaçadoras, quase todos marcados por cicatrizes e pedaços faltantes de orelhas e caudas. Antigos rivais dos humanos pela posse de Tamu-ra, hoje tentam deixar as diferenças de lado para reconstruir a ilha. Para os nezumi, considerar alguém \"inimigo\" é um sinal de respeito — uma vida sem adversários é uma vida vazia.",
+  "size": "pequeno",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "constituicao": 2, "destreza": 1, "inteligencia": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["empunhadura_poderosa_de_nezumi", "pequeno_mas_nao_metade", "roedor", "sentidos_murideos"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devocao": ["arsenal", "megalokk", "tenebra"],
+  "livro": "ameacas_de_arton"
+}

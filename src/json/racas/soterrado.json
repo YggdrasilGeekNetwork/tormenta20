@@ -1,0 +1,17 @@
+{
+  "id": "soterrado",
+  "name": "Soterrado",
+  "description": "Variante da raça osteon encontrada nas Uivantes, formada por esqueletos revestidos de grossas camadas de gelo eterno. Supõe-se que surgem a partir de vítimas soterradas em avalanches, embora alguns necromantes consigam conjurá-los. Para criar um personagem desta raça, use as habilidades de osteon, mas substitua Armadura Óssea e Memória Póstuma por Abraço Gélido e Esquife de Gelo.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": { "constituicao": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["natureza_esqueletica", "preco_da_nao_vida", "abraco_gelido", "esquife_de_gelo_soterrado"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": null,
+  "devocao": null,
+  "livro": "ameacas_de_arton"
+}

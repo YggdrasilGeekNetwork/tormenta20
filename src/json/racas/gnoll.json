@@ -1,0 +1,16 @@
+{
+  "id": "gnoll",
+  "name": "Gnoll",
+  "description": "Humanoides com traços de hiena que vivem em regiões ermas, caçando e salteando rotas comerciais menos protegidas. Embora perigosos, são considerados um problema 'menor' por regentes — roubam e pilham, mas raramente matam, exceto quando a vítima resiste. A cultura gnoll considera a rendição um ato honrado: quando percebem que perderam ou subestimaram um inimigo, largam as armas sem pudor, esperando receber a liberdade mesmo perdendo posses; da mesma forma, sempre aceitam a rendição de um inimigo. Atacar alguém que já se rendeu é impensável, podendo tornar o agressor caçado sem trégua por todas as alcateias da região. Fora isso, são animalescos: respeitam apenas a lei do mais forte e seguem seus instintos; os que se distanciam desse comportamento são vistos como anormais e muitas vezes expulsos do bando, não sendo raro que se juntem a grupos de aventureiros.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "constituicao": 2, "sabedoria": 1, "inteligencia": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["faro_de_gnoll", "mordida_de_gnoll", "oportunista_gnoll", "rendicao"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "devocao": ["allihanna", "hyninn", "marah", "megalokk", "nimb", "tenebra"],
+  "livro": "ameacas_de_arton"
+}

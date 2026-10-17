@@ -1,0 +1,16 @@
+{
+  "id": "criatura_das_profundezas",
+  "name": "Criatura das Profundezas",
+  "type": "habilidade_de_raca",
+  "race": "meio_orc",
+  "description": "Você recebe visão no escuro e +2 em testes de Percepção e Sobrevivência realizados no subterrâneo.",
+  "effects": {
+    "vision": "visao_no_escuro",
+    "conditional_skill_bonus": {
+      "percepcao": 2,
+      "sobrevivencia": 2,
+      "condition": "subterraneo"
+    }
+  },
+  "livro": "ameacas_de_arton"
+}

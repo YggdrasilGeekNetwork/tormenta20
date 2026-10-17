@@ -1,0 +1,53 @@
+{
+  "id": "lich_de_aslothia",
+  "name": "Lich de Aslothia",
+  "nd": 18,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "reino_dos_mortos",
+  "pv": 800,
+  "pm": 180,
+  "defesa": 52,
+  "salvaguardas": { "fort": 29, "ref": 22, "von": 35 },
+  "reducao_de_dano": "20/mágico",
+  "imunidades": ["eletricidade", "frio", "metamorfose"],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": [],
+  "iniciativa": 21,
+  "percepcao": 17,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": -1, "des": 4, "con": 2, "int": 12, "sab": 2, "car": 7 },
+  "pericias": { "conhecimento": 29, "cura": 17, "diplomacia": 22, "intimidacao": 22, "intuicao": 17, "misticismo": 32, "nobreza": 29, "oficio_alquimista": 29 },
+  "ataques": [
+    {
+      "nome": "Toque gélido",
+      "bonus": 47,
+      "dano": [
+        { "dados": [{ "quantidade": 9, "faces": 6 }], "bonus": 9, "tipo": "frio" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arcano de Batalha", "descricao": "O lich de Aslothia soma sua Inteligência nas rolagens de dano quando lança magias (já contabilizado)." },
+    { "nome": "Aura de Medo", "descricao": "Criaturas em um raio de 30m do lich ficam abaladas (Vontade CD 46 evita e a criatura não pode mais ser abalada por esta habilidade até o fim da cena)." },
+    { "nome": "Contramágica Superior", "acao": "reacao", "descricao": "Uma vez por rodada, quando vê uma magia ser conjurada, o lich faz uma contramágica. Se usar Dissipar Magia para isso, ele rola dois dados e usa o melhor resultado." },
+    { "nome": "Drenar Vida", "acao": "livre", "custo_pm": 1, "descricao": "Quando lança uma magia que causa dano, o lich muda o tipo desse dano para trevas. Para cada criatura que falhar no teste de resistência contra essa magia, o lich recupera uma quantidade de PV igual à metade do dano causado." },
+    { "nome": "Fluxo de Mana", "descricao": "O lich pode manter dois efeitos sustentados simultaneamente com apenas uma ação livre (mas pagando o custo de cada um)." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o lich muda a execução dela para livre." },
+    { "nome": "Magia Discreta", "acao": "livre", "custo_pm": 2, "descricao": "Quando lança uma magia, o lich não precisa gesticular ou falar, e pode lançar a magia com as mãos presas, amordaçado etc. Perceber que ele lançou uma magia exige passar em um teste de Misticismo (CD 20)." },
+    { "nome": "Presença Majestosa", "acao": "reacao", "descricao": "Quando uma criatura ataca o lich, deve passar em um teste de Vontade (CD 46) ou não conseguirá machucá-lo e perderá a ação. Uma criatura que passe no teste de Vontade não é mais afetada por esta habilidade até o fim da cena." },
+    { "nome": "Rigor Mortis", "descricao": "Uma criatura que falhe na resistência contra uma das magias do lich perde sua próxima ação de movimento." },
+    { "nome": "Sacrificar Servo", "acao": "reacao", "descricao": "Uma vez por rodada, quando sofre dano, o lich sacrifica uma de suas criaturas invocadas para reduzir esse dano a 0." },
+    { "nome": "Toque Paralisante", "descricao": "Uma criatura que sofra dano do toque gélido do lich fica paralisada por 1d6 rodadas (Fortitude CD 46 evita)." },
+    { "nome": "Filactério", "descricao": "Um lich morto retorna completamente recuperado em 1d10 dias. A única forma de derrotá-lo permanentemente é destruir seu filactério." },
+    { "nome": "Magias", "descricao": "Lança magias como mago de 18º nível (CD 46, limite de PM 30): Conjurar Mortos-Vivos (completa, 20 PM, sustentada, onze sombras Médias), Desespero Esmagador (padrão, 8 PM, debilitado e esmorecido), Dissipar Magia (padrão, 3 PM), Legião (padrão, 15 PM, sustentada, até 10 criaturas obedientes), Marionete (padrão, 10 PM, sustentada), Rogar Maldição (padrão, 10 PM, esmorecido permanente e muda), Toque da Morte (padrão, 25 PM, 10d8+22 de trevas), Toque Vampírico (padrão, 29 PM, +30d6+12 de trevas, cura metade), Velocidade (padrão, 10 PM, sustentada)." }
+  ],
+  "equipamento": ["Coroa majestosa", "Essência de mana x5", "Robe do arquimago"],
+  "tesouro": "Dobro e fragmento de filactério.",
+  "description": "Nobre de Aslothia que ascendeu à condição de lich sob a bênção ou tutela de Ferren Asloth, governando seu próprio feudo de terror com presença majestosa capaz de paralisar atacantes de medo reverente.",
+  "livro": "ameacas_de_arton"
+}

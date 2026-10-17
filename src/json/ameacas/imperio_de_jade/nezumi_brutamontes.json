@@ -1,0 +1,50 @@
+{
+  "id": "nezumi_brutamontes",
+  "name": "Nezumi Brutamontes",
+  "nd": 4,
+  "tipo": "Humanoide",
+  "subtipo": "nezumi",
+  "tamanho": "pequeno",
+  "grupo": "imperio_de_jade",
+  "pv": 140,
+  "pm": null,
+  "defesa": 23,
+  "salvaguardas": { "fort": 16, "ref": 10, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 4,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 3, "des": 1, "con": 3, "int": -1, "sab": 0, "car": -1 },
+  "pericias": { "atletismo": 7, "intimidacao": 5 },
+  "ataques": [
+    {
+      "nome": "Marreta",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 8 }], "bonus": 6, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 3, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Resistência a Medo de Criaturas Maiores", "descricao": "Recebe +5 em testes de Vontade para resistir a efeitos de medo causados por criaturas maiores que ele." },
+    { "nome": "Estocada Invertida", "acao": "reacao", "descricao": "Uma vez por rodada, se acertar um ataque com sua marreta, o nezumi brutamontes pode fazer um ataque em outra criatura usando a ponta do cabo da arma (ataque +16, dano 2d8+6, impacto)." },
+    { "nome": "Roedor", "descricao": "Quando o nezumi brutamontes faz um acerto crítico com sua mordida, deixa a armadura da vítima avariada ou, se ela estiver sem armadura, aumenta em +1 o multiplicador desse crítico." }
+  ],
+  "equipamento": ["Gibão de peles", "Marreta aumentada"],
+  "tesouro": "Metade.",
+  "description": "Nezumi de força descomunal para seu tamanho, brandindo marretas aumentadas capazes de esmagar oponentes muito maiores.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "cria_de_masmorra",
+  "name": "Cria de Masmorra",
+  "type": "habilidade_de_raca",
+  "race": "harpia",
+  "description": "Você é uma criatura do tipo monstro e recebe visão no escuro e +2 em Intimidação e Sobrevivência.",
+  "effects": {
+    "creature_type": "monstro",
+    "vision": "visao_no_escuro",
+    "skill_improvement": [
+      { "skill": "intimidacao", "value": 2 },
+      { "skill": "sobrevivencia", "value": 2 }
+    ]
+  },
+  "livro": "ameacas_de_arton"
+}

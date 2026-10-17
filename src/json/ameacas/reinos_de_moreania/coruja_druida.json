@@ -1,0 +1,44 @@
+{
+  "id": "coruja_druida",
+  "name": "Coruja Druida",
+  "nd": 10,
+  "tipo": "Humanoide",
+  "subtipo": "moreau",
+  "tamanho": "medio",
+  "grupo": "reinos_de_moreania",
+  "pv": 284,
+  "pm": 55,
+  "defesa": 33,
+  "salvaguardas": { "fort": 12, "ref": 14, "von": 24 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 16,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 3, "con": 3, "int": 2, "sab": 5, "car": 1 },
+  "pericias": { "adestramento": 12, "misticismo": 11, "religiao": 14, "sobrevivencia": 16 },
+  "ataques": [
+    {
+      "nome": "Bordão",
+      "quantidade": 2,
+      "bonus": 25,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 16, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Chamado da Dama Altiva", "acao": "padrao", "descricao": "A coruja druida invoca 2d4 animais para lutarem ao seu lado por até 1 minuto." },
+    { "nome": "Magias", "descricao": "A coruja druida lança magias como uma druida de Allihanna de 10º nível (CD 32): Comunhão com a Natureza, Concentração de Combate, Ilusão Lacerante, Silêncio, Vidência." }
+  ],
+  "equipamento": ["Bandoleira de poções", "Bordão", "Essência de mana x3", "Farrapos de ermitão", "Símbolo sagrado de Allihanna"],
+  "familiar": null,
+  "parceiro": null,
+  "tesouro": "Metade.",
+  "description": "Moreau de herança da coruja devotada a Allihanna, sábia guardiã dos ermos conhecida como a Dama Altiva, capaz de convocar animais em seu auxílio e lançar poderosas magias druídicas.",
+  "livro": "ameacas_de_arton"
+}

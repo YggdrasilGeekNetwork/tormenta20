@@ -1,0 +1,56 @@
+{
+  "id": "carcaju",
+  "name": "Carcaju",
+  "nd": 1,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "pequeno",
+  "grupo": "uivantes",
+  "pv": 26,
+  "defesa": 15,
+  "salvaguardas": { "fort": 10, "ref": 5, "von": 0 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 5,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12, "escalada": 9 },
+  "atributos": { "for": 2, "des": 2, "con": 3, "int": -4, "sab": 1, "car": 0 },
+  "pericias": { "atletismo": 6, "intimidacao": 4, "sobrevivencia": 8 },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 2, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 2, "tipo": "perfuração" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "Quando passa em um teste de Reflexos para reduzir o dano de um efeito à metade, em vez disso não sofre nenhum dano." },
+    { "nome": "O Melhor no que Faz", "descricao": "Quando sofre dano, o carcaju recebe +2 em testes de ataque e rolagens de dano até o fim de seu próximo turno." },
+    { "nome": "Resiliência", "descricao": "O carcaju não fica inconsciente quando é reduzido a 0 PV ou menos. Quando é reduzido a -13 PV morre, ou fica inconsciente no caso de dano não letal." }
+  ],
+  "equipamento": [],
+  "familiar": null,
+  "parceiro": {
+    "tipo": "parceiro especial (fortão)",
+    "iniciante": "Uma vez por rodada você recebe +1d6 em uma rolagem de dano corpo a corpo. Se rolar um 6 nesse dado extra de dano, você pode rolar +1d6 e somar ao resultado uma vez.",
+    "veterano": "Sua margem de ameaça com armas corpo a corpo aumenta em +1.",
+    "mestre": "Quando sofre dano, você recebe +2 em testes de ataque e rolagens de dano até o fim de seu próximo turno."
+  },
+  "tesouro": "Nenhum.",
+  "description": "Também conhecido por glutão ou wolverine, predador pequeno mas muito forte e agressivo das Uivantes, odiado por caçadores por roubar animais presos em armadilhas. Quando ferido ou encurralado, entra em uma cólera ensandecida, mordendo e rasgando com as garras.",
+  "livro": "ameacas_de_arton"
+}

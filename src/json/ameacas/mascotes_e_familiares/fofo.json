@@ -1,0 +1,47 @@
+{
+  "id": "fofo",
+  "name": "Fofo",
+  "nd": 0.5,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "minusculo",
+  "grupo": "mascotes_e_familiares",
+  "pv": 8,
+  "pm": null,
+  "defesa": 10,
+  "salvaguardas": { "fort": 7, "ref": 2, "von": 0 },
+  "reducao_de_dano": 10,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 5,
+  "visao": ["percepção às cegas"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 0, "des": 2, "con": 5, "int": -4, "sab": 2, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 7,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 4, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "especial (guardião)",
+    "restricao": null,
+    "iniciante": "Você recebe redução de dano 1.",
+    "veterano": "A RD aumenta para 2 e você pode vestir um item que ocupe 1 espaço ou menos sem contar em seu limite de itens vestidos.",
+    "mestre": "A RD aumenta para 3."
+  },
+  "description": "Plasmoide doméstico, popularmente chamado de fofo: uma variedade inofensiva e facilmente domesticável das criaturas amorfas e gelatinosas que devoram tudo em masmorras. Lembra uma massa de pão quente e macia ao toque, sem olhos ou feições reconhecíveis, mudando continuamente de forma. Pode produzir tentáculos para manipular objetos ou moldar o corpo em formas variadas (tenda, travesseiro, saco de dormir, chapéu), desde que não sejam objetos muito rígidos. Tem movimentos rápidos e, com sua elasticidade, esquiva-se de quase qualquer coisa; sua resistência e consistência evitam grande parte do dano recebido, por vezes protegendo o dono de ataques especialmente cruéis. É muito afetuoso, aprecia o toque e calor do corpo humano, produzindo um ruído característico parecido com 'brl-brl-brl'.",
+  "livro": "ameacas_de_arton"
+}

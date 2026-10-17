@@ -1,0 +1,47 @@
+{
+  "id": "oxxdon_imenso",
+  "name": "Oxxdon Imenso",
+  "nd": 10,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "sanguinarias",
+  "pv": 400,
+  "defesa": 36,
+  "salvaguardas": { "fort": 13, "ref": 24, "von": 11 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 18,
+  "percepcao": 10,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 2, "des": 6, "con": 3, "int": -4, "sab": 1, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Antena",
+      "quantidade": 2,
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 10, "tipo": "perfuração" }
+      ],
+      "efeito": "ferrugem"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 8 }], "bonus": 10, "tipo": "perfuração" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura Oxidante", "descricao": "A presença de um oxxdon imenso corrói a própria existência. Objetos soltos, bem como criaturas, que comecem o turno em um raio de 9m sofrem 4d6+10 pontos de dano de essência e ficam fatigadas por 1 rodada." },
+    { "nome": "Ferrugem", "salvaguarda": "Fortitude", "cd": 30, "descricao": "Como o oxxdon comum, mas com CD 30." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Versão maior do oxxdon, suas antenas aguçadas percebem até seres ocultos por magia, e sua carapaça resistente a ataques físicos e mágicos é cobiçada por caçadores como material para armaduras, garras e presas.",
+  "livro": "ameacas_de_arton"
+}

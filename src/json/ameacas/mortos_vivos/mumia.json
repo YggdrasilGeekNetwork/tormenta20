@@ -1,0 +1,42 @@
+{
+  "id": "mumia",
+  "name": "Múmia",
+  "nd": 5,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "mortos_vivos",
+  "pv": 192,
+  "pm": null,
+  "defesa": 22,
+  "salvaguardas": { "fort": 11, "ref": 5, "von": 17 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": ["fogo"],
+  "iniciativa": 3,
+  "percepcao": 8,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 3, "des": 1, "con": 2, "int": 0, "sab": 3, "car": 2 },
+  "pericias": { "furtividade": 10 },
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 10, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Desespero", "descricao": "Uma criatura que comece seu turno vendo uma múmia fica apavorada (Vontade CD 20 evita e a criatura não pode mais ser apavorada por esta habilidade até o fim da cena)." },
+    { "nome": "Doença", "descricao": "Uma criatura atingida por uma pancada da múmia é exposta à doença podridão da múmia." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão.",
+  "description": "Cadáver especialmente embalsamado para resistir à passagem dos séculos e garantir uma viagem tranquila aos reinos dos deuses, mas impedido de partir por alguma maldição. Habita catacumbas e templos, mantendo vigília eterna como guardiã de tumbas, tesouros e segredos. Impiedosa e implacável, nunca recua, perseguindo profanadores por longas distâncias até sua destruição.",
+  "livro": "ameacas_de_arton"
+}

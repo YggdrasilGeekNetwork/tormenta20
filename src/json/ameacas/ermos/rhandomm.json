@@ -1,0 +1,63 @@
+{
+  "id": "rhandomm",
+  "name": "Rhandomm",
+  "nd": 20,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "colossal",
+  "grupo": "ermos",
+  "pv": 1300,
+  "pm": null,
+  "defesa": 63,
+  "salvaguardas": { "fort": 34, "ref": 20, "von": 28 },
+  "reducao_de_dano": null,
+  "imunidades": ["adivinhação", "atordoado", "cansaço", "efeitos mentais", "efeitos de metabolismo", "efeitos mágicos de movimento", "dano", "medo", "metamorfose", "paralisia", "veneno"],
+  "resistencias": { "magia": 10 },
+  "vulnerabilidades": [],
+  "iniciativa": 20,
+  "percepcao": 26,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 19, "des": 4, "con": 17, "int": -4, "sab": 0, "car": 0 },
+  "pericias": {},
+  "cura_acelerada": 100,
+  "resistencia_a_magia": 10,
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 55,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 12 }], "bonus": 40, "tipo": "impacto" }
+      ],
+      "critico": "20/x4"
+    },
+    {
+      "nome": "Rocha (à distância)",
+      "alcance": "longo",
+      "bonus": 50,
+      "dano": [
+        { "dados": [{ "quantidade": 6, "faces": 10 }], "bonus": 40, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura Caótica", "descricao": "No início do turno do Rhandomm, cada criatura em uma esfera de 30m perde 6d6 pontos de vida, à medida que seus corpos se distorcem pelo puro poder do Caos. Sempre que rolar um 6 num desses dados, soma esse valor e rola o dado novamente." },
+    { "nome": "Golpe Avassalador", "acao": "livre", "descricao": "Quando acerta um ataque de pancada, arremessa a vítima 1d6 x 1,5m em uma direção à escolha dele (Fortitude CD 50 evita). A vítima fica caída e, se atingir um obstáculo, sofre 1d6 de dano de impacto por 1,5m arremessado." },
+    { "nome": "Punhos Caóticos", "descricao": "Uma criatura atingida por uma pancada do Rhandomm perde 6d6 pontos de vida. Sempre que rolar um 6 num desses dados, soma esse valor e rola o dado novamente." },
+    { "nome": "Salto Prodigioso", "acao": "movimento", "descricao": "O Rhandomm salta 60m para um espaço desocupado em qualquer direção." },
+    { "nome": "Sentidos Titânicos (mágica)", "descricao": "O Rhandomm está permanentemente sob o efeito básico de Visão da Verdade como uma magia simulada." },
+    { "nome": "Titânico", "descricao": "O Rhandomm é imune a manobras de combate e não pode ser flanqueado. Quando se move, pisoteia qualquer criatura ou objeto Enorme ou menor em seu caminho, causando 20d6 pontos de dano de impacto (uma vez por rodada por criatura, Reflexos CD 50 reduz à metade). Seus ataques ignoram redução de dano e atingem todas as criaturas em um quadrado de 6m (um único teste de ataque comparado à Defesa de cada inimigo na área)." },
+    { "nome": "Varrer", "acao": "livre", "descricao": "Uma vez por rodada, quando faz um ataque corpo a corpo e reduz os PV do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance." },
+    {
+      "nome": "Fraqueza Variável",
+      "descricao": "O Rhandomm é suscetível a um tipo de dano, que muda sempre que desperta da hibernação. Role 1d10: 1) Ácido; 2) Corte; 3) Eletricidade; 4) Essência; 5) Fogo; 6) Frio; 7) Impacto; 8) Luz; 9) Perfuração; 10) Trevas. Efeitos desse tipo de dano ignoram a imunidade a dano do Rhandomm."
+    },
+    { "nome": "Montanha Viva", "descricao": "Um personagem pode gastar uma ação padrão e fazer um teste de Atletismo (CD 30) para escalar o Rhandomm. Se falhar por 5 ou mais, cai na frente do monstro e sofre 8d6 de dano de queda. Passando em três desses testes, chega aos ombros do monstro, onde recebe camuflagem leve contra os ataques da criatura e ataca como se o Rhandomm estivesse desprevenido." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Titã mítico, uma suprema entidade do caos, criado por Nimb por razões que apenas o Deus do Caos conhece (ou não). Passa a maior parte do tempo em hibernação nas profundezas de algum abismo, despertando de tempos em tempos para trazer caos e destruição aos reinos, sem que se possa prever quando ou onde surgirá. Seu corpo é invulnerável a quase todas as formas de ataque, físicas ou mágicas, exceto uma — uma fraqueza singular que muda a cada despertar, e que magias de adivinhação usadas para descobri-la sempre falham, possivelmente por intervenção do próprio Nimb; os poucos que o teriam derrotado só conseguiram por tentativa e erro, custando a vida de inúmeros heróis. Quando abatido, desaparece sem deixar restos, sendo recriado em algum outro lugar, novamente adormecido, aguardando outro comando do Deus do Caos — ou talvez nem o próprio Nimb consiga (ou queira) controlar sua ira.",
+  "livro": "ameacas_de_arton"
+}

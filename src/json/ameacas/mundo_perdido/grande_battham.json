@@ -1,0 +1,49 @@
+{
+  "id": "grande_battham",
+  "name": "Grande Battham",
+  "nd": 12,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "colossal",
+  "grupo": "mundo_perdido",
+  "pv": 800,
+  "pm": null,
+  "defesa": 38,
+  "salvaguardas": { "fort": 26, "ref": 20, "von": 12 },
+  "reducao_de_dano": null,
+  "imunidades": ["manobras de combate"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 17,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 15, "des": -1, "con": 10, "int": -5, "sab": 2, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Cauda",
+      "alcance": "médio",
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 45, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Pisão",
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 12 }], "bonus": 45, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Quase Titânico", "descricao": "Quando se move, o battham pisoteia qualquer criatura ou estrutura Grande ou menor em seu caminho, causando 12d6 pontos de dano de impacto (uma vez por rodada por criatura, Reflexos CD 33 reduz à metade). Além disso, seus ataques atingem todas as criaturas em um quadrado de 3m (para cada ataque, ele faz um único teste de ataque e compara o resultado com a Defesa de cada inimigo na área)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Fígado de lagarto-trovão (CD 27 para extrair).",
+  "description": "Também chamado \"lagarto-tentáculo\" por piratas ou \"seismossauro\" no meio acadêmico, pertence a um vasto grupo de lagartos-trovão entre os maiores animais naturais de Arton, com pescoço de serpente muito longo e flexível e pele rugosa e grossa. Herbívoro pacífico com temperamento de vaca comum, nunca ataca com mordidas — mas um estouro de manada provocado por predadores pode ser catastrófico.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "acoite_flamejante",
+  "name": "Açoite Flamejante",
+  "type": "arcana",
+  "circle": "1",
+  "school": "conv",
+  "execution": "padrão",
+  "execution_details": null,
+  "range": "pessoal",
+  "target": {
+    "amount": 1,
+    "up_to": false,
+    "type": "criatura"
+  },
+  "effect": "açoite de chamas criado em sua mão",
+  "effect_details": {
+    "shape": null,
+    "dimention": null,
+    "size": null,
+    "other_details": "a mão que empunha o açoite fica ocupada pela duração da magia"
+  },
+  "counterspell": null,
+  "duration": "sustentada",
+  "duration_details": null,
+  "resistence": {
+    "effect": "reduz_parcial",
+    "skill": "reflexos"
+  },
+  "extra_costs": null,
+  "description": "Um açoite de fogo surge em uma de suas mãos com a qual possa empunhar uma arma (essa mão fica ocupada pela duração da magia). Você pode usar uma ação padrão para causar 2d6 pontos de dano de fogo com o açoite em uma criatura em alcance curto e deixá-la em chamas e enredada enquanto estiver em chamas dessa forma. Passar na resistência reduz o dano à metade e evita as chamas.",
+  "enhancements": [
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "muda a execução para movimento.",
+      "extra_details": null
+    },
+    {
+      "cost": 2,
+      "type": "muda",
+      "description": "muda o dano para 4d6. Requer 2º círculo.",
+      "extra_details": { "requirement": "2_circulo" }
+    },
+    {
+      "cost": 5,
+      "type": "muda",
+      "description": "muda o dano para 6d6. Requer 3º círculo.",
+      "extra_details": { "requirement": "3_circulo" }
+    }
+  ],
+  "effects": [
+    {
+      "type": "dano",
+      "attribute": "pv",
+      "amount": "2d6",
+      "resistence_requirement": "reflexos",
+      "extra_requirements": "deixa em chamas e enredada"
+    }
+  ],
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "ogro",
+  "name": "Ogro",
+  "description": "Alto e robusto como um antigo carvalho, uma montanha de músculos em forma humanoide encimada por uma cabeça diminuta — tão feio quanto forte, coberto de pelos desgrenhados, verrugas e manchas. Grandes e fortes como touros (e quase tão espertos), estes gigantes primitivos são solitários e mal-humorados, raramente encontrados em bandos; por sua estupidez, são frequentemente convencidos a acompanhar bandidos e gnolls, ou a servir bruxos e cultistas. Enganar um ogro não é tarefa difícil, sendo mais recomendado que vencê-lo pela força bruta — mesmo enfurecido, pode cair em provocações e cometer erros. Não desenvolvem tecnologia, vivendo de saque, roubo e pilhagem; carnívoros, alimentam-se de praticamente qualquer criatura, com certa predileção por humanos, elfos, anões e hynne. Histórias contam sobre ogros raros que se reuniram a grupos de aventureiros, contribuindo com sua enorme força e resistência, embora também causem problemas de muitas maneiras.",
+  "size": "grande",
+  "movement": 9,
+  "vision": "baixa_luminosidade",
+  "vision_range": null,
+  "attribute_bonuses": { "forca": 3, "constituicao": 2, "inteligencia": -1, "carisma": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["quanto_maior_o_tamanho", "maior_a_porrada", "camada_de_ingenuidade"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "devocao": ["allihanna", "arsenal", "megalokk", "tenebra"],
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "fera_vassalo",
+  "name": "Fera-Vassalo",
+  "nd": 3,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "ermos",
+  "pv": 22,
+  "pm": null,
+  "defesa": 21,
+  "salvaguardas": { "fort": 10, "ref": 13, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": ["frio"],
+  "iniciativa": 3,
+  "percepcao": 3,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 4, "des": 0, "con": 3, "int": -2, "sab": 0, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 15,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 6, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Espinho (à distância)",
+      "quantidade": 2,
+      "alcance": "curto",
+      "bonus": 15,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 3, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Natureza Vegetal", "descricao": "A fera-vassalo é uma criatura de natureza vegetal." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Garra (teste +15)." },
+    { "nome": "Corpo Espinhoso", "descricao": "Qualquer criatura que erre um ataque corpo a corpo adjacente, desarmado ou com arma natural, contra a fera-vassalo sofre 2d4+3 pontos de dano de perfuração (Reflexos CD 17 evita)." },
+    { "nome": "Drenar Sangue", "acao": "completa", "descricao": "Se iniciar o turno agarrando uma criatura, pode drenar seu sangue: a vítima perde 2d4+3 PV e a fera recupera a mesma quantidade." }
+  ],
+  "equipamento": [],
+  "tesouro": "Espinhos (CD 18 para extrair, valem T$ 50 para fabricar flechas superiores).",
+  "description": "Monstro vegetal de origem desconhecida, com forma vagamente humanoide, cobertura de calosidades e espinhos afiados, até dois metros de altura, com ferrões longos como adagas no lugar das mãos. Ronda áreas secas, sobretudo desertos e savanas, em grupos; diz-se que nascem e crescem enraizados como cactos comuns, protegidos pelas feras adultas, até se desprenderem do solo para caçar. Preferem a noite, são extremamente silenciosas (pés estofados) e usam linguagem de gestos. Mais perigosas em combate corporal, onde as garras-espinhos sugam sangue, do que disparando espinhos à distância; apodrecem e morrem rapidamente sob chuva forte ou imersão em água.",
+  "livro": "ameacas_de_arton"
+}

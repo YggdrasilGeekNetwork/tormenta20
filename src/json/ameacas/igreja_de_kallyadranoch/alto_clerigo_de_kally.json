@@ -1,0 +1,55 @@
+{
+  "id": "alto_clerigo_de_kally",
+  "name": "Alto Clérigo de Kally",
+  "nd": 13,
+  "tipo": "Monstro",
+  "subtipo": "kallyanach",
+  "tamanho": "medio",
+  "grupo": "igreja_de_kallyadranoch",
+  "pv": 455,
+  "pm": 72,
+  "defesa": 40,
+  "salvaguardas": { "fort": 20, "ref": 13, "von": 26 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 17,
+  "visao": [],
+  "deslocamento": { "terrestre": 6, "voo": 6 },
+  "atributos": { "for": 2, "des": 0, "con": 3, "int": 1, "sab": 7, "car": 3 },
+  "pericias": { "intimidacao": 15, "intuicao": 17, "misticismo": 11, "religiao": 19 },
+  "ataques": [
+    {
+      "nome": "Lança",
+      "quantidade": 2,
+      "bonus": 35,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 23, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 0, "tipo": "fogo" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Lança (à distância)",
+      "bonus": 35,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 23, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 0, "tipo": "fogo" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura de Medo", "acao": "livre", "custo_pm": 2, "descricao": "O alto clérigo de Kally gera uma aura de medo de 9m de raio que dura até o fim da cena. Todos os inimigos que entrem na aura ficam abalados até o fim da cena (Vontade CD 37 evita e a criatura fica imune a esta habilidade por um dia)." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o alto clérigo muda a execução dela para livre." },
+    { "nome": "Poder Ilimitado!", "acao": "livre", "custo_pm": 3, "descricao": "Quando lança uma magia sustentada, o alto clérigo muda a duração dela para cena." },
+    { "nome": "Servos do Dragão", "acao": "completa", "custo_pm": 2, "descricao": "O alto clérigo invoca 2d6+2 kobolds (veja Acólito de Kally)." },
+    { "nome": "Magias", "descricao": "Lança magias como clérigo de Kallyadranoch de 13º nível (CD 37): Coluna de Chamas (padrão, 13 PM, cilindro de fogo sagrado 3m de raio e 30m de altura em alcance longo, 13d6 fogo + 6d6 luz, Reflexos reduz à metade), Comando (padrão, 8 PM, quatro criaturas), Controlar Fogo (padrão, 3 PM), Escudo da Fé (reação, 1 PM), Manto do Cruzado (padrão, 10 PM, sustentada, criaturas escolhidas em alcance curto sofrem 4d8 de trevas no início de cada turno, o alto clérigo cura metade do dano causado), Oração (padrão, 11 PM, sustentada, +4/–4 em perícia e dano), Potência Divina (padrão, 6 PM, sustentada, tamanho aumenta uma categoria, Força +4 e RD 10, não pode lançar magias enquanto durar), Proteção Divina (reação, 3 PM, +5 no próximo teste de resistência)." }
+  ],
+  "equipamento": ["Lança de arremesso", "Meia armadura", "Símbolo sagrado de Kallyadranoch"],
+  "tesouro": "Padrão.",
+  "description": "Kallyanach que alcançou a liderança máxima entre os devotos de Kallyadranoch em sua região, comandando acólitos e clérigos como subalternos. Orgulhoso, competitivo e territorial como os próprios dragões que venera, raramente age em grupo com outros de seu posto, vendo-os como rivais indignos.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "verme_do_gelo_adulto",
+  "name": "Verme do Gelo Adulto",
+  "nd": 18,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "colossal",
+  "grupo": "uivantes",
+  "pv": 1100,
+  "defesa": 56,
+  "salvaguardas": { "fort": 32, "ref": 26, "von": 18 },
+  "reducao_de_dano": 10,
+  "imunidades": ["caído", "encantamento", "frio"],
+  "resistencias": {},
+  "vulnerabilidades": ["fogo"],
+  "iniciativa": 22,
+  "percepcao": 19,
+  "visao": ["faro", "percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 15, "escavacao": 18 },
+  "atributos": { "for": 7, "des": 3, "con": 5, "int": -5, "sab": 3, "car": -4 },
+  "pericias": { "furtividade": 22 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 49,
+      "dano": [
+        { "dados": [{ "quantidade": 10, "faces": 12 }], "bonus": 100, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 10, "faces": 8 }], "tipo": "frio" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com a mordida (teste +59)." },
+    { "nome": "Engolir", "acao": "padrao", "descricao": "No início de cada um dos turnos do verme do gelo adulto, a criatura engolida sofre 6d6+30 pontos de dano de impacto mais 4d6+40 pontos de dano de frio. Ela pode escapar causando um total de 200 pontos de dano a ele (Defesa 25, redução de dano 0)." },
+    { "nome": "Espasmo Mortal", "salvaguarda": "Reflexos", "cd": 47, "efeito_sucesso": "evita", "descricao": "Quando o verme é morto, seu corpo explode, fazendo com que estacas de gelo se projetem do chão em um raio de 6m. Criaturas nessa área sofrem 10d8 pontos de dano de corte mais 10d8 pontos de dano de frio e ficam caídas (Ref CD 47 evita). A área afetada se torna terreno difícil e concede cobertura leve para criaturas dentro dela. Causar dano de fogo mágico a qualquer parte dessa área destrói as estacas nos espaços correspondentes." },
+    { "nome": "Frio Extremo", "descricao": "O verme projeta uma aura de frio extremo que enfraquece todas as chamas em um raio de 9m. Nessa área, habilidades de fogo custam +1 PM para ser usadas e causam -1 ponto de dano por dado." },
+    { "nome": "Sopro Glacial", "acao": "padrao", "salvaguarda": "Reflexos", "cd": 47, "efeito_sucesso": "reduz o dano à metade e evita a condição", "descricao": "Todas as criaturas em um cone de 12m sofrem 10d12 pontos de dano de frio e ficam lentas (Ref CD 47 reduz o dano à metade e evita a condição). Recarga (movimento)." }
+  ],
+  "tesouro": "Padrão mais 2d6 doses de gelo extremo (CD 33 para extrair).",
+  "description": "Forma adulta do verme do gelo, capaz de devorar um mamute inteiro de uma vez. Pode surgir sem aviso onde houver quantidade considerável de carne, como um bando de aventureiros. Povos nativos usam amuletos abençoados que dizem afastar o monstro. A maioria concorda tratar-se de uma cria de Megalokk, embora uma lenda sugira serem produto de alguma civilização antiga, libertados de uma prisão congelada milenar.",
+  "livro": "ameacas_de_arton"
+}

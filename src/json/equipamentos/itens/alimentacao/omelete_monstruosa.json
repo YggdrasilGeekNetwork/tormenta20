@@ -1,0 +1,17 @@
+{
+  "id": "omelete_monstruosa",
+  "name": "Omelete Monstruosa",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 3,
+  "espacos": 0.5,
+  "ingredientes": ["ovos de qualquer praga monstruosa"],
+  "efeito": {
+    "bonus_dano": 2,
+    "penalidade_pericias_sabedoria": -2,
+    "cumulativo_com_outros_itens": true,
+    "variante_ovos_de_dragao": { "bonus_dano": 5, "penalidade_pericias_sabedoria": -5, "efeito_adicional": "você será caçado por uma mamãe dragoa furiosa" }
+  },
+  "description": "Dizem que este prato foi inventado por aventureiros presos em uma caverna cheia de ovos. Desde então, tornou-se popular entre aqueles de baixa seletividade alimentar, ou muita coragem. É feita com ovos de qualquer praga monstruosa, mas variações mais refinadas usam ovos de corcel de Kally e outras feras dracônicas menores. Você recebe +2 em rolagens de dano e -2 em testes de perícias baseadas em Sabedoria, cumulativo com outros itens. Se feita com ovos de dragão, muda para +5 e -5. E garante que você será caçado por uma mamãe dragoa furiosa...",
+  "livro": "ameacas_de_arton"
+}

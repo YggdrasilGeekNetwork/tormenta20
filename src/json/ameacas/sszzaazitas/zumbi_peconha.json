@@ -1,0 +1,41 @@
+{
+  "id": "zumbi_peconha",
+  "name": "Zumbi Peçonha",
+  "nd": 1,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "sszzaazitas",
+  "pv": 21,
+  "defesa": 15,
+  "salvaguardas": { "fort": 9, "ref": 1, "von": 6 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": -1,
+  "percepcao": -1,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 3, "des": -1, "con": 2, "int": null, "sab": -1, "car": -5 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 10,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 9, "tipo": "perfuração" }
+      ],
+      "efeito": "veneno",
+      "alcance": "3m"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Bote Oculto", "descricao": "O alvo do primeiro ataque do zumbi em uma cena é considerado desprevenido." },
+    { "nome": "Veneno", "salvaguarda": "Fortitude", "cd": 14, "efeito_sucesso": "reduz para fraco por 1 rodada", "descricao": "Atordoado por 1 rodada e fraco (Fort CD 14 reduz para fraco por 1 rodada)." },
+    { "nome": "Fraqueza Zumbi", "descricao": "O zumbi sofre o dobro de dano de acertos críticos ou de ataques feitos contra seu cérebro (Defesa 25)." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Zumbi comum à primeira vista, coberto de carniça e avançando trôpego sem erguer as garras — até arreganhar a bocarra para liberar uma serpente anormalmente longa, como um tentáculo, cujo bote veloz busca alcançar a garganta da vítima e inocular um veneno poderoso. Usados por sszzaazitas como guardas em templos secretos ou escoltas, também surgem espontaneamente em cemitérios, ruínas e outros lugares malditos ou sagrados para Sszzaas.",
+  "livro": "ameacas_de_arton"
+}

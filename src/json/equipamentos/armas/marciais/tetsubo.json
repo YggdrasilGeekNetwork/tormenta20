@@ -1,0 +1,20 @@
+{
+  "id": "tetsubo",
+  "name": "Tetsubo",
+  "type": "arma",
+  "proficiencia": "marcial",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "duas_maos",
+  "preco": 20,
+  "dano": "1d10",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "impacto",
+  "espacos": 2,
+  "habilidades": ["versatil"],
+  "especial": {
+    "bonus_manobra": { "derrubar": 2, "empurrar": 2 }
+  },
+  "description": "Uma versão mais pesada e sofisticada do tacape, geralmente reforçado com anéis metálicos, com rebites e/ou cravos. É uma arma versátil, fornecendo +2 em testes para derrubar ou empurrar.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "mimico",
+  "name": "Mímico",
+  "nd": 6,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "masmorras",
+  "pv": 220,
+  "pm": null,
+  "defesa": 26,
+  "salvaguardas": { "fort": 18, "ref": 12, "von": 6 },
+  "reducao_de_dano": "5/frio",
+  "imunidades": ["ácido"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 8,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 2, "des": 4, "con": 3, "int": -2, "sab": 3, "car": 0 },
+  "pericias": { "enganacao": 15, "furtividade": 2 },
+  "ataques": [
+    {
+      "nome": "Tentáculo",
+      "quantidade": 2,
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 15, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Abocanhar", "acao": "livre", "descricao": "Se o mímico começar seu turno agarrando uma criatura Média ou menor, poderá fazer um teste de agarrar contra ela. Se vencer, abocanha a criatura. Uma criatura abocanhada continua agarrada e sofre 4d8+25 pontos de dano de corte no início de cada turno do mímico. O mímico pode manter uma criatura abocanhada por vez, e pode atacar com seus tentáculos normalmente enquanto faz isso. Uma criatura abocanhada pode escapar vencendo uma manobra agarrar contra o mímico." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com seu tentáculo (teste +20)." },
+    { "nome": "Ataque Furtivo", "descricao": "Causa +3d6 de dano adicional quando ataca um alvo desprevenido ou surpreso." },
+    { "nome": "Cuspe Material", "acao": "padrão", "descricao": "O mímico cospe parte de seu conteúdo, como moedas e outros objetos diminutos, em um cone de 6m. Criaturas nessa área sofrem 6d4+6 pontos de dano de perfuração (Reflexos CD 22 reduz à metade; uma criatura abocanhada falha automaticamente nesse teste)." },
+    { "nome": "Imobilidade", "descricao": "Um mímico pode permanecer completamente imóvel. Se ele estiver assim, um personagem deve passar em um teste de Percepção (CD 40) para perceber que ele é uma criatura e não um objeto." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão.",
+  "description": "Criatura com a exata aparência de uma arca de tesouro, relicário, suporte de armas, estante de tomos arcanos ou outra peça de mobília destinada a armazenar itens de valor. Pode se manter imóvel por meses ou anos até a aproximação de uma vítima incauta. Mesmo a magia Visão da Verdade é ineficaz, pois a forma de um baú é a forma verdadeira do monstro. Capaz de falar, famosos por alegarem ser uma espada mágica poderosa aguardando um \"escolhido\".",
+  "livro": "ameacas_de_arton"
+}

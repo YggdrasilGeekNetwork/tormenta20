@@ -1,0 +1,17 @@
+{
+  "id": "finntroll",
+  "name": "Finntroll",
+  "description": "Troll nobre, monstro degenerado e arrogante que governa um vasto império subterrâneo, convencido de ser a criatura mais perfeita da existência e de que todos os outros seres existem para servi-lo. Sofisticados praticantes de magia arcana, capazes de rivalizar com as artes élficas em seu auge, delegam o combate físico a trolls e outros servos escravizados. Personagens jogadores finntroll são sempre membros da raça que abandonaram o Império Trollkyrka e rejeitam suas práticas escravistas.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "escuro",
+  "vision_range": null,
+  "attribute_bonuses": { "inteligencia": 2, "constituicao": 1, "forca": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["corpo_vegetal_finntroll", "presenca_arcana_finntroll", "regeneracao_vegetal_finntroll", "intolerancia_a_luz_finntroll"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devocao": ["kallyanadroch", "megalokk", "sszzaas", "tenebra"],
+  "livro": "ameacas_de_arton"
+}

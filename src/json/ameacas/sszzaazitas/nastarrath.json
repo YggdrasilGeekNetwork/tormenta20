@@ -1,0 +1,53 @@
+{
+  "id": "nastarrath",
+  "name": "Nastarrath",
+  "nd": 18,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "colossal",
+  "grupo": "sszzaazitas",
+  "pv": 1150,
+  "defesa": 56,
+  "salvaguardas": { "fort": 32, "ref": 18, "von": 26 },
+  "reducao_de_dano": 20,
+  "imunidades": ["corte", "perfuração"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 15,
+  "percepcao": 17,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 12, "des": 0, "con": 8, "int": -1, "sab": 2, "car": -1 },
+  "pericias": { "enganacao": 16, "furtividade": 12, "intuicao": 17 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 50,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 42, "tipo": "perfuração" }
+      ],
+      "critico": "19/x3",
+      "efeito": "veneno"
+    },
+    {
+      "nome": "Cauda",
+      "quantidade": 2,
+      "bonus": 50,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 8 }], "bonus": 42, "tipo": "impacto" }
+      ],
+      "critico": "20/x3",
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com a mordida (teste +60)." },
+    { "nome": "Engolir", "acao": "padrao", "descricao": "No início de cada um dos turnos do Nastarrath, a criatura engolida sofre 4d8+21 pontos de dano de perfuração e perde 4d12 pontos de vida por veneno. Ela pode escapar causando um total de 200 pontos de dano a ele (Defesa 25) ou, se for Minúscula, gastando uma ação de movimento. A criatura engolida não fica cega nem tem cobertura contra efeitos do lado de fora (e vice-versa)." },
+    { "nome": "Mastigar", "acao": "livre", "descricao": "No início de cada um de seus turnos, o Nastarrath causa 6d12+34 pontos de dano de corte, mais veneno, na criatura que estiver agarrando com sua mordida." },
+    { "nome": "Veneno", "salvaguarda": "Fortitude", "cd": 52, "efeito_sucesso": "reduz para 2d12 por 3 rodadas", "descricao": "Perde 6d12 pontos de vida por rodada durante 3 rodadas (Fort CD 52 reduz para 2d12 por 3 rodadas)." }
+  ],
+  "equipamento": ["1d4 doses de pó de lich (CD 38 para extrair)"],
+  "tesouro": "Padrão.",
+  "description": "Monstro morto-vivo entre os maiores existentes, criado a partir do esqueleto de uma serpente gigantesca — entre aquelas que se suspeita existir nas Sanguinárias e no Reino de Sszzaas. Suspeita-se que sszzaazitas celebrantes sejam capazes de conjurá-lo após longas e elaboradas cerimônias, oferecendo incalculáveis tesouros e sacrifícios sangrentos ao Corruptor, com o propósito de destruir uma cidade, matar um ser poderoso ou lidar com um grupo de aventureiros.",
+  "livro": "ameacas_de_arton"
+}

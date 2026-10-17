@@ -1,0 +1,13 @@
+{
+  "id": "pratica_arcana",
+  "name": "Prática Arcana",
+  "type": "habilidade_de_raca",
+  "race": "kallyanach",
+  "description": "Escolha uma magia arcana de 1º círculo que cause dano do mesmo tipo de sua Herança Dracônica. Você pode lançar essa magia (atributo-chave Inteligência). Caso aprenda novamente essa magia, seu custo diminui em –1 PM. Você pode escolher esta bênção mais de uma vez para outras magias.",
+  "effects": {
+    "grants_spell": { "circle": 1, "tradition": "arcana", "damage_type": "heranca_draconica", "key_attribute": "inteligencia" },
+    "relearn_discount_pm": 1,
+    "repeatable": true
+  },
+  "livro": "ameacas_de_arton"
+}

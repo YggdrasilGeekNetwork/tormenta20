@@ -1,0 +1,17 @@
+{
+  "id": "tomo_do_rancor",
+  "name": "Tomo do Rancor",
+  "type": "item",
+  "categoria": "esoterico",
+  "preco": 750,
+  "espacos": 1,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "aprimoramento": "+2 PM",
+    "restricao": "apenas magias de dano",
+    "efeito_adicional": "a magia causa +2d8+2 pontos de dano de corte, impacto ou perfuração, a sua escolha"
+  },
+  "description": "Suas magias de dano recebem o seguinte aprimoramento: +2 PM. Além do normal, quando lança uma magia de dano, ela causa +2d8+2 pontos de dano de corte, impacto ou perfuração, a sua escolha.",
+  "livro": "ameacas_de_arton"
+}

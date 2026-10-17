@@ -1,0 +1,15 @@
+{
+  "id": "quase_anao",
+  "name": "Quase Anão",
+  "type": "habilidade_de_raca",
+  "race": "trog_anao",
+  "description": "Você é uma criatura do tipo monstro e recebe visão no escuro e +1 ponto de vida por nível. Além disso, seu deslocamento é 6m (em vez de 9m), mas não é reduzido pelo uso de armadura ou excesso de carga.",
+  "effects": {
+    "creature_type": "monstro",
+    "vision": "visao_no_escuro",
+    "extra_hp_per_level": 1,
+    "movement": 6,
+    "movement_ignores_armor_and_encumbrance": true
+  },
+  "livro": "ameacas_de_arton"
+}

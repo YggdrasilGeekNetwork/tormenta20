@@ -1,0 +1,63 @@
+{
+  "id": "dragao_veneravel_dos_recifes",
+  "name": "Dragão Venerável dos Recifes",
+  "nd": 15,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "enorme",
+  "grupo": "dragoes",
+  "pv": 790,
+  "pm": 97,
+  "defesa": 48,
+  "salvaguardas": { "fort": 28, "ref": 20, "von": 17 },
+  "reducao_de_dano": 15,
+  "imunidades": ["eletricidade"],
+  "resistencias": { "magia": 4 },
+  "vulnerabilidades": ["ácido"],
+  "iniciativa": 19,
+  "percepcao": 20,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "natacao": 24, "voo": 24 },
+  "atributos": { "for": 12, "des": 4, "con": 10, "int": 4, "sab": 4, "car": 8 },
+  "pericias": { "atletismo": 25, "diplomacia": 22, "enganacao": 22, "intimidacao": 22 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 44,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 12 }], "bonus": 30, "tipo": "perfuração" }
+      ],
+      "critico": "17/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 44,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 30, "tipo": "corte" }
+      ],
+      "critico": "17/x2"
+    },
+    {
+      "nome": "Cauda",
+      "bonus": 44,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 30, "tipo": "impacto" }
+      ],
+      "critico": "17/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura Aterradora", "descricao": "Vontade CD 40 evita.", "tag": "Medo" },
+    { "nome": "Evasão Aprimorada", "descricao": "O dragão possui a habilidade Evasão Aprimorada." },
+    { "nome": "Fluxo de Mana", "descricao": "O dragão pode manter dois efeitos sustentados simultaneamente com apenas uma ação livre (mas pagando o custo de cada um)." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custos": { "value": 4, "type": "PM" }, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o dragão muda a execução para livre." },
+    { "nome": "Profunda Paixão", "descricao": "Quando faz um teste de uma perícia baseada em Carisma, o dragão rola dois dados e escolhe o melhor." },
+    { "nome": "Sopro", "acao": "padrão", "descricao": "Todas as criaturas em uma linha de 18m sofrem 16d12 pontos de dano de eletricidade e ficam ofuscadas por 1d4 rodadas (Reflexos CD 40 reduz à metade e evita a condição). Cada vez que um dado de dano do sopro rolar o valor máximo, role um dado extra e some ao total. Recarga (ação de movimento)." },
+    { "nome": "Magias (conjurador arcano, 15º nível, CD 40)", "descricao": "Campo de Força (7 PM, reação; RD 50 contra o dano sofrido), Controlar o Clima (10 PM, completa; muda o clima em esfera de 2km por 4d12 horas), Curar Ferimentos (15 PM; 16d8+16 PV), Enfeitiçar (1 PM), Globo de Invulnerabilidade (10 PM, sustentada; detém magias de 3º círculo ou menos em 3m), Suporte Ambiental (5 PM; 1 dia, imunidade a calor/frio extremos, respira na água, não sufoca em fumaça), Velocidade (10 PM, sustentada; ação padrão extra por turno)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Dobro e 4 peças de couro de dragão (CD 30 para extrair).",
+  "description": "Dragão venerável de energia dracônica de eletricidade, senhor de recifes e mares, capaz de alterar o próprio clima ao seu redor por vontade própria.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "ceratops_guerreiro",
+  "name": "Ceratops Guerreiro",
+  "nd": 3,
+  "tipo": "Humanoide",
+  "subtipo": "ceratops",
+  "tamanho": "grande",
+  "grupo": "povos_trovao",
+  "pv": 33,
+  "pm": null,
+  "defesa": 21,
+  "salvaguardas": { "fort": 14, "ref": 4, "von": 9 },
+  "reducao_de_dano": 2,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 0,
+  "percepcao": 3,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": -1, "con": 4, "int": -1, "sab": 0, "car": 0 },
+  "pericias": { "atletismo": 8, "intimidacao": 8, "sobrevivencia": 3 },
+  "ataques": [
+    {
+      "nome": "Tacape",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 6, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Chifres",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 6, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Atropelamento", "acao": "completa", "descricao": "O ceratops guerreiro percorre até o dobro de seu deslocamento. Ele pode passar pelo espaço ocupado de quaisquer inimigos menores que ele, mas não pode passar duas vezes pelo mesmo espaço. Criaturas atropeladas desta forma sofrem 4d8+4 pontos de dano de impacto e ficam caídas (Reflexos CD 17 reduz à metade e evita a condição). Recarga (movimento)." },
+    { "nome": "Medo de Altura", "descricao": "Se estiver adjacente a uma queda de 3m ou mais de altura (como um buraco ou penhasco), o ceratops fica abalado." }
+  ],
+  "equipamento": ["Tacape aumentado"],
+  "tesouro": "Metade.",
+  "description": "Thera guerreiro truculento, alto e forte como um ogro, com cabeçorra blindada repleta de chifres. Caça e luta pela tribo, sua simples aparência bastando para desencorajar a maioria dos agressores.",
+  "livro": "ameacas_de_arton"
+}

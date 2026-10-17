@@ -1,0 +1,49 @@
+{
+  "id": "grande_tachygloss",
+  "name": "Grande Tachygloss",
+  "nd": 16,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "sanguinarias",
+  "pv": 800,
+  "defesa": 53,
+  "salvaguardas": { "fort": 30, "ref": 24, "von": 16 },
+  "reducao_de_dano": 20,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 16,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12, "escalada": 12 },
+  "atributos": { "for": 7, "des": 0, "con": 8, "int": -4, "sab": 2, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 43,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 8 }], "bonus": 23, "tipo": "corte" },
+        { "dados": [{ "quantidade": 6, "faces": 6 }], "tipo": "perfuração" }
+      ]
+    },
+    {
+      "nome": "Cauda",
+      "bonus": 43,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 23, "tipo": "impacto" },
+        { "dados": [{ "quantidade": 6, "faces": 6 }], "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Acúleos", "descricao": "O tachygloss é coberto de espinhos pontiagudos. Todo dano de perfuração que ele causa ignora redução de dano." },
+    { "nome": "Armadura de Espinhos", "descricao": "Quando o tachygloss sofre dano por um ataque corpo a corpo adjacente, o atacante sofre 6d6 pontos de dano de perfuração." }
+  ],
+  "tesouro": "Acúleos de tachygloss (CD 31 para extrair, valem T$ 1.000 para fabricar uma arma com a melhoria penetrante).",
+  "description": "Monstro semelhante a um urso gigantesco totalmente coberto de espinhos grossos e afiados, sem cabeça visível. Devido a atributo planar, seus acúleos penetram adamante com facilidade. Prefere escalar superfícies verticais nas Sanguinárias para emboscar vítimas.",
+  "livro": "ameacas_de_arton"
+}

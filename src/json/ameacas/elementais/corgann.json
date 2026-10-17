@@ -1,0 +1,44 @@
+{
+  "id": "corgann",
+  "name": "Corgann",
+  "nd": 8,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "medio",
+  "grupo": "elementais",
+  "pv": 61,
+  "pm": null,
+  "defesa": 30,
+  "salvaguardas": { "fort": 15, "ref": 20, "von": 9 },
+  "reducao_de_dano": null,
+  "imunidades": ["acertos críticos", "atordoado", "cansaço", "efeitos de metabolismo", "frio", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": ["fogo"],
+  "iniciativa": 14,
+  "percepcao": 10,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "natacao": 15 },
+  "atributos": { "for": 2, "des": 6, "con": 3, "int": -2, "sab": 2, "car": -1 },
+  "pericias": { "furtividade": "+14 (+24 na água)" },
+  "ataques": [
+    {
+      "nome": "Jato d'água (à distância)",
+      "quantidade": 2,
+      "alcance": "médio",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 29, "tipo": "perfuração" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Jato Pressurizado", "acao": "padrão", "descricao": "O corgann dispara água pressurizada numa linha de 30m: um único teste de ataque de jato d'água comparado à Defesa de cada criatura na área; rolagem de dano com bônus cumulativo de +2d8 para cada acerto, aplicada a cada criatura atingida. Recarga (ação de movimento)." },
+    { "nome": "Navegar em Terra Firme", "acao": "completa", "descricao": "O corgann inunda uma esfera de 6m em alcance curto, que se torna um corpo de água (terreno difícil para quem não tem deslocamento de natação); dentro dela pode fazer testes de Furtividade para se esconder sem precisar de cobertura." },
+    { "nome": "Salto Aquático", "acao": "movimento", "descricao": "O corgann salta para um ponto em um corpo d'água em alcance médio." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d4 doses de éter elemental (frio) (CD 23 para extrair).",
+  "description": "Elemental com aspecto de peixe-fantasma voador, movendo-se no ar como faria na água, de transparência macabra deixando entrever órgãos internos luminosos e grandes nadadeiras como véus luminosos. Vagam em pequenos bandos, raramente sozinhos, sem explicação para suas aparições mesmo em lugares afastados de qualquer corpo d'água; devotos do Oceano imaginam que atuam como 'olhos' para sua divindade. Normalmente plácidos, mas quando provocados cospem jatos finos de água que perfuram como flechas — por isso, em algumas regiões, são chamados de peixes-arqueiros.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "dragao_bicefalo",
+  "name": "Dragão Bicéfalo",
+  "nd": 12,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "enorme",
+  "grupo": "dragoes",
+  "pv": 650,
+  "pm": null,
+  "defesa": 44,
+  "salvaguardas": { "fort": 26, "ref": 12, "von": 20 },
+  "reducao_de_dano": 10,
+  "imunidades": ["ácido", "eletricidade"],
+  "resistencias": { "magia": 3 },
+  "vulnerabilidades": [],
+  "iniciativa": 13,
+  "percepcao": 17,
+  "visao": ["não pode ser flanqueado", "percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 24 },
+  "atributos": { "for": 11, "des": 1, "con": 8, "int": 3, "sab": 5, "car": 4 },
+  "pericias": { "enganacao": 16, "intimidacao": 16, "misticismo": 15 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 26, "tipo": "perfuração" }
+      ],
+      "critico": "18/x2"
+    },
+    {
+      "nome": "Garra",
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 10 }], "bonus": 26, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura Aterradora", "descricao": "Vontade CD 33 evita.", "tag": "Medo" },
+    { "nome": "Duas Mentes", "descricao": "O dragão bicéfalo faz uma ação padrão adicional por rodada. Além disso, quando faz um teste de Vontade, rola dois dados e escolhe o melhor resultado." },
+    {
+      "nome": "Sopro",
+      "acao": "padrão",
+      "descricao": "O dragão usa um dos sopros a seguir. Esfera Elétrica: dispara raios em uma esfera de 9m em alcance médio, criaturas na área sofrem 12d12 de dano de eletricidade e ficam ofuscadas por 1d4 rodadas (Reflexos CD 33 reduz à metade e evita a condição). Nuvem Cáustica: nuvem de ácido cobre um cubo de 9m por 2 rodadas; criaturas que comecem seus turnos na área sofrem 12d6 de dano de ácido e ficam vulneráveis por 1d4 rodadas (Fortitude CD 33 reduz à metade e evita a condição). Recarga (ação de movimento)."
+    }
+  ],
+  "equipamento": [],
+  "tesouro": "Dobro e 4 peças de couro de dragão (2 de dragão de ácido, 2 de dragão elétrico; CD 27 para extrair).",
+  "description": "Monstro que sopra dois tipos de energia, não um dragão verdadeiro: não nasce de procriação, sendo resultado de acidentes, maldições, experimentos arcanos ou vontade de Nimb. Entre essas aberrações, o mais infame é o dragão de duas cabeças — do tamanho de um dragão adulto, com cada cabeça tendo sua própria personalidade e convicções, nem sempre concordando entre si. Poucos exemplares foram encontrados em toda a história de Arton, nenhum demonstrando capacidade de conjurar magias.",
+  "livro": "ameacas_de_arton"
+}

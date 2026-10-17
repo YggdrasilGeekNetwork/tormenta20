@@ -1,0 +1,13 @@
+{
+  "id": "armamento_kallyanach",
+  "name": "Armamento Kallyanach",
+  "type": "habilidade_de_raca",
+  "race": "kallyanach",
+  "description": "Você possui uma arma natural (dano 1d6, crítico x2) escolhida entre cauda (impacto), chifres (perfuração) ou mordida (perfuração). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com essa arma.",
+  "effects": {
+    "natural_weapon": { "damage": "1d6", "critical": "x2", "choices": ["cauda", "chifres", "mordida"] },
+    "extra_attack_cost": { "pm": 1 },
+    "extra_attack_frequency": "1_per_round"
+  },
+  "livro": "ameacas_de_arton"
+}

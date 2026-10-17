@@ -1,0 +1,12 @@
+{
+  "id": "empunhadura_poderosa_de_bugbear",
+  "name": "Empunhadura Poderosa",
+  "type": "habilidade_de_raca",
+  "race": "bugbear",
+  "description": "Ao usar uma arma feita para uma categoria de tamanho maior que a sua (por exemplo, uma arma aumentada para uma criatura Pequena ou Média), a penalidade que você sofre nos testes de ataque diminui para –2. Caso receba esta habilidade novamente, a penalidade diminui para 0 e você pode também usar armas de até duas categorias de tamanho maiores que a sua com uma penalidade de –5 nos testes de ataque.",
+  "effects": {
+    "oversized_weapon_penalty": -2,
+    "stacking_effect": { "oversized_weapon_penalty": 0, "two_categories_larger_penalty": -5 }
+  },
+  "livro": "ameacas_de_arton"
+}

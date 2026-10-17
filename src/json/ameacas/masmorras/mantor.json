@@ -1,0 +1,51 @@
+{
+  "id": "mantor",
+  "name": "Mantor",
+  "nd": 5,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "masmorras",
+  "pv": 200,
+  "pm": null,
+  "defesa": 24,
+  "salvaguardas": { "fort": 11, "ref": 17, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "trevas": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 11,
+  "percepcao": 8,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "voo": 18 },
+  "atributos": { "for": 4, "des": 5, "con": 2, "int": -1, "sab": 2, "car": 0 },
+  "pericias": { "furtividade": 11 },
+  "ataques": [
+    {
+      "nome": "Aguilhão",
+      "alcance": "4,5m",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 8, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 8, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Emantar", "acao": "padrão", "descricao": "O mantor se joga sobre uma criatura adjacente Enorme ou menor e usa a manobra agarrar (teste +22). Enquanto estiver agarrada, a criatura fica cega, sofre metade de todo dano sofrido pelo mantor e, no início de cada turno do mantor, sofre 2d10+8 pontos de dano de perfuração. O mantor só pode manter uma criatura agarrada por vez e não pode usar sua mordida nesta situação." },
+    { "nome": "Imobilidade", "descricao": "Um mantor pode permanecer completamente imóvel. Se ele estiver assim, um personagem deve passar em um teste de Percepção (CD 35) para perceber que ele é uma criatura e não um pedaço de tecido." },
+    { "nome": "Manto de Tenebra", "descricao": "Em escuridão total, o mantor recebe camuflagem total, mesmo contra criaturas que vejam no escuro (sua Furtividade sobe para +21 no escuro)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Metade, mais couro de mantor (CD 20 para extrair, vale T$ 150 para fabricar um manto do mantor).",
+  "description": "Criatura que parece uma grande capa negra ondulando no ar, com dois olhos vermelhos, bocarra ventral com dentes pontiagudos e cauda terminando em ferrão espinhoso. Mantém-se fixo ao teto de cavernas, esperando pela passagem de presas para cair sobre elas de surpresa, usando o corpo achatado para esconder passagens ou se passar por mobília.",
+  "livro": "ameacas_de_arton"
+}

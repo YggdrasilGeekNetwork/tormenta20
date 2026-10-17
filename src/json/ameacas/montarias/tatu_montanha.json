@@ -1,0 +1,48 @@
+{
+  "id": "tatu_montanha",
+  "name": "Tatu-Montanha",
+  "nd": 4,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "montarias",
+  "pv": 125,
+  "pm": null,
+  "defesa": 25,
+  "salvaguardas": { "fort": 16, "ref": 10, "von": 4 },
+  "reducao_de_dano": "5/corte_impacto_perfuração",
+  "imunidades": ["ácido"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 7,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "natacao": 9 },
+  "atributos": { "for": 3, "des": 0, "con": 4, "int": -3, "sab": 1, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Cauda",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 18, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Retrair", "acao": "reação", "descricao": "Uma vez por rodada, quando sofre um ataque corpo a corpo, o tatu se retrai para sua concha. Ele recebe +5 na Defesa contra esse ataque e, se o ataque errar, o agressor sofre 1d6+9 pontos de dano de perfuração." },
+    { "nome": "Varrer Ameaças", "acao": "padrão", "descricao": "O tatu-montanha golpeia com sua cauda em um cone de 4,5m. Criaturas na área sofrem 2d6+9 pontos de dano de perfuração e ficam caídas (Reflexos CD 18 reduz à metade e evita a condição). Recarga (ação de movimento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Casco de tatu (CD 19 para extrair, vale T$ 100 para fabricar um escudo ou uma armadura superior).",
+  "parceiro": {
+    "tipo": "montaria (Enorme)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 9m (normal e de natação) e você recebe uma ação de movimento extra por turno (apenas para se deslocar).",
+    "veterano": "Você recebe +1 na Defesa e redução de ácido 5.",
+    "mestre": "Muda o bônus na Defesa para +2 e a redução de ácido para 10."
+  },
+  "description": "Imenso monstro que, apesar do nome, não é um tatu, mas uma variedade gigante de molusco, lembrando mais uma tartaruga monstruosa. Corpo blindado com uma concha seca e marrom grande como um celeiro; sob a carapaça não há patas, mas uma barriga rastejante de caramujo, com a cabeça saindo de uma abertura e apresentando uma massa de tentáculos, além de uma longa cauda musculosa terminada em uma esfera revestida de espinhos como uma maça. Vive em manadas pastando em pântanos, filtrando a água para reter matéria orgânica; quando atacado, recolhe-se sob a concha e tenta atingir o agressor com a cauda. Além de fortíssima contra ataques físicos, a concha é imune a qualquer ácido. Pode ser domesticado como animal de montaria e carga, especialmente útil na travessia de terrenos pantanosos ou alagados; a concha vazia de exemplares maiores costuma servir de cabana para certos povos, e a de exemplares menores como depósito de água, caldeirão ou reservatório de substâncias corrosivas por magos.",
+  "livro": "ameacas_de_arton"
+}

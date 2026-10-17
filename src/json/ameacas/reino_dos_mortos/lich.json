@@ -1,0 +1,49 @@
+{
+  "id": "lich",
+  "name": "Lich",
+  "nd": 15,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "reino_dos_mortos",
+  "pv": 560,
+  "pm": 170,
+  "defesa": 48,
+  "salvaguardas": { "fort": 27, "ref": 20, "von": 33 },
+  "reducao_de_dano": "20/mágico",
+  "imunidades": ["eletricidade", "frio", "metamorfose"],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 18,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": -2, "des": 1, "con": 3, "int": 9, "sab": 3, "car": 2 },
+  "pericias": { "conhecimento": 24, "cura": 16, "furtividade": 14, "intimidacao": 15, "misticismo": 27, "oficio_alquimista": 27, "religiao": 16 },
+  "ataques": [
+    {
+      "nome": "Toque gélido",
+      "bonus": 41,
+      "dano": [
+        { "dados": [{ "quantidade": 6, "faces": 6 }], "bonus": 6, "tipo": "frio" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arcano de Batalha", "descricao": "O lich soma sua Inteligência nas rolagens de dano quando lança magias (já contabilizado)." },
+    { "nome": "Aura de Medo", "descricao": "Criaturas em um raio de 30m do lich ficam abaladas (Vontade CD 42 evita e a criatura não pode mais ser abalada por esta habilidade até o fim da cena)." },
+    { "nome": "Drenar Vida", "acao": "livre", "custo_pm": 1, "descricao": "Quando lança uma magia que causa dano, o lich muda o tipo desse dano para trevas. Para cada criatura que falhar no teste de resistência contra essa magia, o lich recupera uma quantidade de PV igual à metade do dano causado." },
+    { "nome": "Fluxo de Mana", "descricao": "O lich pode manter dois efeitos sustentados simultaneamente com apenas uma ação livre (mas pagando o custo de cada um)." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o lich muda a execução dela para livre." },
+    { "nome": "Sacrificar Servo", "acao": "reacao", "descricao": "Uma vez por rodada, quando sofre dano, o lich sacrifica uma de suas criaturas invocadas para reduzir esse dano a 0." },
+    { "nome": "Toque Paralisante", "descricao": "Uma criatura que sofra dano do toque gélido do lich fica paralisada por 1d6 rodadas (Fortitude CD 42 evita)." },
+    { "nome": "Filactério", "descricao": "Um lich morto retorna completamente recuperado em 1d10 dias. A única forma de derrotá-lo permanentemente é destruir seu filactério: item mágico maior com Defesa 20, RD 40, 50 PV e aura mágica poderosa, que o lich sempre sabe localizar." },
+    { "nome": "Magias", "descricao": "Lança magias como mago de 17º nível (CD 42, limite de PM 26): Conjurar Monstro (completa, 23 PM, sustentada, zumbi Enorme), Conjurar Mortos-Vivos (completa, 10 PM, sustentada, seis sombras Médias), Profanar (padrão, 1 PM), Raio Polar (padrão, 16 PM, 14d8+9 de frio e paralisado em bloco de gelo), Relâmpago (padrão, 14 PM, 14d8+9 de eletricidade), Toque da Morte (padrão, 25 PM, 10d8+19 de trevas), Toque Vampírico (padrão, 19 PM, +20d6+9 de trevas, cura metade)." }
+  ],
+  "equipamento": ["Essência de mana x5", "Robe do arquimago", "Terra de cemitério x2"],
+  "tesouro": "Dobro e fragmento de filactério.",
+  "description": "Um dos mortos-vivos mais poderosos e temidos de Arton, por sua altíssima inteligência e habilidades de conjuração extremas. Enquanto arcanistas normais são fisicamente frágeis, liches superam essa fraqueza somando proteções mágicas robustas às imunidades sobrenaturais dos mortos-vivos, com a alma abrigada fora do corpo em um filactério. Em Aslothia, liches fazem parte da nobreza, governando feudos de terror próprios.",
+  "livro": "ameacas_de_arton"
+}

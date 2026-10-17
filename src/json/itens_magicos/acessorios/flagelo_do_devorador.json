@@ -1,0 +1,16 @@
+{
+  "id": "flagelo_do_devorador",
+  "name": "Flagelo do Devorador",
+  "categoria": "maior",
+  "preco": 33000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Também conhecido como 'escorpião da tempestade', este simbionte lembra um grande escorpião com aparência agressiva e alienígena. Prende-se ao antebraço do hospedeiro, cravando garras quase até os ossos e espalhando raízes sinistras salientes sob a pele por todo o corpo. Conta como um escudo leve de matéria vermelha; além disso, o hospedeiro pode lançar Jato Corrosivo com tempo de conjuração de ação de movimento. Se aprender essa magia, seu custo é reduzido em –1 PM.",
+  "effects": [
+    { "type": "simbionte", "slot": "item_vestido", "poderes_tormenta_equivalentes": 2 },
+    { "type": "conta_como", "item": "escudo_leve", "material": "matéria vermelha" },
+    { "type": "concede_magia", "magia": "jato_corrosivo", "tempo_de_conjuracao": "ação de movimento" },
+    { "type": "reducao_custo_se_aprender", "magia": "jato_corrosivo", "valor_pm": -1 }
+  ],
+  "livro": "ameacas_de_arton"
+}

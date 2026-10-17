@@ -1,0 +1,44 @@
+{
+  "id": "wisphago",
+  "name": "Wisphago",
+  "nd": 8,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "reino_dos_mortos",
+  "pv": 344,
+  "pm": null,
+  "defesa": 33,
+  "salvaguardas": { "fort": 21, "ref": 8, "von": 15 },
+  "reducao_de_dano": null,
+  "imunidades": ["confusão"],
+  "resistencias": { "magia": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 11,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 6, "des": 4, "con": 5, "int": -2, "sab": 3, "car": 1 },
+  "pericias": { "atletismo": 14, "sobrevivencia": 16 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "quantidade": 2,
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Devorar Magia", "descricao": "Quando o wisphago passa em um teste de resistência contra uma magia arcana por 5 ou mais, devora essa magia; ela é anulada e ele recebe uma quantidade de PV temporários cumulativos igual ao total de PM gastos na magia." },
+    { "nome": "Faro para Magos", "descricao": "O wisphago recebe um bônus de +10 em testes de Sobrevivência para rastrear criaturas que tenham lançado uma magia arcana na última semana." },
+    { "nome": "Fome de Mana", "descricao": "Uma criatura atingida pela mordida do wisphago perde 1d4 PM." },
+    { "nome": "Vomitar Magia", "acao": "padrão", "descricao": "O wisphago lança uma magia que tenha devorado durante o último mês com Devorar Magia (CD 24). Ele não precisa pagar nenhum custo da magia e pode aplicar seus aprimoramentos (limitado a 10 PM de custo total da magia). Ele só pode lançar cada magia devorada uma vez. O wisphago começa o encontro com 1d6 magias arcanas de 1º círculo e 1d4 magias arcanas de 2º círculo." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d6+2 dentes de wisphago (CD 23 para extrair).",
+  "description": "Monstro surgido como subproduto do ritual profano que transformou Aslothia, grande como uma carruagem, lembrando um centauro robusto com tentáculos segmentados terminando em mandíbulas no lugar dos braços. Drena poder de magias conjuradas contra ele, atraído especialmente por arcanistas e outros conjuradores, buscando destruí-los ou absorver suas magias.",
+  "livro": "ameacas_de_arton"
+}

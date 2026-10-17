@@ -1,0 +1,56 @@
+{
+  "id": "urso_pardo",
+  "name": "Urso Pardo",
+  "nd": 3,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 95,
+  "pm": null,
+  "defesa": 19,
+  "salvaguardas": { "fort": 13, "ref": 10, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 7,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 6, "des": 1, "con": 5, "int": -4, "sab": 1, "car": -2 },
+  "pericias": { "atletismo": 11 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 4, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 4, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Mordida (teste +16)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 12m e, uma vez por rodada, você recebe +1d6 em uma rolagem de dano corpo a corpo.",
+    "veterano": "Uma vez por rodada, quando acerta um ataque corpo a corpo, você pode fazer a manobra agarrar como uma ação livre. Essa manobra não deixa sua mão ocupada, mas você só pode manter um inimigo agarrado por vez.",
+    "mestre": "Muda o bônus em rolagens de dano corpo a corpo para +1d10."
+  },
+  "description": "Tipo mais comum de urso, encontrado em florestas frias de clima temperado, especialmente nas proximidades das Uivantes. Um parente próximo, o urso marrom, habita florestas mais quentes. Predador muito forte e, apesar da aparência desajeitada, muito rápido — um humano não poderia vencê-lo numa corrida. Em geral evita pessoas, mas pode ser atraído por acampamentos de aventureiros para roubar comida. É companheiro tradicional dos druidas e uma escolha constante quando um druida assume forma selvagem, acabando também por se tornar montaria preferida de druidas e outros aventureiros ligados à natureza.",
+  "livro": "ameacas_de_arton"
+}

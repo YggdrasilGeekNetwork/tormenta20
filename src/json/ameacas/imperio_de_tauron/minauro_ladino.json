@@ -1,0 +1,47 @@
+{
+  "id": "minauro_ladino",
+  "name": "Minauro Ladino",
+  "nd": 6,
+  "tipo": "Humanoide",
+  "subtipo": "minauro",
+  "tamanho": "medio",
+  "grupo": "imperio_de_tauron",
+  "pv": 147,
+  "pm": null,
+  "defesa": 25,
+  "salvaguardas": { "fort": 8, "ref": 18, "von": 10 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 11,
+  "percepcao": 5,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 2, "des": 4, "con": 2, "int": 3, "sab": 0, "car": -1 },
+  "pericias": { "acrobacia": 11, "atletismo": 7, "diplomacia": 6, "furtividade": 11, "investigacao": 10, "jogatina": 6, "ladinagem": 11 },
+  "ataques": [
+    {
+      "nome": "Espada curta",
+      "quantidade": 2,
+      "bonus": 18,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 15, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão Aprimorada", "descricao": "Mesmo em um teste de Reflexos falho, o minauro ladino sofre apenas metade do dano, e nenhum dano se passar no teste." },
+    { "nome": "Faro", "descricao": "Você tem olfato apurado. Contra inimigos em alcance curto que não possa ver, não fica desprevenido e camuflagem total causa apenas 20% de chance de falha." },
+    { "nome": "Ataque Furtivo", "descricao": "Causa +3d6 de dano adicional quando ataca um alvo desprevenido ou surpreso." },
+    { "nome": "Bombardeiro Veloz", "acao": "padrão", "descricao": "O minauro ladino saca uma de suas bombas e a arremessa em alcance curto. Uma bomba de fumaça gera fumaça espessa em um raio de 6m até o fim da cena; uma bomba causa 6d6 pontos de dano de impacto em todas as criaturas em um raio de 3m (Reflexos CD 24 reduz à metade)." },
+    { "nome": "Fuga Formidável", "acao": "completa", "descricao": "Até o fim da cena, o minauro ladino recebe +3m em seu deslocamento, +5 em Acrobacia e Atletismo e ignora penalidades em movimento por terreno difícil. Ele perde esses benefícios se fizer uma ação que não seja diretamente relacionada a fugir." },
+    { "nome": "Mãos Leves", "descricao": "O minauro ladino faz testes de Ladinagem como uma ação livre. Além disso, não sofre penalidade em testes de Furtividade por se mover ao seu deslocamento normal e reduz a penalidade por atacar e fazer outras ações chamativas para –10." },
+    { "nome": "Pirueta Defensiva", "acao": "reacao", "descricao": "Uma vez por rodada, quando sofre dano de um ataque, o minauro reduz esse dano à metade." }
+  ],
+  "equipamento": ["Bomba x3", "Bomba de fumaça x3", "Espada curta", "Gazua"],
+  "tesouro": "Padrão.",
+  "description": "Minauro que abraçou talentos ladinos proibidos para o povo táurico, usando bombas alquímicas e agilidade incomum para escapar de qualquer confronto direto.",
+  "livro": "ameacas_de_arton"
+}

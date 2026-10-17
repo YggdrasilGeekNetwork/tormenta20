@@ -1,0 +1,54 @@
+{
+  "id": "tanaloom",
+  "name": "Tanaloom",
+  "nd": 13,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "enorme",
+  "grupo": "elementais",
+  "pv": 650,
+  "pm": null,
+  "defesa": 44,
+  "salvaguardas": { "fort": 26, "ref": 20, "von": 13 },
+  "reducao_de_dano": "15/impacto",
+  "imunidades": ["acertos críticos", "ácido", "atordoado", "caído", "cansaço", "efeitos de metabolismo", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": ["eletricidade"],
+  "iniciativa": 10,
+  "percepcao": 12,
+  "visao": ["não pode ser flanqueado", "percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 15, "escalada": 15 },
+  "atributos": { "for": 12, "des": 0, "con": 9, "int": -2, "sab": 2, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 37,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 12 }], "bonus": 49, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Flechas ácidas (à distância)",
+      "quantidade": 6,
+      "alcance": "médio",
+      "bonus": 34,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 10, "tipo": "ácido" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Golpe Esmagador", "acao": "livre", "descricao": "Quando acerta um ataque de pancada, pode usar a manobra derrubar (teste +42). Criaturas derrubadas precisam gastar ação padrão em vez de movimento para se levantar e não podem usar Acrobacia para levantar como ação livre, pois ficam presas ao chão." },
+    { "nome": "Metamorfismo Rochoso", "acao": "movimento", "descricao": "O tanaloom deforma o corpo para passar por espaços estreitos suficientes para criaturas Médias ou maiores, percorrendo até metade do seu deslocamento." },
+    { "nome": "Monólito", "descricao": "Um tanaloom pode permanecer completamente imóvel. Se estiver assim, um personagem deve passar num teste de Percepção (CD 40) para perceber que ele é uma criatura e não parte de uma construção." },
+    { "nome": "Rolo Compressor", "descricao": "O tanaloom pode passar por espaços ocupados por criaturas Grandes ou menores, causando 2d10 de dano de impacto em cada uma nos espaços que atravessar (uma criatura só sofre esse dano uma vez por rodada)." }
+  ],
+  "equipamento": [],
+  "tesouro": "2d4 doses de éter elemental (ácido) (CD 28 para extrair).",
+  "description": "Entre os maiores e mais poderosos elementais da terra em Arton, com a peculiaridade de sempre assumir a aparência de estruturas construídas por humanos e outros povos — monólito, obelisco, monumento, ponte ou coluna de templo —, com inscrições que apenas parecem escritas antigas, sem mensagem real. Pode permanecer imóvel e inofensivo enquanto exploradores o examinam, mas o mais esperado é que desperte subitamente e ataque com a fúria caótica e irracional dos elementais. Não tem membros ou articulações, movendo-se apenas ao deslizar pelo chão, esmagando seres menores no caminho com o bramido característico de grandes blocos de pedra em atrito. Encontrado em ambientes externos (lembrando ruínas antigas) ou integrando corredores e câmaras de grandes masmorras; há dúvida até hoje se tanaloom são criaturas elementais ou um tipo sofisticado de armadilha mágica.",
+  "livro": "ameacas_de_arton"
+}

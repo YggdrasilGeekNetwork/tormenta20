@@ -1,0 +1,16 @@
+{
+  "id": "raio_cristalizado",
+  "name": "Raio Cristalizado",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "catalisador",
+  "preco": 150,
+  "espacos": 0.5,
+  "requer_misticismo": true,
+  "uso": "empunhado",
+  "efeito": {
+    "aumenta_dado_dano_magias_eletricidade": { "d4": "d6", "d6": "d8", "d8": "d10", "d10": "d12 (máximo)" }
+  },
+  "description": "Eletricidade gerada por elementais e outros seres mágicos pode ser solidificada na forma de pequenos cristais. Aumenta os dados de dano de magias de eletricidade em uma categoria: d4 para d6, d6 para d8, d8 para d10 e d10 para d12 (máximo).",
+  "livro": "ameacas_de_arton"
+}

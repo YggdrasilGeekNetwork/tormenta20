@@ -1,0 +1,40 @@
+{
+  "id": "mercenario_de_aslothia",
+  "name": "Mercenário de Aslothia",
+  "nd": 3,
+  "tipo": "Monstro",
+  "subtipo": "lefou",
+  "tamanho": "medio",
+  "grupo": "reino_dos_mortos",
+  "pv": 21,
+  "pm": null,
+  "defesa": 20,
+  "salvaguardas": { "fort": 14, "ref": 4, "von": 9 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "magia": 5, "medo": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 1,
+  "percepcao": 1,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 3, "des": 0, "con": 2, "int": -1, "sab": 0, "car": 0 },
+  "pericias": { "atletismo": 6, "intimidacao": 5 },
+  "ataques": [
+    {
+      "nome": "Maça",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 12, "tipo": "impacto" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Inescrupuloso", "descricao": "O mercenário recebe +2 em testes de ataque e +1d6 em rolagens de dano contra criaturas flanqueadas, sob efeito de alguma condição ou que sigam algum código de conduta (como Código de Honra ou Código do Herói)." }
+  ],
+  "equipamento": ["Gibão de peles", "Maça"],
+  "tesouro": "Padrão.",
+  "description": "Soldado de aluguel corrompido pela transformação de Aslothia em lefou, continuando a servir Ferren Asloth por ouro, tão desalmado e impiedoso quanto um purista ou um demônio.",
+  "livro": "ameacas_de_arton"
+}

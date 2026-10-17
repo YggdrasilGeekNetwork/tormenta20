@@ -1,0 +1,46 @@
+{
+  "id": "cavaleiro_finntroll",
+  "name": "Cavaleiro Finntroll",
+  "nd": 7,
+  "tipo": "Monstro",
+  "subtipo": "finntroll",
+  "tamanho": "medio",
+  "grupo": "trolls_nobres",
+  "pv": 252,
+  "pm": 39,
+  "defesa": 30,
+  "salvaguardas": { "fort": 14, "ref": 7, "von": 20 },
+  "reducao_de_dano": null,
+  "resistencia_a_magia": 2,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 7,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 2, "con": 3, "int": 4, "sab": 0, "car": 2 },
+  "pericias": { "cavalgar": 12, "intimidacao": 11, "misticismo": 13 },
+  "ataques": [
+    {
+      "nome": "Açoite Finntroll",
+      "bonus": 22,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 4 }], "bonus": 12, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Natureza Vegetal", "descricao": "Afetado por habilidades e magias que afetam plantas." },
+    { "nome": "Regeneração Vegetal", "acao": "movimento", "descricao": "Recupera 5 PV. Não cura dano de ácido ou fogo. Não funciona exposto à luz do sol." },
+    { "nome": "Sensibilidade a Luz", "descricao": "Exposto à luz do sol, fica ofuscado e sua regeneração vegetal não funciona." },
+    { "nome": "Corcel Troll", "descricao": "O cavaleiro finntroll cavalga um troll treinado, um parceiro montaria Grande. Enquanto estiver montado, seu deslocamento se torna 12m, ele recebe uma ação de movimento extra (apenas para se deslocar), os seguintes ataques em adição ao seu açoite — Mordida +22 (1d8+12) e duas garras +22 (2d6+12) — e Dilacerar (se o cavaleiro acerta os dois ataques de garra em uma mesma criatura no mesmo turno, causa mais 4d6+12 pontos de dano)." },
+    { "nome": "Investida Atroz", "acao": "completa", "descricao": "O cavaleiro faz uma investida e ataca com seu açoite e todos os ataques de sua montaria. Todos os ataques recebem o bônus de +2 da investida, mas devem ser feitos contra o mesmo personagem." },
+    { "nome": "Magias", "descricao": "Lança magias como um mago de 7º nível (CD 26). Ele pode lançar magias enquanto montado sem precisar de testes de concentração: Amedrontar (padrão, 3 PM; um animal ou humanoide em alcance curto fica apavorado por 1d4+1 rodadas e depois abalado, Vontade reduz para abalado por 1d4 rodadas); Concentração de Combate (padrão, 3 PM; até o fim da cena, sempre que faz um ataque, o cavaleiro rola dois dados e usa o melhor resultado); Desespero Esmagador (padrão, 6 PM; criaturas num cone de 6m ficam fracas e frustradas, Vontade reduz para 1 rodada); Primor Atlético (movimento, 2 PM; o cavaleiro salta e pousa em alcance corpo a corpo de uma criatura em alcance curto; se fizer um ataque corpo a corpo contra essa criatura no mesmo turno, recebe os benefícios e penalidades de uma investida e causa um dado extra de dano do mesmo tipo com este ataque)." }
+  ],
+  "equipamento": ["Açoite finntroll cruel", "Couraça", "Essência de mana x2", "Sela aprimorada"],
+  "tesouro": "Padrão.",
+  "description": "Finntroll que, como a criatura superior que acredita ser, considera lutar suas próprias batalhas uma indignidade. O que existe de mais parecido com um \"guerreiro de armadura\" em sua sociedade, cavalga um troll treinado sobre sela majestosa, direcionando os ataques da montaria ou provendo suporte com magias enquanto acompanha expedições finntroll quando estas esperam enfrentar forte oposição.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "forjador_liturgico",
+  "name": "Forjador Litúrgico",
+  "nd": 9,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "igreja_de_arsenal",
+  "pv": 230,
+  "pm": null,
+  "defesa": 32,
+  "salvaguardas": { "fort": 15, "ref": 9, "von": 21 },
+  "reducao_de_dano": 5,
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 12,
+  "visao": [],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 2, "des": 1, "con": 3, "int": 3, "sab": 4, "car": 1 },
+  "pericias": { "guerra": 13, "misticismo": 13, "oficio_armeiro": 14, "religiao": 14 },
+  "ataques": [
+    {
+      "nome": "Armamento sagrado",
+      "quantidade": 2,
+      "alcance": "corpo a corpo ou à distância, conforme a arma",
+      "bonus": 25,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 20, "tipo": "variável" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Armamento Sagrado", "descricao": "O forjador litúrgico porta uma arma mágica a ser oferecida ao seu oponente. Escolha um tipo de arma e um encanto adequado, ou determine-os aleatoriamente usando as tabelas de tesouros (Tormenta20, Capítulo 8). Independente do tipo de arma, nas mãos do forjador ela possui as estatísticas indicadas em seu ataque, modificadas por seu encanto. Se o encanto escolhido tiver um custo em PM, ele pode usá-lo sem gastar PM." },
+    { "nome": "Desprezo pelo Ordinário", "descricao": "O forjador sofre apenas metade do dano de armas mundanas sem melhorias." }
+  ],
+  "equipamento": ["Armamento sagrado", "Instrumentos de Ofício (armeiro) aprimorados", "Meia armadura"],
+  "tesouro": "Nenhum.",
+  "description": "Devoto com técnica e poder divino para produzir as melhores armas de Arton, integrante da Ordem dos Forjadores Litúrgicos. Após um período de clausura em oficinas secretas, parte em grupos missionários através do Reinado, guiado por visões de Arsenal, para ofertar suas peças aos que se mostrem dignos — desafiando candidatos em combate antes de entregar a arma sagrada.",
+  "livro": "ameacas_de_arton"
+}

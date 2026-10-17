@@ -1,0 +1,41 @@
+{
+  "id": "verme_do_gelo_larva",
+  "name": "Verme do Gelo Larva",
+  "nd": 10,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "uivantes",
+  "pv": 400,
+  "defesa": 36,
+  "salvaguardas": { "fort": 22, "ref": 16, "von": 10 },
+  "reducao_de_dano": 5,
+  "imunidades": ["frio"],
+  "resistencias": {},
+  "vulnerabilidades": ["fogo"],
+  "iniciativa": 10,
+  "percepcao": 13,
+  "visao": ["faro", "percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "escavacao": 15 },
+  "atributos": { "for": 6, "des": 1, "con": 4, "int": -5, "sab": 2, "car": -3 },
+  "pericias": { "furtividade": 5 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 52, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 4, "faces": 6 }], "tipo": "frio" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com a mordida (teste +34)." },
+    { "nome": "Engolir", "acao": "padrao", "descricao": "No início de cada um dos turnos do verme do gelo larva, a criatura engolida sofre 2d6+20 pontos de dano de impacto mais 4d6+10 pontos de dano de frio. Ela pode escapar causando um total de 25 pontos de dano a ele (Defesa 15, redução de dano 0)." },
+    { "nome": "Espasmo Mortal", "salvaguarda": "Reflexos", "cd": 30, "efeito_sucesso": "evita", "descricao": "Quando o verme é morto, seu corpo explode, fazendo com que estacas de gelo se projetem do chão em um raio de 6m. Criaturas nessa área sofrem 4d6 pontos de dano de corte mais 4d6 pontos de dano de frio e ficam caídas (Ref CD 30 evita). A área afetada se torna terreno difícil e concede cobertura leve para criaturas dentro dela. Causar dano de fogo mágico a qualquer parte dessa área destrói as estacas nos espaços correspondentes." },
+    { "nome": "Sopro Glacial", "acao": "padrao", "salvaguarda": "Reflexos", "cd": 30, "efeito_sucesso": "reduz o dano à metade e evita a condição", "descricao": "Todas as criaturas em um cone de 12m sofrem 8d10 pontos de dano de frio e ficam lentas (Ref CD 30 reduz o dano à metade e evita a condição). Recarga (movimento)." }
+  ],
+  "tesouro": "2d4 doses de gelo extremo (CD 25 para extrair).",
+  "description": "Um dos maiores e mais perigosos monstros nas Uivantes, rivalizando até com os dragões. Percorre as montanhas em busca de presas, deslocando-se livremente sob qualquer terreno gelado, emergindo apenas para atacar. Dizem que grande parte dos túneis e masmorras nas Uivantes não passam de antigas trilhas deixadas pela criatura. Estudos sugerem que todos os vermes encontrados até o momento são larvas de uma criatura muitíssimo maior, ainda desconhecida.",
+  "livro": "ameacas_de_arton"
+}

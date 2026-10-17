@@ -1,0 +1,44 @@
+{
+  "id": "sacerdote_finntroll",
+  "name": "Sacerdote Finntroll",
+  "nd": 6,
+  "tipo": "Monstro",
+  "subtipo": "finntroll",
+  "tamanho": "medio",
+  "grupo": "trolls_nobres",
+  "pv": 162,
+  "pm": 49,
+  "defesa": 25,
+  "salvaguardas": { "fort": 13, "ref": 8, "von": 19 },
+  "reducao_de_dano": null,
+  "resistencia_a_magia": 2,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 9,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": -1, "des": 2, "con": 5, "int": 2, "sab": 4, "car": 1 },
+  "pericias": { "atletismo": 4, "intimidacao": 11, "religiao": 11 },
+  "ataques": [
+    {
+      "nome": "Açoite Finntroll",
+      "bonus": 18,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 6, "tipo": "corte" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Natureza Vegetal", "descricao": "Afetado por habilidades e magias que afetam plantas." },
+    { "nome": "Regeneração Vegetal", "acao": "movimento", "descricao": "Recupera 5 PV. Não cura dano de ácido ou fogo. Não funciona exposto à luz do sol." },
+    { "nome": "Sensibilidade a Luz", "descricao": "Exposto à luz do sol, fica ofuscado e sua regeneração vegetal não funciona." },
+    { "nome": "Urro Divino", "acao": "livre", "custo_pm": 1, "descricao": "Quando faz um ataque ou lança uma magia, o sacerdote finntroll soma sua Constituição à rolagem de dano desse ataque ou magia." },
+    { "nome": "Magias", "descricao": "Lança magias como um clérigo de Megalokk de 9º nível (CD 24, limite de PM 9): Curar Ferimentos (padrão, 9 PM; uma criatura adjacente cura 10d8+10 PV, ou criaturas escolhidas em alcance curto curam 5d8+5); Comando (padrão, 4 PM; no início do seu próximo turno, duas criaturas em alcance curto largam os itens que estão segurando e não podem pegá-los novamente até o início de seu turno seguinte, Von evita); Enxame de Pestes (completa, 8 PM, sustentada; dois enxames de ratos surgem em alcance médio e ocupam um quadrado de 1,5m cada; no fim de cada um dos turnos do sacerdote, cada enxame causa 2d12 pontos de dano de corte a qualquer criatura em seu espaço, Fort reduz à metade; o sacerdote pode gastar uma ação de movimento para mover cada enxame 12m); Miasma Mefítico (padrão, 5 PM; uma nuvem de 6m de raio se forma em alcance médio; criaturas na área sofrem 6d6 pontos de dano de ácido e ficam enjoadas por 1 rodada, Fort reduz o dano à metade e evita a condição); Perdição (padrão, 5 PM; criaturas escolhidas em alcance curto sofrem -3 em testes de ataque e rolagens de dano até o fim da cena); Profanar (padrão, 1 PM; uma esfera de 9m em alcance longo se enche com energia negativa por 1 dia; dentro dela, todo dano de trevas é maximizado)." }
+  ],
+  "equipamento": ["Açoite finntroll", "Manto pesado", "Meia armadura", "Símbolo sagrado de Megalokk"],
+  "tesouro": "Padrão.",
+  "description": "Clérigo finntroll devoto de Megalokk, parte dos poucos trolls nobres que, de forma moderada, cultivam uma religião baseada na crença de que foram concebidos por Megalokk e Tenebra — chamados Troldhaugen e Dearani, um rei brutal e uma rainha das trevas. Erguem templos ostensivos sob o pretexto de agradar o casal divino, mas na verdade buscam alimentar os próprios egos, fazendo peregrinações à superfície para capturar vítimas sacrificadas em seus cultos.",
+  "livro": "ameacas_de_arton"
+}

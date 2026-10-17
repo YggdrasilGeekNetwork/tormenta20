@@ -1,0 +1,42 @@
+{
+  "id": "fantasma",
+  "name": "Fantasma",
+  "nd": 7,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "mortos_vivos",
+  "pv": 190,
+  "pm": null,
+  "defesa": 29,
+  "salvaguardas": { "fort": 7, "ref": 14, "von": 20 },
+  "reducao_de_dano": null,
+  "imunidades": ["incorpóreo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 9,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "voo": 12 },
+  "atributos": { "for": null, "des": 3, "con": 0, "int": 1, "sab": 2, "car": 4 },
+  "pericias": { "furtividade": 15, "intimidacao": 13 },
+  "ataques": [
+    {
+      "nome": "Toque drenante",
+      "bonus": 23,
+      "dano": [
+        { "dados": [{ "quantidade": 6, "faces": 8 }], "bonus": 20, "tipo": "trevas" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Assustar", "acao": "livre", "descricao": "O fantasma se revela subitamente, saindo de um esconderijo ou de dentro de um objeto, como um armário ou parede. Ele só pode usar esta habilidade se estiver escondido, e apenas uma vez por cena. Cada criatura em alcance curto capaz de ver o fantasma fica abalada (Vontade CD 24 evita). Se falhar no teste de Vontade por 5 ou mais, a criatura fica apavorada e, se falhar por 10 ou mais, também envelhece 2d4 anos. Medo." },
+    { "nome": "Drenar Vida", "descricao": "Uma criatura atingida pelo toque drenante do fantasma tem seus PV máximos reduzidos em 10 por 1 dia, cumulativamente (Fortitude CD 24 evita). Caso os PV máximos da criatura sejam reduzidos a 0 desta forma, ela fica inconsciente até que eles sejam restabelecidos." },
+    { "nome": "Memento", "descricao": "Um fantasma reduzido a 0 PV desaparece e ressurge 1d4 dias depois. Para derrotá-lo permanentemente é necessário confrontá-lo com aquilo que ainda o prende a este mundo (seu memento — um objeto ou lugar ligado diretamente ao seu assunto inacabado). Quando isso acontece, o fantasma pode ser destruído normalmente." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Restos sobrenaturais de um ser inteligente que, por alguma razão — assuntos inacabados, grande apego a algo ou alguém, ou proibição divina — não conseguiu encontrar o descanso eterno após a morte. Costuma assombrar o local onde morreu, seu antigo lar, ou outros lugares importantes em sua vida. Capaz de apavorar unicamente com sua aparência, podendo deixar sequelas permanentes como cabelos brancos, tiques nervosos ou roubar anos de vida.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,49 @@
+{
+  "id": "trog_cacador",
+  "name": "Trog Caçador",
+  "nd": 2,
+  "tipo": "Monstro",
+  "subtipo": "trog",
+  "tamanho": "medio",
+  "grupo": "brutos_e_indomaveis",
+  "pv": 14,
+  "pm": null,
+  "defesa": 18,
+  "salvaguardas": { "fort": 7, "ref": 12, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 5,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 2, "des": 3, "con": 3, "int": -1, "sab": 2, "car": -1 },
+  "pericias": { "furtividade": 13, "sobrevivencia": 7 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 7, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Arco longo (à distância)",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Marca da Presa", "acao": "movimento", "descricao": "O trog caçador analisa uma criatura em alcance curto. Até o fim da cena, recebe +1d8 em rolagens de dano contra essa criatura." },
+    { "nome": "Mau Cheiro", "acao": "padrão", "descricao": "Fortitude CD 16 evita (veneno)." }
+  ],
+  "equipamento": ["Arco longo", "Flechas x20"],
+  "tesouro": "Metade.",
+  "description": "Trog especializado em caça à distância, marcando presas antes de abatê-las com flechadas precisas.",
+  "livro": "ameacas_de_arton"
+}

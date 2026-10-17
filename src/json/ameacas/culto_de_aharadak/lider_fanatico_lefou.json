@@ -1,0 +1,59 @@
+{
+  "id": "lider_fanatico_lefou",
+  "name": "Líder Fanático Lefou",
+  "nd": 8,
+  "tipo": "Monstro",
+  "subtipo": "lefou",
+  "tamanho": "medio",
+  "grupo": "culto_de_aharadak",
+  "pv": 90,
+  "pm": null,
+  "defesa": 33,
+  "salvaguardas": { "fort": 20, "ref": 15, "von": 9 },
+  "reducao_de_dano": null,
+  "imunidades": ["acertos críticos"],
+  "resistencias": { "efeitos_lefeu_da_tormenta_e_mentais": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 8,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 21 },
+  "atributos": { "for": 5, "des": 1, "con": 2, "int": -1, "sab": 0, "car": -2 },
+  "pericias": { "intimidacao": 11 },
+  "ataques": [
+    {
+      "nome": "Tacape",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 10 }], "bonus": 20, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 10, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Pata insetoide",
+      "quantidade": 2,
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 10, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Frenesi Insano", "descricao": "Quando causa ou sofre dano, recebe um bônus cumulativo de +2 em testes de ataque e rolagens de dano até o fim da cena." },
+    { "nome": "Mente Aberrante (mágica)", "descricao": "Quando faz um teste de Vontade para resistir a um efeito, causa 5d6 pontos de dano psíquico na criatura que gerou o efeito." },
+    { "nome": "Sangue Ácido", "descricao": "Quando sofre dano por um ataque corpo a corpo adjacente, o atacante sofre 9 pontos de dano de ácido." }
+  ],
+  "equipamento": ["Tacape"],
+  "tesouro": "Padrão.",
+  "description": "Entre os fanáticos lefou mais astutos, este líder mantém seus semelhantes em bandos selvagens para devastar vilarejos em busca de vingança contra a civilização que sempre os odiou e temeu.",
+  "livro": "ameacas_de_arton"
+}

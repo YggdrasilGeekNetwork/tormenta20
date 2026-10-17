@@ -1,0 +1,54 @@
+{
+  "id": "chapeu_preto",
+  "name": "Chapéu-Preto",
+  "nd": 12,
+  "tipo": "Humanoide",
+  "subtipo": "meio-orc",
+  "tamanho": "medio",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 480,
+  "pm": null,
+  "defesa": 42,
+  "salvaguardas": { "fort": 20, "ref": 26, "von": 12 },
+  "reducao_de_dano": null,
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 20,
+  "percepcao": 12,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 2, "des": 6, "con": 3, "int": 0, "sab": 2, "car": 3 },
+  "pericias": { "cavalgar": 16, "intimidacao": 20, "jogatina": 13, "sobrevivencia": 12 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 32,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 6, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Pistola (à distância)",
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 6, "faces": 6 }], "bonus": 50, "tipo": "perfuração" }
+      ],
+      "critico": "17/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão Aprimorada", "descricao": "Mesmo em um teste de Reflexos falho, o chapéu-preto sofre apenas metade do dano, e nenhum dano se passar no teste." },
+    { "nome": "Bala nas Costas", "descricao": "O chapéu-preto recebe +10 na margem de ameaça do primeiro ataque que fizer contra cada oponente na cena." },
+    { "nome": "Duro como o Inferno", "descricao": "Todo dano de corte, impacto e perfuração que o chapéu-preto sofre é reduzido à metade." },
+    { "nome": "Mão Firme", "descricao": "O chapéu-preto pode fazer ataques de pistola contra oponentes envolvidos em combate corpo a corpo sem sofrer a penalidade padrão de –5 no teste de ataque e, quando faz um ataque de pistola, rola dois dados e usa o melhor resultado." },
+    { "nome": "Reputação", "descricao": "Uma criatura que comece seu turno em alcance médio do chapéu-preto fica abalada (Vontade CD 33 evita e a criatura não pode mais ser abalada por esta habilidade até o fim da cena)." },
+    { "nome": "Saque Rápido", "descricao": "O chapéu-preto pode sacar ou guardar itens como uma ação livre e recarregar sua pistola como uma ação de movimento." },
+    { "nome": "Tiro à Traição", "descricao": "Quando faz um ataque de pistola contra um oponente desprevenido, o chapéu-preto recebe +5 na margem de ameaça e causa +6d6 pontos de dano." }
+  ],
+  "equipamento": ["Adaga", "Balas x20", "Pistola formidável"],
+  "tesouro": "Padrão.",
+  "description": "Bucaneiro ou pistoleiro sanguinário, de alma endurecida e presença aterradora, capaz de matar sem o menor motivo. Desistiu de qualquer noção de camaradagem, honra, piedade ou redenção, vivendo apenas pela lei do mais rápido no gatilho. Muitos fizeram pacto com um demônio da pólvora, motivo de sua eficiência mortal. Contratados por vilões ou nobres corruptos para eliminar \"heróis intrometidos\".",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,40 @@
+{
+  "id": "agua_viva_gigante",
+  "name": "Água-viva Gigante",
+  "nd": 8,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "sob_as_ondas",
+  "pv": 320,
+  "defesa": 33,
+  "salvaguardas": { "fort": 15, "ref": 21, "von": 8 },
+  "reducao_de_dano": null,
+  "imunidades": ["acido"],
+  "resistencias": { "impacto": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 11,
+  "percepcao": 7,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "natacao": 12 },
+  "atributos": { "for": 0, "des": 4, "con": 3, "int": -4, "sab": 1, "car": -3 },
+  "pericias": { "furtividade": 12 },
+  "ataques": [
+    {
+      "nome": "Tentáculo",
+      "quantidade": 2,
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 22, "tipo": "impacto" },
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "tipo": "acido" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Corpo Aquático", "descricao": "Fora d'água, a água-viva gigante evapora e morre em 1d8 horas. Nesse tempo, qualquer criatura que tocar nela sofre 3d6 pontos de dano de ácido." },
+    { "nome": "Mesclar-se", "descricao": "Enquanto está submersa em água, a água-viva gigante tem camuflagem leve." }
+  ],
+  "tesouro": "Filamentos corrosivos (CD 23 para extrair, valem T$ 120 para fabricar ácidos).",
+  "description": "Versão colossal da água-viva comum, capaz de dilacerar presas muito maiores com tentáculos corrosivos.",
+  "livro": "ameacas_de_arton"
+}

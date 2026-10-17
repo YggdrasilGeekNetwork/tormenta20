@@ -1,0 +1,21 @@
+{
+  "id": "shuriken",
+  "name": "Shuriken",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "distancia",
+  "subtipo_distancia": "arremesso",
+  "empunhadura": "leve",
+  "preco": 1,
+  "dano": "1d4",
+  "critico": "x2",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao",
+  "espacos": 0.5,
+  "habilidades": [],
+  "especial": {
+    "ataque_adicional_mesmo_alvo": { "custo_pm": 1, "frequencia": "1x_por_rodada", "gratis_com": "arremesso_multiplo" }
+  },
+  "description": "Pequenos projéteis metálicos para arremesso, em forma de estrelas ou dardos. Uma vez por rodada, quando ataca com uma shuriken, você pode gastar 1 PM para fazer um ataque adicional de shuriken contra o mesmo alvo. Se tiver Arremesso Múltiplo, em vez disso você não paga PM para usar esse poder.",
+  "livro": "ameacas_de_arton"
+}

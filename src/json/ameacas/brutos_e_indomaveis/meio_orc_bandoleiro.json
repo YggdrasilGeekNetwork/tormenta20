@@ -1,0 +1,50 @@
+{
+  "id": "meio_orc_bandoleiro",
+  "name": "Meio-Orc Bandoleiro",
+  "nd": 1,
+  "tipo": "Humanoide",
+  "subtipo": "meio-orc",
+  "tamanho": "medio",
+  "grupo": "brutos_e_indomaveis",
+  "pv": 15,
+  "pm": null,
+  "defesa": 15,
+  "salvaguardas": { "fort": 10, "ref": 5, "von": 1 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 1,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 3, "des": 1, "con": 2, "int": 0, "sab": -1, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Espada curta",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 13, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Adaga (à distância)",
+      "bonus": 9,
+      "alcance": "curto",
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 7, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Furtivo", "descricao": "+2d6 de dano extra quando flanqueia ou surpreende o alvo." },
+    { "nome": "Criatura das Profundezas", "descricao": "Recebe +2 em Percepção quando usada no subterrâneo (já refletido nas perícias, se aplicável)." }
+  ],
+  "equipamento": ["Adaga x2", "Armadura de couro", "Espada curta"],
+  "tesouro": "Metade.",
+  "description": "Meio-orc que vive de pilhagem e assaltos, usando sua agilidade e golpes furtivos para abater vítimas antes que possam reagir.",
+  "livro": "ameacas_de_arton"
+}

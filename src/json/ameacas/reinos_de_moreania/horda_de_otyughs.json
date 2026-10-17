@@ -1,0 +1,54 @@
+{
+  "id": "horda_de_otyughs",
+  "name": "Horda de Otyughs",
+  "nd": 16,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "colossal",
+  "grupo": "reinos_de_moreania",
+  "pv": 800,
+  "pm": null,
+  "defesa": 53,
+  "salvaguardas": { "fort": 30, "ref": 24, "von": 16 },
+  "reducao_de_dano": 20,
+  "imunidades": ["doenças", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 14,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 6, "des": -1, "con": 4, "int": -2, "sab": 1, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Tentáculo [Bando]",
+      "quantidade": 2,
+      "alcance": "4,5m",
+      "bonus": 44,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 18, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Mordida [Bando]",
+      "bonus": 44,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 6 }], "bonus": 18, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com o tentáculo (teste +54). A horda pode manter até cinco criaturas Grandes ou menores agarradas sem ocupar seus tentáculos." },
+    { "nome": "Chuva de Tentáculos", "acao": "completa", "descricao": "A horda faz um ataque de tentáculo contra cada criatura em seu alcance." },
+    { "nome": "Constrição", "acao": "livre", "descricao": "No início de cada um de seus turnos, a horda causa 2d8+18 pontos de dano de impacto em cada criatura que esteja agarrando." },
+    { "nome": "Doença", "descricao": "Uma criatura mordida pela horda, ou que comece seu turno adjacente a ela, é exposta à doença infecção do esgoto. Devido à virulência da horda, a CD para resistir a essa doença é 42." },
+    { "nome": "Mar de Tentáculos", "descricao": "Criaturas a até 4,5m da horda ficam enredadas." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão.",
+  "description": "Representa um bando colossal de otyughs agindo em conjunto (regra de Bando, veja 'Manual de Criação de Ameaças'), formados em grande número a partir da pestilência darash no Reino das Torres.",
+  "livro": "ameacas_de_arton"
+}

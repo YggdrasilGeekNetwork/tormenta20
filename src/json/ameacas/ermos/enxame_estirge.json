@@ -1,0 +1,33 @@
+{
+  "id": "enxame_estirge",
+  "name": "Enxame Estirge",
+  "nd": 5,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "ermos",
+  "pv": 40,
+  "pm": null,
+  "defesa": 23,
+  "salvaguardas": { "fort": 6, "ref": 16, "von": 11 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 4,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "voo": 12 },
+  "atributos": { "for": -3, "des": 5, "con": -1, "int": -5, "sab": 0, "car": -2 },
+  "pericias": {},
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Enxame", "descricao": "Toda criatura no espaço do enxame estirge sofre 1d6 pontos de dano de perfuração. Para cada ponto de dano sofrido dessa forma, a criatura perde 1d6 pontos de vida como um efeito metabólico." },
+    { "nome": "Chupar Sangue", "descricao": "Para cada ponto de vida que o enxame fizer uma criatura perder, ele ganha 1 PV temporário." },
+    { "nome": "Sangrar", "descricao": "Uma criatura que perca pontos de vida para o enxame estirge fica sangrando (Fortitude CD 20 evita)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Ova de estirge.",
+  "description": "Uma concentração média de estirges agindo em conjunto, drenando vida de qualquer criatura em seu espaço.",
+  "livro": "ameacas_de_arton"
+}

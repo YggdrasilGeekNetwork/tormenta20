@@ -1,0 +1,41 @@
+{
+  "id": "selako_tigre",
+  "name": "Selako-Tigre",
+  "nd": 6,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "sob_as_ondas",
+  "pv": 260,
+  "defesa": 25,
+  "salvaguardas": { "fort": 17, "ref": 11, "von": 5 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 6,
+  "visao": ["faro", "percepção às cegas"],
+  "deslocamento": { "natacao": 18 },
+  "atributos": { "for": 6, "des": 4, "con": 3, "int": -4, "sab": 2, "car": -2 },
+  "pericias": { "furtividade": 10 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "quantidade": 2,
+      "bonus": 18,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 10 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "17/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Bote de Mandíbula", "acao": "completa", "descricao": "O selako-tigre faz uma investida contra uma criatura. Se acertar esse ataque, ele causa +4d10 pontos de dano e a vítima fica sangrando." },
+    { "nome": "Dentes Afiados", "descricao": "Os ataques do selako-tigre ignoram 5 pontos de redução de dano de seus alvos." },
+    { "nome": "Faro do Caçador", "descricao": "O selako-tigre não fica desprevenido contra inimigos que estejam sangrando." }
+  ],
+  "tesouro": "Couro de selako x2 (CD 21 para extrair, vale T$ 30 para fabricar um traje selako) e dentes de selako x2 (CD 21 para extrair, valem T$ 300 para fabricar uma arma superior).",
+  "description": "Selako muito maior e mais agressivo que a variante comum, com mandíbulas capazes de ignorar a resistência das presas mais protegidas.",
+  "livro": "ameacas_de_arton"
+}

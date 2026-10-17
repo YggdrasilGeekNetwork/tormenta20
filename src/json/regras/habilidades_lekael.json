@@ -1,0 +1,15 @@
+{
+  "id": "habilidades_lekael",
+  "name": "Habilidades Lekael",
+  "description": "Lekael (Lordes da Tormenta) são lefeu únicos, cada um governando um foco de infestação; além das habilidades comuns dos lefeu, todos possuem as habilidades a seguir (Ameaças de Arton, Cap. 1, seção Áreas de Tormenta → Gatzvalith, Lorde da Tormenta).",
+  "habilidades": [
+    { "nome": "Coração da Tormenta", "descricao": "Um lekael só pode ser verdadeiramente destruído se o coração de sua área de Tormenta também for. Caso não seja, ele retorna à vida em uma semana." },
+    { "nome": "Domínio Sobre o Tempo", "descricao": "Um lekael pode fazer duas ações padrão e duas ações de movimento a cada turno." },
+    { "nome": "Invocar Lefeu", "acao": "completa", "descricao": "Uma vez por cena, o lekael invoca um ou mais lefeu a sua escolha, cujo ND total somado seja igual ao seu. Eles surgem em alcance curto e agem a partir da próxima rodada, em suas iniciativas." },
+    { "nome": "Percepção Perfeita", "descricao": "Um lekael está sempre sob efeito de Visão da Verdade, com todos os aprimoramentos." },
+    { "nome": "Poder sobre a Realidade", "descricao": "Um lekael pode lançar qualquer magia simulada de até 4º círculo como um conjurador de 20º nível (CD 55, limite de PM 20) sem gastar PM." },
+    { "nome": "Telepatia", "descricao": "O lekael pode se comunicar com qualquer criatura inteligente (Int –3 ou mais) dentro de sua área de Tormenta ou a 1km de distância fora dela. Além disso, é imune a efeitos mentais." }
+  ],
+  "outros_lekael_conhecidos": "Igasehra (gigantesco dragão-demônio-inseto, comparável aos kaiju de Tamu-ra), Raigheb (terror do Deserto da Perdição, um enxame formado por infinitos demônios menores) e Urazyel (colossal fortaleza viva que ronda as Sanguinárias) são citados como outros lekael, mas sem stat block publicado neste livro — assim como Aharadak, antes de sua ascensão à divindade.",
+  "livro": "ameacas_de_arton"
+}

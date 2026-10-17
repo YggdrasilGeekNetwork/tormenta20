@@ -1,0 +1,52 @@
+{
+  "id": "kallyanach_morte_glacial",
+  "name": "Kallyanach Morte Glacial",
+  "nd": 9,
+  "tipo": "Monstro",
+  "subtipo": "kallyanach",
+  "tamanho": "medio",
+  "grupo": "igreja_de_kallyadranoch",
+  "pv": 340,
+  "pm": null,
+  "defesa": 32,
+  "salvaguardas": { "fort": 9, "ref": 21, "von": 15 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "frio": 10 },
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 9,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 9, "voo": 9 },
+  "atributos": { "for": 1, "des": 4, "con": 3, "int": 1, "sab": 1, "car": 1 },
+  "pericias": { "acrobacia": 12, "atletismo": 9, "enganacao": 11, "furtividade": 14, "intimidacao": 9, "ladinagem": 12 },
+  "ataques": [
+    {
+      "nome": "Espada curta",
+      "quantidade": 2,
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 12, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Furtivo", "descricao": "Causa +4d6 de dano adicional quando ataca um alvo desprevenido ou surpreso." },
+    { "nome": "Evasão", "descricao": "Quando passa em um teste de Reflexos para reduzir o dano de um efeito à metade, em vez disso não sofre nenhum dano." },
+    { "nome": "Finta Aprimorada", "descricao": "O kallyanach morte glacial pode fintar como uma ação de movimento." },
+    { "nome": "Sopro de Dragão", "acao": "padrão", "descricao": "Criaturas em um cone de 6m sofrem 3d12 pontos de dano de frio, ficam lentas por 1d4 rodadas e, se estiverem surpreendidas, sofrem dano adicional de ataque furtivo (Reflexos CD 28 reduz à metade e evita a condição). Recarga (movimento)." }
+  ],
+  "equipamento": ["Couro batido ajustado", "Espada curta x2", "Gazua"],
+  "tesouro": "Padrão.",
+  "description": "Meio-dragão furtivo e letal, combinando o frio draconiano com técnicas assassinas, usando a surpresa e o engano para abater suas vítimas antes que possam reagir.",
+  "livro": "ameacas_de_arton"
+}

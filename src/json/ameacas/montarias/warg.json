@@ -1,0 +1,50 @@
+{
+  "id": "warg",
+  "name": "Warg",
+  "nd": 3,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 110,
+  "pm": null,
+  "defesa": 21,
+  "salvaguardas": { "fort": 9, "ref": 13, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 10,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 6, "des": 3, "con": 4, "int": -2, "sab": 2, "car": -1 },
+  "pericias": { "furtividade": "+11 (+16 em ambientes escuros)", "sobrevivencia": 10 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 15,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Furtivo", "descricao": "O warg causa +2d6 de dano extra quando flanqueia ou surpreende o alvo." },
+    { "nome": "Derrubar", "acao": "livre", "descricao": "Mordida (teste +17)." },
+    { "nome": "Predador Oculto", "descricao": "O warg pode se mover com seu deslocamento normal enquanto se esconde ou rastreia sem penalidades nos testes de Furtividade ou Sobrevivência. Além disso, sofre apenas –5 de penalidade em testes de Furtividade para esconder-se após atacar ou fazer uma ação chamativa (em vez de –20)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Metade.",
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "restricao": null,
+    "observacao": "Não causa penalidades em Furtividade por seu tamanho.",
+    "iniciante": "Seu deslocamento muda para 12m e você recebe uma ação de movimento extra por turno (apenas para se deslocar).",
+    "veterano": "Você recebe +2 em Furtividade e pode usar a habilidade Ataque Furtivo +2d6 (se já possui Ataque Furtivo, o bônus de dano se acumula).",
+    "mestre": "Uma vez por rodada, quando acerta um ataque corpo a corpo, você pode fazer a manobra derrubar como uma ação livre."
+  },
+  "description": "Criatura quadrúpede e musculosa, grande como um urso e negra como a noite, lembrando um lobo imenso mas com cabeça larga, focinho achatado e mandíbulas grossas; uma inteligência feroz brilha em seus olhos vermelhos. Amplamente utilizada pelos duyshidakk como montaria, guarda ou besta de caça; após a ascensão de Thwor, passou a ser considerada animal sagrado, muitas vezes presenteada aos devotos mais merecedores. Argutos e inteligentes a ponto de compreender o idioma goblinoide, vivem e caçam em matilhas em estado selvagem, encontrados por todo Lamnor e em várias áreas selvagens de Arton (como as Sanguinárias); agressivos e impacientes, preferem devorar filhotes e animais velhos ou feridos, mas não hesitam em atacar humanoides.",
+  "livro": "ameacas_de_arton"
+}

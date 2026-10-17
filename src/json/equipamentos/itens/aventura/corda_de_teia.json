@@ -1,0 +1,14 @@
+{
+  "id": "corda_de_teia",
+  "name": "Corda de Teia",
+  "type": "item",
+  "categoria": "aventura",
+  "preco": 100,
+  "espacos": 1,
+  "efeito": {
+    "comprimento": "10m",
+    "resistencia": "5 pontos de dano de corte ou teste de Força CD 28 para arrebentar"
+  },
+  "description": "Feita de teia de aranha gigante, esta corda de 10m funciona como uma corda normal, mas é mais resistente. Arrebentá-la exige 5 pontos de dano de corte ou um teste de Força (CD 28).",
+  "livro": "ameacas_de_arton"
+}

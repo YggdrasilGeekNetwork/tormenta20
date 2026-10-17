@@ -1,0 +1,41 @@
+{
+  "id": "devoto_de_hyninn_manhoso",
+  "name": "Devoto de Hyninn Manhoso",
+  "nd": 0.5,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "capangas_e_bandoleiros",
+  "pv": 12,
+  "pm": null,
+  "defesa": 13,
+  "salvaguardas": { "fort": -1, "ref": 6, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": ["efeitos de movimento"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 3,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": -1, "des": 2, "con": 0, "int": 1, "sab": 0, "car": 2 },
+  "pericias": { "enganacao": 6, "furtividade": 6, "ladinagem": 6 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 6,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 5, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "No Bolso Dói Mais (mágica)", "descricao": "Quando acerta um ataque em corpo a corpo, para cada 1 ponto de dano causado, o devoto rouba T$ 1 da vítima. Mesmo que o devoto seja derrotado, há 50% de chance de que esses tibares tenham desaparecido para sempre, pela graça de Hyninn." },
+    { "nome": "Truque de Espelhos", "acao": "reação", "descricao": "Uma vez por rodada, quando é atacado, o devoto pode enganar o atacante com uma distração, fazendo com que o ataque erre automaticamente (Vontade CD 15 evita). Só pode usar esta habilidade uma vez por cena contra cada criatura." }
+  ],
+  "equipamento": ["Adaga", "Gazua"],
+  "tesouro": "Metade.",
+  "description": "Marginal que invoca Hyninn antes de cada delito, com tanto fervor que termina por atrair as graças do Deus dos Ladrões — para ele, furtar não é apenas modo de vida, é religião. Embora não seja um clérigo, pode impressionar bandidos medíocres com seus parcos poderes, tornando-se líder de pequenos grupos.",
+  "livro": "ameacas_de_arton"
+}

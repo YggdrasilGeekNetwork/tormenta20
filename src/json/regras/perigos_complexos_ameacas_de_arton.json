@@ -1,0 +1,158 @@
+{
+  "id": "perigos_complexos_ameacas_de_arton",
+  "name": "Perigos Complexos (Ameaças de Arton)",
+  "description": "10 cenas de desafio que exigem diversas decisões e múltiplos testes para serem superadas, usadas para perigos de ação, embates sociais ou desafios de astúcia (Ameaças de Arton, Cap. 1, seção Novos Perigos → Perigos Complexos). Distintos dos Perigos Complexos de Deuses de Arton (regra separada).",
+  "perigos": [
+    {
+      "nome": "Biblioteca em Ruínas",
+      "nd": 10,
+      "descricao": "Os personagens precisam pesquisar uma informação em uma biblioteca muito antiga que está ruindo.",
+      "objetivo": "Obter a informação necessária antes que a biblioteca desabe.",
+      "efeito": "O grupo precisa acumular 6 sucessos nas ações a seguir, tendo 4 rodadas para agir livremente. Na quinta rodada a biblioteca entra em colapso (quem estiver dentro sofre 12d6 de dano de impacto); na sexta, desaba completamente (20d6 de dano de impacto).",
+      "tabela_eventos": [
+        { "resultado": "1-3", "nome": "Desmoronamento de livros", "efeito": "Cada personagem sofre 4d6 pontos de dano de impacto (Reflexos CD 25 evita)." },
+        { "resultado": 4, "nome": "Pequeno incêndio", "efeito": "Qualquer número de personagens pode abrir mão de sua ação para tentar apagar as chamas (Destreza CD 15). Até ser apagado, a CD de todos os testes contra este perigo aumenta em +2 por rodada de chamas." },
+        { "resultado": 5, "nome": "Fissura no chão", "efeito": "Cada personagem faz um teste de Acrobacia ou Atletismo (CD 25); se falhar, tropeça e sofre –5 em sua próxima ação." },
+        { "resultado": 6, "nome": "Bloqueio", "efeito": "Um personagem aleatório pode desistir do corredor (perde a ação) ou tentar correr (Atletismo CD 25; se passar, age normalmente, se falhar perde a ação e sofre 4d6 de dano de impacto)." }
+      ],
+      "acoes": [
+        { "nome": "Usar Biblioteca", "teste": "Investigação CD 22", "efeito": "Procura livros que tragam a informação necessária." },
+        { "nome": "Ajuda Esotérica", "teste": "Misticismo ou Religião CD 22", "efeito": "Se a informação for sobre magia ou deuses, pesquisa com a perícia correspondente." },
+        { "nome": "Julgar pela Capa", "teste": "Conhecimento CD 22", "efeito": "Procura títulos relativos ao tema. Sucesso por 10+ (ou 20 natural) conta como dois sucessos." },
+        { "nome": "Palpite Fortuito", "teste": "Intuição CD 22", "efeito": "Deduz quais livros poderiam ajudar." },
+        { "nome": "Coordenar Pesquisa", "teste": "Conhecimento CD 10", "efeito": "Ajuda; não conta como sucesso, mas o bônus de ajuda se aplica a todo o grupo nesta rodada." }
+      ]
+    },
+    {
+      "nome": "Briga de Taverna",
+      "nd": 2,
+      "descricao": "Ninguém sabe como ela começou, mas quando o primeiro rola Iniciativa, só resta tomar parte ou tentar apartar.",
+      "objetivo": "Ficar de pé até o fim. A briga dura 1d6+2 rodadas; depois os ânimos se acalmam, o taverneiro bota ordem ou a guarda chega.",
+      "efeito": "No início de cada rodada, todos sofrem 2d6+4 pontos de dano de impacto não letal. Um personagem reduzido a 0 PV ou menos deixa de sofrer dano. Um personagem que bata 'com maldade' atrai a ira dos demais (o dano que sofre no início da rodada aumenta em +1d6+2 a cada vez que causar dano letal) e pode ter problemas futuros com a lei local.",
+      "acoes": [
+        { "nome": "Brigar", "teste": "Defesa 16 (ação agredir)", "efeito": "Se causar 15+ de dano, nocauteia o oponente mais próximo e não sofre dano na próxima rodada." },
+        { "nome": "Apartar", "teste": "Diplomacia ou Intimidação CD 20", "efeito": "Se passar, reduz a duração da briga em 1 rodada." },
+        { "nome": "Bater Carteiras", "teste": "Ladinagem CD 20", "efeito": "Se passar, obtém T$ 2d8; se falhar por 5+, é pego roubando e sofre +1d6 de dano na próxima rodada." },
+        { "nome": "Lançar Magia", "teste": "Vontade CD 15 + PM", "efeito": "O efeito depende da magia usada, a critério do mestre." },
+        { "nome": "Sair de Fininho", "teste": "Furtividade CD 20", "efeito": "Se passar, na próxima rodada tem 50% de chance (resultado par em 1d6) de não sofrer dano." }
+      ]
+    },
+    {
+      "nome": "Ciclone Arcano",
+      "nd": 5,
+      "descricao": "Uma manifestação descontrolada de energia mágica bruta, semelhante a uma tempestade ou terremoto, que afeta tudo em seu caminho.",
+      "objetivo": "Escapar do ciclone arcano.",
+      "efeito": "O grupo tem 5 rodadas para se afastar. No fim da quinta rodada, a posição de cada personagem é definida pelos sucessos acumulados: 2 ou menos sucessos = centro do ciclone (16d6 de dano de essência e perde 4d4 PM); 3 ou 4 sucessos = orla (8d6 de dano de essência e perde 2d4 PM); 5 ou mais sucessos = escapa ileso. Teste de Misticismo (CD 20) para perceber a aproximação; quem passar age uma vez extra na primeira rodada.",
+      "acoes": [
+        { "nome": "Correr", "teste": "Atletismo CD 20", "efeito": "Se passar, afasta-se do centro. Sucesso por 10+ (ou 20 natural) conta como 2 sucessos. Mesmos modificadores da ação corrida; pode ser substituído por Cavalgar/Pilotagem se montado/em veículo." },
+        { "nome": "Carregar Outro", "teste": "Atletismo CD 25", "efeito": "Carrega um aliado próximo (até 1 sucesso de diferença); se passar, ambos acumulam 1 sucesso." },
+        { "nome": "Bloquear", "teste": "Misticismo CD 15", "efeito": "Em vez de se afastar, bloqueia os efeitos mágicos do ciclone. Se passar, recebe 1 sucesso. Só pode ser usada uma vez por personagem." },
+        { "nome": "Resistir", "teste": "Vontade CD 20", "efeito": "Em vez de se afastar, resiste aos efeitos. Se passar, recebe 1 sucesso; se falhar, não pode tentar novamente." }
+      ]
+    },
+    {
+      "nome": "Construção em Colapso",
+      "nd": 8,
+      "descricao": "Os personagens estão em uma vasta construção, como um castelo ou templo, prestes a desabar.",
+      "objetivo": "Sair da construção.",
+      "efeito": "A construção é completamente destruída em 7 rodadas. Para escapar, um personagem precisa acumular 5 sucessos nas ações avançar, correr ou carregar outro. Ao fim da sétima rodada, quem não tiver 5 sucessos sofre 20d6 de dano de impacto (sem teste de resistência).",
+      "tabela_eventos": [
+        { "resultado": "1-2", "nome": "Destroços", "efeito": "Teste de Reflexos (CD 25); se falhar, 4d6 de dano de impacto (8d6 se falhar por 10+)." },
+        { "resultado": "3-4", "nome": "Fenda no chão", "efeito": "Teste de Acrobacia ou Atletismo (CD 25); se falhar, tropeça e sofre –5 na próxima ação (se falhar por 10+, cai e perde a ação)." },
+        { "resultado": 5, "nome": "Bloqueio", "efeito": "Desistir da rota (perde a ação) ou correr (Atletismo CD 25; sucesso age normalmente, falha perde a ação e sofre 8d6 de dano de impacto)." },
+        { "resultado": 6, "nome": "Explosão", "efeito": "Teste de Reflexos (CD 30); se falhar, 6d6 de dano (tipo definido pelo mestre) e –5 no próximo teste (10d6 e perde a ação se falhar por 10+)." }
+      ],
+      "acoes": [
+        { "nome": "Avançar", "teste": "Acrobacia ou Reflexos CD 25", "efeito": "Avança com cuidado. Sucesso por 10+ (ou 20 natural) conta como 2 sucessos." },
+        { "nome": "Correr", "teste": "Atletismo CD 20", "efeito": "Corre sem se preocupar com os perigos, sofrendo 4d6 de dano de impacto. Sucesso por 10+ (ou 20 natural) conta como 2 sucessos." },
+        { "nome": "Carregar Outro", "teste": "Atletismo CD 30", "efeito": "Como avançar, carregando um aliado (até 1 sucesso de diferença); falha causa dano a ambos." },
+        { "nome": "Procurar Caminho", "teste": "Percepção CD 20", "efeito": "Se passar, +5 em todos os testes de avançar/correr/carregar outro no restante do perigo." }
+      ]
+    },
+    {
+      "nome": "Grama Carnívora",
+      "nd": "3 a 11",
+      "descricao": "Uma aberração planar quase indistinguível de vegetação rasteira comum, que cobre até mil metros quadrados, encontrada em Galrasia, na Grande Savana e outros locais. Expele filamentos para agarrar e imobilizar presas, exalando vapores ácidos digestivos. Tem relação simbiótica com o tatu-traiçoeiro.",
+      "objetivo": "Sair da área da grama carnívora antes de ser devorado.",
+      "efeito": "Para escapar, cada personagem precisa de sucessos na ação fugir conforme o tamanho da área: pequena (clareira, 3 sucessos, ND 3), média (vasta planície, 5 sucessos, ND 6) ou extensa (quase mil m², 7 sucessos, ND 11). Teste de Sobrevivência (CD 20) para perceber a grama; quem passar age uma vez extra na primeira rodada. No início de cada turno, cada personagem sofre 1d6 de dano de impacto e faz um teste de Reflexos (CD 20); se falhar, fica agarrado e imóvel, só podendo libertar-se (o dano aumenta em +1d6 a cada rodada agarrado). Em área média, CD +5 e dano inicial 2d6; em área extensa, CD +10 e dano inicial 3d6.",
+      "acoes": [
+        { "nome": "Fugir", "teste": "Atletismo CD 20", "efeito": "Corre para fora da grama. Sucesso por 10+ (ou 20 natural) conta como 2 sucessos; pode ser substituído por Cavalgar/Pilotagem se montado/em veículo." },
+        { "nome": "Libertar-se", "teste": "Atletismo ou Acrobacia CD 20", "efeito": "Agarrado → enredado; enredado → livre. Passar por 10+ livra-se direto, sem precisar do teste no fim da rodada." },
+        { "nome": "Conjurar", "teste": "Vontade CD 20 + custo em PM da magia", "efeito": "Se falhar, a magia falha mas os PM são gastos." },
+        { "nome": "Atacar", "teste": "Luta CD 20 (arma de corte)", "efeito": "Se passar, liberta um aliado agarrado próximo (até 1 sucesso de diferença) ou conta como 1 sucesso em fugir." },
+        { "nome": "Analisar", "teste": "Sobrevivência CD 20", "efeito": "Se passar, +2 em todos os testes de perícia do grupo durante o perigo." }
+      ]
+    },
+    {
+      "nome": "Inundação de Esgoto",
+      "nd": 4,
+      "descricao": "Vasculhando túneis subterrâneos (esgotos ou masmorras próximas a um rio), o grupo é surpreendido por uma inundação súbita.",
+      "objetivo": "Sobreviver à inundação.",
+      "efeito": "O grupo precisa correr por 1d4+4 rodadas. Teste de Percepção (CD 20) para perceber a inundação se aproximando; quem passar age uma vez extra na primeira rodada. No início de cada rodada, role 1d6 e some à CD de todos os testes (detritos e obstáculos). A inundação começa a 6m e avança 6m ao fim de cada rodada; se alcançado, o personagem fica com água pelos joelhos (–2 em correr/carregar outro); se ultrapassado, é engolfado (não pode correr/carregar outro, sofre 4d6 de dano de impacto no fim do turno e deve prender a respiração, cada rodada conta como 2 de sufocamento).",
+      "acoes": [
+        { "nome": "Correr", "teste": "Atletismo CD 20", "efeito": "Se passar, avança 6m. Sucesso por 10+ (ou 20 natural) conta como 2 sucessos; pode ser substituído por Cavalgar/Pilotagem se montado/em veículo." },
+        { "nome": "Carregar Outro", "teste": "Atletismo CD 25", "efeito": "Como correr, com um aliado próximo (até 1 sucesso de diferença); ambos avançam 6m se passar." },
+        { "nome": "Evitar Colisão", "teste": "Atletismo ou Reflexos CD 20", "efeito": "Um personagem engolfado reduz o dano da inundação à metade (sucesso por 10+ evita todo o dano)." },
+        { "nome": "Agarrar-se", "teste": "Atletismo CD 20", "efeito": "Só após passar em evitar colisão na rodada anterior; se passar, não sofre dano e pode repetir na próxima rodada." }
+      ]
+    },
+    {
+      "nome": "Labirinto",
+      "nd": 6,
+      "descricao": "Os personagens se deparam com um emaranhado de caminhos e precisam descobrir qual leva até a saída.",
+      "objetivo": "Sair do labirinto.",
+      "efeito": "O grupo precisa acumular sucessos na ação guiar conforme a extensão: pequeno (algumas salas, 3 sucessos), médio (subterrâneos de uma pequena cidade, 5 sucessos) ou extenso (complexo sob uma metrópole, 7 sucessos). O mestre define quanto tempo cada rodada representa. No fim de cada turno, cada personagem faz um teste de Fortitude (CD 20); se falhar, perde 2d6 PV (cansaço, armadilhas etc.; só pode ser curado a partir de um dia após saída).",
+      "acoes": [
+        { "nome": "Guiar", "teste": "Sobrevivência CD 25 ou 30", "efeito": "Guia o grupo; pode procurar caminho mais seguro (CD 30, mas sucesso reduz em 5 a CD do teste de Fortitude desta rodada). Só um personagem por rodada." },
+        { "nome": "Ajudar o Guia", "teste": "Varia", "efeito": "Qualquer perícia justificável, uma vez por rodada cada." },
+        { "nome": "Calcular Rota", "teste": "Conhecimento CD 20", "efeito": "Se passar, +5 no próximo teste de guiar; se falhar, +5 na CD do teste de Fortitude desta rodada." },
+        { "nome": "Proteger-se", "teste": "Nenhum", "efeito": "+5 no teste de Fortitude desta rodada." }
+      ],
+      "variante_mental": "Pode-se representar um labirinto que testa a sanidade: substitua Fortitude por Vontade e a perda de PV por perda de 1d4 PM. Um personagem reduzido a 0 PM fica catatônico; se todo o grupo ficar assim, sucumbem à loucura do lugar.",
+      "observacao": "É um labirinto simplificado, usável como etapa de uma aventura maior; labirintos mais complexos (com salas, criaturas e armadilhas elaboradas) constituem uma aventura completa, não um perigo."
+    },
+    {
+      "nome": "Naufrágio",
+      "nd": 7,
+      "descricao": "O grupo se encontra em um barco que está naufragando.",
+      "objetivo": "Sobreviver ao naufrágio.",
+      "efeito": "Cada personagem deve resistir à força das águas por um número de rodadas conforme o tamanho do naufrágio: pequeno (barco de pesca, 3 rodadas), médio (veleiro ou cargueiro, 5 rodadas) ou grande (caravela ou navio de guerra, 7 rodadas). Em cada rodada, cada personagem deve fazer uma das ações a seguir; se falhar, sofre 3d6 de dano de impacto (efeitos adicionais se estiver na água).",
+      "acoes": [
+        { "nome": "Equilibrar-se", "teste": "Acrobacia CD 20 (+2 por rodada)", "efeito": "Mantém-se sobre os destroços; falhar por 5+ cai na água." },
+        { "nome": "Içar Aliado", "teste": "Acrobacia CD 25", "efeito": "Como equilibrar-se, ajudando um aliado a subir; sucesso traz o aliado de volta e conta como sucesso para ambos." },
+        { "nome": "Nadar", "teste": "Atletismo CD 20", "efeito": "Nada contra a correnteza. Se falhar em 2 testes antes de retornar aos destroços, é tragado (começa a sufocar, –5 em Atletismo, só pode nadar/carregar outro; volta à superfície após 2 sucessos seguidos em nadar)." },
+        { "nome": "Carregar Outro", "teste": "Atletismo CD 25", "efeito": "Na água, ajuda um aliado a nadar; sucesso conta como 1 sucesso para ambos." },
+        { "nome": "Escalar Destroços", "teste": "Atletismo CD 25", "efeito": "Só após passar em nadar na rodada anterior." }
+      ]
+    },
+    {
+      "nome": "Pesquisa",
+      "nd": 2,
+      "descricao": "O grupo precisa pesquisar uma informação em uma biblioteca, livraria ou amontoado de livros e pergaminhos.",
+      "objetivo": "Encontrar a informação.",
+      "efeito": "O grupo precisa acumular 6 sucessos. Para cada falha, os personagens perdem 1 PM por esforço mental (0 PM = frustrado até o fim do dia). Se o grupo acumular 4 falhas, todos ficam frustrados até o fim do dia e só podem tentar de novo no dia seguinte (mantendo os sucessos acumulados).",
+      "acoes": [
+        { "nome": "Usar Biblioteca", "teste": "Investigação CD 15", "efeito": "Vasculha livros e textos reunindo pistas." },
+        { "nome": "Consultar o Sobrenatural", "teste": "Misticismo ou Religião CD 15", "efeito": "Se a informação for mística/divina, ajuda com a perícia correspondente. Uma vez por personagem por pesquisa." },
+        { "nome": "Estudar Textos", "teste": "Conhecimento CD 12", "efeito": "Combina conhecimentos específicos com os textos disponíveis." },
+        { "nome": "Ajudar", "teste": "Varia CD 10", "efeito": "Qualquer perícia justificável; não conta como sucesso." }
+      ]
+    },
+    {
+      "nome": "Tempestade de Areia",
+      "nd": 5,
+      "descricao": "Atravessando terras desérticas, os personagens são apanhados por uma tempestade de areia.",
+      "objetivo": "Sobreviver à passagem das areias. A tempestade dura 2d4+1 rodadas, depois se torna um vento fraco.",
+      "efeito": "No início de seu turno, cada personagem faz um teste de Fortitude (CD 20+1d6, rolado uma vez por rodada para todos); se falhar, sofre 4d4 de dano de corte e fica cego até o início do próximo turno (se falhar por 10+, também começa a sufocar). Um personagem cego sofre –5 em todas as ações. No fim de cada rodada, role 1d4 para cada animal/monstro irracional acompanhando o grupo: em 1, a criatura se assusta e foge (pode ser encontrada depois com Sobrevivência CD 20 + duração em rodadas, com 25% de chance de estar morta). Teste de Sobrevivência (CD 20) para perceber a tempestade se aproximando; quem passar age uma vez extra na primeira rodada.",
+      "acoes": [
+        { "nome": "Proteger-se", "teste": "Acrobacia ou Atletismo CD 15", "efeito": "+2 no próximo teste de Fortitude contra a tempestade." },
+        { "nome": "Cobrir-se", "teste": "Sobrevivência CD 15", "efeito": "+5 no próximo teste de Fortitude e +2 no seguinte; depois o item usado é destruído." },
+        { "nome": "Procurar Abrigo", "teste": "Percepção ou Sobrevivência CD 25", "efeito": "+5 nos testes de Fortitude contra este perigo até o fim da cena." },
+        { "nome": "Proteger Aliado", "teste": "Sobrevivência CD 15", "efeito": "Na próxima rodada, sofre –5 no próprio teste de Fortitude, mas o aliado adjacente recebe +5." },
+        { "nome": "Lavar o Rosto", "teste": "Cura CD 15", "efeito": "Remove a cegueira e o sufocamento causados pela tempestade de si mesmo ou de um aliado." },
+        { "nome": "Acalmar Animal", "teste": "Adestramento CD 25", "efeito": "Elimina a chance de um animal/monstro irracional acompanhante fugir durante a tempestade." }
+      ]
+    }
+  ],
+  "livro": "ameacas_de_arton"
+}

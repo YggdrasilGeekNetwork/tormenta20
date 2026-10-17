@@ -1,0 +1,43 @@
+{
+  "id": "instrumento_divino",
+  "name": "Instrumento Divino",
+  "nd": 7,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "golens",
+  "pv": 266,
+  "pm": null,
+  "defesa": 33,
+  "salvaguardas": { "fort": 21, "ref": 8, "von": 15 },
+  "reducao_de_dano": "10/trevas",
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 9,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 4, "des": 1, "con": 3, "int": null, "sab": 0, "car": -5 },
+  "pericias": { "diplomacia": 10, "religiao": 12 },
+  "ataques": [
+    {
+      "nome": "Espada longa",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 26, "tipo": "corte" },
+        { "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 0, "tipo": "luz mágica" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura de Arrependimento", "acao": "movimento", "descricao": "O instrumento divino emite uma aura que afeta todas as criaturas em um raio de 9m. Até o próximo turno do instrumento, quando uma criatura ataca ele ou seus aliados, fica atordoada após o ataque (Vontade CD 24 evita). Uma criatura só pode ficar atordoada por esta habilidade uma vez por cena." },
+    { "nome": "Fulgor Divino", "descricao": "Sempre que o instrumento divino usa a ação agredir, criaturas em alcance curto ficam ofuscadas por 1 rodada." },
+    { "nome": "Quebrar Superior", "acao": "livre", "descricao": "Quando o instrumento divino acerta um ataque, pode usar a manobra quebrar contra um objeto visível da vítima (teste +28). Ele ignora 10 pontos da RD de objetos." }
+  ],
+  "equipamento": ["Escudo pesado de mitral", "Espada longa certeira", "Símbolo sagrado"],
+  "tesouro": "Metade.",
+  "description": "Também conhecidos como \"guerreiros da luz\", golens criados para proteger locais sagrados de grande importância, como catedrais ou tumbas de santos, sobretudo devotos de Azgher, Khalmyr, Thyatis e outros deuses benignos. Lutam com ímpeto e determinação, por excesso de zelo podendo entrar em conflito com aventureiros que perambulem em áreas sob sua proteção.",
+  "livro": "ameacas_de_arton"
+}

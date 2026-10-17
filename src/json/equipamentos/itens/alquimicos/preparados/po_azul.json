@@ -1,0 +1,14 @@
+{
+  "id": "po_azul",
+  "name": "Pó Azul",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 150,
+  "espacos": 0.5,
+  "uso": "inalado",
+  "acoes": { "inalar": "completa" },
+  "efeito": { "recupera_pm": "2d4" },
+  "description": "Saquinho de couro com pó feito a partir de uma planta exótica de Galrasia, capaz de absorver energia mágica ambiente. Inalar o pó é uma ação completa e recupera 2d4 PM.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,58 @@
+{
+  "id": "nezumi_capanga",
+  "name": "Nezumi Capanga",
+  "nd": 1,
+  "tipo": "Humanoide",
+  "subtipo": "nezumi",
+  "tamanho": "pequeno",
+  "grupo": "imperio_de_jade",
+  "pv": 9,
+  "pm": null,
+  "defesa": 15,
+  "salvaguardas": { "fort": 10, "ref": 5, "von": 1 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 4,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 0, "des": 2, "con": 2, "int": -1, "sab": 0, "car": -1 },
+  "pericias": { "atletismo": 4, "intimidacao": 3 },
+  "ataques": [
+    {
+      "nome": "Neko-te",
+      "quantidade": 2,
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 3, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 3, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Azagaia (à distância)",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 0, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Resistência a Medo de Criaturas Maiores", "descricao": "Recebe +5 em testes de Vontade para resistir a efeitos de medo causados por criaturas maiores que ele." },
+    { "nome": "Roedor", "descricao": "Quando o nezumi capanga faz um acerto crítico com sua mordida, deixa a armadura da vítima avariada ou, se ela estiver sem armadura, aumenta em +1 o multiplicador desse crítico." }
+  ],
+  "equipamento": ["Azagaia", "Neko-te x2"],
+  "tesouro": "Metade.",
+  "description": "Nezumi comum que luta em bandos, usando garras metálicas (neko-te) e mordida afiada contra qualquer um que considere inimigo digno.",
+  "livro": "ameacas_de_arton"
+}

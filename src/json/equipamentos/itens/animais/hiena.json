@@ -1,0 +1,10 @@
+{
+  "id": "hiena",
+  "name": "Hiena",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 220,
+  "espacos": 0,
+  "description": "Preço de referência para adquirir uma hiena. Veja a ficha completa da ameaça (grupo ermos) para estatísticas de combate.",
+  "livro": "ameacas_de_arton"
+}

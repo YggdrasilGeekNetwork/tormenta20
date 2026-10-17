@@ -1,0 +1,58 @@
+{
+  "id": "urso_das_cavernas",
+  "name": "Urso das Cavernas",
+  "nd": 8,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "montarias",
+  "pv": 300,
+  "pm": null,
+  "defesa": 31,
+  "salvaguardas": { "fort": 20, "ref": 15, "von": 9 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 10,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 7, "des": 1, "con": 6, "int": -4, "sab": 2, "car": -2 },
+  "pericias": { "atletismo": 15 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 15, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 15, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Abraço de Urso", "acao": "livre", "descricao": "No início de cada um de seus turnos, o urso das cavernas causa 3d8+15 pontos de dano de impacto em uma criatura Grande ou menor que esteja agarrando." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Mordida (teste +32)." },
+    { "nome": "Garras Destruidoras", "descricao": "Quando causa dano com suas garras, o urso pode rolar novamente qualquer resultado 1 ou 2 na rolagem de dano." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "montaria (Enorme)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 12m e você recebe redução de dano 2.",
+    "veterano": "Uma vez por rodada, quando acerta um ataque corpo a corpo, você pode fazer a manobra agarrar como uma ação livre. Essa manobra não deixa sua mão ocupada, mas você só pode manter um inimigo agarrado desta forma.",
+    "mestre": "Muda a redução de dano para 5."
+  },
+  "description": "Versão maior e mais antiga do urso comum, encontrada em Galrasia e nas Sanguinárias. Agressivo, é o único urso que ataca seres inteligentes sem hesitar.",
+  "livro": "ameacas_de_arton"
+}

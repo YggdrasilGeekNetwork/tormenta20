@@ -1,0 +1,12 @@
+{
+  "id": "atraves_de_espinheiros",
+  "name": "Através de Espinheiros",
+  "type": "habilidade_de_raca",
+  "race": "velocis",
+  "description": "Você recebe redução de corte e perfuração 2 e não sofre redução em seu deslocamento por terreno difícil natural.",
+  "effects": {
+    "damage_reduction": { "value": 2, "damage_types": ["corte", "perfuracao"] },
+    "ignores_natural_difficult_terrain": true
+  },
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,54 @@
+{
+  "id": "dragao_adulto_dos_segredos",
+  "name": "Dragão Adulto dos Segredos",
+  "nd": 11,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "enorme",
+  "grupo": "dragoes",
+  "pv": 522,
+  "pm": 90,
+  "defesa": 40,
+  "salvaguardas": { "fort": 13, "ref": 17, "von": 25 },
+  "reducao_de_dano": 10,
+  "imunidades": ["trevas"],
+  "resistencias": { "magia": 3 },
+  "vulnerabilidades": ["luz"],
+  "iniciativa": 14,
+  "percepcao": 17,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 24 },
+  "atributos": { "for": 7, "des": 1, "con": 6, "int": 8, "sab": 6, "car": 6 },
+  "pericias": { "conhecimento": 19, "enganacao": 17, "intimidacao": 17, "intuicao": 25, "misticismo": 19 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 33,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 12 }], "bonus": 20, "tipo": "perfuração" }
+      ],
+      "critico": "18/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 35,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 20, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura Aterradora", "descricao": "Vontade CD 32 evita.", "tag": "Medo" },
+    { "nome": "Enxergar as Farsas (mágica)", "descricao": "O dragão adulto dos segredos está permanentemente sob o efeito básico da magia Visão da Verdade." },
+    { "nome": "Esmiuçar a Alma", "descricao": "Quando uma criatura fica abalada pelo dragão, ele enxerga seus segredos mais profundos: obtém informações a critério do mestre e, até o fim da cena, recebe +2 em testes de perícia contra ela e passa automaticamente em testes de Intuição contra ela." },
+    { "nome": "Magia Ampliada", "acao": "livre", "custos": { "value": 2, "type": "PM" }, "descricao": "Quando lança uma magia, o dragão aumenta seu alcance em um passo (de curto para médio, de médio para longo) ou dobra sua área de efeito." },
+    { "nome": "Sopro", "acao": "padrão", "descricao": "Criaturas numa esfera de 9m em alcance médio sofrem 12d12 pontos de dano de trevas e ficam enjoadas por 1d4 rodadas (Reflexos CD 38 reduz à metade e evita a condição; só uma vez por cena por criatura). Recarga (ação de movimento)." },
+    { "nome": "Magias (conjurador arcano, 11º nível, CD 35)", "descricao": "Campo de Força (7 PM, reação; RD 50 contra o dano sofrido), Compreensão (4 PM; extrai informações dos pensamentos, Vontade anula), Criar Ilusão (9 PM; ilusões com imagens, sons e texturas em até 9 cubos de 1,5m, Vontade desacredita), Desespero Esmagador (8 PM; cone de 6m, debilitado/esmorecido pela cena), Dissipar Magia (3 PM), Escuridão (3 PM), Marca da Obediência (6 PM; ordena a um adjacente que não ataque até o fim da cena, repetível; falha causa 3d6 de dano psíquico)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Dobro e 4 peças de couro de dragão (CD 26 para extrair).",
+  "description": "Dragão adulto de energia dracônica de trevas, obcecado por desvendar e explorar os segredos de todos à sua volta.",
+  "livro": "ameacas_de_arton"
+}

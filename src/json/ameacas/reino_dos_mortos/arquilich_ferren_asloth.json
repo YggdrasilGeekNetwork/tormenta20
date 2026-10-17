@@ -1,0 +1,66 @@
+{
+  "id": "arquilich_ferren_asloth",
+  "name": "Arquilich Ferren Asloth",
+  "nd": 21,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "reino_dos_mortos",
+  "pv": 2418,
+  "pm": 255,
+  "defesa": 66,
+  "salvaguardas": { "fort": 31, "ref": 27, "von": 39 },
+  "reducao_de_dano": "20/mágico",
+  "imunidades": ["adivinhação", "efeitos mentais", "eletricidade", "frio", "metamorfose"],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": [],
+  "iniciativa": 27,
+  "percepcao": 22,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9, "teleporte": 30 },
+  "atributos": { "for": 1, "des": 6, "con": 4, "int": 15, "sab": 4, "car": 7 },
+  "pericias": { "conhecimento": 36, "diplomacia": 25, "enganacao": 25, "intimidacao": 25, "intuicao": 25, "investigacao": 31, "misticismo": 36, "nobreza": 31, "oficio_alquimista": 31, "religiao": 20 },
+  "ataques": [
+    {
+      "nome": "Cajado da destruição",
+      "bonus": 57,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 16, "tipo": "impacto" },
+        { "dados": [{ "quantidade": 10, "faces": 6 }], "bonus": 10, "tipo": "frio" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Toque gélido",
+      "bonus": 55,
+      "dano": [
+        { "dados": [{ "quantidade": 10, "faces": 6 }], "bonus": 10, "tipo": "frio" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arcano de Batalha", "descricao": "O Arquilich Ferren Asloth soma sua Inteligência nas rolagens de dano quando lança magias (já contabilizado)." },
+    { "nome": "Aura de Medo", "descricao": "Criaturas em um raio de 30m de Ferren ficam abaladas (Vontade CD 55 evita e a criatura não pode mais ser abalada por esta habilidade até o fim da cena)." },
+    { "nome": "Conhecimento Sequestrado", "acao": "reacao", "custo_pm": 3, "descricao": "Uma vez por rodada, quando vê outra criatura lançando uma magia em alcance médio, Ferren pode tomar essa magia. A criatura deve fazer um teste de Vontade (CD 55); se falhar, não pode mais lançar essa magia até o fim da cena, e durante esse período ela se torna uma magia conhecida para Ferren." },
+    { "nome": "Contramágica Superior", "acao": "reacao", "descricao": "Uma vez por rodada, quando vê uma magia ser conjurada, Ferren faz uma contramágica. Se usar Dissipar Magia para isso, ele rola dois dados e usa o melhor resultado." },
+    { "nome": "Dança da Morte", "acao": "livre", "descricao": "No início de seu turno, Ferren refaz os testes de resistência de cada condição que o esteja afetando. Se ele passar, o efeito se encerra." },
+    { "nome": "Despertar dos Mortos", "acao": "completa", "custo_pm": 10, "descricao": "Ferren conjura um morto-vivo à escolha dele, feito de energia negativa e de até ND 19. A criatura surge em um espaço desocupado em alcance curto, obedece aos comandos de Ferren e age na mesma iniciativa dele. O morto-vivo permanece até ser destruído, até o fim da cena ou até ser dispensado por Ferren (ação livre). O Arquilich só pode manter um morto-vivo conjurado por esta habilidade por vez." },
+    { "nome": "Drenar Vida", "acao": "livre", "custo_pm": 1, "descricao": "Quando lança uma magia que causa dano, Ferren muda o tipo desse dano para trevas. Para cada criatura que falhar no teste de resistência contra essa magia, Ferren recupera uma quantidade de PV igual à metade do dano causado." },
+    { "nome": "Fluxo de Mana", "descricao": "Ferren pode manter dois efeitos sustentados simultaneamente com apenas uma ação livre (mas pagando o custo de cada um)." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, Ferren muda a execução dela para livre." },
+    { "nome": "Magia Discreta", "acao": "livre", "custo_pm": 2, "descricao": "Quando lança uma magia, Ferren não precisa gesticular ou falar, e pode lançá-la com as mãos presas, amordaçado etc. Perceber que ele lançou uma magia exige passar em um teste de Misticismo (CD 30)." },
+    { "nome": "Presença Opressora", "acao": "reacao", "descricao": "Quando uma criatura ataca Ferren, deve passar em um teste de Vontade (CD 55) ou não conseguirá machucá-lo, perderá a ação e sofrerá 12d6 pontos de dano psíquico. Se passar, a criatura não é mais afetada por esta habilidade até o fim da cena." },
+    { "nome": "Regente Sombrio", "descricao": "Ferren tem controle total sobre seus domínios. Uma vez por rodada, ele pode mudar o clima de qualquer região de Aslothia como se tivesse lançado Controlar o Clima. Além disso, pode manipular suas terras, impedindo que criaturas ou efeitos cruzem suas fronteiras, e é capaz de saber a localização exata de qualquer criatura que conheça e que esteja dentro de Aslothia." },
+    { "nome": "Rigor Mortis", "descricao": "Uma criatura que falhe na resistência contra uma magia de Ferren perde sua próxima ação de movimento." },
+    { "nome": "Sacrificar Servo", "acao": "reacao", "descricao": "Uma vez por rodada, quando sofre dano, Ferren sacrifica uma de suas criaturas invocadas para reduzir esse dano a 0." },
+    { "nome": "Toque Paralisante", "descricao": "Os ataques corpo a corpo de Ferren causam 10d6+10 pontos de dano de frio extras (já contabilizados). Uma criatura que sofra esse dano de frio fica paralisada por 1d6 rodadas (Fortitude CD 55 evita)." },
+    { "nome": "Visão Tumular", "descricao": "Ferren está permanentemente sob efeito da magia Visão Mística com o aprimoramento que permite enxergar criaturas e objetos invisíveis." },
+    { "nome": "Magias", "descricao": "Lança magias como mago de 20º nível (CD 57, limite de PM 35). Além das magias listadas, pode lançar qualquer magia de abjuração, convocação ou necromancia, arcana ou divina: Desespero Esmagador (padrão, 8 PM), Dissipar Magia (padrão, 3 PM), Ferver Sangue (padrão, 35 PM, sustentada, 14d8+29 de fogo por rodada, explode ao matar), Legião (padrão, 15 PM, sustentada), Marionete (padrão, 10 PM, sustentada), Rogar Maldição (padrão, 10 PM), Tentáculos de Trevas (padrão, 10 PM, 8d6+8 de trevas ao esmagar), Toque da Morte (padrão, 25 PM, 10d8+35 de trevas), Toque Vampírico (padrão, 35 PM, +36d6+51 de trevas, cura metade), Velocidade (padrão, 10 PM, sustentada)." }
+  ],
+  "equipamento": ["Amuleto do Abutre", "Cajado da destruição", "Robe do arquimago"],
+  "tesouro": "Triplo.",
+  "description": "ND originalmente \"S\" no livro (armazenado aqui como 21 por convenção de implementação). Antigo Conde de Aslothia, intolerante tirano que secretamente roubava os poderes de arcanistas capturados sob o pretexto de caça-los como \"bruxos perigosos\". Após décadas de encarceramento e matança, realizou um ritual mítico jamais tentado e se transformou no primeiro Arquilich de Arton, mais poderoso que vampiros, múmias ou liches comuns. A transformação conspurcou todo o reino, escurecendo seu céu para sempre e despertando toda sorte de abominação.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "moreau",
+  "name": "Moreau",
+  "description": "Povo humanoide-animal da Ilha Nobre (Reinos de Moreania), originado segundo o mito de Doze Animais que pediram aos Irmãos Selvagens Allihanna e Megalokk (a Dama Altiva e o Indomável) a mão, a mente e a magia para se tornarem humanos. Exceto pela aparência incomum, os moreau são totalmente humanos em cultura e comportamento, considerados humanos para quaisquer fins além das habilidades raciais. A maioria tem apenas traços bestiais mínimos, mas os chamados Herdeiros possuem atributos ferais mais acentuados.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": {},
+  "skill_bonuses": [],
+  "racial_abilities": [],
+  "chosen_abilities_amount": 1,
+  "available_chosen_abilities": ["heranca_da_coruja", "heranca_da_hiena", "heranca_da_raposa", "heranca_da_serpente", "heranca_do_bufalo", "heranca_do_coelho", "heranca_do_crocodilo", "heranca_do_gato", "heranca_do_leao", "heranca_do_lobo", "heranca_do_morcego", "heranca_do_urso"],
+  "longevidade": "Normal",
+  "devocao": null,
+  "livro": "ameacas_de_arton"
+}

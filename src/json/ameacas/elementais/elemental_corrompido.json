@@ -1,0 +1,55 @@
+{
+  "id": "elemental_corrompido",
+  "name": "Elemental Corrompido",
+  "nd": 16,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "colossal",
+  "grupo": "elementais",
+  "pv": 800,
+  "pm": null,
+  "defesa": 53,
+  "salvaguardas": { "fort": 30, "ref": 24, "von": 16 },
+  "reducao_de_dano": null,
+  "imunidades": ["acertos críticos", "ácido", "atordoado", "cansaço", "dano de luz", "efeitos de metabolismo", "eletricidade", "paralisia", "trevas"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 19,
+  "percepcao": 14,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 15, "natacao": 15 },
+  "atributos": { "for": 12, "des": 5, "con": 13, "int": -1, "sab": 0, "car": 0 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 46,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 12 }], "bonus": 15, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 4, "faces": 6 }], "bonus": 0, "tipo": "ácido" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 46,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 8 }], "bonus": 15, "tipo": "impacto" },
+        { "dados": [{ "quantidade": 4, "faces": 6 }], "bonus": 0, "tipo": "ácido" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Mordida (teste +56)." },
+    { "nome": "Corpo Volátil", "descricao": "Se fosse sofrer 20 ou mais pontos de dano de eletricidade ou fogo mágicos, a água em seu corpo evapora, criando uma nuvem corrosiva numa esfera de 6m ao redor. Criaturas que iniciem turnos na área sofrem 10d6 de dano de ácido e ficam enjoadas (Fortitude CD 42 reduz o dano à metade e evita a condição); dentro da nuvem, o deslocamento é reduzido para 3m, há –2 em testes de ataque e rolagens de dano, e camuflagem leve (até 1,5m) ou total (mais de 1,5m)." },
+    { "nome": "Engolfar", "acao": "livre", "descricao": "Se começar o turno agarrando uma criatura Grande ou menor, pode fazer um teste de agarrar contra ela; se vencer, engolfa a criatura, que continua agarrada e submersa, começando a sufocar e sofrendo 10d6 de dano de ácido no início de cada rodada do elemental. Pode se libertar com teste de Atletismo para natação (CD 42), escapando para um espaço livre adjacente." },
+    { "nome": "Reabastecer", "descricao": "Em contato com um corpo d'água Médio ou maior, recebe cura acelerada 50. Se fosse sofrer dano mágico de frio, em vez disso cura PV igual à metade do dano que sofreria." },
+    { "nome": "Torrente Cáustica", "acao": "movimento", "descricao": "Cospe uma torrente de água cáustica em um alvo em alcance médio: 5d6 de dano de ácido e 5d6 de dano de impacto, fica caído (Reflexos CD 42 reduz o dano à metade e evita a condição); se falhar por 10 ou mais, é empurrado 6m na direção oposta e, se usar armadura/escudo, o item é avariado. Recarga (ação de movimento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Outrora um grande elemental da água, protetor do Rio Panteão, assimilado e distorcido pela Tormenta durante a campanha épica 'Coração de Rubi' — tornou-se um ser feito de ácido fervente, guardião horrendo para os lefeu. Estudiosos dos Planos debatem se a Tormenta pode ser considerada um elemento em si; mesmo entre os que discordam, casos como este mostram que seres elementais naturais podem ser corrompidos pelas forças invasoras, aceitar essa possibilidade é algo que nem os deuses toleram.",
+  "livro": "ameacas_de_arton"
+}

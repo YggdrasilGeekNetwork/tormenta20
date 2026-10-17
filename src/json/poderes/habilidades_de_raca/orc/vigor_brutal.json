@@ -1,0 +1,14 @@
+{
+  "id": "vigor_brutal",
+  "name": "Vigor Brutal",
+  "type": "habilidade_de_raca",
+  "race": "orc",
+  "description": "Você recebe +2 em Fortitude e soma sua Força em seu total de pontos de vida.",
+  "effects": {
+    "skill_bonus": {
+      "fortitude": 2
+    },
+    "extra_hp": "forca_modifier"
+  },
+  "livro": "ameacas_de_arton"
+}

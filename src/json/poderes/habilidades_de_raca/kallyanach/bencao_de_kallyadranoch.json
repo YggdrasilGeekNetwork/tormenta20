@@ -1,0 +1,13 @@
+{
+  "id": "bencao_de_kallyadranoch",
+  "name": "Bênção de Kallyadranoch",
+  "type": "habilidade_de_raca",
+  "race": "kallyanach",
+  "description": "Escolha dois dos poderes a seguir: Armamento Kallyanach, Asas Dracônicas, Escamas Elementais, Prática Arcana, Sentidos Dracônicos ou Sopro de Dragão. Uma vez por patamar, você pode escolher uma bênção no lugar de um poder de classe.",
+  "effects": {
+    "choice_amount": 2,
+    "choices": ["armamento_kallyanach", "asas_draconicas", "escamas_elementais", "pratica_arcana", "sentidos_draconicos", "sopro_de_dragao"],
+    "swap_with_class_power": true
+  },
+  "livro": "ameacas_de_arton"
+}

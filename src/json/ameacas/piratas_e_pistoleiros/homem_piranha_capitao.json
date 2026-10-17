@@ -1,0 +1,51 @@
+{
+  "id": "homem_piranha_capitao",
+  "name": "Homem-Piranha Capitão",
+  "nd": 7,
+  "tipo": "Monstro",
+  "subtipo": "lefou",
+  "tamanho": "medio",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 290,
+  "pm": null,
+  "defesa": 29,
+  "salvaguardas": { "fort": 19, "ref": 14, "von": 9 },
+  "reducao_de_dano": null,
+  "imunidades": ["atordoado"],
+  "resistencias": { "ácido": 10, "eletricidade": 10, "fogo": 10, "frio": 10, "luz": 10, "trevas": 10 },
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 8,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 6, "des": 3, "con": 4, "int": 0, "sab": 1, "car": -1 },
+  "pericias": { "acrobacia": 10, "atletismo": 13, "pilotagem": 10 },
+  "ataques": [
+    {
+      "nome": "Machado anão",
+      "bonus": 25,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 20, "tipo": "corte" }
+      ],
+      "critico": "20/x4"
+    },
+    {
+      "nome": "Mordida do diabo",
+      "bonus": 25,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 20, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Fortificação", "descricao": "50% de chance de ignorar qualquer efeito adicional de acerto crítico ou ataque furtivo." },
+    { "nome": "Resistência a Lefeu e Tormenta", "descricao": "Recebe +5 em testes de resistência contra efeitos causados por lefeu e pela Tormenta." },
+    { "nome": "Dentes Afiados", "acao": "reacao", "descricao": "Uma vez por rodada, quando uma criatura adjacente erra um ataque contra o homem-piranha capitão por 5 ou mais, sofre 1d4+8 pontos de dano de corte." },
+    { "nome": "Sequência do Rio", "acao": "livre", "descricao": "Quando o capitão acerta seus dois ataques em um mesmo oponente na mesma rodada, pode usar a manobra agarrar ou desarmar com a mordida do diabo (teste +25)." }
+  ],
+  "equipamento": ["Couraça selada", "Machado anão", "Mordida do diabo"],
+  "tesouro": "Metade.",
+  "description": "Capitão de um bando de Homens-Piranhas, corrompido pela Tormenta a ponto de se tornar um lefou, empunhando a arma lendária conhecida apenas como \"mordida do diabo\" para acentuar o terror inspirado por sua tripulação.",
+  "livro": "ameacas_de_arton"
+}

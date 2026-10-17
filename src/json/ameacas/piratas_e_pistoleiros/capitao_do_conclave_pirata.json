@@ -1,0 +1,56 @@
+{
+  "id": "capitao_do_conclave_pirata",
+  "name": "Capitão do Conclave Pirata",
+  "nd": 8,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 290,
+  "pm": null,
+  "defesa": 33,
+  "salvaguardas": { "fort": 10, "ref": 19, "von": 15 },
+  "reducao_de_dano": null,
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 16,
+  "percepcao": 9,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 6, "con": 2, "int": 1, "sab": 1, "car": 4 },
+  "pericias": { "acrobacia": 16, "atletismo": 11, "intimidacao": 14, "pilotagem": 16 },
+  "ataques": [
+    {
+      "nome": "Cimitarra",
+      "quantidade": 2,
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 12, "tipo": "corte" }
+      ],
+      "critico": "14/x3"
+    },
+    {
+      "nome": "Pistola (à distância)",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 10, "tipo": "perfuração" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "Quando passa em um teste de Reflexos para reduzir o dano de um efeito à metade, em vez disso não sofre nenhum dano." },
+    { "nome": "Correr pelo Cordame", "acao": "completa", "descricao": "O capitão percorre até seu deslocamento, ignorando terreno difícil, e faz um ataque corpo a corpo com +2 no teste de ataque e +1d6 na rolagem de dano." },
+    { "nome": "Pernas do Mar", "descricao": "Quando está se equilibrando ou escalando, o capitão não fica desprevenido e seu deslocamento não é reduzido à metade." },
+    { "nome": "Disparo Covarde", "acao": "livre", "descricao": "O capitão do Conclave Pirata só pode usar esta habilidade no seu primeiro turno de combate. Ele faz um ataque de pistola; o alvo desse ataque é considerado desprevenido." },
+    { "nome": "Sangria", "descricao": "Sempre que rola um 6 em um dado de dano com sua cimitarra, o capitão rola +1d6 e soma o resultado ao dano causado (repetindo o processo para cada novo resultado 6)." },
+    { "nome": "Saque Rápido", "descricao": "O capitão pode sacar ou guardar itens como uma ação livre e recarregar sua pistola como uma ação de movimento." },
+    { "nome": "Saraivada", "acao": "padrão", "descricao": "O capitão comanda uma saraivada de canhões que atinge uma esfera de 6m em alcance médio. Criaturas na área sofrem 8d12 pontos de dano de impacto e ficam caídas (Reflexos CD 26 reduz à metade e evita a condição). O capitão só pode usar esta habilidade uma vez por cena, e apenas se estiver em alcance longo de seu navio." },
+    { "nome": "Todos a Postos", "acao": "movimento", "descricao": "Uma vez por cena, o capitão invoca 1d4+1 marujos piratas em espaços desocupados em alcance curto. Eles agem a partir da próxima rodada do capitão, têm deslocamento 9m e podem gastar uma ação padrão para causar 1d6+4 pontos de dano de corte em uma criatura adjacente. Os marujos piratas têm Força 1, Destreza 3, Defesa 16 e 1 PV e falham automaticamente em qualquer teste oposto ou de resistência." }
+  ],
+  "equipamento": ["Balas x20", "Cimitarra precisa", "Couraça ajustada", "Pistola"],
+  "tesouro": "Dobro.",
+  "description": "Líder do Conclave Pirata do Mar Negro, comandando ataques de canhão e um bando leal com disparos covardes e sangue frio.",
+  "livro": "ameacas_de_arton"
+}

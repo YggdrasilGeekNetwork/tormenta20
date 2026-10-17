@@ -1,0 +1,49 @@
+{
+  "id": "pistoleiro",
+  "name": "Pistoleiro",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 63,
+  "pm": null,
+  "defesa": 18,
+  "salvaguardas": { "fort": 6, "ref": 12, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 4,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 0, "des": 3, "con": 2, "int": 0, "sab": 1, "car": 0 },
+  "pericias": { "cavalgar": 8, "jogatina": 5 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 5, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Pistola (à distância)",
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 10, "tipo": "perfuração" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Disparo Preciso", "descricao": "O pistoleiro pode fazer ataques à distância contra oponentes envolvidos em combate corpo a corpo sem a penalidade padrão de –5 no teste de ataque." },
+    { "nome": "Saque Rápido", "descricao": "O pistoleiro pode sacar ou guardar itens como uma ação livre e recarregar sua pistola como uma ação de movimento." }
+  ],
+  "equipamento": ["Adaga", "Balas x20", "Pistola"],
+  "tesouro": "Metade.",
+  "description": "Bandido das planícies de Smokestone, cidade oculta no antigo Império de Tauron onde armas de fogo são símbolos de honra e cavalheirismo. Anda em bandos seguindo um líder, atacando viajantes, caravanas ou pequenos povoados.",
+  "livro": "ameacas_de_arton"
+}

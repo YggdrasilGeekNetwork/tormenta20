@@ -1,0 +1,52 @@
+{
+  "id": "livido",
+  "name": "Lívido",
+  "nd": 3,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "mortos_vivos",
+  "pv": 70,
+  "pm": null,
+  "defesa": 19,
+  "salvaguardas": { "fort": 3, "ref": 9, "von": 15 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": ["luz"],
+  "iniciativa": 3,
+  "percepcao": 4,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 2, "des": 3, "con": 0, "int": 1, "sab": 1, "car": 0 },
+  "pericias": { "enganacao": 8, "furtividade": 8 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 6, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 3, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Doença", "descricao": "Uma criatura mordida por um lívido é exposta à doença febre do carniçal." },
+    { "nome": "Odor Pungente", "descricao": "Criaturas que comecem seus turnos em alcance curto do lívido ficam enjoadas por 1 rodada e perdem 1d6 PV (Fortitude CD 20 evita). Veneno." },
+    { "nome": "Paralisia", "descricao": "Uma criatura atingida pela mordida do lívido fica paralisada por 1d4 rodadas (Fortitude CD 20 evita e a criatura não pode mais ser paralisada por esta habilidade até o fim da cena)." },
+    { "nome": "Trapaceiro do Além", "acao": "padrão", "descricao": "O lívido arremessa uma isca putrefata que contamina uma criatura em alcance médio (Reflexos CD 20 evita). Até o fim da cena, todos os mortos-vivos recebem +1d6 em suas rolagens de dano contra a criatura contaminada e seus ataques contra ela causam sangramento. Recarga (movimento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d4-1 doses de isca putrefata (CD 18 para extrair).",
+  "description": "Carniçal avançado, mais poderoso e muito mais sagaz, capaz de elaborar planos e atrair curiosos com falsas promessas ou pedidos de ajuda. Emana um odor intenso e nauseante de podridão e corrupção, mais pungente até que o gás dos trogs. Pode manipular bandos de carniçais com iscas e truques, fazendo-os atacar quem ele deseja, usando emboscadas astutas para apanhar aventureiros desprevenidos.",
+  "livro": "ameacas_de_arton"
+}

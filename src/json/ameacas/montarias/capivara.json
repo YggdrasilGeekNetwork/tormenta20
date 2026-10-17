@@ -1,0 +1,48 @@
+{
+  "id": "capivara",
+  "name": "Capivara",
+  "nd": 1,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "montarias",
+  "pv": 35,
+  "pm": null,
+  "defesa": 16,
+  "salvaguardas": { "fort": 11, "ref": 5, "von": 0 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 1,
+  "percepcao": 5,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9, "natacao": 12 },
+  "atributos": { "for": 3, "des": 1, "con": 3, "int": -3, "sab": 1, "car": 5 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aparência Inofensiva", "descricao": "A primeira criatura inteligente (Int –3 ou maior) que atacar a capivara em uma cena deve fazer um teste de Vontade (CD 14). Se falhar, perde sua ação." },
+    { "nome": "Fedorentina", "acao": "padrão", "descricao": "Uma vez por cena, a capivara secreta um odor fétido. Criaturas em alcance curto ficam enjoadas por 1d4 rodadas (Fortitude CD 14 evita)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "montaria (Médio)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 9m (natação 12m) e você recebe uma ação de movimento extra por turno (apenas para se deslocar).",
+    "veterano": "Você pode usar Aparência Inofensiva (se já possuir esse poder, a CD para resistir a ele aumenta em +2).",
+    "mestre": "Uma vez por rodada, você recebe +1d6 em uma rolagem de dano corpo a corpo."
+  },
+  "description": "Grande roedor aquático, lembrando um rato ou coelho muito maior e mais robusto, pesando o mesmo que um humano, com pelagem áspera e marrom. Vive às margens de rios e lagos, é excelente nadadora, mas passa a maior parte do tempo rolando na lama. Tipicamente calma e inofensiva, mas territorial, atacando quem se aproxima demais do bando. Pequena demais para humanos, é às vezes escolhida como montaria por goblins, hynne e outras raças de baixa estatura — que adotam o título de 'capivaleiros'; seu rápido deslocamento na água pode proporcionar fugas decisivas.",
+  "livro": "ameacas_de_arton"
+}

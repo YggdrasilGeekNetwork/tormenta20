@@ -1,0 +1,64 @@
+{
+  "id": "armadilhas_kobolds",
+  "name": "Armadilhas Kobolds",
+  "description": "Armadilhas rústicas mas ardilosas usadas por kobolds para defender seus territórios (Ameaças de Arton, bestiário de Kobolds). Além destas, kobolds também usam as armadilhas fosso camuflado, rede e fosso profundo (Tormenta20, p.317).",
+  "armadilhas": [
+    {
+      "nome": "Andrajos Flamejantes",
+      "efeito": "Uma área repleta de trapos, aparentemente inofensivos, embebidos em combustível que se inflama quando a armadilha é acionada. Criaturas em um raio de 3m sofrem 2d6 pontos de dano de fogo e ficam em chamas.",
+      "salvaguarda": "Reflexos CD 17 reduz o dano à metade e evita a condição",
+      "investigacao": 15,
+      "ladinagem": 20,
+      "nd": 0.25
+    },
+    {
+      "nome": "Sinos Alarmantes",
+      "efeito": "Barbantes camuflados conectados a sinos, em latas cheias de pedras ou nas partes íntimas de um bode, produzem um som estridente quando acionados. Todas as criaturas em alcance longo são alertadas pelo dispositivo e, até o fim da cena, nenhum kobold nessa área pode ser surpreendido.",
+      "salvaguarda": "Reflexos CD 15 evita",
+      "investigacao": 15,
+      "ladinagem": 15,
+      "nd": 0.25
+    },
+    {
+      "nome": "Geringonça Retardante",
+      "efeito": "Um complexo mecanismo equilibra recipientes cheios de lama pegajosa, que é derramada sobre os passantes. Criaturas em um raio de 3m ficam enredadas até remover a lama; fazer isso demora 1 minuto.",
+      "salvaguarda": "Reflexos CD 17 evita",
+      "investigacao": 17,
+      "ladinagem": 20,
+      "nd": 0.25
+    },
+    {
+      "nome": "Barril de Bugulentos",
+      "efeito": "Um barril repleto de \"bugulentos\" (para os kobolds, qualquer tipo de inseto venenoso) se derrama sobre uma criatura. A vítima perde 1d12 pontos de vida por veneno quando a armadilha é acionada e no início de cada um de seus turnos, até se livrar dos bugulentos, o que exige uma ação completa e passar em um teste de Destreza (CD 10). Os bugulentos também são eliminados se a vítima ficar em chamas.",
+      "salvaguarda": "Reflexos CD 20 evita",
+      "investigacao": 20,
+      "ladinagem": 20,
+      "nd": 0.5
+    },
+    {
+      "nome": "Besunte Galinificador",
+      "efeito": "Essencialmente um barril cheio de um líquido viscoso misturado a penas de galinha, que se derrama sobre uma criatura. Uma armadilha extremamente humilhante que faz com que os kobolds se encham de coragem para enfrentar a vítima: todos os kobolds recebem +2 em testes de perícia e rolagens de dano contra a vítima enquanto ela estiver coberta pelas penas (removê-las demora 1 minuto). Deixar a vítima em chamas também resolve.",
+      "salvaguarda": "Reflexos CD 20 evita",
+      "investigacao": 20,
+      "ladinagem": 20,
+      "nd": 0.5
+    },
+    {
+      "nome": "Tronco de Árvore",
+      "efeito": "Simples e prática, um tronco desce como um aríete atingindo uma linha de 6m. Criaturas nessa área sofrem 4d6 pontos de dano de impacto e ficam caídas.",
+      "salvaguarda": "Reflexos CD 20 reduz o dano à metade e evita a condição",
+      "investigacao": 20,
+      "ladinagem": 20,
+      "nd": 1
+    },
+    {
+      "nome": "Virote Ardido",
+      "efeito": "Um virote lambuzado com uma pasta corrosiva atinge um dos personagens. A vítima sofre 2d6 pontos de dano de perfuração mais 2d6 pontos de dano de ácido.",
+      "salvaguarda": "Reflexos CD 25 evita",
+      "investigacao": 25,
+      "ladinagem": 20,
+      "nd": 1
+    }
+  ],
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,17 @@
+{
+  "id": "armadura_do_devorador",
+  "name": "Armadura do Devorador",
+  "categoria": "maior",
+  "preco": 54000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Também conhecido como 'bioarmadura', em sua forma natural este simbionte lembra um grotesco tatuzinho do tamanho de uma mão aberta. Rasteja até a fronte do hospedeiro, ancorando-se ao crânio como uma tiara ou elmo macabro. Invocar a armadura é uma ação livre: o corpo do hospedeiro é coberto por crostas e carapaças aberrantes que funcionam como armadura completa espinhosa selada sob medida de matéria vermelha, sem exigir proficiência; enquanto ativa, o hospedeiro não precisa respirar. Também se ativa involuntariamente como reação sempre que o hospedeiro sofre dano, a menos que ele passe em um teste de Vontade (CD 10 + dano sofrido). Em ambos os casos, ao ativar, o hospedeiro perde 1d4 PV pela dor da transformação e qualquer outra armadura que esteja usando é destruída. Desativar é uma ação livre.",
+  "effects": [
+    { "type": "simbionte", "slot": "item_vestido", "poderes_tormenta_equivalentes": 2 },
+    { "type": "concede_armadura", "nome": "armadura completa espinhosa de matéria vermelha", "sem_proficiencia_exigida": true, "ativacao": "ação livre" },
+    { "type": "beneficio_passivo_quando_ativa", "efeito": "não precisa respirar" },
+    { "type": "ativacao_involuntaria", "gatilho": "sofre dano", "evitavel_com": "Vontade CD 10 + dano sofrido" },
+    { "type": "custo_ativacao", "perda_pv": "1d4", "destroi_outra_armadura_em_uso": true }
+  ],
+  "livro": "ameacas_de_arton"
+}

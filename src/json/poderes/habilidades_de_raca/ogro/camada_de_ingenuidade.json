@@ -1,0 +1,14 @@
+{
+  "id": "camada_de_ingenuidade",
+  "name": "Camada de Ingenuidade",
+  "type": "habilidade_de_raca",
+  "race": "ogro",
+  "description": "Você sofre –5 em Intuição e Vontade.",
+  "effects": {
+    "skill_penalty": {
+      "intuicao": -5,
+      "vontade": -5
+    }
+  },
+  "livro": "ameacas_de_arton"
+}

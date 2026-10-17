@@ -1,0 +1,15 @@
+{
+  "id": "hibrido_mecanico",
+  "name": "Híbrido Mecânico",
+  "type": "habilidade_de_raca",
+  "race": "yidishan",
+  "description": "Você é uma criatura do tipo construto. Recebe visão no escuro e imunidade a cansaço, efeitos metabólicos e veneno. Além disso, não precisa respirar, alimentar-se ou dormir, mas não se beneficia de itens da categoria alimentação e efeitos de cura mundana são reduzidos pela metade em você. Você precisa ficar inerte por 8 horas por dia para recarregar suas forças. Se fizer isso, recupera PV e PM por descanso em condições normais (yidishan não são afetados por condições boas ou ruins de descanso).",
+  "effects": {
+    "creature_type": "construto",
+    "vision": "visao_no_escuro",
+    "immunities": ["cansaço", "metabólico", "veneno"],
+    "mundane_healing_halved": true,
+    "recharge_hours": 8
+  },
+  "livro": "ameacas_de_arton"
+}

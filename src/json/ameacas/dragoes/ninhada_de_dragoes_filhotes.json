@@ -1,0 +1,53 @@
+{
+  "id": "ninhada_de_dragoes_filhotes",
+  "name": "Ninhada de Dragões Filhotes",
+  "nd": 5,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "grande",
+  "grupo": "dragoes",
+  "pv": 240,
+  "pm": null,
+  "defesa": 25,
+  "salvaguardas": { "fort": 14, "ref": 8, "von": 12 },
+  "reducao_de_dano": null,
+  "imunidades": ["fogo"],
+  "resistencias": { "magia": 1 },
+  "vulnerabilidades": ["frio"],
+  "iniciativa": 9,
+  "percepcao": 7,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 18 },
+  "atributos": { "for": 4, "des": 3, "con": 3, "int": 0, "sab": 0, "car": 0 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 18,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 6 }], "bonus": 8, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2",
+      "observacao": "[Bando]"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 18,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 8, "tipo": "corte" }
+      ],
+      "critico": "20/x2",
+      "observacao": "[Bando]"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Bando", "descricao": "Representa um bando de dragões filhotes agindo em conjunto." },
+    { "nome": "Avalanche de Escamas", "descricao": "Se a ninhada acertar os dois ataques de garra em uma mesma criatura Grande ou menor na mesma rodada, a vítima fica caída e agarrada. A ninhada pode manter uma criatura agarrada desta forma sem perder o uso de nenhuma de suas armas naturais." },
+    { "nome": "Sopro Duplo", "acao": "completa", "descricao": "A ninhada sopra dois cones de 6m em direções diferentes. Todas as criaturas nessas áreas sofrem 4d12 pontos de dano de fogo e ficam em chamas (Reflexos CD 21 reduz à metade e evita a condição). Recarga (ação de movimento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão.",
+  "description": "Um bando de dragões filhotes de energia dracônica de fogo, geralmente irmãos de ninhada agindo em conjunto antes de atingirem a idade adulta e se dispersarem para vidas solitárias.",
+  "livro": "ameacas_de_arton"
+}

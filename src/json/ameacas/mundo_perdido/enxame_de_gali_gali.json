@@ -1,0 +1,32 @@
+{
+  "id": "enxame_de_gali_gali",
+  "name": "Enxame de Gali-Gali",
+  "nd": 1,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "mundo_perdido",
+  "pv": 30,
+  "pm": null,
+  "defesa": 15,
+  "salvaguardas": { "fort": 5, "ref": 11, "von": 0 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 3,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12, "escalada": 6 },
+  "atributos": { "for": 1, "des": 1, "con": 0, "int": -4, "sab": 1, "car": -2 },
+  "pericias": {},
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Enxame", "descricao": "Qualquer criatura que comece seu turno no espaço do enxame, ou entre nele, sofre 4d4+6 pontos de dano de corte." },
+    { "nome": "Grudar nas Costas", "descricao": "Quando uma criatura sai do espaço do enxame, alguns gali-gali ficam presos em suas costas. A criatura continua sofrendo metade do dano de Enxame até gastar uma ação de movimento para se livrar deles." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Grande bando de gali-gali avançando como verdadeiros cardumes de piranhas terrestres contra presas bem maiores, representando uma praga que ameaça aldeias e vilarejos.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "alto_sacerdote_de_hyninn",
+  "name": "Alto Sacerdote de Hyninn",
+  "nd": 8,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "capangas_e_bandoleiros",
+  "pv": 175,
+  "pm": 60,
+  "defesa": 30,
+  "salvaguardas": { "fort": 10, "ref": 15, "von": 19 },
+  "reducao_de_dano": null,
+  "imunidades": ["efeitos mentais"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 13,
+  "percepcao": 13,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 0, "des": 3, "con": 1, "int": 1, "sab": 5, "car": 4 },
+  "pericias": { "enganacao": 16, "furtividade": 13, "ladinagem": 14, "religiao": 14 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "quantidade": 2,
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Bênção do Gatuno", "acao": "livre", "descricao": "Uma vez por cena, o alto sacerdote lança uma magia como uma ação livre, pagando seu custo normal." },
+    { "nome": "Fé na Sorte", "acao": "reação", "descricao": "Uma vez por rodada, quando sofre dano, o alto sacerdote reduz esse dano à metade." },
+    { "nome": "Forma de Macaco (mágica)", "acao": "completa", "custos": { "value": 2, "type": "PM" }, "descricao": "O alto sacerdote se transforma em um macaco, adquirindo tamanho Minúsculo (+5 Furtividade, –5 em manobras) e deslocamento de escalada 9m. O equipamento desaparece até voltar ao normal. Dura indefinidamente, terminando se atacar, lançar magia ou sofrer dano." },
+    { "nome": "Malandragem Divina", "acao": "livre", "custos": { "value": 1, "type": "PM" }, "descricao": "Quando faz um teste de perícia, o alto sacerdote usa Enganação no lugar da perícia original." },
+    { "nome": "Magias (clérigo de Hyninn, 8º nível, CD 28)", "descricao": "Arma Espiritual (6 PM; +2 na Defesa e reação de 3d6 corte ao sofrer ataque corpo a corpo), Curar Ferimentos (8 PM; 9d8+9 PV), Despedaçar (7 PM; 4d8+8 de impacto, dobrado contra construtos/objetos, atordoa), Enxame de Pestes (7 PM, completa, sustentada; enxame de palhaços em miniatura causa 4d12 de corte por turno, movível 12m)." }
+  ],
+  "equipamento": ["Adaga", "Capa esvoaçante aprimorada", "Gazua", "Manto eclesiástico", "Símbolo sagrado de Hyninn"],
+  "tesouro": "Padrão.",
+  "description": "Serão os bandidos que buscam a proteção de Hyninn, ou será Hyninn que os torna bandidos? O fato é que muitos marginais invocam o Deus dos Ladrões antes de praticar algum delito, alguns com tanto fervor que terminam por atrair suas graças — para estes, furtar não é apenas modo de vida, é religião. Se a lei ou aventureiros ameaçam suas operações, o próprio alto sacerdote acompanhará um grupo de capangas para liquidá-los, provendo suporte mágico durante o combate; contudo, quando a derrota parece próxima, não hesitará em invocar algum milagre para escapar — afinal, Hyninn abençoa os mais espertos.",
+  "livro": "ameacas_de_arton"
+}

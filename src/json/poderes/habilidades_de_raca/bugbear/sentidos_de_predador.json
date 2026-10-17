@@ -1,0 +1,12 @@
+{
+  "id": "sentidos_de_predador",
+  "name": "Sentidos de Predador",
+  "type": "habilidade_de_raca",
+  "race": "bugbear",
+  "description": "Você recebe faro e visão no escuro.",
+  "effects": {
+    "faro": true,
+    "vision": "visao_no_escuro"
+  },
+  "livro": "ameacas_de_arton"
+}

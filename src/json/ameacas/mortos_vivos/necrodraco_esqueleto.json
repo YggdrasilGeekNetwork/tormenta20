@@ -1,0 +1,50 @@
+{
+  "id": "necrodraco_esqueleto",
+  "name": "Necrodraco Esqueleto",
+  "nd": 12,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "mortos_vivos",
+  "pv": 610,
+  "pm": null,
+  "defesa": 44,
+  "salvaguardas": { "fort": 24, "ref": 11, "von": 18 },
+  "reducao_de_dano": "10/luz",
+  "imunidades": ["atordoado", "metamorfose", "paralisia"],
+  "resistencias": { "corte": 10, "frio": 10, "perfuração": 10 },
+  "vulnerabilidades": [],
+  "iniciativa": 13,
+  "percepcao": 18,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 24 },
+  "atributos": { "for": 10, "des": 1, "con": 8, "int": 5, "sab": 6, "car": 0 },
+  "pericias": { "atletismo": 20 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 30, "tipo": "perfuração" }
+      ],
+      "critico": "18/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 10 }], "bonus": 30, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Sopro", "acao": "padrão", "descricao": "Criaturas em um cone de 15m sofrem 12d12 pontos de dano de trevas e não podem recuperar pontos de vida por 1 rodada (Reflexos CD 34 reduz à metade e evita a restrição de cura). Recarga (movimento)." },
+    { "nome": "Varrer", "acao": "livre", "descricao": "Uma vez por rodada, quando o necrodraco esqueleto faz um ataque corpo a corpo e reduz os pontos de vida do alvo a 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão e 1d6 doses de terra de cemitério (CD 27 para extrair).",
+  "description": "Dragão cujo espírito morreu e ficou impedido de viajar aos reinos dos deuses, ressurgindo como gigantesco cadáver animado que ainda voa, agora por meios mágicos. A transformação removeu sopro e imunidades elementais originais, substituindo-os por um sopro de energia negativa comum a todo necrodraco.",
+  "livro": "ameacas_de_arton"
+}

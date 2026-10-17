@@ -1,0 +1,52 @@
+{
+  "id": "legionario_insano",
+  "name": "Legionário Insano",
+  "nd": 8,
+  "tipo": "Humanoide",
+  "subtipo": "minotauro",
+  "tamanho": "medio",
+  "grupo": "imperio_de_tauron",
+  "pv": 80,
+  "pm": null,
+  "defesa": 30,
+  "salvaguardas": { "fort": 20, "ref": 16, "von": 7 },
+  "reducao_de_dano": null,
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 7,
+  "visao": ["faro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 7, "des": 2, "con": 6, "int": -1, "sab": -1, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Gládio",
+      "quantidade": 2,
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 16, "tipo": "corte" }
+      ],
+      "critico": "19/x3"
+    },
+    {
+      "nome": "Chifres",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 14, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Desapego à Vida", "descricao": "O legionário insano não fica inconsciente quando é reduzido a 0 PV ou menos e só morre quando é reduzido a –40 PV." },
+    { "nome": "Olhar Desesperador", "acao": "livre", "descricao": "Uma vez por rodada, o legionário encara um inimigo em alcance curto, que fica apavorado por 1 rodada e então abalado (Vontade CD 26 reduz para abalado por 1 rodada; o alvo fica imune a esta habilidade até o fim da cena)." },
+    { "nome": "Retribuição Ensandecida", "acao": "reacao", "descricao": "Uma vez por rodada, quando sofre dano de um inimigo adjacente, o legionário pode usar uma ação agredir contra essa criatura." }
+  ],
+  "equipamento": ["Gládio", "Loriga segmentada"],
+  "tesouro": "Metade.",
+  "description": "Soldado minotauro que teve a sanidade despedaçada ao vislumbrar o inferno aberrante da Tormenta quando ela se derramou sobre Tiberus. Não passa de um matador sanguinário, levado a \"patrulhar\" estradas e lutar por algum resquício da antiga disciplina militar.",
+  "livro": "ameacas_de_arton"
+}

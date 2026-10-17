@@ -1,0 +1,56 @@
+{
+  "id": "deinonico",
+  "name": "Deinonico",
+  "nd": 4,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "mundo_perdido",
+  "pv": 140,
+  "pm": null,
+  "defesa": 23,
+  "salvaguardas": { "fort": 16, "ref": 10, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 6,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 4, "des": 3, "con": 3, "int": -4, "sab": 2, "car": 0 },
+  "pericias": { "atletismo": 7 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 4, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 8, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Investida Terrível", "acao": "completa", "descricao": "O deinonico faz uma investida e ataca com sua mordida e suas garras. Os três ataques recebem o bônus de +2 da investida, mas devem ser feitos contra o mesmo alvo, e os dois ataques de garra recebem +2 na margem de ameaça e no multiplicador de crítico." }
+  ],
+  "equipamento": [],
+  "tesouro": "Duas garras terríveis (CD 19 para extrair, cada garra vale T$ 100 para fabricar uma arma de corte superior leve ou de uma mão).",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "montaria (Média)",
+    "iniciante": "Seu deslocamento muda para 12m e sua margem de ameaça com armas corpo a corpo aumenta em +1.",
+    "veterano": "Você recebe +5 em testes de Atletismo para saltar e uma ação de movimento adicional por turno (apenas para se deslocar).",
+    "mestre": "Seu deslocamento muda para 15m e o bônus na margem de ameaça aumenta para +2."
+  },
+  "description": "Lagarto bípede do tamanho de um cavalo, coberto de plumagem colorida, com longas patas traseiras trazendo garras em forma de foice. Entre os predadores mais perigosos de Galrasia, astutos e caçando em bandos com estratégias de emboscada, capazes de imitar sons e se comunicar com conceitos simples. Impossíveis de capturar vivos — nenhuma expedição conseguiu até hoje.",
+  "livro": "ameacas_de_arton"
+}

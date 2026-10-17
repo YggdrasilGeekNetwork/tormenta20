@@ -1,0 +1,39 @@
+{
+  "id": "cavalo_de_guerra",
+  "name": "Cavalo de Guerra",
+  "nd": 1,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 33,
+  "pm": null,
+  "defesa": 14,
+  "salvaguardas": { "fort": 6, "ref": 5, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 5,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 5, "des": 1, "con": 2, "int": -4, "sab": 1, "car": -2 },
+  "pericias": { "atletismo": 9 },
+  "ataques": [
+    {
+      "nome": "Cascos",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 5, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": null,
+  "description": "Cavalo de montaria treinado e equipado para combate. Quase todos usam armaduras e são mais corajosos que um cavalo comum, não se assustando facilmente com predadores, monstros ou inimigos. As estatísticas de parceiro para cavalos (Tormenta20, p. 262) se aplicam tanto a cavalos de montaria quanto a de guerra.",
+  "livro": "ameacas_de_arton"
+}

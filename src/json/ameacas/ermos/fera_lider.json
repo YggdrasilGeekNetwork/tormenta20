@@ -1,0 +1,54 @@
+{
+  "id": "fera_lider",
+  "name": "Fera-Líder",
+  "nd": 5,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "ermos",
+  "pv": 195,
+  "pm": null,
+  "defesa": 25,
+  "salvaguardas": { "fort": 12, "ref": 16, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": ["frio"],
+  "iniciativa": 4,
+  "percepcao": 4,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": 0, "con": 4, "int": -2, "sab": 0, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 12, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Espinho (à distância)",
+      "quantidade": 2,
+      "alcance": "curto",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 6, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Natureza Vegetal", "descricao": "A fera-líder é uma criatura de natureza vegetal." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Garra (teste +16)." },
+    { "nome": "Corpo Espinhoso", "descricao": "Qualquer criatura que erre um ataque corpo a corpo adjacente, desarmado ou com arma natural, contra a fera-líder sofre 2d4+6 pontos de dano de perfuração (Reflexos CD 20 evita)." },
+    { "nome": "Drenar Sangue", "acao": "completa", "descricao": "Se iniciar o turno agarrando uma criatura, pode drenar seu sangue: causa 2d6+4 PV de dano e recupera a mesma quantidade." }
+  ],
+  "equipamento": [],
+  "tesouro": "Espinhos (CD 20 para extrair, valem T$ 150 para fabricar flechas superiores).",
+  "description": "Fera-cacto experiente que lidera um bando, mais forte e resistente que os vassalos comuns.",
+  "livro": "ameacas_de_arton"
+}

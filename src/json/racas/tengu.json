@@ -1,0 +1,17 @@
+{
+  "id": "tengu",
+  "name": "Tengu",
+  "description": "Povo alado de homens-corvos, vulto humanoide escuro coberto de penas profundamente negras, cabeça de corvo e grandes asas às costas. Guerreiros habilidosos e orgulhosos de suas técnicas, honrados no passado, mas os horrores da Tormenta os levaram a atuar como bandoleiros. Seguem o Caminho do Céu: viajar pelos céus de forma nômade em busca de novidades e vivências, enfrentando guerreiros e cavaleiros bem equipados sem nenhum temor.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "destreza": 2, "inteligencia": 1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["asas_desorientadoras", "caminhante_do_ceu", "espirito_corvino"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devocao": ["arsenal", "khalmyr", "lin_wu", "tanna_toh", "valkaria", "wynna"],
+  "livro": "ameacas_de_arton"
+}

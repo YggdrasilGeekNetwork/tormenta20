@@ -1,0 +1,10 @@
+{
+  "id": "urso_pardo",
+  "name": "Urso Pardo",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 300,
+  "espacos": 0,
+  "description": "Preço de referência para adquirir um urso pardo. Veja a ficha completa da ameaça (grupo montarias) para estatísticas de combate e benefícios de parceiro.",
+  "livro": "ameacas_de_arton"
+}

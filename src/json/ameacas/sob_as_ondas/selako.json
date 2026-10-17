@@ -1,0 +1,47 @@
+{
+  "id": "selako",
+  "name": "Selako",
+  "nd": 2,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "sob_as_ondas",
+  "pv": 90,
+  "defesa": 18,
+  "salvaguardas": { "fort": 12, "ref": 7, "von": 2 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 4,
+  "visao": ["faro", "percepção às cegas"],
+  "deslocamento": { "natacao": 18 },
+  "atributos": { "for": 4, "des": 3, "con": 3, "int": -4, "sab": 2, "car": -2 },
+  "pericias": { "furtividade": 6 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 7, "tipo": "perfuração" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Bote de Mandíbula", "acao": "completa", "descricao": "O selako faz uma investida contra uma criatura. Se acertar esse ataque, ele causa +2d6 pontos de dano e a vítima fica sangrando." },
+    { "nome": "Faro do Caçador", "descricao": "O selako não fica desprevenido contra inimigos que estejam sangrando." }
+  ],
+  "equipamento": [],
+  "familiar": null,
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "iniciante": "Seu deslocamento de natação muda para 15m e, uma vez por rodada, você recebe +1d6 em uma rolagem de dano corpo a corpo.",
+    "veterano": "O bônus de dano aumenta para +2d6.",
+    "mestre": "Seu deslocamento de natação muda para 18m e, quando você usa o bônus de dano do selako contra uma criatura, ela fica sangrando."
+  },
+  "tesouro": "Couro de selako (CD 17 para extrair, vale T$ 30 para fabricar um traje selako) e dentes de selako (CD 17 para extrair, valem T$ 300 para fabricar uma arma superior).",
+  "description": "O tipo de tubarão mais comum em Arton — tão comum que, em muitos pontos do mundo, simplesmente se diz \"selako\" em vez de \"tubarão\". Raramente ultrapassam dois metros, nadam o dia todo e preferem um único ataque decisivo a longas batalhas. Povos submarinos conseguem domesticá-los como montarias e bestas de guerra.",
+  "livro": "ameacas_de_arton"
+}

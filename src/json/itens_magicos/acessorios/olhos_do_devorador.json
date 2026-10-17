@@ -1,0 +1,18 @@
+{
+  "id": "olhos_do_devorador",
+  "name": "Olhos do Devorador",
+  "categoria": "maior",
+  "preco": 34000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Chamado por alguns de 'visorg', este simbionte de corpo achatado lembra uma mão enrugada com dedos compridos e duas grandes gemas vermelhas incrustadas no dorso. Uma vez posicionado no rosto do hospedeiro, crava seus 'dedos', prendendo-se permanentemente à face e substituindo os olhos. O hospedeiro recebe +5 em Percepção, enxerga perfeitamente no escuro (incluindo em magias de escuridão) e não pode ser flanqueado. Além disso, pode lançar a magia Visão da Verdade; se aprendê-la, seu custo é reduzido em –1 PM.",
+  "effects": [
+    { "type": "simbionte", "slot": "item_vestido", "poderes_tormenta_equivalentes": 2 },
+    { "type": "bonus_pericia", "pericia": "percepcao", "valor": 5 },
+    { "type": "visao_perfeita_no_escuro", "ignora_magias_de_escuridao": true },
+    { "type": "nao_pode_ser_flanqueado" },
+    { "type": "concede_magia", "magia": "visao_da_verdade" },
+    { "type": "reducao_custo_se_aprender", "magia": "visao_da_verdade", "valor_pm": -1 }
+  ],
+  "livro": "ameacas_de_arton"
+}

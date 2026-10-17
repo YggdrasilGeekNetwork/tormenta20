@@ -1,0 +1,20 @@
+{
+  "id": "espada_vespa",
+  "name": "Espada Vespa",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 75,
+  "dano": "2d4",
+  "critico": "18",
+  "alcance": null,
+  "tipo_dano": ["corte", "perfuração"],
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "escolha_tipo_dano_ao_equipar": "corte_ou_perfuracao"
+  },
+  "description": "Esta arma estranha é feita com três ferrões de vespas gigantes, presos a uma estrutura de ossos em forma de \"H\". Pode-se pressionar a empunhadura para unir os ferrões, como uma arma de corte; ou separá-los, para dano de perfuração.",
+  "livro": "ameacas_de_arton"
+}

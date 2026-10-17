@@ -1,0 +1,42 @@
+{
+  "id": "garra_zumbi_gigante",
+  "name": "Garra-Zumbi Gigante",
+  "nd": 5,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "mortos_vivos",
+  "pv": 200,
+  "pm": null,
+  "defesa": 25,
+  "salvaguardas": { "fort": 17, "ref": 11, "von": 5 },
+  "reducao_de_dano": null,
+  "imunidades": ["efeitos de sentidos"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": -3,
+  "visao": ["percepção às cegas"],
+  "deslocamento": { "terrestre": 9, "voo": 12 },
+  "atributos": { "for": 8, "des": 0, "con": 5, "int": null, "sab": -3, "car": null },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 18, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com a pancada contra uma criatura Enorme ou menor (teste +24)." },
+    { "nome": "Estrangular", "acao": "livre", "descricao": "No início de cada um de seus turnos, a garra-zumbi gigante causa 4d8+12 pontos de dano de impacto na criatura que estiver agarrando. Uma criatura agarrada desta forma não pode falar." },
+    { "nome": "Mestre de Manobras", "descricao": "A garra-zumbi recebe +5 em testes de manobras (já contabilizado)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Mão decepada de um gigante, animada por magia necromântica, capaz de esmagar e sufocar quase qualquer vítima com sua força descomunal.",
+  "livro": "ameacas_de_arton"
+}

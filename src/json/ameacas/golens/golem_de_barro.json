@@ -1,0 +1,54 @@
+{
+  "id": "golem_de_barro",
+  "name": "Golem de Barro",
+  "nd": 10,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "golens",
+  "pv": 400,
+  "pm": null,
+  "defesa": 36,
+  "salvaguardas": { "fort": 22, "ref": 10, "von": 16 },
+  "reducao_de_dano": "20/fogo",
+  "imunidades": ["magia (com exceções)"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 9,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 4, "des": 0, "con": 6, "int": null, "sab": 0, "car": -5 },
+  "pericias": { "furtividade": 19 },
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 25, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Tiro de lama (à distância)",
+      "quantidade": 4,
+      "alcance": "médio",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 11, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Corpo Barroso", "descricao": "Em seu estado natural, o corpo do golem é maleável e feito de lama gosmenta. Ele pode passar por espaços apertados sem necessidade de testes de Acrobacia." },
+    { "nome": "Imunidade a Magia", "descricao": "O golem de barro é imune a efeitos mágicos, com a seguinte exceção: a magia Controlar Terra usada para solidificar desativa os benefícios de Corpo Barroso; usada para amolecer, recupera esses benefícios. O golem pode fazer um teste de Fortitude para resistir a qualquer um desses efeitos." },
+    { "nome": "Lama", "descricao": "Uma criatura atingida por um ataque do golem sofre penalidade cumulativa de –1 em todas as perícias. Remover a lama exige uma ação completa." },
+    { "nome": "Ressecamento", "descricao": "Caso sofra 100 pontos de dano de fogo, o corpo do golem resseca e endurece, perdendo seus ataques à distância, a redução de dano e as habilidades Corpo Barroso e Lama. Em compensação, o dano de suas pancadas se torna 2d10+30 (x4) e sua Furtividade passa a +4 (em vez de +19). Volta ao estado natural após uma semana imerso em água." }
+  ],
+  "equipamento": [],
+  "tesouro": "1d4 doses de corrosivo mineral (CD 25 para extrair).",
+  "description": "Construto instável, formado pela fusão forçada de centelhas elementais de terra e água em um mesmo corpo. Existe em tormento constante, a bocarra disforme ecoando gritos de agonia, mas é um guardião excepcional quando sob controle.",
+  "livro": "ameacas_de_arton"
+}

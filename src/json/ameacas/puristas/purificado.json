@@ -1,0 +1,32 @@
+{
+  "id": "purificado",
+  "name": "Purificado",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "hynne",
+  "tamanho": "pequeno",
+  "grupo": "puristas",
+  "pv": 9,
+  "pm": null,
+  "defesa": 10,
+  "salvaguardas": { "fort": 3, "ref": 4, "von": 0 },
+  "reducao_de_dano": null,
+  "imunidades": ["efeitos mentais"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 2,
+  "visao": [],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 0, "des": 2, "con": 1, "int": 0, "sab": -1, "car": 2 },
+  "pericias": { "diplomacia": 7, "enganacao": 7 },
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Cicatrizes Amordaçantes", "descricao": "Por mais que tente, o purificado não consegue alertar outras pessoas de sua condição. Qualquer tentativa do purificado de fazer isso requer que o interlocutor passe em um teste de Intuição (CD 25). Se falhar, ele não entende o que o purificado tentou comunicar durante a rodada." },
+    { "nome": "Gema da Purificação", "descricao": "Quando o purificado chega a 3m ou menos de um não humano, a gema começa a brilhar e zunir durante 3 turnos. Ao fim do terceiro turno ela explode, matando o purificado e causando 6d6 pontos de dano de essência em todas as criaturas em alcance curto. A gema pode ser desativada com uma ação completa e um teste de Ladinagem ou Misticismo (CD 20), mas uma falha a detona imediatamente. Caso outra gema esteja no alcance da explosão, ela também se ativa e explode no próximo turno do seu purificado." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Não humano forçado pela Supremacia Purista a abordar forças inimigas como arma viva, com uma gema explosiva implantada cirurgicamente no peito. Muitos são mutilados (a língua arrancada é o mais comum) ou sofrem lavagem cerebral para não conseguirem avisar seus possíveis salvadores sobre a armadilha. Outros sabem, mas estão sendo chantageados com as vidas de entes queridos.",
+  "livro": "ameacas_de_arton"
+}

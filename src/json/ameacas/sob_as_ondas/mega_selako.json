@@ -1,0 +1,42 @@
+{
+  "id": "mega_selako",
+  "name": "Mega-Selako",
+  "nd": 12,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "colossal",
+  "grupo": "sob_as_ondas",
+  "pv": 630,
+  "defesa": 38,
+  "salvaguardas": { "fort": 26, "ref": 18, "von": 8 },
+  "reducao_de_dano": 10,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 20,
+  "percepcao": 10,
+  "visao": ["faro", "percepção às cegas"],
+  "deslocamento": { "natacao": 18 },
+  "atributos": { "for": 7, "des": 6, "con": 7, "int": -4, "sab": 2, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "quantidade": 2,
+      "bonus": 34,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 12 }], "bonus": 40, "tipo": "perfuração" }
+      ],
+      "critico": "17/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Bote de Mandíbula", "acao": "completa", "descricao": "O mega-selako faz uma investida contra uma criatura. Se acertar esse ataque, ele causa +6d12 pontos de dano e a vítima fica sangrando." },
+    { "nome": "Dentes Afiados", "descricao": "Os ataques do mega-selako ignoram 5 pontos de redução de dano de seus alvos." },
+    { "nome": "Devorar", "acao": "livre", "descricao": "Quando acerta um ataque em uma criatura Enorme ou menor com seu Bote de Mandíbula, o mega-selako a engole. Uma criatura engolida fica agarrada e sofre 8d12+40 pontos de dano de impacto no início de cada turno do mega-selako. O mega-selako só pode manter uma criatura engolida por vez. Uma criatura engolida pode escapar causando 50 pontos de dano ao estômago do mega-selako (Defesa 10). Isso faz com que a criatura seja regurgitada na frente do monstro." },
+    { "nome": "Faro do Caçador", "descricao": "O mega-selako não fica desprevenido contra inimigos que estejam sangrando." }
+  ],
+  "tesouro": "Couro de selako x1d4 (CD 27 para extrair, cada couro vale T$ 30 para fabricar um traje selako) e dentes de selako x1d4+1 (CD 27 para extrair, cada dente vale T$ 300 para fabricar uma arma superior).",
+  "description": "Selako monstruoso e gigantesco, maior que navios, capaz de engolir presas inteiras de um único bote de mandíbula.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,61 @@
+{
+  "id": "gnoll_cacador_de_cabecas",
+  "name": "Gnoll Caçador de Cabeças",
+  "nd": 8,
+  "tipo": "Humanoide",
+  "subtipo": "gnoll",
+  "tamanho": "medio",
+  "grupo": "ermos",
+  "pv": 320,
+  "pm": null,
+  "defesa": 33,
+  "salvaguardas": { "fort": 15, "ref": 20, "von": 9 },
+  "reducao_de_dano": null,
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 10,
+  "visao": ["faro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 1, "des": 4, "con": 2, "int": 1, "sab": 1, "car": -1 },
+  "pericias": { "atletismo": 9, "furtividade": 14, "sobrevivencia": 11 },
+  "ataques": [
+    {
+      "nome": "Espada longa",
+      "quantidade": 2,
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 15, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 15, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Besta leve (à distância)",
+      "quantidade": 2,
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 30, "tipo": "perfuração" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Caminhos Selvagens", "descricao": "Pode atravessar terrenos naturais difíceis sem sofrer redução em seu deslocamento." },
+    { "nome": "Disparo Preciso", "descricao": "Pode fazer ataques à distância contra oponentes envolvidos em combate corpo a corpo sem sofrer a penalidade de –5 no teste de ataque." },
+    { "nome": "Emboscar", "descricao": "Na primeira rodada de combate, pode realizar uma ação padrão adicional." },
+    { "nome": "Marca da Presa", "acao": "movimento", "descricao": "Analisa uma criatura em alcance médio. Até o fim da cena, recebe +1d8 em rolagens de dano contra ela (dobrado se for humanoide)." }
+  ],
+  "equipamento": ["Bálsamo restaurador x3", "Besta leve precisa", "Couro batido", "Espada longa", "Virotes x20"],
+  "tesouro": "Padrão.",
+  "description": "Gnoll que não se ajusta aos padrões da raça, afastado dos seus e habituado à vida urbana no submundo do crime, fazendo fama como caça-recompensas usando o faro apurado para rastrear alvos de forma implacável. Não segue mais o código de rendição de sua cultura nativa, aceitando pedidos de clemência apenas quando a recompensa por alvos vivos é maior — sua preferência é entregar ao contratante a cabeça decepada.",
+  "livro": "ameacas_de_arton"
+}

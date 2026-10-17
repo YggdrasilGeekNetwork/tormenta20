@@ -1,0 +1,57 @@
+{
+  "id": "gladiador_taurico",
+  "name": "Gladiador Táurico",
+  "nd": 8,
+  "tipo": "Humanoide",
+  "subtipo": "minotauro",
+  "tamanho": "medio",
+  "grupo": "imperio_de_tauron",
+  "pv": 390,
+  "pm": null,
+  "defesa": 34,
+  "salvaguardas": { "fort": 20, "ref": 16, "von": 12 },
+  "reducao_de_dano": 5,
+  "imunidades": ["medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 9,
+  "visao": ["faro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 4, "des": 1, "con": 3, "int": 0, "sab": 0, "car": 4 },
+  "pericias": { "atletismo": 15, "atuacao": 15, "intimidacao": 15 },
+  "ataques": [
+    {
+      "nome": "Tridente",
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 18, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Chifres",
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 18, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Rede (à distância)",
+      "bonus": 29,
+      "dano": null,
+      "critico": "20/x2",
+      "descricao": "Enredar (veja Tormenta20, p.150)."
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agitar a Torcida", "acao": "movimento", "descricao": "O gladiador táurico faz um teste de Atuação e recebe uma quantidade de PV temporários igual ao resultado. Recarga (usar Estilo Espetacular e Sangue e Areia contra o mesmo inimigo)." },
+    { "nome": "Estilo Espetacular", "acao": "completa", "descricao": "O gladiador ataca uma criatura com o tridente, o chifre e a rede. Se acertar o ataque de rede e enredar o alvo, pode fazer um ataque adicional de tridente contra ele." },
+    { "nome": "Sangue e Areia", "descricao": "Quando acerta um ataque de tridente em um inimigo enredado por sua rede, o gladiador deixa a vítima sangrando." }
+  ],
+  "equipamento": ["Couraça", "Rede", "Tridente cruel e equilibrado"],
+  "tesouro": "Padrão.",
+  "description": "Lutador profissional de elite das arenas de Tapista, mestre das acrobacias, esquivas e fintas, usando armas exóticas como o tridente e a rede em vez das espadas e lanças comuns das legiões. Nem todos os gladiadores são minotauros, nem todos são escravos — agenciadores de Tiberus vasculham o Reinado em busca de combatentes hábeis e exóticos.",
+  "livro": "ameacas_de_arton"
+}

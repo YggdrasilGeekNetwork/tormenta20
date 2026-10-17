@@ -1,0 +1,51 @@
+{
+  "id": "lefeu_burodron",
+  "name": "Lefeu, Burodron",
+  "nd": 11,
+  "tipo": "Monstro",
+  "subtipo": "lefeu",
+  "tamanho": "enorme",
+  "grupo": "areas_de_tormenta",
+  "pv": 550,
+  "pm": null,
+  "defesa": 42,
+  "salvaguardas": { "fort": 24, "ref": 19, "von": 12 },
+  "reducao_de_dano": 10,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 15,
+  "visao": ["percepção às cegas (médio)", "visão no escuro"],
+  "deslocamento": { "terrestre": 15, "escalada": 15, "escavacao": 15 },
+  "atributos": { "for": 10, "des": 0, "con": 6, "int": -1, "sab": 1, "car": -3 },
+  "pericias": { "atletismo": "+19", "furtividade": "+9 (+19 quando enterrado)" },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 35,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 8 }], "bonus": 23, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 35,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 14, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Dilacerar", "descricao": "Se o burodron acerta os dois ataques de garra em uma mesma criatura no mesmo turno, causa mais 8d6+8 pontos de dano." },
+    { "nome": "Insanidade da Tormenta", "descricao": "2d8 PM (Vontade CD 31 evita)." },
+    { "nome": "Morte que Vem da Terra", "acao": "completa", "descricao": "O burodron mergulha no solo e emerge violentamente em um ponto em alcance médio. Criaturas adjacentes sofrem 8d8+32 pontos de dano de impacto e ficam caídas (Reflexos CD 31 reduz à metade e evita a condição)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Lefeu que lembra um enorme gorila, com braços longos e grossos recobertos de carapaça dura, terminados em garras poderosas; o tronco arqueado e blindado protege a cabeça pequena, e as pernas curtas o fazem caminhar apoiado nos braços. Antes chamados yougey-ahruk ('morte que vem da terra'), são, ao contrário do que sugere sua aparência rude, verdadeiros mestres da emboscada: escavadores vorazes, cavam longas redes de túneis sob as áreas de Tormenta e, sob o solo, usam o sentido sísmico para identificar a vítima mais vulnerável, emergindo para abater conjuradores antes que lancem qualquer magia. São soldados obedientes na hierarquia lefeu; embora raramente operem com outras criaturas, em geral são liderados por um geraktril, que comanda operações a partir de uma cidade ou comunidade de outro tipo.",
+  "livro": "ameacas_de_arton"
+}

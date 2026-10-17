@@ -1,0 +1,46 @@
+{
+  "id": "golem_de_materia_vermelha",
+  "name": "Golem de Matéria Vermelha",
+  "nd": 18,
+  "tipo": "Construto",
+  "subtipo": "lefeu",
+  "tamanho": "enorme",
+  "grupo": "golens",
+  "pv": 900,
+  "pm": null,
+  "defesa": 50,
+  "salvaguardas": { "fort": 32, "ref": 26, "von": 18 },
+  "reducao_de_dano": 20,
+  "imunidades": ["magia"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 15,
+  "percepcao": 20,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 15, "des": 0, "con": 13, "int": null, "sab": 0, "car": -5 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 50,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 10 }], "bonus": 30, "tipo": "impacto" },
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 0, "tipo": "matéria vermelha" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Abraço Corrosivo", "acao": "livre", "descricao": "O golem cobre de ácido uma criatura que esteja agarrando. Enquanto estiver agarrada, e por 1 rodada após se soltar, a criatura sofre 10d10 pontos de dano de ácido no início de cada turno do golem." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com um ataque de pancada (teste +55)." },
+    { "nome": "Distorção Temporal", "descricao": "O golem realiza uma ação padrão ou de movimento adicional por turno." },
+    { "nome": "Insanidade da Tormenta", "descricao": "Criaturas que entrem em contato próximo com o golem sofrem 3d10 pontos de insanidade da Tormenta (Vontade CD 47 evita)." },
+    { "nome": "Sangue Ácido", "descricao": "Quando o golem sofre dano por um ataque corpo a corpo adjacente, o atacante sofre 4d10 pontos de dano de ácido." }
+  ],
+  "equipamento": [],
+  "tesouro": "Retalhos rubros (CD 33 para extrair, valem T$ 8.000 para fabricar itens de matéria vermelha).",
+  "description": "O golem mais perigoso que existe, construído a partir de matéria vermelha recolhida em território da Tormenta por arcanistas e inventores malignos. Sua fabricação é extremamente arriscada: o contato prolongado com o material afeta a sanidade do artífice. Nunca adquirem consciência, pois são impulsionados pelas próprias forças antinaturais da Tormenta, não por centelhas elementais.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,35 @@
+{
+  "id": "lanajuste",
+  "name": "Lanajuste",
+  "type": "material_especial",
+  "aparencia": "Também chamado de coral-de-ferro, encontrado em paredões afiados banhados pelo mar em Khubar.",
+  "origem": "Mais conhecido por seu uso em lâminas afiadas, também é empregado em outros itens.",
+  "bonus_geral": null,
+  "precos_adicionais": {
+    "arma": 600,
+    "armadura_leve": 1500,
+    "armadura_pesada": 3000,
+    "escudo": 1500,
+    "esoterico": 3000
+  },
+  "description": "Também chamado de coral-de-ferro, é encontrado em paredões afiados banhados pelo mar em Khubar. Mais conhecido por seu uso em lâminas afiadas, o lanajuste também é empregado em outros itens. Variante notável: a espada de coral, uma cimitarra feita de lanajuste fabricada pela Irmandade dos Pescadores, que além dos benefícios do material especial tem fio extremamente agudo — em um acerto crítico, deixa a vítima sangrando. Quando aplicado desta forma, este material especial custa +T$ 1.800 (em vez de T$ 600).",
+  "effects": {
+    "arma": [
+      { "type": "ignora_penalidade_combate_submerso", "descricao": "Ataques com a arma ignoram penalidades por combate submerso." },
+      { "type": "permitida_devotos_do_oceano", "descricao": "Pode ser utilizada por devotos do Oceano sem violar suas obrigações e restrições." }
+    ],
+    "armadura_leve": [
+      { "type": "reducao_de_corte", "value": 5 }
+    ],
+    "armadura_pesada": [
+      { "type": "reducao_de_corte", "value": 10 }
+    ],
+    "escudo": [
+      { "type": "reducao_de_corte", "value": 5 }
+    ],
+    "esoterico": [
+      { "type": "rerolar_dano_minimo", "condicao": "magia que causa dano de corte", "descricao": "Pode rolar novamente qualquer resultado 1 na rolagem de dano." }
+    ]
+  },
+  "livro": "ameacas_de_arton"
+}

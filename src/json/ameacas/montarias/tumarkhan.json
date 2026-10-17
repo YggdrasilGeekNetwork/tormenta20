@@ -1,0 +1,47 @@
+{
+  "id": "tumarkhan",
+  "name": "Tumarkhân",
+  "nd": 4,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "montarias",
+  "pv": 130,
+  "pm": null,
+  "defesa": 25,
+  "salvaguardas": { "fort": 16, "ref": 10, "von": 2 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 2,
+  "percepcao": 5,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 10, "des": 0, "con": 5, "int": -5, "sab": 1, "car": -1 },
+  "pericias": { "atletismo": 14 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 15,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 10 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Atropelamento", "acao": "completa", "descricao": "O tumarkhân percorre até o dobro de seu deslocamento. Pode passar pelo espaço ocupado de quaisquer inimigos menores que ele, mas não pode passar duas vezes pelo mesmo espaço. Criaturas atropeladas sofrem 2d10+12 pontos de dano de impacto e ficam caídas (Reflexos CD 18 reduz à metade e evita a condição). Recarga (ação de movimento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "montaria (Enorme)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 12m e seu limite de carga aumenta em 5 espaços.",
+    "veterano": "Você recebe uma ação de movimento extra por turno (apenas para se deslocar) e, uma vez por rodada, recebe +1d8 em uma rolagem de dano corpo a corpo.",
+    "mestre": "O bônus no limite de carga muda para 10 espaços e, quando faz um teste de Força ou de perícia baseada em Força, você pode gastar 2 PM para rolar dois dados e usar o melhor resultado."
+  },
+  "description": "Lagarto imenso e robusto, lembrando um elefante nas patas poderosas e presas proeminentes, mas com couro coberto de padrões verdes e castanhos, cauda curta e olhos pequenos e bovinos. Encontrado apenas no arquipélago de Khubar, onde os nativos aprenderam a domesticá-lo como animal de montaria, carga e tração, do tamanho de um elefante e usado para as mesmas tarefas; suas duas grandes presas de marfim servem de defesa e para derrubar árvores, cujas folhas e frutos alimentam o animal. Menos inteligente que o elefante, mas muito dócil e fácil de domesticar — mesmo exemplares selvagens podem ser amansados e cavalgados com cuidado, e só lutam quando se sentem ameaçados. Ao contrário da maioria dos grandes animais, fêmeas tumarkhân sempre têm ninhadas de dois ou três filhotes.",
+  "livro": "ameacas_de_arton"
+}

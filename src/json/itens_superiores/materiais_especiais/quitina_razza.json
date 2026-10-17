@@ -1,0 +1,28 @@
+{
+  "id": "quitina_razza",
+  "name": "Quitina Razza",
+  "type": "material_especial",
+  "aparencia": "Quitina cobiçada por caçadores de monstros como grande troféu.",
+  "origem": "A única forma de obter este material é abater um razza'kham.",
+  "bonus_geral": null,
+  "precos_adicionais": null,
+  "description": "Cobiçada por caçadores de monstros, que a consideram um grande troféu, esta quitina raramente é encontrada à venda; a única forma de obter este material é abater um razza'kham.",
+  "effects": {
+    "arma": [
+      { "type": "dado_extra_em_maximo", "pre_requisito": "exige uma peça", "descricao": "Sempre que rolar o resultado máximo em um dado do dano básico da arma, role um dado extra, repetindo o processo a cada resultado máximo." }
+    ],
+    "armadura_leve": [
+      { "type": "bonus_percepcao_e_defesa", "percepcao": 2, "defesa": 1, "pre_requisito": "exigem uma peça" }
+    ],
+    "armadura_pesada": [
+      { "type": "bonus_percepcao_e_defesa", "percepcao": 5, "defesa": 2, "pre_requisito": "exigem três peças" }
+    ],
+    "escudo": [
+      { "type": "bonus_percepcao_e_defesa", "percepcao": 2, "defesa": 1, "pre_requisito": "exigem uma peça" }
+    ],
+    "esoterico": [
+      { "type": "dado_extra_em_maximo_magia", "pre_requisito": "exige uma peça", "descricao": "Sempre que rolar o resultado máximo em um dado do dano básico da magia (sem contar aprimoramentos e outros efeitos), role um dado extra, repetindo o processo a cada resultado máximo." }
+    ]
+  },
+  "livro": "ameacas_de_arton"
+}

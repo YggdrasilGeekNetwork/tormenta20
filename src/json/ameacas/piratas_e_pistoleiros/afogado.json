@@ -1,0 +1,42 @@
+{
+  "id": "afogado",
+  "name": "Afogado",
+  "nd": 7,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 60,
+  "pm": null,
+  "defesa": 29,
+  "salvaguardas": { "fort": 19, "ref": 14, "von": 8 },
+  "reducao_de_dano": null,
+  "imunidades": ["atordoado", "medo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 6,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6, "natacao": 9 },
+  "atributos": { "for": 3, "des": 2, "con": 3, "int": -1, "sab": -1, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 18, "tipo": "impacto" },
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 0, "tipo": "ácido" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura de Afogamento", "descricao": "No início de cada turno do afogado, cada criatura em um raio de 9m que não seja capaz de respirar na água deve fazer um teste de Fortitude (CD 24, +1 por teste anterior). Se falhar, a criatura se afoga. Uma criatura afogada desta forma fica inconsciente e perde 1d6 pontos de vida por rodada até sair da área." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Zumbi surgido a partir de naufrágios, acidentes ou execuções por afogamento; muitos eram piratas, mas nem todos. Encontrado rondando velhas embarcações encalhadas, ruínas à beira-mar ou tripulando navios-fantasmas. Ressentido com seu próprio destino cruel, é movido pela compulsão de matar outros da mesma forma que morreu, trazendo-os para o bando.",
+  "livro": "ameacas_de_arton"
+}

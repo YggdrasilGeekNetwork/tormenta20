@@ -1,0 +1,49 @@
+{
+  "id": "sszzaazita_celebrante",
+  "name": "Sszzaazita Celebrante",
+  "nd": 16,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "sszzaazitas",
+  "pv": 571,
+  "pm": 83,
+  "defesa": 51,
+  "salvaguardas": { "fort": 24, "ref": 28, "von": 18 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 23,
+  "percepcao": 17,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 0, "des": 7, "con": 4, "int": 2, "sab": 3, "car": 5 },
+  "pericias": { "enganacao": 26, "intimidacao": 26, "intuicao": 24, "religiao": 24 },
+  "ataques": [
+    {
+      "nome": "Punhal Sszzaazita",
+      "bonus": 44,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 20, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2",
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Evasão", "descricao": "Quando passa em um teste de Reflexos para reduzir o dano de um efeito à metade, em vez disso não sofre nenhum dano." },
+    { "nome": "Assassinar", "acao": "movimento", "descricao": "O sszzaazita celebrante analisa uma criatura em alcance curto. Até o fim de seu próximo turno, ele dobra os dados de dano extras por Ataque Furtivo em seu primeiro Ataque Furtivo que causar dano contra essa criatura." },
+    { "nome": "Ataque Furtivo", "descricao": "Causa +8d8 pontos de dano em ataques contra alvos desprevenidos ou flanqueados." },
+    { "nome": "Cobra em Pele de Cordeiro", "descricao": "O celebrante é considerado um respeitado membro do clero de outro deus e recebe +5 em testes de Enganação e Intimidação com seus devotos." },
+    { "nome": "Falso Amigo", "descricao": "Médico veterano." },
+    { "nome": "Ritual Disfarçado", "acao": "livre", "descricao": "O celebrante disfarça suas magias como se fossem de outra divindade. Uma criatura que veja o celebrante lançar uma magia deve fazer um teste de Intuição ou Misticismo (CD 38) para perceber sua verdadeira natureza. Se falhar, sofre -5 em seu teste de resistência contra ela." },
+    { "nome": "Manto do Traidor", "descricao": "O celebrante pode se esconder mesmo sem camuflagem ou cobertura disponíveis, não sofre penalidade em testes de Furtividade por se mover ao seu deslocamento normal e reduz a penalidade em Furtividade por atacar e fazer outras ações chamativas para -5." },
+    { "nome": "Magias", "descricao": "Lança magias como um clérigo de Sszzaas de 16º nível (CD 38): Curar Ferimentos (padrão, 12 PM; uma criatura adjacente cura 13d8+13 PV); Libertação (padrão, 14 PM; o celebrante fica imune a efeitos de movimento, ignora qualquer efeito que impeça ou restrinja seu deslocamento, pode escolher 20 em testes de Atletismo e Acrobacia, e pode fazer todas as manobras desta perícia mesmo sem treinamento); Manto de Sombras (padrão, 6 PM, sustentada; o celebrante se torna incorpóreo; pode gastar uma ação de movimento e 1 PM para \"entrar\" em uma sombra do seu tamanho ou maior e se teletransportar para outra sombra, também do seu tamanho ou maior, em alcance médio; além disso, torna-se vulnerável a luz direta, sofrendo 1 ponto de dano por rodada se exposto a uma fonte de luz); Silêncio (padrão, 3 PM, sustentada; o celebrante cria uma esfera de 6m em alcance médio; criaturas nessa área ficam surdas e por isso não podem lançar magias)." },
+    { "nome": "Veneno", "salvaguarda": "Fortitude", "cd": 38, "efeito_sucesso": "reduz para 1 rodada", "descricao": "Perde 2d12 pontos de vida durante 3 rodadas (Fort CD 38 reduz para 1 rodada)." }
+  ],
+  "equipamento": ["Estojo de disfarces aprimorado", "Punhal sszzaazita", "Símbolo sagrado (qualquer, exceto Sszzaas)"],
+  "tesouro": "Nenhum.",
+  "description": "Alto sacerdote da \"ordem\" sszzaazita — embora, entre eles, qualquer forma de hierarquia seja pura fachada, já que todos tentam enganar todos. Os manipuladores mais eficazes, os mentirosos mais convincentes e os assassinos mais frios da seita, capazes de realizar grandes rituais para Sszzaas sem sequer citar seu nome, invocando poderes diabólicos diante de centenas de olhos sem despertar suspeita. Muitas vezes busca invocar algum ser destruidor como o lendário Nastarrath.",
+  "livro": "ameacas_de_arton"
+}

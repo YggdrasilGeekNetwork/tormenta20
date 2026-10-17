@@ -1,0 +1,43 @@
+{
+  "id": "estouro_de_furias_de_tauron",
+  "name": "Estouro de Fúrias de Tauron",
+  "nd": 5,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "imperio_de_tauron",
+  "pv": 76,
+  "pm": null,
+  "defesa": 30,
+  "salvaguardas": { "fort": 15, "ref": 19, "von": 10 },
+  "reducao_de_dano": null,
+  "imunidades": ["incorpóreo"],
+  "resistencias": {},
+  "vulnerabilidades": ["frio"],
+  "iniciativa": 16,
+  "percepcao": 7,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "voo": 12 },
+  "atributos": { "for": null, "des": 5, "con": 2, "int": -1, "sab": 1, "car": 3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Chifres espectrais [Bando]",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 14, "tipo": "fogo" },
+        { "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 14, "tipo": "trevas" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Chamas Espectrais", "descricao": "Os chifres espectrais do estouro de fúrias de Tauron contam como uma arma mágica. Além disso, uma criatura viva atingida pelos chifres fica desprevenida por 1 rodada e em chamas (Fortitude CD 28 evita)." },
+    { "nome": "Debandada Flamejante", "acao": "completa", "descricao": "O estouro percorre até o dobro do seu deslocamento em linha reta, golpeando todas as criaturas em seu caminho. Ele faz um único teste de ataque de seus chifres espectrais e compara com a Defesa de cada criatura nos espaços por onde passou." },
+    { "nome": "Apagar a Chama", "descricao": "Quando sofre dano de frio, o estouro fica debilitado e lento por 1 rodada." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Representa um bando de fúrias de Tauron agindo em conjunto (regra de Bando, veja 'Manual de Criação de Ameaças').",
+  "livro": "ameacas_de_arton"
+}

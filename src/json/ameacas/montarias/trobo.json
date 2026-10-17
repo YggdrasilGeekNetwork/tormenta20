@@ -1,0 +1,46 @@
+{
+  "id": "trobo",
+  "name": "Trobo",
+  "nd": 1,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 15,
+  "pm": null,
+  "defesa": 14,
+  "salvaguardas": { "fort": 5, "ref": 8, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "magia": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 5,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 4, "des": 2, "con": 1, "int": -4, "sab": 1, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 11,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 8, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "besta de carga ou montaria (Grande)",
+    "restricao": null,
+    "observacao": "Pode ser usado como um parceiro besta de carga (Apêndice A, p. 416) ou como montaria, com os benefícios a seguir.",
+    "iniciante": "Seu deslocamento muda para 9m e você recebe uma ação de movimento extra por turno (apenas para se deslocar) e +1 em testes de resistência.",
+    "veterano": "Seu deslocamento muda para 12m e o bônus em testes de resistência muda para +2.",
+    "mestre": "O bônus em testes de resistência muda para +5."
+  },
+  "description": "Grande ave sem asas, mais alta que um humano adulto e robusta como um búfalo, com chifres, couro escuro e cascos bovinos. Também chamado pássaro-boi, é apreciado nas fazendas de Arton como animal de carga e tração, especialmente onde há crianças — é muito dócil e aprecia a companhia de humanoides, sendo comuns histórias de trobos atacando bandidos ou monstros que ameaçam seus donos adotivos. Alimenta-se de grama e vegetais, completando a dieta com pequenos insetos e larvas, e costuma engolir pedrinhas para ajudar a triturar o alimento no estômago, já que não tem dentes para mastigar. É mais lento que um cavalo, mas demora dez vezes mais para se cansar; trobos jovens são rápidos e usados para corridas por cavaleiros de raças pequenas como goblins e hynne. Anões não gostam muito de trobos, sentimento mutuamente retribuído.",
+  "livro": "ameacas_de_arton"
+}

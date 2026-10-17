@@ -1,0 +1,46 @@
+{
+  "id": "alto_sacerdote_finntroll",
+  "name": "Alto Sacerdote Finntroll",
+  "nd": 12,
+  "tipo": "Monstro",
+  "subtipo": "finntroll",
+  "tamanho": "medio",
+  "grupo": "trolls_nobres",
+  "pv": 413,
+  "pm": 77,
+  "defesa": 39,
+  "salvaguardas": { "fort": 19, "ref": 11, "von": 27 },
+  "reducao_de_dano": 5,
+  "resistencia_a_magia": 2,
+  "imunidades": ["adivinhação", "encantamento"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 18,
+  "percepcao": 17,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": -1, "des": 3, "con": 6, "int": 2, "sab": 5, "car": 1 },
+  "pericias": { "conhecimento": 17, "intimidacao": 16, "misticismo": 17, "religiao": 20 },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 27,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 6, "tipo": "corte" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Natureza Vegetal", "descricao": "Afetado por habilidades e magias que afetam plantas." },
+    { "nome": "Regeneração Vegetal", "acao": "movimento", "descricao": "Recupera 5 PV. Não cura dano de ácido ou fogo. Não funciona exposto à luz do sol." },
+    { "nome": "Sensibilidade a Luz", "descricao": "Exposto à luz do sol, fica ofuscado e sua regeneração vegetal não funciona." },
+    { "nome": "Arrogância Divina", "descricao": "O alto sacerdote finntroll se considera a representação suprema da maior obra dos deuses. Criaturas que falhem em testes de resistência contra suas magias ficam frustradas." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custo_pm": 4, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o alto sacerdote muda a execução dela para livre." },
+    { "nome": "Trevas Insidiosas", "descricao": "O alto sacerdote soma sua Sabedoria em suas rolagens de dano de magias de trevas (já contabilizado)." },
+    { "nome": "Magias", "descricao": "Lança magias como um clérigo de Tenebra de 15º nível (CD 35, limite de PM 15, -1 PM no custo de Toque Vampírico): Curar Ferimentos (padrão, 10 PM; uma criatura adjacente cura 11d8+11 PV); Ligação Sombria (padrão, 10 PM; o alto sacerdote escolhe um alvo em alcance longo e cria uma conexão entre seu corpo e o desse alvo, deixando uma marca idêntica na pele de ambos; enquanto a magia durar, sempre que ele sofrer qualquer dano ou condição, o alvo desta magia deve fazer um teste de Fortitude; se falhar, sofre o mesmo dano que o sacerdote ou recebe a mesma condição; a magia termina se o alvo chegar a 0 PV); Pele de Pedra (padrão, 10 PM; uma criatura adjacente é transformada em uma estátua de pedra sem consciência por 1d4 rodadas, Fort evita); Perdição (padrão, 7 PM; criaturas escolhidas em alcance curto sofrem -4 em testes de ataque e rolagens de dano); Profanar (padrão, 1 PM; uma esfera de 9m em alcance longo se enche com energia negativa por 1 dia; dentro dela, todo dano de trevas é maximizado); Resistência a Energia (padrão, 6 PM; criaturas escolhidas em alcance curto recebem redução de ácido ou fogo 10 até o fim da cena); Toque Vampírico (padrão, 6 PM; o alto sacerdote faz um ataque corpo a corpo; se acertar, além do dano normal, causa 8d6+5 pontos de dano de trevas, Fort reduz à metade, e recupera pontos de vida iguais à metade do dano de trevas causado)." }
+  ],
+  "equipamento": ["Adaga precisa", "Anel do escudo mental", "Manto pesado", "Meia armadura", "Símbolo sagrado de Tenebra"],
+  "tesouro": "Padrão.",
+  "description": "Líder religioso finntroll devoto de Tenebra, considerando-se — como todos os de sua raça — a representação suprema da maior obra divina. Comanda rituais e sacrifícios em templos ostensivos erguidos para Troldhaugen e Dearani, os nomes finntroll de Megalokk e Tenebra.",
+  "livro": "ameacas_de_arton"
+}

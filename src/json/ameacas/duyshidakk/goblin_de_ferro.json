@@ -1,0 +1,45 @@
+{
+  "id": "goblin_de_ferro",
+  "name": "Goblin de Ferro",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "goblin",
+  "tamanho": "medio",
+  "grupo": "duyshidakk",
+  "pv": 150,
+  "pm": null,
+  "defesa": 28,
+  "salvaguardas": { "fort": 17, "ref": 11, "von": 5 },
+  "reducao_de_dano": "10/corte_impacto_perfuração",
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 11,
+  "percepcao": 2,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12, "escalada": 12 },
+  "atributos": { "for": 3, "des": 3, "con": 2, "int": 5, "sab": -1, "car": 0 },
+  "pericias": { "atletismo": 11, "oficio_engenhoqueiro": 16 },
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 22, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Armadura Blindada", "descricao": "A veste mecânica do goblin de ferro fornece +10 na Defesa e redução de corte, impacto e perfuração 10 (já contabilizados)." },
+    {
+      "nome": "Engenhocas de Combate",
+      "acao": "padrão",
+      "descricao": "O goblin de ferro ativa uma engenhoca de sua armadura, escolhida aleatoriamente (role 1d6): 1) Garra eletrificada (como Toque Chocante); 2) Lança-chamas (como Explosão de Chamas); 3) Disparador de rede (como Teia); 4) Foguetes teleguiados (como Seta Infalível, dano de fogo); 5) Campo de força (como Campo de Força); 6) Míssil explosivo (como Bola de Fogo). Exige teste de Ofício (engenhoqueiro) CD 20; falha faz a engenhoca pifar (não pode mais ser usada), e selecioná-la de novo a faz explodir (4d6 de fogo em alcance curto, inclusive no goblin; Reflexos CD 21 reduz à metade). A CD para resistir às engenhocas é 21."
+    }
+  ],
+  "equipamento": ["Instrumentos de Ofício (engenhoqueiro)"],
+  "tesouro": "Padrão mais peças sobressalentes (valem T$ 500 para fabricar engenhocas).",
+  "description": "Engenhoqueiro goblin laborioso que construiu uma veste mecânica completa para aumentar sua força e agilidade, além de oferecer habilidades ofensivas e defensivas — quase todos morrem tentando, mas alguns conseguem. A única certeza sobre um goblin de ferro é que ele pode ser tão perigoso para seus inimigos quanto para seus aliados.",
+  "livro": "ameacas_de_arton"
+}

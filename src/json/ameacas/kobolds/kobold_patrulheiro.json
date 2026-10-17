@@ -1,0 +1,56 @@
+{
+  "id": "kobold_patrulheiro",
+  "name": "Kobold Patrulheiro",
+  "nd": 0.5,
+  "tipo": "Monstro",
+  "subtipo": "kobold",
+  "tamanho": "pequeno",
+  "grupo": "kobolds",
+  "pv": 6,
+  "pm": null,
+  "defesa": 14,
+  "salvaguardas": { "fort": 3, "ref": 5, "von": 0 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 0,
+  "visao": ["sensibilidade a luz", "visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 1, "des": 2, "con": 0, "int": -1, "sab": 0, "car": -1 },
+  "pericias": { "furtividade": 8 },
+  "ataques": [
+    {
+      "nome": "Lança",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 1, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Funda (à distância)",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 6, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Peste Oportunista", "descricao": "Os ataques do kobold patrulheiro causam +1d4 pontos de dano contra inimigos que já sofreram dano na rodada." }
+  ],
+  "equipamento": ["Funda", "Lança", "Pedras x20"],
+  "tesouro": "Metade.",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "especial (combatente)",
+    "nota": "\"Quem Não Tem Cão Caça com Kobold\": embora normalmente considerados pestes, sob as circunstâncias certas um kobold solitário pode ser convencido a ajudar um aventureiro.",
+    "iniciante": "Você recebe +1 em testes de ataque e rolagens de dano contra inimigos que esteja flanqueando (para um total de +3 de ataque).",
+    "veterano": "Os bônus acima aumentam para +2.",
+    "mestre": "Você pode flanquear mesmo criaturas que não podem ser flanqueadas."
+  },
+  "description": "Kobold comum, parte de um grupo típico de seis ou mais indivíduos, preparando armadilhas em pontos de passagem e aguardando de tocaia por toda a volta.",
+  "livro": "ameacas_de_arton"
+}

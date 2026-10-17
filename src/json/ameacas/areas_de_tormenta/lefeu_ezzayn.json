@@ -1,0 +1,77 @@
+{
+  "id": "lefeu_ezzayn",
+  "name": "Lefeu, Ezzayn",
+  "nd": 17,
+  "tipo": "Monstro",
+  "subtipo": "lefeu",
+  "tamanho": "enorme",
+  "grupo": "areas_de_tormenta",
+  "pv": 650,
+  "pm": null,
+  "defesa": 46,
+  "salvaguardas": { "fort": 27, "ref": 25, "von": 16 },
+  "reducao_de_dano": 10,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 15,
+  "percepcao": 18,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 12, "des": 5, "con": 3, "int": 0, "sab": 3, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Garra",
+      "bonus": 49,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 8 }], "bonus": 29, "tipo": "corte" }
+      ],
+      "critico": "19/x2",
+      "observacao": "[Bando]"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Enxame", "descricao": "O ezzayn causa automaticamente 14d8 pontos de dano de corte, sem necessidade de teste de ataque, a criaturas em seu espaço (habilidade de enxame, somada aos ataques normais quando aplicável)." },
+    { "nome": "Anarquia Lacerante", "acao": "padrão", "descricao": "O ezzayn faz um ataque de garra como um bando contra cada criatura adjacente ou em um quadrado ocupado por ele, com um único teste de ataque comparado à Defesa de cada alvo." },
+    { "nome": "Distorção Temporal", "descricao": "O ezzayn pode realizar uma ação padrão ou de movimento adicional por turno." },
+    { "nome": "Insanidade da Tormenta", "descricao": "4d6 PM (Vontade CD 44 evita)." },
+    { "nome": "Subjugar", "acao": "livre", "descricao": "No fim de cada um de seus turnos, o ezzayn usa a manobra derrubar (teste +54) contra cada criatura em seu espaço, com um único teste comparado ao teste de cada criatura na área. Criaturas que perderem o teste de manobra por 5 ou mais ainda sofrem 8d8 pontos de dano de corte." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "variantes_ezzayn_especiais": {
+    "descricao": "Um ezzayn pode conter lefeu de outros tipos, entre veridak, hurobakk e burodron, recebendo bônus e uma habilidade extra conforme o tipo em sua formação. Para efeitos de recompensas, um ezzayn especial tem ND 18.",
+    "tipos": [
+      {
+        "nome": "Batalhão Burodron",
+        "ajustes": "+5 em testes de ataque e rolagens de dano com garras.",
+        "habilidade_extra": {
+          "nome": "Emboscada Subterrânea",
+          "acao": "completa",
+          "descricao": "O batalhão escava um túnel até uma criatura em alcance curto, abre um fosso sob seus pés e tenta puxá-la com uma manobra agarrar (teste +54). Se vencer, a vítima é puxada 3m para baixo da terra, sofre 4d8+23 pontos de dano de corte e fica agarrada. A cada rodada pode tentar se livrar e saltar do fosso com uma ação padrão e teste de Atletismo (CD 44); se falhar, sofre o dano novamente no turno do batalhão."
+        }
+      },
+      {
+        "nome": "Cavalaria Hurobakk",
+        "ajustes": "+100 PV, +5 em Fortitude.",
+        "habilidade_extra": {
+          "nome": "Carga Terrível",
+          "acao": "padrão",
+          "descricao": "Criaturas em um quadrado de 6m à frente da cavalaria sofrem 4d10+19 pontos de dano de impacto e ficam caídas (Fortitude CD 44 reduz à metade e evita a condição). Se a vítima falhar por 5 ou mais, sua armadura é avariada ou, se não estiver usando armadura, sofre +2d8 pontos de dano."
+        }
+      },
+      {
+        "nome": "Esquadrão Veridak",
+        "ajustes": "+5 em Iniciativa e Reflexos, deslocamento de voo 18m.",
+        "habilidade_extra": {
+          "nome": "Ataque Rasante",
+          "acao": "padrão",
+          "descricao": "Criaturas em um quadrado de 6m à frente do esquadrão sofrem 4d6+31 pontos de dano de corte (Reflexos CD 44 reduz à metade). Uma criatura que falhe nesse teste deve fazer um teste da manobra agarrar (CD 44); se falhar, é erguida pelo esquadrão e largada de uma altura de 12m."
+        }
+      }
+    ]
+  },
+  "description": "Confrontado pela primeira vez durante a campanha conhecida como 'Coração de Rubi', quando campeões de Arton dissiparam a área de Tormenta de Zakharov. Um ezzayn é composto por numerosos lefeu menores emaranhados em quantidade impossível de estimar — seus números reais mudam constantemente, desafiando até vidências divinas — e as criaturas que o compõem não parecem completas ou íntegras, com partes segmentadas se misturando freneticamente, cobertas de larvas e vertendo sangue purulento. Além de uktril e geraktril, o enxame pode conter outras espécies para aumentar sua eficiência em cada missão; grupos de patrulha contam com apoio aéreo veridak, enquanto tropas de choque são reforçadas por cavalaria hurobakk. Está entre os mais perigosos lefeu conhecidos.",
+  "livro": "ameacas_de_arton"
+}

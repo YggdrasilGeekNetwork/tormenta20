@@ -1,0 +1,16 @@
+{
+  "id": "peconha_irritante",
+  "name": "Peçonha Irritante",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "veneno",
+  "preco": 10,
+  "espacos": 0.5,
+  "inoculacao": "contato",
+  "efeito": {
+    "dano": "1d6",
+    "nao_pode_ser_resistido": true
+  },
+  "description": "Este veneno leve, produzido por diversas criaturas, tem efeito brando mas que não pode ser resistido. Contato, perde 1d6 PV.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,46 @@
+{
+  "id": "senhor_do_gigante_rubro_forma_inicial",
+  "name": "Senhor do Gigante Rubro (Forma Inicial)",
+  "nd": 9,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "culto_de_aharadak",
+  "pv": 340,
+  "pm": null,
+  "defesa": 34,
+  "salvaguardas": { "fort": 21, "ref": 15, "von": 9 },
+  "reducao_de_dano": "10/ácido_eletricidade_fogo_frio_luz_trevas",
+  "imunidades": ["acertos críticos", "cansaço", "efeitos de metabolismo", "paralisia", "veneno"],
+  "resistencias": { "magia": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 13,
+  "percepcao": 15,
+  "visao": ["não pode ser flanqueado", "percepção às cegas"],
+  "deslocamento": { "terrestre": 12, "escalada": 9 },
+  "atributos": { "for": 11, "des": 3, "con": 9, "int": -1, "sab": 2, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 4,
+      "bonus": 28,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 11, "tipo": "corte" }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Carapaça Espinhosa", "descricao": "Quando agarra uma criatura ou é agarrado, e no início de cada turno em que estiver agarrando ou agarrado, o gigante rubro causa 11 pontos de dano de perfuração nesta criatura." },
+    { "nome": "Desembarcar", "acao": "completa", "descricao": "O senhor do gigante rubro pode sair de seu simbionte por curtos períodos. Isso o deixa fraco e, a cada hora de afastamento, o torna fatigado, exausto, inconsciente e por fim morto. Voltar ao interior da armadura é uma ação completa e remove essas condições no início da rodada seguinte. Geralmente o piloto é um iniciado da agonia. Se o piloto for morto fora da armadura, ela se desintegra automaticamente." },
+    {
+      "nome": "Evoluções",
+      "descricao": "Cada gigante rubro possui duas habilidades, escolhidas entre: Dilacerar (para cada dois ataques de garra que acertar em uma mesma criatura no mesmo turno, causa mais 2d8+10 pontos de dano); Morte dos Céus, ação de movimento (salta para um espaço desocupado em alcance médio; se aterrissar adjacente a uma criatura, seu primeiro ataque contra ela neste turno recebe +2 no teste e +1d8 de dano); Teia Corrosiva, ação de movimento (dispara muco adesivo em um alvo em alcance curto, 3d6 de dano de ácido e fica imóvel, Reflexos CD 28 reduz à metade e evita; enquanto imóvel sofre 3d6 de ácido por turno; pode se libertar com ação padrão e Acrobacia ou Atletismo CD 28); Tentáculo (ataque adicional como as garras, mas de impacto; se acertar pode fazer a manobra agarrar como ação livre, teste +30); Zunido Enlouquecedor, reação (a cada 100 PV perdidos, emite um zunido em esfera de 30m; criaturas na área perdem 2d8 PM, Vontade CD 28 evita)."
+    }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Entre as duvidosas 'dádivas' oferecidas por Aharadak a seus devotos, o gigante rubro está entre as mais perigosas: uma armadura orgânica feita de matéria vermelha viva e pulsante, capaz de envolver e acomodar um humanoide Pequeno ou Médio em seu interior. Uma vez realizada a união, hospedeiro e simbionte tornam-se uma máquina de combate quase imbatível. Apenas alguém completamente entregue à Tormenta pode recebê-lo, e a comunhão total leva tempo — quanto mais o hospedeiro permanece na armadura, mais poderosos ambos se tornam. Nesta forma inicial ainda é possível destruir o simbionte e remover a vítima (veja a regra 'Dolorosa Separação').",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,44 @@
+{
+  "id": "duplo",
+  "name": "Duplo",
+  "nd": 4,
+  "tipo": "Humanoide",
+  "subtipo": "duplo",
+  "tamanho": "medio",
+  "grupo": "capangas_e_bandoleiros",
+  "pv": 143,
+  "pm": null,
+  "defesa": 21,
+  "salvaguardas": { "fort": 5, "ref": 15, "von": 10 },
+  "reducao_de_dano": null,
+  "imunidades": ["adivinhação", "efeitos mentais"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 6,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 2, "des": 5, "con": 2, "int": 2, "sab": 2, "car": 4 },
+  "pericias": { "enganacao": 14, "furtividade": 11, "intuicao": 10 },
+  "cura_acelerada": 5,
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 7, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Furtivo", "descricao": "+3d6 de dano extra quando flanqueia ou surpreende o alvo." },
+    { "nome": "Detectar Pensamentos (mágica)", "descricao": "O duplo detecta constantemente os pensamentos superficiais de todas as criaturas inteligentes em alcance curto. Não pode ser surpreendido por elas, e recebe +2 na Defesa e em testes de perícia contra elas. Uma criatura ciente desta habilidade pode gastar uma ação de movimento e fazer um teste de Vontade (CD 20); se passar, esconde seus pensamentos até o fim da cena." },
+    { "nome": "Mudar Forma (mágica)", "acao": "padrão", "descricao": "O duplo assume a forma de qualquer humanoide de tamanho Pequeno a Grande, como no efeito da magia Metamorfose. Pode permanecer na forma escolhida por tempo indeterminado, mas reverte à forma natural se morrer." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão.",
+  "description": "Também chamados doppelgangers, são os mestres supremos do disfarce: seres estranhos capazes de assumir a forma de qualquer criatura que encontrem. Dizem que uma das primeiras ações de Hyninn, assim que ascendeu ao posto de divindade maior, foi dar vida a estes traiçoeiros. A transformação é física, não ilusória, e por isso dificilmente detectável; duplos são imunes a magias de leitura e controle da mente, sempre revertem à forma natural quando morrem, e todo duplo é capaz de identificar outro não importa a forma que estejam usando — mas, por sua natureza esquiva, raramente fazem alianças. Alguns atuam como espiões e assassinos para guildas de ladrões ou cultos malignos; outros lideram, eles próprios, tais organizações, não raras vezes após matar o líder original e assumir sua forma. Raramente preservam um mesmo disfarce por muito tempo, logo buscando um novo alvo para tomar seu lugar e viver outra farsa.",
+  "livro": "ameacas_de_arton"
+}

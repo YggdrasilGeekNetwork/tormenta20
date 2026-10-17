@@ -1,0 +1,43 @@
+{
+  "id": "soldado_superior",
+  "name": "Soldado Superior",
+  "nd": 17,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "puristas",
+  "pv": 1080,
+  "pm": null,
+  "defesa": 50,
+  "salvaguardas": { "fort": 28, "ref": 28, "von": 20 },
+  "reducao_de_dano": 15,
+  "imunidades": ["doenças", "efeitos mentais", "medo", "veneno"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 26,
+  "percepcao": 18,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 7, "des": 7, "con": 7, "int": 3, "sab": 2, "car": -1 },
+  "pericias": { "acrobacia": 26, "atletismo": 26 },
+  "ataques": [
+    {
+      "nome": "Ataque desarmado",
+      "quantidade": 4,
+      "bonus": 47,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 30, "tipo": "impacto" }
+      ],
+      "critico": "17/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Golpes Penetrantes", "descricao": "Os ataques desarmados do soldado superior podem causar dano letal ou não letal e ignoram 10 pontos de redução de dano do alvo." },
+    { "nome": "Mestre de Manobras", "descricao": "O soldado recebe +10 em testes de manobras. Além disso, uma vez por rodada, quando acerta um ataque desarmado, o soldado pode fazer uma manobra de combate (teste +57) contra a criatura atingida como uma ação livre." },
+    { "nome": "Super Soldado", "descricao": "Quando o soldado é reduzido a 570 PV ou menos, entra em um frenesi de combate. Seus ataques mudam para ataque desarmado x4 +57 (3d12+30, 17/x3), sua Defesa se torna 60, seu deslocamento aumenta para 18m e ele passa a poder executar uma ação padrão adicional por turno. Entretanto, ele se torna vulnerável a todos os tipos de dano e sofre –5 em Vontade." }
+  ],
+  "equipamento": ["Cinto do campeão", "Faixas do pugilista", "Manoplas de adamante"],
+  "tesouro": "Padrão, mais ingredientes para uma dose de soro supremo (um teste estendido de Ofício (alquimista) CD 40, obtendo 5 sucessos antes de 3 falhas, um dia por teste, produz uma dose de soro supremo; ingerir uma dose aumenta permanentemente Força, Destreza ou Constituição, escolhida na fabricação, em +1; um personagem só pode se beneficiar de uma dose).",
+  "description": "Protótipo do \"humano perfeito\" segundo a Supremacia Purista, cultivado em um tanque de substâncias alquímicas bombardeado com energias arcanas, sem memórias ou interesse em sua própria origem. Existe apenas para seguir ordens com perfeição impecável, forte como um gigante, sólido como um golem e ágil como uma pantera. Por serem poucos e extremamente custosos de produzir, são designados apenas para as missões mais importantes.",
+  "livro": "ameacas_de_arton"
+}

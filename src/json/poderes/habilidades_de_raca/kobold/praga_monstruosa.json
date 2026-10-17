@@ -1,0 +1,13 @@
+{
+  "id": "praga_monstruosa",
+  "name": "Praga Monstruosa",
+  "type": "habilidade_de_raca",
+  "race": "kobold",
+  "description": "Vocês são criaturas do tipo monstro e recebem visão no escuro e +2 em Sobrevivência.",
+  "effects": {
+    "creature_type": "monstro",
+    "vision": "visao_no_escuro",
+    "skill_improvement": { "skill": "sobrevivencia", "value": 2 }
+  },
+  "livro": "ameacas_de_arton"
+}

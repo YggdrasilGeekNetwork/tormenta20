@@ -1,0 +1,54 @@
+{
+  "id": "perdigueiro_troll",
+  "name": "Perdigueiro Troll",
+  "nd": 1,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "trolls_nobres",
+  "pv": 10,
+  "defesa": 17,
+  "salvaguardas": { "fort": 5, "ref": 9, "von": 1 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 8,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 5, "des": 3, "con": 2, "int": -4, "sab": 1, "car": -2 },
+  "pericias": { "sobrevivencia": 8, "furtividade": 6 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 10,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 5, "tipo": "perfuração" }
+      ]
+    },
+    {
+      "nome": "Tentáculos",
+      "bonus": 10,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 5, "tipo": "impacto" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Natureza Vegetal", "descricao": "Afetado por habilidades e magias que afetam plantas." },
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com os tentáculos (teste +10)." },
+    { "nome": "Derrubar", "acao": "livre", "descricao": "Usa a manobra derrubar com a mordida (teste +10)." }
+  ],
+  "equipamento": [],
+  "familiar": null,
+  "parceiro": {
+    "tipo": "parceiro especial (perseguidor)",
+    "iniciante": "Você recebe +2 em Percepção e Sobrevivência.",
+    "veterano": "Você recebe +2 em testes para agarrar e derrubar, e pode manter uma criatura Grande ou menor agarrada sem ocupar uma mão.",
+    "mestre": "Os bônus mudam para +5 e, uma vez por rodada, quando acerta um ataque corpo a corpo, você pode usar a manobra agarrar como uma reação."
+  },
+  "tesouro": "Nenhum.",
+  "description": "Animal-planta criado para ajudar os finntroll caçadores em suas expedições, atuando como cães de caça: farejam, perseguem e emboscam presas, buscando imobilizá-las com a mordida e os tentáculos até que seu mestre venha coletá-las. Devido a uma falha no experimento, alguns fugiram de seus mestres e se reproduziram em estado selvagem, tornando-se uma praga perigosa que ainda se alimenta de carne apesar de serem plantas. Dizem que podem ser amansados e domados por dahllan e devotos de Allihanna.",
+  "livro": "ameacas_de_arton"
+}

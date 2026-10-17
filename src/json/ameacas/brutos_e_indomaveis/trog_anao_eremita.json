@@ -1,0 +1,51 @@
+{
+  "id": "trog_anao_eremita",
+  "name": "Trog Anão Eremita",
+  "nd": 8,
+  "tipo": "Monstro",
+  "subtipo": "trog",
+  "tamanho": "medio",
+  "grupo": "brutos_e_indomaveis",
+  "pv": 330,
+  "pm": null,
+  "defesa": 33,
+  "salvaguardas": { "fort": 22, "ref": 6, "von": 16 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 18,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 7, "des": -1, "con": 6, "int": 0, "sab": 2, "car": -2 },
+  "pericias": { "sobrevivencia": 20 },
+  "ataques": [
+    {
+      "nome": "Machado de guerra",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 20, "tipo": "corte" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 18, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Armadura Fúngica", "acao": "reação", "descricao": "Quando o trog anão eremita sofre dano, todas as criaturas adjacentes perdem 2d12 pontos de vida (veneno)." },
+    { "nome": "Gosto por Tripas", "descricao": "O trog recebe +2 em rolagens de dano contra criaturas em que já tenha causado dano na cena." },
+    { "nome": "Mau Cheiro", "acao": "padrão", "descricao": "Fortitude CD 26 evita (veneno)." },
+    { "nome": "Sobrevivente", "descricao": "Quando faz um teste de resistência, o trog rola dois dados e usa o melhor resultado." }
+  ],
+  "equipamento": ["Machado de guerra atroz"],
+  "tesouro": "Metade.",
+  "description": "Isolado por anos nas profundezas, um trog anão eremita desenvolve uma simbiose fúngica com o ambiente subterrâneo, tornando-se uma ameaça formidável e letal mesmo para seus próprios perseguidores — poucos sobrevivem para contar o encontro.",
+  "livro": "ameacas_de_arton"
+}

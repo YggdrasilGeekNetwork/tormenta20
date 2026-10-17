@@ -1,0 +1,43 @@
+{
+  "id": "terrier",
+  "name": "Terrier",
+  "nd": 1,
+  "tipo": "Espírito",
+  "subtipo": "elemental",
+  "tamanho": "pequeno",
+  "grupo": "elementais",
+  "pv": 35,
+  "pm": null,
+  "defesa": 16,
+  "salvaguardas": { "fort": 11, "ref": 0, "von": 5 },
+  "reducao_de_dano": "5/impacto",
+  "imunidades": ["acertos críticos", "ácido", "atordoado", "cansaço", "efeitos de metabolismo", "paralisia"],
+  "resistencias": {},
+  "vulnerabilidades": ["eletricidade"],
+  "iniciativa": 0,
+  "percepcao": 3,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 3, "des": 0, "con": 3, "int": -3, "sab": 1, "car": 1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 8, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Pedra-Punho", "acao": "padrão", "descricao": "O terrier dispara pedras do tamanho de um punho em criaturas a sua escolha em alcance curto. Cada criatura sofre 1d6+4 pontos de dano de impacto e fica atordoada por 1 rodada (Fortitude CD 16 reduz à metade e evita a condição; sucesso impede ficar atordoada por esta habilidade pela cena). Recarga (ação de movimento)." },
+    { "nome": "Pedregoso", "descricao": "Um terrier pode permanecer completamente imóvel. Se estiver assim, um personagem deve passar num teste de Percepção (CD 30) para perceber que ele é uma criatura e não um monte de pedras." }
+  ],
+  "equipamento": [],
+  "tesouro": "1 dose de éter elemental (ácido) (CD 16 para extrair).",
+  "familiar": "Um terrier familiar concede redução de dano 2/impacto.",
+  "parceiro": null,
+  "description": "Um dos menores elementais da terra, lembrando um cãozinho comum: corpo formado por uma massa de pedras central, conectada por forças invisíveis a várias pedras menores que atuam como patas, cabeça e/ou cauda, em quantidades variáveis. Imprevisível como qualquer elemental — pode fugir, atacar, examinar com curiosidade ou se afeiçoar a estranhos. Quando luta, dispara pedras do tamanho de punhos que retornam depois; sua habilidade de fingir ser um monte de pedras também pode ser perigosa para intrusos desprevenidos. Existe em variedades de diferentes rochas (mármore branco, granito cinzento, obsidiana negra, às vezes com gemas incrustadas), sendo procurado como familiar por arcanistas de evocação da terra.",
+  "livro": "ameacas_de_arton"
+}

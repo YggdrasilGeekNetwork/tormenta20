@@ -1,0 +1,16 @@
+{
+  "id": "mente_do_devorador",
+  "name": "Mente do Devorador",
+  "categoria": "maior",
+  "preco": 34000,
+  "roll_min": null,
+  "roll_max": null,
+  "description": "Conhecido por alguns como 'psinídeo', este simbionte lembra uma grande aranha com um abdome macabro em forma de cérebro humano. Agarra-se à cabeça do hospedeiro com suas longas patas, enterrando ali seu corpo. O hospedeiro recebe +1 em Inteligência e Sabedoria (cumulativo com outros itens), e pode lançar uma magia arcana de encantamento de 1º círculo (escolhida quando o simbionte é implantado; atributo-chave Inteligência ou Sabedoria). Se aprender essa magia, seu custo é reduzido em –1 PM.",
+  "effects": [
+    { "type": "simbionte", "slot": "item_vestido", "poderes_tormenta_equivalentes": 2 },
+    { "type": "bonus_atributo", "atributos": ["inteligencia", "sabedoria"], "valor": 1, "cumulativo_com_outros_itens": true },
+    { "type": "concede_magia_escolhida_na_implantacao", "circulo": 1, "escola": "encantamento", "tipo": "arcana", "atributo_chave": "inteligencia_ou_sabedoria" },
+    { "type": "reducao_custo_se_aprender", "valor_pm": -1 }
+  ],
+  "livro": "ameacas_de_arton"
+}

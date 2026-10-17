@@ -1,0 +1,54 @@
+{
+  "id": "dragao_veneravel_da_equidade",
+  "name": "Dragão Venerável da Equidade",
+  "nd": 15,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "enorme",
+  "grupo": "dragoes",
+  "pv": 800,
+  "pm": 97,
+  "defesa": 52,
+  "salvaguardas": { "fort": 28, "ref": 15, "von": 22 },
+  "reducao_de_dano": 15,
+  "imunidades": ["luz"],
+  "resistencias": { "magia": 4 },
+  "vulnerabilidades": ["trevas"],
+  "iniciativa": 16,
+  "percepcao": 22,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 24 },
+  "atributos": { "for": 13, "des": 1, "con": 10, "int": 6, "sab": 6, "car": 6 },
+  "pericias": { "enganacao": 22, "intimidacao": 22, "intuicao": 22, "misticismo": 22 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 44,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 12 }], "bonus": 40, "tipo": "perfuração" }
+      ],
+      "critico": "17/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 44,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 12 }], "bonus": 40, "tipo": "corte" }
+      ],
+      "critico": "17/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aura Aterradora", "descricao": "Vontade CD 40 evita.", "tag": "Medo" },
+    { "nome": "Equalizar (mágica)", "acao": "reação", "custos": { "value": 3, "type": "PM" }, "descricao": "Quando uma criatura (incluindo o dragão) em alcance médio faz um teste, ela o refaz, escolhendo 10 em vez de rolar o dado (Vontade CD 32 evita)." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custos": { "value": 4, "type": "PM" }, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, o dragão muda a execução dela para livre." },
+    { "nome": "Restabelecer a Igualdade", "acao": "reação", "descricao": "Uma vez por rodada, quando sofre um ataque ou uma magia de um inimigo, o dragão pode fazer um ataque ou lançar uma de suas magias (conforme a ação sofrida) contra esse inimigo." },
+    { "nome": "Sopro", "acao": "padrão", "descricao": "Todas as criaturas em um cone de 15m sofrem 16d12 pontos de dano de luz e ficam cegas por 1d4 rodadas (Reflexos CD 40 reduz à metade, evita a condição e impede ficar cega por esta habilidade pela cena). Recarga (ação de movimento)." },
+    { "nome": "Magias (conjurador arcano, 15º nível, CD 40)", "descricao": "Círculo da Justiça (6 PM, completa; esfera de 9m, –20 em Acrobacia/Enganação/Furtividade/Ladinagem e impede mentir, Vontade reduz para –10 e permite mentir), Curar Ferimentos (15 PM; 16d8+16 PV), Desespero Esmagador (8 PM; cone de 6m, debilitado/esmorecido pela cena), Dissipar Magia (3 PM), Missão Divina (8 PM + penalidade de –1 PM; marca permanente, –2 cumulativo em ações hostis, Vontade evita), Selo de Mana (6 PM; selo que exige teste de Vontade para qualquer ação que gaste PM funcionar), Velocidade (10 PM, sustentada; ação padrão extra por turno)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Dobro e 4 peças de couro de dragão (CD 30 para extrair).",
+  "description": "Dragão venerável de energia dracônica de luz, obcecado por justiça e equilíbrio — pune transgressões com marcas permanentes e refaz testes para garantir que o resultado 'justo' prevaleça. Como todo venerável, alcançou essa idade não só pelos séculos vividos, mas por um vasto repertório de vitórias que tornou trivial estabelecer dominância sobre criaturas inferiores.",
+  "livro": "ameacas_de_arton"
+}

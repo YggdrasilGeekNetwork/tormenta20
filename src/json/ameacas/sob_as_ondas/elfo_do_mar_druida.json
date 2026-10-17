@@ -1,0 +1,55 @@
+{
+  "id": "elfo_do_mar_druida",
+  "name": "Elfo-do-Mar Druida",
+  "nd": 10,
+  "tipo": "Humanoide",
+  "subtipo": "elfo_do_mar",
+  "tamanho": "medio",
+  "grupo": "sob_as_ondas",
+  "pv": 250,
+  "pm": 54,
+  "defesa": 31,
+  "salvaguardas": { "fort": 14, "ref": 20, "von": 24 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 14,
+  "percepcao": 15,
+  "visao": ["percepção às cegas (embaixo d'água)", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9, "natacao": 9 },
+  "atributos": { "for": 1, "des": 5, "con": 2, "int": -2, "sab": 6, "car": 2 },
+  "pericias": { "adestramento": 15, "cura": 15, "religiao": 15, "sobrevivencia": 15 },
+  "ataques": [
+    {
+      "nome": "Arpão",
+      "bonus": 22,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 10 }], "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 18, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Arpão (à distância)",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 25, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Companheiro Animal", "descricao": "O druida sempre está acompanhado de um canceronte que serve como um parceiro adepto guardião veterano (já contabilizado)." },
+    { "nome": "Forma Animal", "acao": "completa", "custo_pm": 6, "descricao": "O druida adquire a forma de uma orca. Ele recebe +5 em Força, +4 na Defesa, um ataque corpo a corpo de mordida +26 (2d6+28) e um de pancada +26 (2d6+28) e seu tamanho muda para Grande. Nessa forma, ele não pode falar, mas pode lançar magias e empunhar catalisadores e esotéricos." },
+    {
+      "nome": "Magias",
+      "descricao": "O elfo-do-mar druida lança magias como um druida do Oceano de 10º nível (CD 32): Controlar Água (padrão, 6 PM; controla a água em uma esfera de 30m em alcance longo até o fim da cena); Curar Ferimentos (padrão, 9 PM; uma criatura em alcance curto cura 10d8+10 pontos de vida); Despedaçar (padrão, 9 PM; um alvo em alcance curto sofre 5d8+10 pontos de dano de impacto, ou o dobro sem aplicar RD se for um construto ou objeto mundano Pequeno, e fica atordoado — Fortitude reduz o dano à metade e evita a condição; uma criatura só pode ser atordoada por esta magia uma vez por cena); Escudo da Fé (reação, 7 PM; quando uma criatura em alcance curto sofre um ataque, ela recebe camuflagem contra ataques à distância e +5 na Defesa até seu próximo turno); Suporte Ambiental (padrão, 5 PM; por 1 dia, criaturas escolhidas em alcance curto ficam imunes aos efeitos de calor e frio extremos, podem respirar na água e não sufocam em fumaça densa)."
+    },
+    { "nome": "Dependência de Água", "descricao": "Se ficar um dia sem contato com água, o elfo-do-mar não recupera PM até voltar para a água." }
+  ],
+  "equipamento": ["Arpão", "Escudo leve", "Essência de mana x2", "Gibão de peles", "Ramo verdejante x5", "Símbolo sagrado do Oceano"],
+  "tesouro": "Padrão.",
+  "description": "Guardiã espiritual de uma comunidade de elfos-do-mar, devota do Oceano que comanda as águas e um canceronte companheiro em defesa de seu povo.",
+  "livro": "ameacas_de_arton"
+}

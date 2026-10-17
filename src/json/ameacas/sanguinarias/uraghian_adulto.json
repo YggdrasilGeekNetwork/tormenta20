@@ -1,0 +1,39 @@
+{
+  "id": "uraghian_adulto",
+  "name": "Uraghian Adulto",
+  "nd": 8,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "sanguinarias",
+  "pv": 330,
+  "defesa": 33,
+  "salvaguardas": { "fort": 21, "ref": 8, "von": 15 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "fogo": 20 },
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 10,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 8, "des": -1, "con": 6, "int": -5, "sab": 2, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 35, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 6, "faces": 6 }], "tipo": "fogo" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Couraça Cáustica", "descricao": "Uma criatura que cause dano ao uraghian com um ataque corpo a corpo sofre 6d6 pontos de dano de fogo. Criaturas com alcance natural maior que 1,5m não sofrem esse dano." },
+    { "nome": "Rajada Flamejante", "acao": "padrao", "salvaguarda": "Reflexos", "cd": 26, "efeito_sucesso": "reduz o dano à metade e evita a condição", "descricao": "O uraghian cospe óleo flamejante em um cone de 18m. Criaturas na área sofrem 10d6+20 pontos de dano de fogo e ficam em chamas (Ref CD 26 reduz o dano à metade e evita a condição). Recarga (movimento)." }
+  ],
+  "tesouro": "Óleo de besouro x1d6 (CD 23 para extrair) e casulos de seda x2d4 (CD 23 para extrair, cada casulo vale T$ 100 para fabricar um vestuário superior).",
+  "description": "Versão madura do uraghian. Quando chega a época, o adulto simplesmente explode, liberando uma dúzia de crias até então em seu interior — muitos grupos de aventureiros foram exterminados ao acreditar que venceram a fera, quando na verdade libertaram inimigos vorazes em número ainda maior.",
+  "livro": "ameacas_de_arton"
+}

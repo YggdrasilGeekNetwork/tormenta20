@@ -1,0 +1,40 @@
+{
+  "id": "mycotann_labutador",
+  "name": "Mycotann Labutador",
+  "nd": 2,
+  "tipo": "Monstro",
+  "subtipo": "mycotann",
+  "tamanho": "medio",
+  "grupo": "trolls_nobres",
+  "pv": 15,
+  "defesa": 17,
+  "salvaguardas": { "fort": 13, "ref": 7, "von": 2 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 2,
+  "percepcao": 7,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 1, "des": 0, "con": 3, "int": 0, "sab": -1, "car": 1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 2,
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 6, "tipo": "impacto" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Natureza Vegetal", "descricao": "Afetado por habilidades e magias que afetam plantas." },
+    { "nome": "Esporos", "acao": "padrao", "salvaguarda": "Fortitude", "cd": 16, "efeito_sucesso": "evita", "descricao": "O mycotann labutador dispara uma nuvem de esporos em uma criatura em alcance curto. O alvo fica enredado ou, se já estiver enredado por este efeito, fica paralisado por 1 rodada (Fort CD 16 evita)." },
+    { "nome": "Telepatia", "descricao": "O mycotann pode se comunicar telepaticamente com qualquer criatura viva em alcance médio." }
+  ],
+  "tesouro": "1d4 doses de esporos de cogumelo (CD 17 para extrair).",
+  "description": "Seres-cogumelo conhecidos como \"cogumelos anões\", povo pacato que vive nas vastas aldeias de Camprini, numa camada subterrânea abaixo de Doherimm. Escravizados pelos trolls nobres por sua habilidade de expelir esporos paralisantes, são usados como unidades de suporte pelas forças finntroll, facilitando a captura de vítimas sob dominação mental.",
+  "livro": "ameacas_de_arton"
+}

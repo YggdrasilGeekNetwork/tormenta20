@@ -1,0 +1,49 @@
+{
+  "id": "killbone",
+  "name": "Kill'Bone",
+  "nd": 0.5,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "mascotes_e_familiares",
+  "pv": 8,
+  "pm": null,
+  "defesa": 14,
+  "salvaguardas": { "fort": 5, "ref": 3, "von": 0 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 5,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 15 },
+  "atributos": { "for": 2, "des": 3, "con": 2, "int": -4, "sab": 3, "car": -2 },
+  "pericias": { "sobrevivencia": 5 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 8,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 4, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Rolamento Ofensivo", "acao": "completa", "descricao": "O kill'bone se enrola em uma bola espinhosa e percorre até o dobro do seu deslocamento, passando por qualquer criatura no caminho (não pode passar duas vezes pelo mesmo espaço). Criaturas atropeladas sofrem 2d6+4 pontos de dano de perfuração (Reflexos CD 13 reduz à metade). Recarga (ação de movimento)." },
+    { "nome": "Percepção e Sobrevivência contra Trolls", "descricao": "+5 em Percepção e Sobrevivência quando usadas contra trolls (já contabilizado nos valores listados)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "especial (perseguidor)",
+    "restricao": null,
+    "iniciante": "Você recebe faro e, uma vez por rodada, +1d6 em uma rolagem de dano corpo a corpo (o dano extra é dobrado contra finntroll e trolls).",
+    "veterano": "O bônus em rolagens de dano muda para +1d8 e você recebe +2 em testes de perícia contra finntroll e trolls.",
+    "mestre": "O bônus em rolagens de dano muda para +1d10 e você não pode ser flanqueado."
+  },
+  "description": "Canídeo subterrâneo blindado, parecido com um cão selvagem mas com armadura óssea revestida de espinhos, longa cauda espinhosa e cabeça que lembra mais um crânio, menor que um lobo comum mas tão perigoso quanto. Pode atacar normalmente com a mordida ou rolar sobre o inimigo com seus espinhos. Popular em Doherimm, onde acompanha patrulhas nos túneis de acesso ao reino secreto, ajudando a farejar e atacar invasores; odeia trolls, rosnando furiosamente ao sentir seu cheiro. Em estado selvagem vive em matilhas que caçam em masmorras e ambientes subterrâneos; jamais ataca anões, podendo até ser amansado por eles com facilidade, mas é agressivo com outras criaturas.",
+  "livro": "ameacas_de_arton"
+}

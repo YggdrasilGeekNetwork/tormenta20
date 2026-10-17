@@ -1,0 +1,18 @@
+{
+  "id": "lagrima_petrea",
+  "name": "Lágrima Pétrea",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 30,
+  "espacos": 0.5,
+  "uso": "aplicado ou arremessado",
+  "acoes": { "usar": "padrao" },
+  "alcance": "curto (se arremessado) ou adjacente (se aplicado)",
+  "efeito": {
+    "remove": "todos os efeitos de metamorfose",
+    "resistencia": { "tipo": "Reflexos", "cd": "Destreza", "efeito": "evita" }
+  },
+  "description": "Este líquido cristalino tem o poder de devolver criaturas à sua forma original. Você pode gastar uma ação padrão para aplicá-lo em uma criatura adjacente ou arremessá-lo em uma criatura em alcance curto; uma dose remove todos os efeitos de metamorfose (Reflexos CD Destreza evita).",
+  "livro": "ameacas_de_arton"
+}

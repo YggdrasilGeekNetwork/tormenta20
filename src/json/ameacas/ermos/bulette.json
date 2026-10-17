@@ -1,0 +1,51 @@
+{
+  "id": "bulette",
+  "name": "Bulette",
+  "nd": 7,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "ermos",
+  "pv": 310,
+  "pm": null,
+  "defesa": 32,
+  "salvaguardas": { "fort": 20, "ref": 9, "von": 12 },
+  "reducao_de_dano": "5/adamante",
+  "imunidades": [],
+  "resistencias": { "acido": 10, "fogo": 10 },
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 8,
+  "visao": ["percepção às cegas (longo)"],
+  "deslocamento": { "terrestre": 9, "escavacao": 12 },
+  "atributos": { "for": 8, "des": 2, "con": 5, "int": -4, "sab": 1, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 23,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 8 }], "bonus": 24, "tipo": "perfuração" },
+        { "dados": [{ "quantidade": 4, "faces": 6 }], "bonus": 0, "tipo": "ácido" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Mordida (teste +25)." },
+    { "nome": "Aura Cáustica", "descricao": "No início de cada turno do bulette, todas as criaturas adjacentes sofrem 4d6 pontos de dano de ácido." },
+    { "nome": "Engolir", "acao": "padrão", "descricao": "No início de cada um dos turnos do bulette, a criatura engolida sofre 2d8+12 pontos de dano de impacto mais 4d6 pontos de dano de ácido. Pode escapar causando um total de 20 pontos de dano a ele (Defesa 10, redução de dano 0)." },
+    { "nome": "Espreitador das Dunas", "descricao": "Enquanto o bulette estiver 'nadando' no solo, é muito difícil percebê-lo. Em vez do normal, a CD de Percepção para ouvi-lo é 40, ou +20 em seu teste de Furtividade, o que for maior." }
+  ],
+  "equipamento": [],
+  "tesouro": "Duas peças de couro de bulette (CD 22 para extrair).",
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 9m (escavação 6m) e, uma vez por rodada, você recebe +1d6 em uma rolagem de dano corpo a corpo.",
+    "veterano": "O bônus em rolagens de dano muda para +1d10.",
+    "mestre": "O deslocamento de escavação muda para 12m e o bônus em rolagens de dano muda para +2d8."
+  },
+  "description": "Também chamado tubarão terrestre, imenso animal com patas curtas, carapaça grossa e bocarra com centenas de dentes, que liquefaz temporariamente os materiais rochosos tocados por sua carapaça, permitindo-lhe 'nadar' em terra firme sem deixar túneis. Mantém-se em movimento constante, carnívoro voraz que ataca qualquer criatura terrestre do tamanho de um cavalo ou menor. Não dorme nem precisa de covil, levando vida errante; seu sistema digestivo não deixa restos, nem armas e armaduras. Mais comum em Halak-Tûr e Ubani; aproxima-se por baixo e emerge com um bote, abocanhando a presa e arrastando-a solo adentro enquanto a devora. Apesar da ferocidade, é cavalgado por alguns dos maiores ginetes da Grande Savana.",
+  "livro": "ameacas_de_arton"
+}

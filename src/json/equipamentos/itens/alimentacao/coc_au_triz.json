@@ -1,0 +1,15 @@
+{
+  "id": "coc_au_triz",
+  "name": "Coc-au-Triz",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 54,
+  "espacos": 0.5,
+  "ingredientes": ["ovos de cocatriz"],
+  "efeito": {
+    "escolha": "uma habilidade com custo em PM",
+    "beneficio": "seu custo diminui em -1 PM"
+  },
+  "description": "Ovos de cocatriz são ingredientes mágicos poderosos, e esta guloseima reflete esse poder; é um ninho de fios de ovos assados e gratinados. Ao consumir, escolha uma habilidade com custo em PM. Seu custo diminui em -1 PM.",
+  "livro": "ameacas_de_arton"
+}

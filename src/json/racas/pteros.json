@@ -1,0 +1,17 @@
+{
+  "id": "pteros",
+  "name": "Pteros",
+  "description": "Thera (povo-trovão) chamado \"voador\", o único capaz de voar entre os povos-trovão, com braços transformados em asas membranosas e mãos atrofiadas. Formam grandes bandos sem organização social complexa — sem tribos, sem líderes, sem divisão de tarefas — vivendo juntos apenas porque são os únicos capazes de alcançar rochedos e penhascos onde constroem ninhos. Monogâmicos, muito ligados a seus parceiros, podendo morrer de tristeza quando o(a) companheiro(a) falece.",
+  "size": "medio",
+  "movement": 9,
+  "vision": "normal",
+  "vision_range": null,
+  "attribute_bonuses": { "sabedoria": 2, "destreza": 1, "inteligencia": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["ligacao_natural", "maos_rudimentares", "pes_rapinantes_pteros", "senhor_dos_ceus_pteros", "sentidos_rapinantes"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "longevidade": "Normal",
+  "devocao": ["allihanna", "lena", "marah", "wynna"],
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,50 @@
+{
+  "id": "lider_mercenario_de_aslothia",
+  "name": "Líder Mercenário de Aslothia",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "reino_dos_mortos",
+  "pv": 200,
+  "pm": null,
+  "defesa": 24,
+  "salvaguardas": { "fort": 17, "ref": 5, "von": 11 },
+  "reducao_de_dano": null,
+  "imunidades": ["medo"],
+  "resistencias": { "magia": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 3,
+  "visao": [],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 4, "des": 1, "con": 3, "int": 0, "sab": 1, "car": 1 },
+  "pericias": { "atletismo": 8, "intimidacao": 7 },
+  "ataques": [
+    {
+      "nome": "Alabarda",
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 10 }], "bonus": 26, "tipo": "perfuração" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Espada curta",
+      "quantidade": 2,
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 16, "tipo": "corte" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Capangas Descartáveis", "acao": "reacao", "descricao": "Uma vez por rodada, o líder mercenário pode fazer com que um aliado adjacente sofra dano de um ataque ou habilidade em vez dele próprio. Se a criatura morrer com esse dano, o líder pode fazer um ataque corpo a corpo contra o agressor. O alvo desse ataque é considerado desprevenido." },
+    { "nome": "Inescrupuloso", "descricao": "O mercenário recebe +2 em testes de ataque e +1d6 em rolagens de dano contra criaturas flanqueadas, sob efeito de alguma condição ou que sigam algum código de conduta (como Código de Honra ou Código do Herói)." }
+  ],
+  "equipamento": ["Alabarda cruel", "Brunea", "Escudo leve", "Espada curta"],
+  "tesouro": "Padrão.",
+  "description": "Comandante de um grupo de mercenários de Aslothia, cruel ao ponto de sacrificar seus próprios subordinados como escudos vivos para abrir uma oportunidade de ataque.",
+  "livro": "ameacas_de_arton"
+}

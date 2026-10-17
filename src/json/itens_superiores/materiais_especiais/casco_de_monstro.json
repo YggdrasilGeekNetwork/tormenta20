@@ -1,0 +1,37 @@
+{
+  "id": "casco_de_monstro",
+  "name": "Casco de Monstro",
+  "type": "material_especial",
+  "aparencia": "Cascos protetores de certos monstros, usados no lugar de aço e outros materiais rígidos.",
+  "origem": "Extraído de certos monstros, mais frágil que metal.",
+  "bonus_geral": {
+    "fragilidade": "ao sofrer dano de impacto, um item mundano feito de casco de monstro sofre 1 ponto a mais por dado de dano"
+  },
+  "precos_adicionais": {
+    "arma": 750,
+    "armadura_leve": 750,
+    "armadura_pesada": 6000,
+    "escudo": 750,
+    "esoterico": 6000
+  },
+  "description": "Os cascos protetores de certos monstros podem substituir aço e outros materiais rígidos, embora sejam mais frágeis; ao sofrer dano de impacto, um item mundano feito de casco de monstro sofre 1 ponto a mais por dado de dano.",
+  "effects": {
+    "arma": [
+      { "type": "conta_como_arma_primitiva", "descricao": "Conta como uma arma primitiva para a magia Armamento da Natureza e efeitos semelhantes." }
+    ],
+    "armadura_leve": [
+      { "type": "reducao_penalidade_armadura", "value": 1 }
+    ],
+    "armadura_pesada": [
+      { "type": "reducao_penalidade_armadura", "value": 1 },
+      { "type": "aplica_atributo_defesa", "atributo": "destreza", "value": 1 }
+    ],
+    "escudo": [
+      { "type": "reducao_penalidade_armadura", "value": 1 }
+    ],
+    "esoterico": [
+      { "type": "reducao_dano_proxima_rodada", "value": 5, "condicao": "ao lançar uma magia" }
+    ]
+  },
+  "livro": "ameacas_de_arton"
+}

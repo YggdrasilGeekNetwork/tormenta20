@@ -1,0 +1,46 @@
+{
+  "id": "goblin_de_ferro_mark_ii",
+  "name": "Goblin de Ferro Mark II",
+  "nd": 8,
+  "tipo": "Humanoide",
+  "subtipo": "goblin",
+  "tamanho": "grande",
+  "grupo": "duyshidakk",
+  "pv": 300,
+  "pm": null,
+  "defesa": 36,
+  "salvaguardas": { "fort": 15, "ref": 21, "von": 7 },
+  "reducao_de_dano": "20/corte_impacto_perfuração",
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 17,
+  "percepcao": 6,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12, "escalada": 12, "voo": 18 },
+  "atributos": { "for": 4, "des": 4, "con": 2, "int": 8, "sab": -1, "car": 0 },
+  "pericias": { "atletismo": 14, "oficio_engenhoqueiro": 26 },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "alcance": "3m",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 26, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Arco Voltaico", "acao": "movimento", "descricao": "Uma vez por rodada, o goblin de ferro mark II causa 4d8+4 pontos de dano de eletricidade em dois alvos a até 3m (Reflexos CD 25 reduz à metade). Alvos com armadura de metal sofrem –5 no teste; alvos agarrados não têm direito ao teste." },
+    { "nome": "Armadura Blindada", "descricao": "A veste mecânica fornece +15 na Defesa e redução de corte, impacto e perfuração 20 (já contabilizados)." },
+    { "nome": "Canhão Congelante", "acao": "padrão", "descricao": "Uma vez por rodada, dispara um raio que aprisiona uma criatura em alcance médio em bloco de gelo: 6d8 de dano de frio e fica paralisado (Fortitude CD 25 reduz à metade e muda para lento por 1 rodada). O bloco tem 10 PV, RD 8 e vulnerabilidade a fogo; quebrar exige ação completa e teste de Força CD 18." },
+    { "nome": "Foguete Explosivo", "acao": "livre", "descricao": "Uma vez por rodada, dispara um projétil em alcance médio: 4d6 de fogo e fica em chamas; adjacentes sofrem metade do dano e também ficam em chamas (Reflexos CD 25 reduz à metade e evita a condição)." },
+    { "nome": "Garra-Gancho", "acao": "padrão", "descricao": "Faz a manobra agarrar (teste +19) contra um alvo Médio ou menor em alcance curto; se agarrar, pode puxá-lo para um espaço adjacente. No início do turno, causa 3d10+8 de dano de impacto em cada criatura agarrada (pode agarrar até duas, uma com cada garra)." }
+  ],
+  "equipamento": ["Instrumentos de Ofício (engenhoqueiro) aprimorados"],
+  "tesouro": "Padrão mais peças sobressalentes (valem T$ 2.000 para fabricar engenhocas).",
+  "description": "Versão aprimorada e muito mais mortal da armadura mecânica goblin de ferro, capaz de voar e combinar armamento elétrico, gélido e explosivo num único chassi.",
+  "livro": "ameacas_de_arton"
+}

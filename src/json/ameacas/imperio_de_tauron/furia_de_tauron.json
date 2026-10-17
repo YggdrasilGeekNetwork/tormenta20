@@ -1,0 +1,43 @@
+{
+  "id": "furia_de_tauron",
+  "name": "Fúria de Tauron",
+  "nd": 4,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "pequeno",
+  "grupo": "imperio_de_tauron",
+  "pv": 30,
+  "pm": null,
+  "defesa": 20,
+  "salvaguardas": { "fort": 8, "ref": 15, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": ["incorpóreo"],
+  "resistencias": {},
+  "vulnerabilidades": ["frio"],
+  "iniciativa": 14,
+  "percepcao": 5,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "voo": 12 },
+  "atributos": { "for": null, "des": 5, "con": 2, "int": -1, "sab": 1, "car": 3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Chifres espectrais",
+      "bonus": 15,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 7, "tipo": "fogo" },
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 7, "tipo": "trevas" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Chamas Espectrais", "descricao": "Os chifres espectrais da fúria de Tauron contam como uma arma mágica. Além disso, uma criatura viva atingida pelos chifres fica desprevenida por 1 rodada e em chamas (Fortitude CD 20 evita)." },
+    { "nome": "Debandada Flamejante", "acao": "completa", "descricao": "A fúria percorre até o dobro do seu deslocamento em linha reta, golpeando todas as criaturas em seu caminho. Ela faz um único teste de ataque de seus chifres espectrais e compara com a Defesa de cada criatura nos espaços por onde passou." },
+    { "nome": "Apagar a Chama", "descricao": "Quando sofre dano de frio, a fúria fica debilitada e lenta por 1 rodada." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Morto-vivo surgido logo após a morte de Tauron, com aspecto de crânio bovino envolto em chamas macabras e espectrais, lembrando o próprio Deus da Força. Mais comum nas proximidades do cadáver titânico do deus, mas pode surgir em qualquer região de Arton. Assombra antigos templos de Tauron ou persegue ex-escravos, sozinho ou em pequenos bandos.",
+  "livro": "ameacas_de_arton"
+}

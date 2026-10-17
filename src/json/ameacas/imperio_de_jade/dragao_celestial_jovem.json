@@ -1,0 +1,50 @@
+{
+  "id": "dragao_celestial_jovem",
+  "name": "Dragão Celestial Jovem",
+  "nd": 10,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "imperio_de_jade",
+  "pv": 450,
+  "pm": 75,
+  "defesa": 35,
+  "salvaguardas": { "fort": 18, "ref": 10, "von": 22 },
+  "reducao_de_dano": 5,
+  "imunidades": ["eletricidade"],
+  "resistencias": {},
+  "resistencia_a_magia": 2,
+  "vulnerabilidades": ["ácido"],
+  "iniciativa": 12,
+  "percepcao": 16,
+  "visao": ["percepção às cegas", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 36 },
+  "atributos": { "for": 9, "des": 2, "con": 8, "int": 4, "sab": 5, "car": 4 },
+  "pericias": { "conhecimento": 15, "diplomacia": 15, "intuicao": 16, "misticismo": 15, "religiao": 16 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 20, "tipo": "perfuração" }
+      ],
+      "critico": "18/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 29,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 10 }], "bonus": 20, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Magias", "descricao": "Lança magias como clérigo de Lin-Wu de 10º nível (CD 32): Coluna de Chamas (padrão, 10 PM, cilindro 3m de raio e 30m de altura em alcance longo, 8d6 fogo + 8d6 luz, Reflexos reduz à metade), Curar Ferimentos (padrão, 10 PM, criatura adjacente cura 11d8+11 PV ou criaturas em alcance curto curam 6d8+6), Dissipar Magia (padrão, 3 PM), Escudo da Fé (reação, 8 PM, camuflagem leve contra ataques à distância e +5 na Defesa por 1 turno), Santuário (padrão, 10 PM, criatura tocada protegida de ações hostis, Vontade evita)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Dobro.",
+  "description": "Espírito dracônico moldado à imagem de Lin-Wu, uma grande serpente alongada com juba brilhante alaranjada, barbatanas de peixe e galhadas, voando de forma harmoniosa e serpenteante sem precisar de asas. Mantenedores da honra, lei e ordem, intolerantes com o crime e o mal, manifestam-se no mundo material em momentos críticos para ajudar tamuranianos honrados em necessidade.",
+  "livro": "ameacas_de_arton"
+}

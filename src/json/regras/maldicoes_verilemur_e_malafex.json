@@ -1,0 +1,16 @@
+{
+  "id": "maldicoes_verilemur_e_malafex",
+  "name": "Novos Perigos: Lágrimas de Hyninn e Maldição do Caos",
+  "description": "Duas maldições ligadas aos animais sagrados Verilêmur (Khalmyr) e Malafex (Nimb), descritas junto às fichas dessas criaturas (Ameaças de Arton, Cap. 1, seção Mascotes & Familiares).",
+  "lagrimas_de_hyninn": {
+    "descricao": "Uma praga que por vezes recai sobre mentirosos, traidores e aqueles que maltratam os animais sagrados de Khalmyr.",
+    "efeito": "Aquele que é afligido por essa maldição não pode mais mentir e se torna desajeitado, tendo dificuldade em executar ações que dependam de subterfúgio; a vítima sofre –10 em Acrobacia, Enganação, Furtividade e Ladinagem.",
+    "remocao": "A única forma de remover essa maldição é através de um Rito de Penitência (veja Religião, Tormenta20, p. 122) executado por um clérigo de Khalmyr, mediante prova de que o amaldiçoado se arrependeu de suas mentiras e trapaças."
+  },
+  "maldicao_do_caos": {
+    "descricao": "O malafex é uma criatura sagrada, protegida por Nimb. Matar um deles, mesmo por acidente, atrai sobre o infrator uma maldição terrível, de resultados imprevisíveis.",
+    "efeito": "A vítima é afetada por um efeito aleatório da magia Rogar Maldição, sem direito a teste de resistência. Role 1d4 para determinar o efeito: 1) debilidade, 2) doença, 3) fraqueza, 4) isolamento (Tormenta20, p. 204). No início de cada aventura em que a maldição persistir, role novamente seu efeito.",
+    "remocao": "A única forma de remover essa maldição é com um Rito de Penitência (Religião, Tormenta20, p. 122) executado por um clérigo de Nimb. Ou não — devotos de Nimb dizem que a maldição muda a cada vez que é renovada."
+  },
+  "livro": "ameacas_de_arton"
+}

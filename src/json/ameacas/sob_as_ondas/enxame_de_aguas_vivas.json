@@ -1,0 +1,32 @@
+{
+  "id": "enxame_de_aguas_vivas",
+  "name": "Enxame de Águas-vivas",
+  "nd": 6,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "sob_as_ondas",
+  "pv": 255,
+  "defesa": 27,
+  "salvaguardas": { "fort": 12, "ref": 18, "von": 6 },
+  "reducao_de_dano": null,
+  "imunidades": ["acido"],
+  "resistencias": { "impacto": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 6,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "natacao": 12 },
+  "atributos": { "for": 0, "des": 4, "con": 3, "int": -4, "sab": 1, "car": -4 },
+  "pericias": { "furtividade": 9 },
+  "ataques": [],
+  "poderes_especiais": [
+    { "nome": "Enxame", "descricao": "O enxame de águas-vivas causa automaticamente 4d6+10 pontos de dano de perfuração mais 4d6+12 pontos de dano de ácido a qualquer criatura em seu espaço, sem necessidade de teste de ataque." },
+    { "nome": "Corpo Aquático", "descricao": "Fora d'água, o enxame de águas-vivas evapora e morre em 1d8 horas. Nesse tempo, qualquer criatura que tocar nele sofre 2d6 pontos de dano de ácido." },
+    { "nome": "Grudar nas Costas", "descricao": "Quando uma criatura sai do espaço do enxame, algumas águas-vivas ficam presas em suas costas. A criatura continua sofrendo metade do dano da habilidade Enxame até gastar uma ação de movimento para se livrar das águas-vivas." },
+    { "nome": "Mesclar-se", "descricao": "Enquanto está submerso em água, o enxame tem camuflagem leve." }
+  ],
+  "tesouro": "Filamentos corrosivos (CD 21 para extrair, valem T$ 60 para fabricar ácidos).",
+  "description": "Massa de águas-vivas agindo em conjunto, representando o perigo coletivo dessas criaturas para quem se aventura em águas abertas.",
+  "livro": "ameacas_de_arton"
+}

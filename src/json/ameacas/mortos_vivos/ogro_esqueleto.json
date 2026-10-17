@@ -1,0 +1,41 @@
+{
+  "id": "ogro_esqueleto",
+  "name": "Ogro Esqueleto",
+  "nd": 3,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "mortos_vivos",
+  "pv": 99,
+  "pm": null,
+  "defesa": 19,
+  "salvaguardas": { "fort": 15, "ref": 3, "von": 4 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": { "corte": 5, "frio": 5, "perfuração": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 0,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 4, "des": 1, "con": 3, "int": null, "sab": -1, "car": -1 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Tacape",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 15, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Morto Demais...", "acao": "movimento", "descricao": "Uma vez por cena, se for desarmado, o ogro esqueleto retira um de seus próprios ossos para utilizar de arma, com as mesmas estatísticas de seu tacape." },
+    { "nome": "...Para Morrer Novamente!", "descricao": "Todo dano de corte, frio e perfuração que o ogro sofre é reduzido à metade (antes de aplicar a redução de dano)." }
+  ],
+  "equipamento": ["Tacape aumentado"],
+  "tesouro": "Nenhum.",
+  "description": "Esqueleto animado de ogro, grande e perigoso, tão resistente a danos cortantes e perfurantes que até recorre ao próprio corpo como arma improvisada quando desarmado.",
+  "livro": "ameacas_de_arton"
+}

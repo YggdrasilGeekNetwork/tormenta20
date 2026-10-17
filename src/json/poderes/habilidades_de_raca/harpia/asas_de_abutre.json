@@ -1,0 +1,12 @@
+{
+  "id": "asas_de_abutre",
+  "name": "Asas de Abutre",
+  "type": "habilidade_de_raca",
+  "race": "harpia",
+  "description": "Você possui asas no lugar dos braços e das mãos. Você pode pairar a 1,5m do chão com deslocamento 12m. Isso permite que você ignore terreno difícil e o torna imune a dano por queda (a menos que esteja inconsciente). Se não estiver usando armadura pesada, você pode gastar 1 PM por rodada para voar com deslocamento de 12m.",
+  "effects": {
+    "hover": { "height": "1,5m", "movement": 12, "ignores_difficult_terrain": true, "fall_damage_immunity": true },
+    "flight": { "movement": 12, "cost_pm_per_round": 1, "requires": "sem armadura pesada" }
+  },
+  "livro": "ameacas_de_arton"
+}

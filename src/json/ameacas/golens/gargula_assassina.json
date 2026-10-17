@@ -1,0 +1,42 @@
+{
+  "id": "gargula_assassina",
+  "name": "Gárgula Assassina",
+  "nd": 4,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "golens",
+  "pv": 140,
+  "pm": null,
+  "defesa": 25,
+  "salvaguardas": { "fort": 16, "ref": 10, "von": 4 },
+  "reducao_de_dano": 5,
+  "imunidades": ["petrificado"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 5,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 18 },
+  "atributos": { "for": 6, "des": 2, "con": 4, "int": -2, "sab": 1, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 17,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 10, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Furtivo", "descricao": "Causa +2d6 de dano adicional quando ataca um alvo desprevenido ou surpreso." },
+    { "nome": "Imobilidade", "descricao": "Pode permanecer completamente imóvel. Um personagem deve passar em um teste de Percepção (CD 35) para perceber que ela é uma criatura e não uma estátua." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão.",
+  "description": "Variante mais letal da gárgula comum, dotada de reflexos aguçados e instinto predatório refinado, capaz de explorar a surpresa de suas vítimas com precisão mortal.",
+  "livro": "ameacas_de_arton"
+}

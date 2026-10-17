@@ -1,0 +1,21 @@
+{
+  "id": "mordida_do_diabo",
+  "name": "Mordida do Diabo",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 30,
+  "dano": "1d4",
+  "critico": "x2",
+  "alcance": "curto",
+  "tipo_dano": "perfuracao",
+  "espacos": 1,
+  "habilidades": ["alongada", "agil", "versatil"],
+  "especial": {
+    "alcance_corrente": "3m",
+    "bonus_manobra": { "agarrar": 2, "desarmar": 2 }
+  },
+  "description": "Esta arma é formada por um aparato em forma de mandíbula preso a uma empunhadura. A mandíbula pode ser usada para agarrar e, graças a uma longa corrente, pode se destacar do cabo e alcançar alvos a até 3m. Por exigir movimentos precisos e coordenados, é uma arma exótica. A mordida pode ser feita de metal, mas ossos e dentes de feras aquáticas também são usados. É uma arma ágil e versátil, fornecendo +2 em testes para agarrar e desarmar.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,20 @@
+{
+  "id": "isca_putrefata",
+  "name": "Isca Putrefata",
+  "type": "item",
+  "categoria": "alquimico",
+  "subcategoria": "preparado",
+  "preco": 60,
+  "espacos": 0.5,
+  "uso": "arremessado",
+  "acoes": { "arremessar": "padrao" },
+  "alcance": "medio",
+  "efeito": {
+    "resistencia_grude": { "tipo": "Reflexos", "cd": "Destreza", "efeito": "evita" },
+    "duracao": "1d6 rodadas",
+    "atracao": { "alvo": "morto-vivo não inteligente em alcance curto", "resistencia": { "tipo": "Vontade", "cd": "Destreza", "efeito": "evita" }, "efeito": "gasta todas as ações para se deslocar até a isca" },
+    "ao_alcancar": "fica fascinado, ou ataca a criatura se a isca estiver presa a ela"
+  },
+  "description": "Frasco de restos mortais diluídos em uma solução macabra. Você pode gastar uma ação padrão para arremessar a isca em um local ou criatura em alcance médio. A isca se gruda ao alvo (Reflexos CD Destreza evita) e dura 1d6 rodadas. Durante esse tempo, cada morto-vivo não inteligente em alcance curto é atraído (Vontade CD Destreza evita), gastando todas as suas ações para se deslocar até a isca. Quando a alcança, fica fascinado ou, se a isca estiver presa a uma criatura, a ataca.",
+  "livro": "ameacas_de_arton"
+}

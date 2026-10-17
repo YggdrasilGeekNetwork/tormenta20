@@ -1,0 +1,49 @@
+{
+  "id": "bispo_do_forte_sagrado",
+  "name": "Bispo do Forte Sagrado (Bispo de Guerra)",
+  "nd": 10,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "exemplos_de_criacao",
+  "pv": 460,
+  "pm": 82,
+  "defesa": 30,
+  "salvaguardas": { "fort": 17, "ref": 10, "von": 28 },
+  "reducao_de_dano": 15,
+  "imunidades": ["medo", "maior que a morte"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 16,
+  "visao": [],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 3, "des": 0, "con": 4, "int": 2, "sab": 6, "car": 1 },
+  "pericias": { "guerra": 18, "misticismo": 14, "religiao": 18 },
+  "ataques": [
+    {
+      "nome": "Martelo de Guerra",
+      "quantidade": 2,
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 10, "tipo": "impacto" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ódio Puro", "descricao": "Como um purista, o bispo do forte sagrado recebe +5 em testes de Vontade quando está seguindo ordens de um superior (qualquer purista com ND maior) e +2 em rolagens de dano contra humanoides não humanos." },
+    { "nome": "Prece de Combate", "custo_pm": 2, "descricao": "Quando lança uma magia divina com tempo de conjuração de uma ação padrão em si mesmo, o bispo pode lançá-la como uma ação de movimento." },
+    { "nome": "Símbolo Sagrado Energizado", "acao": "movimento", "custo_pm": 1, "descricao": "O bispo energiza seu símbolo sagrado. Até o fim da cena, ele emite uma luz avermelhada que ilumina como uma tocha e, enquanto estiver sendo empunhado, reduz o custo de magias divinas em -1 PM." },
+    { "nome": "Templo", "descricao": "O bispo controla um templo devotado a Arsenal (arena Templo). Esse templo está sob efeito da magia Consagrar e, dentro dele, devotos de Arsenal recebem +2 na Defesa e em testes de perícia (já contabilizado). Uma magia Profanar anula esses efeitos por 1d6 rodadas." },
+    { "nome": "Fonte Curativa", "descricao": "Energias místicas fornecem cura acelerada 10 para o bispo. Um personagem pode gastar duas ações completas e fazer um teste de Religião (CD 30) para gerar um pulso curativo que cura 10 PV em todos os personagens e desativa a fonte." },
+    { "nome": "Linhas Místicas", "descricao": "O bispo recebe +2 na CD de suas habilidades (já contabilizado) e recupera 2 PM no início de cada um de seus turnos. Um personagem pode gastar ação padrão e teste de Misticismo (CD 30) para receber esse benefício no lugar do bispo por 1 rodada (uma vez por cena por personagem)." },
+    { "nome": "Selo Místico", "descricao": "A arena possui um símbolo místico que armazena a magia Soco de Arsenal. O bispo pode gastar uma ação de movimento para lançar o efeito básico dessa magia sem gastar PM (uma criatura em alcance médio sofre 4d6+3 pontos de dano de impacto e é empurrada 3m na direção oposta; Fortitude CD 30 reduz o dano à metade e evita o empurrão). Um personagem pode desativar o selo com ação completa e teste de Misticismo (CD 30)." },
+    { "nome": "Torreta", "descricao": "O bispo pode gastar uma ação de movimento para ativar a torreta, que dispara contra uma criatura em alcance médio (ataque +26, dano 1d8+10 impacto, x3). Um personagem pode desativar a torreta com ação completa e teste de Ladinagem (CD 30)." },
+    { "nome": "Magias", "descricao": "Lança magias como um clérigo de Arsenal de 10º nível (CD 30): Curar Ferimentos (padrão, 8 PM; uma criatura adjacente cura 9d8+9 PV); Dissipar Magia (padrão, 3 PM; o bispo escolhe uma criatura, objeto ou esfera de 3m em alcance médio e faz um teste de Misticismo, todas as magias nesse alvo com CD igual ou menor que o resultado do teste são dissipadas); Escudo da Fé (reação, 3 PM; quando uma criatura em alcance curto sofre um ataque, ela recebe +3 na Defesa por 1 turno); Oração (padrão, 11 PM, sustentada; o bispo e seus aliados em alcance curto recebem +4 em testes de perícia e rolagens de dano, e todos os inimigos em alcance curto recebem -4 em testes de perícia e rolagens de dano); Soco de Arsenal (padrão, 7 PM; uma criatura em alcance médio sofre 6d6+3 pontos de dano de impacto e é empurrada 3m na direção oposta, Fortitude reduz à metade e evita o empurrão); Sopro da Salvação (padrão, 8 PM; o bispo sopra um cone de 9m que cura 3d8+3 PV e remove uma das seguintes condições dos aliados na área: abalado, atordoado, apavorado, alquebrado, cego, confuso, debilitado, enfeitiçado, enjoado, esmorecido, exausto, fascinado, fatigado, fraco, frustrado, lento, paralisado, pasmo e surdo)." }
+  ],
+  "equipamento": ["Armadura completa ajustada reforçada", "Escudo leve reforçado", "Martelo de guerra", "Símbolo sagrado de Arsenal", "Poção de Velocidade"],
+  "tesouro": "Padrão.",
+  "description": "Exemplo completo de rei da arena apresentado no livro: um bispo purista devoto de Arsenal transformado em chefe final usando seu próprio templo como arena (Templo) e os recursos Fonte Curativa, Linhas de Mana (como Linhas Místicas), Selo Místico e Torreta.",
+  "livro": "ameacas_de_arton"
+}

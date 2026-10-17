@@ -1,0 +1,16 @@
+{
+  "id": "orc",
+  "name": "Orc",
+  "description": "Talvez o povo humanoide mais brutal e violento de Arton, orcs existem em números vastos espalhados pelo mundo, vivendo em cavernas e túneis tanto por hábito quanto por necessidade — são sensíveis à luz do sol, que ofusca sua visão e reduz suas habilidades de combate. Sua origem é um mistério: alguns dizem ser o povo mais antigo do mundo, um esboço rudimentar dos deuses; outros, que seriam seres mestiços, uma combinação de traços de outras grandes raças, ou mesmo uma ocorrência acidental. Não parecem capazes de evoluir, não absorvem conhecimento de outras culturas, e não se organizam além de pequenas tribos guerreiras que lutam por território e recursos. Em combate são rudes e óbvios, avançando em fúria sem qualquer tática; para o orc típico, não existe poder maior que a força bruta, nem resposta melhor que a violência. O destino de um orc mais esperto que seus iguais é abandonar a tribo — ou ser massacrado; alguns desses, com muito custo, conseguem se tornar aventureiros.",
+  "size": "médio",
+  "movement": 9,
+  "vision": "visao_no_escuro",
+  "vision_range": null,
+  "attribute_bonuses": { "forca": 2, "constituicao": 1, "inteligencia": -1 },
+  "skill_bonuses": [],
+  "racial_abilities": ["feroz", "habitante_das_cavernas", "vigor_brutal"],
+  "chosen_abilities_amount": 0,
+  "available_chosen_abilities": [],
+  "devocao": ["allihanna", "arsenal", "megalokk", "nimb", "tenebra"],
+  "livro": "ameacas_de_arton"
+}

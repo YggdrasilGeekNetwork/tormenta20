@@ -1,0 +1,57 @@
+{
+  "id": "corcel_de_kally",
+  "name": "Corcel de Kally",
+  "nd": 2,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "igreja_de_kallyadranoch",
+  "pv": 72,
+  "pm": null,
+  "defesa": 20,
+  "salvaguardas": { "fort": 11, "ref": 9, "von": 2 },
+  "reducao_de_dano": null,
+  "imunidades": ["fogo"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 5,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 18 },
+  "atributos": { "for": 4, "des": 2, "con": 3, "int": -3, "sab": 1, "car": 0 },
+  "pericias": { "atletismo": 7 },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 4, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 4, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Natureza Dracônica", "descricao": "Um corcel de Kally conta como um dragão para efeitos que afetem dragões." },
+    { "nome": "Sopro", "acao": "padrão", "descricao": "Todas as criaturas em um cone de 6m sofrem 2d8 pontos de dano de fogo e ficam em chamas (Reflexos CD 16 reduz à metade e evita a condição). Recarga (movimento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Peça de couro de dragão (CD 17 para extrair, veja Tormenta20, p.312) e glândula incendiária (CD 17 para extrair, vale T$ 15 para fabricar fogo alquímico).",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "iniciante": "Seu deslocamento muda para 12m e, uma vez por rodada, você recebe +1d6 em uma rolagem de dano corpo a corpo.",
+    "veterano": "O bônus na rolagem de dano muda para +1d8 e seu deslocamento muda para 12m (normal e de voo).",
+    "mestre": "Seu deslocamento normal e de voo muda para 18m e, uma vez por rodada, você pode gastar 2 PM para causar 3d8 pontos de dano de fogo em todas as criaturas em um cone de 6m (Reflexos CD Carisma reduz à metade)."
+  },
+  "description": "Montaria sagrada de Kallyadranoch, uma recompensa para seus devotos mais merecedores — e ao mesmo tempo um aviso: dragões verdadeiros não existem para ser cavalgados. Apesar do aspecto dracônico (corpo escamado, cauda longa, asas coriáceas, mandíbulas com dentes afiados pingando chamas), é apenas um pouco mais inteligente que um cavalo comum, obedecendo aos comandos do cavaleiro e não se assustando em combate.",
+  "livro": "ameacas_de_arton"
+}

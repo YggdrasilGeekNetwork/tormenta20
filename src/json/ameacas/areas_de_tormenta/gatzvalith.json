@@ -1,0 +1,54 @@
+{
+  "id": "gatzvalith",
+  "name": "Gatzvalith, Lorde da Tormenta",
+  "nd": 22,
+  "tipo": "Monstro",
+  "subtipo": "lekael",
+  "tamanho": "grande",
+  "grupo": "areas_de_tormenta",
+  "pv": 3700,
+  "pm": null,
+  "defesa": 69,
+  "salvaguardas": { "fort": 34, "ref": 36, "von": 24 },
+  "reducao_de_dano": 25,
+  "imunidades": ["medo"],
+  "resistencias": { "magia": 10 },
+  "vulnerabilidades": [],
+  "iniciativa": 28,
+  "percepcao": 39,
+  "visao": ["percepção perfeita"],
+  "deslocamento": { "terrestre": 15, "voo": 36 },
+  "atributos": { "for": 18, "des": 12, "con": 19, "int": 15, "sab": 8, "car": 14 },
+  "pericias": { "conhecimento": 36, "diplomacia": 35, "enganacao": 35, "guerra": 41, "intimidacao": 40, "intuicao": 34, "misticismo": 31 },
+  "ataques": [
+    {
+      "nome": "Rompedor da Realidade",
+      "quantidade": 4,
+      "bonus": 64,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 12 }], "bonus": 31, "tipo": "indefinido" },
+        { "dados": [], "bonus": 0, "tipo": "essência", "observacao": "mais 2d8 contra não lefeu" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Maior que a Morte", "descricao": "Gatzvalith possui a habilidade Maior que a Morte." },
+    { "nome": "Coração da Tormenta", "descricao": "Um lekael só pode ser verdadeiramente destruído se o coração de sua área de Tormenta também for; caso não seja, retorna à vida em uma semana." },
+    { "nome": "Domínio Sobre o Tempo", "descricao": "Gatzvalith pode fazer duas ações padrão e duas ações de movimento a cada turno." },
+    { "nome": "Invocar Lefeu", "acao": "completa", "descricao": "Uma vez por cena, invoca um ou mais lefeu a sua escolha, cujo ND total somado seja igual ao seu. Surgem em alcance curto e agem a partir da próxima rodada." },
+    { "nome": "Poder sobre a Realidade", "descricao": "Pode lançar qualquer magia simulada de até 4º círculo como um conjurador de 20º nível (CD 55, limite de PM 20) sem gastar PM." },
+    { "nome": "Telepatia", "descricao": "Pode se comunicar com qualquer criatura inteligente dentro de sua área de Tormenta ou a 1km de distância fora dela. É imune a efeitos mentais." },
+    { "nome": "Carapaça Suprema", "descricao": "Gatzvalith sofre apenas metade do dano de fontes mundanas, exceto de aço-rubi." },
+    { "nome": "Estrategista Perfeito", "descricao": "Quando faz um ataque, Gatzvalith joga dois dados e usa o melhor resultado. Todos os lefeu em alcance longo também recebem este benefício." },
+    { "nome": "Insanidade da Tormenta", "descricao": "2d20 PM (Vontade CD 55 evita). Esta habilidade pode afetar mesmo criaturas que já foram afetadas pela Insanidade da Tormenta de outras criaturas neste dia." },
+    { "nome": "Raio da Anticriação (mágica)", "acao": "padrão", "descricao": "Gatzvalith dispara um raio rubro em uma criatura em alcance médio, causando 18d12 pontos de dano de essência (Fortitude CD 55 reduz à metade). Uma criatura reduzida a 0 PV ou menos por esta habilidade morre automaticamente e não pode ser ressuscitada (nem mesmo por Dom da Ressurreição)." },
+    { "nome": "Reescrever a Realidade (mágica)", "acao": "completa", "descricao": "Uma vez por cena, Gatzvalith reorganiza uma parte da realidade em uma esfera de 15m ao seu redor: efeitos mágicos na área são automaticamente dissipados (como por Dissipar Magia) e habilidades mundanas com duração maior que instantânea se encerram; inimigos na área ficam alquebrados por 1d4 rodadas." },
+    { "nome": "Sedução (mágica)", "acao": "movimento", "descricao": "Uma criatura a até 1km de Gatzvalith perde 1d10 PM, fica pasma por 1 rodada e vulnerável (Vontade CD 55 evita). Falhas consecutivas na mesma cena se acumulam: na 2ª, perde mais 1d10 PM e fica esmorecida; na 3ª, perde 1d10 PM permanentemente e fica atordoada por 1 rodada; na 4ª, suas ações físicas nesta rodada ficam sob controle de Gatzvalith (mantém consciência, podendo ver, ouvir e falar com esforço, mas não lançar magias); na 5ª falha, a vítima se transforma em uma criatura do tipo monstro (lefeu) e se torna um NPC sob controle do mestre." },
+    { "nome": "Varrer", "acao": "livre", "descricao": "Uma vez por rodada, quando Gatzvalith faz um ataque corpo a corpo e reduz os pontos de vida do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance." }
+  ],
+  "equipamento": ["Rompedor da Realidade"],
+  "tesouro": "Dobro.",
+  "description": "ND do livro: S+ (status especial acima de ND 20, não um nível numérico real — ver Criaturas S e S+ em `regras/regras_adicionais_de_ameacas.json`); armazenado aqui como 22 por convenção editorial da gem, já que a coluna `nd` exige um valor numérico (S=21, S+=22). O primeiro lekael (Lorde da Tormenta) revelado, senhor de guerra e tirano todo-poderoso em sua fortaleza conquistada em Trebuck — não uma entidade aberrante de horror incompreensível, mas um verdadeiro inimigo que não destrói cegamente: ele conquista. Um vulto robusto em carapaça aberrante viva, elmo fechado ornamentado com chifres caprinos e um enorme machado de osso-metal (o Rompedor da Realidade) nas mãos. Agiu como estrategista na Batalha de Amarid, anunciando sua Tormenta com uma manifestação modesta junto a um forte militar e esperando pacientemente o maior exército já visto em Arton se reunir contra ele — apenas para infligir-lhe uma derrota esmagadora. Estudiosos especulam que seu objetivo era medir forças, observar os nativos ou detectar os seres mais poderosos de Arton: a última meta parece verdadeira, pois heróis épicos presentes no conflito foram tentados com promessas de poder através de sua Sedução, mantendo-os prudentemente afastados.",
+  "livro": "ameacas_de_arton"
+}

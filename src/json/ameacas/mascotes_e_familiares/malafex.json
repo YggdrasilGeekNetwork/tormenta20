@@ -1,0 +1,49 @@
+{
+  "id": "malafex",
+  "name": "Malafex",
+  "nd": 0.5,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "minusculo",
+  "grupo": "mascotes_e_familiares",
+  "pv": 13,
+  "pm": null,
+  "defesa": 13,
+  "salvaguardas": { "fort": 2, "ref": 6, "von": 2 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 7,
+  "visao": ["visão na penumbra"],
+  "deslocamento": { "terrestre": 3, "voo": 18 },
+  "atributos": { "for": -2, "des": 3, "con": 1, "int": -4, "sab": 3, "car": 2 },
+  "pericias": { "furtividade": 10, "sobrevivencia": 5 },
+  "ataques": [
+    {
+      "nome": "Garras",
+      "bonus": 5,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 6, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Inverter Sorte", "descricao": "Sempre que outra criatura, exceto devotos de Nimb, em alcance médio do malafex faz um teste, se o d20 rolar um valor par, o resultado do teste será o contrário do obtido: um sucesso será uma falha e uma falha será um sucesso. O malafex pode desativar essa habilidade à vontade e não há como saber se ela está ativa ou não antes de fazer o teste." },
+    { "nome": "Mergulho", "descricao": "Quando faz uma investida alada, o malafex pode continuar se movendo depois do ataque. Deve se mover em linha reta e seu movimento máximo ainda é limitado ao dobro do seu deslocamento." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": null,
+  "parceiro": {
+    "tipo": "especial (ajudante)",
+    "restricao": "apenas devotos de Nimb",
+    "iniciante": "Você pode usar Sorte dos Loucos. Se já tiver esse poder, a perda de PM é reduzida para 1d4.",
+    "veterano": "Você pode usar Sorte dos Loucos em aliados voluntários em alcance curto (caso falhe, o aliado perde os PM).",
+    "mestre": "Quando um inimigo em alcance curto faz um teste, você pode gastar 2 PM para forçá-lo a rolar novamente o dado. Se ainda assim ele passar, você perde 1d6 PM (ou 1d4 se tiver Sorte dos Loucos)."
+  },
+  "description": "Conhecido como 'pássaro do Caos', animal sagrado de Nimb e rival natural do verilêmur. Lembra um corvo com manchas brancas; devotos dizem que são puras manifestações do acaso, da sorte e do azar. Sua presença distorce as leis naturais da área, trocando a sorte pelo azar: um combatente extremamente habilidoso errará a maioria de seus golpes, enquanto um novato incompetente acertará o tempo inteiro. A domesticação diminui drasticamente essa habilidade, mas mesmo assim é inconveniente para eventuais companheiros. É protegido por Nimb; matar um, mesmo por acidente, atrai sobre o infrator uma maldição terrível e imprevisível (veja a regra 'Maldição do Caos'). Devotos de Nimb são os únicos imunes ao poder de Inverter Sorte, sendo comum adotarem a ave como mascote.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,42 @@
+{
+  "id": "infecto",
+  "name": "Infecto",
+  "nd": 3,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "areas_de_tormenta",
+  "pv": 30,
+  "pm": null,
+  "defesa": 20,
+  "salvaguardas": { "fort": 14, "ref": 4, "von": 4 },
+  "reducao_de_dano": "5/corte",
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 4,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 4, "des": 1, "con": 3, "int": null, "sab": 1, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 8 }], "bonus": 9, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2",
+      "observacao": "mais doença"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Doença", "descricao": "Uma criatura mordida por um infecto é exposta à doença infecção escarlate." },
+    { "nome": "Parasitas Famintos", "descricao": "Uma criatura que comece seu turno adjacente ao infecto, ou faça um ataque corpo a corpo contra ele, é exposta à doença infecção escarlate (Reflexos CD 17 evita)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Vulto trôpego que poderia passar por um zumbi comum, até um olhar mais atento revelar a barriga inchada e semitransparente, cheia de vermes agitados, e o corpo repleto de pústulas que abrigam mais parasitas — por isso, também conhecido como 'carregador de demônios'. Visto com mais frequência em áreas de Tormenta e regiões vizinhas, mas pode ocorrer em quase qualquer ponto de Arton; sua origem não foi explicada, podendo ser resultado de experimentos necromânticos de bruxos da Tormenta, criação dos Lordes, ou ocorrência sobrenatural. Tenta transmitir seus parasitas pela mordida, mas o simples contato já é suficiente — uma vez contaminada, a vítima geralmente adoece e morre horrivelmente em poucos dias, transformando-se também em um infecto.",
+  "livro": "ameacas_de_arton"
+}

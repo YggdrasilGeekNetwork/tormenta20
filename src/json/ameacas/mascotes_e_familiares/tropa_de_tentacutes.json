@@ -1,0 +1,47 @@
+{
+  "id": "tropa_de_tentacutes",
+  "name": "Tropa de Tentacutes",
+  "nd": 2,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "mascotes_e_familiares",
+  "pv": 17,
+  "pm": null,
+  "defesa": 19,
+  "salvaguardas": { "fort": 7, "ref": 14, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 12,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9, "escalada": 9 },
+  "atributos": { "for": 0, "des": 5, "con": 1, "int": -3, "sab": 4, "car": -2 },
+  "pericias": { "furtividade": 10 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 13,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 4, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2",
+      "observacao": "[Bando]"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Bando", "descricao": "Representa um bando de tentacutes agindo em conjunto (veja Manual de Criação de Ameaças, 'Como Criar Bandos')." },
+    { "nome": "Cacofonia", "descricao": "Criaturas em alcance curto da tropa de tentacutes sofrem –2 em testes de perícias e são consideradas em condição ruim para lançar magias." },
+    { "nome": "Curiosidade Larápia", "descricao": "A tropa pode fazer testes de Furtividade no lugar de Ladinagem para ocultar e punga." },
+    { "nome": "Mãozinhas Marotas", "acao": "padrão", "descricao": "A tropa faz 1d6 testes de punga contra criaturas adjacentes (pode fazer mais de um teste contra a mesma criatura, para objetos diferentes)." },
+    { "nome": "Serelepe", "descricao": "A tropa pode fazer uma ação de movimento adicional por rodada, mas somente para se deslocar." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "familiar": null,
+  "parceiro": null,
+  "description": "Um bando de tentacutes agindo em conjunto, geralmente atraído por objetos pequenos e brilhantes como moedas e gemas. Em grupo, tentacutes se tornam uma ameaça de furto organizado: distraem e atordoam suas vítimas com uma cacofonia de ruídos enquanto pequenas mãos revistam bolsos e bolsas em busca de tesouros.",
+  "livro": "ameacas_de_arton"
+}

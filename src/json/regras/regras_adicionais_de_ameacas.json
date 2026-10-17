@@ -1,0 +1,51 @@
+{
+  "id": "regras_adicionais_de_ameacas",
+  "name": "Regras Adicionais de Ameaças",
+  "description": "Regras que complementam e esclarecem o uso de ataques, habilidades e morte por ameaças, condições de itens, parceiros de ameaças, recompensas por vários inimigos, criaturas de nível de desafio S/S+, e magias sem custo ou simuladas (Ameaças de Arton, Cap. 2).",
+  "criaturas_e_ataques": {
+    "luta_e_pontaria": "Por simplicidade, os valores das perícias Luta e Pontaria de uma criatura são iguais aos ataques listados para ela, e uma criatura com um ataque sempre é treinada na perícia correspondente. Se a criatura não tiver um ataque de um determinado tipo e a perícia correspondente não estiver listada, ela não é treinada (usa metade do ND + Força ou Destreza).",
+    "tipos_e_dados_de_dano": "A descrição de cada ataque indica o tipo de dano causado. Se nenhum tipo for indicado, o ataque causa o dano normal para aquela arma. Bônus de dano e dados extras de criaturas não são multiplicados em acerto crítico, a menos que dito em contrário na ficha da ameaça.",
+    "armas_naturais": {
+      "regra_geral": "Como regra geral, armas naturais causam 1d6 pontos de dano de seu tipo para uma criatura Pequena ou Média. Criaturas Minúsculas diminuem esse dano em um passo; criaturas Grandes e Enormes aumentam em um passo; criaturas Colossais aumentam em dois passos (veja Tabela 3-2: Dano de Armas, Tormenta20 p. 143). Criaturas com armas naturais mais fracas ou particularmente perigosas podem causar dano diferente desses valores.",
+      "tabela_2_1_armas_naturais": [
+        { "arma": "Cascos", "dano": "Impacto" },
+        { "arma": "Cauda", "dano": "Impacto" },
+        { "arma": "Chifres", "dano": "Perfuração" },
+        { "arma": "Ferrão", "dano": "Perfuração" },
+        { "arma": "Garra", "dano": "Corte" },
+        { "arma": "Marrada", "dano": "Impacto" },
+        { "arma": "Mordida", "dano": "Perfuração" },
+        { "arma": "Pancada", "dano": "Impacto" },
+        { "arma": "Pinça", "dano": "Corte" },
+        { "arma": "Presas", "dano": "Perfuração" },
+        { "arma": "Tentáculo", "dano": "Impacto" },
+        { "arma": "Tromba", "dano": "Impacto" }
+      ]
+    },
+    "armas_empunhadas": "Para armas empunhadas por criaturas, qualquer modificação nas características da arma (dano básico, crítico etc.) é resultado das habilidades da criatura, a menos que descrito na ficha. Nas mãos de outra criatura, como os personagens, a arma funciona como um exemplar normal com características padrão. Exemplo: um coletor de Arsenal usa um martelo de guerra (dano básico 1d8) que causa 2d8 pontos de dano — o dado extra é parte das habilidades do coletor; nas mãos de outra criatura, a arma é apenas um martelo de guerra formidável (1d8).",
+    "removendo_equipamentos": "Se uma criatura perder sua arma e precisar recorrer a um ataque desarmado rapidamente, considere que o modificador de ataque desarmado é igual ao de seu ataque principal, e seu dano desarmado é 1d3 + o bônus de dano do ataque principal (sem bônus/dados extras específicos da arma) para criaturas Pequenas e Médias — ajustar por tamanho como em armas naturais. Alternativamente, ao criar uma ameaça nova, pode-se definir um ataque desarmado próprio. Da mesma forma, se a criatura perder escudo ou tiver a armadura destruída, ajuste as características afetadas conforme as estatísticas do item perdido (descrição em 'Equipamento' + habilidades que dependam dele)."
+  },
+  "cd_de_habilidades": {
+    "descricao": "As fichas de ameaças não indicam o atributo-chave da CD de cada habilidade, por simplicidade — basta saber o valor da CD para usar a criatura. Em casos específicos (como efeitos que modificam atributos), use as diretrizes abaixo para determinar o atributo-chave.",
+    "categorias": [
+      { "nome": "Habilidades Atléticas", "descricao": "Derrubam ou deslocam alvos, ou causam condições de movimento.", "atributo_chave": "Força ou Destreza (o maior)" },
+      { "nome": "Habilidades Fisiológicas", "descricao": "Baseadas na fisiologia da criatura: doenças, venenos, energia não mágica (sopro de fogo, nuvem fétida).", "atributo_chave": "Constituição" },
+      { "nome": "Habilidades de Controle", "descricao": "Controlam a mente de outras criaturas, impõem condições mentais ou causam dano psíquico.", "atributo_chave": "Carisma" },
+      { "nome": "Magias", "descricao": "O atributo-chave é indicado pelo tipo de conjurador. Para conjuradores arcanos sem caminho de magia definido, use Inteligência ou Carisma (o maior).", "atributo_chave": "varia pelo tipo de conjurador" },
+      { "nome": "Outras habilidades", "descricao": "Para efeitos que não se encaixam nas categorias acima.", "atributo_chave": "o maior entre Força/Destreza/Constituição para habilidades claramente físicas, ou o maior entre Inteligência/Sabedoria/Carisma para habilidades mágicas/mentais, ou o maior de todos os atributos se não for possível classificar" }
+    ]
+  },
+  "ameacas_e_morte": "Variante para simplificar a regra de morte com ameaças (que têm muitos PV e pouca chance de efetivamente morrer em combate). Quando uma ameaça é reduzida a 0 ou menos PV por dano letal, anote esse valor mas ignore sangramentos. No fim do combate, lacaios nessa situação estão mortos; solos e especiais têm 50% de chance de estar vivos. Os personagens podem impedir essas mortes estabilizando ou curando a ameaça durante o combate, ou causando dano não letal.",
+  "condicoes_de_itens": {
+    "descricao": "Condições específicas para itens, introduzidas para representar efeitos de habilidades de ameaças.",
+    "avariado": "O item possui mossas, rachaduras ou avarias que comprometem seu uso. Uma arma ou ferramenta avariada impõe –5 nos testes em que é empregada; uma armadura ou escudo avariado impõe –5 na Defesa. Penalidades cumulativas com outros efeitos. Se avariado novamente, o item é destruído.",
+    "destruido": "O item não pode ser usado e não concede nenhum de seus benefícios. Ocorre quando o item perde todos os PV ou quando um efeito impõe essa condição.",
+    "reparando_itens": "Um item avariado pode ser reparado da mesma forma e com os mesmos custos que um item destruído (Tormenta20, p. 121). Efeitos que consertam itens, como o aprimoramento da magia Transmutar Objetos, também removem essas condições."
+  },
+  "parceiros_de_ameacas": "Algumas ameaças possuem parceiros. Para todos os efeitos, seguem as regras normais de seu tipo e não contam como oponentes separados para XP e outras recompensas. Um parceiro não precisa ser derrotado para o combate terminar; quando a ameaça principal é derrotada, seus parceiros se rendem, fogem ou desaparecem (se conjurados, por exemplo). Alternativamente, o mestre pode tratar o parceiro como uma criatura separada (dar destaque especial ou representar um elemento da aventura); nesse caso, inclua uma criatura do tipo adequado e ignore os benefícios que a ameaça receberia do parceiro, e considere o ND do parceiro ao calcular o nível do encontro e as recompensas.",
+  "recompensas_por_varios_inimigos": "Por padrão, XP e tesouro de um encontro são calculados usando o ND de cada criatura separadamente. Em encontros com muitos oponentes ou NDs variados, pode ser mais prático unificar o cálculo: em vez de recompensar por criatura, calcule XP e tesouro usando o ND total do encontro, use a categoria de tesouro (metade/padrão/dobro) da criatura de maior ND mas role na linha do ND do encontro, e inclua tesouros especiais das criaturas participantes. Exemplo: um encontro contra duas ameaças de ND 8 (ND de encontro 10) fornece 10.000 XP e gera um tesouro de ND 10.",
+  "criaturas_s_e_splus": "Criaturas de nível de desafio S e S+ são ameaças especiais, acima do ND 20, que não podem ser derrotadas apenas com poder bruto — vencê-las deve ser o objetivo de uma série de aventuras ou o ápice de uma campanha. S e S+ não são níveis numéricos, mas um status especial: para estatísticas não listadas na ficha (como perícias não treinadas), a criatura é considerada ND 20; para habilidades de outras criaturas, seu ND é considerado maior que 20 (não podem ser afetadas por efeitos limitados pelo nível do alvo). Possuem a habilidade Maior que a Morte.",
+  "magias_sem_custo": "Algumas criaturas podem lançar magias sem pagar seu custo (geralmente com um limite de PM). Essas magias seguem todas as demais regras e consideram seu custo total original para efeitos baseados nele. A criatura não gasta PM ao sustentar a magia e não paga custos especiais, penalidade de PM ou sacrifício de PM.",
+  "magias_simuladas": "Uma magia simulada é uma habilidade que reproduz os efeitos de uma magia (ex.: poderes Flagelo dos Mares e Truque de Mágica, Tormenta20 pp. 48 e 89). Seguem as regras de uso de magias normais, exceto por não serem habilidades mágicas e não contarem como magias (não se beneficiam de itens esotéricos/catalisadores e não exigem teste de concentração). Não se acumulam com outras magias (simuladas ou não).",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,45 @@
+{
+  "id": "hobgoblin_gladiador",
+  "name": "Hobgoblin Gladiador",
+  "nd": 16,
+  "tipo": "Humanoide",
+  "subtipo": "hobgoblin",
+  "tamanho": "medio",
+  "grupo": "duyshidakk",
+  "pv": 1000,
+  "pm": null,
+  "defesa": 46,
+  "salvaguardas": { "fort": 24, "ref": 32, "von": 16 },
+  "reducao_de_dano": null,
+  "imunidades": ["medo"],
+  "resistencias": { "magia": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 25,
+  "percepcao": 18,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 8, "des": 6, "con": 5, "int": 0, "sab": 2, "car": 4 },
+  "pericias": { "atletismo": 28, "furtividade": 25, "intimidacao": 20 },
+  "ataques": [
+    {
+      "nome": "Corrente de espinhos",
+      "quantidade": 4,
+      "bonus": 42,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 25, "tipo": "corte" }
+      ],
+      "critico": "16/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agraciado por Thwor", "descricao": "Os ataques do hobgoblin gladiador ignoram 5 pontos da RD dos alvos e são considerados lancinantes, e ele recebe +5 em testes de ataque contra oponentes caídos, desprevenidos, flanqueados ou indefesos." },
+    { "nome": "Campeão Bestial", "acao": "movimento", "descricao": "Combinando ferocidade e treinamento, o gladiador se torna Grande até o fim da cena, recebendo redução de dano 10 e +4 em Força (ataque +46, dano 1d10+29, crítico 16)." },
+    { "nome": "Lento Demais!", "acao": "reação", "descricao": "Uma vez por rodada, quando é alvo de um ataque corpo a corpo, pode fazer um teste de ataque oposto ao resultado desse ataque; se vencer, evita o dano e pode fazer um ataque corpo a corpo contra o atacante." },
+    { "nome": "Não Tão Rápido!", "acao": "reação", "descricao": "Uma vez por rodada, quando uma criatura no alcance natural do gladiador fica desprevenida ou se move voluntariamente para fora desse alcance, ele faz um ataque corpo a corpo contra ela." },
+    { "nome": "Venha Aqui e Lute!", "acao": "completa", "descricao": "Faz uma manobra agarrar (teste +44, ou +50 se estiver Grande) com sua corrente contra um alvo em alcance curto; se vencer, pode puxá-lo para dentro de seu alcance natural e causar o dano de um ataque corpo a corpo contra ele." }
+  ],
+  "equipamento": ["Corrente de espinhos de mitral ameaçadora", "Couraça reforçada abascanta", "Poção de Físico Divino (aprimoramento para os três atributos)"],
+  "tesouro": "Metade.",
+  "description": "Hobgoblins apreciam entretenimento violento, e muitos se tornam gladiadores profissionais em combates de arena tão teatrais quanto letais — muito mais sangrentos que os vistos no Reinado. Apenas os melhores lutadores permanecem vivos, levando suas habilidades além dos limites; está entre os mais temidos lutadores individuais duyshidakk, quase sempre atacando sozinho ou com apoio à distância. Por seu valor e prestígio, gladiadores são destacados apenas contra os adversários mais poderosos — mas alguns, por orgulho guerreiro, tomam a iniciativa de encontrar e desafiar aventureiros fortes.",
+  "livro": "ameacas_de_arton"
+}

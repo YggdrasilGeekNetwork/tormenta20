@@ -1,0 +1,42 @@
+{
+  "id": "homem_piranha_imediato",
+  "name": "Homem-Piranha Imediato",
+  "nd": 4,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "medio",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 98,
+  "pm": 24,
+  "defesa": 20,
+  "salvaguardas": { "fort": 6, "ref": 14, "von": 10 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 8,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 3, "des": 1, "con": 3, "int": -1, "sab": 4, "car": -1 },
+  "pericias": { "acrobacia": 5, "atletismo": 9, "religiao": 8, "sobrevivencia": 8 },
+  "ataques": [
+    {
+      "nome": "Clava",
+      "bonus": 15,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 14, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Dentes Afiados", "acao": "reacao", "descricao": "Uma vez por rodada, quando uma criatura adjacente erra um ataque contra o homem-piranha imediato por 5 ou mais, sofre 1d4+6 pontos de dano de corte." },
+    { "nome": "Urro Divino", "acao": "livre", "custo_pm": 1, "descricao": "Quando faz um ataque ou lança uma magia, o imediato soma sua Constituição à rolagem de dano desse ataque ou magia." },
+    { "nome": "Magias", "descricao": "Lança magias como druida de Megalokk de 4º nível (CD 20): Amedrontar (padrão, 3 PM, apavorado e depois abalado), Armamento da Natureza (movimento, 4 PM, clava mágica +1 ataque/dano, +1d6 dano), Curar Ferimentos (padrão, 4 PM, cura 5d8+5 PV), Escudo da Fé (reação, 3 PM, +3 na Defesa até o próximo turno)." }
+  ],
+  "equipamento": ["Clava", "Escudo leve", "Símbolo sagrado de Megalokk"],
+  "tesouro": "Metade.",
+  "description": "Imediato (segundo no comando) de um bando de Homens-Piranhas, devoto de Megalokk que combina força bruta com magia primitiva da natureza.",
+  "livro": "ameacas_de_arton"
+}

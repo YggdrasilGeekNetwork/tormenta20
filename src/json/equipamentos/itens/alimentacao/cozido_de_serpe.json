@@ -1,0 +1,18 @@
+{
+  "id": "cozido_de_serpe",
+  "name": "Cozido de Serpe",
+  "type": "item",
+  "categoria": "alimentacao",
+  "preco": 12,
+  "espacos": 0.5,
+  "ingredientes": ["carne de serpe"],
+  "preparo": {
+    "teste_estendido": { "pericia": "Ofício (cozinheiro)", "cd": 20, "sucessos_necessarios": 3, "falhas_maximas": 3 }
+  },
+  "efeito": {
+    "sucesso": { "bonus_todas_pericias": 1, "cumulativo_com_outros_itens": true },
+    "falha": { "ingredientes_consumidos": true, "envenenado": { "dano": "1d12", "por_rodada": true, "duracao_rodadas": 3, "resistencia": { "tipo": "Fortitude", "cd": 20, "efeito": "reduz para 1 rodada" } } }
+  },
+  "description": "Quando cozida por várias horas em uma sopa específica, a carne da serpe fica livre de seu veneno natural. Diferente de outros alimentos, preparar este cozido é um teste estendido de Ofício (cozinheiro) com CD 20, que requer 3 sucessos antes de 3 falhas. Se preparado com sucesso, fornece +1 em todos os testes de perícia, cumulativo com outros itens. Se falhar, os ingredientes são consumidos e você é envenenado (perde 1d12 pontos de vida por rodada durante 3 rodadas; Fortitude CD 20 reduz para 1 rodada).",
+  "livro": "ameacas_de_arton"
+}

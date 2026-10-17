@@ -1,0 +1,14 @@
+{
+  "id": "tatica_de_enxame",
+  "name": "Tática de Enxame",
+  "type": "habilidade_de_raca",
+  "race": "kobold",
+  "description": "Vocês podem gastar 2 PM para assumir uma forma de enxame com duração sustentada. Nessa forma, vocês podem ocupar o espaço de criaturas inimigas, tornam-se imunes a manobras de combate e sofrem apenas metade do dano de armas. Entretanto, não podem fazer nenhuma ação que exija coordenação e concentração (como usar a perícia Furtividade ou lançar magias). Criaturas dentro do espaço que vocês ocupam são consideradas em condição ruim para lançar magia. Pré-requisito: Amontoados.",
+  "effects": {
+    "cost_pm": 2,
+    "duration": "sustentada",
+    "swarm_form": { "occupy_enemy_space": true, "immune_to_combat_maneuvers": true, "half_weapon_damage": true, "cannot_concentrate": true },
+    "prerequisite": "amontoados"
+  },
+  "livro": "ameacas_de_arton"
+}

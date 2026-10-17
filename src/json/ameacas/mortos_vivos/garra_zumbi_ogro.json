@@ -1,0 +1,42 @@
+{
+  "id": "garra_zumbi_ogro",
+  "name": "Garra-Zumbi Ogro",
+  "nd": 2,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "mortos_vivos",
+  "pv": 35,
+  "pm": null,
+  "defesa": 16,
+  "salvaguardas": { "fort": 0, "ref": 2, "von": -3 },
+  "reducao_de_dano": null,
+  "imunidades": ["efeitos de sentidos"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": -3,
+  "visao": ["percepção às cegas"],
+  "deslocamento": { "terrestre": 9, "voo": 12 },
+  "atributos": { "for": 5, "des": 1, "con": 3, "int": null, "sab": -3, "car": null },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "bonus": 14,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 10, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com a pancada contra uma criatura Grande ou menor (teste +19)." },
+    { "nome": "Forte Demais...", "acao": "livre", "descricao": "No início de cada um de seus turnos, a garra-zumbi ogro causa 4d6+10 pontos de dano de impacto na criatura que estiver agarrando. Uma criatura agarrada desta forma não pode falar." },
+    { "nome": "...Para Morrer de Novo!", "descricao": "Todo dano de corte, impacto e perfuração que a garra-zumbi sofre é reduzido à metade." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Mão decepada de ogro, animada por magia necromântica, grande e forte o suficiente para esmagar vítimas em seu aperto mortal.",
+  "livro": "ameacas_de_arton"
+}

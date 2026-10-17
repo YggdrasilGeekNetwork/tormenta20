@@ -1,0 +1,22 @@
+{
+  "id": "presa_de_serpente",
+  "name": "Presa de Serpente",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 1000,
+  "dano": "1d8",
+  "critico": "17",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": ["agil"],
+  "especial": {
+    "critico_aumenta_dado_antes_de_multiplicar": true,
+    "nao_pode_receber_material_especial": true,
+    "exige_treinamento_especial": true
+  },
+  "description": "Espada de obsidiana, um vidro vulcânico negro formado quando a lava esfria rapidamente. Por sua origem, as voracis acreditam que esse material é uma dádiva da Divina Serpente. Mais afiada que o aço, causa ferimentos terríveis; em um acerto crítico, o dano aumenta em um passo (antes de ser multiplicado). Uma presa de serpente não pode receber a melhoria material especial e exige treinamento especial para ser empunhada sem quebrar, por isso é uma arma exótica. É uma arma ágil.",
+  "livro": "ameacas_de_arton"
+}

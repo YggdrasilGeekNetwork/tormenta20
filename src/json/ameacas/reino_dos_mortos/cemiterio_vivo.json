@@ -1,0 +1,47 @@
+{
+  "id": "cemiterio_vivo",
+  "name": "Cemitério Vivo",
+  "nd": 17,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "colossal",
+  "grupo": "reino_dos_mortos",
+  "pv": 1125,
+  "pm": null,
+  "defesa": 54,
+  "salvaguardas": { "fort": 35, "ref": 12, "von": 24 },
+  "reducao_de_dano": 10,
+  "imunidades": ["atordoado", "medo"],
+  "resistencias": {},
+  "resistencia_a_magia": 5,
+  "vulnerabilidades": [],
+  "iniciativa": 13,
+  "percepcao": 14,
+  "visao": ["percepção às cegas (médio)", "visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 13, "des": -1, "con": 10, "int": null, "sab": 1, "car": 2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "quantidade": 4,
+      "bonus": 49,
+      "dano": [
+        { "dados": [{ "quantidade": 4, "faces": 10 }], "bonus": 40, "tipo": "impacto" },
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 0, "tipo": "trevas" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Adquirir Cadáver", "acao": "movimento", "descricao": "O cemitério vivo agarra um humanoide inconsciente ou morto ao seu alcance." },
+    { "nome": "Aura de Profanação", "descricao": "O cemitério exala uma aura de poeira carregada de energia negativa. Qualquer criatura viva que entre em um raio de 9m do cemitério, ou inicie seu turno nesta área, sofre 5d8+20 pontos de dano de trevas e recebe imunidade a cura mágica por 1 rodada (Fortitude CD 44 reduz à metade e evita a imunidade a cura)." },
+    { "nome": "Finalmente Livres", "descricao": "Quando o cemitério é destruído, ele se desmancha em um amontoado de terra, tumbas e corpos. Todas as criaturas absorvidas há menos de uma semana retornam à vida, mas os espíritos dos corpos consumidos há mais tempo se levantam como mortos-vivos amargurados e furiosos, gerando 1d4+1 falanges. Essas falanges agem normalmente a partir da rodada seguinte, na iniciativa original do cemitério." },
+    { "nome": "Herança Profana", "descricao": "Quando o cemitério é destruído, uma esfera de 500m ao redor do espaço onde ele foi derrotado se torna corrompida por um ano. Enquanto a área estiver corrompida, criaturas vivas dentro dela não recuperam pontos de vida por efeitos mágicos e sofrem 2d8+2 pontos de dano de trevas por rodada. Uma magia Consagrar com o aprimoramento permanente remove essa corrupção." },
+    { "nome": "Tumba Viva", "acao": "movimento", "descricao": "Se começar seu turno agarrando um humanoide Grande ou menor, inconsciente ou morto, o cemitério abre um espaço em seu peito e coloca a criatura em seu interior, absorvendo-a. Ao fazer isso, ele ganha 20 PV temporários por nível da criatura. Uma criatura absorvida dessa forma só pode ser libertada com a destruição do cemitério." }
+  ],
+  "equipamento": [],
+  "tesouro": "Dobro.",
+  "description": "Um dos monstros mais perigosos e temidos de toda Aslothia, ser imenso feito de terra, tumbas, lápides, caixões, estátuas e restos mortais humanos. Surge a partir de um cemitério conspurcado e animado por um espírito muito poderoso, aumentando seu próprio tamanho ao absorver corpos falecidos — e matando para obtê-los, se faltarem. Aqueles absorvidos não perdem apenas seus corpos, mas também suas almas, impossíveis de ressuscitar até que a criatura seja destruída.",
+  "livro": "ameacas_de_arton"
+}

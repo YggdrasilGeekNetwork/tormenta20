@@ -1,0 +1,51 @@
+{
+  "id": "rei_tirano",
+  "name": "Rei-Tirano",
+  "nd": 14,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "mundo_perdido",
+  "pv": 725,
+  "pm": null,
+  "defesa": 46,
+  "salvaguardas": { "fort": 28, "ref": 22, "von": 14 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 12,
+  "percepcao": 12,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 11, "des": 1, "con": 6, "int": -4, "sab": 1, "car": -2 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 40,
+      "dano": [
+        { "dados": [{ "quantidade": 6, "faces": 10 }], "bonus": 36, "tipo": "perfuração" }
+      ],
+      "critico": "20/x4"
+    },
+    {
+      "nome": "Cauda",
+      "bonus": 37,
+      "dano": [
+        { "dados": [{ "quantidade": 6, "faces": 6 }], "bonus": 31, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com a mordida (teste +45)." },
+    { "nome": "Cauda Avassaladora", "acao": "livre", "descricao": "Quando acerta um ataque de cauda, o rei-tirano arremessa a vítima 1d10 x 1,5m em uma direção à escolha dele (Fortitude CD 38 evita). A vítima fica caída e, se atingir algum obstáculo, sofre 1d8 pontos de dano de impacto para cada 1,5m que foi arremessada." },
+    { "nome": "Engolir", "acao": "padrão", "descricao": "No início de cada um dos turnos do rei-tirano, a criatura engolida sofre 4d12+20 pontos de dano de impacto mais 4d12+20 pontos de dano de ácido. Ela pode escapar causando um total de 75 pontos de dano a ele (Defesa 20, redução de dano 0)." },
+    { "nome": "Visão Baseada em Movimento", "descricao": "O rei-tirano sofre –10 em testes de Percepção para encontrar criaturas que não estejam se movendo (em termos de jogo, criaturas que tenham feito apenas ações mentais em seu turno anterior)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Dentes do rei-tirano (CD 29 para extrair, valem T$ 1.500 para fabricar armas superiores).",
+  "description": "Nomeado \"tiranossauro\" entre acadêmicos de Tapista, está entre os maiores lagartos-terror de Galrasia e possivelmente o mais perigoso. Muito ágil e rápido para seu tamanho, com sentidos aguçados que tornam quase impossível se esconder dele. Solitário por natureza, reunindo-se a outros apenas na época do acasalamento, permanecendo a protegida a carcaça de suas presas contra pequenos predadores até se fartar.",
+  "livro": "ameacas_de_arton"
+}

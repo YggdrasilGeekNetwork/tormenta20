@@ -1,0 +1,42 @@
+{
+  "id": "meio_orc_chefe",
+  "name": "Meio-Orc Chefe",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "meio-orc",
+  "tamanho": "medio",
+  "grupo": "brutos_e_indomaveis",
+  "pv": 190,
+  "pm": null,
+  "defesa": 24,
+  "salvaguardas": { "fort": 17, "ref": 11, "von": 6 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 4,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 5, "des": 2, "con": 4, "int": 1, "sab": 0, "car": -1 },
+  "pericias": { "intimidacao": 7, "sobrevivencia": "+6 (+8 em subterrâneo)" },
+  "ataques": [
+    {
+      "nome": "Machado de batalha",
+      "bonus": 18,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 30, "tipo": "corte" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Furtivo", "descricao": "+3d6 de dano extra quando flanqueia ou surpreende o alvo." },
+    { "nome": "Ordens", "acao": "movimento", "descricao": "O meio-orc chefe grita ordens para seus aliados em alcance médio. Eles recebem +2 em testes de perícia até o fim da cena." },
+    { "nome": "Urro Selvagem", "acao": "movimento", "descricao": "O chefe recebe +2 em testes de ataque e rolagens de dano corpo a corpo até o fim da cena, mas não pode fazer nenhuma ação que exija calma e concentração." }
+  ],
+  "equipamento": ["Gibão de peles", "Machado de batalha"],
+  "tesouro": "Padrão.",
+  "description": "Por sua maior esperteza e adaptabilidade, um meio-orc pode chefiar uma tribo orc de forma inteligente, até fazendo acordos com outros povos ou atacando de formas mais astutas. Quando um bando orc cresce a ponto de ameaçar comunidades do Reinado, muitas vezes isso acontece sob a liderança de um meio-orc.",
+  "livro": "ameacas_de_arton"
+}

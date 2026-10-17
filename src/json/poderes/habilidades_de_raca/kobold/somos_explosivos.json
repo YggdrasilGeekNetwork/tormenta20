@@ -1,0 +1,16 @@
+{
+  "id": "somos_explosivos",
+  "name": "Somos Explosivos",
+  "type": "habilidade_de_raca",
+  "race": "kobold",
+  "description": "Vocês podem gastar uma ação completa, 1 PM e uma quantidade de PV (limitado pelo seu nível) para arremessar um kobold explosivo em um ponto em alcance curto. Criaturas a até 3m desse ponto sofrem 1d6 pontos de dano de impacto por PV gasto (Reflexos CD Destreza reduz à metade). Sempre que rolar o valor máximo em um dos dados de dano, o dano aumenta em +1d6.",
+  "effects": {
+    "cost_pm": 1,
+    "cost_pv": "variável (limitado pelo nível)",
+    "damage_per_pv": "1d6",
+    "save": "reflexos",
+    "save_dc_attribute": "destreza",
+    "exploding_dice": true
+  },
+  "livro": "ameacas_de_arton"
+}

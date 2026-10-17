@@ -1,0 +1,10 @@
+{
+  "id": "leao",
+  "name": "Leão",
+  "type": "item",
+  "categoria": "animal",
+  "preco": 800,
+  "espacos": 0,
+  "description": "Preço de referência para adquirir um leão. Veja a ficha completa da ameaça (grupo montarias) para estatísticas de combate e benefícios de parceiro.",
+  "livro": "ameacas_de_arton"
+}

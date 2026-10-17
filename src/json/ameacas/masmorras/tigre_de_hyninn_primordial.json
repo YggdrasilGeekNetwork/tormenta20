@@ -1,0 +1,62 @@
+{
+  "id": "tigre_de_hyninn_primordial",
+  "name": "Tigre-de-Hyninn Primordial",
+  "nd": 11,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "masmorras",
+  "pv": 480,
+  "pm": null,
+  "defesa": 42,
+  "salvaguardas": { "fort": 14, "ref": 29, "von": 10 },
+  "reducao_de_dano": null,
+  "imunidades": ["confuso", "metamorfose"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 17,
+  "percepcao": 12,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 4, "des": 6, "con": 3, "int": -1, "sab": 1, "car": -1 },
+  "pericias": { "furtividade": 25 },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 34,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 12, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Mordida (1d3)",
+      "bonus": 34,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Tentáculo (1d4+1)",
+      "bonus": 34,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 12, "tipo": "impacto" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Borrão", "descricao": "O tigre-de-Hyninn tem 25% de chance de ignorar ataques e efeitos (incluindo de área) contra ele. Esta habilidade permanece ativa mesmo que ele morra." },
+    { "nome": "Entre Planos", "acao": "movimento", "descricao": "Até o próximo turno do tigre, a chance de falha de seu Borrão aumenta para 50%." },
+    { "nome": "Não Está Mais Aqui!", "acao": "padrão", "descricao": "Uma vez por cena, o tigre pode se teleportar para qualquer lugar a sua escolha a até 500m, desde que conheça o local de destino." },
+    { "nome": "Profusão de Partes", "descricao": "Cada tigre tem 1d3 cabeças e 1d4+1 tentáculos. Isso determina quantos ataques de mordida (um por cabeça) e de tentáculos ele tem." },
+    { "nome": "Resistência a Devotos de Khalmyr", "descricao": "Recebe +5 em testes de resistência contra efeitos causados por devotos de Khalmyr." },
+    { "nome": "Sopro", "acao": "padrão", "descricao": "O tigre sopra energia caótica em um cone de 6m. Criaturas na área sofrem 6d8 pontos de dano mental e ficam confusas por 1d3 rodadas (Vontade CD 31 reduz à metade e evita a condição). Recarga (no início de cada rodada do tigre, jogue um dado; recarrega com um resultado par)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Resíduos (CD 26 para extrair, valem T$ 300 para fabricar poções e pergaminhos contendo magias de ilusão).",
+  "description": "Manifestação mais antiga e poderosa do fenômeno conhecido como tigre-de-Hyninn, capaz de teleportar-se e sopras energia caótica que confunde mentes.",
+  "livro": "ameacas_de_arton"
+}

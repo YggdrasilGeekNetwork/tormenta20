@@ -1,0 +1,43 @@
+{
+  "id": "turba_de_infectos",
+  "name": "Turba de Infectos",
+  "nd": 7,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "areas_de_tormenta",
+  "pv": 80,
+  "pm": null,
+  "defesa": 30,
+  "salvaguardas": { "fort": 16, "ref": 6, "von": 6 },
+  "reducao_de_dano": "5/corte",
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 6,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 4, "des": 1, "con": 3, "int": null, "sab": 1, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 26,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 26, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2",
+      "observacao": "[Bando] mais doença"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Bando", "descricao": "Representa um bando de infectos agindo em conjunto." },
+    { "nome": "Doença", "descricao": "Uma criatura mordida por uma turba de infectos é exposta à doença infecção escarlate." },
+    { "nome": "Parasitas Famintos", "descricao": "Uma criatura que comece o turno adjacente à turba, ou faça um ataque corpo a corpo contra ela, é exposta à doença infecção escarlate (Reflexos CD 24 evita)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Um bando de infectos agindo em conjunto, multiplicando o perigo de contaminação por infecção escarlate a cada ataque e a cada aproximação.",
+  "livro": "ameacas_de_arton"
+}

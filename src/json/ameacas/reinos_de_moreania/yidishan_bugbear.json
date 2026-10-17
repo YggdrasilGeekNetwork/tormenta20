@@ -1,0 +1,42 @@
+{
+  "id": "yidishan_bugbear",
+  "name": "Yidishan Bugbear",
+  "nd": 2,
+  "tipo": "Construto",
+  "subtipo": "yidishan",
+  "tamanho": "medio",
+  "grupo": "reinos_de_moreania",
+  "pv": 70,
+  "pm": null,
+  "defesa": 21,
+  "salvaguardas": { "fort": 13, "ref": 9, "von": 2 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 0,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 6, "des": 2, "con": 3, "int": -2, "sab": -1, "car": -4 },
+  "pericias": { "furtividade": 3, "intimidacao": 9 },
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "bonus": 10,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 6, "tipo": "impacto" }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Espasmo Final", "acao": "reacao", "descricao": "Quando é reduzido a 0 PV ou menos, o yidishan bugbear faz um ataque de pancada contra uma criatura adjacente (geralmente, aquela que causou dano a ele por último)." },
+    { "nome": "Saborear Pavor", "descricao": "Enquanto estiver em alcance curto de uma criatura abalada ou apavorada, o yidishan recebe um bônus em testes de ataque e rolagens de dano igual à penalidade causada pela condição." },
+    { "nome": "Soco Pneumático", "acao": "padrão", "descricao": "O yidishan faz um ataque de pancada. Se acertar, causa +2d6 pontos de dano e a vítima fica enjoada por um turno e caída (Fortitude CD 16 evita a condição enjoada). Recarga (movimento)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Metade.",
+  "description": "Bugbear meio-golem com partes de seu corpo substituídas por maquinário dolorosamente enterrado na carne, resultado de experimentos darash para combater a própria pestilência. Enlouquecido de dor e agonia constante, avança feroz contra qualquer um, quase como se buscasse que alguém finalmente coloque fim ao seu sofrimento. A maioria vaga pelo Reino das Torres a serviço do vilão Bunkman Berenwocket.",
+  "livro": "ameacas_de_arton"
+}

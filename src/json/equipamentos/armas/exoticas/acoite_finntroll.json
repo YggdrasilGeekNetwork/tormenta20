@@ -1,0 +1,20 @@
+{
+  "id": "acoite_finntroll",
+  "name": "Açoite Finntroll",
+  "type": "arma",
+  "proficiencia": "exotica",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "uma_mao",
+  "preco": 30,
+  "dano": "1d8",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "corte",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "efeito_adicional": { "penalidade_pericia_e_dano": -2, "duracao": "1 rodada", "tipo": "metabolismo" }
+  },
+  "description": "Feito de tiras de couro com farpas de aço nas pontas, é também um instrumento de tortura. Uma criatura que sofra dano do açoite sofre -2 em testes de perícia e rolagens de dano por 1 rodada (metabolismo).",
+  "livro": "ameacas_de_arton"
+}

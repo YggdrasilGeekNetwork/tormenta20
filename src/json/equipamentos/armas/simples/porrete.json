@@ -1,0 +1,20 @@
+{
+  "id": "porrete",
+  "name": "Porrete",
+  "type": "arma",
+  "proficiencia": "simples",
+  "proposito": "corpo_a_corpo",
+  "empunhadura": "leve",
+  "preco": 2,
+  "dano": "1d6",
+  "critico": "x2",
+  "alcance": null,
+  "tipo_dano": "impacto",
+  "espacos": 1,
+  "habilidades": [],
+  "especial": {
+    "dano_nao_letal": true
+  },
+  "description": "Um pedaço sólido de madeira, coberto por uma camada grossa de lã. Um porrete causa dano não letal.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,16 @@
+{
+  "id": "armadura_de_quitina",
+  "name": "Armadura de Quitina",
+  "type": "armadura",
+  "categoria": "pesada",
+  "preco": 350,
+  "bonus_defesa": 7,
+  "penalidade_armadura": -3,
+  "espacos": 5,
+  "especial": {
+    "nao_reduz_deslocamento": true
+  },
+  "vestir_remover": "acao_completa",
+  "description": "Feita com carapaças selecionadas de grandes insetos, esta armadura dos povos-trovão é mais leve que suas contrapartes metálicas. Embora seja uma armadura pesada, não reduz o deslocamento do usuário.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "ogro_capanga",
+  "name": "Ogro Capanga",
+  "nd": 11,
+  "tipo": "Humanoide",
+  "subtipo": "gigante",
+  "tamanho": "grande",
+  "grupo": "brutos_e_indomaveis",
+  "pv": 111,
+  "pm": null,
+  "defesa": 36,
+  "salvaguardas": { "fort": 23, "ref": 18, "von": 8 },
+  "reducao_de_dano": null,
+  "imunidades": ["enfeitiçado"],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 4,
+  "visao": ["baixa_luminosidade"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 11, "des": 0, "con": 6, "int": -3, "sab": -1, "car": -2 },
+  "pericias": { "atletismo": 20, "intuicao": 4 },
+  "ataques": [
+    {
+      "nome": "Marreta",
+      "quantidade": 2,
+      "bonus": 36,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 49, "tipo": "impacto" }
+      ],
+      "critico": "20/x2",
+      "observacao": "atinge todas as criaturas ao redor do ogro (ver Cruel Demais…)"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Cruel Demais…", "descricao": "Cada ataque de marreta do ogro capanga atinge todas as criaturas ao seu redor. Para cada ataque, ele faz um único teste e compara seu resultado com a Defesa de cada criatura em seu alcance." },
+    { "nome": "…Para Sentir!", "descricao": "O ogro sofre –5 em Intuição e Vontade (já contabilizados). Porém, efeitos negativos não permanentes que ele sofra que durem mais de 2 rodadas têm a duração reduzida para 2 rodadas, e as penalidades numéricas de quaisquer condições que ele sofra são reduzidas à metade." }
+  ],
+  "equipamento": ["Marreta aumentada cruel"],
+  "tesouro": "Metade.",
+  "description": "Por sua combinação de força e inépcia, ogros são muito utilizados como guardas, soldados e capangas por vilões que os recrutam; estes recebem armas e armaduras melhores, tornando-se uma ameaça ainda maior que seus primos mais selvagens.",
+  "livro": "ameacas_de_arton"
+}

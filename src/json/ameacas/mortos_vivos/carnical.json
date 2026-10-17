@@ -1,0 +1,50 @@
+{
+  "id": "carnical",
+  "name": "Carniçal",
+  "nd": 1,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "mortos_vivos",
+  "pv": 33,
+  "pm": null,
+  "defesa": 15,
+  "salvaguardas": { "fort": 1, "ref": 5, "von": 10 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 1,
+  "visao": ["faro", "visão no escuro"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 2, "des": 3, "con": 0, "int": -2, "sab": 1, "car": 0 },
+  "pericias": { "atletismo": 6, "furtividade": 7 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 3, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 9,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 3, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Doença", "descricao": "Uma criatura mordida por um carniçal é exposta à doença febre do carniçal (Ameaças de Arton, p.359)." },
+    { "nome": "Paralisia", "descricao": "Uma criatura atingida pela mordida do carniçal fica paralisada por 1d4 rodadas (Fortitude CD 16 evita e a criatura não pode mais ser paralisada por esta habilidade até o fim da cena)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Morto-vivo como um zumbi, mas mais ágil e agressivo, que surge em cemitérios, campos de batalha e áreas de antigos desastres para se alimentar de cadáveres, preferindo humanoides inteligentes. Dizem surgir da morte de alguém que praticou canibalismo ou gula em excesso. Avança aos saltos, buscando paralisar a vítima com sua mordida terrível; mesmo quem sobrevive pode contrair a febre do carniçal, que faz a vítima se reerguer como um destes monstros.",
+  "livro": "ameacas_de_arton"
+}

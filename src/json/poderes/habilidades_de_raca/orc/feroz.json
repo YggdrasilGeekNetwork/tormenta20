@@ -1,0 +1,19 @@
+{
+  "id": "feroz",
+  "name": "Feroz",
+  "type": "habilidade_de_raca",
+  "race": "orc",
+  "description": "Você recebe +2 em rolagens de dano com armas corpo a corpo e de arremesso. Quando sofre dano de um inimigo, esse bônus se torna +4 até o fim de seu próximo turno.",
+  "effects": {
+    "damage_bonus": {
+      "value": 2,
+      "weapon_type": "corpo_a_corpo_e_arremesso"
+    },
+    "triggered_damage_bonus": {
+      "value": 4,
+      "trigger": "sofreu_dano_de_inimigo",
+      "duration": "até o fim do próximo turno"
+    }
+  },
+  "livro": "ameacas_de_arton"
+}

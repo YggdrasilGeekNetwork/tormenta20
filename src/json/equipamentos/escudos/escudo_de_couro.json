@@ -1,0 +1,17 @@
+{
+  "id": "escudo_de_couro",
+  "name": "Escudo de Couro",
+  "type": "escudo",
+  "categoria": "leve",
+  "preco": 3,
+  "bonus_defesa": 1,
+  "penalidade_armadura": -1,
+  "espacos": 1,
+  "especial": {
+    "bonus_defesa_contra_distancia": 2,
+    "nao_pode_ser_usado_como_arma": true
+  },
+  "vestir_remover": "acao_movimento",
+  "description": "Por sua leveza, este escudo é popular entre velocis e ubaneri. É feito com uma armação de madeira esticando uma membrana de couro (ou outro material flexível) e amarrado ao braço, impedindo o uso dessa mão. Contra ataques à distância, o bônus na Defesa do escudo aumenta em +2. Entretanto, ele é muito leve para ser usado como arma.",
+  "livro": "ameacas_de_arton"
+}

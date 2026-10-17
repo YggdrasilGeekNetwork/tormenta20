@@ -1,0 +1,11 @@
+{
+  "id": "ligacao_natural",
+  "name": "Ligação Natural",
+  "type": "habilidade_de_raca",
+  "race": "pteros",
+  "description": "Você possui uma ligação mental com uma criatura inteligente (Inteligência –3 ou mais). Vocês podem se comunicar mentalmente em alcance longo e sempre sabem em que direção e distância podem encontrar o outro. Você pode trocar a criatura com a qual mantém o vínculo no início de cada aventura.",
+  "effects": {
+    "telepathic_bond": { "range": "longo", "min_intelligence": -3, "swappable_per_adventure": true }
+  },
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,43 @@
+{
+  "id": "cerianthar",
+  "name": "Cerianthar",
+  "nd": 4,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "sanguinarias",
+  "pv": 140,
+  "defesa": 22,
+  "salvaguardas": { "fort": 15, "ref": 5, "von": 10 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 5,
+  "visao": ["percepção às cegas"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 3, "des": 2, "con": 2, "int": -4, "sab": 1, "car": 0 },
+  "pericias": { "furtividade": 9 },
+  "ataques": [
+    {
+      "nome": "Tentáculo",
+      "quantidade": 4,
+      "alcance": "3m",
+      "bonus": 16,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 4, "tipo": "corte" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarrar Aprimorado", "acao": "livre", "descricao": "Usa a manobra agarrar com um tentáculo (teste +16)." },
+    { "nome": "Constrição", "acao": "livre", "descricao": "No início de cada um de seus turnos, o cerianthar causa 2d6+4 pontos de dano de corte em cada criatura que esteja agarrando." },
+    { "nome": "Imobilidade", "descricao": "Um cerianthar pode permanecer completamente imóvel. Se ele estiver assim, um personagem deve passar num teste de Percepção (CD 35) para perceber que ele é uma criatura e não parte da paisagem." },
+    { "nome": "Muitos Tentáculos", "descricao": "O cerianthar possui oito tentáculos. Ele pode atacar com no máximo quatro tentáculos ao mesmo tempo, mas pode usar os demais para manter criaturas agarradas." },
+    { "nome": "Tentáculos Decepáveis", "descricao": "É possível cortar um tentáculo com um ataque direto. Cada tentáculo tem Defesa 24 e é cortado se sofrer pelo menos 10 pontos de dano de corte em um único ataque. Se o tentáculo estava agarrando uma criatura, ela é solta automaticamente." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Monstro semelhante a um coral terrestre imenso, com tronco rugoso e tubular do qual emergem tentáculos espinhosos, emboscando qualquer criatura que se aproxime. Estudiosos suspeitam que a criatura esteja relacionada à origem dos kaiju, brotando de sua força vital.",
+  "livro": "ameacas_de_arton"
+}

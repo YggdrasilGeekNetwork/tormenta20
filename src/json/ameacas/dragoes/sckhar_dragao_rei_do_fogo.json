@@ -1,0 +1,60 @@
+{
+  "id": "sckhar_dragao_rei_do_fogo",
+  "name": "Sckhar, Dragão-Rei do Fogo",
+  "nd": 22,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "colossal",
+  "grupo": "dragoes",
+  "pv": 4000,
+  "pm": 287,
+  "defesa": 71,
+  "salvaguardas": { "fort": 38, "ref": 25, "von": 33 },
+  "reducao_de_dano": 20,
+  "imunidades": ["encantamento", "fogo"],
+  "resistencias": { "magia": 5 },
+  "vulnerabilidades": ["frio"],
+  "iniciativa": 23,
+  "percepcao": 34,
+  "visao": ["percepção às cegas (longo)", "visão no escuro"],
+  "deslocamento": { "terrestre": 12, "voo": 36 },
+  "atributos": { "for": 20, "des": 2, "con": 15, "int": 12, "sab": 12, "car": 12 },
+  "pericias": { "diplomacia": 33, "enganacao": 33, "intimidacao": 33, "intuicao": 33, "misticismo": 33, "nobreza": 33 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 66,
+      "dano": [
+        { "dados": [{ "quantidade": 10, "faces": 20 }], "bonus": 60, "tipo": "perfuração" }
+      ],
+      "critico": "16/x2"
+    },
+    {
+      "nome": "Garra",
+      "quantidade": 2,
+      "bonus": 61,
+      "dano": [
+        { "dados": [{ "quantidade": 10, "faces": 20 }], "bonus": 60, "tipo": "corte" }
+      ],
+      "critico": "16/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Aqui Está, Aqui Pertence", "descricao": "Uma criatura em alcance longo que use habilidades de transporte planar (como Teletransporte) deve fazer um teste de Vontade (CD 55). Se falhar, a habilidade não tem efeito, mas os PM são gastos mesmo assim." },
+    { "nome": "Aura Aterradora", "descricao": "Vontade CD 55 evita. Uma criatura que falhe sofre 8d6 pontos de dano psíquico.", "tag": "Medo" },
+    { "nome": "Deus das Chamas", "descricao": "As magias de fogo de Sckhar estão sob efeito de Magia Ampliada e seus dados de dano aumentam, cada um, em dois passos (já contabilizado). Todo dano de fogo causado por Sckhar ignora redução de dano e, contra criaturas imunes a fogo, ainda causa metade do dano." },
+    { "nome": "Ego", "acao": "reação", "custos": { "value": 5, "type": "PM" }, "descricao": "Uma vez por rodada, quando Sckhar faz um teste de perícia (exceto de ataque), passa automaticamente nesse teste." },
+    { "nome": "Escamas Supremas", "descricao": "Sckhar sofre apenas metade do dano de fontes mundanas." },
+    { "nome": "Fluxo de Mana", "descricao": "Sckhar pode manter dois efeitos sustentados simultaneamente com apenas uma ação livre (mas pagando o custo de cada um)." },
+    { "nome": "Imposição Real", "acao": "completa", "descricao": "Sckhar altera a temperatura de uma área de qualquer tamanho em Sckharshantallas, variando de clima ameno até calor extremo, por uma cena." },
+    { "nome": "Magia Acelerada", "acao": "livre", "custos": { "value": 4, "type": "PM" }, "descricao": "Uma vez por rodada, quando lança uma magia com execução de ação completa ou menor, Sckhar muda a execução dela para livre." },
+    { "nome": "Poder Incontestável", "descricao": "A primeira magia que Sckhar lança em cada rodada não pode ser alvo de contramágica." },
+    { "nome": "Sopro", "acao": "padrão", "descricao": "Todas as criaturas em um cone de 30m sofrem 30d12 pontos de dano de fogo e ficam em chamas (Reflexos CD 55 reduz o dano à metade e evita a condição). Cada vez que um dado de dano do sopro rolar o valor máximo, role um dado extra e some ao total. Recarga (ação de movimento)." },
+    { "nome": "Varrer", "acao": "livre", "descricao": "Uma vez por rodada, quando Sckhar faz um ataque corpo a corpo e reduz os PV do alvo para 0 ou menos, pode realizar um ataque adicional contra outra criatura dentro do seu alcance." },
+    { "nome": "Magias (conjurador arcano, 20º nível, CD 55, limite de PM 32)", "descricao": "Aprisionamento (15 PM, completa; Vontade anula), Bola de Fogo (27 PM; 18d10 de fogo em raio de 12m, Reflexos reduz à metade), Campo de Força (11 PM, reação; RD 70), Chuva de Meteoros (15 PM, completa; quadrado de 36m, 15d6 de impacto + 15d10 de fogo, caído e agarrado), Coluna de Chamas (16 PM; cilindro de 6m de raio e 30m de altura, 16d10 de fogo + 6d6 de luz), Controlar Fogo (3 PM), Dissipar Magia (3 PM), Globo de Invulnerabilidade (15 PM, sustentada; detém magias de 4º círculo ou menos), Imobilizar (9 PM; paralisa, Vontade reduz para lento), Muralha Elemental (6 PM, somente fogo), Segunda Chance (25 PM; 400 PV e condições), Velocidade (10 PM, sustentada; ação padrão extra por turno)." }
+  ],
+  "equipamento": [],
+  "tesouro": "10 peças de couro de dragão (CD 35 para extrair), além de fortuna praticamente incalculável no reino de Sckharshantallas (provavelmente equivalente a tesouro triplo, se derrotado fora de seu domínio).",
+  "description": "Um dos seis Dragões-Reais de Arton, crias diretas do próprio Kallyadranoch (nascidos, segundo o mito, das pontas cortadas de suas seis longas tranças coloridas), cada um com seu sopro especial — o de Sckhar é fogo. Mesmo adotando a forma de um regente élfico arrogante, emana grandiosidade; quando retorna à monstruosa forma natural, sua presença inunda tudo em volta com fogo e medo. Impossível ser qualquer outra coisa, exceto um deus. Um dos seres mais inteligentes de Arton, escolherá seus itens e táticas com extrema competência.",
+  "livro": "ameacas_de_arton"
+}

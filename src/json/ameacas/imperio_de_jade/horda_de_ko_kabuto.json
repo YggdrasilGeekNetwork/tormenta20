@@ -1,0 +1,41 @@
+{
+  "id": "horda_de_ko_kabuto",
+  "name": "Horda de Ko-Kabuto",
+  "nd": 3,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "imperio_de_jade",
+  "pv": 112,
+  "pm": null,
+  "defesa": 22,
+  "salvaguardas": { "fort": 11, "ref": 13, "von": 3 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 7,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 6, "voo": 3 },
+  "atributos": { "for": 1, "des": 2, "con": 1, "int": -4, "sab": 1, "car": -3 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Galhada [Bando]",
+      "bonus": 12,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 10, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Agarralhada", "descricao": "A horda de ko-kabuto recebe +2 em testes para agarrar e derrubar." },
+    { "nome": "Formação Defensiva", "acao": "movimento", "descricao": "A horda recebe +2 na Defesa até seu próximo turno." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "description": "Representa um bando de ko-kabuto agindo em conjunto (regra de Bando, veja 'Manual de Criação de Ameaças'), atacando em grupo como pragas coordenadas.",
+  "livro": "ameacas_de_arton"
+}

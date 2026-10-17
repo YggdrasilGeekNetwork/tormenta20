@@ -1,0 +1,53 @@
+{
+  "id": "lyuba",
+  "name": "Lyuba",
+  "nd": 14,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "uivantes",
+  "pv": 715,
+  "defesa": 45,
+  "salvaguardas": { "fort": 31, "ref": 15, "von": 19 },
+  "reducao_de_dano": 10,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": ["fogo"],
+  "iniciativa": 11,
+  "percepcao": 13,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 12, "des": 0, "con": 8, "int": -3, "sab": 2, "car": 0 },
+  "pericias": {},
+  "ataques": [
+    {
+      "nome": "Presas Espectrais",
+      "bonus": 39,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 35, "tipo": "perfuração" }
+      ],
+      "critico": "18/x2"
+    },
+    {
+      "nome": "Tromba",
+      "bonus": 39,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 12 }], "bonus": 30, "tipo": "impacto" }
+      ],
+      "efeito": "doença"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Atropelamento", "acao": "completa", "salvaguarda": "Reflexos", "cd": 38, "efeito_sucesso": "reduz à metade e evita a condição", "descricao": "O lyuba percorre até o dobro de seu deslocamento. Ele pode passar pelo espaço ocupado de quaisquer inimigos menores que ele, mas não pode passar duas vezes pelo mesmo espaço. Criaturas atropeladas desta forma sofrem 4d8+35 pontos de dano de impacto e ficam caídas (Ref CD 38 reduz à metade e evita a condição). Recarga (movimento)." },
+    { "nome": "Caçador de Caçadores", "descricao": "O lyuba causa +1d12 pontos de dano contra criaturas não nativas das Uivantes." },
+    { "nome": "Constrição", "acao": "livre", "descricao": "No início de cada um de seus turnos, o lyuba causa 4d12+30 pontos de dano de impacto na criatura que estiver agarrando com a tromba." },
+    { "nome": "Definhamento", "descricao": "Uma criatura atingida pela tromba do lyuba é exposta à doença podridão da múmia." },
+    { "nome": "Desespero", "salvaguarda": "Vontade", "cd": 38, "descricao": "Uma criatura que comece seu turno vendo o lyuba fica apavorada (Von CD 38 evita e a criatura não pode ser apavorada por esta habilidade até o fim da cena)." },
+    { "nome": "Presas Espectrais", "salvaguarda": "Fortitude", "cd": 38, "efeito_sucesso": "evita", "descricao": "As presas do lyuba contam como armas mágicas e afetam criaturas incorpóreas. Uma criatura atingida pelas presas fica fraca (Fort CD 38 evita). Cada vez que deixa uma criatura fraca com esta habilidade, o lyuba recebe 30 PV temporários cumulativos." },
+    { "nome": "Tromba", "acao": "livre", "descricao": "Se o lyuba acerta um ataque de tromba, pode fazer a manobra agarrar ou derrubar (teste +44)." }
+  ],
+  "equipamento": [],
+  "tesouro": "Padrão, mais couro do lyuba (CD 29 para extrair, reduz em 1 PM o custo para fabricar um item com o encanto fantasmagórico).",
+  "description": "Mamute mumificado pelo gelo que retorna como monstro vingativo, segundo o mito dos nativos das Uivantes. Diz-se que surge quando caçadores estrangeiros extraem apenas as presas valiosas de um mamute abatido e abandonam a carcaça — ato considerado pecaminoso entre os povos nativos.",
+  "livro": "ameacas_de_arton"
+}

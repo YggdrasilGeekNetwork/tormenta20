@@ -1,0 +1,48 @@
+{
+  "id": "rinoceronte_lanoso",
+  "name": "Rinoceronte Lanoso",
+  "nd": 6,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "montarias",
+  "pv": 260,
+  "pm": null,
+  "defesa": 24,
+  "salvaguardas": { "fort": 18, "ref": 6, "von": 12 },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": { "frio": 5 },
+  "vulnerabilidades": [],
+  "iniciativa": 6,
+  "percepcao": 8,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 12 },
+  "atributos": { "for": 7, "des": 0, "con": 4, "int": -4, "sab": 1, "car": -3 },
+  "pericias": { "atletismo": 12 },
+  "ataques": [
+    {
+      "nome": "Chifre",
+      "bonus": 20,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 8 }], "bonus": 25, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Habitante da Tundra", "descricao": "O deslocamento do rinoceronte lanoso não é afetado por gelo ou neve." },
+    { "nome": "Investida Avassaladora", "acao": "completa", "descricao": "O rinoceronte faz uma investida com seu chifre. Se acertar o ataque, causa +3d8 pontos de dano e a vítima é arremessada 1d6 x 1,5m na direção oposta." }
+  ],
+  "equipamento": [],
+  "tesouro": "Nenhum.",
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 12m e você recebe +2 em testes de ataque quando faz investidas.",
+    "veterano": "Você pode usar Carga de Cavalaria. Se possui esse poder, o bônus no dano em investida aumenta em +1d8.",
+    "mestre": "Seu deslocamento não é afetado por gelo ou neve."
+  },
+  "description": "Variedade do rinoceronte adaptada ao frio extremo das Uivantes, com pelagem espessa protegendo-o dos rigores do clima gelado.",
+  "livro": "ameacas_de_arton"
+}

@@ -1,0 +1,36 @@
+{
+  "id": "dragoes_energia_e_modificacao",
+  "name": "Energia Dracônica, Dragões como Parceiros e Modificando Dragões",
+  "description": "Regras gerais sobre a energia elemental dos dragões, seu uso como familiares/montarias, e como adaptar as fichas de dragões para criar variantes de outras energias (Ameaças de Arton, Cap. 1, seção Dragões).",
+  "energia_draconica": {
+    "descricao": "O traço mais importante de um dragão é sua energia elemental: embora sejam seres vivos (curáveis com magias de luz), são movidos por forças mágicas fundamentais da Criação que produzem internamente, não de fontes externas. Cada dragão gera uma energia (fogo, frio, eletricidade, ácido, trevas ou luz), pode expeli-la como baforada e é imune a ela. O livro básico traz dragões 'genéricos' com energia de fogo; esta seção traz exemplos com energias variadas."
+  },
+  "dragoes_como_familiares_e_parceiros": {
+    "familiar": "Dragões filhotes de qualquer tipo podem ser invocados como familiares, mas isso exige obter um ovo de dragão (filhotes já chocados são bestiais demais para a transformação). Se tiver um dragão filhote como familiar, magias que causem dano do mesmo tipo que o sopro do dragão têm a CD aumentada em +2 e custam –1 PM (cumulativo com outras reduções).",
+    "parceiro": "Dragões jovens de qualquer tipo podem servir como parceiro montaria (Grande). Iniciante: deslocamento muda para 12m (normal e de voo) e, uma vez por rodada, pode gastar 1 PM para causar 2d6 de dano da energia do dragão em alcance médio. Veterano: recebe também uma ação de movimento extra por turno (só para se deslocar) e pode gastar 2 PM para causar 4d6 de dano. Mestre: deslocamento muda para 18m e pode gastar 5 PM e uma ação de movimento para usar a habilidade Sopro do dragão.",
+    "conquistar_um_dragao": "Por serem orgulhosos e de personalidade forte, um dragão montaria não pode ser escolhido simplesmente como opção de uma habilidade como o poder Parceiro — conquistar sua amizade e respeito deve fazer parte da história e ser recompensa por ações do personagem, com os detalhes dependendo de cada campanha (um favor, uma demonstração de poder, ou qualquer ato que prove ao dragão que o personagem é digno). Um dragão jovem conta como dois parceiros para efeitos do limite de parceiros, a menos que o personagem tenha o poder Coração de Dragão."
+  },
+  "modificando_dragoes": {
+    "energia_draconica": "Cada dragão possui uma energia elemental que determina o tipo de dano ao qual é imune, bem como o dano e efeito adicional de seu sopro; também é vulnerável ao tipo de dano oposto. Os tipos mais comuns são ácido, eletricidade, fogo, frio, luz e trevas, mas há rumores de dragões com energia psíquica ou até essência.",
+    "tabela_1_2_energia_draconica": [
+      { "essencia": "Ácido", "efeito_adicional_do_sopro": "Vulnerável por 1d4 rodadas", "vulnerabilidade": "Eletricidade" },
+      { "essencia": "Eletricidade", "efeito_adicional_do_sopro": "Ofuscado por 1d4 rodadas", "vulnerabilidade": "Ácido" },
+      { "essencia": "Fogo", "efeito_adicional_do_sopro": "Em chamas", "vulnerabilidade": "Frio" },
+      { "essencia": "Frio", "efeito_adicional_do_sopro": "Lento por 1d4 rodadas", "vulnerabilidade": "Fogo" },
+      { "essencia": "Luz", "efeito_adicional_do_sopro": "Cego por 1d4 rodadas (uma vez por cena por criatura)", "vulnerabilidade": "Trevas" },
+      { "essencia": "Trevas", "efeito_adicional_do_sopro": "Enjoado por 1d4 rodadas (uma vez por cena por criatura)", "vulnerabilidade": "Luz" },
+      { "essencia": "Essência", "efeito_adicional_do_sopro": "Alquebrado por 1 rodada", "vulnerabilidade": "Outro tipo qualquer" },
+      { "essencia": "Psíquico", "efeito_adicional_do_sopro": "Confuso por 1d4 rodadas (sopro resistido com Vontade em vez de Reflexos)", "vulnerabilidade": "Veneno" },
+      { "essencia": "Veneno", "efeito_adicional_do_sopro": "Envenenado por 1d4 rodadas, perde 1d12 PV por categoria de idade do dragão (dano do sopro é metade em perda de PV por veneno; resistido com Fortitude em vez de Reflexos)", "vulnerabilidade": "Psíquico" }
+    ],
+    "formato_do_sopro": {
+      "cone": "A forma mais comum. O sopro de um dragão filhote alcança 6m, aumentando +3m por categoria adicional de idade.",
+      "explosao": "Esfera de energia concentrada que explode ao impacto. Filhotes sopram em alcance curto, jovens/adultos em alcance médio, veneráveis/reais em alcance longo. O raio começa em 3m e aumenta +3m por categoria acima de filhote (6m jovem, 9m adulto etc.).",
+      "linha": "Concentrado em linha reta, alcançando maiores distâncias e causando mais dano: cada vez que um dado de dano rola o valor máximo, role um dado extra e some ao total. Comprimento de 6m por categoria de idade.",
+      "nuvem": "Em vez de dano imediato, cria uma nuvem que cobre uma área cúbica por 2 rodadas; criaturas que comecem o turno dentro fazem o teste de resistência ou sofrem o dano/efeitos. Por ser duradouro, causa menos dano: substitua os dados do sopro base por d6 (ex.: 12d6 para a nuvem de um dragão adulto). A nuvem é um cubo com lados de 3m por categoria de idade."
+    },
+    "magias": "Dragões maiores (adulto, venerável, real) lançam magias como conjuradores arcanos, mas podem aprender qualquer magia, arcana ou divina. Uma forma de personalizar um dragão é montar uma lista de magias própria, coerente com seu conceito e natureza (um dragão de luz benevolente dificilmente aprenderá Rogar Maldição; um de ácido agressivo provavelmente não terá interesse em Tranquilidade).",
+    "outras_caracteristicas": "Além de sopro e magias, dragões variam em atributos, testes de ataque, resistências e habilidades. Não há regra rígida para isso; consulte o Capítulo 2 (Manual de Criação de Ameaças) para diretrizes."
+  },
+  "livro": "ameacas_de_arton"
+}

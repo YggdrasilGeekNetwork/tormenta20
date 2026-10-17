@@ -1,0 +1,61 @@
+{
+  "id": "aka_oni",
+  "name": "Aka Oni",
+  "nd": 9,
+  "tipo": "Espírito",
+  "subtipo": "lefeu",
+  "tamanho": "medio",
+  "grupo": "imperio_de_jade",
+  "pv": 360,
+  "pm": null,
+  "defesa": 35,
+  "salvaguardas": { "fort": 21, "ref": 16, "von": 9 },
+  "reducao_de_dano": 10,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 14,
+  "visao": ["faro", "visão na penumbra"],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 7, "des": 1, "con": 3, "int": -1, "sab": 1, "car": -4 },
+  "pericias": { "atletismo": 15, "intimidacao": 11 },
+  "ataques": [
+    {
+      "nome": "Tetsubo",
+      "bonus": 28,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 12 }], "bonus": 18, "tipo": "impacto" },
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 0, "tipo": "matéria vermelha" }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Pinça",
+      "quantidade": 2,
+      "bonus": 28,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 4 }], "bonus": 13, "tipo": "corte" }
+      ],
+      "critico": "20/x2"
+    },
+    {
+      "nome": "Chifres",
+      "bonus": 28,
+      "dano": [
+        { "dados": [{ "quantidade": 1, "faces": 6 }], "bonus": 13, "tipo": "perfuração" }
+      ],
+      "critico": "20/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Ataque Pesado", "acao": "livre", "descricao": "Quando acerta um ataque de tetsubo, o aka oni faz a manobra derrubar ou empurrar contra o alvo (teste +30)." },
+    { "nome": "Avesso à Honra", "descricao": "Os ataques do oni causam +1d10 pontos de dano de trevas contra devotos de Lin-Wu e personagens que sigam algum código de conduta (como Código de Honra ou Código do Herói)." },
+    { "nome": "Doença", "descricao": "Uma criatura atingida pelos chifres do oni é exposta à doença infecção escarlate." },
+    { "nome": "Insanidade da Tormenta", "descricao": "Criaturas que vejam o aka oni perdem 2d6 PM (Vontade CD 28 evita)." }
+  ],
+  "equipamento": ["Gibão de peles", "Tetsubo aumentado de matéria vermelha"],
+  "tesouro": "Nenhum.",
+  "description": "Oni corrompido pela matéria vermelha da Tormenta, empunhando um tetsubo forjado com o material amaldiçoado, muito mais poderoso e instável que seus parentes comuns.",
+  "livro": "ameacas_de_arton"
+}

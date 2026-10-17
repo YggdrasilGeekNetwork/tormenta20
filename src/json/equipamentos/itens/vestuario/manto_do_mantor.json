@@ -1,0 +1,15 @@
+{
+  "id": "manto_do_mantor",
+  "name": "Manto do Mantor",
+  "type": "item",
+  "categoria": "vestuario",
+  "preco": 450,
+  "espacos": 1,
+  "uso": "vestido",
+  "efeito": {
+    "condicao": "escuridão completa",
+    "beneficio": "camuflagem total, mesmo contra criaturas que vejam no escuro"
+  },
+  "description": "Este manto, feito a partir do couro de um mantor, oferece parte de sua furtividade. Na escuridão completa fornece camuflagem total, mesmo contra criaturas que vejam no escuro.",
+  "livro": "ameacas_de_arton"
+}

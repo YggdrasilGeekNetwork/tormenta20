@@ -1,0 +1,40 @@
+{
+  "id": "defeituoso",
+  "name": "Defeituoso",
+  "nd": 6,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "medio",
+  "grupo": "trolls_nobres",
+  "pv": 235,
+  "defesa": 26,
+  "cura_acelerada": "15/especial",
+  "salvaguardas": { "fort": 18, "ref": 12, "von": 6 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 3,
+  "visao": ["visão no escuro"],
+  "deslocamento": { "terrestre": 6 },
+  "atributos": { "for": 5, "des": 3, "con": 2, "int": -3, "sab": 0, "car": -2 },
+  "pericias": { "sobrevivencia": 6 },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 19,
+      "dano": [
+        { "dados": [{ "quantidade": 3, "faces": 6 }], "bonus": 16, "tipo": "perfuração" }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Enxertos", "descricao": "Cada defeituoso possui três enxertos, modificações resultantes de experimentos. Para cada enxerto, role 1d6 na tabela abaixo (enxertos iguais são cumulativos): 1) Cabeça Extra (o defeituoso recebe um ataque de mordida extra e +5 em Percepção e Vontade); 2) Carapaça (o defeituoso recebe RD 5 e +2 na Defesa); 3) Garra (o defeituoso recebe um ataque de garra, ataque +19, dano 2d10+12; se receber um segundo ataque de garra, recebe também Dilacerar — se acerta os dois ataques de garra em uma mesma criatura no mesmo turno, causa mais 1d10+6 pontos de dano); 4) Músculos Enxertados (o defeituoso recebe +2 em testes de ataque e rolagens de dano); 5) Pólipos (ação de movimento, uma vez por cena, o defeituoso expele uma nuvem de pólipos venenosos; criaturas em um raio de 9m ao redor dele perdem 4d12 PV e ficam enjoadas por veneno por 1 rodada, Fort CD 22 reduz a perda de vida à metade e evita a condição; cada enxerto adicional permite usar esta habilidade mais uma vez na mesma cena); 6) Sumidouro Místico (o defeituoso recebe resistência a magia +2 e, sempre que ele acerta um ataque corpo a corpo, a vítima perde 2 PM)." },
+    { "nome": "Recordações de Dor", "acao": "reacao", "descricao": "Quando sofre dano pela primeira vez em cada rodada, o defeituoso faz um ataque de mordida contra um oponente adjacente." },
+    { "nome": "Regeneração Experimental", "descricao": "Cada defeituoso é suscetível a um tipo específico de energia, contra a qual sua cura acelerada não funciona. Role 1d6 para determinar essa energia: 1) ácido; 2) eletricidade; 3) fogo; 4) frio; 5) luz; 6) trevas. A cada enxerto de cabeça extra, role um tipo de energia adicional." }
+  ],
+  "tesouro": "Nenhum.",
+  "description": "Ser possivelmente humano em algum momento, horrivelmente distorcido por experimentos mágicos dos arcanistas finntroll em busca de servos ainda mais poderosos. Monstruosidade disforme e incontrolável, considerada inútil pelos trolls nobres, que os libertam muito longe de suas cidades por se considerarem \"dignos\" demais para abatê-los. Quase todos são maníacos violentos que buscam um fim para suas vidas agonizantes.",
+  "livro": "ameacas_de_arton"
+}

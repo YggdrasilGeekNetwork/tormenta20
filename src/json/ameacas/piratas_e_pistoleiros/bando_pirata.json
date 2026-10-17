@@ -1,0 +1,49 @@
+{
+  "id": "bando_pirata",
+  "name": "Bando Pirata",
+  "nd": 6,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "grande",
+  "grupo": "piratas_e_pistoleiros",
+  "pv": 54,
+  "pm": null,
+  "defesa": 27,
+  "salvaguardas": { "fort": 10, "ref": 17, "von": 9 },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 5,
+  "visao": [],
+  "deslocamento": { "terrestre": 9 },
+  "atributos": { "for": 0, "des": 1, "con": 1, "int": 0, "sab": 1, "car": -1 },
+  "pericias": { "acrobacia": 10, "atletismo": 7 },
+  "ataques": [
+    {
+      "nome": "Cimitarra [Bando]",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 6 }], "bonus": 12, "tipo": "corte" }
+      ],
+      "critico": "18/x2"
+    },
+    {
+      "nome": "Adaga [Bando]",
+      "bonus": 24,
+      "dano": [
+        { "dados": [{ "quantidade": 2, "faces": 4 }], "bonus": 12, "tipo": "perfuração" }
+      ],
+      "critico": "19/x2"
+    }
+  ],
+  "poderes_especiais": [
+    { "nome": "Correr pelo Cordame", "acao": "completa", "descricao": "O bando percorre até seu deslocamento, ignorando terreno difícil, e faz um ataque corpo a corpo com +2 no teste de ataque e +1d6 na rolagem de dano." },
+    { "nome": "Pernas do Mar", "descricao": "Quando está se equilibrando ou escalando, o bando não fica desprevenido e seu deslocamento não é reduzido à metade." }
+  ],
+  "equipamento": ["Adaga", "Cimitarra (1d8 cada)"],
+  "tesouro": "Metade.",
+  "description": "Representa um bando de piratas agindo em conjunto (regra de Bando, veja 'Manual de Criação de Ameaças').",
+  "livro": "ameacas_de_arton"
+}
