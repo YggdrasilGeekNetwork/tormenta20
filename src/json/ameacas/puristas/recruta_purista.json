@@ -1,0 +1,63 @@
+{
+  "id": "recruta_purista",
+  "name": "Recruta Purista",
+  "nd": 0.5,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "médio",
+  "grupo": "puristas",
+  "pv": 10,
+  "defesa": 16,
+  "salvaguardas": {
+    "fort": 6,
+    "ref": 2,
+    "von": 0
+  },
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 3,
+  "percepcao": 0,
+  "visao": [],
+  "deslocamento": {
+    "terrestre": 6
+  },
+  "atributos": {
+    "for": 2,
+    "des": 1,
+    "con": 2,
+    "int": -1,
+    "sab": -1,
+    "car": 0
+  },
+  "ataques": [
+    {
+      "nome": "Alabarda",
+      "bonus": 8,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 10
+            }
+          ],
+          "bonus": 5,
+          "tipo": "corte/perfuração"
+        }
+      ],
+      "critico": "x3"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Lutar em Formação",
+      "descricao": "Adjacente a aliado com o mesmo poder: +2 em testes de ataque e Defesa."
+    }
+  ],
+  "equipamento": [
+    "Alabarda",
+    "cota de malha"
+  ],
+  "tesouro": "nenhum",
+  "description": "A ralé do exército purista, recrutada entre filhos de camponeses, órfãos e criminosos. Usados em missões menos importantes como atacar aldeias, proteger locais não estratégicos e patrulhar estradas."
+}

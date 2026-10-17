@@ -1,0 +1,20 @@
+{
+  "id": "olho_de_sszzaas",
+  "name": "O Olho de Sszzaas",
+  "description": "Uma gema esverdeada segura por um cajado de madeira fossilizada com corrente de comprimento variável. Forjado pelo deus Sszzaas a partir do próprio olho removido. Carrega parte da consciência de Sszzaas, que manipula tudo à distância. Reconhecê-lo exige um teste de Conhecimento (CD 30).",
+  "effects": [
+    {
+      "type": "passivo",
+      "efeito": "permite lançar qualquer magia conhecida ou ouvida falar (arcana ou divina) como habilidade mágica, sem gastar PM; aprimoramentos ainda custam PM"
+    },
+    {
+      "type": "hazard",
+      "resistencia": "Misticismo CD 20 + custo em PM da magia",
+      "efeito": "falha: a magia 'falha' (mas na verdade Sszzaas está no controle)"
+    },
+    {
+      "type": "lore",
+      "note": "toda 'falha' de magia é Sszzaas executando seu plano; o portador não percebe a manipulação"
+    }
+  ]
+}

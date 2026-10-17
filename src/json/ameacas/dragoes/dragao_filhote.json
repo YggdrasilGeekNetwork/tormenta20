@@ -1,0 +1,91 @@
+{
+  "id": "dragao_filhote",
+  "name": "Dragão Filhote",
+  "nd": 3,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "médio",
+  "grupo": "dragoes",
+  "pv": 140,
+  "defesa": 22,
+  "salvaguardas": {
+    "fort": 15,
+    "ref": 3,
+    "von": 9
+  },
+  "imunidades": [
+    "fogo"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [
+    "frio"
+  ],
+  "iniciativa": 6,
+  "percepcao": 8,
+  "visao": [
+    "percepção às cegas",
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9,
+    "voo": 18
+  },
+  "atributos": {
+    "for": 4,
+    "des": 3,
+    "con": 3,
+    "int": 0,
+    "sab": 0,
+    "car": 0
+  },
+  "pericias": {
+    "intimidacao": 11
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 15,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "bonus": 5,
+          "tipo": "perfuração"
+        }
+      ]
+    },
+    {
+      "nome": "Garra",
+      "bonus": 15,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 5,
+          "tipo": "corte"
+        }
+      ],
+      "quantidade": 2
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Sopro",
+      "acao": "padrão",
+      "salvaguarda": "Reflexos",
+      "cd": 18,
+      "efeito_sucesso": "reduz à metade e evita condição",
+      "descricao": "Cone de 6m. Criaturas sofrem 2d12 de fogo e ficam em chamas (Ref CD 18 reduz à metade e evita). Recarga (movimento)."
+    }
+  ],
+  "tesouro": "padrão",
+  "description": "Jovem dragão ainda em crescimento, mas já imensamente perigoso. Seu sopro de fogo é devastador e sua resistência à magia cresce com a idade."
+}

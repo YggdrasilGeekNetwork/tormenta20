@@ -1,0 +1,10 @@
+{
+  "id": "dependencia_de_agua",
+  "name": "Dependência de Água",
+  "type": "habilidade_de_raca",
+  "race": "elfo_do_mar",
+  "description": "Se permanecer mais de um dia sem contato com água, você não recupera PM com descanso até voltar para a água (ou, pelo menos, tomar um bom banho).",
+  "effects": {
+    "restriction": { "condition": "sem_contato_com_agua_por_mais_de_um_dia", "efeito": "nao_recupera_pm_com_descanso" }
+  }
+}

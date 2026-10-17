@@ -1,0 +1,86 @@
+{
+  "id": "nagah_guardiao",
+  "name": "Nagah Guardião",
+  "nd": 3,
+  "tipo": "Humanoide",
+  "subtipo": "nagah",
+  "tamanho": "médio",
+  "grupo": "sszzaazitas",
+  "pv": 45,
+  "defesa": 21,
+  "salvaguardas": {
+    "fort": 6,
+    "ref": 11,
+    "von": 9
+  },
+  "resistencia_a_veneno": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 6,
+  "percepcao": 3,
+  "visao": [
+    "visão na penumbra"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 4,
+    "des": 3,
+    "con": 2,
+    "int": 0,
+    "sab": 0,
+    "car": 0
+  },
+  "pericias": {
+    "enganacao": 4,
+    "furtividade": 6
+  },
+  "ataques": [
+    {
+      "nome": "Cimitarra",
+      "bonus": 14,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 6,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "18",
+      "quantidade": 2
+    },
+    {
+      "nome": "Cauda",
+      "bonus": 14,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 6,
+          "tipo": "impacto"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Fraquezas Ofídias",
+      "descricao": "Sofre 1 ponto de dano adicional por dado de dano de frio e –5 em testes de resistência contra Músicas de Bardo."
+    }
+  ],
+  "equipamento": [
+    "Cimitarras x2"
+  ],
+  "tesouro": "padrão",
+  "description": "Nagah de torso humanoide e corpo de serpente, guerreiro especializado em combate com duas armas e ataques de cauda."
+}

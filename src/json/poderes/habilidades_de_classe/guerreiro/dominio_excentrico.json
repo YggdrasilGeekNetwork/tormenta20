@@ -1,0 +1,16 @@
+{
+  "id": "dominio_excentrico",
+  "name": "Domínio Excêntrico",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "A partir do 4º nível, sempre que passar pelo menos uma semana carregando uma arma exótica ou de fogo superior ou mágica, você recebe proficiência nela.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 4
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

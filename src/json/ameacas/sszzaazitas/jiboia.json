@@ -1,0 +1,74 @@
+{
+  "id": "jiboia",
+  "name": "Jiboia",
+  "nd": 0.5,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "sszzaazitas",
+  "pv": 14,
+  "defesa": 14,
+  "salvaguardas": {
+    "fort": 3,
+    "ref": 5,
+    "von": 0
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 3,
+  "visao": [
+    "faro",
+    "visão na penumbra"
+  ],
+  "deslocamento": {
+    "terrestre": 6,
+    "escalar": 6,
+    "natacao": 9
+  },
+  "atributos": {
+    "for": 2,
+    "des": 3,
+    "con": 1,
+    "int": -5,
+    "sab": 1,
+    "car": -4
+  },
+  "pericias": {
+    "furtividade": 7
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 9,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 4,
+          "tipo": "perfuração"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Agarrar Aprimorado",
+      "acao": "livre",
+      "descricao": "Se acerta mordida, pode usar agarrar (teste +9)."
+    },
+    {
+      "nome": "Constrição",
+      "acao": "livre",
+      "descricao": "No início de cada turno, causa 2d6+4 de impacto na criatura agarrada."
+    }
+  ],
+  "tesouro": "nenhum",
+  "description": "Serpente constritora não venenosa que envolve a presa e a sufoca. Usada pelos sszzaazitas como guardiã."
+}

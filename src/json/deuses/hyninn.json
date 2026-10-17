@@ -15,7 +15,7 @@
   "energy": "qualquer",
   "preferred_weapon": "Adaga",
   "devotees": {
-    "races": ["hynne", "goblins", "sílfides"],
+    "races": ["duendes", "elfos-do-mar", "gnolls", "goblins", "harpias", "hynne", "kappa", "nagah", "naidora", "sátiros", "sílfides"],
     "classes": ["bardos", "bucaneiros", "ladinos", "inventores", "nobres"]
   },
   "granted_powers": [

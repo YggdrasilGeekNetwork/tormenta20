@@ -1,0 +1,20 @@
+{
+  "id": "bracos_de_padeiro",
+  "name": "Braços de Padeiro",
+  "origin": "padeiro",
+  "description": "Sua profissão fortificou seus braços! Você recebe +1 em rolagens de dano com armas de impacto e pode substituir testes de Atletismo por testes de Ofício (cozinheiro).",
+  "effects": {
+    "damage_bonus": [
+      {
+        "weapon": "armas de impacto",
+        "value": 1
+      }
+    ],
+    "skill_substitutions": [
+      {
+        "original": "Atletismo",
+        "substitute": "Ofício (cozinheiro)"
+      }
+    ]
+  }
+}

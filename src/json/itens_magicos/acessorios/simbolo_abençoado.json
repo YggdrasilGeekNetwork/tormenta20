@@ -6,5 +6,11 @@
   "roll_min": 55,
   "roll_max": 58,
   "description": "Conta como um símbolo sagrado. Se você for devoto do deus, o custo de suas magias divinas diminui em –1 PM (cumulativo com o poder Símbolo Sagrado Energizado). Apenas devotos desse deus podem fabricar um símbolo abençoado.",
-  "efeito": {}
+  "effects": [
+    {
+      "type": "reducao_custo_pm_magia",
+      "value": 1,
+      "condicao": "magias divinas, apenas se devoto do deus do símbolo; cumulativo com o poder Símbolo Sagrado Energizado; apenas devotos do deus podem fabricar"
+    }
+  ]
 }

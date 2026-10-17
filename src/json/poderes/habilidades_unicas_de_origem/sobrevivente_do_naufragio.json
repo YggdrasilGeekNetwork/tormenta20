@@ -1,0 +1,22 @@
+{
+  "id": "sobrevivente_do_naufragio",
+  "name": "Sobrevivente do Naufrágio",
+  "origin": "naufrago",
+  "description": "Você recebe +5 PV e +2 PM. Além disso, uma vez por cena pode gastar 2 PM para receber um dos seguintes benefícios até o fim da cena: treinamento em uma perícia; proficiência com uma arma, armadura ou escudo; usar uma ferramenta no lugar de outra.",
+  "effects": {
+    "hp_bonus": 5,
+    "mp_bonus": 2,
+    "active_ability": {
+      "frequency": "1 vez por cena",
+      "cost": {
+        "pm": 2
+      },
+      "duration": "até o fim da cena",
+      "options": [
+        "treinamento em uma perícia",
+        "proficiência com uma arma, armadura ou escudo",
+        "usar uma ferramenta no lugar de outra"
+      ]
+    }
+  }
+}

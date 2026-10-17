@@ -1,0 +1,107 @@
+{
+  "id": "trog",
+  "name": "Trog",
+  "nd": 1,
+  "tipo": "Humanoide",
+  "subtipo": "trog",
+  "tamanho": "médio",
+  "grupo": "masmorras",
+  "pv": 11,
+  "defesa": 16,
+  "salvaguardas": {
+    "fort": 10,
+    "ref": 5,
+    "von": 1
+  },
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 3,
+  "percepcao": 0,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 3,
+    "des": 1,
+    "con": 3,
+    "int": -2,
+    "sab": 0,
+    "car": -1
+  },
+  "pericias": {
+    "furtividade": 7
+  },
+  "ataques": [
+    {
+      "nome": "Lança",
+      "bonus": 11,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 5,
+          "tipo": "perfuração"
+        }
+      ]
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 11,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 5,
+          "tipo": "perfuração"
+        }
+      ]
+    },
+    {
+      "nome": "Azagaia (à distância)",
+      "bonus": 9,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 5,
+          "tipo": "perfuração"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Mau Cheiro",
+      "acao": "padrão",
+      "descricao": "Expele gás fétido. Criaturas em alcance curto ficam enjoadas por 1d6 rodadas (Fort CD 15 evita). Imunidade por um dia após resistir.",
+      "salvaguarda": "Fortitude",
+      "cd": 15,
+      "efeito_sucesso": "evita"
+    },
+    {
+      "nome": "Sangue Frio",
+      "descricao": "Sofre 1 ponto de dano adicional por dado de dano de frio."
+    }
+  ],
+  "equipamento": [
+    "Azagaias x2",
+    "lança"
+  ],
+  "tesouro": "metade",
+  "description": "Humanoides reptilianos que habitam masmorras. Conhecidos pelo gás fétido que expelem e pela vulnerabilidade ao frio."
+}

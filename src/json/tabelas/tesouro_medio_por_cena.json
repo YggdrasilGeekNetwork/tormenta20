@@ -1,0 +1,28 @@
+{
+  "id": "tesouro_medio_por_cena",
+  "name": "Tesouro Médio por Cena",
+  "description": "Tabela 8-6 (T20 EJA, Cap. 8, p.332). Tesouro médio (em T$) que o grupo deve receber a cada cena com uma ameaça de ND igual ao nível do grupo. Um grupo de quatro personagens vence quatro ameaças de ND igual ao seu nível para subir de nível; logo, ao longo de cada nível, deve conquistar quatro vezes o valor da tabela.",
+  "headers": ["Nível", "Tesouro (T$)"],
+  "rows": [
+    { "Nível": 1, "Tesouro (T$)": 300 },
+    { "Nível": 2, "Tesouro (T$)": 300 },
+    { "Nível": 3, "Tesouro (T$)": 400 },
+    { "Nível": 4, "Tesouro (T$)": 1000 },
+    { "Nível": 5, "Tesouro (T$)": 1000 },
+    { "Nível": 6, "Tesouro (T$)": 2000 },
+    { "Nível": 7, "Tesouro (T$)": 2000 },
+    { "Nível": 8, "Tesouro (T$)": 3000 },
+    { "Nível": 9, "Tesouro (T$)": 3000 },
+    { "Nível": 10, "Tesouro (T$)": 6000 },
+    { "Nível": 11, "Tesouro (T$)": 8000 },
+    { "Nível": 12, "Tesouro (T$)": 9000 },
+    { "Nível": 13, "Tesouro (T$)": 13000 },
+    { "Nível": 14, "Tesouro (T$)": 17000 },
+    { "Nível": 15, "Tesouro (T$)": 22000 },
+    { "Nível": 16, "Tesouro (T$)": 22000 },
+    { "Nível": 17, "Tesouro (T$)": 40000 },
+    { "Nível": 18, "Tesouro (T$)": 50000 },
+    { "Nível": 19, "Tesouro (T$)": 60000 },
+    { "Nível": 20, "Tesouro (T$)": 72000 }
+  ]
+}

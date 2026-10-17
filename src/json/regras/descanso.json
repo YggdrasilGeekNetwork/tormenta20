@@ -1,0 +1,41 @@
+{
+  "id": "descanso",
+  "name": "Descanso & Recuperação",
+  "description": "Com uma noite de descanso (pelo menos oito horas de sono), você recupera PV e PM de acordo com seu nível e condições de descanso.",
+  "condicoes_descanso": [
+    {
+      "id": "ruim",
+      "name": "Ruim",
+      "recuperacao_formula": "metade do nível",
+      "recuperacao_multiplicador": 0.5,
+      "descricao": "Dormir ao relento, sem saco de dormir e acampamento. Ver Sobrevivência."
+    },
+    {
+      "id": "normal",
+      "name": "Normal",
+      "recuperacao_formula": "nível",
+      "recuperacao_multiplicador": 1,
+      "descricao": "Dormir em estalagem comum ou equivalente."
+    },
+    {
+      "id": "confortavel",
+      "name": "Confortável",
+      "recuperacao_formula": "dobro do nível",
+      "recuperacao_multiplicador": 2,
+      "descricao": "Acomodações confortáveis."
+    },
+    {
+      "id": "luxuosa",
+      "name": "Luxuosa",
+      "recuperacao_formula": "triplo do nível",
+      "recuperacao_multiplicador": 3,
+      "descricao": "Acomodações luxuosas."
+    }
+  ],
+  "regras_adicionais": [
+    "Você nunca pode recuperar mais PV ou PM do que perdeu — não pode ultrapassar seu máximo.",
+    "Pontos temporários (PV ou PM) são somados aos pontos atuais e podem ultrapassar o máximo. São sempre gastos primeiro. Desaparecem no fim do dia salvo indicação contrária.",
+    "Ferimentos negativos (sangramento): requerem cuidados médicos (Cura) ou magia para se recuperar durante o descanso.",
+    "Se não dormir ao menos 8 horas em 24 horas, o personagem pode sofrer penalidades por exaustão."
+  ]
+}

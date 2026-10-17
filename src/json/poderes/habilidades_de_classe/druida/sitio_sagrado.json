@@ -1,0 +1,16 @@
+{
+  "id": "sitio_sagrado",
+  "name": "Sítio Sagrado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "No 3º nível, você assume uma área erma com 5 km de raio como sítio sagrado, um refúgio que fornece diversas habilidades. Se o sítio sagrado for destruído, você perde todos os seus PM e só pode recuperá-los ao criar um novo sítio. Aliados da Natureza: dentro do sítio, criaturas não inteligentes (Int -4 ou -5) têm atitude melhor com você (no 7º nível animais são amistosos e espíritos/monstros indiferentes; no 15º nível essas categorias melhoram um passo); você pode comandar criaturas prestativas para defender o sítio, mas elas não o seguem para fora dele. Terreno Associado: ao receber o sítio, escolha um terreno entre aquático, ártico, colina, deserto, floresta, montanha, pântano, planície ou subterrâneo — sempre que estiver nesse tipo de terreno, você soma sua Sabedoria (mínimo +1) em Furtividade, Percepção, Misticismo, Religião e Sobrevivência. No 7º nível, e a cada quatro níveis subsequentes, escolha mais um tipo de terreno ou aumente o bônus de um terreno já escolhido em +2. Você também atinge uma conexão mais forte com sua divindade dentro do sítio: seu redutor de PM por Vínculo com a Terra muda para -2 lá dentro. Caminhos Sagrados: em um terreno de um tipo associado, você não sofre redução de deslocamento por terreno difícil natural e a CD para rastreá-lo aumenta em +10. Base: o sítio sagrado conta como uma base básica, e você paga apenas metade do custo para aumentar seu porte e construir cômodos nela.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [3, 7, 11, 15]
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

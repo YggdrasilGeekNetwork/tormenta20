@@ -1,0 +1,90 @@
+{
+  "id": "sargento_mor",
+  "name": "Sargento-Mor",
+  "nd": 3,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "médio",
+  "grupo": "puristas",
+  "pv": 105,
+  "defesa": 24,
+  "salvaguardas": {
+    "fort": 14,
+    "ref": 9,
+    "von": 5
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 3,
+  "visao": [],
+  "deslocamento": {
+    "terrestre": 6
+  },
+  "atributos": {
+    "for": 4,
+    "des": 1,
+    "con": 4,
+    "int": 0,
+    "sab": 0,
+    "car": 0
+  },
+  "ataques": [
+    {
+      "nome": "Espada bastarda",
+      "bonus": 14,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 12
+            }
+          ],
+          "bonus": 15,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19"
+    },
+    {
+      "nome": "Besta pesada (à distância)",
+      "bonus": 12,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 12
+            }
+          ],
+          "bonus": 10,
+          "tipo": "perfuração"
+        }
+      ],
+      "critico": "19"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Lutar em Formação",
+      "descricao": "Se adjacente a um aliado com este poder, recebe +2 em testes de ataque e Defesa."
+    },
+    {
+      "nome": "Varrer",
+      "acao": "livre",
+      "descricao": "Uma vez por rodada, quando reduz o alvo a 0 PV com ataque corpo a corpo, pode fazer um ataque adicional contra outra criatura no alcance."
+    }
+  ],
+  "equipamento": [
+    "Armadura completa",
+    "besta pesada",
+    "escudo pesado",
+    "espada bastarda aumentada certeira",
+    "virotes x20"
+  ],
+  "tesouro": "padrão",
+  "description": "Veterano brutal que comanda um batalhão de cem soldados puristas. Lidera avançando à frente das tropas."
+}

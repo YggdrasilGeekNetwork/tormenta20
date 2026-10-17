@@ -6,5 +6,16 @@
   "roll_min": 78,
   "roll_max": 82,
   "description": "Com um comando, este tapete flutua, fornecendo deslocamento de voo 12m. O tapete tem 3m x 3m e pode carregar seis criaturas Médias (ou 120 espaços). Se você estiver em alcance longo do tapete, pode comandar o voo dele.",
-  "efeito": {}
+  "effects": [
+    {
+      "type": "deslocamento",
+      "modo": "voo",
+      "value": "12m",
+      "gatilho": "comando"
+    },
+    {
+      "type": "passivo",
+      "efeito": "3m x 3m; carrega até 6 criaturas Médias (120 espaços); controlável a alcance longo"
+    }
+  ]
 }

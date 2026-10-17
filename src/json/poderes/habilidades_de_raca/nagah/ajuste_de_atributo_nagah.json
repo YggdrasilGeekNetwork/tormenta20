@@ -1,0 +1,13 @@
+{
+  "id": "ajuste_de_atributo_nagah",
+  "name": "Ajuste de Atributo",
+  "type": "habilidade_de_raca",
+  "race": "nagah",
+  "description": "Força +1, Destreza +1, Constituição +1 (machos); Inteligência +1, Sabedoria +1, Carisma +1 (fêmeas).",
+  "effects": {
+    "attribute_bonus_by_sex": {
+      "macho": { "forca": 1, "destreza": 1, "constituicao": 1 },
+      "femea": { "inteligencia": 1, "sabedoria": 1, "carisma": 1 }
+    }
+  }
+}

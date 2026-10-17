@@ -6,9 +6,12 @@
   "roll_min": 47,
   "roll_max": 52,
   "description": "Este par de luvas é feito de couro grosso com rebites de ferro. Você recebe +1 em Força (somente após um dia de uso).",
-  "efeito": {
-    "bonus_atributo": {
-      "forca": 1
+  "effects": [
+    {
+      "type": "bonus_atributo",
+      "atributo": "forca",
+      "value": 1,
+      "condicao": "somente após um dia de uso"
     }
-  }
+  ]
 }

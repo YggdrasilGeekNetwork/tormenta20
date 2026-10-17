@@ -1,0 +1,13 @@
+{
+  "id": "tradicao_de_hongari",
+  "name": "Tradição de Hongari",
+  "origin": "chef_hynne",
+  "description": "Quando você prepara um prato especial, seu benefício dura mais 1 dia (se for um benefício com um uso diário, ele pode ser usado novamente nesse dia).",
+  "effects": {
+    "crafting_bonus": {
+      "activity": "prato especial",
+      "duration_extension": "1 dia",
+      "note": "benefícios de uso diário podem ser usados novamente nesse dia"
+    }
+  }
+}

@@ -1,0 +1,66 @@
+{
+  "id": "turba_zumbi",
+  "name": "Turba Zumbi",
+  "nd": 2,
+  "tipo": "Morto-vivo",
+  "subtipo": "bando",
+  "tamanho": "grande",
+  "grupo": "reino_dos_mortos",
+  "pv": 100,
+  "defesa": 11,
+  "salvaguardas": {
+    "fort": 5,
+    "ref": 1,
+    "von": 1
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 1,
+  "percepcao": 1,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 6
+  },
+  "atributos": {
+    "for": 3,
+    "des": -1,
+    "con": 3,
+    "int": null,
+    "sab": -1,
+    "car": 0
+  },
+  "ataques": [
+    {
+      "nome": "Mordida (bando)",
+      "bonus": 17,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "bonus": 12,
+          "tipo": "perfuração"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Bando",
+      "descricao": "Se o ataque excede a Defesa por 10+, causa dobro do dano. Se erra, causa metade. Imune a manobras e efeitos que afetem apenas uma criatura sem dano, mas sofre +50% de efeitos de área. Trespassar pode fazer um ataque adicional contra o bando uma vez por turno."
+    },
+    {
+      "nome": "Fraqueza Zumbi",
+      "descricao": "Sofre o dobro de dano de acertos críticos ou ataques contra cérebros (Defesa 21)."
+    }
+  ],
+  "tesouro": "nenhum",
+  "description": "Uma horda de zumbis agindo como enxame. Difícil de parar individualmente, massivamente perigosa em grupo."
+}

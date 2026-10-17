@@ -1,0 +1,16 @@
+{
+  "id": "treino_especializado",
+  "name": "Treino Especializado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "No 5º nível, escolha entre Conquistar pelos Números ou Treino Intensivo.\n• Conquistar pelos Números. Você recebe um segundo melhor amigo. Uma vez por rodada, quando faz uma ação padrão com um de seus melhores amigos, você pode gastar 3 PM para fazer uma ação padrão com o outro.\n• Treino Intensivo. Seu melhor amigo recebe +4 PV por nível, redução de dano 5 e um truque. No 11º nível, a RD aumenta para 10 e ele recebe outro truque. No 17º nível, a RD aumenta para 15.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

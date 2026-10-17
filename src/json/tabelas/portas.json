@@ -1,0 +1,13 @@
+{
+  "id": "portas",
+  "name": "Portas",
+  "description": "Tabela 6-3 (T20 EJA, Cap. 6, p.265). Redução de dano, pontos de vida e CD do teste de Força para arrombar cada tipo de porta (ação padrão + teste de Força contra a CD indicada). Um personagem que falhe por 5 ou mais sofre 1d6 pontos de dano de impacto. Portas secretas exigem um teste de Investigação (CD 20 a 30) para serem encontradas.",
+  "headers": ["Tipo de Porta", "RD", "PV", "CD"],
+  "rows": [
+    { "Tipo de Porta": "Madeira", "RD": 5, "PV": 20, "CD": 15 },
+    { "Tipo de Porta": "Madeira reforçada", "RD": 5, "PV": 30, "CD": 20 },
+    { "Tipo de Porta": "Pedra", "RD": 8, "PV": 100, "CD": 25 },
+    { "Tipo de Porta": "Ferro", "RD": 10, "PV": 100, "CD": 25 },
+    { "Tipo de Porta": "Grade", "RD": 10, "PV": 60, "CD": 20 }
+  ]
+}

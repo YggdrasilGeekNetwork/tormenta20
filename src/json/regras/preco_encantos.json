@@ -1,0 +1,10 @@
+{
+  "id": "preco_encantos",
+  "name": "Preço de Encantos",
+  "description": "Tabela 8-7 (T20 EJA, Cap. 8, p.334). Itens mágicos encantados funcionam como itens superiores, mas em vez de melhorias possuem encantos (1 para item menor, 2 para médio, 3 para maior). O preço e a CD do teste de Ofício aumentam de acordo com o número de encantos. Bônus por encantos não se acumulam. Um mesmo item pode ser superior e encantado — nesse caso, some os modificadores de preço e CD de 'itens_superiores' e desta tabela.",
+  "niveis": [
+    { "numero_de_encantos": 1, "aumento_no_preco": 18000, "aumento_na_cd": 10 },
+    { "numero_de_encantos": 2, "aumento_no_preco": 36000, "aumento_na_cd": 15 },
+    { "numero_de_encantos": 3, "aumento_no_preco": 72000, "aumento_na_cd": 20 }
+  ]
+}

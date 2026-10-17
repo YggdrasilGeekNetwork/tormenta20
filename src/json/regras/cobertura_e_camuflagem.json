@@ -1,0 +1,47 @@
+{
+  "id": "cobertura_e_camuflagem",
+  "name": "Cobertura & Camuflagem",
+  "description": "Regras para cobertura física e camuflagem visual em combate, além de flanquear e quebrando objetos.",
+  "camuflagem": {
+    "leve": {
+      "name": "Camuflagem Leve",
+      "description": "Escuridão leve, neblina, folhagens ou efeito similar dificultam a visão dos inimigos.",
+      "efeito": "Ataques contra você têm 20% de chance de falha (role 1d10 junto com o d20; 1 ou 2 = ataque erra, independentemente do resultado)."
+    },
+    "total": {
+      "name": "Camuflagem Total",
+      "description": "Um efeito impede completamente a visão dos inimigos (ex: câmara em escuridão total).",
+      "efeito": "Chance de falha de 50% (1 a 5 no d10)."
+    }
+  },
+  "cobertura": {
+    "leve": {
+      "name": "Cobertura Leve",
+      "description": "Você está atrás de algo que bloqueia parcialmente os ataques dos inimigos (árvore, muro, carroça, criatura maior). No mapa, trace linha reta entre cantos dos quadrados: se a linha é interrompida por obstáculo, o alvo tem cobertura leve.",
+      "efeito": "+5 na Defesa."
+    },
+    "total": {
+      "name": "Cobertura Total",
+      "description": "Seus inimigos não podem alcançá-lo (ex: atrás de uma parede).",
+      "efeito": "Você não pode ser atacado."
+    }
+  },
+  "flanquear": {
+    "name": "Flanquear",
+    "description": "Quando você e um aliado lutam corpo a corpo contra um oponente e o inimigo está entre vocês no lado oposto.",
+    "efeito": "Ambos recebem +2 em testes de ataque contra o alvo flanqueado.",
+    "restricoes": "Não se pode flanquear à distância ou com ataques desarmados (exceto com as habilidades Briga ou Estilo Desarmado)."
+  },
+  "quebrando_objetos": {
+    "name": "Quebrando Objetos",
+    "description": "Objetos soltos: faça um ataque contra a Defesa do objeto (definida pela categoria de tamanho; +5 se em movimento). Para objeto segurado por outra criatura: veja a manobra quebrar. Se acertar, causa dano normal. Objetos têm RD dependendo do material. Objeto reduzido a 0 ou menos PV é destruído."
+  },
+  "variantes": [
+    {
+      "id": "cobertura_leve_e_efeitos",
+      "name": "Cobertura Leve e Efeitos",
+      "livro": "herois_de_arton",
+      "description": "Nesta regra, cobertura leve fornece +5 em testes de Reflexos contra efeitos com alvo que tenham origem no lado oposto da cobertura e contra efeitos de área cujo centro esteja do lado oposto da cobertura."
+    }
+  ]
+}

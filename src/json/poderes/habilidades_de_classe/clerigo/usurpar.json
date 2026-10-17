@@ -1,0 +1,22 @@
+{
+  "id": "usurpar",
+  "name": "Usurpar",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Você pode lançar qualquer magia divina de um círculo a que tenha acesso. Para lançar uma magia dessa forma, deve passar em um teste de Enganação (CD 15 + custo em PM da magia). Se falhar, a magia é perdida, mas os PM são gastos mesmo assim. Você não pode escolher 10 nesse teste, mesmo que possua uma habilidade que permita isso, e sofre penalidade de armadura nele. Além disso, sofre uma penalidade de –5 se estiver em um local contendo um símbolo sagrado visível. Você pode lançar magias divinas de 1º círculo a partir do 1º nível; a cada quatro níveis, pode lançar magias de um círculo maior (2º círculo no 5º nível, 3º círculo no 9º nível, 4º círculo no 13º nível e 5º círculo no 17º nível). Você não começa com nenhuma magia e não aprende magias automaticamente como um clérigo faria. Seu atributo-chave para lançar magias é Carisma e você soma seu Carisma no seu total de PM.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [
+        1,
+        5,
+        9,
+        13,
+        17
+      ]
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

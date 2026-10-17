@@ -1,0 +1,66 @@
+{
+  "id": "orc_combatente",
+  "name": "Orc Combatente",
+  "nd": 0.5,
+  "tipo": "Humanoide",
+  "subtipo": "orc",
+  "tamanho": "médio",
+  "grupo": "masmorras",
+  "pv": 8,
+  "defesa": 14,
+  "salvaguardas": {
+    "fort": 5,
+    "ref": 3,
+    "von": 0
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 1,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 4,
+    "des": 1,
+    "con": 2,
+    "int": -1,
+    "sab": -1,
+    "car": -1
+  },
+  "ataques": [
+    {
+      "nome": "Maça",
+      "bonus": 9,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 7,
+          "tipo": "impacto"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Sensibilidade a Luz",
+      "descricao": "Quando exposto a luz do sol ou similar, o orc fica ofuscado."
+    }
+  ],
+  "equipamento": [
+    "Couro batido",
+    "maça"
+  ],
+  "tesouro": "metade",
+  "description": "Humanoides brutais que infestam masmorras e subterrâneos, atacando em bandos à noite. Selvagens e violentos, são sensíveis à luz solar."
+}

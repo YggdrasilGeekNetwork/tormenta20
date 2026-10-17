@@ -1,0 +1,85 @@
+{
+  "id": "soldado_purista",
+  "name": "Soldado Purista",
+  "nd": 1,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "médio",
+  "grupo": "puristas",
+  "pv": 20,
+  "defesa": 20,
+  "salvaguardas": {
+    "fort": 10,
+    "ref": 4,
+    "von": 1
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 1,
+  "visao": [],
+  "deslocamento": {
+    "terrestre": 6
+  },
+  "atributos": {
+    "for": 3,
+    "des": 1,
+    "con": 3,
+    "int": 0,
+    "sab": -1,
+    "car": 0
+  },
+  "ataques": [
+    {
+      "nome": "Espada bastarda",
+      "bonus": 9,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 10
+            }
+          ],
+          "bonus": 9,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19"
+    },
+    {
+      "nome": "Besta pesada (à distância)",
+      "bonus": 7,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 12
+            }
+          ],
+          "bonus": 4,
+          "tipo": "perfuração"
+        }
+      ],
+      "critico": "19"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Lutar em Formação",
+      "descricao": "Se adjacente a um aliado com este poder, recebe +2 em testes de ataque e Defesa."
+    }
+  ],
+  "equipamento": [
+    "Besta pesada",
+    "escudo pesado",
+    "espada bastarda",
+    "meia armadura",
+    "virotes x10"
+  ],
+  "tesouro": "metade",
+  "description": "Soldado da Supremacia Purista, treinado desde criança para matar sem compaixão. Faz parte dos batalhões de combate."
+}

@@ -1,0 +1,16 @@
+{
+  "id": "escudeiro_aprendiz",
+  "name": "Escudeiro Aprendiz",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "A partir do 3º nível, você ajuda seu senhor na batalha. Você se torna treinado em Cavalgar e recebe proficiência com armaduras pesadas. Se já tiver proficiência com armaduras pesadas, recebe +2 na Defesa enquanto usa uma armadura pesada.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 3
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

@@ -1,0 +1,22 @@
+{
+  "id": "evasao_aprimorada_seteiro",
+  "name": "Evasão Aprimorada",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "No 13º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 13
+    }
+  ],
+  "effects": [
+    {
+      "type": "reduce_damage",
+      "value": "metade_ou_nenhum",
+      "requirements": "passar_no_teste_de_reflexos"
+    }
+  ],
+  "costs": null
+}

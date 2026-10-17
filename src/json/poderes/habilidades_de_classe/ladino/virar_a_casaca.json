@@ -1,0 +1,27 @@
+{
+  "id": "virar_a_casaca",
+  "name": "Virar a Casaca",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_ladino",
+  "description": "No 7º nível, se estiver disfarçado, você pode gastar 1 PM para remover seu disfarce. Quando faz isso, você pode fazer um teste de esconder-se usando Enganação no lugar de Furtividade, mesmo sem camuflagem ou cobertura disponível.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 7
+    }
+  ],
+  "effects": [
+    {
+      "type": "switch_skill_attr",
+      "skill": "furtividade",
+      "attr": "enganacao"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

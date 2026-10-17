@@ -1,0 +1,73 @@
+{
+  "id": "golem_de_ferro",
+  "name": "Golem de Ferro",
+  "nd": 10,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "masmorras",
+  "pv": 400,
+  "defesa": 36,
+  "salvaguardas": {
+    "fort": 24,
+    "ref": 14,
+    "von": 11
+  },
+  "reducao_de_dano": 10,
+  "imunidades": [
+    "magia (com exceções)"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 9,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 12,
+    "des": -1,
+    "con": 10,
+    "int": null,
+    "sab": 0,
+    "car": -5
+  },
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "bonus": 30,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 10
+            }
+          ],
+          "bonus": 25,
+          "tipo": "impacto"
+        }
+      ],
+      "quantidade": 2
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Imunidade a Magia",
+      "descricao": "Imune a efeitos mágicos, exceto: eletricidade deixa lento por 1d6 rodadas; fogo remove lento e cura 1 PV para cada 3 pontos de dano."
+    },
+    {
+      "nome": "Sopro",
+      "acao": "movimento",
+      "salvaguarda": "Fortitude",
+      "cd": 30,
+      "efeito_sucesso": "reduz à metade e evita enjoado",
+      "descricao": "Nuvem de gás venenoso em cubo de 3m. Criaturas perdem 6d12 PV e ficam enjoadas (Fort CD 30 reduz à metade e evita). Recarga (movimento). Veneno."
+    }
+  ],
+  "tesouro": "nenhum",
+  "description": "Construto antigo deixado para proteger ruínas. Praticamente invulnerável, é um dos oponentes mais letais de uma masmorra."
+}

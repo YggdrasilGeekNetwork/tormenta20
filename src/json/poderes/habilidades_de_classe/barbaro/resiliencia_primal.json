@@ -1,0 +1,20 @@
+{
+  "id": "resiliencia_primal",
+  "name": "Resiliência Primal",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "A partir do 5º nível, graças a seu vigor e força de vontade, você ignora parte de seus ferimentos. Você recebe redução de dano 3. A cada três níveis, sua RD aumenta em 3, até um máximo de RD 15 no 17º nível.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "soft",
+      "value": [5, 8, 11, 14, 17]
+    }
+  ],
+  "effects": [
+    {
+      "type": "RD_improvement",
+      "value": 3
+    }
+  ]
+}

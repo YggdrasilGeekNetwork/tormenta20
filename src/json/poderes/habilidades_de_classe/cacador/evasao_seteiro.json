@@ -1,0 +1,22 @@
+{
+  "id": "evasao_seteiro",
+  "name": "Evasão",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "A partir do 3° nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste de Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 3
+    }
+  ],
+  "effects": [
+    {
+      "type": "reduce_damage",
+      "value": "ignora_todo_o_dano",
+      "requirements": "passar_no_teste_de_reflexos"
+    }
+  ],
+  "costs": null
+}

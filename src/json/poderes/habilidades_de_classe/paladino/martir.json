@@ -1,0 +1,24 @@
+{
+  "id": "martir",
+  "name": "Mártir",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "A partir do 6º nível, quando um aliado em alcance médio faz um teste de resistência, você pode gastar 1 PM para conceder a ele um bônus nesse teste igual ao seu próprio Carisma. A partir do 12º nível, uma vez por cena, se ele ainda assim falhar, você pode sofrer o efeito no lugar dele (mas você é afetado mesmo que seja imune ao efeito).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [
+        6,
+        12
+      ]
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

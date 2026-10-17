@@ -1,0 +1,135 @@
+{
+  "id": "baralho_do_caos",
+  "name": "O Baralho do Caos",
+  "description": "Um baralho bastante gasto com 22 cartas, cada uma com um símbolo específico. Fornece +10 em testes de Jogatina (ou –10 se o mestre decidir que o usuário abusou da sorte). Quando um personagem diz 'Eu aposto tudo' e saca de 1 a 4 cartas, efeitos aleatórios ocorrem — para o bem ou para o mal. Após o uso assim, o Baralho desaparece e reaparece em outra mesa de jogo de Arton.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Jogatina",
+      "value": 10,
+      "nota": "pode virar -10 se o mestre decidir que o usuário abusou da sorte"
+    },
+    {
+      "type": "ativado",
+      "acao": null,
+      "custo_pm": 0,
+      "gatilho": "diz 'Eu aposto tudo' e saca de 1 a 4 cartas",
+      "efeito": "rola d% por carta na tabela do Baralho do Caos; efeitos instantâneos; após o uso, o Baralho desaparece e reaparece em outra mesa de jogo de Arton"
+    },
+    {
+      "type": "card_table",
+      "cards": [
+        {
+          "range": "01-05",
+          "name": "Abismo",
+          "effect": "resistência 10 a um tipo de dano aleatório"
+        },
+        {
+          "range": "06-09",
+          "name": "Amigo",
+          "effect": "um parceiro racional o trai no pior momento possível (até um ano)"
+        },
+        {
+          "range": "10-14",
+          "name": "Anel",
+          "effect": "+5 PM permanentemente"
+        },
+        {
+          "range": "15-19",
+          "name": "Árvore",
+          "effect": "+10 PV permanentemente"
+        },
+        {
+          "range": "20-24",
+          "name": "Coração",
+          "effect": "+1 em um atributo a sua escolha permanentemente"
+        },
+        {
+          "range": "25-28",
+          "name": "Crânio",
+          "effect": "versão sombria com suas estatísticas surge e o ataca"
+        },
+        {
+          "range": "29-33",
+          "name": "Donzela",
+          "effect": "monstro ND igual ao nível–1 surge; se vencer sozinho, sobe de nível"
+        },
+        {
+          "range": "34-38",
+          "name": "Fogo",
+          "effect": "ao morrer, volta à vida com todos os PV e PM (uma vez)"
+        },
+        {
+          "range": "39-43",
+          "name": "Gema",
+          "effect": "role 10 vezes na coluna Maior da tabela de riquezas"
+        },
+        {
+          "range": "44-48",
+          "name": "Lua",
+          "effect": "receba 1d4 Desejos (usar até fim da cena)"
+        },
+        {
+          "range": "49-52",
+          "name": "Martelo",
+          "effect": "perde todos os itens mágicos"
+        },
+        {
+          "range": "53-56",
+          "name": "Noite",
+          "effect": "–1 em todos os testes de resistência permanentemente"
+        },
+        {
+          "range": "57-60",
+          "name": "Presas",
+          "effect": "todo dinheiro e itens mundanos viram pó"
+        },
+        {
+          "range": "61-65",
+          "name": "Servo",
+          "effect": "recebe os serviços de um parceiro veterano a sua escolha"
+        },
+        {
+          "range": "66-70",
+          "name": "Sol",
+          "effect": "receba uma arma mágica maior (role novamente se não gostar)"
+        },
+        {
+          "range": "71-75",
+          "name": "Tentáculo",
+          "effect": "–1 em um atributo aleatório permanentemente"
+        },
+        {
+          "range": "76-80",
+          "name": "Tolo",
+          "effect": "perde 10.000 XP e saca outra carta"
+        },
+        {
+          "range": "81-85",
+          "name": "Trono",
+          "effect": "+2 em Diplomacia permanentemente e um pequeno feudo"
+        },
+        {
+          "range": "86-90",
+          "name": "Vizir",
+          "effect": "receba a resposta para uma pergunta qualquer (até um ano)"
+        },
+        {
+          "range": "91-94",
+          "name": "Nada",
+          "effect": "imunidade total por uma rodada (usar até um ano)"
+        },
+        {
+          "range": "95-98",
+          "name": "Vazio",
+          "effect": "sua alma é transportada ao vazio; corpo em coma"
+        },
+        {
+          "range": "99-100",
+          "name": "Curinga",
+          "effect": "escolha: ganhar 10.000 XP ou sacar mais duas cartas"
+        }
+      ]
+    }
+  ]
+}

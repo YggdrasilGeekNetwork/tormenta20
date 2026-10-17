@@ -1,0 +1,88 @@
+{
+  "id": "goblin_engenhoqueiro",
+  "name": "Goblin Engenhoqueiro",
+  "nd": 3,
+  "tipo": "Humanoide",
+  "subtipo": "goblin",
+  "tamanho": "pequeno",
+  "grupo": "duyshidakk",
+  "pv": 45,
+  "defesa": 18,
+  "salvaguardas": {
+    "fort": 6,
+    "ref": 10,
+    "von": 5
+  },
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 7,
+  "percepcao": 3,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 0,
+    "des": 2,
+    "con": 2,
+    "int": 3,
+    "sab": -1,
+    "car": 0
+  },
+  "pericias": {
+    "furtividade": 7,
+    "oficio_engenhoqueiro": 10
+  },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 8,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 4
+            }
+          ],
+          "bonus": 2,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19"
+    },
+    {
+      "nome": "Besta leve (à distância)",
+      "bonus": 9,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 2,
+          "tipo": "perfuração"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Engenhocas",
+      "acao": "padrão",
+      "descricao": "Teste de Ofício (CD 15, +5 por uso no dia). Engenhocas disponíveis: Asa de Bambu (voo 12m até o fim da cena), Cospe-chamas (cone 9m, 6d6 fogo, Ref CD 19 metade), Gritador (–2 em testes de ataque/dano para criaturas em alcance curto até o fim da cena)."
+    }
+  ],
+  "equipamento": [
+    "Adaga",
+    "besta leve",
+    "instrumentos de Ofício (engenhoqueiro)",
+    "virotes x20"
+  ],
+  "tesouro": "padrão",
+  "description": "Goblin inventor que usa engenhocas alquímicas em combate. Suas criações improvisadas podem ser devastadoras — ou podem simplesmente enguiçar."
+}

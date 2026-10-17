@@ -1,0 +1,27 @@
+{
+  "id": "pira_santa",
+  "name": "Pira Santa",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "No 8º nível, enquanto estiver sob efeito de Ladainha de Combate, você pode gastar uma ação de movimento e uma quantidade de PM a sua escolha (limitada pelo seu Carisma). Para cada PM que gastar, o inimigo de maior ND em alcance médio sofre 2d8 pontos de dano de luz e fica ofuscado por 1 rodada (Fort CD Car reduz à metade).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 8
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "2d8",
+      "damage_type": "luz"
+    },
+    {
+      "type": "condition_inflict",
+      "condition": "ofuscado",
+      "duration": "1 rodada"
+    }
+  ],
+  "costs": null
+}

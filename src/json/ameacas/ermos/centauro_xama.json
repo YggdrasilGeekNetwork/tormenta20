@@ -1,0 +1,93 @@
+{
+  "id": "centauro_xama",
+  "name": "Centauro Xamã",
+  "nd": 3,
+  "tipo": "Humanoide",
+  "subtipo": "centauro",
+  "tamanho": "grande",
+  "grupo": "ermos",
+  "pv": 35,
+  "pm": 20,
+  "defesa": 21,
+  "salvaguardas": {
+    "fort": 9,
+    "ref": 4,
+    "von": 15
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 8,
+  "visao": [],
+  "deslocamento": {
+    "terrestre": 12
+  },
+  "atributos": {
+    "for": 4,
+    "des": 1,
+    "con": 3,
+    "int": -1,
+    "sab": 4,
+    "car": 0
+  },
+  "pericias": {
+    "religiao": 8,
+    "sobrevivencia": 10
+  },
+  "ataques": [
+    {
+      "nome": "Bordão",
+      "bonus": 11,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 4,
+          "tipo": "impacto"
+        }
+      ]
+    },
+    {
+      "nome": "Cascos",
+      "bonus": 11,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 4,
+          "tipo": "impacto"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Magias",
+      "descricao": "Lança magias como clérigo de Allihanna de 3º nível (CD 17): Armamento da Natureza (movimento, 3 PM), Controlar Plantas (padrão, 2 PM, Fort evita), Curar Ferimentos (padrão, 3 PM, cura 4d8+4 PV)."
+    },
+    {
+      "nome": "Medo de Altura",
+      "descricao": "Se adjacente a uma queda de 3m ou mais, fica abalado."
+    },
+    {
+      "nome": "Voz da Natureza",
+      "descricao": "Sempre sob efeito de Voz Divina apenas para falar com animais."
+    }
+  ],
+  "equipamento": [
+    "Bordão aumentado",
+    "símbolo sagrado de Allihanna"
+  ],
+  "tesouro": "metade",
+  "description": "Líder espiritual centauro devoto de Allihanna. Usa magia da natureza para controlar o campo de batalha."
+}

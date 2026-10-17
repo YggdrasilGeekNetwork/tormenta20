@@ -1,0 +1,26 @@
+{
+  "id": "furia_rustica",
+  "name": "Fúria Rústica",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "No 20º nível, quando entra em fúria, você pode gastar 5 PM. Se fizer isso, durante a fúria você recebe Cura Acelerada 10 (cumulativo com outras Curas Aceleradas) e, quando faz a ação agredir, pode fazer um ataque desarmado adicional.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 20
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "furia"
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": [
+    {
+      "value": 5,
+      "type": "PM"
+    }
+  ]
+}

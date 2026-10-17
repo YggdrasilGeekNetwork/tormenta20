@@ -1,0 +1,75 @@
+{
+  "id": "aparicao",
+  "name": "Aparição",
+  "nd": 5,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "reino_dos_mortos",
+  "pv": 110,
+  "defesa": 23,
+  "salvaguardas": {
+    "fort": 5,
+    "ref": 17,
+    "von": 11
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [
+    "luz solar"
+  ],
+  "iniciativa": 10,
+  "percepcao": 6,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "voo": 18
+  },
+  "atributos": {
+    "for": null,
+    "des": 6,
+    "con": null,
+    "int": 0,
+    "sab": 2,
+    "car": 2
+  },
+  "ataques": [
+    {
+      "nome": "Toque drenante",
+      "bonus": 18,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 3,
+              "faces": 8
+            }
+          ],
+          "bonus": 6,
+          "tipo": "trevas"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Toque Drenante",
+      "salvaguarda": "Fortitude",
+      "cd": 21,
+      "efeito_sucesso": "evita",
+      "descricao": "Criatura atingida deve fazer Fort CD 21 ou ficar fraca; a aparição recebe 20 PV temporários cumulativos."
+    },
+    {
+      "nome": "Incorpóreo",
+      "descricao": "A aparição é incorpórea."
+    },
+    {
+      "nome": "Vulnerabilidade à Luz do Dia",
+      "descricao": "Exposta a luz solar natural, fica debilitada."
+    }
+  ],
+  "tesouro": "nenhum",
+  "description": "Sombra separada de seu antigo dono, feita de pura escuridão. Odeia os vivos e a luz. Detectável por animais e crianças."
+}

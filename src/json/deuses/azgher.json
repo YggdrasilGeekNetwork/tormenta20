@@ -15,7 +15,7 @@
   "energy": "positiva",
   "preferred_weapon": "Cimitarra",
   "devotees": {
-    "races": ["aggelus", "qareen"],
+    "races": ["aggelus", "ceratops", "qareen"],
     "classes": ["arcanistas", "bárbaros", "caçadores", "cavaleiros", "guerreiros", "nobres", "paladinos"]
   },
   "granted_powers": [

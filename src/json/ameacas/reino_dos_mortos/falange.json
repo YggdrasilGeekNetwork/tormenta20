@@ -1,0 +1,80 @@
+{
+  "id": "falange",
+  "name": "Falange",
+  "nd": 8,
+  "tipo": "Morto-vivo",
+  "subtipo": "bando",
+  "tamanho": "grande",
+  "grupo": "reino_dos_mortos",
+  "pv": 300,
+  "defesa": 25,
+  "salvaguardas": {
+    "fort": 6,
+    "ref": 12,
+    "von": 18
+  },
+  "reducoes": {
+    "corte": 5,
+    "frio": 5,
+    "perfuracao": 5
+  },
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 12,
+  "percepcao": 6,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 6
+  },
+  "atributos": {
+    "for": 6,
+    "des": 4,
+    "con": null,
+    "int": null,
+    "sab": 0,
+    "car": -5
+  },
+  "ataques": [
+    {
+      "nome": "[Bando] Espada longa",
+      "bonus": 28,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 4,
+              "faces": 8
+            }
+          ],
+          "bonus": 30,
+          "tipo": "corte"
+        },
+        {
+          "dados": [
+            {
+              "quantidade": 4,
+              "faces": 8
+            }
+          ],
+          "tipo": "trevas"
+        }
+      ],
+      "critico": "19"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Bando",
+      "descricao": "Se o ataque exceder a Defesa por 10+, causa dobro de dano. Se errar, ainda causa metade do dano. Imune a manobras e efeitos que afetam apenas uma criatura sem dano. Sofre +50% de dano de área."
+    }
+  ],
+  "equipamento": [
+    "Escudo pesado",
+    "espada longa",
+    "meia armadura (1d8 cada)"
+  ],
+  "tesouro": "nenhum",
+  "description": "Uma grande falange de esqueletos guerreiros que combatem em formação coordenada, devastadores em campo aberto."
+}

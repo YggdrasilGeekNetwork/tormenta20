@@ -1,0 +1,99 @@
+{
+  "id": "gnoll_filibusteiro",
+  "name": "Gnoll Filibusteiro",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "gnoll",
+  "tamanho": "médio",
+  "grupo": "ermos",
+  "pv": 60,
+  "defesa": 19,
+  "salvaguardas": {
+    "fort": 7,
+    "ref": 11,
+    "von": 4
+  },
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 9,
+  "percepcao": 4,
+  "visao": [
+    "faro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 3,
+    "des": 4,
+    "con": 3,
+    "int": -1,
+    "sab": 2,
+    "car": -1
+  },
+  "ataques": [
+    {
+      "nome": "Espada curta",
+      "bonus": 11,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 4,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 11,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 4,
+          "tipo": "perfuração"
+        }
+      ]
+    },
+    {
+      "nome": "Mosquete (à distância)",
+      "bonus": 12,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 8
+            }
+          ],
+          "bonus": 9,
+          "tipo": "perfuração"
+        }
+      ],
+      "critico": "19/x3"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Recarga Rápida",
+      "descricao": "Pode recarregar seu mosquete como uma ação de movimento."
+    }
+  ],
+  "equipamento": [
+    "Balas x20",
+    "espada curta",
+    "mosquete"
+  ],
+  "tesouro": "padrão",
+  "description": "Gnoll combatente especializado em armas de fogo, temível por sua capacidade de recarregar rapidamente o mosquete e atacar no corpo a corpo com a mordida."
+}

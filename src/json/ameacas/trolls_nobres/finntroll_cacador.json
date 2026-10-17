@@ -1,0 +1,110 @@
+{
+  "id": "finntroll_cacador",
+  "name": "Finntroll Caçador",
+  "nd": 2,
+  "tipo": "Monstro",
+  "subtipo": "finntroll",
+  "tamanho": "médio",
+  "grupo": "trolls_nobres",
+  "pv": 65,
+  "defesa": 19,
+  "salvaguardas": {
+    "fort": 6,
+    "ref": 12,
+    "von": 4
+  },
+  "reducao_de_dano": null,
+  "imunidades": [
+    "atordoamento",
+    "metamorfose"
+  ],
+  "resistencias": {
+    "magia": 2
+  },
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 7,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 2,
+    "des": 3,
+    "con": 3,
+    "int": 2,
+    "sab": 2,
+    "car": -1
+  },
+  "pericias": {
+    "furtividade": 8,
+    "sobrevivencia": 7
+  },
+  "ataques": [
+    {
+      "nome": "Cimitarra",
+      "bonus": 12,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 5,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "18",
+      "quantidade": 2
+    },
+    {
+      "nome": "Besta pesada (à distância)",
+      "bonus": 12,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 12
+            }
+          ],
+          "bonus": 4,
+          "tipo": "perfuração"
+        }
+      ],
+      "critico": "19"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Marca da Presa",
+      "acao": "movimento",
+      "descricao": "Analisa criatura em alcance curto. Até fim da cena, recebe +1d8 em rolagens de dano contra ela (ou +2d8 se for anão, elfo ou humano). Também pode usar rede à distância (+12) para agarrar."
+    },
+    {
+      "nome": "Natureza Vegetal",
+      "descricao": "Afetado por habilidades e magias que afetam plantas."
+    },
+    {
+      "nome": "Regeneração Vegetal",
+      "acao": "movimento",
+      "descricao": "Recupera 5 PV. Não cura dano de ácido e fogo. Não funciona exposto à luz do sol."
+    },
+    {
+      "nome": "Sensibilidade a Luz",
+      "descricao": "Exposto à luz do sol, fica ofuscado e sua cura acelerada não funciona."
+    }
+  ],
+  "equipamento": [
+    "Besta pesada",
+    "cimitarras x2",
+    "rede",
+    "virotes x20"
+  ],
+  "tesouro": "padrão",
+  "description": "Especialista em caçar escravos para o império subterrâneo finntroll. Arrogante e furtivo, usa rede para capturar vítimas."
+}

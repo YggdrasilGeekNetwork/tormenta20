@@ -1,0 +1,95 @@
+{
+  "id": "uktril",
+  "name": "Uktril",
+  "nd": 3,
+  "tipo": "Monstro",
+  "subtipo": "lefeu",
+  "tamanho": "médio",
+  "grupo": "tormenta",
+  "pv": 45,
+  "defesa": 22,
+  "salvaguardas": {
+    "fort": 12,
+    "ref": 11,
+    "von": 6
+  },
+  "reducao_de_dano": 10,
+  "imunidades": [
+    "acertos críticos",
+    "ácido",
+    "cansaço",
+    "eletricidade",
+    "fogo",
+    "frio",
+    "luz",
+    "paralisia",
+    "metabolismo",
+    "metamorfose",
+    "trevas",
+    "veneno"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 10,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 5,
+    "des": 4,
+    "con": 2,
+    "int": -1,
+    "sab": 2,
+    "car": -4
+  },
+  "ataques": [
+    {
+      "nome": "Pinça",
+      "bonus": 16,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "bonus": 6,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19"
+    },
+    {
+      "nome": "Garra",
+      "bonus": 16,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 6,
+          "tipo": "corte"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Insanidade da Tormenta",
+      "salvaguarda": "Vontade",
+      "cd": 17,
+      "efeito_sucesso": "evita",
+      "descricao": "Criatura que veja um ou mais lefeu faz Von CD 17 ou perde 1d6 PM. Reduzida a 0 PM, fica confusa. Uma vez por dia."
+    }
+  ],
+  "tesouro": "nenhum",
+  "description": "Combinação impossível de humano e formiga, com garras que gotejam muco. Ronda as fronteiras das áreas de Tormenta."
+}

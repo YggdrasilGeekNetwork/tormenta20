@@ -1,0 +1,16 @@
+{
+  "id": "faro_para_tesouros",
+  "name": "Faro para Tesouros",
+  "origin": "catador_da_catastrofe",
+  "description": "No início de cada aventura, você pode fazer um teste de Percepção (CD 15 + metade do seu nível). Se passar, encontra um tesouro correspondente a seu próprio ND, escolhido pelo mestre ou rolado nas colunas Dinheiro e Itens da Tabela 8-1: Tesouro por Nível de Desafio (Tormenta20, p. 328).",
+  "effects": {
+    "active_ability": {
+      "trigger": "início de cada aventura",
+      "test": {
+        "skill": "Percepção",
+        "dc": "15 + metade do nível"
+      },
+      "success_effect": "encontra um tesouro correspondente ao próprio ND (Tabela 8-1: Tesouro por Nível de Desafio, Tormenta20 p. 328)"
+    }
+  }
+}

@@ -3,8 +3,15 @@
   "name": "Excruciante",
   "type": "encantamento",
   "categoria": "arma",
-  "efeito": {
-    "descricao_curta": "Vítima fica fraca; se já fraca, fica debilitada"
-  },
-  "description": "A arma inflige dor terrível. Uma criatura viva atingida fica fraca. Se já estiver fraca, mesmo por este efeito, fica debilitada (a condição máxima que esta arma pode causar)."
+  "description": "A arma inflige dor terrível. Uma criatura viva atingida fica fraca. Se já estiver fraca, mesmo por este efeito, fica debilitada (a condição máxima que esta arma pode causar).",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": null,
+      "custo_pm": 0,
+      "frequencia": "por_ataque",
+      "gatilho": "acerta criatura viva",
+      "efeito": "vítima fica fraca; se já estiver fraca (mesmo por este efeito), fica debilitada (condição máxima causada por esta arma)"
+    }
+  ]
 }

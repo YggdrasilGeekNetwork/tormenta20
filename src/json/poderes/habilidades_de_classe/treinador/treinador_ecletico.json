@@ -1,0 +1,28 @@
+{
+  "id": "treinador_ecletico",
+  "name": "Treinador Eclético",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Seus melhores amigos usam seu nível de personagem, em vez de seu nível de treinador, para calcular seus PV, modificadores de perícias e Defesa. Pré-requisito: 6º nível de treinador.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 6
+    }
+  ],
+  "effects": [
+    {
+      "type": "level_source_change",
+      "target": "melhores_amigos",
+      "from": "nivel_de_treinador",
+      "to": "nivel_de_personagem",
+      "applies_to": [
+        "pontos_de_vida",
+        "modificadores_de_pericias",
+        "defesa"
+      ]
+    }
+  ],
+  "costs": null
+}

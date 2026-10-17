@@ -3,8 +3,17 @@
   "name": "Abençoado",
   "type": "encantamento",
   "categoria": "armadura",
-  "efeito": {
-    "descricao_curta": "Redução de trevas 10; +5 em resistências vs. necromancia"
-  },
-  "description": "Você recebe redução de trevas 10 e +5 em testes de resistência contra efeitos de necromancia. Um item abençoado é decorado com gravuras de símbolos sagrados de deuses do Bem."
+  "description": "Você recebe redução de trevas 10 e +5 em testes de resistência contra efeitos de necromancia. Um item abençoado é decorado com gravuras de símbolos sagrados de deuses do Bem.",
+  "effects": [
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "tipo_dano": "trevas"
+    },
+    {
+      "type": "bonus_teste_resistencia",
+      "value": 5,
+      "condicao": "contra efeitos de necromancia"
+    }
+  ]
 }

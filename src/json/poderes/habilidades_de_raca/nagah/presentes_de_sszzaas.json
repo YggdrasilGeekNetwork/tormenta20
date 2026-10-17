@@ -1,0 +1,12 @@
+{
+  "id": "presentes_de_sszzaas",
+  "name": "Presentes de Sszzaas",
+  "type": "habilidade_de_raca",
+  "race": "nagah",
+  "description": "Você recebe visão na penumbra, +1 na Defesa e resistência a veneno +5.",
+  "effects": {
+    "visao": "penumbra",
+    "defesa_bonus": 1,
+    "resistencia_a_veneno": 5
+  }
+}

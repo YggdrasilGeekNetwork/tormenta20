@@ -1,0 +1,20 @@
+{
+  "id": "florete_fugaz",
+  "name": "Florete Fugaz",
+  "base_weapon": "florete",
+  "preco": 50000,
+  "description": "Este florete formidável tem o cabo e a guarda trabalhados com prata e pedrarias. Quando usa a ação agredir, você pode gastar 1 PM. Se fizer isso e acertar um crítico no turno, pode fazer um ataque adicional contra a mesma criatura.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "ativado",
+      "acao": null,
+      "custo_pm": 1,
+      "gatilho": "ação agredir e acerto crítico no turno",
+      "efeito": "faz um ataque adicional contra a mesma criatura"
+    }
+  ]
+}

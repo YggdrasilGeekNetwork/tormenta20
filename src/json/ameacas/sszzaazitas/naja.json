@@ -1,0 +1,71 @@
+{
+  "id": "naja",
+  "name": "Naja",
+  "nd": 1,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "pequeno",
+  "grupo": "sszzaazitas",
+  "pv": 13,
+  "defesa": 17,
+  "salvaguardas": {
+    "fort": 5,
+    "ref": 10,
+    "von": 1
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 3,
+  "visao": [
+    "faro",
+    "visão na penumbra"
+  ],
+  "deslocamento": {
+    "terrestre": 6,
+    "escalar": 6,
+    "natacao": 6
+  },
+  "atributos": {
+    "for": -1,
+    "des": 4,
+    "con": 1,
+    "int": -5,
+    "sab": 0,
+    "car": -4
+  },
+  "pericias": {
+    "furtividade": 10
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 12,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 4
+            }
+          ],
+          "tipo": "perfuração"
+        }
+      ],
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Veneno",
+      "salvaguarda": "Fortitude",
+      "cd": 18,
+      "efeito_sucesso": "reduz para uma rodada",
+      "descricao": "Perde 1d12 PV por rodada durante 3 rodadas (Fort CD 18 reduz para uma rodada)."
+    }
+  ],
+  "tesouro": "1 dose de peçonha concentrada (CD 16 para extrair)",
+  "description": "Cobra altamente venenosa com capuz característico. Uma das serpentes prediletas dos sszzaazitas."
+}

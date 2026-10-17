@@ -1,0 +1,23 @@
+{
+  "id": "maca_do_terror",
+  "name": "Maça do Terror",
+  "base_weapon": "maça",
+  "preco": 45000,
+  "description": "Esta maça formidável é feita com um osso e um crânio e permite que você lance a magia Amedrontar (CD For ou Car a sua escolha). Caso já conheça a magia, o custo para lançá-la diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "concede_magia",
+      "magia": "Amedrontar",
+      "cd_atributo": "For ou Car (à escolha)"
+    },
+    {
+      "type": "reducao_custo_pm_magia",
+      "value": 1,
+      "condicao": "se já conhecer Amedrontar"
+    }
+  ]
+}

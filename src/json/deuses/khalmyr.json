@@ -14,7 +14,7 @@
   "energy": "positiva",
   "preferred_weapon": "Espada longa",
   "devotees": {
-    "races": ["aggelus", "anões"],
+    "races": ["aggelus", "anões", "kobolds", "tengu"],
     "classes": ["cavaleiros", "guerreiros", "nobres", "paladinos"]
   },
   "granted_powers": [

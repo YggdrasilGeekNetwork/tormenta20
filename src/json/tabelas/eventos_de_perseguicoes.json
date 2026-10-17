@@ -1,0 +1,16 @@
+{
+  "id": "eventos_de_perseguicoes",
+  "name": "Eventos de Perseguições",
+  "description": "Tabela 6-5 (T20 EJA, Cap. 6, p.274). Rolagem opcional (1x por rodada) para adicionar obstáculos e atalhos a uma perseguição. Obstáculos exigem que todos os participantes façam o teste indicado; quem falhar percorre metade da distância na rodada. Atalhos são opcionais para cada participante; quem passar avança o dobro da distância, quem falhar avança apenas metade. O mestre pode aumentar a CD em +5 para zonas movimentadas.",
+  "headers": ["d20", "Evento", "Teste", "Exemplo"],
+  "rows": [
+    { "d20": "1-6", "Evento": "Nenhum", "Teste": "—", "Exemplo": "—" },
+    { "d20": "7-8", "Evento": "Obstáculo", "Teste": "Força CD 15", "Exemplo": "Pilha de caixotes bloqueia o caminho." },
+    { "d20": "9-10", "Evento": "Obstáculo", "Teste": "Acrobacia CD 20", "Exemplo": "Frutas caídas deixam o piso escorregadio." },
+    { "d20": "11-12", "Evento": "Obstáculo", "Teste": "Reflexos CD 20", "Exemplo": "Barris rolam pela rua." },
+    { "d20": "13-14", "Evento": "Obstáculo", "Teste": "Intimidação CD 20", "Exemplo": "Multidão impede a passagem." },
+    { "d20": "15-16", "Evento": "Atalho", "Teste": "Adestramento CD 20", "Exemplo": "Carroça na qual se pode tentar subir." },
+    { "d20": "17-18", "Evento": "Atalho", "Teste": "Força CD 15", "Exemplo": "Caminho mais curto, mas bloqueado." },
+    { "d20": "19-20", "Evento": "Atalho", "Teste": "Percepção CD 20", "Exemplo": "Ruelas labirínticas, nas quais se pode cortar caminho ou se perder." }
+  ]
+}

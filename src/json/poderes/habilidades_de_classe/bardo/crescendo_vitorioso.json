@@ -1,0 +1,21 @@
+{
+  "id": "crescendo_vitorioso",
+  "name": "Crescendo Vitorioso",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "No 20º nível, no início de cada combate, você recebe 1 carga arcana e 1 carga marcial. Além disso, você soma seu total de cargas marciais na CD para resistir às suas habilidades de bardo e o total de suas cargas arcanas em seus testes de ataque e rolagens de dano.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 20
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "cadencia_magimarcial"
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

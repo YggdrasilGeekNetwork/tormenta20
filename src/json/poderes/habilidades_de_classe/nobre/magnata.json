@@ -1,0 +1,21 @@
+{
+  "id": "magnata",
+  "name": "Magnata",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "No 20º nível, quando você usa Desmoralizar, a penalidade em testes de ataque também se aplica à CD das habilidades das criaturas afetadas. Além disso, sempre que consome um tibar de ouro para pagar o custo em PM de uma habilidade, você recebe 10 PV temporários cumulativos, que duram até o fim da cena.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 20
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "desmoralizar"
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

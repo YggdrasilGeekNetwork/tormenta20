@@ -1,0 +1,20 @@
+{
+  "id": "escudo_espinhoso",
+  "name": "Escudo Espinhoso",
+  "subtipo": "escudo",
+  "base_item": "escudo_pesado",
+  "preco": 50000,
+  "description": "Este escudo pesado defensor é coberto de espinhos. Você pode gastar uma ação de movimento e 2 PM para disparar um espinho em um alvo em alcance curto. O espinho acerta automaticamente e causa 1d10+2 pontos de dano de perfuração.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensor"
+    },
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 2,
+      "efeito": "dispara um espinho em alvo a alcance curto; acerto automático; 1d10+2 de perfuração"
+    }
+  ]
+}

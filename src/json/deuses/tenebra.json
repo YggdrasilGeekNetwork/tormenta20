@@ -13,8 +13,8 @@
   "energy": "negativa",
   "preferred_weapon": "Adaga",
   "devotees": {
-    "races": ["anões", "medusas", "qareen", "osteon", "sulfure", "trogs"],
-    "classes": ["arcanistas", "bardos", "ladinos"]
+    "races": ["anões", "bugbears", "finntrolls", "gnolls", "harpias", "hobgoblins", "kobolds", "medusas", "nagah", "nezumi", "qareen", "ogros", "orcs", "osteon", "sulfure", "tabrachi", "trogs"],
+    "classes": ["arcanistas", "bardos", "druidas", "ladinos", "treinadores"]
   },
   "granted_powers": [
     "caricia_sombria",

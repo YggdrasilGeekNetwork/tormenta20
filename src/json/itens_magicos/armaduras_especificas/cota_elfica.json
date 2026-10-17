@@ -1,0 +1,22 @@
+{
+  "id": "cota_elfica",
+  "name": "Cota Élfica",
+  "subtipo": "armadura",
+  "base_item": "cota_de_malha",
+  "preco": 30000,
+  "description": "Composta de anéis finíssimos, esta cota de malha defensora de mitral parece ser feita de seda. Ela permite que você aplique sua Destreza na Defesa como se fosse uma armadura leve.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensora"
+    },
+    {
+      "type": "material_especial",
+      "name": "mitral"
+    },
+    {
+      "type": "passivo",
+      "efeito": "aplica Destreza na Defesa como se fosse armadura leve"
+    }
+  ]
+}

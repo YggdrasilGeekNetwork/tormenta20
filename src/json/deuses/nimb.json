@@ -14,8 +14,8 @@
   "preferred_weapon": "Nenhuma e todas",
   "preferred_weapon_note": "Ao usar um efeito que dependa de arma preferida, qualquer arma (ou outro objeto!) pode aparecer, de acordo com o mestre",
   "devotees": {
-    "races": ["goblins", "qareen", "sílfides"],
-    "classes": ["arcanistas", "bárbaros", "bardos", "bucaneiros", "inventores", "ladinos"]
+    "races": ["duendes", "gnolls", "goblins", "naidora", "orcs", "qareen", "sátiros", "sílfides", "tabrachi", "yidishan"],
+    "classes": ["arcanistas", "bárbaros", "bardos", "bucaneiros", "inventores", "ladinos", "treinadores"]
   },
   "granted_powers": [
     "extase_da_loucura",

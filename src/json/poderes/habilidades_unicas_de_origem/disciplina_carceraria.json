@@ -1,0 +1,26 @@
+{
+  "id": "disciplina_carceraria",
+  "name": "Disciplina Carcerária",
+  "origin": "carcereiro",
+  "description": "Você recebe +2 em testes contra efeitos mentais, Enganação, Furtividade e Intimidação.",
+  "effects": {
+    "resistance_bonuses": [
+      {
+        "against": "efeitos mentais",
+        "value": 2
+      },
+      {
+        "against": "Enganação",
+        "value": 2
+      },
+      {
+        "against": "Furtividade",
+        "value": 2
+      },
+      {
+        "against": "Intimidação",
+        "value": 2
+      }
+    ]
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "id": "necrologia",
+  "name": "Necrologia",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Você recebe +2 em Cura, Fortitude e na CD para resistir às suas magias de necromancia. A cada cinco níveis, esse bônus aumenta em +1 (+3 no 8º nível, +4 no 13º nível, +5 no 18º nível).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [
+        3,
+        8,
+        13,
+        18
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "skill": [
+        "cura",
+        "fortitude"
+      ],
+      "value": 2
+    },
+    {
+      "type": "dc_improvement",
+      "value": 2
+    }
+  ],
+  "costs": null
+}

@@ -1,0 +1,16 @@
+{
+  "id": "capitao_do_reino",
+  "name": "Capitão do Reino",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "No 8º nível, você se torna um oficial no exército, respeitado e prestigiado por militares, nobres e plebeus. Você recebe o poder Escudeiro e a habilidade Golpe Divino (Tormenta20, p. 82), como um paladino de nível igual ao seu. Esta não é uma habilidade mágica e provém de seu senso de justiça e determinação em combate (veja 'Magias Simuladas').",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 8
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

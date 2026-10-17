@@ -1,0 +1,28 @@
+{
+  "id": "xp_por_nivel",
+  "name": "XP por Nível",
+  "description": "Pontos de experiência acumulados necessários para cada nível. Fórmula: XP para subir ao nível N = (N-1) × N / 2 × 1.000. Cada ND de desafio vencido rende ND × 1.000 XP, dividido pelo número de personagens (desafios com ND 5 ou mais abaixo do nível do grupo não rendem XP). XP parcial: vitória = XP total; empate = metade; derrota = um quarto.",
+  "headers": ["Nível", "XP Acumulado", "XP Necessário do Nível Anterior"],
+  "rows": [
+    { "Nível": 1, "XP Acumulado": 0, "XP Necessário do Nível Anterior": 0 },
+    { "Nível": 2, "XP Acumulado": 1000, "XP Necessário do Nível Anterior": 1000 },
+    { "Nível": 3, "XP Acumulado": 3000, "XP Necessário do Nível Anterior": 2000 },
+    { "Nível": 4, "XP Acumulado": 6000, "XP Necessário do Nível Anterior": 3000 },
+    { "Nível": 5, "XP Acumulado": 10000, "XP Necessário do Nível Anterior": 4000 },
+    { "Nível": 6, "XP Acumulado": 15000, "XP Necessário do Nível Anterior": 5000 },
+    { "Nível": 7, "XP Acumulado": 21000, "XP Necessário do Nível Anterior": 6000 },
+    { "Nível": 8, "XP Acumulado": 28000, "XP Necessário do Nível Anterior": 7000 },
+    { "Nível": 9, "XP Acumulado": 36000, "XP Necessário do Nível Anterior": 8000 },
+    { "Nível": 10, "XP Acumulado": 45000, "XP Necessário do Nível Anterior": 9000 },
+    { "Nível": 11, "XP Acumulado": 55000, "XP Necessário do Nível Anterior": 10000 },
+    { "Nível": 12, "XP Acumulado": 66000, "XP Necessário do Nível Anterior": 11000 },
+    { "Nível": 13, "XP Acumulado": 78000, "XP Necessário do Nível Anterior": 12000 },
+    { "Nível": 14, "XP Acumulado": 91000, "XP Necessário do Nível Anterior": 13000 },
+    { "Nível": 15, "XP Acumulado": 105000, "XP Necessário do Nível Anterior": 14000 },
+    { "Nível": 16, "XP Acumulado": 120000, "XP Necessário do Nível Anterior": 15000 },
+    { "Nível": 17, "XP Acumulado": 136000, "XP Necessário do Nível Anterior": 16000 },
+    { "Nível": 18, "XP Acumulado": 153000, "XP Necessário do Nível Anterior": 17000 },
+    { "Nível": 19, "XP Acumulado": 171000, "XP Necessário do Nível Anterior": 18000 },
+    { "Nível": 20, "XP Acumulado": 190000, "XP Necessário do Nível Anterior": 19000 }
+  ]
+}

@@ -1,0 +1,92 @@
+{
+  "id": "capelao_de_guerra",
+  "name": "Capelão de Guerra",
+  "nd": 4,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "médio",
+  "grupo": "puristas",
+  "pv": 105,
+  "defesa": 21,
+  "pm": 25,
+  "salvaguardas": {
+    "fort": 10,
+    "ref": 5,
+    "von": 16
+  },
+  "imunidades": [
+    "medo"
+  ],
+  "resistencias": {},
+  "iniciativa": 4,
+  "percepcao": 7,
+  "visao": [],
+  "deslocamento": {
+    "terrestre": 6
+  },
+  "atributos": {
+    "for": 4,
+    "des": 0,
+    "con": 4,
+    "int": 1,
+    "sab": 3,
+    "car": -1
+  },
+  "pericias": {
+    "misticismo": 5,
+    "religiao": 7
+  },
+  "ataques": [
+    {
+      "nome": "Martelo de guerra",
+      "bonus": 14,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 15,
+          "tipo": "impacto"
+        }
+      ],
+      "critico": "x3"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Arma Mágica",
+      "acao": "padrão",
+      "custo_pm": 5,
+      "descricao": "Uma arma torna-se mágica (+2 ataque/dano, +1d6 fogo)."
+    },
+    {
+      "nome": "Bênção",
+      "acao": "padrão",
+      "custo_pm": 3,
+      "descricao": "Aliados em alcance curto recebem +2 em testes de ataque e rolagens de dano até o fim da cena."
+    },
+    {
+      "nome": "Curar Ferimentos",
+      "acao": "padrão",
+      "custo_pm": 5,
+      "descricao": "Criatura adjacente cura 6d8+6 PV."
+    },
+    {
+      "nome": "Soco de Arsenal",
+      "acao": "padrão",
+      "custo_pm": 5,
+      "descricao": "Criatura em alcance médio sofre 5d6+5 de impacto e é empurrada 3m (Fort reduz dano à metade e evita empurrão)."
+    }
+  ],
+  "equipamento": [
+    "Armadura completa",
+    "escudo leve",
+    "martelo de guerra certeiro",
+    "símbolo sagrado"
+  ],
+  "tesouro": "padrão",
+  "description": "Adoradores fanáticos de Valkaria e Arsenal, braço armado do Templo da Pureza Divina. Acompanham batalhões puristas em missão e lançam magias divinas em combate."
+}

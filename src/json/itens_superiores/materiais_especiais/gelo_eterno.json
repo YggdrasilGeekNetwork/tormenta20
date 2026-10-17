@@ -11,23 +11,43 @@
     "escudo": 1500,
     "esoterico": 3000
   },
-  "efeitos": {
-    "arma": {
-      "dano_extra": 2,
-      "tipo_dano": "frio"
-    },
-    "armadura_leve": {
-      "reducao_fogo": 5
-    },
-    "armadura_pesada": {
-      "reducao_fogo": 10
-    },
-    "escudo": {
-      "reducao_fogo": 5
-    },
-    "esoterico": {
-      "magia_frio_dano": "rolar novamente qualquer resultado 1 na rolagem de dano"
-    }
-  },
-  "description": "As gélidas Montanhas Uivantes produzem gelo que nunca derrete. Expedições de aventureiros exploram essa região glacial perigosa à caça deste material fantástico."
+  "description": "As gélidas Montanhas Uivantes produzem gelo que nunca derrete. Expedições de aventureiros exploram essa região glacial perigosa à caça deste material fantástico.",
+  "effects": {
+    "arma": [
+      {
+        "type": "dano_extra",
+        "value": 2,
+        "tipo_dano": "frio",
+        "automatico": true
+      }
+    ],
+    "armadura_leve": [
+      {
+        "type": "reducao_dano",
+        "value": 5,
+        "tipo_dano": "fogo"
+      }
+    ],
+    "armadura_pesada": [
+      {
+        "type": "reducao_dano",
+        "value": 10,
+        "tipo_dano": "fogo"
+      }
+    ],
+    "escudo": [
+      {
+        "type": "reducao_dano",
+        "value": 5,
+        "tipo_dano": "fogo"
+      }
+    ],
+    "esoterico": [
+      {
+        "type": "ativado",
+        "frequencia": "por_dano_de_magia_frio",
+        "efeito": "rolar novamente qualquer resultado 1 na rolagem de dano de magias de frio"
+      }
+    ]
+  }
 }

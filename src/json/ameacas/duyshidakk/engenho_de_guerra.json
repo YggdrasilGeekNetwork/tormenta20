@@ -1,0 +1,52 @@
+{
+  "id": "engenho_de_guerra",
+  "name": "Engenho de Guerra Goblin",
+  "nd": 3,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "duyshidakk",
+  "pv": 246,
+  "defesa": 25,
+  "salvaguardas": {
+    "fort": 18,
+    "ref": 6,
+    "von": 12
+  },
+  "reducao_de_dano": 10,
+  "imunidades": [
+    "efeitos de mente",
+    "fadiga",
+    "exaustão"
+  ],
+  "resistencias": {},
+  "iniciativa": 3,
+  "percepcao": 5,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 12
+  },
+  "atributos": {
+    "for": 12,
+    "des": 0,
+    "con": null,
+    "int": 2,
+    "sab": 1,
+    "car": -1
+  },
+  "ataques": [],
+  "poderes_especiais": [
+    {
+      "nome": "Arsenal de Engenhocas",
+      "acao": "padrão",
+      "descricao": "Rola 1d6 quatro vezes para ativar engenhocas: 1) Canhão elétrico (linha alcance médio, 8d8 eletricidade, Ref CD 22 metade), 2) Balestra ácida (criatura alcance médio, 8d8+4d6 ácido, Ref CD 22 metade), 3) Cospe-chamas (cone 9m, 8d6 fogo + em chamas, Ref CD 22 metade), 4) Lança-bombas (esfera alcance curto, 8d6 impacto + atordoado, Ref CD 22 metade), 5) Fumaça de Escapamento (camuflagem total em alcance curto por 1d4 rodadas), 6) Turbina (aumenta deslocamento em +6m por uma rodada).",
+      "salvaguarda": "Reflexos",
+      "cd": 22,
+      "efeito_sucesso": "reduz a metade"
+    }
+  ],
+  "tesouro": "nenhum",
+  "description": "Enorme veículo de guerra goblin com cúpula de metal e canhão de raios. Operado por uma tripulação frenética que efetua reparos em tempo real enquanto ativa diversas armas."
+}

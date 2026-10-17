@@ -1,0 +1,32 @@
+{
+  "id": "direcionamento_marcial",
+  "name": "Direcionamento Marcial",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Quando usa Direcionar em um teste de ataque, você também soma seu Carisma na rolagem de dano desse ataque.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    },
+    {
+      "type": "fearute_actived",
+      "sub_type": "soft",
+      "feature": "direcionar"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "direcionar"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "carisma_do_treinador",
+      "trigger": "usa_direcionar_em_teste_de_ataque"
+    }
+  ],
+  "costs": null
+}

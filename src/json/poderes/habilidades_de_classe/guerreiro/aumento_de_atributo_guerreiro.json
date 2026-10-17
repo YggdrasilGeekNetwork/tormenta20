@@ -1,0 +1,14 @@
+{
+  "id": "aumento_de_atributo_guerreiro",
+  "name": "Aumento de Atributo",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Você recebe +2 em um atributo a sua escolha. Você pode escolher este poder várias vezes. A partir da segunda vez que escolhê-lo para o mesmo atributo, o aumento diminui para +1.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": 2
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "id": "eixo_de_pedras",
+  "name": "Eixo de Pedras",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "No 20º nível, você cria um eixo de pedras ritualísticas em seu sítio sagrado. Uma vez por aventura, você pode lançar no eixo de pedras uma quantidade de magias cujo custo em PM total somado seja igual ao seu nível + sua Sabedoria (as magias devem ter execução de movimento, padrão ou completa). Até o fim da aventura, se estiver em um terreno de um dos tipos associados ao seu sítio sagrado, uma vez por rodada você pode descarregar uma dessas magias como ação livre sem pagar seu custo.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 20
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "sitio_sagrado"
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

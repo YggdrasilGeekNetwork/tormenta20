@@ -1,0 +1,31 @@
+{
+  "id": "discricao_divina",
+  "name": "Discrição Divina",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "No 3º nível, você recebe +1 em Furtividade e testes de resistência. A cada seis níveis, esse bônus aumenta em +1 (+2 no 9º nível, +3 no 15º nível).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [
+        3,
+        9,
+        15
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "skill": "furtividade",
+      "value": 1
+    },
+    {
+      "type": "defense_improvement",
+      "target": "testes_de_resistencia",
+      "value": 1
+    }
+  ],
+  "costs": null
+}

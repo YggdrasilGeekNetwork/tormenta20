@@ -1,0 +1,19 @@
+{
+  "id": "besta_explosiva",
+  "name": "Besta Explosiva",
+  "base_weapon": "besta_pesada",
+  "preco": 100000,
+  "description": "Esta besta pesada formidável é feita de madeira escurecida. Você pode gastar 3 PM para transformar o virote disparado em uma Bola de Fogo, mirando em uma criatura ou ponto em alcance médio. Contra uma criatura: ataque; se acertar, dano do disparo + 6d6 de fogo, e criaturas a até 6m sofrem 6d6 de fogo (Ref CD Des reduz à metade). Contra um ponto: funciona como a magia Bola de Fogo.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "ativado",
+      "acao": null,
+      "custo_pm": 3,
+      "efeito": "disparo vira Bola de Fogo; contra criatura: dano do disparo + 6d6 fogo no alvo, criaturas a 6m sofrem 6d6 fogo (Ref CD Des reduz à metade); contra ponto: funciona como a magia Bola de Fogo"
+    }
+  ]
+}

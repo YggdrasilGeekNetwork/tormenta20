@@ -1,0 +1,28 @@
+{
+  "id": "veterinario_de_campo",
+  "name": "Veterinário de Campo",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Você pode gastar uma ação completa para fazer um teste de Adestramento em um melhor amigo adjacente. Ele recupera uma quantidade de PV igual ao resultado do teste. Você só pode usar este poder uma vez por dia num mesmo alvo.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "healing",
+      "value": "resultado_do_teste_de_adestramento",
+      "target": "melhor_amigo_adjacente",
+      "frequency": "1_por_dia_por_alvo"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "acao_completa"
+    }
+  ]
+}

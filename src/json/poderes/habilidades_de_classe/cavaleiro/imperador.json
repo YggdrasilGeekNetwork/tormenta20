@@ -1,0 +1,16 @@
+{
+  "id": "imperador",
+  "name": "Imperador",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "No 20º nível, você chegou ao ápice político de Arton. Você agora é um grande imperador, respeitado e temido por todos. Você recebe +1 em dois atributos diferentes a sua escolha e aprende e pode lançar uma magia divina de até 5º círculo a sua escolha (atributo-chave Carisma).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 20
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

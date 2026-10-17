@@ -1,0 +1,24 @@
+{
+  "id": "cajado_da_vida",
+  "name": "Cajado da Vida",
+  "base_weapon": "bordão",
+  "preco": 60000,
+  "description": "Este bordão formidável branco com runas prateadas é valorizado por curandeiros. Conta como um cajado arcano, mas afeta magias divinas. Além disso, quando você lança uma magia de cura, ela cura +2 pontos de vida por dado.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "conta_como",
+      "item": "cajado_arcano",
+      "nota": "afeta magias divinas em vez de arcanas"
+    },
+    {
+      "type": "cura_extra_magia",
+      "value": 2,
+      "gatilho": "lança magia de cura",
+      "por_dado": true
+    }
+  ]
+}

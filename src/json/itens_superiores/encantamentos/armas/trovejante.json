@@ -3,8 +3,16 @@
   "name": "Trovejante",
   "type": "encantamento",
   "categoria": "arma",
-  "efeito": {
-    "descricao_curta": "Crítico: vítima fica atordoada por uma rodada (Fort evita, uma vez por cena)"
-  },
-  "description": "A arma emite um trovão ribombante a cada golpe. Quando você faz um acerto crítico, a vítima fica atordoada por uma rodada (apenas uma vez por cena; Fort CD For ou Des, a sua escolha, evita)."
+  "description": "A arma emite um trovão ribombante a cada golpe. Quando você faz um acerto crítico, a vítima fica atordoada por uma rodada (apenas uma vez por cena; Fort CD For ou Des, a sua escolha, evita).",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": null,
+      "custo_pm": 0,
+      "frequencia": "uma_vez_por_cena",
+      "gatilho": "acerto crítico",
+      "resistencia": "Fortitude CD For ou Des (à escolha) evita",
+      "efeito": "vítima fica atordoada por uma rodada"
+    }
+  ]
 }

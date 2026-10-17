@@ -1,0 +1,30 @@
+{
+  "id": "estatisticas_de_objetos",
+  "name": "Estatísticas de Objetos",
+  "description": "Estatísticas de referência (tamanho, Defesa, redução de dano, pontos de vida) para objetos comuns. PV de itens comuns: divida por 2 para itens reduzidos, multiplique por 2 para itens aumentados e multiplique por 5 para itens gigantes.",
+  "objetos_gerais": [
+    { "exemplo": "Pergaminho", "tamanho": "Minúsculo", "defesa": 15, "rd": 0, "pv": 1 },
+    { "exemplo": "Corda", "tamanho": "Minúsculo", "defesa": 15, "rd": 0, "pv": 2 },
+    { "exemplo": "Corrente", "tamanho": "Minúsculo", "defesa": 15, "rd": 10, "pv": 2 },
+    { "exemplo": "Cadeira", "tamanho": "Pequeno", "defesa": 12, "rd": 5, "pv": 5 },
+    { "exemplo": "Barril", "tamanho": "Médio", "defesa": 10, "rd": 5, "pv": 10 },
+    { "exemplo": "Porta de madeira", "tamanho": "Grande", "defesa": 8, "rd": 5, "pv": 20 },
+    { "exemplo": "Porta de pedra", "tamanho": "Grande", "defesa": 8, "rd": 8, "pv": 100 },
+    { "exemplo": "Porta de ferro", "tamanho": "Grande", "defesa": 8, "rd": 10, "pv": 100 },
+    { "exemplo": "Carroça", "tamanho": "Grande", "defesa": 8, "rd": 5, "pv": 50 },
+    { "exemplo": "Casebre", "tamanho": "Enorme", "defesa": 5, "rd": 5, "pv": 100 },
+    { "exemplo": "Celeiro", "tamanho": "Colossal", "defesa": 0, "rd": 5, "pv": 200 }
+  ],
+  "armas_armaduras_escudos": [
+    { "exemplo": "Arma leve de madeira (machadinha)", "defesa": 5, "pv": 2 },
+    { "exemplo": "Arma de uma mão de madeira (clava)", "defesa": 5, "pv": 5 },
+    { "exemplo": "Arma de duas mãos de madeira (bordão)", "defesa": 5, "pv": 10 },
+    { "exemplo": "Arma leve de metal (adaga)", "defesa": 10, "pv": 2 },
+    { "exemplo": "Arma de uma mão de metal (espada longa)", "defesa": 10, "pv": 5 },
+    { "exemplo": "Arma de duas mãos de metal (montante)", "defesa": 10, "pv": 10 },
+    { "exemplo": "Escudo leve", "defesa": 5, "pv": 10 },
+    { "exemplo": "Escudo pesado", "defesa": 10, "pv": 20 },
+    { "exemplo": "Armadura leve", "defesa": 5, "pv": 20 },
+    { "exemplo": "Armadura pesada", "defesa": 10, "pv": 40 }
+  ]
+}

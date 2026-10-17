@@ -1,0 +1,28 @@
+{
+  "id": "ideias_de_masmorras",
+  "name": "Ideias de Masmorras",
+  "description": "Tabela 6-2 (T20 EJA, Cap. 6, p.263). Ideias de tema para o mestre criar ou rolar aleatoriamente ao planejar uma masmorra (ambiente de aventura fechado e inóspito).",
+  "headers": ["1d20", "Masmorra"],
+  "rows": [
+    { "1d20": 1, "Masmorra": "Complexo de cavernas subterrâneas" },
+    { "1d20": 2, "Masmorra": "Mina abandonada" },
+    { "1d20": 3, "Masmorra": "Templo de um deus maligno" },
+    { "1d20": 4, "Masmorra": "Esgotos da cidade" },
+    { "1d20": 5, "Masmorra": "Castelo de um déspota" },
+    { "1d20": 6, "Masmorra": "Torre de um mago louco" },
+    { "1d20": 7, "Masmorra": "Moinho da vila" },
+    { "1d20": 8, "Masmorra": "Armazém no porto" },
+    { "1d20": 9, "Masmorra": "Ruínas de uma civilização perdida" },
+    { "1d20": 10, "Masmorra": "Fortaleza anã abandonada" },
+    { "1d20": 11, "Masmorra": "Mansão assombrada" },
+    { "1d20": 12, "Masmorra": "Prisão da cidade" },
+    { "1d20": 13, "Masmorra": "Caverna submersa" },
+    { "1d20": 14, "Masmorra": "Gruta usada como covil por um monstro" },
+    { "1d20": 15, "Masmorra": "Biblioteca mágica" },
+    { "1d20": 16, "Masmorra": "Galeão encalhado" },
+    { "1d20": 17, "Masmorra": "Labirinto feito para proteger um tesouro" },
+    { "1d20": 18, "Masmorra": "Manicômio repleto de vilões insanos" },
+    { "1d20": 19, "Masmorra": "Vulcão inativo" },
+    { "1d20": 20, "Masmorra": "Castelo nas nuvens" }
+  ]
+}

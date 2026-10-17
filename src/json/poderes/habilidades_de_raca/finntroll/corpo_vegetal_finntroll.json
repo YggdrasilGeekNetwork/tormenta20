@@ -1,0 +1,12 @@
+{
+  "id": "corpo_vegetal_finntroll",
+  "name": "Corpo Vegetal",
+  "type": "habilidade_de_raca",
+  "race": "finntroll",
+  "description": "Você é uma criatura do tipo monstro e recebe natureza vegetal e visão no escuro.",
+  "effects": {
+    "tipo_criatura": "monstro",
+    "natureza_vegetal": true,
+    "visao": "escuro"
+  }
+}

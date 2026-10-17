@@ -1,0 +1,33 @@
+{
+  "id": "coracao_grande",
+  "name": "Coração Grande",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Seu limite de parceiros aumenta em +1. No 11º nível, esse limite aumenta em +1 novamente.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [
+        2,
+        11
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "partner_limit_improvement",
+      "value_progression": [
+        {
+          "level": 2,
+          "value": 1
+        },
+        {
+          "level": 11,
+          "value": 1
+        }
+      ]
+    }
+  ],
+  "costs": null
+}

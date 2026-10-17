@@ -1,0 +1,31 @@
+{
+  "id": "disparo_constritor",
+  "name": "Disparo Constritor",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "No 5° nível, quando usa a ação mirar, você pode pagar 2 PM. Se fizer isso, pode executar uma manobra entre desarmar, empurrar ou quebrar com um de seus ataques à distância feitos até o fim desse turno.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "manouver_improvement",
+      "manouver": [
+        "desarmar",
+        "empurrar",
+        "quebrar"
+      ],
+      "range_type": "distancia"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "id": "emboscar_cacador",
+  "name": "Emboscar",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Você pode gastar 2 PM para realizar uma ação padrão adicional em seu turno. Você só pode usar este poder na primeira rodada de um combate.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "furtividade"
+    },
+    {
+      "type": "fisrt_round",
+      "sub_type": "soft"
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_action",
+      "axtion": "padrão"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "id": "sombra_de_thwor",
+  "name": "Sombra de Thwor",
+  "nd": 9,
+  "tipo": "Humanoide",
+  "subtipo": "hobgoblin",
+  "tamanho": "médio",
+  "grupo": "duyshidakk",
+  "pv": 295,
+  "defesa": 33,
+  "salvaguardas": {
+    "fort": 15,
+    "ref": 21,
+    "von": 9
+  },
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 17,
+  "percepcao": 10,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 6,
+    "des": 8,
+    "con": 5,
+    "int": 3,
+    "sab": 2,
+    "car": 2
+  },
+  "ataques": [
+    {
+      "nome": "Duas machadinhas (corpo a corpo)",
+      "bonus": 27,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 12,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "x3",
+      "efeito": "veneno"
+    },
+    {
+      "nome": "Duas machadinhas (à distância)",
+      "bonus": 27,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 12,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "x3",
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Assassinar",
+      "acao": "movimento",
+      "descricao": "Analisa criatura em alcance curto. Em seu primeiro Ataque Furtivo que causar dano a ela até o próximo turno, dobra os dados de dano do Ataque Furtivo."
+    },
+    {
+      "nome": "Ataque Furtivo",
+      "descricao": "Uma vez por rodada, causa +7d6 em ataques contra alvos desprevenidos ou flanqueados (corpo a corpo ou à distância curta)."
+    },
+    {
+      "nome": "Evasão Aprimorada",
+      "descricao": "Efeitos com Reflexos para reduzir dano à metade: o sombra não sofre dano algum se passar e metade se falhar."
+    },
+    {
+      "nome": "Um com as Sombras",
+      "descricao": "Nunca fica surpreendido ou flanqueado."
+    },
+    {
+      "nome": "Veneno",
+      "descricao": "Nas machadinhas (tipo de veneno não especificado)."
+    }
+  ],
+  "tesouro": "padrão",
+  "description": "Hobgoblin espião e assassino de elite a serviço de Thwor. Especialistas em agir nas sombras, enganam inimigos que esperam um monstro rosnador e acabam apunhalados por um matador silencioso."
+}

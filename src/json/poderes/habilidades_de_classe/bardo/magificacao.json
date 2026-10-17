@@ -1,0 +1,30 @@
+{
+  "id": "magificacao",
+  "name": "Magificação",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Se tiver pelo menos 1 carga arcana e 1 carga marcial, você recebe +2 em testes de ataque e rolagens de dano e é considerado sob Inspiração para efeitos baseados nisso. A cada cinco níveis, esses bônus aumentam em +1 (nível 1: +2, nível 6: +3, nível 11: +4, nível 16: +5).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [1, 6, 11, 16]
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "cadencia_magimarcial"
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": 2
+    },
+    {
+      "type": "damage_improvement",
+      "value": 2
+    }
+  ],
+  "costs": null
+}

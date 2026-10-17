@@ -1,0 +1,26 @@
+{
+  "id": "sentinela",
+  "name": "Sentinela",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "No 15° nível, uma vez por rodada, quando uma criatura sob efeito de sua Marca da Presa acerta um ataque contra um aliado, você pode gastar 1 PM para fazer um ataque contra essa criatura.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 15
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "trigger": "aliado_atacado_por_alvo_marcado"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

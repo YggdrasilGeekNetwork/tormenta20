@@ -1,0 +1,23 @@
+{
+  "id": "convocar_enxame",
+  "name": "Convocar Enxame",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Você aprende e pode lançar Enxame de Pestes (atributo-chave Carisma) e pode usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um clérigo de seu nível. Esta não é uma habilidade mágica e provém de sua capacidade de atrair criaturas (veja \"Magias Simuladas\", p. 44). Pré-requisito: 5º nível de treinador.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "learn_spell_as_simulated_ability",
+      "spell": "enxame_de_pestes",
+      "key_attribute": "carisma",
+      "circle_progression": "como_clerigo_do_mesmo_nivel"
+    }
+  ],
+  "costs": null
+}

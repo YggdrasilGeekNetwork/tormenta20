@@ -1,0 +1,16 @@
+{
+  "id": "canalizacao_falsa",
+  "name": "Canalização Falsa",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "No 2º nível, você pode canalizar tanto energia positiva quanto negativa.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

@@ -1,0 +1,133 @@
+{
+  "id": "dragao_veneravel",
+  "name": "Dragão Venerável",
+  "nd": 15,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "enorme",
+  "grupo": "dragoes",
+  "pv": 800,
+  "pm": 97,
+  "defesa": 52,
+  "salvaguardas": {
+    "fort": 28,
+    "ref": 15,
+    "von": 22
+  },
+  "reducao_de_dano": 15,
+  "imunidades": [
+    "fogo",
+    "atordoamento",
+    "paralisia",
+    "metamorfose"
+  ],
+  "resistencias": {
+    "magia": 4
+  },
+  "vulnerabilidades": [
+    "frio"
+  ],
+  "iniciativa": 16,
+  "percepcao": 22,
+  "visao": [
+    "percepção às cegas",
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 12,
+    "voo": 24
+  },
+  "atributos": {
+    "for": 13,
+    "des": 1,
+    "con": 10,
+    "int": 6,
+    "sab": 6,
+    "car": 6
+  },
+  "pericias": {
+    "enganacao": 22,
+    "intimidacao": 22,
+    "intuicao": 22,
+    "misticismo": 22
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 44,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 4,
+              "faces": 12
+            }
+          ],
+          "bonus": 40,
+          "tipo": "perfuração"
+        }
+      ],
+      "critico": "17"
+    },
+    {
+      "nome": "Garra",
+      "bonus": 44,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 3,
+              "faces": 12
+            }
+          ],
+          "bonus": 40,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "17",
+      "quantidade": 2
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Aura Aterradora",
+      "salvaguarda": "Vontade",
+      "cd": 40,
+      "efeito_sucesso": "evita",
+      "descricao": "Criatura que comece o turno em alcance longo fica apavorada (4 níveis ou menos) ou abalada (5+ níveis) até fim da cena (Von CD 40 evita)."
+    },
+    {
+      "nome": "Fluxo de Mana",
+      "descricao": "Pode manter duas magias sustentadas simultaneamente com apenas uma ação livre."
+    },
+    {
+      "nome": "Magia Acelerada",
+      "acao": "livre",
+      "descricao": "Uma vez por rodada, muda a execução de uma magia para livre (4 PM)."
+    },
+    {
+      "nome": "Magias (conjurador 15º, CD 40)",
+      "descricao": "Campo de Força (reação, 7 PM, RD 50), Controlar a Gravidade (padrão, 10 PM), Curar Ferimentos (padrão, 15 PM, 16d8+16 PV), Dissipar Magia (padrão, 3 PM), Enfeitiçar (padrão, 1 PM), Globo de Invulnerabilidade (padrão, 10 PM, 3º círculo ou menor), Velocidade (padrão, 3 PM, sustentada)."
+    },
+    {
+      "nome": "Sopro",
+      "acao": "padrão",
+      "salvaguarda": "Reflexos",
+      "cd": 40,
+      "efeito_sucesso": "reduz à metade e evita condição",
+      "descricao": "Cone de 15m. Criaturas sofrem 16d12 de fogo e ficam em chamas (Ref CD 40 reduz à metade e evita). Recarga (movimento)."
+    },
+    {
+      "nome": "Varrer",
+      "acao": "livre",
+      "descricao": "Uma vez por rodada, quando reduz o alvo a 0 PV, pode fazer um ataque adicional."
+    },
+    {
+      "nome": "Metamorfose Dracônica",
+      "acao": "completa",
+      "descricao": "Transforma-se em outras criaturas sem limitação de tamanho mínimo."
+    }
+  ],
+  "tesouro": "dobro e 4 peças de couro de dragão (CD 30 para extrair)",
+  "description": "Dragão ancião de poder imenso. Sua simples presença amedronta exércitos inteiros. Lança magias poderosas sem precisar de palavras ou gestos."
+}

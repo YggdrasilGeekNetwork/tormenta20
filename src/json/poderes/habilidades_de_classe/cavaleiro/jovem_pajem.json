@@ -1,0 +1,25 @@
+{
+  "id": "jovem_pajem",
+  "name": "Jovem Pajem",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "Você inicia sua carreira como um pajem, servindo a um sir ou dame mais experiente. Você se torna treinado em Adestramento ou Ofício (armeiro).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_training",
+      "skill": [
+        "adestramento",
+        "oficio_armeiro"
+      ],
+      "choose": 1
+    }
+  ],
+  "costs": null
+}

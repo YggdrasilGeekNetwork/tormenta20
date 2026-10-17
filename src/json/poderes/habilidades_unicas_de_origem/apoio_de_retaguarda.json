@@ -1,0 +1,13 @@
+{
+  "id": "apoio_de_retaguarda",
+  "name": "Apoio de Retaguarda",
+  "origin": "suporte_de_tropas",
+  "description": "Sempre que você faz um teste para ajudar, o bônus que fornece aumenta em +2. Além disso, quando flanqueia um inimigo, o bônus que você e seus aliados recebem em testes de ataque aumenta para +4.",
+  "effects": {
+    "help_bonus_increase": 2,
+    "flank_bonus": {
+      "value": 4,
+      "note": "substitui o bônus padrão de flanqueio"
+    }
+  }
+}

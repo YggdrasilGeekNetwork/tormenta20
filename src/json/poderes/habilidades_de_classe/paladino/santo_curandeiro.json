@@ -1,0 +1,26 @@
+{
+  "id": "santo_curandeiro",
+  "name": "Santo Curandeiro",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "A partir do 2º nível, você pode gastar uma ação de movimento e uma quantidade de PM a sua escolha (limitada pelo seu Carisma). Para cada PM que você gastar, o aliado em alcance médio com a maior redução em seus PV (por dano ou perda de vida) recupera 2d8 pontos de vida por luz. A partir do 6º nível, quando usa Santo Curandeiro, você também pode remover uma condição do alvo entre abalado, apavorado, atordoado, cego, doente, exausto, fatigado ou surdo.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [
+        2,
+        6
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "resource_gain",
+      "resource": "PV",
+      "value": "2d8",
+      "per": "PM_gasto"
+    }
+  ],
+  "costs": null
+}

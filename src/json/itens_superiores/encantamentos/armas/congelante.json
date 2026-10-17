@@ -3,10 +3,21 @@
   "name": "Congelante",
   "type": "encantamento",
   "categoria": "arma",
-  "efeito": {
-    "dano_extra": "1d6",
-    "tipo_dano_extra": "frio",
-    "descricao_curta": "+1d6 de dano de frio; por 2 PM enreda a vítima por uma rodada"
-  },
-  "description": "A arma causa +1d6 de dano de frio. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, a vítima fica enredada por uma rodada. Uma arma congelante é coberta por uma camada de gelo e névoa."
+  "description": "A arma causa +1d6 de dano de frio. Uma vez por rodada, quando ataca, você pode gastar 2 PM. Se fizer isso e acertar o ataque, a vítima fica enredada por uma rodada. Uma arma congelante é coberta por uma camada de gelo e névoa.",
+  "effects": [
+    {
+      "type": "dano_extra",
+      "dados": "1d6",
+      "tipo_dano": "frio",
+      "automatico": true
+    },
+    {
+      "type": "ativado",
+      "acao": null,
+      "custo_pm": 2,
+      "frequencia": "por_rodada",
+      "gatilho": "ataca e acerta",
+      "efeito": "vítima fica enredada por uma rodada"
+    }
+  ]
 }

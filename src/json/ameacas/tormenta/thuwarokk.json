@@ -1,0 +1,99 @@
+{
+  "id": "thuwarokk",
+  "name": "Thuwarokk",
+  "nd": 16,
+  "tipo": "Monstro",
+  "subtipo": "lefeu",
+  "tamanho": "colossal",
+  "grupo": "tormenta",
+  "pv": 900,
+  "defesa": 50,
+  "salvaguardas": {
+    "fort": 30,
+    "ref": 24,
+    "von": 16
+  },
+  "reducao_de_dano": 10,
+  "imunidades": [
+    "acertos críticos",
+    "ácido",
+    "cansaço",
+    "eletricidade",
+    "fogo",
+    "frio",
+    "luz",
+    "paralisia",
+    "metabolismo",
+    "metamorfose",
+    "trevas",
+    "veneno"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 11,
+  "percepcao": 12,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 12
+  },
+  "atributos": {
+    "for": 17,
+    "des": -1,
+    "con": 10,
+    "int": -3,
+    "sab": 0,
+    "car": -4
+  },
+  "ataques": [
+    {
+      "nome": "Pancada",
+      "bonus": 48,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 4,
+              "faces": 12
+            }
+          ],
+          "bonus": 24,
+          "tipo": "impacto"
+        }
+      ],
+      "quantidade": 4
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Carapaça",
+      "descricao": "Reduz todo dano de corte, impacto e perfuração à metade. Se passar em salvaguarda contra magia-alvo, a magia é revertida contra o conjurador. Pontos fracos podem ser encontrados com Percepção CD 25; atacar um ponto fraco tem –5 no ataque mas ignora as proteções da carapaça."
+    },
+    {
+      "nome": "Insanidade da Tormenta",
+      "salvaguarda": "Vontade",
+      "cd": 42,
+      "efeito_sucesso": "evita",
+      "descricao": "Criaturas que vejam o thuwarokk fazem Von CD 42 ou perdem 2d12 PM. Confusa se chegar a 0 PM. Uma vez por dia."
+    },
+    {
+      "nome": "Jato de Ácido",
+      "acao": "movimento",
+      "salvaguarda": "Reflexos",
+      "cd": 42,
+      "efeito_sucesso": "reduz à metade",
+      "descricao": "Cone de 30m. Criaturas sofrem 10d8+20 de ácido (Ref CD 42 reduz à metade). Recarga (movimento)."
+    },
+    {
+      "nome": "Passar por Cima",
+      "acao": "completa",
+      "salvaguarda": "Reflexos",
+      "cd": 42,
+      "efeito_sucesso": "reduz à metade",
+      "descricao": "Percorre até o dobro do deslocamento, passando por criaturas Enormes ou menores. Atropeladas sofrem 10d12+50 de dano (Ref CD 42 reduz à metade)."
+    }
+  ],
+  "tesouro": "nenhum",
+  "description": "Lefeu colossal que lembra um besouro blindado quase do tamanho de um castelo. Máquinas de destruição total capazes de dizimar exércitos."
+}

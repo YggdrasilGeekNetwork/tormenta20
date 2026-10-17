@@ -1,0 +1,20 @@
+{
+  "id": "negociante_nato",
+  "name": "Negociante Nato",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "No 3º nível, quando chega em uma nova comunidade, você pode gastar 1 dia fazendo contatos com o comércio local para fazer um teste de Diplomacia (CD 20). Se passar, pode vender itens nessa comunidade por 60% do seu preço (em vez de 50%). Para cada 10 pontos pelos quais o resultado do teste exceder a CD, você aumenta o preço de venda em +10% (até o máximo de 100%). Esta habilidade não se acumula com barganha, e NPCs ainda estão limitados a comprar somente o que desejam, com o dinheiro que possuem.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 3
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": [
+    {
+      "type": "1_dia"
+    }
+  ]
+}

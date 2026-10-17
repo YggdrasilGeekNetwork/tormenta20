@@ -1,0 +1,14 @@
+{
+  "id": "cobertura_de_gorad",
+  "name": "Cobertura de Gorad",
+  "origin": "goradista",
+  "description": "Quando você prepara um prato especial, pode gastar T$ 10 a mais para adicionar cobertura de gorad a ele. Além de seus benefícios normais, um prato especial com cobertura de gorad fornece 2 PM temporários por patamar do comensal.",
+  "effects": {
+    "crafting_bonus": {
+      "activity": "prato especial",
+      "extra_cost": "T$ 10",
+      "addition": "cobertura de gorad",
+      "effect": "fornece 2 PM temporários por patamar do comensal, além dos benefícios normais"
+    }
+  }
+}

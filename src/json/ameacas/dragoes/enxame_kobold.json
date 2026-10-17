@@ -1,0 +1,64 @@
+{
+  "id": "enxame_kobold",
+  "name": "Enxame Kobold",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "kobold",
+  "tamanho": "médio",
+  "grupo": "dragoes",
+  "pv": 55,
+  "defesa": 15,
+  "salvaguardas": {
+    "fort": 5,
+    "ref": 8,
+    "von": 2
+  },
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 8,
+  "percepcao": 5,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 0,
+    "des": 4,
+    "con": 1,
+    "int": -1,
+    "sab": 0,
+    "car": -2
+  },
+  "ataques": [
+    {
+      "nome": "[Bando] Lanças e flechas",
+      "bonus": 12,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "bonus": 4,
+          "tipo": "perfuração"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Bando",
+      "descricao": "Se o ataque exceder a Defesa por 10+, causa dobro de dano. Se errar, ainda causa metade do dano. Imune a manobras e efeitos que afetam apenas uma criatura sem dano. Sofre +50% de dano de área."
+    },
+    {
+      "nome": "Armadilhas",
+      "descricao": "Enxames kobold frequentemente preparam armadilhas nos arredores de seus covis."
+    }
+  ],
+  "tesouro": "padrão",
+  "description": "Pequenos humanoides reptilianos considerados uma praga. Medindo 75cm, parecem caricaturas de dragões. Individualmente fracos, são perigosos em grandes números."
+}

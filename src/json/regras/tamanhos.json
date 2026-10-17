@@ -1,0 +1,80 @@
+{
+  "id": "tamanhos",
+  "name": "Categorias de Tamanho",
+  "description": "Tabela 1-21: Tamanho de Criaturas. Criaturas têm categorias de tamanho que afetam Furtividade e testes de manobra, além do espaço que ocupam.",
+  "categorias": [
+    {
+      "id": "minusculo",
+      "name": "Minúsculo",
+      "exemplos": [
+        "Falcão",
+        "rato",
+        "sílfide"
+      ],
+      "espaco_ocupado_metros": 1.5,
+      "modificador_furtividade": 5,
+      "modificador_manobras": -5
+    },
+    {
+      "id": "pequeno",
+      "name": "Pequeno",
+      "exemplos": [
+        "Cão",
+        "goblin",
+        "hynne"
+      ],
+      "espaco_ocupado_metros": 1.5,
+      "modificador_furtividade": 2,
+      "modificador_manobras": -2
+    },
+    {
+      "id": "medio",
+      "name": "Médio",
+      "exemplos": [
+        "Humano",
+        "anão",
+        "elfo"
+      ],
+      "espaco_ocupado_metros": 1.5,
+      "modificador_furtividade": 0,
+      "modificador_manobras": 0
+    },
+    {
+      "id": "grande",
+      "name": "Grande",
+      "exemplos": [
+        "Cavalo",
+        "ogro",
+        "serpe"
+      ],
+      "espaco_ocupado_metros": 3.0,
+      "modificador_furtividade": -2,
+      "modificador_manobras": 2
+    },
+    {
+      "id": "enorme",
+      "name": "Enorme",
+      "exemplos": [
+        "Ente",
+        "gigante",
+        "hidra"
+      ],
+      "espaco_ocupado_metros": 4.5,
+      "modificador_furtividade": -5,
+      "modificador_manobras": 5
+    },
+    {
+      "id": "colossal",
+      "name": "Colossal",
+      "exemplos": [
+        "Colosso",
+        "dragão",
+        "kraken"
+      ],
+      "espaco_ocupado_metros": 9.0,
+      "modificador_furtividade": -10,
+      "modificador_manobras": 10
+    }
+  ],
+  "nota_espaco": "O espaço ocupado indica o lado do quadrado que a criatura ocupa. '3m' significa que a criatura ocupa um espaço de 3m x 3m (2x2 quadrados num mapa)."
+}

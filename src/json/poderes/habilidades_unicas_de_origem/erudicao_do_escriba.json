@@ -1,0 +1,13 @@
+{
+  "id": "erudicao_do_escriba",
+  "name": "Erudição do Escriba",
+  "origin": "escriba",
+  "description": "Você recebe o poder de bardo Lendas e Histórias (Tormenta20, p. 45). Se receber esse poder novamente, em seu lugar recebe um bônus de +5 ao rolar novamente um teste usando seu efeito.",
+  "effects": {
+    "grants_power": "Lendas e Histórias",
+    "power_retrain_bonus": {
+      "condition": "se receber Lendas e Histórias novamente",
+      "effect": "recebe +5 ao rolar novamente um teste usando o efeito de Lendas e Histórias, em vez do poder"
+    }
+  }
+}

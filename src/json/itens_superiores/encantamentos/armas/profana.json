@@ -3,8 +3,14 @@
   "name": "Profana",
   "type": "encantamento",
   "categoria": "arma",
-  "efeito": {
-    "descricao_curta": "+2d8 de dano contra devotos do Bem e criaturas bondosas"
-  },
-  "description": "A arma causa +2d8 de dano contra devotos de deuses que canalizam apenas energia positiva e criaturas bondosas (a critério do mestre). Uma arma profana emite luz rubra pulsante."
+  "description": "A arma causa +2d8 de dano contra devotos de deuses que canalizam apenas energia positiva e criaturas bondosas (a critério do mestre). Uma arma profana emite luz rubra pulsante.",
+  "effects": [
+    {
+      "type": "dano_extra",
+      "dados": "2d8",
+      "tipo_dano": null,
+      "automatico": true,
+      "condicao": "contra devotos de deuses que canalizam apenas energia positiva e criaturas bondosas (a critério do mestre)"
+    }
+  ]
 }

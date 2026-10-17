@@ -1,0 +1,73 @@
+{
+  "id": "basilisco",
+  "name": "Basilisco",
+  "nd": 4,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "ermos",
+  "pv": 145,
+  "defesa": 23,
+  "salvaguardas": {
+    "fort": 10,
+    "ref": 9,
+    "von": 9
+  },
+  "reducao_de_dano": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 6,
+  "percepcao": 5,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9,
+    "natacao": 9
+  },
+  "atributos": {
+    "for": 4,
+    "des": 2,
+    "con": 4,
+    "int": -4,
+    "sab": 1,
+    "car": 0
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 16,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 8
+            }
+          ],
+          "bonus": 12,
+          "tipo": "perfuração"
+        }
+      ],
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Olhar Petrificante",
+      "salvaguarda": "Reflexos",
+      "cd": 18,
+      "efeito_sucesso": "evita",
+      "descricao": "No início do turno, criaturas em alcance curto fazem Reflexos CD 18. Falha: fica lento. Já lento: fica petrificado permanentemente. Fechar os olhos evita mas causa cegueira por uma rodada. Efeitos que removem paralisia revertem a petrificação."
+    },
+    {
+      "nome": "Veneno",
+      "descricao": "Peçonha concentrada: perde 1d12 PV por rodada durante 3 rodadas (Fort CD 18 reduz para uma rodada).",
+      "salvaguarda": "Fortitude",
+      "cd": 18,
+      "efeito_sucesso": "reduz para uma rodada"
+    }
+  ],
+  "tesouro": "1d4 doses de peçonha concentrada (CD 19 para extrair); couro de basilisco (CD 19, T$ 1.000 em matéria-prima para armadura superior)",
+  "description": "Lagartos venenosos de dois metros que possuem o terrível poder de petrificar seres vivos com o olhar. Criaturas solitárias, vivem tanto em terra quanto na água."
+}

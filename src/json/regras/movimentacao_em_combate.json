@@ -1,0 +1,39 @@
+{
+  "id": "movimentacao_em_combate",
+  "name": "Movimentação em Combate",
+  "description": "Regras de deslocamento, terreno difícil e movimento especial durante o combate.",
+  "regras": {
+    "deslocamento": {
+      "name": "Deslocamento",
+      "description": "Medida de quantos metros você pode percorrer com uma ação de movimento. O deslocamento padrão é 9m para criaturas de tamanho Médio."
+    },
+    "atravessar_espaco_ocupado": {
+      "name": "Atravessar um Espaço Ocupado",
+      "description": "Você pode atravessar um espaço ocupado por um aliado. Não pode atravessar espaço de um inimigo a menos que: o inimigo esteja caído ou indefeso; seja 3+ categorias de tamanho maior ou menor que você; ou você use Acrobacia ou a ação atropelar. Espaço de inimigo conta como terreno difícil."
+    },
+    "carga": {
+      "name": "Carga",
+      "description": "Se sobrecarregado, o deslocamento diminui em 3m."
+    },
+    "diagonais": {
+      "name": "Diagonais",
+      "description": "Mover-se na diagonal custa o dobro. Andar 1,5m (1 quadrado) na diagonal conta como 3m (2 quadrados)."
+    },
+    "subir_ou_mergulhar": {
+      "name": "Subir ou Mergulhar",
+      "description": "Voando ou nadando, subida custa o dobro (triplo em diagonal); descida custa metade (normal em diagonal). Exemplo: voar 1,5m para cima = 3m de deslocamento; voar 3m para baixo = 1,5m de deslocamento."
+    },
+    "terreno_dificil": {
+      "name": "Terreno Difícil",
+      "description": "Lugares difíceis de andar (floresta com raízes, neve profunda, ruínas, rua lotada). Mover-se em terreno difícil custa o dobro — você se move a metade do deslocamento normal."
+    }
+  },
+  "variantes": [
+    {
+      "id": "movimento_intercalado",
+      "name": "Movimento Intercalado",
+      "livro": "herois_de_arton",
+      "description": "Com esta regra, você pode intercalar sua ação de movimento com uma outra ação. Por exemplo, se tiver deslocamento 9m, pode usar uma ação de movimento para percorrer 6m, executar uma ação padrão e então percorrer os 3m restantes."
+    }
+  ]
+}

@@ -1,0 +1,342 @@
+{
+  "id": "tesouro_por_nd",
+  "name": "Tesouro por Nível de Desafio",
+  "description": "Tabela 8-1 (T20 EJA, Cap. 8, p.328-329). Ao determinar o tesouro de um combate, role duas vezes na linha equivalente ao ND da criatura derrotada: uma vez na coluna Dinheiro e outra na coluna Itens. 'Nenhum' = não use a tabela; 'Metade' = use a tabela, mas divida pela metade resultados rolados em Dinheiro; 'Dobro' = role duas vezes em cada coluna. Notação '+%': ao rolar d% para determinar o tipo de riqueza ou poção, some +20% ao resultado (valores acima de 100% contam como 100%). Notação '2D': ao rolar o tipo de equipamento ou item mágico, role 2d6 e escolha um dos dois resultados.",
+  "headers": ["ND", "Dinheiro", "Itens"],
+  "rows": [
+    {
+      "ND": "1/4",
+      "Dinheiro": [
+        { "d%": "01-30", "resultado": "—" },
+        { "d%": "31-70", "resultado": "1d6x10 TC" },
+        { "d%": "71-95", "resultado": "1d4x100 TC" },
+        { "d%": "96-100", "resultado": "1d6x10 T$" }
+      ],
+      "Itens": [
+        { "d%": "01-50", "resultado": "—" },
+        { "d%": "51-75", "resultado": "Diverso" },
+        { "d%": "76-100", "resultado": "Equipamento" }
+      ]
+    },
+    {
+      "ND": "1/2",
+      "Dinheiro": [
+        { "d%": "01-25", "resultado": "—" },
+        { "d%": "26-70", "resultado": "2d6x10 TC" },
+        { "d%": "71-95", "resultado": "2d8x10 T$" },
+        { "d%": "96-100", "resultado": "1d4x100 T$" }
+      ],
+      "Itens": [
+        { "d%": "01-45", "resultado": "—" },
+        { "d%": "46-70", "resultado": "Diverso" },
+        { "d%": "71-100", "resultado": "Equipamento" }
+      ]
+    },
+    {
+      "ND": "1",
+      "Dinheiro": [
+        { "d%": "01-20", "resultado": "—" },
+        { "d%": "21-70", "resultado": "3d8x10 T$" },
+        { "d%": "71-95", "resultado": "4d12x10 T$" },
+        { "d%": "96-100", "resultado": "1 riqueza menor" }
+      ],
+      "Itens": [
+        { "d%": "01-40", "resultado": "—" },
+        { "d%": "41-65", "resultado": "Diverso" },
+        { "d%": "66-90", "resultado": "Equipamento" },
+        { "d%": "91-100", "resultado": "1 poção" }
+      ]
+    },
+    {
+      "ND": "2",
+      "Dinheiro": [
+        { "d%": "01-15", "resultado": "—" },
+        { "d%": "16-55", "resultado": "3d10x10 T$" },
+        { "d%": "56-85", "resultado": "2d4x100 T$" },
+        { "d%": "86-95", "resultado": "2d6+1x100 T$" },
+        { "d%": "96-100", "resultado": "1 riqueza menor" }
+      ],
+      "Itens": [
+        { "d%": "01-30", "resultado": "—" },
+        { "d%": "31-40", "resultado": "Diverso" },
+        { "d%": "41-70", "resultado": "Equipamento" },
+        { "d%": "71-90", "resultado": "1 poção" },
+        { "d%": "91-100", "resultado": "Superior (1 melhoria)" }
+      ]
+    },
+    {
+      "ND": "3",
+      "Dinheiro": [
+        { "d%": "01-10", "resultado": "—" },
+        { "d%": "11-20", "resultado": "4d12x10 T$" },
+        { "d%": "21-60", "resultado": "1d4x100 T$" },
+        { "d%": "61-90", "resultado": "1d8x10 TO" },
+        { "d%": "91-100", "resultado": "1d3 riquezas menores" }
+      ],
+      "Itens": [
+        { "d%": "01-25", "resultado": "—" },
+        { "d%": "26-35", "resultado": "Diverso" },
+        { "d%": "36-60", "resultado": "Equipamento" },
+        { "d%": "61-85", "resultado": "1 poção" },
+        { "d%": "86-100", "resultado": "Superior (1 melhoria)" }
+      ]
+    },
+    {
+      "ND": "4",
+      "Dinheiro": [
+        { "d%": "01-10", "resultado": "—" },
+        { "d%": "11-50", "resultado": "1d6x100 T$" },
+        { "d%": "51-80", "resultado": "1d12x100 T$" },
+        { "d%": "81-90", "resultado": "1 riqueza menor+%" },
+        { "d%": "91-100", "resultado": "1d3 riquezas menores+%" }
+      ],
+      "Itens": [
+        { "d%": "01-20", "resultado": "—" },
+        { "d%": "21-30", "resultado": "Diverso" },
+        { "d%": "31-55", "resultado": "Equipamento2D" },
+        { "d%": "56-80", "resultado": "1 poção+%" },
+        { "d%": "81-100", "resultado": "Superior (1 melhoria)2D" }
+      ]
+    },
+    {
+      "ND": "5",
+      "Dinheiro": [
+        { "d%": "01-15", "resultado": "—" },
+        { "d%": "16-65", "resultado": "1d8x100 T$" },
+        { "d%": "66-95", "resultado": "3d4x10 TO" },
+        { "d%": "96-100", "resultado": "1 riqueza média" }
+      ],
+      "Itens": [
+        { "d%": "01-20", "resultado": "—" },
+        { "d%": "21-70", "resultado": "1 poção" },
+        { "d%": "71-90", "resultado": "Superior (1 melhoria)" },
+        { "d%": "91-100", "resultado": "Superior (2 melhorias)" }
+      ]
+    },
+    {
+      "ND": "6",
+      "Dinheiro": [
+        { "d%": "01-15", "resultado": "—" },
+        { "d%": "16-60", "resultado": "2d6x100 T$" },
+        { "d%": "61-90", "resultado": "2d10x100 T$" },
+        { "d%": "91-100", "resultado": "1d3+1 riquezas menores" }
+      ],
+      "Itens": [
+        { "d%": "01-20", "resultado": "—" },
+        { "d%": "21-65", "resultado": "1 poção+%" },
+        { "d%": "66-95", "resultado": "Superior (1 melhoria)" },
+        { "d%": "96-100", "resultado": "Superior (2 melhorias)2D" }
+      ]
+    },
+    {
+      "ND": "7",
+      "Dinheiro": [
+        { "d%": "01-10", "resultado": "—" },
+        { "d%": "11-60", "resultado": "2d8x100 T$" },
+        { "d%": "61-90", "resultado": "2d12x10 TO" },
+        { "d%": "91-100", "resultado": "1d4+1 riquezas menores" }
+      ],
+      "Itens": [
+        { "d%": "01-20", "resultado": "—" },
+        { "d%": "21-60", "resultado": "1d3 poções" },
+        { "d%": "61-90", "resultado": "Superior (2 melhorias)" },
+        { "d%": "91-100", "resultado": "Superior (3 melhorias)" }
+      ]
+    },
+    {
+      "ND": "8",
+      "Dinheiro": [
+        { "d%": "01-10", "resultado": "—" },
+        { "d%": "11-55", "resultado": "2d10x100 T$" },
+        { "d%": "56-95", "resultado": "1d4+1 riquezas menores" },
+        { "d%": "96-100", "resultado": "1 riqueza média+%" }
+      ],
+      "Itens": [
+        { "d%": "01-20", "resultado": "—" },
+        { "d%": "21-75", "resultado": "1d3 poções" },
+        { "d%": "76-95", "resultado": "Superior (2 melhorias)" },
+        { "d%": "96-100", "resultado": "Superior (3 melhorias)2D" }
+      ]
+    },
+    {
+      "ND": "9",
+      "Dinheiro": [
+        { "d%": "01-10", "resultado": "—" },
+        { "d%": "11-35", "resultado": "1 riqueza média" },
+        { "d%": "36-85", "resultado": "4d6x100 T$" },
+        { "d%": "86-100", "resultado": "1d3 riquezas médias" }
+      ],
+      "Itens": [
+        { "d%": "01-20", "resultado": "—" },
+        { "d%": "21-70", "resultado": "1 poção+%" },
+        { "d%": "71-95", "resultado": "Superior (3 melhorias)" },
+        { "d%": "96-100", "resultado": "Mágico (menor)" }
+      ]
+    },
+    {
+      "ND": "10",
+      "Dinheiro": [
+        { "d%": "01-10", "resultado": "—" },
+        { "d%": "11-30", "resultado": "4d6x100 T$" },
+        { "d%": "31-85", "resultado": "4d10x10 TO" },
+        { "d%": "86-100", "resultado": "1d3+1 riquezas médias" }
+      ],
+      "Itens": [
+        { "d%": "01-50", "resultado": "—" },
+        { "d%": "51-75", "resultado": "1d3+1 poções" },
+        { "d%": "76-90", "resultado": "Superior (3 melhorias)" },
+        { "d%": "91-100", "resultado": "Mágico (menor)" }
+      ]
+    },
+    {
+      "ND": "11",
+      "Dinheiro": [
+        { "d%": "01-10", "resultado": "—" },
+        { "d%": "11-45", "resultado": "2d4x1.000 T$" },
+        { "d%": "46-85", "resultado": "1d3 riquezas médias" },
+        { "d%": "86-100", "resultado": "2d6x100 TO" }
+      ],
+      "Itens": [
+        { "d%": "01-45", "resultado": "—" },
+        { "d%": "46-70", "resultado": "1d4+1 poções" },
+        { "d%": "71-90", "resultado": "Superior (3 melhorias)" },
+        { "d%": "91-100", "resultado": "Mágico (menor)2D" }
+      ]
+    },
+    {
+      "ND": "12",
+      "Dinheiro": [
+        { "d%": "01-10", "resultado": "—" },
+        { "d%": "11-45", "resultado": "1 riqueza média+%" },
+        { "d%": "46-80", "resultado": "2d6x1.000 T$" },
+        { "d%": "81-100", "resultado": "1d4+1 riquezas médias" }
+      ],
+      "Itens": [
+        { "d%": "01-45", "resultado": "—" },
+        { "d%": "46-70", "resultado": "1d3+1 poções+%" },
+        { "d%": "71-85", "resultado": "Superior (4 melhorias)" },
+        { "d%": "86-100", "resultado": "Mágico (menor)" }
+      ]
+    },
+    {
+      "ND": "13",
+      "Dinheiro": [
+        { "d%": "01-10", "resultado": "—" },
+        { "d%": "11-45", "resultado": "4d4x1.000 T$" },
+        { "d%": "46-80", "resultado": "1d3+1 riquezas médias" },
+        { "d%": "81-100", "resultado": "4d6x100 TO" }
+      ],
+      "Itens": [
+        { "d%": "01-40", "resultado": "—" },
+        { "d%": "41-65", "resultado": "1d4+1 poções+%" },
+        { "d%": "66-95", "resultado": "Superior (4 melhorias)" },
+        { "d%": "96-100", "resultado": "Mágico (médio)" }
+      ]
+    },
+    {
+      "ND": "14",
+      "Dinheiro": [
+        { "d%": "01-10", "resultado": "—" },
+        { "d%": "11-45", "resultado": "1d3+1 riquezas médias" },
+        { "d%": "46-80", "resultado": "3d6x1.000 T$" },
+        { "d%": "81-100", "resultado": "1 riqueza maior" }
+      ],
+      "Itens": [
+        { "d%": "01-40", "resultado": "—" },
+        { "d%": "41-65", "resultado": "1d4+1 poções+%" },
+        { "d%": "66-90", "resultado": "Superior (4 melhorias)" },
+        { "d%": "91-100", "resultado": "Mágico (médio)" }
+      ]
+    },
+    {
+      "ND": "15",
+      "Dinheiro": [
+        { "d%": "01-10", "resultado": "—" },
+        { "d%": "11-45", "resultado": "1 riqueza média+%" },
+        { "d%": "46-80", "resultado": "2d10x1.000 T$" },
+        { "d%": "81-100", "resultado": "1d4x1.000 TO" }
+      ],
+      "Itens": [
+        { "d%": "01-35", "resultado": "—" },
+        { "d%": "36-45", "resultado": "1d6+1 poções" },
+        { "d%": "46-85", "resultado": "Superior (4 melhorias)2D" },
+        { "d%": "86-100", "resultado": "Mágico (médio)" }
+      ]
+    },
+    {
+      "ND": "16",
+      "Dinheiro": [
+        { "d%": "01-10", "resultado": "—" },
+        { "d%": "11-40", "resultado": "3d6x1.000 T$" },
+        { "d%": "41-75", "resultado": "3d10x100 TO" },
+        { "d%": "76-100", "resultado": "1d3 riquezas maiores" }
+      ],
+      "Itens": [
+        { "d%": "01-35", "resultado": "—" },
+        { "d%": "36-45", "resultado": "1d6+1 poções+%" },
+        { "d%": "46-80", "resultado": "Superior (4 melhorias)2D" },
+        { "d%": "81-100", "resultado": "Mágico (médio)" }
+      ]
+    },
+    {
+      "ND": "17",
+      "Dinheiro": [
+        { "d%": "01-05", "resultado": "—" },
+        { "d%": "06-40", "resultado": "4d6x1.000 T$" },
+        { "d%": "41-75", "resultado": "1d3 riquezas médias+%" },
+        { "d%": "76-100", "resultado": "2d4x1.000 TO" }
+      ],
+      "Itens": [
+        { "d%": "01-20", "resultado": "—" },
+        { "d%": "21-40", "resultado": "Mágico (menor)" },
+        { "d%": "41-80", "resultado": "Mágico (médio)" },
+        { "d%": "81-100", "resultado": "Mágico (maior)" }
+      ]
+    },
+    {
+      "ND": "18",
+      "Dinheiro": [
+        { "d%": "01-05", "resultado": "—" },
+        { "d%": "06-40", "resultado": "4d10x1.000 T$" },
+        { "d%": "41-75", "resultado": "1 riqueza maior" },
+        { "d%": "76-100", "resultado": "1d3+1 riquezas maiores" }
+      ],
+      "Itens": [
+        { "d%": "01-15", "resultado": "—" },
+        { "d%": "16-40", "resultado": "Mágico (menor)2D" },
+        { "d%": "41-70", "resultado": "Mágico (médio)" },
+        { "d%": "71-100", "resultado": "Mágico (maior)" }
+      ]
+    },
+    {
+      "ND": "19",
+      "Dinheiro": [
+        { "d%": "01-05", "resultado": "—" },
+        { "d%": "06-40", "resultado": "4d12x1.000 T$" },
+        { "d%": "41-75", "resultado": "1 riqueza maior+%" },
+        { "d%": "76-100", "resultado": "1d12x1.000 TO" }
+      ],
+      "Itens": [
+        { "d%": "01-10", "resultado": "—" },
+        { "d%": "11-40", "resultado": "Mágico (menor)2D" },
+        { "d%": "41-60", "resultado": "Mágico (médio)2D" },
+        { "d%": "61-100", "resultado": "Mágico (maior)" }
+      ]
+    },
+    {
+      "ND": "20",
+      "Dinheiro": [
+        { "d%": "01-05", "resultado": "—" },
+        { "d%": "06-40", "resultado": "2d4x1.000 TO" },
+        { "d%": "41-75", "resultado": "1d3 riquezas maiores" },
+        { "d%": "76-100", "resultado": "1d3+1 riquezas maiores+%" }
+      ],
+      "Itens": [
+        { "d%": "01-05", "resultado": "—" },
+        { "d%": "06-40", "resultado": "Mágico (menor)2D" },
+        { "d%": "41-50", "resultado": "Mágico (médio)2D" },
+        { "d%": "51-100", "resultado": "Mágico (maior)2D" }
+      ]
+    }
+  ]
+}

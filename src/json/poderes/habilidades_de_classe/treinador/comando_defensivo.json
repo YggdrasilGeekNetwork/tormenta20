@@ -1,0 +1,28 @@
+{
+  "id": "comando_defensivo",
+  "name": "Comando Defensivo",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Quando seu melhor amigo sofre dano, você pode gastar 2 PM para fazer um teste de Adestramento e reduzir o resultado do teste desse dano. Você pode usar esta habilidade uma vez por rodada para cada melhor amigo.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_reduction",
+      "value": "resultado_do_teste_de_adestramento",
+      "trigger": "melhor_amigo_sofre_dano",
+      "frequency": "1_por_rodada_por_melhor_amigo"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

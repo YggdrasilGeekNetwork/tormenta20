@@ -1,0 +1,26 @@
+{
+  "id": "vinculo_com_a_terra",
+  "name": "Vínculo com a Terra",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "No 5º nível, quando você estiver em um terreno de um dos tipos de seu sítio sagrado, suas magias custam -1 PM (cumulativo com outras reduções). Dentro do seu sítio sagrado, esse redutor muda para -2 (veja Sítio Sagrado).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "sitio_sagrado"
+    }
+  ],
+  "effects": [
+    {
+      "type": "reduce_PM_cost",
+      "value": -1
+    }
+  ],
+  "costs": null
+}

@@ -1,0 +1,19 @@
+{
+  "id": "rubis_da_virtude",
+  "name": "Os Rubis da Virtude",
+  "description": "Criados para selar um pacto entre os deuses do Panteão. Cada um, se destruído, destruiria também o deus secretamente ligado a ele — sem que fosse possível descobrir qual rubi pertencia a quem. Foram entregues a cada deus como garantia de que nunca tentariam destruir uns aos outros. As gemas não podem ser danificadas por mortais ou mesmo por deuses menores; apenas um deus do Panteão pode destruí-las. Não podem ser detectadas por meios mágicos.",
+  "effects": [
+    {
+      "type": "indestrutivel",
+      "excecao": "apenas um deus do Panteão pode destruí-las"
+    },
+    {
+      "type": "passivo",
+      "efeito": "indetectáveis por meios mágicos"
+    },
+    {
+      "type": "lore",
+      "note": "cada rubi está secretamente ligado a um deus do Panteão; destruir um mata aquele deus"
+    }
+  ]
+}

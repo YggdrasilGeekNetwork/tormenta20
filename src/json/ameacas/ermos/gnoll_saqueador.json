@@ -1,0 +1,98 @@
+{
+  "id": "gnoll_saqueador",
+  "name": "Gnoll Saqueador",
+  "nd": 1,
+  "tipo": "Humanoide",
+  "subtipo": "gnoll",
+  "tamanho": "médio",
+  "grupo": "ermos",
+  "pv": 15,
+  "defesa": 15,
+  "salvaguardas": {
+    "fort": 7,
+    "ref": 7,
+    "von": 1
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 4,
+  "visao": [
+    "faro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 3,
+    "des": 2,
+    "con": 3,
+    "int": -2,
+    "sab": 1,
+    "car": -1
+  },
+  "pericias": {
+    "sobrevivencia": 5
+  },
+  "ataques": [
+    {
+      "nome": "Lança",
+      "bonus": 10,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 4,
+          "tipo": "perfuração"
+        }
+      ]
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 10,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 4,
+          "tipo": "perfuração"
+        }
+      ]
+    },
+    {
+      "nome": "Arco curto (à distância)",
+      "bonus": 9,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 3,
+          "tipo": "perfuração"
+        }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [],
+  "equipamento": [
+    "Arco curto",
+    "flechas x20",
+    "lança"
+  ],
+  "tesouro": "metade",
+  "description": "Povo-hiena propenso a emboscadas. Covarde quando em desvantagem, mas feroz em grupo."
+}

@@ -1,0 +1,98 @@
+{
+  "id": "lagash",
+  "name": "Lagash",
+  "nd": 13,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "sszzaazitas",
+  "pv": 660,
+  "defesa": 41,
+  "salvaguardas": {
+    "fort": 26,
+    "ref": 20,
+    "von": 13
+  },
+  "reducao_de_dano": null,
+  "imunidades": [
+    "efeitos de movimento",
+    "veneno"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 19,
+  "percepcao": 11,
+  "visao": [
+    "faro",
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 12,
+    "escalar": 12,
+    "natacao": 12
+  },
+  "atributos": {
+    "for": 11,
+    "des": 4,
+    "con": 9,
+    "int": -3,
+    "sab": 2,
+    "car": -2
+  },
+  "pericias": {
+    "furtividade": 17
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 37,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 4,
+              "faces": 12
+            }
+          ],
+          "bonus": 28,
+          "tipo": "perfuração"
+        }
+      ],
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Agarrar Aprimorado",
+      "acao": "livre",
+      "descricao": "Se acerta mordida, pode usar agarrar (teste +42)."
+    },
+    {
+      "nome": "Constrição",
+      "acao": "livre",
+      "descricao": "No início de cada turno, causa 6d12+28 de impacto na criatura agarrada."
+    },
+    {
+      "nome": "Crias de Sszzaas",
+      "acao": "movimento",
+      "descricao": "Cospe 2d6 serpentes em espaços em alcance curto (For -1, Des 2, Def auto-acertada, 1 PV, 1d6 perfuração adjacente). Desaparecem ao fim da cena. Recarga (movimento)."
+    },
+    {
+      "nome": "Cuspe Venenoso",
+      "acao": "padrão",
+      "salvaguarda": "Fortitude",
+      "cd": 35,
+      "efeito_sucesso": "reduz à metade e evita cegueira",
+      "descricao": "Cone de 9m. Criaturas perdem 6d12 PV e ficam cegas por 1d4 rodadas (Fort CD 35 reduz à metade e evita cegueira)."
+    },
+    {
+      "nome": "Veneno",
+      "salvaguarda": "Fortitude",
+      "cd": 35,
+      "efeito_sucesso": "reduz para uma rodada",
+      "descricao": "Perde 4d12 PV por rodada durante 5 rodadas (Fort CD 35 reduz para uma rodada)."
+    }
+  ],
+  "tesouro": "padrão",
+  "description": "Serpente gigantesca sagrada para os sszzaazitas. Seus olhos brilham amarelos e sua bocarra verte veneno e cobras. Habitante de selvas profundas e subterrâneos."
+}

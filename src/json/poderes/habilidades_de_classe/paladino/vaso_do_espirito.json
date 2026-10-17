@@ -1,0 +1,26 @@
+{
+  "id": "vaso_do_espirito",
+  "name": "Vaso do Espírito",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "A partir do 3º nível, quando faz um teste de resistência, você pode gastar 1 PM para somar seu Carisma nesse teste.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 3
+    }
+  ],
+  "effects": [
+    {
+      "type": "attr_bonus_improvement",
+      "attr_value": "carisma"
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

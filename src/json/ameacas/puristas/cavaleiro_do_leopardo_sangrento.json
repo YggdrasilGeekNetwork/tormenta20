@@ -1,0 +1,77 @@
+{
+  "id": "cavaleiro_do_leopardo_sangrento",
+  "name": "Cavaleiro do Leopardo Sangrento",
+  "nd": 9,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "médio",
+  "grupo": "puristas",
+  "pv": 270,
+  "pm": 58,
+  "defesa": 36,
+  "salvaguardas": {
+    "fort": 21,
+    "ref": 11,
+    "von": 17
+  },
+  "reducao_de_dano": null,
+  "imunidades": [
+    "medo"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 17,
+  "percepcao": 15,
+  "visao": [],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 5,
+    "des": 2,
+    "con": 4,
+    "int": 4,
+    "sab": 0,
+    "car": 2
+  },
+  "pericias": {
+    "furtividade": 8,
+    "intimidacao": 17,
+    "misticismo": 19
+  },
+  "ataques": [
+    {
+      "nome": "Espada bastarda",
+      "bonus": 28,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 3,
+              "faces": 6
+            }
+          ],
+          "bonus": 15,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Cavaleiro Místico",
+      "descricao": "Lança magias como mago de 9º nível (CD 28). Pode lançar magias arcanas de armadura sem testes. Uma vez por rodada, ao agredir corpo a corpo, pode lançar uma magia como ação livre."
+    },
+    {
+      "nome": "Magias disponíveis",
+      "descricao": "Concentração de Combate (padrão, 3 PM), Dissipar Magia (padrão, 3 PM), Pele de Pedra (padrão, 6 PM, RD 5), Toque Chocante (padrão, 9 PM, 8d8+8 eletricidade), Velocidade (padrão, 3 PM, sustentada)."
+    }
+  ],
+  "equipamento": [
+    "Armadura completa reforçada",
+    "espada bastarda aumentada pungente de adamante"
+  ],
+  "tesouro": "padrão",
+  "description": "Os mais fanáticos combatentes puristas, que passaram pelo rito de sacrificar um não-humano. Espiões, assassinos e guarda-costas de líderes puristas."
+}

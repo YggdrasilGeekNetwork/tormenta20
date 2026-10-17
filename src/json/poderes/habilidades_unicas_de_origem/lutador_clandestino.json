@@ -1,0 +1,12 @@
+{
+  "id": "lutador_clandestino",
+  "name": "Lutador Clandestino",
+  "origin": "cao_de_briga",
+  "description": "Na primeira vez a cada cena em que você faz a ação agredir, pode fazer um ataque extra.",
+  "effects": {
+    "combat_bonus": {
+      "trigger": "primeira vez a cada cena que faz a ação agredir",
+      "effect": "ataque extra"
+    }
+  }
+}

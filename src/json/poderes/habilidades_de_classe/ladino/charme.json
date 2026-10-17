@@ -1,0 +1,26 @@
+{
+  "id": "charme",
+  "name": "Charme",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_ladino",
+  "description": "Você soma seu Carisma em seu total de PM. Quando faz um teste de perícia (exceto testes de ataque), você pode gastar uma quantidade de PM a sua escolha (limitada pelo seu Carisma). Para cada PM que gastar, recebe +2 no teste.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "add_PM_attr",
+      "attr": "car"
+    },
+    {
+      "type": "skill_improvement",
+      "value": 2,
+      "per": "PM_gasto"
+    }
+  ],
+  "costs": null
+}

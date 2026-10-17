@@ -1,0 +1,76 @@
+{
+  "id": "esqueleto_de_elite",
+  "name": "Esqueleto de Elite",
+  "nd": 4,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "reino_dos_mortos",
+  "pv": 60,
+  "defesa": 25,
+  "salvaguardas": {
+    "fort": 4,
+    "ref": 10,
+    "von": 16
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {
+    "corte": 5,
+    "frio": 5,
+    "perfuração": 5
+  },
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 4,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 6
+  },
+  "atributos": {
+    "for": 6,
+    "des": 4,
+    "con": 2,
+    "int": null,
+    "sab": 0,
+    "car": -5
+  },
+  "ataques": [
+    {
+      "nome": "Espada longa",
+      "bonus": 18,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 8
+            }
+          ],
+          "bonus": 15,
+          "tipo": "corte"
+        },
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 8
+            }
+          ],
+          "tipo": "trevas"
+        }
+      ],
+      "critico": "19"
+    }
+  ],
+  "poderes_especiais": [],
+  "equipamento": [
+    "Escudo pesado",
+    "espada longa",
+    "meia armadura"
+  ],
+  "tesouro": "nenhum",
+  "description": "Versão reforçada do esqueleto comum. Forma as temidas falanges do Reino dos Mortos."
+}

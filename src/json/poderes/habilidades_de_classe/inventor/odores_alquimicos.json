@@ -1,0 +1,20 @@
+{
+  "id": "odores_alquimicos",
+  "name": "Odores Alquímicos",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "A partir do 8º nível, você pode gastar uma ação completa para detectar a presença de itens alquímicos e poções em alcance médio. No caso de itens alquímicos, você descobre seu tipo (preparado, veneno etc.) e uso geral (curar, fornecer bônus etc.). Para poções, você identifica qual magia ela emula e com quantos pontos de mana foi fabricada.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 8
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": [
+    {
+      "type": "acao_completa"
+    }
+  ]
+}

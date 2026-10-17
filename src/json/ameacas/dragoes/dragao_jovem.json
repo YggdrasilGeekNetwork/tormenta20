@@ -1,0 +1,110 @@
+{
+  "id": "dragao_jovem",
+  "name": "Dragão Jovem",
+  "nd": 7,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "grande",
+  "grupo": "dragoes",
+  "pv": 320,
+  "pm": 15,
+  "defesa": 32,
+  "salvaguardas": {
+    "fort": 20,
+    "ref": 9,
+    "von": 12
+  },
+  "reducao_de_dano": 5,
+  "imunidades": [
+    "fogo",
+    "atordoamento",
+    "paralisia",
+    "metamorfose"
+  ],
+  "resistencias": {
+    "magia": 2
+  },
+  "vulnerabilidades": [
+    "frio"
+  ],
+  "iniciativa": 11,
+  "percepcao": 11,
+  "visao": [
+    "percepção às cegas",
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 12,
+    "voo": 18
+  },
+  "atributos": {
+    "for": 7,
+    "des": 2,
+    "con": 6,
+    "int": 2,
+    "sab": 2,
+    "car": 2
+  },
+  "pericias": {
+    "intimidacao": 11
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 25,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "bonus": 14,
+          "tipo": "perfuração"
+        }
+      ],
+      "critico": "19"
+    },
+    {
+      "nome": "Garra",
+      "bonus": 25,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 14,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19",
+      "quantidade": 2
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Sopro",
+      "acao": "padrão",
+      "salvaguarda": "Reflexos",
+      "cd": 25,
+      "efeito_sucesso": "reduz à metade e evita condição",
+      "descricao": "Cone de 9m. Criaturas sofrem 6d12 de fogo e ficam em chamas (Ref CD 25 reduz à metade e evita). Recarga (movimento)."
+    },
+    {
+      "nome": "Metamorfose Dracônica",
+      "acao": "completa",
+      "descricao": "Transforma-se em outras criaturas como a magia Metamorfose, sem limitação de tamanho mínimo."
+    },
+    {
+      "nome": "Varrer",
+      "acao": "livre",
+      "descricao": "Uma vez por rodada, quando reduz o alvo a 0 PV com ataque corpo a corpo, pode fazer um ataque adicional contra outra criatura no alcance."
+    }
+  ],
+  "tesouro": "dobro e 2 peças de couro de dragão (CD 22 para extrair)",
+  "description": "Dragão em crescimento, já enormemente perigoso. Pode se transformar em outras criaturas para se infiltrar em sociedades humanoides."
+}

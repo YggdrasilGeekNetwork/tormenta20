@@ -1,0 +1,13 @@
+{
+  "id": "advocacia",
+  "name": "Advocacia",
+  "origin": "bacharel",
+  "description": "Uma vez por cena, você pode usar Diplomacia para mudar a atitude de uma criatura como uma ação livre.",
+  "effects": {
+    "active_ability": {
+      "frequency": "1 vez por cena",
+      "effect": "usar Diplomacia para mudar atitude",
+      "action_cost": "ação livre"
+    }
+  }
+}

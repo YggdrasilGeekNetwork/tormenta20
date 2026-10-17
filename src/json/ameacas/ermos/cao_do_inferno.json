@@ -1,0 +1,83 @@
+{
+  "id": "cao_do_inferno",
+  "name": "Cão do Inferno",
+  "nd": 3,
+  "tipo": "Espírito",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "ermos",
+  "pv": 95,
+  "defesa": 21,
+  "salvaguardas": {
+    "fort": 11,
+    "ref": 9,
+    "von": 7
+  },
+  "reducao_de_dano": 10,
+  "imunidades": [
+    "fogo"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [
+    "frio"
+  ],
+  "iniciativa": 6,
+  "percepcao": 4,
+  "visao": [
+    "faro",
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 12
+  },
+  "atributos": {
+    "for": 6,
+    "des": 3,
+    "con": 4,
+    "int": -2,
+    "sab": 1,
+    "car": -2
+  },
+  "pericias": {
+    "atletismo": 9
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 14,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "bonus": 6,
+          "tipo": "perfuração"
+        },
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "tipo": "fogo"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Sopro",
+      "acao": "padrão",
+      "salvaguarda": "Reflexos",
+      "cd": 17,
+      "efeito_sucesso": "reduz à metade",
+      "descricao": "Cospe fogo em cone de 6m. Criaturas sofrem 4d6+4 de fogo (Ref CD 17 reduz à metade). Recarga (movimento)."
+    }
+  ],
+  "tesouro": "1d4 doses de essência abissal (CD 18 para extrair)",
+  "description": "Feras de pelo ferrugem e olhos rubros oriundas de planos divinos. Conjuradas por praticantes malignos para guardar e caçar."
+}

@@ -1,0 +1,10 @@
+{
+  "id": "empatia_selvagem_ermitao",
+  "name": "Empatia Selvagem (Ermitão)",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Como a Empatia Selvagem do druida básico (você pode se comunicar com animais por meio de linguagem corporal e vocalizações, podendo usar Adestramento com animais para mudar atitude e pedir favores), mas você também pode se comunicar dessa forma com criaturas vegetais não inteligentes (Int -4 ou -5) e com espíritos.",
+  "requirements": null,
+  "effects": "ver_texto",
+  "costs": null
+}

@@ -5,7 +5,7 @@
   "sub_type": "poder_de_druida",
   "description": "Escolha um de seus companheiros animais. Esse animal recebe um segundo tipo diferente, ganhando os bônus equivalentes. Por exemplo, se você tiver um companheiro guardião, pode adicionar o tipo fortão a ele, tornando-o um guardião fortão que concede +2 na Defesa e +1d8 nas rolagens de dano corpo a corpo.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 8
@@ -13,7 +13,7 @@
     {
       "type": "feature",
       "sub_type": "hard",
-      "id": "companheiro_animal"
+      "id": "companheiro_animal_druida"
     }
   ],
   "effects": "ver_texto",

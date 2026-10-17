@@ -1,0 +1,39 @@
+{
+  "id": "cirurgia_de_campo",
+  "name": "Cirurgia de Campo",
+  "origin": "cirurgiao_barbeiro",
+  "description": "Você pode gastar uma ação completa e 2 PM para remover uma das seguintes condições de uma criatura adjacente: abalado, alquebrado, apavorado, atordoado, cego, confuso, debilitado, enjoado, envenenado, esmorecido, exausto, fascinado, fatigado, fraco, frustrado, lento, ofuscado, paralisado, pasmo e surdo. Contudo, a criatura também perde 1d6 pontos de vida.",
+  "effects": {
+    "active_ability": {
+      "cost": {
+        "pm": 2
+      },
+      "action_cost": "ação completa",
+      "target": "criatura adjacente",
+      "effect": "remove uma condição escolhida",
+      "conditions": [
+        "abalado",
+        "alquebrado",
+        "apavorado",
+        "atordoado",
+        "cego",
+        "confuso",
+        "debilitado",
+        "enjoado",
+        "envenenado",
+        "esmorecido",
+        "exausto",
+        "fascinado",
+        "fatigado",
+        "fraco",
+        "frustrado",
+        "lento",
+        "ofuscado",
+        "paralisado",
+        "pasmo",
+        "surdo"
+      ],
+      "side_effect": "a criatura perde 1d6 pontos de vida"
+    }
+  }
+}

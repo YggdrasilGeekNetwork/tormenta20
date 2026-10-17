@@ -1,0 +1,16 @@
+{
+  "id": "rei",
+  "name": "Rei",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "No 18º nível, seu reino já não precisa mais do apoio de seu antigo lorde — mas vocês ainda são aliados. Você recebe +1 em Carisma e um poder de cavaleiro a sua escolha.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 18
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

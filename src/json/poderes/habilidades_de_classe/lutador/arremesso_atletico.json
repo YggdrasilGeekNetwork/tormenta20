@@ -1,0 +1,16 @@
+{
+  "id": "arremesso_atletico",
+  "name": "Arremesso Atlético",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "No 2º nível, o alcance de seus ataques com armas de arremesso aumenta em um passo (de curto para médio e de médio para longo). Além disso, quando ataca com uma dessas armas, você pode usar o dano da habilidade Briga no lugar do dano básico da arma. A partir do 10º nível, seus ataques com armas de arremesso contam como ataques desarmados para efeito de suas habilidades de lutador.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [2, 10]
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

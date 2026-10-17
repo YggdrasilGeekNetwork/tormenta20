@@ -15,8 +15,8 @@
   "energy": "negativa",
   "preferred_weapon": "Maça",
   "devotees": {
-    "races": ["goblins", "medusas", "minotauros", "sulfure", "trogs"],
-    "classes": ["bárbaros", "caçadores", "druidas", "lutadores"]
+    "races": ["bugbears", "centauros", "ceratops", "elfos-do-mar", "finntrolls", "galokk", "gnolls", "goblins", "harpias", "hobgoblins", "kallyanach", "kobolds", "medusas", "minotauros", "nagah", "nezumi", "ogros", "orcs", "sulfure", "tabrachi", "trogs", "voracis", "yidishan"],
+    "classes": ["bárbaros", "caçadores", "druidas", "lutadores", "treinadores"]
   },
   "granted_powers": [
     "olhar_amedrontador",

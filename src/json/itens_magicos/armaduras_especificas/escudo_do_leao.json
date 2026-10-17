@@ -1,0 +1,21 @@
+{
+  "id": "escudo_do_leao",
+  "name": "Escudo do Leão",
+  "subtipo": "escudo",
+  "base_item": "escudo_pesado",
+  "preco": 50000,
+  "description": "Este escudo pesado defensor é forjado como uma cabeça de leão rugindo. Uma vez por rodada, você pode gastar 2 PM para fazer a cabeça criar vida e morder uma criatura adjacente. A mordida acerta automaticamente e causa 2d6+2 pontos de dano de perfuração.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensor"
+    },
+    {
+      "type": "ativado",
+      "acao": null,
+      "custo_pm": 2,
+      "frequencia": "por_rodada",
+      "efeito": "a cabeça morde uma criatura adjacente; acerto automático; 2d6+2 de perfuração"
+    }
+  ]
+}

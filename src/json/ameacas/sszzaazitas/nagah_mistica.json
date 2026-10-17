@@ -1,0 +1,89 @@
+{
+  "id": "nagah_mistica",
+  "name": "Nagah Mística",
+  "nd": 6,
+  "tipo": "Humanoide",
+  "subtipo": "nagah",
+  "tamanho": "médio",
+  "grupo": "sszzaazitas",
+  "pv": 160,
+  "defesa": 20,
+  "pm": 35,
+  "salvaguardas": {
+    "fort": 6,
+    "ref": 12,
+    "von": 18
+  },
+  "resistencia_a_veneno": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 8,
+  "percepcao": 6,
+  "visao": [
+    "visão na penumbra"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 2,
+    "des": 4,
+    "con": 2,
+    "int": 4,
+    "sab": 3,
+    "car": 3
+  },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 18,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 6,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19"
+    },
+    {
+      "nome": "Cauda",
+      "bonus": 18,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 6,
+          "tipo": "impacto"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Magia Acelerada",
+      "acao": "livre",
+      "custo_pm": 4,
+      "descricao": "Uma vez por rodada, muda a execução de uma magia para livre."
+    },
+    {
+      "nome": "Magias",
+      "descricao": "Lança magias como maga de 8º nível (CD 26)."
+    },
+    {
+      "nome": "Fraquezas Ofídias",
+      "descricao": "Sofre 1 ponto de dano adicional por dado de dano de frio e –5 em testes contra Músicas de Bardo."
+    }
+  ],
+  "tesouro": "padrão",
+  "description": "Nagah fêmea líder, arcanista ou cléroga sszzaazita de alto poder. Exerce liderança nos grupos sszzaazitas e lança magias com velocidade sobrenatural. Entrada simplificada do Tormenta20 (EJA); para a versão expandida do livro Ameaças de Arton, veja o id \"nagah_mistica_de_arton\"."
+}

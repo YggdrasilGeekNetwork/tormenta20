@@ -1,0 +1,37 @@
+{
+  "id": "amigo_divino",
+  "name": "Amigo Divino",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Seu melhor amigo vive em um mundo divino, mas você pode gastar uma ação de movimento e 2 PM para invocá-lo a Arton. Ele surge em um espaço desocupado em alcance curto e permanece até o fim da cena ou até você enviá-lo de volta (uma ação livre). Enquanto estiver no mundo divino e com menos da metade de seus PV, o melhor amigo tem Cura Acelerada 10.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "summon",
+      "target": "melhor_amigo",
+      "range": "curto",
+      "duration": "cena"
+    },
+    {
+      "type": "healing_over_time",
+      "value": 10,
+      "condition": "menos_da_metade_dos_pv_no_mundo_divino"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    },
+    {
+      "value": 1,
+      "type": "acao_de_movimento"
+    }
+  ]
+}

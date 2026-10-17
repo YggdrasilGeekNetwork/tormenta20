@@ -1,0 +1,26 @@
+{
+  "id": "tanga_de_peles",
+  "name": "Tanga de Peles",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_barbaro",
+  "description": "Você não recebe proficiência com armaduras leves. Entretanto, se não estiver usando armadura, você soma sua Constituição na Defesa. Além disso, no 3º nível, e a cada quatro níveis seguintes, você recebe +1 na Defesa (3º: +1, 7º: +2, 11º: +3, 15º: +4, 19º: +5).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [1, 3, 7, 11, 15, 19]
+    },
+    {
+      "type": "armor_type",
+      "sub_type": "soft",
+      "armor": "sem_armadura"
+    }
+  ],
+  "effects": [
+    {
+      "type": "add_defense_attr",
+      "attr": "con"
+    }
+  ],
+  "costs": null
+}

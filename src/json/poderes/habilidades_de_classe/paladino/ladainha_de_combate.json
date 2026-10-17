@@ -1,0 +1,25 @@
+{
+  "id": "ladainha_de_combate",
+  "name": "Ladainha de Combate",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Você pode gastar uma ação padrão e 2 PM para gerar uma aura de 9m de raio com duração sustentada. Você e os aliados dentro da aura recebem +1 em testes de ataque, rolagens de dano e na Defesa. A cada quatro níveis, você pode gastar +2 PM para aumentar esses bônus em +1. Sua ladainha conta como Aura Sagrada (Tormenta20, p. 84) para pré-requisitos e efeitos de poderes de paladino. No 5º nível, você e os aliados dentro da aura causam +1d8 pontos de dano de luz com ataques contra devotos de deuses que canalizam apenas energia negativa e criaturas malignas (a critério do mestre). No 9º nível, suas armas e as dos aliados dentro da aura recebem o encanto veloz.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [
+        1,
+        5,
+        9
+      ]
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "id": "espada_sortuda",
+  "name": "Espada Sortuda",
+  "base_weapon": "espada_curta",
+  "preco": 110000,
+  "description": "Esta espada curta formidável é cravejada de brilhantes. Você recebe +2 nos testes de resistência e pode gastar 3 PM para rolar novamente um teste recém realizado (apenas uma vez por teste). Se possuir o poder Sortudo, em vez disso seu custo diminui em –1 PM.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "bonus_teste_resistencia",
+      "value": 2
+    },
+    {
+      "type": "ativado",
+      "acao": null,
+      "custo_pm": 3,
+      "frequencia": "uma_vez_por_teste",
+      "efeito": "rola novamente um teste recém realizado",
+      "se_possui_poder": {
+        "poder": "Sortudo",
+        "efeito": "custo diminui para 2 PM"
+      }
+    }
+  ]
+}

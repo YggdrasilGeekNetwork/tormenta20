@@ -3,8 +3,14 @@
   "name": "Alado",
   "type": "encantamento",
   "categoria": "armadura",
-  "efeito": {
-    "descricao_curta": "Gaste 2 PM: asas emergem, deslocamento de voo 12m (sustentado)"
-  },
-  "description": "Você pode gastar 2 PM para fazer asas emergirem de suas costas e receber deslocamento de voo 12m com duração sustentada."
+  "description": "Você pode gastar 2 PM para fazer asas emergirem de suas costas e receber deslocamento de voo 12m com duração sustentada.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": null,
+      "custo_pm": 2,
+      "frequencia": "sustentada",
+      "efeito": "asas emergem das costas; concede deslocamento de voo 12m"
+    }
+  ]
 }

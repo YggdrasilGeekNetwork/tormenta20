@@ -5,7 +5,7 @@
   "sub_type": "poder_de_druida",
   "description": "Escolha um de seus companheiros animais. Esse animal passa a dobrar seus bônus concedidos. No caso de companheiros que concedem dados de bônus, o número de dados aumenta em 1.",
   "requirements": [
-     {
+    {
       "type": "character_lvl",
       "sub_type": "hard",
       "value": 18
@@ -13,13 +13,16 @@
     {
       "type": "feature",
       "sub_type": "hard",
-      "id": "companheiro_animal"
+      "id": "companheiro_animal_druida"
     }
   ],
   "effects": [
     {
       "type": "bonus_improvement",
-      "amount": ["dobro", "mais_1_dado"]
+      "amount": [
+        "dobro",
+        "mais_1_dado"
+      ]
     }
   ],
   "costs": null

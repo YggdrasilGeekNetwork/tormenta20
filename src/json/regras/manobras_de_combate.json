@@ -1,0 +1,64 @@
+{
+  "id": "manobras_de_combate",
+  "name": "Manobras de Combate",
+  "description": "Uma manobra é um ataque corpo a corpo para fazer algo diferente de causar dano. Não é possível fazer manobras com ataques à distância. Faça um teste de manobra (teste de ataque corpo a corpo) oposto com a criatura. Em empate, o personagem com o maior bônus vence; se iguais, novo teste. Em geral, qualquer arma corpo a corpo pode ser usada para manobras.",
+  "manobras": [
+    {
+      "id": "agarrar",
+      "name": "Agarrar",
+      "description": "Segura uma criatura. Apenas com ataque desarmado ou arma natural. Uma criatura agarrada fica desprevenida e imóvel, sofre –2 nos testes de ataque e só pode atacar com armas leves. Pode se soltar com uma ação padrão vencendo um teste de manobra oposto. Enquanto agarra, você fica com aquela mão/arma natural ocupada e move-se à metade do deslocamento, arrastando a criatura. Pode soltá-la com ação livre, ou substituir um ataque por novo teste de agarrar para causar dano de impacto (como ataque desarmado). Ataques à distância contra um alvo envolvido em agarrar têm 50% de chance de mirar no alvo errado."
+    },
+    {
+      "id": "derrubar",
+      "name": "Derrubar",
+      "description": "Deixa o alvo caído. A queda normalmente não causa dano. Se vencer por 5 pontos ou mais, também empurra o oponente 1 quadrado em direção a sua escolha (e se isso o jogar além de um parapeito, Reflexos CD 20 para se agarrar)."
+    },
+    {
+      "id": "desarmar",
+      "name": "Desarmar",
+      "description": "Derruba um item que a criatura está segurando. Normalmente o item cai no mesmo lugar em que o alvo está. Se vencer por 5 pontos ou mais, também empurra o item 1 quadrado em direção a sua escolha."
+    },
+    {
+      "id": "empurrar",
+      "name": "Empurrar",
+      "description": "Empurra a criatura 1,5m. Para cada 5 pontos de diferença entre os testes, empurra mais 1,5m. Pode gastar uma ação de movimento para avançar junto com a criatura (até o limite do deslocamento)."
+    },
+    {
+      "id": "quebrar",
+      "name": "Quebrar",
+      "description": "Atinge um item que a criatura está segurando. Veja a seção 'Quebrando Objetos'."
+    }
+  ],
+  "variantes": [
+    {
+      "id": "escalando_criaturas",
+      "name": "Escalando Criaturas",
+      "livro": "herois_de_arton",
+      "description": "Com esta regra, um combatente audacioso pode escalar criaturas gigantes rumo à cabeça delas (ou outro ponto vulnerável, a critério do mestre). A criatura precisa ser Grande ou maior e pelo menos duas categorias de tamanho maiores que o personagem. Para escalar, é preciso estar adjacente à criatura, gastar uma ação de movimento e fazer um teste de Acrobacia ou Atletismo oposto pelo Reflexos da criatura (se possuir deslocamento de escalada, recebe +5 nesse teste). Se vencer, sobe rumo à cabeça da criatura; se perder, não consegue subir; se perder por 5 ou mais, escorrega e cai, sofrendo 2d6 pontos de dano de impacto por avanço feito e ficando caído e adjacente à criatura. Uma vez na cabeça, o personagem recebe camuflagem contra a criatura, ela conta como desprevenida contra ele e seus ataques contra ela recebem +2 na margem de ameaça e +1 no multiplicador de crítico. No início de cada turno na cabeça da criatura, deve fazer um novo teste contra ela (como ação livre); se perder por 5 ou mais, é derrubado.",
+      "requisitos": {
+        "tamanho_minimo_da_criatura": "Grande",
+        "diferenca_de_tamanho_minima": "duas categorias maior que o personagem"
+      },
+      "teste": {
+        "acao": "movimento",
+        "perícia": "Acrobacia ou Atletismo, oposto ao Reflexos da criatura",
+        "bonus_com_deslocamento_de_escalada": 5
+      },
+      "sucessos_necessarios_por_tamanho": [
+        { "tamanho": "Grande", "sucessos": 1 },
+        { "tamanho": "Enorme", "sucessos": 2 },
+        { "tamanho": "Colossal", "sucessos": 4 }
+      ],
+      "falha": {
+        "normal": "não consegue subir",
+        "por_5_ou_mais": "escorrega e cai, sofrendo 2d6 pontos de dano de impacto por avanço feito e ficando caído e adjacente à criatura"
+      },
+      "beneficios_na_cabeca": [
+        "Camuflagem contra a criatura",
+        "A criatura conta como desprevenida contra o personagem",
+        "+2 na margem de ameaça e +1 no multiplicador de crítico em ataques contra a criatura"
+      ],
+      "manutencao": "No início de cada turno na cabeça da criatura, faça um novo teste (como ação livre, mesmas regras da escalada); se perder por 5 ou mais, a criatura consegue derrubá-lo."
+    }
+  ]
+}

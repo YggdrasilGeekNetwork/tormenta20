@@ -1,0 +1,33 @@
+{
+  "id": "punhal_sszzaazita",
+  "name": "Punhal Sszzaazita",
+  "base_weapon": "adaga",
+  "preco": 100000,
+  "description": "Esta adaga assassina formidável venenosa tem lâmina negra e ondulada. Você pode gastar uma ação padrão e 2 PM para transformar o punhal sszzaazita em um objeto inofensivo de tamanho similar (como uma colher ou pena). Nenhuma magia é capaz de detectar essa transformação. Transformar o punhal em arma é uma ação livre.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "enchantment",
+      "name": "assassina"
+    },
+    {
+      "type": "enchantment",
+      "name": "venenosa"
+    },
+    {
+      "type": "ativado",
+      "acao": "padrão",
+      "custo_pm": 2,
+      "efeito": "transforma-se em objeto inofensivo de tamanho similar; indetectável por magia"
+    },
+    {
+      "type": "ativado",
+      "acao": "livre",
+      "custo_pm": 0,
+      "efeito": "volta a ser arma"
+    }
+  ]
+}

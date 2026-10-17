@@ -1,0 +1,26 @@
+{
+  "id": "manto_da_noite",
+  "name": "Manto da Noite",
+  "subtipo": "armadura",
+  "base_item": "couro_batido_ajustado",
+  "preco": 45000,
+  "description": "Este couro batido ajustado defensor sombrio é negro com partes metálicas foscas. Quando usa esta armadura, você não sofre penalidade em testes de Furtividade por se mover em seu deslocamento normal e a penalidade que você sofre em testes de Furtividade por atacar diminui para –10.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensor"
+    },
+    {
+      "type": "enchantment",
+      "name": "sombrio"
+    },
+    {
+      "type": "passivo",
+      "efeito": "sem penalidade em Furtividade por se mover no deslocamento normal"
+    },
+    {
+      "type": "passivo",
+      "efeito": "penalidade de Furtividade por atacar reduzida para –10"
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "id": "prototipo",
+  "name": "Protótipo",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "Você começa o jogo com um item superior com uma modificação ou 10 itens alquímicos, com preço total de até T$ 500. Veja o Capítulo 3: Equipamento para a lista de itens.",
+  "requirements": "ver_texto",
+  "effects": "ver_texto",
+  "costs": null
+}

@@ -6,8 +6,11 @@
   "roll_min": 83,
   "roll_max": 87,
   "description": "Como braceletes de bronze, mas fornece +8 na Defesa. Estes braceletes geram um campo de força invisível, porém tangível, cumulativo com outros itens mágicos, mas não com armaduras.",
-  "efeito": {
-    "bonus_defesa": 8,
-    "bonus_defesa_nao_acumula_armadura": true
-  }
+  "effects": [
+    {
+      "type": "bonus_defesa",
+      "value": 8,
+      "acumula_com_armadura": false
+    }
+  ]
 }

@@ -15,7 +15,7 @@
   "preferred_weapon": null,
   "preferred_weapon_note": "Servos desta deusa não podem lançar a magia Arma Espiritual e similares",
   "devotees": {
-    "races": ["dahllan", "qareen"],
+    "races": ["ceratops", "dahllan", "eiradaan", "qareen", "kappa", "kobolds", "pteros", "velocis"],
     "classes": ["nobres", "paladinos"]
   },
   "granted_powers": [

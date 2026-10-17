@@ -1,0 +1,24 @@
+{
+  "id": "trabalho_em_equipe",
+  "name": "Trabalho em Equipe",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Uma vez por rodada, quando você faz uma ação de movimento, seus melhores amigos recebem uma ação de movimento. Pré-requisito: 5º nível de treinador.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_action",
+      "action_type": "acao_de_movimento",
+      "target": "melhores_amigos",
+      "trigger": "treinador_faz_acao_de_movimento",
+      "frequency": "1_por_rodada"
+    }
+  ],
+  "costs": null
+}

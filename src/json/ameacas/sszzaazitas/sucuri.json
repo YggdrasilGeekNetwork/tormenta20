@@ -1,0 +1,74 @@
+{
+  "id": "sucuri",
+  "name": "Sucuri",
+  "nd": 3,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "sszzaazitas",
+  "pv": 88,
+  "defesa": 19,
+  "salvaguardas": {
+    "fort": 9,
+    "ref": 15,
+    "von": 3
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 4,
+  "visao": [
+    "faro",
+    "visão na penumbra"
+  ],
+  "deslocamento": {
+    "terrestre": 6,
+    "escalar": 9,
+    "natacao": 9
+  },
+  "atributos": {
+    "for": 6,
+    "des": 2,
+    "con": 4,
+    "int": -5,
+    "sab": 1,
+    "car": -4
+  },
+  "pericias": {
+    "furtividade": 8
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 18,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "bonus": 14,
+          "tipo": "perfuração"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Agarrar Aprimorado",
+      "acao": "livre",
+      "descricao": "Se acerta mordida, pode usar agarrar (teste +20)."
+    },
+    {
+      "nome": "Constrição",
+      "acao": "livre",
+      "descricao": "No início de cada turno, causa 4d6+14 de impacto na criatura agarrada."
+    }
+  ],
+  "tesouro": "1 dose de peçonha comum (CD 15 para extrair)",
+  "description": "Enorme serpente constritora capaz de engolir humanos. Algumas são capturadas pelos sszzaazitas como guardiãs."
+}

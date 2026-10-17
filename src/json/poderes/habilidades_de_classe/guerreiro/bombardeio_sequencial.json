@@ -1,0 +1,21 @@
+{
+  "id": "bombardeio_sequencial",
+  "name": "Bombardeio Sequencial",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "No 2º nível, você pode usar sua Sequência Especial ao usar itens alquímicos ou poções (nesse caso, aplica o bônus de ataque acumulado à CD para resistir ao item).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "sequencia_especial"
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

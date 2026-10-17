@@ -1,0 +1,31 @@
+{
+  "id": "desafios_de_buscas",
+  "name": "Desafios de Buscas",
+  "description": "Tabela 6-6 (T20 EJA, Cap. 6, p.279). Buscas são testes estendidos usados para resolver missões narrativamente, sem detalhar cada cena. Role 2d12 (ou escolha) para determinar qual perícia é exigida em cada desafio da busca. O número de sucessos obtidos determina o resultado — veja 'consequencias_de_buscas'.",
+  "headers": ["2d12", "Perícia", "Exemplo"],
+  "rows": [
+    { "2d12": 2, "Perícia": "Misticismo", "Exemplo": "Decifrar uma runa" },
+    { "2d12": 3, "Perícia": "Adestramento", "Exemplo": "Acalmar uma fera" },
+    { "2d12": 4, "Perícia": "Conhecimento", "Exemplo": "Traduzir um texto antigo" },
+    { "2d12": 5, "Perícia": "Enganação", "Exemplo": "Participar de uma intriga" },
+    { "2d12": 6, "Perícia": "Cura", "Exemplo": "Tratar um veneno" },
+    { "2d12": 7, "Perícia": "Iniciativa", "Exemplo": "Perseguir um bandido" },
+    { "2d12": 8, "Perícia": "Intimidação", "Exemplo": "Negociar com um criminoso" },
+    { "2d12": 9, "Perícia": "Investigação", "Exemplo": "Descobrir uma localização" },
+    { "2d12": 10, "Perícia": "Reflexos", "Exemplo": "Evitar um desmoronamento" },
+    { "2d12": 11, "Perícia": "Atletismo", "Exemplo": "Escalar um penhasco" },
+    { "2d12": 12, "Perícia": "Percepção", "Exemplo": "Evitar uma emboscada" },
+    { "2d12": 13, "Perícia": "Sobrevivência", "Exemplo": "Atravessar os ermos" },
+    { "2d12": 14, "Perícia": "Fortitude", "Exemplo": "Tolerar clima ruim" },
+    { "2d12": 15, "Perícia": "Diplomacia", "Exemplo": "Negociar com um mercador" },
+    { "2d12": 16, "Perícia": "Furtividade", "Exemplo": "Infiltrar-se num lugar" },
+    { "2d12": 17, "Perícia": "Acrobacia", "Exemplo": "Atravessar uma ravina" },
+    { "2d12": 18, "Perícia": "Intuição", "Exemplo": "Elucidar um enigma" },
+    { "2d12": 19, "Perícia": "Vontade", "Exemplo": "Resistir a uma maldição" },
+    { "2d12": 20, "Perícia": "Luta", "Exemplo": "Defender-se de um monstro" },
+    { "2d12": 21, "Perícia": "Jogatina", "Exemplo": "Apostar com as fadas" },
+    { "2d12": 22, "Perícia": "Nobreza", "Exemplo": "Participar de um baile" },
+    { "2d12": 23, "Perícia": "Religião", "Exemplo": "Entender um presságio" },
+    { "2d12": 24, "Perícia": "Guerra", "Exemplo": "Atravessar um campo de batalha" }
+  ]
+}

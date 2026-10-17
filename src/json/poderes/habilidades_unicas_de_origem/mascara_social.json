@@ -1,0 +1,16 @@
+{
+  "id": "mascara_social",
+  "name": "Máscara Social",
+  "origin": "espiao",
+  "description": "Escolha uma de suas perícias (exceto Luta ou Pontaria). Você pode usar Carisma como atributo-chave dessa perícia (em vez do atributo original).",
+  "effects": {
+    "skill_key_attribute_override": {
+      "skill_choice": true,
+      "excluded_skills": [
+        "Luta",
+        "Pontaria"
+      ],
+      "new_attribute": "Carisma"
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "vigilante_das_estradas",
+  "name": "Vigilante das Estradas",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "A partir do 5º nível, você expande suas responsabilidades para além do castelo. Você recebe a habilidade Montaria e se torna treinado em Percepção.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "receive_feature",
+      "feature": "montaria"
+    },
+    {
+      "type": "skill_training",
+      "skill": "percepcao"
+    }
+  ],
+  "costs": null
+}

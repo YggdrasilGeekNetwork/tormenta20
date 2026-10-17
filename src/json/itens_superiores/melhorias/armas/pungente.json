@@ -3,9 +3,14 @@
   "name": "Pungente",
   "type": "melhoria",
   "categoria": "arma",
-  "efeito": {
-    "bonus_ataque": 2
-  },
-  "prerequisitos": ["certeira"],
-  "description": "Temperada diversas vezes para adquirir o fio ou o equilíbrio perfeito, a arma fornece +2 nos testes de ataque."
+  "prerequisitos": [
+    "certeira"
+  ],
+  "description": "Temperada diversas vezes para adquirir o fio ou o equilíbrio perfeito, a arma fornece +2 nos testes de ataque.",
+  "effects": [
+    {
+      "type": "bonus_ataque",
+      "value": 2
+    }
+  ]
 }

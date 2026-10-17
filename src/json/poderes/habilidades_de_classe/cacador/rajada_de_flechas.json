@@ -1,0 +1,21 @@
+{
+  "id": "rajada_de_flechas",
+  "name": "Rajada de Flechas",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "A partir do 10° nível, você pode gastar uma ação completa e 2 PM para alvejar uma área com seus disparos. Escolha um ponto no alcance de sua arma, então faça um ataque à distância e compare-o com a Defesa de cada inimigo num raio de 3m dele. Então faça uma rolagem de dano, com um bônus cumulativo de +2 para cada acerto, e aplique-a em cada inimigo atingido. Você gasta apenas uma munição, independente de quantos inimigos atacou.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 10
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

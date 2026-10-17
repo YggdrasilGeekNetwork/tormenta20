@@ -1,0 +1,18 @@
+{
+  "id": "golpe_do_ferreiro",
+  "name": "Golpe do Ferreiro",
+  "origin": "ferreiro_militar",
+  "description": "Você recebe +2 em rolagens de dano com martelos e marretas de qualquer tipo.",
+  "effects": {
+    "damage_bonus": [
+      {
+        "weapon": "martelos",
+        "value": 2
+      },
+      {
+        "weapon": "marretas",
+        "value": 2
+      }
+    ]
+  }
+}

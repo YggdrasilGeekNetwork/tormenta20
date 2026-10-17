@@ -1,0 +1,12 @@
+{
+  "id": "cria_das_aguas",
+  "name": "Cria das Águas",
+  "type": "habilidade_de_raca",
+  "race": "elfo_do_mar",
+  "description": "Você possui deslocamento de natação igual a seu deslocamento em terra e visão na penumbra. Quando dentro d'água, você recebe percepção às cegas e +2 na Defesa, em Furtividade e em Sobrevivência.",
+  "effects": {
+    "deslocamento_natacao": "igual_ao_terrestre",
+    "visao": "penumbra",
+    "underwater_bonus": { "defesa": 2, "pericias": { "furtividade": 2, "sobrevivencia": 2 }, "percepcao_as_cegas": true }
+  }
+}

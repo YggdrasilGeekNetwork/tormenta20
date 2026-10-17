@@ -1,0 +1,28 @@
+{
+  "id": "arquiduque",
+  "name": "Arquiduque",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "No 15º nível você atinge o mais alto grau da nobreza, possuindo uma aura que o distingue das pessoas normais e o torna quase intocável. Uma vez por rodada, quando uma criatura inteligente lhe causar dano, você pode gastar 5 PM para reduzir esse dano a 0.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 15
+    }
+  ],
+  "effects": [
+    {
+      "type": "reduce_damage",
+      "value": "total",
+      "cost_pm": 5,
+      "frequency": "1_por_rodada"
+    }
+  ],
+  "costs": [
+    {
+      "value": 5,
+      "type": "PM"
+    }
+  ]
+}

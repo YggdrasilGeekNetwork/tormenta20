@@ -1,0 +1,28 @@
+{
+  "id": "direcionar",
+  "name": "Direcionar",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Se o seu melhor amigo estiver em alcance curto e fizer um teste de perícia, você pode gastar 2 PM para somar seu Carisma no teste dele.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": "carisma_do_treinador",
+      "target": "melhor_amigo",
+      "range": "curto"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

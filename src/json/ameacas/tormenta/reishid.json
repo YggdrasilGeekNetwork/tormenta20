@@ -1,0 +1,146 @@
+{
+  "id": "reishid",
+  "name": "Reishid",
+  "nd": 8,
+  "tipo": "Monstro",
+  "subtipo": "lefeu",
+  "tamanho": "médio",
+  "grupo": "tormenta",
+  "pv": 295,
+  "defesa": 37,
+  "salvaguardas": {
+    "fort": 19,
+    "ref": 21,
+    "von": 10
+  },
+  "reducao_de_dano": 10,
+  "imunidades": [
+    "acertos críticos",
+    "ácido",
+    "cansaço",
+    "eletricidade",
+    "fogo",
+    "frio",
+    "luz",
+    "paralisia",
+    "metabolismo",
+    "metamorfose",
+    "trevas",
+    "veneno"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 17,
+  "percepcao": 19,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9,
+    "escalar": 9,
+    "voo": 15
+  },
+  "atributos": {
+    "for": 4,
+    "des": 7,
+    "con": 4,
+    "int": 4,
+    "sab": 4,
+    "car": 1
+  },
+  "pericias": {
+    "furtividade": 20
+  },
+  "ataques": [
+    {
+      "nome": "Adaga da Tormenta",
+      "bonus": 30,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 4
+            }
+          ],
+          "bonus": 18,
+          "tipo": "perfuração"
+        },
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "tipo": "trevas"
+        }
+      ],
+      "critico": "19"
+    },
+    {
+      "nome": "Garra",
+      "bonus": 30,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 18,
+          "tipo": "corte"
+        }
+      ]
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 30,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 18,
+          "tipo": "perfuração"
+        }
+      ],
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Ataque em Movimento",
+      "descricao": "Pode se mover antes e depois da ação agredir, desde que a distância total não exceda seu deslocamento."
+    },
+    {
+      "nome": "Ataque Reflexo",
+      "acao": "reação",
+      "descricao": "Uma vez por rodada, pode atacar um alvo adjacente desprevenido ou que se mova para fora do seu alcance."
+    },
+    {
+      "nome": "Insanidade da Tormenta",
+      "salvaguarda": "Vontade",
+      "cd": 26,
+      "efeito_sucesso": "evita",
+      "descricao": "Lefeu mais poderoso; criaturas que os vejam fazem Von CD 26 ou perdem 2d6 PM. Confusa se chegar a 0 PM. Uma vez por dia."
+    },
+    {
+      "nome": "Sombra Rubra",
+      "descricao": "Em testes de Iniciativa ou Furtividade, rola dois dados e usa o melhor resultado."
+    },
+    {
+      "nome": "Veneno",
+      "salvaguarda": "Fortitude",
+      "cd": 26,
+      "efeito_sucesso": "reduz para lento por 1d6 rodadas",
+      "descricao": "Paralisia por 1d6 horas (Fort CD 26 reduz para lento por 1d6 rodadas)."
+    }
+  ],
+  "tesouro": "padrão mais adaga da Tormenta",
+  "description": "Mestre da espionagem e assassinato. Dobra asas de barata como manto para se misturar em cidades. Realiza rituais profanos para Aharadak."
+}

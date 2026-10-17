@@ -3,8 +3,15 @@
   "name": "Assustador",
   "type": "encantamento",
   "categoria": "armadura",
-  "efeito": {
-    "descricao_curta": "2 PM: onda de medo em alcance curto (Vontade CD Car evita, abalado até fim da cena)"
-  },
-  "description": "Você pode gastar uma ação de movimento e 2 PM para gerar uma onda de medo. Inimigos em alcance curto devem passar num teste de Vontade (CD Car) ou ficarão abalados até o fim da cena. Um item assustador possui manchas de sangue, ossos pendurados e outras decorações horripilantes."
+  "description": "Você pode gastar uma ação de movimento e 2 PM para gerar uma onda de medo. Inimigos em alcance curto devem passar num teste de Vontade (CD Car) ou ficarão abalados até o fim da cena. Um item assustador possui manchas de sangue, ossos pendurados e outras decorações horripilantes.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 2,
+      "frequencia": "ilimitado",
+      "resistencia": "Vontade CD Car evita",
+      "efeito": "onda de medo em alcance curto; falha deixa inimigos abalados até o fim da cena"
+    }
+  ]
 }

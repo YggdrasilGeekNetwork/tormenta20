@@ -13,8 +13,8 @@
   "energy": "positiva",
   "preferred_weapon": "Bordão",
   "devotees": {
-    "races": ["dahllan", "elfos", "sílfides"],
-    "classes": ["bárbaros", "caçadores", "druidas"]
+    "races": ["centauros", "ceratops", "dahllan", "duendes", "eiradaan", "elfos", "elfos-do-mar", "galokk", "gnolls", "nagah", "ogros", "orcs", "pteros", "sátiros", "sílfides", "tabrachi", "velocis", "voracis"],
+    "classes": ["bárbaros", "caçadores", "druidas", "treinadores"]
   },
   "granted_powers": [
     "compreender_os_ermos",

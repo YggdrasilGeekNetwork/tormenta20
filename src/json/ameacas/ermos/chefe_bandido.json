@@ -1,0 +1,86 @@
+{
+  "id": "chefe_bandido",
+  "name": "Chefe Bandido",
+  "nd": 1,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "médio",
+  "grupo": "ermos",
+  "pv": 30,
+  "defesa": 16,
+  "salvaguardas": {
+    "fort": 5,
+    "ref": 8,
+    "von": 3
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 2,
+  "visao": [],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 3,
+    "des": 2,
+    "con": 2,
+    "int": 0,
+    "sab": 0,
+    "car": 1
+  },
+  "pericias": {
+    "furtividade": 7,
+    "intimidacao": 6
+  },
+  "ataques": [
+    {
+      "nome": "Espada curta",
+      "bonus": 9,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 5,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19"
+    },
+    {
+      "nome": "Adaga (à distância)",
+      "bonus": 7,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 4
+            }
+          ],
+          "bonus": 3,
+          "tipo": "perfuração"
+        }
+      ],
+      "critico": "19"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Ataque Furtivo",
+      "descricao": "Uma vez por rodada, causa +2d6 com ataques corpo a corpo ou à distância em alcance curto contra alvos desprevenidos ou flanqueados."
+    }
+  ],
+  "equipamento": [
+    "Adaga",
+    "espada curta"
+  ],
+  "tesouro": "padrão",
+  "description": "Líder experiente de um bando de bandidos. Usa táticas furtivas e ataque surpresa."
+}

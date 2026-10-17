@@ -1,0 +1,21 @@
+{
+  "id": "loriga_do_centuriao",
+  "name": "Loriga do Centurião",
+  "subtipo": "armadura",
+  "base_item": "loriga_segmentada",
+  "preco": 45000,
+  "description": "Esta loriga segmentada defensora é dourada com detalhes em vermelho e possui o símbolo de Tauron gravado no peitoral. Se estiver liderando uma ou mais criaturas (usando o poder Comandar ou similar), seus ataques corpo a corpo causam +2d6 de fogo.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensora"
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "liderando uma ou mais criaturas (poder Comandar ou similar)",
+      "dano_extra": "2d6",
+      "tipo_dano": "fogo",
+      "aplica_a": "ataques corpo a corpo"
+    }
+  ]
+}

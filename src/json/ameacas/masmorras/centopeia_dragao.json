@@ -1,0 +1,86 @@
+{
+  "id": "centopeia_dragao",
+  "name": "Centopeia-Dragão",
+  "nd": 7,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "masmorras",
+  "pv": 275,
+  "defesa": 27,
+  "salvaguardas": {
+    "fort": 20,
+    "ref": 14,
+    "von": 9
+  },
+  "reducao_de_dano": null,
+  "imunidades": [
+    "condição caído"
+  ],
+  "resistencias": {
+    "fogo": 10
+  },
+  "vulnerabilidades": [],
+  "iniciativa": 10,
+  "percepcao": 8,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 15,
+    "escavar": 6
+  },
+  "atributos": {
+    "for": 11,
+    "des": 3,
+    "con": 9,
+    "int": -4,
+    "sab": 1,
+    "car": 0
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 24,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 8
+            }
+          ],
+          "bonus": 18,
+          "tipo": "perfuração"
+        },
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "tipo": "fogo"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Agarrar Aprimorado",
+      "acao": "livre",
+      "descricao": "Quando acerta mordida, pode usar agarrar (teste +29)."
+    },
+    {
+      "nome": "Aura de Calor",
+      "descricao": "No início de cada turno, criaturas em alcance curto sofrem 4d6+9 de fogo."
+    },
+    {
+      "nome": "Engolir",
+      "acao": "padrão",
+      "descricao": "Se começar o turno agarrando criatura Média ou menor, pode engoli-la (teste de agarrar). Engolida: sofre 2d6+18 impacto + 4d6+9 fogo por turno da centopeia. Pode escapar causando 20 de dano ao estômago (Defesa 10)."
+    }
+  ],
+  "tesouro": "2d4 doses de essência abissal (CD 22 para extrair)",
+  "description": "Monstro incandescente de dez metros que devora tudo em seu caminho. Perigosíssimo em masmorras, onde preenche túneis com sua bocarra."
+}

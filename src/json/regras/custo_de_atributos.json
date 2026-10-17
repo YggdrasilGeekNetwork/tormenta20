@@ -1,0 +1,15 @@
+{
+  "id": "custo_de_atributos",
+  "name": "Custo de Atributos",
+  "description": "Tabela 1-1 (T20 EJA, Cap. 1, p.17). Há duas formas de definir atributos na criação de personagem: 'Pontos' (começa com todos os atributos em 0 e recebe 10 pontos para gastar, usando 'custo_em_pontos'; também pode reduzir um atributo para -1 para receber 1 ponto adicional) ou 'Rolagens' (role 4d6, descarte o menor, some os outros três; repita 6 vezes; converta cada total usando 'faixa_rolagem_3d6'; se a soma dos seis atributos for menor que 6, role novamente o menor valor até somar 6 ou mais).",
+  "niveis": [
+    { "valor_atributo": -2, "custo_em_pontos": null, "faixa_rolagem_3d6": "7 ou menos" },
+    { "valor_atributo": -1, "custo_em_pontos": -1, "faixa_rolagem_3d6": "8-9" },
+    { "valor_atributo": 0, "custo_em_pontos": 0, "faixa_rolagem_3d6": "10-11" },
+    { "valor_atributo": 1, "custo_em_pontos": 1, "faixa_rolagem_3d6": "12-13" },
+    { "valor_atributo": 2, "custo_em_pontos": 2, "faixa_rolagem_3d6": "14-15" },
+    { "valor_atributo": 3, "custo_em_pontos": 4, "faixa_rolagem_3d6": "16-17" },
+    { "valor_atributo": 4, "custo_em_pontos": 7, "faixa_rolagem_3d6": "18" }
+  ],
+  "atributos_minimos": "Um valor menor que -5 em um atributo gera um efeito: For ou Des (paralisado), Con (morre), Int ou Sab (inconsciente), Car (torna-se um NPC). Isso ignora imunidades."
+}

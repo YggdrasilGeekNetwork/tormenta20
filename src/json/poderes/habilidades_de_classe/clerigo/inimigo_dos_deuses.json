@@ -1,0 +1,16 @@
+{
+  "id": "inimigo_dos_deuses",
+  "name": "Inimigo dos Deuses",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "Por roubar o poder de todos os deuses, o usurpador não é aceito por nenhum. Você não pode ter nenhuma devoção.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 1
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

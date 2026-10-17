@@ -1,0 +1,26 @@
+{
+  "id": "mestre_do_disparo",
+  "name": "Mestre do Disparo",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "No 20° nível, você pode usar sua Marca da Presa como uma ação livre. Além disso, uma vez por rodada, quando faz um ataque com um arco ou besta contra um alvo de sua Marca da Presa, você pode fazer um ataque adicional contra ele.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 20
+    }
+  ],
+  "effects": [
+    {
+      "type": "change_action_type",
+      "ability": "marca_da_presa",
+      "action": "livre"
+    },
+    {
+      "type": "extra_attack",
+      "condition": "alvo_marcado"
+    }
+  ],
+  "costs": null
+}

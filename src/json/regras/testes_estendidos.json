@@ -1,0 +1,10 @@
+{
+  "id": "testes_estendidos",
+  "name": "Testes Estendidos",
+  "description": "Tabela 5-2 (T20 EJA, Cap. 5, p.223). Usada quando uma tarefa exige múltiplos sucessos ao longo do tempo. O mestre determina a complexidade da tarefa e o número de sucessos exigidos; cada rodada (ou outro intervalo de tempo definido) o personagem faz um teste contra a CD apropriada, acumulando sucessos até atingir o total exigido. A maioria dos testes estendidos pode ser interrompida sem problemas, mas o mestre pode determinar que uma interrupção conte como falha ou falha completa. Normalmente podem-se fazer novas tentativas.",
+  "niveis": [
+    { "sucessos_exigidos": 3, "complexidade": "Baixa", "exemplo": "Escalar um paredão (Atletismo)" },
+    { "sucessos_exigidos": 5, "complexidade": "Média", "exemplo": "Atravessar o Pântano dos Juncos (Sobrevivência)" },
+    { "sucessos_exigidos": 7, "complexidade": "Alta", "exemplo": "Compreender um ritual antigo (Misticismo)" }
+  ]
+}

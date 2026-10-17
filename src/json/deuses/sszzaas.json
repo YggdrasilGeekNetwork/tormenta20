@@ -15,7 +15,7 @@
   "energy": "negativa",
   "preferred_weapon": "Adaga",
   "devotees": {
-    "races": ["medusas"],
+    "races": ["finntrolls", "medusas", "nagah", "tabrachi"],
     "classes": ["arcanistas", "bardos", "bucaneiros", "inventores", "ladinos", "nobres"]
   },
   "granted_powers": [

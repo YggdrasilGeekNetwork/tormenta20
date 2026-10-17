@@ -4,8 +4,22 @@
   "type": "encantamento",
   "categoria": "armadura",
   "escudo_only": true,
-  "efeito": {
-    "descricao_curta": "+2 ataque e dano; dano aumenta um passo (apenas escudos)"
-  },
-  "description": "Este escudo fornece +2 em ataques e dano e tem seu dano aumentado em um passo. Apenas escudos."
+  "description": "Este escudo fornece +2 em ataques e dano e tem seu dano aumentado em um passo. Apenas escudos.",
+  "effects": [
+    {
+      "type": "bonus_ataque",
+      "value": 2,
+      "condicao": "apenas escudos, ataque com escudo"
+    },
+    {
+      "type": "bonus_dano",
+      "value": 2,
+      "condicao": "apenas escudos, ataque com escudo"
+    },
+    {
+      "type": "aumento_passo_dano",
+      "value": 1,
+      "condicao": "apenas escudos, ataque com escudo"
+    }
+  ]
 }

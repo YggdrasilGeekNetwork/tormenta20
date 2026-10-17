@@ -1,0 +1,21 @@
+{
+  "id": "sequencia_especial",
+  "name": "Sequência Especial",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Você pode gastar 2 PM para iniciar uma sequência de movimentos inovadores. Quando faz isso, a cada vez que ataca com uma arma que ainda não tenha usado nessa sequência, você recebe um bônus de +1 em testes de ataque e rolagens de dano (cumulativo até +2). A cada 4 níveis, você pode gastar +1 PM para aumentar o limite desses bônus em +2 (nível 1: +2, nível 5: +4, nível 9: +6, nível 13: +8). A sequência termina ao fim da cena ou se você ficar 1 rodada sem trocar pelo menos uma arma.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [1, 5, 9, 13]
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

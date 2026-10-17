@@ -1,0 +1,26 @@
+{
+  "id": "aura_antimagia",
+  "name": "Aura Antimagia",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "Enquanto sua aura estiver ativa, você e os aliados dentro da aura podem rolar novamente qualquer teste de resistência contra magia recém realizado.",
+  "requirements": [
+     {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 14
+    },
+    {
+      "type": "fearute_actived",
+      "sub_type": "soft",
+      "feature": "aura_sagrada"
+    }
+  ],
+  "effects": [
+    {
+      "type": "reroll_test_dice",
+      "test": "resistencia_contra_magia"
+    }
+  ],
+  "costs": null
+}

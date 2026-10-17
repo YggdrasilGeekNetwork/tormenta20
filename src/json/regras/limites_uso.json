@@ -18,5 +18,17 @@
       "despir": "acao_movimento"
     },
     "excecoes": ["roupas sem benefício mecânico não contam"]
-  }
+  },
+  "variantes": [
+    {
+      "id": "saque_rapido_limitado",
+      "name": "Saque Rápido Limitado",
+      "livro": "herois_de_arton",
+      "description": "Com esta regra, cada efeito que permite sacar ou guardar itens como ação livre só pode ser usado uma vez por rodada. Os efeitos se acumulam. Um personagem com o poder Saque Rápido e uma bandoleira de poções, por exemplo, pode sacar ou guardar um item qualquer e um item alquímico como ação livre na mesma rodada.",
+      "efeito": {
+        "cada_efeito_de_saque_livre": "uma vez por rodada",
+        "efeitos_se_acumulam": true
+      }
+    }
+  ]
 }

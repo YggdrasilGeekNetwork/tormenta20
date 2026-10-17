@@ -1,0 +1,30 @@
+{
+  "id": "vingadora_sagrada",
+  "name": "Vingadora Sagrada",
+  "base_weapon": "espada_longa",
+  "preco": 200000,
+  "description": "Esta espada longa formidável revela todo o seu poder apenas quando empunhada por um paladino. Se você for um paladino, recebe +5 em testes de ataque e rolagens de dano, o custo de seu Golpe Divino é reduzido em –1 PM e você e seus aliados em alcance curto recebem resistência a magia +5.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "empunhada por um paladino",
+      "bonus_ataque": 5,
+      "bonus_dano": 5
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "empunhada por um paladino",
+      "reducao_custo_pm_habilidade": 1,
+      "habilidade": "Golpe Divino"
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "empunhada por um paladino",
+      "efeito": "você e aliados em alcance curto recebem resistência a magia +5"
+    }
+  ]
+}

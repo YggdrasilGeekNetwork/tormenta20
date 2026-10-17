@@ -1,0 +1,24 @@
+{
+  "id": "couraca_do_comando",
+  "name": "Couraça do Comando",
+  "subtipo": "armadura",
+  "base_item": "couraca",
+  "preco": 45000,
+  "description": "Esta couraça banhada a ouro sob medida defensora irradia uma aura de autoridade. Você recebe +1 em Carisma. Se usar o poder Comandar, o bônus fornecido aumenta para +2.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensora"
+    },
+    {
+      "type": "bonus_atributo",
+      "atributo": "carisma",
+      "value": 1
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "usa o poder Comandar",
+      "efeito": "o bônus de Carisma fornecido pelo poder aumenta para +2"
+    }
+  ]
+}

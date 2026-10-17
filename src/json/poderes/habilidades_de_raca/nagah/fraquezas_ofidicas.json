@@ -1,0 +1,11 @@
+{
+  "id": "fraquezas_ofidicas",
+  "name": "Fraquezas Ofídicas",
+  "type": "habilidade_de_raca",
+  "race": "nagah",
+  "description": "Você sofre 1 ponto de dano adicional para cada dado de dano de frio e -5 em testes de resistência contra Músicas de bardo.",
+  "effects": {
+    "vulnerabilidade": { "tipo": "frio", "bonus_por_dado": 1 },
+    "penalidade_resistencia": { "contra": "musicas_de_bardo", "valor": -5 }
+  }
+}

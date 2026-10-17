@@ -1,0 +1,108 @@
+{
+  "id": "vampiro",
+  "name": "Vampiro",
+  "nd": 12,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "reino_dos_mortos",
+  "pv": 550,
+  "defesa": 45,
+  "salvaguardas": {
+    "fort": 12,
+    "ref": 26,
+    "von": 20
+  },
+  "cura_acelerada": 10,
+  "reducao_de_dano": "10/luz",
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 15,
+  "percepcao": 13,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 18,
+    "escalar": 18
+  },
+  "atributos": {
+    "for": 10,
+    "des": 7,
+    "con": null,
+    "int": 5,
+    "sab": 5,
+    "car": 7
+  },
+  "ataques": [
+    {
+      "nome": "Espada longa",
+      "bonus": 36,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 8
+            }
+          ],
+          "bonus": 5,
+          "tipo": "corte"
+        },
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 10
+            }
+          ],
+          "tipo": "trevas"
+        }
+      ],
+      "critico": "17",
+      "quantidade": 2
+    },
+    {
+      "nome": "Garra",
+      "bonus": 36,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "bonus": 25,
+          "tipo": "corte"
+        },
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 10
+            }
+          ],
+          "tipo": "trevas"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Dominação Vampírica",
+      "acao": "padrão",
+      "descricao": "Sussurra palavras de controle para humanoide em alcance curto: fica confuso, enfeitiçado ou fascinado até o fim da cena, ou perde memórias da última hora (Von CD 29 evita).",
+      "salvaguarda": "Vontade",
+      "cd": 29,
+      "efeito_sucesso": "evita"
+    },
+    {
+      "nome": "Drenar Sangue",
+      "acao": "padrão",
+      "descricao": "Drena sangue de criatura que esteja agarrando: 6d6 dano de perfuração, recupera a mesma quantidade em PV. Criatura morta assim ressurge como vampiro na próxima noite."
+    }
+  ],
+  "tesouro": "padrão",
+  "description": "Poderosos mortos-vivos que integram a alta sociedade de Aslothia. Vulneráveis à luz do sol e dependentes de sangue, são temidos em todo o Reinado."
+}

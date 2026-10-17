@@ -1,0 +1,62 @@
+{
+  "id": "conjuracao",
+  "name": "Conjuração de Magias",
+  "description": "Magias são habilidades mágicas. Lançar uma magia exige gastar uma ação (varia de magia para magia) e pontos de mana (de acordo com o círculo da magia).",
+  "custos_por_circulo": [
+    { "circulo": 1, "custo_pm": 1 },
+    { "circulo": 2, "custo_pm": 3 },
+    { "circulo": 3, "custo_pm": 6 },
+    { "circulo": 4, "custo_pm": 10 },
+    { "circulo": 5, "custo_pm": 15 }
+  ],
+  "gestos_e_palavras": {
+    "descricao": "Lançar uma magia envolve pronunciar palavras mágicas e gesticular com pelo menos uma mão livre. É um ato chamativo, perceptível por aqueles ao redor.",
+    "impedimentos": [
+      "Conjurador amordaçado não pode lançar magias.",
+      "Conjurador incapaz de usar as mãos não pode lançar magias."
+    ]
+  },
+  "concentracao": {
+    "descricao": "Lançar uma magia exige calma e concentração. Em situação difícil, o conjurador deve passar em um teste de Vontade. Se falhar, a magia é perdida, mas os PM são gastos mesmo assim.",
+    "situacoes": [
+      {
+        "id": "ferido_durante_execucao",
+        "descricao": "Ser ferido durante a execução da magia",
+        "cd": "igual ao dano sofrido",
+        "nota": "Para magias de ação padrão ou menos, só ocorre se atacado como reação ou sofrendo dano contínuo (chamas, veneno)."
+      },
+      {
+        "id": "condicao_ruim",
+        "descricao": "Condição ruim (montado a galope, caído, em tempestade)",
+        "cd": "15 + custo em PM da magia"
+      },
+      {
+        "id": "condicao_terrivel",
+        "descricao": "Condição terrível (carroça desgovernada, agarrado, terremoto)",
+        "cd": "20 + custo em PM da magia"
+      }
+    ]
+  },
+  "armaduras_e_magia_arcana": {
+    "descricao": "O uso de armaduras atrapalha os gestos necessários para lançar magias arcanas.",
+    "teste": "Misticismo",
+    "cd": "20 + custo em PM da magia",
+    "penalidade": "penalidade de armadura",
+    "falha": "A magia não funciona, mas os PM são gastos.",
+    "excecoes": "Magias lançadas por habilidades de raça, poderes ou itens mágicos não sofrem esta limitação."
+  },
+  "aprimoramentos": {
+    "descricao": "Algumas magias permitem gastar mais PM ao serem lançadas para aumentar seu efeito.",
+    "limite_pm": "O máximo de PM extras que você pode gastar por uso é igual ao seu nível na classe que fornece a magia (ou nível de personagem para magias de outras fontes).",
+    "truque": {
+      "descricao": "Transforma a magia em uma versão mais simples e reduz seu custo em PM para zero.",
+      "restricao": "Truques não podem ser usados em conjunto com outros aprimoramentos."
+    },
+    "muda": {
+      "descricao": "Aprimoramentos que começam com 'muda' alteram apenas a parte especificada da magia. Mudanças na mesma característica nunca se acumulam."
+    }
+  },
+  "atributo_chave": {
+    "descricao": "O atributo-chave da classe conjuradora afeta os pontos de mana máximos e a CD dos testes de resistência para resistir às magias do conjurador."
+  }
+}

@@ -15,7 +15,7 @@
   "energy": "negativa",
   "preferred_weapon": "Lança",
   "devotees": {
-    "races": ["elfos", "medusas", "sulfure"],
+    "races": ["elfos", "finntrolls", "kallyanach", "kobolds", "medusas", "nagah", "naidora", "sulfure"],
     "classes": ["arcanistas", "cavaleiros", "guerreiros", "lutadores", "nobres"]
   },
   "granted_powers": [

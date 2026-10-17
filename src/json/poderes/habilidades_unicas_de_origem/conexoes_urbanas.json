@@ -1,0 +1,16 @@
+{
+  "id": "conexoes_urbanas",
+  "name": "Conexões da Cidade Grande",
+  "origin": "citadino_abastado",
+  "description": "Se estiver em uma cidade grande (a critério do mestre), você pode gastar tibares para aprender algum conhecimento local útil. O custo é T$ 10 x seu nível. Se fizer isso, escolha um poder de combate, de destino ou de uma de suas classes cujos pré-requisitos você cumpra (o mestre determina se um poder está disponível na cidade). Até o fim da aventura, ou até usar esta habilidade novamente, você pode usar o poder escolhido por uma cena.",
+  "effects": {
+    "active_ability": {
+      "condition": "estar em uma cidade grande (a critério do mestre)",
+      "cost": {
+        "tibares": "T$ 10 x nível"
+      },
+      "effect": "escolhe um poder de combate, de destino ou de classe (cujos pré-requisitos cumpra) e pode usá-lo por uma cena",
+      "duration": "até o fim da aventura ou até usar esta habilidade novamente"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "id": "regeneracao_vegetal_finntroll",
+  "name": "Regeneração Vegetal",
+  "type": "habilidade_de_raca",
+  "race": "finntroll",
+  "description": "Uma vez por rodada, você pode gastar 1 PM para recuperar 5 PV. Esta habilidade não cura dano de ácido ou fogo.",
+  "effects": {
+    "activated": { "cost_pm": 1, "cura_pv": 5, "frequencia": "1x_por_rodada", "excecao": ["acido", "fogo"] }
+  }
+}

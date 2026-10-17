@@ -1,0 +1,63 @@
+{
+  "id": "zumbi",
+  "name": "Zumbi",
+  "nd": 0.25,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "reino_dos_mortos",
+  "pv": 20,
+  "defesa": 11,
+  "salvaguardas": {
+    "fort": 3,
+    "ref": -1,
+    "von": -1
+  },
+  "imunidades": [
+    "efeitos de mente",
+    "necromancia que afeta apenas vivos"
+  ],
+  "resistencias": {},
+  "iniciativa": -1,
+  "percepcao": -1,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 6
+  },
+  "atributos": {
+    "for": 3,
+    "des": -1,
+    "con": null,
+    "int": null,
+    "sab": -1,
+    "car": -5
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 7,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 6,
+          "tipo": "perfuração"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Fraqueza Zumbi",
+      "descricao": "Zumbis sofrem o dobro de dano de ataques que acertem a cabeça ou de efeitos que os atingem enquanto estão caídos."
+    }
+  ],
+  "tesouro": "nenhum",
+  "description": "O tipo mais comum de morto-vivo, pouco mais que um amontoado cambaleante de carne apodrecida. Sozinhos são adversários fáceis, mas uma grande horda pode surpreender aventureiros experientes."
+}

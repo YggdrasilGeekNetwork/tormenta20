@@ -1,0 +1,25 @@
+{
+  "id": "carapaca_demoniaca",
+  "name": "Carapaça Demoníaca",
+  "subtipo": "armadura",
+  "base_item": "armadura_completa",
+  "preco": 63000,
+  "description": "Esta armadura completa macabra reforçada guardiã é forjada para fazer com que o usuário pareça um demônio. Se você for devoto de uma divindade que canaliza apenas energia negativa, os seus ataques corpo a corpo causam +1d8 de dano de trevas.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "reforçada"
+    },
+    {
+      "type": "enchantment",
+      "name": "guardiã"
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "devoto de divindade de energia negativa",
+      "dano_extra": "1d8",
+      "tipo_dano": "trevas",
+      "aplica_a": "ataques corpo a corpo"
+    }
+  ]
+}

@@ -6,5 +6,10 @@
   "roll_min": 97,
   "roll_max": 98,
   "description": "Você recebe imunidade a magias de adivinhação.",
-  "efeito": {}
+  "effects": [
+    {
+      "type": "imunidade",
+      "efeito": "magias de adivinhação"
+    }
+  ]
 }

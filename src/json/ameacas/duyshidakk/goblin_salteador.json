@@ -1,0 +1,67 @@
+{
+  "id": "goblin_salteador",
+  "name": "Goblin Salteador",
+  "nd": 0.25,
+  "tipo": "Humanoide",
+  "subtipo": "goblin",
+  "tamanho": "pequeno",
+  "grupo": "duyshidakk",
+  "pv": 4,
+  "defesa": 13,
+  "salvaguardas": {
+    "fort": 2,
+    "ref": 3,
+    "von": -1
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 1,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9,
+    "escalar": 9
+  },
+  "atributos": {
+    "for": 0,
+    "des": 3,
+    "con": 0,
+    "int": 0,
+    "sab": -1,
+    "car": -1
+  },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 7,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 4
+            }
+          ],
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19",
+      "quantidade": 2
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Frenesi",
+      "descricao": "Recebe +2 em testes de ataque e rolagens de dano para cada goblin salteador adjacente ao alvo."
+    }
+  ],
+  "equipamento": [
+    "Adagas x2"
+  ],
+  "tesouro": "padrão",
+  "description": "Pequenos mas ferozes goblins que atacam em bando de forma caótica. Em número, podem chacinar um povoado ou sobrepujar aventureiros experientes."
+}

@@ -6,9 +6,12 @@
   "roll_min": 89,
   "roll_max": 94,
   "description": "Esta pulseira de platina aguça todos os seus movimentos. Você recebe +2 em Destreza (somente após um dia de uso).",
-  "efeito": {
-    "bonus_atributo": {
-      "destreza": 2
+  "effects": [
+    {
+      "type": "bonus_atributo",
+      "atributo": "destreza",
+      "value": 2,
+      "condicao": "somente após um dia de uso"
     }
-  }
+  ]
 }

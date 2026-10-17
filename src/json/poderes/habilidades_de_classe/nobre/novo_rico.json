@@ -1,0 +1,16 @@
+{
+  "id": "novo_rico",
+  "name": "Novo Rico",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "No 9º nível, para cada item mágico que você estiver vestindo, você recebe +1 PM por nível de poder do item (somente após 1 dia de uso).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 9
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

@@ -1,0 +1,69 @@
+{
+  "id": "colosso_supremo",
+  "name": "Colosso Supremo",
+  "nd": 14,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "colossal",
+  "grupo": "puristas",
+  "pv": 675,
+  "defesa": 46,
+  "salvaguardas": {
+    "fort": 31,
+    "ref": 19,
+    "von": 20
+  },
+  "cura_acelerada": 20,
+  "reducao_de_dano": 10,
+  "resistencia_a_magia": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 8,
+  "percepcao": 9,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 12
+  },
+  "atributos": {
+    "for": 20,
+    "des": 4,
+    "con": null,
+    "int": 5,
+    "sab": 5,
+    "car": 3
+  },
+  "ataques": [
+    {
+      "nome": "Espada titânica",
+      "bonus": 39,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 4,
+              "faces": 12
+            }
+          ],
+          "bonus": 30,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Balistas",
+      "acao": "livre",
+      "descricao": "Duas balistas (uma em cada ombro), disparadas em rodadas alternadas (+39, 6d8 perfuração, crítico 19, alcance médio). Tripulações têm Defesa 26, 50 PV cada."
+    },
+    {
+      "nome": "Fumos Tóxicos",
+      "descricao": "Criaturas que comecem o turno adjacentes ao colosso sofrem efeito de veneno."
+    }
+  ],
+  "tesouro": "nenhum",
+  "description": "Engenhos infernais grandes como moinhos de vento, feitos de pedra e metal com técnicas que combinam magia e tecnologia goblin. Transportam soldados em plataformas nos ombros."
+}

@@ -3,8 +3,18 @@
   "name": "Escorregadio",
   "type": "encantamento",
   "categoria": "armadura",
-  "efeito": {
-    "descricao_curta": "+10 em Acrobacia para escapar e em manobras contra agarrar"
-  },
-  "description": "Você recebe +10 em testes de Acrobacia para escapar e em testes de manobra contra agarrar. Um item escorregadio parece estar sempre coberto de óleo levemente gorduroso."
+  "description": "Você recebe +10 em testes de Acrobacia para escapar e em testes de manobra contra agarrar. Um item escorregadio parece estar sempre coberto de óleo levemente gorduroso.",
+  "effects": [
+    {
+      "type": "bonus_pericia",
+      "pericia": "Acrobacia",
+      "value": 10,
+      "condicao": "para escapar"
+    },
+    {
+      "type": "bonus_manobra",
+      "value": 10,
+      "condicao": "contra a manobra agarrar"
+    }
+  ]
 }

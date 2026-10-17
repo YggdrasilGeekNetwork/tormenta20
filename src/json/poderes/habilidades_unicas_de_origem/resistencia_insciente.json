@@ -1,0 +1,9 @@
+{
+  "id": "resistencia_insciente",
+  "name": "Resistência Insciente",
+  "origin": "insciente",
+  "description": "Você recebe resistência a magia +5.",
+  "effects": {
+    "magic_resistance_bonus": 5
+  }
+}

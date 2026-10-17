@@ -1,0 +1,77 @@
+{
+  "id": "hobgoblin_mago_de_batalha",
+  "name": "Hobgoblin Mago de Batalha",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "hobgoblin",
+  "tamanho": "médio",
+  "grupo": "duyshidakk",
+  "pv": 120,
+  "pm": 35,
+  "defesa": 17,
+  "salvaguardas": {
+    "fort": 11,
+    "ref": 5,
+    "von": 17
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 4,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 3,
+    "des": 1,
+    "con": 3,
+    "int": 4,
+    "sab": 0,
+    "car": -1
+  },
+  "pericias": {
+    "guerra": 9,
+    "misticismo": 9,
+    "oficio_armeiro": 11
+  },
+  "ataques": [
+    {
+      "nome": "Espada longa",
+      "bonus": 14,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 3,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Arcano de Batalha",
+      "descricao": "Soma Inteligência (+4) nas rolagens de dano com magias."
+    },
+    {
+      "nome": "Magias (mago 5º, CD 22)",
+      "descricao": "Amedrontar (3 PM), Armadura Arcana (5 PM, +6 Def), Bola de Fogo (5 PM, 8d6+5 fogo área), Concentração de Combate (livre, 1 PM, vantagem), Toque Vampírico (5 PM, 6d6+5 trevas + cura metade)."
+    }
+  ],
+  "equipamento": [
+    "Espada longa",
+    "essência de mana"
+  ],
+  "tesouro": "padrão",
+  "description": "Hobgoblin que domina artes arcanas élficas, após a saquear tomos mágicos durante a Infinita Guerra. Combina magia destrutiva com combate corpo a corpo."
+}

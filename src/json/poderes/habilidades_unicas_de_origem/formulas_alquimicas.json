@@ -1,0 +1,13 @@
+{
+  "id": "formulas_alquimicas",
+  "name": "Fórmulas Alquímicas",
+  "origin": "boticario",
+  "description": "Você pode fabricar poções de duas fórmulas de 1º círculo a sua escolha, como se tivesse o poder Alquimista Iniciado (Tormenta20, p. 68).",
+  "effects": {
+    "crafting_ability": {
+      "grants_power_effect": "Alquimista Iniciado",
+      "limited_to": "duas fórmulas de 1º círculo à escolha",
+      "item_type": "poção"
+    }
+  }
+}

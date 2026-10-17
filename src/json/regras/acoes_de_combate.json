@@ -1,0 +1,192 @@
+{
+  "id": "acoes_de_combate",
+  "name": "Ações de Combate",
+  "description": "Em cada turno um personagem pode realizar uma ação padrão e uma ação de movimento (em qualquer ordem), ou duas ações de movimento, ou uma ação completa. Também pode realizar qualquer quantidade de ações livres e reações.",
+  "tipos_de_acao": {
+    "padrao": {
+      "name": "Ação Padrão",
+      "description": "Representa a tarefa mais importante do turno. Pode ser trocada por uma ação de movimento.",
+      "acoes": [
+        {
+          "id": "agredir",
+          "name": "Agredir",
+          "description": "Faz um ataque com uma arma corpo a corpo ou à distância. Pode substituir um ataque corpo a corpo por uma manobra de combate. Atacar à distância em combate corpo a corpo sofre –5 no teste de ataque."
+        },
+        {
+          "id": "atropelar",
+          "name": "Atropelar",
+          "description": "Ação padrão durante um movimento. Avança pelo espaço de uma criatura. A criatura pode dar passagem (sem teste) ou resistir (teste de manobra oposto). Se você vencer, deixa a criatura caída e continua. É uma ação livre se tentada durante uma investida."
+        },
+        {
+          "id": "fintar",
+          "name": "Fintar",
+          "description": "Teste de Enganação oposto ao teste de Reflexos de uma criatura em alcance curto. Se passar, ela fica desprevenida contra seu próximo ataque (até o fim do seu próximo turno)."
+        },
+        {
+          "id": "lancar_magia",
+          "name": "Lançar uma Magia",
+          "description": "A maioria das magias exige uma ação padrão para ser executada."
+        },
+        {
+          "id": "preparar",
+          "name": "Preparar",
+          "description": "Prepara uma ação (padrão, de movimento ou livre) para realizar mais tarde, antes do seu próximo turno. A Iniciativa fica imediatamente acima da qual você fez a ação preparada pelo resto do combate."
+        },
+        {
+          "id": "usar_habilidade_ou_item",
+          "name": "Usar uma Habilidade ou Item Mágico",
+          "description": "Algumas habilidades e itens mágicos, como poções, exigem uma ação padrão para serem usadas."
+        }
+      ]
+    },
+    "movimento": {
+      "name": "Ação de Movimento",
+      "description": "Serve para mudar algo de posição. Pode ser realizada duas vezes por turno em substituição à ação padrão.",
+      "acoes": [
+        {
+          "id": "levantar_se",
+          "name": "Levantar-se",
+          "description": "Levantar do chão (ou de uma cama, cadeira...) exige uma ação de movimento."
+        },
+        {
+          "id": "manipular_item",
+          "name": "Manipular Item",
+          "description": "Pegar objeto em mochila, abrir ou fechar uma porta, atirar uma corda."
+        },
+        {
+          "id": "mirar",
+          "name": "Mirar",
+          "description": "Mira em um alvo que possa ver, dentro do alcance da arma. Anula a penalidade de –5 em testes de Pontaria contra aquele alvo por estar em combate corpo a corpo."
+        },
+        {
+          "id": "movimentar_se",
+          "name": "Movimentar-se",
+          "description": "Percorre uma distância igual ao deslocamento (tipicamente 9m para raças Médias). Outros movimentos como nadar, escalar ou cavalgar também usam esta ação."
+        },
+        {
+          "id": "sacar_ou_guardar_item",
+          "name": "Sacar ou Guardar Item",
+          "description": "Sacar ou guardar um item. Se puder usar mais de uma arma (como com Ambidestria), pode sacar todas elas."
+        }
+      ]
+    },
+    "completa": {
+      "name": "Ação Completa",
+      "description": "Exige todo o tempo e esforço de uma rodada. Abre mão da ação padrão e de movimento, mas normalmente ainda permite ações livres e reações.",
+      "acoes": [
+        {
+          "id": "corrida",
+          "name": "Corrida",
+          "description": "Corre mais rapidamente que o deslocamento normal. Veja a perícia Atletismo."
+        },
+        {
+          "id": "golpe_de_misericordia",
+          "name": "Golpe de Misericórdia",
+          "description": "Desfere um golpe letal em um oponente adjacente e indefeso. Acerto crítico automático. Além do dano, a vítima tem 25% de chance de morte (1 em 1d4) para personagens e NPCs importantes, ou 75% (1 a 3 em 1d4) para NPCs secundários."
+        },
+        {
+          "id": "investida",
+          "name": "Investida",
+          "description": "Avança até o dobro do deslocamento (mínimo 3m) em linha reta e, no fim, faz um ataque corpo a corpo. Recebe +2 no teste de ataque, mas sofre –2 na Defesa até o próximo turno. Não pode ser feita em terreno difícil. Durante a investida pode fazer a manobra atropelar como ação livre."
+        },
+        {
+          "id": "lancar_magia_longa",
+          "name": "Lançar uma Magia (longa)",
+          "description": "Ao lançar magias com execução maior do que uma ação completa, gasta uma ação completa a cada rodada."
+        }
+      ]
+    },
+    "livre": {
+      "name": "Ação Livre",
+      "description": "Demanda pouco ou nenhum tempo. Pode-se realizar quantas quiser no turno. Feita apenas no próprio turno.",
+      "acoes": [
+        {
+          "id": "atrasar",
+          "name": "Atrasar",
+          "description": "Age mais tarde na ordem de Iniciativa. Reduz a Iniciativa voluntariamente pelo resto do combate. Pode atrasar até –10 menos o valor de Iniciativa atual."
+        },
+        {
+          "id": "falar",
+          "name": "Falar",
+          "description": "Em geral, falar é uma ação livre (limite de ~20 palavras por rodada). Lançar magias ou habilidades que dependem da voz não são ações livres."
+        },
+        {
+          "id": "jogar_se_no_chao",
+          "name": "Jogar-se no Chão",
+          "description": "Recebe benefícios e penalidades por estar caído, mas não sofre dano ao se jogar."
+        },
+        {
+          "id": "largar_item",
+          "name": "Largar um Item",
+          "description": "Deixar cair um item que está segurando é uma ação livre. Jogar um item para acertar algo é ação padrão. Jogar para alguém agarrar é ação de movimento."
+        }
+      ]
+    },
+    "reacao": {
+      "name": "Reação",
+      "description": "Acontece em resposta a outra coisa. Pode ocorrer mesmo fora do turno, ou se não puder realizar ações. Pode-se realizar qualquer quantidade de reações."
+    }
+  },
+  "variantes": [
+    {
+      "id": "acoes_rapidas",
+      "name": "Ações Rápidas",
+      "livro": "herois_de_arton",
+      "description": "Introduz um novo tipo de ação: rápida. É algo simples, que ocupa apenas uma fração do seu movimento. Você não recebe ações rápidas automaticamente, mas pode usar suas ações de movimento para executá-las (cada ação de movimento equivale a duas ações rápidas). Quando converte uma ação de movimento em ações rápidas, elas devem ser executadas em sequência (a menos que o grupo esteja usando a regra opcional Movimento Intercalado).",
+      "acoes_convertidas_em_rapidas": ["levantar_se", "manipular_item", "mirar", "sacar_ou_guardar_item"],
+      "regras_adicionais": [
+        "Você pode usar uma ação rápida para percorrer uma distância igual à metade do seu deslocamento.",
+        "Se o grupo estiver usando a regra opcional Posicionamento, erguer escudo também é considerada uma ação rápida."
+      ]
+    },
+    {
+      "id": "ataques_de_oportunidade",
+      "name": "Ataques de Oportunidade",
+      "livro": "herois_de_arton",
+      "description": "Os combatentes podem aproveitar brechas na defesa de seus inimigos para desferir ataques de oportunidade. Um ataque de oportunidade é um ataque corpo a corpo, feito como uma reação, quando um inimigo em seu alcance, e que você possa perceber, executa uma das ações-gatilho a seguir. Você só pode executar um ataque de oportunidade por rodada.",
+      "acoes_que_provocam": [
+        "Fazer um ataque à distância.",
+        "Levantar-se (a menos que o inimigo se levante como uma ação livre).",
+        "Lançar uma magia, exceto magias lançadas como reação ou ação livre (mas veja conjuração defensiva). Magias com alcance toque não provocam ataques de oportunidade de seu alvo, mas provocam de outras criaturas no alcance.",
+        "Sair de um quadrado ameaçado (mas veja as ações reposicionar e recuar).",
+        "Usar itens complexos, como ativar uma engenhoca ou beber uma poção (sacar ou guardar um item não é uma ação complexa, mas recarregar uma arma com ação de movimento ou maior, sim; a critério do mestre, outras ações complexas também podem provocar)."
+      ],
+      "acoes_que_nao_provocam": [
+        "Passar por um inimigo usando Acrobacia (Tormenta20, p. 115)."
+      ],
+      "novas_acoes": [
+        {
+          "id": "reposicionar",
+          "name": "Reposicionar",
+          "tipo": "movimento",
+          "description": "Você ajusta sua posição com cautela; percorre apenas 1,5m, mas este deslocamento não provoca ataques de oportunidade. Você não pode se reposicionar se o seu deslocamento for menor do que 1,5m."
+        },
+        {
+          "id": "recuar",
+          "name": "Recuar",
+          "tipo": "completa",
+          "description": "Você se move com cuidado; percorre metade do seu deslocamento, mas este movimento não provoca ataques de oportunidade. Você não pode recuar se o seu deslocamento for menor do que 3m."
+        },
+        {
+          "id": "conjuracao_defensiva",
+          "name": "Conjuração Defensiva",
+          "tipo": "padrao",
+          "description": "Você lança uma magia concentrando-se em sua defesa. Não provoca ataques de oportunidade com essa magia, mas precisa passar em um teste de Vontade (CD 20 + custo em PM da magia). Se falhar, a magia é perdida, mas os PM são gastos mesmo assim."
+        }
+      ],
+      "interacoes_com_habilidades_existentes": [
+        { "habilidade": "Ataque Reflexo e Piqueiro (Tormenta20, pp. 65 e 128)", "interacao": "Os gatilhos para usar estes poderes são diferentes das situações que causam ataques de oportunidade, por isso não se relacionam com esta regra. Ainda podem ser usados mesmo que o inimigo use as ações reposicionar ou recuar." },
+        { "habilidade": "Bater e Correr e Carga de Cavalaria (Tormenta20, pp. 65 e 124)", "interacao": "O movimento adicional após o ataque não provoca ataques de oportunidade." },
+        { "habilidade": "Disparo Preciso (Tormenta20, p. 125)", "interacao": "Ataques à distância não provocam ataques de oportunidade." }
+      ],
+      "ataques_de_oportunidade_por_rodada_de_ameacas": [
+        { "patamar": "iniciante", "nd": "1 a 4", "ataques_por_rodada": 1 },
+        { "patamar": "veterano", "nd": "5 a 10", "ataques_por_rodada": 2 },
+        { "patamar": "campeao", "nd": "11 a 16", "ataques_por_rodada": 3 },
+        { "patamar": "lenda", "nd": "17 a 20", "ataques_por_rodada": 4 },
+        { "patamar": "s_ss", "nd": "S/S+", "ataques_por_rodada": "ilimitados" }
+      ],
+      "nota": "Ameaças ainda estão limitadas a um ataque por instância do evento que lhes permitiu realizá-lo."
+    }
+  ]
+}

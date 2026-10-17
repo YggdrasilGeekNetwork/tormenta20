@@ -1,0 +1,73 @@
+{
+  "id": "hidra",
+  "name": "Hidra",
+  "nd": 11,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "sszzaazitas",
+  "pv": 550,
+  "defesa": 35,
+  "salvaguardas": {
+    "fort": 24,
+    "ref": 18,
+    "von": 9
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "cura_acelerada": 100,
+  "iniciativa": 9,
+  "percepcao": 9,
+  "visao": [
+    "faro",
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9,
+    "natacao": 9
+  },
+  "atributos": {
+    "for": 10,
+    "des": 0,
+    "con": 10,
+    "int": -4,
+    "sab": 0,
+    "car": -1
+  },
+  "pericias": {
+    "furtividade": 4
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 34,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 3,
+              "faces": 6
+            }
+          ],
+          "bonus": 16,
+          "tipo": "perfuração"
+        }
+      ],
+      "quantidade": 5
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Cura Acelerada 100",
+      "descricao": "Recupera 100 PV no início de cada turno."
+    },
+    {
+      "nome": "Cortar Cabeças",
+      "descricao": "Atacar uma cabeça (–2 no ataque). 25+ dano de corte decepa a cabeça, removendo um ataque. Após 1d4 rodadas, duas novas cabeças nascem (máximo 10). Cauterizar o pescoço (25+ dano de ácido ou fogo) impede o crescimento. A hidra só morre se todas as cabeças forem decepadas e cauterizadas."
+    }
+  ],
+  "tesouro": "padrão",
+  "description": "Monstruosidade reptiliana de cinco cabeças que regenera novas quando decepadas. Habitante de pântanos e guardiã sszzaazita."
+}

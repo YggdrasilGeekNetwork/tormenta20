@@ -1,0 +1,39 @@
+{
+  "id": "investida_conjunta",
+  "name": "Investida Conjunta",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Uma vez por rodada, quando um melhor amigo no qual você está montado faz uma investida, você pode gastar 2 PM para fazer um ataque corpo a corpo (que também conta como uma investida). Pré-requisito: melhor amigo montaria.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "melhor_amigo"
+    },
+    {
+      "type": "mount",
+      "sub_type": "hard",
+      "value": "melhor_amigo_como_montaria"
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "attack_type": "corpo_a_corpo",
+      "counts_as": "investida",
+      "trigger": "melhor_amigo_montaria_faz_investida",
+      "frequency": "1_por_rodada"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

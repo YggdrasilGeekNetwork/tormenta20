@@ -1,0 +1,10 @@
+{
+  "id": "inocencia_dissimulada",
+  "name": "Inocência Dissimulada",
+  "type": "habilidade_de_raca",
+  "race": "nagah",
+  "description": "Uma vez por cena, você pode substituir um teste de perícia por um teste de Enganação.",
+  "effects": {
+    "skill_substitution": { "substitute": "enganacao", "frequencia": "1x_por_cena" }
+  }
+}

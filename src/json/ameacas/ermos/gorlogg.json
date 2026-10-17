@@ -1,0 +1,72 @@
+{
+  "id": "gorlogg",
+  "name": "Gorlogg",
+  "nd": 1,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "ermos",
+  "pv": 36,
+  "defesa": 16,
+  "salvaguardas": {
+    "fort": 8,
+    "ref": 5,
+    "von": 3
+  },
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 4,
+  "percepcao": 3,
+  "visao": [
+    "visão na penumbra"
+  ],
+  "deslocamento": {
+    "terrestre": 12
+  },
+  "atributos": {
+    "for": 5,
+    "des": 2,
+    "con": 5,
+    "int": -4,
+    "sab": 1,
+    "car": -2
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 9,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "bonus": 8,
+          "tipo": "perfuração"
+        }
+      ],
+      "critico": "x3"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Agarrar Aprimorado",
+      "acao": "livre",
+      "descricao": "Se acerta um ataque de mordida, pode usar a manobra agarrar (teste +13)."
+    }
+  ],
+  "pericias": {
+    "atletismo": 9
+  },
+  "tesouro": "nenhum",
+  "parceiro": {
+    "tipo": "montaria (Grande)",
+    "restricao": null,
+    "iniciante": "Seu deslocamento muda para 12m e, uma vez por rodada, você recebe +1d6 em uma rolagem de dano corpo a corpo.",
+    "veterano": "O bônus em rolagens de dano corpo a corpo muda para +1d10.",
+    "mestre": "Seu deslocamento muda para 15m e o bônus em rolagens de dano corpo a corpo muda para +2d8."
+  },
+  "description": "Feras primitivas que lembram uma combinação de lobo e crocodilo, com mandíbulas capazes de destroçar ossos. Originários de Galrasia, são cobiçados como montarias por aventureiros. Formam alcateias ferozes nativas de Galrasia, capazes de abater até os maiores lagartos-trovão com seus dentes de sabre; muitos foram capturados e trazidos para o Reinado como bestas de guarda e guerra, mas em muitos casos se mostraram indomáveis, fugindo para a natureza. Druidas e outros aventureiros abençoados por Allihanna às vezes são aceitos por gorloggs como cavaleiros (veja Ameaças de Arton, Cap. 1, seção Montarias)."
+}

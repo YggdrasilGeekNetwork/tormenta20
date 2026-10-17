@@ -15,7 +15,7 @@
   "preferred_weapon": null,
   "preferred_weapon_note": "Devotos desta deusa não podem lançar a magia Arma Espiritual e similares",
   "devotees": {
-    "races": ["aggelus", "elfos", "hynne", "qareen"],
+    "races": ["aggelus", "elfos", "gnolls", "hynne", "qareen", "pteros", "sátiros", "velocis"],
     "classes": ["bardos", "nobres", "paladinos"]
   },
   "granted_powers": [

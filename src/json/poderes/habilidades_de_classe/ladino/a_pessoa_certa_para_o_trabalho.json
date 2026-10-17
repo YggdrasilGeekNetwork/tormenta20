@@ -1,0 +1,32 @@
+{
+  "id": "a_pessoa_certa_para_o_trabalho",
+  "name": "A Pessoa Certa para o Trabalho",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_ladino",
+  "description": "No 20º nível, você se torna um verdadeiro mestre da ladinagem. Ao fazer um ataque furtivo ou usar uma perícia da lista de ladino, você pode gastar 5 PM para receber +10 no teste.",
+  "requirements": [
+     {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 20
+    }
+  ],
+  "effects": [
+    {
+      "type": "feature_improvement",
+      "value": 10,
+      "feature": "ataque_furtivo"
+    },
+    {
+      "type": "skill_improvement",
+      "value": 10,
+      "skill": ["pericias_de_ladino"]
+    }
+  ],
+  "costs": [
+    {
+    "value": 5,
+    "type": "PM"
+    }
+  ]
+}

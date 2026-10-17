@@ -1,0 +1,100 @@
+{
+  "id": "troll_das_cavernas",
+  "name": "Troll das Cavernas",
+  "nd": 9,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "enorme",
+  "grupo": "trolls_nobres",
+  "pv": 345,
+  "defesa": 29,
+  "salvaguardas": {
+    "fort": 21,
+    "ref": 15,
+    "von": 9
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "cura_acelerada": {
+    "valor": 20,
+    "exceto": "ácido ou fogo"
+  },
+  "iniciativa": 7,
+  "percepcao": 14,
+  "visao": [
+    "faro",
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 12,
+    "escalar": 9
+  },
+  "atributos": {
+    "for": 9,
+    "des": 0,
+    "con": 11,
+    "int": -2,
+    "sab": -1,
+    "car": -2
+  },
+  "ataques": [
+    {
+      "nome": "Tacape",
+      "bonus": 26,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 3,
+              "faces": 6
+            }
+          ],
+          "bonus": 27,
+          "tipo": "impacto"
+        }
+      ]
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 26,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "bonus": 27,
+          "tipo": "perfuração"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Golpe Avassalador",
+      "acao": "livre",
+      "salvaguarda": "Fortitude",
+      "cd": 28,
+      "efeito_sucesso": "evita",
+      "descricao": "Quando acerta com tacape, arremessa a vítima 1d6×1,5m (Fort CD 28 evita). A vítima fica caída e sofre 1d6 de impacto por 1,5m arremessada."
+    },
+    {
+      "nome": "Varrer",
+      "acao": "livre",
+      "descricao": "Uma vez por rodada, quando reduz o alvo a 0 PV, pode fazer um ataque adicional contra outra criatura no alcance."
+    },
+    {
+      "nome": "Cura Acelerada",
+      "descricao": "Recupera 20 PV por turno. Não funciona com dano de ácido ou fogo."
+    }
+  ],
+  "equipamento": [
+    "Tacape gigante"
+  ],
+  "tesouro": "metade",
+  "description": "Versão colossal do troll comum, usada pelos finntrolls como armas pesadas. Seus ombros imensos e pele cinzenta dura como rocha o tornam quase invencível."
+}

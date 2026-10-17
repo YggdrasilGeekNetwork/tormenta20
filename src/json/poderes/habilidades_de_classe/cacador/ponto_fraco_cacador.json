@@ -1,0 +1,21 @@
+{
+  "id": "ponto_fraco_cacador",
+  "name": "Ponto Fraco",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Quando usa a habilidade Marca da Presa, seus ataques contra a criatura marcada recebem +2 na margem de ameaça. Esse bônus dobra com a habilidade Inimigo.",
+  "requirements": [
+    {
+      "type": "fearute_actived",
+      "sub_type": "soft",
+      "feature": "marca_da_presa"
+    }
+  ],
+  "effects": [
+    {
+      "type": "critical_improvement",
+      "value": 2
+    }
+  ],
+  "costs": null
+}

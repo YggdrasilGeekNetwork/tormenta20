@@ -1,0 +1,87 @@
+{
+  "id": "ganchador",
+  "name": "Ganchador",
+  "nd": 5,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "trolls_nobres",
+  "pv": 210,
+  "defesa": 26,
+  "salvaguardas": {
+    "fort": 15,
+    "ref": 11,
+    "von": 7
+  },
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 7,
+  "percepcao": 5,
+  "visao": [
+    "percepção às cegas"
+  ],
+  "deslocamento": {
+    "terrestre": 9,
+    "escalar": 9
+  },
+  "atributos": {
+    "for": 6,
+    "des": 3,
+    "con": 5,
+    "int": -2,
+    "sab": 1,
+    "car": -2
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 17,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "bonus": 8,
+          "tipo": "perfuração"
+        }
+      ]
+    },
+    {
+      "nome": "Garra",
+      "bonus": 17,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 8,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19/x3",
+      "quantidade": 2
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Dilacerar",
+      "descricao": "Se acerta os dois ataques de garra na mesma criatura na mesma rodada, causa mais 2d8+8 de dano."
+    },
+    {
+      "nome": "Quebrar Tudo!",
+      "descricao": "+2 em testes de ataque para quebrar (total +21) e +1d8 de dano contra objetos."
+    },
+    {
+      "nome": "Sensibilidade a Luz",
+      "descricao": "Quando exposto à luz do sol ou similar, fica ofuscado."
+    }
+  ],
+  "tesouro": "Metade mais duas garras (CD 20 para extrair; cada garra T$ 500 em matéria-prima para armas de corte superiores)",
+  "description": "Criatura que parece um besouro humanoide com quase três metros de altura, braços terminando em ganchos pontudos. Habitante dos subterrâneos, escravizado pelos finntroll."
+}

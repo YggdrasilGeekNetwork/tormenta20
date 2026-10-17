@@ -13,7 +13,7 @@
   "energy": "positiva",
   "preferred_weapon": "Espada longa",
   "devotees": {
-    "races": ["aggelus"],
+    "races": ["aggelus", "eiradaan"],
     "classes": ["cavaleiros", "guerreiros", "inventores", "lutadores", "paladinos"]
   },
   "granted_powers": [

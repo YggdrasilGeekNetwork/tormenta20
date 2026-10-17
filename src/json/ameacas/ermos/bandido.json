@@ -1,0 +1,61 @@
+{
+  "id": "bandido",
+  "name": "Bandido",
+  "nd": 0.25,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "médio",
+  "grupo": "ermos",
+  "pv": 6,
+  "defesa": 13,
+  "salvaguardas": {
+    "fort": 1,
+    "ref": 3,
+    "von": -1
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 1,
+  "visao": [],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 1,
+    "des": 2,
+    "con": 1,
+    "int": 0,
+    "sab": -1,
+    "car": 0
+  },
+  "pericias": {
+    "furtividade": 5
+  },
+  "ataques": [
+    {
+      "nome": "Clava",
+      "bonus": 7,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 3,
+          "tipo": "impacto"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [],
+  "equipamento": [
+    "Clava"
+  ],
+  "tesouro": "metade",
+  "description": "Criminosos que operam em estradas desertas, emboscando viajantes. Individualmente fracos, mas perigosos em número."
+}

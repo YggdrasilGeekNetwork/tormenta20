@@ -1,0 +1,21 @@
+{
+  "id": "comandos_distantes",
+  "name": "Comandos Distantes",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "O alcance de suas habilidades de treinador aumenta em uma categoria (de curto para médio, de médio para longo).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "range_improvement",
+      "value": 1
+    }
+  ],
+  "costs": null
+}

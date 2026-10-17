@@ -1,0 +1,16 @@
+{
+  "id": "companheiro_animal_druida",
+  "name": "Companheiro Animal",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "Você recebe um companheiro animal. Veja o quadro a seguir para detalhes.",
+  "requirements": [
+    {
+      "type": "skill_training",
+      "sub_type": "hard",
+      "skill": "adestramento"
+    }
+  ],
+  "effects": "ver_o_livro",
+  "costs": null
+}

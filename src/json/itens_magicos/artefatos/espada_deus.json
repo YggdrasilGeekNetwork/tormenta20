@@ -1,0 +1,56 @@
+{
+  "id": "espada_deus",
+  "name": "A Espada-Deus",
+  "description": "A melhor arma já forjada por Rhond, o Deus Menor das Armas. Ela própria é cultuada como uma divindade. Fisicamente simples, com cabo de couro, guarda reta e lâmina sem adornos. Foi empunhada por incontáveis heróis e vilões e foi vista pela última vez nas mãos de Orion Drake na batalha contra a Tormenta em Tamu-ra. Apenas personagens com pelo menos 15 níveis em classes com Luta como perícia inicial podem usá-la.",
+  "effects": [
+    {
+      "type": "weapon_type",
+      "base": "espada_longa"
+    },
+    {
+      "type": "enchantment",
+      "name": "atroz"
+    },
+    {
+      "type": "enchantment",
+      "name": "precisa"
+    },
+    {
+      "type": "enchantment",
+      "name": "pungente"
+    },
+    {
+      "type": "enchantment",
+      "name": "ameaçadora"
+    },
+    {
+      "type": "enchantment",
+      "name": "magnífica"
+    },
+    {
+      "type": "enchantment",
+      "name": "veloz"
+    },
+    {
+      "type": "stat",
+      "base_damage": "2d12"
+    },
+    {
+      "type": "ignora_reducao_dano",
+      "value": "total"
+    },
+    {
+      "type": "passivo",
+      "efeito": "acertos críticos afetam criaturas imunes a críticos"
+    },
+    {
+      "type": "indestrutivel"
+    },
+    {
+      "type": "requirement",
+      "levels": 15,
+      "skill": "Luta",
+      "note": "deve ser perícia inicial da classe"
+    }
+  ]
+}

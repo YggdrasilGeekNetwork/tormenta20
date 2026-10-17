@@ -1,0 +1,39 @@
+{
+  "id": "espada_baronial",
+  "name": "Espada Baronial",
+  "base_weapon": "espada_longa",
+  "preco": 30000,
+  "description": "Esta espada longa de guarda reta fornece +1 em testes de ataque e rolagens de dano. Este bônus aumenta em +1 se você possuir um código de conduta, for devoto de Khalmyr ou for treinado em Nobreza. Os bônus são cumulativos (máximo +4).",
+  "effects": [
+    {
+      "type": "bonus_ataque",
+      "value": 1
+    },
+    {
+      "type": "bonus_dano",
+      "value": 1
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "possui código de conduta",
+      "bonus_ataque": 1,
+      "bonus_dano": 1
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "devoto de Khalmyr",
+      "bonus_ataque": 1,
+      "bonus_dano": 1
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "treinado em Nobreza",
+      "bonus_ataque": 1,
+      "bonus_dano": 1
+    },
+    {
+      "type": "limite",
+      "descricao": "bônus cumulativos, máximo +4"
+    }
+  ]
+}

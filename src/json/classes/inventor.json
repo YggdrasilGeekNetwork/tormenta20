@@ -10,23 +10,65 @@
   },
   "skills": {
     "mandatory": [
-      { "name": "Ofício", "attribute": "Int" },
-      { "name": "Vontade", "attribute": "Sab" }
+      {
+        "name": "Ofício",
+        "attribute": "Int"
+      },
+      {
+        "name": "Vontade",
+        "attribute": "Sab"
+      }
     ],
     "choose_amount": 4,
     "choose_from": [
-      { "name": "Conhecimento", "attribute": "Int" },
-      { "name": "Cura", "attribute": "Sab" },
-      { "name": "Diplomacia", "attribute": "Car" },
-      { "name": "Fortitude", "attribute": "Con" },
-      { "name": "Iniciativa", "attribute": "Des" },
-      { "name": "Investigação", "attribute": "Int" },
-      { "name": "Luta", "attribute": "For" },
-      { "name": "Misticismo", "attribute": "Int" },
-      { "name": "Ofício", "attribute": "Int" },
-      { "name": "Pilotagem", "attribute": "Des" },
-      { "name": "Percepção", "attribute": "Sab" },
-      { "name": "Pontaria", "attribute": "Des" }
+      {
+        "name": "Conhecimento",
+        "attribute": "Int"
+      },
+      {
+        "name": "Cura",
+        "attribute": "Sab"
+      },
+      {
+        "name": "Diplomacia",
+        "attribute": "Car"
+      },
+      {
+        "name": "Fortitude",
+        "attribute": "Con"
+      },
+      {
+        "name": "Iniciativa",
+        "attribute": "Des"
+      },
+      {
+        "name": "Investigação",
+        "attribute": "Int"
+      },
+      {
+        "name": "Luta",
+        "attribute": "For"
+      },
+      {
+        "name": "Misticismo",
+        "attribute": "Int"
+      },
+      {
+        "name": "Ofício",
+        "attribute": "Int"
+      },
+      {
+        "name": "Pilotagem",
+        "attribute": "Des"
+      },
+      {
+        "name": "Percepção",
+        "attribute": "Sab"
+      },
+      {
+        "name": "Pontaria",
+        "attribute": "Des"
+      }
     ]
   },
   "proficiencies": {
@@ -36,7 +78,7 @@
   },
   "abilities": [
     "engenhosidade",
-    "propotipo",
+    "prototipo",
     "fabricar_item_superior",
     "comerciante",
     "encontrar_fraqueza",
@@ -51,7 +93,7 @@
     "alquimista_iniciado",
     "armeiro",
     "ativacao_rapida",
-    "aumento_de_atributo",
+    "aumento_de_atributo_inventor",
     "automato",
     "automato_prototipado",
     "blindagem",
@@ -76,25 +118,132 @@
     "sintese_rapida"
   ],
   "progression": [
-    { "level": 1, "abilities": ["engenhosidade", "propotipo"] },
-    { "level": 2, "abilities": ["fabricar_item_superior", "poder_de_inventor"] },
-    { "level": 3, "abilities": ["comerciante", "poder_de_inventor"] },
-    { "level": 4, "abilities": ["poder_de_inventor"] },
-    { "level": 5, "abilities": ["poder_de_inventor"] },
-    { "level": 6, "abilities": ["poder_de_inventor"] },
-    { "level": 7, "abilities": ["encontrar_fraqueza", "poder_de_inventor"] },
-    { "level": 8, "abilities": ["poder_de_inventor"] },
-    { "level": 9, "abilities": ["fabricar_item_magico", "poder_de_inventor"] },
-    { "level": 10, "abilities": ["olho_do_dragao", "poder_de_inventor"] },
-    { "level": 11, "abilities": ["poder_de_inventor"] },
-    { "level": 12, "abilities": ["poder_de_inventor"] },
-    { "level": 13, "abilities": ["poder_de_inventor"] },
-    { "level": 14, "abilities": ["poder_de_inventor"] },
-    { "level": 15, "abilities": ["poder_de_inventor"] },
-    { "level": 16, "abilities": ["poder_de_inventor"] },
-    { "level": 17, "abilities": ["poder_de_inventor"] },
-    { "level": 18, "abilities": ["poder_de_inventor"] },
-    { "level": 19, "abilities": ["poder_de_inventor"] },
-    { "level": 20, "abilities": ["obra_prima", "poder_de_inventor"] }
+    {
+      "level": 1,
+      "abilities": [
+        "engenhosidade",
+        "prototipo"
+      ]
+    },
+    {
+      "level": 2,
+      "abilities": [
+        "fabricar_item_superior",
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 3,
+      "abilities": [
+        "comerciante",
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 4,
+      "abilities": [
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 5,
+      "abilities": [
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 6,
+      "abilities": [
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 7,
+      "abilities": [
+        "encontrar_fraqueza",
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 8,
+      "abilities": [
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 9,
+      "abilities": [
+        "fabricar_item_magico",
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 10,
+      "abilities": [
+        "olho_do_dragao",
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 11,
+      "abilities": [
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 12,
+      "abilities": [
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 13,
+      "abilities": [
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 14,
+      "abilities": [
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 15,
+      "abilities": [
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 16,
+      "abilities": [
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 17,
+      "abilities": [
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 18,
+      "abilities": [
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 19,
+      "abilities": [
+        "poder_de_inventor"
+      ]
+    },
+    {
+      "level": 20,
+      "abilities": [
+        "obra_prima",
+        "poder_de_inventor"
+      ]
+    }
   ]
 }

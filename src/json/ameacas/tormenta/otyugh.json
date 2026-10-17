@@ -1,0 +1,96 @@
+{
+  "id": "otyugh",
+  "name": "Otyugh",
+  "nd": 5,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "tormenta",
+  "pv": 213,
+  "defesa": 24,
+  "salvaguardas": {
+    "fort": 17,
+    "ref": 11,
+    "von": 5
+  },
+  "reducao_de_dano": 5,
+  "imunidades": [
+    "doenças",
+    "veneno"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 10,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 6
+  },
+  "atributos": {
+    "for": 5,
+    "des": -1,
+    "con": 4,
+    "int": -2,
+    "sab": 1,
+    "car": -2
+  },
+  "pericias": {
+    "furtividade": 3
+  },
+  "ataques": [
+    {
+      "nome": "Tentáculo",
+      "bonus": 17,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 9,
+          "tipo": "impacto"
+        }
+      ],
+      "quantidade": 2
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 17,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 9,
+          "tipo": "perfuração"
+        }
+      ],
+      "efeito": "doença"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Agarrar Aprimorado",
+      "acao": "livre",
+      "descricao": "Se acerta tentáculo, pode usar agarrar (teste +19). Alcance de 4,5m."
+    },
+    {
+      "nome": "Constrição",
+      "acao": "livre",
+      "descricao": "No início de cada turno, causa 1d8+9 de impacto na criatura agarrada."
+    },
+    {
+      "nome": "Doença",
+      "descricao": "Mordida expõe à doença infecção do esgoto."
+    }
+  ],
+  "tesouro": "padrão",
+  "description": "Monstro disforme e repugnante que surge em lugares maculados pela Tormenta — pântanos, esgotos, masmorras. Seu único propósito é devorar tudo em seu caminho."
+}

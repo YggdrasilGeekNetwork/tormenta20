@@ -1,0 +1,66 @@
+{
+  "id": "gargula",
+  "name": "Gárgula",
+  "nd": 2,
+  "tipo": "Construto",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "masmorras",
+  "pv": 65,
+  "defesa": 19,
+  "salvaguardas": {
+    "fort": 13,
+    "ref": 7,
+    "von": 2
+  },
+  "reducao_de_dano": 5,
+  "imunidades": [
+    "condição petrificado"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 3,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 12,
+    "voo": 18
+  },
+  "atributos": {
+    "for": 6,
+    "des": 2,
+    "con": 4,
+    "int": -2,
+    "sab": 1,
+    "car": -2
+  },
+  "ataques": [
+    {
+      "nome": "Garra",
+      "bonus": 12,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 6,
+          "tipo": "corte"
+        }
+      ],
+      "quantidade": 2
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Imobilidade",
+      "descricao": "Pode permanecer completamente imóvel. Um personagem deve passar em Percepção CD 35 para perceber que é uma criatura e não uma estátua."
+    }
+  ],
+  "tesouro": "padrão",
+  "description": "Predadores furtivos de pedra que se disfarçam de estátuas em ruínas e catedrais, mergulhando sobre vítimas desavisadas."
+}

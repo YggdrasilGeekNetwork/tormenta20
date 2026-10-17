@@ -1,0 +1,26 @@
+{
+  "id": "lingua_do_deserto",
+  "name": "Língua do Deserto",
+  "base_weapon": "cimitarra",
+  "preco": 90000,
+  "description": "Esta cimitarra formidável é originária do Deserto da Perdição. Você pode gastar uma ação de movimento e 1 PM para transformar a lâmina dela em chamas até o fim da cena. Nessa condição, o dano da arma aumenta em um passo e passa a ser do tipo fogo. Você pode gastar uma ação de movimento e 2 PM para fazer as chamas brilharem com muita força, deixando os inimigos em alcance curto desprevenidos por uma rodada.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 1,
+      "frequencia": "sustentada",
+      "efeito": "dano da arma aumenta um passo e passa a ser do tipo fogo"
+    },
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 2,
+      "efeito": "chamas brilham; inimigos em alcance curto ficam desprevenidos por uma rodada"
+    }
+  ]
+}

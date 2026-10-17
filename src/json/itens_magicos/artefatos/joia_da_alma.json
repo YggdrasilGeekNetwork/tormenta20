@@ -1,0 +1,33 @@
+{
+  "id": "joia_da_alma",
+  "name": "A Joia da Alma",
+  "description": "Um resíduo da inexistência que precede a Criação, manifestado como gema lapidada com vinte faces iguais — as mesmas faces dos vinte deuses primordiais. Quem a toca tem seu passado esmiuçado e recupera todas as memórias de sua vida. Portar por muito tempo corrói a sanidade. Gema indestrutível e semitransparente.",
+  "effects": [
+    {
+      "type": "bonus_atributo",
+      "atributo": "inteligencia",
+      "value": 3,
+      "condicao": "após um dia de uso"
+    },
+    {
+      "type": "reducao_custo_pm_magia",
+      "value": "total",
+      "condicao": "mago memoriza magias; aprimoramentos ainda custam PM"
+    },
+    {
+      "type": "hazard",
+      "resistencia": "Vontade CD 25",
+      "efeito": "falha: atordoado por uma rodada e larga o artefato"
+    },
+    {
+      "type": "hazard",
+      "gatilho": "início de cada dia de uso",
+      "aumento_cd": 1,
+      "escalada": [
+        "frustrado",
+        "esmorecido",
+        "perde a sanidade (vira NPC)"
+      ]
+    }
+  ]
+}

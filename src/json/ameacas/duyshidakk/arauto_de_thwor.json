@@ -1,0 +1,75 @@
+{
+  "id": "arauto_de_thwor",
+  "name": "Arauto de Thwor",
+  "nd": 4,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "médio",
+  "grupo": "duyshidakk",
+  "pv": 135,
+  "pm": 26,
+  "defesa": 23,
+  "salvaguardas": {
+    "fort": 10,
+    "ref": 4,
+    "von": 16
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 8,
+  "visao": [],
+  "deslocamento": {
+    "terrestre": 6
+  },
+  "atributos": {
+    "for": 3,
+    "des": 1,
+    "con": 3,
+    "int": 0,
+    "sab": 4,
+    "car": 0
+  },
+  "pericias": {
+    "intimidacao": 9,
+    "religiao": 8
+  },
+  "ataques": [
+    {
+      "nome": "Machado de guerra",
+      "bonus": 16,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 3,
+              "faces": 6
+            }
+          ],
+          "bonus": 12,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "O Mundo como Ele É",
+      "acao": "reação",
+      "descricao": "Quando erra um ataque, pode repetir o teste. Pode usar uma vez contra cada oponente por cena."
+    },
+    {
+      "nome": "Magias (clérigo Thwor 4º, CD 18)",
+      "descricao": "Amedrontar (3 PM, Von reduz para abalado), Curar Ferimentos (4 PM, 5d8+5 PV), Perdição (1 PM, –1 ataque/dano até fim da cena)."
+    }
+  ],
+  "equipamento": [
+    "Machado de guerra",
+    "símbolo sagrado de Thwor"
+  ],
+  "tesouro": "padrão",
+  "description": "Humano que abraçou a causa dos duyshidakk e serve Thwor. Crê na visão do Mundo Como Deve Ser."
+}

@@ -1,0 +1,22 @@
+{
+  "id": "escudo_de_azgher",
+  "name": "Escudo de Azgher",
+  "subtipo": "escudo",
+  "base_item": "escudo_pesado",
+  "preco": 140000,
+  "description": "Este escudo pesado guardião é forjado na forma de um sol estilizado. Você pode gastar uma ação padrão e 10 PM para fazê-lo emitir uma luz brilhante e quente num cone com alcance curto. A luz gera os efeitos da magia Visão da Verdade e causa 6d6 de fogo em seus inimigos (mortos-vivos e criaturas vulneráveis a luz solar sofrem 6d8). Você pode gastar 1 PM no início de cada turno para manter a luz.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "guardião"
+    },
+    {
+      "type": "ativado",
+      "acao": "padrão",
+      "custo_pm": 10,
+      "frequencia": "sustentada com 1 PM/turno",
+      "area": "cone alcance curto",
+      "efeito": "gera o efeito da magia Visão da Verdade e causa 6d6 de fogo em inimigos (6d8 contra mortos-vivos e criaturas vulneráveis a luz solar)"
+    }
+  ]
+}

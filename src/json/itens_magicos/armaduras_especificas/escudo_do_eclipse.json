@@ -1,0 +1,32 @@
+{
+  "id": "escudo_do_eclipse",
+  "name": "Escudo do Eclipse",
+  "subtipo": "escudo",
+  "base_item": "escudo_pesado",
+  "preco": 70000,
+  "description": "Este escudo pesado defensor é completamente negro e parece absorver a luz. Ele fornece redução de trevas 10 e causa +1d8 de dano de trevas num ataque. Além disso, você pode gastar uma ação de movimento e 2 PM para lançar Escuridão.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensor"
+    },
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "tipo_dano": "trevas"
+    },
+    {
+      "type": "dano_extra",
+      "dados": "1d8",
+      "tipo_dano": "trevas",
+      "automatico": true,
+      "condicao": "em um ataque"
+    },
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 2,
+      "efeito": "lança Escuridão"
+    }
+  ]
+}

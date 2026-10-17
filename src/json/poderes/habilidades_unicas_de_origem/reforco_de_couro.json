@@ -1,0 +1,20 @@
+{
+  "id": "reforco_de_couro",
+  "name": "Reforço de Couro",
+  "origin": "coureiro",
+  "description": "Você pode gastar 10 minutos e T$ 10 para trabalhar em uma armadura de couro (incluindo couro batido, gibão de peles e brunea), aumentar a Defesa dela em +1 e reduzir sua penalidade de armadura em –2 por um dia.",
+  "effects": {
+    "active_ability": {
+      "cost": {
+        "time": "10 minutos",
+        "money": "T$ 10"
+      },
+      "target": "armadura de couro (couro batido, gibão de peles ou brunea)",
+      "effect": {
+        "defense_bonus": 1,
+        "armor_penalty_reduction": 2
+      },
+      "duration": "1 dia"
+    }
+  }
+}

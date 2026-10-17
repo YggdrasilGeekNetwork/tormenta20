@@ -1,0 +1,19 @@
+{
+  "id": "couro_de_monstro",
+  "name": "Couro de Monstro",
+  "subtipo": "armadura",
+  "base_item": "gibao_de_peles",
+  "preco": 36000,
+  "description": "Usado por chefes bárbaros das Montanhas Sanguinárias, este gibão de peles defensor é feito do couro de monstros, como basiliscos e serpes. Se você usar o poder Ataque Poderoso ou fizer uma investida, recebe um bônus de +2d6 nas rolagens de dano.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensor"
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "usa o poder Ataque Poderoso ou faz uma investida",
+      "dano_extra": "2d6"
+    }
+  ]
+}

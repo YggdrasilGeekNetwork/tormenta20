@@ -1,0 +1,85 @@
+{
+  "id": "hobgoblin_soldado",
+  "name": "Hobgoblin Soldado",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "hobgoblin",
+  "tamanho": "médio",
+  "grupo": "duyshidakk",
+  "pv": 18,
+  "defesa": 19,
+  "salvaguardas": {
+    "fort": 12,
+    "ref": 7,
+    "von": 3
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 1,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 6
+  },
+  "atributos": {
+    "for": 4,
+    "des": 2,
+    "con": 1,
+    "int": 0,
+    "sab": 0,
+    "car": -1
+  },
+  "pericias": {
+    "oficio_armeiro": 2
+  },
+  "ataques": [
+    {
+      "nome": "Espada longa",
+      "bonus": 15,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 15,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19"
+    },
+    {
+      "nome": "Arco longo (à distância)",
+      "bonus": 11,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 6,
+          "tipo": "perfuração"
+        }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [],
+  "equipamento": [
+    "Arco longo",
+    "cota de malha",
+    "escudo pesado",
+    "espada longa",
+    "flechas x20"
+  ],
+  "tesouro": "padrão",
+  "description": "Os mais militaristas entre os duyshidakk. Lutam de forma inteligente e organizada com equipamento de alta qualidade."
+}

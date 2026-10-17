@@ -15,7 +15,7 @@
   "energy": "qualquer",
   "preferred_weapon": "Katana",
   "devotees": {
-    "races": ["anões"],
+    "races": ["anões", "kaijin", "kappa", "mashin", "tengu"],
     "classes": ["cavaleiros", "guerreiros", "nobres", "paladinos"]
   },
   "granted_powers": [

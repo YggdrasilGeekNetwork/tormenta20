@@ -1,0 +1,16 @@
+{
+  "id": "mistura_basica",
+  "name": "Mistura Básica",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "A partir do 3º nível, você pode usar catalisadores em itens alquímicos como se fossem magias.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 3
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

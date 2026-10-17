@@ -1,0 +1,81 @@
+{
+  "id": "urso_coruja",
+  "name": "Urso-Coruja",
+  "nd": 4,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "ermos",
+  "pv": 145,
+  "defesa": 23,
+  "salvaguardas": {
+    "fort": 16,
+    "ref": 10,
+    "von": 5
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 5,
+  "visao": [
+    "faro",
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 12
+  },
+  "atributos": {
+    "for": 7,
+    "des": 3,
+    "con": 5,
+    "int": -4,
+    "sab": 1,
+    "car": -2
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 16,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 5,
+          "tipo": "perfuração"
+        }
+      ]
+    },
+    {
+      "nome": "Garra",
+      "bonus": 15,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 5,
+          "tipo": "corte"
+        }
+      ],
+      "quantidade": 2
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Agarrar Aprimorado",
+      "acao": "livre",
+      "descricao": "Se acerta um ataque de garra, pode usar agarrar (teste +18)."
+    }
+  ],
+  "tesouro": "nenhum",
+  "description": "Criatura agressiva com corpo de urso coberto de penas e cabeça de coruja. Criada por um mago insano, hoje se espalhou pelos ermos de Arton."
+}

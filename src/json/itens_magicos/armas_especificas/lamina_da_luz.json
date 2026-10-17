@@ -1,0 +1,20 @@
+{
+  "id": "lamina_da_luz",
+  "name": "Lâmina da Luz",
+  "base_weapon": "espada_bastarda",
+  "preco": 45000,
+  "description": "De lâmina prateada e reluzente, esta espada bastarda formidável é concedida a cavaleiros da Luz de honra e virtude comprovadas. Você pode gastar uma ação de movimento e 2 PM para erguer a lâmina da luz acima de sua cabeça. Se fizer isso, ela irradia luz brilhante em alcance médio até o fim da cena. Todos os inimigos dentro da luz ficam ofuscados.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 2,
+      "frequencia": "ate_fim_da_cena",
+      "efeito": "irradia luz brilhante em alcance médio; inimigos na luz ficam ofuscados"
+    }
+  ]
+}

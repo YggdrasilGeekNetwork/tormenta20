@@ -1,0 +1,40 @@
+{
+  "id": "arco_do_poder",
+  "name": "Arco do Poder",
+  "base_weapon": "arco_longo",
+  "preco": 90000,
+  "description": "O arco do poder conta como um arco longo formidável, mas parece apenas o corpo de um arco — não tem corda e não aceita flechas. Quando você o empunha e faz o gesto de puxar a corda inexistente, o arco cria uma corda e uma flecha de energia dourada. O arco do poder é capaz de ler suas intenções, produzindo diferentes tipos de flechas energéticas a sua escolha: Flecha Normal (3d8 essência), Flecha Piedosa (4d8 essência não letal), Flecha Explosiva (3d6 fogo no alvo e adjacentes; Ref CD Des reduz à metade), Flecha-Rede (agarrada por rede de energia; Força ou Acrobacia CD 25 para se soltar).",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "municao_especial",
+      "nome": "flecha_normal",
+      "dados": "3d8",
+      "tipo_dano": "essência"
+    },
+    {
+      "type": "municao_especial",
+      "nome": "flecha_piedosa",
+      "dados": "4d8",
+      "tipo_dano": "essência",
+      "dano_nao_letal": true
+    },
+    {
+      "type": "municao_especial",
+      "nome": "flecha_explosiva",
+      "dados": "3d6",
+      "tipo_dano": "fogo",
+      "area": "alvo + adjacentes",
+      "resistencia": "Reflexos CD Des reduz à metade"
+    },
+    {
+      "type": "municao_especial",
+      "nome": "flecha_rede",
+      "efeito": "agarrada",
+      "escape": "Força ou Acrobacia CD 25"
+    }
+  ]
+}

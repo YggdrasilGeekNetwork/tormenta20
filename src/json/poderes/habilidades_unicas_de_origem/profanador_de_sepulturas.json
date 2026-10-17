@@ -1,0 +1,22 @@
+{
+  "id": "profanador_de_sepulturas",
+  "name": "Profanador de Sepulturas",
+  "origin": "ladrao_de_tumulos",
+  "description": "Você recebe +2 na Defesa e em testes de perícia contra mortos-vivos. Além disso, recebe redução de trevas 5 (ou, se for um morto-vivo, recupera +1 PV por dado de dano de trevas).",
+  "effects": {
+    "conditional_bonuses": [
+      {
+        "condition": "contra mortos-vivos",
+        "defense": 2,
+        "skill_tests": 2
+      }
+    ],
+    "damage_reduction": {
+      "type": "trevas",
+      "value": 5
+    },
+    "undead_alternative": {
+      "effect": "recupera +1 PV por dado de dano de trevas em vez da redução de dano"
+    }
+  }
+}

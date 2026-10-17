@@ -6,5 +6,15 @@
   "roll_min": 39,
   "roll_max": 42,
   "description": "Este par de brincos brancos é abençoado pela Deusa da Paz. A primeira criatura que o atacar em uma cena deve fazer um teste de Vontade (CD Car). Se falhar, perderá a ação. Se você atacar uma criatura, o efeito dos brincos é cancelado por um dia. Se você possuir Aparência Inofensiva (ou um poder similar) os efeitos acumulam, afetando as duas primeiras criaturas que o atacarem em uma cena.",
-  "efeito": {}
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": null,
+      "custo_pm": 0,
+      "frequencia": "uma_vez_por_cena",
+      "gatilho": "primeira criatura que o atacar na cena",
+      "resistencia": "Vontade CD Car",
+      "efeito": "se a atacante falhar, perde a ação; se você atacar, o efeito é cancelado por um dia; com Aparência Inofensiva (ou similar), afeta as duas primeiras criaturas que o atacarem"
+    }
+  ]
 }

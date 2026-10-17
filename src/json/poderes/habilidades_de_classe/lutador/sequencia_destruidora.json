@@ -1,0 +1,26 @@
+{
+  "id": "sequencia_destruidora",
+  "name": "Sequência Destruidora",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "No início do seu turno, você pode gastar 2 PM para dizer um número (no mínimo 2). Se fizer e acertar uma quantidade de ataques igual ao número dito, o último tem seu dano aumentado um número de passos igual à quantidade de ataques feitos. Por exemplo, se você falar “três\" e fizer e acertar três ataques, o último ataque (o terceiro) terá seu dano aumentado em três passos.",
+  "requirements": [
+     {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 12
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "trocacao"
+    }
+  ],
+  "effects": "vert_texto",
+  "costs": [
+    {
+    "value": 2,
+    "type": "PM"
+    }
+  ]
+}

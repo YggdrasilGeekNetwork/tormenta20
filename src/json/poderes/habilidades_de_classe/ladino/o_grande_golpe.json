@@ -1,0 +1,16 @@
+{
+  "id": "o_grande_golpe",
+  "name": "O Grande Golpe",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_ladino",
+  "description": "No 20º nível, no início de cada aventura, você pode escolher uma quantidade de magias, arcanas ou divinas, igual à sua Inteligência (você pode escolher a mesma magia mais de uma vez). Para cada escolha feita, defina um tipo de cena entre ação, exploração e interpretação. Até o fim da aventura, para cada vez que uma magia foi escolhida, se estiver em uma cena do tipo definido para ela, você pode lançá-la sem gastar PM (limite de PM 20, atributo-chave Inteligência). Esta não é uma habilidade mágica e provém da sua capacidade de enganar outras pessoas (veja 'Magias Simuladas').",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 20
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

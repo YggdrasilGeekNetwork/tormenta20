@@ -13,8 +13,8 @@
   "energy": "qualquer",
   "preferred_weapon": "Tridente",
   "devotees": {
-    "races": ["dahllan", "hynne", "minotauros", "sereias", "tritões"],
-    "classes": ["bárbaros", "bucaneiros", "caçadores", "druidas"]
+    "races": ["dahllan", "elfos-do-mar", "hynne", "kappa", "minotauros", "sereias", "tritões"],
+    "classes": ["bárbaros", "bucaneiros", "caçadores", "druidas", "treinadores"]
   },
   "granted_powers": [
     "anfibio",

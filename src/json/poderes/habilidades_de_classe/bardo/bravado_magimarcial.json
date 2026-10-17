@@ -1,0 +1,21 @@
+{
+  "id": "bravado_magimarcial",
+  "name": "Bravado Magimarcial",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "No 2º nível, quando lança uma magia, você pode gastar 1 carga marcial para reduzir seu custo em -1 PM (cumulativo com outras reduções). Quando faz um ataque, pode gastar 1 carga arcana para receber +1d6 na rolagem de dano.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "cadencia_magimarcial"
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

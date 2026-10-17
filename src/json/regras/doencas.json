@@ -1,0 +1,82 @@
+{
+  "id": "doencas",
+  "name": "Doenças",
+  "description": "Uma doença pode ser transmitida por contato, inalação ou ingestão (mesmos métodos que venenos). Um personagem exposto deve fazer um teste de Fortitude (CD conforme a doença). Se falhar, é contaminado — mas ainda não sofre nenhum efeito. Contaminação não é cumulativa.",
+  "mecanica": {
+    "transmissao": "Contato, inalação ou ingestão (veja regras de venenos para cada tipo).",
+    "exposicao": "Teste de Fortitude (CD conforme a doença). Falha = contaminado (sem efeito imediato). Sucesso = não contrai a doença.",
+    "progressao": "Um personagem contaminado repete o teste de Fortitude no início de cada dia. Se falhar, sofre o efeito da doença naquele dia. Doenças com efeitos progressivos (denotados por '/') aplicam o próximo estágio a cada falha consecutiva. Um sucesso regride o personagem ao estágio anterior.",
+    "cura": "Passar em dois testes de Fortitude seguidos cura a doença (salvo indicação contrária).",
+    "nota_progressao": "Se falhar no primeiro teste, sofre o 1º efeito. Se falhar em dois seguidos, sofre o 2º efeito. Se passar após ter falhado, regressa ao efeito anterior."
+  },
+  "lista": [
+    {
+      "id": "calafrio_diabolico",
+      "name": "Calafrio Diabólico",
+      "descricao": "Causa fraqueza e, em casos graves, coma e morte.",
+      "transmissao": "contato",
+      "cd": 25,
+      "efeitos_progressivos": ["fraca", "debilitada", "inconsciente", "morre"]
+    },
+    {
+      "id": "febre_do_riso",
+      "name": "Febre do Riso",
+      "descricao": "Causa surtos de agitação e, em casos graves, loucura.",
+      "transmissao": "inalacao",
+      "cd": 20,
+      "efeitos_progressivos": ["frustrada", "esmorecida", "confusa"],
+      "nota": "A condição se ativa no início de cada cena."
+    },
+    {
+      "id": "febre_mental",
+      "name": "Febre Mental",
+      "descricao": "Causa enxaquecas e torpor.",
+      "transmissao": "inalacao",
+      "cd": 20,
+      "efeitos_progressivos": ["frustrada", "esmorecida", "alquebrada"]
+    },
+    {
+      "id": "infeccao_do_esgoto",
+      "name": "Infecção do Esgoto",
+      "descricao": "Transmitida por ratos gigantes, otyughs e outros seres imundos. Uma pessoa ferida que passe por lugares imundos também pode contrair esta doença.",
+      "transmissao": "contato",
+      "cd": 15,
+      "efeitos_progressivos": ["fraca", "debilitada"]
+    },
+    {
+      "id": "maldicao_pegajosa",
+      "name": "Maldição Pegajosa",
+      "descricao": "Transforma os órgãos internos em uma massa disforme.",
+      "transmissao": "contato",
+      "cd": 20,
+      "efeitos_progressivos": ["perde 1d12 PV", "perde 2d12 PV", "perde 4d12 PV"],
+      "cura_especial": "A vítima deve passar em três testes de Fortitude seguidos para se curar."
+    },
+    {
+      "id": "molestia_demoniaca",
+      "name": "Moléstia Demoníaca",
+      "descricao": "Causa danos internos e, em casos graves, sequelas permanentes e morte.",
+      "transmissao": "contato",
+      "cd": 20,
+      "efeitos_progressivos": ["perde 1d12 PV", "perde 2d12 PV", "perde 1 de Constituição*", "morre"],
+      "nota": "*Perda permanente (mas você só pode perder 1 ponto de atributo por uma mesma doença)."
+    },
+    {
+      "id": "tremores",
+      "name": "Tremores",
+      "descricao": "Causa tremedeira e convulsões.",
+      "transmissao": "contato",
+      "cd": 15,
+      "efeitos_progressivos": ["vulnerável"]
+    },
+    {
+      "id": "variola",
+      "name": "Varíola",
+      "descricao": "Causa febre e vômitos. Em casos graves, forma úlceras e erupções na pele que deixam cicatrizes, podendo levar à morte.",
+      "transmissao": "inalacao",
+      "cd": 20,
+      "efeitos_progressivos": ["enjoada", "debilitada", "perde 1 de Carisma*", "morre"],
+      "nota": "*Perda permanente (mas você só pode perder 1 ponto de atributo por uma mesma doença)."
+    }
+  ]
+}

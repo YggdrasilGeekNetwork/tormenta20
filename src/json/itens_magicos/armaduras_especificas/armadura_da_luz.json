@@ -1,0 +1,27 @@
+{
+  "id": "armadura_da_luz",
+  "name": "Armadura da Luz",
+  "subtipo": "armadura",
+  "base_item": "armadura_completa",
+  "preco": 150000,
+  "description": "Esta armadura completa banhada a ouro reforçada guardiã zelosa possui o símbolo de Khalmyr gravado no peitoral. Se você possuir um código de conduta (de honra, do herói...) ou for devoto de uma divindade que canaliza apenas energia positiva, recebe redução de dano igual ao seu Carisma.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "reforçada"
+    },
+    {
+      "type": "enchantment",
+      "name": "guardiã"
+    },
+    {
+      "type": "enchantment",
+      "name": "zelosa"
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "possui código de conduta ou é devoto de divindade de energia positiva",
+      "efeito": "redução de dano igual ao seu Carisma"
+    }
+  ]
+}

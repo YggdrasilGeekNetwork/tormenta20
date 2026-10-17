@@ -1,0 +1,111 @@
+{
+  "id": "dragao_rei",
+  "name": "Dragão-Rei",
+  "nd": 20,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "colossal",
+  "grupo": "dragoes",
+  "pv": 1400,
+  "defesa": 62,
+  "pm": 120,
+  "salvaguardas": {
+    "fort": 34,
+    "ref": 20,
+    "von": 28
+  },
+  "reducao_de_dano": 20,
+  "resistencia_a_magia": 5,
+  "imunidades": [
+    "fogo"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [
+    "frio"
+  ],
+  "iniciativa": 19,
+  "percepcao": 27,
+  "visao": [
+    "percepção às cegas",
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 12,
+    "voo": 24
+  },
+  "atributos": {
+    "for": 17,
+    "des": 0,
+    "con": 12,
+    "int": 7,
+    "sab": 7,
+    "car": 7
+  },
+  "pericias": {
+    "enganacao": 26,
+    "intimidacao": 26,
+    "intuicao": 26,
+    "misticismo": 26
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 45,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 6,
+              "faces": 12
+            }
+          ],
+          "bonus": 35,
+          "tipo": "perfuração"
+        }
+      ],
+      "critico": "17"
+    },
+    {
+      "nome": "Garra",
+      "bonus": 45,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 4,
+              "faces": 12
+            }
+          ],
+          "bonus": 35,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "17",
+      "quantidade": 2
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Aura Aterradora",
+      "descricao": "Vontade CD alta evita. Criaturas que falhem ficam abaladas ou em pânico.",
+      "salvaguarda": "Vontade",
+      "efeito_sucesso": "evita"
+    },
+    {
+      "nome": "Magia",
+      "descricao": "Lança magias como conjurador arcano de 20º nível."
+    },
+    {
+      "nome": "Sopro",
+      "acao": "padrão",
+      "descricao": "Cone enorme de fogo devastador. Recarga (movimento)."
+    },
+    {
+      "nome": "Varrer",
+      "acao": "livre",
+      "descricao": "Uma vez por rodada, quando reduz um alvo a 0 PV, pode fazer um ataque adicional contra outra criatura no alcance."
+    }
+  ],
+  "tesouro": "dobro e 6 peças de couro de dragão (CD 35 para extrair)",
+  "description": "O mais poderoso dos dragões de Arton, inferior apenas aos próprios deuses. Sua mera presença aterroriza exércitos inteiros. Apenas os heróis mais lendários ousam enfrentá-lo."
+}

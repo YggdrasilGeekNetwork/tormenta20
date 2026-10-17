@@ -1,0 +1,82 @@
+{
+  "id": "troll",
+  "name": "Troll",
+  "nd": 5,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "trolls_nobres",
+  "pv": 165,
+  "defesa": 23,
+  "salvaguardas": {
+    "fort": 14,
+    "ref": 10,
+    "von": 6
+  },
+  "cura_acelerada": "15 (exceto ácido ou fogo)",
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 4,
+  "percepcao": 3,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 6,
+    "des": 2,
+    "con": 6,
+    "int": -2,
+    "sab": -1,
+    "car": -2
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 17,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 6,
+          "tipo": "perfuração"
+        }
+      ]
+    },
+    {
+      "nome": "Garra",
+      "bonus": 17,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 6,
+          "tipo": "corte"
+        }
+      ],
+      "quantidade": 2
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Dilacerar",
+      "descricao": "Se acerta os dois ataques de garra na mesma criatura na mesma rodada, causa mais 2d6+6 de dano."
+    },
+    {
+      "nome": "Cura Acelerada",
+      "descricao": "Regenera 15 PV por rodada, exceto dano de ácido ou fogo."
+    }
+  ],
+  "tesouro": "padrão",
+  "description": "Monstro feito de matéria vegetal, alto e magro como uma árvore com pele verde e verruguenta. Voraz e difícil de matar graças à regeneração; apenas ácido ou fogo impede a cura."
+}

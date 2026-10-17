@@ -2,10 +2,16 @@
   "id": "ajustada",
   "name": "Ajustada",
   "type": "melhoria",
-  "categoria": ["armadura", "escudo"],
-  "efeito": {
-    "reducao_penalidade_armadura": 1
-  },
+  "categoria": [
+    "armadura",
+    "escudo"
+  ],
   "prerequisitos": null,
-  "description": "Feito com peças medidas com precisão, o item tem a sua penalidade de armadura diminuída em 1."
+  "description": "Feito com peças medidas com precisão, o item tem a sua penalidade de armadura diminuída em 1.",
+  "effects": [
+    {
+      "type": "reducao_penalidade_armadura",
+      "value": 1
+    }
+  ]
 }

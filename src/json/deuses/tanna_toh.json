@@ -15,7 +15,7 @@
   "energy": "qualquer",
   "preferred_weapon": "Bordão",
   "devotees": {
-    "races": ["golens", "kliren"],
+    "races": ["golens", "kliren", "mashin", "tengu"],
     "classes": ["arcanistas", "bardos", "inventores", "nobres", "paladinos"]
   },
   "granted_powers": [

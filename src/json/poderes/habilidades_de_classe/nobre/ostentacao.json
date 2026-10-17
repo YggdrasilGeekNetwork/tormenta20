@@ -1,0 +1,16 @@
+{
+  "id": "ostentacao",
+  "name": "Ostentação",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "A partir do 5º nível, você pode se beneficiar de um item vestido adicional. Além disso, a CD para resistir às suas habilidades de burguês aumenta em +1 se você possuir um item banhado a ouro, cravejado de gemas ou de mitral. Esse aumento é cumulativo; possuir três itens diferentes com as três modificações aumenta a CD em +3.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

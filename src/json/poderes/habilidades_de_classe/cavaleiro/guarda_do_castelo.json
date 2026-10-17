@@ -1,0 +1,25 @@
+{
+  "id": "guarda_do_castelo",
+  "name": "Guarda do Castelo",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "No 4º nível, você já patrulha as muralhas do castelo sozinho. Você se torna treinado em Intuição e recebe um poder de cavaleiro a sua escolha.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 4
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_training",
+      "skill": "intuicao"
+    },
+    {
+      "type": "receive_feature",
+      "feature": "poder_de_cavaleiro_a_escolha"
+    }
+  ],
+  "costs": null
+}

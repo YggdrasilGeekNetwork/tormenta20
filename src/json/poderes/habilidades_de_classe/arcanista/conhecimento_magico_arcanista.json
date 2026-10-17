@@ -1,0 +1,14 @@
+{
+  "id": "conhecimento_magico_arcanista",
+  "name": "COnhecimento Mágico",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_arcanista",
+  "description": "Você aprende duas magias de qualquer círculo que possa lançar. Você pode escolher este poder quantas vezes quiser.",
+  "requirements": null,
+  "effects": [
+    {
+      "type": "learn_magic",
+      "value": 2
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "lingua_das_criaturas",
+  "name": "Língua das Criaturas",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Você pode se comunicar com criaturas não inteligentes (Int –4 ou –5) por meio de linguagem corporal e vocalizações. Você pode usar Adestramento com essas criaturas para mudar atitude e persuasão (Tormenta20, p. 118).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "communication",
+      "target": "criaturas_nao_inteligentes",
+      "skill_use": "adestramento_para_atitude_e_persuasao"
+    }
+  ],
+  "costs": null
+}

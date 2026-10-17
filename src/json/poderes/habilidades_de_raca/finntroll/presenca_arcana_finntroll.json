@@ -1,0 +1,11 @@
+{
+  "id": "presenca_arcana_finntroll",
+  "name": "Presença Arcana",
+  "type": "habilidade_de_raca",
+  "race": "finntroll",
+  "description": "Você recebe +2 em Misticismo e resistência a magia +2.",
+  "effects": {
+    "pericia_bonus": { "misticismo": 2 },
+    "resistencia_a_magia": 2
+  }
+}

@@ -15,24 +15,46 @@
     "escudo": 1500,
     "esoterico": 3000
   },
-  "efeitos": {
-    "arma": {
-      "aumento_margem_ameaca": 1
-    },
-    "armadura_leve": {
-      "reducao_penalidade_armadura": 2
-    },
-    "armadura_pesada": {
-      "reducao_penalidade_armadura": 2,
-      "aplica_destreza_defesa": 2
-    },
-    "escudo": {
-      "reducao_penalidade_armadura": 2
-    },
-    "esoterico": {
-      "custo_extra_pm": 2,
-      "aumento_cd_magia": 2
-    }
-  },
-  "description": "Metal raro e valioso, o mitral é prateado, brilhante e mais leve que aço. Itens de mitral ocupam –1 espaço (mínimo 1)."
+  "description": "Metal raro e valioso, o mitral é prateado, brilhante e mais leve que aço. Itens de mitral ocupam –1 espaço (mínimo 1).",
+  "effects": {
+    "arma": [
+      {
+        "type": "margem_ameaca",
+        "value": 1
+      }
+    ],
+    "armadura_leve": [
+      {
+        "type": "reducao_penalidade_armadura",
+        "value": 2
+      }
+    ],
+    "armadura_pesada": [
+      {
+        "type": "reducao_penalidade_armadura",
+        "value": 2
+      },
+      {
+        "type": "aplica_atributo_defesa",
+        "atributo": "destreza",
+        "value": 2
+      }
+    ],
+    "escudo": [
+      {
+        "type": "reducao_penalidade_armadura",
+        "value": 2
+      }
+    ],
+    "esoterico": [
+      {
+        "type": "custo_extra_pm",
+        "value": 2
+      },
+      {
+        "type": "aumento_cd_magia",
+        "value": 2
+      }
+    ]
+  }
 }

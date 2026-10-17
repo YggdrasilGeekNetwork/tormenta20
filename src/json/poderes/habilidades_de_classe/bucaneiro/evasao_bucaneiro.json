@@ -1,0 +1,21 @@
+{
+  "id": "evasao_bucaneiro",
+  "name": "Evasão",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bucaneiro",
+  "description": "A partir do 2º nível, quando sofre um ataque que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste de Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.",
+  "requirements": [
+    {
+      "type": "free_moviment",
+      "sub_type": "soft"
+    }
+  ],
+  "effects": [
+    {
+      "type": "reduce_damage",
+      "value": "ignora_todo_o_dano",
+      "requeriment": "passar_no_teste_de_reflexos"
+    }
+  ],
+  "costs": null
+}

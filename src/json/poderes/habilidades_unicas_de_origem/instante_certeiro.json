@@ -1,0 +1,10 @@
+{
+  "id": "instante_certeiro",
+  "name": "Instante Certeiro",
+  "origin": "pescador",
+  "description": "Você sabe aguardar o instante exato de puxar o anzol. Recebe +2 em Iniciativa e, sempre que prepara uma ação (Tormenta20, p. 234), recebe +2 em testes para executá-la.",
+  "effects": {
+    "initiative_bonus": 2,
+    "prepared_action_bonus": 2
+  }
+}

@@ -3,8 +3,27 @@
   "name": "Opaco",
   "type": "encantamento",
   "categoria": "armadura",
-  "efeito": {
-    "descricao_curta": "Redução de ácido, eletricidade, fogo e frio 10"
-  },
-  "description": "Você recebe redução de ácido, eletricidade, fogo e frio 10. Um item opaco parece sem cor, totalmente comum e desinteressante."
+  "description": "Você recebe redução de ácido, eletricidade, fogo e frio 10. Um item opaco parece sem cor, totalmente comum e desinteressante.",
+  "effects": [
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "tipo_dano": "ácido"
+    },
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "tipo_dano": "eletricidade"
+    },
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "tipo_dano": "fogo"
+    },
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "tipo_dano": "frio"
+    }
+  ]
 }

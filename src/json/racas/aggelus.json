@@ -10,5 +10,16 @@
   "skill_bonuses": [],
   "racial_abilities": ["heranca_divina", "luz_sagrada"],
   "chosen_abilities_amount": 0,
-  "available_chosen_abilities": []
+  "available_chosen_abilities": [],
+  "ability_swap": {
+    "replaces": "luz_sagrada",
+    "options": [
+      "heranca_de_al_gazara", "heranca_de_arboria", "heranca_de_chacina", "heranca_de_deathok",
+      "heranca_de_drashantyr", "heranca_de_kundali", "heranca_de_magika", "heranca_de_nivenciuen",
+      "heranca_de_odisseia", "heranca_de_ordine", "heranca_de_pelagia", "heranca_de_pyra",
+      "heranca_de_ramknal", "heranca_de_serena", "heranca_de_skerry", "heranca_de_solaris",
+      "heranca_de_sombria", "heranca_de_sora", "heranca_de_terapolis", "heranca_de_venomia",
+      "heranca_de_vitalia", "heranca_de_werra"
+    ]
+  }
 }

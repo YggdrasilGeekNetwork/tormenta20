@@ -1,0 +1,10 @@
+{
+  "id": "mensageiro_incansavel",
+  "name": "Mensageiro Incansável",
+  "origin": "mensageiro",
+  "description": "Você recebe +3m em seu deslocamento e +2 em testes de resistência.",
+  "effects": {
+    "movement_bonus": "3m",
+    "resistance_test_bonus": 2
+  }
+}

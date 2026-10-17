@@ -1,0 +1,73 @@
+{
+  "id": "ogro",
+  "name": "Ogro",
+  "nd": 4,
+  "tipo": "Humanoide",
+  "subtipo": "gigante",
+  "tamanho": "grande",
+  "grupo": "ermos",
+  "pv": 130,
+  "defesa": 23,
+  "salvaguardas": {
+    "fort": 16,
+    "ref": 10,
+    "von": 0
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 3,
+  "percepcao": 1,
+  "visao": [
+    "visão na penumbra"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 7,
+    "des": 0,
+    "con": 4,
+    "int": -3,
+    "sab": -2,
+    "car": -2
+  },
+  "pericias": {
+    "atletismo": 12,
+    "intuicao": -5
+  },
+  "ataques": [
+    {
+      "nome": "Tacape",
+      "bonus": 16,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 12
+            }
+          ],
+          "bonus": 18,
+          "tipo": "impacto"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Burro Demais...",
+      "descricao": "Sofre –5 em testes de Intuição e Vontade (já contabilizado)."
+    },
+    {
+      "nome": "...Para Morrer!",
+      "descricao": "Todo dano de corte, impacto e perfuração sofrido é reduzido à metade."
+    }
+  ],
+  "equipamento": [
+    "Tacape aumentado"
+  ],
+  "tesouro": "padrão",
+  "description": "Gigante primitivo e solitário, frequentemente recrutado por bandidos em troca de comida. Pode ser enganado facilmente, mas é devastador no combate."
+}

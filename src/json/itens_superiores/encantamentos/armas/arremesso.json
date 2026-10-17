@@ -3,8 +3,16 @@
   "name": "Arremesso",
   "type": "encantamento",
   "categoria": "arma",
-  "efeito": {
-    "descricao_curta": "Pode ser arremessada em alcance curto; retorna após o ataque"
-  },
-  "description": "A arma pode ser arremessada em alcance curto. Caso já pudesse ser arremessada, seu alcance aumenta em uma categoria. Após o ataque, se estiver livre, a arma volta voando para você. Pegá-la é uma reação."
+  "description": "A arma pode ser arremessada em alcance curto. Caso já pudesse ser arremessada, seu alcance aumenta em uma categoria. Após o ataque, se estiver livre, a arma volta voando para você. Pegá-la é uma reação.",
+  "effects": [
+    {
+      "type": "concede_arremesso",
+      "alcance": "curto",
+      "aumenta_alcance_existente": "uma_categoria"
+    },
+    {
+      "type": "retorno_automatico",
+      "condicao": "após o ataque, se estiver livre; pegá-la é uma reação"
+    }
+  ]
 }

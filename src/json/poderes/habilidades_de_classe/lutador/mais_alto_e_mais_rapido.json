@@ -1,0 +1,21 @@
+{
+  "id": "mais_alto_e_mais_rapido",
+  "name": "Mais Alto e Mais Rápido",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "No 5º nível, seu deslocamento aumenta em +3m. Além disso, você recebe deslocamento de escalada e natação igual à metade de seu deslocamento normal (se já os possui, em vez disso eles aumentam em +3m). Ao contrário do normal, esse deslocamento de natação não fornece a capacidade de respirar debaixo d'água, mas você soma seu nível de atleta no total de rodadas para prender sua respiração.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": [
+    {
+      "type": "speed_improvement",
+      "value": "+3m"
+    }
+  ],
+  "costs": null
+}

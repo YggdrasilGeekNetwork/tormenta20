@@ -1,0 +1,26 @@
+{
+  "id": "disfarce_elaborado",
+  "name": "Disfarce Elaborado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_ladino",
+  "description": "No 3º nível, você aprende a simular habilidades práticas úteis para seus disfarces. Sempre que fizer um teste de Enganação para disfarce, você pode escolher um poder (exceto poderes da Tormenta) cujos pré-requisitos cumpra e que esteja relacionado a esse disfarce. Enquanto estiver disfarçado dessa forma, você sofre uma penalidade de –3 PM e pode usar o poder escolhido. A cada seis níveis, você pode assumir uma penalidade adicional de –3 PM ao se disfarçar para escolher um poder adicional (2 poderes no 9º nível, 3 poderes no 15º nível).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [
+        3,
+        9,
+        15
+      ]
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": [
+    {
+      "value": -3,
+      "type": "PM",
+      "per": "poder_escolhido"
+    }
+  ]
+}

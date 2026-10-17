@@ -1,0 +1,37 @@
+{
+  "id": "lider_da_matilha",
+  "name": "Líder da Matilha",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Quando usa Direcionar, você pode aplicar o bônus ao próximo teste de perícia de outros melhores amigos com a mesma ação ao custo de +1 PM por amigo adicional. O bônus só afeta o teste se ele for feito até o fim do seu turno. Pré-requisito: Conquistar pelos Números.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    },
+    {
+      "type": "fearute_actived",
+      "sub_type": "soft",
+      "feature": "treino_especializado"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "treino_especializado"
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": "carisma_do_treinador",
+      "target": "outros_melhores_amigos",
+      "trigger": "usa_direcionar",
+      "cost_per_additional_target": {
+        "value": 1,
+        "type": "PM"
+      }
+    }
+  ],
+  "costs": null
+}

@@ -10,32 +10,91 @@
   },
   "skills": {
     "mandatory": [
-      { "name": "Atuação", "attribute": "Car" },
-      { "name": "Reflexos", "attribute": "Des" }
+      {
+        "name": "Atuação",
+        "attribute": "Car"
+      },
+      {
+        "name": "Reflexos",
+        "attribute": "Des"
+      }
     ],
     "choose_amount": 6,
     "choose_from": [
-      { "name": "Acrobacia", "attribute": "Des" },
-      { "name": "Cavalgar", "attribute": "Des" },
-      { "name": "Conhecimento", "attribute": "Int" },
-      { "name": "Diplomacia", "attribute": "Car" },
-      { "name": "Enganação", "attribute": "Car" },
-      { "name": "Furtividade", "attribute": "Des" },
-      { "name": "Iniciativa", "attribute": "Des" },
-      { "name": "Intuição", "attribute": "Sab" },
-      { "name": "Investigação", "attribute": "Int" },
-      { "name": "Jogatina", "attribute": "Car" },
-      { "name": "Ladinagem", "attribute": "Des" },
-      { "name": "Luta", "attribute": "For" },
-      { "name": "Misticismo", "attribute": "Int" },
-      { "name": "Nobreza", "attribute": "Int" },
-      { "name": "Percepção", "attribute": "Sab" },
-      { "name": "Pontaria", "attribute": "Des" },
-      { "name": "Vontade", "attribute": "Sab" }
+      {
+        "name": "Acrobacia",
+        "attribute": "Des"
+      },
+      {
+        "name": "Cavalgar",
+        "attribute": "Des"
+      },
+      {
+        "name": "Conhecimento",
+        "attribute": "Int"
+      },
+      {
+        "name": "Diplomacia",
+        "attribute": "Car"
+      },
+      {
+        "name": "Enganação",
+        "attribute": "Car"
+      },
+      {
+        "name": "Furtividade",
+        "attribute": "Des"
+      },
+      {
+        "name": "Iniciativa",
+        "attribute": "Des"
+      },
+      {
+        "name": "Intuição",
+        "attribute": "Sab"
+      },
+      {
+        "name": "Investigação",
+        "attribute": "Int"
+      },
+      {
+        "name": "Jogatina",
+        "attribute": "Car"
+      },
+      {
+        "name": "Ladinagem",
+        "attribute": "Des"
+      },
+      {
+        "name": "Luta",
+        "attribute": "For"
+      },
+      {
+        "name": "Misticismo",
+        "attribute": "Int"
+      },
+      {
+        "name": "Nobreza",
+        "attribute": "Int"
+      },
+      {
+        "name": "Percepção",
+        "attribute": "Sab"
+      },
+      {
+        "name": "Pontaria",
+        "attribute": "Des"
+      },
+      {
+        "name": "Vontade",
+        "attribute": "Sab"
+      }
     ]
   },
   "proficiencies": {
-    "weapons": ["marciais"],
+    "weapons": [
+      "marciais"
+    ],
     "armors": [],
     "shields": false
   },
@@ -47,14 +106,14 @@
   "powers": [
     "arte_magica",
     "aumentar_repertorio",
-    "aumento_de_atributo",
+    "aumento_de_atributo_bardo",
     "danca_das_laminas",
     "esgrima_magica",
     "estrelato",
     "fascinar_em_massa",
     "golpe_elemental",
     "golpe_magico",
-    "ispiracao_marcial",
+    "inspiracao_marcial",
     "lendas_e_historias",
     "manipular",
     "manipular_em_massa",
@@ -67,25 +126,128 @@
     "prestidigitacao"
   ],
   "progression": [
-    { "level": 1, "abilities": ["inspiracao", "magias"] },
-    { "level": 2, "abilities": ["poder_de_bardo", "ecletico"] },
-    { "level": 3, "abilities": ["poder_de_bardo"] },
-    { "level": 4, "abilities": ["poder_de_bardo"] },
-    { "level": 5, "abilities": ["poder_de_bardo"] },
-    { "level": 6, "abilities": ["poder_de_bardo"] },
-    { "level": 7, "abilities": ["poder_de_bardo"] },
-    { "level": 8, "abilities": ["poder_de_bardo"] },
-    { "level": 9, "abilities": ["poder_de_bardo"] },
-    { "level": 10, "abilities": ["poder_de_bardo"] },
-    { "level": 11, "abilities": ["poder_de_bardo"] },
-    { "level": 12, "abilities": ["poder_de_bardo"] },
-    { "level": 13, "abilities": ["poder_de_bardo"] },
-    { "level": 14, "abilities": ["poder_de_bardo"] },
-    { "level": 15, "abilities": ["poder_de_bardo"] },
-    { "level": 16, "abilities": ["poder_de_bardo"] },
-    { "level": 17, "abilities": ["poder_de_bardo"] },
-    { "level": 18, "abilities": ["poder_de_bardo"] },
-    { "level": 19, "abilities": ["poder_de_bardo"] },
-    { "level": 20, "abilities": ["artista_completo", "poder_de_bardo"] }
+    {
+      "level": 1,
+      "abilities": [
+        "inspiracao",
+        "magias"
+      ]
+    },
+    {
+      "level": 2,
+      "abilities": [
+        "poder_de_bardo",
+        "ecletico"
+      ]
+    },
+    {
+      "level": 3,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 4,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 5,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 6,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 7,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 8,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 9,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 10,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 11,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 12,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 13,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 14,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 15,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 16,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 17,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 18,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 19,
+      "abilities": [
+        "poder_de_bardo"
+      ]
+    },
+    {
+      "level": 20,
+      "abilities": [
+        "artista_completo",
+        "poder_de_bardo"
+      ]
+    }
   ]
 }

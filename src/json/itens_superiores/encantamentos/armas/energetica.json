@@ -4,10 +4,26 @@
   "type": "encantamento",
   "categoria": "arma",
   "conta_como_dois": true,
-  "prerequisitos": ["formidavel"],
-  "efeito": {
-    "bonus_ataque": 4,
-    "descricao_curta": "+4 ataque, ignora 20 de RD, converte dano para essência; pré-req: formidável"
-  },
-  "description": "A arma tem sua parte perigosa transformada em magia pura. Ela fornece +4 em testes de ataque, ignora 20 pontos de redução de dano, converte todo o dano causado para essência e emana luz como uma tocha. Pré-requisito: formidável. Conta como dois encantos."
+  "prerequisitos": [
+    "formidavel"
+  ],
+  "description": "A arma tem sua parte perigosa transformada em magia pura. Ela fornece +4 em testes de ataque, ignora 20 pontos de redução de dano, converte todo o dano causado para essência e emana luz como uma tocha. Pré-requisito: formidável. Conta como dois encantos.",
+  "effects": [
+    {
+      "type": "bonus_ataque",
+      "value": 4
+    },
+    {
+      "type": "ignora_reducao_dano",
+      "value": 20
+    },
+    {
+      "type": "converte_dano",
+      "tipo_dano": "essência"
+    },
+    {
+      "type": "passivo",
+      "efeito": "arma emana luz como uma tocha"
+    }
+  ]
 }

@@ -3,8 +3,17 @@
   "name": "Invulnerável",
   "type": "encantamento",
   "categoria": "armadura",
-  "efeito": {
-    "descricao_curta": "Redução de dano 2 (escudo) ou 5 (armadura)"
-  },
-  "description": "Você recebe redução de dano 2 (para escudos) ou 5 (para armaduras)."
+  "description": "Você recebe redução de dano 2 (para escudos) ou 5 (para armaduras).",
+  "effects": [
+    {
+      "type": "reducao_dano",
+      "value": 5,
+      "condicao": "armaduras"
+    },
+    {
+      "type": "reducao_dano",
+      "value": 2,
+      "condicao": "escudos"
+    }
+  ]
 }

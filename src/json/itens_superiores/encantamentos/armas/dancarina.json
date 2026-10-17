@@ -3,8 +3,14 @@
   "name": "Dançarina",
   "type": "encantamento",
   "categoria": "arma",
-  "efeito": {
-    "descricao_curta": "Gaste 1 PM: a arma flutua e ataca sozinha em alcance curto (duração sustentada)"
-  },
-  "description": "Você pode gastar uma ação de movimento e 1 PM para fazer a arma flutuar e atacar uma criatura em alcance curto a sua escolha, com as mesmas estatísticas que teria se você a estivesse empunhando. Este efeito tem duração sustentada; se parar de sustentá-lo, a arma cai no chão."
+  "description": "Você pode gastar uma ação de movimento e 1 PM para fazer a arma flutuar e atacar uma criatura em alcance curto a sua escolha, com as mesmas estatísticas que teria se você a estivesse empunhando. Este efeito tem duração sustentada; se parar de sustentá-lo, a arma cai no chão.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 1,
+      "frequencia": "sustentada",
+      "efeito": "arma flutua e ataca uma criatura em alcance curto sozinha, com as estatísticas de quando empunhada; cai no chão se parar de sustentar"
+    }
+  ]
 }

@@ -1,0 +1,29 @@
+{
+  "id": "estatisticas_npc_por_nd",
+  "name": "Estatísticas de NPC por Nível de Desafio",
+  "description": "Tabela 7-2 (T20 EJA, Cap. 7, p.322). Guia de referência para o mestre construir rapidamente a ficha de um NPC de combate com determinado ND, sem precisar calcular tudo manualmente. 'Ataque' é o bônus total de ataque (e multiplicador de crítico, quando indicado); 'Dano' é a rolagem de dano por ataque; 'Perícias CD' mostra o bônus em perícias que definem CDs (ex.: para testes de resistência de habilidades) no formato treinado/destreinado; 'CD' é a CD padrão para resistir às habilidades do NPC.",
+  "headers": ["Patamar", "ND", "Ataque", "Dano", "Defesa", "PV", "Perícias", "CD"],
+  "rows": [
+    { "Patamar": "Iniciante", "ND": "1/2", "Ataque": "+7", "Dano": "1d6+3", "Defesa": 15, "PV": 10, "Perícias": "+4/+0", "CD": 14 },
+    { "Patamar": "Iniciante", "ND": "1", "Ataque": "+9", "Dano": "1d8+6", "Defesa": 16, "PV": 20, "Perícias": "+6/+1", "CD": 15 },
+    { "Patamar": "Iniciante", "ND": "2", "Ataque": "+11", "Dano": "1d10+10", "Defesa": 18, "PV": 40, "Perícias": "+8/+2", "CD": 16 },
+    { "Patamar": "Iniciante", "ND": "3", "Ataque": "+13", "Dano": "1d12+12", "Defesa": 21, "PV": 70, "Perícias": "+10/+3", "CD": 17 },
+    { "Patamar": "Iniciante", "ND": "4", "Ataque": "+15", "Dano": "2d6+14", "Defesa": 24, "PV": 110, "Perícias": "+12/+4", "CD": 18 },
+    { "Patamar": "Veterano", "ND": "5", "Ataque": "+18, x2", "Dano": "1d12+11", "Defesa": 28, "PV": 150, "Perícias": "+14/+5", "CD": 20 },
+    { "Patamar": "Veterano", "ND": "6", "Ataque": "+20, x2", "Dano": "2d6+15", "Defesa": 31, "PV": 190, "Perícias": "+16/+6", "CD": 22 },
+    { "Patamar": "Veterano", "ND": "7", "Ataque": "+22, x2", "Dano": "2d8+19", "Defesa": 34, "PV": 230, "Perícias": "+18/+7", "CD": 24 },
+    { "Patamar": "Veterano", "ND": "8", "Ataque": "+24, x2", "Dano": "2d10+20", "Defesa": 37, "PV": 270, "Perícias": "+20/+8", "CD": 26 },
+    { "Patamar": "Veterano", "ND": "9", "Ataque": "+26, x2", "Dano": "2d12+21", "Defesa": 40, "PV": 310, "Perícias": "+22/+9", "CD": 28 },
+    { "Patamar": "Veterano", "ND": "10", "Ataque": "+29, x2", "Dano": "3d6+26", "Defesa": 43, "PV": 350, "Perícias": "+24/+10", "CD": 30 },
+    { "Patamar": "Campeão", "ND": "11", "Ataque": "+32, x3", "Dano": "3d8+24", "Defesa": 46, "PV": 400, "Perícias": "+25/+11", "CD": 32 },
+    { "Patamar": "Campeão", "ND": "12", "Ataque": "+35, x3", "Dano": "3d10+26", "Defesa": 48, "PV": 450, "Perícias": "+26/+12", "CD": 34 },
+    { "Patamar": "Campeão", "ND": "13", "Ataque": "+37, x3", "Dano": "3d12+28", "Defesa": 50, "PV": 550, "Perícias": "+27/+13", "CD": 36 },
+    { "Patamar": "Campeão", "ND": "14", "Ataque": "+40, x3", "Dano": "4d6+38", "Defesa": 52, "PV": 600, "Perícias": "+28/+14", "CD": 38 },
+    { "Patamar": "Campeão", "ND": "15", "Ataque": "+42, x3", "Dano": "4d8+40", "Defesa": 54, "PV": 650, "Perícias": "+29/+15", "CD": 40 },
+    { "Patamar": "Campeão", "ND": "16", "Ataque": "+45, x3", "Dano": "4d10+42", "Defesa": 56, "PV": 700, "Perícias": "+30/+16", "CD": 42 },
+    { "Patamar": "Lenda", "ND": "17", "Ataque": "+47, x4", "Dano": "4d12+35", "Defesa": 59, "PV": 750, "Perícias": "+32/+17", "CD": 44 },
+    { "Patamar": "Lenda", "ND": "18", "Ataque": "+50, x4", "Dano": "4d12+40", "Defesa": 61, "PV": 800, "Perícias": "+33/+18", "CD": 46 },
+    { "Patamar": "Lenda", "ND": "19", "Ataque": "+52, x4", "Dano": "4d12+45", "Defesa": 63, "PV": 850, "Perícias": "+34/+19", "CD": 48 },
+    { "Patamar": "Lenda", "ND": "20", "Ataque": "+55, x4", "Dano": "4d12+50", "Defesa": 65, "PV": 900, "Perícias": "+35/+20", "CD": 50 }
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "id": "temperado_pelo_clima",
+  "name": "Temperado pelo Clima",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_druida",
+  "description": "No 11º nível, você recebe RD 5 contra dano dos tipos correspondentes aos terrenos associados ao seu sítio sagrado: aquático (eletricidade), ártico (frio), colina (impacto), deserto (fogo), floresta (corte), montanha (perfuração), pântano (ácido), planície (luz) e subterrâneo (trevas).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "sitio_sagrado"
+    }
+  ],
+  "effects": [
+    {
+      "type": "RD_improvement",
+      "value": 5
+    }
+  ],
+  "costs": null
+}

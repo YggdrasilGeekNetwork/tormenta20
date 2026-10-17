@@ -1,0 +1,83 @@
+{
+  "id": "devorador_de_medos",
+  "name": "Devorador de Medos",
+  "nd": 8,
+  "tipo": "Humanoide",
+  "subtipo": "bugbear",
+  "tamanho": "médio",
+  "grupo": "duyshidakk",
+  "pv": 325,
+  "defesa": 31,
+  "salvaguardas": {
+    "fort": 21,
+    "ref": 15,
+    "von": 8
+  },
+  "reducao_de_dano": null,
+  "imunidades": [
+    "medo"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 11,
+  "percepcao": 9,
+  "visao": [
+    "faro",
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 5,
+    "des": 3,
+    "con": 3,
+    "int": 0,
+    "sab": 1,
+    "car": 0
+  },
+  "pericias": {
+    "furtividade": 13,
+    "intimidacao": 14
+  },
+  "ataques": [
+    {
+      "nome": "Machado de guerra",
+      "bonus": 26,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 12
+            }
+          ],
+          "bonus": 20,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "20/x3",
+      "quantidade": 2
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Apavorar",
+      "acao": "movimento",
+      "descricao": "Teste de Intimidação oposto pela Vontade de criaturas em alcance médio. Falha: abalado pela cena. Falha por 10+: apavorado 1d4 rodadas e abalado pela cena."
+    },
+    {
+      "nome": "Artesão do Medo",
+      "descricao": "Em testes de Intimidação, rola dois dados e usa o melhor."
+    },
+    {
+      "nome": "Medo Inebriante",
+      "descricao": "Sofre metade do dano de criaturas abaladas/apavoradas. Em alcance médio de criaturas abaladas/apavoradas, recebe bônus igual à penalidade da condição em perícias e dano."
+    }
+  ],
+  "equipamento": [
+    "Machado de guerra cruel"
+  ],
+  "tesouro": "metade",
+  "description": "Bugbear mestre do terror que literalmente farejar o medo. Prefere aterrorizar as vítimas antes de atacar."
+}

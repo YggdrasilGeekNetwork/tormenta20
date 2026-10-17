@@ -11,34 +11,58 @@
     "escudo": 3000,
     "esoterico": 6000
   },
-  "efeitos": {
-    "arma": {
-      "ignora_reducao_dano": 10,
-      "ignora_imunidade_critico_lefeu": true
-    },
-    "armadura_leve": {
-      "chance_ignorar_critico_furtivo": {
-        "percentual": 25,
-        "dado": "1 em 1d4"
+  "description": "Este metal tem a aparência de vidro avermelhado, mas é duro como aço. Aço-rubi é caríssimo e comercializado apenas por uma guilda de ferreiros de Doherimm. Os anões mantêm a origem deste material em segredo, mas suspeita-se de que ele seja minerado das profundezas de uma área de Tormenta.",
+  "effects": {
+    "arma": [
+      {
+        "type": "ignora_reducao_dano",
+        "value": 10
+      },
+      {
+        "type": "ignora_imunidade_critico",
+        "condicao": "lefeu"
       }
-    },
-    "armadura_pesada": {
-      "chance_ignorar_critico_furtivo": {
+    ],
+    "armadura_leve": [
+      {
+        "type": "chance_ignorar_dano_extra",
+        "percentual": 25,
+        "dado": "1 em 1d4",
+        "aplica_a": [
+          "ataque_furtivo_critico"
+        ]
+      }
+    ],
+    "armadura_pesada": [
+      {
+        "type": "chance_ignorar_dano_extra",
         "percentual": 50,
         "dado": "qualquer valor par",
+        "aplica_a": [
+          "ataque_furtivo_critico"
+        ],
         "cumulativo_com_escudo": true
       }
-    },
-    "escudo": {
-      "chance_ignorar_critico_furtivo": {
+    ],
+    "escudo": [
+      {
+        "type": "chance_ignorar_dano_extra",
         "percentual": 25,
-        "dado": "1 em 1d4"
+        "dado": "1 em 1d4",
+        "aplica_a": [
+          "ataque_furtivo_critico"
+        ]
       }
-    },
-    "esoterico": {
-      "magia_ignora_reducao_dano": 10,
-      "magia_ignora_imunidades_lefeu": true
-    }
-  },
-  "description": "Este metal tem a aparência de vidro avermelhado, mas é duro como aço. Aço-rubi é caríssimo e comercializado apenas por uma guilda de ferreiros de Doherimm. Os anões mantêm a origem deste material em segredo, mas suspeita-se de que ele seja minerado das profundezas de uma área de Tormenta."
+    ],
+    "esoterico": [
+      {
+        "type": "magia_ignora_reducao_dano",
+        "value": 10
+      },
+      {
+        "type": "magia_ignora_imunidade",
+        "condicao": "lefeu"
+      }
+    ]
+  }
 }

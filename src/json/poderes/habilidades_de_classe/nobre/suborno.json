@@ -1,0 +1,16 @@
+{
+  "id": "suborno",
+  "name": "Suborno",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "No 4º nível, você aprende e pode lançar Enfeitiçar (atributo-chave Carisma). Esta não é uma habilidade mágica e provém de sua capacidade de instigar os outros com promessas de enriquecimento (Magias Simuladas). A CD para resistir a essa magia aumenta em +2 se você tiver consumido pelo menos 1 tibar de ouro para pagar seu custo.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 4
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

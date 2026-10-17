@@ -1,0 +1,18 @@
+{
+  "id": "azagaia_dos_relampagos",
+  "name": "Azagaia dos Relâmpagos",
+  "base_weapon": "azagaia",
+  "preco": 30000,
+  "description": "Quando arremessada, esta azagaia se transforma em um Relâmpago (8d6 de dano de eletricidade numa linha com alcance médio; CD For ou Des a sua escolha). Quando atinge o fim do alcance ela volta a ser uma azagaia e volta para você no fim do turno.",
+  "effects": [
+    {
+      "type": "ao_arremessar",
+      "concede_magia": "Relâmpago",
+      "dados": "8d6",
+      "tipo_dano": "eletricidade",
+      "area": "linha alcance médio",
+      "resistencia": "For ou Des (à escolha)",
+      "efeito": "ao atingir o fim do alcance, volta a ser azagaia e retorna a você no fim do turno"
+    }
+  ]
+}

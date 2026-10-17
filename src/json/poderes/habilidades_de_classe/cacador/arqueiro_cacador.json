@@ -1,0 +1,27 @@
+{
+  "id": "arqueiro_cacador",
+  "name": "Arqueiro",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Se estiver usando uma arma de ataque à distância, você soma seu bônus de Sabedoria nas rolagens de dano (limitado pelo seu nível). Pré-requisito: Sab 13.",
+  "requirements": [
+    {
+      "type": "attr_value",
+      "sub_type": "hard",
+      "attr": "sab",
+      "value": 13
+    },
+    {
+      "type": "weapon_type",
+      "sub_type": "soft",
+      "weapon": "a_distancia"
+    }
+  ],
+  "effects": [
+    {
+      "type": "add_damage_attr",
+      "attr": "sab"
+    }
+  ],
+  "costs": null
+}

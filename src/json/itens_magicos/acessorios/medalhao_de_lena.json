@@ -6,5 +6,14 @@
   "roll_min": 28,
   "roll_max": 34,
   "description": "Quando você é reduzido a 0 ou menos PV, esta joia emite uma explosão de energia positiva que cura 100 PV (antes que você caia). Este poder só se ativa uma vez por dia.",
-  "efeito": {}
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": null,
+      "custo_pm": 0,
+      "frequencia": "uma_vez_por_dia",
+      "gatilho": "reduzido a 0 PV ou menos",
+      "efeito": "explosão de energia positiva cura 100 PV antes de você cair"
+    }
+  ]
 }

@@ -1,0 +1,14 @@
+{
+  "id": "onde_mais_doi",
+  "name": "Onde Mais Dói",
+  "origin": "interrogador",
+  "description": "Você recebe +1 na margem de ameaça contra criaturas feridas (PV abaixo do total), pois aprendeu a bater onde mais dói.",
+  "effects": {
+    "threat_range_bonus": [
+      {
+        "value": 1,
+        "against": "criaturas feridas (PV abaixo do total)"
+      }
+    ]
+  }
+}

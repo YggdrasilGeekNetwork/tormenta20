@@ -1,0 +1,27 @@
+{
+  "id": "baluarte_anao",
+  "name": "Baluarte Anão",
+  "subtipo": "armadura",
+  "base_item": "armadura_completa",
+  "preco": 50000,
+  "description": "Esta armadura completa reforçada defensora de adamante fornece proteção sem igual. Se você não se deslocar em seu turno, a RD que ela fornece aumenta para 10 até seu próximo turno.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "reforçada"
+    },
+    {
+      "type": "enchantment",
+      "name": "defensora"
+    },
+    {
+      "type": "material_especial",
+      "name": "adamante"
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "não se deslocou no turno",
+      "efeito": "redução de dano da armadura aumenta para 10 até o próximo turno"
+    }
+  ]
+}

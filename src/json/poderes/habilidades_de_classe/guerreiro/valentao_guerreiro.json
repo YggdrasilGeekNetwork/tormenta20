@@ -1,0 +1,30 @@
+{
+  "id": "valentao_guerreiro",
+  "name": "Valentão",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_guerreiro",
+  "description": "Você recebe +2 em testes de ataque e rolagens de dano contra oponentes caídos, desprevenidos, flanqueados ou indefesos.",
+  "requirements": [
+    {
+      "type": "target_condition_type",
+      "sub_type": "soft",
+      "condition": [
+        "caido",
+        "desprevinido",
+        "flanqueado",
+        "indefeso"
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_improvement",
+      "value": 2
+    },
+    {
+      "type": "damage_improvement",
+      "value": 2
+    }
+  ],
+  "costs": null
+}

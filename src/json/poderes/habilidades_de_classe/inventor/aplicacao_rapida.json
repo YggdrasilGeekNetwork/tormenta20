@@ -1,0 +1,24 @@
+{
+  "id": "aplicacao_rapida",
+  "name": "Aplicação Rápida",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "No 5º nível, você pode gastar uma ação completa e 2 PM para usar dois preparados alquímicos ao mesmo tempo. Você precisa ter ambos em suas mãos ou ser capaz de sacá-los como ação livre.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 5
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    },
+    {
+      "type": "acao_completa"
+    }
+  ]
+}

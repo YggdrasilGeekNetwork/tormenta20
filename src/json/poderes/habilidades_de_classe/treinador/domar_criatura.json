@@ -1,0 +1,80 @@
+{
+  "id": "domar_criatura",
+  "name": "Domar Criatura",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "A partir do 2º nível, você pode gastar uma ação de movimento e 1 PM para fazer um teste de Adestramento oposto ao teste de Vontade de uma criatura não inteligente em alcance curto. Se você vencer, causa 2d8 pontos de dano psíquico não letal à criatura. Se perder, causa metade desse dano. Se a criatura for reduzida a 0 ou menos PV, em vez de cair inconsciente, ela se rende. A cada quatro níveis, você pode gastar +1 PM para aumentar o dano em +2d8 (4d8 no 6º nível, 6d8 no 10º, 8d8 no 14º e 10d8 no 18º).\n\nA partir do 5º nível, quando rende uma criatura com ND igual ou menor que seu nível, você pode gastar uma quantidade de pontos de mana igual ao ND dela. Se fizer isso, ela recupera todos os PV perdidos por esta habilidade e, até o fim da cena, você controla as ações dela (ela age durante o seu turno, mas possui as próprias ações).\n\nA partir do 8º nível, se o ND da criatura for igual ou menor que seu nível –3, ela fica com você até o fim do dia (em vez de até o fim da cena). Enquanto estiver sendo controlada, a criatura conta em seu limite de parceiros.\n\nCriaturas que possuam habilidades que não gastam PM e não possuam limite de uso podem usar essas habilidades apenas uma vez por dia. Além disso, algumas criaturas (a critério do mestre) são indomáveis, sendo imunes a este efeito (nesse caso, você recupera os PM gastos ao tentar comandar a criatura).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [
+        2,
+        5,
+        6,
+        8,
+        10,
+        14,
+        18
+      ]
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage",
+      "damage_type": "psiquico_nao_letal",
+      "value_progression": [
+        {
+          "level": 2,
+          "value": "2d8"
+        },
+        {
+          "level": 6,
+          "value": "4d8"
+        },
+        {
+          "level": 10,
+          "value": "6d8"
+        },
+        {
+          "level": 14,
+          "value": "8d8"
+        },
+        {
+          "level": 18,
+          "value": "10d8"
+        }
+      ],
+      "range": "curto",
+      "opposed_test": {
+        "attacker": "adestramento",
+        "defender": "vontade"
+      }
+    },
+    {
+      "type": "control_creature",
+      "control_duration_progression": [
+        {
+          "level": 5,
+          "duration": "cena",
+          "nd_max": "nivel_do_treinador"
+        },
+        {
+          "level": 8,
+          "duration": "dia",
+          "nd_max": "nivel_do_treinador_menos_3"
+        }
+      ]
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    },
+    {
+      "value": 1,
+      "type": "acao_de_movimento"
+    }
+  ]
+}

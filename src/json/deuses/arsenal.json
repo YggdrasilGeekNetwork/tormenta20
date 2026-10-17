@@ -15,7 +15,7 @@
   "energy": "qualquer",
   "preferred_weapon": "Martelo de guerra",
   "devotees": {
-    "races": ["anões", "minotauros"],
+    "races": ["anões", "bugbears", "ceratops", "elfos-do-mar", "galokk", "hobgoblins", "kallyanach", "kaijin", "minotauros", "nezumi", "ogros", "orcs", "tengu", "voracis", "yidishan"],
     "classes": ["bárbaros", "cavaleiros", "guerreiros", "lutadores"]
   },
   "granted_powers": [

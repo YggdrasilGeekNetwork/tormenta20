@@ -1,0 +1,19 @@
+{
+  "id": "redeas_firmes",
+  "name": "Rédeas Firmes",
+  "origin": "cocheiro",
+  "description": "Quando está conduzindo um veículo, você e o veículo recebem +2 na Defesa e em testes de resistência.",
+  "effects": {
+    "conditional_bonuses": [
+      {
+        "condition": "conduzindo um veículo",
+        "targets": [
+          "você",
+          "veículo"
+        ],
+        "defense": 2,
+        "resistance_tests": 2
+      }
+    ]
+  }
+}

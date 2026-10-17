@@ -3,8 +3,15 @@
   "name": "Anticriatura",
   "type": "encantamento",
   "categoria": "arma",
-  "efeito": {
-    "descricao_curta": "Uma vez por rodada vs. tipo de criatura: gasta 2 PM, +4d8 de dano"
-  },
-  "description": "A arma é letal contra um tipo de criatura (ou uma raça de humanoides). Uma vez por rodada, quando ataca uma criatura desse tipo, você pode gastar 2 PM. Se fizer isso e acertar o ataque, causa +4d8 de dano."
+  "description": "A arma é letal contra um tipo de criatura (ou uma raça de humanoides). Uma vez por rodada, quando ataca uma criatura desse tipo, você pode gastar 2 PM. Se fizer isso e acertar o ataque, causa +4d8 de dano.",
+  "effects": [
+    {
+      "type": "dano_extra",
+      "dados": "4d8",
+      "tipo_dano": null,
+      "custo_pm": 2,
+      "frequencia": "por_rodada",
+      "gatilho": "acerta criatura do tipo/raça escolhida na criação do item"
+    }
+  ]
 }

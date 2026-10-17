@@ -1,0 +1,26 @@
+{
+  "id": "bombardeio_eficiente",
+  "name": "Bombardeio Eficiente",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "A partir do 11º nível, quando usa um preparado alquímico ou uma poção que causa dano, você pode gastar 1 PM para que esse item ignore 10 pontos da redução de dano das criaturas atingidas.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "ignore_RD",
+      "value": 10
+    }
+  ],
+  "costs": [
+    {
+      "value": 1,
+      "type": "PM"
+    }
+  ]
+}

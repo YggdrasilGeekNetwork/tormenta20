@@ -1,0 +1,38 @@
+{
+  "id": "domador_cativante",
+  "name": "Domador Cativante",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Você soma seu Carisma no dano de Domar Criatura, e os dados de dano dessa habilidade aumentam para d10.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    },
+    {
+      "type": "fearute_actived",
+      "sub_type": "soft",
+      "feature": "domar_criatura"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "domar_criatura"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_improvement",
+      "value": "carisma_do_treinador",
+      "target_ability": "domar_criatura"
+    },
+    {
+      "type": "damage_die_change",
+      "from": "d8",
+      "to": "d10",
+      "target_ability": "domar_criatura"
+    }
+  ],
+  "costs": null
+}

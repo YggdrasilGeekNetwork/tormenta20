@@ -16,8 +16,8 @@
   "energy": "positiva",
   "preferred_weapon": "Mangual",
   "devotees": {
-    "races": [],
-    "classes": []
+    "races": ["qualquer"],
+    "classes": ["qualquer"]
   },
   "devotees_note": "Aventureiros; membros de todas as classes podem ser devotos de Valkaria",
   "granted_powers": [

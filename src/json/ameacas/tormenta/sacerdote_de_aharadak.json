@@ -1,0 +1,102 @@
+{
+  "id": "sacerdote_de_aharadak",
+  "name": "Sacerdote de Aharadak",
+  "nd": 10,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "médio",
+  "grupo": "tormenta",
+  "pv": 315,
+  "defesa": 38,
+  "pm": 56,
+  "salvaguardas": {
+    "fort": 16,
+    "ref": 10,
+    "von": 22
+  },
+  "imunidades": [
+    "confusão"
+  ],
+  "resistencias": {
+    "acido": 10,
+    "eletricidade": 10,
+    "fogo": 10,
+    "frio": 10,
+    "luz": 10,
+    "trevas": 10
+  },
+  "resistencia_a_magia_divina": 5,
+  "iniciativa": 17,
+  "percepcao": 15,
+  "visao": [],
+  "deslocamento": {
+    "terrestre": 9,
+    "voo": 15
+  },
+  "atributos": {
+    "for": 5,
+    "des": 3,
+    "con": 5,
+    "int": 4,
+    "sab": 6,
+    "car": 5
+  },
+  "ataques": [
+    {
+      "nome": "Correntes de espinhos aberrantes",
+      "bonus": 30,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 4,
+              "faces": 6
+            }
+          ],
+          "bonus": 12,
+          "tipo": "corte/ácido"
+        },
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "tipo": "ácido"
+        }
+      ],
+      "quantidade": 2
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 30,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 12,
+          "tipo": "perfuração"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Magia Acelerada",
+      "acao": "livre",
+      "custo_pm": 4,
+      "descricao": "Uma vez por rodada, muda a execução de uma magia para livre."
+    },
+    {
+      "nome": "Magias",
+      "descricao": "Lança magias como clérigo de Aharadak de 10º nível (CD 30). Curar Ferimentos e outras magias divinas aberrantes."
+    }
+  ],
+  "tesouro": "padrão",
+  "description": "Devotos do Deus da Tormenta que promovem insanidade e devassidão. Desistiram da humanidade e foram recompensados com poderes aberrantes, incluindo voo e resistências sobrenaturais."
+}

@@ -1,0 +1,13 @@
+{
+  "id": "velocidade_de_viagem",
+  "name": "Viagens",
+  "description": "Tabela 6-4 (T20 EJA, Cap. 6, p.266). Velocidade de viagem do grupo por hora e por dia, de acordo com o deslocamento do membro mais lento. Distância por hora = deslocamento x 0,5km; distância por dia = distância por hora x 8. Valores consideram terreno aberto e clima bom; em terreno difícil ou clima ruim, divida a distância pela metade (reduções cumulativas). Marcha forçada dobra a distância por hora, mas exige um teste de Fortitude (CD 15 +1 por teste anterior) por hora ou perde 1d6 PV.",
+  "headers": ["Deslocamento", "Distância por Hora", "Distância por Dia"],
+  "rows": [
+    { "Deslocamento": "4,5m", "Distância por Hora": "2,25km", "Distância por Dia": "18km" },
+    { "Deslocamento": "6m", "Distância por Hora": "3km", "Distância por Dia": "24km" },
+    { "Deslocamento": "7,5m", "Distância por Hora": "3,75km", "Distância por Dia": "30km" },
+    { "Deslocamento": "9m", "Distância por Hora": "4,5km", "Distância por Dia": "36km" },
+    { "Deslocamento": "12m", "Distância por Hora": "6km", "Distância por Dia": "48km" }
+  ]
+}

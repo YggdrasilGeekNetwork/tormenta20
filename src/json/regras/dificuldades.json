@@ -1,0 +1,16 @@
+{
+  "id": "dificuldades",
+  "name": "Dificuldades",
+  "description": "Testes comuns são usados quando um personagem está competindo contra o ambiente, contra uma CD determinada pelo mestre de acordo com a tarefa. Testes fáceis normalmente não são exigidos — o mestre pode considerar sucesso automático para acelerar o jogo.",
+  "niveis": [
+    { "tarefa": "Fácil", "cd": 5, "exemplo": "Subir uma encosta íngreme (Atletismo)" },
+    { "tarefa": "Média", "cd": 10, "exemplo": "Ouvir um guarda se aproximando (Percepção)" },
+    { "tarefa": "Difícil", "cd": 15, "exemplo": "Estancar um sangramento (Cura)" },
+    { "tarefa": "Desafiadora", "cd": 20, "exemplo": "Nadar contra uma correnteza (Atletismo)" },
+    { "tarefa": "Formidável", "cd": 25, "exemplo": "Sabotar uma armadilha complexa (Ladinagem)" },
+    { "tarefa": "Heroica", "cd": 30, "exemplo": "Decifrar um pergaminho antigo em um idioma morto (Conhecimento)" },
+    { "tarefa": "Quase Impossível", "cd": 40, "exemplo": "Fabricar uma \"obra-prima\", ou seja, um item com quatro melhorias (Ofício)" }
+  ],
+  "sucessos_falhas_automaticos": "Um 20 natural sempre é sucesso e um 1 natural sempre é falha, não importando o valor a ser alcançado.",
+  "condicoes_favoraveis_desfavoraveis": "O mestre pode conceder um bônus de +2 ou mais para circunstâncias que melhorem o desempenho, ou impor uma penalidade de -2 ou mais para circunstâncias que atrapalhem."
+}

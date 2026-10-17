@@ -1,0 +1,43 @@
+{
+  "id": "domador_lendario",
+  "name": "Domador Lendário",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Quando usa Domar Criatura, você pode gastar +2 PM para mudar os dados de dano para d12 e atingir todos os alvos dentro do alcance. Pré-requisitos: Domador Cativante, 17º nível de treinador.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 17
+    },
+    {
+      "type": "fearute_actived",
+      "sub_type": "soft",
+      "feature": "domador_cativante"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "domador_cativante"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_die_change",
+      "from": "d10",
+      "to": "d12",
+      "target_ability": "domar_criatura"
+    },
+    {
+      "type": "area_of_effect_change",
+      "target_ability": "domar_criatura",
+      "value": "todos_os_alvos_no_alcance"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

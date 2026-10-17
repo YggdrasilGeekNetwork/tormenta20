@@ -1,0 +1,33 @@
+{
+  "id": "petisco_merecido",
+  "name": "Petisco Merecido",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Você pode gastar 2 PM para conceder +2 em Força e Destreza a um melhor amigo em alcance curto até o fim da cena.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "attribute_improvement",
+      "value": 2,
+      "attributes": [
+        "forca",
+        "destreza"
+      ],
+      "target": "melhor_amigo",
+      "range": "curto",
+      "duration": "cena"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

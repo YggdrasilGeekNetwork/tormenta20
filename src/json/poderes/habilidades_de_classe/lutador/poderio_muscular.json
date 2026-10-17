@@ -1,0 +1,16 @@
+{
+  "id": "poderio_muscular",
+  "name": "Poderio Muscular",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "No 2º nível, você aprende e pode lançar Primor Atlético, mas apenas em si mesmo. Esta não é uma habilidade mágica e provém de seu extenso treinamento físico (Magias Simuladas).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

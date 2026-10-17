@@ -12,8 +12,8 @@
   "energy": "qualquer",
   "preferred_weapon": "Adaga",
   "devotees": {
-    "races": ["elfos", "golens", "qareen", "sílfides"],
-    "classes": ["arcanistas", "bardos"]
+    "races": ["duendes", "elfos", "eiradaan", "golens", "kallyanach", "mashin", "nagah", "pteros", "qareen", "sátiros", "sílfides", "tengu"],
+    "classes": ["arcanistas", "bardos", "treinadores"]
   },
   "granted_powers": [
     "bencao_do_mana",

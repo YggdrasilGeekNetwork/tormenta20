@@ -1,0 +1,16 @@
+{
+  "id": "alto_rei",
+  "name": "Alto Rei",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "No 19º nível, você se torna um alto rei, senhor de seu reino e do antigo reino de seu lorde. Tem a sua disposição seguidores e riquezas sem fim — seu 'orçamento' de itens mágicos aumenta para T$ 100.000 e seu limite de parceiros aumenta em 2.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 19
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

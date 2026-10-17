@@ -1,0 +1,26 @@
+{
+  "id": "facanha_atletica",
+  "name": "Façanha Atlética",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "Quando faz um teste de perícia, você pode gastar uma quantidade de PM a sua escolha (limitada pela sua Força). Para cada PM que gastar, recebe +2 no teste.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_improvement",
+      "value": "2_por_PM_gasto"
+    }
+  ],
+  "costs": [
+    {
+      "value": "a_sua_escolha",
+      "type": "PM"
+    }
+  ]
+}

@@ -1,0 +1,91 @@
+{
+  "id": "serpe",
+  "name": "Serpe",
+  "nd": 5,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "ermos",
+  "pv": 200,
+  "defesa": 24,
+  "salvaguardas": {
+    "fort": 10,
+    "ref": 16,
+    "von": 5
+  },
+  "reducao_de_dano": null,
+  "imunidades": [
+    "paralisia"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 7,
+  "visao": [
+    "faro",
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9,
+    "voo": 18
+  },
+  "atributos": {
+    "for": 6,
+    "des": 1,
+    "con": 6,
+    "int": -2,
+    "sab": 1,
+    "car": -1
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 17,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "bonus": 12,
+          "tipo": "perfuração"
+        }
+      ]
+    },
+    {
+      "nome": "Ferrão",
+      "bonus": 17,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 12,
+          "tipo": "perfuração"
+        }
+      ],
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Agarrar Aprimorado",
+      "acao": "livre",
+      "descricao": "Se acerta mordida, pode usar agarrar (teste +19)."
+    },
+    {
+      "nome": "Veneno",
+      "salvaguarda": "Fortitude",
+      "cd": 20,
+      "efeito_sucesso": "reduz para uma rodada",
+      "descricao": "Peçonha concentrada: perde 1d12 PV por rodada durante 3 rodadas (Fort CD 20 reduz para uma rodada)."
+    }
+  ],
+  "tesouro": "1d4 doses de peçonha concentrada (CD 20 para extrair)",
+  "description": "Réptil alado sem braços, confundido com dragão por ignorantes. Seu ferrão contém um dos venenos mais poderosos conhecidos."
+}

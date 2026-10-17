@@ -1,0 +1,76 @@
+{
+  "id": "aranha_gigante",
+  "name": "Aranha Gigante",
+  "nd": 2,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "masmorras",
+  "pv": 77,
+  "defesa": 19,
+  "salvaguardas": {
+    "fort": 8,
+    "ref": 11,
+    "von": 3
+  },
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 7,
+  "percepcao": 3,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 12,
+    "escalar": 12
+  },
+  "atributos": {
+    "for": 5,
+    "des": 4,
+    "con": 1,
+    "int": -5,
+    "sab": 0,
+    "car": -4
+  },
+  "pericias": {
+    "furtividade": 9
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 12,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "bonus": 8,
+          "tipo": "perfuração"
+        }
+      ],
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Teia",
+      "acao": "padrão",
+      "descricao": "Dispara teia em quadrado 3m de lado em alcance curto. Criaturas ficam enredadas (Ref CD 18 evita). Também pode cobrir área 6x6m de teia semi-transparente (Percepção CD 20 para ver).",
+      "salvaguarda": "Reflexos",
+      "cd": 18,
+      "efeito_sucesso": "evita"
+    },
+    {
+      "nome": "Veneno",
+      "descricao": "Condição fraco (Fort CD 18 evita).",
+      "salvaguarda": "Fortitude",
+      "cd": 18,
+      "efeito_sucesso": "evita"
+    }
+  ],
+  "tesouro": "1d4 doses de veneno de aranha gigante (CD 17 para extrair, T$ 45 cada)",
+  "description": "Grandes como cavalos, capturam vítimas com teia e as paralisam com picada venenosa."
+}

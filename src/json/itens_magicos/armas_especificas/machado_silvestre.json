@@ -1,0 +1,25 @@
+{
+  "id": "machado_silvestre",
+  "name": "Machado Silvestre",
+  "base_weapon": "machado_de_batalha",
+  "preco": 70000,
+  "description": "O cabo e a lâmina deste machado de batalha formidável são cobertos de gravuras representando plantas e animais selvagens. Quando você usa o machado silvestre em um ambiente ermo e ao ar livre, causa +1d8 de dano e recebe o poder Trespassar. Caso já possua este poder, pode utilizá-lo sem pagar pontos de mana.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "usado em ambiente ermo e ao ar livre",
+      "dano_extra": "1d8",
+      "concede_poder": "Trespassar"
+    },
+    {
+      "type": "reducao_custo_pm_habilidade",
+      "value": "total",
+      "condicao": "se já possuir o poder Trespassar",
+      "habilidade": "Trespassar"
+    }
+  ]
+}

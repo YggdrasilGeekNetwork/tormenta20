@@ -1,0 +1,11 @@
+{
+  "id": "cauda_nagah",
+  "name": "Cauda",
+  "type": "habilidade_de_raca",
+  "race": "nagah",
+  "description": "Você possui uma arma natural de cauda (dano 1d6, crítico x2, impacto). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, pode gastar 1 PM para fazer um ataque corpo a corpo extra com a cauda.",
+  "effects": {
+    "arma_natural": { "nome": "cauda", "dano": "1d6", "critico": "x2", "tipo": "impacto" },
+    "ataque_extra": { "custo_pm": 1, "frequencia": "1x_por_rodada", "condicao": "usar_agredir_com_outra_arma" }
+  }
+}

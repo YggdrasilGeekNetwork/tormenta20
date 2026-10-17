@@ -32,6 +32,43 @@
       "id": "versatil",
       "name": "Versátil",
       "description": "Fornece bônus em uma ou mais manobras (cumulativo com outros bônus de itens)."
+    },
+    {
+      "id": "ocultavel",
+      "name": "Ocultável",
+      "description": "O tamanho e/ou formato da arma tornam mais fácil escondê-la. Ela fornece +5 em testes de Ladinagem para ocultá-la. A adaga (Tormenta20, p.146) é uma arma ocultável.",
+      "livro": "herois_de_arton"
+    },
+    {
+      "id": "surpreendente",
+      "name": "Surpreendente",
+      "description": "Uma vez por cena, se você sacar a arma como ação livre e usá-la para atacar no mesmo turno, o oponente fica desprevenido contra esse ataque.",
+      "livro": "herois_de_arton"
+    },
+    {
+      "id": "hibrida",
+      "name": "Híbrida",
+      "description": "Uma arma híbrida possui dois ou mais modos de uso. Quando usa a arma, você considera apenas as características do modo que está usando e aplica apenas habilidades e efeitos que afetem este modo. Trocar de modo é uma ação de movimento (ou livre, se você tiver Saque Rápido). Aplicar melhorias e encantos em uma arma híbrida custa o dobro do preço em tibares.",
+      "livro": "ameacas_de_arton"
+    }
+  ],
+  "variantes": [
+    {
+      "id": "armas_leves_e_ageis",
+      "name": "Armas Leves e Ágeis",
+      "livro": "herois_de_arton",
+      "description": "Com esta regra, você pode usar Destreza em vez de Força para testes de ataque corpo a corpo e na rolagem de dano com armas leves, ágeis e de arremesso. Se usar esta regra, ignore o pré-requisito de Acuidade com Arma em qualquer habilidade ou item."
+    },
+    {
+      "id": "mais_armas_ageis",
+      "name": "Mais Armas Ágeis",
+      "livro": "herois_de_arton",
+      "description": "Nesta regra, as seguintes armas recebem a habilidade de arma ágil: azagaia (quando empunhada corpo a corpo), bordão e lança.",
+      "armas_afetadas": [
+        { "arma": "azagaia", "condicao": "quando empunhada corpo a corpo" },
+        { "arma": "bordao", "condicao": null },
+        { "arma": "lanca", "condicao": null }
+      ]
     }
   ]
 }

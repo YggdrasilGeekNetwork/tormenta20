@@ -1,0 +1,26 @@
+{
+  "id": "arte_sublime",
+  "name": "Arte Sublime",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "A partir do 7º nível, quando usa Bravado Magimarcial ou Dança Defensiva, você pode gastar uma carga adicional do tipo exigido para dobrar seu efeito.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 7
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "bravado_magimarcial"
+    },
+    {
+      "type": "feature",
+      "sub_type": "hard",
+      "id": "danca_defensiva"
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

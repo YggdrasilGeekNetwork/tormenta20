@@ -1,0 +1,21 @@
+{
+  "id": "vingador_santificado",
+  "name": "Vingador Santificado",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_paladino",
+  "description": "No 20º nível, quando usa Ladainha de Combate, você pode gastar +5 PM. Se fizer isso, os bônus numéricos fornecidos por sua Ladainha dobram e você e os aliados dentro da aura recebem imunidade a acertos críticos e RD igual a 5 + seu Carisma.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 20
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": [
+    {
+      "value": 5,
+      "type": "PM"
+    }
+  ]
+}

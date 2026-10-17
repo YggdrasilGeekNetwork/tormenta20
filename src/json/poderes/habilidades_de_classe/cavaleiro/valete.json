@@ -1,0 +1,29 @@
+{
+  "id": "valete",
+  "name": "Valete",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cavaleiro",
+  "description": "A partir do 2º nível, você já acompanha seu senhor na corte e nos salões nobres. Você se torna treinado em Diplomacia ou Nobreza e recebe um poder de cavaleiro a sua escolha.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "skill_training",
+      "skill": [
+        "diplomacia",
+        "nobreza"
+      ],
+      "choose": 1
+    },
+    {
+      "type": "receive_feature",
+      "feature": "poder_de_cavaleiro_a_escolha"
+    }
+  ],
+  "costs": null
+}

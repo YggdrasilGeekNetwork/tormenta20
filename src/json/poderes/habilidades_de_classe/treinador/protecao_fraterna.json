@@ -1,0 +1,28 @@
+{
+  "id": "protecao_fraterna",
+  "name": "Proteção Fraterna",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Quando você e/ou seu melhor amigo sofre um efeito que permite um teste de resistência, se ele estiver em alcance curto, você pode gastar 2 PM para coordenar seus esforços. Os dois fazem o teste de resistência, mas ambos usam o melhor resultado. Se um de vocês tiver uma habilidade que modifica o efeito por passar no teste de resistência (como Evasão), ambos são afetados por ela.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "shared_saving_throw",
+      "value": "melhor_resultado",
+      "range": "curto",
+      "note": "habilidades que modificam o efeito ao passar no teste (ex.: Evasão) se aplicam a ambos"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

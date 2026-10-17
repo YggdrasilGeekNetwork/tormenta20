@@ -1,0 +1,31 @@
+{
+  "id": "cajado_do_poder",
+  "name": "Cajado do Poder",
+  "base_weapon": "bordão",
+  "preco": 180000,
+  "description": "Este bordão defensor magnífico tem cabo reto e liso, com uma joia cintilante na ponta. Conta como um cajado arcano. Além dos benefícios desse esotérico, o custo de suas magias arcanas diminui em –1 PM (cumulativo com Mestre em Escola) e a CD para resistir a elas aumenta em +2 (para um aumento total de +3).",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensor"
+    },
+    {
+      "type": "enchantment",
+      "name": "magnífico"
+    },
+    {
+      "type": "conta_como",
+      "item": "cajado_arcano"
+    },
+    {
+      "type": "reducao_custo_pm_magia",
+      "value": 1,
+      "condicao": "magias arcanas; cumulativo com Mestre em Escola"
+    },
+    {
+      "type": "aumento_cd_magia",
+      "value": 2,
+      "condicao": "magias arcanas; total +3 somado ao cajado arcano"
+    }
+  ]
+}

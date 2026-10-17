@@ -1,0 +1,64 @@
+{
+  "id": "maniaco_lefou",
+  "name": "Maníaco Lefou",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "lefou",
+  "tamanho": "médio",
+  "grupo": "tormenta",
+  "pv": 25,
+  "defesa": 18,
+  "salvaguardas": {
+    "fort": 12,
+    "ref": 7,
+    "von": 3
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 2,
+  "visao": [],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 5,
+    "des": 1,
+    "con": 1,
+    "int": -1,
+    "sab": -1,
+    "car": -2
+  },
+  "ataques": [
+    {
+      "nome": "Machado de guerra",
+      "bonus": 16,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 12
+            }
+          ],
+          "bonus": 15,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Frenesi Insano",
+      "descricao": "Sempre que causa ou sofre dano, recebe +2 cumulativo em testes de ataque e rolagens de dano até fim da cena."
+    }
+  ],
+  "equipamento": [
+    "Machado de guerra"
+  ],
+  "tesouro": "metade",
+  "description": "Meio-demônio da Tormenta que abraçou a violência e a loucura. Ataca tudo que encontra, sozinho ou em pequenos grupos."
+}

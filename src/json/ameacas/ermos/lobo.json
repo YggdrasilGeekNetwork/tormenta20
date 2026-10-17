@@ -1,0 +1,69 @@
+{
+  "id": "lobo",
+  "name": "Lobo",
+  "nd": 0.5,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "ermos",
+  "pv": 14,
+  "defesa": 14,
+  "salvaguardas": {
+    "fort": 6,
+    "ref": 3,
+    "von": 1
+  },
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 5,
+  "percepcao": 6,
+  "visao": [
+    "faro",
+    "visão na penumbra"
+  ],
+  "deslocamento": {
+    "terrestre": 15
+  },
+  "atributos": {
+    "for": 3,
+    "des": 3,
+    "con": 3,
+    "int": -4,
+    "sab": 2,
+    "car": -2
+  },
+  "pericias": {
+    "sobrevivencia": 6
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 7,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 5,
+          "tipo": "perfuração"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Derrubar",
+      "acao": "livre",
+      "descricao": "Se acerta um ataque de mordida, pode fazer a manobra derrubar (teste +7)."
+    },
+    {
+      "nome": "Táticas de Alcateia",
+      "descricao": "Quando flanqueia um inimigo, recebe +2 no teste de ataque e na rolagem de dano (total +4 no ataque, +2 no dano com flanquear)."
+    }
+  ],
+  "tesouro": "nenhum",
+  "description": "Predadores primordiais que vivem em alcateias lideradas pelo macho alfa. Atacam as pernas para derrubar a vítima e coordenam emboscadas circulando o alvo."
+}

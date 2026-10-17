@@ -1,0 +1,27 @@
+{
+  "id": "sincronia_de_combate",
+  "name": "Sincronia de Combate",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "A partir do 6º nível, uma vez por rodada, quando seu melhor amigo acerta um ataque usando a ação agredir, você pode gastar 2 PM para fazer um ataque contra o mesmo alvo.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 6
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_attack",
+      "trigger": "melhor_amigo_acerta_ataque",
+      "frequency": "1_por_rodada"
+    }
+  ],
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

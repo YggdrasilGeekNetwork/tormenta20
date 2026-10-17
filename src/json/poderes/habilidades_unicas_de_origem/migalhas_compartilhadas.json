@@ -1,0 +1,34 @@
+{
+  "id": "migalhas_compartilhadas",
+  "name": "Migalhas Compartilhadas",
+  "origin": "pedinte",
+  "description": "Você é muito discreto, recebendo +2 em Enganação e Furtividade. Além disso, aprendeu a aproveitar o máximo de cada recurso e a partilhar do pouco que tinha com seus companheiros em dificuldades. Quando você usa um alimento, preparado alquímico ou poção, pode rolar seu efeito duas vezes e usar o melhor resultado (se o efeito for aleatório), ou pode dividir o item com um aliado adjacente (ele também gasta a ação para consumi-lo e recebe o benefício normal, mas você gasta apenas um item).",
+  "effects": {
+    "skill_bonuses": [
+      {
+        "skill": "Enganação",
+        "value": 2
+      },
+      {
+        "skill": "Furtividade",
+        "value": 2
+      }
+    ],
+    "item_use_options": {
+      "applies_to": [
+        "alimento",
+        "preparado alquímico",
+        "poção"
+      ],
+      "options": [
+        {
+          "effect": "rola o efeito duas vezes e usa o melhor resultado",
+          "condition": "se o efeito for aleatório"
+        },
+        {
+          "effect": "divide o item com um aliado adjacente (ele gasta a ação para consumir e recebe o benefício normal, mas você gasta apenas um item)"
+        }
+      ]
+    }
+  }
+}

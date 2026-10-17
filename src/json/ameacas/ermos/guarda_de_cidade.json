@@ -1,0 +1,63 @@
+{
+  "id": "guarda_de_cidade",
+  "name": "Guarda de Cidade",
+  "nd": 0.5,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "médio",
+  "grupo": "ermos",
+  "pv": 8,
+  "defesa": 15,
+  "salvaguardas": {
+    "fort": 5,
+    "ref": 2,
+    "von": 1
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 4,
+  "percepcao": 3,
+  "visao": [],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 2,
+    "des": 1,
+    "con": 2,
+    "int": 0,
+    "sab": 0,
+    "car": 0
+  },
+  "pericias": {
+    "atletismo": 5
+  },
+  "ataques": [
+    {
+      "nome": "Maça",
+      "bonus": 7,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 5,
+          "tipo": "impacto"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [],
+  "equipamento": [
+    "Apito",
+    "couro batido",
+    "maça"
+  ],
+  "tesouro": "nenhum",
+  "description": "Guardas patrulham cidades e estradas. Aventureiros que operam fora da lei podem ter problemas com eles."
+}

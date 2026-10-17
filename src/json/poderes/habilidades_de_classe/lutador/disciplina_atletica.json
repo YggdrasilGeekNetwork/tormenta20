@@ -1,0 +1,21 @@
+{
+  "id": "disciplina_atletica",
+  "name": "Disciplina Atlética",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_lutador",
+  "description": "A partir do 9º nível, quando falha em um teste de resistência, você pode gastar 2 PM para rolar esse teste novamente, usando Atletismo no lugar da perícia original.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 9
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": [
+    {
+      "value": 2,
+      "type": "PM"
+    }
+  ]
+}

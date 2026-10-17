@@ -1,0 +1,96 @@
+{
+  "id": "geraktril",
+  "name": "Geraktril",
+  "nd": 6,
+  "tipo": "Monstro",
+  "subtipo": "lefeu",
+  "tamanho": "médio",
+  "grupo": "tormenta",
+  "pv": 240,
+  "defesa": 30,
+  "salvaguardas": {
+    "fort": 18,
+    "ref": 15,
+    "von": 6
+  },
+  "reducao_de_dano": 10,
+  "imunidades": [
+    "acertos críticos",
+    "ácido",
+    "cansaço",
+    "eletricidade",
+    "fogo",
+    "frio",
+    "luz",
+    "paralisia",
+    "metabolismo",
+    "metamorfose",
+    "trevas",
+    "veneno"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 13,
+  "percepcao": 16,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 7,
+    "des": 5,
+    "con": 3,
+    "int": 1,
+    "sab": 3,
+    "car": -1
+  },
+  "ataques": [
+    {
+      "nome": "Pinça",
+      "bonus": 23,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 3,
+              "faces": 6
+            }
+          ],
+          "bonus": 10,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19",
+      "quantidade": 2
+    },
+    {
+      "nome": "Garra",
+      "bonus": 23,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 10,
+          "tipo": "corte"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Insanidade da Tormenta",
+      "salvaguarda": "Vontade",
+      "cd": 22,
+      "efeito_sucesso": "evita",
+      "descricao": "Criatura que veja um ou mais lefeu faz Von CD 22 ou perde 2d4 PM. Reduzida a 0 PM, fica confusa. Uma vez por dia."
+    }
+  ],
+  "tesouro": "nenhum",
+  "description": "Versão maior do uktril com três braços e pinças capazes de cortar homens ao meio. Líder de bandos uktril e emissário de Aharadak."
+}

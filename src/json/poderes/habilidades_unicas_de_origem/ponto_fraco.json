@@ -1,0 +1,16 @@
+{
+  "id": "ponto_fraco",
+  "name": "Ponto Fraco",
+  "origin": "construtor",
+  "description": "Você sabe encontrar pontos fracos em construções e estruturas. Pode pagar 2 PM para que você ou um aliado em alcance curto ignore 5 pontos da redução de dano de uma criatura ou objeto em alcance curto por uma cena.",
+  "effects": {
+    "active_ability": {
+      "cost": {
+        "pm": 2
+      },
+      "range": "curto",
+      "effect": "você ou um aliado ignora 5 pontos de redução de dano de uma criatura ou objeto em alcance curto",
+      "duration": "uma cena"
+    }
+  }
+}

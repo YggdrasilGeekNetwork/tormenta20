@@ -1,0 +1,10 @@
+{
+  "id": "estatisticas_de_npcs",
+  "name": "Estatísticas de NPCs",
+  "description": "Tabela 6-1 (T20 EJA, Cap. 6, p.259). Guia rápido para o mestre atribuir bônus de perícia a NPCs sem ficha completa, de acordo com seu patamar de competência. 'Perícia Forte' é o bônus usado nas perícias mais relevantes para o NPC; 'Perícia Fraca', nas demais.",
+  "niveis": [
+    { "patamar": "Iniciante", "exemplos": "guarda de cidade, mascate...", "pericia_forte": 5, "pericia_fraca": 0 },
+    { "patamar": "Veterano", "exemplos": "capitão da guarda, mercador próspero...", "pericia_forte": 10, "pericia_fraca": 3 },
+    { "patamar": "Campeão", "exemplos": "guarda-costas real, mestre de guilda...", "pericia_forte": 15, "pericia_fraca": 6 }
+  ]
+}

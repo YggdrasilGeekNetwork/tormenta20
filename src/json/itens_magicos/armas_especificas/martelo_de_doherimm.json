@@ -1,0 +1,25 @@
+{
+  "id": "martelo_de_doherimm",
+  "name": "Martelo de Doherimm",
+  "base_weapon": "martelo_de_guerra",
+  "preco": 70000,
+  "description": "Este martelo de guerra formidável é feito de pedra e aço. Quando empunhado por um anão, adquire o encanto arremesso e aumenta seu dano em +1d8 (ou +2d8 se usado contra criaturas Grandes ou maiores).",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "empunhado por um anão",
+      "concede_enchant": "arremesso",
+      "dano_extra": "1d8"
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "empunhado por um anão contra criaturas Grandes ou maiores",
+      "dano_extra": "2d8",
+      "substitui": "o +1d8 padrão para anãos"
+    }
+  ]
+}

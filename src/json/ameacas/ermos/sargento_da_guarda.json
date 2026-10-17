@@ -1,0 +1,89 @@
+{
+  "id": "sargento_da_guarda",
+  "name": "Sargento da Guarda",
+  "nd": 1,
+  "tipo": "Humanoide",
+  "subtipo": "humano",
+  "tamanho": "médio",
+  "grupo": "ermos",
+  "pv": 28,
+  "defesa": 17,
+  "salvaguardas": {
+    "fort": 9,
+    "ref": 4,
+    "von": 3
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 4,
+  "visao": [],
+  "deslocamento": {
+    "terrestre": 6
+  },
+  "atributos": {
+    "for": 3,
+    "des": 1,
+    "con": 2,
+    "int": 0,
+    "sab": 0,
+    "car": 1
+  },
+  "pericias": {
+    "atletismo": 7,
+    "intuicao": 4
+  },
+  "ataques": [
+    {
+      "nome": "Maça",
+      "bonus": 10,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 10,
+          "tipo": "impacto"
+        }
+      ]
+    },
+    {
+      "nome": "Besta leve (à distância)",
+      "bonus": 9,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 5,
+          "tipo": "perfuração"
+        }
+      ],
+      "critico": "19"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Ordens",
+      "acao": "movimento",
+      "descricao": "Grita ordens para aliados em alcance médio. Eles recebem +2 em testes de perícia até o fim da cena."
+    }
+  ],
+  "equipamento": [
+    "Apito",
+    "besta leve",
+    "cota de malha",
+    "maça",
+    "virotes x20"
+  ],
+  "tesouro": "metade",
+  "description": "Veterano experiente que comanda uma guarda local. Lidera pelo exemplo e coordena seus subordinados eficientemente."
+}

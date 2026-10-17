@@ -1,0 +1,11 @@
+{
+  "id": "intolerancia_a_luz_finntroll",
+  "name": "Intolerância a Luz",
+  "type": "habilidade_de_raca",
+  "race": "finntroll",
+  "description": "Você recebe sensibilidade a luz e, quando exposto à luz do sol ou similar, não consegue ativar sua Regeneração Vegetal.",
+  "effects": {
+    "sensibilidade_a_luz": true,
+    "restricao": { "condicao": "exposto_a_luz_do_sol", "efeito": "nao_pode_ativar_regeneracao_vegetal" }
+  }
+}

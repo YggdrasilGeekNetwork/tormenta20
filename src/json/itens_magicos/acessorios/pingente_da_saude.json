@@ -6,5 +6,11 @@
   "roll_min": 99,
   "roll_max": 100,
   "description": "O usuário desta joia verde em um cordão de prata recebe imunidade a doenças e venenos. Os efeitos só se ativam após uma semana de uso.",
-  "efeito": {}
+  "effects": [
+    {
+      "type": "imunidade",
+      "efeito": "doenças e venenos",
+      "condicao": "ativa após uma semana de uso"
+    }
+  ]
 }

@@ -1,0 +1,87 @@
+{
+  "id": "orc_mutante",
+  "name": "Orc Mutante",
+  "nd": 5,
+  "tipo": "Humanoide",
+  "subtipo": "orc",
+  "tamanho": "médio",
+  "grupo": "masmorras",
+  "pv": 55,
+  "defesa": 22,
+  "salvaguardas": {
+    "fort": 15,
+    "ref": 11,
+    "von": 7
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 8,
+  "percepcao": 5,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 6,
+    "des": 2,
+    "con": 4,
+    "int": -2,
+    "sab": -2,
+    "car": -2
+  },
+  "ataques": [
+    {
+      "nome": "Machado de guerra",
+      "bonus": 20,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 12
+            }
+          ],
+          "bonus": 18,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "20/x3"
+    },
+    {
+      "nome": "Mordida",
+      "bonus": 20,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 18,
+          "tipo": "perfuração"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Terceiro Braço",
+      "acao": "livre",
+      "descricao": "Se acerta o ataque de machado de guerra e o de mordida na mesma criatura na mesma rodada, causa mais 1d6+9 pontos de dano de corte."
+    },
+    {
+      "nome": "Sensibilidade a Luz",
+      "descricao": "Quando exposto a luz do sol ou similar, o orc fica ofuscado."
+    }
+  ],
+  "equipamento": [
+    "Machado de guerra"
+  ],
+  "tesouro": "padrão",
+  "description": "Orc corrompido pela magia sombria, com um terceiro braço degenerado e força sobre-humana."
+}

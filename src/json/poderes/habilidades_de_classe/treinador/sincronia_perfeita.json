@@ -1,0 +1,37 @@
+{
+  "id": "sincronia_perfeita",
+  "name": "Sincronia Perfeita",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "No 20º nível, você pode gastar uma ação de movimento e 6 PM para entrar em um estado de sincronia perfeita com um dos seus melhores amigos. Até o fim da cena, o tamanho dele aumenta em uma categoria. Além disso, uma vez por rodada, quando usa uma ação padrão consigo mesmo, você recebe uma ação padrão extra para usar com ele.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 20
+    }
+  ],
+  "effects": [
+    {
+      "type": "size_improvement",
+      "value": 1,
+      "duration": "cena",
+      "target": "melhor_amigo"
+    },
+    {
+      "type": "extra_action",
+      "action_type": "acao_padrao",
+      "frequency": "1_por_rodada"
+    }
+  ],
+  "costs": [
+    {
+      "value": 6,
+      "type": "PM"
+    },
+    {
+      "value": 1,
+      "type": "acao_de_movimento"
+    }
+  ]
+}

@@ -1,0 +1,67 @@
+{
+  "id": "ferimentos_e_morte",
+  "name": "Ferimentos & Morte",
+  "description": "Regras para dano, pontos de vida, inconsciência, sangramento e morte em Tormenta20.",
+  "regras": {
+    "dano_e_pv": "Sempre que você sofre dano, subtrai o valor dos seus pontos de vida. O dano não impede ações enquanto os PV se mantêm positivos.",
+    "inconsciente": "Se ficar com 0 PV ou menos, cai inconsciente e fica sangrando.",
+    "sangrando": "No início de cada turno com 0 PV ou menos, faça um teste de Constituição (CD 15). Se passar, estabiliza e não precisa mais fazer esse teste (exceto se perder mais PV). Se falhar, perde 1d6 pontos de vida. Repita a cada rodada até estabilizar ou morrer.",
+    "estabilizar": "Um personagem sangrando pode ser estabilizado com um teste de Cura (CD 15) ou com qualquer efeito que cure pelo menos 1 PV.",
+    "recuperar_consciencia": "Um personagem com 0 ou menos PV que recupere PV até um valor positivo (1 ou mais) por uma habilidade, magia ou descanso, recobra a consciência e pode agir normalmente.",
+    "morte": {
+      "regra": "Quando os PV chegam a –10 ou a um número negativo igual à metade dos PV totais (o que for mais baixo), o personagem morre.",
+      "exemplo": "Um personagem com 12 PV morre em –10 PV. Com 30 PV, morre em –15 PV."
+    },
+    "dano_nao_letal": {
+      "description": "Dano não letal conta para determinar quando você cai inconsciente, mas não para sangramento ou morte. Efeitos de cura recuperam primeiro PV perdidos por dano não letal.",
+      "usar_arma_nao_letal": "Você pode usar uma arma para causar dano não letal (batendo com as partes não afiadas ou controlando a força dos golpes), mas sofre –5 no teste de ataque.",
+      "armas_nao_letais": "Ataques desarmados e certas armas específicas causam dano não letal. Podem causar dano letal com –5 no teste de ataque."
+    }
+  },
+  "variantes": [
+    {
+      "id": "desafiando_a_morte",
+      "name": "Desafiando a Morte",
+      "livro": "herois_de_arton",
+      "description": "Regra inspirada em conceitos narrativistas, que coloca mais controle nas mãos dos jogadores. Com esta regra, os personagens não morrem: se um personagem \"morre\" (alcança o limite de pontos de vida negativos), em vez disso fica fora do jogo até a próxima cena, mesmo que alguém tente curá-lo. Se o mestre quiser ser mais cruel, cada personagem que \"morra\" pode em vez disso perder 1 ponto permanente num atributo (role 1d6: 1 Força, 2 Destreza, 3 Constituição, 4 Inteligência, 5 Sabedoria, 6 Carisma). A qualquer momento, um personagem pode declarar que está \"desafiando a morte\": seu limite de gasto de pontos de mana aumenta em +2 e ele recebe 2d6 PM temporários por patamar, que duram até o fim da cena. Porém, durante essa cena, se chegar ao limite de pontos de vida negativos, morre de verdade. O jogador só pode \"desafiar a morte\" em uma cena na qual tenha uma chance real de morrer, e nunca deve ser obrigado a fazê-lo — o mestre pode vetar qualquer uso abusivo desta opção.",
+      "efeito": {
+        "limite_pm_bonus": 2,
+        "pm_temporarios_por_patamar": "2d6",
+        "duracao": "até o fim da cena",
+        "consequencia": "se chegar ao limite de PV negativos durante a cena, morre de verdade"
+      },
+      "opcao_mais_cruel": "Ao invés de ficar apenas fora do jogo, o personagem que \"morre\" perde 1 ponto permanente num atributo (role 1d6, sendo 1 Força, 2 Destreza e assim por diante)."
+    },
+    {
+      "id": "morte_alternativa",
+      "name": "Morte Alternativa",
+      "livro": "herois_de_arton",
+      "description": "Muda a forma como personagens morrem, equilibrando a chance desse evento trágico ao longo da campanha — diminui a chance de morte em níveis baixos e evita completamente a chance de morte instantânea em qualquer nível. Nesta regra, não há pontos de vida negativos. Se um personagem for reduzido a 0 ou menos pontos de vida, fica com 0 PV, inconsciente e moribundo.",
+      "moribundo": {
+        "description": "No início de seu turno, e sempre que sofrer dano estando moribundo, o personagem deve fazer um teste de Constituição e consultar a tabela de teste de morte. A CD é 10 +2 para cada vez além da primeira que ficou moribundo nessa cena e +2 para cada teste desses já realizado nessa cena (esses aumentos são cumulativos). O personagem perde essa condição se recuperar 1 ou mais PV ou se receber primeiros socorros (perícia Cura, CD igual à CD atual do teste de Constituição).",
+        "tabela_teste_de_morte": [
+          { "resultado": "Falha por 10 ou mais", "efeito": "Morre" },
+          { "resultado": "Falha por 5 ou mais", "efeito": "Sofre uma lesão" },
+          { "resultado": "Falha", "efeito": "Continua moribundo" },
+          { "resultado": "Passa", "efeito": "Perde a condição moribundo e acorda em 1d4 horas com 1 PV" },
+          { "resultado": "Passa por 5 ou mais", "efeito": "Perde a condição moribundo e acorda com 1 PV" }
+        ]
+      },
+      "ferimento_permanente_opcional": {
+        "description": "\"Opção da opção\": se estiver usando Morte Alternativa e quiser um clima mais brutal, substitua o resultado \"Lesão\" na tabela de teste de morte pelo resultado \"Ferimento Permanente\": o personagem perde 1 ponto permanente em um atributo (role 1d6, sendo 1 Força, 2 Destreza e assim por diante). A critério do mestre, isso pode ser substituído por uma complicação coerente. Um ferimento permanente pode ser curado pelas magias Desejo ou Intervenção Divina, mas um personagem só pode ter um ferimento permanente curado por cada uma dessas magias ao longo de sua vida."
+      }
+    },
+    {
+      "id": "lesoes",
+      "name": "Lesões",
+      "livro": "herois_de_arton",
+      "description": "Apresenta machucados mais profundos do que aqueles representados por dano. Sempre que os PV de um personagem são reduzidos a 0 ou menos, ele sofre uma lesão: uma penalidade cumulativa de –2 em testes de perícias. Lesões são recuperadas apenas com descanso — a cada noite de sono em condições normais ou melhores, o personagem recupera uma lesão (ou duas, se tiver passado por cuidados prolongados; veja a perícia Cura). Lesões também aparecem na regra de Morte Alternativa. Esta opção é boa para quem gosta da regra padrão de morte, mas quer mais consequências para as batalhas. Para ainda mais brutalidade e realismo, substitua lesões por ferimentos permanentes.",
+      "efeito": {
+        "penalidade_por_lesao": -2,
+        "aplica_em": "testes de perícias",
+        "cumulativa": true,
+        "recuperacao": "1 lesão por noite de sono (2 com cuidados prolongados)"
+      }
+    }
+  ]
+}

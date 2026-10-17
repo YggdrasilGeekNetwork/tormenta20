@@ -1,0 +1,20 @@
+{
+  "id": "lanca_animalesca",
+  "name": "Lança Animalesca",
+  "base_weapon": "lança",
+  "preco": 45000,
+  "description": "Espinhos e folhas vivas brotam desta lança formidável. Se você usar a habilidade Forma Selvagem, aplica o bônus de +2 em ataque e dano da lança animalesca em suas armas naturais.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "bonus_condicional",
+      "condicao": "usa a habilidade Forma Selvagem",
+      "aplica_a": "armas naturais",
+      "bonus_ataque": 2,
+      "bonus_dano": 2
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "id": "caca_pragas",
+  "name": "Caça-Pragas",
+  "origin": "cacador_de_ratos",
+  "description": "Você recebe +2 em testes de perícia contra criaturas de duas categorias de tamanho menor que a sua (mínimo Minúsculas).",
+  "effects": {
+    "test_bonuses": [
+      {
+        "value": 2,
+        "against": "criaturas de duas categorias de tamanho menor (mínimo Minúsculas)"
+      }
+    ]
+  }
+}

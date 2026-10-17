@@ -1,0 +1,16 @@
+{
+  "id": "maos_de_carpinteiro",
+  "name": "Mãos de Carpinteiro",
+  "origin": "carpinteiro_de_guilda",
+  "description": "Você recebe redução de corte 2 e, em suas mãos, armas de corte ignoram 5 pontos de redução de dano.",
+  "effects": {
+    "damage_reduction": {
+      "type": "corte",
+      "value": 2
+    },
+    "weapon_bonus": {
+      "weapon_type": "armas de corte",
+      "effect": "ignoram 5 pontos de redução de dano"
+    }
+  }
+}

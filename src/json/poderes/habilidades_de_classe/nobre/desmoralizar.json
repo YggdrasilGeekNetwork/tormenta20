@@ -1,0 +1,16 @@
+{
+  "id": "desmoralizar",
+  "name": "Desmoralizar",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_nobre",
+  "description": "No 2º nível, você aprende e pode lançar Perdição, podendo usar seus aprimoramentos como se tivesse acesso aos mesmos círculos de magia que um clérigo de seu nível. Entretanto, só pode lançá-la em criaturas inteligentes (Int -3 ou maior). Esta não é uma habilidade mágica e provém da sua capacidade de abalar a autoconfiança de outras pessoas (Magias Simuladas, efeito Mental). A penalidade em testes de ataque desta magia aumenta em -1 nos níveis 6, 10, 14 e 18 (totalizando -2, -3, -4 e -5).",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [2, 6, 10, 14, 18]
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

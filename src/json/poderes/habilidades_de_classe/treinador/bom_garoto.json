@@ -1,0 +1,24 @@
+{
+  "id": "bom_garoto",
+  "name": "Bom Garoto",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Uma vez por rodada, quando seu melhor amigo faz um acerto crítico em combate ou reduz um inimigo a 0 PV em seu turno, você recebe uma ação padrão que só pode usar consigo mesmo. Pré-requisito: 11º nível de treinador.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 11
+    }
+  ],
+  "effects": [
+    {
+      "type": "extra_action",
+      "action_type": "acao_padrao",
+      "trigger": "melhor_amigo_critico_ou_reduz_inimigo_a_0_pv",
+      "frequency": "1_por_rodada",
+      "restriction": "apenas_consigo_mesmo"
+    }
+  ],
+  "costs": null
+}

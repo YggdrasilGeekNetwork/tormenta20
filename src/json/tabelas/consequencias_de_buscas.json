@@ -1,0 +1,12 @@
+{
+  "id": "consequencias_de_buscas",
+  "name": "Consequências de Buscas",
+  "description": "Tabela 6-7 (T20 EJA, Cap. 6, p.278/283). Ao fim de uma busca (teste estendido narrativo), o número total de sucessos obtidos define o resultado na coluna 'Consequência'. Para cada recompensa ou castigo ganho, role 1d6 na tabela 'Recompensas & Castigos': 1) Tesouro(riqueza)/Ruína(menor); 2) Favor/Abalo; 3) Tesouro(item)/Complicação; 4) Informação/Ferimento; 5) Tesouro(ambos)/Maldição; 6) Poder/Ruína(maior). Recompensas — Favor: ajuda de um NPC/organização por uma cena, a critério do jogador e aprovação do mestre. Informação: um dado narrativo relevante, a critério do jogador e aprovação do mestre. Poder: um benefício de treinamento definido aleatoriamente. Tesouro: role na tabela de tesouros (Capítulo 8) na linha do seu nível. Castigos — Abalo: PM máximos -1 por nível de personagem na próxima aventura. Complicação: definida pelo mestre. Ferimento: PV máximos -1 por nível de personagem na próxima aventura (cura não remove). Maldição: sofre o efeito de Rogar Maldição na próxima aventura. Ruína: perde 1/4 (menor) ou 1/2 (maior) do dinheiro inicial do seu nível (ou sofre um Abalo, se não puder pagar).",
+  "headers": ["Sucessos", "Consequência"],
+  "rows": [
+    { "Sucessos": 0, "Consequência": "1 castigo" },
+    { "Sucessos": 1, "Consequência": "Nenhuma" },
+    { "Sucessos": 2, "Consequência": "1 recompensa" },
+    { "Sucessos": 3, "Consequência": "2 recompensas" }
+  ]
+}

@@ -1,0 +1,68 @@
+{
+  "id": "cascavel",
+  "name": "Cascavel",
+  "nd": 0.25,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "minúsculo",
+  "grupo": "sszzaazitas",
+  "pv": 2,
+  "defesa": 13,
+  "salvaguardas": {
+    "fort": 2,
+    "ref": 5,
+    "von": -1
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 3,
+  "visao": [
+    "faro",
+    "visão na penumbra"
+  ],
+  "deslocamento": {
+    "terrestre": 6,
+    "escalar": 6,
+    "natacao": 9
+  },
+  "atributos": {
+    "for": -2,
+    "des": 3,
+    "con": 0,
+    "int": -5,
+    "sab": 0,
+    "car": -4
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 7,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 4
+            }
+          ],
+          "tipo": "perfuração"
+        }
+      ],
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Veneno",
+      "salvaguarda": "Fortitude",
+      "cd": 16,
+      "efeito_sucesso": "evita",
+      "descricao": "Perde 1d12 PV (Fort CD 16 evita)."
+    }
+  ],
+  "tesouro": "nenhum",
+  "description": "Pequena serpente venenosa sagrada para os sszzaazitas. Usada como familiar, armadilha e instrumento de assassinato."
+}

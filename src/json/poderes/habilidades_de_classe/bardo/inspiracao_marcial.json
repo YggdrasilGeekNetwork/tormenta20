@@ -1,0 +1,20 @@
+{
+  "id": "inspiracao_marcial",
+  "name": "Inspiração Marcial",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_bardo",
+  "description": "Quando você usa Inspiração, você e seus aliados aplicam o bônus recebido em rolagens de dano (além de testes de perícia).",
+  "requirements": [
+    {
+      "type": "fearute_actived",
+      "sub_type": "soft",
+      "skill": "inspiracao"
+    }
+  ],
+  "effects": [
+    {
+      "type": "damage_bonus",
+      "value": 1
+    }
+  ]
+}

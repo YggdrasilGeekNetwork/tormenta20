@@ -3,8 +3,15 @@
   "name": "Reluzente",
   "type": "encantamento",
   "categoria": "armadura",
-  "efeito": {
-    "descricao_curta": "2 PM: clarão de luz, inimigos em alcance curto ficam cegos 1 rodada (Reflexos CD Car evita)"
-  },
-  "description": "Você pode gastar uma ação de movimento e 2 PM para emitir um clarão de luz. Todos os inimigos em alcance curto devem passar num teste de Reflexos (CD Car) ou ficarão cegos por uma rodada. Um item reluzente é polido e brilhante."
+  "description": "Você pode gastar uma ação de movimento e 2 PM para emitir um clarão de luz. Todos os inimigos em alcance curto devem passar num teste de Reflexos (CD Car) ou ficarão cegos por uma rodada. Um item reluzente é polido e brilhante.",
+  "effects": [
+    {
+      "type": "ativado",
+      "acao": "movimento",
+      "custo_pm": 2,
+      "frequencia": "ilimitado",
+      "resistencia": "Reflexos CD Car evita",
+      "efeito": "clarão de luz; inimigos em alcance curto ficam cegos por uma rodada"
+    }
+  ]
 }

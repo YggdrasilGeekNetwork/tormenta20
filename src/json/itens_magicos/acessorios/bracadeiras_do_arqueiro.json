@@ -6,7 +6,11 @@
   "roll_min": 35,
   "roll_max": 38,
   "description": "Você recebe +2 em rolagens de dano com armas de ataque à distância (cumulativo com outros itens).",
-  "efeito": {
-    "bonus_dano_distancia": 2
-  }
+  "effects": [
+    {
+      "type": "bonus_dano",
+      "value": 2,
+      "condicao": "armas de ataque à distância"
+    }
+  ]
 }

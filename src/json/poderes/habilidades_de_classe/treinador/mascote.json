@@ -1,0 +1,24 @@
+{
+  "id": "mascote",
+  "name": "Mascote",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Você tem um mascote (veja o quadro). Você pode escolher este poder várias vezes para mascotes diferentes.\n\nMASCOTES\nUm mascote é uma criatura com a qual você desenvolveu uma grande afinidade. Em termos de jogo, é um parceiro especial que não conta em seu limite de parceiros e com o qual você pode se comunicar através de gestos em alcance médio. Ele obedece a seus comandos, mas ainda está limitado ao que uma criatura de sua espécie pode fazer. Mascotes fornecem seus benefícios tanto para você quanto para seus melhores amigos. Se perder um de seus mascotes, você pode treinar um novo com uma semana de trabalho e T$ 100.\n• Águia Real. Uma vez por rodada, fornece +1d6 em uma rolagem de dano com arma.\n• Bicho Preguiça. Agarrado às costas (suas ou de seu melhor amigo), este animal ocupa o espaço de um item vestido, mas fornece um ataque natural de garra (dano 1d6, crítico x2, corte). Uma vez por rodada, quando usa a ação agredir para atacar com outra arma, você pode gastar 1 PM para fazer um ataque corpo a corpo extra com essa garra.\n• Camundongo Espiritual. Aumenta a CD para resistir a habilidades mágicas em +1.\n• Fada-Borboleta. Diminui o custo de habilidades mágicas em –1.\n• Gekko Malhado. Fornece +2 na Defesa e em Reflexos.\n• Mico-Leão Dourado. Permite usar Ladinagem para punga em alcance curto.\n• Minivaca. Fornece +1 em testes de ataque. Esse bônus dobra em investidas.\n• Ossinhos. O esqueleto de um animal reanimado. Fornece redução de corte, frio e perfuração 2.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "receive_partner",
+      "partner_type": "mascote",
+      "counts_toward_partner_limit": false,
+      "range": "medio",
+      "details": "escolha um dos oito mascotes descritos; pode ser escolhido várias vezes para mascotes diferentes"
+    }
+  ],
+  "costs": null
+}

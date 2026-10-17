@@ -1,0 +1,112 @@
+{
+  "id": "dragao_adulto",
+  "name": "Dragão Adulto",
+  "nd": 11,
+  "tipo": "Monstro",
+  "subtipo": "dragão",
+  "tamanho": "enorme",
+  "grupo": "dragoes",
+  "pv": 600,
+  "defesa": 42,
+  "pm": 70,
+  "salvaguardas": {
+    "fort": 24,
+    "ref": 11,
+    "von": 18
+  },
+  "reducao_de_dano": 10,
+  "resistencia_a_magia": 3,
+  "imunidades": [
+    "fogo"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [
+    "frio"
+  ],
+  "iniciativa": 12,
+  "percepcao": 15,
+  "visao": [
+    "percepção às cegas",
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 12,
+    "voo": 24
+  },
+  "atributos": {
+    "for": 13,
+    "des": 1,
+    "con": 10,
+    "int": 6,
+    "sab": 6,
+    "car": 6
+  },
+  "pericias": {
+    "enganacao": 22,
+    "intimidacao": 22,
+    "intuicao": 22,
+    "misticismo": 22
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 35,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 4,
+              "faces": 10
+            }
+          ],
+          "bonus": 25,
+          "tipo": "perfuração"
+        }
+      ],
+      "critico": "18"
+    },
+    {
+      "nome": "Garra",
+      "bonus": 35,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 3,
+              "faces": 10
+            }
+          ],
+          "bonus": 25,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "18",
+      "quantidade": 2
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Aura Aterradora",
+      "descricao": "Vontade CD 31 evita.",
+      "salvaguarda": "Vontade",
+      "cd": 31,
+      "efeito_sucesso": "evita"
+    },
+    {
+      "nome": "Magia",
+      "descricao": "Lança magias como conjurador arcano de 11º nível (CD 32). Campo de Força (Reação, 4 PM), Curar Ferimentos (11 PM), Dissipar Magia (3 PM)."
+    },
+    {
+      "nome": "Sopro",
+      "acao": "padrão",
+      "descricao": "Cone de fogo com dano elevado. Recarga (movimento)."
+    },
+    {
+      "nome": "Varrer",
+      "acao": "livre",
+      "descricao": "Uma vez por rodada, quando reduz um alvo a 0 PV, pode fazer um ataque adicional contra outra criatura no alcance."
+    }
+  ],
+  "tesouro": "dobro e 4 peças de couro de dragão (CD 30 para extrair)",
+  "description": "Dragão em plena maturidade, com inteligência aguçada, resistência a magia e sopro devastador. Presença suficiente para alterar o equilíbrio de poder em toda uma região."
+}

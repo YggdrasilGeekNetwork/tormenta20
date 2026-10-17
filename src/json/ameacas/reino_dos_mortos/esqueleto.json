@@ -1,0 +1,66 @@
+{
+  "id": "esqueleto",
+  "name": "Esqueleto",
+  "nd": 2,
+  "tipo": "Morto-vivo",
+  "subtipo": null,
+  "tamanho": "médio",
+  "grupo": "reino_dos_mortos",
+  "pv": 14,
+  "defesa": 19,
+  "salvaguardas": {
+    "fort": 3,
+    "ref": 7,
+    "von": 12
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {
+    "corte": 5,
+    "frio": 5,
+    "perfuração": 5
+  },
+  "vulnerabilidades": [],
+  "iniciativa": 7,
+  "percepcao": 3,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 5,
+    "des": 3,
+    "con": 0,
+    "int": null,
+    "sab": 0,
+    "car": -5
+  },
+  "ataques": [
+    {
+      "nome": "Espada longa",
+      "bonus": 14,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 8
+            }
+          ],
+          "bonus": 12,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19"
+    }
+  ],
+  "poderes_especiais": [],
+  "equipamento": [
+    "Escudo pesado",
+    "espada longa"
+  ],
+  "tesouro": "nenhum",
+  "description": "Morto-vivo sem inteligência que segue ordens de seu criador. Usado por necromantes como soldados e servos."
+}

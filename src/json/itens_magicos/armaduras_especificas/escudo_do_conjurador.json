@@ -1,0 +1,20 @@
+{
+  "id": "escudo_do_conjurador",
+  "name": "Escudo do Conjurador",
+  "subtipo": "escudo",
+  "base_item": "escudo_leve",
+  "preco": 45000,
+  "description": "Este escudo leve defensor tem uma pequena tira de couro na parte interna, sobre a qual um conjurador pode lançar uma magia. A magia não surte efeito na hora; em vez disso, fica inscrita na tira. A tira pode então ser lida como um pergaminho, descarregando a magia em seus alvos/área. Uma vez que a magia seja descarregada, outra pode ser armazenada.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "defensor"
+    },
+    {
+      "type": "ativado",
+      "acao": null,
+      "custo_pm": 0,
+      "efeito": "armazena uma magia lançada nele (funciona como pergaminho); pode ser recarregado após o uso"
+    }
+  ]
+}

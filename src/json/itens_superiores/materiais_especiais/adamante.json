@@ -11,25 +11,39 @@
     "escudo": 6000,
     "esoterico": 3000
   },
-  "efeitos": {
-    "arma": {
-      "aumento_dano": "um_passo"
-    },
-    "armadura_leve": {
-      "reducao_dano": 2
-    },
-    "armadura_pesada": {
-      "reducao_dano": 5
-    },
-    "escudo": {
-      "reducao_dano": 2
-    },
-    "esoterico": {
-      "magia_dano": {
-        "custo_extra_pm": 1,
-        "efeito": "rolar novamente qualquer resultado 1 na rolagem de dano"
+  "description": "Encontrado apenas em meteoritos (e por isso também chamado de 'ferro-meteórico'), o adamante é um metal escuro, fosco e mais denso que o aço.",
+  "effects": {
+    "arma": [
+      {
+        "type": "aumento_passo_dano",
+        "value": 1
       }
-    }
-  },
-  "description": "Encontrado apenas em meteoritos (e por isso também chamado de 'ferro-meteórico'), o adamante é um metal escuro, fosco e mais denso que o aço."
+    ],
+    "armadura_leve": [
+      {
+        "type": "reducao_dano",
+        "value": 2
+      }
+    ],
+    "armadura_pesada": [
+      {
+        "type": "reducao_dano",
+        "value": 5
+      }
+    ],
+    "escudo": [
+      {
+        "type": "reducao_dano",
+        "value": 2
+      }
+    ],
+    "esoterico": [
+      {
+        "type": "ativado",
+        "custo_pm": 1,
+        "frequencia": "por_dano_de_magia",
+        "efeito": "rolar novamente qualquer resultado 1 na rolagem de dano de uma magia"
+      }
+    ]
+  }
 }

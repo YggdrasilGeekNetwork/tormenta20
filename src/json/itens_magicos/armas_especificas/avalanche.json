@@ -1,0 +1,33 @@
+{
+  "id": "avalanche",
+  "name": "Avalanche",
+  "base_weapon": "machado_de_guerra",
+  "preco": 140000,
+  "description": "Este machado de guerra de gelo eterno congelante formidável fornece redução de fogo 10. Você pode gastar uma ação padrão e 6 PM para invocar uma tempestade de gelo que afeta alcance curto ao seu redor. Criaturas na área recebem camuflagem leve e sofrem 3d6 de impacto e 3d6 de frio por rodada. Você não sofre os efeitos nocivos e pode gastar 1 PM no início de cada turno para manter o efeito.",
+  "effects": [
+    {
+      "type": "enchantment",
+      "name": "formidável"
+    },
+    {
+      "type": "enchantment",
+      "name": "congelante"
+    },
+    {
+      "type": "enchantment",
+      "name": "gelo eterno"
+    },
+    {
+      "type": "reducao_dano",
+      "value": 10,
+      "tipo_dano": "fogo"
+    },
+    {
+      "type": "ativado",
+      "acao": "padrão",
+      "custo_pm": 6,
+      "frequencia": "sustentada com 1 PM/turno",
+      "efeito": "tempestade de gelo em alcance curto; 3d6 impacto + 3d6 frio por rodada; camuflagem leve na área; você não sofre os efeitos"
+    }
+  ]
+}

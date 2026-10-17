@@ -1,0 +1,21 @@
+{
+  "id": "aumento_de_atributo",
+  "name": "Aumento de Atributo",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_treinador",
+  "description": "Você recebe +1 em um atributo. Você pode escolher este poder várias vezes, mas apenas uma vez por patamar para um mesmo atributo.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 2
+    }
+  ],
+  "effects": [
+    {
+      "type": "attribute_improvement",
+      "value": 1
+    }
+  ],
+  "costs": null
+}

@@ -1,0 +1,88 @@
+{
+  "id": "cultista_de_sszzaas",
+  "name": "Cultista de Sszzaas",
+  "nd": 7,
+  "tipo": "Monstro",
+  "subtipo": "medusa",
+  "tamanho": "médio",
+  "grupo": "sszzaazitas",
+  "pv": 160,
+  "defesa": 29,
+  "pm": 40,
+  "salvaguardas": {
+    "fort": 7,
+    "ref": 14,
+    "von": 20
+  },
+  "resistencia_a_veneno": 5,
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 11,
+  "percepcao": 12,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 0,
+    "des": 2,
+    "con": 0,
+    "int": 4,
+    "sab": 4,
+    "car": 5
+  },
+  "pericias": {
+    "enganacao": 20,
+    "intuicao": 20,
+    "religiao": 17
+  },
+  "ataques": [
+    {
+      "nome": "Adaga",
+      "bonus": 22,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 4
+            }
+          ],
+          "bonus": 4,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "19",
+      "efeito": "veneno"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Ataque Furtivo",
+      "descricao": "Uma vez por rodada, causa +5d6 em ataques contra alvos desprevenidos ou flanqueados."
+    },
+    {
+      "nome": "Magias",
+      "descricao": "Lança magias como clérига de Sszzaas de 7º nível (CD 26): 1º — Arma Mágica, Comando, Curar Ferimentos, Escuridão; 2º — Enxame de Pestes, Miasma Mefítico."
+    },
+    {
+      "nome": "Olhar Atordoante",
+      "acao": "movimento",
+      "descricao": "Criatura em alcance curto fica atordoada por 1 rodada (apenas uma vez por cena; Fort CD 26 evita).",
+      "salvaguarda": "Fortitude",
+      "cd": 26,
+      "efeito_sucesso": "evita"
+    },
+    {
+      "nome": "Veneno",
+      "descricao": "Perde 2d12 PV durante 3 rodadas (Fort CD 26 reduz para uma rodada).",
+      "salvaguarda": "Fortitude",
+      "cd": 26,
+      "efeito_sucesso": "reduz para uma rodada"
+    }
+  ],
+  "tesouro": "padrão",
+  "description": "Medusa devota de Sszzaas que lidera cabalas sszzaazitas nas sombras. Manipula asseclas, comete crimes para seu patrono maléfico e possui poderosas magias e o olhar paralisante de sua raça."
+}

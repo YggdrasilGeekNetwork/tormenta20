@@ -1,0 +1,83 @@
+{
+  "id": "grifo",
+  "name": "Grifo",
+  "nd": 3,
+  "tipo": "Monstro",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "ermos",
+  "pv": 110,
+  "defesa": 19,
+  "salvaguardas": {
+    "fort": 9,
+    "ref": 15,
+    "von": 4
+  },
+  "reducao_de_dano": null,
+  "imunidades": [
+    "medo"
+  ],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 9,
+  "percepcao": 7,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 12,
+    "voo": 24
+  },
+  "atributos": {
+    "for": 5,
+    "des": 4,
+    "con": 3,
+    "int": -4,
+    "sab": 2,
+    "car": -1
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 14,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "bonus": 5,
+          "tipo": "perfuração"
+        }
+      ]
+    },
+    {
+      "nome": "Garra",
+      "bonus": 14,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 6
+            }
+          ],
+          "bonus": 5,
+          "tipo": "corte"
+        }
+      ],
+      "quantidade": 2
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Bote",
+      "acao": "completa",
+      "descricao": "Faz investida e ataca com mordida e duas garras. Os três ataques recebem +2 da investida, mas devem ser contra o mesmo alvo."
+    }
+  ],
+  "tesouro": "ninho tem 25% de chance de conter 1d4 ovos (T$ 2.500 cada)",
+  "description": "Criatura majestosa com corpo de leão e cabeça e asas de águia. Um dos voadores mais rápidos de Arton. Domesticável desde filhote."
+}

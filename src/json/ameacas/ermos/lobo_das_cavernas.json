@@ -1,0 +1,66 @@
+{
+  "id": "lobo_das_cavernas",
+  "name": "Lobo-das-Cavernas",
+  "nd": 2,
+  "tipo": "Animal",
+  "subtipo": null,
+  "tamanho": "grande",
+  "grupo": "ermos",
+  "pv": 73,
+  "defesa": 19,
+  "salvaguardas": {
+    "fort": 11,
+    "ref": 7,
+    "von": 6
+  },
+  "imunidades": [],
+  "resistencias": {},
+  "iniciativa": 5,
+  "percepcao": 7,
+  "visao": [
+    "faro",
+    "visão na penumbra"
+  ],
+  "deslocamento": {
+    "terrestre": 15
+  },
+  "atributos": {
+    "for": 6,
+    "des": 2,
+    "con": 6,
+    "int": -4,
+    "sab": 2,
+    "car": -2
+  },
+  "ataques": [
+    {
+      "nome": "Mordida",
+      "bonus": 13,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 2,
+              "faces": 6
+            }
+          ],
+          "bonus": 10,
+          "tipo": "perfuração"
+        }
+      ]
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Derrubar",
+      "acao": "livre",
+      "descricao": "Se acerta um ataque de mordida, pode fazer a manobra derrubar."
+    },
+    {
+      "nome": "Táticas de Alcateia",
+      "descricao": "Quando flanqueia um inimigo, recebe +2 no teste de ataque e na rolagem de dano."
+    }
+  ],
+  "tesouro": "nenhum",
+  "description": "Ancestral pré-histórico do lobo comum, muito maior e com uma coluna de placas ósseas no dorso. Usado por goblinoides como besta de guarda e montaria."
+}

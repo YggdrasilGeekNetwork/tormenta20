@@ -1,0 +1,24 @@
+{
+  "id": "caridade_devota",
+  "name": "Caridade Devota",
+  "origin": "freira",
+  "description": "Quando faz um teste para ajudar, você pode gastar 1 PM para aumentar o bônus da ajuda em +1d4 e, quando usa um efeito de cura, pode gastar 1 PM para aumentar esse efeito em +1 dado do mesmo tipo.",
+  "effects": {
+    "active_ability": [
+      {
+        "trigger": "teste para ajudar",
+        "cost": {
+          "pm": 1
+        },
+        "effect": "aumenta o bônus da ajuda em +1d4"
+      },
+      {
+        "trigger": "usa um efeito de cura",
+        "cost": {
+          "pm": 1
+        },
+        "effect": "aumenta o efeito em +1 dado do mesmo tipo"
+      }
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "abraco_gelido",
+  "name": "Abraço Gélido",
+  "type": "habilidade_de_raca",
+  "race": "soterrado",
+  "description": "Você recebe +2 em testes para agarrar. Além disso, seus ataques desarmados e com armas naturais causam 2 pontos de dano de frio extras.",
+  "effects": {
+    "bonus_manobra": { "agarrar": 2 },
+    "dano_extra": { "tipo": "frio", "valor": 2, "condicao": "ataque_desarmado_ou_arma_natural" }
+  }
+}

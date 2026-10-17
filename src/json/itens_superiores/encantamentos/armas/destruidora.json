@@ -3,8 +3,19 @@
   "name": "Destruidora",
   "type": "encantamento",
   "categoria": "arma",
-  "efeito": {
-    "descricao_curta": "+2 ataque e +2d8 dano contra construtos e objetos"
-  },
-  "description": "Se usada contra construtos e objetos (com a manobra quebrar), a arma fornece +2 no teste de ataque e causa +2d8 de dano."
+  "description": "Se usada contra construtos e objetos (com a manobra quebrar), a arma fornece +2 no teste de ataque e causa +2d8 de dano.",
+  "effects": [
+    {
+      "type": "bonus_ataque",
+      "value": 2,
+      "condicao": "contra construtos e objetos (manobra quebrar)"
+    },
+    {
+      "type": "dano_extra",
+      "dados": "2d8",
+      "tipo_dano": null,
+      "automatico": true,
+      "condicao": "contra construtos e objetos (manobra quebrar)"
+    }
+  ]
 }

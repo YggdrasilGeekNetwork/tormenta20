@@ -1,0 +1,24 @@
+{
+  "id": "tiro_de_supressao",
+  "name": "Tiro de Supressão",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_cacador",
+  "description": "Sempre que você causa dano com um arco ou besta em uma criatura que esteja sob efeito de sua Marca da Presa, essa criatura sofre uma penalidade cumulativa de –1 em rolagens de dano, até um valor igual à quantidade de PM gasta em Marca da Presa, até o fim da cena.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 1
+    }
+  ],
+  "effects": [
+    {
+      "type": "attack_penalty",
+      "target": "alvo_marcado",
+      "value": -1,
+      "duration": "cena",
+      "cumulative": true
+    }
+  ],
+  "costs": null
+}

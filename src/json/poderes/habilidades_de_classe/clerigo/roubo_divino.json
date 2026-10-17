@@ -1,0 +1,16 @@
+{
+  "id": "roubo_divino",
+  "name": "Roubo Divino",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_clerigo",
+  "description": "No 20º nível, você é capaz de roubar a própria essência divina. Quando lança uma magia com Usurpar, para cada 10 pontos no resultado do teste de Enganação, o total de PM que você gasta nessa magia é reduzido em –1 (cumulativo com outras reduções) e a CD para resistir a ela aumenta em +1.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": 20
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": null
+}

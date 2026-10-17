@@ -1,0 +1,76 @@
+{
+  "id": "orc_chefe",
+  "name": "Orc Chefe",
+  "nd": 2,
+  "tipo": "Humanoide",
+  "subtipo": "orc",
+  "tamanho": "médio",
+  "grupo": "masmorras",
+  "pv": 66,
+  "defesa": 19,
+  "salvaguardas": {
+    "fort": 13,
+    "ref": 7,
+    "von": 2
+  },
+  "reducao_de_dano": null,
+  "imunidades": [],
+  "resistencias": {},
+  "vulnerabilidades": [],
+  "iniciativa": 5,
+  "percepcao": 3,
+  "visao": [
+    "visão no escuro"
+  ],
+  "deslocamento": {
+    "terrestre": 9
+  },
+  "atributos": {
+    "for": 5,
+    "des": 2,
+    "con": 4,
+    "int": 0,
+    "sab": 0,
+    "car": 0
+  },
+  "pericias": {
+    "intimidacao": 4,
+    "sobrevivencia": 5
+  },
+  "ataques": [
+    {
+      "nome": "Machado de batalha",
+      "bonus": 11,
+      "dano": [
+        {
+          "dados": [
+            {
+              "quantidade": 1,
+              "faces": 8
+            }
+          ],
+          "bonus": 12,
+          "tipo": "corte"
+        }
+      ],
+      "critico": "20/x3"
+    }
+  ],
+  "poderes_especiais": [
+    {
+      "nome": "Urro Selvagem",
+      "acao": "movimento",
+      "descricao": "Recebe +2 em testes de ataque e rolagens de dano corpo a corpo até o final da cena, mas não pode fazer ações que exijam calma e concentração."
+    },
+    {
+      "nome": "Sensibilidade a Luz",
+      "descricao": "Quando exposto a luz do sol ou similar, o orc fica ofuscado."
+    }
+  ],
+  "equipamento": [
+    "Gibão de peles",
+    "machado de batalha"
+  ],
+  "tesouro": "padrão",
+  "description": "Líder brutal de um bando de orcs. Seu urro selvagem inspira frenesi em combate."
+}

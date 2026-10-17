@@ -1,0 +1,16 @@
+{
+  "id": "fabricar_emulsao",
+  "name": "Fabricar Emulsão",
+  "type": "habilidade_de_classe",
+  "sub_type": "poder_de_inventor",
+  "description": "No 9º nível, você aprende a fabricar emulsões com um encanto. Uma emulsão é um óleo que concede propriedades mágicas a um item: usá-la é uma ação padrão e fornece um ou mais encantos para um item até o fim da cena, sem custo adicional além do gasto do óleo, e conta no limite de encantos do item. Fabricar uma emulsão segue as mesmas regras para itens alquímicos, mas o custo e a CD dependem da quantidade de encantos contidos no óleo (1 encanto: T$ 250, CD 25; 2 encantos: T$ 750, CD 30; 3 encantos: T$ 1.500, CD 35). Por sua volatilidade, emulsões não são comercializadas. Nos níveis 13 e 17, você aprende a fabricar emulsões com respectivamente dois e três encantos.",
+  "requirements": [
+    {
+      "type": "character_lvl",
+      "sub_type": "hard",
+      "value": [9, 13, 17]
+    }
+  ],
+  "effects": "ver_texto",
+  "costs": "ver_texto"
+}

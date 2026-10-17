@@ -6,5 +6,11 @@
   "roll_min": 73,
   "roll_max": 77,
   "description": "Forjado em ouro, este anel é uma relíquia da Igreja de Valkaria. Você fica permanentemente sob efeito de Libertação.",
-  "efeito": {}
+  "effects": [
+    {
+      "type": "concede_magia",
+      "magia": "Libertação",
+      "duracao": "permanente"
+    }
+  ]
 }

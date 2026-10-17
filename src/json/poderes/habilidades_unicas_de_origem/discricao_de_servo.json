@@ -1,0 +1,26 @@
+{
+  "id": "discricao_de_servo",
+  "name": "Discrição de Servo",
+  "origin": "servo",
+  "description": "Você recebe +2 em testes de Diplomacia e Enganação contra alvos que tenham status ou posição superior à sua (ou que acreditam ter), e pode substituir testes de Nobreza por testes de Ofício (serviçal).",
+  "effects": {
+    "skill_bonuses": [
+      {
+        "skill": "Diplomacia",
+        "value": 2,
+        "condition": "contra alvos com status ou posição superior à sua (ou que acreditam ter)"
+      },
+      {
+        "skill": "Enganação",
+        "value": 2,
+        "condition": "contra alvos com status ou posição superior à sua (ou que acreditam ter)"
+      }
+    ],
+    "skill_substitutions": [
+      {
+        "original": "Nobreza",
+        "substitute": "Ofício (serviçal)"
+      }
+    ]
+  }
+}
