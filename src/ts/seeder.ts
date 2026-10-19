@@ -92,6 +92,15 @@ function livroIdOf(x: Record<string, unknown>): string {
   return (x.livro as string | undefined) ?? "t20_eja"
 }
 
+// insert() only serializes objects; JSON columns that may hold a bare string or number need explicit encoding.
+function jsonOrNull(v: unknown): string | null {
+  return v === undefined || v === null ? null : JSON.stringify(v)
+}
+
+function isPlainObject(v: unknown): v is Record<string, unknown> {
+  return typeof v === "object" && v !== null && !Array.isArray(v)
+}
+
 function seedRacas(insert: ReturnType<typeof Database.prototype.transaction>): void {
   const racas = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "racas"))
   insert("racas", racas.map((r) => ({
@@ -246,8 +255,9 @@ function mapPoder(
   return {
     id: p.id, name: p.name, type,
     description: p.description ?? null,
-    effects: p.effects ?? [], costs: p.costs ?? [],
-    prerequisites: p.requirements ?? p.prerequisites ?? [],
+    effects: jsonOrNull(p.effects ?? (type === "poder_classe" || type === "habilidade_de_raca" ? {} : [])),
+    costs: jsonOrNull(p.costs ?? []),
+    prerequisites: jsonOrNull(p.requirements ?? p.prerequisites ?? []),
     origin_id: originId, class_id: classId, distincao_id: distincaoId,
     deities: p.deities ?? [],
     livro_id: livroIdOf(p),
@@ -258,21 +268,24 @@ function seedMagias(insert: ReturnType<typeof Database.prototype.transaction>): 
   const magias = loadJsonDir<Record<string, unknown>>(join(JSON_DIR, "magias"))
   insert("magias", magias.map((m) => {
     const target = Array.isArray(m.target) ? m.target[0] : (m.target as Record<string, unknown> | null)
+    const details = (isPlainObject(m.effect_details) ? m.effect_details : {}) as Record<string, unknown>
+    const extra = (isPlainObject(m.extra_costs) ? m.extra_costs : {}) as Record<string, unknown>
     return {
       id: m.id, name: m.name, type: m.type, circle: m.circle, school: m.school,
       execution: m.execution, execution_details: m.execution_details ?? null,
       range: m.range, duration: m.duration, duration_details: m.duration_details ?? null,
       counterspell: m.counterspell ?? null, description: m.description,
       target_amount: target?.amount ?? null,
-      target_up_to: target?.up_to ? 1 : 0,
+      target_up_to: target?.up_to === undefined || target?.up_to === null ? null : (target.up_to ? 1 : 0),
       target_type: target?.type ?? null,
-      effect: m.effect ?? null, effect_shape: null, effect_dimention: null,
-      effect_size: null, effect_other_details: m.effect_details ?? null,
-      area_effect: null, area_effect_details: null,
+      effect: m.effect ?? null, effect_shape: details.shape ?? null, effect_dimention: details.dimention ?? null,
+      effect_size: details.size ?? null, effect_other_details: details.other_details ?? null,
+      area_effect: m.area_effect ?? null, area_effect_details: m.area_effect_details ?? null,
       resistence_effect: (m.resistence as Record<string, unknown>)?.effect ?? null,
       resistence_skill: (m.resistence as Record<string, unknown>)?.skill ?? null,
-      extra_costs_material_component: null, extra_costs_material_cost: null,
-      extra_costs_pm_debuff: null, extra_costs_pm_sacrifice: null,
+      extra_costs_material_component: extra.material_component ?? null,
+      extra_costs_material_cost: extra.material_component_cost ?? null,
+      extra_costs_pm_debuff: extra.pm_debuff ?? null, extra_costs_pm_sacrifice: extra.pm_sacrifice ?? null,
       enhancements: m.enhancements ?? [], effects: m.effects ?? [],
       livro_id: livroIdOf(m),
     }
@@ -299,7 +312,7 @@ function seedEquipamentos(insert: ReturnType<typeof Database.prototype.transacti
     critical: a.critico ?? null,
     range: a.alcance === "corpo_a_corpo" || !a.alcance ? null : a.alcance,
     weight: a.espacos ?? 0,
-    properties: a.habilidades ?? [],
+    properties: [a.habilidades, a.especial].flat().filter((x) => x !== undefined && x !== null),
     description: a.description ?? null,
     livro_id: livroIdOf(a),
   })))
@@ -309,9 +322,9 @@ function seedEquipamentos(insert: ReturnType<typeof Database.prototype.transacti
     id: a.id, name: a.name, category: a.categoria ?? a.category,
     price: a.preco ?? a.price ?? 0,
     defense_bonus: a.bonus_defesa ?? a.defense_bonus ?? 0,
-    armor_penalty: a.penalidade ?? a.armor_penalty ?? 0,
+    armor_penalty: a.penalidade_armadura ?? 0,
     weight: a.espacos ?? a.weight ?? 0,
-    properties: a.habilidades ?? a.properties ?? [],
+    properties: a.especial === undefined || a.especial === null ? [] : [a.especial],
     description: a.description ?? null,
     livro_id: livroIdOf(a),
   })))
@@ -321,22 +334,24 @@ function seedEquipamentos(insert: ReturnType<typeof Database.prototype.transacti
     id: e.id, name: e.name,
     price: e.preco ?? e.price ?? 0,
     defense_bonus: e.bonus_defesa ?? e.defense_bonus ?? 0,
-    armor_penalty: e.penalidade ?? e.armor_penalty ?? 0,
+    armor_penalty: e.penalidade_armadura ?? e.armor_penalty ?? 0,
     weight: e.espacos ?? e.weight ?? 0,
-    properties: e.habilidades ?? e.properties ?? [],
+    properties: e.properties ?? (e.especial === undefined || e.especial === null ? [] : [e.especial]),
     description: e.description ?? null,
     livro_id: livroIdOf(e),
   })))
 
   const itens = loadJsonFiles<Record<string, unknown>>(join(eqDir, "itens"))
-  insert("itens", itens.map((i) => ({
-    id: i.id, name: i.name, category: i.category ?? null,
-    price: i.preco ?? i.price ?? 0,
-    weight: i.espacos ?? i.weight ?? 0,
-    description: i.description ?? null,
-    effects: i.effects ?? {},
-    livro_id: livroIdOf(i),
-  })))
+  insert("itens", itens.map((i) => {
+    const { id, name, categoria, preco, espacos, description, livro, ...effects } = i
+    return {
+      id, name, category: categoria ?? null,
+      price: preco ?? null, weight: espacos ?? null,
+      description: description ?? null,
+      effects,
+      livro_id: (livro as string | undefined) ?? "t20_eja",
+    }
+  }))
 }
 
 function seedItensSuperiores(insert: ReturnType<typeof Database.prototype.transaction>): void {
@@ -345,7 +360,7 @@ function seedItensSuperiores(insert: ReturnType<typeof Database.prototype.transa
   const materiais = loadJsonDir<Record<string, unknown>>(join(dir, "materiais_especiais"))
   insert("materiais_especiais", materiais.map((m) => ({
     id: m.id, name: m.name, description: m.description ?? null,
-    applicable_to: [], price_modifier: m.precos_adicionais ?? m.price_modifier ?? {},
+    applicable_to: m.applicable_to ?? [], price_modifier: m.price_modifier ?? m.precos_adicionais ?? {},
     effects: m.efeitos ?? m.effects ?? {},
     livro_id: livroIdOf(m),
   })))
@@ -353,7 +368,8 @@ function seedItensSuperiores(insert: ReturnType<typeof Database.prototype.transa
   const melhorias = loadJsonFiles<Record<string, unknown>>(join(dir, "melhorias"))
   insert("melhorias", melhorias.map((m) => ({
     id: m.id, name: m.name, description: m.description ?? null,
-    applicable_to: m.applicable_to ?? [], price: m.price ?? 0,
+    applicable_to: m.applicable_to ?? (m.categoria === undefined || m.categoria === null ? [] : [m.categoria].flat()),
+    price: m.price ?? null,
     effects: m.effects ?? {},
     livro_id: livroIdOf(m),
   })))
@@ -642,16 +658,16 @@ function seedAmeacas(insert: ReturnType<typeof Database.prototype.transaction>):
       imunidades: r.imunidades ?? [],
       resistencias: r.resistencias ?? {},
       vulnerabilidades: r.vulnerabilidades ?? [],
-      reducao_de_dano: r.reducao_de_dano ?? null,
-      cura_acelerada: r.cura_acelerada ?? null,
+      reducao_de_dano: jsonOrNull(r.reducao_de_dano),
+      cura_acelerada: jsonOrNull(r.cura_acelerada),
       resistencia_a_magia: r.resistencia_a_magia ?? null,
       pericias: r.pericias ?? {},
       equipamento: r.equipamento ?? [],
       tesouro: r.tesouro ?? null,
       pm: r.pm ?? null,
       description: r.description ?? null,
-      familiar: r.familiar ?? null,
-      parceiro: r.parceiro ?? null,
+      familiar: jsonOrNull(r.familiar),
+      parceiro: jsonOrNull(r.parceiro),
       livro_id: livroIdOf(r),
     }
   }))

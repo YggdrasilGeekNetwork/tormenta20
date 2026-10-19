@@ -90,13 +90,14 @@ def seed_habilidades_de_raca(db)
     next if data["id"].nil?
 
     db.execute(
-      "INSERT OR REPLACE INTO poderes (id, name, type, description, effects, prerequisites, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?)",
+      "INSERT OR REPLACE INTO poderes (id, name, type, description, effects, costs, prerequisites, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
       [
         data["id"],
         data["name"] || data["id"],
         "habilidade_de_raca",
         data["description"],
         (data["effects"] || {}).to_json,
+        (data["costs"] || []).to_json,
         (data["prerequisites"] || []).to_json,
         data["livro"] || "t20_eja"
       ]
@@ -116,9 +117,12 @@ end
 
 def seed_poderes_habilidades_unicas(db)
   import_json_files(db, "poderes/habilidades_unicas_de_origem", "poderes",
-                    %w[id name type description effects prerequisites origin_id],
+                    %w[id name type description effects costs prerequisites origin_id],
                     transform: lambda { |data|
                       data["origin_id"] = data.delete("origin") if data["origin"]
+                      data["effects"] ||= []
+                      data["costs"] ||= []
+                      data["prerequisites"] ||= []
                       data["type"] = "habilidade_unica_origem"
                       data
                     })
@@ -137,8 +141,11 @@ end
 
 def seed_poderes_concedidos(db)
   import_json_files(db, "poderes/poderes_concedidos", "poderes",
-                    %w[id name type description effects prerequisites deities],
+                    %w[id name type description effects costs prerequisites deities],
                     transform: lambda { |data|
+                      data["effects"] ||= []
+                      data["costs"] ||= []
+                      data["prerequisites"] ||= []
                       data["type"] = "poder_concedido"
                       data
                     })
@@ -146,8 +153,11 @@ end
 
 def seed_poderes_tormenta(db)
   import_json_files(db, "poderes/poderes_da_tormenta", "poderes",
-                    %w[id name type description effects prerequisites],
+                    %w[id name type description effects costs prerequisites],
                     transform: lambda { |data|
+                      data["effects"] ||= []
+                      data["costs"] ||= []
+                      data["prerequisites"] ||= []
                       data["type"] = "poder_tormenta"
                       data
                     })
@@ -172,13 +182,14 @@ def seed_poderes_gerais(db)
     type = PODER_GERAL_TYPE_MAP.fetch(raw_type, raw_type)
 
     db.execute(
-      "INSERT OR REPLACE INTO poderes (id, name, type, description, effects, prerequisites, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?)",
+      "INSERT OR REPLACE INTO poderes (id, name, type, description, effects, costs, prerequisites, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
       [
         data["id"],
         data["name"] || data["id"],
         type,
         data["description"],
         (data["effects"] || []).to_json,
+        (data["costs"] || []).to_json,
         (data["requirements"] || data["prerequisites"] || []).to_json,
         data["livro"] || "t20_eja"
       ]
@@ -247,7 +258,7 @@ def seed_poderes_distincao(db)
       next if data["id"].nil?
 
       db.execute(
-        "INSERT OR REPLACE INTO poderes (id, name, type, distincao_id, description, effects, prerequisites, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        "INSERT OR REPLACE INTO poderes (id, name, type, distincao_id, description, effects, costs, prerequisites, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
         [
           data["id"],
           data["name"] || data["id"],
@@ -255,6 +266,7 @@ def seed_poderes_distincao(db)
           distincao_id,
           data["description"],
           (data["effects"] || []).to_json,
+          (data["costs"] || []).to_json,
           (data["requirements"] || data["prerequisites"] || []).to_json,
           data["livro"] || "t20_eja"
         ]
@@ -284,7 +296,7 @@ def seed_habilidades_de_classe(db)
       next if data["id"].nil?
 
       db.execute(
-        "INSERT OR REPLACE INTO poderes (id, name, type, class_id, description, effects, prerequisites, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?)",
+        "INSERT OR REPLACE INTO poderes (id, name, type, class_id, description, effects, costs, prerequisites, livro_id) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)",
         [
           data["id"],
           data["name"] || data["id"],
@@ -292,6 +304,7 @@ def seed_habilidades_de_classe(db)
           class_id,
           data["description"],
           (data["effects"] || {}).to_json,
+          (data["costs"] || []).to_json,
           (data["requirements"] || data["prerequisites"] || []).to_json,
           data["livro"] || "t20_eja"
         ]
@@ -489,13 +502,19 @@ def seed_escudos(db)
                       data["defense_bonus"] = data.delete("bonus_defesa") || data["defense_bonus"] || 0
                       data["armor_penalty"] ||= data.delete("penalidade_armadura")
                       data["weight"] ||= data.delete("espacos")
+                      data["properties"] ||= data["especial"].nil? ? [] : [data["especial"]]
                       data
                     })
 end
 
 def seed_materiais_especiais(db)
   import_json_files(db, "itens_superiores/materiais_especiais", "materiais_especiais",
-                    %w[id name description applicable_to price_modifier effects])
+                    %w[id name description applicable_to price_modifier effects],
+                    transform: lambda { |data|
+                      data["applicable_to"] ||= []
+                      data["price_modifier"] ||= data["precos_adicionais"] || {}
+                      data
+                    })
 end
 
 def seed_melhorias(db)
@@ -513,7 +532,7 @@ def seed_melhorias(db)
         data["id"],
         data["name"],
         data["description"],
-        (data["applicable_to"] || [data["categoria"]].compact).to_json,
+        (data["applicable_to"] || Array(data["categoria"])).to_json,
         data["price"],
         (data["effects"] || []).to_json,
         data["livro"] || "t20_eja"
