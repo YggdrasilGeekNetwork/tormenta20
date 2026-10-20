@@ -1,43 +1,37 @@
 # Livros
 
-Acesso: `Tormenta20.livros`
+Livros cobertos pela biblioteca. Todo registro de conteúdo tem `livro_id` apontando para um deles.
 
-Registra os livros cujos índices remissivos estão disponíveis na gem. Usado internamente pelo concern `BookReferenceable` para resolver referências de página em todos os modelos.
+Acesso: `Tormenta20.livros` (`Tormenta20::Models::Livro`)
+
+> Livros: `t20_eja` (Tormenta20 — Edição Jogo do Ano), `herois_de_arton`, `deuses_de_arton`, `ameacas_de_arton`, `atlas_de_arton`.
 
 ## Atributos
 
 | Atributo | Tipo | Descrição |
 |----------|------|-----------|
-| `id` | String | Slug do livro (ex: `"t20_eja"`) |
-| `nome` | String | Nome completo (ex: `"Tormenta 20 - Edição Jogo do Ano"`) |
-| `nome_curto` | String | Abreviação (ex: `"T20 - EJA"`) |
+| `id` | String | Identificador (ex.: `t20_eja`) |
+| `nome` | String | Nome completo |
+| `nome_curto` | String | Nome curto usado nas referências (ex.: `"T20 - EJA"`) |
 
-## Associações
+## Scopes
 
-```ruby
-livro = Tormenta20.livros.find("t20_eja")
+Todos os scopes retornam `ActiveRecord::Relation` e podem ser encadeados com `where`, `order`, `limit` etc.
 
-livro.indice_remissivo_entries        # Todas as entradas do índice deste livro
-livro.indice_remissivo_entries.count  # => 1098
-```
+## Métodos de instância
+
+| Método | Descrição |
+|--------|-----------|
+| `indice_remissivo_entries` | Entradas do índice remissivo do livro |
+| `to_h` | Hash com os atributos |
 
 ## Exemplos
 
 ```ruby
-# Listar livros disponíveis
-Tormenta20.livros.all.each do |l|
-  puts "#{l.id}: #{l.nome} (#{l.nome_curto})"
-end
+Tormenta20.livros.pluck(:id, :nome_curto)
+Tormenta20.livros.find("herois_de_arton").nome
 
-# Acessar entradas do índice de um livro
-t20 = Tormenta20.livros.find("t20_eja")
-t20.indice_remissivo_entries.para_tabela("classes").each do |e|
-  puts "#{e.termo}: p. #{e.pagina}"
-end
+# Qualquer modelo de conteúdo pode ser filtrado por livro
+Tormenta20.poderes.do_livro("herois_de_arton").count
+Tormenta20.classes.find("frade").livro.nome  # => "Deuses de Arton"
 ```
-
-## Livros Disponíveis
-
-| ID | Nome | Abreviação | Entradas |
-|----|------|------------|----------|
-| `t20_eja` | Tormenta 20 - Edição Jogo do Ano | T20 - EJA | 1098+ |

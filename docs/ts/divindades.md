@@ -1,57 +1,60 @@
 # Divindades — TypeScript
 
+Deuses maiores do Panteão e deuses menores de Deuses de Arton.
+
 ```ts
-import { Divindade, type DivindadeEnergy } from 'tormenta20'
+import { Divindade } from 'tormenta20'
 ```
 
-## Atributos
+## Propriedades
 
 | Propriedade | Tipo | Descrição |
 |-------------|------|-----------|
 | `id` | `string` | Identificador único |
 | `name` | `string` | Nome |
-| `title` | `string \| null` | Título/epíteto |
+| `title` | `string \| null` | Título ou epíteto |
 | `description` | `string \| null` | Descrição |
-| `energy` | `DivindadeEnergy` | `"positiva"` \| `"negativa"` \| `"qualquer"` |
-| `preferredWeapon` | `string \| null` | ID da arma preferida |
-| `holySymbol` | `string \| null` | Símbolo sagrado |
-| `grantedPowers` | `string[]` | IDs dos poderes concedidos |
 | `beliefsObjectives` | `unknown[]` | Crenças e objetivos |
-| `obligationsRestrictions` | `string \| null` | Obrigações/restrições |
-| `devotees` | `Record<string,unknown>` | Devotos típicos |
+| `holySymbol` | `string \| null` | Símbolo sagrado |
+| `energy` | `DivindadeEnergy` | `positiva`, `negativa` ou `qualquer` |
+| `preferredWeapon` | `string \| null` | Id da arma preferida |
+| `devotees` | `Record<string, unknown>` | `races` e `classes` devotas |
+| `grantedPowers` | `string[]` | Ids dos poderes concedidos |
+| `obligationsRestrictions` | `string \| null` | Obrigações e restrições |
+| `rank` | `"maior" \| "menor"` | Posição no Panteão |
+| `natureza` | `string \| null` | Natureza do deus menor |
+| `statusDivino` | `number \| null` | Status divino (1–5) do deus menor |
+| `livroId` | `string` | Livro de origem (`t20_eja`, `herois_de_arton`, …) |
 
 ## Queries
 
-```ts
-Divindade.all()
-Divindade.energiaPositiva().all()
-Divindade.energiaNegativa().all()
-Divindade.energiaQualquer().all()
-Divindade.byEnergy("positiva").all()
+| Método estático | Descrição |
+|-----------------|-----------|
+| `all()` | Todos os registros |
+| `find(id)` | Registro pelo id, ou `null` |
+| `first() / last()` | Primeiro / último registro |
+| `count()` | Total de registros |
+| `query()` | `Query` encadeável (`where`, `order`, `limit`, `all`, `first`, `count`, `exists`) |
+| `energiaPositiva() / energiaNegativa() / energiaQualquer()` | Por energia |
+| `byEnergy(energy)` | Por energia |
+| `maiores() / menores()` | Por posição no Panteão |
 
-Divindade.find("khalmyr")
-Divindade.count()
-```
+Para filtrar por livro: `Divindade.query().where("livro_id = ?", "herois_de_arton")`.
 
-## Métodos de Instância
+## Métodos de instância
 
-```ts
-const d = Divindade.find("khalmyr")!
-
-d.races()    // IDs de raças devotas   => ["humano", "anao"]
-d.classes()  // IDs de classes devotas => ["paladino", "guerreiro"]
-d.bookReference() // { livro, pagina, formatted } | null
-```
+| Método | Descrição |
+|--------|-----------|
+| `races()` | Ids das raças devotas |
+| `classes()` | Ids das classes devotas |
+| `bookReference()` | `{ livro, pagina, formatted }` ou `null` |
+| `toH()` | Objeto simples com os campos (snake_case) |
 
 ## Exemplos
 
 ```ts
-// Divindades que concedem um poder específico
-Divindade.all()
-  .filter(d => d.grantedPowers.includes("cura_pelas_maos"))
-  .forEach(d => console.log(d.name))
-
-// Adoradas por elfos
-Divindade.all()
-  .filter(d => d.races().includes("elfo"))
+const khalmyr = Divindade.find("khalmyr")!
+khalmyr.grantedPowers
+Poder.byDeity("khalmyr").all()
+Divindade.menores().all()
 ```

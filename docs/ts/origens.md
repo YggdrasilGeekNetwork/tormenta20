@@ -1,10 +1,12 @@
 # Origens — TypeScript
 
+Origens de personagem: as do livro básico e de Heróis de Arton, mais as 66 origens regionais do Atlas de Arton (a região aparece no início da descrição).
+
 ```ts
 import { Origem } from 'tormenta20'
 ```
 
-## Atributos
+## Propriedades
 
 | Propriedade | Tipo | Descrição |
 |-------------|------|-----------|
@@ -12,33 +14,37 @@ import { Origem } from 'tormenta20'
 | `name` | `string` | Nome |
 | `description` | `string` | Descrição |
 | `items` | `unknown[]` | Itens iniciais |
-| `benefits` | `Record<string,unknown>` | Benefícios (skills, powers) |
-| `uniquePower` | `string \| null` | ID do poder único, ou `null` |
+| `benefits` | `Record<string, unknown>` | `skills` e `powers` oferecidos |
+| `uniquePower` | `string \| null` | Id do poder único |
+| `livroId` | `string` | Livro de origem (`t20_eja`, `herois_de_arton`, …) |
 
 ## Queries
 
-```ts
-Origem.all()
-Origem.withUniquePower().all()
-Origem.find("soldado")
-Origem.count()
-```
+| Método estático | Descrição |
+|-----------------|-----------|
+| `all()` | Todos os registros |
+| `find(id)` | Registro pelo id, ou `null` |
+| `first() / last()` | Primeiro / último registro |
+| `count()` | Total de registros |
+| `query()` | `Query` encadeável (`where`, `order`, `limit`, `all`, `first`, `count`, `exists`) |
+| `withUniquePower()` | Origens com poder único |
 
-## Métodos de Instância
+Para filtrar por livro: `Origem.query().where("livro_id = ?", "herois_de_arton")`.
 
-```ts
-const o = Origem.find("soldado")!
+## Métodos de instância
 
-o.skills()   // IDs de perícias treinadas  => ["Luta", "Fortitude"]
-o.powers()   // IDs de poderes concedidos  => ["proficiencia"]
-o.bookReference() // { livro, pagina, formatted } | null
-```
+| Método | Descrição |
+|--------|-----------|
+| `skills()` | Ids de perícias oferecidas |
+| `powers()` | Ids de poderes oferecidos |
+| `bookReference()` | `{ livro, pagina, formatted }` ou `null` |
+| `toH()` | Objeto simples com os campos (snake_case) |
 
 ## Exemplos
 
 ```ts
-// Origens que treinam Furtividade
-Origem.all()
-  .filter(o => o.skills().includes("Furtividade"))
-  .forEach(o => console.log(o.name))
+const acolito = Origem.find("acolito")!
+acolito.skills()
+Poder.find(acolito.uniquePower!)
+Origem.query().where("livro_id = ?", "atlas_de_arton").count()
 ```

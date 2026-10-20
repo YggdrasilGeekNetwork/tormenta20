@@ -58,6 +58,27 @@ RSpec.describe Tormenta20::Models::Poder do
   end
 
   describe "scopes" do
+    {
+      habilidades_de_raca: "habilidade_de_raca",
+      poderes_combate: "poder_combate",
+      poderes_destino: "poder_destino",
+      poderes_magia: "poder_magia",
+      poderes_de_raca: "poder_de_raca",
+      poderes_de_grupo: "poder_de_grupo"
+    }.each do |scope_name, type|
+      it ".#{scope_name} returns only #{type} powers" do
+        result = described_class.public_send(scope_name)
+        expect(result).not_to be_empty
+        expect(result.distinct.pluck(:type)).to eq([type])
+      end
+    end
+
+    it ".by_class returns only powers of that class" do
+      result = described_class.by_class("arcanista")
+      expect(result).not_to be_empty
+      expect(result.distinct.pluck(:class_id)).to eq(["arcanista"])
+    end
+
     describe ".habilidades_unicas" do
       it "returns only habilidade_unica_origem type" do
         described_class.habilidades_unicas.each do |poder|

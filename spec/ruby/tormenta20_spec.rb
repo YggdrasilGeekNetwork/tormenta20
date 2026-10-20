@@ -27,6 +27,7 @@ RSpec.describe Tormenta20 do
     it "exposes accessor methods matching their model class" do
       expect(Tormenta20.poderes).to eq(Tormenta20::Models::Poder)
       expect(Tormenta20.distincoes).to eq(Tormenta20::Models::Distincao)
+      expect(Tormenta20.classes_variantes).to eq(Tormenta20::Models::ClasseVariante)
     end
   end
 end

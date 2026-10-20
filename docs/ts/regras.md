@@ -1,22 +1,41 @@
 # Regras — TypeScript
 
+Regras e dados de referência estruturados (ações de combate, alcances, armadilhas, perigos…), de todos os livros.
+
 ```ts
 import { Regra } from 'tormenta20'
 ```
 
-## Atributos
+## Propriedades
 
 | Propriedade | Tipo | Descrição |
 |-------------|------|-----------|
 | `id` | `string` | Identificador único |
 | `name` | `string` | Nome |
 | `description` | `string \| null` | Descrição |
-| `data` | `Record<string,unknown>` | Dados estruturados (schema varia por entrada) |
+| `data` | `Record<string, unknown>` | Dados estruturados |
+| `livroId` | `string` | Livro de origem (`t20_eja`, `herois_de_arton`, …) |
 
 ## Queries
 
+| Método estático | Descrição |
+|-----------------|-----------|
+| `all()` | Todos os registros |
+| `find(id)` | Registro pelo id, ou `null` |
+| `first() / last()` | Primeiro / último registro |
+| `count()` | Total de registros |
+| `query()` | `Query` encadeável (`where`, `order`, `limit`, `all`, `first`, `count`, `exists`) |
+
+Para filtrar por livro: `Regra.query().where("livro_id = ?", "herois_de_arton")`.
+
+## Métodos de instância
+
+| Método | Descrição |
+|--------|-----------|
+| `toH()` | Objeto simples com os campos (snake_case) |
+
+## Exemplos
+
 ```ts
-Regra.all()
-Regra.find("combate")
-Regra.count()
+Regra.find("acoes_de_combate")?.data
 ```

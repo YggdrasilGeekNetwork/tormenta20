@@ -1,51 +1,41 @@
 # Regras
 
-Acesso: `Tormenta20.regras`
+Regras e dados de referência estruturados (ações de combate, alcances, armadilhas, perigos…), de todos os livros.
+
+Acesso: `Tormenta20.regras` (`Tormenta20::Models::Regra`)
 
 ## Atributos
 
 | Atributo | Tipo | Descrição |
 |----------|------|-----------|
 | `id` | String | Identificador único |
-| `name` | String | Nome da regra/tabela |
+| `name` | String | Nome |
 | `description` | String | Descrição |
-| `data` | Hash | Dados estruturados da regra |
+| `data` | Hash | Dados estruturados (formato varia por regra) |
+| `livro_id` | String | Livro de origem (`t20_eja`, `herois_de_arton`, `deuses_de_arton`, `ameacas_de_arton`, `atlas_de_arton`) |
 
-## Scopes (Filtros)
+## Scopes
 
-Este modelo não possui scopes específicos. Use queries ActiveRecord padrão.
+| Scope | Descrição |
+|-------|-----------|
+| `do_livro(livro_id)` | Registros de um livro |
 
-## Métodos de Instância
+Todos os scopes retornam `ActiveRecord::Relation` e podem ser encadeados com `where`, `order`, `limit` etc.
 
-```ruby
-regra = Tormenta20.regras.first
+## Métodos de instância
 
-regra.to_h  # Converte para Hash completo
-```
+| Método | Descrição |
+|--------|-----------|
+| `book_reference` | Referência formatada (`"T20 - EJA, p. 20"`) ou `nil` |
+| `page / book / full_book` | Página, nome curto e nome completo do livro, ou `nil` |
+| `livro` | Registro `Livro` associado |
+| `to_h` | Hash com os atributos |
+
+O índice remissivo ainda não liga registros desta tabela, então `book_reference` retorna `nil`.
 
 ## Exemplos
 
 ```ruby
-# Listar todas as regras
-Tormenta20.regras.all.each do |r|
-  puts "#{r.name}: #{r.description}"
-end
-
-# Buscar regra específica
-pericias = Tormenta20.regras.find("pericias")
-puts pericias.name         # => "Pericias"
-puts pericias.description  # Descrição
-puts pericias.data         # Dados estruturados (Hash)
-
-# Acessar dados de uma regra
-condicoes = Tormenta20.regras.find("condicoes")
-condicoes.data.each do |key, value|
-  puts "#{key}: #{value}"
-end
-
-# Buscar regras por nome
-Tormenta20.regras.where("name LIKE ?", "%combate%")
-
-# Regras ordenadas por nome
-Tormenta20.regras.order(:name)
+Tormenta20.regras.find("acoes_de_combate").data
+Tormenta20.regras.do_livro("ameacas_de_arton").pluck(:name)
 ```

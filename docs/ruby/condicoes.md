@@ -1,77 +1,47 @@
 # Condições
 
-Acesso: `Tormenta20.condicoes`
+Condições de status do livro básico.
+
+Acesso: `Tormenta20.condicoes` (`Tormenta20::Models::Condicao`)
 
 ## Atributos
 
 | Atributo | Tipo | Descrição |
 |----------|------|-----------|
-| `id` | String | Identificador único (ex: `"abalado"`) |
-| `name` | String | Nome da condição |
-| `description` | String | Descrição completa da condição |
-| `effects` | Array | Lista de efeitos mecânicos |
-| `condition_type` | String / nil | Categoria da condição (ver abaixo) |
-| `escalates_to` | String / nil | ID da condição para a qual esta escala ao ser reaplicada |
+| `id` | String | Identificador único |
+| `name` | String | Nome |
+| `description` | String | Descrição |
+| `effects` | Array | Efeitos mecânicos |
+| `condition_type` | String | Tipo (`medo`, `mental`, `metabolismo`, `movimento`, `veneno`, `sentidos`, `cansaco`, `metamorfose`) |
+| `escalates_to` | String | Id da condição mais grave, ou `nil` |
+| `livro_id` | String | Livro de origem (`t20_eja`, `herois_de_arton`, `deuses_de_arton`, `ameacas_de_arton`, `atlas_de_arton`) |
 
-### Tipos de Condição (`condition_type`)
+## Scopes
 
-| Tipo | Descrição |
-|------|-----------|
-| `medo` | Condições de medo (abalado, apavorado) |
-| `mental` | Condições mentais (fascinado, confuso) |
-| `metabolismo` | Condições metabólicas (envenenado, doente) |
-| `movimento` | Condições de movimento (lento, imóvel, paralisado) |
-| `veneno` | Condições de veneno |
-| `sentidos` | Condições de sentido (cego, surdo) |
-| `cansaco` | Condições de fadiga (fatigado, exausto) |
-| `metamorfose` | Condições de metamorfose (petrificado) |
+| Scope | Descrição |
+|-------|-----------|
+| `by_type(type)` | Por tipo |
+| `medo / mental / metabolismo / movimento` | Atalhos por tipo |
+| `do_livro(livro_id)` | Registros de um livro |
 
-## Scopes (Filtros)
+Todos os scopes retornam `ActiveRecord::Relation` e podem ser encadeados com `where`, `order`, `limit` etc.
 
-```ruby
-Tormenta20.condicoes.by_type("medo")    # Filtro genérico por tipo
-Tormenta20.condicoes.medo               # Condições de medo
-Tormenta20.condicoes.mental             # Condições mentais
-Tormenta20.condicoes.metabolismo        # Condições metabólicas
-Tormenta20.condicoes.movimento          # Condições de movimento
-```
+## Métodos de instância
 
-## Métodos de Instância
+| Método | Descrição |
+|--------|-----------|
+| `book_reference` | Referência formatada (`"T20 - EJA, p. 20"`) ou `nil` |
+| `page / book / full_book` | Página, nome curto e nome completo do livro, ou `nil` |
+| `livro` | Registro `Livro` associado |
+| `to_h` | Hash com os atributos |
 
-```ruby
-condicao = Tormenta20.condicoes.find("abalado")
-
-condicao.name           # => "Abalado"
-condicao.description    # Texto completo
-condicao.effects        # => ["...", "..."]
-condicao.condition_type # => "medo"
-condicao.escalates_to   # => "apavorado" (ou nil)
-
-condicao.to_h           # Hash completo
-```
+Referências de página vêm do índice remissivo do livro básico; registros dos suplementos retornam `nil`.
 
 ## Exemplos
 
 ```ruby
-# Listar todas as condições
-Tormenta20.condicoes.all.each do |c|
-  puts c.name
-end
-
-# Condições que escalam para outra
-Tormenta20.condicoes.select { |c| c.escalates_to.present? }.each do |c|
-  puts "#{c.name} → #{c.escalates_to}"
-end
-
-# Condições de medo em ordem de gravidade
-Tormenta20.condicoes.medo.each do |c|
-  puts "#{c.name}: #{c.effects.first}"
-end
-
-# Efeitos de uma condição específica
-paralisado = Tormenta20.condicoes.find("paralisado")
-paralisado.effects.each { |e| puts "- #{e}" }
-
-# Referência de livro
-Tormenta20.condicoes.find("abalado").book_reference  # => "T20 - EJA, p. 394"
+fatigado = Tormenta20.condicoes.find("fatigado")
+fatigado.escalates_to  # => "exausto"
+fatigado.book_reference
+Tormenta20.condicoes.medo.pluck(:name)
 ```

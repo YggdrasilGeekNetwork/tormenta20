@@ -1,88 +1,61 @@
 # Magias — TypeScript
 
+Magias arcanas, divinas e universais do livro básico e dos suplementos.
+
 ```ts
-import { Magia, type MagiaType, type MagiaSchool } from 'tormenta20'
+import { Magia } from 'tormenta20'
 ```
 
-## Atributos
+## Propriedades
 
 | Propriedade | Tipo | Descrição |
 |-------------|------|-----------|
 | `id` | `string` | Identificador único |
-| `name` | `string` | Nome da magia |
-| `type` | `MagiaType` | `"arcana"` \| `"divina"` \| `"universal"` |
-| `circle` | `string` | Círculo (`"1"` – `"5"`) |
-| `school` | `MagiaSchool` | Escola de magia |
-| `execution` | `string` | Tempo de execução |
-| `executionDetails` | `string \| null` | Detalhes da execução |
+| `name` | `string` | Nome |
+| `type` | `MagiaType` | `arcana`, `divina` ou `universal` |
+| `circle` | `string` | Círculo, como string |
+| `school` | `MagiaSchool` | Escola |
+| `execution / executionDetails` | `string` | Tempo de execução |
 | `range` | `string` | Alcance |
-| `duration` | `string` | Duração |
-| `durationDetails` | `string \| null` | Detalhes da duração |
-| `description` | `string` | Descrição completa |
-| `counterspell` | `string \| null` | ID da contramagia |
-| `enhancements` | `unknown[]` | Aprimoramentos disponíveis |
-| `effects` | `unknown[]` | Efeitos mecânicos |
+| `duration / durationDetails` | `string` | Duração |
+| `counterspell` | `string \| null` | Id da contramágica |
+| `description` | `string` | Descrição |
+| `enhancements` | `unknown[]` | Aprimoramentos |
+| `effects` | `unknown[]` | Efeitos mecânicos tipados |
+| `livroId` | `string` | Livro de origem (`t20_eja`, `herois_de_arton`, …) |
 
 ## Queries
 
-```ts
-Magia.all()
-Magia.arcanas().all()
-Magia.divinas().all()
-Magia.universais().all()
-Magia.byType("arcana").all()
-Magia.byCircle("3").all()
-Magia.doCirculo("3").all()             // alias em português
-Magia.bySchool("evoc").all()
-Magia.daEscola("evoc").all()           // alias em português
+| Método estático | Descrição |
+|-----------------|-----------|
+| `all()` | Todos os registros |
+| `find(id)` | Registro pelo id, ou `null` |
+| `first() / last()` | Primeiro / último registro |
+| `count()` | Total de registros |
+| `query()` | `Query` encadeável (`where`, `order`, `limit`, `all`, `first`, `count`, `exists`) |
+| `arcanas() / divinas() / universais()` | Por tradição |
+| `byType(type)` | Por tradição |
+| `byCircle(circle) / doCirculo(circle)` | Por círculo (string) |
+| `bySchool(school) / daEscola(school)` | Por escola |
 
-// combinando filtros
-Magia.query()
-  .where("circle = ?", "3")
-  .where("type = ?", "arcana")
-  .order("name")
-  .all()
+Para filtrar por livro: `Magia.query().where("livro_id = ?", "herois_de_arton")`.
 
-Magia.find("bola_de_fogo")
-Magia.count()
-```
+## Métodos de instância
 
-## Métodos de Instância
-
-```ts
-const magia = Magia.find("bola_de_fogo")!
-
-magia.targetInfo()
-// => { amount: 1, upTo: false, type: "criatura" } | null
-
-magia.resistenceInfo()
-// => { effect: "reduz", skill: "Reflexos" } | null
-
-magia.extraCostsInfo()
-// => { material_component: "enxofre", pm_sacrifice: 2, ... } | null
-
-magia.bookReference()
-// => { livro: "...", pagina: 80, formatted: "T20 - EJA, p. 80" } | null
-```
+| Método | Descrição |
+|--------|-----------|
+| `targetInfo()` | `{ amount, upTo, type }` ou `null` |
+| `resistenceInfo()` | `{ effect, skill }` ou `null` |
+| `extraCostsInfo()` | Custos extras (`material_component`, `material_cost`, `pm_debuff`, `pm_sacrifice`) ou `null` |
+| `bookReference()` | `{ livro, pagina, formatted }` ou `null` (tabela ainda não indexada: sempre `null`) |
+| `toH()` | Objeto simples com os campos (snake_case) |
 
 ## Exemplos
 
 ```ts
-// Magias arcanas do 3º círculo
-Magia.arcanas().all()
-  .filter(m => m.circle === "3")
-  .forEach(m => console.log(m.name))
+Magia.arcanas().where("circle = ?", "3").all()
+Magia.bySchool("evoc").order("name").all()
 
-// Usando o Query builder
-Magia.query()
-  .where("type = ?", "arcana")
-  .where("circle = ?", "3")
-  .order("name")
-  .all()
-  .forEach(m => console.log(`${m.name} — ${m.school}`))
-
-// Magias com componentes materiais
-Magia.all()
-  .filter(m => m.extraCostsInfo() !== null)
-  .forEach(m => console.log(m.name))
+const bola = Magia.find("bola_de_fogo")
+bola?.resistenceInfo()?.skill  // "reflexos"
 ```

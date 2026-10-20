@@ -1,10 +1,14 @@
 # Poderes — TypeScript
 
+Todos os poderes e habilidades: de classe, raça, origem, concedidos, da Tormenta, gerais (combate, destino, magia), de raça, de grupo e de distinção.
+
 ```ts
-import { Poder, type PoderType } from 'tormenta20'
+import { Poder } from 'tormenta20'
 ```
 
-## Atributos
+> Os poderes gerais são classificados pelo subtipo (`poder_combate`, `poder_destino`, `poder_magia`, `poder_de_raca`, `poder_de_grupo`). Nenhum registro usa `poder_geral`, então `poderes_gerais` retorna vazio.
+
+## Propriedades
 
 | Propriedade | Tipo | Descrição |
 |-------------|------|-----------|
@@ -12,70 +16,44 @@ import { Poder, type PoderType } from 'tormenta20'
 | `name` | `string` | Nome |
 | `type` | `PoderType` | Tipo do poder |
 | `description` | `string \| null` | Descrição |
-| `effects` | `unknown[]` | Efeitos (formato varia por tipo) |
+| `effects` | `unknown[]` | Efeitos mecânicos (pode vir como objeto ou `"ver_texto"`) |
 | `costs` | `unknown[]` | Custos de ativação |
 | `prerequisites` | `unknown[]` | Pré-requisitos |
-| `originId` | `string \| null` | ID da origem associada |
-| `classId` | `string \| null` | ID da classe associada |
-| `deities` | `string[]` | IDs das divindades que o concedem |
-
-## Tipos (`PoderType`)
-
-| Valor | Descrição |
-|-------|-----------|
-| `"habilidade_unica_origem"` | Habilidade única de origem |
-| `"poder_concedido"` | Poder concedido por divindade |
-| `"poder_tormenta"` | Poder da Tormenta |
-| `"poder_classe"` | Poder de classe |
-| `"habilidade_de_raca"` | Habilidade racial |
-| `"poder_geral"` | Poder geral |
-| `"poder_combate"` | Poder de combate |
-| `"poder_destino"` | Poder de destino |
-| `"poder_magia"` | Poder de magia |
+| `originId / classId / distincaoId` | `string \| null` | Dono do poder |
+| `deities` | `string[]` | Divindades que concedem o poder |
+| `livroId` | `string` | Livro de origem (`t20_eja`, `herois_de_arton`, …) |
 
 ## Queries
 
-```ts
-Poder.all()
-Poder.poderesCombate().all()
-Poder.poderesGerais().all()
-Poder.poderesDestino().all()
-Poder.poderesMagia().all()
-Poder.poderesConcedidos().all()
-Poder.poderesTormenta().all()
-Poder.poderesClasse().all()
-Poder.habilidadesUnicas().all()
-Poder.habilidadesDeRaca().all()
-Poder.byType("poder_combate").all()
-Poder.byOrigin("soldado").all()
-Poder.byDeity("khalmyr").all()
-Poder.byClass("guerreiro").all()
+| Método estático | Descrição |
+|-----------------|-----------|
+| `all()` | Todos os registros |
+| `find(id)` | Registro pelo id, ou `null` |
+| `first() / last()` | Primeiro / último registro |
+| `count()` | Total de registros |
+| `query()` | `Query` encadeável (`where`, `order`, `limit`, `all`, `first`, `count`, `exists`) |
+| `byType(type)` | Por tipo |
+| `poderesClasse() / habilidadesDeRaca() / habilidadesUnicas()` | Classe, raça, origem |
+| `poderesConcedidos() / poderesTormenta()` | Concedidos e da Tormenta |
+| `poderesCombate() / poderesDestino() / poderesMagia()` | Gerais por subtipo |
+| `poderesDeRaca() / poderesDeGrupo() / poderesDistincao()` | Heróis/Deuses de Arton |
+| `byClass(id) / byOrigin(id) / byDistincao(id)` | Por dono |
+| `byDeity(id)` | Concedidos por uma divindade |
 
-Poder.find("ataque_poderoso")
-Poder.count()
-```
+Para filtrar por livro: `Poder.query().where("livro_id = ?", "herois_de_arton")`.
 
-## Métodos de Instância
+## Métodos de instância
 
-```ts
-const poder = Poder.find("ataque_poderoso")!
-
-poder.bookReference()
-// => { livro: "...", pagina: 112, formatted: "T20 - EJA, p. 112" } | null
-```
+| Método | Descrição |
+|--------|-----------|
+| `bookReference()` | `{ livro, pagina, formatted }` ou `null` (tabela ainda não indexada: sempre `null`) |
+| `toH()` | Objeto simples com os campos (snake_case) |
 
 ## Exemplos
 
 ```ts
-// Poderes concedidos por Khalmyr
-Poder.byDeity("khalmyr").all()
-  .forEach(p => console.log(p.name))
-
-// Habilidades únicas da origem Nobre
-Poder.byOrigin("nobre").all()
-
-// Buscar por nome
-Poder.query()
-  .where("name LIKE ?", "%Fúria%")
-  .all()
+Poder.byClass("arcanista").count()
+Poder.poderesCombate().order("name").all()
+Poder.byDistincao("amazona").all()
+Poder.find("barreira_mistica")?.costs  // [{ value: 1, type: "PM" }]
 ```

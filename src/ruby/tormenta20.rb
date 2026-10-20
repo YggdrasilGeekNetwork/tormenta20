@@ -81,6 +81,15 @@ module Tormenta20
       Models::Distincao
     end
 
+    # Access the ClasseVariante model for querying variant classes (Heróis de Arton).
+    #
+    # @return [Class<Models::ClasseVariante>] The ClasseVariante model class
+    # @example
+    #   Tormenta20.classes_variantes.by_base("arcanista")
+    def classes_variantes
+      Models::ClasseVariante
+    end
+
     # Access the Divindade (Deity) model for querying deities.
     #
     # @return [Class<Models::Divindade>] The Divindade model class

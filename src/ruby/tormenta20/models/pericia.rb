@@ -69,8 +69,6 @@ module Tormenta20
         }.compact
       end
 
-      private
-
       # @return [Boolean]
       def trained_only?     = [true, 1].include?(trained_only)
       # @return [Boolean]

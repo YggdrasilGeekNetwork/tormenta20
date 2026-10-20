@@ -1,105 +1,60 @@
 # Classes
 
-Acesso: `Tormenta20.classes`
+Classes de personagem: as 14 do livro básico, o Treinador (Heróis de Arton) e o Frade (Deuses de Arton).
+
+Acesso: `Tormenta20.classes` (`Tormenta20::Models::Classe`)
+
+> Os JSONs de classe ainda não trazem dados de conjuração: `spellcasting` é `nil` em todas as classes, então `conjuradores` retorna vazio e `conjurador?` retorna `false`.
 
 ## Atributos
 
-| Atributo | Tipo | Descricao |
+| Atributo | Tipo | Descrição |
 |----------|------|-----------|
-| `id` | String | Identificador unico |
-| `name` | String | Nome da classe |
-| `hit_points` | Hash | Pontos de vida (initial, per_level) |
-| `mana_points` | Hash | Pontos de mana (per_level) |
-| `skills` | Hash | Pericias (mandatory, choose_amount, choose_from) |
-| `proficiencies` | Hash | Proficiencias (weapons, armors, shields) |
-| `abilities` | Array | Habilidades da classe |
-| `powers` | Array | Poderes disponiveis |
-| `progression` | Hash | Progressao por nivel |
-| `spellcasting` | Hash | Informacoes de conjuracao (se aplicavel) |
+| `id` | String | Identificador único |
+| `name` | String | Nome |
+| `hit_points` | Hash | `{ "initial" =>, "per_level" => }` |
+| `mana_points` | Hash | `{ "per_level" => }` |
+| `skills` | Hash | `mandatory`, `choose_amount`, `choose_from` |
+| `proficiencies` | Hash | `weapons`, `armors`, `shields` |
+| `abilities` | Array | Habilidades de classe por nível |
+| `powers` | Array | Poderes liberados por nível |
+| `progression` | Array | Tabela de progressão |
+| `spellcasting` | Hash / nil | Dados de conjuração, `nil` para não conjuradores |
+| `livro_id` | String | Livro de origem (`t20_eja`, `herois_de_arton`, `deuses_de_arton`, `ameacas_de_arton`, `atlas_de_arton`) |
 
-## Scopes (Filtros)
+## Scopes
 
-```ruby
-# Classes que podem conjurar magias
-Tormenta20.classes.conjuradores
-```
+| Scope | Descrição |
+|-------|-----------|
+| `conjuradores` | Classes com conjuração |
+| `do_livro(livro_id)` | Registros de um livro |
 
-## Metodos de Instancia
+Todos os scopes retornam `ActiveRecord::Relation` e podem ser encadeados com `where`, `order`, `limit` etc.
 
-### Pontos de Vida e Mana
+## Métodos de instância
 
-```ruby
-classe = Tormenta20.classes.find("guerreiro")
+| Método | Descrição |
+|--------|-----------|
+| `initial_hp / hp_per_level / mp_per_level` | PV e PM |
+| `mandatory_skills / choose_skills_amount / available_skills` | Perícias |
+| `weapon_proficiencies / armor_proficiencies / shield_proficiency?` | Proficiências |
+| `conjurador?` | Tem conjuração |
+| `book_reference` | Referência formatada (`"T20 - EJA, p. 20"`) ou `nil` |
+| `page / book / full_book` | Página, nome curto e nome completo do livro, ou `nil` |
+| `livro` | Registro `Livro` associado |
+| `to_h` | Hash com os atributos |
 
-classe.initial_hp      # PV inicial (ex: 20)
-classe.hp_per_level    # PV por nivel (ex: 5)
-classe.mp_per_level    # PM por nivel (ex: 3)
-```
-
-### Pericias
-
-```ruby
-classe.mandatory_skills     # Pericias obrigatorias
-# => ["Luta", "Fortitude"]
-
-classe.choose_skills_amount # Quantidade de pericias a escolher
-# => 4
-
-classe.available_skills     # Pericias disponiveis para escolha
-# => ["Atletismo", "Cavalgar", "Intimidacao", ...]
-```
-
-### Proficiencias
-
-```ruby
-classe.weapon_proficiencies  # Proficiencias em armas
-# => ["simples", "marciais"]
-
-classe.armor_proficiencies   # Proficiencias em armaduras
-# => ["leves", "pesadas"]
-
-classe.shield_proficiency?   # Proficiencia em escudos
-# => true
-```
-
-### Conjuracao
-
-```ruby
-classe.conjurador?  # Verifica se a classe conjura magias
-# => false (para Guerreiro)
-# => true (para Arcanista)
-```
-
-### Conversao
-
-```ruby
-classe.to_h  # Converte para Hash completo
-```
+Referências de página vêm do índice remissivo do livro básico; registros dos suplementos retornam `nil`.
 
 ## Exemplos
 
 ```ruby
-# Listar todas as classes
-Tormenta20.classes.all.each do |c|
-  puts "#{c.name}: #{c.initial_hp} PV inicial, +#{c.hp_per_level}/nivel"
-end
+guerreiro = Tormenta20.classes.find("guerreiro")
+guerreiro.initial_hp            # => 20
+guerreiro.weapon_proficiencies
 
-# Classes conjuradoras
-Tormenta20.classes.conjuradores.each do |c|
-  puts "#{c.name} - PM/nivel: #{c.mp_per_level}"
-end
-
-# Buscar classe especifica
-arcanista = Tormenta20.classes.find("arcanista")
-puts arcanista.name                  # => "Arcanista"
-puts arcanista.conjurador?           # => true
-puts arcanista.available_skills      # Lista de pericias
-
-# Classes com mais PV inicial
-Tormenta20.classes.all.sort_by { |c| -c.initial_hp }.each do |c|
-  puts "#{c.name}: #{c.initial_hp} PV"
-end
-
-# Classes com proficiencia em armaduras pesadas
-Tormenta20.classes.select { |c| c.armor_proficiencies.include?("pesadas") }
+# Poderes da classe
+Tormenta20.poderes.by_class("guerreiro")
+# Variantes (Heróis de Arton)
+Tormenta20.classes_variantes.by_base("guerreiro")
 ```

@@ -1,45 +1,51 @@
 # Armaduras — TypeScript
 
+Armaduras leves e pesadas.
+
 ```ts
-import { Armadura, type ArmaduraCategory } from 'tormenta20'
+import { Armadura } from 'tormenta20'
 ```
 
-## Atributos
+## Propriedades
 
 | Propriedade | Tipo | Descrição |
 |-------------|------|-----------|
 | `id` | `string` | Identificador único |
 | `name` | `string` | Nome |
-| `category` | `ArmaduraCategory` | `"leve"` \| `"pesada"` |
-| `defenseBonus` | `number` | Bônus de Defesa |
-| `armorPenalty` | `number` | Penalidade em perícias |
-| `price` | `number` | Preço em tibares |
-| `weight` | `number` | Peso em espaços |
-| `properties` | `unknown[]` | Propriedades especiais |
+| `category` | `ArmaduraCategory` | Categoria |
+| `price` | `number` | Preço em T$ |
+| `defenseBonus` | `number` | Bônus na Defesa |
+| `armorPenalty` | `number` | Penalidade de armadura (negativa) |
+| `weight` | `number` | Espaços |
+| `properties` | `unknown[]` | Regras especiais |
 | `description` | `string \| null` | Descrição |
-| `isLeve` | `boolean` | `true` se é armadura leve |
-| `isPesada` | `boolean` | `true` se é armadura pesada |
+| `isLeve / isPesada` | `boolean` | Atalhos |
+| `livroId` | `string` | Livro de origem (`t20_eja`, `herois_de_arton`, …) |
 
 ## Queries
 
-```ts
-Armadura.all()
-Armadura.leves().all()
-Armadura.pesadas().all()
-Armadura.byCategory("leve").all()
+| Método estático | Descrição |
+|-----------------|-----------|
+| `all()` | Todos os registros |
+| `find(id)` | Registro pelo id, ou `null` |
+| `first() / last()` | Primeiro / último registro |
+| `count()` | Total de registros |
+| `query()` | `Query` encadeável (`where`, `order`, `limit`, `all`, `first`, `count`, `exists`) |
+| `leves() / pesadas()` | Por categoria |
+| `byCategory(cat)` | Por categoria |
 
-Armadura.find("couro")
-Armadura.count()
-```
+Para filtrar por livro: `Armadura.query().where("livro_id = ?", "herois_de_arton")`.
+
+## Métodos de instância
+
+| Método | Descrição |
+|--------|-----------|
+| `bookReference()` | `{ livro, pagina, formatted }` ou `null` |
+| `toH()` | Objeto simples com os campos (snake_case) |
 
 ## Exemplos
 
 ```ts
-// Ordenar por bônus de defesa
-Armadura.all()
-  .sort((a, b) => b.defenseBonus - a.defenseBonus)
-  .forEach(a => console.log(`${a.name}: +${a.defenseBonus}`))
-
-// Armaduras sem penalidade
-Armadura.all().filter(a => a.armorPenalty === 0)
+Armadura.leves().order("defense_bonus").all()
+Armadura.find("armadura_de_quitina")?.armorPenalty  // -3
 ```

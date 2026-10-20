@@ -101,6 +101,14 @@ RSpec.describe Tormenta20::Models::Pericia do
       end
     end
 
+    describe "boolean predicates" do
+      it "are public and reflect the stored flags" do
+        expect(acrobacia.armor_penalty?).to be true
+        expect(acrobacia.trained_only?).to be false
+        expect(fortitude.resistance_skill?).to be true
+      end
+    end
+
     describe "#to_h resistance_skill" do
       it "is true for resistance skills" do
         expect(fortitude.to_h[:resistance_skill]).to be true

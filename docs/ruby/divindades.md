@@ -1,77 +1,59 @@
 # Divindades
 
-Acesso: `Tormenta20.divindades`
+Deuses maiores do Panteão e deuses menores de Deuses de Arton.
+
+Acesso: `Tormenta20.divindades` (`Tormenta20::Models::Divindade`)
 
 ## Atributos
 
 | Atributo | Tipo | Descrição |
 |----------|------|-----------|
 | `id` | String | Identificador único |
-| `name` | String | Nome da divindade |
-| `title` | String | Título/epíteto |
+| `name` | String | Nome |
+| `title` | String | Título ou epíteto |
 | `description` | String | Descrição |
-| `beliefs_objectives` | String | Crenças e objetivos |
+| `beliefs_objectives` | Array | Crenças e objetivos |
 | `holy_symbol` | String | Símbolo sagrado |
-| `energy` | String | Tipo de energia: `positiva`, `negativa`, `qualquer` |
-| `preferred_weapon` | String | Arma preferida |
-| `devotees` | Hash | Devotos típicos (races, classes) |
-| `granted_powers` | Array | Lista de poderes concedidos |
+| `energy` | String | `positiva`, `negativa` ou `qualquer` |
+| `preferred_weapon` | String | Id da arma preferida |
+| `devotees` | Hash | `races` e `classes` devotas |
+| `granted_powers` | Array | Ids dos poderes concedidos |
 | `obligations_restrictions` | String | Obrigações e restrições |
+| `rank` | String | `maior` ou `menor` |
+| `natureza` | String | Natureza do deus menor, ou `nil` |
+| `status_divino` | Integer | Status divino (1–5) do deus menor, ou `nil` |
+| `livro_id` | String | Livro de origem (`t20_eja`, `herois_de_arton`, `deuses_de_arton`, `ameacas_de_arton`, `atlas_de_arton`) |
 
-## Scopes (Filtros)
+## Scopes
 
-### Por Tipo de Energia
+| Scope | Descrição |
+|-------|-----------|
+| `energia_positiva / energia_negativa / energia_qualquer` | Por energia |
+| `by_energy(energy)` | Por energia |
+| `maiores / menores` | Por posição no Panteão |
+| `do_livro(livro_id)` | Registros de um livro |
 
-```ruby
-Tormenta20.divindades.energia_positiva  # Deuses de energia positiva
-Tormenta20.divindades.energia_negativa  # Deuses de energia negativa
-Tormenta20.divindades.energia_qualquer  # Deuses de energia neutra
-Tormenta20.divindades.by_energy("positiva")
-```
+Todos os scopes retornam `ActiveRecord::Relation` e podem ser encadeados com `where`, `order`, `limit` etc.
 
-## Métodos de Instância
+## Métodos de instância
 
-```ruby
-divindade = Tormenta20.divindades.find("khalmyr")
+| Método | Descrição |
+|--------|-----------|
+| `races` | Ids das raças devotas |
+| `classes` | Ids das classes devotas |
+| `book_reference` | Referência formatada (`"T20 - EJA, p. 20"`) ou `nil` |
+| `page / book / full_book` | Página, nome curto e nome completo do livro, ou `nil` |
+| `livro` | Registro `Livro` associado |
+| `to_h` | Hash com os atributos |
 
-divindade.races    # Raças devotas
-# => ["humano", "anao"]
-
-divindade.classes  # Classes devotas
-# => ["paladino", "guerreiro"]
-
-divindade.to_h     # Converte para Hash completo
-```
+Referências de página vêm do índice remissivo do livro básico; registros dos suplementos retornam `nil`.
 
 ## Exemplos
 
 ```ruby
-# Listar todas as divindades
-Tormenta20.divindades.all.each do |d|
-  puts "#{d.name} - #{d.title} (#{d.energy})"
-end
-
-# Divindades de energia positiva
-Tormenta20.divindades.energia_positiva.each do |d|
-  puts "#{d.name}: #{d.granted_powers.join(', ')}"
-end
-
-# Buscar divindade específica
 khalmyr = Tormenta20.divindades.find("khalmyr")
-puts khalmyr.name              # => "Khalmyr"
-puts khalmyr.title             # => "O Deus da Justiça"
-puts khalmyr.preferred_weapon  # => "Espada longa"
-puts khalmyr.granted_powers    # Lista de poderes concedidos
-
-# Divindades que concedem um poder específico
-Tormenta20.divindades.select do |d|
-  d.granted_powers&.include?("cura_pelas_maos")
-end
-
-# Agrupar por tipo de energia
-Tormenta20.divindades.group(:energy).count
-# => {"positiva"=>12, "negativa"=>6, "qualquer"=>2}
-
-# Divindades adoradas por uma raça
-Tormenta20.divindades.select { |d| d.races.include?("elfo") }
+khalmyr.granted_powers
+Tormenta20.poderes.by_deity("khalmyr")
+Tormenta20.divindades.menores.pluck(:name)
+Tormenta20.itens_liturgicos.by_deity("khalmyr")
 ```

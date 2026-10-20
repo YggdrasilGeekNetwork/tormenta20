@@ -19,6 +19,7 @@ module Tormenta20
 
       scope :by_grupo, ->(g) { where(grupo: g) }
       scope :by_nd, ->(n) { where(nd: n) }
+      scope :up_to_nd, ->(n) { where(nd: ..n) }
       scope :masmorras,        -> { where(grupo: "masmorras") }
       scope :ermos,            -> { where(grupo: "ermos") }
       scope :puristas,         -> { where(grupo: "puristas") }

@@ -113,6 +113,42 @@ module Tormenta20
       #   @return [ActiveRecord::Relation<Poder>]
       scope :by_distincao, ->(distincao_id) { where(distincao_id: distincao_id) }
 
+      # @!method by_class(class_id)
+      #   Filter class powers belonging to a specific class.
+      #   @param class_id [String] Class ID
+      #   @return [ActiveRecord::Relation<Poder>]
+      scope :by_class, ->(class_id) { where(class_id: class_id) }
+
+      # @!method habilidades_de_raca
+      #   Filter racial abilities.
+      #   @return [ActiveRecord::Relation<Poder>]
+      scope :habilidades_de_raca, -> { where(type: "habilidade_de_raca") }
+
+      # @!method poderes_combate
+      #   Filter combat powers.
+      #   @return [ActiveRecord::Relation<Poder>]
+      scope :poderes_combate, -> { where(type: "poder_combate") }
+
+      # @!method poderes_destino
+      #   Filter destiny powers.
+      #   @return [ActiveRecord::Relation<Poder>]
+      scope :poderes_destino, -> { where(type: "poder_destino") }
+
+      # @!method poderes_magia
+      #   Filter magic powers.
+      #   @return [ActiveRecord::Relation<Poder>]
+      scope :poderes_magia, -> { where(type: "poder_magia") }
+
+      # @!method poderes_de_raca
+      #   Filter race-restricted general powers (Heróis de Arton).
+      #   @return [ActiveRecord::Relation<Poder>]
+      scope :poderes_de_raca, -> { where(type: "poder_de_raca") }
+
+      # @!method poderes_de_grupo
+      #   Filter group powers (Heróis de Arton).
+      #   @return [ActiveRecord::Relation<Poder>]
+      scope :poderes_de_grupo, -> { where(type: "poder_de_grupo") }
+
       # @!endgroup
 
       # Convert power to a hash representation.

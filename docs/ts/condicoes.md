@@ -1,10 +1,12 @@
 # Condições — TypeScript
 
+Condições de status do livro básico.
+
 ```ts
-import { Condicao, type CondicaoType } from 'tormenta20'
+import { Condicao } from 'tormenta20'
 ```
 
-## Atributos
+## Propriedades
 
 | Propriedade | Tipo | Descrição |
 |-------------|------|-----------|
@@ -12,34 +14,33 @@ import { Condicao, type CondicaoType } from 'tormenta20'
 | `name` | `string` | Nome |
 | `description` | `string \| null` | Descrição |
 | `effects` | `unknown[]` | Efeitos mecânicos |
-| `conditionType` | `CondicaoType \| null` | Categoria |
-| `escalatesTo` | `string \| null` | ID da condição seguinte na cadeia |
-
-## Tipos (`CondicaoType`)
-
-`"medo"` · `"mental"` · `"metabolismo"` · `"movimento"` · `"veneno"` · `"sentidos"` · `"cansaco"` · `"metamorfose"`
+| `conditionType` | `CondicaoType \| null` | Tipo |
+| `escalatesTo` | `string \| null` | Id da condição mais grave |
+| `livroId` | `string` | Livro de origem (`t20_eja`, `herois_de_arton`, …) |
 
 ## Queries
 
-```ts
-Condicao.all()
-Condicao.medo().all()
-Condicao.mental().all()
-Condicao.metabolismo().all()
-Condicao.movimento().all()
-Condicao.byType("medo").all()
+| Método estático | Descrição |
+|-----------------|-----------|
+| `all()` | Todos os registros |
+| `find(id)` | Registro pelo id, ou `null` |
+| `first() / last()` | Primeiro / último registro |
+| `count()` | Total de registros |
+| `query()` | `Query` encadeável (`where`, `order`, `limit`, `all`, `first`, `count`, `exists`) |
+| `byType(type)` | Por tipo |
+| `medo() / mental() / metabolismo() / movimento()` | Atalhos por tipo |
 
-Condicao.find("abalado")
-Condicao.count()
-```
+Para filtrar por livro: `Condicao.query().where("livro_id = ?", "herois_de_arton")`.
+
+## Métodos de instância
+
+| Método | Descrição |
+|--------|-----------|
+| `toH()` | Objeto simples com os campos (snake_case) |
 
 ## Exemplos
 
 ```ts
-// Cadeia de escalonamento de medo
-Condicao.medo().all().forEach(c => {
-  const next = c.escalatesTo ?? "—"
-  console.log(`${c.name} → ${next}`)
-})
-// abalado → apavorado → ...
+Condicao.find("fatigado")?.escalatesTo  // "exausto"
+Condicao.medo().all()
 ```

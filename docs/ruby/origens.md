@@ -1,61 +1,50 @@
 # Origens
 
-Acesso: `Tormenta20.origens`
+Origens de personagem: as do livro básico e de Heróis de Arton, mais as 66 origens regionais do Atlas de Arton (a região aparece no início da descrição).
+
+Acesso: `Tormenta20.origens` (`Tormenta20::Models::Origem`)
 
 ## Atributos
 
-| Atributo | Tipo | Descricao |
+| Atributo | Tipo | Descrição |
 |----------|------|-----------|
-| `id` | String | Identificador unico |
-| `name` | String | Nome da origem |
-| `description` | String | Descricao da origem |
+| `id` | String | Identificador único |
+| `name` | String | Nome |
+| `description` | String | Descrição |
 | `items` | Array | Itens iniciais |
-| `benefits` | Hash | Beneficios (skills, powers) |
-| `unique_power` | Hash | Poder unico da origem |
+| `benefits` | Hash | `skills` e `powers` oferecidos |
+| `unique_power` | String | Id do poder único, ou `nil` |
+| `livro_id` | String | Livro de origem (`t20_eja`, `herois_de_arton`, `deuses_de_arton`, `ameacas_de_arton`, `atlas_de_arton`) |
 
-## Scopes (Filtros)
+## Scopes
 
-```ruby
-# Origens que possuem poder unico
-Tormenta20.origens.with_unique_power
-```
+| Scope | Descrição |
+|-------|-----------|
+| `with_unique_power` | Origens com poder único |
+| `do_livro(livro_id)` | Registros de um livro |
 
-## Metodos de Instancia
+Todos os scopes retornam `ActiveRecord::Relation` e podem ser encadeados com `where`, `order`, `limit` etc.
 
-```ruby
-origem = Tormenta20.origens.find("soldado")
+## Métodos de instância
 
-origem.skills   # Pericias treinadas pela origem
-# => ["Fortitude", "Luta"]
+| Método | Descrição |
+|--------|-----------|
+| `skills` | Ids de perícias oferecidas |
+| `powers` | Ids de poderes oferecidos |
+| `book_reference` | Referência formatada (`"T20 - EJA, p. 20"`) ou `nil` |
+| `page / book / full_book` | Página, nome curto e nome completo do livro, ou `nil` |
+| `livro` | Registro `Livro` associado |
+| `to_h` | Hash com os atributos |
 
-origem.powers   # Poderes concedidos pela origem
-# => ["Proficiencia"]
-
-origem.to_h     # Converte para Hash completo
-```
+Referências de página vêm do índice remissivo do livro básico; registros dos suplementos retornam `nil`.
 
 ## Exemplos
 
 ```ruby
-# Listar todas as origens
-Tormenta20.origens.all.each do |o|
-  puts "#{o.name}: #{o.skills.join(', ')}"
-end
+acolito = Tormenta20.origens.find("acolito")
+acolito.skills
+acolito.powers
+Tormenta20.poderes.find(acolito.unique_power)
 
-# Origens com poder unico
-Tormenta20.origens.with_unique_power.each do |o|
-  puts "#{o.name}: #{o.unique_power['name']}"
-end
-
-# Buscar origem especifica
-soldado = Tormenta20.origens.find("soldado")
-puts soldado.name         # => "Soldado"
-puts soldado.description  # Descricao completa
-puts soldado.items        # Itens iniciais
-
-# Origens que concedem uma pericia especifica
-Tormenta20.origens.select { |o| o.skills.include?("Furtividade") }
-
-# Contar origens com poder unico
-Tormenta20.origens.with_unique_power.count
+Tormenta20.origens.do_livro("atlas_de_arton").count  # => 66
 ```

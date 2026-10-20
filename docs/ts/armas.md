@@ -1,54 +1,55 @@
 # Armas — TypeScript
 
+Armas simples, marciais, exóticas e de fogo.
+
 ```ts
-import { Arma, type ArmaCategory, type DamageType } from 'tormenta20'
+import { Arma } from 'tormenta20'
 ```
 
-## Atributos
+## Propriedades
 
 | Propriedade | Tipo | Descrição |
 |-------------|------|-----------|
 | `id` | `string` | Identificador único |
 | `name` | `string` | Nome |
-| `category` | `ArmaCategory` | `"simples"` \| `"marciais"` \| `"exoticas"` \| `"fogo"` |
-| `damage` | `string` | Dano (ex: `"1d8"`) |
-| `damageType` | `DamageType` | `"corte"` \| `"perfuracao"` \| `"impacto"` |
-| `critical` | `string` | Ameaça/multiplicador (ex: `"19/x2"`) |
-| `range` | `string \| null` | Incremento de alcance, ou `null` para corpo a corpo |
-| `price` | `number` | Preço em tibares |
-| `weight` | `number` | Peso em espaços |
-| `properties` | `unknown[]` | Propriedades especiais |
+| `category` | `ArmaCategory` | Categoria |
+| `price` | `number` | Preço em T$ |
+| `damage` | `string` | Dano |
+| `damageType` | `DamageType` | Tipo de dano |
+| `critical` | `string` | Crítico |
+| `range` | `string \| null` | Alcance |
+| `weight` | `number` | Espaços |
+| `properties` | `unknown[]` | Habilidades da arma e regras especiais |
 | `description` | `string \| null` | Descrição |
-| `isRanged` | `boolean` | `true` se tem incremento de alcance |
-| `isMelee` | `boolean` | `true` se é corpo a corpo |
+| `isRanged / isMelee` | `boolean` | Atalhos |
+| `livroId` | `string` | Livro de origem (`t20_eja`, `herois_de_arton`, …) |
 
 ## Queries
 
-```ts
-Arma.all()
-Arma.simples().all()
-Arma.marciais().all()
-Arma.exoticas().all()
-Arma.fogo().all()
-Arma.byCategory("marciais").all()
-Arma.byDamageType("corte").all()
-Arma.ranged().all()
-Arma.melee().all()
+| Método estático | Descrição |
+|-----------------|-----------|
+| `all()` | Todos os registros |
+| `find(id)` | Registro pelo id, ou `null` |
+| `first() / last()` | Primeiro / último registro |
+| `count()` | Total de registros |
+| `query()` | `Query` encadeável (`where`, `order`, `limit`, `all`, `first`, `count`, `exists`) |
+| `simples() / marciais() / exoticas() / fogo()` | Por categoria |
+| `byCategory(cat)` | Por categoria |
+| `byDamageType(type)` | Por tipo de dano |
+| `melee() / ranged()` | Corpo a corpo / à distância |
 
-Arma.find("espada_longa")
-Arma.count()
-```
+Para filtrar por livro: `Arma.query().where("livro_id = ?", "herois_de_arton")`.
+
+## Métodos de instância
+
+| Método | Descrição |
+|--------|-----------|
+| `bookReference()` | `{ livro, pagina, formatted }` ou `null` |
+| `toH()` | Objeto simples com os campos (snake_case) |
 
 ## Exemplos
 
 ```ts
-const espada = Arma.find("espada_longa")!
-espada.damage      // "1d8"
-espada.critical    // "19/x2"
-espada.isRanged    // false
-
-// Armas de distância
-Arma.ranged().all().forEach(a => {
-  console.log(`${a.name}: alcance ${a.range}`)
-})
+Arma.marciais().where("range IS NULL").all()
+Arma.find("chicote")?.properties
 ```

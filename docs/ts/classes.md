@@ -1,59 +1,54 @@
 # Classes — TypeScript
 
+Classes de personagem: as 14 do livro básico, o Treinador (Heróis de Arton) e o Frade (Deuses de Arton).
+
 ```ts
 import { Classe } from 'tormenta20'
 ```
 
-## Atributos
+> Os JSONs de classe ainda não trazem dados de conjuração: `spellcasting` é `nil` em todas as classes, então `conjuradores` retorna vazio e `conjurador?` retorna `false`.
+
+## Propriedades
 
 | Propriedade | Tipo | Descrição |
 |-------------|------|-----------|
 | `id` | `string` | Identificador único |
-| `name` | `string` | Nome da classe |
-| `initialHp` | `number` | PV inicial (nível 1) |
-| `hpPerLevel` | `number` | PV por nível |
-| `mpPerLevel` | `number` | PM por nível |
-| `isConjurador` | `boolean` | `true` se a classe conjura magias |
-| `spellcasting` | `Record<string,unknown> \| null` | Dados de conjuração, ou `null` |
-| `mandatorySkills` | `unknown[]` | Perícias obrigatórias |
-| `chooseSkillsAmount` | `number` | Quantidade de perícias a escolher |
-| `availableSkills` | `unknown[]` | Pool de perícias para escolha |
-| `weaponProficiencies` | `string[]` | Categorias de armas |
-| `armorProficiencies` | `string[]` | Categorias de armaduras |
-| `shieldProficiency` | `boolean` | Proficiência em escudos |
-| `abilities` | `unknown[]` | Habilidades de classe por nível |
-| `powers` | `unknown[]` | Poderes desbloqueáveis |
-| `progression` | `unknown[]` | Tabela de progressão |
+| `name` | `string` | Nome |
+| `hitPoints / manaPoints` | `Record<string, unknown>` | PV e PM brutos |
+| `skills / proficiencies` | `Record<string, unknown>` | Perícias e proficiências brutas |
+| `abilities / powers / progression` | `unknown[]` | Habilidades, poderes e progressão |
+| `spellcasting` | `Record<string, unknown> \| null` | Dados de conjuração |
+| `initialHp / hpPerLevel / mpPerLevel` | `number` | PV e PM |
+| `mandatorySkills / availableSkills` | `unknown[]` | Perícias obrigatórias / à escolha |
+| `chooseSkillsAmount` | `number` | Quantidade de perícias à escolha |
+| `weaponProficiencies / armorProficiencies` | `string[]` | Proficiências |
+| `shieldProficiency / isConjurador` | `boolean` | Escudos / conjuração |
+| `livroId` | `string` | Livro de origem (`t20_eja`, `herois_de_arton`, …) |
 
 ## Queries
 
-```ts
-Classe.all()
-Classe.conjuradores().all()   // apenas classes com magia
-Classe.find("guerreiro")
-Classe.count()
-```
+| Método estático | Descrição |
+|-----------------|-----------|
+| `all()` | Todos os registros |
+| `find(id)` | Registro pelo id, ou `null` |
+| `first() / last()` | Primeiro / último registro |
+| `count()` | Total de registros |
+| `query()` | `Query` encadeável (`where`, `order`, `limit`, `all`, `first`, `count`, `exists`) |
+| `conjuradores()` | Classes com conjuração |
+
+Para filtrar por livro: `Classe.query().where("livro_id = ?", "herois_de_arton")`.
+
+## Métodos de instância
+
+| Método | Descrição |
+|--------|-----------|
+| `bookReference()` | `{ livro, pagina, formatted }` ou `null` |
+| `toH()` | Objeto simples com os campos (snake_case) |
 
 ## Exemplos
 
 ```ts
 const guerreiro = Classe.find("guerreiro")!
-guerreiro.initialHp          // 20
-guerreiro.hpPerLevel         // 5
-guerreiro.isConjurador       // false
-
-// Classes conjuradoras com PM/nível
-Classe.conjuradores().all().forEach(c => {
-  console.log(`${c.name}: ${c.mpPerLevel} PM/nível`)
-})
-
-// Classes com proficiência em armadura pesada
-Classe.all()
-  .filter(c => c.armorProficiencies.includes("pesadas"))
-  .forEach(c => console.log(c.name))
-
-// Ordenar por PV inicial
-Classe.all()
-  .sort((a, b) => b.initialHp - a.initialHp)
-  .forEach(c => console.log(`${c.name}: ${c.initialHp} PV`))
+guerreiro.initialHp
+Poder.byClass("guerreiro").all()
 ```

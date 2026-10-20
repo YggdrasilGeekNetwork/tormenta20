@@ -1,50 +1,46 @@
 # Materiais Especiais
 
-Acesso: `Tormenta20.materiais_especiais`
+Materiais especiais (adamante, mitral, aço-rubi…), do livro básico e de Ameaças de Arton.
+
+Acesso: `Tormenta20.materiais_especiais` (`Tormenta20::Models::MaterialEspecial`)
 
 ## Atributos
 
 | Atributo | Tipo | Descrição |
 |----------|------|-----------|
 | `id` | String | Identificador único |
-| `name` | String | Nome do material |
+| `name` | String | Nome |
 | `description` | String | Descrição |
-| `applicable_to` | Array | Tipos de item aplicáveis |
-| `price_modifier` | String | Modificador de preço |
-| `effects` | Array | Efeitos do material |
+| `applicable_to` | Array | Reservado, sempre `[]` (os tipos de item estão nas chaves de `price_modifier`) |
+| `price_modifier` | Hash | Preço adicional por tipo de item (ex.: `{ "arma" => 3000, "armadura_leve" => 6000 }`) |
+| `effects` | Array | Efeitos mecânicos |
+| `livro_id` | String | Livro de origem (`t20_eja`, `herois_de_arton`, `deuses_de_arton`, `ameacas_de_arton`, `atlas_de_arton`) |
 
-## Scopes (Filtros)
+## Scopes
 
-Este modelo não possui scopes específicos. Use queries ActiveRecord padrão.
+| Scope | Descrição |
+|-------|-----------|
+| `do_livro(livro_id)` | Registros de um livro |
 
-## Métodos de Instância
+Todos os scopes retornam `ActiveRecord::Relation` e podem ser encadeados com `where`, `order`, `limit` etc.
 
-```ruby
-material = Tormenta20.materiais_especiais.first
+## Métodos de instância
 
-material.to_h  # Converte para Hash completo
-```
+| Método | Descrição |
+|--------|-----------|
+| `book_reference` | Referência formatada (`"T20 - EJA, p. 20"`) ou `nil` |
+| `page / book / full_book` | Página, nome curto e nome completo do livro, ou `nil` |
+| `livro` | Registro `Livro` associado |
+| `to_h` | Hash com os atributos |
+
+Referências de página vêm do índice remissivo do livro básico; registros dos suplementos retornam `nil`.
 
 ## Exemplos
 
 ```ruby
-# Listar todos os materiais especiais
-Tormenta20.materiais_especiais.all.each do |m|
-  puts "#{m.name}: #{m.description}"
-end
-
-# Buscar material específico
 adamante = Tormenta20.materiais_especiais.find("adamante")
-puts adamante.name            # => "Adamante"
-puts adamante.price_modifier  # Modificador de preço
-puts adamante.applicable_to   # Tipos de item aplicáveis
-puts adamante.effects         # Efeitos
+adamante.price_modifier["arma"]  # => 3000
 
-# Materiais aplicáveis a armas
-Tormenta20.materiais_especiais.select do |m|
-  m.applicable_to&.include?("arma")
-end
-
-# Materiais ordenados por nome
-Tormenta20.materiais_especiais.order(:name)
+# Materiais que podem ser usados em armas
+Tormenta20.materiais_especiais.select { |m| m.price_modifier.key?("arma") }
 ```

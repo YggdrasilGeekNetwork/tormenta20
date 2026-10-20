@@ -24,7 +24,7 @@ export class Pocao extends BaseModel {
   get spellId(): string { return this._row.spell_id as string }
   /** PM cost of the replicated spell effect. */
   get pmCost(): number { return this._row.pm_cost as number }
-  /** Power tier: `"menor"`, `"media"`, or `"maior"`. */
+  /** Power tier: `"menor"`, `"medio"`, or `"maior"`. */
   get categoria(): string { return this._row.categoria as string }
   /** Price in tibares. */
   get preco(): number { return (this._row.preco as number) ?? 0 }
@@ -53,7 +53,7 @@ export class Pocao extends BaseModel {
   static count(): number { return Pocao.query().count() }
 
   static menores(): Query<Pocao> { return Pocao.query().where("categoria = ?", "menor") }
-  static medias(): Query<Pocao> { return Pocao.query().where("categoria = ?", "media") }
+  static medias(): Query<Pocao> { return Pocao.query().where("categoria = ?", "medio") }
   static maiores(): Query<Pocao> { return Pocao.query().where("categoria = ?", "maior") }
   static pocoes(): Query<Pocao> { return Pocao.query().where("subtipo = ?", "pocao") }
   static oleos(): Query<Pocao> { return Pocao.query().where("subtipo = ?", "oleo") }

@@ -1,55 +1,45 @@
 # Melhorias
 
-Acesso: `Tormenta20.melhorias`
+Melhorias de itens superiores.
+
+Acesso: `Tormenta20.melhorias` (`Tormenta20::Models::Melhoria`)
 
 ## Atributos
 
 | Atributo | Tipo | Descrição |
 |----------|------|-----------|
 | `id` | String | Identificador único |
-| `name` | String | Nome da melhoria |
+| `name` | String | Nome |
 | `description` | String | Descrição |
-| `applicable_to` | Array | Tipos de item aplicáveis |
-| `price` | String | Preço/custo |
-| `effects` | Array | Efeitos da melhoria |
+| `applicable_to` | Array | Tipos de item aplicáveis (ex.: `["arma", "armadura"]`) |
+| `price` | Integer | Preço, ou `nil` (o custo segue a tabela de itens superiores) |
+| `effects` | Array | Efeitos mecânicos |
+| `livro_id` | String | Livro de origem (`t20_eja`, `herois_de_arton`, `deuses_de_arton`, `ameacas_de_arton`, `atlas_de_arton`) |
 
-## Scopes (Filtros)
+## Scopes
 
-Este modelo não possui scopes específicos. Use queries ActiveRecord padrão.
+| Scope | Descrição |
+|-------|-----------|
+| `do_livro(livro_id)` | Registros de um livro |
 
-## Métodos de Instância
+Todos os scopes retornam `ActiveRecord::Relation` e podem ser encadeados com `where`, `order`, `limit` etc.
 
-```ruby
-melhoria = Tormenta20.melhorias.first
+## Métodos de instância
 
-melhoria.to_h  # Converte para Hash completo
-```
+| Método | Descrição |
+|--------|-----------|
+| `book_reference` | Referência formatada (`"T20 - EJA, p. 20"`) ou `nil` |
+| `page / book / full_book` | Página, nome curto e nome completo do livro, ou `nil` |
+| `livro` | Registro `Livro` associado |
+| `to_h` | Hash com os atributos |
+
+O índice remissivo ainda não liga registros desta tabela, então `book_reference` retorna `nil`.
 
 ## Exemplos
 
 ```ruby
-# Listar todas as melhorias
-Tormenta20.melhorias.all.each do |m|
-  puts "#{m.name}: #{m.price}"
-end
+Tormenta20.melhorias.find("inscrito").applicable_to
+# => ["arma", "armadura", "escudo", "ferramenta", "vestuario"]
 
-# Buscar melhoria específica
-melhoria = Tormenta20.melhorias.find("afiada")
-puts melhoria.name           # Nome
-puts melhoria.description    # Descrição
-puts melhoria.price          # Preço
-puts melhoria.applicable_to  # Tipos de item aplicáveis
-
-# Melhorias para armas
-Tormenta20.melhorias.select do |m|
-  m.applicable_to&.include?("arma")
-end
-
-# Melhorias para armaduras
-Tormenta20.melhorias.select do |m|
-  m.applicable_to&.include?("armadura")
-end
-
-# Melhorias ordenadas por preço
-Tormenta20.melhorias.order(:price)
+Tormenta20.melhorias.select { |m| m.applicable_to.include?("arma") }
 ```

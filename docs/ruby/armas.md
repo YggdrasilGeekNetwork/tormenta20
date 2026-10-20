@@ -1,95 +1,54 @@
 # Armas
 
-Acesso: `Tormenta20.armas`
+Armas simples, marciais, exóticas e de fogo.
+
+Acesso: `Tormenta20.armas` (`Tormenta20::Models::Arma`)
 
 ## Atributos
 
 | Atributo | Tipo | Descrição |
 |----------|------|-----------|
 | `id` | String | Identificador único |
-| `name` | String | Nome da arma |
-| `category` | String | Categoria: `simples`, `marciais`, `exoticas`, `fogo` |
-| `price` | String | Preço |
-| `damage` | String | Dano (ex: "1d8") |
-| `damage_type` | String | Tipo de dano (corte, perfuração, etc) |
-| `critical` | String | Crítico (ex: "19/x2") |
-| `range` | String | Alcance (para armas de distância) |
-| `weight` | String | Peso/espaços |
-| `properties` | Array | Propriedades especiais |
+| `name` | String | Nome |
+| `category` | String | `simples`, `marciais`, `exoticas` ou `fogo` |
+| `price` | Float | Preço em T$ |
+| `damage` | String | Dano (ex.: `"1d8"`) |
+| `damage_type` | String | `corte`, `perfuracao`, `impacto` (ou lista JSON) |
+| `critical` | String | Crítico |
+| `range` | String | Alcance, ou `nil` para corpo a corpo |
+| `weight` | Float | Espaços |
+| `properties` | Array | Habilidades da arma e regras especiais |
 | `description` | String | Descrição |
+| `livro_id` | String | Livro de origem (`t20_eja`, `herois_de_arton`, `deuses_de_arton`, `ameacas_de_arton`, `atlas_de_arton`) |
 
-## Scopes (Filtros)
+## Scopes
 
-### Por Categoria
+| Scope | Descrição |
+|-------|-----------|
+| `simples / marciais / exoticas / fogo` | Por categoria |
+| `by_category(c)` | Por categoria |
+| `by_damage_type(t)` | Por tipo de dano |
+| `melee / ranged` | Corpo a corpo / à distância |
+| `do_livro(livro_id)` | Registros de um livro |
 
-```ruby
-Tormenta20.armas.simples    # Armas simples
-Tormenta20.armas.marciais   # Armas marciais
-Tormenta20.armas.exoticas   # Armas exóticas
-Tormenta20.armas.fogo       # Armas de fogo
-Tormenta20.armas.by_category("simples")
-```
+Todos os scopes retornam `ActiveRecord::Relation` e podem ser encadeados com `where`, `order`, `limit` etc.
 
-### Por Tipo de Dano
+## Métodos de instância
 
-```ruby
-Tormenta20.armas.by_damage_type("corte")
-Tormenta20.armas.by_damage_type("perfuracao")
-Tormenta20.armas.by_damage_type("impacto")
-```
+| Método | Descrição |
+|--------|-----------|
+| `ranged?` | Tem alcance |
+| `book_reference` | Referência formatada (`"T20 - EJA, p. 20"`) ou `nil` |
+| `page / book / full_book` | Página, nome curto e nome completo do livro, ou `nil` |
+| `livro` | Registro `Livro` associado |
+| `to_h` | Hash com os atributos |
 
-### Por Alcance
-
-```ruby
-Tormenta20.armas.ranged  # Armas de distância (com alcance)
-Tormenta20.armas.melee   # Armas corpo a corpo (sem alcance)
-```
-
-## Métodos de Instância
-
-```ruby
-arma = Tormenta20.armas.find("espada_longa")
-
-arma.ranged?  # Verifica se é arma de distância
-# => false
-
-arma.to_h     # Converte para Hash completo
-```
+Referências de página vêm do índice remissivo do livro básico; registros dos suplementos retornam `nil`.
 
 ## Exemplos
 
 ```ruby
-# Listar todas as armas
-Tormenta20.armas.all.each do |a|
-  puts "#{a.name}: #{a.damage} (#{a.damage_type})"
-end
-
-# Armas simples
-Tormenta20.armas.simples.each do |a|
-  puts "#{a.name} - #{a.price}"
-end
-
-# Armas de distância
-Tormenta20.armas.ranged.each do |a|
-  puts "#{a.name}: alcance #{a.range}"
-end
-
-# Armas de corte
-Tormenta20.armas.by_damage_type("corte").each do |a|
-  puts "#{a.name}: #{a.damage}"
-end
-
-# Buscar arma específica
-espada = Tormenta20.armas.find("espada_longa")
-puts espada.name        # => "Espada Longa"
-puts espada.damage      # => "1d8"
-puts espada.critical    # => "19/x2"
-puts espada.properties  # Propriedades especiais
-
-# Armas ordenadas por dano
-Tormenta20.armas.order(:damage).reverse
-
-# Contar armas por categoria
-Tormenta20.armas.group(:category).count
-# => {"simples"=>15, "marciais"=>20, "exoticas"=>10, "fogo"=>5}
+Tormenta20.armas.marciais.melee.order(:name)
+chicote = Tormenta20.armas.find("chicote")
+chicote.properties  # ["agil", "versatil", { "alcance_ataque" => 4.5, ... }]
 ```

@@ -75,6 +75,12 @@ RSpec.describe Tormenta20::Models::Ameaca do
       result.each { |a| expect(a.nd).to eq(1) }
     end
 
+    it "up_to_nd returns ameacas at or below the given nd" do
+      result = described_class.up_to_nd(1)
+      expect(result).not_to be_empty
+      expect(result.maximum(:nd)).to be <= 1
+    end
+
     it "avatares returns only ameacas in the avatares group" do
       avatares = described_class.avatares
       expect(avatares.count).to eq(20)

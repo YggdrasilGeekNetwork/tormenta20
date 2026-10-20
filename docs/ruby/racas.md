@@ -1,68 +1,58 @@
 # Raças
 
-Acesso: `Tormenta20.racas`
+Raças jogáveis do livro básico, de Heróis de Arton e as raças de Ameaças de Arton.
+
+Acesso: `Tormenta20.racas` (`Tormenta20::Models::Raca`)
 
 ## Atributos
 
 | Atributo | Tipo | Descrição |
 |----------|------|-----------|
-| `id` | String | Identificador único (ex: `"anao"`) |
-| `name` | String | Nome da raça |
-| `description` | String | Descrição da raça |
-| `size` | String | Tamanho (`"minúsculo"`, `"pequeno"`, `"médio"`, `"grande"`) |
+| `id` | String | Identificador único |
+| `name` | String | Nome |
+| `description` | String | Descrição |
+| `size` | String | `minúsculo`, `pequeno`, `médio`, `grande` |
 | `movement` | Integer | Deslocamento em metros |
-| `vision` | String | Tipo de visão (`"normal"`, `"baixa_luminosidade"`, `"visao_no_escuro"`) |
-| `vision_range` | Integer / nil | Alcance da visão especial em metros |
-| `attribute_bonuses` | Hash | Bônus de atributo por nome (`{ "constituicao" => 2 }`) |
-| `skill_bonuses` | Array | Bônus em perícias |
-| `racial_abilities` | Array | Habilidades raciais fixas |
-| `chosen_abilities_amount` | Integer | Quantidade de habilidades a escolher |
-| `available_chosen_abilities` | Array | Habilidades disponíveis para escolha |
+| `vision / vision_range` | String / Integer | Tipo e alcance de visão |
+| `attribute_bonuses` | Hash | Bônus fixos (ex.: `{ "DES" => 2 }`) |
+| `chosen_attribute_bonus` | Hash / nil | Bônus à escolha: `{ count, value, exclude }` |
+| `skill_bonuses` | Array | Bônus de perícia |
+| `racial_abilities` | Array | Ids das habilidades raciais |
+| `chosen_abilities_amount / available_chosen_abilities` | Integer / Array | Habilidades à escolha |
+| `longevidade` | String | Longevidade (ex.: `"x2"`) |
+| `devocao` | Array / nil | Divindades comuns |
+| `ability_swap` | Hash / nil | Troca de habilidade: `{ replaces, options }` |
+| `livro_id` | String | Livro de origem (`t20_eja`, `herois_de_arton`, `deuses_de_arton`, `ameacas_de_arton`, `atlas_de_arton`) |
 
-## Métodos de Instância
+## Scopes
 
-```ruby
-raca = Tormenta20.racas.find("anao")
+| Scope | Descrição |
+|-------|-----------|
+| `do_livro(livro_id)` | Registros de um livro |
 
-# Bônus de atributo
-raca.attribute_bonus_for("constituicao")  # => 2
-raca.attribute_bonus_for("forca")         # => 0
+Todos os scopes retornam `ActiveRecord::Relation` e podem ser encadeados com `where`, `order`, `limit` etc.
 
-# Tamanho
-raca.minusculo?   # => false
-raca.pequeno?     # => false
-raca.grande?      # => false
+## Métodos de instância
 
-# Visão
-raca.visao_no_escuro?  # => true
+| Método | Descrição |
+|--------|-----------|
+| `attribute_bonus_for(attr)` | Bônus fixo em um atributo |
+| `minusculo? / pequeno? / grande?` | Tamanho |
+| `visao_no_escuro?` | Tem visão no escuro |
+| `book_reference` | Referência formatada (`"T20 - EJA, p. 20"`) ou `nil` |
+| `page / book / full_book` | Página, nome curto e nome completo do livro, ou `nil` |
+| `livro` | Registro `Livro` associado |
+| `to_h` | Hash com os atributos |
 
-# Conversão
-raca.to_h  # Hash completo com todos os atributos
-```
+Referências de página vêm do índice remissivo do livro básico; registros dos suplementos retornam `nil`.
 
 ## Exemplos
 
 ```ruby
-# Listar todas as raças
-Tormenta20.racas.all.each do |r|
-  puts "#{r.name} (#{r.size}) - Deslocamento: #{r.movement}m"
-end
+anao = Tormenta20.racas.find("anao")
+anao.attribute_bonus_for("CON")
+anao.racial_abilities.map { |id| Tormenta20.poderes.find(id).name }
+anao.book_reference  # => "T20 - EJA, p. 20"
 
-# Raças com visão no escuro
-Tormenta20.racas.select(&:visao_no_escuro?).each do |r|
-  puts "#{r.name}: #{r.vision_range}m de visão no escuro"
-end
-
-# Raças com bônus em Força
-Tormenta20.racas.select { |r| r.attribute_bonus_for("forca") > 0 }
-
-# Bônus de atributos de uma raça específica
-elfo = Tormenta20.racas.find("elfo")
-elfo.attribute_bonuses  # => { "destreza" => 2, ... }
-
-# Raças pequenas
-Tormenta20.racas.select(&:pequeno?)
-
-# Referência de livro
-Tormenta20.racas.find("minotauro").book_reference  # => "T20 - EJA, p. 25"
+Tormenta20.racas.do_livro("ameacas_de_arton").pluck(:name)
 ```

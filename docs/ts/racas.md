@@ -1,63 +1,57 @@
 # Raças — TypeScript
 
+Raças jogáveis do livro básico, de Heróis de Arton e as raças de Ameaças de Arton.
+
 ```ts
-import { Raca, type RacaSize, type RacaVision } from 'tormenta20'
+import { Raca } from 'tormenta20'
 ```
 
-## Atributos
+## Propriedades
 
 | Propriedade | Tipo | Descrição |
 |-------------|------|-----------|
 | `id` | `string` | Identificador único |
 | `name` | `string` | Nome |
 | `description` | `string` | Descrição |
-| `size` | `RacaSize` | `"minúsculo"` \| `"pequeno"` \| `"médio"` \| `"grande"` |
+| `size` | `RacaSize` | Tamanho |
 | `movement` | `number` | Deslocamento em metros |
-| `vision` | `RacaVision` | Tipo de visão |
-| `visionRange` | `number \| null` | Alcance da visão especial (metros) |
-| `attributeBonuses` | `Record<string,number>` | Bônus de atributos (ex: `{ CON: 2 }`) |
-| `skillBonuses` | `unknown[]` | Bônus em perícias |
-| `racialAbilities` | `string[]` | IDs de habilidades fixas |
-| `chosenAbilitiesAmount` | `number` | Quantidade a escolher |
-| `availableChosenAbilities` | `unknown[]` | Pool de habilidades |
-| `isPequeno` | `boolean` | |
-| `isMinusculo` | `boolean` | |
-| `isGrande` | `boolean` | |
-| `hasVisaoNoEscuro` | `boolean` | |
+| `vision / visionRange` | `RacaVision` / `number \| null` | Tipo e alcance de visão |
+| `attributeBonuses` | `Record<string, number>` | Bônus fixos |
+| `chosenAttributeBonus` | `{ count, value, exclude? } \| null` | Bônus à escolha |
+| `skillBonuses` | `unknown[]` | Bônus de perícia |
+| `racialAbilities` | `string[]` | Ids das habilidades raciais |
+| `chosenAbilitiesAmount / availableChosenAbilities` | `number` / `unknown[]` | Habilidades à escolha |
+| `longevidade` | `string \| null` | Longevidade |
+| `devocao` | `string[] \| null` | Divindades comuns |
+| `abilitySwap` | `{ replaces, options } \| null` | Troca de habilidade |
+| `isMinusculo / isPequeno / isGrande / hasVisaoNoEscuro` | `boolean` | Atalhos |
+| `livroId` | `string` | Livro de origem (`t20_eja`, `herois_de_arton`, …) |
 
 ## Queries
 
-```ts
-Raca.all()
-Raca.find("anao")
-Raca.count()
+| Método estático | Descrição |
+|-----------------|-----------|
+| `all()` | Todos os registros |
+| `find(id)` | Registro pelo id, ou `null` |
+| `first() / last()` | Primeiro / último registro |
+| `count()` | Total de registros |
+| `query()` | `Query` encadeável (`where`, `order`, `limit`, `all`, `first`, `count`, `exists`) |
 
-// filtros via Query builder
-Raca.query().where("vision = ?", "visao_no_escuro").all()
-Raca.query().where("size = ?", "médio").all()
-```
+Para filtrar por livro: `Raca.query().where("livro_id = ?", "herois_de_arton")`.
 
-## Métodos de Instância
+## Métodos de instância
 
-```ts
-const anao = Raca.find("anao")!
-
-anao.attributeBonusFor("CON")   // 2
-anao.attributeBonusFor("FOR")   // 0
-anao.hasVisaoNoEscuro           // true
-anao.bookReference()            // { livro, pagina, formatted } | null
-```
+| Método | Descrição |
+|--------|-----------|
+| `attributeBonusFor(attr)` | Bônus fixo em um atributo |
+| `bookReference()` | `{ livro, pagina, formatted }` ou `null` |
+| `toH()` | Objeto simples com os campos (snake_case) |
 
 ## Exemplos
 
 ```ts
-// Raças com visão no escuro
-Raca.all()
-  .filter(r => r.hasVisaoNoEscuro)
-  .forEach(r => console.log(`${r.name}: ${r.visionRange}m`))
-
-// Bônus de CON por raça
-Raca.all()
-  .filter(r => r.attributeBonusFor("CON") > 0)
-  .forEach(r => console.log(`${r.name}: +${r.attributeBonusFor("CON")} CON`))
+const anao = Raca.find("anao")!
+anao.attributeBonusFor("CON")
+anao.bookReference()?.formatted  // "T20 - EJA, p. 20"
+Raca.query().where("livro_id = ?", "ameacas_de_arton").all()
 ```

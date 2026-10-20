@@ -20,6 +20,11 @@ describe("Pocao", () => {
       Pocao.menores().all().forEach((p) => expect(p.categoria).toBe("menor"))
     })
 
+    it("medias returns the medio categoria", () => {
+      expect(Pocao.medias().count()).toBeGreaterThan(0)
+      Pocao.medias().all().forEach((p) => expect(p.categoria).toBe("medio"))
+    })
+
     it("pocoes returns only pocao subtipo", () => {
       Pocao.pocoes().all().forEach((p) => expect(p.subtipo).toBe("pocao"))
     })

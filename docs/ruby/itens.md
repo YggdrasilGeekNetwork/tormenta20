@@ -1,59 +1,46 @@
 # Itens
 
-Acesso: `Tormenta20.itens`
+Itens gerais: aventura, alimentação, alquímicos, animais, aparatos, esotéricos, ferramentas, serviços, veículos e vestuário.
+
+Acesso: `Tormenta20.itens` (`Tormenta20::Models::Item`)
 
 ## Atributos
 
 | Atributo | Tipo | Descrição |
 |----------|------|-----------|
 | `id` | String | Identificador único |
-| `name` | String | Nome do item |
-| `category` | String | Categoria do item |
-| `price` | String | Preço |
-| `weight` | String | Peso/espaços |
+| `name` | String | Nome |
+| `category` | String | `alimentacao`, `alquimico`, `animal`, `aparato`, `aventura`, `esoterico`, `ferramenta`, `servico`, `veiculo`, `vestuario` |
+| `price` | Float | Preço em T$, ou `nil` |
+| `weight` | Float | Espaços, ou `nil` |
 | `description` | String | Descrição |
-| `effects` | Array | Efeitos do item |
+| `effects` | Hash | Demais dados do item (efeito, duração, etc.) |
+| `livro_id` | String | Livro de origem (`t20_eja`, `herois_de_arton`, `deuses_de_arton`, `ameacas_de_arton`, `atlas_de_arton`) |
 
-## Scopes (Filtros)
+## Scopes
 
-### Por Categoria
+| Scope | Descrição |
+|-------|-----------|
+| `by_category(c)` | Por categoria |
+| `do_livro(livro_id)` | Registros de um livro |
 
-```ruby
-Tormenta20.itens.by_category("alquimico")
-Tormenta20.itens.by_category("ferramenta")
-Tormenta20.itens.by_category("vestuario")
-```
+Todos os scopes retornam `ActiveRecord::Relation` e podem ser encadeados com `where`, `order`, `limit` etc.
 
-## Métodos de Instância
+## Métodos de instância
 
-```ruby
-item = Tormenta20.itens.first
+| Método | Descrição |
+|--------|-----------|
+| `book_reference` | Referência formatada (`"T20 - EJA, p. 20"`) ou `nil` |
+| `page / book / full_book` | Página, nome curto e nome completo do livro, ou `nil` |
+| `livro` | Registro `Livro` associado |
+| `to_h` | Hash com os atributos |
 
-item.to_h  # Converte para Hash completo
-```
+O índice remissivo ainda não liga registros desta tabela, então `book_reference` retorna `nil`.
 
 ## Exemplos
 
 ```ruby
-# Listar todos os itens
-Tormenta20.itens.all.each do |i|
-  puts "#{i.name}: #{i.price}"
-end
-
-# Itens de uma categoria
-Tormenta20.itens.by_category("alquimico").each do |i|
-  puts "#{i.name}: #{i.description}"
-end
-
-# Buscar item específico
-item = Tormenta20.itens.find("corda")
-puts item.name         # Nome
-puts item.price        # Preço
-puts item.description  # Descrição
-
-# Itens ordenados por nome
-Tormenta20.itens.order(:name)
-
-# Agrupar itens por categoria
+Tormenta20.itens.by_category("alquimico").order(:price)
 Tormenta20.itens.group(:category).count
+Tormenta20.itens.find("banho_quente").effects
 ```

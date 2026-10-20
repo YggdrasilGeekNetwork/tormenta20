@@ -9,6 +9,10 @@ describe("index", () => {
     expect(Tormenta20.Regra).toBeTypeOf("function")
   })
 
+  it("ClasseVariante is queryable from the public entry point", () => {
+    expect(Tormenta20.ClasseVariante.count()).toBeGreaterThan(0)
+  })
+
   it("Distincao is queryable from the public entry point", () => {
     expect(Tormenta20.Distincao.count()).toBeGreaterThan(0)
   })
